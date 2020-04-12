@@ -1,0 +1,2235 @@
+head	5.12;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.4;
+locks; strict;
+comment	@% @;
+
+
+5.12
+date	2003.12.05.15.19.43;	author ralexand;	state Exp;
+branches;
+next	5.11;
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.2;
+
+4.2
+date	2000.05.22.10.31.03;	author ralexand;	state Exp;
+branches;
+next	4.1;
+
+4.1
+date	99.08.18.10.54.37;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	98.06.04.05.35.08;	author rossa;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	98.05.05.05.38.13;	author rossa;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	98.05.05.00.27.09;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.05.04.03.42.09;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	97.07.24.02.25.06;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	96.09.26.05.36.25;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	96.01.12.02.27.47;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	95.11.07.03.09.52;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.05.06.22.48.49;	author rale01;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.05.06.22.45.34;	author rale01;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.12
+log
+@Change short name to summoner.
+@
+text
+@\begin{college}[1.0]{summoner}{Greater Summonings}{GS}
+
+\textbf{This is a non-player college only.  Player Characters may not
+learn it, transfer to it, or learn any of the spells or rituals with
+the exception of the counterspells.}
+
+The College of Greater Summonings is concerned exclusively with the
+summoning and controlling of entities from other dimensions.  All such
+summonings and associated magical procedures are Ritual Magic.
+Members of the College of Greater Summonings possess no Talent or
+Spell Magic as a result of their association with the College.  Their
+power lies exclusively in their ability to summon and control beings
+via the performance of special rituals.
+
+All summonings of this College, regardless of the type of being they
+are designed to summon, are performed in the same manner.  First the
+summoner must perform a Ritual Cleansing of their body (requiring from
+1 to 10 hours).  Then they must prepare and implement the proper
+Ritual of Summoning.  The Ritual of Summoning itself requires only one
+hour to execute.  Once the Adept has performed the Ritual of
+Summoning, they may wish to control the entity they have summoned by
+implementing either a Ritual of Binding or a Ritual of True Speaking.
+Binding and True Speaking Rituals each require one hour to prepare and
+implement.  If the summoner does not implement these rituals
+immediately upon successfully summoning the entity who is the target,
+they will have to engage in a new Ritual of Cleansing before
+attempting to enact another ritual.
+
+When performing the summoning rituals of this College, the summoner
+occupies a Circle of Protection which also contains within it a
+Pentacle of Power.  Unless the summoner and companions occupy this
+protective area, there is a chance that whatever they summon will be
+able to turn on them and destroy them.  Only the summoner occupies the
+Pentacle.  Their companions occupy the Circle, but are outside the
+Pentacle.
+
+The summoned entity appears in the vicinity of the Circle of
+Protection, but outside it (unless the ritual backfires and the Circle
+is broken).  In order to perform (and as part of the performance of)
+the Rituals of True Speaking and Binding, the summoned entity is
+forced into the Triangle (outside the Circle of Protection).
+
+The Pentacle, Circle of Protection, and Triangle must all be drawn on
+the ground by the summoner before the rituals are performed.
+
+\subsection{Restrictions}
+
+\textbf{Members of the College of Greater Summonings must meet
+requirements of time, place, equipment, knowledge, and circumstance in
+order to perform their College's magic.}
+
+The following list of requirements must be met in all or most
+situations wherein the arts of the College of Greater Summonings are
+practised:
+
+\begin{Enumerate}
+\item
+The Adept must know the spell or ritual being employed.
+
+\item
+If a summoning of an entity other than an Incubus or Succubus is being
+performed, the Adept must know the name of the entity being summoned
+and speak it during the ritual.
+
+\item
+Throughout all preparations for the ritual and throughout the ritual
+itself, the Adept must remain stationary.  They may engage in no other
+activity.
+
+\item
+The space used for the performance of the ritual must be large enough
+to accommodate the ritual symbols and the entity being summoned
+(usually, an area 30' \x 30' and 12' high is adequate) and may not have
+been affected by an area counterspell in the last 12 hours.
+
+\item
+If the magic is a Special Knowledge Ritual, it may only be performed
+on certain days of the month and at certain hours of the day (listed
+in \S\ref{greater.summonings:special.rituals}).
+
+\item
+The Adept must possess the necessary tools and equipment to perform
+any ritual and must have access to such substances as clear water for
+the cleansing which precedes each ritual.
+\end{Enumerate}
+
+If the Adept fails to meet any of these requirements, they may not
+attempt to perform any ritual of the College of Greater Summoning.
+They may still exercise any special Talent Magic they may possess and
+may cast counterspells.
+
+The MA requirement for this College is 9.
+
+\subsection{Base Chance Modifiers}
+
+The following numbers are added to the Base Chance of successfully
+performing a ritual of the College of Greater Summoning:
+
+\begin{tabularx}{\linewidth}{Xr}
+Each Rank the Adept has achieved with the ritual & 3 \\
+Adept occupies a Mana-rich place & 15 \\
+Each hour (maximum of 10) Adept spends in Ritual Cleansing prior to
+performing the ritual & 3 \\
+Ritual is part of the College's body of General Knowledge and is begun
+at midnight & 20 \\
+Ritual is part of the College's body of General Knowledge and is
+performed while the moon Luna is 2, 4, 6, 8, 10, 12 or 14 days into its
+cycle. & 20 \\
+\end{tabularx}
+
+These modifications apply only to rituals.  Counterspells are affected
+in the same manner so far as Mana and Rank are concerned.  They are
+also affected by the provisions of \S\ref{magic:modifiers}.  They are
+unaffected by other modifications.
+
+Special Knowledge Rituals are affected differently from General
+Knowledge Rituals so far as the hour of the day or day of the moon in
+which they are performed is concerned.  The effects of the hour and
+day on these rituals is discussed in
+\S\ref{greater.summonings:special.rituals}.
+
+\subsection{Talents}
+
+There are no Talent Magics granted an Adept simply because they are a
+member of this College.  However, there is a possibility that the
+Adept may be assigned a ``companion'' by a demon they have summoned.
+Once an Adept has been assigned a companion, they may automatically
+call forth (and later dismiss) that companion.  Once called forth, the
+companion instantly appears to do the bidding of the Adept.  In this
+sense, there is some Talent Magic available to members of this
+College.
+
+Upon dismissing a demon they have summoned, the summoner may request
+that the demon assign them a companion from among its legions of
+lesser spirits.  The Base Chance that a demon will grant this request
+is listed under the ``Lesser Spirits'' heading for each demon.  The
+summoner rolls D100, and if the resulting number is less than or equal
+to the Base Chance, the demon grants a companion.  If the number is
+half or less than the Base Chance, the demon grants two companions.
+
+A companion will be either a lesser Devil or an imp who is constantly
+``on call'' to the summoner.  The companion is available until one of
+the following events occurs:
+
+\begin{Enumerate}
+\item
+The summoner requests a companion from any other Demon except the
+Demon who granted the summoner's current companion (regardless of
+whether or not the request is granted).
+
+\item
+The companion is dispelled by having a General Knowledge Counterspell
+of the College of Greater Summonings cast over it by the summoner.
+
+\item
+The companion is forced into its own dimension by a reduction in its
+Endurance sufficient to cause unconsciousness.
+
+\item
+The summoner voluntarily attacks the companion or quits the College of
+Greater Summonings.
+\end{Enumerate}
+
+When a companion is granted, the summoner rolls D10.  If the result is
+1--4, their companion will be an imp.  If it is 5--10, it will be a
+devil.  A separate roll is made for each companion if more than one is
+granted.
+
+\subsection{General Knowledge Spells}
+
+The College of Greater Summonings General Knowledge and Special
+Knowledge Counterspells are the only spells usable by members of this
+College.  See \S\ref{magic:counterspells} for descriptions of the
+nature and working of counterspells.
+
+\subsection{General Knowledge Rituals}
+
+There are six rituals that an Adept learns upon becoming a member of
+this College.  The first is the Ritual of Cleansing in which the Adept
+bathes their body and meditates as a prelude to attempting any other
+ritual.  It is not possible to attempt any other ritual of this
+College unless one has first engaged in the Ritual of Cleansing.
+There are three summoning rituals that are part of the body of General
+Knowledge of this College.  They are the Ritual of Summoning Succubi,
+the Ritual of Summoning Incubi, and the Ritual of Summoning Heroes.
+There are two non-summoning rituals associated with the General
+Knowledge of this College besides the Ritual of Cleansing.  They are
+the Ritual of Binding and the Ritual of True Speaking.  These two
+rituals may only be employed after a summoning ritual has been
+successfully completed.  They are sometimes necessary to gain the
+required services of beings from other dimensions.
+
+Also as part of the study of the General Knowledge of this College,
+the Adept receives a parcel containing the tools necessary to their
+magic.  The parcel consists of the following:
+
+\begin{inset}{\small}{center}
+\begin{tabularx}{\linewidth}{X@@{\hspace{0.5em}}c@@{\hspace{0.5em}}c}
+\textbf{Item} & \textbf{Weight} & \textbf{Value} \\
+1 sceptre of dogwood		& 1 lb &  250sp \\
+1 broadsword of silvered steel	& 6 lb &  150sp \\
+1 mitre				& 1 lb &  50sp \\
+1 cap				& 5 lb &  10sp \\
+1 robe of virgin linen		& 3 lb &  20sp \\
+1 girdle of lion's  skin imprinted with symbols & 3 lb & 100sp \\
+1 censor of silver and gems	& 2 lb	&  3000sp \\
+\end{tabularx}
+\end{inset}
+
+In addition to these tools, the Adept is provided with a supply of
+materials which together weigh 5 pounds and which must be replenished
+on the average of every three months at a cost of 1000 Silver Pennies.
+These items include: A packet of charcoal, a packet of powdered
+agrimony (for making tea used in the Ritual of Cleansing), a 3 ounce
+tin of myrrh, a vial of white frankincense dissolved in white wine, a
+6 ounce pot of sandlewood and powdered antimony, a 2 ounce tin of
+ambergris salve, an 8 ounce box of multi-coloured chalks (for drawing
+the Triangle, Circle, Hexagram and Pentagram necessary for the various
+Rituals of Summoning).
+
+The Adept is also taught the Generic True Names of all things that
+occupy dimensions other than their own and may be summoned to this
+dimension.  They also learn the Individual True Names of all heroes of
+other dimensions known to the College and of the 72 great Demons of
+the Seventh Plane.  The Adept does not learn the rituals necessary to
+summon Demons from the Seventh Plane --- only the names of the Demons
+and how to identify them.  A member of this College may learn
+additional Individual True Names of entities from other planes by
+first acquiring them from a Demon and then studying the True Names in
+the same manner as a member of the College of Naming Incantations.
+
+The following Rituals constitute the major part of the knowledge the
+Adept acquires in their general training.
+
+\begin{ritual}[Q-1]{Cleansing}
+
+\begin{effects}
+The Ritual of Cleansing must be performed prior to any other rituals
+of this College.  The Adept cleans their body and purifies their mind
+for from 1 to 10 hours.  The Base Chance of any succeeding Ritual
+being successful is increased by 3 for each hour spent in Ritual
+Cleansing.  There is no Base Chance for this ritual being successful.
+The Adept states the number of hours they will expend on the ritual
+and at the end of that period of time, the Adept is cleansed.  They
+may perform no other activity while engaged in this ritual.  If their
+concentration is broken, they must restart the cleansing from the
+beginning or abandon the effort.  Any rituals the Adept desires to
+perform after the cleansing must be performed immediately.  They may
+perform any number of rituals within three hours of the cleansing, but
+these rituals must immediately follow each other.  Any time spent in
+any other activity destroys the effects of the cleansing and a new
+cleansing must be accomplished before another ritual can be enacted.
+
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[Q-2]{Summoning Succubi}
+
+\multiple{300}
+\basechance{5\% + 3 / Rank}
+\begin{effects}
+This ritual may be used to summon one or more Succubi, who will arrive
+on this plane favourably disposed towards the summoner for having
+summoned them, and thus will not immediately need to be bound.
+Succubi arrive on this plane with only one goal: the enticement and
+mating with humans.  Any deed the summoner desires of them which will
+further their goal will be approved and encouraged by the Succubi.  If
+the Succubi are summoned to perform a task not immediately related to
+their goal, they will have to be Bound and forced to do the task.  The
+Base Chance is 5\% (+ 3 / Rank), and it is reduced by 10 for each
+Succubi above one being summoned at once.  If the ritual backfires,
+the Succubi will appear and attempt to molest and then devour the
+summoner and his or her companions.
+
+Succubi remain on this plane and serve for a number of days equal to
+[D + 4].  The die is rolled individually for each Succubus
+successfully summoned.  The Succubi may also be forcibly returned to
+their own plane whenever their Endurance is reduced to the point that
+they are reduced to unconsciousness or a counterspell is cast over
+them by their summoner.  Once returned to their own plane, they may
+not return to the aid of the summoner unless the summoner performs
+another Ritual of Summoning Succubi.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[Q-3]{Summoning Incubi}
+
+\multiple{300}
+\basechance{5\% + 3 / Rank}
+\begin{effects}
+This ritual operates in the same manner of Q-2 (the Ritual of
+Summoning Succubi).
+
+Incubi are exactly like Succubi, except that they appear only in the
+male form, rather than as females.  They will tend to be 2--3 points
+stronger and will have 1--2 points less Endurance than Succubi, but
+will other wise be the same.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[Q-4]{Summoning Heroes}
+
+\multiple{500}
+\begin{effects}
+The Adept may summon a great hero from another dimension to assist
+them.  This hero may be any character from the body of fantasy
+literature known to both the Adept and the GM.  The GM always sets the
+characteristics of the hero, their weaponry and armour, the number and
+type of companions (if any) and the length of time and terms under
+which they will remain in the Adept's dimension and assist them.  The
+GM may limit the use of this ritual to periods when various celestial
+bodies are in conjunction (once a game year or so).  The GM need not
+inform the Adept of any details concerning the results of the
+summoning until it has been performed.
+
+The Base Chance that this ritual will succeed will vary according to
+the hero the Adept is attempting to summon, but should usually be set
+at less than 20\%.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[Q-5]{True Speaking}
+
+\multiple{250}
+\basechance{50\%}
+\begin{effects}
+Whenever any entity except a hero is summoned, the summoner may wish
+to ask them questions. In all cases, the truthfulness of the entity
+summoned (Incubus, Succubus, Demon) will be less than 100\%.
+Sometimes it will be very near 100\%, but in the case of a Demon who
+is particularly resentful that they have been summoned (or one that is
+an habitual liar) the chance of the entity telling the truth may be as
+low as 5\%. The only way to be sure that the entity will tell the
+truth is to perform a Ritual of True Speaking and then ask the entity
+for answers to the desired questions during the ritual.  The entity is
+required to stand within a triangle and give answers to the summoner's
+questions during the ritual.  The ritual lasts for one full hour, and
+the summoner may do nothing else during the time the ritual is in
+progress except ask questions. The effects of the ritual do not extend
+beyond the end of the ritual.  The Base Chance of forcing the entity
+into the triangle and successfully performing the ritual is 50\%.  The
+GM rolls D100 to determine the success of the ritual.  They need not
+inform players of the result of the dice roll. The entity may
+passively resist the effects of the ritual.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[Q-6]{Binding}
+
+\multiple{400}
+\begin{effects}
+An Adept may perform a Ritual of Binding in order to bind an entity
+(other than a hero) to this plane.  They cannot normally control a
+Demon that is not bound, except while inside the Pentacle they
+occupied when they summoned the demon.  Before they can leave the
+Pentacle or require any service of the demon except for conversation
+and teaching of skills, the summoner must in most cases perform a
+Ritual of Binding.  The Base Chance of successfully binding a
+particular demon is equal to half (rounded down) the unmodified Base
+Chance to summon that demon initially.  The Demon can actively resist
+the workings of a Ritual of Binding.
+
+Once bound, a demon will remain on this plane for a number of days
+equal to [D - 3] and will serve the summoner more or less willingly
+during that time.  In some cases, special conditions must be met to
+bind the demon.  Usually, this means the giving of presents, most
+often human life.  If the demon resists such an offering, it will have
+also broken the summoning and may turn on the summoner despite the
+fact that the summoner is protected by the Pentacle.  When this
+happens, the summoner rolls D100. If the result is less than or equal
+to the summoner's Magic Resistance, the demon is banished to its own
+plane.  If the result is greater than the summoner's Magical
+Resistance, the summoner is overcome by the will of the demon and
+voluntarily breaks the circle of protection allowing the demon to
+enter the pentacle and attack them.
+
+Some demons will serve more willingly and faithfully than others.  The
+details of which demons serve willingly and which resist service even
+when bound are discussed under the heading dealing with each
+particular demon.  A summoner may control only one bound demon at a
+time, though they may summon other demons (or non-demonic entities)
+for purposes of conversation.  They may voluntarily dismiss a demon at
+any time prior to the end of its service and the demon is immediately
+returned to its own dimension unless it has already broken the binding
+and turned on the summoner.
+\end{effects}
+\end{ritual}
+
+\subsection{Special Knowledge Spells}
+
+There are no Special Knowledge Spells for this College.
+
+\subsection{Special Knowledge Rituals}
+\label{greater.summonings:special.rituals}
+
+There are six separate Special Knowledge Rituals.  Each is designed to
+summon a particular Rank of demon.  There are six Ranks of demons:
+Duke, Prince, President, Earl, Marquis, and King.  Each Rank is
+subject to certain limitations as to where and when it can be
+summoned.
+
+All Ranks of demons are summoned in the same manner.  The summoner
+announces the demon they are summoning and that demon's Rank.  They
+then performs the appropriate Ritual of Summoning.  At the end of the
+ritual (that is after one hour), a check is made to see if the ritual
+has been effective.  The summoner rolls D100.  If the result is equal
+to or less than the Base Chance of summoning the particular demon that
+is the object of the ritual, the demon is summoned and appears before
+the summoner.  Otherwise, the demon does not appear and the summoner
+may not make a further attempt to summon that demon that day.  They
+may attempt to summon another demon instead but must first repeat the
+Ritual of Cleansing.  The description of each demon lists the Base
+Chance to summon that demon.
+
+Special Knowledge Rituals may only be performed on days 2, 4, 6, 8,
+10, 12 and 14 of the cycle of the moon, Luna.  They may be attempted
+on other days, but can never have any effect. There is a possibility
+that an Adept could lose track of time and attempt to employ a Special
+Knowledge Ritual on a day when it will not work.  In such cases, the
+GM may choose not to inform the individual that the ritual can have no
+effect and may allow them to perform it anyway, only telling the
+player why they have been unable to summon a demon at the end of the
+ritual.
+
+An Adept who knows a particular Ritual of Summoning may summon any of
+the demons of that Rank Each description includes: the demon's name;
+the Base Chance of summoning (and binding) it; the percentage chance
+that the demon will agree to grant the summoner a companion from among
+its legions of lesser spirits; the special talents, skills and magical
+abilities of the demon; a quantification (given as a span of possible
+numbers) of the demon's characteristics; the demon's natural armour
+(given under the heading NA as the number of hits absorbed for each
+Strike); the natural weapons of the demon (and any other weapons
+habitually carried), and any special comments on the demon's nature or
+abilities.  Also included is a short physical description of the
+demon.
+
+Once a demon is dismissed (returned to its own dimension) it cannot
+return to this plane in less than a day.  A demon who has been
+dispelled by a counterspell or rendered unconscious may return to this
+plane (by being re-summoned in a new ritual) only after one full month
+in its own plane (spent reforming the scattered energy pulses that
+make up its being).
+
+Demons may be controlled while the summoner stands within the Pentacle
+which they must draw to perform the summoning ritual.  They will speak
+to the summoner under this circumstance and will sometimes tell the
+truth.  To ensure absolute honesty, a Ritual of True Speaking must be
+performed.  To ensure that the demon will not destroy the summoner
+once the ritual is over, a Ritual of Binding must be performed.  A
+demon who is not bound must be dismissed at the end of the summoning
+(once the summoner has finished speaking to the demon) and will then
+usually return to its own plane.  However, a demon who is particularly
+savage or who has been offered a gift which it rejects will attempt to
+devour the summoner before departing.  The summoner must then make a
+check against the Willpower to determine if the summoner breaks the
+magical circle protecting them and fights the demon or remains safely
+within the Pentacle (in which case, the frustrated demon departs).
+
+Adepts are not provided with a Shield when they are admitted to
+membership in the College of Greater Summoning, as a Shield is not
+necessary to perform the rituals of the College.  However, they may
+wish to make or have made a special Shield (actually a disc of metal
+engraved with symbols of occult power) to protect them during the
+summoning of demons. This shield is made by Adepts of the College of
+Shaping Magics --- see Arcane Wisdom.  A summoner who does not have a
+Shield can suffer a backfire.  A summoner who is using the proper
+Shield cannot suffer a backfire.  A backfire from a Special Knowledge
+Ritual consists of the appearance of the demon being summoned, but
+inside the circle of protection (Pentacle) so that the demon is free
+to attempt to destroy the summoner.  In such cases, the demon may be
+returned to its own dimension by a counterspell or by being rendered
+unconscious, but will otherwise remain on this plane and freely roam
+about attacking and destroying until somehow banished.  It will not,
+however begin roaming the earth until it has destroyed its summoner.
+A backfire occurs whenever an Adept rolls a number which is 30 or more
+than the modified Base Chance of summoning a particular demon while
+making a check to see if that demon is summoned. A backfire is treated
+as ``no effect'' if the summoner has the proper Shield in their hand
+during the ritual.
+
+The individual Shields that will protect a summoner from backfire are
+discussed under each individual Ritual of Summoning.  Shields only
+affect the summoning of demons.  There is no backfire due to an
+ineffective attempt at employing any other Ritual of Summoning.
+Rituals of True Speaking and Binding may backfire (regardless of
+whether or not a Shield is employed) and result in the summoner being
+affected by their own ritual and forced either to answer all questions
+of the demon as truthfully as possible or to serve the demon so long
+as the demon remains on this plane.  This backfire result may be
+passively resisted.
+
+\textbf{Note:} The interaction between a player and the ``demon
+characters'' they summon is the most important aspect of the workings
+of this College, and the GM should strive to keep players on their
+toes by developing the demonic character as fully as possible (making
+it cooperative about some things and uncooperative about others, for
+example).  Some demons are savage in the extreme and will always be
+out to do what damage they can short of murdering the summoner (and
+sometimes that is not excluded).  Others are milder and will pass up a
+golden opportunity to devour their summoner.  The notes on individual
+demons are meant to serve as a guide to their characters as well as
+their abilities. Their descriptions also give the forms in which they
+may appear.  Often, these forms will be insubstantial and the demon
+will have no power (nor will anyone have power over it) while it is in
+those forms.  However, the information is included as clues for the GM
+in structuring the demonic character.
+
+\begin{ritual}[R-1]{Summoning Demonic Dukes}
+
+\multiple{300}
+\begin{effects}
+This ritual is used to summon the following demons from the seventh
+plane: Agares, Aim, Alloces, Amdusias, Astaroth, Barbatos, Bathin,
+Berith, Bune, Crocell, Dantalion, Eligos, Furcalor, Furcas, Gremory,
+Gusion, Havres, Murmur, Sallos, Uvall, Valefor, Vapula, Vephar and
+Zepar.  The demons of this Rank may only be summoned between sunrise
+and noon on days when the weather is clear and the sun can be seen.
+Any attempt to perform this ritual at any other time will be totally
+ineffective.
+
+The only Shield that will protect against the possibility of backfire
+while summoning Dukes is a disk of purest copper 12 inches across,
+inscribed with the names and signs of all the Dukes of the seventh
+plane.  This shield may only be manufactured by a Shaping mage. It
+weighs 2 pounds and the average cost of manufacture will be 3000+
+Silver Pennies. It takes about three months to manufacture.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[R-2]{Summoning Demonic Princes}
+
+\multiple{350}
+\begin{effects}
+This ritual is used to summon the following demons from the seventh
+plane: Gasp, Ipos, Orobas, Seir, Sitri, Siolas, Vassago.  These demons
+may be summoned at any time of the day.
+
+The only Shield that will protect against the possibility of backfire
+while summoning Princes is a disk of hammered tin inscribed with
+the names and symbols of the Princes of the seventh plane.  This
+Shield may only be manufactured by a Shaping mage.  It weights 3
+pounds and the average cost of manufacture will be 3000+ Silver
+Pennies.  It takes about three months to manufacture.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[R-3]{Summoning Demonic Presidents}
+
+\multiple{350}
+\begin{effects}
+This ritual is used to summon the following demons from the seventh
+plane: Avnas, Buer, Camio, Foras, Haagenti, Labolas, Malphas, Marbas,
+Volac and Voso.  These demons may only be summoned during daylight.
+
+The only shield that will protect against the possibility of backfire
+while summoning Presidents is a disk of base metal (other than cold
+iron) coated with quicksilver.  This shield may only be manufactured
+by a Shaping mage.  It weighs 3 pounds and the average cost to
+manufacture will be 4000+ Silver Pennies.  It takes about four months
+to manufacture.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[R-4]{Summoning Demonic Earls}
+
+\multiple{500}
+\begin{effects}
+This ritual is used to summon the following demons from the seventh
+plane: Andromalius, Bifrons, Botis, Furfur, Nlaithus, Marax, Raum and
+Renove.  These demons may be summoned only in woods and hills and only
+in places that are quiet.  They may be summoned at any time of the day
+or night.
+
+The only shield that will protect against the possibility of backfire
+while summoning Earls is a disk of hammered bronze inscribed with
+the names of the Earls of the seventh plane.  This shield may be
+manufactured by Shaping magicians.  It weighs three pounds and the
+average cost to manufacture will be 5000+ Silver Pennies.  It will
+take about four months to manufacture.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[R-5]{Summoning Demonic Marquis}
+
+\multiple{550}
+\begin{effects}
+This ritual is used to summon the following demons from the seventh
+plane: Amon, Andras, Andrealphus, Cimejus, Decarabia, Forneus, Leraje,
+Marchosias, Naberius, Orias, Phenex, Samieina, Savnok and Shaz.  These
+demons may only be summoned between 3 in the afternoon and sunrise.
+
+The only Shield that will protect against the possibility of backfire
+while summoning Marquis is a disk of fine silver inscribed with the
+names of the Marquis of the seventh plane.  This shield may only be
+manufactured by a Shaping mage.  It weighs 3 pounds and the average
+cost of manufacture will be 7000 Silver Pennies.  It will take about
+five months to manufacture.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[R-6]{Summoning Demonic Kings}
+
+\multiple{600}
+\begin{effects}
+This ritual is used for summoning the following demons from the
+seventh plane: Asmoday, Bael, Balam, Beleth, Belial, Palmon, Purson,
+Vine and Zagan.  These demons may only be summoned between 9 in the
+morning and noon and between 3 in the afternoon and sunset.
+
+The only shield that will protect against the possibility of backfire
+while summoning Kings is a disk of hammered gold inscribed with the
+names of the Kings of the seventh plane.  This Shield may only be
+manufactured by Shaping magicians.  It weighs three pounds and the
+average cost of manufacture will be 15,000 Silver Pennies.  It will
+take about six months to manufacture.
+\end{effects}
+\end{ritual}
+
+\subsection{Additional Notes}
+
+\subsubsection{Hexagram}
+
+A Hexagram is a symbol drawn on a parchment of calf's skin, covered
+with a cloth of fine white linen, and draped from the girdle of lion's
+skin outside the white robe worn by a Greater Summoner.  It helps
+cause the demon to take physical form and compels them to be obedient.
+
+\subsubsection{Counterspells}
+
+Counterspells, as they relate to the College of Greater Summoning, are
+used as a form of banishment.  When a General Knowledge Counterspell
+is cast over an Imp, Devil, Succubi, Incubi, or Hero by the Adept who
+either was granted the companion or summoned the entity, that entity
+or companion is banished back to the dimension from whence it came.  A
+counterspell cast by anyone else will have no effect whatsoever.  If a
+Special Knowledge Counterspell is cast over a Summoned Demon by the
+Adept that Demon is banished back to the plane from whence it came.
+It should be emphasised here that counterspells can only be passively
+resisted, and it is up to the GM to decide which Demons, once summoned
+to this plane, will resist being sent back.
+
+\subsubsection{Knowing the past, present or future}
+
+In reference to Imps and Devils, the 7\% Base Chance of knowing past,
+present and future events represents the chance they will know the
+correct answer to a specific question posed to them. It is up to the
+GM to perform the roll and decide what their answer (if any) will be
+if the result is above the Base Chance.
+\end{college}
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@d1 1
+a1 1
+\begin{college}[1.0]{greatersummonings}{Greater Summonings}{GS}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@d197 1
+a197 1
+{\small
+d207 2
+a208 2
+\end{tabularx}}
+
+@
+
+
+4.2
+log
+@Minor corrections from Andrew Withy plus formatting changes.
+@
+text
+@d1 1
+a1 1
+\begin{college}[1.0]{greatersummonings}{Greater Summonings}
+@
+
+
+4.1
+log
+@Now only Adepts can banished summoned Demons using Special Counterspell.
+This does not affect Namers and Rune mages.
+@
+text
+@d1 5
+a5 4
+\section{The College of Greater Summonings}
+\label{college:greatersummonings}
+\index{colleges!Greater Summonings|(}
+\begin{multicols}{3}
+d46 1
+a46 1
+\subsection{Requirements}
+d92 2
+d118 1
+a118 1
+which they are performed is concerned.  The affects of the hour and
+d180 1
+a180 1
+bathes his body and medicates as a prelude to attempting any other
+d237 1
+a237 1
+\emph{Effect:}
+d254 1
+d259 3
+a261 3
+\sItem{Experience Multiple}{300}
+\sItem{Base Chance}{5\% + 3 / Rank}
+\emph{Effect:}
+d283 1
+d288 3
+a290 3
+\sItem{Experience Multiple}{300}
+\sItem{Base Chance}{5\% + 3 / Rank}
+\emph{Effect:}
+d297 2
+a298 2
+will other wise be the same.  They also are immune to all but magic
+and the Book of Toth.
+d303 2
+a304 2
+\sItem{Experience Multiple}{500}
+\emph{Effect:}
+d318 2
+a319 1
+at less than 20\%.  The Experience Multiple for this ritual is 500.
+d324 3
+a326 3
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{50\%}
+\emph{Effect:}
+d328 1
+a328 1
+to ask him questions. In all cases, the truthfulness of the entity
+d331 2
+a332 2
+is particularly resentful that he has been summoned (or one that is an
+habitual liar) the chance of the entity telling the truth may be as
+d342 1
+a342 1
+GM rolls D100 to determine the success of the ritual.  He need not
+d345 1
+d350 2
+a351 2
+\sItem{Experience Multiple}{400}
+\emph{Effect:}
+d386 1
+d426 18
+a443 27
+the demons of that Rank.  The demons of each Rank are listed and
+described in the section dealing with the ritual used to summon those
+demons.  Each description includes: the demon's name; the Base Chance
+of summoning (and binding) it; the percentage chance that the demon
+will agree to grant the summoner a companion from among its legions of
+lesser spirits; the special talents, skills and magical abilities of
+the demon; a quantification (given as a span of possible numbers) of
+the demon's characteristics; the demon's natural armour (given under
+the heading NA as the number of hits absorbed for each Strike); the
+natural weapons of the demon (and any other weapons habitually
+carried), and any special comments on the demon's nature or abilities.
+Also included is a short physical description of the demon.  Demons
+may choose to bring along one or more hellhounds when summoned.
+
+Demons are possessed of certain qualities not listed in their
+descriptions.  All demons exercise their skills at Rank 15 and magic
+powers at Rank 20.  Demons are not subject to specific Grievous
+Injuries.  Instead, they suffer Endurance damage.  They can only be
+harmed by magic or by silvered weapons.  Being creatures of mana, they
+are not prevented from performing magic by the presence of cold iron.
+A demon automatically recovers from all injury by spending one full
+day in its own dimension.  Once a demon is dismissed (returned to its
+own dimension) it cannot return to this plane in less than a day.  A
+demon who has been dispelled by a counterspell or rendered unconscious
+may return to this plane (by being re-summoned in a new ritual) only
+after one full month in its own plane (spent reforming the scattered
+energy pulses that make up its being).
+d488 1
+a488 1
+affected by his own ritual and forced either to answer all questions
+d511 2
+a512 2
+\sItem{Experience Multiple}{300}
+\emph{Effect:}
+d528 1
+d533 2
+a534 2
+\sItem{Experience Multiple}{350}
+\emph{Effect:}
+d545 1
+d550 2
+a551 2
+\sItem{Experience Multiple}{350}
+\emph{Effect:}
+d562 1
+d567 2
+a568 2
+\sItem{Experience Multiple}{500}
+\emph{Effect:}
+d581 1
+d586 2
+a587 2
+\sItem{Experience Multiple}{550}
+\emph{Effect:}
+d599 1
+d604 2
+a605 2
+\sItem{Experience Multiple}{600}
+\emph{Effect:}
+d617 1
+d639 3
+a641 4
+Thus Namers become important individuals in the control of the demon
+world on this plane.  It should be emphasised here that counterspells
+can only be passively resisted, and it is up to the GM to decide which
+Demons, once summoned to this plane, will resist being sent back.
+d650 1
+a650 26
+
+\subsubsection{Succubi and Incubi}
+
+It is important to understand why Incubi and Succubi appear on this
+plane at all in order to successfully GM them in a campaign.  They are
+not intended to be the ``companions'' of any Adept.  Their sole
+purpose is to increase the number of followers of the Powers of
+Darkness on this plane.  They are representatives of this Power, and
+as such, they cannot by themselves create anything.  Thus, they must
+use mankind (members of both sexes) to aid in their mission.  By their
+sexual activity, they seek to create children who are, in reality and
+spirit, children of Darkness.
+
+Because of their purpose, an Incubi will never kill the human he has
+just mated with.  He will endeavour to keep the nature of his true
+being from this woman so the child which he is trying to create will
+be born and not aborted.  It is to be assumed that any mating between
+Incubi and a human female will automatically result in a pregnancy
+unless aborted.  For more detailed information on this subject, a good
+reference is The Encyclopedia of Witchcraft and Demonology by Russell
+Hope Robbins (New York Crown Publishers, 1959).
+
+\raggedcolumns
+\index{colleges!Greater Summonings|)}
+\clearemptydoublepage
+\end{multicols}@
+
+
+4.0
+log
+@REL40
+@
+text
+@d632 2
+a633 2
+Special Knowledge Counterspell is cast over a Summoned Demon by
+anyone, that Demon is banished back to the plane from whence it came.
+@
+
+
+3.3
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+3.2
+log
+@Fix spell environment and indexes
+@
+text
+@d55 1
+a55 2
+\begin{enumerate}
+\setlength\itemsep{0pt}
+d84 1
+a84 1
+\end{enumerate}
+d142 1
+a142 2
+\begin{enumerate}
+\setlength\itemsep{0pt}
+d159 1
+a159 1
+\end{enumerate}
+a278 1
+
+a293 1
+
+a313 1
+
+a338 1
+
+a378 1
+
+d510 1
+a510 1
+\begin{ritual}[R-1]{Summoning Demonic Dukes }
+a528 1
+
+a544 2
+
+
+a560 1
+
+a578 1
+
+a595 1
+
+a612 1
+
+@
+
+
+3.1
+log
+@Fix "Ritual of" problem.
+@
+text
+@d234 1
+a234 1
+\begin{ritual}{Cleansing (Q-1)}
+d255 1
+a255 1
+\begin{ritual}{Summoning Succubi (Q-2)}
+d284 1
+a284 1
+\begin{ritual}{Summoning Incubi (Q-3)}
+d300 1
+a300 1
+\begin{ritual}{Summoning Heroes (Q-4)}
+d321 1
+a321 1
+\begin{ritual}{True Speaking (Q-5)}
+d347 1
+a347 1
+\begin{ritual}{Binding (Q-6)}
+d517 1
+a517 1
+\begin{ritual}{Summoning Demonic Dukes  (R-1)}
+d539 1
+a539 1
+\begin{ritual}{Summoning Demonic Princes (R-2)}
+d557 1
+a557 1
+\begin{ritual}{Summoning Demonic Presidents (R-3)}
+d574 1
+a574 1
+\begin{ritual}{Summoning Demonic Earls (R-4)}
+d593 1
+a593 1
+\begin{ritual}{Summoning Demonic Marquis (R-5)}
+d611 1
+a611 1
+\begin{ritual}{Summoning Demonic Kings (R-6)}
+@
+
+
+3.0
+log
+@Major typographical changes.  Spells now spell environments
+@
+text
+@d3 1
+a3 1
+\index{college!greater summonings|(}
+d234 1
+a234 1
+\begin{ritual}{Ritual of Cleansing (Q-1)}
+d255 1
+a255 1
+\begin{ritual}{Ritual of Summoning Succubi (Q-2)}
+d284 1
+a284 1
+\begin{ritual}{Ritual of Summoning Incubi (Q-3)}
+d300 1
+a300 1
+\begin{ritual}{Ritual of Summoning Heroes (Q-4)}
+d321 1
+a321 1
+\begin{ritual}{Ritual of True Speaking (Q-5)}
+d347 1
+a347 1
+\begin{ritual}{Ritual of Binding (Q-6)}
+d517 1
+a517 1
+\begin{ritual}{Ritual of Summoning Demonic Dukes  (R-1)}
+d539 1
+a539 1
+\begin{ritual}{Ritual of Summoning Demonic Princes (R-2)}
+d557 1
+a557 1
+\begin{ritual}{Ritual of Summoning Demonic Presidents (R-3)}
+d574 1
+a574 1
+\begin{ritual}{Ritual of Summoning Demonic Earls (R-4)}
+d593 1
+a593 1
+\begin{ritual}{Ritual of Summoning Demonic Marquis (R-5)}
+d611 1
+a611 1
+\begin{ritual}{Ritual for Summoning Demonic Kings (R-6)}
+d683 1
+a683 1
+\index{college!greater summonings|)}
+@
+
+
+2.1
+log
+@Minor changes from Keith Smith.
+@
+text
+@d2 2
+a3 1
+\label{greater.summoning}
+d234 1
+a234 1
+\subsubsection{Ritual of Cleansing (Q-1)}
+d236 1
+a236 3
+\begin{spelldesc}
+\end{spelldesc}
+\emph{Effects:}
+d253 1
+a253 1
+\subsubsection{Ritual of Summoning Succubi (Q-2)}
+d255 5
+a259 5
+\begin{spelldesc}
+\emph{Experience Multiple:} 300 \\
+\emph{Base Chance:} 5\% + 3 / Rank \\
+\end{spelldesc}
+\emph{Effects:}
+d282 3
+a284 1
+\subsubsection{Ritual of Summoning Incubi (Q-3)}
+d286 3
+a288 5
+\begin{spelldesc}
+\emph{Experience Multiple:} 300 \\
+\emph{Base Chance:} 5\% + 3 / Rank \\
+\end{spelldesc}
+\emph{Effects:}
+d298 1
+a298 1
+\subsubsection{Ritual of Summoning Heroes (Q-4)}
+d300 4
+a303 4
+\begin{spelldesc}
+\emph{Experience Multiple:} 500 \\
+\end{spelldesc}
+\emph{Effects:}
+d319 3
+a321 1
+\subsubsection{Ritual of True Speaking (Q-5)}
+d323 3
+a325 5
+\begin{spelldesc}
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} 50\% \\
+\end{spelldesc}
+\emph{Effects:}
+d345 1
+a345 1
+\subsubsection{Ritual of Binding (Q-6)}
+d347 4
+a350 4
+\begin{spelldesc}
+\emph{Experience Multiple:} 400 \\
+\end{spelldesc}
+\emph{Effects:}
+d386 2
+d517 1
+a517 1
+\subsubsection{Ritual of Summoning Demonic Dukes  (R-1)}
+d519 2
+a520 4
+\begin{spelldesc}
+\emph{Experience Multiple:} 300
+\end{spelldesc}
+\emph{Effects:}
+d537 3
+a539 1
+\subsubsection{Ritual of Summoning Demonic Princes (R-2)}
+d541 2
+a542 4
+\begin{spelldesc}
+\emph{Experience Multiple:} 350
+\end{spelldesc}
+\emph{Effects:}
+d555 1
+a555 1
+\subsubsection{Ritual of Summoning Demonic Presidents (R-3)}
+d557 4
+a560 4
+\begin{spelldesc}
+\emph{Experience Multiple:} 350
+\end{spelldesc}
+\emph{Effects:}
+d572 3
+a574 1
+\subsubsection{Ritual of Summoning Demonic Earls (R-4)}
+d576 2
+a577 4
+\begin{spelldesc}
+\emph{Experience Multiple:} 500
+\end{spelldesc}
+\emph{Effects:}
+d591 1
+a591 1
+\subsubsection{Ritual of Summoning Demonic Marquis (R-5)}
+d593 4
+a596 4
+\begin{spelldesc}
+\emph{Experience Multiple:} 550
+\end{spelldesc}
+\emph{Effects:}
+d609 3
+a611 1
+\subsubsection{Ritual for Summoning Demonic Kings (R-6)}
+d613 2
+a614 4
+\begin{spelldesc}
+\emph{Experience Multiple:} 600
+\end{spelldesc}
+\emph{Effects:}
+d627 1
+a630 1
+
+a637 1
+
+a652 1
+
+d683 1
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d601 1
+a601 1
+demons May only be summoned between 3 in the afternoon and sunrise.
+@
+
+
+1.5
+log
+@Imps, devils, succubi and incubi moved to monster manual.  Special
+knowledge rituals added.
+@
+text
+@@
+
+
+1.4
+log
+@Release 1.0 snapshot
+@
+text
+@d52 1
+a52 1
+practiced:
+a166 101
+Imps and devils are described below (see Monsters for a description
+of the terminology used herein):
+
+\subsubsection{Imps}
+
+\textbf{Description:}
+Imps appear as three to four foot high humanoids, but with horns,
+bat's wings and barbed tails.  They tend to be muscular, but
+pot-bellied.  Their skin may be blue, green, or purple, but is usually
+red.  They have yellow eyes, flecked with silver and their teeth
+(including prominent incisors) are made of silver.  Imps may also
+appear as goats, spiders, bats or large rats, but these are
+insubstantial forms. The imp cannot use his powers in this plane
+except in his natural and substantial form.
+
+\textbf{Talents, Skills and Magic:} Imps may be members of any Colleges
+of Magic except the Entities as determined by the GM.  Imps can only
+be harmed by silvered weapons or magic. Cold iron does not affect
+them.  They have no skills.  They have Rank 5 with all magic.
+
+\begin{tabularx}{\linewidth}{lll}
+\multicolumn{3}{c}{Movement Rates (yards per minute):} \\
+\multicolumn{3}{c}{Running: 350 --- Flying: 500} \\
+PS: 15--20	& MD: 13--17 	& AG: 16--22 \\
+MA: 22--26	& EN: 14--16 	& FT: 22--28 \\
+WP: 28--32	& PC: 16--25	& PB:  3--5 \\
+TMR: 7 / 10	& \multicolumn{2}{l}{NA: 3 DP per Strike} \\
+\end{tabularx}
+
+\textbf{Weapons:} Imps may make a horn attack during Close Combat with
+a Base Chance of 20\% and possible damage of [D - 1].  Imp horns may
+have a Rank of between 1 and 10 (controlling Player should roll D10 to
+determine Rank).  Imps may also make an attack in either Melee or
+Close Combat with their long tail. Its tip contains a sting with a
+quick acting nerve poison (2--4 Damage Points per Pulse). The sting
+itself is treated like a dagger.  Base Chance with tail is 30\%.  Imps
+may use other weapons, but may not wear armour.
+
+\textbf{Comments:} Imps are dangerous servants in that they have a
+cruel sense of humour which they are not averse to visiting upon their
+master and friends.  They may not be bound or forced to speak true, so
+there is no way to really control their actions.  They will lie,
+steal, sow dissension, or play practical jokes (magical or
+non-magical) on the average once per day (total).  They will not
+knowingly get their master killed or maimed but are otherwise not
+overly considerate of the master's wellbeing.  They will use their
+powers on the master's behalf when it is demanded of them (though even
+here their sense of humour may have an effect) and will fight the
+master's enemies.  Imps may be called upon as needed and then returned
+to their own dimension.  Given their warped personalities, the wise
+master will keep them in their own dimension as much as possible.
+Imps have a 7\% Base Chance of knowing past, present and future
+events, but will seldom speak truthfully of what they know.
+
+\subsubsection{Devils}
+
+\textbf{Description:} Devils appear as large muscular humanoids with
+massive bat wings, horns and fangs.  They tend to have carmine skin
+and green eyes.  Their tails are sharp and barbed and contain a
+poisonous sting.
+
+\textbf{Talents, Skills and Magic:} Devils, like imps, may be members
+of any College (except the Entities) as determined by the GM. Devils
+can only be harmed by silvered weapons or by magic.  Cold iron does
+not affect them.  They have no skills, but possess Rank 10 with all
+magic of their College.  Devils know a little of the past, present,
+and future of things (7\% chance of accuracy) and will speak
+truthfully to the best of their knowledge in exchange for their
+freedom.  They may not be bound or subjected to a Ritual of True
+Speaking.
+
+\begin{tabularx}{\linewidth}{lll}
+\multicolumn{3}{c}{Movement Rates (yards per minute):} \\
+\multicolumn{3}{c}{Running: 400 ---  Flying: 500} \\
+PS: 25--30	& MD: 15--20	& AG: 18--24 \\
+MA: 28--34	& EN: 25--30	& FT: 35--40 \\
+WP: 24--28	& PC: 22--26	& PB: 2--3 \\
+TMR: 8 / 10	& \multicolumn{2}{l}{NA: 5 DP per  Strike} \\
+\end{tabularx}
+
+\textbf{Weapons:} Devils may make a horn attack or bite in Close Combat
+and may sting with their tail in Melee or Close Combat.  Their bite
+has a Base Chance of 30\% and does [D + 2] damage.  Their horns have a
+Base Chance of 25\% and do [D + 2] damage.  Both are Rank 1--10
+(controlling Player rolls D10 to determine exact Rank).  Their tail
+has a Base Chance of 30\% in Melee and a Base Chance of 50\% Close
+Combat and does [D - 1] damage.  It has a quick-acting nerve poison in
+it that does 3--5 Damage Points per Pulse.  A devil's tail is always
+Rank 8.  A Devil may use weapons, but will not wear armour.
+
+\textbf{Comments:} Devils are extremely powerful companions, but tend
+to serve only with reluctance.  They will attempt to bargain for their
+freedom in exchange for the use of their magic powers in any situation
+that does not involve immediate danger of death or maiming of their
+master.  They are required to assist the master only in situations of
+imminent danger and so will usually be able to bargain successfully
+early in their service.  Their power to see things past, present, and
+future is the same as that of imps (7\%).  They will never use this
+talent except in exchange for their release from service and return to
+their own plane.
+
+d170 1
+a170 1
+Knowledge Counterspells are the only spells useable by members of this
+d215 1
+a215 1
+ambergris salve, an 8 ounce box of multi-colored chalks (for drawing
+d262 1
+a262 1
+on this plane favorably disposed towards the summoner for having
+a282 42
+Succubi are lesser spirits of the seventh plane.  They always appear
+in the form of tall, beautiful women with flowing hair which hides
+their small horns.  They also possess membranous wings shaped like
+bat's wings that fold down so as to be all but invisible when not in
+use.  They have retractable fangs which they sometimes use to open the
+veins of those individuals whose blood they desire to drink.
+
+Succubi possess Rank 10 in all spells and talents of the College of
+the Mind.  In addition they possess the following skills: assassin,
+courtesan, spy, thief and troubadour. All skills of Succubi are Rank
+10.  Succubi possess the following characteristics:
+
+\begin{tabularx}{\linewidth}{lll}
+PS: 16--21	& MD: 24--28	& AG: 28--32 \\
+MA: 26--30	& EN: 12--16	& FT: 24--28 \\
+WP: 26--30	& PC: 24--28	& PB: 26--34 \\
+TMR: 7 / 8	& \multicolumn{2}{l}{NA: 2 DP per Strike} \\
+\end{tabularx}
+
+Succubi have a movement rate while running of 350 yards per minute and
+while flying of 400 yards per minute.
+
+Succubi may attempt to bite during Close Combat with a Base Chance of
+40\%.  Their bite does [D + 2] damage to Fatigue each Pulse.  This
+drain continues so long as they continue to bite (they need not make
+another Strike Check).  The Succubi will cease biting only when they
+have become stunned or unconscious or when their victim is dead.  They
+never inflict specific Grievous Injuries, but may do Endurance damage.
+Their bite may be Rank 1--10 (roll D10 to determine its exact Rank).
+Succubi do not wear armour and carry only small weapons that are easily
+concealed.  They prefer envenomed weapons to all others.
+
+Succubi will, at the behest of their summoner, attempt to meet,
+seduce, and then murder any individual of the summoner's choice.  They
+will pursue their victim until returned to their own plane or until
+they succeed in killing him. Their speciality is to gain the
+confidence of the victim and then murder him in his bed.  They cannot
+be harmed except by magic or by the touch of the Book of Toth, an
+ancient tome of magical lore found only in older and seldom frequented
+libraries.  This rare volume immediately and permanently dissipates
+them, forcing them back to their own plane.
+
+d448 1
+a448 1
+may return to this plane (by being resummoned in a new ritual) only
+d516 113
+d648 1
+a648 1
+Special Knowledge Counterpsell is cast over a Summoned Demon by
+d660 1
+a660 1
+correct answer to a specific question posed to them. lt is up to the
+d677 1
+a677 1
+just mated with.  He will endeavor to keep the nature of his true
+d682 1
+a682 1
+reference is The Encyclopedia of Witchcraft and Demonology by Russel
+@
+
+
+1.3
+log
+@Save before changing Ritual of Summoning Succubi.
+@
+text
+@d86 4
+a89 4
+If the Adept fails to meet any of these requirements, he may not
+attempt to perform any ritual of the College of Greater Summoning.  He
+may still exercise any special Talent Magic he may possess and may
+cast counterspells.
+d110 1
+a110 1
+also affected by the provisions of \S\ref[magic:modifiers}.  They are
+d124 1
+a124 1
+Once an Apept has been assigned a companion, they may automatically
+d210 1
+a210 1
+non-magical) on the average once per day (total).  Tjey will not
+d213 7
+a219 7
+powers on the master's behalf when demanded of it (though even here
+their sense of humour may have an effect) and will fight the master's
+enemies.  Imps may be called upon as needed and then returned to their
+own dimension.  Given their warped personalities, the wise master will
+keep them in their own dimension as much as possible.  Imps have a 7\%
+Base Chance of knowing past, present and future events, but will
+seldom speak truthfully of what they know.
+d324 6
+a329 6
+the Seventh Plane.  He does not learn the rituals necessary to summon
+Demons from the Seventh Plane --- only the names of the Demons and how
+to identify them.  A member of this College may learn additional
+Individual True Names of entities from other planes by first acquiring
+them from a Demon and then studying the True Names in the same manner
+as a member of the College of Naming Incantations.
+d336 3
+d357 17
+a373 10
+This ritual may be used to summon one or more Succubi, who will then
+do the summoner's bidding without the necessity of being bound. At the
+beginning of the ritual, the summoner states how many Succubi he is
+attempting to summon.  The summoner's Player then rolls D100.  If the
+resulting number is equal to or less than the Base Chance to
+successfully enact the ritual, the summoner is successful and the
+requisite number of Succubi immediately appear.  The Base Chance of
+successfully performing this ritual is 30\%.  In addition to other
+modifiers, the Base Chance is reduced by 10 for each Succubi above one
+the summoner is attempting to summon.
+d382 1
+a382 2
+another Ritual of Summoning Succubi.  The Experience Multiple for this
+ritual is 300.
+d428 5
+d444 4
+a458 6
+\begin{example}
+The GM may allow the Adept to summon Conan the Barbarian, but does not
+tell him that Conan will appear wrapped in bandages and infirm from a
+recent combat.
+\end{example}
+
+d463 1
+a463 1
+\subsubsection{Ritual of True Speaking}
+d465 5
+d478 10
+a487 11
+(during the ritual) for answers to the desired questions.  The entity
+is required (during the ritual) to stand within a triangle and give
+answers to the summoner's questions.  The ritual lasts for one full
+hour, and the summoner may do nothing else during the time the ritual
+is in progress except ask questions. The effects of the ritual do not
+extend beyond the end of the ritual.  The Base Chance of forcing the
+entity into the triangle and successfully performing the ritual is
+50\%.  The GM rolls D100 to determine the success of the ritual.  He
+need not inform players of the result of the dice roll. The entity may
+passively resist the effects of the ritual. The Experience Multiple of
+this ritual is 250.
+d491 4
+d528 1
+a528 2
+and turned on the summoner.  The Experience Multiple for this ritual
+is 400.
+d662 1
+a662 1
+\subsubsection{A Hexagram}
+d675 2
+a676 2
+either was granted the companion orsummoned the entity, that entity or
+companion is banished back to the dimension from whence it came.  A
+d681 1
+a681 1
+world on this plane.  It should be emphasized here that counterspells
+d688 1
+a688 1
+in reference to Imps and Devils, the 7\% Base Chance of knowing past,
+d694 1
+d696 18
+a713 219
+Q-2 Ritual of Summoning Succubi
+
+     This  ritual   may   be   used   to   summon   one
+or   more   Succubi,   who   will   arrive   on    this
+plane   favorably    disposed    towards    the    sum-
+moner   for   having   summoned    them,    and    thus
+will  not  immediately   need   to   be   bound.   Suc-
+cubi  arrive  on  this  plane  with  only   one   goal:
+the    enticement    and    mating     with     humans.
+Any    deed    the    summoner    desires    of    them
+which  will  further  their  goal  will   be   approved
+and  encouraged   by   the   Succubi.   If   the   Suc-
+cubi   are   summoned   to   perform   a    task    not
+immediately  related   to   their   goal,   they   will
+have  to  be  Bound  and  forced  to   do   the   task.
+The  BaseChance  is  5%(+3  per  Rank),   and   it   is
+reduced   by   10   for   each   Succubi   above    one
+being  summoned  at   once.   If   the   ritual   back-
+fires,  the.Succubi  will   appear   and   attempt   to
+molest    and-then    devour    the    summoner     and
+his or her companions.
+
+     It  is  important  to   understand   why   Incubi
+a@@  Succubi  appear   on   this   plane   at   all   in
+order   to   successfully   GM   them   in    a    cam-
+paign.  They  are  not  intended  to   be   the   "com-
+panions"  of  any  Adept.   Their   sole   purpose   is
+to  increase   the   number   of   followers   of   the
+Powers  of   Darkness   on   this   plane.   They   are
+representatives   of   this   Power,   and   as   such,
+they   cannot   by    themselves    create    anything.
+Thus,   they   must    use    mankind    (members    of
+both sexes to aid  in  their  mission.  By  their  sex-
+ual  activity,  they  seek  to  create   children   who
+are, in  reality  and  spirit,  children  of  Darkness.
+
+RPGamin
+
+                     !9
+
+                    CfT A
+
+Thieves'Wori '
+
+D"gn: Lynn Abbey. Yurek Chodak, Steve Marsh,
+Midkemia Press. Steve Perrin, Greg Stafford
+Chaosium. Inc.
+
+Additional Materials: Dave Arneson. Eric Goldberg,
+Wes ives. Rudy Kraft, Marc Miller, Mary Beth Miller,
+Victoria Poyser. Lawrence Shick,  Richard  Snider,  Ken
+St. Andre. Lynn Willis: Poul Anderson,  Robert  Asprin,
+Andrew Offutt
+
+Components:  One   64-page   Game   Master's   Guide:   one
+64-page  Personalities  of  Sanctuary  book,  two   20-page
+Players' Guides' one 22"x34' map,  two  I  1  "xl  7'  maps.
+Chaosium. Inc , s 1 6 00
+
+Reviewed by Steve List
+
+     The  first fantasy role-playing            games
+were     basicallydungeon     oriented,     and     requir-
+ed   a   GM   to   prepare    the    dungeon    in    which
+the     adventures     would     occur.     Soon      deve-
+loped   a    secondary    type    of    publication,    the
+pre-generated     dungeon.     As     FRP     games     be-
+came    more    sophisticated,    so    too     did     the
+scenarios    and    supplements     created     to     sup-
+port    them.    But    with    few    exceptions,     each
+was   created   for   use   with   only    one    set    of
+game     rules.     Some     supplements     were      pub-
+lished   in    which    the    conditions    and    charac-
+ters   were   so   vague   that   they   could   be    used
+withjustaboutanygame,butthisleftthe                      ob
+of   "customizing"   the   adventure   to   the   GM    all
+over again.
+     Thieves'World    moves     in     a     new     direc-
+tion.  As   a   literary   work,   Robert   Lynn   Asprin's
+Thieves'World      (and      its      companion      volume
+T-alesfrom     the     VulgarUnlcom)was      a      collec-
+tion  of  stories   by   various   authors   set   in   the
+city   of    Sanctuary,    in    a    world    unspecified.
+Both    the    setting    and    the    characters     were
+eminently    suitable    for    a    role-playing    situa-
+tion,     so     Chaosium     has     incorporated     them
+
+COMING IN THE
+NEXTISSUE:
+The Saga of the
+
+C)MEGAWAR!
+
+into what is billed  as  a  "complete  adventure
+pack." The  claim  may  be  a  tad  exaggerated.
+for despite the wealth  of  material  there  are
+no  complete  scenarios  per  se",  there   are,
+however,   ten   "scenario   ideas,    extensive
+encounter  tables,  and   manifold   hints   and
+suggestions for would-be Game Masters.
+
+     Thieves'World  is  not  one  of  the  vague-
+enough-to-be-universal  types  of  work.  It  is
+not usable with  every  role-playing  game,  but
+has  been  customized  for  nine  of  them  (the
+Dungeons     &     DragonA      AdvancedDungeons
+&   Dragonse,   DragonQuestT@@   Adventures    In
+Fantas@@      Chivalry&       Sorce@@       The       Fantasy
+TrIpT@@     RuneQuestT@@      Traveller7m,      and      Tun-
+nels    and    Tro//rm    games).    This     adaptability
+has    been    accomplished    in     the     Personalities
+of    Sanctuary    book    by    having    people     well-
+versed   in   the   game   involved   (in   five    instan-
+ces,    the    original    designers    of    the    games)
+provide   the   NPC   stats   and   in   most   cases    an
+essay    reconciling    the    rules    of    the     games
+with the world of Sanctuary.
+
+     To   a   large   extent    the    explanations    deal
+with   magic.   In   general,   an   FRP   game    has    a
+single   system   of   magic,   one   that   is    distinct
+from   those   of   other   games.   The    two    Thieves'
+World    anthologies     have     as     many     different
+magic    systems    as    there    are    magicians,     as
+eachwascreatedbyadifferentauthor.                      Even
+the   prevalence   of   magic   is   hard   to   reconcile,
+ranging   as   it   does   from   games   like    Traveller
+in   which   there    s    no    magic    (the    sophistry
+which    rationalizes    this     problem     makes     for
+interesting    reading)    to    RuneQuest,    in     which
+anyone   with   a   few   points   of   Power    and    the
+price of a spell can perform it,
+     Players    who     require     fastidious     consis-
+tency   may   be   annoyed   by   a   feature    of    this
+approach.Thevariouspeoplewhoprepared
+
+the    NPC    stats    listed    the    characters     they
+thought   best.   Therefore,   each   has    a    different
+list,   and   while   many    major    characterswill    be
+
+                     39
+
+on  everybody's  list,  some  will  be   missing
+here and there. Those that  are  on  many  lists
+will bedifferentlyperceived. Forexampje,  Prince
+Kadakithis  appears  in  the  D&DTM  game   sec-
+tion as a ninth-level fighter  but  in  the  C&S
+section  as  only  a  level  three  non-fighter.
+Others may not vary  so  widely,  but  the  phe-
+nomenon  of  differing  perceptions   led   Eric
+Goldberg  to  provide   the   DragonQuest   game
+stats with ranges of attribute values  so  indi-
+vidual GM's could use  values  they  liked  that
+were still "official."
+     Of the few drawbacks  little  can  be  said.
+As noted, there  are  no  ready-to-play  scenar-
+ios  presented,  but  plenty  of   ingredients   f   or   a
+competent   GM   to   use   in    conducting    a    super-
+ior   one   by   himself.   The   exigencies   of   forcing
+the   various   magic   systems    tG    fit    the    con-
+straints   of   the   stories   may    be    an    annoying
+inconvenience     in     some      circumstances.      Each
+user  will  have   to   decide   for   himself   if   Sanc-
+tuary  exists  in  his  universe,  If  it  does,  there  is
+the    problem    of    howto     morefullyintegrate     it
+and    make     the     inhabitants     consistent     with
+the   previously   defined    portions.    If    it    does
+not,    the    GM    must    decide    by    what     means
+(inter-dimensional      portals?       space       travel?)
+the    player     characters     arrive     there.     Some
+gamers     may     be     disappointed      that      their
+favorite  FRPG  is  not cove red     in     Thieves'
+World.  Just   as   there   are   to   be   more   antholo-
+gies   about   the   city   of    Sanctuary,    so    Chao-
+slum    hopes    to    update    the    game    with    new
+systems in the future.
+     In    summary,    Thieves'    World    is    not     a
+@@ork  that  allows   a   GM   to   spend   merely   a   few
+nours  reading   it,   nor   does   it   present   a   cam-
+paign   that   will   be   exhausted   in   a   few   play-
+ings.  It   does   provide   a   vehicle   with   which   a
+GM,  willing   to   devote   the   time   can   create   an
+entirecitywhichsh,ouldnevergrowstaleno
+matter how many times it it visited.m o
+
+
+
+QUESTING (c@@ontinuedftoni page 38)
+
+Because    of    their    purpose,    an    Incubi     will
+never   kill   the   human   he   (?@@   has   just    mated
+with.  He   will   endeavor   to   keep   the   nature   of
+his   true   being   from   this   woman   so   the   child
+which  he  is  trying  to   create   will   be   born   and
+not   aborted,   It   is   to   be   assumed    that    any
+mating    between    Incubi    and    a    human     female
+will    automatically     result     in     a     pregnancy
+unless    aborted.    For    more     detailed     informa-
+tion  on  this   subject,   a   good   reference   is   The
+Encyclopedia      of      Witchcraft      and      Demonol-
+ogy    by    Russel     Hope     Robbins     (New     York@@
+Crown Publishers, 1 959)
+     When    a     hero     is     summoned,     the     GM
+should   not   pull   (what   I   consider   to   be)   the
+dirty  trick  of  having  the  hero  arrive   in   a   bat-
+tered   or   wounded   state.   If   the   GM   makes   the
+Ritual    difficult    enough    to    perform     success-
+fully  in  the  first  place,  there  is   no   reason   to
+play little "games" with the players.
+
+     The   Ritual    of    True    Speaking    should    be
+enacted  out  in   real   time   if   atall   possible,with
+theGM    acting     outthe     partof     the     Dem-ngnri
+the     playerenacting     the     partof     hischaracter.
+If  there  is  no  time,  this  may   be   shortened,   but
+the   GM   should   always   strive   to    simulate    the
+conversation   as   it   would    take    place    in    as
+much   detail   as   possible   (this   is   role   playing
+after all).m m
+@
+
+
+1.2
+log
+@Changes made before the May Gods meeting
+@
+text
+@d2 1
+d15 11
+a25 11
+summoner must perform a Ritual Cleansing of his body (requiring from 1
+to 10 hours).  Then he must prepare and implement the proper Ritual of
+Summoning.  The Ritual of Summoning, itself, requires only one hour to
+execute.  Once he has performed the Ritual of Summoning, he may wish
+to control the entity he has summoned by implementing either a Ritual
+of Binding or a Ritual of True Speaking.  Binding and True Speaking
+Rituals each require one hour to prepare and implement.  If the
+summoner does not implement these rituals immediately upon
+successfully summoning the entity who is their target, he will have to
+engage in a new Ritual of Cleansing before attempting to enact another
+ritual.
+d29 1
+a29 1
+Pentacle of Power.  Unless the summoner and his companions occupy this
+d32 1
+a32 1
+Pentacle.  His companions occupy the Circle, but are outside the
+d39 1
+a39 1
+forced into the Triangle (outside the Circle of Protection.
+d66 1
+a66 1
+itself, the Adept must remain stationary.  He may engage in no other
+d78 1
+a78 1
+in 47.7).
+d110 2
+a111 2
+also affected by the provisions of 32.  They are unaffected by other
+modifications.
+d116 2
+a117 1
+day on these rituals is discussed in 47.7.
+d121 1
+a121 1
+There are no Talent Magics granted a character simply because he is a
+d123 2
+a124 2
+character may be assigned a ``companion'' by a demon he has summoned.
+Once a character has been assigned a companion, he may automatically
+d126 2
+a127 2
+companion instantly appears to do the bidding of the character.  In
+this sense, there is some Talent Magic available to members of this
+d130 7
+a136 8
+Upon dismissing a demon he has summoned, the summoner may request that
+the demon assign to him a companion from among his legions of lesser
+spirits.  The Base Chance that a demon will grant this request is
+listed under the ``Lesser Spirits'' heading for each demon.  The
+summoner's Player rolls D100, and if the resulting number is less than
+or equal to the Base Chance, the demon grants a companion.  If the
+number is half or less than the Base Chance, the demon grants two
+companions.
+d151 1
+a151 1
+of the College of Greater Summonings cast over him by the summoner.
+d154 2
+a155 2
+The companion is forced into his own dimension by a reduction in his
+Endurance sufficient to cause unconsciousness in a character.
+d162 4
+a165 4
+When a companion is granted, the summoner's player rolls D10.  If the
+result is 1--4, his companion will be an imp.  If it is 5--10, it will
+be a devil.  A separate roll is made for each companion if more than
+one is granted.
+d167 2
+a168 2
+Imps and devils are described below (see VIII, Monsters, for a
+description of the terminology used herein):
+d179 1
+a179 1
+insubstantial forms and the imp cannot use his powers in this plane
+d198 2
+a199 2
+have a Rank of between 1 and 10 (controlling Player should roll D10
+to determine Rank).  Imps may also make an attack in either Melee or
+d201 3
+a203 3
+quick acting nerve poison (2--4 Damage Points per Pulse). The sting,
+itself, is treated like a dagger.  Base Chance with tail is 30\%.
+Imps may use other weapons, but may not wear armour.
+d206 5
+a210 5
+cruel sense of humour which they are not adverse to visiting upon
+their master and his friends.  They may not be bound or forced to
+speak true, so there is no way to really control their actions.  They
+will lie, steal, sow dissension, or play practical jokes (magical or
+non-magical) on the average once per day (total).  They will not
+d212 8
+a219 8
+overly considerate of his wellbeing.  They will use their powers in
+his behalf when he demands it (though even here their sense of humour
+may have an effect) and will fight his enemies.  Imps may be called
+upon as needed and then returned to their own dimension.  Given their
+warped personalities, the wise master will keep them in their own
+dimension as much as possible.  Imps have a 7\% Base Chance of knowing
+past, present and future events, but will seldom speak truthfully of
+what they know.
+d229 8
+a236 7
+of any College except the Entities as determined by the GM. Devils can
+only be harmed by silvered weapons or by magic.  Cold iron does not
+affect them.  They have no skills, but possess Rank 10 with all magic
+of their College.  Devils know a little of the past, present, and
+future of things (7\% chance of accuracy) and will speak truthfully
+to the best of their knowledge in exchange for their freedom.  They
+may not be bound or subjected to a Ritual of True Speaking.
+d272 2
+a273 2
+College.  See (\S \ref{counterspells}) for descriptions of the nature
+and working of counterspells.
+d283 1
+a283 1
+Knowledge of this College.  They are: the Ritual of Summoning Succubi,
+d286 1
+a286 1
+Knowledge of this College besides the Ritual of Cleansing.  They are:
+d289 1
+a289 1
+successful completed.  They are sometimes necessary to gain the
+d292 3
+a294 3
+Also as part of the study of the General Knowledge of this College the
+Adepts receive a parcel containing the tools necessary to their magic.
+The parcel consists of the following:
+d299 1
+a299 1
+1 sceptre   of   dogwood	& 1 lb &  250sp \\
+d303 1
+a303 1
+1  robe  of  virgin  linen	& 3 lb &  20sp \\
+d305 1
+a305 1
+1  censor  of  silver  and gems	& 2 lb	&  3000sp \\
+d321 9
+a329 9
+occupy dimensions other than his own and may be summoned to this
+dimension, and the Individual True Names of all heroes of other
+dimensions known to the College and of 72 great Demons of the Seventh
+Plane.  He does not learn the rituals necessary to summon Demons from
+the Seventh Plane --- only the names of the Demons and how to identify
+them.  A member of this College may learn additional Individual True
+Names of entities from other planes by first acquiring them from a
+Demon and then studying the True Names in the same manner as a member
+of the College of Naming Incantations.
+d331 2
+a332 2
+The following Rituals constitute the major part of the knowledge of
+the Adept acquired in his general training.
+d337 14
+a350 14
+of this College.  The Adept cleans his body and purifies his mind for
+from 1 to 10 hours.  The Base Chance of any succeeding Ritual being
+successful is increased by 3 for each hour spent in Ritual Cleansing.
+There is no Base Chance for this ritual being successful.  The Adept
+states the number of hours he will expend on the ritual and at the end
+of that period of time, the Adept is cleansed.  He may perform no
+other activity while engaged in this ritual.  If his concentration is
+broken, he must restart the cleansing from the beginning or abandon
+the effort.  Any rituals the Adept desires to perform after the
+cleansing must be performed immediately.  He may perform any number of
+rituals within three hours of the cleansing, but these rituals must
+immediately follow each other.  Any time spent in any other activity
+destroys the effects of the cleansing and a new cleansing must be
+accomplished before another ritual can be enacted.
+d359 1
+a359 1
+successful enact the ritual, the summoner is successful and the
+d371 3
+a373 3
+not return to the aid of the summoner unless he performs another
+Ritual of Summoning Succubi.  The Experience Multiple for this ritual
+is 300.
+d375 1
+a375 1
+Succubi are lesser spirits of the seventh plane.  They appear always
+d378 1
+a378 1
+bats wings that fold down so as to be all but invisible when not in
+d382 4
+a385 4
+Succubi all possess mastership at Rank 10 of all spells and talents of
+the College of the Mind.  They possess the following talents:
+Assassin, Courtesan, Spy, Thief, Troubadour. All Skills of Succubi
+are Rank 10.  Succubi possess the following characteristics:
+d410 6
+a415 6
+they succeed in killing him. Their speciality is to gain the confidence
+of the victim and then murder him in his bed.  They cannot be harmed
+except by magic or by the touch of the Book of Toth, an ancient tome
+of magical lore found only in older and seldom frequented libraries.
+This rare volume immediately and permanently dissipates them, forcing
+them back to their own plane.
+d431 1
+a431 1
+him.  This hero may be any character from the body of fantasy
+d433 6
+a438 6
+characteristics of the hero, his weaponry and armour, the number and
+type of his companions (if any), and the length of time and terms
+under which he will remain in the Adept's dimension and assist him.
+The GM may limit the use of this ritual to periods when various
+celestial bodies are in conjunction (once a Game-Year or so).  He need
+not inform the Adept of any details concerning the results of the
+d440 1
+d446 1
+d454 1
+a454 1
+to ask him questions. In all cases, the veracity of the entity
+d457 1
+a457 1
+is particularly resentful that he has been summoned (or one that is a
+d461 9
+a469 9
+during the ritual for answers to the desired questions.  The entity is
+required during the ritual to stand within a triangle and give answers
+to the summoner's questions.  The ritual lasts for one full hour, and
+the summoner may do nothing else during the time the ritual is in
+progress except ask questions. The effects of the ritual do not extend
+beyond the end of the ritual.  The Base Chance of forcing the entity
+into the triangle and successfully performing the ritual is 50\%.  The
+GM rolls D100 to determine the success of the ritual.  He need not
+inform players of the result of the dice roll. The entity may
+d476 9
+a484 9
+other than a hero to this plane.  He cannot normally control a Demon
+that is not bound except while inside the Pentacle he occupied when he
+summoned the Demon.  Before he can leave the Pentacle or require any
+service of the Demon except for conversation and teaching of Skills,
+the summoner must in most cases perform a Ritual of Binding.  The Base
+Chance of successfully binding a particular demon is equal to half
+(rounded down) the unmodified Base Chance to summon that Demon
+initially.  The Demon can actively resist the workings of a Ritual of
+Binding.
+d490 2
+a491 2
+often human life.  If the demon resists such an offering, he will have
+also broker.  the summoning and may turn on the summoner despite the
+d493 3
+a495 3
+happens, the summoner's player rolls D100. If the result is less than
+or equal to the summoner's Magic Resistance, the demon is banished to
+his own plane.  If the result is greater than the summoner's Magical
+d497 2
+a498 2
+voluntarily breaks the circle of protection allowing the demon to enter
+the pentacle and attack him.
+d504 4
+a507 4
+time, though he may summon other demons (or non-demonic entities) for
+purposes of conversation.  He may voluntarily dismiss a demon at any
+time prior to the end of his service and the demon is immediately
+returned to his own dimension unless he has already broken the binding
+d516 1
+d525 2
+a526 2
+announces the demon he is summoning and that demons' Rank.  He then
+performs the appropriate Ritual of Summoning.  At the end of the
+d528 8
+a535 8
+has been effective.  The summoner's player rolls D100.  If the result
+is equal to or less than the Base Chance of summoning the particular
+demon that is the object of the ritual, the demon is summoned and
+appears before the summoner.  Otherwise, the demon does not appear and
+the summoner may not make a further attempt to summon that demon that
+day.  He may attempt to summon another demon instead but must first
+repeat the Ritual of Cleansing.  The description of each demon lists
+the Base Chance to summon that demon.
+d540 9
+a548 9
+that a character could lose track of time and attempt to employ a
+Special Knowledge Ritual on a day when it will not work.  In such
+cases, the GM may choose not to inform the individual that the ritual
+can have no effect and may allow him to perform it anyway, only
+telling the player why he has been unable to summon a demon at the end
+of the ritual.
+ 
+A character who knows a particular Ritual of Summoning may summon any
+of the demons of that Rank.  The demons of each Rank are listed and
+d551 5
+a555 5
+of summoning (and binding) him; the percentage chance that the demon
+will agree to grant the sum- moner a companion from among his legions
+of lesser spirits; the special Talents, Skills and magical abilities
+of the demon; a quantification (given as a span of possible numbers)
+of the demon's characteristics; the demon natural armour (given under
+d563 1
+a563 1
+descriptions.  All demons exercise their Skills at Rank 15 and magic
+d567 1
+a567 1
+are not prevented from performing magic by the presence of cold Iron.
+d569 6
+a574 6
+day in his own dimension.  Once a demon is dismissed (returned to his
+own dimension), he cannot return to this plane in less than a day.  A
+demon who has been dispelled by a counterspell or rendered
+unconscious, may return to this plane (by being resummoned in a new
+ritual) only after one full month in his own plane (spent reforming
+the scattered energy pulses that make up his being).
+d577 1
+a577 1
+which he must draw to perform the summoning ritual.  They will speak
+d579 2
+a580 2
+truth.  To insure absolute honesty, a Ritual of True Speaking must be
+performed.  To insure that the demon will not destroy the summoner
+d583 7
+a589 8
+(once the summoner is done speaking to the demon) and will then
+usually return to his own plane.  However, a demon who is particularly
+savage or who has been offered a gift which he rejects will attempt to
+devour the summoner before departing.  The summoner's player must then
+make a check against the summoner's Willpower to determine if the
+summoner breaks the magical circle protecting him and fights the demon
+or remains safely within the Pentacle (in which case, the frustrated
+demon departs).
+d592 16
+a607 16
+membership in the College of Greater Summoning.  Such is not necessary
+to perform the rituals of the College.  However, they may wish to make
+or have made a special Shield (actually a disc of metal engraved with
+symbols of occult power) to protect them during the summoning of
+demons (this shield is made by Adepts of the College of Shaping Magics
+- see Arcane Wisdom).  A summoner who does not have a Shield can
+suffer backfire.  A summoner who is using the proper Shield cannot
+suffer backfire.  Backfire from a Special Knowledge Ritual consists of
+the appearance of the demon being summoned, but inside the circle of
+protection (Pentacle) so that the demon is free to attempt to destroy
+the summoner.  In such cases, the demon may be returned to his own
+dimension by a counterspell (or by being rendered unconscious), but
+will otherwise remain on this plane and freely roam about attacking
+and destroying until somehow banished.  It will not, however begin
+roaming the earth until it has destroyed its summoner.  Backfire
+occurs whenever a player rolls a number which is 30 or more greater
+d610 1
+a610 1
+as ``no effect'' if the summoner has the proper Shield in his hand
+d625 1
+a625 1
+characters'' he summons is the most important aspect of the workings
+d628 1
+a628 1
+him cooperative about some things and uncooperative about others, for
+d636 259
+a894 3
+will have no power (nor will anyone have power over him) while he is
+in those forms.  However, the information is included as clues for the
+GM in structuring the demonic character.
+d896 2
+a897 1
+\newpage
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d16 6
+a21 6
+Summoning.  The Ritual of Summoning, itself, requires.  only one hour
+to execute.  Once he has performed the Ritual of Summoning, he may
+wish to control the entity he has summoned by implementing either a
+Ritual of Binding or a Ritual of True Speaking.  Binding and True
+Speaking Rituals each require one hour to prepare and implement.  If
+the summoner does not implement these rituals immediately upon
+d31 1
+a31 1
+Pentacle.  His companions Occupy the Circle, but are outside the
+d41 1
+a41 1
+the ground by the summoner before the rituals are perform- ed.
+d46 1
+a46 1
+requirements of time, place equipment, knowledge, and circumstance in
+d64 3
+a66 4
+Throughout  all   preparations   for   the   ritual
+and   throughout   the   ritual   itself,   the   Adept
+must  remain  stationary.   He   may   engage   in   no
+other activity.
+d103 1
+a103 1
+performed while the moon Luna is 2,4,6,8, 10, 12 or 14 days into its
+d162 1
+a162 1
+result is 1--4, his companion will be an Imp.  If it is 5--10, it will
+d184 1
+a184 1
+them.  They have no Skills.  They have Rank 5 with all magic.
+d230 1
+a230 1
+affect them.  They have no Skills, but possess Rank 10 with all magic
+d262 1
+a262 1
+future is the same as that of Imps (7\%).  They will never use this
+d327 1
+a327 1
+of the College of Naming incantations.
+d374 1
+a374 1
+in the form 0 tall, beautiful women with flowing hair which hides
+d388 1
+a388 1
+WP: 26--30	& PC: 24--28	& PS: 26--34 \\
+d437 6
+a442 4
+summoning until it has been performed.  Example: The GM may allow the
+Adept to summon Conan the Barbarian, but does not tell him that Conan
+will appear wrapped in bandages and infirm from a recent combat.
+
+@

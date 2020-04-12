@@ -1,0 +1,2946 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL22:2.1
+	REL21:2.1
+	REL20:2.0
+	REL10:1.2;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.1;
+
+4.1
+date	2000.05.22.10.30.46;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.7;
+
+3.7
+date	98.06.04.05.35.08;	author rossa;	state Exp;
+branches;
+next	3.6;
+
+3.6
+date	98.05.11.02.03.41;	author rossa;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	98.05.11.01.21.18;	author rossa;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	98.05.10.23.56.36;	author rossa;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	98.05.06.23.01.22;	author rossa;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	98.05.05.05.38.16;	author rossa;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	98.05.04.04.05.32;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.05.04.03.42.10;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	97.06.09.02.44.07;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	97.05.15.02.07.27;	author rossa;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	97.04.29.09.20.13;	author rossa;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	97.04.29.09.14.43;	author rossa;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	97.04.22.01.07.58;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	97.04.01.01.49.32;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	97.02.25.04.54.00;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	96.02.23.01.47.24;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	96.01.12.02.26.12;	author rossa;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.06.09.01.54.37;	author rossa;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{college}[1.3]{water}{Water Magics}{WA}
+
+The College of Water Magics is concerned with the shaping of the
+element of water. Water Mages, as Adepts of this college are known,
+have difficulty in practising their magics on land without an abundant
+source of their raw material and thus the college has fallen somewhat
+into disuse in many locales. The typical vision people have of Water
+Mages is of an Adept standing on the sea or guiding a ship around
+reefs to a safe harbour. While it is true that some Water Mages do
+perform such duties on ships, the majority either live beside large
+bodies of water or in more recent times have taken to living entirely
+underwater, thus spending all of their time in a different world from
+that experienced by normal people. In general, Water Mages enjoy good
+relations with other colleges with the notable exceptions of the
+elemental College of Fire, due to its opposing elemental nature.
+
+\subsubsection{Traditional Colours}
+
+The traditional colours worn by Water Mages have tended towards the
+greens and blues that symbolise the sea. Aquamarine and sea blue are
+particularly popular amongst those who wish to advertise their
+college. The hermitic type of Water Mage who spends the majority of
+their time underwater usually wear very little, a small bathing suit
+at the most, as most denizens of the deep are not concerned about
+nudity.
+
+\subsubsection{Traditional Symbols}
+
+Water Mage adornments are usually unique items found only upon the sea
+floor such as rare shells or pieces of coral, also wave, fish and
+whale motifs are popular or any animal or occurrence specific to the
+sea they live in.
+
+\subsection{Restrictions}
+
+Adepts of the College of Water Magics may only practice their arts if
+they are in contact with, or near, water. With the exception of
+Dowsing, they may never practice their arts in a vacuum or in a
+totally arid place. They may not summon water-dwelling creatures into
+an area that does not contain a body of water large enough for the
+water-dwelling creature to immerse itself entirely. They may use their
+magic on land (in a non-arid area) but suffer some diminuition in their
+abilities. A character must have 18 MA to become a water mage.
+
+\subsection{Base Chance Modifiers}
+
+The Base Chance of performing any Talent, Spell or Ritual of this
+College is modified by the addition of the following numbers. Apply
+one of the following:
+
+\begin{tabularx}{\linewidth}{Xr}
+Adept is completely immersed in water			& +20 \\
+Adept is in physical contact with water			& +15 \\ 
+Adept is within 25 feet of water			& +10 \\
+Adept is within 500 feet of water			& +5 \\
+Adept is surrounded by mist or fog, or is standing in the rain & +5 \\
+Adept is on land and over 1 mile from water		& -5 \\
+Adept is on land and over 10 miles from water		& -15 \\
+\end{tabularx}
+
+This modifier may be applied in conjunction with one of the above:
+
+\begin{tabularx}{\linewidth}{Xr}
+All water in the vicinity of the Adept is frozen	& -20 \\
+\end{tabularx}
+
+\subsubsection{Notes}
+\begin{Enumerate}
+\item
+For the purpose of these modifiers ``water'' refers to a body of water
+such as a sea, lake, ocean, pond, river, stream, spring or other
+feature containing large amounts of water (1000 gallons or more) or
+existing as part of a larger system or network of waterways. A barrel,
+bucket, or tun of water does not qualify as a body of water.
+
+\item
+Apply the most advantageous modifier from the first group in
+conjunction with the frozen water modifier.
+\end{Enumerate}
+
+\subsection{Talents}
+
+\begin{talent}[T-1]{Predict Weather}
+\range{10 miles (+10 / Rank)}
+\multiple{75}
+\basechance{MA + 5\% / Rank}
+\begin{effects}
+The Adept predicts with some accuracy what the weather will be like
+over the ensuing three days in the area within the range of the
+talent. The Adept must be at sea (on an ocean, sea or large lake) or
+within 15 miles of an ocean, sea or large lake. If the Adept makes a
+successful Predict Weather check, the GM rolls D100 and checks the
+accuracy of the prediction. The following results may occur:
+
+\begin{tabularx}{\linewidth}{rX}
+Dice	& Accuracy \\
+01--05	& Totally wrong (opposite of the prediction occurs) \\
+06--10	& Generally incorrect (fairly wide divergence) \\
+11--85	& Generally correct (close but not totally accurate) \\
+86--100	& Almost totally accurate (say within 1 degree) \\
+\end{tabularx}
+
+Following the dice roll the GM delivers the prediction as though it
+were generally correct.
+\end{effects}
+\end{talent}
+
+\begin{talent}[T-2]{Dowsing}
+
+\multiple{75}
+\basechance{2 \x MA + 4\% / Rank}
+\begin{effects}
+The Adept is able to sense the presence of water above ground, and
+within 100 feet (+ 100 / Rank). The Adept can determine the direction
+and distance to the nearest source of water. Detection of underground
+water has a range of 1 feet (+ 2 / Rank). Assessment of freshness
+increases with increased Rank, \eg Rank 3 can tell salt from fresh;
+Rank 6 can tell alkali from clear, etc. This talent may be exercised
+when the Adept is in a vacuum or a totally arid place. In general the
+GM will roll to determine the success of this talent.
+\end{effects}
+\end{talent}
+
+\begin{talent}[T-3]{Aquatic Affinity}
+
+\multiple{100}
+\begin{effects}
+Adepts of the College of Water Magic have a kinship with their element
+which gives them the following abilities:
+\begin{Enumerate}
+\item The Adept may modify their swimming rolls by 4\% for every Rank they   
+have achieved with this talent.
+\item Above Rank 10, the Adept is considered to be an Aquatic entity for the   
+purposes of calculating underwater defense.
+\item Movement in water is considered to be one row less difficult on the   
+Encumbrance table. If the Adept has more than Rank 10 in this talent then   
+it is two levels less difficult.
+\item General knowledge of the Aquatic environment.
+\end{Enumerate}
+\end{effects}
+\end{talent}
+
+\subsection{General Knowledge Spells}
+
+\begin{spell}[G-1]{Buoyancy}
+
+\range{Touch}
+\duration{30 minutes + 30 / Rank}
+\multiple{100}
+\basechance{45\%}
+\resist{None}
+\storage{Investment, Potion}
+\target{Entity}
+\begin{effects}
+This spell allows the target to float at whatever depth they
+choose. If they want to float upon the surface this spell enables them
+to do so without using any float actions. The rate of ascent or descent
+is 5 feet (+2 additional / Rank) and this spell also protects the target
+from any pressure effects related to being at extreme depths.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-2]{Cold Resistance}
+
+\range{Touch}
+\duration{1 hour + 1 / Rank}
+\multiple{150}
+\basechance{40\%}
+\resist{None}
+\storage{Investment, Potion}
+\target{Entity}
+\begin{effects}
+This spell protects the target from the effects of temperature down to
+0 - 2 / Rank degrees C. It will totally protect the target from the
+effects of Hypothermia. In addition, the target takes 1 (+1/5 Ranks
+(round up)) less damage from magical or non-magical cold-based
+attacks.
+\end{effects}
+\end{spell}
+
+
+\begin{spell}[G-3]{Create Fog}
+
+\range{20 feet + 20 / Rank}
+\duration{6 minutes + 6 / Rank}
+\multiple{100}
+\basechance{20\%}
+\resist{None}
+\storage{Investment, Ward, Magical Trap}
+\target{Volume of Air}
+\begin{effects}
+This spell allows the Adept to create 1000 cubic feet (+500 / Rank) of
+fog entirely within range. The fog must be continuous and connected to
+the surface above which it is conjured. In addition the conjured mist
+has the effect that all entities within the fog have their Strike
+Chances reduced by 5\% (+1 / Rank) due to limited visibility.
+Visibility is reduced to 1 hex. The spell of Water Breathing
+completely negates the effect of this spell.
+\end{effects}
+\end{spell}
+
+
+\begin{spell}[G-4]{Mage Current}
+
+\range{10 feet + 10 / Rank}
+\duration{Concentration: maximum 30 minutes + 30 / Rank}
+\multiple{125}
+\basechance{30\%}
+\resist{None}
+\storage{Investment}
+\target{Water}
+\begin{effects}
+The Adept creates a current in the water within the range (a volume
+that moves with the Adept) of 5 miles per hour (+1 / Rank) in one
+direction. All objects/entities, etc. within the range that are
+submerged in the water or floating on the water are carried at the
+speed of the current. The Adept may freely alter the direction of the
+mage current during the spell (requires active concentration). Passive
+concentration is required to maintain this spell.
+\end{effects}
+\end{spell}
+
+
+\begin{spell}[G-5]{Navigation}
+
+\range{Self}
+\duration{1 hour + 1 / Rank}
+\multiple{125}
+\basechance{15\%}
+\resist{None}
+\storage{Potion}
+\target{Self}
+\begin{effects}
+The spell attunes the Adept's mind to the sea and winds, allowing them
+to sail with less chance of mishap. This decreases the chance of
+veering off course, running aground, etc., by 5\% (+ 1 / Rank). In
+addition the Adept may add 1 (+ 1 / 4 full Ranks), to their effective
+Rank in the Navigator Skill.
+\end{effects}
+\end{spell}
+
+
+\begin{spell}[G-6]{Rehydration}
+
+\range{Touch}
+\duration{Immediate}
+\multiple{350}
+\basechance{30\%}
+\resist{None}
+\storage{Investment, Magical Trap}
+\target{Object}
+\begin{effects}
+This spell rehydrates (restores dried substances to their normal water
+content) including dehydrated entities.
+\end{effects}
+\end{spell}
+
+
+\begin{spell}[G-7]{Saturated Earth}
+
+\range{100 feet + 50 / Rank}
+\duration{1 hour + 1 / Rank}
+\multiple{250}
+\basechance{25\%}
+\resist{None}
+\storage{Investment, Ward}
+\target{Area}
+\begin{effects}
+The Adept summons water from deep within the earth, rising to the
+surface in 100 seconds (-5 / Rank), causing the ground in an area of
+100 feet (+10 / Rank) radius to become totally sodden. Earth will turn
+to mud. Sand has a 30\% chance of turning into quicksand (swallowing
+any trapped individuals in 20 seconds) and a 70\% chance of turning
+into firm hard sand facilitating easy movement. The Adept may alter
+these chances by 1\% per Rank. Wetlands will be unaffected by this
+spell, as will solid rocky terrain. With this spell, all wells in an
+area can be caused to fill and all crops will be well watered.
+\end{effects}
+\end{spell}
+
+
+\begin{spell}[G-8]{Ship Strength}
+
+\range{90 feet + 15 / Rank}
+\duration{5 days + 1 / Rank}
+\multiple{200}
+\basechance{20\%}
+\resist{None}
+\storage{Investment}
+\target{Ship, boat, wood}
+\begin{effects}
+This spell may be used to strengthen the structure of any ship or
+boat, repair leaks or holes, restep masts, etc. At Rank 10 and above,
+a small sail craft can be constructed out of available wood. At Rank
+15 or above, a large craft (40 feet or more in length) may be
+constructed. At the end of the spell's duration, its effects are
+undone; a constructed craft will fall apart (even in mid-ocean). In
+addition, any craft which is affected by this spell has its chance of
+encountering sea monsters, pirates or typhoons, decreased by 5\%
+(+1 / Rank).
+\end{effects}
+\end{spell}
+
+
+\begin{spell}[G-9]{Speak to Aquatic Life}
+
+\range{15 feet + 15 / Rank}
+\duration{1 hour + 1 / Rank}
+\multiple{150}
+\basechance{40\%}
+\resist{None}
+\storage{Potion}
+\target{Self}
+\begin{effects}
+This spell allows the Adept to communicate with any one form of
+aquatic life within range. This communication usually consists of both
+speech and gesture. All members of the selected generic type of
+aquatic that are within speaking range can be understood and can
+understand the Adept. The Adept may have more than one spell on at
+once, as long as they are for different generic types.
+\end{effects}
+\end{spell}
+
+
+\begin{spell}[G-10]{Summon Aquatic Life}
+
+\range{Unlimited}
+\duration{Immediate}
+\multiple{100}
+\basechance{20\%}
+\resist{None}
+\storage{Investment, Potion}
+\target{Aquatic Species}
+\begin{effects}
+The Adept may summon 1 aquatic creature (+ 1 / Rank). It may take up
+to 30 minutes (- 30 seconds / Rank) for the aquatic life forms to
+arrive. The species must be native to the area to be summoned and the
+Adept must be within 100 feet of a body of water.
+\end{effects}
+\end{spell}
+
+
+\begin{spell}[G-11]{Water Breathing}
+
+\range{Touch}
+\duration{1 hour + 1 / Rank}
+\multiple{100}
+\basechance{25\%}
+\resist{None}
+\storage{Investment, Potion}
+\target{Entity}
+\begin{effects}
+This spell forms a set of gills in the subject's neck and covers their
+eyes with a transparent film. This allows the target to breathe and
+see equally well under water as on land. The target may cast spells
+subject to the restrictions of their College.  The spell does not
+affect the target's ability to operate on the surface.  This spell
+allows vocal communication to a range of the target's perception in
+hexes.
+\end{effects}
+\end{spell}
+
+
+\begin{spell}[G-12]{Water Creation}
+
+\range{Touch}
+\duration{Immediate}
+\multiple{150}
+\basechance{35\%}
+\resist{None}
+\storage{Investment}
+\target{Water}
+\begin{effects}
+The Adept must touch the substance from which water is to be
+drawn. The spell allows the Adept to extract moisture from the air, or
+from plants (providing there is moisture available to be extracted) to
+the amount of 1 pint (+ 1 / Rank).
+\end{effects}
+\end{spell}
+
+
+\begin{spell}[G-13]{Waterproofing}
+
+\range{Touch}
+\duration{Special}
+\multiple{150}
+\basechance{30\%}
+\resist{None}
+\storage{Investment}
+\target{Entity or Object}
+\begin{effects}
+This spell protects any affected entity or object completely from all
+forms of non-magical water damage. It works on any item less than or
+equal to 5 pounds (+ 10 / Rank) in weight. Thus, written scrolls would
+not run, steel would not rust, potions would not dilute, clothing
+would not get wet etc.  The duration is 5 days (+ 5 / Rank) for
+objects, and 3 hours (+ 3 / Rank) for entities.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-14]{Wave Control}
+
+\range{90 feet + 90 / Rank}
+\duration{15 minutes + 15 / Rank}
+\multiple{125}
+\basechance{25\%}
+\resist{None}
+\storage{Investment, Ward, Magical Trap}
+\target{Volume of Water}
+\begin{effects}
+The Adept can increase or decrease the size of all waves within range
+by 5 feet (+ 1 additional foot / Rank).
+\end{effects}
+\end{spell}
+
+\subsection{General Knowledge Rituals}
+
+\begin{ritual}[Q-1]{Binding Water}
+
+\range{10 feet + 15 / Rank}
+\duration{1 hour + 1 / Rank}
+\multiple{750}
+\basechance{MA + 4\% / Rank}
+\resist{Special}
+\begin{effects}
+The Adept can bind the element of water while maintaining their
+concentration. It takes an hour to perform this ritual. The results
+are similar to the binding of all other elements. The Adept gains
+control of all facets of the element. They can, for example, create an
+intelligent water sprite (which will always have characteristics
+several points lower than the Adept) however, its every action would
+have to be directed by the Adept. At Rank 10 or higher, the Adept can
+create a free-willed water sprite that will be loyal to them and not
+require its every move be directed. Such entities will never leave the
+water.  The will not be resisted unless the area contains a Water
+Elemental, which may passively and actively resist.
+\end{effects}
+\end{ritual}
+
+\subsection{Special Knowledge Spells}
+
+\begin{spell}[S-1]{Control Aquatic Life}
+
+\range{10 feet + 10 / Rank}
+\duration{Concentration: no maximum}
+\multiple{100}
+\basechance{20\%}
+\resist{Passive}
+\storage{Investment}
+\target{Aquatic Entity}
+\begin{effects}
+This spell allows the caster to control 1 (+ 1 / 2 Ranks) aquatic
+creatures (which must be of the same generic type). These creatures
+will serve the caster so long as the caster concentrates or until they
+are told to go away (move out of range of the spell). A creature that
+is no longer controlled but still in the vicinity may attack its
+former master. If the target is of a particularly small, schooling
+species, the Adept may be able to control the whole or part of the
+school. This spell cannot be used to control sentient
+creatures. Aquatic Mammals are usually non-sentient.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-2]{Dehydration}
+
+\range{20 feet + 20 / Rank}
+\duration{Immediate}
+\multiple{500}
+\basechance{1\%}
+\resist{Active, Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Object, Entity}
+\begin{effects}
+The target of this spell must successfully resist or have all of the
+water removed from their body, resulting in instant mummification. The
+target's corpse will remain preserved indefinitely (if kept dry, since
+little or no tissue damage occurs). After rehydration the body will be
+able to be resurrected as if it had just died. If the target is
+formerly or never living, the Adept receives +40\% on the Base
+Chance. When used in this manner the spell can be used to dehydrate
+such things as food for preservation, such things lasting indefinitely
+if kept dry.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-3]{Flash Flood}
+
+\range{600 feet + 600 / Rank}
+\duration{30 seconds + 30 / Rank}
+\multiple{500}
+\basechance{2\%}
+\resist{None}
+\storage{Investment, Ward, Magical Trap}
+\target{Watercourse}
+\begin{effects}
+The Adept causes a particular watercourse within range to swell and
+burst its banks. The watercourse can be a stream, dry river bed, small
+or large river (\ie anywhere that might be subject to such an
+occurrence naturally, including drains and sewers). The flood will
+occur with very little warning.  After 30 seconds of low rumblings,
+the water level will suddenly rise, sweeping all before it. The flood
+will wipe out any small bridges and dams within range, wash people
+away, unhorse riders, wash wagons and carts away (chance of
+destruction dependent upon construction). The effects are most
+noticeable on small rivers or dry river beds.  On a large river, the
+flood might appear as a large wave which would look rather innocuous
+at a distance but which would wreak just as much havoc. After the
+spell duration expires, the water level will drop just as quickly as
+it rose. All those caught in the flow must make a successful swimming
+roll to avoid drowning. If a person is unhorsed they must make a
+horsemanship roll to stay with their horse, in which case they may use
+the horse's Rank in swimming (generally 8) to determine drowning.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-4]{Geyser}
+
+\range{20 feet + 20 / Rank}
+\duration{30 seconds + 30 / Rank}
+\multiple{350}
+\basechance{15\%}
+\resist{Active, Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Ground}
+\begin{effects}
+The Adept calls forth from the ground 1 (+ 1 / Rank) jets of hot steam
+and mud. Each jet must appear in an adjacent hex to at least one other
+jet. Any Entity occupying an affected hex must resist or suffer [D -
+4] (+ 1 / 2 or fraction Ranks), half if resisted (round down), damage,
+per pulse. If a character resists they are allowed an automatic hex of
+movement. It is necessary to resist for each separate hex passed
+through, however only 1 resistance check is necessary for an
+individual hex regardless of the duration it is occupied for. Magical
+Waterproofing or Protection from Normal Fire will shield a character
+completely from any damage.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-5]{Liquid Purification}
+
+\range{15 feet}
+\duration{Immediate}
+\multiple{350}
+\basechance{30\%}
+\resist{None}
+\storage{Investment}
+\target{Aqueous Liquid}
+\begin{effects}
+The Adept may turn 1 quart (+ 1 / Rank) of any aqueous liquid into
+drinkable water.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-6]{Liquid Transmutation}
+
+\range{Touch}
+\duration{Immediate}
+\multiple{350}
+\basechance{30\%}
+\resist{None}
+\storage{Investment}
+\target{Potable water}
+\begin{effects}
+The Adept may turn 1 pint of drinkable water into any other common
+liquid of their choice. The quality of the transformed liquid is
+dependent upon Rank (Rank 0, a wine might be made that was just
+drinkable, Rank 10 a Silver or Gold Medal young wine, Rank 20, an
+unsurpassed wine of its type).
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-7]{Maelstrom}
+
+\range{30 feet + 30 / Rank}
+\duration{10 seconds + 10 / Rank}
+\multiple{500}
+\basechance{10\%}
+\resist{Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Volume of Water}
+\begin{effects}
+The Adept creates a horrifying watery vortex with a diameter of 10
+feet (+ 10 / Rank) which exists entirely within the spell's range. All
+objects and entities within 20 feet of the vortex must successfully
+resist or they are sucked into the eye of the vortex and down to the
+sea bottom. This spell will only be effective if cast over a large
+body of water (sea, ocean or lake).
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-8]{Rainstorm}
+
+\range{20 feet + 20 / Rank}
+\duration{30 minutes + 30 / Rank}
+\multiple{300}
+\basechance{20\%}
+\resist{Active, Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Entity}
+\begin{effects}
+The caster summons a miniature rainstorm, radius 5 feet (+ 1 / Rank),
+that appears over the target's head (little dark rain cloud, tiny
+lightning bolts and all). If the target fails to resist, the storm
+will follow them for the duration (even inside buildings), completely
+soaking everything not waterproof in 60 seconds (- 5 / Rank). The
+distraction caused by the storm will add 2\% per Rank to any rolls the
+target makes that are of a mental nature (\ie require thought or
+concentration) or 1\% per Rank to other rolls. All characters in the
+area of effect will suffer these effects although the effects are
+halved if they are not the actual target of the spell. If the target
+is waterproofed the effects will be minimal and if they are a Water
+Mage they will suffer no ill effect, but will have their Base Chances
+increased by 5\%. If the Adept chooses to cast this spell on himself
+the duration is increased to 24 hours.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-9]{Storm Calling}
+
+\range{Works at any Range}
+\duration{Special}
+\multiple{200}
+\basechance{40\%}
+\resist{None}
+\storage{Investment}
+\target{Storm Front}
+\begin{effects}
+The Adept may summon any storm front which may exist anywhere in
+sight. Upon reaching the spot occupied by the Adept at the time of
+casting, the storm front will slow and finally cease moving and begin
+to downpour (snow, rain, sleet, or whatever else the GM feels clouds
+may contain). Generally a storm front can be seen for 20 to 30
+miles. If no front can be seen, the spell may still be cast but the
+Base Chance is reduced by 20. The storm front will take D10 \x 3 (- 1
+/ Rank) minutes to arrive.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-10]{Walk on Water}
+
+\range{10 feet + 10 / Rank}
+\duration{5 minutes + 5 / Rank}
+\multiple{200}
+\basechance{30\%}
+\resist{None}
+\storage{Investment, Potion}
+\target{Entity}
+\begin{effects}
+The target is able to walk on the surface of water as if it were solid
+and non-slip. They may travel at their normal TMR. Reduce TMR by 1 for
+every foot above 3 in wave height. In rough waters, agility rolls may
+be deemed necessary (unless crawling).
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-11]{Waters of Healing}
+
+\range{Touch}
+\duration{Special}
+\multiple{400}
+\basechance{30\%}
+\resist{None}
+\storage{Special}
+\target{Volume of water}
+\begin{effects}
+This spell has two distinct uses:
+\begin{Enumerate}
+\item
+The Adept can turn 1 pint of water into a half pint healing
+potion. The Potion will last 2 minutes (+2 / Rank) and will cure [D -
+5] (+1 / Rank) Endurance or Fatigue damage.
+
+\item
+Alternatively, this potion may be used to immediately neutralise the
+effects of any venom, plus it will cure 1 point of Endurance loss due
+to the venom (the potion will only cure 1 point of damage due to
+venom).
+\end{Enumerate}
+In addition to these two effects the Adept may spend an hour and
+utilise materials costing 200sp to make a Potion with the same effects
+that will last indefinitely. The ingredients are used up regardless of
+success or failure.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-12]{Waters of Strength}
+
+\range{Touch}
+\duration{Special}
+\multiple{350}
+\basechance{30\%}
+\resist{None}
+\storage{Special}
+\target{Pint of water}
+\begin{effects}
+This spell can be prepared in two ways:
+\begin{Enumerate}
+\item
+The Adept can turn 1 pint of water into a half pint strength
+potion. The Potion will last 2 minutes (+ 2 / Rank) and when drunk
+adds [D - 2] (+ 1 / Rank) to Physical Strength for 5 minutes (+ 5 /
+Rank).
+
+\item
+The Adept may spend an hour and utilise materials costing 500sp to
+make a Potion with the same effects that will last indefinitely.
+Potions are not cumulative. The ingredients are used regardless of
+success or failure.
+\end{Enumerate}
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-13]{Waters of Vision}
+
+\range{Touch}
+\duration{10 seconds}
+\multiple{250}
+\basechance{25\%}
+\resist{None}
+\storage{Investment}
+\target{Pool of water}
+\begin{effects}
+The Adept must touch a pool of water with their hand. They may then
+view visions (usually precognitive in nature) concocted by the GM. At
+Rank 5 and above, they may use this technique to spy into an area to
+see what is going on there. The maximum distance from the character to
+the area being spied into is 5 miles (+ 15 / Rank). The point of view of
+the Waters cannot be changed. If user is not able to form a clear
+mental image of the location to be spied upon or command the waters to
+focus on an unambiguously defined point in space, then it is the GM's
+discretion as to what will be seen
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-14]{Waterspout}
+
+\range{60 feet + 60 / Rank}
+\duration{30 seconds + 30 / Rank}
+\multiple{750}
+\basechance{5\%}
+\resist{Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Volume of water}
+\begin{effects}
+The Adept creates a tornado-like formation with a radius of 5 feet (+
+5 / Rank), over a body of water. The waterspout kills anyone and
+destroys anything which occupies the same space with it unless they
+successfully resist. The waterspout does [D - 1] (+ 1 / Rank) damage
+to a character who resists successfully instead of inflicting enough
+damage to kill them. A character need only resist the waterspout
+once. Boats and ships will be affected at the GM's discretion. Small
+boats may be broken into match sticks and will almost certainly
+capsize, large ships may suffer less damage, but lose rigging, masts
+etc. If the Adept concentrates they may move the waterspout in any
+direction they desire at a rate of 10 mph (+ 5 / Rank). It may never
+be moved onto dry land.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-15]{Wave Riding}
+
+\range{10 feet + 10 / Rank}
+\duration{Concentration: maximum 30 minutes + 30 / Rank}
+\multiple{300}
+\basechance{20\%}
+\resist{None}
+\storage{Investment}
+\target{Entity}
+\begin{effects}
+This spell forms a wave of water under the target controlled by the
+Adept, allowing travel up to 10 mph (+ 2 / Rank). This spell will only
+form a wave on a suitably sized body of water. Speed of current will
+add/subtract to speed, wind will not. The wave requires passive
+concentration to maintain and to keep moving in the required
+direction. The wave dissipates if the Adept loses concentration.
+Multiple casts of this spell may be maintained by the same passive
+concentration action, thus several targets may ride the same wave (not
+separate ones).
+\end{effects}
+\end{spell}
+
+\subsection{Special Knowledge Rituals}
+
+\begin{ritual}[R-1]{Summoning and Binding Water Elemental}
+
+\range{20 feet}
+\duration{ passive concentration}
+\multiple{250}
+\basechance{MA +5\% / Rank +1\% WP above 15}
+\resist{None}
+\begin{effects}
+The Adept may summon a Water Elemental and bind it to temporary
+service by performing this ritual. The ritual takes two hours. It may
+only be performed if the summoner is in contact with, or within 20
+feet of, a large body of water (ocean, sea or lake) and the summoner
+remains stationary and takes no other action during the time the
+ritual is being performed. At the end of the two hour ritual, the
+player makes a Cast Check. If the ritual is successful the Elemental
+is summoned and controlled. If the ritual backfires then the Elemental
+is summoned but not controlled and will attack the summoner and their
+friends.
+
+A Water Elemental always appears within 20 feet of the summoner. It
+has a combined Endurance and Fatigue equal to 15 (+15 / Rank). The
+Elemental will remain until it is sent back to its own dimension by
+the Adept (with a Special Knowledge Counterspell of the College of
+Water Magics) or banished. If it is controlled by the summoner it will
+remain controlled until the summoner's concentration is broken.
+\end{effects}
+\end{ritual}
+\end{college}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@@
+
+
+4.1
+log
+@Minor corrections from Andrew Withy plus formatting changes.
+@
+text
+@d1 1
+a1 1
+\begin{college}[1.3]{water}{Water Magics}
+d86 1
+a86 1
+\basechance{MA +5\% / Rank}
+d111 1
+a111 1
+\basechance{2 \x MA (+ 4\% / Rank)}
+d114 3
+a116 3
+within 100 feet (+100 / Rank). The Adept can determine the direction and
+distance to the nearest source of water. Detection of underground
+water has a range of 1 feet (+2 / Rank). Assessment of freshness
+d148 1
+a148 1
+\duration{30 minutes (+ 30 / Rank)}
+d151 1
+a151 1
+\resist{No}
+d166 1
+a166 1
+\duration{1 hour (+ 1 / Rank)}
+d169 1
+a169 1
+\resist{No}
+d184 2
+a185 2
+\range{20 feet (+ 20 / Rank)}
+\duration{6 minutes (+ 6 / Rank)}
+d188 1
+a188 1
+\resist{No}
+d205 2
+a206 2
+\range{10 feet (+ 10 / Rank)}
+\duration{Concentration: maximum 30 minutes (+ 30 / Rank)}
+d209 1
+a209 1
+\resist{No}
+d227 1
+a227 1
+\duration{1 hour (+ 1 / Rank)}
+d230 1
+a230 1
+\resist{No}
+d249 1
+a249 1
+\resist{No}
+d261 2
+a262 2
+\range{100 feet (+ 50 / Rank)}
+\duration{1 hour (+ 1 / Rank)}
+d265 1
+a265 1
+\resist{No}
+d284 2
+a285 2
+\range{90 feet (+ 15 / Rank)}
+\duration{5 days (+ 1 / Rank)}
+d288 1
+a288 1
+\resist{No}
+d307 2
+a308 2
+\range{15 feet (+ 15 / Rank)}
+\duration{1 hour (+ 1 / Rank)}
+d311 1
+a311 1
+\resist{No}
+d327 1
+a327 1
+\range{Works at any range}
+d331 1
+a331 1
+\resist{No}
+d346 1
+a346 1
+\duration{1 hour (+ 1 / Rank)}
+d349 1
+a349 1
+\resist{No}
+d370 1
+a370 1
+\resist{No}
+d388 1
+a388 1
+\resist{No}
+d403 2
+a404 2
+\range{90 feet (+ 90 / Rank)}
+\duration{15 minutes (+ 15 / Rank)}
+d407 1
+a407 1
+\resist{No}
+d420 2
+a421 2
+\range{10 feet (+ 15 / Rank)}
+\duration{1 hour (+ 1 / Rank)}
+d423 2
+a424 2
+\basechance{MA (+ 4 / Rank)}
+\resist{No, unless the area contains a Water Elemental which may passively and actively resist}
+d435 2
+a436 1
+water.
+d444 2
+a445 2
+\range{10 feet (+ 10 / Rank)}
+\duration{Passive concentration: no maximum}
+d448 1
+a448 1
+\resist{may be passively resisted}
+d466 1
+a466 1
+\range{20 feet (+ 20 / Rank)}
+d470 1
+a470 1
+\resist{ May be actively and passively resisted}
+d488 2
+a489 2
+\range{600 feet (+ 600 / Rank)}
+\duration{30 seconds (+ 30 / Rank)}
+d492 1
+a492 1
+\resist{No}
+d518 2
+a519 2
+\range{20 feet (+ 20 / Rank)}
+\duration{30 seconds (+ 30 / Rank)}
+d522 1
+a522 1
+\resist{May be actively and passively resisted}
+d545 1
+a545 1
+\resist{No}
+d560 1
+a560 1
+\resist{No}
+d574 2
+a575 2
+\range{30 feet (+ 30 / Rank)}
+\duration{10 seconds (+ 10 / Rank)}
+d578 1
+a578 1
+\resist{May be passively resisted.}
+d593 2
+a594 2
+\range{20 feet (+ 20 / Rank)}
+\duration{30 minutes (+ 30 / Rank)}
+d597 1
+a597 1
+\resist{May be actively and passively resisted}
+d621 1
+a621 1
+\duration{Variable}
+d624 1
+a624 1
+\resist{No}
+d641 2
+a642 2
+\range{10 feet (+ 10 / Rank)}
+\duration{5 minutes (+ 5 / Rank)}
+d645 1
+a645 1
+\resist{May not be resisted}
+d647 1
+a647 1
+\target{Entity }
+d659 1
+a659 1
+\duration{Various (See below)}
+d662 1
+a662 1
+\resist{No}
+d689 1
+a689 1
+\duration{Various (See below)}
+d692 1
+a692 1
+\resist{No}
+d719 1
+a719 1
+\resist{No}
+d737 2
+a738 2
+\range{60 feet (+ 60 / Rank)}
+\duration{30 seconds (+ 30 / Rank)}
+d741 1
+a741 1
+\resist{may be passively resisted}
+d762 2
+a763 2
+\range{10 feet (+ 10 / Rank)}
+\duration{Passive concentration: maximum 30 minutes (+ 30 / Rank))}
+d766 1
+a766 1
+\resist{No}
+d790 1
+a790 1
+\resist{No}
+@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 1
+a1 4
+\section{The College of Water Magics (Ver 1.3)}
+\index{colleges!Water Magics|(}
+
+\begin{multicols}{3}
+d17 2
+a18 1
+\textbf{Traditional Colours:}
+d27 2
+a28 1
+\textbf{Traditional Symbols:}
+d84 4
+a87 4
+\sItem{Range}{10 miles (+10 / Rank)}
+\sItem{Experience Multiple}{75}
+\sItem{Base Chance}{MA +5\% / Rank}
+\emph{Effect:}
+d105 1
+d110 3
+a112 3
+\sItem{Experience Multiple}{75}
+\sItem{Base Chance}{2 \x MA (+ 4\% / Rank)}
+\emph{Effect:}
+d121 1
+d126 2
+a127 2
+\sItem{Experience Multiple}{100}
+\emph{Effect:}
+d140 1
+d147 8
+a154 8
+\sItem{Range}{Touch}
+\sItem{Duration}{30 minutes (+ 30 / Rank)}
+\sItem{Experience Multiple}{100}
+\sItem{Base Chance}{45\%}
+\sItem{Resist}{No}
+\sItem{Storage}{Investment, Potion}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d160 1
+d165 8
+a172 8
+\sItem{Range}{Touch}
+\sItem{Duration}{1 hour (+ 1 / Rank)}
+\sItem{Experience Multiple}{150}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{No}
+\sItem{Storage}{Investment, Potion}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d178 1
+d184 8
+a191 8
+\sItem{Range}{20 feet (+ 20 / Rank)}
+\sItem{Duration}{6 minutes (+ 6 / Rank)}
+\sItem{Experience Multiple}{100}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{No}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Volume of Air}
+\emph{Effect:}
+d199 1
+d205 8
+a212 8
+\sItem{Range}{10 feet (+ 10 / Rank)}
+\sItem{Duration}{Concentration: maximum 30 minutes (+ 30 / Rank)}
+\sItem{Experience Multiple}{125}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{No}
+\sItem{Storage}{Investment}
+\sItem{Target}{Water}
+\emph{Effect:}
+d220 1
+d226 8
+a233 8
+\sItem{Range}{Self}
+\sItem{Duration}{1 hour (+ 1 / Rank)}
+\sItem{Experience Multiple}{125}
+\sItem{Base Chance}{15\%}
+\sItem{Resist}{No}
+\sItem{Storage}{Potion}
+\sItem{Target}{Self}
+\emph{Effect:}
+d239 1
+d245 8
+a252 8
+\sItem{Range}{Touch}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{350}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{No}
+\sItem{Storage}{Investment, Magical Trap}
+\sItem{Target}{Object}
+\emph{Effect:}
+d255 1
+d261 8
+a268 8
+\sItem{Range}{100 feet (+ 50 / Rank)}
+\sItem{Duration}{1 hour (+ 1 / Rank)}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{25\%}
+\sItem{Resist}{No}
+\sItem{Storage}{Investment, Ward}
+\sItem{Target}{Area}
+\emph{Effect:}
+d278 1
+d284 8
+a291 8
+\sItem{Range}{90 feet (+ 15 / Rank)}
+\sItem{Duration}{5 days (+ 1 / Rank)}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{No}
+\sItem{Storage}{Investment}
+\sItem{Target}{Ship, boat, wood}
+\emph{Effect:}
+d301 1
+d307 8
+a314 8
+\sItem{Range}{15 feet (+ 15 / Rank)}
+\sItem{Duration}{1 hour (+ 1 / Rank)}
+\sItem{Experience Multiple}{150}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{No}
+\sItem{Storage}{Potion}
+\sItem{Target}{Self}
+\emph{Effect:}
+d321 1
+d327 8
+a334 8
+\sItem{Range}{Works at any range}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{100}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{No}
+\sItem{Storage}{Investment, Potion}
+\sItem{Target}{Aquatic Species}
+\emph{Effect:}
+d339 1
+d345 8
+a352 8
+\sItem{Range}{Touch}
+\sItem{Duration}{1 hour (+ 1 / Rank)}
+\sItem{Experience Multiple}{100}
+\sItem{Base Chance}{25\%}
+\sItem{Resist}{No}
+\sItem{Storage}{Investment, Potion}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d360 1
+d366 8
+a373 8
+\sItem{Range}{Touch}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{150}
+\sItem{Base Chance}{35\%}
+\sItem{Resist}{No}
+\sItem{Storage}{Investment}
+\sItem{Target}{Water}
+\emph{Effect:}
+d378 1
+d384 8
+a391 8
+\sItem{Range}{Touch}
+\sItem{Duration}{Special}
+\sItem{Experience Multiple}{150}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{No}
+\sItem{Storage}{Investment}
+\sItem{Target}{Entity or Object}
+\emph{Effect:}
+d398 1
+d403 8
+a410 8
+\sItem{Range}{90 feet (+ 90 / Rank)}
+\sItem{Duration}{15 minutes (+ 15 / Rank)}
+\sItem{Experience Multiple}{125}
+\sItem{Base Chance}{25\%}
+\sItem{Resist}{No}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Volume of Water}
+\emph{Effect:}
+d413 1
+d420 6
+a425 6
+\sItem{Range}{10 feet (+ 15 / Rank)}
+\sItem{Duration}{1 hour (+ 1 / Rank)}
+\sItem{Experience Multiple}{750}
+\sItem{Base Chance}{MA (+ 4 / Rank)}
+\sItem{Resist}{No, unless the area contains a Water Elemental which may passively and actively resist}
+\emph{Effect:}
+d436 1
+d443 8
+a450 8
+\sItem{Range}{10 feet (+ 10 / Rank)}
+\sItem{Duration}{Passive concentration: no maximum}
+\sItem{Experience Multiple}{100}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{may be passively resisted}
+\sItem{Storage}{Investment}
+\sItem{Target}{Aquatic Entity}
+\emph{Effect:}
+d460 1
+d465 8
+a472 8
+\sItem{Range}{20 feet (+ 20 / Rank)}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{500}
+\sItem{Base Chance}{1\%}
+\sItem{Resist}{ May be actively and passively resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Object, Entity}
+\emph{Effect:}
+d482 1
+d487 8
+a494 8
+\sItem{Range}{600 feet (+ 600 / Rank)}
+\sItem{Duration}{30 seconds (+ 30 / Rank)}
+\sItem{Experience Multiple}{500}
+\sItem{Base Chance}{2\%}
+\sItem{Resist}{No}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Watercourse}
+\emph{Effect:}
+d512 1
+d517 8
+a524 8
+\sItem{Range}{20 feet (+ 20 / Rank)}
+\sItem{Duration}{30 seconds (+ 30 / Rank)}
+\sItem{Experience Multiple}{350}
+\sItem{Base Chance}{15\%}
+\sItem{Resist}{May be actively and passively resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Ground}
+\emph{Effect:}
+d535 1
+d540 8
+a547 8
+\sItem{Range}{15 feet}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{350}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{No}
+\sItem{Storage}{Investment}
+\sItem{Target}{Aqueous Liquid}
+\emph{Effect:}
+d550 1
+d555 8
+a562 8
+\sItem{Range}{Touch}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{350}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{No}
+\sItem{Storage}{Investment}
+\sItem{Target}{Potable water}
+\emph{Effect:}
+d568 1
+d573 8
+a580 8
+\sItem{Range}{30 feet (+ 30 / Rank)}
+\sItem{Duration}{10 seconds (+ 10 / Rank)}
+\sItem{Experience Multiple}{500}
+\sItem{Base Chance}{10\%}
+\sItem{Resist}{May be passively resisted.}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Volume of Water}
+\emph{Effect:}
+d587 1
+d592 8
+a599 8
+\sItem{Range}{20 feet (+ 20 / Rank)}
+\sItem{Duration}{30 minutes (+ 30 / Rank)}
+\sItem{Experience Multiple}{300}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{May be actively and passively resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d614 1
+d619 8
+a626 8
+\sItem{Range}{Works at any Range}
+\sItem{Duration}{Variable}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{No}
+\sItem{Storage}{Investment}
+\sItem{Target}{Storm Front}
+\emph{Effect:}
+d635 1
+d640 8
+a647 8
+\sItem{Range}{10 feet (+ 10 / Rank)}
+\sItem{Duration}{5 minutes (+ 5 / Rank)}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Potion}
+\sItem{Target}{Entity }
+\emph{Effect:}
+d652 1
+d657 8
+a664 8
+\sItem{Range}{Touch}
+\sItem{Duration}{Various (See below)}
+\sItem{Experience Multiple}{400}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{No}
+\sItem{Storage}{Special}
+\sItem{Target}{Volume of water}
+\emph{Effect:}
+d682 1
+d687 8
+a694 8
+\sItem{Range}{Touch}
+\sItem{Duration}{Various (See below)}
+\sItem{Experience Multiple}{350}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{No}
+\sItem{Storage}{Special}
+\sItem{Target}{Pint of water}
+\emph{Effect:}
+d709 1
+d714 8
+a721 8
+\sItem{Range}{Touch}
+\sItem{Duration}{10 seconds}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{25\%}
+\sItem{Resist}{No}
+\sItem{Storage}{Investment}
+\sItem{Target}{Pool of water}
+\emph{Effect:}
+d731 1
+d736 8
+a743 8
+\sItem{Range}{60 feet (+ 60 / Rank)}
+\sItem{Duration}{30 seconds (+ 30 / Rank)}
+\sItem{Experience Multiple}{750}
+\sItem{Base Chance}{5\%}
+\sItem{Resist}{may be passively resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Volume of water}
+\emph{Effect:}
+d756 1
+d761 8
+a768 8
+\sItem{Range}{10 feet (+ 10 / Rank)}
+\sItem{Duration}{Passive concentration: maximum 30 minutes (+ 30 / Rank))}
+\sItem{Experience Multiple}{300}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{No}
+\sItem{Storage}{Investment}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d778 1
+d785 6
+a790 6
+\sItem{Range}{20 feet}
+\sItem{Duration}{ passive concentration}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{MA +5\% / Rank +1\% WP above 15}
+\sItem{Resist}{No}
+\emph{Effect:}
+d798 3
+a800 4
+is summoned and controlled. If the ritual backfires (the Cast Check
+exceeds the Base Chance by 30 or more) then the Elemental is summoned
+but not controlled and will attack the summoner and their friends. If
+the ritual fails it has no effect.
+d808 1
+d810 1
+a810 6
+
+\raggedcolumns
+\index{colleges!Water Magics|)}
+\newpage
+\end{multicols}
+\clearemptydoublepage
+@
+
+
+3.7
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+3.6
+log
+@Fix e.g. problem
+@
+text
+@d69 1
+a69 1
+\begin{enumerate}
+d80 1
+a80 1
+\end{enumerate}
+d146 1
+a146 1
+\sItem{Duration}{30 minutes (+30 / Rank)}
+d163 1
+a163 1
+\sItem{Duration}{1 hour (+1 / Rank)}
+d180 2
+a181 2
+\sItem{Range}{20 feet (+20 / Rank)}
+\sItem{Duration}{6 minutes (+6 / Rank)}
+d188 1
+a188 1
+The spell allows the Adept to create 1000 cubic feet (+500 / Rank) of
+d200 2
+a201 2
+\sItem{Range}{10 feet (+10 / Rank)}
+\sItem{Duration}{Concentration: maximum 30 minutes (+30 / Rank)}
+d206 1
+a206 1
+\sItem{Target}{Water }
+d221 1
+a221 1
+\sItem{Duration}{1 hour (+1 / Rank)}
+d253 2
+a254 2
+\sItem{Range}{100 feet (+50 / Rank)}
+\sItem{Duration}{1 hour (+1 / Rank)}
+d275 2
+a276 2
+\sItem{Range}{90 feet (+15 / Rank)}
+\sItem{Duration}{5 days (+1 / Rank)}
+d297 2
+a298 2
+\sItem{Range}{15 feet (+15 / Rank)}
+\sItem{Duration}{1 hour (+1 / Rank)}
+d305 6
+a310 6
+The spell allows the Adept to communicate with any one form of aquatic
+life within range. This communication usually consists of both speech
+and gesture. All members of the selected generic type of aquatic that
+are within speaking range can be understood and can understand the
+Adept. The Adept may have more than one spell on at once, as long as
+they are for different generic types.
+d341 1
+a341 1
+The spell forms a set of gills in the subject's neck and covers their
+d388 2
+a389 2
+\sItem{Range}{90 feet (+90 / Rank)}
+\sItem{Duration}{15 minutes (+15 / Rank)}
+d404 2
+a405 2
+\sItem{Range}{10 feet (+15 / Rank)}
+\sItem{Duration}{1 hour (+1 / Rank)}
+d407 2
+a408 2
+\sItem{Base Chance}{MA (+4 / Rank)}
+\sItem{Resist}{No, unless the area contains a Water Elemental which may passively and actively resist.}
+d426 1
+a426 1
+\sItem{Range}{10 feet (+10 / Rank)}
+d439 4
+a442 4
+former master. If particularly small, schooling species, the Adept may
+be able to control the whole or part of the school. This spell cannot
+be used to control sentient creatures. Aquatic Mammals are usually
+non-sentient.
+d447 1
+a447 1
+\sItem{Range}{20 feet (+20 / Rank)}
+d468 2
+a469 2
+\sItem{Range}{600 feet (+600 / Rank)}
+\sItem{Duration}{30 seconds (+30 / Rank)}
+d497 2
+a498 2
+\sItem{Range}{20 feet (+20 / Rank)}
+\sItem{Duration}{30 seconds (+30 / Rank)}
+d550 2
+a551 2
+\sItem{Range}{30 feet (+30 / Rank)}
+\sItem{Duration}{10 seconds (+10 / Rank)}
+d554 1
+a554 1
+\sItem{Resist}{may be passively resisted.}
+d568 2
+a569 2
+\sItem{Range}{20 feet (+20 / Rank)}
+\sItem{Duration}{30 minutes (+30 / Rank)}
+d598 1
+a598 1
+\sItem{Resist}{No.}
+d635 1
+a635 1
+\sItem{Storage}{Investment}
+d639 1
+a639 3
+{\setlength\leftmargini{1.0em}
+\begin{enumerate}
+\setlength\itemsep{0pt}
+d650 1
+a650 1
+\end{enumerate}}
+d664 1
+a664 1
+\sItem{Storage}{Investment}
+d668 1
+a668 3
+{\setlength\leftmargini{1.0em}
+\begin{enumerate}
+\setlength\itemsep{0pt}
+d680 1
+a680 1
+\end{enumerate}}
+d710 1
+a710 1
+\sItem{Resist}{may be passively resisted.}
+d714 2
+a715 2
+The Adept creates a tornado-like formation with a radius of 5 feet (+5
+/ Rank), over a body of water. The waterspout kills anyone and
+d717 2
+a718 2
+successfully resist. The waterspout does [D - 1] (+1 / Rank) damage to
+a character who resists successfully instead of inflicting enough
+d724 2
+a725 2
+direction they desire at a rate of 10 mph (+5 / Rank). It may never be
+moved onto dry land.
+d730 2
+a731 2
+\sItem{Range}{10 feet (+10 / Rank)}
+\sItem{Duration}{Passive concentration: maximum 30 minutes (+30 / Rank))}
+d739 1
+a739 1
+Adept, allowing travel up to 10 mph (+2 / Rank). This spell will only
+d783 1
+a783 1
+\clearemptydoublepage@
+
+
+3.5
+log
+@Check in before modifying e.g. and i.e.
+@
+text
+@d117 1
+a117 1
+increases with increased Rank, e.g., Rank 3 can tell salt from fresh;
+d478 1
+a478 1
+or large river (i.e.\ anywhere that might be subject to such an
+d582 1
+a582 1
+target makes that are of a mental nature (i.e.\ require thought or
+@
+
+
+3.4
+log
+@Water breathing modified.
+@
+text
+@d478 1
+a478 1
+or large river (i.e., anywhere that might be subject to such an
+d582 1
+a582 1
+target makes that are of a mental nature (i.e., require thought or
+@
+
+
+3.3
+log
+@Fix typographical error.
+@
+text
+@d345 3
+a347 1
+affect the target's ability to operate on the surface.
+@
+
+
+3.2
+log
+@Fix spell environment and indexes
+@
+text
+@d783 1
+@
+
+
+3.1
+log
+@Fix index.
+@
+text
+@d84 1
+a84 1
+\begin{talent}{Predict Weather (T-1)}
+d108 1
+a108 1
+\begin{talent}{Dowsing (T-2)}
+d123 1
+a123 1
+\begin{talent}{Aquatic Affinity (T-3)}
+d143 1
+a143 1
+\begin{spell}{Buoyancy (G-1)}
+d160 1
+a160 1
+\begin{spell}{Cold Resistance (G-2)}
+d178 1
+a178 1
+\begin{spell}{Create Fog (G-3)}
+d198 1
+a198 1
+\begin{spell}{Mage Current (G-4)}
+d218 1
+a218 1
+\begin{spell}{Navigation (G-5)}
+d236 1
+a236 1
+\begin{spell}{Rehydration (G-6)}
+d251 1
+a251 1
+\begin{spell}{Saturated Earth (G-7)}
+d273 1
+a273 1
+\begin{spell}{Ship Strength (G-8)}
+d295 1
+a295 1
+\begin{spell}{Speak to Aquatic Life (G-9)}
+d314 1
+a314 1
+\begin{spell}{Summon Aquatic Life (G-10)}
+d331 1
+a331 1
+\begin{spell}{Water Breathing (G-11)}
+d349 1
+a349 1
+\begin{spell}{Water Creation (G-12)}
+d366 1
+a366 1
+\begin{spell}{Waterproofing (G-13)}
+d384 1
+a384 1
+\begin{spell}{Wave Control (G-14)}
+d400 1
+a400 1
+\begin{ritual}{Binding Water (Q-1)}
+d422 1
+a422 1
+\begin{spell}{Control Aquatic Life (S-1)}
+d443 1
+a443 1
+\begin{spell}{Dehydration (S-2)}
+d464 1
+a464 1
+\begin{spell}{Flash Flood (S-3)}
+d493 1
+a493 1
+\begin{spell}{Geyser (S-4)}
+d515 1
+a515 1
+\begin{spell}{Liquid Purification (S-5)}
+d529 1
+a529 1
+\begin{spell}{Liquid Transmutation (S-6)}
+d546 1
+a546 1
+\begin{spell}{Maelstrom (S-7)}
+d564 1
+a564 1
+\begin{spell}{Rainstorm (S-8)}
+d590 1
+a590 1
+\begin{spell}{Storm Calling (S-9)}
+d610 1
+a610 1
+\begin{spell}{Walk on Water (S-10)}
+d626 1
+a626 1
+\begin{spell}{Waters of Healing (S-11)}
+d657 1
+a657 1
+\begin{spell}{Waters of Strength (S-12)}
+d685 1
+a685 1
+\begin{spell}{Waters of Vision (S-13)}
+d706 1
+a706 1
+\begin{spell}{Waterspout (S-14)}
+d730 1
+a730 1
+\begin{spell}{Wave Riding (S-15)}
+d753 1
+a753 1
+\begin{ritual}{Summoning and Binding Water Elemental (R-1)}
+@
+
+
+3.0
+log
+@Major typographical changes.  Spells now spell environments
+@
+text
+@d2 1
+a2 1
+\index{college:ice|(}
+d782 1
+a782 1
+\index{college:water|)}
+@
+
+
+2.1
+log
+@Fix error in Aquatic affinity.
+@
+text
+@d2 1
+a82 1
+\subsubsection{(T-1) Predict Weather}
+d84 5
+a88 6
+\begin{spelldesc}
+\emph{Range:} 10 miles (+10 / Rank) \\
+\emph{Experience Multiple:} 75 \\
+\emph{Base Chance:} MA +5\% / Rank \\
+\end{spelldesc}
+\emph{Effects:}
+d106 1
+d108 1
+a108 1
+\subsubsection{(T-2) Dowsing}
+d110 3
+a112 5
+\begin{spelldesc}
+\emph{Experience Multiple:} 75 \\
+\emph{Base Chance:} 2 \x MA (+ 4\% / Rank) \\
+\end{spelldesc}
+\emph{Effects:}
+d121 1
+d123 1
+a123 1
+\subsubsection{(T-3) Aquatic Affinity}
+d125 2
+a126 4
+\begin{spelldesc}
+\emph{Experience Multiple:} 100 \\
+\end{spelldesc}
+\emph{Effects:}
+d139 1
+d143 1
+a143 1
+\subsubsection{(G-1) Buoyancy}
+d145 8
+a152 10
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} 30 minutes (+30 / Rank) \\
+\emph{Experience Multiple:} 100 \\
+\emph{Base Chance:} 45\% \\
+\emph{Resist:} No \\
+\emph{Storage:} Investment, Potion \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d158 1
+d160 1
+a160 1
+\subsubsection{(G-2) Cold Resistance}
+d162 8
+a169 10
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} 1 hour (+1 / Rank) \\
+\emph{Experience Multiple:} 150 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} No \\
+\emph{Storage:} Investment, Potion \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d175 1
+a176 1
+\subsubsection{(G-3) Create Fog}
+d178 10
+a187 10
+\begin{spelldesc}
+\emph{Range:} 20 feet (+20 / Rank) \\
+\emph{Duration:} 6 minutes (+6 / Rank) \\
+\emph{Experience Multiple:} 100 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} No \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Volume of Air \\
+\end{spelldesc}
+\emph{Effects:}
+d195 2
+d198 1
+a198 1
+\subsubsection{(G-4) Mage Current}
+d200 8
+a207 10
+\begin{spelldesc}
+\emph{Range:} 10 feet (+10 / Rank) \\
+\emph{Duration:} Concentration: maximum 30 minutes (+30 / Rank) \\
+\emph{Experience Multiple:} 125 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} No \\
+\emph{Storage:} Investment \\
+\emph{Target:} Water  \\
+\end{spelldesc}
+\emph{Effects:}
+d215 1
+a216 1
+\subsubsection{(G-5) Navigation}
+d218 10
+a227 10
+\begin{spelldesc}
+\emph{Range:} Self \\
+\emph{Duration:} 1 hour (+1 / Rank) \\
+\emph{Experience Multiple:} 125 \\
+\emph{Base Chance:} 15\% \\
+\emph{Resist:} No \\
+\emph{Storage:} Potion \\
+\emph{Target:} Self \\
+\end{spelldesc}
+\emph{Effects:}
+d233 2
+d236 1
+a236 1
+\subsubsection{(G-6) Rehydration}
+d238 8
+a245 10
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 350 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} No \\
+\emph{Storage:} Investment, Magical Trap \\
+\emph{Target:} Object \\
+\end{spelldesc}
+\emph{Effects:}
+d248 1
+a249 1
+\subsubsection{(G-7) Saturated Earth}
+d251 10
+a260 10
+\begin{spelldesc}
+\emph{Range:} 100 feet (+50 / Rank) \\
+\emph{Duration:} 1 hour (+1 / Rank) \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} 25\% \\
+\emph{Resist:} No \\
+\emph{Storage:} Investment, Ward \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:}
+d270 2
+d273 1
+a273 1
+\subsubsection{(G-8) Ship Strength}
+d275 8
+a282 10
+\begin{spelldesc}
+\emph{Range:} 90 feet (+15 / Rank) \\
+\emph{Duration:} 5 days (+1 / Rank) \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} No \\
+\emph{Storage:} Investment \\
+\emph{Target:} Ship, boat, wood \\
+\end{spelldesc}
+\emph{Effects:}
+d292 2
+d295 1
+a295 1
+\subsubsection{(G-9) Speak to Aquatic Life}
+d297 8
+a304 10
+\begin{spelldesc}
+\emph{Range:} 15 feet (+15 / Rank) \\
+\emph{Duration:} 1 hour (+1 / Rank) \\
+\emph{Experience Multiple:} 150 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} No \\
+\emph{Storage:} Potion \\
+\emph{Target:} Self \\
+\end{spelldesc}
+\emph{Effects:}
+d311 1
+a312 1
+\subsubsection{(G-10) Summon Aquatic Life}
+d314 10
+a323 10
+\begin{spelldesc}
+\emph{Range:} Works at any range \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 100 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} No \\
+\emph{Storage:} Investment, Potion \\
+\emph{Target:} Aquatic Species \\
+\end{spelldesc}
+\emph{Effects:}
+d328 2
+d331 1
+a331 1
+\subsubsection{(G-11) Water Breathing}
+d333 8
+a340 10
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} 1 hour (+1 / Rank) \\
+\emph{Experience Multiple:} 100 \\
+\emph{Base Chance:} 25\% \\
+\emph{Resist:} No \\
+\emph{Storage:} Investment, Potion \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d346 2
+d349 1
+a349 1
+\subsubsection{(G-12) Water Creation}
+d351 8
+a358 10
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 150 \\
+\emph{Base Chance:} 35\% \\
+\emph{Resist:} No \\
+\emph{Storage:} Investment \\
+\emph{Target:} Water \\
+\end{spelldesc}
+\emph{Effects:}
+d362 2
+a363 1
+the amount of 1 pint (+1 / Rank).
+a364 1
+\subsubsection{(G-13) Waterproofing}
+d366 10
+a375 10
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} Special \\
+\emph{Experience Multiple:} 150 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} No \\
+\emph{Storage:} Investment \\
+\emph{Target:} Entity or Object \\
+\end{spelldesc}
+\emph{Effects:}
+d380 14
+a393 15
+would not get wet etc.  The duration is 5 days (+5 / Rank) for
+objects, and 3 hours (+3 / Rank) for entities.
+
+\subsubsection{(G-14) Wave Control}
+
+\begin{spelldesc}
+\emph{Range:} 90 feet (+90 / Rank) \\
+\emph{Duration:} 15 minutes (+15 / Rank) \\
+\emph{Experience Multiple:} 125 \\
+\emph{Base Chance:} 25\% \\
+\emph{Resist:} No \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Volume of Water \\
+\end{spelldesc}
+\emph{Effects:}
+d395 2
+a396 1
+by 5 feet (+1 additional foot / Rank).
+d400 1
+a400 1
+\subsubsection{(Q-1) Binding Water}
+d402 6
+a407 8
+\begin{spelldesc}
+\emph{Range:} 10 feet (+15 / Rank) \\
+\emph{Duration:} 1 hour (+1 / Rank) \\
+\emph{Experience Multiple:} 750 \\
+\emph{Base Chance:} MA (+4 / Rank) \\
+\emph{Resist:} No, unless the area contains a Water Elemental which may passively and actively resist. \\
+\end{spelldesc}
+\emph{Effects:}
+d418 1
+d422 1
+a422 1
+\subsubsection{(S-1) Control Aquatic Life}
+d424 8
+a431 10
+\begin{spelldesc}
+\emph{Range:} 10 feet (+10 / Rank) \\
+\emph{Duration:} Passive concentration: no maximum \\
+\emph{Experience Multiple:} 100 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} may be passively resisted \\
+\emph{Storage:} Investment \\
+\emph{Target:} Aquatic Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d441 1
+d443 1
+a443 1
+\subsubsection{(S-2) Dehydration}
+d445 8
+a452 10
+\begin{spelldesc}
+\emph{Range:} 20 feet (+20 / Rank) \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 500 \\
+\emph{Base Chance:} 1\% \\
+\emph{Resist:}  May be actively and passively resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Object, Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d462 1
+d464 1
+a464 1
+\subsubsection{(S-3) Flash Flood}
+d466 8
+a473 10
+\begin{spelldesc}
+\emph{Range:} 600 feet (+600 / Rank) \\
+\emph{Duration:} 30 seconds (+30 / Rank) \\
+\emph{Experience Multiple:} 500 \\
+\emph{Base Chance:} 2\% \\
+\emph{Resist:} No \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Watercourse \\
+\end{spelldesc}
+\emph{Effects:}
+d491 1
+d493 1
+a493 1
+\subsubsection{(S-4) Geyser}
+d495 8
+a502 10
+\begin{spelldesc}
+\emph{Range:} 20 feet (+20 / Rank) \\
+\emph{Duration:} 30 seconds (+30 / Rank) \\
+\emph{Experience Multiple:} 350 \\
+\emph{Base Chance:} 15\% \\
+\emph{Resist:} May be actively and passively resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Ground \\
+\end{spelldesc}
+\emph{Effects:}
+d513 1
+d515 1
+a515 1
+\subsubsection{(S-5) Liquid Purification}
+d517 8
+a524 10
+\begin{spelldesc}
+\emph{Range:} 15 feet \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 350 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} No \\
+\emph{Storage:} Investment \\
+\emph{Target:} Aqueous Liquid \\
+\end{spelldesc}
+\emph{Effects:}
+d527 1
+d529 1
+a529 1
+\subsubsection{(S-6) Liquid Transmutation}
+d531 8
+a538 10
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 350 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} No \\
+\emph{Storage:} Investment \\
+\emph{Target:} Potable water \\
+\end{spelldesc}
+\emph{Effects:}
+d544 1
+d546 1
+a546 1
+\subsubsection{(S-7) Maelstrom}
+d548 8
+a555 10
+\begin{spelldesc}
+\emph{Range:} 30 feet (+30 / Rank) \\
+\emph{Duration:} 10 seconds (+10 / Rank) \\
+\emph{Experience Multiple:} 500 \\
+\emph{Base Chance:} 10\% \\
+\emph{Resist:} may be passively resisted. \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Volume of Water \\
+\end{spelldesc}
+\emph{Effects:}
+d562 1
+d564 1
+a564 1
+\subsubsection{(S-8) Rainstorm}
+d566 8
+a573 10
+\begin{spelldesc}
+\emph{Range:} 20 feet (+20 / Rank) \\
+\emph{Duration:} 30 minutes (+30 / Rank) \\
+\emph{Experience Multiple:} 300 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} May be actively and passively resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d588 1
+d590 1
+a590 1
+\subsubsection{(S-9) Storm Calling}
+d592 8
+a599 10
+\begin{spelldesc}
+\emph{Range:} Works at any Range \\
+\emph{Duration:} Variable \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} No. \\
+\emph{Storage:} Investment \\
+\emph{Target:} Storm Front \\
+\end{spelldesc}
+\emph{Effects:}
+d608 1
+d610 1
+a610 1
+\subsubsection{(S-10) Walk on Water}
+d612 8
+a619 10
+\begin{spelldesc}
+\emph{Range:} 10 feet (+10 / Rank) \\
+\emph{Duration:} 5 minutes (+5 / Rank) \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Potion \\
+\emph{Target:} Entity  \\
+\end{spelldesc}
+\emph{Effects:}
+d624 1
+d626 1
+a626 1
+\subsubsection{(S-11) Waters of Healing}
+d628 8
+a635 10
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} Various (See below) \\
+\emph{Experience Multiple:} 400 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} No \\
+\emph{Storage:} Investment \\
+\emph{Target:} Volume of water \\
+\end{spelldesc}
+\emph{Effects:}
+d655 1
+d657 1
+a657 1
+\subsubsection{(S-12) Waters of Strength}
+d659 8
+a666 10
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} Various (See below) \\
+\emph{Experience Multiple:} 350 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} No \\
+\emph{Storage:} Investment \\
+\emph{Target:} Pint of water \\
+\end{spelldesc}
+\emph{Effects:}
+d683 1
+d685 1
+a685 1
+\subsubsection{(S-13) Waters of Vision}
+d687 8
+a694 10
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} 10 seconds \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} 25\% \\
+\emph{Resist:} No \\
+\emph{Storage:} Investment \\
+\emph{Target:} Pool of water \\
+\end{spelldesc}
+\emph{Effects:}
+d699 1
+a699 1
+the area being spied into is 5 miles (+15 / Rank). The point of view of
+d703 2
+a704 1
+discretion as to what will be seen.
+d706 1
+a706 1
+\subsubsection{(S-14) Waterspout}
+d708 8
+a715 10
+\begin{spelldesc}
+\emph{Range:} 60 feet (+60 / Rank) \\
+\emph{Duration:} 30 seconds (+30 / Rank) \\
+\emph{Experience Multiple:} 750 \\
+\emph{Base Chance:} 5\% \\
+\emph{Resist:} may be passively resisted. \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Volume of water \\
+\end{spelldesc}
+\emph{Effects:}
+d728 1
+d730 1
+a730 1
+\subsubsection{(S-15) Wave Riding}
+d732 8
+a739 10
+\begin{spelldesc}
+\emph{Range:} 10 feet (+10 / Rank) \\
+\emph{Duration:} Passive concentration: maximum 30 minutes (+30 / Rank)) \\
+\emph{Experience Multiple:} 300 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} No \\
+\emph{Storage:} Investment \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d749 1
+d753 1
+a753 1
+\subsubsection{(R-1) Summoning and Binding Water Elemental}
+d755 6
+a760 8
+\begin{spelldesc}
+\emph{Range:} 20 feet \\
+\emph{Duration:}  passive concentration \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} MA +5\% / Rank +1\% WP above 15 \\
+\emph{Resist:} No \\
+\end{spelldesc}
+\emph{Effects:}
+d779 1
+d781 2
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d124 1
+a124 1
+\subsubsection{Aquatic Affinity (T-3)}
+d133 1
+a133 1
+\item The Adept may modify their swimming rolls by 4% for every Rank they   
+@
+
+
+1.9
+log
+@Aquatic afinity added (Keith Smith).
+@
+text
+@@
+
+
+1.8
+log
+@Minor wording change to Dehydration.  Keith Smith.
+@
+text
+@d124 19
+@
+
+
+1.7
+log
+@Waters of Vision changed back to Rank 5 (but E&E c.o.v left at
+rank 6).  Ross Alexander.
+@
+text
+@d445 2
+a446 2
+target's corpse will remain preserved indefinitely (if kept dry,
+since little or no tissue damage). After rehydration the body will be
+@
+
+
+1.6
+log
+@Very minor typesetting fix.
+@
+text
+@d698 1
+a698 1
+Rank 6 and above, they may use this technique to spy into an area to
+@
+
+
+1.5
+log
+@Waters of vision fixed.
+@
+text
+@d279 1
+a279 1
+\subsubsection{(G-9) Speak to Aquatic Life }
+@
+
+
+1.4
+log
+@Minor changes by Clare West.
+@
+text
+@d698 1
+a698 1
+Rank 5 and above, they may use this technique to spy into an area to
+@
+
+
+1.3
+log
+@Remove Clare's name from start of college and add to history.
+@
+text
+@d1 1
+a1 1
+\section{The College of Water Magics (Ver 1.2)}
+d56 1
+a56 1
+Adept is surrounded by mist, fog or is standing in the rain & +5 \\
+d243 1
+a243 1
+\emph{Storage:} Investment \\
+d354 1
+a354 1
+\emph{Duration:} 5 days (+5 / Rank) \\
+d359 1
+a359 1
+\emph{Target:} Object \\
+d362 6
+a367 5
+This spell protects any affected object completely from all forms of
+non-magical water damage. It works on any item less than or equal to 5
+pounds (+ 10 / Rank) in weight. Thus, written scrolls would not run,
+steel would not rust, potions would not dilute, clothing would not get
+wet etc.
+d461 1
+a461 1
+\emph{Storage:} Investment, Magical Trap \\
+@
+
+
+1.2
+log
+@Release 1.0 snapshot
+@
+text
+@a4 2
+\textbf{Clare West -- 8/6/95}
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 1
+a1 1
+[41] WATER MAGIC
+d3 1
+a3 1
+Version 1.2,	Clare West, 18/5/95
+d5 1
+a5 1
+The College of Water Magics is concerned with the shaping of the element of water. Water Mages, as Adepts of this college are known, have difficulty in practising their magics on land without an abundant source of their raw material and thus the college has fallen somewhat into disuse in many locales. The typical vision people have of Water Mages is of an Adept standing on the sea or guiding a ship around reefs to a safe harbour. While it is true that some Water Mages do perform such duties on ships, the majority either live beside large bodies of water or in more recent times have taken to living entirely underwater, thus spending all of their time in a different world from that experienced by normal people. In general Water Mages enjoy good relations with other colleges with the notable exceptions of the elemental College of Fire, due to its opposing elemental nature. 
+d7 55
+a61 1
+TRADITIONAL COLOURS: The traditional colours worn by Water Mages have tended towards the Greens and Blues that symbolise the sea. Aquamarine and Sea Blue are particularly popular amongst those who wish to advertise their college. The hermitic type of Water Mage who spends the majority of their time underwater usually wear very little, a small bathing suit at the most, as most denizens of the deep are not concerned about nudity.
+d63 1
+a63 1
+TRADITIONAL SYMBOLS: Water Mage adornments are usually unique items found only upon the sea floor such as rare shells or pieces of coral, also wave, fish and whale motifs are popular or any animal or occurrence specific to the sea they live in.
+d65 17
+a81 1
+[41.1]	RESTRICTIONS: 
+d83 2
+a84 1
+Adepts of the College of Water Magics may only practice their arts if they are in contact with, or near, water. With the exception of Dowsing, they may never practice their arts in a vacuum or in a totally arid place. They may not summon water-dwelling creatures into an area that does not contain a body of water large enough for the water-dwelling creature to immerse itself entirely. They may use their magic on land (in a non-arid area) but suffer some diminution in their abilities. A character must have 18 MA to become a water mage.
+d86 20
+a105 3
+[41.2]	MODIFICATIONS: 
+
+The Base Chance of performing any Talent, Spell or Ritual of this College is modified by the addition of the following numbers. Apply one of the following:
+d107 2
+a108 9
+Adept is completely immersed in water	+20
+Adept is in physical contact with water	+15
+Adept is within 25 feet of water	+10
+Adept is within 500 feet of water	+5
+Adept is surrounded by mist, fog or is standing in the rain.	+5
+Adept is on land and over 1 mile from water	-5
+Adept is on land and over 10 miles from water	-15
+
+This modifier may be applied in conjunction with one of the above:
+d110 1
+a110 8
+All water in the vicinity of the Adept is frozen	-20
+
+NOTES:	1) For the purpose of these modifiers “water” refers to a body of water such as a sea, lake, ocean, pond, river, stream, spring or other feature containing large amounts of water (1000 gallons or more) or existing as part of a larger system or network of waterways. A barrel, bucket, or tun of water does not qualify as a body of water.
+	2) Apply the most advantageous modifier from the first group in conjunction with the frozen water modifier.
+
+[41.3]	TALENTS
+
+\subsubsection{(T-1) Predict Weather}
+a112 1
+\emph{Range:} 10 miles (+10/Rank) \\
+d114 1
+a114 14
+\emph{Base Chance:} MA +5\%/Rank \\
+\emph{Effects:  The Adept predicts with some accuracy what the weather will be like over the ensuing three days in the area within the range of the talent. The Adept must be at sea (on an ocean, sea or large lake) or within 15 miles of an ocean, sea or large lake. If the Adept makes a successful Predict Weather check, the GM rolls D100 and checks the accuracy of the prediction. The following results may occur:} \\
+ \\
+Dice	Accuracy \\
+01–05	Totally wrong (opposite of the prediction occurs) \\
+06–10	Generally incorrect (fairly wide divergence) \\
+11–85	Generally correct (close but not totally accurate) \\
+86–100	Almost totally accurate (say within 1 degree) \\
+ \\
+Following the dice roll the GM delivers the prediction as though it were generally correct. \\
+ \\
+(T-2) Dowsing \\
+\emph{Experience Multiple:} 75 \\
+\emph{Base Chance:} 2 \x MA (+4/Rank) \\
+d117 8
+a124 1
+The Adept is able to sense the presence of water above ground, and within 100 feet (+100/Rank). The Adept can determine the direction and distance to the nearest source of water. Detection of underground water has a range of 1 feet (+2/Rank). Assessment of freshness increases with increased Rank, e.g.. Rank 3 can tell salt from fresh; Rank 6 can tell alkali from clear, etc. This talent may be exercised when the Adept is in a vacuum or a totally arid place. In general the GM will roll to determine the success of this talent.
+d126 1
+a126 1
+[41.4]	GENERAL KNOWLEDGE SPELLS
+d128 1
+a128 1
+\subsubsection{(G-1) Buoyancy }
+d132 1
+a132 1
+\emph{Duration:} 30 minutes (+30/Rank) \\
+d140 5
+a144 1
+This spell allows the target to float at whatever depth they choose. If they want to float upon the surface this spell enables them to do so without using any float actions. The rate of accent or decent is 5 feet (+2 additional/Rank) and this spell also protects the target from any pressure effects related to being at extreme depths.
+d146 1
+a146 1
+\subsubsection{(G-2) Cold Resistance }
+d150 1
+a150 1
+\emph{Duration:} 1 hour (+1/Rank) \\
+d154 1
+a154 1
+\emph{Storage:} Investment, Ward, Potion \\
+d158 5
+a162 1
+This spell protects the target from the effects of temperature down to 0 - 2/Rank degrees C. It will totally protect the target from the effects of Hypothermia. In addition, the target takes 1 (+1/5 Ranks (round up)) less damage from magical or non-magical cold-based attacks.
+d167 2
+a168 2
+\emph{Range:} 20 feet (+20/Rank) \\
+\emph{Duration:} 6 minutes (+6/Rank) \\
+d176 7
+a182 1
+It allows the Adept to create 1000 cubic feet (+500/Rank) of fog entirely within range. The fog must be continuous and connected to the surface above which it is conjured. In addition the conjured mist has the effect that all entities within the fog have their Strike Chances reduced by 5\% (+1/Rank) due to limited visibility. Visibility is reduced to 1 hex. The spell of Water Breathing completely negates the effect of this spell.
+d184 1
+a184 1
+\subsubsection{(G-4) Mage Current }
+d187 2
+a188 2
+\emph{Range:} 10 feet (+10/Rank) \\
+\emph{Duration: conc. Max.:} 30 minutes (+30/Rank) \\
+d196 7
+a202 1
+The Adept creates a current in the water within the range (a volume that moves with the Adept) of 5 miles per hour (+1/Rank) in one direction. All objects/entities, etc. within the range that are submerged in the water or floating on the water are carried at the speed of the current. The Adept may freely alter the direction of the mage current during the spell (requires active concentration). Passive concentration is required to maintain this spell.
+d208 1
+a208 1
+\emph{Duration:} 1 hour (+1/Rank) \\
+d216 5
+a220 1
+The spell attunes the Adept’s mind to the sea and winds, allowing him to sail with less chance of mishap. This decreases the chance of veering off course, running aground, etc., by 5\% (+1/Rank). In addition the Adept may add 1 (+1/4 full Ranks), to their effective Rank in the Navigator Skill.
+d222 1
+a222 1
+\subsubsection{(G-6) Rehydration }
+d230 1
+a230 1
+\emph{Storage:} Investment, Ward, Magical Trap \\
+d234 2
+a235 1
+This spell rehydrates (restores dried substances to their normal water content) including dehydrated entities. 
+d237 1
+a237 1
+\subsubsection{(G-7) Saturated Earth }
+d240 2
+a241 2
+\emph{Range:} 100 feet (+50/Rank) \\
+\emph{Duration:} 1 hour (+1/Rank) \\
+d249 9
+a257 1
+The Adept summons water from deep within the earth, rising to the surface in 100 seconds (-5/Rank), causing the ground in an area of 100 feet (+10/Rank) radius to become totally sodden. Earth will turn to mud. Sand has a 30\% chance of turning into quicksand (swallowing any trapped individuals in 20 seconds), and a 70\% chance of turning into firm hard sand facilitating easy movement. The Adept may alter these chances by 1\% per Rank. Wetlands will be unaffected by this spell as will solid rocky terrain. With this spell all wells in an area can be caused to fill and all crops will be well watered.
+d262 2
+a263 2
+\emph{Range:} 90 feet (+15/Rank) \\
+\emph{Duration:} 5 days (+1/Rank) \\
+d271 9
+a279 1
+This spell may be used to strengthen the structure of any ship or boat, repair leaks or holes, restep masts, etc. At Rank 10 and above, a small sail craft can be constructed out of available wood. At Rank 15 or above, a large craft (40 feet or more in length) may be constructed. At the end of the spells duration, its effects are undone; a constructed craft will fall apart (even in mid-ocean). In addition, any craft which is affected by this spell has its chance of encountering sea monsters, pirates or typhoons, decreased by 5\% (+1/Rank).
+d284 2
+a285 2
+\emph{Range:} 15 feet (+15/Rank) \\
+\emph{Duration:} 1 hour (+1/Rank) \\
+d293 6
+a298 1
+The spell allows the Adept to communicate with any one form of aquatic life within range. This communication usually consists of both speech and gesture. All members of the selected generic type of aquatic that are within speaking range can be understood and can understand the Adept. The Adept may have more than one spell on at once, as long as they are for different generic types.
+d300 1
+a300 1
+\subsubsection{(G-10) Summon Aquatic Life }
+d308 1
+a308 1
+\emph{Storage:} Investment, Ward, Magical Trap \\
+d312 4
+a315 1
+The Adept may summon 1 aquatic creature (+1/Rank). It may take up to 30 minutes (-30 seconds per Rank) for the aquatic life forms to arrive. The species must be native to the area to be summoned and the Adept must be within 100 feet of a body of water.
+d317 1
+a317 1
+\subsubsection{(G-11) Water Breathing }
+d321 1
+a321 1
+\emph{Duration:} 1 hour (+1/Rank) \\
+d329 5
+a333 1
+The spell forms a set of gills in the subject’s neck and covers their eyes with a transparent film. This allows the target to breath and see equally well under water as on land. The target may cast spells subject to the restrictions of their College. (The spell does not affect the target’s ability to operate on the surface.)
+d335 1
+a335 1
+\subsubsection{(G-12) Water Creation }
+d347 4
+a350 1
+The Adept must touch the substance from which water is to be drawn. The spell allows the Adept to extract moisture from the air, or from plants (providing there is moisture available to be extracted) to the amount of 1 pint (+1/Rank).
+d352 1
+a352 1
+\subsubsection{(G-13) Waterproofing }
+d356 1
+a356 1
+\emph{Duration:} 5 days (+5/Rank) \\
+d361 1
+a361 1
+\emph{Target:} Object or Entity \\
+d364 5
+a368 1
+This spell protects any effected object completely from all forms of non-magical water damage. It works on any item less than or equal to 5 pounds (+10/Rank) in weight. Thus, written scrolls would not run, steel would not rust, potions would not dilute, clothing would not get wet etc.
+d370 1
+a370 1
+\subsubsection{(G-14) Wave Control }
+d373 2
+a374 2
+\emph{Range:} 90 feet (+90/Rank) \\
+\emph{Duration:} 15 minutes (+15/Rank) \\
+d382 2
+a383 1
+The Adept can increase or decrease the size of all waves within range by 5 feet (+1 additional foot/Rank).
+d385 1
+a385 1
+[41.5]	GENERAL KNOWLEDGE RITUALS
+d390 2
+a391 2
+\emph{Range:} 10 feet (+15/Rank) \\
+\emph{Duration:} 1 hour (+1/Rank) \\
+d393 1
+a393 1
+\emph{Base Chance:} MA (+4/Rank) \\
+d397 10
+a406 1
+The Adept can bind the element of water while maintaining their concentration. It takes an hour to perform this ritual. The results are similar to the binding of all other elements. The Adept gains control of all facets of the element. They can, for example, create an intelligent water sprite (which will always have characteristics several points lower than the Adept), however, its every action would have to be directed by the Adept. At Rank 10 or higher, the Adept can create a free-willed water sprite that will be loyal to him and not require its every move be directed. Such entities will never leave the water.
+d408 1
+a408 1
+[41.6]	SPECIAL KNOWLEDGE SPELLS
+d410 1
+a410 1
+\subsubsection{(S-1) Control Aquatic Life }
+d413 2
+a414 3
+\emph{Range:} 10 feet (+10/Rank) \\
+\emph{Duration: Passive concentration:} No \\
+maximum \\
+d422 9
+a430 1
+This spell allows the caster to control 1 (+1/2 Ranks) aquatic creatures (must be of the same generic type)*. These creatures will serve the caster so long as the caster concentrates or until they are told to go away (move out of range of the spell). A creature that is no longer controlled but still in the vicinity may attack its former master. If particularly small, schooling species, then may be able to control the whole or part of the school. This spell cannot be used to control sentient creatures. Aquatic Mammals are usually non-sentient.
+d432 1
+a432 1
+\subsubsection{(S-2) Dehydration }
+d435 1
+a435 1
+\emph{Range:} 20 feet (+20/Rank) \\
+d439 1
+a439 1
+\emph{Resist:}  may be actively and passively resisted. \\
+d444 9
+a452 1
+The target of this spell must successfully resist or have all of the water removed from their body, resulting in instant mummification. The target’s corpse will remain preserved indefinitely, (if kept dry, since little or no tissue damage). After rehydration the body will be able to be resurrected as if it had just died. If the target is formerly or never living the Adept receives +40\% on the Base Chance. When used in this manner the spell can be used to dehydrate such things as food for preservation, such things lasting indefinitely if kept dry.
+d454 1
+a454 1
+\subsubsection{(S-3) Flash Flood }
+d457 2
+a458 2
+\emph{Range:} 600 feet (+600/Rank) \\
+\emph{Duration:} 30 seconds (+30/Rank) \\
+d466 17
+a482 1
+The Adept causes a particular watercourse within range to swell and burst its banks. The watercourse can be a stream, dry river bed, small or large river (i.e.. anywhere that might be subject to such an occurrence naturally, including drains and sewers). The flood will occur with very little warning, after 30 seconds of low rumblings, the water level will suddenly rise sweeping all before it. The flood will wipe out any small bridges and dams within range, wash people away, unhorse riders, wash wagons and carts away (chance of destruction dependent upon construction). The effects are most effective on small rivers or dry river beds. On a large river the flood might appear as a large wave which would look rather innocuous at a distance but which would wreak just as much havoc. After the spell duration expires, the water level will drop just as quickly as it rose. All those caught in the flow must make a successful swimming roll to avoid drowning. If a person was unhorsed they must make a horsemanship roll to stay with their horse, in which case they may use the horse's Rank in swimming (generally 8) to determine drowning.
+d487 2
+a488 2
+\emph{Range:} 20 feet (+20/Rank) \\
+\emph{Duration:} 30 seconds (+30/Rank) \\
+d491 1
+a491 1
+\emph{Resist:} may be actively and passively resisted. \\
+d496 10
+a505 1
+The Adept calls forth from the ground 1 (+1/Rank) jets of hot steam and mud. Each jet must appear in an adjacent hex to at least one other jet. Any Entity occupying an affected hex must resist or suffer [D - 4] (+1/2 Ranks (round up)), half if resisted (round down), damage, per pulse. If a character resists they are allowed an automatic hex of movement. (It is necessary to resist for each separate hex passed through, however only 1 resistance check is necessary for an individual hex regardless of the duration it is occupied for). Magical Waterproofing or Protection from Normal Fire will shield a character completely from any damage.
+d507 1
+a507 1
+\subsubsection{(S-5) Liquid Purification }
+d519 2
+a520 1
+The Adept may turn 1 quart (+1/Rank) of any aqueous liquid into drinkable water.
+d522 1
+a522 1
+\subsubsection{(S-6) Liquid Transmutation }
+d534 5
+a538 1
+The Adept may turn 1 pint of drinkable water into any other common liquid of their choice. The quality of the transformed liquid is dependent upon Rank, (Rank 0, a wine might be made that was just drinkable, Rank 10 a Silver or Gold Medal young wine, Rank 20, an unsurpassed wine of its type).
+d540 1
+a540 1
+\subsubsection{(S-7) Maelstrom }
+d543 2
+a544 2
+\emph{Range:} 30 feet (+30/Rank) \\
+\emph{Duration:} 10 seconds (+10/Rank) \\
+d552 6
+a557 1
+The Adept creates a horrifying watery vortex with a diameter of 10 feet (+10/Rank) which exists entirely within the spell’s range. All objects and entities within 20 feet of the vortex must successfully resist or they are sucked into the eye of the vortex and down to the sea bottom. This spell will only be effective if cast over a large body of water (sea, ocean or lake). 
+d562 2
+a563 2
+\emph{Range:} 20 feet (+20/Rank) \\
+\emph{Duration:} 30 minutes (+30/Rank) \\
+d566 1
+a566 1
+\emph{Resist:} may be actively and passively resisted. \\
+d571 14
+a584 1
+The caster summons a miniature rainstorm, radius 5 feet (+1/Rank), that appears over the target’s head (little dark rain cloud, tiny lightning bolts and all). If the target fails to resist, the storm will follow him for the duration (even inside buildings), completely soaking everything not waterproof in 60 seconds (-5/Rank). The distraction caused by the storm will add 2\% per Rank to any rolls the target makes that are of a mental nature (i.e.. require thought or concentration) or 1\% per Rank to other rolls. All characters in the area of effect will suffer these effects although the effects are halved if they are not the actual target of the spell. If the target is waterproofed the effects will be minimal and if they are a Water Mage they will suffer no ill effect, but will have their Base Chances increased by 5\%. If the Adept chooses to cast this spell on himself the duration is increased to 24 hours.
+d586 1
+a586 1
+\subsubsection{(S-9) Storm Calling }
+d589 1
+a589 1
+\emph{Range:} Works at any Range. \\
+d594 1
+a594 1
+\emph{Storage:} Investment, Ward, Potion \\
+d598 8
+a605 1
+The Adept may summon any storm front which may exist anywhere in sight. Upon reaching the spot occupied by the Adept at the time of casting, the storm front will slow and finally cease moving and begin to downpour (snow, rain, sleet, or whatever else the GM feels clouds may contain). Generally a storm front can be seen for 20 to 30 miles. If no front can be seen, the spell may still be cast but the Base Chance is reduced by 20. The storm front will take D10x3 (-1/Rank) minutes to arrive.
+d607 1
+a607 1
+\subsubsection{(S-10) Walk on Water }
+d610 2
+a611 2
+\emph{Range:} 10 feet (+10/Rank) \\
+\emph{Duration:} 5 minutes (+5/Rank) \\
+d614 2
+a615 2
+\emph{Resist:} may be actively and passively resisted. \\
+\emph{Storage:} Investment, Ward, Potion \\
+d619 4
+a622 1
+The target is able to walk on the surface of water as if it were solid and non-slip. They may travel at their normal TMR. Reduce TMR by 1 for every foot above 3 in wave height. In rough waters agility rolls may be deemed necessary (unless crawling).
+d624 1
+a624 1
+\subsubsection{(S-11) Waters of Healing }
+d634 25
+a658 3
+\emph{Effects: This spell has two distinct uses:} 1) The Adept turn 1 pint of water into a half pint healing potion. The Potion will last 2 minutes (+2/Rank) and will cure [D-5] (+1/Rank) Endurance or Fatigue damage. 2) Alternatively this potion may be used to immediately neutralise the effects of any venom, plus it will cure 1 point of Endurance loss due to the venom (the potion will only cure 1 point of damage due to venom). In addition to these two effects the Adept may spend an hour and utilise materials costing 200sp to make a Potion with the same effects that will last indefinitely. The ingredients are used regardless of success or failure. \\
+ \\
+(S-12) Waters of Strength  \\
+d666 22
+a687 3
+\emph{Effects: This spell can be prepared in two ways:} 1) The Adept can turn 1 pint of water into a half pint strength potion. The Potion will last 2 minutes (+2/Rank) and when drunk adds D-2 (+1/Rank) to Physical Strength for 5 minutes (+5/Rank). 2) The Adept may spend an hour and utilise materials costing 500sp to make a Potion with the same effects that will last indefinitely. Potions are not cumulative. The ingredients are used regardless of success or failure. \\
+ \\
+(S-13) Waters of Vision  \\
+d697 9
+a705 1
+The Adept must touch a pool of water with their hand. They may then view visions (usually precognitive in nature) concocted by the GM. At Rank 5 and above, they may use this technique to spy into an area to see what is going on there. The maximum distance from the character to the area being spied into is 5 miles (+15/Rank). The point of view of the Waters cannot be changed. If user is not able to form a clear mental image of the location to be spied upon or command the waters to focus on an unambiguously defined point in space, then it is the GM's discretion as to what will be seen.
+d707 1
+a707 1
+\subsubsection{(S-14) Waterspout }
+d710 2
+a711 2
+\emph{Range:} 60 feet (+60/Rank) \\
+\emph{Duration:} 1 minute (+30 seconds/Rank) \\
+d719 12
+a730 1
+The Adept creates a tornado-like formation with a radius of 5 feet (+5/Rank), over a body of water. The waterspout kills anyone and destroys anything who occupies the same space with it unless they successfully resist. The waterspout does [D - 1] (+1/Rank) damage to a character who resists successfully instead of inflicting enough damage to kill them. A character need only resist the waterspout once. Boats and  ships will be affected at the GM's discretion. Small boats may be broken into match sticks and will almost certainly capsize, large ships may suffer less damage, but lose rigging, masts etc. If the Adept concentrates they may move the waterspout in any direction they desire at a rate of 10 mph (+5/Rank). It may never be moved onto dry land.
+d732 1
+a732 1
+\subsubsection{(S-15) Wave Riding }
+d735 2
+a736 2
+\emph{Range:} 10 feet (+10/Rank) \\
+\emph{Duration:  passive concentration (max.:} 30 minutes (+30/Rank)) \\
+d744 9
+a752 1
+This spell forms a wave of water under the target controlled by the Adept, allowing travel up to 10 mph (+2/Rank). This spell will only form a wave on a suitably sized body of water. Speed of current will add/subtract to speed, wind will not. The wave requires passive concentration to maintain and to keep moving in the required direction. The wave dissipates if the Adept loses concentration. Multiple casts of this spell may maintained by the same passive concentration action, thus several targets may ride the same wave (not separate ones).
+d754 1
+a754 1
+[41.7]	SPECIAL KNOWLEDGE RITUALS
+d762 1
+a762 1
+\emph{Base Chance:} MA +5\%/Rank +1\% for each point of WP above 15. \\
+d766 21
+a786 2
+The Adept may summon a Water Elemental and temporarily bind it to temporary service by performing this ritual. The ritual takes two hours. It may only be performed if the summoner is in contact with, or within 20 feet of, a large body of water (ocean, sea or lake) and the summoner remains stationary and stationary and takes no other action during the time the ritual is being performed. At the end of the two hour ritual, the player makes a Cast Check. If the ritual is successful the Elemental is summoned an controlled. If the ritual backfires (the Cast Check exceeds the Base Chance by 30 or more) then the Elemental is summoned but not controlled and will attack the summoner and their friends. If the ritual fails it has no effect.
+A Water Elemental always appears within 20 feet of the summoner. It has a combined Enduance and Fatigue equal to 15 (+15/Rank). The Elemental will remain until it is sent back to its own dimension by the Adept (with a Special Knowledge Counterspell of the College of Water Magics) or banished. If it is controlled by the summoner it will remain controlled until the summoner's concentration is broken.
+@

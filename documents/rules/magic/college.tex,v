@@ -1,0 +1,1095 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.2;
+
+4.2
+date	2000.05.22.10.46.08;	author ralexand;	state Exp;
+branches;
+next	4.1;
+
+4.1
+date	99.08.18.11.10.04;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	98.06.04.05.35.07;	author rossa;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	98.05.11.02.03.37;	author rossa;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	98.05.11.01.21.15;	author rossa;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	98.05.07.02.03.46;	author rossa;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	98.05.05.05.38.12;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.05.04.03.42.08;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	98.05.01.07.49.06;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	97.04.29.08.47.42;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	97.04.22.00.57.45;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	97.03.20.23.37.32;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	96.12.17.22.13.14;	author rossa;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	96.12.16.23.18.59;	author rossa;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{multicols}{3}
+
+\section{College Magic}
+\label{college:rituals|(}
+\index{rituals!college}
+
+\subsection{Introduction}
+
+This section includes those spells and rituals that are common to all
+Colleges.  Note however, that these spells and rituals are still
+specific to a College so an Adept can only learn them from another
+Adept of the same College.
+
+\subsection{Counterspells}
+\label{magic:counterspells}
+\index{counterspells}
+
+Counterspells act to increase Magic Resistance and defeat the workings
+of other magic. Each college has two of these spells: a General
+Knowledge Counterspell, and a Special Knowledge Counterspell. These
+are specific to the college --- a Fire College Special Counterspell
+will not affect the workings of any Earth College spell, nor would it
+affect a General Knowledge spell of the Fire College. Adepts learn
+both Counterspells of their own college as part of their General
+Knowledge.
+
+\begin{spell}{Counterspell}
+
+\range{25 feet + 25 / Rank} 
+\duration{(D10 + 5) minutes  +1 / Rank}
+\multiple{\\
+100 -- General Knowledge Counterspell \\
+200 -- Special Knowledge Counterspell}
+\basechance{40\%}
+\resist{Passive}
+\storage{Investment, Ward, Potion, Magical Trap}
+\target{Entity, Object, Area}
+\begin{effects}
+There are several distinct uses for a Counterspell. They are:
+\begin{Enumerate}
+\item If cast upon an entity or object the target adds 30 (+ 3 / Rank)
+to their Magic Resistance when resisting the type of magic to which
+the Counterspell applies.
+
+\item If cast upon an area the Counterspell affects a space 15 feet in
+diameter. All targets within the area gain the magic resistance bonus
+detailed in \#1 above and additionally no one within the area may cast
+a spell of the type affected. A double or triple effect cast may
+increase the area of effect to 25 feet or 35 feet respectively.
+
+\item If a Counterspell of the appropriate type is cast over an area
+under the effects of a Ward, then that part of the warded area is
+temporarily defused. When the duration of the Counterspell ends, the
+Ward will become active again.
+
+\item An Adept may use a Counterspell to dissipate a spell that they
+have cast. They must direct the Counterspell at the specific spell
+effect that they wish to remove. In the case of area effect spells it
+is sufficient to cast one Counterspell within the area --- the entire
+area need not be covered. One Counterspell will dissipate one spell.
+
+\item Some spells may be removed by any Adept casting the appropriate
+Counterspell at them. Only spells that specifically state that they
+may be removed this way can be affected. One Counterspell will
+dissipate one spell. The Adept must specify the name of the spell to
+be removed at the time of casting.
+\end{Enumerate}
+
+A target may only be under the effects of the Counterspells of a
+single College. The target may also occupy an area under the effects
+of another College's Counterspells. Thus the maximum number of
+Counterspells that an entity or object may gain benefit from is four:
+the General and Special Counterspells of one college cast upon them,
+and the General and Special Counterspell of another college upon the
+area they occupy.  Counterspells of other colleges cast upon them will
+obey the normal rules for stacking. A target may only benefit from one
+Counterspell against a particular spell. If there is more than one
+appropriate Counterspell protecting a target the highest ranked one
+will have an effect.
+
+Characters may learn Counterspells from colleges other than their
+own. The Counterspells of other colleges are practised at Rank 0 and
+may not be ranked.
+\end{effects}
+\end{spell}
+
+\subsection{General Knowledge Rituals}
+
+\begin{ritual}[]{Ritual Spell Preparation}
+\label{magic:preparation}
+
+For each hour spent in preparation, the Base Chance of the spell is
+increased by 3 (up to a maximum of 30 if 10 full hours are spent in
+preparation).  If, at any time during the preparation, the Adept's
+concentration is broken, the entire process must be restarted from
+scratch or abandoned and any time previously spent in preparation is
+lost.  An Adept's concentration is always broken if combat occurs
+during the ritual.  The Adept may engage in no other activity while
+preparing the spell.  The spell must be cast immediately upon
+completing the Ritual Preparation.  The Spell Preparation Ritual is a
+General Knowledge Ritual.  An Adept cannot achieve Rank with this
+Ritual.
+\end{ritual}
+
+\begin{ritual}[]{Purification}
+\label{college:purfication}
+\duration{4 hours + 4 / Rank}
+\multiple{200}
+\basechance{MA + WP + 3\% / Rank}
+\casttime{1 hour}
+\begin{effects}
+This purification ritual takes one hour and confers the
+following benefits:
+\begin{Itemize}
+\item 0 (+ 1 / 5 full Ranks) MA.
+\item 0 (+ 1 / Rank) Magic Resistance.
+\end{Itemize}
+The additional MA does not count towards any EP reduction (\eg ranking
+general spells or rituals).  This ritual cannot backfire.
+\end{effects}
+\end{ritual}
+
+\subsection{Special Knowledge Rituals}
+
+\begin{ritual}[]{The Ward Ritual}
+\label{college:ward}
+\index{spell storage!ward}
+
+\duration{Until triggered}
+\multiple{400}
+\basechance{MA + 3\% / Rank}
+\resist{None}
+\target{Volume}
+\casttime{1 hour}
+\material{None}
+\actions{Concentration}
+\concentration{Standard}
+\begin{effects}
+An entity may employ Ritual Magic to set a Ward over an area which
+they occupy.
+
+A Ward is a spell which is activated by the entry or exit of objects
+or entities into the volume it occupies. Whenever an entity wants to
+create a Ward, they engage in one or more hours of Ritual Preparation
+to create the Ward.  At the end of the preparation, they check to see
+if the Ward is set by making a Cast Check.  If the Cast Check is
+successful, the Ward is set. If the Check is not successful, no Ward
+exists.
+
+It is possible to backfire from an attempt to create a Ward.  In such
+cases, the spell being incorporated into the Ward backfires
+immediately. This is rolled for on the backfire table as though a
+normal Cast Check had resulted in the backfire.
+
+Once the Ward is cast, the entry or exit of any object or being in the
+area occupied by the Ward (determined by the range of the spell
+incorporated into the Ward) may trigger the Ward.  The area that the
+Ward occupies and the range of the spell incorporated into the Ward
+are identical.  This means that most spells (Range 15' + 15 rank) have
+a minimum sized ward of 30' diameter (a sphere, centred on the caster,
+of 15'radius).  Also, note that many spells have an indefinite range
+and hence cannot be incorporated into a Ward.  This includes spells
+with ranges of unlimited, self, or touch and spells that can only
+affect the adept.  Once a ward has been triggered, it ceases to
+exist. It takes full effect on the entity(s) or object(s) that
+triggered it, but is dissipated thereafter. It takes full but normal
+effect on the target(s) -- there is no possibility for a double or
+triple effect (nor for failure or backfire).  Note that a Ward set up
+for triggering by an entity or object exiting the area cannot be a
+targeted spell, since the target would no longer be within range. The
+exiting method of triggering is still useful for area of effect spells
+that don't have a specific target.  All Wards emanate from the exact
+spot occupied by the individual who cast the Ward (important for
+determining range).  Note that there are a couple of spells that can
+have an effect beyond their range.
+
+Spells that are not suitable for incorporation into a Ward are those
+which require concentration, or some other action by the Adept.  A
+Ward always consists of only one spell. More than one Ward may not be
+set over a specific area. Any attempt to set a Ward on an area that
+overlaps another Ward will fail. The adept will only become aware of
+this if they would otherwise have been successful.
+
+Whenever creating a Ward, the Adept must also specify under what
+conditions the Ward will be triggered.  They may decide not to limit
+its effect, in which case the ward will be triggered by anyone or
+anything entering the area over which it is set, or they may limit it
+to affecting specific individuals or anything in between.  Thus, an
+Adept could set a Ward that would only be triggered by the entry or
+exit of a troll. If a multi-target spell is required to hit more than
+one target from a Ward, then the trigger must include the number of
+beings.  For example, a spell which affects three targets could be set
+up to be triggered by three trolls.  The instant that the third troll
+entered the volume the Ward would be triggered, but prior to that any
+number of lone trolls could have freely moved through the Ward.
+
+A Ward, once it is successfully set, cannot be triggered until the
+caster leaves the volume of the Ward.  Specifics of the triggering
+mechanism must be something intrinsic to the object or entity (similar
+to Detect Aura). Hence a Ward could be set up to be triggered by a
+Rank 4 or higher assassin, but could not be constructed to trigger on
+the assassin known as Mac the Knife. In order to affect, or exclude,
+specific people, those people's Individual True Names may be
+incorporated into the Ward, with a sufficiently detailed description
+so as to identify the individual. If Individual True Names are
+incorporated then there is no possible way to determine what those
+names are, but a Divination would reveal the number of people
+specifically affected, or excluded.  A Ward cannot recognise a
+specific object, but merely an instance of an object.  For example,
+``my sword'' could not be included in the triggering mechanism, but a
+``magical sword with a yak-hide grip'' could be.  A Ward cannot tell
+the time so a Ward cannot include such phrases as ``after x minutes''
+or ``at midnight''.  Nor does a Ward have any memory, so in cannot be
+set up to be triggered by the third troll to pass.
+
+Once a Ward is set, any entity or object which could trigger the Ward
+and which enters the area occupied by the Ward is automatically
+subject to whatever spell was woven into the Ward.  Only those spells
+known by the caster of the Ward may be woven into the Ward and they
+take effect exactly as if the caster of the Ward were present and
+casting at the spot occupied by the entity when they set the Ward.
+All entities or objects nearby which would normally be affected by the
+spell are subject to its effects when it is cast as a result of the
+Ward being triggered. Note that for entities or objects to be affected
+they must be within the volume that the Ward occupied, with the
+exception of those spells which can affect beyond their range.
+Targeted spells can only affect what is incorporated in the triggering
+mechanism.
+
+Wards are dispelled in one of two ways: either by a Namer casting the
+appropriate Counterspell of the same College incorporated into the
+Ward, or by being triggered by an entity or object. The Adept who set
+the Ward may always counterspell their own spells, and hence they can
+dissipate their own wards by casting a counterspell into it.  Wards
+exist in perpetuity until dispelled.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[]{The Investment Ritual (Ver 1.1)}
+\label{investment}
+\index{spell storage!investment}
+
+\multiple{300}
+\basechance{MA + 3\% / Rank}
+\target{Object}
+\casttime{Special}
+
+This ritual allows an Adept to store a spell in an object or scroll.
+
+\begin{Description}
+\item[Creation]
+
+The object to be invested must be in a form appropriate to the spell
+which it is to contain (\eg Spell of Opening might be invested into
+a set of lock picks, or Spell of Enchanting Armour into a set of
+armour), and of a size appropriate to the rank and style of that
+spell. Please note that a staff engraved with the symbols of the
+Adept's college is always considered to be appropriate. The item must
+weigh at least one ounce.
+
+An Investment Ritual may not be performed on an object which still
+carries charges of invested spells, or a shaped item, or anything made
+of cold iron.
+
+The time taken to perform the ritual is one day per charge, unless the
+Adept's rank with this ritual is less than the spell rank which they
+choose to invest, in which case the investment ritual will take much
+longer (spell Rank \x charges) days.  As a ritual which takes an
+extended period of time, the rules in \S\ref{magic:extendedrituals}
+apply.
+
+The cost of materials used in creating an invested item is [spell Rank
+(minimum 1) \x charges \x EM of spell / 2] silver pennies.
+These ingredients are consumed progressively during the ritual, with
+the last snatch of incense being burned as the success (or otherwise)
+of the investment is determined. The Adept may elect to spend more
+than this base cost to increase the chance of the success of the
+ritual of investment. For every 200 extra silver pennies spent on
+materials the base chance of success with this ritual is increased by
+1\%.
+
+Alternatively, the Adept may instead opt to prepare a scroll (in a
+language in which they have a minimum of Rank 8 literacy). This takes
+one day per scroll, and costs only half the usual sum to create.  A
+scroll may only ever hold one charge, and weighs only two ounces -
+however a scroll case sufficient to protect it from the elements will
+weigh much more.
+
+If the Investment ritual backfires, then it is as though the spell
+being invested has backfired.
+
+\item[Triggering]
+The Base Chance to successfully trigger an invested spell is the cast
+chance of the spell at the moment the adept completes the investment
+ritual, including all college bonuses, MA, magic, and environmental
+conditions. Dice roll modifiers are applied at the moment of
+triggering, not investing.
+
+A spell contained in an invested item functions as any pulse-cast
+spell, with the usual chance of double and treble effect, and of
+backfire.
+
+Any sentient entity may trigger an invested item, if it is physically
+possible for them to do so, and if they have been taught how to
+trigger it. The adept who created the item, and any adept who has
+divinated it, know how to trigger it. Teaching someone how to trigger
+an item take 15 minutes.
+
+Triggering always involves speech or a specific motion to target the
+item, which may be perceived by a sufficiently alert observer. An
+invested item always takes a full five seconds to trigger.
+
+Triggering a prepared scroll takes a full ten seconds and may only be
+done by someone literate in the language in which the scroll is
+written. The scroll must be read aloud without interruption. No
+teaching is required to trigger a scroll.
+
+Any item or scroll loses a charge when it is triggered regardless of
+whether or not the triggering is successful.
+
+\item[Limitations]
+An invested item may be drained of all magic by a Namer casting the
+appropriate counterspell over the item.
+
+If an entity carries more than one hundred charges of invested spells,
+these will trigger randomly until under this limit.
+
+\end{Description}
+\end{ritual}
+
+\index{rituals!college|)}
+\raggedcolumns
+\clearemptydoublepage
+\end{multicols}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@d18 8
+a25 2
+An entity's Magic Resistance can be increased by the use of a
+counterspell.
+d27 1
+a27 27
+Counterspells act to defeat the workings of other spells cast by
+members of the specific college against which the counterspell is
+directed.  Each college has a General Knowledge Counterspell and a
+Special Knowledge Counterspell.  These are specific to the college --
+a Special Fire College counterspell will not affect the workings of a
+Special Earth College spell, nor would it affect the workings of a
+Fire College General spell.  Adepts learn the counterspells affecting
+their college as part of their General Knowledge upon joining the
+college.
+
+\textbf{Note:} Counterspells are the only spells of a college other
+than their own that an Adept can learn.  They are an exception to
+the general rule that one can know only the spells of one's own
+college.  Counterspells may be learnt from any Adept of that college
+(or a Namer) who is willing to teach it.  As for other spells a
+minimum expertise is required in a spell before it may be taught,
+equivalent to being of rank 6 or above.  Members of the College of
+Namers specialise in counterspells, thus giving them special benefits.
+All counterspells of colleges other than that of the character's own
+college may only be practised at rank 0 (\ie unranked), unless the
+character is a Namer, in which case rank may be achieved.
+
+Counterspells are always General Knowledge spells of the college to
+which they pertain, but are considered Special Knowledge spells when
+learnt by Adepts of other colleges and as such are affected by the
+base chance modifiers of that college.  All counterspells known by
+Namers are part of the General Knowledge of that college.
+d29 2
+a30 4
+\begin{spell}[]{Counterspell}
+
+\range{25 feet + 25 / Rank}
+\duration{[D + 5] minutes + 1 / Rank}
+d32 2
+a33 2
+\hspace{1.5em} 100 -- General Knowledge Counterspell \\
+\hspace{1.5em}  200 -- Special Knowledge Counterspell}
+d36 2
+a37 2
+\storage{Investment, Potion, Ward, Magical Trap}
+\target{Entity or area}
+d39 45
+a83 66
+A counterspell may be cast on an entity (including the Adept) or on an
+area (a hex and the surrounding six hexes on the Tactical Display).
+The entity with the counterspell on, or within an area with a
+counterspell on, adds 30 (+ 3 / Rank) to their Magic Resistance, for
+the purposes of resisting the type of spell to which the counterspell
+applies.
+
+When a counterspell is cast over an area, in addition to the gain in
+Magic Resistance, any individual occupying that area may not use a
+spell of the type affected by that counterspell until they vacate the
+affected area.  This is only an effect of the area counterspells --
+counterspells cast on individuals do not inhibit the use of magic by
+that individual.  All individuals in the area, or moving into it, add
+30 (+ 3 / Rank) to their Magic Resistance until the area is vacated.
+A double or triple effect can increase the size of the area (by
+increasing the diameter to 25' or 35' respectively) or increase the
+duration of the counterspell.
+
+If a being or area were already under the effects of a counterspell
+affecting one college, a counterspell affecting another college cast
+on them would have no effect.  Rather it will ``queue'', and when the
+first counterspell expires the second one will then come into effect.
+Thus the maximum number of counterspells able to be protective on an
+entity at once is four -- the General and Special Knowledge
+Counterspells of one college on the individual, and the Special and
+General Knowledge Counterspells of another college on the area in
+which the person is standing.  If a higher ranked counterspell of the
+same type is cast however, it will ``override'' the original, and the
+entity will get the benefit from the higher ranked spell.  An entity
+may never benefit from more than one counterspell against a particular
+spell, that is if one has the same counterspell on ones person as on
+the area currently occupied, only the highest ranked one would have an
+effect (although the area spell could still inhibit spell casting).
+
+Wards can be temporarily ``defused'' by the casting of the appropriate
+counterspell.  The area-effect counterspell(s) must cover the whole
+area of the ward.  When the duration of the counterspell(s) ends the
+ward becomes active again (it does not get triggered).
+\index{ward!defused}
+
+An Adept may always counter the effect of their own spell by the
+appropriate counterspell (unless otherwise specified in the spell
+description).  In all other cases only spells specifically so stating
+may be removed by any person by the appropriate counterspell -- for
+example the Damnum Minatum (G-1 Wicca college), the Curse Spell (G-5
+Rune).  For example if an entity with a Damnum Minatum on it has a
+Wicca general counterspell cast upon them the spell dispels the last
+Damnum Minatum put on.  The counterspell will have no other effect.
+Only Namers may remove the effects of other spells, by means of the
+Ritual of Dissipation (\S \ref{namer:dissipation}).  Counterspells as
+used by practitioners of the College of Naming Incantations have some
+additional powers -- see the college description for more details.
+
+When an Adept attempts to remove a spell effect using a counterspell,
+they must direct the counterspell at the specific spell effect.  If
+there are multiple instances of a spell effect acting on the target (
+for example when spell effects are queued) then the Adept can nominate
+which instance to counter.  In the case of area effect spells, the
+Adept just has to place an area counterspell within the area of the
+spell.  It need not cover the entire area of the spell.  In general,
+this will only apply to Namers with Dissipation, but items and special
+abilities may be affected.
+
+Note that counterspells are resistible when cast at an entity, so
+unless the entity is deliberately not resisting they must attempt to
+resist the spell.
+@
+
+
+4.2
+log
+@Minor corrections from Andrew Withy plus formatting changes.
+@
+text
+@d57 1
+a57 1
+\resist{May only be passively resisted}
+d149 2
+a150 2
+\label{colleged:purfication}
+\duration{4 + 4 / Rank hours}
+d152 1
+a152 1
+\basechance{MA + WP + 3 / Rank}
+d169 1
+a169 1
+\label{colleged:ward}
+d174 2
+a175 2
+\basechance{MA (+ 3\% / Rank)}
+\resist{No}
+d287 1
+a287 1
+\basechance{MA (+ 3 / Rank)}
+@
+
+
+4.1
+log
+@When counterspelling a spell that has been cast multiple times on a
+target, a nominated instance can be countered.  This includes queued
+spells.
+@
+text
+@d51 3
+a53 3
+\sItem{Range}{25 feet + 25 / Rank}
+\sItem{Duration}{[D + 5] minutes + 1 / Rank}
+\sItem{Experience Multiple}{\\
+d56 11
+a66 10
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Storage}{Investment, Potion, Ward, Magical Trap}
+\sItem{Target}{Entity or area}
+\emph{Effect:} A counterspell may be cast on an entity (including the
+Adept) or on an area (a hex and the surrounding six hexes on the
+Tactical Display).  The entity with the counterspell on, or within an
+area with a counterspell on, adds 30 (+ 3 / Rank) to their Magic
+Resistance, for the purposes of resisting the type of spell to which
+the counterspell applies.
+d127 1
+d150 6
+a155 5
+\sItem{Duration}{4 + 4 / Rank hours}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{MA + WP + 3 / Rank}
+\sItem{Cast Time}{1 hour}
+\effect{This purification ritual takes one hour and confers the
+d162 2
+a163 1
+general spells or rituals).}
+d172 10
+a181 10
+\sItem{Duration}{Until triggered}
+\sItem{Experience Multiple}{400}
+\sItem{Base Chance}{MA (+ 3\% / Rank)}
+\sItem{Resist}{No}
+\sItem{Target}{Volume}
+\sItem{Cast Time}{1 hour}
+\sItem{Materials}{None}
+\sItem{Actions}{Concentration}
+\sItem{Concentration Check}{Standard}
+\emph{Effect:}
+d279 1
+d282 1
+a282 1
+\begin{ritual}[]{The Investment Ritual (Ver 1.0)}
+d286 4
+a289 4
+\sItem{Experience Multiple}{300}
+\sItem{Base Chance}{MA (+ 3 / Rank)}
+\sItem{Target}{Object}
+\sItem{Cast Time}{Special}
+d331 3
+@
+
+
+4.0
+log
+@REL40
+@
+text
+@d32 1
+a32 1
+than their own that a character can learn.  They are an exception to
+d114 8
+a121 5
+they must direct the counterspell at the specific spell effect.  In
+the case of area effect spells, the Adept just has to place an area
+counterspell within the area of the spell.  It need not cover the
+entire area of the spell.  In general, this will only apply to Namers
+with Dissipation, but items and special abilities may be affected.
+@
+
+
+3.5
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+3.4
+log
+@Fix e.g. problem
+@
+text
+@d3 1
+a3 1
+\section{College Spells and Rituals}
+d11 1
+a11 1
+specific to a College so an adept can only learn them from another
+d18 1
+a18 1
+An entities Magic Resistance can be increased by the use of a
+d45 1
+a45 1
+learnt by Adepts of other colleges and as such are effected by the
+d61 1
+a61 1
+Adept) or on a area (a hex and the surrounding six hexes on the
+d80 1
+a80 1
+on them would have no effect.  Rather it will ``stack'', and when the
+d95 3
+a97 4
+counterspell, in a manner analogous to switching on a safety catch on
+a gun.  The area-effect counterspell(s) must cover the whole area of
+the ward.  When the duration of the counterspell(s) ends the ward
+becomes active again (it does not get triggered).
+d148 1
+a148 1
+\sItem{1 hour}
+d151 1
+a151 1
+\begin{Enumerate}
+d154 3
+a156 1
+\end{Enumerate}}
+d222 1
+a222 1
+its affect, in which case the ward will be triggered by anyone or
+d285 1
+a285 2
+{\setlength\leftmargini{0em}
+\begin{description}
+d360 1
+a360 1
+\end{description}}
+@
+
+
+3.3
+log
+@Check in before modifying e.g. and i.e.
+@
+text
+@d40 1
+a40 1
+college may only be practised at rank 0 (i.e.\ unranked), unless the
+d289 1
+a289 1
+which it is to contain (e.g.\ Spell of Opening might be invested into
+@
+
+
+3.2
+log
+@Change purification.
+@
+text
+@d149 2
+a150 2
+\time{1 hour}
+\effects{This purification ritual takes one hour and confers the
+@
+
+
+3.1
+log
+@Fix spell environment and indexes
+@
+text
+@d146 10
+a155 27
+
+{\em Duration:} (D10 + Rank) \x hours spent purifying \\
+{\em Experience Multiple:} 200 \\
+{\em Time Taken:} 1, 2 or 3 hours \\
+An Adept may increase their Magic Resistance by 5 and their Magical
+Aptitude by 1 for each hour spent in Ritual Purification.
+
+Ritual Purification always increases both Magic Resistance and Magical
+Aptitude by the aforementioned amounts for each hour spent in
+purification up to a maximum of 3 hours (for a total increase of 15 to
+Magic Resistance and 3 to Magical Aptitude). An Adept can only be
+under the influence of one Ritual Purification at a given time.  The
+effects of the purification last for a number of hours equal to (Rank
+with Ritual Purification + D10) \x the number of hours spent in
+purification.  The die is always rolled by the GM who keeps the result
+secret until it is time to inform the players that the result of a
+purification has worn off.  The ritual is always interrupted by the
+necessity of suspending the Adventure Sequence and employing the
+Tactical Procedure and must be abandoned or restarted from scratch
+with all hours spent in purification being lost.  However, once a
+Ritual Purification has been completed, the Adept can enter combat and
+employ all of the benefits of the purification.  An Adept must
+announce when they start a purification the number of hours they will
+spend engaged in the ritual.  They may engage in no other activity
+(including moving, resting, or employing other special preparations)
+while engaged in this ritual.  Ritual Purification is a General
+Knowledge Ritual.
+@
+
+
+3.0
+log
+@Major typographical changes.  Spells now spell environments
+@
+text
+@d49 1
+a49 1
+\begin{spell}{Counterspell}{}
+d128 2
+a129 1
+\begin{ritual}{Ritual Spell Preparation}{\label{magic:preparation}}
+d144 2
+a145 1
+\begin{ritual}{Purification}{\label{colleged:purfication}}
+d177 3
+a179 1
+\begin{ritual}{The Ward Ritual}{\label{colleged:ward}\index{spell storage!ward}}
+d290 3
+a292 1
+\begin{ritual}{The Investment Ritual (Ver 1.0)}{\label{investment}\index{spell storage!investment}}
+@
+
+
+2.1
+log
+@Check in before modifying spell description headers.
+@
+text
+@a15 1
+\index{spells!counterspells}
+d49 1
+a49 1
+\subsubsection{Counterspell}
+a50 1
+\begin{spelldesc}
+d60 1
+a60 2
+\end{spelldesc}
+\emph{Effects:} A counterspell may be cast on an entity (including the
+d124 1
+d126 1
+a126 3
+\subsection{Ritual Spell Preparation}
+\label{magic:preparation}
+\index{rituals!spell preparation}
+d128 1
+a128 1
+\subsubsection{General Knowledge Ritual}
+d141 1
+d143 1
+a143 3
+\subsection{Purification}
+\label{colleged:purfication}
+\index{rituals!purification}
+d145 3
+a150 7
+\subsubsection{General Knowledge Ritual}
+
+\begin{spelldesc}
+{\em Duration:} (D10 + Rank) \x hours spent purifying \\
+{\em Experience Multiple:} 200 \\
+{\em Time Taken:} 1, 2 or 3 hours \\
+\end{spelldesc}
+d171 3
+d175 12
+a186 19
+\subsection{The Ward Ritual (Ver 1.1)}
+\label{colleged:ward}
+\index{rituals!ward}
+\index{spell storage!ward}
+
+\subsubsection{Special Knowledge Ritual}
+
+\begin{spelldesc}
+\emph{Duration:} Until triggered \\
+\emph{Experience Multiple:} 400 \\
+\emph{Base Chance:} MA (+ 3\% / Rank) \\
+\emph{Resist:} No \\
+\emph{Target:} Volume \\
+\emph{Cast Time:} 1 hour \\
+\emph{Materials:} None \\
+\emph{Actions:} Concentration \\
+\emph{Concentration Check:} Standard \\
+\end{spelldesc}
+\emph{Effects:}
+d284 3
+d288 4
+a291 13
+\subsection{The Investment Ritual (Ver 1.0)}
+\label{investment}
+\index{rituals!investment}
+\index{spell storage!investment}
+
+\subsubsection{Special Knowledge Ritual}
+
+\begin{spelldesc}
+\emph{Experience Multiple:} 300 \\
+\emph{Base Chance:} MA (+ 3 / Rank) \\
+\emph{Target:} Object \\
+\emph{Cast Time:} Special \\
+\end{spelldesc}
+d293 1
+a293 1
+An Adept may store a spell in an object or scroll.
+d372 1
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d1 4
+a4 2
+\section{College Rituals}
+\label{college:rituals}
+d7 42
+a48 1
+\begin{multicols}{3}
+d50 1
+a50 1
+\subsection{Introduction}
+d52 75
+a126 3
+This section includes those rituals that are common to all Colleges.
+Note however, that these rituals are still specific to a College so an
+adept can only learn them from another Adept of the same College.
+d130 1
+a130 1
+\index{ritual spell preparation}
+d148 1
+a148 1
+\index{purification}
+d183 2
+a184 1
+\index{ward}
+d300 2
+a301 1
+\index{investment}
+d392 1
+@
+
+
+1.5
+log
+@Various tidy ups from Andrew Withy.
+@
+text
+@@
+
+
+1.4
+log
+@Weight restriction on invested items changed.
+@
+text
+@d216 3
+a218 3
+longer (spell Rank (or 1 if at rank 0) \x charges) days.  As a ritual
+which takes an extended period of time, the rules in
+\S\ref{magic:extendedrituals} apply.
+d221 1
+a221 1
+(or 1 if at Rank 0) \x charges \x EM of spell) / 2] silver pennies.
+d246 1
+a246 3
+backfire. That is, the spell will backfire if the check to trigger it
+is greater than 30 above its base chance, or equal to 00 unless the
+base chance is above 100, in which case a roll of 00 will merely fail.
+@
+
+
+1.3
+log
+@Fixed typo in purification.
+@
+text
+@d207 1
+a207 2
+weigh at least one ounce per rank of the invested spell (regardless of
+the number of charges it contains)
+@
+
+
+1.2
+log
+@New investment ritual added.  Indexes added.
+@
+text
+@d9 3
+a11 4
+This section includes those rituals that are common to all 
+Colleges.  Note however, that these rituals are still specific
+to a College so an adept can only learn them from another adept
+of the same college.
+d25 2
+a26 2
+during the ritual.  The Adept may engage in no other activity
+while preparing the spell.  The spell must be cast immediately upon
+d51 1
+a51 1
+with Ritual Purification + D1O) \x the number of hours spent in
+d217 3
+a219 3
+longer (spell Rank (or 1 if at rank 0) \x charges) days. Performing
+this ritual requires the Adept's full and exclusive concentration, and
+no other activities are possible during this time.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 1
+d16 1
+d34 1
+d69 1
+d183 1
+a183 1
+\subsection{The Investment Ritual}
+d185 1
+a185 26
+
+     Investment Ritual - Ver 0.3
+
+
+   Summary of changes discussed at
+the meeting
+
+1) Weight restriction redesigned.
+2) Time taken to invest altered -
+now significantly quicker for those
+more proficient with the ritual
+than the invested spell,
+significantly slower for the
+incompetent
+3) Fatigue cost to trigger removed
+entirely
+4) Scrolls clarified - cheaper
+investment cost trades off with
+slower to trigger (GMs to enforce
+actual time required to "prepare" a
+scroll from a scrollcase on their
+own discretion).
+5) Exemption for the adept's own
+investeds from the charges >100 =
+kablooie rule removed
+
+d190 4
+a193 4
+{\em Experience Multiple:} 300 \\
+{\em Base Chance:} MA (+ 3 / Rank) \\
+{\em Target:} Object \\
+{\em Cast Time:} Special \\
+a195 1
+
+d198 1
+d277 1
+a277 1
+\end{description}
+@

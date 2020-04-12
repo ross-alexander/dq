@@ -1,0 +1,517 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL30:3.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.3;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.06.04.05.38.15;	author rossa;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	98.06.04.05.35.10;	author rossa;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	98.05.10.23.52.11;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	98.03.30.22.06.26;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	97.05.15.02.29.56;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	96.01.12.02.20.29;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.09.18.19.03.45;	author rossa;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.04.06.04.31.26;	author rale01;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\chapter{Skills}
+
+\begin{multicols*}{3}
+% \section{Introduction to Skills}
+\label{skills}
+\index{skills|(}
+\index{skills!introduction}
+
+A character may acquire and refine skills during a campaign.  They can
+hone their talents in a series of interrelated non-magical and
+quasi-magical abilities, which combine to form a single skill.  A
+character's degree of talent is measured by their Rank in a skill.
+They begin with the simplest abilities at the lowest Ranks, and gain
+the more difficult ones as they progress through the Ranks.  Their
+percentage chance of successfully performing tasks associated with a
+skill will increase as their Rank becomes higher.
+
+The possession of a skill does not necessary imply any character
+traits associated with that skill.
+
+\subsection{Acquiring and Using Skills}
+\index{skills!acquiring}
+\index{skills!usage}
+
+The rudiments of a skill are learned by dint of hard practice and
+diligent study.  A character must spend a good deal of time and effort
+before they can use a skill at novice level (Rank 0). The character's
+ability with a skill can improve only if they continue to work with it
+during and between adventures.
+
+\subsubsection{Any skill may be acquired at Rank 0 at a variable cost
+of Experience Points and 8 weeks of game time.}
+\index{skills!rank 0}
+
+All eight weeks must fall within a period of six game months.  Time
+spent on adventure may not count toward the necessary eight weeks.
+
+\subsubsection{The method by which a character learns a skill affects the
+Experience Point cost to acquire that skill or to increase the
+character's Rank.}
+
+If the character is taught by someone of greater Rank in the skill,
+decrease any Experience Point cost by 10\%.  If the character learns
+from a book, verbal descriptions or practices with some of equal or
+lesser Rank in the skill, any Experience Point cost is unmodified.  If
+the character practices with no useful outside assistance, any
+Experience Point cost is increased by 25\%.  The availability of
+qualified teachers, and the fees they charge the character for their
+services, are left to the discretion of the GM.
+
+\subsubsection{A character may attempt to employ a non-magical skill any
+number of times during a day.}
+
+The use of a skill does not, in and of itself, prevent a character
+from using the same or any other skill immediately afterwards.
+However, a character might suffer adverse fortune (for example, lose
+Fatigue Points) while executing a skill, which would inhibit their
+ability to act.
+
+\subsubsection{The use of a non-magical skill is rarely automatically
+successful.}
+
+A character usually has a chance of failure when using a non-magical
+skill.  Unless the ability is described as an exception to this rule,
+the maximum chance to succeed with it is never greater than 90 (+
+Rank)\% .  A character always fails to use an ability if the roll is
+greater than the modified chance or 100 (regardless of Rank).
+
+\subsubsection{Very few of the abilities associated with the various skills
+are quasi-magical.}
+
+The following are the only quasi-magical abilities to be found in the
+skills section: Alchemist, Astrologer, Healer, Herbalist, Ranger Bump
+of North.
+
+\subsubsection{Expert Knowledge}
+\index{skills!expert knowledge}
+
+The possessor of a skill, other than an Adventuring skill, also gains
+an in-depth knowledge of the field associated with their skill.  This
+is equivalent to having Knowledge in that skill (see \S
+\ref{skills:knowledge}).
+
+\subsubsection{Supervision of subordinates}
+\index{skills!supervision}
+
+The possessor of a Skill, other than an Adventuring skill, is able to
+supervise the work of subordinates in that Skill.  The supervisor may
+instruct and supervise a number of subordinates equal to Rank.
+Subordinates must be practising the same Skill as their supervisor and
+may themselves be supervising underlings, thus creating a ``chain of
+command''.  A subordinate may be replaced by a work-gang, consisting
+of a group of up to 10 labourers, who must be working as a team, and
+may not be supervising others. A character need not supervise their
+maximum number of subordinates or labourers, and may themselves work,
+proportional to their unused supervision capacity.
+
+\begin{example}
+A character with Rank 6 in Artisan (Carpenter), may instruct up to 6
+other Carpenters or 6 work-gangs (up to 60 labourers), or some
+combination thereof.  If they were supervising 2 Carpenters and 1
+work-gang, they would only be using half their supervision capacity,
+and could themselves work about half of the time.
+\end{example}
+
+\index{skills|)}
+\end{multicols*}
+
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@d1 1
+a1 1
+\chapter*{Skills}
+d4 1
+a4 1
+\section{Introduction to Skills}
+@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 3
+d81 1
+a81 1
+is equivalent to having Knowledge in that skill (see
+d107 2
+@
+
+
+3.0
+log
+@REL30
+@
+text
+@@
+
+
+2.3
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+2.2
+log
+@Modify swimming for aquatic adventurering.
+@
+text
+@d69 3
+a71 3
+The following rules describe the only quasi-magical abilities to be
+found in the skills section: Alchemist, Astrologer, Healer, Herbalist,
+Ranger Bump of North and Troubadour Bardic Voice.
+d76 4
+a79 16
+The possessor of a Skill, other than an Adventuring skill, also gains
+an in-depth knowledge of the field associated with their Skill.  The
+knowledge held by the character may not be entirely factual, and may
+contain certain popular misconceptions or superstitions.  Generally
+there is no success percentage, the GM simply giving far more
+information regarding a certain topic to a character who has expert
+knowledge in that area.  If there is doubt as to whether or not a
+character should know something from their specific field, the chance
+should be 50\% (+ 5 / Rank), modified by the GM to reflect the rarity
+of the knowledge.  This knowledge mostly gives the character a better
+understanding of the techniques and tools of their trade, some history
+of the trade, a much wider general knowledge about it, and perhaps
+some biographical knowledge of famous figures associated with it, both
+historical and contemporary.  This knowledge is less thorough than a
+similar Sub-field from the Philosopher Skill, and should not be seen
+as a substitute for it.
+a101 43
+
+\subsection{Knowledge (area)}
+\label{knowledge}
+\index{skills!knowledge}
+
+This is a skill that can be taken many times --- once for each area of
+knowledge. A character with this skill knows most of the common lore
+and traditions concerning their chosen area. An area may include: a
+particular city or territory, a culture, an historical period, or a
+race, or species. In addition, an area of knowledge may be taken from
+the Philosopher skill (q.v.). If this is done, the area is equivalent
+in size to a Sub-field, and any Sub-fields except Advanced,
+Experimental or Ancient, are available as areas of knowledge.
+
+A character is limited to the knowledge available to their
+culture. The knowledge held by the character may not be entirely
+factual, and may contain certain popular misconceptions or
+superstitions. This skill mostly gives the character a much wider
+general knowledge about their area, some history of it, and perhaps
+some biographical knowledge of famous figures associated with it, both
+historical and contemporary. This skill is entirely one of knowledge,
+and confers no special ability to perform a craft or trade.
+
+Generally there is no success percentage, the GM simply giving far
+more information regarding a certain topic to a character who has
+knowledge of that area.  If there is doubt as to whether or not a
+character should know something from their specific area, the Base
+Chances are:
+
+\begin{tabular}{lc}
+\textbf{Rarity of Information}	& \textbf{Base Chance} \\
+Common			& WP + 70\% \\
+Uncommon		& WP + 40\% \\
+Rare or Obscure		& WP + 10\% \\
+\end{tabular}
+
+These chances may be further modified by the GM to reflect the
+individual rarity of the knowledge. A character will not know the
+theories behind the lore.
+
+If a character learns an area of Knowledge that is also a Philosopher
+Sub-field, and that character is, or becomes a Philosopher, the
+Knowledge (area) may be used as the appropriate Sub-field.
+@
+
+
+2.1
+log
+@Supervision and Expert added by Martin Dickson.
+@
+text
+@a117 1
+\index{knowledge}
+d158 1
+a158 1
+\clearemptydoublepage
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d2 3
+a4 1
+\begin{multicols}{3}
+d19 2
+d30 1
+d74 1
+d93 65
+a157 1
+\end{multicols}
+@
+
+
+1.4
+log
+@Various extra notes about knowledge (Martin Dickson) and character
+traits (Ross Alexander).
+@
+text
+@@
+
+
+1.3
+log
+@Release 1.0 snapshot
+@
+text
+@d13 3
+d67 19
+@
+
+
+1.2
+log
+@Save before gender and rule changes from Andrew and September Gods meeting.
+@
+text
+@d4 6
+a9 6
+A character may acquire and refine skills during a campaign.  He can
+hone his talents in a series of interrelated non-magical and
+quasi-magical abilities, which combine to form a single skill. A
+character's degree of talent is measured by his Rank in a skill.  He
+begins with the simplest abilities at the lowest Ranks, and gains the
+more difficult ones as he progresses through the Ranks.  His
+d11 1
+a11 17
+skill will increase as his Rank becomes higher.
+
+The skills presented here are only those likely to be used by a
+character during an adventure. The fruits of the labours of those using
+other, more plebeian, skills may be purchased.  The gamesmaster will
+be guided in determining the price (in Silver Pennies) of the various
+goods produced by craftsmen by the Basic Goods Cost List (81.4).
+Weaponsmiths' products are valued on the Weapons Table (19.3);
+Armourers' on the Armour and Shield Tables (17.8 and 17.9).  The three
+factors which determine the price of finished goods are the quality of
+the material used, the man-hours spent in construction, and the
+estimated Rank of the craftsman (if one person produces the goods) or
+of the overseer (if the effort is a team project).  However, if a
+character wishes to purchase a custom-made or rare item, then he will
+have to negotiate with the craftsman (represented by the gamesmaster), and
+may defray by providing some of the scarcer components himself.  The
+barter system is acceptable when dealing in costly or rare items.
+d17 3
+a19 3
+before he can use a skill at novice level (Rank 0). The character's
+ability with a skill can improve only if he continues to work with
+it during and between adventures. 
+a25 2
+One skill may be acquired without the expenditure of time and at a
+minimal cost in Experience Points (see 8.6).
+d31 1
+a31 1
+  If the character is taught by someone of greater Rank in the skill
+d34 2
+a35 2
+lesser Rank in the skill, any Experience Point cost is unmodified.
+If the character practices with no useful outside assistance, any
+d45 3
+a47 3
+However, a character might suffer adverse fortune (for example. lose Fatigue
+Points) while executing a skill, which would inhibit his ability to
+act.
+d62 2
+a63 22
+found in the skills section: 50.7, 50.9, all of 52 and 55, 56.3 and
+62.6.
+
+\subsubsection{A character must practice any skill he acquires or risk a
+decrease in Rank.}
+
+A character must use one game day to fulfill the practice requirement
+once a month for one skill. If a character fails to practice a skill
+for one month, he may satisfy the practice requirement by the use
+of four game days during the following month; if he fails to practice
+for two months, eight game days will satisfy the requirement during
+the third month of the cycle.  Days of practice during the second
+month may count towards the third month requirement.
+
+If a character has not sufficiently practiced a skill by the third
+month, his Rank in that skill is decreased by one. If the skill is at
+Rank 0, he loses that skill.
+
+{\bf Note:} A character practices his skills of speaking, reading and
+writing in a language through conversation and correspondence; it
+should be assumed that he is able to do this independent of his other
+practices.
+a65 32
+
+\begin{table*}
+\begin{center}
+{
+\begin{tabular}{lrrrrrrrrrrr}
+& {\bf 0} & {\bf 1} & {\bf 2} &{\bf 3}&{\bf 4}&{\bf 5}&{\bf 6}&{\bf 7}&{\bf 8}& {\bf 9} & {\bf 10} \\
+Speak Language		& 200 &  75 & 125 &  300 &  550 &  850 & 1350 &  1700 &  2250 &  2900 &  3500 \\
+Read \& Write		& 250 & 100 & 150 &  350 &  700 &  950 & 1500 &  1850 &  2500 &  3200 &  4000 \\
+Alchemist		& 800 & 340 &1200 & 2650 & 4350 & 6500 & 8650 & 11100 & 12750 & 14500 & 17000 \\
+Armourer		& 600 & 300 & 800 & 1600 & 3000 & 5500 & 6200 &  7300 &  8800 & 10800 & 14000 \\
+Artisan			& 250 & 100 & 150 &  350 &  700 &  950 & 1500 &  1850 &  2500 &  3200 &  4000 \\
+Assassin		& 600 & 250 & 750 & 1700 & 2900 & 4200 & 5750 &  7550 &  9500 & 11700 & 14100 \\
+Astrologer		& 400 & 150 & 500 & 1150 & 2050 & 3100 & 4400 &  5900 &  7500 &  9400 & 11500 \\
+Beast Master		& 600 & 250 & 750 & 1650 & 2800 & 4300 & 5600 &  7350 &  9300 & 11400 & 13750 \\
+Courtesan		& 250 & 100 & 200 &  500 &  950 & 1450 & 2050 &  3600 &  3600 &  6300 &  8000 \\
+Healer			&1000 & 400 &1600 & 3500 & 5800 & 8400 &11400 & 14700 & 18500 & 22500 & 26750 \\ 
+Herbalist		& 800 & 340 &1200 & 2650 & 4350 & 6500 & 8650 & 11100 & 12750 & 14500 & 17000 \\
+Mechanician		& 600 & 250 & 650 & 1500 & 2600 & 3900 & 5300 &  7000 &  8850 & 10900 & 13000 \\
+Merchant		& 300 & 125 & 300 &  850 & 1400 & 2200 & 3400 &  4200 &  5300 &  6800 &  9500 \\
+Military Scientist	& 300 & 125 & 350 &  950 & 1500 & 2350 & 3100 &  4150 &  5400 &  6750 & 10000 \\
+Navigator		& 400 & 150 & 400 &  900 & 1550 & 2400 & 3350 &  4450 &  5740 &  7100 & 10500 \\
+Philosopher		&1400 & 700 &1400 & 2100 & 2800 & 3500 & 4200 &  4900 &  5600 &  6300 &  7000 \\
+Ranger			& 600 & 250 & 800 & 1650 & 2750 & 4100 & 5650 &  7350 &  9300 & 11400 & 13250 \\
+Spy			& 500 & 200 & 600 & 1400 & 2400 & 3600 & 5000 &  6600 &  8400 & 10400 & 12600 \\
+Thief			& 750 & 300 &1050 & 2350 & 4000 & 5750 & 7900 & 10250 & 12900 & 14850 & 16000 \\
+Troubador		& 250 & 100 & 200 &  500 & 1050 & 1450 & 2100 &  2800 &  3900 &  4600 &  7000 \\
+Warrior			& 600 & 250 & 750 & 1700 & 2900 & 4200 & 5750 &  7550 &  9500 & 11700 & 14100 \\
+Weaponsmith		& 600 & 300 & 800 & 1600 & 3000 & 5500 & 6200 &  7300 &  8800 & 10800 & 14000 \\
+\end{tabular}}
+\end{center}
+\caption{Experience Point Cost Chart}
+\end{table*}
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a102 1
+\newpage
+d106 2
+d132 2
+a133 1
+\end{tabular}
+d136 2
+@

@@ -1,0 +1,1266 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.3;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.1;
+
+4.1
+date	2000.02.29.11.41.32;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	98.06.04.05.35.10;	author rossa;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	98.05.11.01.21.22;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.03.30.22.05.17;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	96.01.12.02.20.51;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.04.07.05.08.49;	author rale01;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.04.06.04.31.26;	author rale01;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{skill}{Philosopher}{2.0}{philosopher}
+
+Philosophers become familiar with the general characteristics of their
+world, within the limits of the knowledge available to their culture,
+discarding many popular misconceptions.  They acquire extensive
+knowledge on a wide range of subjects, and are, in many ways, the
+encyclopaedias and expert opinions of the medieval world.
+Philosophers are also well versed in using the unusual and obscure
+indexing methods employed in medieval libraries, and so may research
+and answer enquiries that they do not immediately know the answers to.
+
+\subsection{Library}
+
+Any place with 50 or more books may be considered a library, for the
+purposes of study.  Libraries are rated for the number of days that a
+philosopher may study in them to answer any particular question.  This
+rating is usually equal to Books divided by 50. Once a philosopher has
+exhausted the possibilities of a library they must either find another
+and continue their study or attempt to answer the question anyway.  A
+day of study is 10 hours, and is full-time work. Some libraries with
+specific collections may be rated higher for some Realms than others.
+GMs should bear in mind that the books in some libraries will be
+predominately in particular languages, and that if the philosopher is
+not literate in those languages, the library may be of reduced
+usefulness.
+
+\subsection{Requirements}
+
+\subsubsection{Language restriction}
+
+A character may not become a philosopher unless they possess at least
+one language at Rank 8, and are literate in that language.
+
+\subsubsection{Books}
+
+A philosopher must possess (or have frequent access to) at least Rank
+times 10 books, written in languages that they are literate in.
+
+\subsection{Structure}
+\label{philosopher:structure}
+
+The philosopher skill is designed as a tree-like structure, with
+several separate Realms of knowledge, each of which has its own
+Fields, which in turn, have Sub-fields.
+
+\subsubsection{Realms}
+
+These are the largest and least detailed divisions of knowledge.
+There are 5 Realms of knowledge: the Social World, the Material World,
+the Magical World, the Animal World, and the Plant World.
+
+\subsubsection{Fields}
+
+Realms are divided into large blocks of knowledge, called Fields.  GMs
+should not need to add new Fields to the Realms, but may do so if they
+wish.
+
+\subsubsection{Sub-fields}
+
+Small, and quite specific divisions of a Field, these are not limited
+to only those suggested below.  A philosopher may learn almost any
+sub-division of a Field as a Sub-field, with the GM as the final
+arbiter. The most common Sub-fields concern a particular race or area
+within a Field.
+
+\subsection{Language benefits}
+
+Philosophers gain a reduction in the EP costs to learn languages, in
+addition to any other reductions available to the character.
+
+Provided that the Rank of language being learnt is not greater than
+their Rank of philosopher, philosophers may learn to speak the
+language or to read an orthographic language at a 10\% discount.  If
+the philosopher has chosen the Field of Linguistics, the discount is
+20\% instead; increasing to 30\% if the philosopher has chosen the
+appropriate Language Group subfield (see
+\S\ref{philosopher:structure}).
+
+\subsection{Knowledge benefits}
+
+\subsubsection{Realms}
+
+At Ranks 0, 4, 7, and 10, the philosopher may learn a Realm of
+knowledge.  Each Realm provides a thorough grounding in the basics
+associated with it (see the individual Realms for more details).  If a
+philosopher wishes to forego learning a Realm, they receive an extra 8
+Sub-fields (which may be traded for Fields as below).
+
+\subsubsection{Fields \& Sub-fields}
+
+At each Rank above 0, the philosopher receives a number of Sub-fields.
+They receive: at Ranks 1 to 4, 3 Sub-fields; at Ranks 5 to 7, 5
+Sub-fields; and at Ranks 8 to 10, 7 Sub-fields. 3 Sub-fields may be
+traded for 1 Field. Any part of the Sub-field allotment may be
+retained and used in conjunction with the allotment received for
+further Ranks. Once a philosopher has achieved Rank 10 they may not
+Rank their Skill further, but may acquire new areas of knowledge. A
+new Realm costs 8 weeks and 4000ep, a new Field 3 weeks and 1500ep,
+and a new Sub-field 1 week and 500ep.
+
+\subsubsection{Field restrictions}
+
+A philosopher may not learn a Sub-field if they have not already
+learned the Field that it is part of. They may not learn a Field if
+they have not already learned the Realm that it is part of.
+
+\subsubsection{Overlaps \& connections}
+
+In some cases it is possible to reach the same Sub-fields by different
+routes.  These duplicated Fields may be treated as identical and no
+benefit accrues from having the same Sub-field more than once.
+
+\subsection{Research benefits}
+
+Philosophers may attempt to answer questions put to them. These
+questions may be posed by themselves, or by other characters. If the
+philosopher does not already know the answer, their chance of success
+depends on the difficulty of the question and the relevant Realms and
+Fields of the philosopher.
+
+\subsubsection{Difficulty}
+
+Questions that may be answered by a philosopher fall into one of seven
+categories; Automatic, Very Easy, Easy, Standard, Hard, Very Hard, and
+Impossible.  The first step in determining the difficulty of answering
+the question is for the GM to determine which Realm(s) the question
+pertains to, and the level of difficulty of the question.
+
+A Standard question is one of average difficulty, relative to a given
+Realm, as determined by the GM.  They usually deal with a reasonably
+large sub-set of the knowledge of the Realm. If the philosopher
+possesses the Realm to which the question pertains, but has no more
+in-depth knowledge applicable to the question, the difficulty is as
+set by the GM. If the philosopher has a Field within that Realm that
+the GM determines is relevant to the question, the difficulty
+decreases by one step. If the philosopher has a Sub-field within that
+Field, and the GM determines that it is relevant to the question, the
+difficulty decreases by another step.  If a philosopher does not even
+possess the Realm of the question, it becomes two steps harder. A
+philosopher will immediately know the answer to an Automatic
+question. A philosopher may not answer an Impossible question.
+
+\subsubsection{Answers}
+
+The accuracy of the answer that a philosopher can offer is dependant
+on Rank and the difficulty of the question. To increase their
+accuracy, a philosopher may also undertake a course of study. For each
+study period (the length of which is determined by difficulty), +1\%
+is added to the philosopher's Base Chance. A philosopher may, at any
+time, attempt to answer the question. The base Accuracy, Rank bonus,
+and length of study period is shown on the Answer Table
+(\S\ref{skills:philosopher:answer}).
+
+Even though philosophers keep notes during their course of study, an
+extended interruption may prove a setback.  If a philosopher ceases a
+course of study but resumes it within Rank weeks there are no adverse
+effects.  If the interruption is longer than this then half of the
+percentage amount that they had achieved from study is lost.
+
+\subsubsection{Final result}
+
+If the question is of a yes/no nature, the Accuracy is the Base Chance
+that the philosopher will arrive at the correct answer.  If the
+question is more open, the Accuracy is the amount of relevant
+information that the philosopher will come up with. It is also
+possible that some questions (as determined by the GM) are simply
+unanswerable.  If this is the case, the Accuracy becomes the Base
+Chance that the philosopher will become aware of this fact.
+
+\subsection{Realms \& Fields}
+
+Each of the five Realms is listed below, along with its associated
+Fields.  Some Fields are followed by a list of suggested Sub-fields.
+
+
+\subsubsection{The Social World}
+
+Standard Sub-fields include: Area, Race, History.  The Fields of this
+Realm are:
+
+\begin{Itemize}
+\item Art \& Music --- Style
+\item Ethnology
+\item Heraldry \& Genealogy --- Tinctures, Furs
+\item History --- Ancient
+\item Legends \& Folklore
+\item Linguistics --- Language Group
+\item Philosophy \& Ethics
+\item Politics \& Customs
+\item Theology \& Mythology
+\end{Itemize}
+
+\subsubsection{The Material World}
+
+Standard Sub-fields include: Area, Race, History, Advanced.  The
+Fields of this Realm are:
+
+\begin{Itemize}
+\item Alchemy --- Experimental
+\item Architecture --- Experimental, Ancient
+\item Astronomy
+\item Cartography
+\item Engineering --- Experimental
+\item Geography 
+\item Geology \& Mineralogy --- Group of Minerals
+\item Mathematics
+\item Metallurgy --- Experimental
+\item Oceanography
+\end{Itemize}
+
+\subsubsection{The Magical World}
+
+Standard Sub-fields include: Area, History. The Fields of this Realm
+are:
+
+\begin{Itemize}
+\item Artifacts \& Magical Items --- Shaper, Legends
+\item (Any College) --- Politics, Famous People
+\item Demi-Powers --- Groups, Races
+\item Deities --- Pantheon, Religion
+\item Dragons --- Type, Genealogy, Behaviour
+\item Elements --- Any element or amalgam
+\item Fantastical Beings --- Any group
+\item History \& Theory --- College Divisions, Backfires
+\item Naming --- Structure
+\item Magical Animals --- Type
+\item Magical Plants --- Type
+\item Mana Zones --- Places of Power
+\item Other Planes --- Plane
+\item The Powers --- Pacts, Invocations, Agency, Factions
+\item Undead --- Lesser, Greater
+\end{Itemize}
+
+\subsubsection{The Animal World}
+
+Standard Sub-fields include: Area, Type.  The Fields of this Realm are:
+
+\begin{Itemize}
+\item Amphibians
+\item Aquatics
+\item Avians
+\item Insects \& Spiders
+\item Land Animals
+\item Magical Animals
+\end{Itemize}
+
+\subsubsection{The Plant World}
+
+Standard Sub-fields include: Area, Type.  The Fields of this Realm are:
+
+\begin{Itemize}
+\item Aquatic Plants
+\item Flowers
+\item Grasses \& Cereals
+\item Herbs
+\item Magical Plants
+\item Root Plants
+\item Shrubs \& Bushes
+\item Trees
+\end{Itemize}
+
+\subsection{Answer Table}
+\label{skills:philosopher:answer}
+
+{\small\begin{tabular}{@@{\hspace{0.5em}}l@@{\hspace{0.5em}}l@@{\hspace{0.5em}}l@@{\hspace{0.5em}}l}
+\textbf{Difficulty} &
+\textbf{Accuracy} &
+\textbf{Per rank} &
+\textbf{Period} \\
+Very Easy	& 90\%	& +1\%	& 1 minute \\
+Easy		& 70\%	& +2\%	& 5 minutes \\
+Standard	& 40\%	& +3\%	& 15 minutes \\
+Hard		& 20\%	& +3\%	& 30 minutes \\
+Very Hard	& 0\%	& +3\%	& 1 hour \\
+\end{tabular}}
+
+\end{skill}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@@
+
+
+4.1
+log
+@Changed to fit new language document.
+@
+text
+@d16 2
+a17 2
+Philosopher may study in them to answer any particular question.  This
+rating is usually equal to Books divided by 50. Once a Philosopher has
+d23 3
+a25 3
+predominately in particular languages, and that if the Philosopher is
+not literate in that language, or languages, the library may be of
+reduced usefulness.
+d31 1
+a31 1
+A character may not become a Philosopher unless they possess at least
+d36 1
+a36 1
+A Philosopher must possess (or have frequent access to) at least Rank
+d42 1
+a42 1
+The Philosopher Skill is designed as a tree-like structure, with
+d61 1
+a61 1
+to only those suggested below.  A Philosopher may learn almost any
+d71 5
+a75 5
+Provided that the Rank of language being learnt, is not greater than
+their Rank if Philosopher, philosophers may learn to speak the
+languages or to read an orthographic language at 10\%. But if the
+philosopher, has chosen the Field of Linguistics, the discount is 20\%
+instead; increasing to 30\% if the philosopher has chosen the
+d83 1
+a83 1
+At Ranks 0, 4, 7, and 10, the Philosopher may learn a Realm of
+d85 3
+a87 4
+associated with it (see the individual Realms for more details).  If,
+at one of these Ranks, the Philosopher wishes to forego learning
+another Realm, they receive an extra 8 Sub-fields (which may be traded
+for Fields as below).
+d91 1
+a91 1
+At each Rank above 0, the Philosopher receives a number of Sub-fields.
+d96 1
+a96 1
+further Ranks. Once a Philosopher has achieved Rank 10 they may not
+d103 1
+a103 1
+A Philosopher may not learn a Sub-field if they have not already
+d117 1
+a117 1
+Character does not already know the answer, their chance of success
+d119 1
+a119 1
+Fields of the Philosopher.
+d123 1
+a123 1
+Questions that may be answered by a Philosopher fall into one of seven
+d126 1
+a126 1
+the question, is for the GM to determine which Realm(s) the question
+d131 1
+a131 1
+large sub-set of the knowledge of the Realm. If the Philosopher
+d134 1
+a134 1
+set by the GM. If the Philosopher has a Field within that Realm, that
+d136 1
+a136 1
+decreases by one step. If the Philosopher has a Sub-field within that
+d138 1
+a138 1
+difficulty decreases by another step.  If a Philosopher does not even
+d140 2
+a141 12
+Philosopher will immediately know the answer to an Automatic
+question. A Philosopher may not answer an Impossible question.
+
+\begin{example}
+A GM determines that the question ``Where do Fire Giants mostly
+live?'' is Hard, and of the Realm: Social World.  As the Philosopher
+attempting to answer the question has the Field : Ethnology, the
+question becomes Standard .  The Philosopher also has the Sub-Field :
+The Baronies, but the GM rules that this geographically specific
+information will not help shed light on where Fire Giants as a group
+mostly live, and thus it will not help with the question.
+\end{example}
+d145 1
+a145 1
+The accuracy of the answer that a Philosopher can offer is dependant
+d147 1
+a147 1
+accuracy, a Philosopher may also undertake a course of study. For each
+d149 1
+a149 1
+is added to the Philosopher's Base Chance. A Philosopher may, at any
+d154 2
+a155 2
+Even though Philosophers keep notes during their course of study, an
+extended interruption may prove a setback.  If a Philosopher ceases a
+d162 2
+a163 2
+If the question is of a Yes/No nature, the Accuracy is the Base Chance
+that the Philosopher will arrive at the correct answer.  If the
+d165 1
+a165 1
+information that the Philosopher will come up with. It is also
+d168 1
+a168 1
+Chance that the Philosopher will become aware of this fact.
+@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 1
+a1 2
+\section{Philosopher (Ver 2.0)}
+\label{philosopher}
+a2 3
+\index{philosopher|(}
+\index{skills!philosopher|(}
+
+d40 1
+d68 2
+a69 6
+Philosophers gain a reduction in the Experience Points costs to learn
+languages.  These benefits are in addition to any other reductions
+available to the character. Philosophers may learn to speak languages,
+and to read character based languages at 75\% of the normal Experience
+Point cost, provided that the Rank being gained in the language is not
+greater than their Rank in Philosopher.
+d71 8
+d181 1
+a181 1
+\subsection{Realms \& FIelds}
+d288 1
+a288 2
+\index{philosopher|)}
+\index{skills!philosopher|)}
+@
+
+
+3.2
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+3.1
+log
+@Check in before modifying e.g. and i.e.
+@
+text
+@d74 1
+a74 1
+and to read character based languages at 75% of the normal Experience
+d85 1
+a85 1
+at one of these Ranks the Philosopher wishes to forego learning
+d89 1
+a89 1
+\subsubsection{Fields \& sub-fields}
+d158 2
+a159 2
+study period (the length of which is determined by difficulty), +1\% is
+added to the Philosopher's Base Chance. A Philosopher may, at any
+d161 2
+a162 1
+and length of study period is shown on the Answer Table.
+d227 1
+a227 1
+\item Artifacts \& Magical Items - Shaper, Legends
+d273 1
+@
+
+
+3.0
+log
+@Complete rewrite by Martin Dickson.
+@
+text
+@d2 4
+d285 2
+a286 1
+
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d1 1
+a1 3
+\section{Philosopher}
+\label{philosopher}
+\newcommand{\imply}{$\Rightarrow$}
+d5 6
+a10 4
+discarding many popular misconceptions.  They are, in many ways, the
+encyclopedias and expert opinions of the medieval world.  Philosophers
+are also well versed in using the unusual and obscure indexing methods
+employed in medieval libraries.
+d12 1
+a12 1
+\subsection{Restrictions}
+d14 16
+a29 1
+\subsubsection{Language Restriction}
+d37 1
+a37 1
+times 10 books, written in languages they are literate in.
+d39 1
+a39 1
+\subsection{Definitions}
+d41 3
+a43 4
+The Philosopher Profession is designed as a hierarchical structure,
+with several separate Realms of knowledge, each of which has its own
+Major Fields.  Major Fields, in turn, possess Minor Fields, and these
+possess Sub-Fields.
+d51 1
+a51 1
+\subsubsection{Major Fields}
+d53 11
+a63 22
+Realms are divided into large blocks of knowledge, called Major
+Fields.  GMs should not need to add new Major Fields to the Realms,
+but may do so if they wish.
+
+\subsubsection{Minor Fields}
+
+Small, and quite specific divisions of a Major Field, these are not
+limited to only those suggested below.  A.  Philosopher may learn
+almost any sub-division of a Major Field as a Minor Field, with the GM
+as the final arbiter.  Minor Fields should not be too specific, and
+they may contain several possible Sub-Fields.  The most common Minor
+Fields concern a particular race or area pertaining to the Major Field.
+
+\subsubsection{Sub-Fields}
+
+These are the smallest and most specific division of knowledge within
+the Philosopher Profession.  A Philosopher may learn almost any small
+division of a Minor Field as a Sub-Field.  The most common Sub-Fields
+are: Type or Race within an Area, history as pertaining to a
+particular Race or Area, Colleges within Branches, Individuals within
+Factions or Groups (Powers, Demi-Powers, Dragons), and within the
+Animal and Plant Worlds, specific subgroups within types.
+d65 1
+a65 13
+\begin{example}
+Magical World \imply Undead \imply Greater \imply Vampires, or Magical
+World \imply Undead \imply Undead in the Baronies \imply Greater Undead in the
+baronies.
+
+Magical World \imply History \& Theory \imply Thaumaturgies \imply
+Illusion.  or Magical World \imply History \& Theory \imply Backfires
+\imply Backfires in the Thaumaturgical Colleges.
+
+Animal World \imply Avians \imply Nocturnal Birds \imply Owls, or
+Animal World \imply Avians \imply The Birds of Alfheim \imply Nocturnal Birds
+of Alfheim.
+\end{example}
+d67 6
+a72 35
+\subsubsection{Parent Field}
+
+The Field (or Realm) in the hierarchy above the Field concerned is
+referred to as the Field's Parent.  The Parent of a Minor Field or
+Sub-Field is the next Field up in the hierarchy; the Parent of a Major
+Field is its Realm.
+
+\begin{example}
+Parent of the Major Field ``Heraldry \& Genealogy'' is the Realm
+``The Social World''.
+\end{example}
+
+\subsubsection{Child Field}
+
+Any Fields in the hierarchy that derive from the Field (or Realm)
+concerned are referred to as Child Fields.
+
+\begin{example}
+Minor Fields ``Colours'', ``Metals'', and ``Furs'' are Child Fields of
+Major Field ``Heraldry \& Genealogy''.
+\end{example}
+
+\subsubsection{Library}
+
+Any place with 50 or more books may be considered a library, for the
+purposes of study.  Libraries are rated for the number of days that a
+Philosopher may study in them to answer any particular question.  This
+rating is usually equal to Books divided by 50.  Some libraries with
+specific collections may be rated higher for some Realms than others.
+
+\begin{example}
+The library of the Mittelmark University of Magical Sciences has many
+more books dealing with Magic than any other Realm. It is rated at 10
+days normally or 15 days if the question is in the Magical World.
+\end{example}
+d74 1
+a74 6
+GMs should bear in mind that the books in some libraries will be
+predominately in particular languages, and that if the Philosopher is
+not literate in that language, or languages, the library may be of
+reduced usefulness.
+
+\subsection{Structure}
+d81 21
+a101 3
+at any or all of Ranks 4, 7, and 10, the Philosopher wishes to forego
+learning another Realm, they receive an extra 8 Points to spend on
+Fields.
+d103 1
+a103 1
+\subsubsection{Fields}
+d105 3
+a107 6
+At each Rank above 0 (including 4, 7, and 10), the
+Philosopher receives a number of Points to spend on Major, Minor and
+Sub-Fields.  The number of Points received is: at Ranks 1 to 4, 3; at
+Ranks 5 to 7, 5; and at Ranks 8 to 10, 7.  The Points costs are: Major
+Field, 3; Minor Field, 2; Sub-Field, 1.  Unspent Points are retained
+and may be used together with the Points received for further Ranks.
+d109 1
+a109 1
+\subsubsection{Field Restrictions}
+d111 5
+a115 2
+A Philosopher may never learn a field that they do not possess the
+Parent of.
+d117 1
+a117 7
+\begin{example}
+A Philosopher may not learn the Sub-Field ``Carzalan Heraldry'',
+unless they already know Minor Field ``Heraldry of the Baronies'',
+which in turn they could not possess without the Major Field
+``Heraldry \& Genealogy'', and ultimately the Realm ``The Social
+World''.
+\end{example}
+d119 5
+a123 3
+These requirements are pre-requisites, not co-requisites.  Therefore a
+Sub-field may not be learnt at the same Rank as the Minor Field that
+is its Parent.
+d125 23
+a147 1
+\subsubsection{Overlaps and Connections}
+d149 1
+a149 3
+In some cases it is possible to reach the same Fields by different
+routes.  These duplicated Fields may be treated as identical and no
+benefit accrues from having the same Field more than once.
+d151 7
+a157 5
+\begin{example}
+Social World \imply Ethnology \imply Elves \imply Elves in the
+Baronies, is the same as Social World \imply Ethnology \imply The
+Baronies \imply Elves in the Baronies.
+\end{example}
+d159 5
+a163 1
+\subsubsection{Sage Status}
+d165 1
+a165 6
+Philosophers of Rank 10 are often referred to as Sages.  Once a
+Philosopher has achieved Rank 10, and Sage status, they may not Rank
+their Profession further, but may acquire new Realms and Fields.  Each
+new Realm costs 6000 ep, and requires 50 days of study, and each Point
+used to purchase new fields costs 700 ep, and requires 7 days of
+study.
+d167 7
+a173 4
+\begin{example}
+To learn a new Major Field costs 3 points, therefore it costs 2100 ep  and
+requires 21 days of study.
+\end{example}
+d175 1
+a175 1
+\subsection{Realms and Fields}
+d178 2
+a179 3
+Major Fields.  Some Major Fields are followed by a list of suggested
+Minor Fields.  Most of the Realms have some standard Minor Fields that
+may be taken for most, if not all of their Major Fields.
+d183 14
+a196 13
+Standard Minor Fields include: Area, Race, History.
+The Fields of this Realm are:
+\begin{flushleft}
+Art \&, Music - Style \\
+Ethnology \\
+History - Ancient \\
+Legends \& Folklore \\
+Linguistics - Language Group \\ 
+Philosophy \&, Ethics \\
+Politics \& Customs  \\
+Theology \& Mythology \\
+Heraldry \& Genealogy - Colours,  Metals, Furs \\
+\end{flushleft}
+d200 16
+a215 14
+Standard Minor Fields include: Area, Race, History, Advanced.
+The Fields of this Realm are:
+\begin{flushleft}
+Alchemy - Experimental \\
+Architecture - Experimental, Ancient \\
+Astronomy \\
+Cartography \\
+Engineering - Experimental \\
+Geography \\
+Geology \& Mineralogy - Group of Minerals \\
+Mathematics \\
+Metallurgy - Experimental \\
+Oceanography \\
+\end{flushleft}
+d218 2
+a219 1
+The Fields of this Realm are:
+d221 17
+a237 17
+\begin{flushleft}
+Artifacts \& Magical Items - History, Area, Shaper, Legends \\
+(Any College) - History, Politics, Famous People \\
+Demi-Powers - Groups, Races, Area \\
+Deities - Area, Pantheon, History, Religion \\
+Dragons - Type, History, Genealogy, Behaviour, Area \\
+Elements - Any element or amalgam \\
+Fantastical Beings - Any group, Area \\
+History \& Theory - College Divisions, Backfires \\
+Naming - Structure, History \\
+Magical Animals - Type, Area \\
+Magical Plants - Type, Area \\
+Mana Zones - Places of Power \\
+Other Planes - Plane \\
+The Powers - Pacts, Invocations, Agency, Factions, History \\
+Undead - Lesser, Greater, Area \\
+\end{flushleft}
+d241 10
+a250 10
+Standard Minor Fields include: Area, Type.
+The Fields  of this Realm are:
+\begin{flushleft}
+Amphibians \\
+Aquatics \\
+Avians \\
+Insects \& Spiders \\
+Land Animals \\
+Magical Animals \\
+\end{flushleft}
+d254 1
+a254 25
+Standard Minor Fields include: Area, Type.
+The Fields of this Realm are:
+\begin{flushleft}
+Aquatic Plants \\
+Flowers \\
+Grains \& Cereals \\
+Herbs \\
+Magical Plants \\
+Root Plants \\
+Shrubs \& Bushes \\
+Trees \\
+\end{flushleft}
+\subsection{Languages}
+
+Philosophers gain a reduction in the Experience Points costs to learn
+languages.  These benefits are in addition to any other reductions
+available to the character.
+
+\subsubsection{Speaking}
+
+Philosophers may learn to speak languages at 75\% of the normal
+Experience Point cost, provided that the Rank being gained in the
+language is not greater than their Rank in Philosopher.
+
+\subsubsection{Literacy}
+d256 23
+a278 162
+Philosophers may become literate in any languages that they know, at
+50\% of the normal Experience Point cost.
+
+\subsection{Questions}
+
+Philosophers may attempt to answer questions put to them, that they do
+not already know the answers to.  These questions may be posed by
+themselves, or by other characters.  The chance of successfully
+answering a question (within the limitations of the knowledge
+available) depends on the difficulty of the question and the relevant
+Realms and Fields of the Philosopher.  What is very difficult for
+someone with only a passing knowledge of the requisite field may be
+very easy for someone who has made an in-depth study of that field.
+
+\subsubsection{Difficulty}
+
+Questions that may be answered by a Philosopher fall into one of five
+categories; Very Easy, Easy, Standard, Hard, Very Hard.  The first
+step in determining the difficulty of answering the question, is for
+the GM to determine what area of knowledge and what exact level of
+expertise would the question be Standard for.
+
+A Standard question is one of average difficulty, relative to a given
+Field, as determined by the GM.  They usually deal with a reasonably
+large sub-set of the knowledge of the Field.
+
+\begin{example}
+The question ``Where do Fire Giants mostly live?''  is to the Major
+Field ``Ethnology'' of the Social World whereas ``How are furs used in
+Carzalan Heraldry?'' is Standard to the Sub-Field ``Carzalan
+Heraldry'', of Minor Field ``Heraldry of Baronies'', of the Major
+Field ``Heraldry and Genealogy'', of the Social World.
+\end{example}
+
+If the Philosopher possesses the Field for which the question is
+Standard, but has no more in-depth knowledge applicable to the
+question, the difficulty is Standard.  For each Child Field that the
+Philosopher has, that the GM determines is relevant, the difficulty
+decreases by one step: Standard \imply Easy \imply Very Easy.
+
+\begin{example}
+The question ``Where do Fire Giants mostly live?'' is Standard to
+the Major Field ``Ethnology'' of the Social World.  As the Philosopher
+attempting to answer the question has the Minor Field ``Giants'' of
+the Major Field ``Ethnology'', the question becomes easy.  The
+Philosopher also has the Sub-Field ``Giants in the Baronies'', but the
+GM rules that this very specific information will not help shed light
+on where Fire Giants as a group mostly live, and thus it will not help
+with the question.
+\end{example}
+
+If the Philosopher does not possess the Field for which the question
+is Standard, but possesses the Parent of that Field, the difficulty
+increases by one step: Standard \imply Hard.  If the Philosopher only
+possesses the Parent's Parent, the difficulty increases another step:
+Hard \imply Very Hard.  A Philosopher may not answer a question more
+than 2 steps removed from the relevant knowledge they possess.
+
+\begin{example}
+The question ``How are furs used in Carzalan Heraldry?'' is Standard
+to the Sub-Field ``Carzalan Heraldry''.  As the Philosopher attempting
+the question does not have that Sub-Field, or even its Parent the
+Minor Field ``Heraldry in the Baronies'', but does have the Parent's
+Parent Major Field ``Heraldry \& Genealogy'', the difficulty of
+answering the question is increased two step to Very Hard.  If the
+Philosopher did not know that Major Field, they would be unable to
+answer the question at all.
+\end{example}
+
+If the Philosopher does not possess the Realm to which the question
+belongs, they may not attempt to answer it, unless the question is
+Standard at Realm level, in which case the Philosopher may attempt it
+as a Hard question.  In some few cases a question may belong to more
+than one Realm.
+
+\subsubsection{Answers}
+
+To achieve an answer to a question a Philosopher must undertake a
+course of study.  The length of the study period is dependent on
+experience, the difficulty of the question, and luck.  A Philosopher
+begins their course of study with 0\% (plus a bonus for their
+experience and the difficulty of the question) of the course complete.
+For each study period (the length of which is determined by
+difficulty), D10\% is added to the completeness of the study.  When
+completeness reaches 100\%, the Philosopher has found an answer to the
+question.  The bonus, and length of study period is determined as
+follows:
+
+\bigskip
+
+{\fontsize{7}{8pt}\selectfont
+\begin{tabular}{lcl}
+\textbf{Difficulty} & \textbf{Bonus / Rank} & \textbf{Period} \\
+Very Easy		& 8\%		& 5 minutes \\
+Easy			& 6\%		& 10 minutes \\
+Standard		& 4\%		& 15 minutes \\
+Hard			& 2\%		& 2 hours \\
+Very Hard		& 1\%		& 5 hours \\
+\end{tabular}}
+\smallskip
+
+The GM should keep track of how far through their study the
+Philosopher is, and it is the GM that makes the D10 rolls, keeping the
+results secret from the player.  If the Philosopher wants to know how
+far along they are, the GM may inform them in very general terms:
+``About half way'', ``mostly complete''.
+
+\begin{example}
+A Rank 5 Philosopher is attempting to answer the question ``Where
+do Fire Giants mostly live?''. it is of Standard difficulty for them.
+When they begin, their course of study is 0\% + (4\% \x 5)
+\imply 20\% complete.  Every 15 minutes that they spend studying the
+GM rolls D10 and adds that number to the completeness. A while later
+the player asks the GM how far through they are.  The GM consults their
+running total: 63\%, and answers ``Maybe over half way?''
+\end{example}
+
+A Philosopher may, at any time, terminate an incomplete course of
+study and attempt to answer the question.  Their accuracy will be
+adversely affected however.
+
+It is also possible that some questions (as determined by the GM) are
+simply unanswerable.  If this is the case, upon completing their
+course of study, the Philosopher will be aware (and convinced) of this
+fact.
+
+Even though Philosophers keep notes during their course of study, an
+extended interruption may prove a setback.  If a Philosopher ceases a
+course of study but resumes it within Rank weeks there are no adverse
+effects.  If the interruption is longer than this then half of the
+percentage amount that they had achieved, above the base amount for
+their Rank and the difficulty of the question, is lost.
+
+\subsubsection{Libraries}
+
+To study to answer questions a Philosopher must have access to one or
+more libraries.  A Philosopher may study any particular question at a
+library for a number of days equal to the library's rating.  Once a
+Philosopher has exhausted the possibilities of a library they must
+either find another and continue their study or attempt to answer the
+question anyway.  A day of study is 10 hours, and is full-time work.
+
+\subsubsection{Accuracy}
+
+Once the Philosopher has completed their study, (or has not completed
+it, but is attempting to answer the question anyway), the GM must
+determine the accuracy of the answer.  This accuracy is based on the
+difficulty of the question, the experience of the Philosopher, and the
+amount of study unfinished, if any.  The accuracy is calculated as
+follows:
+
+\smallskip
+
+{\fontsize{7pt}{8}\selectfont
+\begin{tabular}{lccc}
+ & \textbf{Base} & \textbf{Per} & \\
+\textbf{Difficulty} & \textbf{Chance} & \textbf{Rank} & \textbf{Reduct} \\
+Very Easy	& 100\%		& +2\%	& -1\% \\
+Easy		& 80\%		& +3\%	& -1\% \\
+Standard	& 75\%		& +4\%	& -2\% \\
+Hard		& 70\%		& +3\%	& -2\% \\
+Very Hard	& 60\%		& +3\%	& -3\% \\
+a279 4
+\smallskip
+
+*The Base Chance is reduced by the Percentage shown for each percent
+of study left incomplete.
+a280 19
+The Base Chance may also be reduced by the GM if they feel that the
+Philosopher's sources are particularly inaccurate.  GMs should be
+cautious in applying this modifier, and should use it only in unusual
+cases.
+
+\subsubsection{Final Result}
+
+If the question is of a Yes/No nature, the accuracy is the chance that
+the Philosopher will arrive at the correct answer.  If the question is
+more open, the accuracy is the amount of relevant information that the
+Philosopher will come up with.
+
+\begin{example}
+A Philosopher has an 85\% accuracy with the question ``Can Dryads
+use magic?''. This represents their chance of arriving at the answer
+``Yes''.  A Philosopher is asked ``How are furs used in Carzalan Heraldry?''
+and achieves a result of 115\%, which means they can answer question
+and more besides (about 15\% more than the Questioner wanted to know).
+\end{example}
+@
+
+
+1.3
+log
+@Release 1.0 snapshot
+@
+text
+@@
+
+
+1.2
+log
+@Corrections done form March printed version
+@
+text
+@d2 1
+d9 2
+a10 2
+are also well versed in using the unusual and obscure indexing
+,methods employed in medieval libraries.
+d67 3
+a69 3
+Ex. Magical World \imply History \& Theory \imply Thaumaturgies \imply
+Illusion.  or Magical World \imply History \& Theory \imply Backfires \imply
+Backfires in the Thaumaturgical Colleges.
+d71 2
+a72 2
+Ex. Animal World \imply Avians \imply Nocturnal Birds \imply Owls, or
+Animal World \imply Avians The Birds of Alfheim \imply Nocturnal Birds
+d276 1
+a276 1
+Philosophers may learn to speak languages at 0.75 of the normal
+d283 1
+a283 1
+0.5 of the normal Experience Point cost.
+d329 1
+a329 1
+on where Fire Giants as a group moody live, and thus it will not help
+d362 1
+a362 1
+begins their course of study with 0% (plus a bonus for their
+d374 1
+a374 1
+\textbf{Difficulty} & \textbf{Bonus/Rank} & \textbf{Period} \\
+a468 57
+
+\subsection{Experience Costs}
+\begin{tabular}{cc}
+\textbf{Rank} & \textbf{Experience} \\
+0	& 1400 \\
+1	& 700 \\
+2	& 1400 \\
+3	& 2100 \\
+4	& 2800 \\
+5	& 3500 \\
+6	& 4200 \\
+7	& 4900 \\
+8	& 5600 \\
+9	& 6300 \\
+10	& 7000 \\
+\end{tabular}
+
+\subsubsection{Conversion System}
+
+Because of the new EP costs, the Ranks of current Philosophers may not
+be simply changed to the same Rank in the new skill, as low Ranked
+characters will not have paid enough EP, and high Ranked ones have
+paid too much.  The simplest solution is to convert a Philosopher's
+Ranks across but modify the number of ``field points'' gained.  Find
+the characters present Rank on the table below.  The ``field points''
+column is the number of points that they are given in one lump to
+spend on Realms, Major Fields, etc, at the normal rate.  They should
+spend these points so as to attempt to cover the same fields as they
+already had, wherever possible.  The ``max.  realms'' column is the
+maximum number of Realms that they may purchase.  Once converted, a
+character may purchase a number of extra point (at 700 EP each) up to
+the number shown in the ``extra points'' column with no time
+expenditure.  The number that may be purchased should be noted down as
+these may be bought st any time in the future and need not be
+purchased at the time of conversion.  The only Rank for which this
+system does not work is Rank 0.  Philosophers who have this skill at
+Rank 0, receive the same Rank in the new skill but must pay 1000 extra
+ep. before they can increase their Rank.
+
+{\fontsize{7pt}{8}\selectfont
+\begin{tabular}{cccc}
+		& \textbf{Field} & \textbf{Max.} & \textbf{Extra} \\
+\textbf{Rank}	& \textbf{Points}& \textbf{Realms} & \textbf{Points} \\
+0*		& 8		& 1		& 0 \\
+1		& 10		& 1		& 1 \\
+2		& 12		& 1		& 2 \\
+3		& 13		& 1		& 4 \\
+4		& 21		& 2		& 5 \\
+5		& 30		& 2		& 3 \\
+6		& 37		& 2		& 1 \\
+7		& 51		& 3		& 0 \\
+8		& 63		& 3		& 0 \\ 
+9		& 76		& 3		& 0 \\
+10		& 104		& 4		& 0 \\
+\end{tabular}}
+
+*must pay 1000 extra ep before advancing further.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d61 2
+a62 3
+\begin{flushleft}
+\fontsize{6}{8pt}\selectfont
+Ex.  Magical World \imply Undead \imply Greater \imply Vampires, or Magical
+d73 1
+a73 1
+\end{flushleft}
+d82 2
+a83 1
+Ex.  Parent of the Major Field ``Heraldry \& Genealogy'' is the Realm
+d85 1
+d92 4
+a95 2
+Ex.  Minor Fields ``Colours'', ``Metals'', and ``Furs'' are Child
+Fields of Major Field ``Heraldry \& Genealogy''.
+d105 5
+a109 3
+Ex. The library of the Mittelmark University of Magical Sciences has
+many more books dealing with Magic than any other Realm. It is rated
+at 10 days normally or 15 days if the question is in the Magical World.
+d141 7
+a147 4
+Ex. A Philosopher may not learn the Sub-Field ``Carzalan Heraldry'',
+unless they already know Minor Field ``Heraldry of the Baronies'', which
+in turn they could not possess  without the Major Field ``Heraldry \&
+Genealogy'', and ultimately the Realm ``The Social World''.
+d174 2
+a175 2
+\begin{flushleft}
+Ex. To learn a new Major Field costs 3 points, therefore it costs 2100 ep  and
+d177 1
+a177 1
+\end{flushleft}
+a187 1
+
+d307 7
+a313 8
+\begin{flushleft}
+\fontsize{6}{7pt}\selectfont
+Ex. The question ``Where do Fire Giants mostly live?''  is to the
+Major Field ``Ethnology'' of the Social World whereas ``How are furs
+used in Carzalan Heraldry?'' is Standard to the Sub-Field ``Carzalan
+Heraldry'' (of Minor Field ``Heraldry of Baronies'', of the Major Field
+``Heraldry and Genealogy'', of the Social World.
+\end{flushleft}
+d321 2
+a322 3
+\begin{flushleft}
+\fontsize{6}{7pt}\selectfont
+Ex. The question ``Where do Fire Giants mostly live?'' is Standard to
+d330 1
+a330 1
+\end{flushleft}
+d339 7
+a345 8
+\begin{flushleft}
+\fontsize{6}{7pt}\selectfont
+Ex. The question ``How are furs used in Carzalan Heraldry?'' is
+Standard to the Sub-Field ``Carzalan Heraldry''.  As the Philosopher
+attempting the question does not have that Sub-Field, or even its
+Parent the Minor Field ``Heraldry in the Baronies'', but does have the
+Parent's Parent Major Field ``Heraldry \& Genealogy'', the difficulty
+of answering the question is increased two step to Very Hard.  If the
+d348 1
+a348 1
+\end{flushleft}
+d388 2
+a389 3
+\begin{flushleft}
+\fontsize{6}{7pt}\selectfont
+Ex. A Rank 5 Philosopher is attempting to answer the question ``Where
+d396 1
+a396 1
+\end{flushleft}
+d461 2
+a462 3
+\begin{flushleft}
+\fontsize{6}{7pt}\selectfont
+Ex. A Philosopher has an 85\% accuracy with the question ``Can Dryads
+d467 1
+a467 1
+\end{flushleft}
+@

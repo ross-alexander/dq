@@ -1,0 +1,84 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.03.02.17.00.38;	author ralexand;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\thispagestyle{empty}
+
+\vspace*{\fill}
+
+\textbf{Copyright}
+
+DragonQuest is copyright to Simulations Publications, Inc.  First
+Edition, Copyright\copyright{} 1980.  Second Edition,
+Copyright\copyright{} 1981.  Parts of the work \copyright{} 1996,
+1997, 1998, 1999, 2000, 2001 to Ross Alexander.  Full credits listed
+before edition history.
+
+The named contributors assert their right to this work.  This rule
+book is copylefted under the GNU Public License, version 2.0.
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d10 2
+a11 2
+1997, 1998, 1999, 2000 to Ross Alexander.  Full credits listed before
+edition history.
+@

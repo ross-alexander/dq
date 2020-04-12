@@ -1,0 +1,1432 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.6;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.1;
+
+4.1
+date	2000.05.22.10.31.28;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	98.06.04.05.35.08;	author rossa;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	98.05.05.05.38.15;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.05.04.03.42.10;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	96.12.16.23.28.33;	author rossa;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	96.01.12.02.26.39;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	95.09.04.15.33.34;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	95.06.01.21.42.42;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	95.06.01.05.28.34;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.05.16.02.52.08;	author rossa;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.05.16.02.37.53;	author rossa;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{multicols}{3}
+
+\section{Non-College Magic}
+\label{rituals:noncollege}
+\index{rituals!non-college}
+
+\subsection{Introduction}
+
+All spells and rituals given in a listing in this section can be
+learnt by Adepts of any college.
+
+\subsection{Special Knowledge Spells}
+
+\begin{spell}[]{Geas}
+
+\range{The Adept must be able to see and communicate with
+the target}
+\duration{Until  removed, fulfilled or target dies}
+\multiple{250}
+\basechance{Always successful (see below)}
+\resist{Special}
+\target{Sentient entity}
+\begin{effects}
+A geas is an obligation to complete a quest, an injunction against the
+performance of a particular action, or a requirement to respond in the
+same fashion to particular stimuli.
+
+A being to be compelled must acknowledge their acceptance of the geas.
+Furthermore, the Adept must believe that the being deserves the geas,
+or the being must truly wish (not forced by physical or magical means)
+to have an unmerited geas placed upon them.  The Adept specifies the
+nature of the geas in 25 words or less, and the GM will use the most
+liberal interpretation of that wording to the benefit of the compelled
+being.  Rank with the geas spell does not affect the chance of casting
+the spell as it is always automatically successful.  The Rank equals
+the effectiveness of the geas, expressed in percentage terms.  If a
+geased being directly contravenes the letter of a geas, they have a
+chance of dying equal to the Rank of the geas.  A compelled being will
+begin to feel weak or ill when they first take an action counter to
+the restriction of the geas, and will become increasingly afflicted
+until they once more comply with the geas.  There is no limit to the
+Rank of a geas.
+
+If a quest geas is fulfilled by the compelled being, they are no
+longer subject to that geas.  The other two types of geas (for and
+against a given action) last indefinitely.  A geas can be removed
+automatically by the one who placed it upon the compelled being.  A
+geased person will not attempt to free themself from the compulsion.
+An Adept with Rank greater than that of the geas may try to do so.
+The Adept must inscribe a triangle about the compelled, and perform
+the ritual of geas removal for 12 consecutive hours.  If the triangle
+is silver or True-silver, the compelled being does not suffer the
+penalties for ignoring the geas during the ritual.
+
+The Adept attempting to remove the geas has a success chance equal to
+five times the difference between their Rank with geas and the Rank of
+the geas being removed.  The GM rolls percentile dice: if the roll is
+less than or equal to the success percentage, the geas is removed. If
+the roll is greater than the success percentage, the Rank of the geas
+is increased by one.
+
+\textbf{Full Geas} A being with Rank greater than 50 with the geas
+spell has the power of full geas. A full geas can be placed upon a
+being without their consent, though it can be passively resisted.
+Additionally, one with the power of full geas may automatically remove
+(without the support of a triangle and 12 hours of ritual) a geas
+which is at least 5 Ranks less than their Rank with the spell.
+\end{effects}
+\end{spell}
+
+\begin{spell}[]{Major Curse}
+\label{noncollege:majorcurse}
+\index{curse!major}
+
+\range{20 feet + 15 / Rank}
+\duration{Until removed or target dies}
+\multiple{750}
+\basechance{15\%}
+\resist{Passive (unless a Death-curse)}
+\target{Entity or Object}
+\begin{effects}
+An Adept's Endurance value is decreased by one whenever they inflict a
+major curse upon a being.  Note that when casting a Death-curse this
+Endurance point loss is in addition to any possible Endurance point
+loss due to resurrection.  There are several types of major curses:
+\begin{Description}
+\item[Affliction] The Adept may choose to torment or kill their
+target. If the effects of the affliction curse are intended to be
+deadly, the target may not die as a direct result of the curse before
+(24 - Rank) hours have passed.  The following list of sample
+affliction curses is provided to give the GM a guideline as to what
+major curses should be allowed in their campaign.
+\begin{Enumerate}
+\setlength\itemsep{0pt}
+\item
+Target becomes totally blind, deaf or mute.
+
+\item
+Target becomes senile. 
+
+\item
+Target suffers from a contagious disease (for example open running sores). 
+
+\item
+Target is transformed into a frog or other small creature.
+
+\item
+Target becomes weakened and enfeebled and must be helped with any
+physical action.
+\item
+Target falls into century-long sleep.
+\end{Enumerate}
+
+\item[Ill  Luck]
+Add two times the Rank of the major curse spell to any percentile roll
+involving the target or the use any of their abilities.  This may not
+be applied favourably.
+
+\item[Doom]
+A doom is a pronouncement, by the Adept, upon an event that will occur
+in the target's future (Example: ``You will die by the hand of a loved
+one.'').  The statement which must be indefinite, will be true unless
+removed.  The GM should be careful as to what to allow for dooms.
+
+\item[Death-curse]
+At the moment of their death, an Adept may automatically cast a major
+curse (unless backfire occurs).  The being at which it is cast may not
+resist the curse.  A death-curse must be an affliction, ill luck or
+doom.  If a doom, it will be gasped out with the Adept's final breath.
+
+\item[Note]
+Lycanthropy is considered a major curse.
+\end{Description}
+\end{effects}
+\end{spell}
+
+\subsection{Special Knowledge Rituals}
+
+\begin{ritual}[]{Remove Curse}
+\label{ritual:removecurse}
+\index{curse!remove curse ritual}
+\duration{Immediate}
+\multiple{500}
+\resist{None}
+\target{A curse}
+\concentration{Standard}
+\begin{effects}
+Every curse is rated by the Magical Aptitude (MA) of the Adept who
+cast it.  If the curse is natural (such as Lycanthropy) it usually has
+an MA of 20.
+
+There are two types of curses, minor ones and major ones.  A minor
+curse causes its victim to suffer from a non-fatal malediction.  Minor
+curses come from various sources, for example the spells Evil Eye (G-9
+of the College of Ensorcelments and Enchantments), the Damnum Minatum
+(G-1 of the Witchcraft College) and certain backfires.  Major curses
+normally comes from the Major Curse spell (\S \ref{noncollege:majorcurse}).
+
+When a ritual of curse removal has been completed, the GM rolls
+percentile dice.  If the roll is less than or equal to the success
+percentage the curse is removed. If the roll is between one and two
+times the success percentage, the curse remains in effect.  If the
+roll is equal to or greater than twice the success percentage, the MA
+of the curse is increased by one.  This ritual does not backfire in
+the normal fashion.
+
+\textbf{Minor Curse}
+
+\basechance{(15 - MA of curse + 5 \x Rank )\%}
+\casttime{6 hours}
+\actions{Inscribe symbol of power}
+The Adept must inscribe a triangle or symbol of power about the cursed
+being, and perform this ritual for six consecutive hours.
+
+\textbf{Major Curse}
+
+\basechance{(Adept's MA - MA of curse + 2 \x Rank)\%}
+\casttime{18 hours}
+\actions{Inscribe symbol of power}
+The Adept must have a Magical Aptitude greater than that of the curse.
+They must inscribe a triangle or symbol of power about the cursed
+being, and perform this ritual for eighteen consecutive hours.  If the
+major curse is a death-curse, add only one times the Rank.
+
+\textbf{Precious Metals}
+
+The use of triangles or symbols of power fashioned of varying amounts
+of precious metals causes an addition to the success percentage, per
+the following schedule:
+
+\begin{tabularx}{\linewidth}{Xcr}
+\textbf{Metal} & \textbf{Add} & \textbf{Cost} \\
+Silver      & +  3 &  1,000 sp \\
+Gold        & +  7 & 10,000 sp \\
+Platinum    & + 10 & 15,000 sp \\
+Truesilver  & + 15 & 20,000 sp \\
+\end{tabularx}
+
+The symbol necessary for this ritual is large enough for the target to
+sit in, and is inscribed in the ground.  This symbol may be portable.
+\end{effects}
+\end{ritual}
+
+\raggedcolumns
+\clearemptydoublepage
+\end{multicols}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@@
+
+
+4.1
+log
+@Minor corrections from Andrew Withy plus formatting changes.
+@
+text
+@d21 1
+a21 1
+\resist{Must be accepted (see below)}
+d79 1
+a79 1
+\resist{Can be passively resisted (unless a Death-curse)}
+d144 1
+a144 1
+\resist{May not be resisted}
+@
+
+
+4.0
+log
+@REL40
+@
+text
+@d16 1
+a16 1
+\sItem{Range}{The Adept must be able to see and communicate with
+d18 6
+a23 6
+\sItem{Duration}{Until  removed, fulfilled or target dies}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{Always successful (see below)}
+\sItem{Resist}{Must be accepted (see below)}
+\sItem{Target}{Sentient entity}
+\emph{Effect:}
+d68 1
+d75 7
+a81 7
+\sItem{Range}{20 feet + 15 / Rank}
+\sItem{Duration}{Until removed or target dies}
+\sItem{Experience Multiple}{750}
+\sItem{Base Chance}{15\%}
+\sItem{Resist}{Can be passively resisted (unless a Death-curse)}
+\sItem{Target}{Entity or Object}
+\emph{Effect:}
+d92 1
+a92 1
+major curses should be allowed in his campaign.
+d134 1
+d142 6
+a147 6
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{500}
+\sItem{Resist}{May not be resisted}
+\sItem{Target}{A curse}
+\sItem{Concentration Check}{Standard}
+\emph{Effect:}
+d164 2
+a165 1
+of the curse is increased by one.
+d169 3
+a171 3
+\sItem{Base Chance}{(15 - MA of curse + 5 \x Rank )\%}
+\sItem{Cast Time}{6 hours}
+\sItem{Actions}{Inscribe symbol of power}
+d177 3
+a179 3
+\sItem{Base Chance}{(Adept's MA - MA of curse + 2 \x Rank)\%}
+\sItem{Cast Time}{18 hours}
+\sItem{Actions}{Inscribe symbol of power}
+d200 2
+a201 1
+sit in, and is inscribed in the ground.  It is not portable.
+@
+
+
+3.2
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+3.1
+log
+@Fix spell environment and indexes
+@
+text
+@d3 1
+a3 1
+\section{Non-College Spells and Rituals}
+d35 1
+a35 1
+the spell; as it is always automatically successful.  The Rank equals
+d86 6
+a91 7
+\item[Affliction]
+The Adept may choose to torment or kill his target. If the effects of
+the affliction curse are intended to be deadly, the target may not
+die as a direct result of the curse before (24 - Rank) hours have
+passed.  The following list of sample affliction curses is provided to
+give the GM a guideline as to what major curses should be allowed in
+his campaign.
+@
+
+
+3.0
+log
+@Major typographical changes.  Spells now spell environments
+@
+text
+@d14 1
+a14 1
+\begin{spell}{Geas}{}
+d70 3
+a72 1
+\begin{spell}{Major Curse}{\label{noncollege:majorcurse}\index{curse!major}}
+d138 3
+a140 1
+\begin{ritual}{Remove Curse}{\label{ritual:removecurse}\index{curse!remove curse ritual}}
+a166 1
+\begin{Spell}
+a169 1
+\end{Spell}
+a174 1
+\begin{Spell}
+a177 1
+\end{Spell}
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d1 2
+a6 2
+\begin{multicols}{3}
+
+d12 1
+a12 2
+\subsection{Geas}
+\index{geas}
+d14 10
+a23 11
+\textbf{Special Knowledge Spell}
+\begin{spelldesc}
+\emph{Range:} The Adept must be able to see and communicate with
+the target \\
+\emph{Duration:} Until  removed, fulfilled or target dies \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} Always successful (see below) \\
+\emph{Resist:} Must be accepted (see below) \\
+\emph{Target:} Sentient entity \\
+\end{spelldesc}
+\emph{Effects:}
+d68 3
+d72 7
+a78 15
+\subsection{Major Curse}
+\label{noncollege:majorcurse}
+\index{curse!major}
+\index{major curse}
+
+\textbf{Special Knowledge Spell}
+\begin{spelldesc}
+\emph{Range:} 20 feet + 15 / Rank \\
+\emph{Duration:} Until removed or target dies \\
+\emph{Experience Multiple:} 750 \\
+\emph{Base Chance:} 15\% \\
+\emph{Resist:} Can be passively resisted (unless a Death-curse) \\
+\emph{Target:} Entity or Object \\
+\end{spelldesc}
+\emph{Effects:}
+d83 1
+a83 2
+\begin{description}
+\setlength\itemsep{0pt}
+d91 1
+a91 1
+\begin{enumerate}
+d110 1
+a110 1
+\end{enumerate}
+d131 4
+a134 1
+\end{description}
+d136 7
+a142 15
+\subsection{Remove Curse}
+\label{ritual:removecurse}
+\index{curse!remove curse ritual}
+\index{remove curse ritual}
+
+\subsubsection{Special Knowledge Ritual}
+
+\begin{spelldesc}
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 500 \\
+\emph{Resist:} May not be resisted \\
+\emph{Target:} A curse \\
+\emph{Concentration Check:} Standard \\
+\end{spelldesc}
+\emph{Effects:}
+d161 1
+a161 1
+\subsubsection{Minor Curse}
+d163 5
+a167 5
+\begin{spelldesc}
+\emph{Base Chance:} (15 - MA of curse + 5 \x Rank )\% \\
+\emph{Cast Time:} 6 hours \\
+\emph{Actions:} Inscribe symbol of power \\
+\end{spelldesc}
+d171 1
+a171 1
+\subsubsection{Major Curse}
+d173 5
+a177 5
+\begin{spelldesc}
+\emph{Base Chance:} (Adept's MA - MA of curse + 2 \x Rank)\% \\
+\emph{Cast Time:} 18 hours \\
+\emph{Actions:} Inscribe symbol of power \\
+\end{spelldesc}
+d183 1
+a183 1
+\subsubsection{Precious Metals}
+d199 1
+@
+
+
+1.7
+log
+@Move college rituals into their own file and add indexes.
+@
+text
+@@
+
+
+1.6
+log
+@Release 1.0 snapshot
+@
+text
+@d1 3
+a3 67
+\section{College Rituals}
+\label{college:rituals}
+
+\begin{multicols}{3}
+
+\subsection{Introduction}
+
+This section includes those rituals that are common to all 
+Colleges.  Note however, that these rituals are still specific
+to a College so an adept can only learn them from another adept
+of the same college.
+
+\subsection{Ritual Spell Preparation}
+\label{magic:preparation}
+
+\subsubsection{General Knowledge Ritual}
+
+For each hour spent in preparation, the Base Chance of the spell is
+increased by 3 (up to a maximum of 30 if 10 full hours are spent in
+preparation).  If, at any time during the preparation, the Adept's
+concentration is broken, the entire process must be restarted from
+scratch or abandoned and any time previously spent in preparation is
+lost.  A Adepts's concentration is always broken if combat occurs
+during the ritual.  The Adept may engage in no other activity
+while preparing the spell.  The spell must be cast immediately upon
+completing the Ritual Preparation.  The Spell Preparation Ritual is a
+General Knowledge Ritual.  An Adept cannot achieve Rank with this
+Ritual.
+
+\subsection{Purification}
+\label{colleged:purfication}
+
+An Adept may increase their Magic Resistance by 5 and their Magical
+Aptitude by 1 for each hour spent in Ritual Purification.
+
+\subsubsection{General Knowledge Ritual}
+
+\begin{spelldesc}
+{\em Duration:} (D10 + Rank) \x hours spent purifying \\
+{\em Experience Multiple:} 200 \\
+{\em Time Taken:} 1, 2 or 3 hours \\
+\end{spelldesc}
+Ritual Purification always increases both Magic Resistance and Magical
+Aptitude by the aforementioned amounts for each hour spent in
+purification up to a maximum of 3 hours (for a total increase of 15 to
+Magic Resistance and 3 to Magical Aptitude). An Adept can only be
+under the influence of one Ritual Purification at a given time.  The
+effects of the purification last for a number of hours equal to (Rank
+with Ritual Purification + D1O) \x the number of hours spent in
+purification.  The die is always rolled by the GM who keeps the result
+secret until it is time to inform the players that the result of a
+purification has worn off.  The ritual is always interrupted by the
+necessity of suspending the Adventure Sequence and employing the
+Tactical Procedure and must be abandoned or restarted from scratch
+with all hours spent in purification being lost.  However, once a
+Ritual Purification has been completed, the Adept can enter combat and
+employ all of the benefits of the purification.  An Adept must
+announce when they start a purification the number of hours they will
+spend engaged in the ritual.  They may engage in no other activity
+(including moving, resting, or employing other special preparations)
+while engaged in this ritual.  Ritual Purification is a General
+Knowledge Ritual.
+
+\subsection{The Ward Ritual (Ver 1.1)}
+\label{colleged:ward}
+
+\subsubsection{Special Knowledge Ritual}
+a4 177
+\begin{spelldesc}
+\emph{Duration:} Until triggered \\
+\emph{Experience Multiple:} 400 \\
+\emph{Base Chance:} MA (+ 3\% / Rank) \\
+\emph{Resist:} No \\
+\emph{Target:} Volume \\
+\emph{Cast Time:} 1 hour \\
+\emph{Materials:} None \\
+\emph{Actions:} Concentration \\
+\emph{Concentration Check:} Standard \\
+\end{spelldesc}
+\emph{Effects:}
+An entity may employ Ritual Magic to set a Ward over an area which
+they occupy.
+
+A Ward is a spell which is activated by the entry or exit of objects
+or entities into the volume it occupies. Whenever an entity wants to
+create a Ward, they engage in one or more hours of Ritual Preparation
+to create the Ward.  At the end of the preparation, they check to see
+if the Ward is set by making a Cast Check.  If the Cast Check is
+successful, the Ward is set. If the Check is not successful, no Ward
+exists.
+
+It is possible to backfire from an attempt to create a Ward.  In such
+cases, the spell being incorporated into the Ward backfires
+immediately. This is rolled for on the backfire table as though a
+normal Cast Check had resulted in the backfire.
+
+Once the Ward is cast, the entry or exit of any object or being in the
+area occupied by the Ward (determined by the range of the spell
+incorporated into the Ward) may trigger the Ward.  The area that the
+Ward occupies and the range of the spell incorporated into the Ward
+are identical.  This means that most spells (Range 15' + 15 rank) have
+a minimum sized ward of 30' diameter (a sphere, centred on the caster,
+of 15'radius).  Also, note that many spells have an indefinite range
+and hence cannot be incorporated into a Ward.  This includes spells
+with ranges of unlimited, self, or touch and spells that can only
+affect the adept.  Once a ward has been triggered, it ceases to
+exist. It takes full effect on the entity(s) or object(s) that
+triggered it, but is dissipated thereafter. It takes full but normal
+effect on the target(s) -- there is no possibility for a double or
+triple effect (nor for failure or backfire).  Note that a Ward set up
+for triggering by an entity or object exiting the area cannot be a
+targeted spell, since the target would no longer be within range. The
+exiting method of triggering is still useful for area of effect spells
+that don't have a specific target.  All Wards emanate from the exact
+spot occupied by the individual who cast the Ward (important for
+determining range).  Note that there are a couple of spells that can
+have an effect beyond their range.
+
+Spells that are not suitable for incorporation into a Ward are those
+which require concentration, or some other action by the Adept.  A
+Ward always consists of only one spell. More than one Ward may not be
+set over a specific area. Any attempt to set a Ward on an area that
+overlaps another Ward will fail. The adept will only become aware of
+this if they would otherwise have been successful.
+
+Whenever creating a Ward, the Adept must also specify under what
+conditions the Ward will be triggered.  They may decide not to limit
+its affect, in which case the ward will be triggered by anyone or
+anything entering the area over which it is set, or they may limit it
+to affecting specific individuals or anything in between.  Thus, an
+Adept could set a Ward that would only be triggered by the entry or
+exit of a troll. If a multi-target spell is required to hit more than
+one target from a Ward, then the trigger must include the number of
+beings.  For example, a spell which affects three targets could be set
+up to be triggered by three trolls.  The instant that the third troll
+entered the volume the Ward would be triggered, but prior to that any
+number of lone trolls could have freely moved through the Ward.
+
+A Ward, once it is successfully set, cannot be triggered until the
+caster leaves the volume of the Ward.  Specifics of the triggering
+mechanism must be something intrinsic to the object or entity (similar
+to Detect Aura). Hence a Ward could be set up to be triggered by a
+Rank 4 or higher assassin, but could not be constructed to trigger on
+the assassin known as Mac the Knife. In order to affect, or exclude,
+specific people, those people's Individual True Names may be
+incorporated into the Ward, with a sufficiently detailed description
+so as to identify the individual. If Individual True Names are
+incorporated then there is no possible way to determine what those
+names are, but a Divination would reveal the number of people
+specifically affected, or excluded.  A Ward cannot recognise a
+specific object, but merely an instance of an object.  For example,
+``my sword'' could not be included in the triggering mechanism, but a
+``magical sword with a yak-hide grip'' could be.  A Ward cannot tell
+the time so a Ward cannot include such phrases as ``after x minutes''
+or ``at midnight''.  Nor does a Ward have any memory, so in cannot be
+set up to be triggered by the third troll to pass.
+
+Once a Ward is set, any entity or object which could trigger the Ward
+and which enters the area occupied by the Ward is automatically
+subject to whatever spell was woven into the Ward.  Only those spells
+known by the caster of the Ward may be woven into the Ward and they
+take effect exactly as if the caster of the Ward were present and
+casting at the spot occupied by the entity when they set the Ward.
+All entities or objects nearby which would normally be affected by the
+spell are subject to its effects when it is cast as a result of the
+Ward being triggered. Note that for entities or objects to be affected
+they must be within the volume that the Ward occupied, with the
+exception of those spells which can affect beyond their range.
+Targeted spells can only affect what is incorporated in the triggering
+mechanism.
+
+Wards are dispelled in one of two ways: either by a Namer casting the
+appropriate Counterspell of the same College incorporated into the
+Ward, or by being triggered by an entity or object. The Adept who set
+the Ward may always counterspell their own spells, and hence they can
+dissipate their own wards by casting a counterspell into it.  Wards
+exist in perpetuity until dispelled.
+
+\subsection{The Investment Ritual}
+\label{investment}
+
+\subsubsection{Special Knowledge Ritual}
+
+\begin{spelldesc}
+{\em Experience Multiple:} 300 \\
+{\em Base Chance:} MA (+ 3 / Rank) + 3 / hour in preparation \\
+{\em Target:} Object \\
+{\em Cast Time:} Up to 10 hours \\
+\end{spelldesc}
+An adept may store the a spell in an object by employing the Investment
+Ritual.
+
+The Adept must state the number of hours that will be spent in the
+ritual, the object to be invested, the number of charges, and the
+specific spell to be stored in the object.  At the end of the ritual,
+the character's player makes a Ritual Check to determine if the ritual
+has been effective.  The Chance of the ritual being effective is equal
+to the Adept's Magical Aptitude plus 3 for each hour spent in the
+ritual (to a maximum of 10 hours) plus any other modifiers normally
+associated with spells and rituals (+ 3 per Rank with the Investment
+Ritual).  If the Cast Check dice roll is equal to or less than the
+Cast Chance, the object of the ritual is invested with the spell.
+
+If the ritual backfires, then the effect is as if the spell to be
+invested had just backfired.  If the ritual has a double or triple
+effect then the number of charges to be invested in the item can be
+doubled or tripled respectively.
+
+An object which has a spell stored in it in this manner may be used to
+cast the spell at no Fatigue cost by any sentient entity (even those
+who are not a member of a college).  People who know how to trigger
+the item are the adept who invested the item, an Adept who has
+divinated the item, or any person who has had 15 minutes of
+instruction by another person who knows how to use the item.  Many
+Adepts use the same triggering technique so that someone who knows how
+to trigger one of their items, will also know how to trigger other
+items invested by the Adept.  It is not necessary for an entity to
+know the spell stored in an object in order to trigger it.
+
+Each object invested with spell power in this manner has a number of
+``charges'' in it equal to the Rank the Adept who invested the
+object possessed with the Investment Ritual at the time the item was
+invested.  Whenever the item is used, the number of remaining charges
+is reduced by one.  When no charges remain, the item is no longer
+invested with the power of the spell.  It may be reinvested.  A
+particular object may never be invested with more than one spell at
+the same time.  An Adept may only invest an object with a spell they
+know.  When a spell is triggered it emanates from the entity who
+triggered the item, but is treated in all other ways as if cast by the
+entity who originally invested the object with the spell. Hence, an
+invested item has a Rank (that of the Adept with the spell when they
+invested it) and a Base Chance (that of the Adept at the exact moment
+that they invested it).  Any adjustments to Base Chance can only be
+applied at the time of investment, and any adjustments to the dice
+roll can only be applied at the time of triggering.  A spell invested
+in an object may only be dispelled (i.e., removed and dissipated) by a
+Namer casting the proper counterspell over it.  When an object
+invested with a spell is used, any backfire resulting from its use
+affects the user of the object rather than the object itself.
+
+\raggedcolumns
+\clearemptydoublepage
+\end{multicols}
+
+\section{Non-College Spells and Rituals}
+d13 1
+d54 1
+a54 1
+is silver or Truesilver, the compelled being does not suffer the
+d73 2
+d82 1
+a82 1
+\emph{Resist:} Can be passively resisted (unless a Deathcurse) \\
+d87 1
+a87 1
+major curse upon a being.  Note that when casting a Deathcurse this
+d131 1
+a131 1
+\item[Deathcurse]
+d134 1
+a134 1
+resist the curse.  A deathcurse must be an affliction, ill luck or
+d142 3
+d194 1
+a194 1
+major curse is a deathcurse, add only one times the Rank.
+@
+
+
+1.5
+log
+@Changes before editing for September 1995 Guild meeting.
+@
+text
+@d20 1
+a20 1
+preparation).  If, at any time during the preparation, the character's
+d23 6
+a28 6
+lost.  A character's concentration is always broken of abandoning the
+Adventure Sequence and employing the Tactical Procedure.  The
+character may engage in no other activity while preparing the spell.
+The spell must be cast immediately upon completing the Ritual
+Preparation.  The Spell Preparation Ritual is a General Knowledge
+Ritual.  A character cannot achieve Rank with this Ritual.
+d33 2
+a34 2
+A character may increase his Magic Resistance by 5 and
+his Magical Aptitude by 1 for each hour spent in Ritual Purification.
+d41 1
+a41 1
+{\em Cast Time:} 1, 2 or 3 hours \\
+a42 1
+
+d46 2
+a47 2
+Magic Resistance and 3 to Magical Aptitude). A character can only be
+under the influence of one Ritual Purification at a given time. The
+d56 4
+a59 4
+Ritual Purification has been completed, the character can enter combat
+and employ all of the benefits of the purification.  A character must
+announce when he starts a purification the number of hours he will
+ spend engaged in the ritual.  They may engage in no other activity
+d65 1
+d85 1
+a85 1
+or entities into the volume it occupies. Whenever an entities wants to
+d87 1
+a87 1
+to create the Ward.  At the end of the preparation, they checkto see
+d107 1
+a107 1
+exist. It takes full effect on the character(s) or object(s) that
+d116 2
+a117 2
+determining range).  Note that there are a couple of spells that
+can have an effect beyond their range.
+d143 14
+a156 14
+Rank 4 or higher assassin, say, but could not be constructed to
+trigger on the assassin known as Mac the Knife. In order to affect, or
+exclude, specific people, those people's Individual True Names may be
+incorporated into the Ward, sufficiently detailed description so as to
+identify the individual. If Individual True Names are incorporated
+then there is no possible way to determine what those names are, but a
+Divination would reveal the number of people specifically affected, or
+excluded.  A Ward cannot recognise a specific object, but merely an
+instance of an object.  For example, ``my sword'' could not be
+included in the triggering mechanism, but a ``magical sword with a
+yak-hide grip'' could be.A Ward cannot tell the time so a Ward cannot
+include such phrases as ``after x minutes'' or ``at midnight''.  Nor
+does a Ward have any memory, so in cannot be set up to be triggered by
+the third troll to pass.
+d176 1
+a176 1
+dissipate their own wards by casting a counterspell into it.  They
+d193 10
+a202 10
+The Adept the number of hours that will be spent in the ritual, the
+object to be invested, the number of charges, and the specific spell
+to be stored in the object.  At the end of the ritual, the character's
+player makes a Cast Check to determine if the ritual has been
+effective.  The Chance of the ritual being effective is equal to the
+Adept's Magical Aptitude plus 3 for each hour spent in the ritual (to
+a maximum of 10 hours) plus any other modifiers normally associated
+with spells and rituals (+ 3 per Rank with the Investment Ritual).  If
+the Cast Check dice roll is equal to or less than the Cast Chance, the
+object of the ritual is invested with the spell.
+d221 1
+a221 1
+``charges'' in it equal to the Rank the character who invested the
+d228 12
+a239 13
+knows.  When a spell is triggered it emanates from the entity who
+triggered the item, but is treated in all other ways as if cast by
+that entity as they were when they originally invested the object with
+the spell. Hence, an invested item has a Rank (that of the Adept with
+the spell when they invested it) and a Base Chance (that of the Adept
+at the exact moment that they invested it).  Any adjustments to Base
+Chance can only be applied at the time of investment, and any
+adjustments to the dice roll can only be applied at the time of
+triggering.  A spell invested in an object may only be dispelled
+(ie. removed and dissipated) by a Namer casting the proper
+counterspell over it.  When an object invested with a spell is used,
+any backfire resulting from its use affects the user of the object
+rather than the object itself.
+d257 1
+a257 1
+\emph{Range:} The caster must be able to see and communicate with
+d271 1
+a271 1
+Furthermore, the caster must believe that the being deserves the geas,
+d273 1
+a273 1
+to have an unmerited geas placed upon them.  The caster specifies the
+d286 10
+a295 10
+If the letter of a quest geas is fulfilled by the compelled being,
+they are no longer subject to that geas.  The other two types of geas
+(for and against a given action) last indefinitely.  A geas can be
+removed automatically by the one who placed it upon the compelled
+being.  A geased person will not attempt to free themself from the
+compulsion.  An Adept with Rank greater than that of the geas may try
+to do so.  The Adept must inscribe a triangle about the compelled, and
+perform the ritual of geas removal for 12 consecutive hours.  If the
+triangle is silver or Truesilver, the compelled being does not suffer
+the penalties for ignoring the geas during the ritual.
+d299 1
+a299 1
+the geas being remove. The GM rolls percentile dice: if the roll is
+d376 1
+a376 1
+Lycanthropy (see 72) is considered a major curse.
+d392 1
+a392 1
+cast it.  If the curse is natural (such as Lycanthropy), usually has
+d412 1
+a412 1
+\emph{Base Chance:} (Adept's MA - MA of curse + 5 \x Rank )\% \\
+d444 3
+@
+
+
+1.4
+log
+@Changes for submission 12.
+@
+text
+@d1 3
+a3 1
+\section{Non-College Spells and Rituals}
+d8 4
+a11 2
+All spells and rituals given in a listing in this section can be
+learnt by Adepts of any college.
+d16 2
+d31 1
+a31 1
+\label{non-colleded:purfication}
+d36 3
+a38 1
+\begin{flushleft}
+d42 1
+a42 1
+\end{flushleft}
+d65 189
+a444 196
+
+\subsection{The Ward Ritual (V 1.1)}
+\begin{flushleft}
+\textbf{Brent Jackson Nov 1989} \\
+\end{flushleft}
+
+\begin{spelldesc}
+\emph{Duration:} Permanent until dispelled or triggered \\
+\emph{Experience Multiple:} 400 \\
+\emph{Base Chance:} MA (+ 3 / Rank) \\
+\emph{Resist:} \\
+\emph{Target:} \\
+\emph{Cast Time:} 1 hour \\
+\emph{Materials:} \\
+\emph{Actions:} Concentration \\
+\emph{Concentration Check:} Standard \\
+\end{spelldesc}
+\emph{Effects:}
+A character may employ Ritual Magic to cast a Ward over an area which
+he occupies or is near.
+
+A Ward is an automatic spell which is activated by the intrusion of
+objects or living beings into the area it occupies. By ``intrusion'' we
+mean entry or exit.  ``Area'' means volume.  Whenever a character wishes
+to create a Ward, he announces his intention and engages in one or
+more hours of Ritual Preparation to create the Ward.  At the end of
+the preparation, he immediately checks to see if the Ward is cast by
+making a Cast Check.  If the Cast Check is successful, the Ward is
+cast.  If the Check is not successful, no Ward exists and the attempt
+must be started from scratch or abandoned.
+
+It is possible to backfire from an attempt to create a Ward.  In such
+cases, the spell being incorporated into the Ward backfires
+immediately. This is rolled for on the backfire table as though a
+normal Cast Check had resulted in the backfire.
+
+Once the Ward is cast, the entry or exit of any object or being in the
+area occupied by the Ward (determined by the range of the spell
+incorporated into the Ward) may trigger the Ward.  The area that the
+Ward occupies and the range of the spell incorporated into the Ward
+are identical.  This means that most spells (Range 15' + 15 rank) have
+a minimum sized ward of 30' diameter (a sphere, centred on the caster,
+of 15'radius).  Also, note that many spells have an indefinite range
+and hence cannot be incorporated into a Ward.  This includes spells
+with ranges of unlimited, self, or touch and spells that can only
+affect the adept.  Once a ward has been triggered, it ceases to
+exist. It takes full effect on the character(s) or object(s) that
+triggered it, but is dissipated thereafter. It takes full but normal
+effect on the target(s) -- there is no possibility for a double or
+triple effect (nor for failure or backfire).  Note that a Ward set up
+for triggering by an entity or object exiting the area cannot be a
+targeted spell, since the target would no longer be within range. The
+exiting method of triggering is still useful for area of effect spells
+that don't have a specific target.  All Wards emanate from the exact
+spot occupied by the individual who cast the Ward (important for
+determining range).  Note that there exists a couple of spells that
+can have an effect beyond their range.
+
+Spells that are not suitable for incorporation into a Ward are
+those which require concentration only, (concentration/maximum are
+okay), or some other action by the adept.  A Ward always consists of
+only one such spell, however.  More than one Ward may not be cast over
+a specific area (i.e. it is not possible to cast three or four
+different spells over the same doorway via a Ward). Any attempt to
+cast a Ward on an area that overlaps another Ward will fail. The adept
+will only become aware of this if they would otherwise have been
+successful.
+
+Whenever he announces that he is creating a Ward, a character's player
+must also announce under what conditions the Ward will be triggered.
+They may decide not to limit its affect, in which case the ward will
+be triggered by anyone or anything entering the area over which it is
+cast, or he may limit ft to affecting specific individuals or anything
+in between.  Thus, a character could cast a Ward that would only be
+triggered by passing trolls (or even more specifically, by the third
+troll to pass through the area occupied by the Ward).  By pass
+through, either entry or exit is meant. If a multi-target spell is
+required to hit more than one target from a Ward, then the trigger
+must include the number of beings. For example, a rank 7 hellfire
+(which affects 3 characters) could be set up to be triggered by 3
+passing trolls.  The instant that the third troll entered the area the
+ward would be triggered, but prior to that any number of lone trolls
+could have freely moved through the ward.  Characters (and the GM)
+should be aware that it may be necessary to account for the caster of
+the Ward and his fellow adventurers having to pass through the Ward.
+
+Since we have agreed that wards cannot tell time, then delaying the
+start time of a ward is contradictory.  Hence, if a group is involved
+then this must be taken into account when stipulating the trigger of
+the ward. A Ward, once it is successfully cast cannot be triggered
+until the caster leaves the area of the Ward.  Specifics of the
+triggering mechanism must be something intrinsic to the object or
+entity (similar to Detect Aura). Hence a Ward could be set up to be
+triggered by a rank 4 or higher assassin, say, but could not be
+constructed to trigger on the assassin known as Mac the Knife. In
+order to affect, or exclude, specific people, those people's
+Individual True Names may be incorporated into the Ward, or a
+description of sufficient detail as required by the Locate spell. If
+an individual true name is incorporated then there is no possible way
+to determine what those names are, but a Divination would reveal the
+number of people specifically affected, or excluded.  A Ward cannot
+recognise a specific object, but merely an instance of an object For
+example, ``my sword'' could not be included in the triggering
+mechanism, but a ``magical sword with a yak-hide grip'' could be.
+
+Once a Ward is in effect, any individual or object which could trigger
+the Ward and which enters the area occupied by the Ward is
+automatically subject to whatever individual spell was woven into the
+Ward.  See paragraph three for a more complete explanation.  Only
+those spells known by the caster of the Ward may be woven into the
+Ward and they take effect exactly as if the caster of the Ward were
+present and casting at the spot occupied by the character or object
+which triggered the Ward. All characters or objects nearby which would
+normally be affected by the spell are subject to its effects when it
+is cast as a result of the Ward being triggered. Note that for
+characters or objects to be affected they must be within the area that
+the Ward occupied, with the exception of those spells which can affect
+beyond their range. Targeted spells can only affect what is
+incorporated in the triggering mechanism.
+
+Wards are dispelled in one of two ways: either by a Namer casting a
+Counterspell of the same College incorporated into the Ward, or by
+being triggered by an individual or object.  Note that the
+Counterspell is require to be of the same type as the warded spell,
+that is General Knowledge Counterspell for a warded General Knowledge
+spell, and a Special Knowledge Counterspell for a Special Knowledge
+spell.  The caster may always counterspell their own spells, and hence
+they can disapate their own wards by casting a counterspell into it.
+They exist in perpetuity until dispelled.  Wards cannot tell the time.
+
+The cost to learn it varies for each College and is printed in the
+Guild Handbook.  Greater Summoners and Rune Mages currently have
+little or no use for the Ward Ritual.  The presence of cold iron does
+not affect a Ward.
+
+\subsection{The Investment Ritual}
+\label{investment}
+
+A character may store the power of a spell in an object in their
+possession by employing an Investment Ritual.
+
+\begin{flushleft}
+{\em Experience Multiple:} 300 \\
+{\em Base Chance:} MA (+ 3 / Rank) + 3 / hour in preparation \\
+{\em Time Taken:} Up to 10 hours \\
+\end{flushleft}
+
+The character's player announces that he is beginning an Investment
+Ritual and states the number of hours that will be spent in the
+ritual, the object to be invested with power, and the specific spell
+which will be stored in the object.  At the end of the ritual, the
+character's player makes a Cast Check to determine if the ritual has
+been effective.  The Chance of the ritual being effective id always
+equal to the character's Magical Aptitude plus 3 for each hour spent
+in the ritual (up to a maximum of 10 hours or 30 percentage points)
+plus any other modifiers normally associated with spells and rituals
+(+ 3 per Rank with the investment Ritual).  It is possible to generate
+any of the effects normally associated with spells when an Invested
+spell is loosed (double or triple effect, backfire, etc.)  using this
+ritual.  If the Cast Check dice roll is equal to or less than the Cast
+Chance, the object of the ritual is invested with the power of the
+spell which to be stored in it.
+
+An object which has a spell stored in it in this manner may be used to
+cast the spell at no Fatigue cost by any character (including
+individuals who are not members of a College of magic) who knows how
+to activate the object.  Only those individuals who know the
+Investment Ritual of the College that was used to store the spell in
+the object or who have been told by the character who stored the spell
+in the object how to activate the power therein may use the object's
+power.  It is not necessary for a character to know the spell stored
+in an object in order to employ the object to release the spell.
+
+Each object invested with spell power in this manner has a number of
+"charges" in it equal to the Rank the character who invested the
+object possessed with the Investment Ritual at the time the item was
+invested.  Whenever the power in the item is used, the number of
+remaining charges is reduced by 1.  When no charges remain, the item
+is no longer invested with the power of the spell.  It may be
+reinvested.  A particular object may never be invested with more than
+one spell at the same time.  A character may only invest an object
+with a spell he knows.  Whenever a spell is released from an object in
+which it was invested, the spell is treated as if it was being cast by
+the character who originally stored it in the object.  It always
+emanates from the spot occupied by the object, but is treated in all
+other ways as if cast by that character as he was when he originally
+invested the object with the spell power (ie. the spell would be
+ranked as it was when originally stored in the object).  A spell
+invested in an object may only be dispelled (ie. removed and
+dissipated) by a Namer casting the proper counterspell over it. If an
+attempt at investing an object with a spell's power backfires, the
+effect is as if the spell being invested in the object had backfired.
+It is applied immediately.  When an object invested with a spell is
+used, any backfire resulting from its use affects the user of the
+object rather than the object itself.  The Investment Ritual is a
+Special Knowledge Ritual.
+@
+
+
+1.3
+log
+@Changes made from Submission 11.
+@
+text
+@d116 1
+a116 2
+
+A major curse is an insidious and deadly spell.
+d123 3
+a125 3
+\emph{Base Chance:} 15\% (see below) \\
+\emph{Resist:} \\
+\emph{Target:} \\
+d128 4
+a131 2
+An Adept's Endurance value is decreased by one whenever he inflicts a
+major curse upon a being.  There are several types of major curses:
+d150 1
+a150 1
+Target suffers from virulent disease (a favourite is open running sores). 
+d153 1
+a153 1
+Target is transformed into a frog or other small creature (the kiss of royalty of the opposite gender will remove such a curse).
+d156 2
+a157 2
+Target's nervous system ceases to send impulses across his synapses (he becomes completely numb).
+
+d159 1
+a159 1
+Target falls into century-long sleep (see note to 4).
+d163 3
+a165 3
+Add two times the Rank the Adept has achieved with the major curse
+spell to any percentile roll involving the target of the use any of
+his abilities.  This may not be applied favourably.
+d170 2
+a171 3
+one.'').  The statement  which must be indefinite, will be true
+unless removed.  The GM should be careful as to what precisely he
+allows for dooms.
+d174 1
+a174 1
+At the moment of his death, an Adept may automatically cast a major
+d177 1
+a177 1
+doom.
+d185 1
+a185 8
+There are two types of curses, minor ones and major ones.  A minor
+curse causes its victim to suffer from a non-fatal malediction.  Minor
+curses come from various sources, for example the spells Evil Eye (G-9
+of the College of Ensorcelments and Enchantments), the Damnum Minatum
+(G-1 of the Witchcraft College) and certain backfires.
+
+A Remove Curse Ritual is a Special Knowledge ritual that can sometimes
+save a being from the consequences of a major or minor curse.
+d188 1
+a188 1
+\emph{Duration:} Permanent \\
+d191 1
+a191 1
+\emph{Target:} \\
+d196 16
+a211 3
+cast it.  If the curse is natural (such as Lycanthropy), it is assumed
+to have a MA of 20, unless the GM increases or decreases the potency
+of the curse.
+d216 1
+a216 1
+\emph{Base Chance:} (MA + 5 \x Rank - MA of curse)\% \\
+d226 1
+a226 1
+\emph{Base Chance:} (Difference in MA + 2 \x Rank)\% \\
+d232 2
+a233 11
+being, and perform this ritual for eighteen consecutive hours.  The
+Adept's chance of removing the major curse is equal to (Difference in
+MA + 2 \x Rank)\%.  If the major curse is a deathcurse, add only one
+times the Rank.
+
+When a ritual of curse removal has been completed, the GM rolls
+percentile dice.  If the roll is less than or equal to the success
+percentage the curse is removed. If the roll is between one and two
+times the success percentage, the curse remains in effect.  If the
+roll is equal to or greater than twice the success percentage, the MA
+of the curse is increased by one.
+@
+
+
+1.2
+log
+@Can Non Colleged to non-colleges and rename "From Rulebook ..." to Introduction
+@
+text
+@d1 1
+a1 1
+\section{Non-Colleged Spells and Rituals}
+d6 50
+a55 14
+The spells and rituals described in this section are used by Adepts
+for vengeance upon adventuring beings.  Usually, magic is intended to
+cause an immediate effect; the consequences of these abilities will,
+however, dog the unfortunate adventurer for great lengths of time.
+The cost to use these powerful magics is high: the caster must either
+make personal sacrifices, or spend a great deal of time to implement
+one spell or ritual.
+
+\subsubsection{All spells and rituals given in a listing in this
+section can be used by Adepts of any college.}
+
+Except where noted in the effects part of a description, an Adept
+casts the spells and rituals herein via the usual procedures for
+magic.
+d59 1
+a59 3
+A geas is a compulsion laid upon a being.
+
+\textbf{Specialised Knowledge Spell}
+d61 2
+a62 2
+\emph{Range:} The caster must be able to clearly see
+and be able to communicate with the person to be compelled \\
+d67 1
+a67 1
+\emph{Target:} \\
+d74 1
+a74 1
+A being to be compelled must acknowledge his acceptance of the geas.
+d76 24
+a99 26
+or the being must truly wish (that is is not forced by physical or
+magical means) to have an unmerited geas placed upon him.  The caster
+specifies the nature of the geas in 25 words or less, and the GM
+will use-the most liberal interpretation of that wording to the
+benefit of the compelled being.  A caster's Rank with the geas spell
+does not affect his chance of casting the spell; he is always
+automatically successful if he satisfies the pre-requisites. The Rank
+equals the effectiveness of the geas, expressed in percentage
+terms.  If a geased being directly contravenes the letter of a geas,
+he has a chance of dying equal to the caster's Rank with the geas
+spell at the time it was cast upon him.  A compelled being will begin
+to feel weak or ill when he first takes an action counter to the
+restriction of the geas, and will become increasingly afflicted as
+he pays less and less attention to the letter of the geas.  There is
+no limit to the Rank of a geas.
+
+If the letter of a quest geas is fulfilled by the compelled being, he
+is no longer subject to that geas.  The other two types of geas (for
+and against a given action) last indefinitely.  A geas can be removed
+automatically by the one who placed it upon the compelled being.  A
+geased person cannot attempt to free himself from the compulsion, but
+may have an Adept with Rank greater than that of his geas try to do
+so.  The Adept must inscribe a triangle about the compelled, and
+perform the ritual of geas removal for 12 consecutive hours. If the
+triangle is silver, the compelled being does not suffer the penalties
+for ignoring the geas during the ritual.
+d102 2
+a103 2
+five times the difference between his Rank with the spell and the Rank
+of the geas in question. The GM rolls percentile dice: if the roll is
+d108 6
+a113 16
+\textbf{Full Geas} If one has a Rank greater than 50 with the geas
+spell, he has the power of full geas. A full geas can be placed upon a
+being without his consent, though he may passively (but not actively)
+resist such a geas.  Additionally, one with the power of full geas may
+automatically remove (without the support of a triangle and 12 hours
+of ritual) a geas which is at least 5 Ranks less than his Rank with
+the spell.
+
+\subsection{Minor Curse}
+
+A minor curse causes its victim to suffer from a non-fatal
+malediction.
+
+The spells Evil Eye (G-9 of the College of Ensorcelments and
+Enchantments), the Damnum Minatum (G-1 of the College of Witchcraft)
+and backfire (see 30) results above a roll of 61 are minor curses.
+d119 1
+a119 1
+\textbf{Specialised Knowledge Spell}
+d185 6
+d225 5
+a229 5
+He must inscribe a triangle or symbol of power about the cursed being,
+and per- form this ritual for eighteen consecutive hours.  The Adept's
+chance of removing the major curse is equal to ([Difference in MA] +
+[2 \x Rank])\%.  If the major curse is a deathcurse, add only one times
+the Rank.
+d321 2
+a322 2
+He may decide not to limit its affect, in which case the ward will be
+triggered by anyone or anything entering the area over which it is
+d449 1
+a449 1
+\pagebreak
+a450 1
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 1
+a1 1
+\section{Non Colleged Spells and Rituals}
+d4 1
+a4 1
+\subsection{Notes from Rulebook (Consequences)}
+@

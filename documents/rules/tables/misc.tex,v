@@ -1,0 +1,383 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL30:3.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.1;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.06.04.05.38.15;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	98.06.04.05.35.11;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	97.04.09.01.46.29;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	97.04.09.01.21.29;	author rossa;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	96.01.12.02.11.52;	author rossa;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\section{Miscellaneous Tables}
+
+\subsection{Fatigue, Encumbrance and Movement Charts}
+\label{tables:encumbrance}
+\label{tables:tmr}
+
+\begin{tabular}[t]{cc}
+{\fontsize{8}{11pt}\selectfont
+\begin{tabular}[t]{l@@{\hspace{1.8em}}c@@{\hspace{1.8em}}c@@{\hspace{1.8em}}c@@{\hspace{1.8em}}c@@{\hspace{1.8em}}c@@{\hspace{1.8em}}c@@{\hspace{1.8em}}c@@{\hspace{1.8em}}c@@{\hspace{1.8em}}c}
+\textbf{PS} & \multicolumn{8}{c}{\textbf{Weight of Load (lbs)}} & \textbf{Max} \\ \hline
+3-5	&0	&0	&5	&14	&21	&30	&37	&45	&50 \\ \hline
+6-8	&0	&5	&12	&17	&25	&40	&55	&67	&75 \\ \hline
+9-12	&5	&12	&17	&25	&40	&60	&75	&90	&100 \\ \hline
+13-17	&12	&17	&25	&40	&60	&80	&95	&112	&125 \\ \hline
+18-20	&17	&25	&35	&50	&75	&105	&125	&140	&150 \\ \hline
+21-23	&25	&40	&55	&70	&100	&140	&165	&185	&200 \\ \hline
+24-27	&35	&50	&65	&85	&120	&160	&185	&202	&225 \\ \hline
+28-32	&45	&65	&85	&105	&140	&180	&205	&230	&250 \\ \hline
+33-36	&55	&80	&110	&140	&180	&220	&245	&262	&275 \\ \hline
+37-40	&65	&85	&135	&170	&207	&247	&280	&307	&325 \\ \hline
+\multicolumn{10}{l}{\textbf{Rate of Exercise}} \\
+Light	&0	&0	&0	&$\frac{1}{2}$&$\frac{1}{2}$&1	&2	&3	&5 \\ \hline
+Medium	&0	&0	&$\frac{1}{2}$&$\frac{1}{2}$&1	&1	&3	&4	&6 \\ \hline
+Hard	&$\frac{1}{2}$&$\frac{1}{2}$&1	&1	&2	&3	&5	&6	&8 \\ \hline
+Strenuous&2	&2	&3	&3	&4	&5	&6	&7	&9 \\ \hline
+\multicolumn{10}{l}{\textbf{Agility Loss in Combat}} \\
+Loss	 &0	&1	&2	&3	&5	&7	&9	&10	&12 \\ \hline
+\end{tabular}}
+
+&
+\begin{minipage}[t]{2.5in}
+\begin{tabularx}{2.5in}[t]{cXc}
+& \textbf{Tactical Movement Rate} & \\
+\textbf{Modified} & \\
+\textbf{Agility} & & \textbf{TMR} \\ \hline
+ $<$ 1		& & 0 \\ \hline
+  1 -- 2	& &  1 \\ \hline
+  3 -- 4	& & 2 \\ \hline
+  5 -- 8	& & 3 \\ \hline
+  9 -- 12	& & 4 \\ \hline
+ 13 -- 17	& & 5 \\ \hline
+ 18 -- 21	& & 6 \\ \hline
+ 22 -- 25	& & 7 \\ \hline
+ 26 -- 27	& & 8 \\ \hline
+$>$ 27		& & \dag \\ \hline
+\end{tabularx}
+
+\dag TMR = 9 + 1 for every two points of AG over 28, for example AG 32 gives 11 TMR.
+\end{minipage} \\
+\end{tabular}
+
+\begin{multicols}{2}
+
+{\setlength\leftmargini{0pt}
+\begin{description}
+\setlength\itemsep{0pt}
+\item[Weight of Load (lbs)] The weight, in pounds, that a character is
+carrying, where each value is the category maximum.  Note: A mount can
+carry weight for a character while they are riding.
+
+\item[Max] The maximum load, in pounds, that a character can carry for
+a sustained period of time.
+
+\item[Rate of Exercise] See \S\ref{adventure:exercise}.
+
+\item[Agility Points Lost] The temporary Agility Point loss suffered
+by a character toting the given weight in combat.  Use the procedure
+in rule \S\ref{adventure:fatigue} to use this chart.
+\end{description}}
+
+\end{multicols}
+
+\rule{\linewidth}{0.6mm}
+
+\begin{multicols}{2}
+\subsection{Overland Movement Rate}
+\label{tables:overland}
+
+\begin{tabularx}{0.8\linewidth}{Xcccc}
+& \multicolumn{4}{c}{\tiny\textsc{RATE OF EXERCISE}} \\
+{\tiny\textsc{TERRAIN}} &
+{\tiny\textsc{LIGHT}} &
+{\tiny\textsc{MEDIUM}} &
+{\tiny\textsc{HEAVY}} &
+{\tiny\textsc{STRENUOUS}} \\
+\hline
+Cavern	& 5/-	& 10/-	& 15/-	& 20/- \\
+\hline
+Field	& 15/15	& 25/25	& 30/40* & 35/50* \\
+\hline
+Marsh	& -/-	& 5/5	& 10/10* & 15/15* \\
+\hline
+Plain	& 15/15 & 25/25	& 30/40* & 40/50* \\
+\hline
+Rough	& 10/5	& 15/10	& 20/15* & 25/-	\\
+\hline
+Waste	& 10/5	& 15/10	& 20/10* & -/-	\\
+\hline
+Woods	& 10/5	& 15/10 & 20/15* & 25/- \\
+\hline
+\end{tabularx}
+
+\smallskip
+
+The number before the slash indicates movement in miles per day on
+foot; the number following the slash indicates mounted movement
+(assuming horses).  Rates for other animals types must be adjusted by
+the GM.  The day assumes a total of 8 hours marching.  Effects of
+adverse weather must be adjudicated by the GM. Any paths or roads
+negative the effect of other terrain, and the Plain movement rates are
+used. (-): Movement type impossible at this exercise rate.
+
+\begin{enumerate}
+\item
+Movement rates assume some sort of passable terrain; total swamp is
+impassable except (sometimes) by canoes.
+
+\item
+If terrain is mountainous, halve rates on foot and prohibit mounted
+movement.
+
+\item
+If terrain is desert, the GM should apply strictures regarding the
+effects of heat, dehydration, etc.
+
+\item
+If terrain is deep woods, halve movement rates.
+\end{enumerate}
+
+* In these exercise rate categories, horses' maximum rates will
+deteriorate 33\% per day.  They can travel at these rates for
+approximately 4 consecutive days and then they will die.
+
+\end{multicols}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@@
+
+
+4.0
+log
+@REL40
+@
+text
+@@
+
+
+3.0
+log
+@REL30
+@
+text
+@@
+
+
+2.1
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+2.0
+log
+@REL20
+@
+text
+@d33 1
+d111 1
+a111 1
+used. (-): Movement type impossible at the this exercise rate.
+@
+
+
+1.3
+log
+@Weight table modified to use maximums rather than halfway vlues.
+@
+text
+@@
+
+
+1.2
+log
+@Save changes before changing weight table.
+@
+text
+@d11 10
+a20 10
+3-5	&0	&0	&0	&10	&18	&25	&35	&40	&50 \\ \hline
+6-8	&0	&0	&10	&15	&20	&30	&50	&60	&75 \\ \hline
+9-12	&0	&10	&15	&20	&30	&50	&70	&80	&100 \\ \hline
+13-17	&10	&15	&20	&30	&50	&70	&90	&100	&125 \\ \hline
+18-20	&15	&20	&30	&40	&60	&90	&120	&130	&150 \\ \hline
+21-23	&20	&30	&50	&60	&80	&120	&160	&170	&200 \\ \hline
+24-27	&30	&40	&60	&70	&100	&140	&180	&190	&225 \\ \hline
+28-32	&40	&50	&80	&90	&120	&160	&200	&210	&250 \\ \hline
+33-36	&50	&60	&100	&120	&160	&200	&240	&250	&275 \\ \hline
+37-40	&60	&70	&120	&150	&190	&225	&270	&290	&325 \\ \hline
+d29 1
+d57 2
+a58 4
+carrying, rounded off to the nearest entry on the appropriate Physical
+Strength row (if the weight is exactly between two entries, use the
+greater one).  Note: A mount can carry weight for a character while
+they are riding.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 1
+a3 1
+\subsection{Fatigue and Encumbrance Chart}
+d5 1
+d7 3
+a9 2
+\begin{multicols}{2}
+{\small \begin{tabular}{l@@{\hspace{1.0em}}c@@{\hspace{1.0em}}c@@{\hspace{1.0em}}c@@{\hspace{1.0em}}c@@{\hspace{1.0em}}c@@{\hspace{1.0em}}c@@{\hspace{1.0em}}c@@{\hspace{1.0em}}c@@{\hspace{1.0em}}c}
+d19 1
+a19 1
+33-36	&50	&60	&100	&120	&160	&200	&240	&250	&Z75 \\ \hline
+d29 22
+d55 1
+a55 1
+\item[Weight of Load lbs] The weight, in pounds, that a character is
+d58 2
+a59 3
+greater one). The Basic Goods Cost List (81.4) should be used to
+calculate total weight.  Note: A mount can carry weight for a
+character while he is riding.
+d61 1
+a61 1
+\item[Max] The maximum load, in pounds, that a character can carry. for
+d68 1
+a68 1
+in rule 82.5 to use this chart.
+d70 1
+d73 1
+a73 1
+\rule{\linewidth}{0.2em}
+d77 1
+d85 16
+a100 8
+{\tiny\textsc{STRENUOUS}} \\ \hline
+Cavern	& 5/-	& 10/-	& 15/-	& 20/- \\ \hline
+Field	& 15/15	& 25/25	& 30/40* & 35/50* \\ \hline
+Marsh	& -/-	& 5/5	& 10/10* & 15/15* \\ \hline
+Plain	& 15/15 & 25/25	& 30/40* & 40/50* \\ \hline
+Rough	& 10/5	& 15/10	& 20/15* & 25/-	\\ \hline
+Waste	& 10/5	& 15/10	& 20/10* & -/-	\\ \hline
+Woods	& 10/5	& 15/10 & 20/15* & 25/- \\ \hline
+d105 1
+a105 1
+The number before teh slash indicates movement in miles per day on
+d107 1
+a107 1
+(assuming horses).  Ratesfor other animals types must be adjusted by
+d110 1
+a110 1
+negatve the effect of other terrain, the the Plain movement rates are
+d115 1
+a115 1
+Movement rates assume some osrt of passable terrain; total swamp is
+d119 1
+a119 1
+If terrain is mountainous, halve rates on foor and prohibit mounted
+d124 1
+a124 1
+effects of heat, dehydragion, etc.
+d130 1
+a130 1
+* In these exercise rate caategories, horses' maximum rates will
+@

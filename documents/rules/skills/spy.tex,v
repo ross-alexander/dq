@@ -1,0 +1,772 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL30:3.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.3;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.06.04.05.38.15;	author rossa;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	98.06.04.05.35.10;	author rossa;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	98.05.11.02.03.48;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	98.05.11.01.21.23;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	97.05.16.00.10.25;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	96.02.13.02.15.13;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	96.01.12.02.20.22;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.04.07.05.08.49;	author rale01;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.04.07.03.51.41;	author rale01;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{skill}{Spy}{1.1}{spy}
+
+Spies practice their trades covertly, in order to avail themselves of
+the well-guarded wealth of the powerful. The spy represents themselves
+as one worthy of their victim's trust to gain access to valuable
+information.  They will continue their impersonation until the victim
+is sucked dry of everything of value or until the spy is discovered.
+
+If a spy character wishes to use their skill while not accompanied by
+the rest of the party, the GM should run a solo adventure (unless the
+task the spy sets themself is very easy).  A spy had best not be
+captured after discovery: the traditional punishment for an exposed
+spy was to draw and quarter the prisoner.
+
+\subsection{Restrictions}
+
+A spy must be able to read and write in one language at Rank 4 if they
+wish to advance beyond Rank 2.
+
+When a character is both a spy and a thief, the player may use the
+better of the two percentages to perform a given ability.
+
+\subsection{Benefits}
+
+\subsubsection{If a character's Rank as a spy is greater then their
+Rank as a thief, the character expends one-half the necessary
+Experience Points to acquire or improve the latter skill.}
+
+The reverse is also true.
+
+\subsubsection{A spy can pick locks or open safes with the aid of their
+tools.}
+\label{spy:picklocks}
+
+The time a spy must spend to implement the pick lock ability is (240 -
+20 \x Rank) seconds, and (30 - 2 \x Rank) minutes to use the open safe
+ability.
+
+If the GM's roll on percentile dice is equal to or less than the
+success percentage the spy has opened the safe or picked the lock. If
+the roll is greater than the success percentage, the safe or lock
+resists the spy's best efforts.  If any trap remains in place when a
+spy attempts to open a safe or pick a lock, it is triggered by that
+action.
+
+\begin{Description}
+
+\item[For Spy to Pick Lock] (MD + 4 \x Rank) - (6 \x Lock Rank)
+
+\item[For Spy to Open Safe] (MD + 3 \x Rank) - (7 \x Safe Rank)
+
+\end{Description}
+
+\subsubsection{A spy may attempt to detect traps and should the spy
+succeed, may try to remove them.}
+\label{spy:removetraps}
+
+A spy may make one attempt to detect traps (which requires 10 seconds)
+in a particular location per day.  A spy must spend (24 - 2 \x Rank)
+minutes to use the remove trap ability.
+
+The GM must make one percentile roll for each trap to see if the spy
+detects it. If the roll is less than or equal to the success
+percentage, the spy notices the location of the trap. If the roll is
+above the success percentage, they remain blissfully unaware of the
+trap's presence.
+
+\begin{Description}
+
+\item[For Spy to Detect Trap] (2 \x Perception + 7 \x Rank)
+
+\item[For Spy to Remove Trap] (MD + 7 \x Rank) - (5 \x Trap Rank)
+
+\end{Description}
+
+When a spy attempts to remove a trap, the GM rolls percentile dice.
+If the roll is less than or equal to the success percentage the spy
+has removed the trap without triggering it. If the spy has a trap
+container, they may store the removed trap. If the GM's roll is
+greater than the success percentage, the trap is triggered (see
+\S\ref{mechanician:traps}).
+
+\subsubsection{A spy can sometimes detect a secret or hidden aperture.}
+
+Any character can try to find a secret or hidden aperture if they spend
+time sounding and searching the appropriate wall, floor, or ceiling. A
+spy has a (2 \x Perception + 5 \x Rank)\% chance of noticing that a
+secret or hidden aperture is within (5 + Rank) feet of them.
+
+If the GM's roll on percentile dice is equal to or less than the
+success percentage, the spy senses that at least one hidden or secret
+door is in their detection area (but is not told how many).  If the
+roll is greater than the success percentage, the spy does not notice
+the aperture(s).
+
+\subsubsection{A spy can attempt to pick the pocket of another being
+without being detected.}
+\label{spy:pickpockets}
+
+\index{pickpocket, spy!pickpocket}
+
+A spy has a base success percentage equal to (3 \x Manual Dexterity +
+6 \x Rank)\% to pickpocket a being.  The following modifiers are
+applied to the success percentage:
+
+\smallskip
+\begin{tabularx}{\linewidth}{Xr}
+The victim is unconscious		& +50\% \\
+The victim is sleeping or stunned	& +25\% \\
+The victim cannot see well in current circumstances (\eg human at night) & +10\% \\
+The victim is inebriated		& +5\% \\
+The pickpocket attempt is made in an uncrowded area and the victim has at least a slight suspicion of the spy's intentions & -15\% \\
+The object to be pickpocketed is in a sealed pocket, pouch or compartment & -20\% \\
+The object to be pickpocketed is affixed to the victim's person or is something used constantly during the day by the victim	& -30\% \\
+The object to be pickpocketed makes noise when removed	& -25\% \\
+The victim wears metal armour or garments		& -5\% \\
+The victim is an assassin, thief or spy: Subtract (5 \x Victim's Rank)\% & \\
+\end{tabularx}
+
+It is assumed that the spy attempting to pickpocket is not handicapped
+by their physical condition; if they are, the GM should modify the
+success percentage accordingly.
+
+If the GM's roll of percentile dice is equal to or less than the
+success percentage, the spy filches the object they desire without the
+victim noticing.  If the roll is between one and two the success
+percentage, the spy is detected by the victim just after the object
+has been removed from its storage place. If the roll is equal to or
+greater than twice the success percentage, the spy is caught with
+their hand in the victim's pocket.
+
+\subsubsection{A spy will develop a photographic memory as they gain
+experience.}
+
+A spy's success percentage to employ their photographic memory ability
+is (2 \x Perception + 12 \x Rank)\%.  A spy may use the ability
+without error for up to (1 + Rank) days.  When a spy uses the ability
+after the error-free time limit is expired, reduce their Rank for
+success percentage calculation (only) by one for each day over that
+time limit.
+
+If the GM's roll on percentile dice is equal to or less than the
+success percentage, the spy can recall visual details, such as those
+of a room or a piece of parchment, etc., if they observed it for the
+requisite length of time.  A spy must have observed the object in
+question for (120 - 10 \x Rank) seconds to use the ability.  If the
+roll is greater than the success percentage, the spy's memory has more
+and more gaps in it as the roll approaches 100.  If the spy is
+attempting to recall past their error-free time limit, the GM
+introduces erroneous information into the memory gaps as the roll
+approaches 100.
+
+A spy tests their photographic memory ability whenever they try to
+verbally describe an object or place, whenever they call on their
+memory to gain a mental image of the object or place, or whenever they
+record it in writing. If a spy fails to recall an object or place
+once, they may not use the ability again to try to recall the image of
+that object or place.
+
+\subsubsection{A spy increases their chance of performing an action
+involving stealth by 2\% per Rank.}
+
+\index{stealth!spy}
+
+\subsubsection{A spy may use their photographic memory ability to recall
+spoken phrases.}
+
+Even if a spy does not know the language used, they can reproduce the
+phrases phonetically.  Additionally, when a spy concentrates for (60 -
+5 \x Rank) seconds, they can extend their range of vision and hearing
+to (100 + 5 \x Rank)\% of what it normally is.
+
+\end{skill}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 1
+a1 5
+\section{Spy}
+\label{spy}
+
+\index{spy|(}
+\index{skills!spy|(}
+d149 3
+a151 2
+attempting recall past their error-free time limit, the GM introduces
+erroneous information into the memory gaps as the roll approaches 100.
+d173 1
+a173 2
+\index{spy|)}
+\index{skills!spy|)}
+@
+
+
+3.0
+log
+@REL30
+@
+text
+@@
+
+
+2.3
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+2.2
+log
+@Fix e.g. problem
+@
+text
+@d50 2
+a51 1
+\begin{description}
+d55 2
+a56 1
+\end{description}
+d72 7
+a78 7
+\begin{description}
+\item[For Spy to Detect Trap]
+(2 \x Perception + 7 \x Rank)
+
+\item[For Spy to Remove Trap]
+(MD + 7 \x Rank) - (5 \x Trap Rank)
+\end{description}
+@
+
+
+2.1
+log
+@Check in before modifying e.g. and i.e.
+@
+text
+@d112 1
+a112 1
+The victim cannot see well in current circumstances (e.g., human at night) & +10\% \\
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d4 3
+d164 2
+d173 3
+@
+
+
+1.5
+log
+@Remove reference.
+@
+text
+@@
+
+
+1.4
+log
+@Fix base chance for detecting you are being pickpocketed.
+@
+text
+@d159 1
+a159 1
+involving stealth (\S\ref{stealth}) by 2\% per Rank.}
+@
+
+
+1.3
+log
+@Release 1.0 snapshot
+@
+text
+@d102 1
+a102 1
+6 x Rank])\% to pickpocket a being.  The following modifiers are
+@
+
+
+1.2
+log
+@Corrections done form March printed version
+@
+text
+@d4 5
+a8 6
+Spies practice their trades covertly, in order to
+avail themselves of the well-guarded wealth of the powerful. The spy
+represents himself as one worthy of his victim's trust to gain access
+to valuable information.  He will continue his impersonation until the
+victim is sucked dry of everything of value or until the spy is
+discovered.
+d10 1
+a10 1
+If a spy character wishes to use his skill while not accompanied by
+d12 1
+a12 1
+task the spy sets himself is very easy).  A spy had best not be
+d18 2
+a19 2
+A spy must be able to read and write in one language at Rank 4 if he
+wishes to advance beyond Rank 2.
+d21 1
+a21 1
+When a character is both a spy and a thief, his player may use the
+d26 3
+a28 3
+\subsubsection{If a character's Rank as a spy is greater then his Rank
+as a thief, the character expends one-half the necessary Experience
+Points to acquire or improve the latter skill.}
+d32 1
+a32 1
+\subsubsection{A spy can pick locks or open safes with the aid of his
+d36 3
+a38 3
+The time a spy must spend to implement his pick lock ability is (240 -
+20 \x Rank) seconds, and (30 - 2 \x Rank) minutes to use
+his open safe ability.
+d58 2
+a59 2
+in a particular location per day.  A spy must spend (24 - 2
+\x Rank) minutes to use his remove trap ability.
+d64 1
+a64 1
+above the success percentage, he remains blissfully unaware of the
+d69 1
+a69 1
+	(2 \x Perception + 7 \x Rank)
+d72 1
+a72 1
+     (MD + 7 \x Rank) - (5 \x Trap Rank)
+d78 2
+a79 2
+container, he may store the removed trap. If the GM's roll is greater
+than the success percentage, the trap is triggered (see
+d84 1
+a84 1
+Any character can try to find a secret or hidden aperture if he spends
+d87 1
+a87 1
+secret or hidden aperture is within (5 + Rank) feet of him.
+d91 3
+a93 3
+door is in his detection area (but is not told how many).  If the roll
+is greater than the success percentage, the spy does not notice the
+aperture(s).
+d95 2
+a96 2
+\subsubsection{A spy can attempt to pick the pocket of another
+being without being detected.}
+d111 1
+a111 1
+The pickpocket attempts made in	an uncrowded area and the victim has at least a slight suspicion of the spy's intentions & -15\% \\
+d113 1
+a113 1
+The object to be pickpocketed is affixed to the victims person or is something used constantly during the day by the victim	& -30\% \\
+d115 1
+a115 1
+The victim wears metal armour or garments		& -50\% \\
+d120 2
+a121 2
+by his physical condition; if he is, the GM should modify the success
+percentage accordingly.
+d124 2
+a125 2
+success percentage, the spy filches the object he desires without his
+victim notice.  If the roll is between one and two the success
+d128 2
+a129 2
+greater than twice the success percentage, the spy is caught with his
+hand in the victim's pocket.
+d131 2
+a132 2
+\subsubsection{A spy will develop a photographic memory as he
+gains experience.}
+d134 1
+a134 1
+A spy's success percentage to employ his photographic memory ability
+d137 1
+a137 1
+after the error-free time limit is expired, reduce his Rank for
+d143 1
+a143 1
+of a room or a piece of parchment, etc., if he observed it for the
+d148 1
+a148 1
+attempting recall past his error-free time limit, the GM introduces
+d151 6
+a156 6
+A spy tests his photographic memory ability whenever he tries to
+verbally describe an object or place, whenever he calls on his memory
+to gain a mental image of the object or place, or whenever he records
+it in writing. If a spy fails to recall an object or place once, he
+may not use the ability again to try to recall the image of that
+object or place.
+d158 2
+a159 2
+\subsubsection{A spy increases his chance of performing an action
+involving stealth (\S\ref{stealth} by 2\% per Rank.}
+d161 1
+a161 1
+\subsubsection{ A spy may use his photographic memory ability to recall
+d164 1
+a164 1
+Even if a spy does not know the language used, he can reproduce the
+d166 2
+a167 17
+5 \x Rank) seconds, he can extend his range of vision and hearing to
+(100 + 15 \x Rank)\% of what it normally is.
+
+\subsection{Costs}
+
+\subsubsection{A spy must spend (250 + 150 \x Rank) Silver Pennies per
+year to maintain a proper set of thieving equipment.}
+
+A spy who does not spend the above amount operates as if he
+were two Ranks less proficient when performing any of the abilities
+described in \ref{spy:picklocks}, \ref{spy:removetraps} and
+\ref{spy:pickpockets}. If his Rank for these abilities is
+temporarily reduced to a negative number, he may not perform them
+until he meets expenses.
+
+The above cost does not include any trap containers (see the Basic
+Goods Cost List) that the spy may wish to purchase.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 2
+a2 1
+\section{Spy and Thief}
+d4 1
+a4 1
+The spy and the thief practice their trades covertly, in order to
+d9 5
+a13 16
+discovered.  The thief has a more prosaic task to accomplish: the
+(hopefully) undisturbed removal of property from a supposedly secure
+place of storage.  A thief usually seeks monetary rewards for his
+efforts, and a thief cultivates contacts in the underworld of his area
+of operations.  These contacts will enable him to discover where the
+choicest items are stored, and aid him in disposing of his ill-gotten
+gains.
+
+If a spy or thief character wishes to use his skill while not
+accompanied by the rest of the party, the GM should run a solo
+adventure (unless the task the spy or thief sets himself is very
+easy). A thief who is caught in the act of burglary is liable to the
+stiff penalties of medieval times: a hand is removed for the first
+(known) offence, a second time merits the removal of the other hand or
+the eye opposite the missing hand, with a greater degree of
+dismemberment for each succeeding offence.  A spy had best not be
+d19 2
+a20 5
+The abilities of the thief and spy are similar, but they are
+separate skills.  A thief must be able to read and write in one
+language at Rank 3 if he wishes to advance beyond Rank 3; a spy must
+be able to read and write in one language at Rank 4 if he wishes to
+advance beyond Rank 2.
+d33 3
+a35 3
+\subsubsection{A spy or thief can pick locks or open safes with the aid
+of his tools.}
+\label{thief:picklocks}
+d39 1
+a39 2
+his open safe ability.  A thief requires half the time listed to
+perform either ability.
+d42 5
+a46 5
+success percentage the spy or thief has opened the safe or picked the
+lock. If the roll is greater than the success percentage, the safe or
+lock resists the spy's or thief's best efforts.  If any trap remains
+in place when a spy or thief attempts to open a safe or pick a lock,
+it is triggered by that action.
+a50 2
+\item[For Thief to Pick Lock] (2 \x  MD + 6 \x  Rank) - (6  \x  Lock  Rank)
+
+a51 2
+
+\item[For Thief to Open Safe] (2 \x MD + 5 \x Rank) - (7 \x Safe Rank)
+d54 7
+a60 8
+\subsubsection{A spy or thief may attempt to detect traps and should
+the spy or thief succeed, may try to remove them.}
+\label{thief:removetraps}
+
+A spy or thief may make one attempt to detect traps (which requires 10
+seconds) in a particular location per day.  A spy must spend (24 - 2
+\x Rank) minutes to use his remove trap ability, while a thief
+requires half that Lime.
+d63 4
+a66 4
+or thief detects it. If the roll is less than or equal to the success
+percentage, the spy or thief notices the location of the trap. If the
+roll is above the success percentage, he remains blissfully unaware of
+the trap's presence.
+a68 1
+
+a71 3
+\item[For Thief to Detect Trap]
+     (Perception + 11 \x Rank)
+
+a73 3
+
+\item[For Thief to Remove Trap]
+(2 \x MD + 11 \x  Rank)  -  (5  \x  Trap  Rank)
+d76 6
+a81 6
+When a spy or thief attempts to remove a trap, the GM rolls percentile
+dice.  If the roll is less than or equal to the success percentage the
+spy or thief has removed the trap without triggering it. If the spy or
+thief has a trap container, he may store the removed
+trap. If the GM's roll is greater than the success percentage, the
+trap is triggered (see ~ref{mechanician:traps}).
+d83 1
+a83 2
+\subsubsection{A spy or thief can sometimes detect a secret or
+hidden aperture.}
+d87 2
+a88 3
+spy or a thief has a (2 \x Perception + 5 \x Rank)\% chance of
+noticing that a secret or hidden aperture is within (5 + Rank) feet of
+him.
+d91 4
+a94 4
+success percentage, the spy or thief character senses that at least
+one hidden or secret door is in his detection area (but is not told
+how many).  If the roll is greater than the success percentage, the
+spy or thief does not notice the aperture(s).
+d96 1
+a96 1
+\subsubsection{A spy or thief can attempt to pick the pocket of another
+d98 1
+a98 1
+\label{thief:pickpockets}
+d100 1
+a100 1
+\index{pickpocket, thief!pickpocket}
+d102 3
+a104 3
+A spy or thief has a base success percentage equal to (3 \x Manual
+Dexterity + 6 x Rank])\% to pickpocket a being.  The following
+modifiers are applied to the success percentage:
+d112 1
+a112 1
+The pickpocket attempts made in	an uncrowded area and the victim has at least a slight suspicion of the spy or thief's intentions & -15\% \\
+d120 11
+a130 11
+It is assumed that the spy or thief attempting to pickpocket is not
+handicapped by his physical condition; if he is, the GM should modify
+the success percentage accordingly.
+
+If the GM's roll of percentile dice is equal to or less than
+the success percentage, the spy or thief filches the object he desires
+without his victim notice.  If the roll is between one and two the
+success percentage, the spy or thief is detected by the victim just
+after the object has been removed from its storage place. If the roll
+is equal to or greater than twice the success percentage, the spy or
+thief is caught with his hand in the victim's pocket.
+d132 1
+a132 1
+\subsubsection{A spy or thief will develop a photographic memory as he
+d136 13
+a148 15
+is (2 \x Perception + 12 \x Rank)\%.  A thief s-success
+percentage is (Perception + 10 \x Rank)\%.  A spy or thief may
+use the ability without error for up to (1 + Rank) days.  When a spy
+or thief uses the ability after the error-free time limit is expired,
+reduce his Rank for success percentage calculation (only) by one for
+each day over that time limit.
+
+     If the GM's roll on percentile dice is equal to or less than the
+success percentage, the spy or thief can recall visual details, such
+as those of a room or a piece of parchment, etc., if he observed it
+for the requisite length of time.  A spy must have observed the object
+in question for (120 - 10 \x Rank) seconds to use the ability,
+and the thief must have spent twice that time.  If the roll is greater
+than the success percentage, the spy's or thief's memory has more and
+more gaps in it as the roll approaches 100.  If the spy or thief is
+d152 6
+a157 6
+A spy or thief tests his photographic memory ability whenever he tries
+to verbally describe an object or place, whenever he calls on his
+memory to gain a mental image of the object or place, or whenever he
+records it in writing. If a spy or thief fails to recall an object or
+place once, he may not use the ability again to try to recall the
+image of that object or place.
+d160 9
+a168 24
+involving stealth (see 83.3) by 2\% per Rank he has achieved; a thief
+increases his chance to perform stealth related action by 1\% per
+Rank.}
+
+\subsubsection{A spy or thief acquires an ability unique to his skill.}
+
+A spy may use his photographic memory ability to recall spoken
+phrases.  Even if a spy does not know the language us- ed, he can
+reproduce the phrases phonetically.  Additionally, when a spy
+concentrates for (60 - 5 \x Rank) seconds, he can extend his
+range of vision and hearing to (100+ 15 \x Rank])07o of %%-hat
+it normally is.
+
+A thief can, as long as he may find a purchase sufficient to bear his
+weight, climb any structure.  His success chance when climbing on a
+structure not made for that purpose is (4 \x MD + 10 \x
+Rank) - (Structure Height in Feet / 10)\%.  Round the structure height
+down.  If the GM's roll is greater than the success percentage, the
+thief has fallen in climbing the structure.  To determine the height
+at which the thief falls, roll D100.  Round the number off to the
+nearest 10\% (a roll of 5 is rounded down), and multiply the height
+the thief sought to attain by that percentage.  A thief suffers
+([Structure Height in Feet/ 10] Squared) Endurance Points when he
+falls.
+d172 2
+a173 3
+\subsubsection{A spy or thief must spend (250 + 150 \x Rank)
+Silver Pennies per year to maintain a proper set of thieving
+equipment.}
+d175 1
+a175 1
+A spy or thief who does not spend the above amount operates as if he
+d177 2
+a178 2
+described in \ref{thief:picklocks}, \ref{thief:removetraps} and
+\ref{thief:pickpockets}. If his Rank for these abilities is
+d183 1
+a183 1
+Goods Cost List) that the spy or thief may wish to purchase.
+@

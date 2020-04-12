@@ -1,0 +1,502 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL30:3.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.4;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.06.04.05.38.15;	author rossa;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	98.06.04.05.35.10;	author rossa;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	98.05.11.02.03.49;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	98.05.11.01.21.24;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	96.02.23.02.21.35;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	96.01.12.02.16.31;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	95.05.16.02.21.22;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.04.07.05.08.49;	author rale01;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.04.06.04.31.26;	author rale01;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{skill}{Weaponsmith}{1.0}{weaponsmith}
+
+\subsection{Restrictions}
+
+\subsubsection{A weaponsmith's progress in their skill is inhibited by a
+low Manual Dexterity, and aided by a high Manual Dexterity.}
+
+A weaponsmith has an increased Experience Point cost of 5\% for each
+point of Manual Dexterity less than 16.  A character decreases their
+Experience point cost by 5\% for each point of Manual Dexterity
+greater than 20.  A character will have great difficulty passing their
+weaponsmith apprenticeship if their Manual Dexterity is less than 10.
+
+\subsection{Benefits}
+
+\subsubsection{A weaponsmith acquires one ability every two Ranks.  The
+character begins with one of the following abilities at Rank 0.  All
+abilities can be performed skillfully.}
+
+{\raggedright \begin{Enumerate}
+\item Make and maintain swords including daggers.
+\item Make and maintain hafted weapons.
+\item Make and maintain thrown weapons.
+\item Make and maintain pole weapons.
+\item Make and maintain missile weapons.
+\item Make and maintain entangling weapons.
+\item Make and maintain experimental weapons.
+\item Make and maintain siege engines.
+\end{Enumerate}}
+
+A weaponsmith may gain additional abilities after achieving Rank 10 by
+the expenditure of 10000 experience points per ability.
+
+\subsubsection{A weaponsmith can build increasingly more effective
+weapons as their Rank increases.}
+
+For every Rank that a weaponsmith achieves, they may create weapons
+that have an increased base chance of 1\%.  For every Rank divisible
+by \emph{five} that a weaponsmith achieves, they may create weapons
+that cause an extra point of damage.  These two effects are \emph{not}
+cumulative.
+
+For example, a Rank 8 weaponsmith may construct a weapon with a Base
+Chance increased by 3\% and a Damage Modifier increased by 1, or a
+weapon with a BC increased by 8\% and no increase in DM.
+
+\textbf{Note:} The weapons statistics as shown in the weapons chart are
+manufactured at an effective Rank of 0 \ie they are the mass-produced
+variety.  They may have been manufactured by a weaponsmith of greater
+Rank than this, but the skill level used was elementary.
+
+\subsubsection{The time and cost required for a weaponsmith to
+construct a weapon is dependent on the Rank that is used, and the type
+of weapon.}
+
+A Weapon may be manufactured at any Rank up to the weaponsmith's Rank.
+\begin{Enumerate}
+\item
+The \emph{time} required is (10 \x (Effective Rank + DM)) hours, with
+a minimum of 10 hours.
+
+\item
+The \emph{cost} is 80\% of the Base Cost as shown in the weapons table
+\x (effective Rank + 1 + DM increase) silver pennies.
+\end{Enumerate}
+
+\subsubsection{A weaponsmith is treated as a merchant of their
+weaponsmith Rank when attempting to buy or value weapons which are
+part of their abilities.}
+
+If the equipment concerned is unfamiliar, then they operate as a
+merchant of half their Rank (rounded down).
+
+\subsection{Costs}
+
+\subsubsection{A weaponsmith, with the exception of some missile
+weapons, can only perform their skill in a properly maintained
+workshop.}
+
+It costs 2000 silver pennies to construct a workshop and 500 silver
+pennies per year to maintain it with tools and materials.  A basic
+tool kit will cost 100 + (100 \x Rank) silver pennies.  A workshop may
+be rented at a cost of 10 silver pennies per day.
+
+\subsection{Silvering and Gilding weapons}
+
+An item made of silvered metal costs 10 times the normal cost for the
+item made simply of cold iron.  A gilded item will cost 120 times the
+normal cost for the item made of cold iron alone.  Truesilver will
+cost 180 times the cost of the item made from cold iron alone.
+
+The cost of silvering or gilding is added to the base cost of the
+weaponsmithed item so that the cost of a silvered sword is Base Cost
+\x (80\% \x (effective Rank + 1 + DM) + 10) silver pennies.
+
+\end{skill}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 1
+a1 5
+\section{Weaponsmith (Ver 1.0)}
+\label{weaponsmith}
+
+\index{weaponsmith|(}
+\index{skills!weaponsmith|(}
+d5 1
+a5 1
+\subsubsection{A Weaponsmith's progress in their skill is inhibited by a
+d8 1
+a8 1
+A Weaponsmith has an increased Experience Point cost of 5\% for each
+d12 1
+a12 1
+Weaponsmith apprenticeship if their Manual Dexterity is less than 10.
+d16 1
+a16 1
+\subsubsection{A Weaponsmith acquires one ability every two Ranks.  The
+d21 8
+a28 8
+\item Make and maintain Swords including Daggers.
+\item Make and maintain Hafted Weapons.
+\item Make and maintain Thrown Weapons.
+\item Make and maintain Pole Weapons.
+\item Make and maintain Missile Weapons.
+\item Make and maintain  Entangling    Weapons.
+\item Make and maintain Experimental Weapons.
+\item Make and maintain Siege Engines.
+d31 1
+a31 1
+A Weaponsmith may gain additional abilities after achieving Rank 10 by
+d34 1
+a34 1
+\subsubsection{A Weaponsmith can build increasingly more effective
+d37 1
+a37 1
+For every Rank that a Weaponsmith achieves, they may create weapons
+d43 2
+a44 2
+For example, a Rank 8 Weaponsmith may construct a weapon with a
+Base Chance increased by 3\% and a Damage Modifier increased by 1, or a
+d49 1
+a49 1
+variety.  They may have been manufactured by a Weaponsmith of greater
+d52 1
+a52 1
+\subsubsection{The time and cost required for a Weaponsmith to
+d56 1
+a56 1
+A Weapon may be manufactured at any Rank up to the Weaponsmith's Rank.
+d59 2
+a60 2
+The \emph{time} required is (10 \x (Effective Weaponsmith's Rank
++ DM)) hours, with a minimum of 10 hours.
+d64 1
+a64 1
+\x (effective Rank + 1 + DM) silver pennies.
+d67 1
+a67 4
+\textbf{Note:} The DM is the increase in Damage Modifier, not the total
+DM of the weapon.
+
+\subsubsection{A Weaponsmith is treated as a Merchant of their
+d72 1
+a72 1
+Merchant of half their Rank (rounded down).
+d76 1
+a76 1
+\subsubsection{A Weaponsmith, with the exception of some missile
+d96 1
+a96 2
+\index{weaponsmith|)}
+\index{skills!weaponsmith|)}
+@
+
+
+3.0
+log
+@REL30
+@
+text
+@@
+
+
+2.3
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+2.2
+log
+@Fix e.g. problem
+@
+text
+@d24 1
+a24 1
+{\raggedright \begin{enumerate}
+d33 1
+a33 1
+\end{enumerate}}
+d61 1
+a61 2
+\begin{enumerate}
+\setlength\itemsep{0pt}
+d69 1
+a69 1
+\end{enumerate}
+@
+
+
+2.1
+log
+@Check in before modifying e.g. and i.e.
+@
+text
+@d52 1
+a52 1
+manufactured at an effective Rank of 0 i.e.\ they are the mass-produced
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d3 3
+a5 1
+\begin{multicols}{3}
+d52 1
+a52 1
+manufactured at an effective Rank of 0 ie., they are the mass-produced
+d104 2
+a105 2
+\raggedcolumns
+\pagebreak \end{multicols}
+@
+
+
+1.5
+log
+@\textbf{Bryan Holden} removed from text.
+@
+text
+@@
+
+
+1.4
+log
+@Release 1.0 snapshot
+@
+text
+@a4 2
+\textbf{Bryan Holden}
+
+@
+
+
+1.3
+log
+@Add cost of silvering and gilding.
+@
+text
+@d2 1
+d9 1
+a9 1
+\subsubsection{A Weaponsmith's progress in his skill is inhibited by a
+d13 4
+a16 4
+point of Manual Dexterity less than 16.  A character decreases his
+Experience point cost by 5\% for each point of Manual Dexterity greater
+than 20.  A character will have great difficulty passing his
+Weaponsmith apprenticeship if his Manual Dexterity is less than 10.
+d20 2
+a21 2
+\subsubsection{A Weaponsmith acquires one ability every two ranks.  The
+character begins with one of the following abilities at rank 0.  All
+d35 1
+a35 1
+A Weaponsmith may gain additional abilities after achieving rank 10 by
+d39 1
+a39 1
+weapons as his rank increases.}
+d41 4
+a44 4
+For every rank that a Weaponsmith achieves, he may create weapons that
+have an increased base chance of 1\%.  For every rank divisible by
+\emph{five} that a weaponsmith achieves, he may create weapons that
+cause an extra point of damage.  These two effects are \emph{not}
+d52 3
+a54 4
+manufactured at an effective rank of 0 ie.  they are the
+mass-produced variety.  They may have been manufactured by a
+Weaponsmith of greater rank than this, but the skill level used was
+elementary.
+d57 1
+a57 1
+construct a weapon is dependent on the rank that is used, and the type
+d60 1
+a60 1
+A Weapon may be manufactured at any rank up to the Weaponsmith's rank.
+d69 1
+a69 1
+\x (effective rank + 1 + DM) silver pennies.
+d75 1
+a75 1
+\subsubsection{A Weaponsmith is treated as a Merchant of his
+d77 1
+a77 4
+part of his abilities.}
+
+If the equipment concerned is unfamiliar, then he operates as a
+Merchant of half his rank (rounded down).
+d79 2
+d85 2
+a86 1
+weapons, can only perform his skill in a properly maintained workshop.}
+d100 3
+a102 3
+The cost of silvering or gilding is multiplied by the base cost of the
+weaponsmithed item so that the cost of a silvered sword is 80\% of the
+Base Cost \x (effective rank + 1 + DM) \x 10 silver pennies.
+@
+
+
+1.2
+log
+@Corrections done form March printed version
+@
+text
+@d93 1
+a93 1
+\subsection{Experience Point costs}
+d95 8
+a102 14
+\begin{tabular}{cc}
+\textbf{Rank} & \textbf{EP} \\
+0 & 600 \\
+1 & 300 \\
+2 & 800 \\
+3 & 1600 \\
+4 & 3000 \\
+5 & 5500 \\
+6 & 6200 \\
+7 & 7300 \\
+8 & 8800 \\
+9 & 10800 \\
+10 & 14000 \\
+\end{tabular}
+d105 1
+a105 2
+\pagebreak
+\end{multicols}@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d23 1
+a23 1
+\begin{enumerate}
+d32 1
+a32 1
+\end{enumerate}
+@

@@ -1,0 +1,1167 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL30:3.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.4;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.06.04.05.38.15;	author rossa;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	98.06.04.05.35.10;	author rossa;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	98.05.11.02.03.45;	author rossa;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	98.05.11.01.21.21;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	97.07.24.02.36.09;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	96.10.01.01.45.04;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	96.01.12.02.21.51;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	95.04.18.23.18.20;	author rale01;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.04.07.05.08.49;	author rale01;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.04.06.04.31.26;	author rale01;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{skill}{Herbalist}{1.0}{herbalist}
+
+Herbalims is an old profession, and herbalists of varying quality can
+be found throughout the land.  Whilst most of the magical power of
+this skill is derived from the herbs themselves, herbalists will have
+quasi-magical abilities to derive the greatest benefit from the herb.
+To some extent the ranger's healing herbs are a simple aspect of the
+herbalist's skill.  Through the use of special herbal mixtures the
+herbalist can mimic some of the abilities of other skills, in
+particular those of the healer and of the alchemist.  In general a
+herbalist cannot perform their skills at short notice since the number
+of herbs and preparations required to meet all needs would be too
+large to carry, and many preparations have a limited life.  But given
+enough time a competent herbalist can usually find and prepare a
+herbal mixture to deal with most problems.
+
+A herbalist may make some potions in advance but these potions will
+only last for a limited time.  Potions are always roughly a quart per
+dose and weigh with their container \textonehalf{} pound.  Salves with
+their container \textonequarter{} pound.  A herbalist may make up to
+Rank / 3 (round up) batches (a single batch may produce multiple doses
+if enough herbs are used) of potion or salve simultaneously.  Should
+they attempt to make more potions at once then there is a 50\% chance
+for each extra batch that all potions being made will fail.  Should
+the batches being made fail there is a further 30\% chance that some
+form of accident will occur (GM's discretion).  While the herbalist is
+producing potions to their full capacity no other actions are
+permitted, but if the herbalist is working at less than full capacity
+then they can interrupt their work for training, meeting visitors
+etc., providing they tend the potions at least every hour.
+
+\subsection{Benefits}
+
+\subsubsection{A herbalist will learn how to locate and identify herbs
+and spices growing in any terrain}
+
+Their chance of finding fresh herbs suitable for performing a given
+skill is (Perception \x 2 + Rank \x 15 - 10 \x the minimal rank at
+which they would be able to perform that skill) + the following
+modifiers
+
+\begin{tabularx}{\linewidth}{lXr}
+\textbf{Rarity} & & \\
+	& common 		& -0 \\
+	& uncommon 		& -20 \\
+	& rare			& -70 \\
+	& very rare		& -100 \\
+\textbf{Season} & & \\
+	& spring 		& -20 \\
+	& summer	 	& -5 \\
+	& autumn		& +0 \\
+	& winter		& -25 \\
+\end{tabularx}
+
+\begin{Itemize}
+\item Less than \fourth of a square mile (roughly 1 hour of searching
+per \fourth of a square mile) -30.
+\item	Between \fourth and \half square miles -20.
+\item	Between \half and 1 square mile -10.
+\item	Between 1 and 1\half square miles +0.
+\item Over 1\half square miles +10 (with additional +5\% for each
+subsequent hour or \fourth square mile).
+\item  For rare and very rare herbs, area is high mana +25.
+\item Area is wilderness +10, area is settled -15, area is civilised -30.
+\item For each rank the herbalist has with the ranger skill +1\%, or
++2\% per ranger rank if the environment is the ranger's speciality as
+per rule \S\ref{ranger:speciality}.
+\end{Itemize}
+
+In some environments (for example off plane or tropical jungle) the GM
+may choose to add extra modifiers.  Also some environments are simply
+unsuited to plant growth and a herbalist will not be able to find
+herbs.
+
+The herbalist must state that they are looking for herbs required for
+a particular ability before setting out to search.  If the herbalist
+then rolls over their modified chance, they will find no useful herbs.
+A herbalist may search the same area a number of times, providing that
+they search for herbs required for a different ability each time.
+
+Common and uncommon herbs may be found in quantities larger than a
+single dose depending on conditions, but it would be rare to find
+sufficient for more than three or four doses at once.
+
+In general, rare and very rare herbs are found in small quantities
+sufficient for a single application, and these magical herbs are more
+frequently found associated with places of mana.
+
+After harvesting herbs them, the herbalist cannot return at a later
+date to harvest more, since the original harvest will almost certainly
+kill the plant.  If the herbalist does not harvest the herbs and
+returns at a later time to harvest the herbs, there is a 5\%
+cumulative chance per days delay that the herb will have died or been
+consumed.
+
+A herbalist may alway successfully identify herbs (in fresh or
+prepared form) used in abilities which the herbalist can perform.  If
+the herbalist does not have the ability for which the herbs are used
+they still have a Perception + 5\% / Rank chance of knowing what the
+herb is used for providing that the herb is the usual one used for
+that ability, and not one of the rarer substitutes.
+
+If the herbalist is so far from the environment in which they learned
+their skill (for example off plane) that the plants and herbs are
+unknown, then they will not know what abilities the unknown herbs
+could be used for, but they can find out by experimentation.  Such
+experimentation will usually take at least a number of days equal to
+the Rank of the ability the herb is used for \x 5 - herbalist Rank \x
+2.  If the herbalist wishes to perform a particular ability in an
+environment where these are no familiar herbs, then they must first
+find and identify appropriate herbs and then develop new preparation
+methods by experimentation, usually taking a total of Rank of ability
+to be used \x 5 months - Rank of the herbalist \x 3 weeks.
+
+\subsubsection{A herbalist may establish a garden where common and
+uncommon herbs and spices are grown}
+
+Such a garden will require tending by a herbalist for 1 week every
+month.  If left untended for 2 months uncommon plants will die or be
+overgrown and if left untended for 6 or more months such a garden will
+be only as fruitful as wilderness (see above) for finding herbs.
+
+\subsubsection{A herbalist will learn how to preserve herbs and spices
+and how to prepare them for maximum efficacy}
+
+Such preparation is simple and will only take a few minutes.  Only
+common herbs will last for any length of time.  For common herbs
+preservation is Rank / 2 months, for uncommon herbs Rank / 3 weeks,
+for rare herbs Rank / 2 days and for very rare herbs Rank \x 2 hours.
+The herbs will last at full efficacy for the time indicated but after
+that time will decay at a rate proportional to the time of
+preservation.
+
+\subsubsection{A herbalist, should they choose to take the artisan
+cooking skill, gains a reduction of 25\% to their experience for
+ranking that artisan skill}
+
+In addition they will be able to use their knowledge of herbs to
+enhance their cooking skill and prepare an invigorating broth.  As
+their rank increases a herbalist who is also an artisan Cook, or
+acting in concert with an artisan Cook, will be able to prepare superb
+food, providing there are sufficient ingredients, common herbs and
+spices available.  Even with limited ingredients a herbalist will
+enhance the art of preparing enjoyable food.
+
+At Rank 1 and above the herbalist may include common herbs that will
+turn a normal hot meal into an invigorating restorative meal (capable
+of restoring fatigue loss due to damage or spell use) that will add 2
++ (Rank / 4, round up) lost fatigue points, or the herbalist may make
+a broth or tea that will restore 1 + (Rank / 2, round up) fatigue
+points.  The restorative meal or the broth/tea replace a normal hot
+meal and if taken in addition to a hot meal no extra fatigue will be
+restored.  Like a hot meal, the restorative meal or the broth / tea
+can be taken once every 4 hours.
+
+\subsubsection{A herbalist will be able to prepare herbal mixtures, and
+salves that will heal, or enhance the normal healing processes}
+
+\begin{Enumerate}
+
+\item
+At Rank 1 a herbalist may prepare, using common herbs, antiseptic
+salves that will disinfect wounds and cure infections, and potions
+that will cure headaches and fevers.  These salves and potions will
+last Rank months, and it will take 24 hours to prepare Rank / 2 (round
+up) doses.
+
+\item
+At Rank 2 a herbalist may prepare, using common herbs, salves that
+will cure warts, boils and pimples.  These salves will last Rank
+months, and it will take 24 hours to prepare Rank / 2 (round up)
+doses.
+
+\item
+At Rank 2 a herbalist may prepare, using common herbs, a potion that
+will cause the drinker to fall into a healing sleep that will heal
+fatigue or endurance damage at the rate of 4 fatigue per hour or 1
+endurance per hour if the sleeper has lost endurance.  Note that if
+the sleeper is recovering endurance they will recover no fatigue.  The
+sleeper can be woken at any time but must sleep at least 4 hours to
+receive any benefit at all.  These potions will last Rank months, and
+it will take 24 hours to prepare Rank / 3 (round up) doses.
+
+\item	At Rank 3 a herbalist may prepare, using uncommon herbs,
+healing salves that will enhance the healing of wounds to Rank \x
+normal rate (for example a Rank 10 herbalist treating a deep sword cut
+that would normally take 20 days to heal would cause it to heal in 2
+days).  This healing will include repair of muscle, ligament, tendon
+and skin, all without scarring provided the wound is open and the salve
+can be applied directly to the wound.  Note that one preparation of
+salve will heal one serious wound or a number of minor wounds.  If the
+herbalist uses uncommon herbs these salves will last for Rank days,
+and it will take 6 hours to prepare Rank / 3 (round up) doses.  If the
+herbalist uses rare herbs these salves will last for Rank weeks, and
+it will takes 12 hours to prepare Rank / 4 (round up) doses.
+
+\item	At Rank 4 a herbalist may prepare, using uncommon herbs,
+potions that will cure diseases (note a specific disease will require a
+specific potion).  These potions will last for Rank weeks, and it will
+take 12 hours to prepare Rank / 3 (round up) doses.
+
+\item At Rank 5 a herbalist may prepare, using uncommon herbs, potions
+that will enhance the healing of bruising and internal injuries to
+Rank \x the normal rate.  If the herbalist uses uncommon herbs these
+potions will last for Rank days, and it will take 30 minutes to
+prepare one dose.  If the herbalist uses rare herbs then these potions
+will last for Rank weeks, and it will take 12 hours to prepare Rank /
+4 (round up) doses.
+
+\item At Rank 6 a herbalist may prepare, using rare herbs, potions
+that will enhance the healing of broken bones to Rank \x the normal
+rate.  These potions will last for Rank weeks, and it will take 12
+hours to prepare Rank / 5 (round up) doses.
+
+\item At Rank 9 a herbalist may prepare, using the very rarest of
+herbs, a potion that will restore life to a sentient being providing
+that the being died not more than 12 hours previously or if the body
+was preserved as per the healer skill within 12 hours of death, and
+the body is capable of supporting life.  Thus the body must be
+substantially whole (ie no more than an arm or a leg lost) and any
+fatal wounds (for example sword thrust through the heart) must have
+the appropriate healing salves or potions applied immediately prior to
+the restoration of life.  After life has been restored, the being will
+be too weak to move for a number of days equal to the number of hours
+which they were dead after which they will regain one point of
+endurance as per the healer skill.  This potion will last Rank \x 3
+hours and it will take 30 minutes to prepare a single drop, which is
+then placed on the tongue of the patient to restore life.
+
+\index{resurrection!herbalist restore life}
+
+\end{Enumerate}
+
+\subsubsection{A herbalist may prepare herbal mixtures that alter the
+normal rhythms of a sentient being's body}
+
+\begin{Enumerate}
+
+\item At Rank 1 a herbalist may prepare, using common herbs, a potion
+that will reduce tension and promote relaxation.  This effect will
+last for Rank \x 4 hours.  This potion will last for Rank weeks, and it
+will take 24 hours to prepare Rank / 2 (round up) doses.
+
+\item At Rank 2 a herbalist may prepare, using uncommon herbs, a
+potion that will induce sleep for up to Rank \x 2 hours unless the
+drinker strongly resists (rolls under 4 \x willpower every 10
+minutes). This potion will last for Rank weeks, and it will take 24
+hours to prepare Rank / 3 (round up) doses.
+
+\index{potions!sleep draughts}
+
+\item At Rank 3 a herbalist may prepare, using common herbs, a potion
+that will increase the likelihood of fertilisation by 1 + 1\% per Rank
+for a period of Rank days, or reduce the likelihood of becoming
+pregnant by 2 + 2\% per Rank, for a period of Rank weeks.  These
+potions will last for Rank months, and it will take 24 hours to
+prepare Rank / 3 (round up) doses.  Note these potions will be gender
+and race specific.
+
+\index{potions!fertility}
+
+\item At Rank 6 a herbalist may prepare, using uncommon herbs, a
+potion that will cause the drinker to hallucinate, unless they roll
+less than (2 \x Willpower - 3 \x herbalist's Rank), for up to Rank
+hours.  The herbalist can usually (75\% chance) control the extent
+(\ie subtle, with only a slight dreamlike character to reality, mild,
+with reality moderately distorted, or total, with no limits at all)
+and the general nature (\ie pleasant or unpleasant) of the
+hallucination.  If the herbalist uses uncommon herbs these potions
+will last for Rank days, and it will take 6 hours to prepare Rank / 3
+(round up) doses. If the herbalist uses rare herbs these potions will
+last for Rank weeks, and it will take 12 hours to prepare Rank / 4
+(round up) doses.
+\index{potions!infertility}
+
+\item At Rank 7 a herbalist may prepare, using very rare herbs, a
+potion that will allow the drinker to extend any one characteristic by
+2 \x (Rank - 6) points.  This has a duration of (Rank - 6) hours. Only
+one Herbalist characteristic increasing potion may be in effect on an
+entity at any one time. There is no reduction of characteristics or
+sleep period required after the duration of the positive effects ---
+\ie no down-side.  These potions will last for Rank \x 2 weeks, and
+it will take 48 hours to prepare Rank / 4 (round up) doses.
+\index{potions!stat increase}
+
+\end{Enumerate}
+
+\subsubsection{A herbalist may prepare perfumes that will attract or
+repel animals or sentients}
+
+Such perfumes will only mildly modify (plus or minus Rank \x 4\% to
+reaction roll) the reactions of the creature being affected (except
+that in this case a low roll indicates the degree of repulsion rather
+than hostility). These perfumes are subtle and only if the being makes
+the appropriate willpower roll will they consciously notice the
+perfume. The perfumes will not change the basic nature of the creature
+(\ie no matter how nice you smell a dragon will still kill and eat you,
+although he may recommend the herbalist to other dragons as a supplier
+of fine condiments).  All perfumes will last (in the bottle) for Rank
+weeks. Thorough washing will reduce the duration of a perfume by 10
+fold. A clean cantrip will remove the perfume.
+
+\begin{Enumerate}
+
+\item At Rank 2 a herbalist may prepare, using uncommon herbs, a
+perfume that will attract or repel a given animal, the animal must
+roll under (WP - herbalist's Rank) to resist the effects of the
+perfume.  The perfume will continue to act for Rank days once applied.
+It will take 12 hours to prepare Rank / 3 (round up) doses.
+
+\item At Rank 4 a herbalist may prepare, using rare herbs, a perfume
+that will attract or repel a given sentient creature (including
+character races), the creature must roll under (2 \x WP - herbalist's
+Rank) to resist the effects of the perfume.  The perfume will continue
+to act for Rank \x 3 hours once applied.  It will take 24 hours to
+prepare Rank / 4 (round up) doses.
+
+\item At Rank 6 a herbalist may prepare, using very rare herbs, a
+perfume that will attract or repel fantastical or magical creatures,
+the creature must roll under (3 \x WP - herbalist's Rank) to resist
+the effects of the perfume.  The perfume will continue to act for Rank
+hours once applied.  it will take 48 hours to prepare Rank / 3 (round
+up) doses.
+
+\end{Enumerate}
+
+\subsubsection{A herbalist may prepare toxic mixtures of herbs that may
+harm and ultimately kill animals and sentients that ingest them}
+
+\index{poisons!herbalist}
+
+All poisons will last (in the bottle) for Rank weeks.
+
+\begin{Enumerate}
+
+\item At Rank 2 a herbalist may prepare, using uncommon herbs, a poison
+that will cause [D - 6] + (Rank / 4, round up) damage per minute for
+Rank \x 2 minutes (damage is applied at the end of each minute).  It
+will take 24 hours to prepare Rank / 3 (round up) doses.
+
+\item At Rank 4 a herbalist may prepare, using uncommon herbs, a poison
+that will cause [D - 6] + (Rank / 3, round up) damage per pulse, for Rank
+\x 2 pulses. Or using rare herbs a poison that will cause [D - 3] +
+(Rank / 2, round up) damage per pulse, for Rank \x 2 pulses. If the
+herbalist uses uncommon herbs it will take 24 hours to prepare Rank / 3
+(round up) doses.  If the herbalist uses rare herbs it will take 36
+hours to prepare Rank / 4 (round up) doses.
+
+\item At Rank 6 a herbalist may prepare, using rare herbs, a poison in
+multiple parts (2 or more) that will cause [D - 4] + Rank damage per
+pulse, for Rank pulses. The time between application of first and
+last part must be no more than 24 hours.  Using very rare herbs, the
+herbalist may prepare a poison that will kill a human sized creature
+in 3 pulses.
+
+Larger creatures have a percentage chance of dying in proportion to
+their body size \eg a creature four times the size of a human has a
+25\% chance of dying. If the creature does not die then it takes [D - 4]
++ Rank damage per pulse, for Rank pulses. It will take 72 hours to
+prepare Rank / 4 (round up) doses of multi-part poison.  It will take 48
+hours to prepare Rank / 4 (round up) doses of instant kill poison.
+
+\end{Enumerate}
+
+
+\subsubsection{A herbalist can prepare herbal mixtures that can free
+the mind from the body}
+
+At Rank 7 a herbalist may prepare, using very rare herbs, a potion
+that will allow them to separate their spirit from their body and
+travel in spirit anywhere within 10 miles of the body for up to Rank
+hours at a cost of 3 endurance points per hour. After such spirit
+travel the herbalist may regain lost endurance by healing or normal
+recovery except for 1 point per hour travelled which can only be
+regained by expenditure of experience (2500 EP per point lost).  While
+in spirit form the herbalist may, move at normal walking or running
+speed, pass through any solid objects, see as they would normally see
+(\ie racial talents apply), hear as they would normally hear, use
+any talent (including magical), cast any spell that affects only the
+Adept, and fly at normal walking speed. The spirit form cannot touch
+nor move any object by non-magical means, nor can it speak. The spirit
+form is insubstantial and cannot be touched or harmed in any way
+(magically or physically).  The spirit form is unseen but may be
+detected by Witchsight as per the spell of Walking Unseen.  An entity
+that loses their last point of endurance as a result of this potion
+will become a spectre.  This potion will last for Rank \x 2 days, and
+it will take 48 hours to prepare Rank / 4 (round up) doses.
+
+\end{skill}@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 1
+a1 2
+\section{Herbalist}
+\label{herbalist}
+d3 3
+a5 6
+\index{herbalist|(}
+\index{skills!herbalist|(}
+
+The herbalist is an old profession, and herbalists of varying quality
+can be found throughout the land.  While most of the magical power of
+this skill is derived from the herbs themselves herbalists will have
+d18 13
+a30 14
+only last for a limited time.  Potions are always roughly 200 ml per
+dose and weight with their container $1/2$ pound.  Salves are always
+roughly 50 ml and weigh with their container $1/4$ pound.  A herbalist
+may make up to Rank / 3 (round up) batches (a single batch may produce
+multiple doses if enough herbs are used) of potion or salve
+simultaneously.  Should they attempt to make more potions at once then
+there is a 50\% chance for each extra batch that all potions being
+made will fail.  Should the batches being made fail there is a further
+30\% chance that some form of accident will occur (GM's discretion).
+While the herbalist is producing potions to their full capacity no
+other actions are permitted, but if the herbalist is working at less
+than full capacity then they can interrupt their work for training,
+meeting visitors etc., providing they tend the potions at least every
+hour.
+d42 11
+a52 17
+\begin{Description}
+\item[Rarity]
+
+\begin{tabularx}{0.8\linewidth}{Xr}
+common 		& -0 \\
+uncommon 	& -20 \\
+rare		& -70 \\
+very rare	& -100 \\
+\end{tabularx}
+
+\item[Season]
+
+\begin{tabularx}{0.8\linewidth}{Xr}
+spring 		& -20 \\
+summer	 	& -5 \\
+autumn		& +0 \\
+winter		& -25 \\
+a53 1
+\end{Description}
+d56 7
+a62 7
+\item Less than $1/4$ of a square mile (roughly 1 hour of searching
+per $1/4$ of a square mile) -30.
+\item	Between $1/4$ and $1/2$ square miles -20.
+\item	Between $1/2$ and $1$ square mile -10.
+\item	Between $1$ and $1 \frac{1}{2}$ square miles +0.
+\item Over $1 \frac{1}{2}$ square miles +10 (with additional +5\% for each
+subsequent hour or $1/4$ square mile).
+d65 3
+a69 4
+For each rank the herbalist has with the ranger skill +1\%, or +2\%
+per ranger rank if the environment is the ranger's speciality as per
+rule \S\ref{ranger:speciality}.
+
+d77 2
+a78 5
+then rolls over their modified change to find those herbs, they will
+find no herbs at all during that particular search time, not even
+herbs suitable for a lower ranked ability.  This is because they must
+search in specific places within a given area for each herb.  Thus, a
+herbalist may search the same area a number of times, providing that
+d89 6
+a94 10
+After finding herbs and harvesting them, the herbalist cannot merely
+map the location and return at a later date to harvest more, since the
+original harvest will almost certainly kill the plant.  If the
+herbalist does not harvest the herbs and returns at a later time to
+harvest the herbs, there is a 5\% cumulative chance per days delay
+that the herb will have died or been consumed by local wildlife (not
+to mention other herbalists).
+
+Obviously if there are no herbs to be found the herbalist will be
+without fresh ingredients.
+d128 5
+a132 12
+preservation is Rank / 2 months, for uncommon herbs Rank / 3 weeks, for
+rare herbs Rank / 2 days and for very rare herbs Rank \x 2 hours (round
+up to the nearest month, week, day hour respectively).  The herbs will
+last at full efficacy for the time indicated but after that time will
+decay at a rate proportional to the time of preservation, for example a
+rank 7 herbalist collects and preserves a very rare herb it will last
+at 100\% efficacy for 14 hours, if they use the herbs after a further
+7 hours (total 21 hours) the will only have 50\% of their normal
+effect (note in some cases this will mean a 50\% chance of not working
+at all), if they wait a further 7 hours (total 28 hours) the herbs
+will have no effect at all.
+
+d134 2
+a135 2
+\subsubsection{A herbalist, should they choose to take the Artisan
+Cooking skill, gains a reduction of 25\% to their experience for
+d153 2
+a154 2
+restored.  Like a hot meal the restorative meal or the broth / tea can
+be taken once every 4 hours.
+d181 2
+a182 3
+receive any benefit at all (the shock of waking up early undoes any
+healing done previously).  These potions will last Rank months, and it
+will take 24 hours to prepare Rank / 3 (round up) doses.
+d189 1
+a189 1
+and skin, all without scaring provided the wound is open and the salve
+d202 7
+a208 8
+\item	At Rank 5 a herbalist may prepare, using uncommon herbs,
+potions that will enhance the healing of bruising and internal injuries
+to Rank \x the normal rate (for example bruising will heal in hours and
+serious internal injuries in days).  If the herbalist uses uncommon
+herbs these potions will last for Rank days, and it will take 30
+minutes to prepare one dose.  If the herbalist uses rare herbs then
+these potions will last for Rank weeks, and it will take 12 hours to
+prepare Rank / 4 (round up) doses.
+d210 1
+a210 1
+\item	At Rank 6 a herbalist may prepare, using rare herbs, potions
+d213 1
+a213 1
+hours to prepare Rank / 5 (round up)  doses.
+d215 1
+a215 1
+\item	At Rank 9 a herbalist may prepare, using the very rarest of
+d389 1
+a389 2
+\index{herbalist|)}
+\index{skills!herbalist|)}
+@
+
+
+3.0
+log
+@REL30
+@
+text
+@@
+
+
+2.4
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+2.3
+log
+@Fix e.g. problem
+@
+text
+@d47 1
+a47 1
+\begin{description}
+d65 1
+a65 1
+\end{description}
+d67 1
+a67 2
+\begin{itemize}
+\setlength\itemsep{0pt}
+d77 1
+a77 1
+\end{itemize}
+d186 1
+a186 1
+\begin{enumerate}
+d261 1
+a261 1
+\end{enumerate}
+d266 1
+a266 1
+\begin{enumerate}
+d315 1
+a315 1
+\end{enumerate}
+d332 1
+a332 1
+\begin{enumerate}
+d354 1
+a354 1
+\end{enumerate}
+d363 1
+a363 1
+\begin{enumerate}
+d392 1
+a392 1
+\end{enumerate}
+@
+
+
+2.2
+log
+@Check in before modifying e.g. and i.e.
+@
+text
+@d296 3
+a298 3
+(i.e.  subtle, with only a slight dreamlike character to reality,
+mild, with reality moderately distorted, or total, with no limits at
+all) and the general nature (i.e. pleasant or unpleasant) of the
+d312 1
+a312 1
+i.e.\ no down-side.  These potions will last for Rank \x 2 weeks, and
+d327 1
+a327 1
+(ie no matter how nice you smell a dragon will still kill and eat you,
+d387 1
+a387 1
+their body size e.g., a creature four times the size of a human has a
+d408 1
+a408 1
+(i.e., racial talents apply), hear as they would normally hear, use
+@
+
+
+2.1
+log
+@Minor changes from Keith Smith.
+@
+text
+@d4 3
+d260 2
+d280 2
+d290 2
+d304 1
+d307 8
+a314 9
+potion that will allow the drinker to extend any one characteristic
+(eg.  strength, agility, endurance, magical aptitude, fatigue,
+perception, etc., each potion prepared is specific to a particular
+characteristic and a particular species) of their normal physical
+limits by up to (10 \x Rank)\%.  The effect will last for (effective
+Rank \x 10) minutes, but after the effect runs out the drinker will
+sleep (deep exhausted sleep) for effective Rank hours with no chance
+of resisting.  These potions will last for Rank \x 2 weeks, and it
+will take 48 hours to prepare Rank / 4 (round up) doses.
+d360 2
+d418 3
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d39 1
+a39 1
+Their chance of finding fresh herbs suitable for performing a giving
+d248 8
+a255 8
+fatal wounds (for example sword thrust through the heart) must must
+have the appropriate healing salves or potions applied immediately
+prior to the restoration of life.  After life has been restored, the
+being will be too weak to move for a number of days equal to the
+number of hours which they were dead after which they will regain one
+point of endurance as per the healer skill.  This potion will last
+Rank \x 3 hours and it will take 30 minutes to prepare a single drop,
+which is then placed on the tongue of the patient to restore life.
+@
+
+
+1.5
+log
+@Fix typesetting of Rarity and season table.
+@
+text
+@@
+
+
+1.4
+log
+@Release 1.0 snapshot
+@
+text
+@d2 1
+d47 1
+a47 1
+\begin{tabularx}{\linewidth}{Xr}
+d56 1
+a56 1
+\begin{tabularx}{\linewidth}{Xr}
+@
+
+
+1.3
+log
+@Fixed mistake with fatigue regaining broth
+@
+text
+@d7 2
+a8 2
+To some extent the rangers healing herbs are a simple aspect of the
+herbalists skill.  Through the use of special herbal mixtures the
+d24 8
+a31 8
+there is a 50\% chance for each extra batch potion that all potions
+being made will fail.  Should the patches being made fail there is a
+further 30\% chance that some form of accident will occur (GM's
+discretion).  While the herbalist is producing potions to his full
+capacity no other actions re permitted, but if the herbalist is
+working at less than full capacity then they can interrupt their work
+for training, meeting visitors etc., providing their tend the potion
+at least every hour.
+d39 2
+a40 2
+skill is (perception \x 2 + rank \x 15 - 10 \x the minimal rank at
+which he would be able to perform that skill) + the following
+d46 1
+a46 1
+\begin{tabular*}{160pt}{lr}
+d51 1
+a51 1
+\end{tabular*}
+d55 1
+a55 1
+\begin{tabular*}{160pt}{lr}
+d60 1
+a60 1
+\end{tabular*}
+d69 2
+a70 2
+\item	Between $1$ and $1 1/2$ square miles +0.
+\item Over $1 1/2$ square miles +10 (with additional +5\% for each
+d78 1
+a78 1
+rule \ref{ranger:speciality}.
+d82 2
+a83 1
+unsuited to plant growth and a herbalist will be able to find herbs.
+d85 8
+a92 9
+The herbalist must state that he or she is looking for herbs required
+for a particular ability before setting out to search.  If the
+herbalist then rolls over their modified change to find those herbs,
+their will find no herbs at all during that particular search time,
+not even herbs suitable for a lower ranked ability.  This is because
+their must search in specific places within a given area for each herb.
+thus, a herbalist may search the same area a number of times, providing
+that that each time, they search for herbs required for a different
+ability.
+d116 1
+a116 1
+they still have a perception + 5\% / rank chance of knowing what the
+d125 1
+a125 1
+the rank of the ability the herb is used for \x 5 - herbalist rank \x
+d129 2
+a130 2
+methods by experimentation, usually taking a total of rank of ability
+to be used \x 5 months - rank of the herbalist \x 3 weeks.
+d151 1
+a151 1
+at 100\% efficacy for 14 hours, if they uses the herbs after a further
+d158 1
+a158 1
+\subsubsection{A herbalist, should they chose to take the Artisan
+d171 1
+a171 1
+turn a normal host meal into an invigorating restorative meal (capable
+d186 1
+a186 1
+At Rank 1 at herbalist may prepare, using common herbs, antiseptic
+d189 2
+a190 2
+last rank months, and it will take 24 hours to prepare Rank / 2 (round
+up) does.
+d194 2
+a195 2
+will cure warts, boils and pimples.  These salves will last rank
+months, and it will take 24 hours to prepare rank / 2 (round up)
+d206 1
+a206 1
+healing done previously).  These potions will last rank months, and it
+d210 11
+a220 11
+healing salves that will enhance the healing of wound to Rank \x normal
+rate (for example a rank 10 herbalist a deep sword cut that would take
+20 days to heal would heal in 2 days).  This healing will include
+repair of muscle, ligament, tendon and skin, all without scaring
+provided the would is open and the salve can be applied directly to
+the wound.  Note that one preparation of salve will heal one serious
+wound or a number of minor wounds.  If the herbalist uses uncommon
+herbs these salves will last for rank days, and it will take 6 hours
+to prepare Rank / 3 (round up) doses.  If the herbalist uses rare herbs
+these salves will last for rank weeks, and it will takes 12 hours to
+prepare Rank / 4 (round up) doses.
+d224 2
+a225 2
+specific potion).  These potions will last for rank weeks, and it will
+take 12 hours to prepare rank / 3 (round up) doses.
+d231 1
+a231 1
+herbs these potions will last for rank days, and it will take 30
+d233 1
+a233 1
+these potions will last for rank weeks, and it will take 12 hours to
+d237 2
+a238 2
+that will enhance the healing of broken bones to rank \x the normal
+rate.  These potions will last for rank weeks, and it will take 12
+d253 1
+a253 1
+rank \x 3 hours and it will take 30 minutes to prepare a single drop,
+d265 2
+a266 2
+last for rank \x 4 hours.  This potion will last for rank weeks, and it
+will take 24 hours to prepare rank / 2 (round up) doses.
+d271 1
+a271 1
+minutes). This potion will last for rank weeks, and it will take 24
+d275 4
+a278 4
+that will increase the likelihood of fertilisation by 1 + 1\% per rank
+for a period of rank days, or reduce the likelihood of becoming
+pregnant by 2 + 2\% per rank, for a period of rank weeks.  These
+potions will last for rank months, and it will take 24 hours to
+d284 1
+a284 1
+less than (2 \x Willpower - 3 \x herbalist's rank), for up to Rank
+d290 1
+a290 1
+will last for rank days, and it will take 6 hours to prepare Rank / 3
+d292 1
+a292 1
+last for rank weeks, and it will take 12 hours to prepare Rank / 4
+d299 6
+a304 6
+characteristic and a particular species) of his normal physical limits
+by up to (10 \x Rank)\%.  The effect will last for (effective rank \x
+10) minutes, but after the effect runs out the drinker will sleep
+(deep exhausted sleep) for effective rank hours with no chance of
+resisting.  These potions will last for rank \x 2 weeks, and it will
+take 48 hours to prepare Rank / 4 (round up) doses.
+d311 2
+a312 2
+Such perfumes will only mildly modify (plus or minus rank \x 4\% to
+reaction roll) the reactions of the creature being affected ( except
+d319 2
+a320 2
+of fine condiments).  All perfumes will last (in the bottle) for rank
+weeks. Thorough washing will reduce the duration Of a perfume by 10
+d327 3
+a329 3
+roll under willpower -- herbalists rank to resist the effects of the
+perfume.  The perfume will continue to act for rank days once applied.
+It will take 12 hours to prepare rank / 3 (round up) doses.
+d333 4
+a336 4
+character races), the creature must roll under 2 \x Willpcwer -
+herbalist rank to resist the effects of the perfume.  The perfume will
+continue to act for rank \x 3 hours once applied.  It will take 24
+hours to prepare Rank / 4 (round up) doses.
+d340 2
+a341 2
+the creature must roll under 3 \x willpower - herbalist rank to resist
+the effects of the perfume.  The perfume will continue to act for rank
+d350 1
+a350 1
+All poisons will last (in the bottle) for rank weeks.
+d355 3
+a357 3
+that will cause D - 6 + (Rank / 4, round up) damage per minute for, rank
+\x 2 minutes (damage is applied at the end of each minute).  It will
+take 24 hours to prepare rank / 3 (round up) doses.
+d360 1
+a360 1
+that will cause [D - 6] + (Rank / 3, round up) damage per pulse, for rank
+d362 2
+a363 2
+(Rank / 2, round up) damage per pulse, for rank \x 2 pulses. If the
+herbalist uses uncommon herbs it will take 24 hours to prepare rank / 3
+d365 1
+a365 1
+hours to prepare rank / 4 (round up) doses.
+d369 1
+a369 1
+pulse, for rank pulses. The time between application of first and
+a373 2
+\end{enumerate}
+
+d375 1
+a375 1
+their body size eg. a creature four times the size of a human has a
+d377 1
+a377 1
++ rank damage per pulse, for rank pulses. It will take 72 hours to
+d381 3
+d388 18
+a405 18
+that will allow him to separate his spirit from his body and travel in
+spirit anywhere within 10 miles of his body for up to rank hours at a
+cost of 3 endurance points per hour. After such spirit travel the
+herbalist may regain lost endurance by healing or normal recovery
+except for 1 point per hour travelled which can only be regained by
+expenditure of experience (2500 EP per point lost).  While in spirit
+form the herbalist may, move at normal walking or running speed, pass
+through any solid objects, see as he would normally see (i.e.  racial
+talents apply), hear as he would normally hear, use any talent
+(including magical), cast any spell that affects only the adept, and
+fly at normal walking speed. The spirit form cannot touch nor move any
+object by non-magical means, nor can it speak. The spirit form is
+insubstantial and cannot be touched or harmed in any way (magically or
+physically).  The spirit form is unseen but may be detected by
+witchsight as per the spell of walking unseen.  An entity that loses
+his last point of endurance as a result of this potion will become a
+spectre.  This potion will last for rank \x 2 days, and it will take
+48 hours to prepare Rank / 4 (round up) doses.
+@
+
+
+1.2
+log
+@Corrections done form March printed version
+@
+text
+@d173 6
+a178 4
++ (rank / 4, round up) lost fatigue points.  The restorative meal or
+the broth/tea replace a normal hot meal and if taken in addition to a
+hot meal no extra fatigue will be restored.  Like a hot meal the
+restorative meal or the broth/tea can be taken once every 4 hours.
+d185 23
+a207 19
+\item	At Rank 1 at herbalist may prepare, using common herbs,
+antiseptic salves that will disinfect wounds and cure infections, and
+potions that will cure headaches and fevers.  These salves and potions
+will last rank months, and it will take 24 hours to prepare Rank / 2
+(round up) does.
+
+\item	At Rank 2 a herbalist may prepare, using common herbs, salves
+that will cure warts, boils and pimples.  These salves will last rank
+months, and it will take 24 hours to prepare rank /2 (round up) doses.
+
+\item	At Rank 2 a herbalist may prepare, using common herbs, a
+potion that will cause the drinker to fall into a healing sleep that
+will heal fatigue or endurance damage at the rate of 4 fatigue per
+hour or 1 endurance per hour if the sleeper has lost endurance.  Note
+that if the sleeper is recovering endurance they  will recover no
+fatigue.  The sleeper can be woken at any time but must sleep at least
+4 hours to receive any benefit at all (the shock of waking up early
+undoes any healing done previously).  These potions will last rank
+months, and it will take 24 hours to prepare Rank / 3 (round up) doses.
+d258 2
+a259 2
+\subsubsection{A  herbalist  may   prepare   herbal   mixtures   that   alter
+the normal rhythms of a sentient being's body}
+d308 2
+a309 2
+\subsubsection{A herbalist may prepare perfumes that will attract or repel
+animals or sentients}
+d347 2
+a348 2
+\subsubsection{A herbalist may prepare toxic mixtures of herbs that may harm
+and ultimately kill animals and sentients that ingest them}
+d383 2
+a384 2
+\subsubsection{A herbalist can prepare herbal mixtures that can free the
+mind from the body}
+d400 1
+a400 1
+physically).  The spirit form is unseen but may be detected p by
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d21 1
+a21 1
+may make up to Rank/3 (round up) batches (a single batch may produce
+d186 1
+a186 1
+will last rank months, and it will take 24 hours to prepare rank/2
+d201 1
+a201 1
+months, and it will take 24 hours to prepare rank/3 (round up) doses.
+d212 1
+a212 1
+to prepare rank/3 (round up) doses.  If the herbalist uses rare herbs
+d214 1
+a214 1
+prepare rank/4 (round up) doses.
+d228 1
+a228 1
+prepare rank/4 (round up) doses.
+d233 1
+a233 1
+hours to prepare rank/5 (round up)  doses.
+d266 1
+a266 1
+hours to prepare rank/3 (round up) doses.
+d273 1
+a273 1
+prepare rank/3 (round up) doses.  Note these potions will be gender
+d277 11
+a287 10
+potion that will cause the drinker to hallucinate unless they roll less
+than 2 \x Willpower - 3 \x herbalists rank for up to Rank hours.  The
+herbalist can usually (75\% chance) control the extent (i.e.  subtle,
+with only a slight dreamlike character to reality, mild, with reality
+moderately distorted, or total, with no limits at all) and the general
+nature (i.e. pleasant or unpleasant) of the hallucination.  If the
+herbalist uses uncommon herbs these potions will last for rank days,
+and it will take 6 hours to prepare rank/3 (round up) doses. If the
+herbalist uses rare herbs these potions will last for rank weeks, and
+it will take 12 hours to prepare rank/4 (round up) doses.
+d298 1
+a298 1
+take 48 hours to prepare rank/4 (round up) doses.
+d321 1
+a321 1
+roll under willpower - herbalists rank to resist the effects of the
+d330 1
+a330 1
+hours to prepare ran k /4 (round up) doses.
+d336 1
+a336 1
+hours once applied.  it will take 48 hours to prepare rank/3 (round
+d374 2
+a375 2
+prepare rank/4 (round up) doses of multi-part poison.  It will take 48
+hours to prepare rank/4 (round up) doses of instant kill poison.
+d398 1
+a398 1
+48 hours to prepare rank/4 (round up) doses.
+@

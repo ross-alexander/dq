@@ -1,0 +1,2482 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL50:5.0
+	REL40:4.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.4;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.29.31;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.09.03.12.26.20;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.2;
+
+4.2
+date	2000.05.22.10.35.12;	author ralexand;	state Exp;
+branches;
+next	4.1;
+
+4.1
+date	2000.03.02.16.09.30;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	98.06.04.05.35.07;	author rossa;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	98.05.11.02.03.39;	author rossa;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	98.05.06.22.46.43;	author rossa;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	98.05.05.05.38.14;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.05.04.03.42.09;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	97.04.29.08.54.59;	author rossa;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	97.03.13.03.45.35;	author rossa;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	97.01.15.03.01.19;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	96.03.27.03.01.50;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	96.01.12.02.26.53;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	95.05.06.21.59.31;	author rale01;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.05.06.21.52.29;	author rale01;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.05.06.21.42.47;	author rale01;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{college}[2.0]{namer}{Naming Incantations}{NA}
+
+\textbf{This version of the College is probationary, and is under
+trial for two years (as of September 2001).  All characters that join
+this College do so under the understanding that if this version is
+deemed unplayable, it may be withdrawn or radically changed.  At that
+point, all such characters may revert to the previous version or have
+the EP and time spent in this College refunded, to be re-spent freely
+in another College as if that College had been their original choice.}
+
+The College of Naming Incantations is concerned with the essential
+truths and underlying realities that make up the world and with the
+knowledge of auras and true names.  Naming Incantations is one of the
+two oldest Colleges of Magic and just as the Entities branch grew out
+of runic magic so too do the Thaumaturical Colleges have their roots
+in Naming.  Adepts of this College are commonly called Namers.
+
+The Naming College holds that magic is a form of deception, a
+manipulation of reality, whereby Mages use mana to impose their will
+on the world. The College's abilities include divining the true nature
+of things and enforcing those truths by protecting against and
+preventing magic.  Living beings express their true nature and
+intrinsic essence in their auras and names, and Namers study these in
+order to understand, protect, restore, and gain control over them. It
+is said that in the ancient days Namers were capable of commanding the
+sea, the wind, and the rocks by their names --- but if this is true
+then that knowledge has long been lost. Namers still learn the names
+of the plants that grow in the earth, but they have little influence
+over them.
+
+Many Namers also learn the healing arts, and perhaps this is linked to
+a desire to restore beings to their true state.
+
+Given its abilities in neutralising magic, and the low Magical
+Aptitude requirement, the College attracts considerable interest from
+individuals engaged in the arts of war. Many Adepts use it as a means
+to protect themselves against hostile magics, while they operate in a
+more physical manner.
+
+\textbf{Traditional Colours:} No particular colour has a strong
+association with the College, as astrologically magic is of all
+colours, and of none.
+
+\textbf{Traditional Symbols:} Members of this College sometimes wear
+small symbols made of iron, (insufficient to cause them any
+inconvenience), symbolising their ability to neutralise magic. Circles
+or spheres are very common, harkening perhaps to circles of
+protection.
+
+\textbf{Magical Aptitude:} The MA requirement for this College is 1.
+
+\subsection{Restrictions}
+
+Adepts of the College of Naming Incantations may practise their arts
+without restriction. Some abilities may require that the Namer know a
+particular Generic or Individual True Name, or have learned a
+particular Counterspell.
+
+\subsection{Benefits}
+
+\subsubsection{Language}
+
+Due to their knowledge of True Names, Namers may Rank any Language in
+the Protonic Language Group as if they already know another language
+in that group at Rank 5. (See Languages \S\ref{languages:groups}).
+
+\subsubsection{Ranking Names}
+\label{namer:ranking}
+
+\begin{Itemize}
+\item Both Generic and Individual True Names take 1 week \x Rank to be
+achieved.
+
+\item Ranking Names requires no EM.
+
+\item The maximum Rank for True Names is 20.
+
+\item Ranking of Names may be done alongside other forms of Ranking.
+
+\item Namers may Rank one Name in addition to other forms of ranking.
+\end{Itemize}
+
+\subsubsection{Modifications}
+
+The following numbers are added to the Base Chance of performing any
+talent, spell or ritual of the College of Naming Incantations:
+
+\begin{tabularx}{\linewidth}{Xr}
+Never before encountered target's generic type		& -15\% \\
+Has not learned target's Generic True Name		& -10\% \\
+Each Rank achieved with target's Generic True Name	& +1\% \\
+Each Rank achieved with target's Individual True Name	& +2\% \\
+\end{tabularx}
+
+All modifiers are cumulative. 
+
+In addition, each Rank achieved with the target's Individual True Name
+reduces the target's Magic Resistance by 1\%.
+
+\subsection{Talents}
+
+\begin{talent}[T-1]{Detect Aura}
+\multiple{75}
+\basechance{2 \x PC  ( + 5 / Rank)}
+\resist{May only be actively resisted}
+\target{Entity, Object, Area, Volume}
+\begin{effects}
+The Base Chance is reduced by 1\% for every foot after the first five
+from the Adept. See the Detect Aura Talent (\S\ref{magic:detect-aura})
+for the results of this talent. In addition to other information
+gained, the Namer also receives the target's Generic True Name, if
+any.
+\end{effects}
+\end{talent}
+
+\begin{talent}[T-2]{Expel Magic}
+
+\multiple{75}
+\resist{May only be passively resisted}
+\target{Object, Area, Volume}
+\begin{effects}
+This talent allows the Namer to dissipate a magical spell stored in a
+Ward, Magical Trap, Potion, or Invested Item. In order to use this
+talent, the Namer must specify the name of the spell to be affected
+and cast the appropriate Counterspell on the target with the specific
+intent of dissipating the stored magic. The chance of the stored magic
+resisting destruction is 50\% [( + 3 / Rank of the stored magic) (- 3
+/ Rank of this Talent)]. If successful all of the magic of the same
+type stored within the target is destroyed. The appropriate
+Counterspell is the one that affects the magic stored not the storing
+magic. For example, a Ward of Enchanted Sleep would require the use of
+an E \& E General Knowledge Counterspell. Possessions gain a single
+Resistance Check but use the better of the chance above, or their
+wielder's MR.
+\end{effects}
+\end{talent}
+
+\begin{talent}[T-3]{Quick Cast}
+\begin{effects}
+Namers may cast any Counterspell that they know without preparing it
+first.
+\end{effects}
+\end{talent}
+
+\subsection{General Knowledge spells}
+
+The entire general spell knowledge of the Namer college consists of
+the ability to cast Counterspells. A Namer may cast a Rank 0
+Counterspell against any College of magic with which they are
+familiar. Counterspells at Rank 0 do not count towards the Namers MA
+limit for spells and rituals.
+
+Familiarity with all of the commonly encountered Colleges will be
+taught to a Namer during their apprenticeship, and beginning Namers
+will have the ability to cast all of the Counterspells of the standard
+Colleges at Rank 0.  If a Namer encounters Colleged magic of a form
+with which they are not familiar they may familiarize themselves with
+the College by one of the following methods:
+
+\begin{Itemize}
+\item By using the Ritual of Divination on an Adept of that College.
+
+\item By Divinating a magical effect produced by that College,
+provided that it is still in effect.
+
+\item By spending a day's study with a Namer who is already familiar
+with the College.
+\end{Itemize}
+
+Once they have done this they will be able to cast Rank 0
+Counterspells against that college.
+
+Unlike other Adepts, Namers may gain Rank with Counterspells that are
+not of their College. Namers rank all Counterspells as General
+Knowledge spells of the Namer College. Once a Namer begins to rank a
+Counterspell it will count towards the Namers MA limit for spells and
+rituals as normal.
+
+For full details on the use of Counterspells see 10.2 
+
+\subsection{General Knowledge Rituals}
+
+\begin{ritual}[Q-1]{Dissipation}
+
+\target{Entity, Object, Area, Volume}
+\basechance{As per Counterspell + Ritual preparation}
+\casttime{1+ hours, maximum 10}
+\actions{Concentration}
+\concentration{Standard}
+\begin{effects}
+By engaging in Ritual Spell Preparation a Namer may use a Counterspell
+to dissipate the effects of a spell.  The Namer must perform at least
+one hour of Ritual Spell Preparation at the end of which they must
+cast the appropriate Counterspell, and specify the name of the spell
+to be dissipated. Only spells (not rituals) may be dissipated using
+this technique. It is not possible to achieve Rank with this ability
+since it is not an independent ritual, but rather a specialized use of
+Ritual Spell Preparation.
+\end{effects}
+\end{ritual}
+
+\subsection{Special Knowledge Spells}
+
+\begin{spell}[S-1]{Bane}
+\range{10 feet + 10 / Rank}
+\duration{30 seconds + 5 / Rank} 
+\multiple{300}
+\basechance{20\%}
+\resist{Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Area}
+\begin{effects}
+This spell strengthens reality and stabilizes the mana in an area 15
+feet in diameter (+ 10 / 5 Ranks) such that all magical Cast Chances
+are reduced within the area by 5\% (+ 3 / Rank).  This will affect
+spells and rituals, and talents with base chances. The spell has no
+affect on stored magics (such as invested items), shaped items, or
+magic without base chances.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-2]{Banishment}
+
+\range{Self}
+\duration{10 seconds + 10 / Rank}
+\multiple{200}
+\basechance{20\%}
+\resist{No}
+\storage{Potion}
+\target{Self}
+\begin{effects}
+Through use of this spell, a Namer may banish a summoned being back to
+its own plane. While the banishment spell is in effect, the
+appropriate Counterspell cast by the Namer at a summoned entity will
+cause the entity to return to its own plane, unless it resists. The
+Counterspell must match the type of spell or ritual used in the
+summoning of the creature. In general the spells/rituals affected are
+the elemental summonings (Summon Fire Elemental, etc.), all Greater
+Summonings, Dark/Light Sphere conjuration and Fire college Efreeti and
+Salamander summoning. The Call Patron ability of Agents is not
+classified as a summoning spell and is not affected.  The being to be
+banished may actively and passively resist the Counterspell.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-3]{Compel Obedience}
+\range{15 feet + 5 / Rank}
+\duration{Concentration: max. 10 minutes + 10 / Rank}
+\multiple{400}
+\basechance{20\%}
+\resist{Active, Passive}
+\target{Entity}
+\storage{None}
+\begin{effects}
+The Adept may cast this spell over 1 (+ 1 / 4 Ranks) targets whose
+Generic True names are known to them. Those targets who fail to resist
+may be commanded by the Adept to perform actions that are both within
+their physical capabilities and in their true natures. Commands are
+given in the Namer tongue and will be understood by all entities.
+Commands must be short and simple, such as: ``Stop!'', ``Wait here'',
+``Follow me'', ``Hide under the table''. Entities can only be
+compelled to perform actions that they might perform naturally. For
+example, brigands who were involved in a combat might be compelled to
+``Flee!'', but if those same brigands felt they were winning the
+fight, they would heed no such compulsion but could perhaps be
+directed to a different target. If the spell is cast at targets with
+different GTNs the Namer must use the lowest applicable base chance
+modifier.
+
+If the Adept chooses to pronounce a target's Individual True Name as
+part of the spell then only one entity may be affected but the Namer
+is vested with much greater control over that entity, even against its
+nature. It is possible for the target to defy the Namer, but there are
+serious consequences for disobediance. Should the target decline to
+obey any command of the caster that is not obviously suicidal, they
+must make a WillPower check of [1 \x WP - (1\% per Rank that the Namer
+has with the target's ITN)]. This check does not break the spell.
+Should the target fail their check, they will feel great pain and
+immediately take damage equal to half of the Namer's Rank with this
+spell.  This damage cannot be resisted.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-4]{Disjunction}
+
+\range{10 feet + 10 / Rank}
+\duration{1 minute + 1 / Rank}
+\multiple{300}
+\basechance{30\%}
+\resist{Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Object, Area}
+\begin{effects}
+This spell prevents stored magics within an object or area from coming
+into effect. Magics that are affected by this spell include Wards,
+Invested items, Potions, Magical Traps, and permanent magics that need
+to be triggered. If a potion under the effects of a Disjunction is
+consumed, the potion will take effect after the spell effect ceases,
+provided it is still inside an entity. Other items will simply be
+unable to be triggered, and no charges will be lost.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-5]{Dispel Magic}
+
+\range{Self}
+\duration{5 seconds + 5 / 4 Ranks}
+\multiple{400}
+\basechance{5\%}
+\resist{No}
+\storage{Potion}
+\target{Self}
+\begin{effects}
+While the Dispel Magic is in effect, the appropriate Counterspell cast
+at a target may dissipate magic. The Counterspell must match the type
+of spell to be dissipated, and the Adept must specify the name of the
+spell that they wish to remove. If the Counterspell is successfully
+cast, the chance of the magic being dispelled is 50\% [(+ 3 / Rank
+with Dispel Magic) (- 3 /Rank of the target magic)].  This spell
+cannot remove the effects of rituals, or remove curses.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-6]{Forbidding}
+\range{10 feet + 10 / Rank}
+\duration{10 minutes + 10 / Rank}
+\multiple{250}
+\basechance{30\%}
+\resist{Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Area}
+\begin{effects}
+This spell creates a thin, invisible wall, 10 feet high and 20 feet
+long. The Adept may increase either height or length by 1 foot per
+Rank. This barrier obeys all of the usual rules for insubstantial
+walls. A single Generic or Individual true name is crafted into the
+forbidding. To those entities whose names are contained therein, or if
+seen by means of Witchsight or similar, the wall appears bluish and
+crackling with magical energy. If a Generic True Name is in the
+forbidding, then to those named who fail to resist upon initial
+contact the forbidding is completely solid to them and they are unable
+to pass through it. If they resist, the barrier is insubstantial, as
+it is those those who are not named by it. If an Individual True name
+is placed in the forbidding then in addition to the Generic effects,
+the entity must resist each contact with the barrier or suffer [D - 4] +
+1 / Rank damage, even if they are able to pass through the wall
+because they initially resisted.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-7]{Mana Sense}
+\range{Self}
+\duration{5 minutes + 5 / Rank}
+\multiple{200}
+\basechance{20\%}
+\resist{No}
+\storage{Potion}
+\target{Self}
+\begin{effects}
+This spell allows the adept to ``sense'' the mana flows within 10 feet
+(+ 10 / Rank). If a spell is cast or magic triggered within range, the
+Adept will see it flying off towards its target. Similarly, if the
+target of any spell is within range, the Adept will see the magic
+impact.  If the Adept chooses magical Pass actions of Concentration
+with this spell in effect, they will be able to see Adepts drawing
+mana, and be able to see if a target resists a spell or not. While
+concentrating the Adept will have a (2 \x PC) chance of being able to
+distinguish the College of the magic they can see, the name of the
+spell, and whether the spell is low, medium, high or very high in
+rank.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-8]{Scry Shield}
+\range{10 feet + 5 / Rank}
+\duration{10 minutes + 10 / Rank or Special}
+\multiple{300}
+\basechance{20\%}
+\resist{No}
+\storage{Investment, Ward, Magical Trap}
+\target{Volume}
+\begin{effects}
+This spell protects an area from scrying by Wizard Eyes, Crystals and
+Waters of Vision, Bard's Ear and similar divinatory magics of a Rank
+equal to or less than the rank of the Scry Shield. It does not prevent
+normal vision, infravision, Witchsight and similar spells. A Scry
+Shield is a shell over the protected volume, so once the area is
+penetrated by any means, \eg on foot or by flying, spells cast inside
+the protected volume work normally. At Rank 20 this spell alarms the
+Adept that an attempt to divine into the volume by magical means has
+taken place, provided that the Adept is within the volume at the time.
+This spell may be cast as a ritual if the Adept so chooses.  In this
+form casting takes 10 hours and the duration is increased to 4 weeks
+(+ 1 / Rank).
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-9]{Spell Barrier}
+
+\range{10 feet + 5 / Rank}
+\duration{1 minute + 1 / Rank}
+\multiple{300}
+\basechance{30\%}
+\resist{No}
+\storage{Investment, Ward, Magical Trap}
+\target{Volume}
+\begin{effects}
+The Adept creates a thin, glowing, translucent wall which blocks the
+passage of magic. The barrier is either 10 feet high and 20 feet long
+as a wall, or 10 feet high and 5 feet in radius as a ring. The Adept
+may increase any dimension --- other than thickness --- by 1 foot per
+Rank. This barrier obeys all of the usual rules for insubstantial
+walls. Any magic cast in such a way that a direct line drawn from the
+caster to their target passes through the wall (from either side) has
+a 40\% [(+ 3 / Rank with this spell) (- 3 / Rank of the target magic)]
+chance of having its energies dissipated. If a spell passes through
+more than one Spell Barrier only a single roll for dissipation should
+be made, with the highest dissipation chance being used.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-10]{True Seeing}
+\range{10 feet + 5 / 2 Ranks}
+\duration{30 seconds + 10 / Rank}
+\multiple{300}
+\basechance{25\%}
+\resist{No}
+\storage{Investment, Ward, Magical Trap}
+\target{Area}
+\begin{effects}
+Within the area of the spell those things that have been magically
+altered to appear other than they truly are may be detected. True
+Seeing may detect invisible or insubstantial things, the visual
+component of illusions, and entities and objects that have been
+magically rearranged or transformed (such as by curses). The chance of
+detecting such things with True Seeing will depend upon the rank of
+this spell, and the rank of the concealing or transforming magic. For
+odd magical abilities without a Rank the GM should substitute some
+appropriate alternative (such as [MA - 10]).
+
+\begin{inline}
+\begin{Description}
+\item[True Seeing is of lesser or equal Rank] Slight imperfections may
+be revealed, (\eg invisible figures shimmer a little, the colour of an
+illusion may appear a bit off, etc.), and there is a (1 \x PC) chance
+of an observer scrutinizing the area noting this.
+
+\item[True Seeing is of higher Rank] More major imperfections may be
+noticed. (\eg invisible figures have a slight will-o'-the-wisp glow,
+toads that are really Princes may have tiny gold crowns, ). The
+detection chance rises to (2 \x PC).
+
+\item[True Seeing is is 10+ Rank higher] The imperfections in
+concealing and transforming magics become qutie obvious, (\eg
+invisible figures appear ghostly, illusions may appear painted or
+translucent, etc.). Detection is automatic.
+\end{Description}
+\end{inline}
+\end{effects}
+\end{spell}
+
+\subsection{Special Knowledge Rituals}
+
+\begin{ritual}[R-1]{Divination}
+
+\range{5 feet + 1 / Rank}
+\duration{Immediate}
+\multiple{250}
+\basechance{40\% + 10 / Rank}
+\casttime{1 hour or 3 hours}
+\resist{No}
+\target{Entity, Object, Area}
+\material{None}
+\actions{Concentration}
+\concentration{Standard}
+\begin{effects}
+There is no possibility of backfire from this ritual. By use of this
+ritual a Namer may determine if an individual, object, or area is
+currently, or has been recently, under the effects of magic a spell by
+employing the Ritual of Magic Divination. If the ritual is successful,
+the nature of all magic in effect (exact names and Colleges) is
+revealed to the Namer. If the magic is of non-college origin general
+effects are revealed.  In the case of magic that is no longer in
+effect, for each 5\% under the Cast Chance that the Namer rolled,
+magic that expired an extra week ago is revealed.  For example if a
+Namer rolled 12\% under their Cast Chance magic that expired upto two
+weeks ago would be revealed --- in addition to all magic currently in
+effect.
+
+If the Namer wishes they may perform an Ancient Divination.  The Base
+Chance of the ritual is reduced to 40\% (+ 2 / Rank), and the Cast Time
+increased to 3 hours.  If successful the Namer will learn the exact
+nature of all enchantments, magical mechanisms, triggering conditions,
+curses, side-effects, etc., placed upon an entity or object even if
+they are of non-college origin. If an object has an Individual True
+Name the Ancient Divination will reveal its existence, though not the
+actual name.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[R-2]{Expulsion}
+
+\range{5 feet + 1 / Rank}
+\duration{Immediate}
+\multiple{300}
+\basechance{10\% + 5 / Rank}
+\casttime{1 hour}
+\resist{Active, Passive}
+\target{Entity}
+\material{None}
+\actions{Concentration}
+\concentration{Standard}
+\begin{effects}
+This Ritual will return one entity to its plane of origin, regardless
+of how it got to the current plane. Upon completion of the ritual, if
+the target fails to resist, they will be immediately returned to the
+point from which they left their plane of origin.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[R-3]{Interregnum}
+
+\range{10 feet}
+\duration{Special}
+\multiple{250}
+\basechance{MA + 4\% / Rank}
+\casttime{2 hours}
+\resist{Active, Passive}
+\target{Entity or Object}
+\material{None}
+\actions{Concentration}
+\concentration{Standard}
+\begin{effects}
+The targeted entity or object has all magical effects currently upon
+them, that are of lesser or equal rank to the Interregnum, suspended.
+Whilst suspended their durations will not reduce, but the magic will
+have no effect. The duration of the Interregnum may be chosen by the
+Adept at the time of casting, from a minimum of 1 day to a maximum of:
+
+\begin{inline}
+\begin{tabular}{ll}
+\textbf{Rank} &
+\textbf{Duration (maximum)} \\
+0--10		& 1 day (+ 1 / Rank) \\
+11--15		& 1 month \\
+16--19		& 3 months \\
+20		& 1 year \\
+\end{tabular}
+\end{inline}
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[R-4]{Remove Curse}
+\begin{effects}
+Namers have a greater ability to remove curses than do the Adepts of
+other Colleges. Namers learn the normal Remove Curse ritual (see
+\S\ref{ritual:removecurse}) as R4 of this College, but gain a bonus
+to Base Chance of + 2 / Rank for Minor curses and + 1 / Rank for Major
+curses (including Death Curses).
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[R-5]{Sealing}
+\range{20 feet +20 / Rank}
+\duration{1 day + 1 / Rank}
+\multiple{300}
+\basechance{20\% + 4 / Rank}
+\casttime{1 hour}
+\resist{None}
+\target{Area}
+\material{Chalk, paint, blood, cornmeal or other symbol
+making materials}
+\actions{Chanting and inscribing symbols}
+\concentration{Standard}
+\begin{effects}
+This Ritual seals an area against entities from a single, specific,
+named plane. The name of the plane must be known to the Adept, and the
+name of the plane that the Adept is currently occupying cannot be
+used. No entity whose plane of origin has been sealed against can
+voluntarily enter the sealed area. They will stop at the boundary and
+refuse to go any further. Any entity taken into the area against their
+will (or without their knowledge, \eg unconscious) will attempt to
+leave the area as quickly as possible. If an attempt is made to summon
+an entity from the named plane into the area the summoning will
+fail. Any entities from the named plane who are inside the area when
+the sealing is created are unaffected, but should they leave the area
+they will be unable to re-enter it.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[R-6]{True Form}
+\range{5 feet}
+\duration{Immediate}
+\multiple{300}
+\basechance{20\% + 3 / Rank}
+\casttime{3 hours}
+\resist{Active}
+\target{Entity, Object}
+\material{None}
+\actions{Concentration}
+\concentration{Standard}
+\begin{effects}
+By means of this ritual the Adept may force a target that has been
+magically altered, cursed, or rearranged into a form other than their
+natural one to assume their true form and nature. It will not remove
+effects that could occur naturally. For example, the ritual would
+restore the form of a human that had been cursed into the shape of a
+toad, and would return to flesh a human turned to stone but would do
+nothing to remove a curse of weeping sores or restore a lost limb.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[R-7]{True Speaking}
+\range{10 feet}
+\duration{30 minutes}
+\multiple{300}
+\basechance{40\% + 3 / Rank}
+\casttime{Special / 1 hour}
+\resist{Active, Passive}
+\target{Entity}
+\material{None}
+\actions{Asking questions}
+\concentration{Standard}
+\begin{effects}
+By means of this ritual the Adept may attempt to force an entity who
+is present to speak the truth. The Adept must prepare for 30 minutes
+after which they may question the entity for the remaining 30 minutes
+of the 1 hour ritual. The effects of the ritual do not last beyond the
+hour. The target need not answer or speak at all, but if they fail to
+resist and they choose to answer the Adept's questions, they must, to
+the best of their knowledge, speak no falsehoods. They need not
+volunteer information. The GM rolls for the success of this ritual and
+need not inform the Adept's player of the result.
+\end{effects}
+\end{ritual}
+\end{college}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@Completely new version of Namer from Martin Dickson (v2.0).
+@
+text
+@d3 8
+d68 1
+a68 3
+
+Unlike the Adepts of other Colleges, Namers may gain Rank with True
+Names (see Names \S\ref{names}):
+d71 2
+a72 2
+\item Both Generic and Individual True names take 1 week x Rank 
+to be achieved.
+d74 1
+a74 1
+\item The EM for ranking Names is 0.
+d78 1
+a78 2
+\item Ranking of Names may be done alongside other forms of 
+Ranking.
+d80 1
+a80 1
+\item Namers may rank 1 name in addition to other forms of ranking.
+d85 2
+a86 3
+The following numbers are added to the Base Chance of 
+performing any talent, spell or ritual of the College of 
+Naming Incantations: 
+d390 1
+a390 1
+Adept that an attempt to divine within the volume by magical means has
+a635 174
+
+\begin{table*}
+\subsection{Names List}
+\label{namelist}
+\index{tables!namer list}
+
+\begin{multicols}{5}
+\begin{flushleft}
+Adder \\
+Albatross \\
+Alligator \\
+Amoeba \\
+Ant \\
+Antelope \\
+Ash \\
+Baboon \\
+Barracuda \\
+Basilisk \\
+Bat \\
+Bear \\
+Beaver \\
+Bee \\
+Beetle \\
+Black widow \\
+Blackbird \\
+Boar \\
+Buffalo \\
+Buzzard \\
+Cactus \\
+Camel \\
+Cat \\
+Centaur \\
+Cheetah \\
+Chicken \\
+Cobra \\
+Cod \\
+Cormorant \\
+Cow \\
+Date tree \\
+Deer \\
+Devil \\
+Dingo \\
+Dire wolf \\
+Dog \\
+Dolphin \\
+Donkey \\
+Dove \\
+Dryad \\
+Duck \\
+Dwarf \\
+Eagle \\
+Eel \\
+Efreeti \\
+Elemental - Air \\
+Elemental - Earth \\
+Elemental - Fire \\
+Elemental - Water \\
+Elephant \\
+Elf \\
+Elm \\
+Falcon \\
+Ferret \\
+Finch \\
+Fire ant \\
+Fox \\
+Gannet \\
+Ghost \\
+Ghoul \\
+Giant - Cloud \\
+Giant - Fire \\
+Giant - Frost \\
+Giant - Stone \\
+Gila monster \\
+Giraffe \\
+Gnoll \\
+Gnome \\
+Goat \\
+Goblin \\
+Goose \\
+Gorgon \\
+Gorilla \\
+Goshawk \\
+Grains \\
+Gryphon \\
+Halfling \\
+Hare \\
+Hippogriff \\
+Hobgoblin \\
+Horse \\
+Housefly \\
+Human \\
+Hydra \\
+Iguana \\
+Imp \\
+Incubus \\
+Killer bee \\
+King cobra \\
+Kobold \\
+Leopard \\
+Lion \\
+Lizard \\
+Lizard man \\
+Mamba \\
+Manta ray \\
+Manticore \\
+Mistletoe \\
+Mongoose \\
+Monkey \\
+Mouse \\
+Mule \\
+Neanderthal \\
+Night gaunt \\
+Nixie \\
+Nymph \\
+Oak \\
+Octopus \\
+Ogre \\
+Olive tree \\
+Orc \\
+Owl \\
+Ox \\
+Parrot \\
+Pegasus \\
+Pig \\
+Pike \\
+Pine \\
+Piranha \\
+Porpoise \\
+Prairie dog \\
+Python \\
+Rabbit \\
+Raccoon \\
+Rat \\
+Rattle snake \\
+Roc \\
+Salamander \\
+Salmon \\
+Satyr \\
+Scorpion \\
+Seagull \\
+Shape changer \\
+Shark \\
+Sheep \\
+Skeleton \\
+Snapper \\
+Sparrow \\
+Spider \\
+Spitting naja \\
+Squid \\
+Sting ray \\
+Succubus \\
+Swan \\
+Tarantula \\
+Tern \\
+Tortoise \\
+Troll \\
+Trout \\
+Turtle \\
+Unicorn \\
+Vampire \\
+Vulture \\
+Weasel \\
+Wight \\
+Wild cat \\
+Willow \\
+Wolf \\
+Wraith \\
+Wyvern \\
+Yew \\
+Zebra \\
+Zombie \\
+\end{flushleft}
+\end{multicols}
+\end{table*}
+@
+
+
+5.0
+log
+@REL50
+@
+text
+@d1 1
+a1 1
+\begin{college}[1.3]{namer}{Naming Incantations}{NA}
+d3 38
+a40 19
+Members of the College of Naming Incantations specialise in the
+knowledge of all True Names and of magic in general (counterspells in
+particular); they are usually simply called Namers.
+
+\index{names}
+\index{names!generic}
+
+All living beings have a Generic True Name and aura.  Formerly living
+things retain their name and traces of their aura.  This name is in an
+ancient language, and the translation into the common tongue would
+yield such terms as man, elf, tiger, oak, bee, rattlesnake, rose, etc.
+All such names when uttered in their ancient form by a Namer give the
+Namer power to control the entity, and these Generic Names are taught
+to an apprentice Namer during the Namer's training (the usual names
+known are listed on a separate sheet as the Namer Names List).  The
+familiarity with Names allow Namers to Rank any language in the
+Protonic language group as if they know a language in the group at
+Rank 5.  Namers may learn a Generic True Name they are not familiar
+with by
+d42 16
+a57 6
+\begin{Itemize}
+\item By learning from another Adept who has the name ranked.
+\item It may be found in written form - Adepts of various Colleges have
+been known to record important species names in magic tomes.
+\item By means of a Detect Aura (as outlined below).
+\end{Itemize}
+d59 1
+a59 15
+All sentient entities (player character races, dragons, mer-people,
+naga, etc) have an Individual True Name.  This becomes known to them
+upon reaching maturity.  All sane sentient entities will know their
+own Individual True Name and no force -- physical or magical -- can
+coerce the entity to reveal it.  They may choose to reveal it,
+however.  An entity will be called by their given (or use) Name, which
+is given to them by their parents.  The Individual True Name and the
+Given Name will be in the entity's native tongue (thus the Namer would
+have to spend time translating the Individual Name into the Namer
+language before it could be used).  When an individual is born, their
+Individual True Name becomes known to the Naming Demons (see the demon
+descriptions in the College of Greater Summoning).  Namers know only
+their own Individual True Name upon completing their education.  All
+other Individual True Names must be acquired and learnt before they
+can be used.  Three methods exist for acquiring an entity's True Name
+d61 2
+a62 1
+\index{names!individual true name}
+d65 2
+a66 7
+\item The entity may choose to reveal it.
+\item It may be obtained from a Namer Demon (or any other being who knows
+the True Name) if they choose to disclose it.
+\index{demons!naming}
+\item It may be found in written form - Adepts of various Colleges have
+been known to record important entity's names in magic tomes.
+\end{Itemize}
+d68 1
+a68 47
+Once acquired, an Individual or Generic Name may be studied at any
+time.  Generic Names take one day of study to be learned (that is
+reach Rank 0) while Individual Names take one week in study after the
+Name has been acquired.  Generic names take 1 week per Rank.
+Individual names take 4 weeks per Rank.  Ranking of Names is not
+exclusive, however.  This means that it can be done alongside other
+forms of Ranking.  If not ranking anything else then the Namer can
+rank three names at a time.  Names cannot be ranked while
+adventuring.
+\index{ranking!names}
+
+Knowledge of an entity's True Name vests the Namer with a greater
+control over that entity than that provided by the knowledge of its
+Generic Name.  It provides the Namer with the ability to manipulate
+that entity's aura, and hence affect its behaviour and condition for
+short periods of time.  Entities protect their True Name vigorously
+as this knowledge can be used both defensively and offensively.
+Indeed, the very mention of an entity's True Name would strike great
+fear into their heart.
+
+The aura of the entity contains both the Generic and Individual True
+Names, and so the training of the College of Namers concentrates
+greatly on the study and interpretation of auras, from all living and
+non-living matter.  This aura can be ``read'' (see T-1), providing the
+Namer much information on the item/entity concerned.  Whilst other
+Colleges use the Detect Aura spell/talent, only the Namer is trained
+to make maximum use of the information gained from perceiving auras.
+The Generic Name is instantly identified when a Namer perceives an
+aura, although this Name must still be known and Ranked to be of
+use. The information is coded into the aura in a form that Namers are
+trained to recognise, but other Colleges, through use of the same
+Detect Aura spell / talent, would need to inquire specifically to
+receive the same information.  The Individual True Name is also coded
+into the aura, but is so complex and varied that they cannot be
+deciphered and used by even a Namer.  If the Namer is given the
+Entity's True Name, then it is possible for the Namer to identify the
+auric characteristics that make up the Individual True Name.  The
+study of these components takes considerable time due to their
+complexity.
+
+One of the key capabilities of the Namer is to weave protective spells
+over entities and locations, to defend against the use of Colleged
+magic.  This ability comes both from the study of the various Colleges
+of magic and the study of auric components.  The counterspell modifies
+the entity's aura to aid in the defence against magic, and may prevent
+the entity from using its own magical abilities.  Counterspells will
+aid any item having an aura, whether living or not.
+d70 1
+a70 1
+\subsection{Restrictions}
+d72 2
+a73 3
+There are no special requirements for using the Naming Incantations,
+beyond the need for ``knowing'' relevant Generic and Individual True
+Names.
+d75 2
+a76 5
+The MA requirement for this college is 1, since Rank 0 counterspells
+do not count towards MA requirement for Namers.
+
+Namers must keep a Name Book, which records the Generic and Individual
+True Names they know, and at what ranks.
+d78 1
+a78 1
+\subsection{Base Chance Modifiers}
+d80 3
+a82 2
+The following numbers are added to the Base Chance of performing any
+talent, spell or ritual of the College of Naming Incantations:
+d85 4
+a88 4
+Namer has never before encountered target's generic type & -15\% \\
+Namer has not learned target's Generic True Name         & -10\% \\
+Each rank achieved with target's Generic True Name       &   1\% \\
+Each rank achieved with target's Individual True Name    &   5\% \\
+d91 4
+a94 5
+These additions to the Base Chance are cumulative and are added onto
+the Base Chance in addition to those modifiers listed in
+\S\ref{magic:modifiers}.  Note that both Rank with a particular spell
+or ritual and Rank in the use of the Name of the target affect the
+Base Chance.
+a98 2
+\index{detect aura}
+\range{Special}
+d100 2
+a101 2
+\basechance{2 \x PC + 5\% / Rank}
+\resist{Active}
+d105 33
+a137 2
+feet that the target is from the Adept.  See the Detect Aura Talent
+(\S \ref{detect-aura}) for the results of this talent.
+d141 1
+a141 1
+\subsection{General Knowledge Spells}
+d143 33
+a175 30
+The large body of General Knowledge consists of the ability to cast
+counterspells against all Colleges of Magic.  Namers may loose a
+counterspell without preparing it.  All counterspells are part of the
+General Knowledge of each Namer when they complete their
+apprenticeship.  They are known at Rank 0.  They do not count against
+the number of spells and rituals a Namer may know unless and until
+Ranked.  A Namer may know a number of spells and rituals (other than
+counterspells) of Rank 5 or lower and a number of counterspells of
+Ranks 1 to 5 equal to their Magical Aptitude.  For example, a
+character could know 3 spells of Rank 5 or less and 12 counterspells
+of Rank 1 through 5 if they had a Magical Aptitude of 15 (or any
+combination of spells, counterspells and rituals equal to 15).  The
+use of counterspells is described in section (\S
+\ref{magic:counterspells}).
+
+Namers can use counterspells to dissipate wards and investment rituals
+(other spell effects can only be dissipated through the use of the
+ritual of dissipation -- Q-1 below).  The appropriate counterspell
+must be successfully cast on the area or object in question with the
+specific intent of dissipating a ward or investment.  If the wrong
+counterspell is thrown it will have no effect (and will leave no
+trace).  Note that if the invested item is worn then it comes within
+the personal sphere of the wearer and may be passively resisted.
+
+Should any further Colleges be established after the apprenticeship is
+completed, then the Adept will be able to gain the college
+counterspells at Rank 0 immediately.  At present the Namer College
+teaches new Namers counterspells of 16 colleges.  Each has a General
+Knowledge and a Special Knowledge counterspell, so there are 32
+counterspells which a new Namer knows.
+a179 1
+\label{namer:dissipation}
+d181 5
+a185 2
+\basechance{That of the counterspell used}
+\casttime{Up to 10 hours (Minimum 1)}
+d187 8
+a194 21
+A Namer may always use any counterspell they presently know to cause
+the effects of a spell cast over an individual or object to be
+dissipated (removed) by performing the Ritual of Dissipation.  The
+Adept treats the Ritual of Dissipation as if they were employing
+Ritual Spell Preparation (see \S\ref{magic:preparation}) except that
+they must cast the appropriate counterspell in order to accomplish the
+dissipation of the spell.  In order to perform this ritual, the Namer
+must know the exact name of the spell that was cast over the character
+or object, what College the spell was a part of, and whether or not
+the spell was a General or Special Knowledge spell.  Only spells (not
+rituals) may be dissipated using this technique.  Only Namers may use
+counterspells to dissipate spells once they have been cast, due to
+their superior knowledge of the nature and characteristics of auras.
+Adepts of other Colleges may use counterspells to send entities which
+they have personally summoned back to their own dimensions.  In such
+cases, the counterspell need not be cast as part of a ritual.  Only
+Namers, however, may dispel magic by using this ritual.  At least 1
+hour must be spent implementing this ritual.  The Adept may not simply
+cast a counterspell over a character or object to achieve the same
+effect.  Characters may never achieve Rank with this ritual, though
+the specific counterspell used may be ranked.
+d198 1
+d200 41
+a240 1
+\subsection{Special Knowledge Spells}
+d242 5
+a246 6
+\begin{spell}[S-1]{Charming}
+\label{namer:charm}
+\range{15 feet + 15 / Rank}
+\duration{1 hour + 1 / Rank}
+\multiple{450}
+\basechance{40\%}
+a247 1
+\storage{Investment}
+d249 1
+d251 26
+a276 25
+The Adept may influence the actions of any one entity whose Generic
+Name they know by casting a Spell of Charming over the individual.
+If, in addition, the Adept knows and pronounces the victim's
+Individual True Name, the Base Chance of the spell taking effect is
+increased by 50\% and the effect of the spell is increased.  The
+victim of the spell will then see the Adept as their true friend and
+will readily accept most suggestions emanating from them.  Sworn
+enemies of the Adept (or of their race) will not be affected by this
+spell unless the victim's Individual True Name is spoken and, even
+then, the duration of the spell is halved.
+
+The Adept may either suggest actions to the victim or may order them
+to act in a certain way on pain of losing the Adept's ``friendship''.
+Any suggestion that is not directly and obviously inimical to the
+victim's interests (as defined by the GM, but usually limited to
+actions that would be injurious or fatal to the victim) will be acted
+upon 90\% of the time.  The Adept may only ensure 100\% compliance
+with a request by making it an order based upon the friendship that
+binds the victim and Adept together.  In such instances, however, the
+victim immediately makes a Resistance Check.  If they resist, then the
+spell is broken.  Otherwise, the victim will accept the order and be
+100\% faithful to it for the remainder of the spell.  Whenever any
+suggestion is made that would lead to the victim's injury or death,
+another Resistance Check is made.  If the check is unsuccessful, the
+victim will accept the suggestion, otherwise the spell will be broken.
+d280 1
+a280 1
+\begin{spell}[S-2]{Compelling Obedience}
+d282 7
+a288 7
+\range{5 feet + 5 / Rank}
+\duration{1 hour + 1 / Rank}
+\multiple{500}
+\basechance{10\%}
+\resist{Active, Passive}
+\storage{Investment}
+\target{Entity}
+d290 7
+a296 19
+The Adept may cast this spell over any target(s) whose Generic or
+Individual True Names are known to them.  Once successfully cast, the
+spell permits the Adept to order the target to do anything within its
+physical capabilities which is not obviously suicidal.  The spell may
+affect a number of targets equal to or less than the Adept's Rank with
+this spell.  The Base Chance is increased by 25\% if the Adept
+pronounces the Individual True Name of all the spell's targets.
+Zombies and Skeletons can not be compelled.  Plants may be compelled,
+as can animals, but the Adept must be able to communicate with it and
+the target compelled can only do what it is normally able to do (one
+couldn't make a dog talk in a human voice, or make a plant uproot
+itself and walk around for example).
+
+No target may resist an order once it has failed to initially resist
+the spell, although actions that are obviously suicidal will engender
+a Willpower check (1 \x WP).  Note that this is the most
+powerful of all the control spells -- only truly suicidal or very
+repugnant acts (for example killing ones child or loved one) will
+engender a Willpower check.
+d300 19
+a318 1
+\begin{spell}[S-3]{Paralysis}
+d320 3
+a322 2
+\range{15 feet + 5 / Rank}
+\duration{Immediate}
+d324 2
+a325 2
+\basechance{15\%}
+\resist{Active, Passive}
+d327 1
+a327 1
+\target{Entity}
+d329 15
+a343 5
+The Adept may paralyse a single target with this spell, if it's
+Generic True Name is known.  Normal stun recovery guidelines apply,
+with the first recovery roll coming at the end of the pulse following
+the spell's casting.  This spell will affect entities that do not
+normally stun, such as demons and undead.
+d347 1
+a347 2
+\begin{spell}[S-4]{Banishing}
+
+d349 1
+a349 1
+\duration{10 seconds + 10 / Rank}
+d352 1
+a352 1
+\resist{None}
+d354 24
+a377 1
+\target{Summonable entities}
+d379 76
+a454 13
+Through use of this spell, an Adept may banish a summoned being back
+to its own plane.  While the banishment spell is in effect, the
+appropriate counterspell cast at a summoned entity by the Adept will
+cause the entity (unless it passively resists) to return to its own
+plane.  The counterspell must match the type of spell/ritual used in
+the summoning of the creature.  In general the spells/rituals affected
+are the elemental summonings (Summon Fire Elemental, etc), all Greater
+Summonings, Dark Sphere conjuration (Celestial R-1), and Fire college
+Efreeti and Salamander summoning.  Call Master is not classified as a
+summoning spell.  The base chance of the banishment is that of the
+counterspell employed (including modifiers for generic and individual
+names).  The being to be banished may actively and passively resist
+the banishment.
+d460 38
+a497 2
+\begin{ritual}[R-1]{Magic Divination}
+\index{divination!namer}
+d500 21
+d522 3
+a524 2
+\basechance{40\% + 10\% / Rank}
+\resist{None}
+d526 38
+d565 30
+d599 7
+a605 32
+This is a two part ritual.  The Adept may only use one part of the
+ritual at any one time.  There is no possibility of backfire from this
+ritual.
+
+\begin{Enumerate}
+\item
+The Adept may determine if an individual or object is currently or has
+been recently under the effects of a spell by employing the Ritual of
+Magic Divination.  The Base Chance is reduced by 5\% for each week (or
+fraction of a week) since the spell was cast.  Permanent magic (\eg
+invested items still with charges) or spells currently in effect carry
+no modifier.
+
+\begin{example}
+Rolf the Barbarian has had three spells on him 1, 2 and 3 weeks ago
+respectively, and Moniker the Namer is rank 2 in the ritual, a cast of
+50\% would mean the 1 and 2 week ago spells would be revealed but not
+the spell of 3 weeks ago.  However if the 3 week ago spell was a
+Lesser enchantment which was still in effect it would be revealed).
+\end{example}
+
+If the ritual is successful, the nature of the spell (its exact name
+and College) is revealed to the Adept.  If the magic is of non-college
+origin its precise effects are revealed.
+
+\item
+Through this ritual, the Adept can discover the exact nature of all
+enchantments, triggering mechanisms, curses, side-effects etc, placed
+upon an item.  Note that if an item has been imbued with an Individual
+True Name it will not be revealed, but the fact that the item has a
+Name will be.
+\end{Enumerate}
+d609 3
+a611 4
+\begin{ritual}[R-2]{Name Summoning}
+\index{summoning!name}
+\range{50 miles + 50 / Rank}
+\duration{5 minutes + 5 / Rank}
+d613 3
+a615 2
+\basechance{20\% + 5\% / Rank}
+\resist{Passive}
+d617 3
+a619 1
+\casttime{1 hour}
+d621 9
+a629 39
+A Namer who knows the Individual True Name of an entity may use this
+ritual to summon the spirit of the individual to the location of the
+ritual's enactment.  The ritual is keyed to the specific aura of the
+victim through its Individual True Name.  The individual must be on
+the same plane as the Adept.  If the ritual succeeds and if the victim
+is within the range of effect, an extra-dimensional path will open and
+the spirit and consciousness of the target will appear at the location
+in an insubstantial form, taking on the habitus of the individual
+being summoned (including clothes currently worn, weapons, etc -- good
+enough for a locate spell to be used).  The spirit may not change
+location once summoned, but may move its ``limbs'', and talk just as
+if the person themselves were there.  The spirit may not be harmed by
+any physical or magical attack, nor may it harm itself.  Telepathy and
+suchlike will not affect the spirit, although the spirit will have a
+readable aura.  The spirit may not use any magic, including talent
+magic.  There is no compulsion on the spirit, who may answer questions
+only as they see fit, and may converse at will.  However the spirit
+must remain for the duration of the ritual (5 minutes + 5 / Rank) or
+until dismissed by the Adept, either by choice or by the Adept leaving
+the vicinity of the spirit (100 ft or so).  The target will remember
+all seen, heard, smelt, etc from the summoning as if they had actually
+been there in person.
+
+The target's body will, at the exact time the spirit is summoned,
+slump to the ground comatose.  It will have a living aura, but no
+sentience will be present, just the body's autonomous functions.  The
+body gains or loses no fatigue while in this coma, unless healed /
+harmed in some way.  If the body is killed the spirit is immediately
+returned to it (N.B.\ if the body is on 0 EN it is possible that this
+return of the spirit may ``kickstart'' the body into life).  Otherwise
+the spirit is not in contact with its body and has no idea what is
+happening to it.
+
+The ritual has a Base Chance of 20\% plus 5\% per rank in the ritual
+and 5\% per Individual True Name Rank.  If the ritual works, but
+nothing happens the Adept will know either the entity resisted, the
+entity is out of range, the entity is dead or the the wrong name has
+been used.  Backfire is possible, with spell reversal probably
+entailing travel to the being being summoned.
+@
+
+
+4.2
+log
+@Minor corrections from Andrew Withy plus formatting changes.
+@
+text
+@d1 1
+a1 1
+\begin{college}[1.3]{namer}{Naming Incantations}
+a138 1
+
+d142 1
+a142 1
+\resist{May only be actively resisted}
+a220 1
+
+d225 1
+a225 1
+\resist{May be actively \& passively resisted}
+d228 8
+a235 7
+\begin{effects} The Adept may influence the actions of any one entity
+whose Generic Name they know by casting a Spell of Charming over the
+individual.  If, in addition, the Adept knows and pronounces the
+victim's Individual True Name, the Base Chance of the spell taking
+effect is increased by 50\% and the effect of the spell is increased.
+The victim of the spell will then see the Adept as their true friend
+and will readily accept most suggestions emanating from them.  Sworn
+d263 1
+a263 1
+\resist{May be actively \& passively resisted}
+d266 8
+a273 7
+\begin{effects} The Adept may cast this spell over any target(s) whose
+Generic or Individual True Names are known to them.  Once successfully
+cast, the spell permits the Adept to order the target to do anything
+within its physical capabilities which is not obviously suicidal.  The
+spell may affect a number of targets equal to or less than the Adept's
+Rank with this spell.  The Base Chance is increased by 25\% if the
+Adept pronounces the Individual True Name of all the spell's targets.
+d295 1
+a295 1
+\resist{May be actively \& passively resisted}
+d298 6
+a303 5
+\begin{effects} The Adept may paralyse a single target with this spell,
+if it's Generic True Name is known.  Normal stun recovery guidelines
+apply, with the first recovery roll coming at the end of the pulse
+following the spell's casting.  This spell will affect entities that
+do not normally stun, such as demons and undead.
+d313 1
+a313 1
+\resist{May not be resisted}
+d316 14
+a329 13
+\begin{effects} Through use of this spell, an Adept may banish a
+summoned being back to its own plane.  While the banishment spell is
+in effect, the appropriate counterspell cast at a summoned entity by
+the Adept will cause the entity (unless it passively resists) to
+return to its own plane.  The counterspell must match the type of
+spell/ritual used in the summoning of the creature.  In general the
+spells/rituals affected are the elemental summonings (Summon Fire
+Elemental, etc), all Greater Summonings, Dark Sphere conjuration
+(Celestial R-1), and Fire college Efreeti and Salamander summoning.
+Call Master is not classified as a summoning spell.  The base chance
+of the banishment is that of the counterspell employed (including
+modifiers for generic and individual names).  The being to be banished
+may actively and passively resist the banishment.
+d341 1
+a341 1
+\resist{May not be resisted}
+a384 1
+
+d389 1
+a389 1
+\resist{May only be passively resisted}
+@
+
+
+4.1
+log
+@Language bonus changed to fit new languages 2.0.
+@
+text
+@d346 2
+a347 2
+This is a two part ritual.  The Adept may only use one part of ritual
+at any one time.  There is no possibility of backfire from this
+@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 1
+a1 4
+\section{The College of Naming Incantations (Ver 1.3)}
+\index{colleges!Naming Incantations|(}
+\label{namer}
+\begin{multicols}{3}
+d17 5
+a21 5
+known are listed on a separate sheet as the Namer Names List).  This
+familiarity with an ancient spoken language allows Namers to Rank the
+Skill Spoken Languages at half normal experience cost to Rank 5 for
+all ancient languages attempted.  Namers may learn a Generic True Name
+they are not familiar with by
+d140 6
+a145 6
+\sItem{Range}{Special}
+\sItem{Experience Multiple}{75}
+\sItem{Base Chance}{2 \x PC + 5\% / Rank}
+\sItem{Resist}{May only be actively resisted}
+\sItem{Target}{Entity, Object, Area, Volume}
+\emph{Effect:}
+d149 1
+d190 3
+a192 3
+\sItem{Base Chance}{That of the counterspell used}
+\sItem{Cast Time}{Up to 10 hours (Minimum 1)}
+\emph{Effect:}
+d214 1
+d223 8
+a230 8
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{1 hour + 1 / Rank}
+\sItem{Experience Multiple}{450}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Storage}{Investment}
+\sItem{Target}{Entity}
+\emph{Effect:} The Adept may influence the actions of any one entity
+d255 1
+d260 8
+a267 8
+\sItem{Range}{5 feet + 5 / Rank}
+\sItem{Duration}{1 hour + 1 / Rank}
+\sItem{Experience Multiple}{500}
+\sItem{Base Chance}{10\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Storage}{Investment}
+\sItem{Target}{Entity}
+\emph{Effect:} The Adept may cast this spell over any target(s) whose
+d286 1
+d291 8
+a298 8
+\sItem{Range}{15 feet + 5 / Rank}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{15\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Entity}
+\emph{Effect:} The Adept may paralyse a single target with this spell,
+d303 1
+d308 8
+a315 8
+\sItem{Range}{Self}
+\sItem{Duration}{10 seconds + 10 / Rank}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Potion}
+\sItem{Target}{Summonable entities}
+\emph{Effect:} Through use of this spell, an Adept may banish a
+d328 1
+d336 10
+a345 10
+\sItem{Range}{5 feet + 1 / Rank}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{40\% + 10\% / Rank}
+\sItem{Resist}{May not be resisted}
+\sItem{Target}{Entity or Object}
+\sItem{Cast Time}{1 hour}
+\sItem{Materials}{None}
+\sItem{Actions}{Concentration}
+\sItem{Concentration}{Standard}
+\emph{Effect:}
+d378 1
+d384 8
+a391 8
+\sItem{Range}{50 miles + 50 / Rank}
+\sItem{Duration}{5 minutes + 5 / Rank}
+\sItem{Experience Multiple}{300}
+\sItem{Base Chance}{20\% + 5\% / Rank}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Target}{Entity}
+\sItem{Time Taken}{1 hour}
+\emph{Effect:}
+d431 1
+d434 1
+a434 2
+\end{multicols}
+
+d606 2
+a607 2
+\index{colleges!Naming Incantations|)}
+\clearemptydoublepage
+@
+
+
+3.4
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+3.3
+log
+@Fix e.g. problem
+@
+text
+@d38 2
+a39 2
+however.  An entity will be called by his given (or use) Name, which
+is given to him by his parents.  The Individual True Name and the
+d63 2
+a64 3
+Name has been acquired.  Generic names take 1 week per Rank and can
+only be done one at a time.  Individual names take 4 weeks per Rank
+and can also only be studied one at a time.  Ranking of Names is not
+d68 1
+a68 1
+adventurering.
+d114 1
+a114 1
+The MA requirement for this college is 2, since Rank 0 counterspells
+d135 2
+a136 2
+or ritual and Rank in the use of the Name of the target both affect
+the Base Chance.
+d150 2
+a151 2
+from the Adept.  See the Detect Aura Talent (\S \ref{detect-aura}) for
+the results of this talent.
+d181 4
+a184 4
+completed, then the Adept will have to train in these counterspells as
+for any other General Knowledge spell.  At present the Namer College
+teaches new Namers counterspells of 14 colleges.  Each has a General
+Knowledge and a Special Knowledge counterspell, so there are 28
+d198 1
+a198 1
+Namer treats the Ritual of Dissipation as if they were employing
+d200 1
+a200 1
+he must cast the appropriate counterspell in order to accomplish the
+d212 1
+a212 1
+hour must be spent implementing this ritual.  The Namer may not simply
+d231 3
+a233 3
+\emph{Effect:} The Namer may influence the actions of any one entity
+whose Generic Name he knows by casting a Spell of Charming over the
+individual.  If, in addition, the Namer knows and pronounces the
+d235 4
+a238 4
+effect is increased by 50 and the effect of the spell is increased.
+The victim of the spell will then see the Adept as his true friend
+and will readily accept most suggestions emanating from him.  Sworn
+enemies of the Adept (or of his race) will not be affected by this
+d242 1
+a242 1
+The Adept may either suggest actions to the victim or may order him
+d250 1
+a250 1
+victim immediately makes a Resistance Check.  If he resists, then the
+d260 2
+a261 2
+\sItem{Range}{5 Feet + 5 additional / Rank}
+\sItem{Duration}{1 hour + 1 additional / Rank}
+d267 2
+a268 2
+\emph{Effect:} The Namer may cast this spell over any target(s) whose
+Generic or Individual True Names are known to him.  Once successfully
+d271 7
+a277 9
+spell may affect a number of targets equal to or less than the
+Adept's Rank with this spell.  The Base Chance is increased by 25\% if
+the Adept pronounces the Individual True Name of all the spell's
+targets.  Zombies and Skeletons can not be compelled.  Plants may be
+compelled, as can animals, but the Namer
+\begin{Itemize}
+\item Must be able to communicate with it.
+\item The target compelled can only do what it is normally able to do
+(one couldn't make a dog talk in a human voice, or make a plant uproot
+a278 1
+\end{Itemize}
+d297 2
+a298 2
+\emph{Effect:} A Namer may paralyse a single target with this spell,
+if its Generic True Name is known.  Normal stun recovery guidelines
+d313 1
+a313 1
+\emph{Effect:} Through use of this spell, a Namer may banish a
+d316 1
+a316 1
+the Namer will cause the entity (unless it passively resists) to
+a347 1
+
+d349 1
+a349 1
+Namer may determine if an individual or object is currently or has
+d365 1
+a365 1
+and College) is revealed to the Namer.  If the magic is of non-college
+d369 1
+a369 1
+Through this ritual, the Namer can discover the exact nature of all
+d386 1
+a386 1
+\sItem{Time Taken}{Minimum 1 hour}
+d392 1
+a392 1
+the same plane as the adept.  If the ritual succeeds and if the victim
+d404 1
+a404 1
+only as he/she sees fit, and may converse at will.  However the spirit
+d421 3
+a423 4
+The ritual takes one hour, and has a Base Chance of 20\% plus 5\% per
+rank in the ritual and 5\% per Individual True Name Rank. It has a
+range of 50 miles plus 50 miles per Rank.  If the ritual works, but
+nothing happens the adept will know either the entity resisted, the
+@
+
+
+3.2
+log
+@Remove encounter method for GTNs and typographical fixups.
+@
+text
+@d357 1
+a357 1
+fraction of a week) since the spell was cast.  Permanent magic (e.g.\
+@
+
+
+3.1
+log
+@Fix spell environment and indexes
+@
+text
+@d11 1
+d13 12
+a24 12
+All living beings in the DragonQuest world have a Generic True Name
+and aura.  Formerly living things retain their name and traces of
+their aura.  This name is in an ancient language, and the translation
+into the common tongue would yield such terms as man, elf, tiger, oak,
+bee, rattlesnake, rose, etc.  All such names when uttered in their
+ancient form by a Namer give the Namer power to control the entity,
+and these Generic Names are taught to an apprentice Namer during the
+Namer's training (the usual names known are listed on a separate sheet
+as the Namer Names List).  This familiarity with an ancient spoken
+language allows Namers to Rank the Skill Spoken Languages at half
+normal experience cost to Rank 5 for all ancient languages attempted.
+Namers may learn a Generic True Name they are not familiar with by
+d26 4
+a29 2
+\begin{itemize}
+\item Encountering the entity to which the Name refers.
+d31 1
+a31 8
+\end{itemize}
+
+The encounter method requires no explicit action and no time is taken.
+Formerly living objects will only reveal their Generic Name to a Namer
+in this manner if they are in a recognisable form (for example the
+head of lion would reveal its Generic Name but not a leg or an ear).
+
+\index{names!generic}
+d51 1
+a51 1
+\begin{itemize}
+d58 1
+a58 1
+\end{itemize}
+d277 1
+a277 1
+\begin{itemize}
+d282 1
+a282 1
+\end{itemize}
+d351 1
+a351 3
+{\setlength\leftmargini{0.5em}
+\begin{enumerate}
+\setlength\itemsep{0pt}
+d379 1
+a379 2
+\end{enumerate}}
+
+d431 1
+a431 2
+been used.  The Experience Multiple is 300, and it may be passively
+resisted.  Backfire is possible, with spell reversal probably
+@
+
+
+3.0
+log
+@Major typographical changes.  Spells now spell environments
+@
+text
+@d2 1
+a2 1
+\index{college!namer|(}
+d145 1
+a145 1
+\begin{talent}{Detect Aura (T-1)}
+d194 1
+a194 1
+\begin{ritual}{Ritual of Dissipation (Q-1)}
+d226 1
+a226 1
+\begin{spell}{Spell of Charming (S-1)}
+a260 1
+
+d263 1
+a263 1
+\begin{spell}{Spell of Compelling Obedience (S-2)}
+d296 1
+a296 1
+\begin{spell}{Spell of Paralysis (S-3)}
+d312 1
+a312 1
+\begin{spell}{Spell of Banishing (S-4)}
+d338 1
+a338 1
+\begin{ritual}{Ritual of Magic Divination (R-1)}
+d389 1
+a389 1
+\begin{ritual}{Ritual of Name Summoning (R-2)}
+d616 1
+a616 1
+\index{college!namer|)}
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d2 1
+a2 1
+\index{namer}
+d145 1
+a145 1
+\subsubsection{Detect Aura (T-1)}
+d148 6
+a153 8
+\begin{spelldesc}
+\emph{Range:} Special \\
+\emph{Experience Multiple:} 75 \\
+\emph{Base Chance:} 2 \x PC + 5\% / Rank \\
+\emph{Resist:} May only be actively resisted \\
+\emph{Target:} Entity, Object, Area, Volume \\
+\end{spelldesc}
+\emph{Effects:}
+d157 1
+d194 1
+a194 1
+\subsubsection{Ritual of Dissipation (Q-1)}
+a195 2
+\index{dissipation}
+\index{rituals!dissipation}
+d197 3
+a199 5
+\begin{spelldesc}
+\emph{Base Chance:} That of the counterspell used \\
+\emph{Cast Time:} Up to 10 hours (Minimum 1) \\
+\end{spelldesc}
+\emph{Effects:}
+d221 2
+d226 1
+a226 1
+\subsubsection{Spell of Charming (S-1)}
+a227 2
+\index{spells!charm}
+\index{charm}
+d229 8
+a236 10
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} 1 hour + 1 / Rank \\
+\emph{Experience Multiple:} 450 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Storage:} Investment \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:} The Namer may influence the actions of any one entity
+d262 12
+a273 14
+\subsubsection{Spell of Compelling Obedience (S-2)}
+\index{compelling obedience}
+\index{spells!compelling obedience}
+
+\begin{spelldesc}
+\emph{Range:} 5 Feet + 5 additional / Rank \\
+\emph{Duration:} 1 hour + 1 additional / Rank \\
+\emph{Experience Multiple:} 500 \\
+\emph{Base Chance:} 10\% \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Storage:} Investment \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:} The Namer may cast this spell over any target(s) whose
+d295 1
+d297 1
+d299 8
+a306 14
+\subsubsection{Spell of Paralysis (S-3)}
+\index{paralysis}
+\index{spells!paralysis}
+
+\begin{spelldesc}
+\emph{Range:} 15 feet + 5 / Rank \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} 15\% \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap\\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:} A Namer may paralyse a single target with this spell,
+d311 3
+d315 8
+a322 14
+\subsubsection{Spell of Banishing (S-4)}
+\index{banishing}
+\index{spells!banishing}
+
+\begin{spelldesc}
+\emph{Range:} Self \\
+\emph{Duration:} 10 seconds + 10 / Rank \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Potion \\
+\emph{Target:} Summonable entities \\
+\end{spelldesc}
+\emph{Effects:} Through use of this spell, a Namer may banish a
+d335 1
+d339 13
+a351 16
+\subsubsection{Ritual of Magic Divination (R-1)}
+\index{divination}
+\index{rituals!divination}
+
+\begin{spelldesc}
+\emph{Range:} 5 feet + 1 / Rank \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} 40\% + 10\% / Rank \\
+\emph{Resist:} May not be resisted \\
+\emph{Target:} Entity or Object \\
+\emph{Cast Time:} 1 hour \\
+\emph{Materials:} None \\
+\emph{Actions:} Concentration \\
+\emph{Concentration:} Standard \\
+\end{spelldesc}
+\emph{Effects:}
+d388 3
+a390 1
+\subsubsection{Ritual of Name Summoning (R-2)}
+a391 2
+\index{name summoning}
+\index{rituals!name summoning}
+d393 8
+a400 10
+\begin{spelldesc}
+\emph{Range:} 50 miles + 50 / Rank \\
+\emph{Duration:} 5 minutes + 5 / Rank \\
+\emph{Experience Multiple:} 300 \\
+\emph{Base Chance:} 20\% + 5\% / Rank \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Target:} Entity \\
+\emph{Time Taken:} Minimum 1 hour \\
+\end{spelldesc}
+\emph{Effects:}
+d442 2
+d448 1
+a448 2
+\index{name list}
+\index{names!namer list}
+d617 1
+a617 1
+
+@
+
+
+1.8
+log
+@Spelling correction in name list.  Palfrey removed from list.
+@
+text
+@@
+
+
+1.7
+log
+@The storage on spells fixed to current "rules."
+@
+text
+@d579 1
+a579 1
+Orge \\
+a583 1
+Palfrey \\
+@
+
+
+1.6
+log
+@Spelling mistakes in names list corrected.
+Additional indicies added.
+@
+text
+@d279 1
+a279 1
+\emph{Storage:} \\
+d316 1
+a316 1
+\emph{Storage:} \\
+d335 1
+a335 1
+\emph{Storage:} Potion, Investment \\
+@
+
+
+1.5
+log
+@Add names list to end of college.
+@
+text
+@d10 2
+d35 3
+a37 1
+All sentient entities (player character races, dragons, merpeople,
+d53 2
+d59 1
+d74 1
+d198 1
+d231 1
+d271 1
+d308 1
+d327 1
+d355 2
+d382 1
+a382 1
+fraction of a week) since the spell was cast.  Permanent magic (eg
+d407 3
+d449 1
+a449 1
+returned to it (NB if the body is on 0 EN it is possible that this
+d465 4
+d473 1
+a473 1
+Aligator \\
+d486 1
+a486 1
+Black window \\
+d581 1
+a581 1
+Ord \\
+d590 1
+a590 1
+Pirahna \\
+d592 1
+a592 1
+Praire dog \\
+@
+
+
+1.4
+log
+@Release 1.0 snapshot
+@
+text
+@d444 171
+a615 1
+\raggedcolumns
+a616 1
+\end{multicols}@
+
+
+1.3
+log
+@Finished changes before May Gods meeting
+@
+text
+@d6 1
+a6 1
+Members of the College of Naming Incantations specialize in the
+d14 1
+a14 1
+bee, rattlesnake, rosel, etc.  All such names when uttered in their
+d40 4
+a43 4
+Given Name will be in the entity's native tongue (thus the Namer must
+spend time translating the Individual Name into the Namer language
+before it could be used).  When an individual is born their Individual
+True Name becomes known to the Naming Demons (see the demon
+d87 9
+a95 8
+trained to recognize, but other Colleges, through use of the same
+Detect Aura spell/talent, would need to inquire of.  The Individual
+True Name is also coded into the aura, but is so complex and varied
+that they cannot be deciphered and used by even a Namer.  If the Namer
+is given the Entity's True Name, then it is possible for the Namer to
+identify the auric characteristics that make up the Individual True
+Name.  The study of these components takes considerable time due to
+their complexity.
+d105 1
+a105 1
+\subsection{Requirements}
+d111 5
+d141 5
+a145 5
+{\em Range:} Special \\
+{\em Experience Multiple:} 75 \\
+{\em Base Chance:} 2 \x Perception + 5\% / Rank -1\% for every foot after the first five \\
+{\em Resist:} May only be actively resisted \\
+{\em Target:} Entity, Object, Area, Volume \\
+d148 3
+a150 2
+See the Detect Aura Talent (\S \ref{detect-aura}) for the results of
+this talent.
+d155 1
+a155 1
+counterspells against all Colleges of Magic, and Namers may loose a
+d166 2
+a167 1
+use of counterspells is described in section (\S \ref{counterspells}).
+d181 3
+a183 4
+teaches new Namers of 14 colleges (the 12 in the DQ manual and the
+Rune and Binder colleges).  Each has a General Knowledge and a Special
+Knowledge counterspell, so there are 28 counterspells which a new
+Namer knows.
+d192 2
+a193 2
+{\em Base Chance:} That of the counterspell used \\
+{\em Time Taken:} Up to 10 hours (Minimum 1) \\
+d225 7
+a231 7
+{\em Range:} 15 feet + 15 / Rank \\
+{\em Duration:} 1 hour + 1 / Rank \\
+{\em Experience Multiple:} 450 \\
+{\em Base Chance:} 40\% \\
+{\em Resist:} May be actively \& passively resisted \\
+{\em Storage:} Investment \\
+{\em Target:} Entity \\
+d233 1
+a233 1
+{\em Effects:} The Namer may influence the actions of any one entity
+d238 1
+a238 1
+The victim of the spell will then see the caster as his true friend
+d240 1
+a240 1
+enemies of the caster (or of his race) will not be affected by this
+d244 2
+a245 2
+The caster may either suggest actions to the victim or may order him
+to act in a certain way on pain of losing the caster's ``friendship''.
+d249 1
+a249 1
+upon 90\% of the time.  The caster may only ensure 100\% compliance
+d251 1
+a251 1
+binds the victim and caster together.  In such instances, however, the
+d263 7
+a269 7
+{\em Range:} 5 Feet + 5 additional / Rank \\
+{\em Duration:} 1 hour + 1 additional / Rank \\
+{\em Experience Multiple:} 500 \\
+{\em Base Chance:} 10\% \\
+{\em Resist:} May be actively \& passively resisted \\
+{\em Storage:} \\
+{\em Target:} Entity \\
+d271 1
+a271 1
+{\em Effects:} The Namer may cast this spell over any target(s) whose
+d273 1
+a273 1
+cast, the spell permits the caster to order the target to do anything
+d276 2
+a277 2
+caster's Rank with this spell.  The Base Chance is increased by 25\% if
+the caster pronounces the Individual True Name of all the spell's
+d299 7
+a305 7
+{\em Range:} 15 feet + 5 / Rank \\
+{\em Duration:} Immediate \\
+{\em Experience Multiple:} 250 \\
+{\em Base Chance:} 15\% \\
+{\em Resist:} May be actively \& passively resisted \\
+{\em Storage:} \\
+{\em Target:} Entity \\
+d307 1
+a307 1
+{\em Effects:} A Namer may paralyse a single target with this spell,
+d317 7
+a323 7
+{\em Range:} Self \\
+{\em Duration:} 10 seconds + 10 / Rank \\
+{\em Experience Multiple:} 200 \\
+{\em Base Chance:} 20\% \\
+{\em Resist:} May not be resisted \\
+{\em Storage:} Potion, Investment \\
+{\em Target:} Summonable entities \\
+d325 1
+a325 1
+{\em Effects:} Through use of this spell, a Namer may banish a
+d327 1
+a327 1
+in effect the appropriate counterspell cast at a summoned entity by
+d329 1
+a329 1
+return to it's own plane.  The counterspell must match the type of
+d332 6
+a337 11
+Elemental, etc), all Greater Summonings, Lesser Summonings conjuring,
+Dark Sphere conjuration (Celestial R-1), and Fire college Efreeti and
+Salamander summoning.  Call Master (Black G-14), is not classified as
+a summoning spell.  Lesser Summonings various summonings spells (as
+opposed to conjuring) and the elemental colleges summoning creatures
+spells do not involve the summoned creature returning to their plane
+once the spell finishes and are thus not affected by the workings of
+this spell.  The base chance of the banishment is that of the
+counterspell employed (including modifiers for generic and individual
+names).  The being to be banished may actively and passively resist
+the banishment.
+d344 8
+a351 8
+{\em Range:} 5 feet + 1 / Rank \\
+{\em Experience Multiple:} 250 \\
+{\em Base Chance:} 40\% + 10\% / Rank \\
+{\em Reist:} May not be resisted \\
+{\em Target:} Entity or Object \\
+{\em Cast Time:} 1 hour \\
+{\em Materials:} None \\
+{\em Actions:} Concentration \\
+d369 13
+a381 8
+no modifier (for example if Rolf the Barbarian has had three spells on
+him 1, 2 and 3 weeks ago respectively, and Moniker the Namer is rank 2
+in the ritual, a cast of 50\% would mean the 1 and 2 week ago spells
+would be revealed but not the spell of 3 weeks ago.  However if the 3
+week ago spell was a Lesser enchantment which was still in effect it
+would be revealed).  If the ritual is successful, the nature of the
+spell (its exact name and College) is revealed to the Namer.  If the
+magic is of non-college origin its precise effects are revealed.
+d386 3
+a388 3
+upoon an item.  Note that if an item has been imbued with an
+Individual True Name will not be revealed, but the fact that the item
+has a Name will be.
+d394 7
+a400 7
+{\em Range:} 50 miles + 50 / Rank \\
+{\em Duration:} 5 minutes +5 / Rank \\
+{\em Experience Multiple:} 300 \\
+{\em Base Chance:} 20\% + 5\% / Rank \\
+{\em Resist:} May only be passively resisted \\
+{\em Target:} Entity \\
+{\em Time Taken:} Minimum 1 hour \\
+d406 1
+a406 1
+victim through it's Individual True Name.  The individual must be on
+d415 3
+a417 3
+any physical or magical attack, nor may do any harm itself.  Telepathy
+and suchlike will not affect the spirit, although the spirit will have
+a readable aura.  The spirit may not use any magic, including talent
+d421 14
+a434 13
+until dismissed by the caster, either by choice or by the caster
+leaving the vicinity of the spirit (100 ft or so).  The target will
+remember all seen, heard, smelt, etc from the summoning just as if
+they had actually been there in person.
+
+The targets body will immediately slump to the ground comatose.  It
+will have a living aura, but no sentience will be present, just the
+body's autonomous functions.  The body gains or loses no fatigue while
+in this coma, unless healed / harmed in some way.  If the body is
+killed the spirit is immediately returned to it (NB if the body is on
+0 EN it is possible that this return of the spirit may ``kickstart''
+the body into life).  Otherwise the spirit is not in contact with its
+body and has no idea what is happening to it.
+d446 1
+a446 1
+\pagebreak
+@
+
+
+1.2
+log
+@Half way through making gender changes
+@
+text
+@d193 17
+a209 17
+Ritual Spell Preparation (see \S\ref{magic:) except that he must cast the
+appropriate counterspell in order to accomplish the dissipation of the
+spell.  In order to perform this ritual, the Namer must know the exact
+name of the spell that was cast over the character or object, what
+College the spell was a part of, and whether or not the spell was a
+General or Special Knowledge spell.  Only spells (not rituals) may be
+dissipated using this technique.  Only Namers may use counterspells to
+dissipate spells once they have been cast, due to their superior
+knowledge of the nature and characteristics of auras.  Adepts of other
+Colleges may use counterspells to send entities which they have
+personally summoned back to their own dimensions.  In such cases, the
+counterspell need not be cast as part of a ritual.  Only Namers,
+however, may dispel magic by using this ritual.  At least 1 hour must
+be spent implementing this ritual.  The Namer may not simply cast a
+counterspell over a character or object to achieve the same effect.
+Characters may never achieve Rank with this ritual, though the
+specific counterspell used may be ranked.
+d282 1
+a282 1
+a Willpower check (one times Willpower).  Note that this is the most
+d310 1
+a310 1
+{\em Range:} self \\
+d316 1
+a316 1
+{\em Target:} Summonable entity \\
+d342 1
+a352 1
+
+d354 2
+a355 8
+at any one time.  The object or individual must be present within 5 (+
+1 / Rank) feet during the ritual which lasts 1 hour.  At the end of
+the ritual, the Namer's player makes a Cast Check to determine if the
+ritual has had the desired effect.  The Base Chance for this check is
+40\%.  The Base Chance is modified by the addition of 10 for each Rank
+the Namer has in the use of this ritual.  There is no possibility of
+backfire from this ritual.
+
+d364 1
+a364 1
+Magic Divination.  The base chance is reduced by 5 for each week (or
+d391 1
+d411 1
+a411 1
+magic.  There is no compulsion on the spirit,who may answer questions
+d416 2
+a417 2
+remember all seen, heard, smelt, etc from the summoning just as if they
+had actually been there in person.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 1
+a1 1
+\section{The College of Naming Incantations (V 1.3)}
+d13 2
+a14 2
+into the common tongue would yield such terms as Man, Elf, Tiger, oak,
+Bee, Rattlesnake, Rosel, etc.  All such names when uttered in their
+d33 1
+a33 1
+All sentient entities (player character races, dragons, merperson,
+d38 10
+a47 10
+however.  An entity will be called by his Given (or Use) Name, which
+is given to him by his parents.  The Individual True Name and the Given
+Name will be in the entity's native tongue (thus the Namer must spend
+time translating the Individual Name into the Namer language before it
+could be used).  When an individual is born their Individual True Name
+becomes known to the Naming Demons (see the demon descriptions in the
+College of Greater Summoning).  Namers know only their own Individual
+True Name upon completing their education.  All other Individual
+True Names must be acquired and learnt before they can be used.  Three
+methods exist for acquiring an entity's True Name
+d59 4
+a62 4
+reach rank 0) while Individual Names take one week in study after the
+Name has been acquired.  Generic names take 1 week per rank and can
+only be done one at a time.  Individual names take 4 weeks per rank
+and can also only be studied one at a time.  Ranking of names is not
+d65 1
+a65 1
+rank three names at a time.  Nomes cannot be ranked while
+d94 1
+a94 2
+their complexity, hence the month per Rank required for Individual
+True Names.
+d124 4
+a127 3
+the Base Chance in addition to those modifiers listed in 27.7.  Note
+that both Rank with a particular spell or ritual and Rank in the use
+of the Name of the target both affect the Base Chance.
+a141 1
+
+d150 10
+a159 10
+General Knowledge of each Namer when he completes his apprenticeship.
+They are known at Rank 0.  They do not count against the number of
+spells and rituals a Namer may know unless and until Ranked.  A Namer
+may know a number of spells and rituals (other than counterspells) of
+Rank 5 or lower and a number of counterspells of Ranks 1 to 5 equal to
+his Magical Aptitude.  For example, a character could know 3 spells of
+Rank 5 or less and 12 counterspells of Rank 1 through 5 if he had a
+Magical Aptitude of 15 (or any combination of spells, counterspells
+and rituals equal to 15).  The use of counterspells is described in
+section (\S \ref{counterspells}).
+d189 1
+a189 1
+A Namer may always use any counterspell he presently knows to cause
+d192 15
+a206 15
+Namer treats the Ritual of Dissipation as if he were employing Ritual
+Spell Preparation (see 32.1) except that he must cast the appropriate
+counterspell in order to accomplish the dissipation of the spell.  In
+order to perform this ritual, the Namer must know the exact name of
+the spell that was cast over the character or object, what College the
+spell was a part of, and whether or not the spell was a General or
+Special Knowledge spell.  Only spells (not rituals) may be dissipated
+using this technique.  Only Namers may use counterspells to dissipate
+spells once they have been cast, due to their superior knowledge of
+the nature and characteristics of auras.  Adepts of other Colleges may
+use counterspells to send entities which they have personally summoned
+back to their own dimensions.  In such cases, the counterspell need
+not be cast as part of a ritual.  Only Namers, however, may dispel
+magic by using this ritual.  At least 1 hour must be spent
+implementing this ritual.  The Namer may not simply cast a
+@

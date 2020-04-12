@@ -1,0 +1,1114 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL30:3.0
+	REL22:2.2
+	REL21:2.1
+	REL20:2.0
+	REL10:1.5.1.1;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.06.04.05.38.15;	author rossa;	state Exp;
+branches;
+next	2.6;
+
+2.6
+date	98.06.04.05.33.30;	author rossa;	state Exp;
+branches;
+next	2.5;
+
+2.5
+date	98.05.11.02.03.35;	author rossa;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	98.05.11.01.20.15;	author rossa;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	97.09.02.23.48.00;	author rossa;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	97.06.22.23.57.15;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	97.06.22.21.28.10;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	97.06.06.01.18.50;	author rossa;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	97.06.06.01.12.03;	author rossa;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	97.05.22.02.43.07;	author rossa;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	96.10.01.02.25.51;	author rossa;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	96.10.01.01.44.02;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	96.01.12.02.29.09;	author rossa;	state Exp;
+branches
+	1.5.1.1;
+next	1.4;
+
+1.4
+date	95.05.30.00.08.14;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	95.05.29.05.33.45;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.04.07.05.08.12;	author rale01;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.04.06.04.43.52;	author rale01;	state Exp;
+branches;
+next	;
+
+1.5.1.1
+date	96.10.01.03.19.55;	author rossa;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\documentclass[a4paper,twoside,openright]{report}
+\usepackage[times]{dq}
+\usepackage{makeidx}
+\usepackage{amstext}
+
+\newboolean{magic}
+\newboolean{skills}
+\newboolean{tables}
+\newboolean{others}
+
+\setboolean{skills}{true}
+\setboolean{magic}{true}
+\setboolean{tables}{true}
+\setboolean{others}{true}
+
+\makeindex
+
+\title{\fontsize{36}{40pt}\selectfont Rulebook for Players and Game Masters\\ \coverpic}
+
+\author{\fontfamily{\sfdefault}\fontsize{14}{16pt}\selectfont 2001 Revision, First Print\\Alexander et al.}
+
+\date{\thisday}
+
+\begin{document}
+
+\maketitle
+
+\include{copyright}
+
+\input{credits}
+
+% \centerline{\psfig{file=pics/ee.eps}}
+
+\input{history}
+
+\clearemptydoublepage
+
+\tableofcontents
+
+\clearemptydoublepage
+
+\ifthenelse{\boolean{others}}{
+\include{misc/character}\clearemptydoublepage
+\include{misc/combat}\clearemptydoublepage
+\include{misc/adventure}\clearemptydoublepage
+}{}
+
+\ifthenelse{\boolean{magic}}{
+\include{magic/magic}
+\include{magic/minor-magic}
+\include{magic/detect-aura}
+\include{magic/college}
+\include{magic/non-college}
+\include{magic/bardic}
+\include{magic/binder}
+\include{magic/enchant}
+\include{magic/illusion}
+\include{magic/mind}
+\include{magic/namer}
+\include{magic/air}
+\include{magic/celestial}
+\include{magic/earth}
+\include{magic/fire}
+\include{magic/ice}
+\include{magic/water}
+\include{magic/summoning}
+\include{magic/necro}
+\include{magic/rune}
+\include{magic/witchcraft}
+}{}
+
+\clearemptydoublepage
+
+\ifthenelse{\boolean{skills}}{
+\include{skills/skills}
+\include{skills/adventuring}
+\include{skills/alchemist}
+\include{skills/armourer}
+\include{skills/artisan}
+\include{skills/assassin}
+\include{skills/astrologer}
+\include{skills/beastmaster}
+\include{skills/courtesan}
+\include{skills/healer}
+\include{skills/herbalist}
+\include{skills/languages}
+\include{skills/mechanician}
+\include{skills/merchant}
+\include{skills/military}
+\include{skills/navigator}
+\include{skills/philosopher}
+\include{skills/ranger}
+\include{skills/spy}
+\include{skills/thief}
+\include{skills/troubadour}
+\include{skills/warrior}
+\include{skills/weaponsmith}
+}{}
+
+\ifthenelse{\boolean{tables}}{
+% \include{tables/defns}
+\include{tables/spec-grev}
+\include{tables/fumble}
+\include{tables/backfire}
+\include{tables/fright}
+\include{tables/ep}
+\include{tables/weapons}
+\include{tables/combat}
+\input{tables/equation}
+\input{tables/misc}
+}{}
+
+\printindex
+\clearemptydoublepage
+
+\end{document}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@d18 1
+a18 1
+\title{\fontsize{36}{40pt}\selectfont Rulebook for Players and Game Masters}
+d20 1
+a20 2
+\author{\fontfamily{\sfdefault}\fontsize{14}{16pt}\selectfont Fourth Revision, First Print\\Alexander et al.}
+% \author{\epsfig{file=pics/cover.eps}\\ \fontfamily{\sfdefault}\fontsize{14}{16pt}\selectfont Fourth Revision, First Print\\Alexander et al.}
+@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 1
+a1 1
+\documentclass[a4paper,twoside]{report}
+d18 7
+d27 1
+a27 1
+\thispagestyle{empty}
+d29 1
+a29 1
+\vspace*{\fill}
+d31 1
+a31 16
+\begin{center}
+\epsfig{file=pics/cover.eps}
+\end{center}
+
+\vspace*{\fill}
+
+\begin{center}
+\fontsize{36}{40pt}\selectfont
+Rulebook for Players and Game Masters
+\end{center}
+
+\begin{center}
+\fontfamily{\sfdefault}\fontsize{14}{16pt}\selectfont
+Third Revision, First Print \\
+\thisday
+\end{center}
+d33 1
+a33 1
+\clearemptydoublepage
+d35 1
+a35 1
+\include{credits}
+d44 3
+a46 10
+\chapter*{Character Generation, Combat and Adventure}
+\input{misc/character}
+\clearemptydoublepage
+
+\include{misc/combat}
+\clearemptydoublepage
+
+\include{misc/adventure}
+\include{misc/ranking}
+\clearemptydoublepage
+d49 2
+a50 4
+\ifthenelse{\boolean{magic}}
+{\chapter*{Magic}
+
+\input{magic/magic}
+d57 1
+a57 1
+\include{magic/e-and-e}
+d75 2
+a76 4
+\ifthenelse{\boolean{skills}}
+{\chapter*{Skills}
+\begin{multicols}{3}
+\input{skills/skills}
+a98 2
+\end{multicols}
+\clearemptydoublepage
+d104 1
+a111 1
+\clearemptydoublepage
+@
+
+
+3.0
+log
+@REL30
+@
+text
+@@
+
+
+2.6
+log
+@Checkin for release 3.0.
+@
+text
+@@
+
+
+2.5
+log
+@Fix e.g. problem
+@
+text
+@d37 1
+a37 1
+Second Revision, First Print \\
+@
+
+
+2.4
+log
+@*** empty log message ***
+@
+text
+@d84 1
+a84 1
+\include{magic/greater-summoning}
+@
+
+
+2.3
+log
+@Notes of corrections to Ice.
+@
+text
+@d2 1
+a2 3
+\usepackage{ifthen}
+\usepackage{epsfig}
+\usepackage{dq}
+d25 1
+a25 1
+\psfig{file=pics/cover.eps}
+a34 1
+
+d43 1
+a43 211
+\begin{center}
+{\Large \textbf{Contributors}} \\
+\end{center}
+
+\begin{center}
+\begin{tabular}{ll}
+Ian Wood                & Jacqui Dunford-Smith \\
+Martin Dickson		& Jim Arona \\
+Carl Reynolds           & Bryan Holden \\
+Adam Tennant            & Dean Ellis \\
+Clare West              & Keith Smith \\
+Jon McSpadden           & Brent Jackson \\
+Andrew Withy            & Rosemary Mansfield \\
+George Mitchenson       & William Dymock \\
+Ben Tabener             & Terry Spencer \\
+Lisa Rose		& Michael Young \\
+Jono Bean               & Ross Alexander \\
+Stephen Martin          & Struan Judd \\
+Mark Harrison           & Bart Janssen \\
+Sue Turner		& Daniel Dixon \\
+Michael Parkinson	& Phil Judd \\
+Gary Jackson		& Craig Beere \\
+Michael Haycock		& \\
+\end{tabular}
+\end{center}
+
+\vspace*{\fill}
+
+\begin{center}
+\psfig{file=pics/ee.eps}
+\end{center}
+
+\vspace*{\fill}
+
+\begin{center}
+\Large \textbf{History}
+\end{center}
+
+\begin{Description}
+\item[3 September 1997] Add minor typographical changes to Ice, Water
+and corrections from Keith Smith.
+
+\item[23 June, 1997] Typesetting changes to force binder and ice to
+put in an empty page if end on odd page.
+
+\item[6 June, 1997] Final print for 1997 rulebook.
+
+\item[5 June, 1997] Witchcraft control weather modified.  Initial stat
+generation modified so player can choose 90 points rather than
+rollings.  Bardic 1.1 added (Jacqui Smith and Martin Dickson).
+
+\item[22 May, 1997] Parts of Stephen Martin's document on eating,
+recovery and infection added.  Infection removed from combat.  Falling
+removed from Thief and put into adventure.  Binder 1.1 from Stephen
+Martin added.
+
+\item[15 May, 1997] Aquatic Afinity talent added to Water (Keith
+Smith).  Paragraph about Bardic and Ice being probationary until June
+1999.  Skills imply knowledge of the subject area added (Martin
+Dickson).  Skills do not necessarily imply traits added (Ian Wood).
+
+Notes on blood agents moved from infection in combat.  Infection
+removed from combat.
+
+\item[7 May, 1997] Walls of Darkness and Walls of Starlight changed so
+that BC/EM switched for Solar/Star (Andrew Withy).  Version changed to
+1.3.  Necro and Witchcraft Darkness modified to Celestial Darkness.
+Ice 1.5 from Carl Reynolds introduced (May Gods meeting).
+
+\item[29 April, 1997] Numerous minor changes.  Damage on heavy
+crossbows changed from +4 to +5.
+
+\item[22 April, 1997] Weight of invested items changed to minimum of
+one ounce (April Gods meeting).
+
+\item[9 April, 1997] Weight table modified so that values represent
+maximums rather median values.  This should make it simpler to use.
+Mages now cannot cast while prone.  Gilding removed from restrictions
+on magic and cold iron.
+
+\item[6 April, 1997] Ice College 1.3 added by Carl Reynolds - 12/1/96.
+Bardic 1.0 by Jacqui Smith added.
+
+\item[April 1, 1997] Typo in Waters of Vision and Crystal of Vision
+fixed.
+
+\item[March 20, 1997] Notes on shaped items added to introduction
+to magic.
+
+\item[March 19, 1997] Monsters introduction and aspect moved to
+GM's Guide.
+
+\item[March 14, 1997] DQ Swimming Skill - Ver 2.3 by Keith Smith
+added.  Flying added and EP added to EP table (as 125 / Rank).  Notes
+on Ranking added to adventurering section.
+
+\item[March 13, 1997] Extended rituals and notes on possessions
+moved from Binder to general magic.  Counterspells made wardable
+and trappable.  Storages on Namer spells fixed.
+
+\item[February 28, 1997] Guild banking removed from adventure
+section and appending to player's guide.
+
+\item[February 25, 1997] Spelling mistake in combat summary fixed.
+Invisibility added to modifiers (-50).  Water fixed by Clare West,
+with new version (1.3).
+
+\item[February 11, 1997] Giants changed to weight multiple 9 (to be
+confirmed).  Notes of other creatures added.  Minor fixes to Illusion
+1.4.
+
+\item[February 7, 1997] Change maximum Rank of Silent Tongue to six.
+
+\item[January 15, 1997] Spelling mistakes corrected in Namer Name
+List, Light and Dark Aspect and Minor Magics.  Additional indices
+added to Introduction to Magic.
+
+\item[December 17, 1996] New version of the Investment ritual (v1.0)
+added.  Extra indices added to college and non college ritual section.
+
+\item[November 5, 1996] Awe table appended to fright table.  Fright
+from low PB now minium 1 \x WP.
+
+\item[November 1, 1996] Additional indexes added and notes on
+orienteering changed in the skills cost tables.  Ordering of tables
+changed.  Daylight time and holiday times moved to Player's Guild.
+
+\item[October 8, 1996] Map reading added to ranger.  Map reading
+and drawing maps changed in nagivator.  Orienteering removed and
+artisan cartographer added instead (Andrew Withy).
+
+\item[October 1, 1996] Tidy up files in general.  Targeting in magic
+changed so that an Adept can attempt to cast at a target that is
+potentially out of range in the hope of a multiple effect.  Notes on
+magical storage (not approved at this time) added to magic.  Distract
+removed from minor magic.
+
+\item[September 26, 1996] Greater Summonings altered.  The
+descriptions of imps, devils, succubi and incubi removed and put into
+the monster manual, while the descriptions of the special rituals
+(summoning Dukes, Princes, Presidents, Earls, Marquis and Kings)
+added.  Half devils also added to monster manual, under summonables.
+
+\item[September 16, 1996] Add two new combat spells to Air (Jon
+McSpadden), and change version to 2.1.  Fix resistance in Damnum
+Magnatum.  Add notes on magical storage to introduction to magic.  Add
+note that learning a college for the first time takes 6500 ep and six
+months.  Dragon Flames and Necrosis now actively resistable.
+
+\item[September 12, 1996] Changes to Celestial Lighting modifiers and
+the spells of Light and Darkness added.  Version updated to 1.2.
+
+\item[August 12, 1996] Add new bow rules.  Missile weapons before
+unarmed combat in combat section and tables updated.
+
+\item[August 9, 1996] Change the description of orcs and their racial
+multiplier to 1.1.  Change hill giants size multiplier to 11 (rather
+than 15).  This has to be verified.  Be able to target outside normal
+range in the hope of a double or triple.
+
+\item[July 11, 1996]
+Add Monsters section introduction and notes on aspects.
+
+\item[March 27, 1996]
+Add Name list of Namer.  Add holidays and sunrise / sunset table.  Add
+combat equation summary to tables.
+
+\item[March 25, 1996] Rework coinage table to make clearer.  Make
+first reprint.
+
+\item[February 22, 1996] Change weight of coins and remove personal
+names from colleges.
+
+\item[February 17, 1996] Parameters tweaked for formatting, and tables
+moved to back of book, after skills.
+
+\item[January 12, 1996] Initial release for players and GMs.  Release
+document does not contain combat.
+
+\item[January 5, 1996] E \& E and Mind revised by Ross Alexander and
+Brent Jackson.
+
+\item[October 14, 1995] Air rewritten by Jono Bean, Carl Reynolds,
+Phil Judd and Rosemary Mansfield.  Version 2.0 released.
+
+\item[October 14, 1995] Illusion rewritten by Andrew Withy to version
+1.3.
+
+\item[October 1, 1995] General magic revised by Ross Alexander, Andrew
+Withy and Brent Jackson.
+
+\item[June 8, 1995] Water revised by Clare West to version 1.2.
+
+\item[June 6, 1995] First draft is released to GMs for comments and
+corrections.
+
+\item[June 4, 1995] Earth revised by Ross Alexander to version 1.2.
+
+\end{Description}
+
+\vspace*{\fill}
+
+\textbf{Copyright}
+
+DragonQuest is copyright to Simulations Publications, Inc.  First
+Edition, Copyright\copyright{} 1980.  Second Edition,
+Copyright\copyright{} 1981.  Parts of the work \copyright{} 1996, 1997
+to Ross Alexander.
+
+The above named contributors assert their right to this work.  This
+rule book is copylefted under the GNU Public License, version 2.0.
+d53 9
+a61 3
+\input{misc/character} \clearemptydoublepage
+\include{misc/combat} \clearemptydoublepage
+\include{misc/adventure} \clearemptydoublepage
+d94 1
+a96 2
+\begin{multicols}{3}
+
+a115 3
+
+\end{multicols}
+
+d118 1
+@
+
+
+2.2
+log
+@Minor changes.
+@
+text
+@d85 3
+@
+
+
+2.1
+log
+@Add notes about Binder & Ice \clearemptydoublepage.
+@
+text
+@d39 1
+a39 1
+\fontfamily{phv}\fontsize{14}{16pt}\selectfont
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d85 3
+@
+
+
+1.10
+log
+@Michael Haycock added to contributors list.
+@
+text
+@@
+
+
+1.9
+log
+@Minor changes to make ready for first final print.
+@
+text
+@d68 1
+@
+
+
+1.8
+log
+@Checked in to test prcs.
+@
+text
+@d40 1
+a40 1
+Second Revision, Second Draft Print \\
+d84 6
+d272 1
+a283 1
+\include{magic/bardic}
+d326 1
+a326 1
+\include{misc/defns}
+@
+
+
+1.7
+log
+@Add notes about changes to magic.
+@
+text
+@a1 2
+\usepackage{multicol}
+\usepackage{tabularx}
+a3 1
+\usepackage{fancyhdr}
+d5 2
+a6 6
+
+%\setcounter{columnbadness}{1000}
+%\setcounter{finalcolumnbadness}{1000}
+\setcounter{collectmore}{3}
+
+\newcommand{\clearemptydoublepage}{\newpage{\pagestyle{empty}\cleardoublepage}}
+a11 1
+\newboolean{monsters}
+a16 1
+\setboolean{monsters}{true}
+a17 1
+\newcommand{\thisday}{\slshape\fontsize{8}{9pt}\selectfont{MARCH 27, 1996}}
+a19 6
+\pagestyle{fancyplain}
+\lhead[\fancyplain{}{\slshape\fontsize{8}{9pt}\selectfont\rightmark}]{\fancyplain{}{\thisday}}
+\rhead[\fancyplain{}{\thisday}]{\fancyplain{}{\slshape\fontsize{8}{9pt}\selectfont\rightmark}}
+\cfoot{\fancyplain{}{\fontsize{8}{9pt}\selectfont\thepage}}
+\renewcommand\headrulewidth{0.0pt}
+
+d40 2
+a41 2
+First Revision, Second Print \\
+April 1996
+d53 1
+a53 1
+Martin Dixon            & Jim Arona \\
+d61 1
+a61 1
+Lisa Cotton             & Micheal Young \\
+d65 3
+d83 80
+a162 1
+\begin{description}
+d178 3
+a180 5
+Magnatum.  Fix resistance and storage on Self Immolation and fix
+storage on Wraithcloak.  Add notes on magical storage to introduction
+to magic.  Add note that learning a college for the first time takes
+6500 ep and six months.  Dragon Flames and Necrosis now actively
+resistable.
+d231 1
+a231 1
+\end{description}
+d238 3
+a240 3
+Edition, Copyright\copyright{} 1980.  Section Edition,
+Copyright\copyright{} 1981.  Parts of the work \copyright{} 1996 to
+Ross Alexander.
+a257 6
+\ifthenelse{\boolean{monsters}}{
+\include{misc/monsters}
+\include{misc/aspect}
+\clearemptydoublepage
+}{}
+
+d264 1
+d275 1
+d277 1
+d320 1
+a327 3
+% \vspace{5.0mm}
+% \rule[0.5em]{\linewidth}{0.6mm}
+% \input{tables/dates}
+d332 2
+a333 1
+%\printindex
+@
+
+
+1.6
+log
+@Move monsters.tex to misc.
+@
+text
+@d97 7
+a103 1
+		
+d142 1
+a142 1
+\item[February 17, 1996] Paramters tweaked for formatting, and tables
+d152 1
+a152 1
+Phil Judd and Rosemany Mansfield.  Version 2.0 released.
+d175 2
+a176 1
+Copyright\copyright{} 1981.
+@
+
+
+1.5
+log
+@Release 1.0 snapshot
+@
+text
+@a1 1
+\usepackage{xspace}
+d6 1
+a6 3
+\usepackage{fancyheadings}
+\usepackage{oldgerm}
+\usepackage{makeidx}
+d9 4
+d17 1
+d19 1
+d23 1
+d25 1
+d27 1
+a27 1
+\newcommand{\thisday}{\slshape\selectfont{JANUARY 12, 1996}}
+d31 5
+a35 4
+\lhead[\fancyplain{}{\slshape\selectfont\rightmark}]{\fancyplain{}{\thisday}}
+\rhead[\fancyplain{}{\thisday}]{\fancyplain{}{\slshape\selectfont\rightmark}}
+\cfoot{\fancyplain{}{\thepage}}
+\setlength\headrulewidth{0.0pt}
+d56 2
+a57 2
+First Revision \\
+January 1996
+d68 13
+a80 6
+Jon McSpadden		& Brent Jackson \\
+Andrew Withy		& Rosemary Mansfield \\
+George Mitchenson	& William Dymmock \\
+Ben Tabener		& Terry Spencer \\
+Lisa Cotten		& Micheal Young \\
+Jono Bean		& Ross Alexander \\
+d87 1
+a87 1
+\psfig{file=pics/ee.ps}
+d97 41
+d142 13
+a154 1
+\item[October 14, 1995] Air and Illusion repleaced.
+d159 2
+d181 9
+a189 2
+\chapter*{Character Generation, Combat, Adventure and Tables}
+\input{chargen/charactergen}
+d191 1
+a191 13
+\include{combat/combat}
+\clearemptydoublepage
+\include{adventure/adventure}
+%\include{tables/misc}
+%\include{tables/goods}
+\include{tables/ep}
+\include{tables/backfire}
+\include{tables/fright}
+\include{tables/weapons}
+\include{tables/combat}
+\include{tables/spec-grev}
+\clearemptydoublepage}{}
+
+d248 2
+d251 13
+@
+
+
+1.5.1.1
+log
+@Fix rules.tex for release 1.0 (files names changed).
+@
+text
+@d74 1
+a74 1
+\psfig{file=pics/ee.eps}
+d114 1
+a114 1
+\input{misc/character}
+d116 1
+a116 1
+\include{misc/combat}
+d118 1
+a118 1
+\include{misc/adventure}
+@
+
+
+1.4
+log
+@Remove tables section and remove chapter numbers.
+@
+text
+@d2 1
+d16 1
+a16 1
+\newboolean{tables}
+d19 2
+a20 2
+\setboolean{magic}{false}
+\setboolean{tables}{false}
+d22 1
+a22 8
+\ifthenelse{\boolean{magic}}
+{\ifthenelse{\boolean{skills}}
+{\title{\usefont{OT1}{pzc}{m}{it}{45pt}\selectfont{DragonQuest Second Edition Magic and Skills}}}
+{\title{\usefont{OT1}{pzc}{m}{it}\fontsize{40}{45pt}\selectfont{DragonQuest Second Edition Magic}}}}
+{\title{\usefont{OT1}{pzc}{m}{it}\fontsize{40}{45pt}\selectfont{DragonQuest Second Edition Skills}}}
+
+\author{\usefont{OT1}{phv}{m}{n}\fontsize{16}{18pt}\selectfont{Ross Alexander}}
+\date{\usefont{OT1}{phv}{m}{n}\fontsize{16}{18pt}\selectfont{\uppercase{\today}}}
+d26 2
+a27 2
+\lhead[\fancyplain{}{\rightmark}]{\fancyplain{}{\today}}
+\rhead[\fancyplain{}{\today}]{\fancyplain{}{\rightmark}}
+d29 60
+d90 12
+a101 1
+\begin{document}
+d103 2
+a104 1
+\maketitle
+d112 18
+d131 1
+a131 26
+{ \chapter{Magic}
+
+\section{What Magic Contains}
+\begin{itemize}
+\item Introduction to Magic from the DQ II Magic book
+\item Detect Aura Talent from the GM's Guide
+\item Counterspells from the GM's Guide
+\item Non-college rituals from both DQ II Magic and the GM's Guide
+\item The original E \& E college from DQ II Magic
+\item The original Mind college from DQ II Magic with Mindspeech added
+\item The currently played Illusion from the GM's Guide
+\item The currently played Binder, currently under investigation
+\item The GM's Guide Namer college
+\item The original Earth college from DQ II Magic
+\item The current Fire college from the GM's Guide
+\item The original Air college from DQ II Magic
+\item The new Water college from Clare West
+\item The current Celestial from the GM's Guide
+\item The current Witchcraft, replacement for Black Mages
+\item The current Necro from Dean Ellis
+\item The currently played Rune, also under investigation
+\item The DQ II Magic Greater Summoning, for reference only
+\item A draft version of Air from Jono Bean
+\item A draft version of Illusion from Andrew Withy
+\item A draft revision of Earth from Ross Alexander
+\end{itemize}
+d133 1
+a133 1
+\include{magic/magic}
+d137 1
+d139 1
+a140 2
+\include{magic/illusion}
+\include{magic/binder}
+d142 2
+d146 3
+a148 3
+\include{magic/water-1.1}
+\include{magic/air}
+\include{magic/celestial}
+a150 9
+\include{magic/necro}
+\include{magic/greater-summoning}
+\include{magic/earth-1.2}
+\include{magic/air-1.1.5}
+\include{magic/illusion-2.3.4}
+\include{magic/investment}
+\include{tables/backfire}
+\include{tables/fright}
+
+d156 3
+a158 8
+{\chapter{Skills}
+
+\begin{center}
+\psfig{file=pics/ee.ps}
+\end{center}
+
+\include{skills/skills}
+
+a160 1
+\include{skills/adventuring}
+@
+
+
+1.3
+log
+@Save before removing tables section
+@
+text
+@d7 1
+d17 3
+a19 3
+\setboolean{skills}{false}
+\setboolean{magic}{true}
+\setboolean{tables}{true}
+d23 1
+a23 1
+{\title{\usefont{OT1}{pzc}{m}{it}\fontsize{40}{45pt}\selectfont{DragonQuest Second Edition Magic and Skills}}}
+a35 2
+% \setcounter{secnumdepth}{3}
+
+a43 8
+\ifthenelse{\boolean{tables}}
+{ \chapter{Tables}
+\include{tables/backfire}
+\include{tables/fright}
+\include{tables/weapons}
+\include{tables/armour}
+}{}
+
+a76 1
+%\include{magic/counterspells}
+d96 3
+@
+
+
+1.2
+log
+@Spy and thief split up.  Corrections donw
+@
+text
+@d1 1
+a1 1
+\documentclass[a4paper]{report}
+d10 2
+d14 1
+d16 3
+a18 2
+\setboolean{skills}{true}
+\setboolean{magic}{false}
+d27 1
+a27 1
+\date{\usefont{OT1}{phv}{m}{n}\fontsize{16}{18pt}\selectfont{March 1995}}
+d31 2
+a32 2
+\lhead{\fancyplain{}{\today}}
+\rhead{\fancyplain{}{\rightmark}}
+d41 2
+d45 10
+d61 1
+a61 1
+\item Detact Aura Talent from the GM's Guide
+d65 1
+a65 1
+\item The original Mind college from DQ II Magic with Mindspeach added
+d71 2
+a72 2
+\item The original Earth college from DQ II Magic
+\item The new water from Clare West
+d78 3
+a80 2
+\item A (beta) version of Air from Jono Bean
+\item A (alpha) version of Illusion from Andrew Withy
+a82 5
+\section{Tables}
+
+\include{tables/backfire}
+\include{tables/fright}
+
+d86 1
+a86 1
+\include{magic/counterspells}
+a91 1
+\include{magic/rune}
+d98 1
+d102 1
+d104 1
+a104 1
+\include{magic/illusion-2.0.3}
+d107 2
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a108 1
+
+d123 2
+a124 1
+\include{skills/spythief}
+@

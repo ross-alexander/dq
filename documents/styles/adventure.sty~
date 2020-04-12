@@ -1,0 +1,82 @@
+%
+% DQ Adventure Scribe note style sheet
+%
+% 0.1  11-Nov-2003  Ross Alexander
+
+\setlength{\parskip}{2mm}
+\setlength{\parindent}{0mm}
+\oddsidemargin -10mm
+\evensidemargin\oddsidemargin
+\textwidth 180mm
+\setlength\fboxrule{0.4mm}
+
+\newcommand{\adventure}[3]{
+  \newcommand{\dq@title}{#1}
+  \newcommand{\dq@date}{#2}
+  \newcommand{\dq@gm}{#3}
+  \title{\dq@title}
+  \date{\dq@date}
+  \author{\dq@gm}
+}
+
+\setlength\topmargin{-20mm}
+\setlength\textheight{250mm}
+
+\newcommand{\blurb}[1]{
+  \newcommand{\dq@blurb}{#1}
+}
+
+\newenvironment{experience}[1]{
+  \begin{minipage}{0.90\linewidth}
+    \setlength{\parskip}{2mm}
+    \bigskip
+    \begin{center}
+      \section*{#1}
+
+      \bigskip
+
+      {\LARGE \dq@title}
+
+      \bigskip
+
+      {\large \dq@date}
+
+      \bigskip
+
+    \end{center}
+}
+{
+  \bigskip
+  \end{minipage}
+}
+
+\newcommand{\basic}[5]{
+  \newpage
+  \framebox{
+    \begin{experience}{#1}
+      \dq@blurb
+      \begin{center}
+        \begin{tabular}{l}
+          \textbf{Raw Experience:} #2 \\
+          \textbf{Modified Experience:} #3 \\
+           \\
+           \textbf{Monetary reward:} #4 \\
+           \textbf{Guild tax paid:} #5 \\
+        \end{tabular}
+      \end{center}
+    \end{experience}
+  }
+}
+
+\newcommand{\magicitem}[3]%
+{
+  \bigskip
+  \begin{minipage}{0.8\linewidth}
+    \subsection*{#1}%
+    #3%
+    \begin{flushleft}
+      Value: \emph{#2}
+    \end{flushleft}
+  \end{minipage}
+  \bigskip
+}

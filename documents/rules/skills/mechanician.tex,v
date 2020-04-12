@@ -1,0 +1,1017 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.3;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.1;
+
+4.1
+date	2000.02.29.12.21.14;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	98.06.04.05.35.10;	author rossa;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	98.05.11.01.21.22;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.04.06.03.16.06;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	96.01.12.02.21.31;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.04.07.05.08.49;	author rale01;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.04.06.04.31.26;	author rale01;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{skill}{Mechanician}{2.1}{mechanician}
+
+Mechanicians are a blend of engineer and builder who possess both
+design knowledge and crafting ability so that they may plan and
+personally manufacture devices. Even without modern power sources and
+techniques, Mechanicians can still build quite sophisticated devices
+using systems such as springs, hydraulics and wind-based motor systems
+to drive well greased moving parts. Mechanicians may also be called on
+to devise locks and traps to foil the efforts of thieves. They often
+practice a particular trade and are called Locksmiths, Shipwrights,
+Architects, etc. A skilled mechanician may master several such
+professions. Mechanicians often build overly large and complex devices
+that are frequently non-functional and occasionally dangerous. Their
+profession is usually considered more of an art than a science.
+
+\subsection{Restrictions}
+
+A Character must be literate in at least one language at Rank 6 or
+above to acquire the mechanician skill.
+
+MD affects a mechanician's Experience costs. A mechanician pays 10\%
+extra EP if their MD is less than 15 and pays 10\% less if their MD is
+more than 22.
+
+A mechanician must pay money for the upkeep of a studio or workshop,
+tools, work-in-progress and possibly guild fees.
+
+The more complex, dangerous and experimental a mechanician's project
+is, the more likely that it is to be temperamental, expensive to
+upkeep and prone to breakdowns.
+
+\subsection{Benefits}
+
+\begin{Description}
+\item[Drafting]
+A mechanician may draft and use plans accurately.  A mechanician may
+draw freehand sketches and may draft, read and use plans and diagrams,
+provided that they relate to an ability with which the mechanician is
+familiar and that the mechanician is literate in the language used.
+
+\item[Supervision]
+Many projects will require the assistance of artisans and labourers,
+as well as other mechanicians. Mechanicians gain the ability to
+supervise subordinates who are practising either the mechanician skill
+or an artisan skill necessary to the mechanician's project.
+
+\item[Artisan discount]
+Many of the mechanician abilities give the character a grounding in an
+Artisan skill. A character may rank artisan skills that are listed
+under abilities they have learned, at half of the normal experience
+cost and time (round up), up to the same Rank as mechanician. Artisan
+skills are shown in the mechanician ability listings as [craft].
+
+\item[Combinations]
+A mechanician may combine known abilities.  A mechanician may combine
+any or all of their areas of expertise in the design and execution of
+a project. A mechanician may also combine their skills with other
+crafters to produce items. The GM must decide, based on the abilities
+possessed by the mechanician and other assistants, whether or not they
+may design and build a certain project.
+
+\end{Description}
+
+\begin{example}
+A mechanician who knew bridge building, stoneworking, earthworks and
+hydro engineering, could design and build an aqueduct that spanned a
+gorge. A mechanician who knew chronometrical engineering, fine
+materials and spell containment, might design and build a ``magical
+trap'' that has a time delay in the trigger mechanism.  A mechanician,
+an armourer and a weaponsmith could combine abilities to build a suit
+of plate armour with retractable blades at various locations.  A
+mechanician wishes to build a mill using a waterwheel for power. The
+GM determines that they will need the architecture, complex mechanics,
+stoneworking and woodworking abilities. A mechanician who knew
+boat building and animal and textile products, could design and build
+a sail powered coracle made of leather, but not a wooden dinghy.
+\end{example}
+
+\subsection{Abilities}
+
+All mechanicians have certain rudimentary abilities.  At Rank 0 a
+mechanician gains an in-depth knowledge of basic mechanics (including
+levers, wedges, simple gears and pulleys, balances and use of ropes)
+and basic foundations (including simple earthworks, digging and
+shoring pits, piled stone walls and brickmaking and
+laying). [Brickmaker /layer].
+
+After Rank 0 a mechanician acquires one new ability per Rank.
+Additional abilities may be gained after achieving Rank 10, by the
+expenditure of 1500 Experience Points and 4 weeks of training.
+
+Some mechanician abilities give abstract comprehension of the theory,
+design and construction techniques involved in crafting different
+projects. Others offer an understanding of materials along with a
+basic practical knowledge and ability in crafting those substances.
+Each ability lists the particular crafts or substances with which
+knowledge is gained. Special abilities are fully explained in later
+sections of this skill.
+
+Mechanician knowledge is of a more practical and less esoteric nature
+than that gained through equivalent philosopher fields and may be
+complemented by the acquisition of philosophic knowledge.
+
+\subsubsection{The abilities available are:}
+
+\begin{Description}
+\item[Animal and textile products]
+including material such as horn, furs and leather, natural fibres and
+other non-wooden plant products, heavy cloth and ropes. Does not
+include venoms and alchemical extracts. [Rope / Netmaker],
+[Sail / Tentmaker], [Leatherworker], [Tanner / Hideworker / Furrier].
+
+\item[Architecture]
+unfortified buildings of any size.
+
+\item[Bridges]
+includes suspension, span, swing, humpback and floating bridges.
+
+\item[Carriages]
+wagons, carriages and coaches. [Cartwright / Wheelwright].
+
+\item[Chronometers]
+clocks, time-pieces and other timing devices.
+
+\item[Complex locks]
+special ability. (See below). [Locksmith].
+
+\item[Complex mechanics]
+including stresses, valves, pumps, power transmission (complex gears,
+compound pulleys, pistons, hydraulics, etc.) and power generation
+(springs, wind, water, etc.).
+
+\item[Earthworks]
+complex earthworks, foundations and landscaping. Civil engineering
+(including road, ramp and town square building, as well as town
+planning). Earthworks will be required to build most large
+structures. [Lumberjack].
+
+\item[Fine materials]
+fine and delicate materials, wire-pulling and small component
+manufacture. [Gold/Silversmith].
+
+\item[Fortifications]
+defensive military works. Includes a basic knowledge of siege warfare.
+
+\item[Glassworking]
+glass mixing, blowing, window construction and staining.
+[Glass-blower].
+
+\item[Hydro-mechanics]
+devices (pumps, pistons, valves, waterscrews, etc.), canals, sealocks,
+drainage, irrigation, sewage systems and plumbing.
+
+\item[Metalworking]
+the forging and casting of base metals. [Blacksmith], [Caster /
+Pewterer / Tinsmith].
+
+\item[Mines]
+mine design \& construction, pneumatic devices (air pumps, fans,
+ventilators, etc.), knowledge of air shafts, ventilation and basic
+geology.  [Miner].
+
+\item[Optics]
+optical devices (telescopes, magnifying glasses, spectacles, mirrors,
+etc.), knowledge of light, optics, and lens making, grinding and
+finishing.
+
+\item[Prosthetics]
+articulated artificial limbs.
+
+\item[Traps]
+special ability. (See \ref{mechanician:traps}).
+
+\item[Ships]
+new designs for boats and ships. [Shipwright].
+
+\item[Siege engines]
+Offensive military machines. Includes a basic knowledge of siege
+warfare.
+
+\item[Spell containment]
+special ability. (See \ref{mechanician:containment}).
+
+\item[Stoneworking]
+quarrying, cutting, finishing and fitting. [Mason].
+
+\item[Woodworking]
+carpentry, joints and wood-joining. Also making basic wooden
+constructions. [Carpenter / Cabinetmaker].
+
+\item[Experimental engineering]
+This ability may be learnt any number of times with different
+experimental areas. It may first be learnt when acquiring Rank 8.
+Experimental engineering areas may include: aeronautics, steam,
+geo-thermal, gases, explosions, perpetual motion, vacuum, sub-marine
+and advanced versions of any other mechanician ability they already
+possess.
+
+\end{Description}
+
+\subsection{Complex Locks}
+
+\begin{Description}
+
+\item[Rank]
+A Complex Lock is considered to have a Rank, which is the Effective
+Rank that the mechanician used in the construction of the lock.  The
+Rank of a lock may be less than or equal to the Rank of the
+mechanician constructing it.
+
+\item[Time \& cost]
+The time to construct a Complex Lock is: (11 + Lock Rank - mechanician
+Rank) hours.
+
+The cost is (25 \x Lock Rank [minimum 10]) sp.
+
+\end{Description}
+
+A mechanician may always open one of their own Locks in: (12 -
+mechanician Rank) minutes.
+
+\subsection{Trap Construction}
+\label{mechanician:traps}
+\begin{Description}
+
+\item[Rank]
+A trap is considered to have a Rank, which is the Effective Rank that
+the mechanician used in the construction of the trap.  The Rank of a
+trap may be less than or equal to the Rank of the mechanician
+constructing it.
+
+\item[Time \& cost]
+The time and cost to create a trap will vary greatly, depending on the
+complexity, size and nature of the trap.
+
+The most commonly encountered type of mechanician trap is the
+precision trap.  This is the type of small needle or blade trap that
+may be set into or adjacent to locks or other precision devices.
+
+A lock or similar device may have up to Rank / 3 (round up) traps on
+or adjacent to it.
+
+The time to build each trap is: (11 + Trap Rank - mechanician Rank)
+hours.
+
+The cost is: (125 \x Trap Rank) sp, minimum of 50, plus the cost of
+poisons, alchemical materials.
+
+A triggered trap may be reset by any Mechanician whose Rank is at
+least half that of the trap. This will take: (11 - mechanician Rank)
+hours. A trap may need refuelling.
+
+A mechanician may disable or re-enable one of their own traps in (12 -
+mechanician Rank) minutes.
+
+\item[Triggering]
+The precise actions that will trigger a trap must be specified at the
+time that the trap is constructed.  Traps on a lock or other precision
+device are automatically triggered if the device is operated in the
+pre-specified manner and the traps have not been removed or disabled.
+
+\item[Damage]
+A trap may be built that causes physical damage or explosively
+discharges its contents in a cone up to: (Trap Rank + 1) feet wide and
+(10 + Trap Rank) long, or activates the mechanical trigger of a ``spell
+container''.
+
+A precision trap that causes physical damage may cause up to: [D10 +
+Trap Rank] Damage Points. It may also be poisoned, coated with acid,
+etc., so as to cause additional damage.
+
+\end{Description}
+
+\subsection{Spell Containment}
+\label{mechanician:containment}
+
+\index{spell storage!mechancian traps}
+
+A mechanician may use this ability to create a spell container, or
+magical trap, with a mechanical trigger.
+
+\begin{Description}
+
+\item[Construction]
+The mechanician with the ``spell containment'' and ``fine materials''
+abilities can build a mechanical device into which a spell can be
+stored.  The device is usually referred to as a magical trap, or a
+spell container.  The device is made out of silver, truesilver or
+starsilver.  Often the device is built inside or incorporating other
+materials with which the mechanician is familiar.
+
+\item[Spell Storage]
+A single charge of a suitable spell may be stored in the trap or
+container by an Adept successfully casting a spell into the device
+after performing Ritual Spell Preparation.  A double or triple effect
+stores an enhanced spell as specified by the Adept.  A failure has no
+effect.  A backfire affects the Adept as normal, and also results in
+the device being damaged so that 20\% more time and materials are
+required before another try at storing a spell may be attempted.  The
+spell to be stored must include a Storage type of ``Magical Trap''.
+
+\item[Triggering]
+The precise actions that will trigger the device must be specified at
+the time that the device is constructed.  When these actions are
+performed the spell is released.  The spell stored must either affect
+only the entity or object that triggered the release of the spell, or
+affect an area in relation to the device.  All variable spell effects,
+such as direction and volume affected, must be defined at the time of
+storage.  Once the spell has been triggered the device is useless,
+although metal equal to 10\% of the cost may be recovered.  If the
+spell is dissipated, then 20\% of the cost may be recovered.
+
+\item[Time to construct] 25 - (2 \x mechanician Rank) hours.
+
+\item[Time to store spell] (Spell Rank - mechanician Rank) hours, (minimum 1,
+and maximum 10).
+
+\item[Cost] (Spell Rank (minimum 1) \x Spell EM) + 100 sp.
+
+\item[Minimum Weight] (16 - mechanician Rank) ounces.
+\end{Description}
+\end{skill}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@@
+
+
+4.1
+log
+@Lots of changes to Spell containment.
+@
+text
+@d1 1
+a1 1
+\begin{skill}{Merchanician}{2.1}{mechanician}
+d11 1
+a11 1
+Architects, etc. A skilled Mechanician may master several such
+d19 1
+a19 1
+above to acquire the Mechanician skill.
+d21 1
+a21 1
+MD affects a Mechanician's Experience costs. A Mechanician pays 10\%
+d25 1
+a25 1
+A Mechanician must pay money for the upkeep of a studio or workshop,
+d28 1
+a28 1
+The more complex, dangerous and experimental a Mechanician's project
+d36 1
+a36 1
+A Mechanician may draft and use plans accurately.  A Mechanician may
+d38 2
+a39 2
+provided that they relate to an ability with which the Mechanician is
+familiar and that the Mechanician is literate in the language used.
+d42 4
+a45 4
+Many projects will require the assistance of Artisans and Labourers,
+as well as other Mechanicians. Mechanicians gain the ability to
+supervise subordinates who are practising either the Mechanician skill
+or an Artisan skill necessary to the Mechanician's project.
+d48 2
+a49 2
+Many of the Mechanician abilities give the character a grounding in an
+Artisan skill. A character may rank Artisan skills that are listed
+d51 2
+a52 2
+cost and time (round up), up to the same Rank as Mechanician. Artisan
+skills are shown in the Mechanician ability listings as [craft].
+d55 1
+a55 1
+A Mechanician may combine known abilities.  A Mechanician may combine
+d57 1
+a57 1
+a project. A Mechanician may also combine their skills with other
+d59 1
+a59 1
+possessed by the Mechanician and other assistants, whether or not they
+d65 6
+a70 6
+A Mechanician who knew Bridge-building, Stoneworking, Earthworks and
+Hydro-engineering, could design and build an aqueduct that spanned a
+gorge. A Mechanician who knew Chronometrical Engineering, Fine
+Materials and Spell Containment, might design and build a ``magical
+trap'' that has a time delay in the trigger mechanism.  A Mechanician,
+an Armourer and a Weaponsmith could combine abilities to build a suit
+d72 4
+a75 4
+Mechanician wishes to build a mill using a waterwheel for power. The
+GM determines that they will need the Architecture, Complex Mechanics,
+Stoneworking and Woodworking abilities. A Mechanician who knew
+Boat-building and Animal and Textile Products, could design and build
+d81 2
+a82 2
+All Mechanicians have certain rudimentary abilities.  At Rank 0 a
+Mechanician gains an in-depth knowledge of basic mechanics (including
+d88 1
+a88 1
+After Rank 0 a Mechanician acquires one new ability per Rank.
+d92 1
+a92 1
+Some Mechanician abilities give abstract comprehension of the theory,
+d95 4
+a98 4
+basic practical knowledge and ability in crafting those
+substances. Each ability lists the particular crafts or substances
+with which knowledge is gained. Special abilities are fully explained
+in later sections of this skill.
+d101 2
+a102 2
+than that gained through equivalent Philosopher fields and may be
+complemented by the acquisition of Philosophic knowledge.
+d194 3
+a196 3
+Experimental engineering areas may include: Aeronautics, Steam,
+Geo-thermal, Gases, Explosions, Perpetual Motion, Vacuum, Sub-marine
+and Advanced versions of any other Mechanician ability they already
+d206 4
+a209 4
+A Complex Lock, is considered to have a Rank, which is the Effective
+Rank that the Mechanician used in the construction of the Lock.  The
+Rank of a Lock may be less than or equal to the Rank of the
+Mechanician constructing it.
+d212 1
+a212 1
+The time to construct a Complex Lock is: (11 + Lock Rank - Mechanician
+d219 2
+a220 2
+A Mechanician may always open one of their own Locks in: (12 -
+Mechanician Rank) minutes.
+d228 2
+a229 2
+the Mechanician used in the construction of the trap.  The Rank of a
+trap may be less than or equal to the Rank of the Mechanician
+d236 3
+a238 6
+\begin{example}
+A covered pit or a bent tree noose, may have no intrinsic cost and be
+constructed in a matter of hours or minutes, while a complex ``robber
+press'' for a King's tomb may cost thousands of silver pennies and
+require six months and two hundred labourers to build.
+\end{example}
+d240 2
+a241 3
+The most commonly encountered type of Mechanician trap is the
+Precision trap.  This is the type of small needle or blade trap that
+may be set into or adjacent to, locks or other precision devices.
+d243 1
+a243 4
+One lock or similar device may have up to Mechanician Rank / 3 (round
+up) traps on or adjacent to it.
+
+The time to build each trap is: (11 + Trap Rank - Mechanician Rank)
+d250 1
+a250 1
+least half that of the trap. This will take: (11 - Mechanician Rank)
+d253 2
+a254 2
+A Mechanician may disable or re-enable one of their own traps in (12 -
+Mechanician Rank) minutes.
+d279 1
+a279 1
+A Mechanician may use this ability to create a spell container, or
+d285 1
+a285 1
+The Mechanician with the ``Spell Containment'' and ``Fine Materials''
+d298 1
+a298 1
+the device being damaged so that 20%\ more time and materials are
+d313 1
+a313 1
+\item[Time to construct] 25 - (2 \x Mechanician Rank) hours.
+d315 1
+a315 1
+\item[Time to store spell] (Spell Rank - Mechanician Rank) hours, (minimum 1,
+d320 1
+a320 2
+\item[Minimum Weight] (16 - Mechanician Rank) ounces.
+
+d322 1
+a322 1
+\end{skill}@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 1
+a1 2
+\section{Mechanician (Ver 2.0)}
+\label{mechanician}
+a2 3
+\index{mechanician}
+\index{skills!mechanician|(}
+
+d201 1
+a201 1
+\subsection{Special Abilities}
+a202 2
+\subsubsection{Complex Locks}
+
+d222 1
+a222 1
+\subsubsection{Trap Construction}
+d281 1
+a281 1
+\subsubsection{Spell Containment}
+d291 7
+a297 9
+\item[Charging]
+One ``charge'' of a suitable Spell may be stored in that device by an
+Adept spending time in Ritual Spell Preparation.  After the Adept has
+spent the specified amount of time engaged in the Ritual, a cast check
+is made and the spell is stored in the containment device if the cast
+chack is successful.  When the mechanical trigger is activated, the
+spell is released and the device is effectively destroyed and becomes
+worthless.  Expended devices may not be reused, though they may
+generally be re-smelted to reclaim their metal content.
+d299 9
+a307 8
+\item[Restrictions]
+The Spell stored must either affect a definable space (such as a beam
+that goes in a specified direction, or a pre-defined area of a
+specific shape), or it will only affect the activator of the device.
+The triggering mechanism and the exact area and configuration of hexes
+that the spell will affect must be completely specified by the Adept
+at the time that the spell is stored.  Only those spells that have the
+storage option ``Magical Trap'' may be stored using this ability.
+d309 10
+a318 2
+\item[Weight, time \& cost]
+The minimum weight for the device is: (16 - Mechanician Rank) ounces.
+d320 1
+a320 1
+The time to construct the device is: 25 - (2 \x Rank) hours.
+d322 2
+a323 2
+The cost for the device is: (Spell Rank [minimum 1] \x Spell EM) + 100
+sp.
+d325 1
+a325 2
+The time required to store the Spell is: (Spell Rank - Mechanician
+Rank) hours, minimum of 1.
+d327 2
+d330 1
+a330 2
+\index{mechanician}
+\index{skills!mechanician|)}
+@
+
+
+3.2
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+3.1
+log
+@Check in before modifying e.g. and i.e.
+@
+text
+@d25 2
+a26 2
+MD affects a Mechanician's Experience costs. A Mechanician pays 10%
+extra EP if their MD is less than 15 and pays 10% less if their MD is
+d53 1
+a53 1
+Artisan skill. A character may be rank Artisan skills that are listed
+d108 1
+a108 1
+The abilities available are:
+d111 1
+a111 1
+\item[Animal \& Textile products]
+d114 1
+a114 1
+include venoms and Alchemical extracts. [Rope / Netmaker],
+d130 1
+a130 1
+special ability. (See xx.). [Locksmith].
+d148 1
+a148 1
+defensive military works. Includes a basic knowledge of seige warfare. 
+d163 1
+a163 1
+]mine design \& construction, pneumatic devices (air pumps, fans,
+d251 4
+a254 3
+may be set into or adjacent to, locks or other precision devices.  One
+lock or similar device may have up to: (Mechanician Rank / 3 [round
+up]) traps on or adjacent to it.
+d269 1
+a269 1
+\item[triggering]
+d302 1
+a302 1
+chacke is successful.  When the mechanical trigger is activated, the
+d310 2
+a311 2
+specific), or it will only affect the activator of the device.  The
+triggering mechanism and the exact area and configuration of hexes
+d319 1
+a319 1
+The time to construct the device is: (25 - (2 \x Rank)) hours.
+@
+
+
+3.0
+log
+@Complete rewrite by Martin Dickson
+@
+text
+@d3 3
+a5 1
+\index{skills!mechanician(}
+d176 1
+a176 1
+special ability. (See xx.xx).
+d186 1
+a186 1
+special ability. (See xx.xx).
+d229 1
+a229 1
+
+d287 3
+d327 2
+a328 1
+\index{skills!mechanician)}
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d1 1
+a1 1
+\section{Mechanician}
+d3 1
+a3 1
+\index{mechanician}
+d5 12
+a16 12
+Quite sophisticated devices can be engineered without the aid of
+modern power sources and techniques.  A mechanician's most complex
+products will involve pulley, hydraulic, or spring-based motor
+systems, which cause the operation of well-greased moving parts.  The
+mechanician is most often called on to devise locks and traps to foil
+the best efforts of thieves.  Their second most popular line includes
+mechanisms for domestic use (e.g., windmills).
+
+Mechanicians often build complex, sometimes non-functional inventions.
+This is, in part, due to the prevailing view that mechanical gadgets
+are less efficient than magic at all but the simplest jobs.  Thus, the
+job of mechanician is regarded more as an art than a skill.
+d20 2
+a21 2
+A mechanician must know how to read and write in one language at Rank
+6 if they wish to advance beyond Rank 0.
+d23 10
+a32 9
+\subsubsection{A mechanician's progress in the skill is inhibited by a
+low Manual Dexterity value, and aided by a high value in that
+characteristic.}
+
+A mechanician character must pay an additional Experience Point
+increment of 10\% to increase their Rank if their Manual Dexterity
+value is less than 15.  Such a character decreases their Experience
+Point cost to increase their Rank by an increment of 10\% if their
+Manual Dexterity value is greater than 22.
+d34 280
+a313 2
+Under no circumstances may a mechanician build post-Renaissance
+machinery.
+d315 2
+a316 1
+\subsection{Benefits}
+d318 2
+a319 91
+\subsubsection{A mechanician can build increasingly sophisticated traps as
+their Rank increases.}
+\label{mechanician:traps}
+\index{traps}
+
+The difficulty of removing a trap is determined by its Rank.  A
+mechanician may build a trap of up to their current Rank.  The
+mechanician must spend (25 - 2 \x Mechanician's Rank) hours and at
+least (125 \x Trap's Rank) Silver Pennies to build a trap.  The cost
+in Silver Pennies is just for the physical framework of the trap; if
+the trap is coated with poison, filled with an explosive, etc., the
+mechanician must pay for that material.
+
+If a being fails to remove a trap, they have triggered it.
+
+\begin{enumerate}
+\item
+If it is a physical trap, the being suffers [D10 + Trap's Rank] Damage
+Points.  If the trap is poisoned, coated with acid, etc., the being
+will suffer additional damage.
+
+\item
+If it is an explosive trap, it will release its contents in a (10 +
+Trap's Rank) foot long cone.  The base of the cone will be (Trap's
+Rank) feet across.  The hands of the being who attempts to de-trap it
+must be in the cone.  An explosive usually consists of a gas, or
+something on the order of Greek Fire.
+
+\item
+If it is a magical trap, the stored spell is cast upon the
+being who triggered the trap.  The spell is successful unless backfire
+occurs.
+\end{enumerate}
+
+Once a trap is triggered, it cannot again be detonated until reset by
+a mechanician whose Rank is at least equal to that of the trap.  A
+mechanician must spend (12 - Mechanician's Rank) hours to reset a
+trap.  The only outlay they must make in Silver Pennies is to replace
+the contents.  It is assumed that any repairs necessary are made when
+a trap is reset.
+
+A mechanician cannot construct a trap of Rank 0.
+
+\subsubsection{A mechanician can construct a magical trap, in which an
+Adept can store a spell.}
+\index{traps!magical}
+
+The mechanician first must construct a Ranked trap.  They then silver
+and enchant it in conjunction with the Adept, at a cost of (100
+\x Spell Rank) additional Silver Pennies.  The Adept must employ
+Ritual Magic for [Spell Rank + 10 - Mechanician's Rank] hours.
+The spell is stored in the trap, unless backfire occurs.
+
+When a magical trap  is triggered, the  GM rolls percentile  dice.  If
+the roll is  less than the Adept's chance  of backfire at the time the
+trap was enchanted, the  being who triggered  the trap may only try to
+Resist  (the spell).  If the  roll is  within  the backfire range, the
+silver on the trap transmutes to slag.
+
+\subsubsection{A mechanician may construct a lock or a safe of up to their
+Rank.}
+\label{mechanician:locks}
+\label{mechanician:safes}
+\index{lock} \index{safe}
+
+A mechanician must spend (330 - 30 \x Mechanician's Rank) minutes
+and (25 \x Lock's Rank) Silver Pennies to construct a lock.  A
+mechanician must spend (15 - Mechanician's Rank) days and (100 \x
+Safe's Rank) Silver Pennies to build a safe.
+
+A mechanician may store up to one-fifth their Rank (round up) traps on
+or adjacent to a lock.  A mechanician may store up to one half their
+Rank (round up) traps on or adjacent to the lock mechanism of a safe.
+A trap which is on or adjacent to a lock is automatically triggered if
+not de-trapped before a lock or safe is open.
+
+\subsubsection{A mechanician may earn (25 + 10 \x Rank) Silver
+Pennies per day for building or supervising the construction of
+domestic devices.}
+
+Domestic goods will usually be mundane products on the order of
+children's toys, mechanical scythes, pulley lifts, and so on.  The
+mechanician must either establish themselves in a town or promote
+their products for a few days if they wish to be supplied with work.
+
+The GM may, at their discretion, allow a mechanician character to
+construct devices of use on adventures.
+
+\subsubsection{A mechanician can remove their own traps, open their own
+locks or safes without disturbing or harming the device in (12 - Rank)
+minutes.}
+d321 2
+a322 2
+A spy or thief (see \S\ref{spy} or \S\ref{thief}) is able to do the
+same to the constructs of others.
+@
+
+
+1.3
+log
+@Release 1.0 snapshot
+@
+text
+@@
+
+
+1.2
+log
+@Corrections done form March printed version
+@
+text
+@d10 1
+a10 1
+the best efforts of thieves.  His second most popular line includes
+d14 1
+a14 1
+This is in part, due to the prevailing view that mechanical gadgets
+d21 1
+a21 1
+6 if he wishes to advance beyond Rank 0.
+d23 2
+a24 2
+\subsubsection{A mechanician's progress in his skill Is inhibited by a low
+Manual Dexterity value, and aided by a high value In that
+d28 4
+a31 4
+increment of 10\% to increase his Rank if his Manual Dexterity value
+is less than 15.  Such a character decreases his Experience Point cost
+to increase his Rank by an increment of 10\% if his Manual Dexterity
+value is greater than 22.
+d34 1
+a34 1
+weaponry.
+d39 1
+a39 1
+his Rank Increases.}
+d44 6
+a49 6
+mechanician may build a trap of up to his current Rank.  The
+mechanician must spend (25 - 2 \x Mechanician's Rank) hours
+and at least (125 \x Trap's Rank) Silver Pennies to build a
+trap.  The cost in Saver Pennies is just for the physical framework of
+the trap; if the trap is coated with poison, filled with an explosive,
+etc., the mechanician must pay for that material.
+d51 1
+a51 1
+If a being fails to remove a trap, he has triggered it.
+d75 1
+a75 1
+trap.  The only outlay he must make in Silver Pennies is to replace
+d81 1
+a81 1
+\subsubsection{A mechanician can Construct a magical trap, in which an
+d85 2
+a86 2
+The mechanician first must construct a Ranked trap.  He then silvers
+and enchants it in conjunction with the mage, at a cost of (100
+d97 1
+a97 1
+\subsubsection{A mechanician may construct a lock or a safe of up to his
+d108 2
+a109 2
+A mechanician may store up to one-fifth his Rank (round up) traps on
+or adjacent to a lock.  A mechanician may store up to one half his
+d111 2
+a112 2
+A trap which is on or adjacent to a lock is automatically triggered
+it not de-trapped before a lock or safe is open.
+d120 2
+a121 2
+mechanician must either establish himself in a town or promote his
+products for a few days if he wishes to be supplied with work.
+d123 1
+a123 1
+The GM may, at his discretion, allow a mechanician character to
+d126 2
+a127 2
+\subsubsection{A mechanician can remove his own trap, open his own lock
+or safe without disturbing or harming his device in (12 - Rank)
+d130 1
+a130 1
+A spy or thief (see \S\ref{spy} \& \S\ref{thief}) is able to do the
+a131 11
+
+\subsection{Costs}
+
+\subsubsection{A mechanician must pay (150 + 150 \x Rank)
+Silver Pennies per year to supply himself with a tool kit, raw
+materials, and an area in which to work.}
+
+A mechanician who does not spend the above amount operates as if he
+were two Ranks less proficient.  If the Rank of a mechanician is
+reduced to a negative number, the use of the skill is temporarily
+lost.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d2 1
+d40 1
+d61 1
+a61 1
+[Trap's Rank]) foot long cone.  The base of the cone will be (Trap's
+d67 1
+a67 1
+If it is a magical trap (see 56.3), the stored spell is cast upon the
+d99 2
+d130 2
+a131 2
+A spy or thief (see 61) is able to do the same to the constructs of
+others.
+@

@@ -1,0 +1,3117 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.3;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.2;
+
+4.2
+date	2000.05.22.10.31.13;	author ralexand;	state Exp;
+branches;
+next	4.1;
+
+4.1
+date	2000.02.29.12.15.56;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	98.06.04.05.35.08;	author rossa;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	98.05.11.02.03.41;	author rossa;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	98.05.11.01.21.17;	author rossa;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	98.05.08.03.20.37;	author rossa;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	98.05.05.05.38.15;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.05.04.03.42.10;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	96.01.12.02.26.29;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.05.24.05.20.22;	author rossa;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.04.19.01.40.06;	author rale01;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{college}[1.1]{rune}{Rune Magics}{RU}
+
+The College of Rune Magics is concerned with the use of special
+symbols of power to shape mana into desired forms.  A Rune is a
+graphic symbol representing some actual, elemental, or mystical force.
+In rare cases, additional Runes may be developed or discovered which
+employ parts of existing Runes.  However, much of the power of the
+Runes derives from their constant usage over many centuries, and most
+useful Runes will be known to all Adepts of this College (or at least
+be readily available to them with very little research).
+
+In addition to the power of the Runes themselves, part of the power of
+this College derives from the use of special materials to construct
+the Runewands and Runesticks into which the Runes are usually
+inscribed. The Runewand table and the Runestick Chart describe the
+special properties of various types of Runewands and Runesticks.
+
+\subsection{Restrictions}
+
+Adepts of the College of Rune Magics may use their talent magic
+without restriction and may use some spells by merely inscribing the
+appropriate Rune on an item to be enchanted.  In most cases, spells
+and rituals of this College require the Adept to employ Runesticks or
+their personal Runewand in casting the spell or performing the ritual.
+
+The MA requirement for this College is 18.
+
+\subsection{Runewards and Runesticks}
+
+As part of their initiation into the mysteries of this College, the
+Adept is required to prepare a Runewand for themselves.  Usually, one or
+more of their teachers will participate in the endeavour as well.  If
+the Runewand being manufactured is of exceptionally costly materials,
+the Adept will be required to go into debt to pay for those materials,
+but in most cases the material will be of some cheap, common wood, and
+the Adept's labour during their apprenticeship will be sufficient to
+cover the cost.
+
+Runewands are of three types: Rods, Staffs, and Sceptres.  All three
+operate in basically the same manner.  However, in addition to its
+magical properties, a Staff may be used as a normal weapon having
+exactly the same characteristics as a quarterstaff.  A Sceptre may
+also be used as a weapon having the characteristics of a ceremonial
+mace. A Rod may never be used as a weapon, since it is often nothing
+more than a switch or hollow tube, looking much like the traditional
+magic wand.
+
+When a character is initiated into the College of Rune Magics, the
+character's player rolls D100 and consults the Runewand Table to
+determine the type of Runewand the Adept receives from his
+teachers. An Adept may later equip themselves with a different type of
+Runewand or create (or purchase) another Runewand of the same type to
+replace a previously possessed Runewand that has been damaged,
+destroyed, or stolen.  An Adept may own any number of Runewands, but
+may use only one at a time.
+
+Runewands are created by performing the Ritual of Fashioning Runewand
+(Q-2). Runewands are considered magical weapons for all purposes and
+definitions.
+
+In order to use a Runewand manufactured by someone else, the Adept
+must successfully read the Runes inscribed on the Runewand, using
+Talent T-3.  If they fail to do so, they may not use the
+Runewand. Even if they successfully read the Runes inscribed on a
+Runewand which they did not manufacture, the Adept still suffers a
+penalty when using the Runewand. The Base Chance for any spell or
+ritual performed with the aid of that Runewand is reduced by 20.
+
+Runesticks are small sticks carved of various woods or soft materials
+(which do not interfere with the flow of mana) and incised with Runes
+appropriate to the purpose of the Runesticks.  Unlike Runewands,
+Runesticks are not multi-purpose tools which can be used for a variety
+of spells or rituals.  They are specifically created to work with a
+single spell or ritual.  Exception: the Warding Rune is used in a
+variety of spells and rituals, and Runesticks containing this Rune may
+be used in any of them.  Runesticks are fashioned and prepared using
+the Ritual of Fashioning Runesticks (Q-1) and may be manufactured of
+any material listed on the Runestick Chart.
+
+An Adept may use Runesticks fashioned by someone else, but they must
+first successfully read the Runes incised on them.  The Base Chance is
+reduced by 10 when an Adept attempts to perform a ritual or cast a
+spell with Runesticks not of their manufacture.
+
+In some cases, the Adept may have to draw or carve a Rune into some
+object to be enchanted instead of using Runesticks or a Runewand to
+perform the magic.  In order to write the Rune, the Adept may use any
+substance that will mark the surface of the object to be enchanted.
+However, some substances will work better than others at creating the
+desired enchantment.  Any tool may be used to carve a Rune into a
+substance, so long as the tool is hard enough to do the job and it is
+not composed of Cold Iron. Exception: the Adept may use a tool
+containing Cold Iron if the Cold Iron is neutralised as per
+\S\ref{magic:restrictions}.
+
+Rune Mages are not expert wood carvers.  The minimum size, beyond
+which the stick would be too small to inscribe Runes on, is 15cm
+\x 2cm \x 1cm and weighs 2oz.
+
+\subsection{Base Chance Modifiers}
+\label{rune:modifiers}
+
+The Base Chance of performing a talent, spell, or ritual of the
+College of Rune Magics is modified by the addition of the following
+numbers.
+
+The talent, spell or ritual requires the use of Runesticks, and the
+Runesticks used by the Adept are:
+
+\begin{tabularx}{\linewidth}{Xr}
+Made of Gilded metal   &  20 \\
+Made of Silvered metal &  15 \\
+Made of Mistletoe      &  10 \\
+Made of Ashwood        &   8 \\
+Made of Oak            &   8 \\
+Made of Cedarwood      &   5 \\
+Made of Aspenwood      &   3 \\
+Made of Chestnut       &   3 \\
+Made of Pinewood       &  -5 \\
+Made of Yarrow         &  -5 \\
+Made of Yew            &  -5 \\
+Manufactured by someone other than the Adept  & -10 \\
+\end{tabularx}
+
+The talent, spell or ritual requires the use of a Runewand, and the
+Runewand used by the Adept is:
+
+\begin{tabularx}{\linewidth}{Xr}
+A Truesilver Sceptre           &  25 \\
+A Gilded Sceptre               &  22 \\
+A Silver Sceptre               &  20 \\
+A Copper Rod                   &  18 \\
+An Ebony Rod                   &  14 \\
+An Ivory Rod                   &  12 \\
+An Ash Staff                   &  10 \\
+A Cedar Rod                    &  10 \\
+A Blackthorn Staff             &   8 \\
+A Bronze Sceptre               &   8 \\
+An Oak Staff                   &   5 \\
+A Willow Rod                   &   2 \\
+Manufactured by someone other than the Adept & -20 \\
+\end{tabularx}
+
+The talent, spell or ritual requires the drawing of a Rune on an
+object to be enchanted and the substance used to draw the Rune is:
+
+\begin{tabularx}{\linewidth}{Xr}
+Fresh blood from a dragon           & 50 \\
+Fresh blood from a member of a character race (costs 1 fatigue) & 10 \\
+Ink impregnated with particles of platinum* & 15 \\
+Ink impregnated with particles of gold** & 10 \\
+Ink impregnated with particles of silver*** & 5 \\
+Fresh blood from a mammalian being & 5 \\
+\end{tabularx}
+
+*Average cost of 22 Silver Pennies for enough ink to draw one Rune
+(\ie to cast one spell).
+
+**Average cost of 16 Silver Pennies for enough ink to draw one Rune.
+
+***Average cost of 5 Silver Pennies for enough ink to draw one Rune.
+
+In all cases, the weight of one vial with sufficient ink to draw one
+Rune is 5 ounces. It normally takes one minute to draw a Rune.
+
+In most cases, these modifiers are not cumulative.  As an exception,
+modifiers for the type of Runewand or Runestick used are added to the
+modifiers pertaining to the substance used as an ink.
+
+In addition, the Cast Chance is affected by all modifiers listed in
+\S\ref{magic:modifiers}, except that the number of hours spent
+preparing a spell has no effect on the Cast Chance of the spell, as is
+the case in other Colleges.  Rune Magicians may not engage in Ritual
+Spell Preparation as outlined in \S\ref{magic:preparation}.
+
+The Rank of an Adept in the Ritual of Fashioning Runewand and the
+Ritual of Fashioning Runestick do not affect the efficacy of a spell
+cast using the Runesticks or Runewand created via those rituals. It
+affects only the actual performance of the rituals of fashioning.
+
+\subsection{Talents}
+
+\begin{talent}[T-1]{Read Dead Languages}
+
+\multiple{150}
+\begin{effects}
+All Adepts of the College of Rune Magics have a 10\% chance of knowing
+a dead language or dialect encountered at Rank 0.  There is a 40\%
+chance (+ 3 / Rank) that the Adept will be able to puzzle out the
+language if they do not know it.  If the Adept puzzles out or knows
+the language (from clues such as root words in known languages), they
+will have rank with the language equal to half their Rank with this
+talent (round up) after spending 20 hours (-30 minutes / Rank with
+this talent) mastering the nuances of the language. A dead language
+may be studied in this manner via written word (tomes, inscriptions,
+etc.), and hence the language is known only in written form. There
+must be sufficient text to allow the Adept to achieve the requisite
+Rank (players should record the languages and rank they know using
+this talent, and also those that they have failed to master).
+
+An Adept may increase Rank with a dead language that they have
+mastered by spending one week per Rank practising the language (at no
+Experience cost) until they know it at the same Rank as their Rank
+with this talent. If they wish to gain Rank with a dead language which
+is greater than their Rank with this talent, they must follow the
+normal procedure to gain Rank with a language as described in
+\S\ref{languages}.
+\end{effects}
+\end{talent}
+
+\begin{talent}[T-2]{Decipher Codes and Ciphers}
+
+\multiple{150}
+\basechance{25\% + 3\% / Rank}
+\begin{effects}
+Any Adept of this College has a 25\% chance (+3 / Rank) of being able
+to break any code or cipher created by an Adept of this college using
+T-4 if they study it for 12 hours (-1 / Rank, +1 / Rank of the Adept
+who created the code or cipher with T-4).  The Adept's chances of
+breaking such a cipher or code are decreased by 3 for every Rank the
+Adept who created the code or cipher had with T-4 (Create Codes and
+Ciphers) of this College.  The Adept must maintain concentration for
+the required period of time in order to attempt to break the cipher or
+code.  If the Adept maintains concentration, a D100 role can be made
+by the GM to determine the Adept's success.  The Adept's Rank in
+breaking non-magical codes and ciphers is equal to their rank in this
+talent.
+\end{effects}
+\end{talent}
+
+\begin{talent}[T-3]{Read Runesticks}
+
+\multiple{100}
+\begin{effects}
+Any Adept of this College has a 30\% chance (+3 / Rank, -3 / Rank of the
+Runestick created with Q-1) to successfully read the Runesticks of
+another Adept of the College of Rune magics without assistance.  If
+assisted by whoever created the Runesticks, there is a 70\% chance
+(+3 / Rank, -3 / Rank of the Runestick created with Q-1) of detecting
+misinformation given in the guise of assistance.  Only Runesticks
+which have been successfully read may be employed to cast a spell or
+perform a ritual of this College.  Runesticks which have been
+``successfully'' read, but incorrectly assessed due to false assistance,
+may be used, but they will automatically backfire.  The GM always
+rolls to determine the success or failure at the moment this talent is
+applied.  An Adept automatically reads the runes (though not
+necessarily correctly) when assisted by the creator of the Runes.
+\end{effects}
+\end{talent}
+
+\begin{talent}[T-4]{Create Codes and Ciphers}
+\multiple{150}
+\begin{effects}
+An Adept of the College of Rune Magics can create a magically enhanced
+code or cipher which a normal character or NPC would have only a 1\%
+chance of breaking, but which another Adept of this College would have
+a greater chance of breaking.  The Rank of the code or cipher's
+creator modifies all attempts to break the code or cipher by -3 /
+Rank.  It takes 1 hour to create a code or cipher.
+\end{effects}
+\end{talent}
+
+\begin{talent}[T-5]{Summon Wand}
+
+\range{10 feet + 10 / Rank}
+\multiple{200}
+\basechance{40\% + 3\% / Rank}
+\begin{effects}
+An Adept can summon to themselves any Runewand they have created that
+is within 10 feet (+ 10 / Rank).  The Adept simply wills the wand to
+come to them (requires a Pass Action in combat) and the Runewand leaps
+into their hand.  The Base Chance to successfully use this talent is
+40\% (+3 / Rank).  Note: this talent can operate only if the path
+between the Adept and their Runewand is not blocked by anything
+through which the Runewand could not normally pass (such as a wall or
+person).  Only the Runewand is summoned; nothing surrounding or
+attached to it travels with it.
+\end{effects}
+\end{talent}
+
+\subsection{General Knowledge Spells}
+
+\begin{spell}[G-1]{Learn Rune}
+
+\range{15 feet + 15 / Rank}
+\duration{Immediate}
+\multiple{100}
+\basechance{45\%}
+\resist{Active}
+\target{Entity or Object}
+\begin{effects}
+The Adept must point their Runewand at the object of the spell.  If
+successful the Adept will gain sufficient information to create a Rune
+that may be used to represent the generic type of the object of the
+spell.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-2]{Darkness}
+
+\range{15 feet + 15 / Rank}
+\duration{ 15 minutes / Rank (\x 1 if unranked)}
+\multiple{75}
+\basechance{45\%}
+\resist{None}
+\target{Volume}
+\begin{effects}
+The Adept creates a volume in which non-magical light is partially
+suppressed.  The volume will be 1000 (+ 500 /Rank) cubic feet, and may
+be in any one contiguous area the Adept desires, provided that no
+dimension is smaller than one foot. The entire volume must be visible
+and within range at time of casting, and may not be moved.  At Ranks
+0--5 the amount of light within the volume is reduced to 10\% (appears
+as though lit on a cloudy night), at Ranks 6--10 it is reduced to 5\%
+(as though a windowless room), at Ranks 11--15 it is reduced to 1\%
+(so dark that night vision like that of a cat will take about a minute
+to adjust), and at Ranks 16--20 all light is banished (\ie totally
+dark).  Although infravision works off heat and elvish and dwarvish
+visions work in total darkness, it is still not possible to see at all
+at ranks 16--20.  It will not aid in providing bonuses for casting
+purposes, though it will reduce penalties due to natural light by up
+to 5\% + 1\% / Rank.  If the lighting conditions are lower than that
+provided by the spell, no effect will be apparent. Note that because
+light is only being suppressed, it may still pass through, and no
+shadows are generated. If it is possible to see through a Darkness,
+all beyond it is perfectly visible. This spell can engender
+silhouettes of lit objects against the darkness, though not create
+shadows.  Any of this volume may be overridden by a higher ranked
+Spell of Light, or neutralised (back to original conditions) by an
+equal rank.  In all cases, the darkness will emanate from the tip of
+the Adept's Runewand, but will last for only so long as the Runewand
+remains unbroken and in the Adept's possession.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-3]{Light}
+
+\range{15 feet + 15 / Rank}
+\duration{15 minutes / Rank (\x 1 if unranked)}
+\multiple{75}
+\basechance{50\%}
+\resist{None}
+\target{Volume}
+\begin{effects}
+One 10-foot cube (1000 cubic feet) area is illuminated.  The lighted
+area may be any shape (even pencil thin), but must emanate from the
+tip of the Adept's Runewand and will last for only so long as the
+Runewand remains unbroken and in the Adept's possession.  At Ranks
+0--5 the amount of darkness within the volume is reduced to 10\%
+(appears as though lit on a cloudy day), at Ranks 6--10 it is reduced
+to 5\% (as though lit on a sunny day), at Ranks 11--15 it is reduced
+to 1\% (similar to daytime in a desert), and at Ranks 16--20 all
+darkness is banished (\ie totally light), so it is impossible to see
+into or whilst within the volume (unless under the effects of a
+Resistance to Light).  It will not aid in providing bonuses for
+casting purposes, though it will reduce penalties due to natural
+darkness by up to 5\% (+ 1\% / Rank).
+
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-4]{Pyrogenesis}
+
+\range{Touch of Runewand}
+\duration{Immediate}
+\multiple{75}
+\basechance{40\%}
+\resist{Passive}
+\target{Object}
+\begin{effects}
+One small flammable object or entity may be caused to burst into flame
+by the touch of the Adept's Runewand.  Thereafter, the flames are
+fuelled by the object or entity.  They may be extinguished
+normally. Note this spell can only be used to light matches and cause
+insects and small furry animals no larger than a mouse to burst into
+flames.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-5]{Curse}
+\index{curse!rune}
+\range{Touch of Runewand}
+\duration{Permanent until dispelled}
+\multiple{400}
+\basechance{35\%}
+\resist{Active, Passive}
+\target{Entity}
+\begin{effects}
+The Adept may curse one target (who must be touched by the Runewand)
+with any of the possible minor curses listed (following) that he has
+the necessary Rank to employ (Rank: Possible curse). The touch is
+automatic unless the target is actively avoiding being touched, in
+which case the target cannot be touched and the spell cannot take
+effect.  The spell must be prepared normally.  The effects are
+permanent until dispelled by anyone casting a Rune College General
+Knowledge Counterspell.
+
+\begin{Description}
+\item[1--5]
+The Adept may afflict the target with hallucinations that will reduce
+the target's Perception by 5 in addition to any specific effects.  The
+GM and the Adept must work out the exact nature of the hallucination
+at the time that the curse is made.  Hallucinations should, however,
+be of a minor, generalised nature: seeing coloured lights in the
+distance, hearing sounds like the clanking of weaponry, smelling meat
+cooking from time to time, and so forth.
+
+\item[6--10]
+The Adept may afflict the target with increasing physical debilitation
+that will decrease Physical Strength by 1 immediately, and will
+subtract 1 from Endurance at the end of each day until the target
+reaches 4 Endurance or the curse is dispelled.
+
+\item[11--15]
+The Adept may afflict the target with total loss of any one sense
+(sight, smell, touch, hearing, taste).  The loss of sense takes place
+immediately.
+
+\item[16--20]
+The Adept may afflict the target with extreme paranoia and
+nightmares. The target will recover only one fatigue point per hour
+from taking a nap, and only 2 per hour from sleeping.  In addition,
+the target will feel hagridden and imagine themselves pursued by
+phantasms.  They will, unless the curse is first dispelled, eventually
+become more and more estranged from reality, distrustful of friends
+and companions, and obsessed with the idea of destroying their enemies
+(who they think are ``all around''). If the curse is not dispelled
+within D10 \x [target's Willpower - 2 \x spell Rank] days, the target
+will completely lose touch with reality. They will then plot to
+destroy their friends in the belief that they are ``out to get them''
+and will exhibit other bizarre behaviour.  They will be cured of the
+advanced stage of this affliction only by having the curse dispelled
+and then spending a number of days equal to the Adept' s Rank \x D10
+in rest and recuperation.
+\end{Description}
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-6]{Illusion}
+
+\range{5 feet + 5 / Rank}
+\duration{Permanent until dispelled}
+\multiple{200}
+\basechance{35\%}
+\resist{Special}
+\target{Runestick}
+\begin{effects}
+The Adept places a single Runestick carved with the Rune for this
+spell and a Rune representing an object or entity of their choice on
+the ground.  The visual Illusion must be contained within 5 (+ 5 /
+Rank) adjacent one foot cubes.  After a successful cast the stick will
+appear to all except the Adept to be the same object or entity as the
+Rune incised on the Runestick.  The illusion lasts until dispelled by
+the appropriate counterspell or the stick is moved.  The image will be
+static and will remain even when touched.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-7]{Control Entity}
+
+\range{15 feet + 15 / Rank}
+\duration{Special}
+\multiple{500}
+\basechance{15\%}
+\resist{Active, Passive}
+\target{Entity}
+\begin{effects}
+Three Runesticks containing the binding Rune must be physically bound
+onto the entity to be controlled.  10\% is added to the Base Chance if
+the Rune representing the generic type of the entity to be bound has
+been carved onto the Runesticks. This binding cannot be done in
+combat, although the target may be physically restrained while the
+Adept attaches the Runesticks.  In some cases, the Adept may be able
+to induce the entity to put the Runesticks on itself voluntarily (via
+trickery, for example).  Once the sticks are in place, the spell can
+be cast to determine whether or not the sticks function.  The target
+must be visible to the caster in order for the spell to be cast.  Once
+cast, this spell remains in effect until the sticks are no longer
+bound to the target.  However, every Rank + 1 days after the sticks
+have been placed, the entity gets a further resistance check.
+Successful resistance means that the entity is no longer under the
+spell's effects and the sticks cease to function.  Failure to resist
+means that the sticks continue to work. The Base Chance of resisting
+(for the rechecks only) is equal to the entity's usual passive magic
+resistance versus Rune College spells minus the Adept's rank in this
+spell.  Otherwise, the target may not remove the runesticks themselves
+unless so commanded by the binder.  Until the sticks are removed, the
+target will freely do the bidding of the Adept, acting in all ways as
+their loyal servant (even to the extent of fighting anyone trying to
+remove the sticks from them).
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-8]{Purification}
+
+\range{Touch}
+\duration{Immediate}
+\multiple{100}
+\basechance{30\%}
+\resist{None}
+\target{Liquid}
+\begin{effects}
+The Adept may turn any aqueous substance into potable water by
+touching the substance with a Runestick that has had a Purification
+Rune incised into it.  The Adept may purify 1 quart (+ 1 / Rank) by
+volume with this spell.  This spell may be used to neutralise poison
+in solution.  Note: This spell is not intended for use in combat and
+will not work if the Runestick is forced into an entity's bloodstream.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-9]{Runelock}
+
+\range{5 feet + 5 / Rank}
+\duration{Permanent until dispelled}
+\multiple{200}
+\basechance{30\%}
+\resist{None}
+\target{Portal}
+\begin{effects}
+This spell may be cast over any portal (door or window) that can
+normally be opened or closed and is in sight.  It effectively locks
+the portal with an unpickable lock.  The spell can be dispelled by
+anyone casting the Rune College General Counterspell.  The portal may
+still be forced open by brute strength.  In this case, the Physical
+Strength of all the figures attempting to force the portal are
+totalled and multiplied by the Difficulty Factor of the task.  The
+Difficulty Factor is always a function of the Rank of the spell:
+
+\begin{tabular}{ll}
+\textbf{Rank} & \textbf{Difficulty} \\
+1--5	& 2.0 \\
+6--10	& 1.5 \\
+11-20	& 1.0 \\
+\end{tabular}
+
+In order to place a Runelock on a portal, (which takes a minute), the
+Adept must draw or paint the Runelock Rune on the portal. They may
+only then cast the spell.  Note: The opening spell of the College of
+Ensorcelments and Enchantments will open a Runelocked portal, but will
+not dissipate the Runelock.
+\end{effects}
+\end{spell}
+
+\subsection{General Knowledge Rituals}
+
+\begin{ritual}[Q-1]{Fashioning Runesticks}
+
+\multiple{100}
+\basechance{55\% + 3\% / Rank}
+\begin{effects}
+The Adept must use this ritual to actually carve the appropriate
+Rune(s) on a stick fashioned of any material listed in
+\S\ref{rune:runesticktable} (the Runestick Chart).  At the time the
+Adept fashions the Runestick, the Adept's player must announce what
+Runes are being cut into the stick (\ie what spell or ritual the
+Runestick can be used to perform). Careful records must be kept of the
+number and type of Runesticks carried by a character.  Whenever an
+Adept wishes to cast a spell or perform a ritual using the runesticks
+in their possession, they prepare the spell or performs the ritual
+normally using the runestick(s) only to cast a spell once it is
+prepared. Until a spell is cast, the Runestick is unaffected by the
+preparation.  However, once a Cast Check is made, whether successful
+or not, the Runesticks used in that spell or ritual are used up. They
+retain the power necessary to keep the spell or ritual in effect for
+its normal duration, but are otherwise of no magical value.  They can
+never be ``recharged'' or reused, although the materials they comprise
+may be refashioned (see note).  Once they have been fashioned as part
+of this ritual, Runesticks are permanently imbued with the power of
+the spell or ritual represented by the Rune(s) cut into them.  Only
+one spell or ritual may be imbued in each stick.  It takes a length of
+time equal to that listed on the ``Time'' column of the Runestick
+Chart (- 1 / Rank, but with a minimum of 1 minute) to perform this
+ritual.  Only one stick may be produced per ritual.  It costs 10
+fatigue points (- 1 / three Ranks or fraction) to perform the ritual,
+and the Base Chance of successfully performing it is 55\% (+ 3 /
+Rank), and there is no backfire.
+
+\textbf{Note:} The actual materials in a Runestick, once used in a
+spell, may be used to fashion new Runesticks for future use.  This
+requires a new ritual of Fashioning Runesticks, during which the
+Runesticks are refashioned (carved or cast). Runesticks used in a
+spell or ritual that backfires are destroyed (burned up), and the
+materials may not be refashioned into new Runesticks or used for any
+purpose, magical or otherwise. Only the actual stick itself may be
+reused (as opposed to the ink, etc.). The Base Chance of the stick
+being reusable is equal to the Adept's Magical Aptitude + 5 / Rank
+with this ritual. If the Cast Check is successful then the stick can
+be refashioned by going through the ritual again (as listed). If the
+Cast Check is unsuccessful then the stick in question is absolutely
+useless.
+
+\textbf{Clarification:}
+If a Runestick is fashioned using this ritual, but is not fashioned
+successfully, then the stick becomes useless and cannot be refashioned
+or used again. If, however, the ritual was successful, then the
+Runestick can be used as intended.  Once a Cast Check has been made
+against a Runestick, then that stick cannot be used again until it has
+been refashioned.  If the Adept desires to refashion it, then before
+they begin the ritual he first finds out if the stick is reusable
+using the Cast Chance given above. If the stick is reusable then the
+Adept can proceed with the ritual.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[Q-2]{Fashioning Runewand}
+
+\multiple{300}
+\basechance{30\% + 3\% / Rank}
+\begin{effects}
+The Adept may employ this ritual to create a Runewand out of any of
+the materials listed on the Runewand Table.  The implement is
+fashioned by inscribing Runes into the material's surface, which
+describe its use, name, and history. Once the Runewand has been
+fashioned and consecrated in this ritual, it remains fully effective
+unless and until it is broken or otherwise destroyed.  It takes from
+one to four weeks to perform this ritual, depending on the type of
+material used to fashion the runewand.  The total time necessary to
+fashion a Runewand is decreased by 1 day for each Rank the Adept has
+with this ritual (minimum of 1 day to perform the ritual), and the
+ritual costs 10 Endurance (- 1 / two Ranks with this ritual). The
+Endurance loss will heal normally.  The Adept may interrupt the ritual
+to eat and attend to housekeeping (maximum two hours per day) and to
+sleep (maximum eight hours per day), but any break of longer than 10
+hours results in the ritual failing and the materials used being
+ruined. Any Endurance expended on this ritual is expended upon
+completion of the ritual, not during its course.  Once the ritual is
+completed, the Adept determines whether or not it was successful. The
+Base Chance for this ritual is 30\% (+3 / Rank).  All materials used
+in an unsuccessful ritual (or a ritual that backfires) are destroyed
+or ruined. If the ritual is successful, the Adept may use the Runewand
+thereafter to cast spells and perform rituals that require the use of
+a Runewand.
+
+In addition, the Adept may store a maximum of 1 Fatigue Point in the
+Runewand at Rank 0, and an additional 1 Fatigue Point for every 2 or
+fraction Ranks they have with the ritual of Fashioning Runewand at the
+time the Runewand is fashioned.  Fatigue is stored in a Runewand
+simply by touching the Runewand and willing one or more Fatigue Points
+to enter the Runewand.  Twice the Fatigue Points stored in the
+Runewand are subtracted from the Adept.  Once stored in the Runewand,
+Fatigue Points remain there indefinitely and can be used by the Adept
+to cast spells at any time that they are holding the Runewand while
+making a Cast Check.  An Adept may add Fatigue to a Runewand any
+number of times, so long as the Runewand has the capacity remaining to
+store the Fatigue each time the wand is ``recharged''.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[Q-3]{Warding with Runesticks}
+\multiple{200}
+\begin{effects}
+The Adept sets up a pattern of Runesticks inscribed with the Ward Rune
+(as fashioned by Q-1).  This pattern may consist of three, five or
+seven sticks composed of any material listed in
+\S\ref{rune:runesticktable}.  If three Runesticks are used, the Base
+Chance for this ritual is 20\%.  If five sticks are used, the Base
+Chance is 30\%.  If seven sticks are used, the Base Chance is 40\%.
+All Base Chances are increased by 5 per Rank.  This ritual takes two
+hours (-10 minutes / Rank, with a minimum of 10 minutes) to complete.
+During the ritual, the Adept must place the Runesticks containing the
+Runeward symbol in a roughly circular configuration around the area to
+be warded (the Adept must remain inside the area while the ritual is
+being prepared).  At the end of the ritual, if it is successful, a
+Runeward exists that will help to protect those inside it from magic.
+No magical item (amulet, weapon, etc.)  can be brought into the warded
+area, though items already inside the warded area can be taken out.
+The area to be warded is a sphere with a diameter, in feet, of up to
+10 times the number of sticks used.
+
+Any magical creature or Adept attempting to enter the warded area must
+make a Passive Resistance check, or it will be unable to enter the
+area.  The entity's Magic Resistance is unaffected if the ritual used
+only three Runesticks.  A five stick ward reduces the entity's Magic
+Resistance by the Adept's Rank with this ritual, and reduces Magic
+Resistance by twice their Rank for a seven stick ward. In addition, if
+the Runesticks are all made of Rowan then an entity which is wholly or
+partially of another plane (such as demons, devils, imps, hellhounds)
+decreases its Magic Resistance by 3 times the Adept's Rank when it
+attempts to enter the warded area. The Runeward is automatically and
+permanently broken if any magical entity or magic user succeeds in
+passing it. However, so long as it is in effect, all targeted spells
+cast into (not out of) the warded area have a chance of being
+dissipated harmlessly when striking the ward according to the number
+of sticks used in the ward: by 10 if it is a three stick ward; by 20
+if it is a five stick ward and by 30 if it is a seven stick ward, plus
+twice the Adept's rank in this ritual.  Backfire from this ritual
+results not only in the destruction of the Runesticks, but in D10
+damage to the Adept's Endurance as well.
+
+The same Runesticks which are used for this ritual may be used in the
+Ritual of Healing (Q-4) and may also be used in conjunction with the
+Runestick(s) necessary to the casting of some other spell of this
+College to create a ward as described in \S\ref{college:ward}.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[Q-4]{Healing}
+\multiple{150}
+\basechance{50\% + 4\% / Rank}
+\begin{effects}
+The Adept creates a warded area by setting up a Runeward as described
+in Q-3. However, only the seven Runestick Runeward may be used. The
+Runeward is set up around the entity to be healed.  The ritual lasts
+seven hours, at the end of which the entity to be healed is cured of
+all Fatigue and Endurance losses, plus any non-magical diseases,
+fevers, or infections from which the entity may suffer.  It is
+possible for the ritual to backfire.  If it does so, the entity being
+healed immediately goes to 0 Fatigue and -1 Endurance (unless the
+patient is already below this).  The Adept must expend 10 Fatigue to
+employ this ritual. Any types of material listed in
+\ref{rune:runesticktable} may be used to make Runesticks used in this
+ritual except for Elder and Yew.  In addition, if the Runesticks used
+in this ritual are made of Walnut or Elm, the number of hours the
+ritual requires is reduced to five.
+
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[Q-5]{Runes of Sight}
+\multiple{300}
+\begin{effects}
+The Adept may gain insight into the future by casting the Runes of
+Sight (Runesticks which have Runes cut into them representing the
+cosmic balance). It takes one hour to cast these Runes and the Adept
+may perform no other action during that time.  The performance of this
+ritual allows the Adept to exercise one of the following functions
+during its course:
+
+\begin{Description}
+\item[Limited Precognition]
+This action is executed as a ritual, but with the same results as for
+the Spell of Limited Precognition of the Mind College with a Base
+Chance of 30\% (+ 2 / Rank).
+
+\item[Divining Enchantment]
+This action is executed as a ritual in the same manner as the Ritual
+of Divination (R-1) of the College of Naming Incantations. It has a
+Base Chance of 55\% (+ 4 / Rank).
+\end{Description}
+
+Only one of these two options may be performed at each casting of the
+Ritual. It requires three sticks incised with the appropriate Runes to
+perform this ritual.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[Q-6]{Sending}
+\range{10 miles + 5 / Rank}
+\multiple{250}
+\basechance{30\% + 5\% / Rank}
+\resist{Passive}
+\begin{effects}
+The Adept must paint their forehead with a Sending Rune before
+retiring to sleep at night.  They will then require a five hour period
+of sleep with no disturbances sufficient to wake him or the ritual
+will fail.  The target of the spell is likewise required to be asleep
+for five undisturbed hours or the ritual will not work.  The time
+asleep counts as resting for Fatigue recovery purposes.  During the
+time asleep, the Adept will be in communication with one entity of
+their choice that they have seen and studied sufficiently (as per
+College of Ensorcelments and Enchantments Spell of Location for ``seen
+and studied'').  Alternatively, the Adept may employ the target's
+Individual True Name if it is known.  If the Cast Check is successful
+and the target fails to resist then it will answer all questions asked
+of it in a yes / no fashion. This ritual does not allow communication
+with entities on other planes of existence. The questions that are to
+be asked of the target must be formulated before the Adept goes to
+sleep.  Upon completion of the five hour ritual the Adept may receive
+the answers to Rank \x 5 questions (\x 1 if unranked).
+\end{effects}
+\end{ritual}
+
+\subsection{Special Knowledge Spells}
+
+\begin{spell}[S-1]{Runewall Spell}
+
+\range{15 feet + 15 / Rank}
+\duration{30 minutes + 30 / Rank}
+\multiple{250}
+\basechance{50\%}
+\resist{Passive}
+\target{Area}
+\begin{effects}
+The Adept places a single Runestick incised with the warding Rune on
+the ground and performs the spell.  If the spell is successful, the
+stick metamorphoses into a translucent, shimmering wall of force 1
+inch thick, 10 feet high, and 20 feet long that may be shaped by the
+Adept (and no one else) into any shape of their devising (\eg circle,
+dome, etc.).  The Adept may alter the height or length of the wall by
+1 foot per Rank.  The wall cannot be created touching an entity,
+although it may encompass them.  Any entity coming into contact with
+the wall must resist or be thrown back (falling prone).  In addition,
+if the Runestick used to manufacture the wall was made of Elder,
+anyone who fails to resist suffers [D - 2] + 1 / Rank.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-2]{Torment}
+
+\range{15 feet + 15 / Rank}
+\duration{15 seconds + 15 / Rank}
+\multiple{250}
+\basechance{15\%}
+\resist{Active, Passive}
+\target{Entity}
+\begin{effects}
+The Adept can, by pointing a Runestick inscribed with the Pain Rune at
+one entity, cause that entity extreme pain.  Each pulse that the Adept
+continues to point the Runestick at the entity (requiring a pass
+action) it suffers 1 point of damage and for the entire duration has
+all its Base Chances reduced by Rank\%.  For Mind Mages, the reduction
+is reduced by 5 (+ 1 / Rank with Resist Pain).  Moreover, if the
+Runestick is made of Yarrow, the entity suffers a further Rank\%
+reduction to Base Chances and - 1 / pulse off TMR (while the stick is
+still being pointed at them).
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-3]{Creating Rune Shield}
+
+\range{Touch}
+\duration{1 hour + 1 / Rank}
+\multiple{200}
+\basechance{40\%}
+\resist{None}
+\target{Runestick}
+\begin{effects}
+The Adept must use a Runestick inscribed with the appropriate shield
+Rune.  Upon successful cast, the stick is transformed into the shield
+of whatever type the Rune incised on the Runestick indicated (except
+Main Gauche).  This shield may then be used by anyone (no strength or
+MD limitations) and provides an extra 5\% + Rank defence extra to the
+shield type.  Note that this defence is as per shield rules thus only
+protecting from two of the front three hexes.  Moreover, if the
+Runestick is made of Walnut, any Grievous Blow through the shield
+will, instead of harming the wielder, merely smashes the shield,
+causing it to revert to a now broken Runestick.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-4]{Visitation}
+
+\range{1 mile + 1 / Rank}
+\duration{Concentration: Maximum 1 hour + 1 / Rank}
+\multiple{300}
+\basechance{15\%}
+\resist{None}
+\target{Entity}
+\begin{effects}
+The Adept must cast the Runes of Far-seeing (three matched Runesticks)
+on the ground before them while performing the spell.  If successful,
+the Adept is able to send a ghost-like image of themselves instantly
+to any location within range that the Adept has physically occupied at
+least once in the past.  They are present in that location in all ways
+except bodily (\ie the Adept may communicate and use all their
+senses while the image is there, but may not be harmed by any
+attack). The image ``mimics'' the actual actions of the Adept, and may
+move no more than 10 feet (+ 10 / rank) from the spot where it
+materialised, which may be anywhere at the location the Adept
+wishes. Since the Adept's consciousness is in the image, which is
+non-physical, they may not cast any spells (although they may appear
+to should they so desire).
+
+Thus, if the Adept desired the image to talk, the body will also speak
+the words wherever it is physically located.  Also, if the Adept is in
+a location which would prevent them from moving, the image may not
+move either.  When the visitation time has expired (or anytime prior
+that the Adept wished), the image quickly fades and travels back to
+the Adept.  This image has an ``aura'' which, if detected by a Detect
+Aura talent, may give the compass direction at which the Adept would
+be located, but not the distance.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-5]{Truth}
+
+\range{15 feet + 15 / Rank}
+\duration{1 hour + 1 / Rank}
+\multiple{300}
+\basechance{30\%}
+\resist{Passive}
+\target{Entity}
+\begin{effects}
+Prior to casting this spell the Adept must first draw a Truth Rune on
+the forehead (or over the brainpan) of the spell's target (which may
+be themselves). The spell may only be cast over one target entity of the
+Adept's choosing and the Adept must touch the target to cast it.  If
+unsuccessful, a new Truth Rune must be drawn on the target before the
+spell can be attempted again. A successful spell that is not
+successfully resisted causes the target to be unable to speak a
+falsehood for the duration of the spell. The target must not knowingly
+say anything false, but may refuse to answer a question put to him.
+
+In addition, the Truth Rune enables the target to see the true nature
+of all things.  This results in the GM modifying the target's
+Perception roll because the wearer of the Rune is more likely to see
+through deceptions (\eg magical traps).  The roll should be modified
+by two times the Adept's rank with this spell.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-6]{Banishment}
+
+\range{Touch}
+\duration{Immediate}
+\multiple{250}
+\basechance{30\%}
+\resist{Active, Passive}
+\target{Summonable}
+\begin{effects}
+The Adept may banish any one entity from another dimension to its own
+plane of existence. In order to do so the Adept must touch the target
+entity with their Runewand at the moment the spell is completed.  If
+successful, the spell results in the entity immediately returning to
+its own dimension unless the entity successfully resists. The touch is
+automatic unless the target is actively avoiding being touched, in
+which case the target cannot be touched and the spell cannot take
+effect. The spell must be prepared normally. The target returns to a
+random spot, in an appropriate medium, on its own plane.  The exact
+whereabouts is GM's discretion, however, entities banished at
+approximately the same time will appear in approximately the same
+area.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-7]{Smite}
+
+\range{Touch}
+\duration{Immediate}
+\multiple{200}
+\basechance{25\%}
+\resist{Passive}
+\target{Entity}
+\begin{effects}
+The Adept must, at the moment the spell is cast, touch the intended
+target with the Runewand. If the target fails to successfully resist,
+it suffers [D + 1] + 1 / Rank damage.  The target takes half damage if
+it fails to resist.  The damage is similar to the effect of an
+electric shock, so halve the damage if the target is an insulator
+(entities are generally not insulators). The touch is automatic unless
+the target is actively avoiding being touched, in which case the
+target cannot be touched and the spell cannot take effect.  The spell
+must be prepared normally. If the target fails to resist then they
+become stunned.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-8]{Creating Runeweapon}
+
+\range{Touch}
+\duration{1 hour + 1 / Rank}
+\multiple{200}
+\basechance{20\%}
+\resist{None}
+\target{Runestick}
+\begin{effects}
+The Adept must use a Runestick incised with the Death Rune and with a
+Rune representing the type of weapon they wish to create.  The Adept
+holds the Runestick while casting the spell.  Upon successfully
+completing the cast, the Runestick transforms into a magical weapon of
+whatever type the Rune incised on the Runestick indicated (estoc,
+dagger, glaive, etc.).  Since the substance of the weapon is magical,
+the Adept can wield the weapon without suffering the penalties
+associated with cold iron.  Further, the weapon is usable against
+those entities normally affected only by magical weapons, but
+otherwise has the same properties as a normal weapon of the same
+type. An entity other than the Adept using a Runeweapon has -10\% on
+strike chance. There is never any chance of the weapon breaking.  The
+duration of this spell is decreased to 1 minute (+ 1 / Rank) if the
+Runestick used is of Yew.
+
+If Runesticks of Yew are used, and at least one point of effective
+damage is inflicted on a target, the wound is poisoned, causing [D -
+5] (+ 1 for every 3 or fraction ranks) damage per pulse for D10 pulses
+due to poison. The target can only have one poison in effect at any
+one time, \ie poison from different strikes is not cumulative.  The
+normal rules for using poisoned weapons apply.  The poison is
+considered a nature poison for purposed of antidotes.
+
+\end{effects}
+\end{spell}
+
+\subsection{Special Knowledge Rituals}
+
+\begin{ritual}[R-1]{Casting the Runes}
+
+\multiple{500}
+\basechance{5\% + 5\% / Rank}
+\begin{effects}
+The Adept must prepare a piece of paper or vellum on which are written
+the Runes of Doom. The entire ritual of preparation takes one hour. At
+the end of the hour, the Adept chooses which of the demons from the
+College of Greater Summonings will be the executor of the doom and
+also writes this name on the paper.  The Adept's player must actually
+write this information down, since it will only come into play in the
+future.  Once the ritual is prepared, the Adept then passes the sheet
+of paper on to the victim whose name is written on the paper.  The
+victim must voluntarily accept the paper (though they need not know
+what is on it).  Once they accept it, the demon named on the paper
+hunts them down and kills them. Even if the demon is destroyed it
+returns as soon as it is able and continues the hunt (see College of
+Greater Summonings for how demons recover from injury and ``death'' in
+their own dimension).  Only by passing the paper on to another entity
+who voluntarily accepts it can the doom be transferred.  If the paper
+is destroyed, the doom can never be lifted or transferred.  If the
+ritual backfires, the Adept loses [D + 2] Endurance.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[R-2]{Creeping Doom}
+
+\multiple{450}
+\basechance{20\% + 4\% / Rank}
+\begin{effects}
+The Adept creates 13 Runesticks by carving the appropriate
+maledictions into human bones.  They then perform a ritual over them
+(duration 1 hour) and bury the sticks beneath the dwelling of
+someone they wish to curse. It is best if the victim's name is carved
+in the bones as well, otherwise others in the house may become ill
+instead. For each month that the bones remain in or under the victim's
+dwelling, they must make a Resistance Check, the Base Chance for which
+is composed of the victim's Endurance multiplied by the Difficulty
+Rating of the resistance.
+
+\begin{tabular}{ll}
+\textbf{Rank} & \textbf{Difficulty} \\
+1--5	& 4.0 \\
+6--10	& 3.0 \\
+11-15	& 2.5 \\
+16--18	& 2.0 \\
+19--20	& 1.5 \\
+\end{tabular}
+
+If the victim fails to resist, they suffer a wasting disease and loses
+[D - 3] Endurance points for the purposes of future resistance (only).
+If they fail to resist for three straight months, they die.
+
+Generally, the victim of these maledictions does not know exactly what
+is wrong with them.  Should they discover the bones, they may remove
+the curse by removing the bones from the house.  Other means of ending
+a curse do not normally suffice, although the sufferer would show
+immediate improvement upon leaving the house and sleeping elsewhere
+for a few weeks.  There is no chance of this ritual backfiring.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[R-3]{Creating Rune Portal}
+
+\multiple{400}
+\begin{effects}
+The Adept must place a Runestick with the Portal Rune on it in the
+ground and perform a half hour ritual.  Once the ritual is
+successfully executed, the Runestick may not be moved without
+destroying the portal.  It becomes the terminus for a future attempt
+at teleportation. Once the terminus has been established, the Adept
+may, at any future time, use another Runestick which was carved at the
+same time and is a mate of the Runestick used as the terminus to
+travel back to the original terminus.  There can only be one ``mate''
+for the terminus, and it too must contain the Portal Rune and must be
+of the same material as the terminus Runestick. In order to teleport
+to the terminus, the Adept simply places the mate in or on the ground
+and performs the ritual.  If unsuccessful, both Runesticks are
+destroyed.  If successful, the mate of the terminus is activated and
+becomes a terminus too.  Thereafter, anyone who touches one terminus
+is teleported to the other terminus and appears standing within 5 feet
+of that terminus (travel time is one pulse). A terminus may be used
+any number of times until destroyed, but may never be moved without
+destroying the Portal. A terminus can be destroyed by casting a
+Special Knowledge Counterspell of the College of Rune Magics over
+it. Once a terminus is destroyed, the mate of the Runestick used to
+form the terminus no longer functions (though this will not
+necessarily be known until someone tries to use the mate).  If a
+terminus is destroyed during the pulse while an entity is in transit
+between the two, the entity is destroyed and its molecules dispersed
+over known space.
+
+The Base Chance for this ritual is Magical Aptitude + 3 / Rank, and is
+decreased by 1 for every 5 miles separating the two Runesticks and
+increased by 15 if the Runesticks are shaped from Willow wood.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[R-4]{Binding Elements}
+
+\duration{2 hours + 2 / Rank}
+\multiple{500}
+\basechance{MA + 3\% / Rank}
+\casttime{30 minutes}
+\begin{effects}
+The Adept may gain control of any element by using this ritual.  They
+must possess a Runestick containing the Binding Rune and the Rune
+representing the element to be bound and they must touch the element
+with that Runestick at the conclusion of the ritual.  The Adept may
+bind 500 pounds of earth (+ 500 / Rank), 500 gallons of water (+ 500 /
+Rank), 1000 cubic feet of air (+ 500 / Rank), or all fire within a 10
+foot radius (+ 15 feet / Rank). They may do anything with the element
+except form an elemental. This ritual may not be used over an area
+occupied by an elemental and cannot be used in any way to control an
+elemental.
+\end{effects}
+\end{ritual}
+
+\subsection{Runewand Table}
+\label{rune:runewandtable}
+\index{tables!runewand table}
+
+\begin{inset}{\small}{center}
+\begin{tabular}{l@@{\hspace{1.0em}}l@@{\hspace{0.75em}}c@@{\hspace{0.75em}}c@@{\hspace{0.75em}}c}
+Dice 	& Runewand	& Weight & Cost & Time \\ \hline
+01--15	& Oak Staff	& 3	& 55	& 2 \\
+16--30	& Blackthorn Staff & 3	& 60	& 2 \\
+31--45	& Ash Staff	& 3	& 60	& 3 \\
+46--55	& Willow Rod	& 1	& 55	& 1 \\
+56--65	& Cedar Rod	& 1	& 75	& 2 \\
+66--73	& Ivory Rod	& 1	& 80	& 2 \\
+74--81	& Ebony Rod	& 1	& 90	& 3 \\
+82--89	& Copper Rod	& 1	& 55	& 3 \\
+90--97	& Bronze Sceptre & 5	& 90	& 3 \\
+98*	& Silver Sceptre & 5	& 200	& 4 \\
+99*	& Gilded Sceptre & 5	& 500	& 4 \\
+00*	& Truesilver Sceptre &5 & 900	& 4 \\
+\end{tabular}
+\end{inset}
+
+\begin{Description}
+\item[Runewand]
+Type of Runewand.
+\item[Weight]
+The average weight in pounds of a Runewand made of this material.
+
+\item[Cost]
+The cost in Silver Pennies of the materials (including incense, oils,
+etc.) used in the preparation of the Runewand if it is manufactured by
+the Adept and not purchased.
+
+\item[Time]
+The amount of time in weeks required to create a Runewand of this
+type, given the necessary materials and tools.
+\end{Description}
+
+* This type of Runewand must be paid for by the Adept out of the
+proceeds of their first six months of adventuring or the money lenders
+from whom they gained the wherewithal to have the item made will send
+one or more debt collectors to collect.
+
+\subsection{Runestick Chart}
+\label{rune:runesticktable}
+\index{tables!runestick table}
+
+\begin{inset}{\small}{center}
+\begin{tabular}{lccc}
+Material	& Weight & Cost & Time \\ \hline
+Ashwood		& 1.0	& 1	& 15 \\
+Aspenwood	& 1.0	& 2	& 10 \\
+Cedarwood	& 1.0	& 2	& 10 \\
+Chestnut	& 1.0	& 1	& 10 \\
+Elder Wood	& 1.0	& 2	& 10 \\
+Elm wood	& 1.0	& 2	& 10 \\
+Gilded Metal	& 2.0	& 80	& 240 \\
+Mistletoe	& 0.5	& 1	& 10 \\
+Oak		& 2.0	& 2	& 20 \\
+Pinewood	& 0.5	& 1	& 5 \\
+Rowan		& 1.0	& 4	& 15 \\
+Silvered Metal	& 2.0	& 10	& 240 \\
+Walnut		& 1.0	& 1	& 15 \\
+Willow Wood	& 0.5	& 1	& 15 \\
+Yarrow		& 1.0	& 1	& 10 \\
+Yew		& 1.0	& 2	& 10 \\
+\end{tabular}
+\end{inset}
+
+\begin{Description}
+\item[Material]
+The type of material used to make the Runestick.  Weight: The weight
+in ounces of one Runestick made of this material.
+\item[Cost]
+The cost of the materials (in Silver Pennies) necessary to make one
+Runestick of this material, not including cost of tools.
+\item[Time]
+The amount of time in minutes necessary to manufacture one Runestick
+of this type.  Some spells and rituals require the use of Runesticks
+made of specific materials.  In other cases, any Runestick on this
+table will do, but the modifiers in \S\ref{rune:modifiers} apply.
+\end{Description}
+\end{college}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@a934 1
+\actions{}
+a956 1
+\actions{}
+d1108 1
+a1108 1
+{\fontsize{7}{8pt}\selectfont
+d1123 2
+a1124 1
+\end{tabular}}
+d1151 1
+a1151 1
+{\fontsize{7}{8pt}\selectfont
+d1170 2
+a1171 1
+\end{tabular}}
+@
+
+
+4.2
+log
+@Minor corrections from Andrew Withy plus formatting changes.
+@
+text
+@d1 1
+a1 1
+\begin{college}[1.1]{rune}{Rune Magics}
+d214 1
+a214 1
+\basechance{25\% + 3 / Rank}
+d267 1
+a267 1
+\basechance{40\% + 3 / Rank}
+d289 1
+a289 1
+\resist{May be actively resisted}
+d305 1
+a305 1
+\resist{May not be resisted}
+d342 1
+a342 1
+\resist{May not be resisted}
+d368 1
+a368 1
+\resist{May only be passively resisted}
+a381 1
+
+d386 1
+a386 1
+\resist{May be actively \& passively resisted}
+d445 1
+a445 1
+\resist{Must be disbelieved instead of resisted}
+d465 1
+a465 1
+\resist{May be actively \& passively resisted}
+d500 1
+a500 1
+\resist{May not be resisted}
+d518 1
+a518 1
+\resist{May not be resisted}
+d550 1
+a550 1
+\basechance{55\% + 3 / Rank}
+d609 1
+a609 1
+\basechance{30\% + 3 / Rank}
+a650 1
+
+d694 1
+a694 1
+College to create a ward as described in \S\ref{colleged:ward}.
+a698 1
+
+d700 1
+a700 1
+\basechance{50\% + 4 / Rank}
+a720 1
+
+a748 1
+
+d751 2
+a752 2
+\basechance{30\% + 5 / Rank}
+\resist{The ritual can be only passively resisted}
+d782 1
+a782 1
+\resist{May only be passively resisted}
+d805 1
+a805 1
+\resist{May be actively \& passively resisted}
+d826 1
+a826 1
+\resist{May not be resisted}
+d844 1
+a844 1
+\range{1 mile +1 / Rank}
+d848 1
+a848 1
+\resist{May not be resisted}
+d882 1
+a882 1
+\resist{May only be passively resisted}
+d909 1
+a909 1
+\resist{May be actively \& passively resisted}
+d933 1
+a933 1
+\resist{May only be passively resisted}
+d956 1
+a956 1
+\resist{May not be resisted}
+d991 1
+a991 1
+\basechance{5\% + 5 / Rank}
+d1016 1
+a1016 1
+\basechance{20\% + 4 / Rank}
+d1090 1
+a1090 1
+\basechance{MA + 3 / Rank}
+d1113 1
+a1113 1
+01--15	& Oak  Staff	& 3	& 55	& 2 \\
+d1115 1
+a1115 1
+31--45	& Ash  Staff	& 3	& 60	& 3 \\
+d1117 3
+a1119 3
+56--65	& Cedar  Rod	& 1	& 75	& 2 \\
+66--73	& Ivory  Rod	& 1	& 80	& 2 \\
+74--81	& Ebony  Rod	& 1	& 90	& 3 \\
+d1121 4
+a1124 4
+90--97	& Bronze  Sceptre & 5	& 90	& 3 \\
+  98*	& Silver  Sceptre & 5	& 200	& 4 \\
+  99*	& Gilded  Sceptre & 5	& 500	& 4 \\
+  00*	& Truesilver Sceptre &5 & 900	& 4 \\
+d1160 2
+a1161 2
+Elm  wood	& 1.0	& 2	& 10 \\
+Gilded   Metal	& 2.0	& 80	& 240 \\
+@
+
+
+4.1
+log
+@Runeweapon changed so that the poison with considered natural.
+@
+text
+@d18 2
+d26 4
+a68 1
+
+d90 3
+a92 3
+desired enchantment (see 90.2).  Any tool may be used to carve a Rune
+into a substance, so long as the tool is hard enough to do the job and
+it is not composed of Cold Iron. Exception: the Adept may use a tool
+d176 1
+a176 1
+The Rank of an Adept in the Ritual of fashioning Runewand and the
+d227 1
+a227 1
+talent (T-1).
+d356 1
+a356 1
+casting purposes, though it will reduces penalties due to natural
+@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 1
+a1 3
+\section{The College of Rune Magics (Ver 1.1)}
+\label{rune}
+\index{colleges!Rune Magics|(}
+a2 2
+\begin{multicols}{3}
+
+d180 2
+a181 2
+\sItem{Experience Multiple}{150}
+\emph{Effect:}
+d203 1
+d208 3
+a210 3
+\sItem{Experience Multiple}{150}
+\sItem{Base Chance}{25\% + 3 / Rank}
+\emph{Effect:}
+d223 1
+d228 2
+a229 2
+\sItem{Experience Multiple}{100}
+\emph{Effect:}
+d243 1
+d247 2
+a248 3
+
+\sItem{Experience Multiple}{150}
+\emph{Effect:}
+d253 3
+a255 2
+creator modifies all attempts to break the code or cipher by -3 / Rank.
+It takes 1 hour to create a code or cipher.
+d260 4
+a263 4
+\sItem{Range}{10 feet + 10 / Rank}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{40\% + 3 / Rank}
+\emph{Effect:}
+d273 1
+d280 7
+a286 7
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{100}
+\sItem{Base Chance}{45\%}
+\sItem{Resist}{May be actively resisted}
+\sItem{Target}{Entity or Object}
+\emph{Effect:}
+d291 1
+d296 7
+a302 7
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{ 15 minutes / Rank (\x 1 if unranked)}
+\sItem{Experience Multiple}{75}
+\sItem{Base Chance}{45\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Target}{Volume}
+\emph{Effect:}
+d328 1
+d333 7
+a339 7
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{15 minutes / Rank (\x 1 if unranked)}
+\sItem{Experience Multiple}{75}
+\sItem{Base Chance}{50\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Target}{Volume}
+\emph{Effect:}
+d354 1
+d359 7
+a365 7
+\sItem{Range}{Touch of Runewand}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{75}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Target}{Object}
+\emph{Effect:}
+d372 1
+d378 7
+a384 7
+\sItem{Range}{Touch of Runewand}
+\sItem{Duration}{Permanent until dispelled}
+\sItem{Experience Multiple}{400}
+\sItem{Base Chance}{35\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d432 1
+d437 7
+a443 7
+\sItem{Range}{5 feet + 5 / Rank}
+\sItem{Duration}{Permanent until dispelled}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{35\%}
+\sItem{Resist}{Must be disbelieved instead of resisted}
+\sItem{Target}{Runestick}
+\emph{Effect:}
+d452 1
+d457 7
+a463 7
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{Special}
+\sItem{Experience Multiple}{500}
+\sItem{Base Chance}{15\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d487 1
+d492 7
+a498 7
+\sItem{Range}{Touch}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{100}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Target}{Liquid}
+\emph{Effect:}
+d505 1
+d510 7
+a516 7
+\sItem{Range}{5 feet + 5 / Rank}
+\sItem{Duration}{Permanent until dispelled}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Target}{Portal}
+\emph{Effect:}
+d538 1
+d545 3
+a547 3
+\sItem{Experience Multiple}{100}
+\sItem{Base Chance}{55\% + 3 / Rank}
+\emph{Effect:}
+d599 1
+d604 3
+a606 3
+\sItem{Experience Multiple}{300}
+\sItem{Base Chance}{30\% + 3 / Rank}
+\emph{Effect:}
+d643 1
+d648 2
+a649 2
+\sItem{Experience Multiple}{200}
+\emph{Effect:}
+d692 1
+d697 3
+a699 3
+\sItem{Experience Multiple}{150}
+\sItem{Base Chance}{50\% + 4 / Rank}
+\emph{Effect:}
+d715 1
+d720 2
+a721 2
+\sItem{Experience Multiple}{300}
+\emph{Effect:}
+d744 1
+d749 5
+a753 5
+\sItem{Range}{10 miles + 5 / Rank}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{30\% + 5 / Rank}
+\sItem{Resist}{The ritual can be only passively resisted}
+\emph{Effect:}
+d771 1
+d778 7
+a784 7
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{30 minutes + 30 / Rank}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{50\%}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Target}{Area}
+\emph{Effect:}
+d796 1
+d801 7
+a807 7
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{15 seconds + 15 / Rank}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{15\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d817 1
+d822 7
+a828 7
+\sItem{Range}{Touch}
+\sItem{Duration}{1 hour + 1 / Rank}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Target}{Runestick}
+\emph{Effect:}
+d839 1
+d844 7
+a850 7
+\sItem{Range}{1 mile +1 / Rank}
+\sItem{Duration}{Concentration: Maximum 1 hour + 1 / Rank}
+\sItem{Experience Multiple}{300}
+\sItem{Base Chance}{15\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d873 1
+d878 7
+a884 7
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{1 hour + 1 / Rank}
+\sItem{Experience Multiple}{300}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d900 1
+d905 7
+a911 7
+\sItem{Range}{Touch}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Target}{Summonable}
+\emph{Effect:}
+d924 1
+d929 8
+a936 8
+\sItem{Range}{Touch}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{25\%}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Target}{Entity}
+\sItem{Actions}{}
+\emph{Effect:}
+d947 1
+d952 8
+a959 8
+\sItem{Range}{Touch}
+\sItem{Duration}{1 hour + 1 / Rank}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Target}{Runestick}
+\sItem{Actions}{}
+\emph{Effect:}
+d980 4
+a983 1
+normal rules for using poisoned weapons apply.
+d990 3
+a992 3
+\sItem{Experience Multiple}{500}
+\sItem{Base Chance}{5\% + 5 / Rank}
+\emph{Effect:}
+d1010 1
+d1015 3
+a1017 3
+\sItem{Experience Multiple}{450}
+\sItem{Base Chance}{20\% + 4 / Rank}
+\emph{Effect:}
+d1047 1
+d1052 2
+a1053 2
+\sItem{Experience Multiple}{400}
+\emph{Effect:}
+d1083 1
+d1088 5
+a1092 5
+\sItem{Duration}{2 hours + 2 / Rank}
+\sItem{Experience Multiple}{500}
+\sItem{Base Chance}{MA + 3 / Rank}
+\sItem{Cast Time}{30 minutes}
+\emph{Effect:}
+d1103 1
+d1186 1
+a1186 5
+
+\raggedcolumns
+\index{colleges!Rune Magics|)}
+\clearemptydoublepage
+\end{multicols}
+@
+
+
+3.5
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+3.4
+log
+@Fix e.g. problem
+@
+text
+@a285 1
+\sItem{Actions}{}
+a300 1
+\sItem{Actions}{}
+a336 1
+\sItem{Actions}{}
+a361 1
+\sItem{Actions}{}
+a379 1
+\sItem{Actions}{}
+d390 1
+a390 2
+{\begin{description}
+\setlength\itemsep{0pt}
+d427 1
+a427 1
+\end{description}}
+a437 1
+\sItem{Actions}{}
+a456 1
+\sItem{Actions}{}
+a490 1
+\sItem{Actions}{}
+a497 1
+
+a506 1
+\sItem{Storage}{}
+a507 1
+\sItem{Actions}{}
+a589 1
+
+a632 1
+
+a680 1
+
+d716 1
+a716 2
+\begin{description}
+\setlength\itemsep{0pt}
+d726 1
+a726 1
+\end{description}
+a730 1
+
+a768 1
+\sItem{Actions}{}
+a780 1
+
+a790 1
+\sItem{Actions}{}
+a810 1
+\sItem{Actions}{}
+a831 1
+\sItem{Actions}{}
+a863 1
+\sItem{Storage}{}
+a864 1
+\sItem{Actions}{}
+a890 1
+\sItem{Actions}{}
+a925 1
+
+a984 1
+
+a1020 1
+
+a1055 1
+
+d1098 1
+a1098 3
+{\setlength\leftmargini{1.0em}
+\begin{description}
+\setlength\itemsep{0pt}
+d1112 1
+a1112 1
+\end{description}}
+d1144 1
+a1144 3
+{\setlength\leftmargini{1.0em}
+\begin{description}
+\setlength\itemsep{0pt}
+d1156 1
+a1156 1
+\end{description}}
+@
+
+
+3.3
+log
+@Check in before modifying e.g. and i.e.
+@
+text
+@d156 1
+a156 1
+(i.e.\ to cast one spell).
+d313 1
+a313 1
+to adjust), and at Ranks 16--20 all light is banished (i.e.\ totally
+d349 1
+a349 1
+darkness is banished (i.e.\ totally light), so it is impossible to see
+d555 1
+a555 1
+Runes are being cut into the stick (i.e.\ what spell or ritual the
+d792 7
+a798 7
+Adept (and no one else) into any shape of their devising (e.g.\
+circle, dome, etc.).  The Adept may alter the height or length of the
+wall by 1 foot per Rank.  The wall cannot be created touching an
+entity, although it may encompass them.  Any entity coming into
+contact with the wall must resist or be thrown back (falling prone).
+In addition, if the Runestick used to manufacture the wall was made of
+Elder, anyone who fails to resist suffers [D - 2] + 1 / Rank.
+d860 1
+a860 1
+except bodily (i.e.\ the Adept may communicate and use all their
+d903 1
+a903 1
+through deceptions (e.g.\ magical traps).  The roll should be modified
+d983 1
+a983 1
+one time, i.e.\ poison from different strikes is not cumulative.  The
+@
+
+
+3.2
+log
+@Fix spell titles.
+@
+text
+@d156 1
+a156 1
+(i.e., to cast one spell).
+d313 1
+a313 1
+to adjust), and at Ranks 16--20 all light is banished (i.e., totally
+d349 1
+a349 1
+darkness is banished (i.e., totally light), so it is impossible to see
+d555 1
+a555 1
+Runes are being cut into the stick (i.e., what spell or ritual the
+d792 1
+a792 1
+Adept (and no one else) into any shape of their devising (e.g.,
+d860 1
+a860 1
+except bodily (i.e., the Adept may communicate and use all their
+d903 1
+a903 1
+through deceptions (e.g., magical traps).  The roll should be modified
+d983 1
+a983 1
+one time, i.e., poison from different strikes is not cumulative.  The
+@
+
+
+3.1
+log
+@Fix spell environment and indexes
+@
+text
+@d375 2
+a376 1
+\begin{spell}[G-5]{Curse Spell}
+d456 1
+a456 1
+\begin{spell}[G-7]{Control Entity Spell}
+@
+
+
+3.0
+log
+@Major typographical changes.  Spells now spell environments
+@
+text
+@d3 1
+a3 1
+\index{college!Rune Magics|(}
+d170 1
+a170 1
+27.7 of the DragonQuest rules, except that the number of hours spent
+d173 1
+a173 1
+Spell Preparation as outlined in 32.1.
+d182 1
+a182 1
+\begin{talent}{Read Dead Languages (T-1)}
+a206 1
+
+d209 1
+a209 1
+\begin{talent}{Decipher Codes and Ciphers (T-2)}
+a225 1
+
+d228 1
+a228 1
+\begin{talent}{Read Runesticks (T-3)}
+a244 1
+
+d247 1
+a247 1
+\begin{talent}{Create Codes and Ciphers (T-4)}
+a256 1
+
+d259 1
+a259 1
+\begin{talent}{Summon Wand (T-5)}
+d278 1
+a278 1
+\begin{spell}{Learn Rune (G-1)}
+a291 2
+
+
+d294 1
+a294 1
+\begin{spell}{Spell of Darkness (G-2)}
+a328 1
+
+d331 1
+a331 1
+\begin{spell}{Spell of Light (G-3)}
+d357 1
+a357 1
+\begin{spell}{Spell of Pyrogenesis (G-4)}
+a372 1
+
+d375 1
+a375 1
+\begin{spell}{Curse Spell (G-5)}
+a432 1
+
+d435 1
+a435 1
+\begin{spell}{Spell of Illusion (G-6)}
+a452 1
+
+d455 1
+a455 1
+\begin{spell}{Control Entity Spell (G-7)}
+a487 1
+
+d490 1
+a490 1
+\begin{spell}{Spell of Purification (G-8)}
+d509 1
+a509 1
+\begin{spell}{Runelock Spell (G-9)}
+d545 1
+a545 1
+\begin{ritual}{Ritual of Fashioning Runesticks (Q-1)}
+d604 1
+a604 1
+\begin{ritual}{Ritual of Fashioning Runewand (Q-2)}
+d648 1
+a648 1
+\begin{ritual}{Ritual of Warding with Runesticks (Q-3)}
+d697 1
+a697 1
+\begin{ritual}{Ritual of Healing (Q-4)}
+d719 1
+a719 1
+\begin{ritual}{Runes of Sight (Q-5)}
+d749 1
+a749 1
+\begin{ritual}{Ritual of Sending (Q-6)}
+d777 1
+a777 1
+\begin{spell}{Runewall Spell (S-1)}
+d801 1
+a801 1
+\begin{spell}{Spell of Torment (S-2)}
+a819 1
+
+d822 1
+a822 1
+\begin{spell}{Spell of Creating Rune Shield (S-3)}
+a841 1
+
+d844 1
+a844 1
+\begin{spell}{Spell of Visitation (S-4)}
+a875 1
+
+d878 1
+a878 1
+\begin{spell}{Spell of Truth (S-5)}
+a903 2
+
+
+d906 1
+a906 1
+\begin{spell}{Spell of  Banishment (S-6)}
+a927 1
+
+d930 1
+a930 1
+\begin{spell}{Smite Spell (S-7)}
+d953 1
+a953 1
+\begin{spell}{Spell of Creating Runeweapon (S-8)}
+d988 1
+a988 1
+\begin{ritual}{Ritual of Casting the Runes (R-1)}
+d1013 1
+a1013 1
+\begin{ritual}{Ritual of Creeping Doom (R-2)}
+d1050 1
+a1050 1
+\begin{ritual}{Ritual of Creating Rune Portal (R-3)}
+d1086 1
+a1086 1
+\begin{ritual}{Ritual of Binding (R-4)}
+d1191 1
+a1191 1
+\index{college!Rune Magics|)}
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d3 2
+d182 1
+a182 1
+\subsubsection{Read Dead Languages (T-1)}
+d184 2
+a185 4
+\begin{spelldesc}
+\emph{Experience Multiple:} 150 \\
+\end{spelldesc}
+\emph{Effects:}
+d208 3
+a210 1
+\subsubsection{Decipher Codes and Ciphers (T-2)}
+d212 3
+a214 5
+\begin{spelldesc}
+\emph{Experience Multiple:} 150 \\
+\emph{Base Chance:} 25\% + 3 / Rank
+\end{spelldesc}
+\emph{Effects:}
+d228 1
+a228 1
+\subsubsection{Read Runesticks (T-3)}
+d230 4
+a233 4
+\begin{spelldesc}
+\emph{Experience Multiple:} 100 \\
+\end{spelldesc}
+\emph{Effects:}
+d248 3
+a250 1
+\subsubsection{Create Codes and Ciphers (T-4)}
+d252 2
+a253 4
+\begin{spelldesc}
+\emph{Experience Multiple:} 150 \\
+\end{spelldesc}
+\emph{Effects:}
+d261 1
+a261 1
+\subsubsection{Summon Wand (T-5)}
+d263 6
+a268 6
+\begin{spelldesc}
+\emph{Range:} 10 feet + 10 / Rank \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 40\% + 3 / Rank \\
+\end{spelldesc}
+\emph{Effects:}
+d278 1
+d282 1
+a282 1
+\subsubsection{Learn Rune (G-1)}
+d284 8
+a291 10
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 100 \\
+\emph{Base Chance:} 45\% \\
+\emph{Resist:} May be actively resisted \\
+\emph{Target:} Entity or Object \\
+\emph{Actions:} \\
+\end{spelldesc}
+\emph{Effects:}
+d298 3
+a300 1
+\subsubsection{Spell of Darkness (G-2)}
+d302 8
+a309 10
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:}  15 minutes / Rank (\x 1 if unranked) \\
+\emph{Experience Multiple:} 75 \\
+\emph{Base Chance:} 45\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Target:} Volume \\
+\emph{Actions:} \\
+\end{spelldesc}
+\emph{Effects:}
+d336 3
+a338 1
+\subsubsection{Spell of Light (G-3)}
+d340 8
+a347 10
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} 15 minutes / Rank (\x 1 if unranked) \\
+\emph{Experience Multiple:} 75 \\
+\emph{Base Chance:} 50\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Target:} Volume \\
+\emph{Actions:} \\
+\end{spelldesc}
+\emph{Effects:}
+d362 1
+a362 1
+\subsubsection{Spell of Pyrogenesis (G-4)}
+d364 10
+a373 10
+\begin{spelldesc}
+\emph{Range:} Touch of Runewand \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 75 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Target:} Object \\
+\emph{Actions:} \\
+\end{spelldesc}
+\emph{Effects: }
+d381 3
+a383 1
+\subsubsection{Curse Spell (G-5)}
+d385 8
+a392 10
+\begin{spelldesc}
+\emph{Range:} Touch of Runewand \\
+\emph{Duration:} Permanent until dispelled \\
+\emph{Experience Multiple:} 400 \\
+\emph{Base Chance:} 35\% \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Target:} Entity \\
+\emph{Actions:} \\
+\end{spelldesc}
+\emph{Effects: }
+d442 1
+a442 1
+\subsubsection{Spell of Illusion (G-6)}
+d444 10
+a453 10
+\begin{spelldesc}
+\emph{Range:} 5 feet + 5 / Rank \\
+\emph{Duration:} Permanent until dispelled \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 35\% \\
+\emph{Resist:} Must be disbelieved instead of resisted \\
+\emph{Target:} Runestick \\
+\emph{Actions:} \\
+\end{spelldesc}
+\emph{Effects: }
+d463 3
+a465 1
+\subsubsection{Control Entity Spell (G-7)}
+d467 8
+a474 10
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} Special \\
+\emph{Experience Multiple:} 500 \\
+\emph{Base Chance:} 15\% \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Target:} Entity \\
+\emph{Actions:} \\
+\end{spelldesc}
+\emph{Effects: }
+d499 1
+a499 1
+\subsubsection{Spell of Purification (G-8)}
+d501 10
+a510 10
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 100 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Target:} Liquid \\
+\emph{Actions:} \\
+\end{spelldesc}
+\emph{Effects: }
+d518 3
+a520 1
+\subsubsection{Runelock Spell (G-9)}
+d522 9
+a530 11
+\begin{spelldesc}
+\emph{Range:} 5 feet + 5 / Rank \\
+\emph{Duration:} Permanent until dispelled \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} \\
+\emph{Target:} Portal \\
+\emph{Actions:} \\
+\end{spelldesc}
+\emph{Effects: }
+d552 1
+d556 1
+a556 1
+\subsubsection{Ritual of Fashioning Runesticks (Q-1)}
+d558 3
+a560 5
+\begin{spelldesc}
+\emph{Experience Multiple:} 100 \\
+\emph{Base Chance:} 55\% + 3 / Rank \\
+\end{spelldesc}
+\emph{Effects:}
+d613 3
+a615 1
+\subsubsection{Ritual of Fashioning Runewand (Q-2)}
+d617 3
+a619 5
+\begin{spelldesc}
+\emph{Experience Multiple:} 300 \\
+\emph{Base Chance:} 30\% + 3 / Rank \\
+\end{spelldesc}
+\emph{Effects:}
+d657 1
+a657 1
+\subsubsection{Ritual of Warding with Runesticks (Q-3)}
+d659 4
+a662 4
+\begin{spelldesc}
+\emph{Experience Multiple:} 200 \\
+\end{spelldesc}
+\emph{Effects:}
+d706 3
+a708 1
+\subsubsection{Ritual of Healing (Q-4)}
+d710 3
+a712 5
+\begin{spelldesc}
+\emph{Experience Multiple:} 150 \\
+\emph{Base Chance:} 50\% + 4 / Rank \\
+\end{spelldesc}
+\emph{Effects:}
+d728 1
+a728 1
+\subsubsection{Runes of Sight (Q-5)}
+d730 4
+a733 4
+\begin{spelldesc}
+\emph{Experience Multiple:} 300 \\
+\end{spelldesc}
+\emph{Effects:}
+d758 3
+a760 1
+\subsubsection{Ritual of Sending (Q-6)}
+d762 5
+a766 7
+\begin{spelldesc}
+\emph{Range:} 10 miles + 5 / Rank \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} 30\% + 5 / Rank \\
+\emph{Resist:} The ritual can be only passively resisted \\
+\end{spelldesc}
+\emph{Effects:}
+d784 1
+d788 1
+a788 1
+\subsubsection{Runewall Spell (S-1)}
+d790 8
+a797 10
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} 30 minutes + 30 / Rank \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} 50\% \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Target:} Area \\
+\emph{Actions:} \\
+\end{spelldesc}
+\emph{Effects: }
+d810 1
+a810 1
+\subsubsection{Spell of Torment (S-2)}
+d812 10
+a821 10
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} 15 seconds + 15 / Rank \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} 15\% \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Target:} Entity \\
+\emph{Actions:} \\
+\end{spelldesc}
+\emph{Effects: }
+d832 3
+a834 1
+\subsubsection{Spell of Creating Rune Shield (S-3)}
+d836 8
+a843 10
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} 1 hour + 1 / Rank \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Target:} Runestick \\
+\emph{Actions:} \\
+\end{spelldesc}
+\emph{Effects: }
+d855 3
+a857 1
+\subsubsection{Spell of Visitation (S-4)}
+d859 8
+a866 10
+\begin{spelldesc}
+\emph{Range:} 1 mile +1 / Rank \\
+\emph{Duration:} Concentration: Maximum 1 hour + 1 / Rank \\
+\emph{Experience Multiple:} 300 \\
+\emph{Base Chance:} 15\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Target:} Entity \\
+\emph{Actions:} \\
+\end{spelldesc}
+\emph{Effects: }
+d890 1
+a890 1
+\subsubsection{Spell of Truth (S-5)}
+d892 11
+a902 11
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} 1 hour + 1 / Rank \\
+\emph{Experience Multiple:} 300 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Storage:} \\
+\emph{Target:} Entity \\
+\emph{Actions:} \\
+\end{spelldesc}
+\emph{Effects: }
+d920 3
+a922 1
+\subsubsection{Spell of  Banishment (S-6)}
+d924 8
+a931 10
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Target:} Summonable \\
+\emph{Actions:} \\
+\end{spelldesc}
+\emph{Effects: }
+d945 1
+a945 1
+\subsubsection{Smite Spell (S-7)}
+d947 10
+a956 10
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 25\% \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Target:} Entity \\
+\emph{Actions:} \\
+\end{spelldesc}
+\emph{Effects:}
+d968 3
+a970 1
+\subsubsection{Spell of Creating Runeweapon (S-8)}
+d972 8
+a979 10
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} 1 hour + 1 / Rank \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Target:} Runestick \\
+\emph{Actions:} \\
+\end{spelldesc}
+\emph{Effects: }
+d1001 1
+d1005 1
+a1005 1
+\subsubsection{Ritual of Casting the Runes (R-1)}
+d1007 3
+a1009 5
+\begin{spelldesc}
+\emph{Experience Multiple:} 500 \\
+\emph{Base Chance:} 5\% + 5 / Rank \\
+\end{spelldesc}
+\emph{Effects:}
+d1028 1
+a1028 1
+\subsubsection{Ritual of Creeping Doom (R-2)}
+d1030 5
+a1034 5
+\begin{spelldesc}
+\emph{Experience Multiple:} 450 \\
+\emph{Base Chance:} 20\% + 4 / Rank \\
+\end{spelldesc}
+\emph{Effects:}
+d1065 3
+a1067 1
+\subsubsection{Ritual of Creating Rune Portal (R-3)}
+d1069 2
+a1070 4
+\begin{spelldesc}
+\emph{Experience Multiple:} 400 \\
+\end{spelldesc}
+\emph{Effects:}
+d1101 3
+a1103 1
+\subsubsection{Ritual of Binding (R-4)}
+d1105 5
+a1109 7
+\begin{spelldesc}
+\emph{Duration:} 2 hours + 2 / Rank \\
+\emph{Experience Multiple:} 500 \\
+\emph{Base Chance:} MA + 3 / Rank \\
+\emph{Cast Time:} 30 minutes \\
+\end{spelldesc}
+\emph{Effects:}
+d1120 1
+d1124 1
+d1168 1
+d1208 1
+@
+
+
+1.3
+log
+@Release 1.0 snapshot
+@
+text
+@@
+
+
+1.2
+log
+@Fix codes and ciphers
+@
+text
+@d5 8
+a12 9
+The College of Rune  Magics  is  concerned  with  the  use  of
+special symbols of power to shape mana into desired forms.  A Rune
+is  a  graphic  symbol  representing  some   actual,   elemental,   or
+mystical force. In rare  cases,  additional  Runes  may  be  developed
+or discovered which employ parts  of  existing  Runes.  However,  much
+of the power of the Runes  derives  from  their  constant  usage  over
+many centuries, and most useful Runes will  be  known  to  all  Adepts
+of this College (or at least be  readily  available  to  them  with  a
+very little bit of research).
+d24 1
+a24 1
+his personal Runewand in casting the spell or performing the ritual.
+d26 3
+a28 3
+As part of his initiation into the mysteries of this College, the
+Adept is required to prepare a Runewand for himself.  Usually, one or
+more of his teachers will participate in the endeavour as well.  If
+d32 1
+a32 1
+the Adept's labour during his apprenticeship will be sufficient to
+d47 1
+a47 1
+teachers. An Adept may later equip himself with a different type of
+d59 5
+a63 5
+Talent T-3.  If he fails to do so, he may not use the Runewand. Even
+if he successfully reads the Runes inscribed on a Runewand which he
+did not manufacture, the Adept still suffers a penalty when using the
+Runewand. The Base Chance for any spell or ritual performed with the
+aid of that Runewand is reduced by 20.
+d71 1
+a71 1
+single spell or ritual.  Exception: The Warding Rune is used in a
+d77 1
+a77 1
+An Adept may use Runesticks fashioned by someone else, but he must
+d80 1
+a80 1
+spell with Runesticks not of his manufacture.
+d89 3
+a91 2
+it is not composed of Cold Iron. Exception: The Adept may use a tool
+containing Cold Iron if the Cold Iron is neutralised as per 29.1.
+d95 1
+a95 2
+\x 2cm \x 1cm and weighs 2 oz.
+
+d154 1
+a154 1
+(ie.  to cast one spell).
+d182 4
+d189 18
+a206 18
+language if he does not know it.  If the Adept puzzles out or knows
+the language (from clues such as root words in known languages), he
+will have rank with the language equal to half his Rank with this
+talent (round up) after spending 20 hours (-30 minutes / Rank with this
+talent) mastering the nuances of the language. A dead language may be
+studied in this manner via written word (tomes, inscriptions, etc.),
+and hence the language is known only in written form. There must be
+sufficient text to allow the Adept to achieve the requisite rank.
+(Players should record the languages and rank they know using this
+talent, and also those that they have failed to master.)
+
+An Adept may increase Rank with a dead language that he has mastered
+by spending one week per Rank practising the language (at no
+Experience cost) until he knows it at the same Rank as his Rank with
+this talent. If he wishes to gain Rank with a dead language which is
+greater than his Rank with this talent, he must follow the normal
+procedure to gain Rank with a language as described in 49 and 87 (in
+the DragonQuest rules).  This talent's Experience Multiple is 150.
+d210 17
+a226 14
+Any Adept of this College has a 25\% chance  (+3 / Rank)  of  being
+able to break any code or  cipher  created  by  an  Adept  of  this
+college using T-4 if he studies it for  12  hours  (-l / Rank,+l / Rank
+of the Adept who created the code  or  cipher  with  T-4  )  .  The
+Adept's chances of breaking such a cipher  or  code  are  decreased
+by 3 for every Rank the Adept who created the code  or  cipher  had
+with T-4 (Create Codes and Ciphers)  of  this  College.  The  Adept
+must concentrate on breaking this code or cipher  for  an  unbroken
+period of time equal  to  that  necessary  to  break  the  code  or
+cipher before a D100 roll can be made  (by  the  GM)  to  determine
+his success. The Adept's rank in  breaking  non-magical  codes  and
+ciphers is equal to his rank in this talent  (T-1).  This  talent's
+Experience Multiple is 150.
+
+d230 4
+a246 1
+This talent's Experience Multiple is 100.
+d250 4
+d259 1
+a259 2
+It takes 1 hour to create a code or cipher. The Experience multiple
+for this talent is 150.
+d263 15
+a277 9
+An Adept can summon to him any Runewand he has created that is within
+10 feet (+10 / Rank) of him.  The Adept simply wills the wand to come
+to him (requires a Pass Action in combat) and the Runewand leaps into
+his hand.  The Base Chance to successfully use this talent is 40\% (+3
+/ Rank).  The Experience Multiple for this talent is 200.  Note: This
+talent can operate only if the path between the Adept and his Runewand
+is not blocked by anything through which the Runewand could not
+normally pass (such as a wall or person).  Only the Runewand is
+summoned; nothing surrounding or attached to it travels with it.
+d290 1
+d293 1
+a293 1
+The Adept must point his Runewand at the object of the spell.  If
+d308 1
+d311 24
+a334 8
+The Adept creates a volume of darkness (1000 cubic feet) of any shape
+he desires.  At Ranks 1 through 5, the spell creates darkness equal to
+a cloudy night.  At 6 through 10, it creates darkness equal to a
+sealed room. At Rank 11 or higher, it creates absolute blackness that
+no non-magical light source (including torches) can penetrate.  The
+volume of darkness created may be increased by 500 cubic feet /
+Rank. In all cases, the darkness will emanate from the tip of the
+Adept's Runewand, but will last for only so long as the Runewand
+d346 1
+d349 13
+a361 4
+One 10-foot cube (1000 cubic feet) area may be brightly lit.  The
+lighted area may be any shape (even pencil thin), but must emanate
+from the tip of the Adept's Runewand and will last for only so long as
+the Runewand remains unbroken and in the Adept's possession.
+d372 1
+d391 1
+d394 1
+a394 1
+The Adept may curse one target (which he must touch with his Runewand)
+d403 1
+a403 2
+{\setlength\leftmargini{1.0em}
+\begin{description}
+d429 2
+a430 2
+the target will feel hagridden and imagine himself pursued by
+phantasms.  He will, unless the curse is first dispelled, eventually
+d432 2
+a433 2
+and companions, and obsessed with the idea of destroying his enemies
+(who he thinks are ``all around''). If the curse is not dispelled
+d435 6
+a440 6
+will completely lose touch with reality. He will then plot to destroy
+his friends in the belief that they are ``out to get him'' and will
+exhibit other bizarre behaviour.  He will be cured of the advanced
+stage of this affliction only by having the curse dispelled and then
+spending a number of days equal to the Adept' s Rank \x D10 in rest
+and recuperation.
+d452 1
+d456 7
+a462 28
+spell and a Rune representing an object or entity of his choice on the
+ground.  After a successful cast the stick will appear to all except
+the Adept to be the same object or entity as the Rune incised on the
+Runestick.  The illusion lasts until dispelled by the appropriate
+counterspell or the stick is moved.  The image will be static and will
+remain even when touched.  However, the illusion can be disbelieved
+and assigned a difficulty factor, as outlined in 38 (DragonQuest
+rules), based on the Adept's Rank with the spell.  Note that a Rune
+Mage's illusions are generally unlikely to be as proficient as an
+Adept of the College of Illusions.  Therefore 0.5 should be added to
+the difficulty factor.
+
+The  components  and  size  of  the  illusion  will  depend   on   Rank
+according to  the  following  table:
+
+{\setlength\leftmargini{0.5em}
+\begin{description}
+\setlength\itemsep{0pt}
+\item[0] Full-sized (within  Rank  limits)  but  partially  incomplete  (GM's discretion).
+\item[1]   Will  visually  appear  complete.
+\item[3]   May add olfactory component.
+\item[5]   May add auditory component.
+\item[7]   May add tactile component.
+\end{description}}
+At Ranks 0--3 only a 1 hex sized illusion may be created.  For every
+three Ranks after rank 3 or fraction thereof, another hex for the
+purpose of size may be added.  For example, at rank 7 an illusion of a
+three hex giant may be created.
+d473 1
+d476 7
+a482 7
+Three Runesticks containing the binding Rune must be bound onto the
+entity to be controlled.  10\% is added to the Base Chance if the Rune
+representing the generic type of the entity to be bound has been
+carved onto the Runesticks. This binding cannot be done in combat,
+although the target may be physically restrained while the Adept
+attaches the Runesticks.  In some cases, the Adept may be able to
+induce the entity to put the Runesticks on itself voluntarily (via
+d484 5
+a488 5
+then be cast to determine whether or not the sticks function.  The
+target must be visible to the caster in order for the spell to be
+cast.  Once cast, this spell remains in effect until the sticks are no
+longer bound to the target.  However, every Rank + 1 days after the
+sticks have been placed, the entity gets a further resistance check.
+d494 5
+a498 5
+spell.  Otherwise, the target may not remove them himself unless so
+commanded by the binder.  Until the sticks are removed the target will
+freely do the bidding of the Adept, acting in all ways as his loyal
+servant (even to the extent of fighting anyone trying to remove the
+sticks from him).
+d509 1
+d529 1
+d548 5
+a552 5
+In order to place a Runelock on a portal, (which takes
+a minute), the Adept must draw or paint the Runelock Rune on the
+portal. He may only then cast the spell.  Note: The opening spell of
+the College of Ensorcelments and Enchantments will open a Runelocked
+portal, but will not dissipate the Runelock.
+d558 5
+d564 39
+a602 38
+Rune(s) on a stick fashioned of any material listed in 90.4 (The
+Runestick Chart).  At the time the Adept fashions the Runestick, the
+Adept's player must announce what Runes are being cut into the stick
+(ie. what spell or ritual the Runestick can be used to
+perform). Careful records must be kept of the number and type of
+Runesticks carried by a character.  Whenever an Adept wishes to cast a
+spell or perform a ritual using the runesticks in his possession, he
+prepares the spell or performs the ritual normally using the
+runestick(s) only to cast a spell once it is prepared. Until a spell
+is cast, the Runestick is unaffected by the preparation.  However,
+once a Cast Check is made, whether successful or not, the Runesticks
+used in that spell or ritual are used up. They retain the power
+necessary to keep the spell or ritual in effect for its normal
+duration, but are otherwise of no magical value.  They can never be
+``recharged'' or reused, although the materials they comprise may be
+refashioned (see note).  Once they have been fashioned as part of this
+ritual, Runesticks are permanently imbued with the power of the spell
+or ritual represented by the Rune(s) cut into them.  Only one spell or
+ritual may be imbued in each stick.  It takes a length of time equal
+to that listed on the ``Time'' column of the Runestick Chart (- 1 /
+Rank, but with a minimum of 1 minute) to perform this ritual.  Only
+one stick may be produced per ritual.  It costs 10 fatigue points (- 1
+/ three Ranks or fraction) to perform the ritual, and the Base Chance
+of successfully performing it is 55\% (+ 3 / Rank), and there is no
+backfire.  This ritual's Experience Multiple is 100.
+
+\textbf{Note:} The actual materials in a Runestick, once used in a  spell,
+may be used to fashion new Runesticks for future use.  This requires a
+new ritual of Fashioning Runesticks, during which the Runesticks are
+refashioned (carved or cast). Runesticks used in a spell or ritual
+that backfires are destroyed (burned up), and the materials may not be
+refashioned into new Runesticks or used for any purpose, magical or
+otherwise. Only the actual stick itself may be reused (as opposed to
+the ink, etc.). The Base Chance of the stick being reusable is equal
+to the Adept's Magical Aptitude + 5 / Rank with this ritual. If the
+Cast Check is successful then the stick can be refashioned by going
+through the ritual again (as listed). If the Cast Check is
+unsuccessful then the stick in question is absolutely useless.
+d607 1
+a607 1
+or used again. If , however, the ritual was successful then the
+d609 5
+a613 5
+against a Runestick then that stick cannot be used again until it has
+been refashioned.  If the Adept desires to refashion it then before he
+begins the ritual he first finds out if the stick is reusable using
+the Cast Chance given above. If the stick is reusable then the Adept
+can proceed with the ritual.
+d617 5
+d646 12
+a657 13
+In addition, he may store a maximum of 1 Fatigue Point in the Runewand
+at Rank 0, and an additional 1 Fatigue Point for every 2 or fraction
+Ranks he has with the ritual of Fashioning Runewand at the time the
+Runewand is fashioned.  Fatigue is stored in a Runewand simply by
+touching the Runewand and willing one or more Fatigue Points to enter
+the Runewand.  Twice the Fatigue Points stored in the Runewand are
+subtracted from the Adept.  Once stored in the Runewand, Fatigue
+Points remain there indefinitely and can be used by the Adept to cast
+spells at any time that he is holding the Runewand while making a Cast
+Check.  A character may add Fatigue to a Runewand any number of times,
+so long as the Runewand has the capacity remaining to store the
+Fatigue each time the wand is ``recharged''.  The Experience Multiple
+for this ritual is 300.
+d661 4
+d667 15
+a681 15
+seven sticks composed of any material listed in 90.4.  If three
+Runesticks are used, the Base Chance for this ritual is 20\%.  If five
+sticks are used, the Base Chance is 30\%.  If seven sticks are used,
+the Base Chance is 40\%.  All Base Chances are increased by 5 per
+Rank.  This ritual takes two hours (-10 minutes / Rank, with a minimum
+of 10 minutes) to complete.  During the ritual, the Adept must place
+the Runesticks containing the Runeward symbol in a roughly circular
+configuration around the area to be warded (the Adept must remain
+inside the area while the ritual is being prepared).  At the end of
+the ritual, if it is successful, a Runeward exists that will help to
+protect those inside it from magic.  No magical item (amulet, weapon,
+etc.)  can be brought into the warded area, though items already
+inside the warded area can be taken out.  The area to be warded is a
+sphere with a diameter, in feet, of up to 10 times the number of
+sticks used.
+d688 1
+a688 1
+Resistance by twice his Rank for a seven stick ward. In addition, if
+d691 1
+a691 1
+decreases its Magic Resistance by 3 times the Adepts Rank when it
+d697 5
+a701 5
+of sticks used in the ward by 10 if it is three stick ward, by 20 if
+it is a five stick ward and by 30 if it a seven stick ward, plus twice
+the Adept's rank in this ritual.  Backfire from this ritual results
+not only in the destruction of the Runesticks, but in D10 damage to
+the Adept's Endurance as well.
+d706 1
+a706 2
+College to create a ward as described in 32.4.  The Experience
+Multiple for this ritual is 200.
+d710 5
+d717 12
+a728 12
+Runeward is set up around the entity to be healed.  The Base Chance
+for this ritual is 50\% (+4 / Rank).  It lasts seven hours, at the end
+of which the entity to be healed is cured of all Fatigue and Endurance
+losses, plus any non-magical diseases, fevers, or infections from
+which the entity may suffer.  It is possible for the ritual to
+backfire.  If it does so, the entity being healed instead dies
+immediately, ie. 0 Fatigue and Endurance.  The Adept must expend 10
+Fatigue to employ this ritual.  It has an Experience Multiple of 150.
+Any types of material listed in \ref{rune:runesticktable} may be used
+to make Runesticks used in this ritual except for Elder and Yew.  In
+addition, if the Runesticks used in this ritual are made of Walnut or
+Elm, the number of hours the ritual requires is reduced to five.
+d732 5
+a736 1
+The Adept may gain insight onto the future by casting the Runes of
+d740 1
+a740 1
+ritual allows the Adept to exercise any one of the following functions
+a742 1
+{\setlength\leftmargini{1.0em}
+d748 1
+a748 1
+Chance of 30\% (+2 / Rank).
+d753 2
+a754 2
+Base Chance of 55\% (+4 / Rank).
+\end{description}}
+d757 2
+a758 2
+Ritual. The Experience Multiple is 300.  It requires three sticks
+incised with the appropriate Runes to perform this ritual.
+d762 24
+a785 22
+The Adept must paint his forehead with a Sending Rune before retiring
+to sleep at night.  He will then require a five hour period of sleep
+with no disturbances sufficient to wake him or the ritual will fail.
+The target of the spell is likewise required to be asleep for five
+undisturbed hours or the ritual will not work.  The time asleep counts
+as resting for Fatigue recovery purposes.  During the time asleep he
+will be in communication with one entity of his choice that he has
+seen and studied sufficiently (as per College of Ensorcelments and
+Enchantments Spell of Location for ``seen and studied'').  Or,
+alternatively, the Adept may employ the target's Individual True Name
+if he knows it. The entity must be within a number of miles equal to
+10 + five times the Adept's Rank with this ritual.  The Base Chance
+of this ritual is 30\% (+5 / Rank).  The target may resist the
+communication through successful Passive Resistance.  If the Cast
+Check is successful and the target fails to resist then it will
+answer all questions asked of it in a yes / no fashion. This ritual
+does not allow communication with entities on other planes of
+existence. The questions that are to be asked of the target must be
+formulated before the Adept goes to sleep.  Upon completion of the
+five hour ritual the Adept may receive the answers to Rank \x 5
+questions (\x 1 if unranked).  The Experience Multiple for this
+ritual is 250.
+d798 1
+d805 7
+a811 7
+Adept (and no one else) into any shape of his devising (eg.  circle,
+dome, etc.).  The Adept may alter the height or length of the wall by
+1 foot per Rank.  The wall cannot be created touching an entity,
+although it may encompass them. Any entity coming into contact with
+the wall must resist or be thrown back (falling prone).  In addition,
+if the Runestick used to manufacture the wall was made of Elder,
+anyone who fails to resist suffers [D - 2] + 1 / Rank.
+d822 1
+d829 2
+a830 2
+all it's Base Chances reduced by Rank\%.  (For Mind Mages the
+reduction is reduced by 5 (+ 1 / Rank with T2).  Moreover, if the
+a834 4
+\textbf{Editor's Note:}
+Does the above mean every pulse their TMR decreased by 1 until they
+are stationary? (ie TMR 0).
+
+d844 1
+d852 2
+a853 2
+shield type.  (Note that this defence is as per shield rules thus only
+protecting from two of the front three hexes.)  Moreover, if the
+d855 2
+a856 2
+will, instead of harming the wielder, merely smashes the
+shield-causing it to revert to a, now broken, Runestick.
+d867 1
+d871 12
+a882 11
+on the ground before him while performing the spell.  If successful,
+the Adept is able to send a ghost-like image of himself instantly to
+any location within range that the Adept has physically occupied at
+least once in the past.  He is present in that location in all ways
+except bodily (ie.  he may communicate and use all his senses while
+his image is there, but may not be harmed by any attack). The image
+``mimics'' the actual actions of the Adept, and may move no more than
+10 feet (+ 10 / rank) from the spot where it materialised, which may
+be anywhere at the location the Adept wishes. Since the Adept's
+consciousness is in the image, which is non-physical, he may not cast
+any spells (although he may appear to should he so desire).
+d885 7
+a891 7
+the words wherever he is physically located.  Also, if the Adept is in
+a location which would prevent him from moving, the image may not move
+either.  When the visitation time has expired (or anytime prior that
+the Adept wished), the image quickly fades and travels back to the
+Adept.  This image has an ``aura'' which, if detected by a Detect Aura
+talent, may give the compass direction at which the Adept would be
+located, but not the distance.
+d903 1
+d908 1
+a908 1
+be himself). The spell may only be cast over one target entity of the
+d911 1
+a911 1
+spell can be attempted gain. A successful spell that is not
+d919 2
+a920 6
+through deceptions (eg.  magical traps).  The roll should be modified
+by two times the Adept's rank in this spell.  Further, the Spell of
+Truth allows the target to notice what he thinks are illusions,
+however, he still needs to successfully disbelieve the illusion before
+he, is able to see through it.  The target's chance of disbelief is
+increased by the caster's rank in this spell.
+d932 1
+d937 2
+a938 2
+entity with his Runewand at the moment he completes the spell.  If
+successful the spell results in the entity immediately returning to
+d957 1
+d959 11
+a969 11
+\emph{Effects: }
+The Adept must, at the moment he casts the spell, touch the target he
+intends to smite with the Runewand. If the target fails to
+successfully resist, he suffers [D + 1] + 1 / Rank damage.  The target
+takes half damage if fails to resist.  The damage is similar to the
+effect of an electric shock, so halve the damage if the target is an
+insulator (entities are generally not insulators). The touch is
+automatic unless the target is actively avoiding being touched, in
+which case the target cannot be touched and the spell cannot take
+effect.  The spell must be prepared normally. If the target fails to
+resist then they become stunned.
+d980 1
+d984 1
+a984 1
+Rune representing the type of weapon he wishes to create.  The Adept
+d1002 2
+a1003 2
+one time, ie.  poison from different strikes is not cumulative.  The
+normal rules for using poisoned weapons applies.
+d1009 5
+d1018 13
+a1030 15
+writes this name on the paper as well.  The Adept's player must
+actually write this information down, since it will only come into
+play in the future.  Once the ritual is prepared, the Adept then
+passes the sheet of paper on to the victim whose name is written on
+the paper.  The victim must voluntarily accept the paper (though he
+need not know what is on it).  Once he accepts it, the demon named on
+the paper hunts him down and kills him. Even if the demon is destroyed
+it returns as soon as it is able and continues the hunt (see College
+of Greater Summonings for how demons recover from injury and ``death''
+in their own dimension).  Only by passing the paper on to another
+entity who voluntarily accepts it can the doom be transferred.  If the
+paper is destroyed, the doom can never be lifted or transferred. The
+Experience Multiple for this ritual is 500.  Its Base Chance of
+success is 5\% (+ 5 / Rank) .  If the ritual backfires, the Adept
+loses [D + 2] Endurance.
+d1034 5
+d1040 3
+a1042 3
+maledictions into human bones.  He then performs a ritual over them
+(duration 1 hour) and buries the sticks beneath the dwelling of
+someone he wishes to curse. It is best if the victim's name is carved
+d1045 1
+a1045 1
+dwelling, he must make a Resistance Check, the Base Chance for which
+d1058 1
+a1058 1
+If the victim fails to resist, he suffers a wasting disease and loses
+d1060 1
+a1060 3
+If he fails to resist for three straight months, he dies. The
+Experience Multiple for this ritual is 450.  The Base Chance of the
+ritual working is 20\% (+4 / Rank).
+d1063 3
+a1065 3
+is wrong with him.  Should he discover the bones, he may remove the
+curse by removing the bones from the house.  Other means of ending a
+curse do not normally suffice, although the sufferer would show
+d1071 4
+d1103 1
+a1103 2
+increased by 15 if the Runesticks are shaped from Willow wood. The
+experience multiple for this ritual is 400.
+d1107 8
+a1114 1
+The Adept may gain control of any element by using this ritual.  He
+d1116 1
+a1116 1
+representing the element to be bound and he must touch the element
+d1118 3
+a1120 3
+bind 500 pounds of earth (+500 / Rank), 500 gallons of water (+500 /
+Rank), 1000 cubic feet of air (+500 / Rank), or all fire within a 10
+foot radius (+15 feet / Rank). He may do anything with the element
+d1123 1
+a1123 4
+elemental. The ritual takes 30 minutes to perform and has a Base
+Chance equal to Magical Aptitude (+3 / Rank). The element may be
+controlled for a period of 2 hours (+2 / Rank). This ritual has an
+Experience Multiple of 500.
+d1156 5
+a1160 3
+the Adept and not purchased.  Time: The amount of time in weeks
+required to create a Runewand of this type, given the necessary
+materials and tools.
+d1164 2
+a1165 2
+proceeds of his first six months of adventuring or the money lenders
+from whom he gained the wherewithal to have the item made will send
+d1205 1
+a1205 1
+table will do, but the modifiers in \ref{rune:modifiers} apply.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 1
+a1 1
+\section{The College of Rune Magics (Ver 1.0)}
+d205 1
+a205 1
+\subsection{Decipher Codes and Ciphers (T-2)}
+d1140 1
+a1140 1
+\pagebreak
+@

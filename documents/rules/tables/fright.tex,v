@@ -1,0 +1,951 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL30:3.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.4;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.1;
+
+4.1
+date	99.08.31.17.03.20;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.06.04.05.38.15;	author rossa;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	98.06.04.05.35.11;	author rossa;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	98.05.11.02.03.49;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	98.05.11.01.21.25;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	97.04.29.09.08.46;	author rossa;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	97.04.22.01.37.39;	author rossa;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	97.04.22.01.31.18;	author rossa;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	97.04.22.01.29.32;	author rossa;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	96.07.11.01.11.22;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	96.01.12.03.15.44;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	96.01.12.02.12.12;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	95.05.25.03.44.54;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.05.15.09.11.23;	author rossa;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.05.15.04.53.13;	author rossa;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\section{Fright \& Awe Tables}
+
+\begin{multicols}{2}
+\subsection{Fright Table (Ver 1.0)}
+\label{tables:fright}
+\index{fear}\index{tables!fear}
+
+\begin{description}
+\setlength\itemsep{0pt}
+\item[{\em Dice}] {\bf \em Result}
+
+\item[$<$ 20\hspace{1.0em}Wary]
+The target will not voluntarily approach the source of their fear.  If
+they are not aware of the source they will be very cautious and seek
+to optimise safety.
+
+\item[21--25\hspace{1.0em}Berserk]
+They immediately charge to attack the object of their rage.  If the
+source is not apparent they will charge about noisily looking for it.
+Add +10 to Strike Chance and -10 to Defence.
+
+\item[26--75\hspace{1.0em}Panic]
+They will attempt to maximise their safety in relation to the source
+of their fear.  This usually involves fleeing as rapidly as possible,
+but could also include cowering in the centre of the party, curling up
+in a small ball, hiding under a bed, etc.  While a state of panic
+prevails, some sanity is present and the target would not normally do
+anything suicidal (\eg running over the edge of a cliff) but they
+might use abilities to increase their safety (\eg flying away).  If
+the target wishes to use an ability, (\eg casting a spell) the GM
+should give a suitable negative modifier to their base chance
+(\eg -20).
+
+\item[76--90\hspace{1.0em}Frozen]
+They may take no action until snapped out of it, \eg slapped on the
+face, attacked, etc.  The target can attempt to break out of it
+themselves by making a 1 \x WP check per pulse.  Once broken out of it
+the target rolls again at -30 (and no other modifiers) to determine
+their next action.  Add +10 to subsequent rolls on the fright table.
+
+\item[91--95\hspace{1.0em}Hysterical]
+They stand and scream and may take no other action until snapped out
+of it (as for 76--90).  On recovery roll again at -20 (with no other
+modifiers).  Add +10 to subsequent rolls on the fright table.
+
+\item[96-100\hspace{1.0em}Catatonic]
+Target becomes catatonic.  Their hair turns white and they may take no
+other action until snapped out of it (as for 76--90).  On recovery
+roll again at -20 (with no other modifiers).  Add +10 to subsequent
+rolls on the fright table.
+
+\item[101--110\hspace{1.0em}Faints]
+The target faints into unconsciousness and loses 5 Fatigue.  At the
+end of each minute they roll 1 \x WP in order to regain consciousness.
+Add +10 to subsequent rolls on the fright table.
+
+\item[111-115\hspace{1.0em}Collapses]
+The target collapses into unconsciousness and loses all of their
+Fatigue.  After (30 - Endurance) minutes, or being tended by a Healer,
+they will regain consciousness.  All their Statistics and Ranks will
+be reduced by 2, and they will not be able to recover Fatigue, until
+they have had comfortable bed rest for (40 - Endurance - tending
+Healer Rank) hours.  Add +10 to subsequent rolls on the fright table.
+
+\item[116+\hspace{1.0em}Heart Attack]
+The target suffers a heart attack and must receive the attention of a
+Healer of at least Rank 3 within Endurance pulses or they are dead.
+If they survive they will be on 0 Endurance and 0 Fatigue, and will be
+unconsciousness for (30 - Endurance) minutes.  All their Statistics
+and Ranks will be reduced by 5, and they will not be able to recover
+Fatigue or more than half their Endurance, until they have had
+comfortable bed rest for (60 - Endurance - tending Healer Rank) hours.
+Add +10 to subsequent rolls on the fright table.
+
+\end{description}
+
+\subsection{Awe Table}
+\label{tables:awe}
+\index{awe}
+
+\begin{description}
+
+\item[01--20] Target is slightly awed.  Will not voluntarily approach
+the source of the Awe, unless requested to do so by the source. If not
+aware of the source, will be slightly cautious.
+
+\item[21--25] Target is completely enamoured of the source.  Will do
+anything that the source requests, to the extent of attacking comrades
+and friends, but not to the extent of killing themself if so
+requested.  If the source is not apparent they will rush around
+noisily looking for it.
+
+\item[26--76] Target is panicked by the Awe.  They will attempt to
+maximise their safety, as they perceive it.  This may involve fleeing,
+cowering, hiding, pleading and whimpering.  They will not usually
+further endanger themselves in their attempt to escape, by running off
+a cliff for example.  Add +5 to subsequent Awe Table rolls.
+
+\item[77--90] Target is completely humbled and prostrates themself
+before the source of the Awe.  They may take no other actions until
+they are snapped out of their grovelling by an outside agency, or by
+rolling less than or equal to their Willpower on D100.  They may
+attempt this roll every second Pulse after being affected.  Add +10 to
+subsequent Awe Table rolls.
+
+\item[91--95] Target becomes hysterical and falls to the ground,
+weeping, laughing, singing and/or praying as appropriate until snapped
+out of it by an outside agency.  They may attempt to break out of it
+by themself, by rolling less than or equal to their Willpower on D100,
+at the end of each minute following the affect.  On recovery roll
+D100: 1--50 slightly awed (as for 1--20, this table), 51--55 enamoured
+(as for 21--25), 56--100 panic (as for 26--76).  Add +10 to subsequent
+Awe Table rolls.
+
+\item[96--100] Target collapses, becomes catatonic and may take no
+further action until snapped out of it by an outside agency.  Upon
+recovery roll D100: 1--26 slightly awed, 27--31 enamoured, 32--95 panic,
+96--100 hysterical.  Add +15 to subsequent Awe Table rolls.
+
+\item[101--106] Target faints dead away and will remain unconscious
+for [D + 6] minutes.  Add +15 to all subsequent Awe Table rolls.
+
+\item[107--110] Target suffer a mild heart seizure.  The result is the
+same as for 101--106 except that the Target may not move about under
+their own power for the remainder of the day and suffers a decrease of
+2 to PS, MD, AG, EN, and FT, until either they spend one month resting
+in bed, or their heart is repaired using the Healer ability ``Repair
+Tissues and Organs''.  Add +15 to subsequent Awe Table tolls.
+
+\item[111+] Target suffers a severe heart attack and must have the
+attention of a Healer of at least Rank 2 within one minute (12 pulses)
+or they will die.  Otherwise this result is the same as for 107--110,
+except that +20 is added to subsequent Awe Table rolls.
+\end{description}
+\end{multicols}
+
+\begin{multicols}{3}
+
+\subsection{Notes}
+
+Rolls against this table can made as the result of magic, when meeting
+entities who are extremely ugly and occasionally in other extreme
+situations.
+
+\subsubsection{Modifiers}
+
+All modifiers are cumulative lasting 24 hours or until 8 hours sleep,
+but each division only counts once.  For example, a target gets feared
+3 times.  The first is a hysterical which adds 10\%; second is
+catatonic which adds 10\%.  Total so far is 20\%.  The third, however,
+is another hysterical but as a hysterical component is already
+included in the 20\%, the total remains at 20\%.  A minor heart attack
+within 24 hours would push the total to 30\%.
+
+\subsubsection{PB Fright Checks}
+\index{physical beauty!fear}
+
+Whenever characters encounter a creature whose Physical Beauty is less
+than 5, and whose description states a Fear causing ability, they must
+make a Willpower check to determine if they are frightened. The
+difficulty factor for this test is equal to the creatures
+PB. Creatures whose PB is 0 cause a once difficulty factor.  If this
+test is failed, the character must then roll on the Fright Table and
+apply any results before they take another action.  They may attempt
+to recover every pulse, by trying to succeed at the same Willpower
+check.  Until that time they will act as the Fright Table indicates.
+
+\subsubsection{Familiarity}
+
+In both the cases of the extremely low and high beauty, the effects
+are reduced with familiarity with the creature causing the fear or
+awe.  Once a character has successfully made their Willpower check, or
+has recovered from a failed check, they need not check again (for an
+effect from the same creature) for the remainder of the encounter.  If
+the same creature is encountered again another Willpower check must be
+made, but the GM may add 1 or more to the difficulty factor, thus
+making it easier to succeed.  This bonus should not be applied to
+encounters with other similar creatures, only to the same ones. (It is
+not true to say that when you have seen one Troll, you have seen them
+all).
+
+
+\subsubsection{Effects of Awe}
+\index{physical beauty!awe}
+
+Whenever characters encounter a creature whose Physical Beauty is
+above 26, and whose description states an Awe causing ability, they
+must make a Willpower check to determine if they are awed. The
+difficulty factor is dependent on the creatures PB:
+
+\begin{tabular}{ll}
+		& \textbf{Difficulty}\\
+\textbf{PB}	& \textbf{Factor} \\
+27--28		& 4.0 \\
+29		& 3.5 \\
+30		& 3.0 \\
+31		& 2.5 \\
+32		& 2.0 \\
+33		& 1.5 \\
+34		& 1.0 \\
+35+		& 0.5 \\
+\end{tabular}
+
+If this Willpower check is failed the character must then roll on the
+Awe Table (see \S\ref{tables:awe}) and apply any results before they
+take another action.  They may attempt to recover from being over-awed
+as indicated on the Awe Table.  Awe can be caused by a creature with a
+Physical Beauty greater than 26. The range of the effect is line of
+sight to the creature.  The character will only be affected if the
+creature is within their line of sight, and they are facing towards
+it.  Once seen, however, facing becomes irrelevant, \ie if the
+Target turns away, so as to run, they do not lose the Awe effect
+simply because they are no longer facing the source.  The effect will
+remain until the Target is out of line of sight of the source.  Should
+the character return into line of sight of the source, the same result
+as before will be applied, unless their Willpower has increased, in
+which case, they receive another Willpower check to resist the effect
+of the Awe.
+
+\subsubsection{Spell Effects}
+
+\begin{enumerate}
+\item
+\index{fear!effects!wall of bones}
+Wall of Bones (Necromancy): A target is not affected by the wall until
+they touch it.  If they fail to resist they are affected any time they
+are in line of sight of the wall but facing is not important (if a
+target turns to flee the wall then they do not lose the fear because
+they are no longer facing it).  If the target touches the same wall
+again they make another resistance check.  Duration is that of the
+spell; once the wall is gone so is the fear.
+
+\item
+\index{fear!effects!spell of fear}
+Fear (Necromancy, Wicca, Celestial): single target spell.  If duration
+is immediate then after (Rank of spell / 5) pulses, rounded up, the
+target may make a 3 \x WP check each pulse to recover from fear,
+otherwise the fear lasts the duration of the spell.  A further check
+may be required to recover from the secondary effects of 76--90,
+91--95 and 96--100.  Once recovered from, the spell has no further
+effect.  The range of the spell only determines the possible targets,
+so the target being more than this distance from the Adept will not
+affect the duration.
+
+\item
+\index{fear!effects!spell of mass fear}
+Mass Fear (Necromancy, Wicca): has set range and duration.  Range is a
+sphere around the Adept.  Targets going out of range of the spell are
+no longer affected.  Each time they re-enter the area of effect of the
+spell they make another magic resistance (and roll on the Fright Table
+if they fail).
+\end{enumerate}
+
+\textbf{Example:} A group of adventurers are in the middle of a forest.
+Rolf the Harrier gets struck by a Fear spell from Nasty the Necro, and
+fails to resist.  A roll of 45 indicates panic.  Rolf's player thinks
+Rolf has 3 options:
+
+\begin{enumerate}
+\setlength\itemsep{0pt}
+\item Run back to a clearing just left by the party.
+\item Feeling no direction to be safe, Rolf clings to Hu'ug the giant's leg
+and trembles.
+\item Being a ``If I can't see them they can't see me'' believer, Rolf puts
+a sack over his head.
+\end{enumerate}
+
+Rolf's player and the GM decide on percentages for the options and one
+is determined.  In this case Rolf flees.  The spell is Rank 7 so Rolf
+gets to attempt to snap out of the fear each pulse after the first
+two.  Six pulses after the spell is cast, on his third try, Rolf
+succeeds his 1 \x WP check and may turn around and attack Nasty the
+Necro.
+
+\raggedcolumns
+\end{multicols}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@@
+
+
+4.1
+log
+@Fix index entries.
+@
+text
+@@
+
+
+4.0
+log
+@REL40
+@
+text
+@d6 1
+a6 1
+\index{fear,tables!fear}
+@
+
+
+3.0
+log
+@REL30
+@
+text
+@@
+
+
+2.3
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+2.2
+log
+@Fix e.g. problem
+@
+text
+@d173 1
+a173 1
+has recovered from a failed check, the), need not check again (for an
+@
+
+
+2.1
+log
+@Check in before modifying e.g. and i.e.
+@
+text
+@d28 3
+a30 3
+anything suicidal (e.g.\ running over the edge of a cliff) but they
+might use abilities to increase their safety (e.g.\ flying away).  If
+the target wishes to use an ability, (e.g.\ casting a spell) the GM
+d32 1
+a32 1
+(e.g.\ -20).
+d35 1
+a35 1
+They may take no action until snapped out of it, e.g.\ slapped on the
+d211 1
+a211 1
+it.  Once seen, however, facing becomes irrelevant, i.e.\ if the
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d6 1
+a6 1
+\index{fright}
+d28 3
+a30 3
+anything suicidal (eg. running over the edge of a cliff) but they
+might use abilities to increase their safety (eg. flying away).  If
+the target wishes to use an ability, (eg. casting a spell) the GM
+d32 1
+a32 1
+(eg. -20).
+d35 1
+a35 1
+They may take no action until snapped out of it, eg. slapped on the
+d156 1
+a156 1
+\index{physical beauty!fright}
+d224 1
+a224 1
+\index{wall of bones!fright}
+d234 1
+a234 1
+\index{fear!fright}
+d246 1
+a246 2
+\index{mass fear!fright}
+\index{fear!mass!fright}
+@
+
+
+1.10
+log
+@+xx added to awe table.  PB of 0 changed to 1 x WP.  Ross Alexander.
+@
+text
+@@
+
+
+1.9
+log
+@Typesetting fix.
+@
+text
+@d97 1
+a97 1
+a cliff for example.  Add 5 to subsequent Awe Table rolls.
+d103 1
+a103 1
+attempt this roll every second Pulse after being affected.  Add 10 to
+d112 1
+a112 1
+(as for 21--25), 56--100 panic (as for 26--76).  Add 10 to subsequent
+d118 1
+a118 1
+96--100 hysterical.  Add 15 to subsequent Awe Table rolls.
+d121 1
+a121 1
+for [D + 6] minutes.  Add 15 to all subsequent Awe Table rolls.
+d128 1
+a128 1
+Tissues and Organs''.  Add 15 to subsequent Awe Table tolls.
+d133 1
+a133 1
+except that 20 is added to subsequent Awe Table rolls.
+d162 1
+a162 1
+PB. Creatures whose PB is 0 cause a 0.5 difficulty factor.  If this
+@
+
+
+1.8
+log
+@Awe fixed some more.
+@
+text
+@a218 2
+\end{enumerate}
+
+@
+
+
+1.7
+log
+@Mentalists removed from awe.
+@
+text
+@d207 12
+a218 15
+as indicated on the Awe Table.
+
+\begin{enumerate}
+\item
+Awe caused by a creature with a Physical Beauty greater than 26. The
+range of the effect is line of sight to the creature.  The character
+will only be affected if the creature is within their line of sight,
+and they are facing towards it.  Once seen, however, facing becomes
+irrelevant, i.e.\  if the Target turns away, so as to run, they do not
+lose the Awe effect simply because they are no longer facing the
+source.  The effect will remain until the Target is out of line of
+sight of the source.  Should the character return into line of sight
+of the source, the same result as before will be applied, unless their
+Willpower has increased, in which case, they receive another
+Willpower check to resist the effect of the Awe.
+@
+
+
+1.6
+log
+@Delete acknowledgements.  Add extra label \label{tables:fright}.
+@
+text
+@d1 4
+a4 2
+\section{Fright Table (Ver 0.1)}
+\label{tables:frighttable}
+d6 1
+d77 60
+d143 1
+a143 9
+situations (met any demons lately?).
+
+\subsubsection{PB Fright Checks}
+
+When encountering an entity whose PB is 5 or less, PC's should roll
+against [Entity's PB] \x (PC's WP).  If they fail this roll they must
+then roll on the Fright Table, with the most severe effect possible
+panic.  The GM may choose to waive this check, eg. the party has met
+this troll a dozen times already.
+d155 70
+d229 1
+d239 1
+d251 2
+@
+
+
+1.5
+log
+@Last minute fixes before release 1.0
+@
+text
+@d3 1
+a3 3
+
+\textbf{Rosemary Mansfield -- 15 May 1995}
+\textbf{Brent Jackson -- 25 May 1995}
+@
+
+
+1.4
+log
+@Release 1.0 snapshot
+@
+text
+@a103 1
+{\setlength\leftmargini{1.0em} \setlength\leftmarginii{0.5em}
+d127 1
+a127 1
+sphere around the adept.  Targets going out of range of the spell are
+d131 1
+a131 1
+\end{enumerate}}
+a137 1
+{\setlength\leftmargini{1.0em} \setlength\leftmarginii{0.5em}
+d145 1
+a145 1
+\end{enumerate}}
+@
+
+
+1.3
+log
+@Changes from Rosemary
+@
+text
+@d5 1
+d11 38
+a48 28
+\item[01--20]
+Target is wary. Will not voluntarily approach the source of their
+fear.  If they are not aware of the source they will be very
+cautiously and seek to optimise safety.
+
+\item[21--25]
+Target flies into a berserk rage.  They immediately charge to attack
+the object of their rage.  If the source is not apparent they will
+charge about noisily looking for it.  Add +10 to Strike Chance and -10
+to Defence.
+
+\item[26--76]
+Target panics.  They attempt to maximise their safety in relation to
+the source of fear.  This usually involves fleeing away as rapidly as
+possible, but could also include cowering in the centre of the party,
+curling up in a small ball, hiding under the bed, etc.  While a state
+of panic prevails, some sanity is present and the target would not
+normally do anything suicidal (eg. running over the edge of a cliff)
+but they might use abilities to increase their safety (eg. flying
+away).  If the target wishes to use an ability, (eg. casting a spell)
+the GM should give a suitable negative modifier to their base chance.
+Add 5 to subsequent rolls on the Fright Table.
+
+\item[77--90]
+Target is frozen in fear.  They may take no action until snapped out
+of it, eg. slapped on the face, attacked, etc.  The target can attempt
+to break out of it themselves once by making a 1 \x WP check.  Once
+broken out of it the target will remain wary.  Add 10 to subsequent
+d51 22
+a72 28
+\item[91--95]
+Target becomes hysterical.  They stand and scream and may take no
+other action until snapped out of it ( as for 77--90).  On recovery
+roll D100: 1--50 wary, 51--56: berserk, 56--100: panic.  Add 10 to
+subsequent rolls on the fright table.
+
+\item[96-100]
+Target becomes catatonic.  Their hair turns white and may take no
+other action until snapped out of it ( as for 77--90).  On recovery
+roll D100: 1--26 wary, 21--31: berserk, 32--95: panic, 96--100:
+hysterical.  Add 15 to subsequent rolls on the fright table.
+
+\item[101--106]
+Target faints, collapsing to the ground.  They remain unconscious for
+[D + 6] minutes.  Add 15 to subsequent rolls on the fright table.
+
+\item[107--110]
+Target suffers a mild heart attack.  They remain unconscious for [D +
+6] minutes and they are unable to move around under their own steam
+for the rest of the day.  They suffer -2 to all characteristics until
+they have spent one month resting in bed. Add 15 to subsequent rolls
+on the fright table.
+
+\item[111+]
+Target suffers a major heart attack.  They must have the attention of
+a Rank 3 (or greater) Healer within one minute (12 pulses) or die. If
+they do survive all effects of 107--110 apply.  Add 20 to subsequent
+rolls on the fright table.
+d87 4
+a90 3
+against (Entity's PB) \x (PC's WP).  If they fail this roll they
+must then roll on the Fright Table.  The GM may choose to waive this
+check, eg. the party has met this troll a dozen times already.
+d95 6
+a100 6
+But each division only counts once.  For example, a target gets feared
+3 times.  The first is a panic which adds 5\%; second is hysterical
+which adds 10\%.  Total so far is 15\%.  The third, however, is another
+panic but as a panic component is already included in the 15\%, the
+total remains at 15\%.  A minor heart attack within 24 hours would push
+the total to 30\%.
+d107 7
+a113 9
+Wall of Bones (Necromancy): A target is not effected by the wall until
+they touch it.  If they fail to resist they are effected any time they
+are in line of line of sight of the wall but facing is not important
+(if a target turns to flee the wall then they do not loose the fear
+because they are no longer facing it).  If the target sees the same
+wall again the effect of the original fear check is applied. If their
+resistance has changed (eg.  appropriate counterspell) then they may
+resist the spell again.  Duration is that of the spell; once the wall
+is gone so is the fear.
+d116 9
+a124 7
+Fear (Necromancy, Wicca): duration is immediate.  After (Rank of spell
+/ 5) pulses, rounded up, the target may make a 3 \x WP check each
+pulse to recover from fear.  A further check may be required to
+recover from the secondary effects of 91--95 and 96--100. Once
+recovered from the spell has no further effect.  The range only
+defines the adept's possible targets, that is going outside the range
+will not change the effect of the spell on the target.
+d127 5
+a131 6
+Mass Fear (Necromancy, Wicca) and Fear (Celestial): has set range and
+duration.  Range is a sphere around the adept.  Targets going out of
+range of the spell are no longer effected. Each time they re-enter the
+area of effect the original fear result is re-applied.  If
+immobilised, for example once snapped out the spell has no further
+effect other than the Fright Table description.
+d135 1
+a135 1
+Rolf the Harrier gets struck by a Necro fear spell from somewhere and
+d149 6
+a154 11
+Rolfs player and the GM decide on percentages for the options and one
+is determined.  In this case Rolf flees.  The spell is rank 7 so the
+range of it is 120 feet.  Rolf runs off at an angle to the Necro, and
+runs 140 feet before getting out of range, whence the panic subsides.
+Attempting to rejoin the party will simply restart the fear, Nasty the
+Necro keeping concentration.  However, Nomum the Namer has followed
+Rolf and places a Necro counterspell on him and uses her Military
+Scientist ability to boost his WP as well.  Thus enamoured, Rolf
+easily resists the spell this time and can rejoin the party.
+
+Rolf gets +5\% on fright table rolls for the rest of the day.
+a156 1
+\clearemptydoublepage
+@
+
+
+1.2
+log
+@Add changes from Rosemary
+@
+text
+@a2 1
+\begin{multicols}{3}
+d7 1
+d71 2
+d157 1
+a157 1
+\pagebreak
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 1
+a1 1
+\section{Fright Table (Ver 0.1}
+d12 2
+a13 2
+fear.  If not aware of the source will be very cautios and seek to
+optimise safety.
+d16 4
+a19 4
+Target flies into berserk rage. Immediately charges to attack the
+object of his rage. If the source is not apparent will charge about
+noisily looking for it. Add 10 to Strike Chance and subtract 10 from
+Defense.
+d22 10
+a31 9
+Target panics. Attempts to maximise their perceived safety in relation
+io the source of few.  This usually involves fleeing as rapidly as
+possible, but could include cowering at the centre of the party, jumping
+into someone's arms or burying their head in the sand, etc.  While a
+state of panic prevails, some sanity is present and the target would
+not, for example, normally run off the edge of a cliff (although they
+might be allowed to cast a flying spell to facilitate their escape -
+at a suitable minus of coursee).  Add 5 to any subsequent rolls on the
+fright table.
+d34 3
+a36 4
+Target is frozen in fear.  May take no action until snapped out of it,
+for example slapped on face, stabbed with a weapon, etc.  The target
+can break out of it themselves by rolling less than or equal to
+willpower. Target gets one roll per pulse after the first pulse.  Once
+d38 1
+a38 1
+fright table rolls.
+d41 4
+a44 4
+Target becomes hysterical. Stands and screams until snapped out of (as
+for 77-90).  May take no other action.  On recovery, roll Dl00: 1--50
+wary; 51--55 berserk; 56--100 panic. Add 10 to subsequent fright table
+rolls.
+d47 4
+a50 4
+Target becomes catatonic. Hair turns white, may take no
+action. Recovery as for 77--90.  Upon recovery, roll D100: 1-26 wary;
+27--31 berserk; 32--95 panic; 96--100 hysterical. Add 15 to subsequent
+fright table rolls.
+d53 2
+a54 3
+Target faints dead away (collapsing to the ground).  He remains
+unconscious for [D + 6] minutes.  Add 15 to all subsequcni rolls on
+the Fright Table this day.
+d57 5
+a61 5
+Target suffers a heart attack. The result is the same as for 101--106
+except that the target may not move about under his own power for the
+remainder of the day and suffer a decrease of 2 in all characteristics
+until he has spent one month resting in bed. Add 15 to all subsequent
+rolls on the Fright Table this day.
+d64 5
+a68 4
+Target suffers a heart attack and must have medical attention
+(cardiovascular resuscitation) within one minute (12 pulses of combat)
+or die. If he does survive, all subsequent rolls on the Fright Table
+are increased by 20 this day.
+d73 13
+a85 3
+{\setlength\leftmargini{1.0em} \setlength\leftmarginii{0.5em}
+\begin{enumerate}
+\item 
+d94 15
+d110 8
+a117 3
+Range and Duration
+\begin{enumerate}
+\setlength\itemsep{0pt}
+d119 6
+a124 48
+  Wall of Bones.  Range is line of sight (the targets view - if not
+  facing it then is not affected until such time as target does face
+  it).  Once viewed, facing is no longer important, that is if target
+  turns to run from the wall then does not lose fear because they are
+  no longer facing it.  The target will remain affected until out of
+  line of sight of the wall.  Duration is that of the spell - once
+  wall is gone, so is the fear.
+
+  \begin{enumerate}
+  \setlength\itemsep{0pt}
+  \item
+    Target panics and runs away from the wall around a corner. They
+    are now out of line of sight and are not affected by the fear. If
+    they should go back around the corner and the wall is still
+    standing, they will simply panic again. However, if their
+    resistance has changed, eg. bv a suitable counterspell, the wall
+    is treated as a different one and a new resistance check is made,
+    a new roll on the fright table being made if needed.
+
+    \item
+    Target immobilised ctc. WP rolls made as per table.  Once snapped
+    out of it, the target has a pulse to act, the effect of the wall
+    occurring after actions have been decided. If the target looks at
+    the wall again the same fright table roll applies. If resistance
+    has changed treat as above.
+  \end{enumerate}
+  \item Mass Fear
+  Has set range and duration.  Range is a sphere around the
+  adept. Targets going out of range are treated as for wall of bones.
+  If immobilised, etc.  once snapped out of it the spell has no
+  further effect other than that described in the appropriate table
+  description.
+
+  \item Spell of Fear with ``immediate'' duration - Celestial and Black
+  colleges.  After (rank of spell / 5) pulses, rounded up, the target
+  may begin making WP rolls (once times) to spell it has no further
+  effect. Note that recovery may require 2 WP checks.  This can occur
+  for the effects of 91--95 and 96--100 since on recovering from the
+  initial effect the target may need to recover from the secondary
+  effect.  The range of the spell defines the maximum distance from
+  Adept to target for tje spell to work. Moving outside that range
+  once the spell has had an effect will not stop the spell's workings.
+
+  \item Spell of fear with ``concentration'' duration -- Necromantic
+  College.  This spell has a set range which means it functions like a
+  mass fear, but affects only one target.  Passive concentration is
+  required -- stunning etc. will break the spell.
+  \end{enumerate}
+@

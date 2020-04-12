@@ -1,0 +1,144 @@
+\begin{skill}{Armourer}{1.1}{armourer}
+
+\subsection{Restrictions}
+
+The skill is related to that of weaponsmith, and an armourer who is a
+more skilled weaponsmith expends only three quarters of the necessary
+Experience Points to acquire or improve this skill.  The reverse is
+also true.  An armourer's progress in their skill is inhibited by a
+low Manual Dexterity, and aided by a high Manual Dexterity.  An
+armourer has an increased Experience Point cost of 5\% for each point
+of Manual Dexterity less than 16.  An armourer decreases their
+Experience Point cost by 5\% for each point of Manual Dexterity greater
+than 20.
+
+\subsection{Benefits}
+
+\subsubsection{An armourer acquires the ability to make one category of
+armour every two ranks.}
+
+Some categories require other categories as prerequisites and cannot
+be learned before their prerequisites.  All armourers begin with the
+cloth category at rank 0.
+
+%\subsubsection{Prerequisites}
+
+\begin{tabularx}{\linewidth}{@{}l@{\hspace{0.5em}}Xr@{}}
+\multicolumn{3}{c}{\textbf{Categories} \hfill \textbf{Prerequisites}} \\
+1 &	Cloth						& None  \\
+2 &	Leather (leather, soft leather and furs)	& Cloth \\
+3 &	Scale (scale and full scale)			& Cloth \\
+4 &	Chain mail					& Cloth \\
+5 &	Partial plate					& Chain \\
+6 &	Plate I (full plate and heavy plate)		& Chain \\
+7 &	Plate II (improved plate, all jousting armour)	& Plate I \\
+8 &	Dragon skin					& Scale, \\
+  &							& Leather \\
+9 &	Mithril						& Chain \\
+\end{tabularx}
+
+An Armourer may gain additional categories after achieving rank 10 by
+the expenditure of 10,000 Experience Points per category.
+
+\subsubsection{An Armourer can make increasingly effective armour as their
+rank increases.}
+
+
+An armourer may positively affect any of the 4 attributes of armour
+(Weight factor, Protection, Agility Modifier and Stealth Modifier) or
+any combination thereof.  Some of the attributes are harder to affect,
+and this is reflected in the number of ranks an Armourer must have
+to do so.  Also, some of the attributes have maximums (\eg the
+Agility Modifier may not be decreased beyond 0).  The ranks required
+and the attribute maximums are:
+
+\begin{Description}
+
+\item[Weight] 1/2 a factor per 3 full ranks. Never lighter than WT 1.
+(This attribute may not be affected for the cloth, leather or mithril
+categories).
+
+\item[Protection] +1 per 4 full ranks.  This attribute may not be
+affected for cloth, furs or soft leather, and no more than 1 additional
+point of protection may be added to hard leather).
+
+\item[Agility Modifier] 1 per 6 full ranks.  Never better than 0.
+
+\item[Stealth Modifier] +1\% per rank.  Never better than +5\%.
+
+\end{Description}
+
+\textbf{Note:} These effects are not cumulative.  For example a rank 7
+Armourer could make a suit of armour with 1 less weight factor and 1\%
+better stealth, or 1/2 a weight factor less and 1 point more
+protection, or any of the other non-cumulative combinations.  An
+Armourer may always make a suit of armour at a lower effective rank
+than their true rank.
+
+Armour statistics shown on the Alusian Armour Chart are for armours
+manufactured with an effective rank of 0, \ie of the mass-produced,
+off the peg variety.  The Armourer who made them may have been of
+greater rank but the level of skill used was elementary.
+
+\subsubsection{The time and cost required for an Armourer to construct
+a suit of armour is dependent on the effective Rank used and the
+category of armour.}
+
+\begin{Description}
+\item[Time]
+The time required to construct a suit of armour is the following --
+1 + Rank / 2 \x number of days below.
+
+\begin{tabularx}{\linewidth}{Xr}
+Cloth or leather  & \textonehalf{} day \\
+Scale & 4 days \\
+Chain mail & 6 days \\
+Partial plate & 10 days \\
+Plate I & 12 days \\
+Plate II & 15 days \\
+Dragon skin & 16 days \\
+Mithril & 20 days \\
+\end{tabularx}
+
+The fitting time for the armour (the time spent with the Armourer by
+the wearer-to-be) is a number of hours equal to the base number of day
+(\eg 6 hours to fit a suit of chain mail).  The hours need not be
+consecutive but all must be done in the first half of manufacture
+time.
+
+\item[Cost] 80\% of the Base Cost as shown on the Armour Chart \x
+(Effective Rank + 1) silver pennies.  \textbf{Note:} this is the cost
+to the Armourer, not the sale price.
+
+\end{Description}
+
+\subsubsection{Fixing and Modifying Armour}
+
+The time taken to repair a suit of armour damaged by a Grievous blow,
+or to modify a suit to fit a new, but appropriately sized wearer, is
+usually no more than the armour's Base time, for example 6 days for a
+suit of chain mail.  The cost of the repairs or modifications is
+usually 5\% -- 10\% of the original cost of the armour.  The Armourer
+who is repairing the damage must be of at least equal rank to the
+Effective Rank with which the armour was made.
+
+\subsubsection{An Armourer is treated as a Merchant of their armourer
+rank when attempting to buy or value armour from categories with
+which they are familiar.}
+
+If the armourer is not familiar with an armour category they act as a
+Merchant of half their rank (rounded down).
+
+\subsection{Costs}
+
+\subsubsection{An Armourer can only perform their skill in a properly
+maintained workshop.}
+
+It costs 2000 silver pennies to construct a workshop and 500 silver
+pennies per year to maintain it with tool and materials.  A basic tool
+kit will cost (100 + 100 \x rank) silver pennies.  It costs only 20\%
+of the above amount to add to a Weaponsmith's workshop so as to make
+it usable by an Armourer as well.  The reverse is also true.  A
+workshop may be rented at the rate of 10 silver pennies a day.
+
+\end{skill}

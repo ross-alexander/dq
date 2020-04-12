@@ -1,0 +1,625 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.1;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	98.06.04.05.35.07;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.05.04.03.42.09;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	97.05.15.02.22.48;	author rossa;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	97.05.06.22.34.15;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	97.05.06.22.30.09;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	97.04.29.05.30.12;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	97.01.15.03.04.07;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	96.10.01.01.55.45;	author rossa;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	96.01.12.02.30.48;	author rossa;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{multicols*}{3}
+\section{Cantrips}
+\index{cantrips}
+
+Cantrips are minor magic effects, which come in two types. Glamour
+cantrips are used to entertain and Household cantrips make life
+pleasanter. Most cantrip effects can also be reversed.
+
+\subsection{Restrictions}
+
+The effects of cantrips are strictly minor in nature and cannot be
+used during combat. Any mage can cast them and no preparation is
+needed.  It costs 1 Fatigue to cast a cantrip.
+
+\subsection{Modifiers \& Statistics}
+
+All minor magics are non-college magic. College bonuses and penalties
+do not apply to them. All Adepts will start off knowing the following
+cantrips but they may not be ranked or improved, and do not affect the
+number of low-ranked spells that may be learned.
+
+\emph{Base Chance:} 3 \x MA 
+
+Double or triple effects are not possible and should the roll exceed 4
+\x MA the cantrip will backfire. Backfires result only in the effect
+being distinctly different from the casters intentions. Actively
+resisting a cantrip results in it automatically failing.
+
+Any stronger magic of the same type as a cantrip will immediately
+replace it and any area counterspell will dispel all cantrips within
+range.  Where an Adept is casting a cantrip that has effects similar
+or related to their college then the effects will be stronger, or more
+convincing than normal although a cantrip can never be as effective as
+any spell.
+
+\subsection{Glamour Cantrips}
+
+Glamour cantrips normally last (Base Chance) minutes.  The Adept may
+choose to reduce the duration.
+\begin{Description}
+
+\item[Colour] The surface colour of one object may be changed. If cast
+on an entity (\eg skin, hair, or eyes) the result is flat and not
+particularly life like.
+
+\item[Perfume] A faint pleasant (or unpleasant) scent permeates one
+hex. Observers will not notice any specific odour, just that something
+smells nice (or bad).
+
+\item[Polish/Tarnish] One entity or object is spruced up so they look
+smartly dressed or sparkling clean.  This doesn't make something look
+more expensive merely newer and shinier.
+
+\item[Fireworks] The Adept may combine any two of three effects in a 1
+foot sphere which appears within 10 feet.  The effects are coloured
+smoke, coloured lights, and a small sharp noise (\eg bang, tinkle,
+fizzle).
+\end{Description}
+
+\subsection{Household Cantrips}
+
+Household cantrips normally have an immediate effect and no duration.
+\begin{Description}
+\item[Candle] A small natural flame appears on an object and lasts 5
+seconds.  If cast on something flammable the object may catch alight
+(\eg wick, kindling).  The flame will shed light about 2 feet.
+
+\item[Cool/Warm] Up to a pint of liquid, or a pound of food, may be
+cooled or warmed a few degrees. This might cool hot food to an edible
+temperature or warm milk, but not to boiling or freezing extremes.
+
+\item[Clean/Dirty] Surface dirt and grime may be shed from an entity
+or object to fall around them. If reversed all the loose dirt within
+one hex attaches to the target.  Several casts may be requited to
+removed thick mud or dirt and it will not remove old stains.
+
+\item[Dry/Dampen] The cantrip will render up to one item of clothing
+(or an object up to 3 pounds) either dry to the touch or damp. Several
+casts may be required to dry sodden items or cause the target to drip
+water.
+
+\item[Insect Repellent] Small insects within one hex, or on one entity
+leave as fast as they can. This effect lasts (Base Chance) minutes.
+
+\item[Tie/Untie] causes strands to knit together, or fray apart.  This
+can be used to knot string, repair minor rips in fabric, repair
+fraying rope, or tangle or untangle hair etc.  It will not fill in
+holes or seamlessly join completely separate things together.
+\end{Description}
+\end{multicols*}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 3
+a3 1
+\begin{multicols}{3}
+d5 3
+a7 12
+\section{Minor Magics}
+\label{minor.magic}
+\index{magic!minor}
+
+A feat of minor magic is generally performed to entertain. Such a feat
+can also gull the credulous. Minor magics include the tricks used by
+the prestidigitators \& conjurers of legend.
+
+Minor magics are small magical effects, mostly in the area of
+glamour.  Minor magical effects are called \emph{cantrips}.  No
+preparation is needed to cast them.  Any area counterspell will remove
+minor illusions and any non permanent cantrips (but not the effects).
+d11 3
+a13 3
+They can be cast by any Adept without restriction and require 1
+Fatigue to cast.  These effects are strictly minor in nature and
+cannot be used during the tactical sequence.
+d15 1
+a15 1
+\subsection{Modifiers}
+d18 17
+a34 8
+do not apply to them. They may not be ranked or improved, and do not
+affect the number of low-ranked spells that may be learned.  All
+sentient entities will automatically resist minor magics unless
+they choose otherwise.
+
+The base chance of a cantrip is 3 \x MA.  Should the roll exceed 4 \x
+MA the cantrip will backfire.  Backfires result only in the effect
+being distinctly different from the casters intentions.
+d36 1
+a36 3
+\subsection{Cantrips}
+\label{cantrips}
+\index{cantrips}
+d38 3
+a40 2
+Below is a list of commonly used cantrips.  This list is a set of
+examples and should not be considered exclusive or complete.
+d42 17
+a58 1
+\begin{Description}
+d60 1
+a60 149
+\item[Chill]
+Up to a pint of liquid, or a pound of solid material, may be chilled
+by as much as 20 degrees.  It may not be chilled below freezing point,
+and will immediately begin to warm back to room temperature.
+
+\item[Clean]
+All dirt and grime may be removed from an amount of material
+equivalent to one set of normal clothes.  If cast on an entity the
+body will also be cleaned.  It is not possible to remove thick mud,
+glue, blood, ink, etc.
+
+\item[Colour] The surface colour of one object (or entity's skin,
+hair, or eyes) may be intensified, or altered to a different hue.
+This is an illusion, and can be readily countered by another colour
+cantrip.  The colour will gradually fade over a period of about one
+week.
+
+\item[Coloured Lights] One or more globes of coloured light are
+created by the caster for [D - 4] minutes.  These may be tossed
+through the air, as long as they remain with ten feet of the caster.
+They do not shed light on their surroundings.
+
+\item[Curdle]
+Causes the rate of natural decay to accelerate.  Milk will turn into
+yoghurt, wine to vinegar, cheese will age, and bread dough will rise.
+Other items may spoil more rapidly than normal.  The material is not
+putrefied, and may well be quite edible.
+
+\item[Dampen]
+This cantrip will render up to one pound of permeable material (such
+as paper) damp to the touch.  Objects so treated would be difficult to
+set alight but will dry out normally.
+
+\item[Dirty]
+An amount of material equivalent to one set of normal clothes (or
+another object with similar surface area) may be made dirty.  If cast
+on an entity, the body will be dirtied also.  It is not possible to
+impart thick mud, glue, blood, ink.
+
+\item[Dry] The cantrip will render up to one pound of damp (but not
+sodden) material dry to the touch.  It can be used to dry clothing,
+but will not substitute for a towel.
+
+\item[Dust] All dust can be removed from up to ten square feet of
+surface.  The dust will settle naturally somewhere else.
+
+\item[Dusty]
+Dust can be precipitated from the air to cover up to ten square feet
+of surface.
+
+\item[Fire finger]
+A magical flame, the size of that of a candle, appears balanced on one
+of the caster's digits.  This flame will not harm the caster, or any
+other entity, but can be used to light a fire or a torch.  It
+illuminates a space about ten feet in diameter.
+
+\item[Graffiti]
+A faintly glowing mark appears on the surface of an object.  With
+practise the caster can ``write'', or draw simple pictures.  The
+image will immediately start to fade, and disappear within [D + 5]
+minutes.
+
+\item[Hairy] Causes the rate of natural hair (or fur) growth to
+accelerate over the period of an hour.  The increase in hair length is
+[D - 6] inches for human head hair, and other hair types in
+proportion.
+
+\item[Insect Attractant]
+Small insects will be more attracted than usual to the entity on whom
+this cantrip is cast for the duration (one hour).  Only insects
+naturally present within five feet of the entity will be affected.
+
+\item[Insect Repellant]
+Small insects will repelled from the entity on whom this cantrip is
+cast for the duration (six hours).  It can be used to remove fleas and
+lice from animals (but not their eggs).
+
+\item[Knot]
+Causes two strands to become permanently linked.  The ``knot'' forms a
+thicker portion of cord, having the same strength as the composite
+stands.  The ends must be placed together, and ten times the diameter
+of the cord will be lost from the total length.
+
+\item[Noise]
+A ``white'' noise emanates from any point within 20 feet of the
+caster.  While this may startle animals, sentients will normally
+disregard the sound almost immediately.
+
+\item[Palm]
+A small object (up to one ounce) is teleported from the hand to some
+other place on the caster's person, or to some place within ten feet.
+
+\item[Perfume]
+A pleasant (or slightly unpleasant) scent may be imparted.  Observers
+will not notice any particular odour, just that something smells nice
+(or bad).
+
+\item[Polish]
+This cantrip will remove up to ten square feet of surface corrosion
+and tarnish, imparting a pleasing lustre.
+
+\item[Preserve]
+Slows the rate of natural decay.  Milk is effectively pasteurised for
+example.  However, exposed items will resume decay almost immediately,
+and it is advisable to seal the material into airtight jars.
+
+\item[Ravel]
+One crack or tear in an object or item of clothing may be extended by
+an additional inch in length in one cast (holes may not be created by
+this spell).
+
+\item[Repair]
+One crack or tear in an object or item of clothing may be seamlessly
+repaired.  No more than half a foot length of material may be
+repaired in one cast, and edges must be pressed together.  This
+cantrip cannot create material (so holes cannot be repaired easily).
+
+\item[Shave]
+Removes hair from a person by breaking it at the roots.  Does not affect
+hair longer than half an inch and the hair would have to be brushed
+from the skin.
+
+\item[Smoke puff] A puff of harmless coloured smoke, ten cubic inches
+in size, appears near the caster.  The colour is chosen by the caster
+and will ascend and disperse naturally.
+
+\item[Sprout]
+This spell causes the sprouting of seeds in up to ten square feet to
+accelerate, so that the process takes hours rather than days.  The
+seeds must have the proper conditions for germination.
+
+\item[Tarnish]
+This cantrip can magically tarnish up to ten square inches of
+surface.  This will create at most a very thin film of corrosion and
+will not affect material that normally does not corrode.
+
+\item[Tip]
+This cantrip causes an object to tip over (the contents, if may, may
+spill).  It will not work if the object is fixed in place, or the
+total weight is more than half a pound.
+
+\item[Untie]
+One knot or tangle can be undone, no matter how tightly knotted.
+Magically ``knotted'' cord will not be undone however.
+
+\item[Warm] Up to a pint of liquid, or a pound of solid material, may
+be warmed, over a period of a minute, by up to 20 degrees.  It may not
+be heated above boiling point, and will immediately begin to cool back
+to room temperature.
+d62 27
+d90 1
+a90 2
+\raggedcolumns \newpage
+\end{multicols}
+@
+
+
+3.1
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+3.0
+log
+@Major typographical changes.  Spells now spell environments
+@
+text
+@d8 1
+a8 1
+can also gull the credulous. Minor magic's include the tricks used by
+d11 1
+a11 1
+Minor magics are small magically effects, mostly in the area of
+d27 1
+a27 1
+sentient entities will automaticcally resist minor magics unless
+d30 3
+a32 3
+The base chance of a cantrip is 3 \x MA.  The chance of a backfire is
+over 4 \x MA.  Backfires result only in the effect being distinctly
+different from the casters intentions.
+d41 1
+a41 1
+\begin{description}
+d86 2
+a87 3
+\item[Dust]
+All dust can be removed from up ten square feet of surface.  The dust
+will settle naturally somewhere else.
+d97 1
+a97 1
+illumines a space about ten feet in diameter.
+d193 1
+a193 1
+\end{description}
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d1 2
+a6 2
+\begin{multicols}{3}
+
+d195 1
+a196 1
+
+@
+
+
+1.7
+log
+@Extra veribiage added by Ross Alexander and Andrew Withy.
+@
+text
+@@
+
+
+1.6
+log
+@Note that only a list of examples.
+@
+text
+@d7 4
+d23 6
+@
+
+
+1.5
+log
+@Cantrips can now only be cast by Adepts (Ross Alexander).
+@
+text
+@d28 3
+@
+
+
+1.4
+log
+@Minor spelling mistakes corrected by Andrew Withy.  Minor illusion
+category removed and colour made an illusion by Ross Alexander.
+Minor illusions merged into cantrip list.
+@
+text
+@d14 3
+a16 3
+They can be cast by any sentient entity without restriction and
+require 1 Fatigue to cast.  These effects are strictly minor in nature
+and cannot be used during the tactical sequence.
+@
+
+
+1.3
+log
+@Spelling mistakes corrected.
+@
+text
+@d21 1
+a21 1
+over 4 \x MA.  Backfires result only in the effect being districtly
+d33 1
+a33 1
+and will immediately begin to warm back to temperature.
+d43 8
+a50 3
+This is not an illusion, but can be readily countered by another
+colour cantrip.  The colour will gradually fade over a period of about
+one week.
+d61 1
+a61 2
+set alight by pyrogenesis (or by non-magical flames), but will dry out
+normally.
+d66 1
+a66 1
+on an entity, the body will be dirtied also.  it is not possible to
+d87 6
+d101 1
+a101 1
+naturally present within five feet of the entity will b e affected.
+d114 5
+d121 6
+a126 1
+other place on the cast's person, or to some place within ten feet.
+a179 29
+
+\end{description}
+
+\subsubsection{Minor Illusions}
+\index{illusions!minor}
+
+\begin{description}
+
+\item[Coloured Lights] One or more globes of coloured light are
+created by the caster for [D - 4] minutes.  These may be tossed
+through the air, as long as they remain with ten feet of the caster.
+They do not shed light on their surroundings.
+
+\item[Graffiti]
+A faintly glowing mark appears on the surface of an object.  With
+practise the caster can ``write'', or draw simple pictures.  The
+image will immediately start to fade, and disappear within [D + 5]
+minutes.
+
+\item[Noise]
+A ``white'' noise emanates from any point within 20 feet of the
+caster.  While this may startle animals, sentients will normally
+disregard the sound almost immediately.
+
+\item[Perfume]
+A pleasant (or slightly unpleasant) scent may be imparted.  Observers
+will not notice any particular odour, just that something smells nice
+(or bad).  If they concentrate on the scent they will realise
+immediately that it is an illusion.
+@
+
+
+1.2
+log
+@Distract removed from cantrips.
+@
+text
+@d2 2
+d8 1
+a8 1
+glamour.  Minor magically effects are called \emph{cantrips}.  No
+d25 2
+d95 1
+a95 1
+cast for the duration (six hours).  it can be used to remove fleas and
+d105 1
+a105 1
+A small object (up to one once) is teleported from the hand to some
+d164 1
+d175 1
+a175 1
+practise the caster can ``write'' words, or draw simple pictures.  The
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 187
+@

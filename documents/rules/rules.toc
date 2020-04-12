@@ -1,0 +1,1246 @@
+\contentsline {section}{\numberline {1}Explanation of Characteristics}{7}%
+\contentsline {subsubsection}{Effects of Characteristics}{7}%
+\contentsline {subsubsection}{Difficulty Factors (Characteristic Multipliers)}{7}%
+\contentsline {subsection}{\numberline {1.1}Strength (PS)}{7}%
+\contentsline {subsubsection}{Specific Influences}{7}%
+\contentsline {subsubsection}{Generic Uses}{7}%
+\contentsline {subsection}{\numberline {1.2}Manual Dexterity (MD)}{7}%
+\contentsline {subsubsection}{Specific Influences}{7}%
+\contentsline {subsubsection}{Generic Uses}{7}%
+\contentsline {subsection}{\numberline {1.3}Agility (AG)}{7}%
+\contentsline {subsubsection}{Specific Influences}{7}%
+\contentsline {subsubsection}{Generic Uses}{7}%
+\contentsline {subsection}{\numberline {1.4}Magical Aptitude (MA)}{7}%
+\contentsline {subsubsection}{Specific Influences}{7}%
+\contentsline {subsubsection}{Generic Uses}{7}%
+\contentsline {subsection}{\numberline {1.5}Willpower (WP)}{7}%
+\contentsline {subsubsection}{Specific Influences}{7}%
+\contentsline {subsubsection}{Generic Uses}{7}%
+\contentsline {subsection}{\numberline {1.6}Endurance (EN)}{7}%
+\contentsline {subsubsection}{Specific Influences}{7}%
+\contentsline {subsubsection}{Generic Uses}{7}%
+\contentsline {subsection}{\numberline {1.7}Fatigue (FT)}{7}%
+\contentsline {subsubsection}{Specific Influences}{7}%
+\contentsline {subsubsection}{Generic Uses}{7}%
+\contentsline {subsection}{\numberline {1.8}Physical Beauty (PB)}{8}%
+\contentsline {subsubsection}{Specific Influences}{8}%
+\contentsline {subsubsection}{Generic Uses}{8}%
+\contentsline {subsection}{\numberline {1.9}Perception (PC)}{8}%
+\contentsline {subsubsection}{Specific Influences}{8}%
+\contentsline {subsubsection}{Generic Uses}{8}%
+\contentsline {subsection}{\numberline {1.10}Tactical Movement Rate (TMR)}{8}%
+\contentsline {subsubsection}{Specific Influences}{8}%
+\contentsline {subsubsection}{Generic Uses}{8}%
+\contentsline {section}{\numberline {2}Character Generation}{9}%
+\contentsline {subsection}{\numberline {2.1}Characteristic Points}{9}%
+\contentsline {subsubsection}{Generating Characteristic Points}{9}%
+\contentsline {subsubsection}{Assigning Characteristic Points}{9}%
+\contentsline {subsubsection}{Generating Secondary Characteristics}{9}%
+\contentsline {subsubsection}{Physical Beauty}{9}%
+\contentsline {subsubsection}{Perception}{9}%
+\contentsline {subsubsection}{Tactical Movement Rate}{9}%
+\contentsline {subsection}{\numberline {2.2}Race}{9}%
+\contentsline {subsubsection}{Dwarf}{9}%
+\contentsline {subsubsection}{Special Abilities}{9}%
+\contentsline {subsubsection}{Elf}{9}%
+\contentsline {subsubsection}{Special Abilities}{10}%
+\contentsline {subsubsection}{Halfling}{10}%
+\contentsline {subsubsection}{Special Abilities}{10}%
+\contentsline {subsubsection}{Hill Giant}{10}%
+\contentsline {subsubsection}{Special Abilities}{10}%
+\contentsline {subsubsection}{Human}{10}%
+\contentsline {subsubsection}{Special Abilities}{10}%
+\contentsline {subsubsection}{Orc}{10}%
+\contentsline {subsubsection}{Special Abilities}{10}%
+\contentsline {subsubsection}{Shape Changer}{10}%
+\contentsline {subsubsection}{Special Abilities}{10}%
+\contentsline {subsection}{\numberline {2.3}Description}{11}%
+\contentsline {subsubsection}{Height and Weight}{11}%
+\contentsline {subsubsection}{Gender}{11}%
+\contentsline {subsubsection}{Female Characteristic Modifier}{11}%
+\contentsline {subsubsection}{Primary Hand}{11}%
+\contentsline {subsubsection}{Description}{11}%
+\contentsline {subsubsection}{Conception}{11}%
+\contentsline {subsection}{\numberline {2.4}Aspects}{11}%
+\contentsline {subsubsection}{Generating an Aspect}{11}%
+\contentsline {subsubsection}{Effects of Aspects}{11}%
+\contentsline {subsubsection}{Elemental Aspects}{11}%
+\contentsline {subsubsection}{Seasonal Aspects}{11}%
+\contentsline {subsubsection}{Solar and Lunar Aspects}{11}%
+\contentsline {subsubsection}{Life and Death Aspects}{11}%
+\contentsline {subsubsection}{Light and Dark Aspects}{12}%
+\contentsline {subsection}{\numberline {2.5}Heritage}{12}%
+\contentsline {subsubsection}{Social Status}{12}%
+\contentsline {subsubsection}{Explanation of Classes}{12}%
+\contentsline {subsubsection}{Birth Order}{12}%
+\contentsline {subsubsection}{Disinheritance}{12}%
+\contentsline {subsection}{\numberline {2.6}Starting Abilities and Possessions}{12}%
+\contentsline {subsubsection}{Language Skills}{12}%
+\contentsline {subsubsection}{Adventuring Skills}{13}%
+\contentsline {subsubsection}{Mage or Non Mage?}{13}%
+\contentsline {subsubsection}{Mage}{13}%
+\contentsline {subsubsection}{Non Mage}{13}%
+\contentsline {subsubsection}{Background Experience}{13}%
+\contentsline {subsubsection}{Background Possessions}{13}%
+\contentsline {subsubsection}{Modified Agility and Manual Dexterity}{13}%
+\contentsline {subsubsection}{Finishing the Character}{13}%
+\contentsline {section}{\numberline {3}Combat (Version 1.1)}{15}%
+\contentsline {subsection}{\numberline {3.1}Definitions}{15}%
+\contentsline {subsection}{\numberline {3.2}Preparation for Combat}{15}%
+\contentsline {subsubsection}{Paperwork}{15}%
+\contentsline {subsubsection}{Surprise}{15}%
+\contentsline {subsubsection}{Fatigue}{15}%
+\contentsline {subsection}{\numberline {3.3}Combat Sequence}{15}%
+\contentsline {subsubsection}{Exceptions to the Combat Sequence}{16}%
+\contentsline {subsubsection}{Initiative}{16}%
+\contentsline {subsubsection}{Action Timing}{16}%
+\contentsline {subsubsection}{GM Conventions}{16}%
+\contentsline {subsection}{\numberline {3.4}Engaged Actions}{16}%
+\contentsline {subsubsection}{Melee Attack}{16}%
+\contentsline {subsubsection}{Close \& Grapple}{16}%
+\contentsline {subsubsection}{Evade}{16}%
+\contentsline {subsubsection}{Offensive Withdraw}{16}%
+\contentsline {subsubsection}{Defensive Withdraw}{16}%
+\contentsline {subsubsection}{Flee}{16}%
+\contentsline {subsubsection}{Pass}{16}%
+\contentsline {subsubsection}{Cast}{16}%
+\contentsline {subsubsection}{Throw}{16}%
+\contentsline {subsubsection}{Recover from Stun}{16}%
+\contentsline {subsubsection}{Leaving Melee Combat}{16}%
+\contentsline {subsection}{\numberline {3.5}Close Combat Actions}{16}%
+\contentsline {subsubsection}{Grapple}{16}%
+\contentsline {subsubsection}{Withdraw from Close}{16}%
+\contentsline {subsubsection}{Pass}{16}%
+\contentsline {subsubsection}{Recover from Stun}{16}%
+\contentsline {subsubsection}{Leaving Close Combat}{17}%
+\contentsline {subsection}{\numberline {3.6}Unengaged Actions}{17}%
+\contentsline {subsubsection}{Move}{17}%
+\contentsline {subsubsection}{Step \& Melee Attack}{17}%
+\contentsline {subsubsection}{Charge}{17}%
+\contentsline {subsubsection}{Charge with Pole Weapon or Shield}{17}%
+\contentsline {subsubsection}{Charge \& Close}{17}%
+\contentsline {subsubsection}{Evade}{17}%
+\contentsline {subsubsection}{Retreat}{17}%
+\contentsline {subsubsection}{Pass}{17}%
+\contentsline {subsubsection}{Cast}{17}%
+\contentsline {subsubsection}{Throw}{17}%
+\contentsline {subsubsection}{Fire}{17}%
+\contentsline {subsubsection}{Recover from Stun}{17}%
+\contentsline {subsection}{\numberline {3.7}Free Acts}{17}%
+\contentsline {subsection}{\numberline {3.8}Action Restrictions}{17}%
+\contentsline {subsubsection}{Movement}{17}%
+\contentsline {subsubsection}{Pass Actions}{17}%
+\contentsline {subsubsection}{Figures with Low Agility}{17}%
+\contentsline {subsubsection}{Figures with High Agility}{17}%
+\contentsline {subsubsection}{Figures with Extraordinary Agility}{17}%
+\contentsline {subsubsection}{Stunned Figures}{17}%
+\contentsline {subsubsection}{Position of Opposing Figures}{17}%
+\contentsline {subsubsection}{Visibility}{18}%
+\contentsline {subsubsection}{Disturbing Magical Actions}{18}%
+\contentsline {subsubsection}{Action Summary}{18}%
+\contentsline {subsection}{\numberline {3.9}Attacking}{18}%
+\contentsline {subsubsection}{Ranged Attacks}{18}%
+\contentsline {subsubsection}{Melee Attacks}{18}%
+\contentsline {subsubsection}{Close Combat Attacks}{18}%
+\contentsline {subsubsection}{Attacking into Combat}{18}%
+\contentsline {subsubsection}{Special Attacks}{18}%
+\contentsline {subsection}{\numberline {3.10}Resolving Attempted Attacks}{18}%
+\contentsline {subsubsection}{Strike Chance}{18}%
+\contentsline {subsubsection}{Modified Strike Chance}{18}%
+\contentsline {subsubsection}{Evading}{18}%
+\contentsline {subsubsection}{Defence}{19}%
+\contentsline {subsubsection}{Fumbles}{19}%
+\contentsline {subsection}{\numberline {3.11}Damage}{19}%
+\contentsline {subsubsection}{Fatigue Damage}{19}%
+\contentsline {subsubsection}{Endurance Damage}{19}%
+\contentsline {subsubsection}{Specific Grievous Injuries}{19}%
+\contentsline {subsubsection}{Magical Damage}{19}%
+\contentsline {subsubsection}{Additional Damage}{19}%
+\contentsline {subsection}{\numberline {3.12}Effects of Damage}{19}%
+\contentsline {subsubsection}{Missile Lodgement}{19}%
+\contentsline {subsubsection}{Stunning}{19}%
+\contentsline {subsubsection}{Massive Damage}{19}%
+\contentsline {subsubsection}{Unconsciousness}{19}%
+\contentsline {subsubsection}{Death}{19}%
+\contentsline {subsubsection}{Infection}{19}%
+\contentsline {subsection}{\numberline {3.13}Weapons}{19}%
+\contentsline {subsubsection}{Normal Weapons}{19}%
+\contentsline {subsubsection}{Unusual Weapons}{20}%
+\contentsline {subsubsection}{Envenomed Weapons}{20}%
+\contentsline {subsection}{\numberline {3.14}Unarmed Combat}{20}%
+\contentsline {subsection}{\numberline {3.15}Multi-hex Figures}{20}%
+\contentsline {subsection}{\numberline {3.16}Mounted Combat}{20}%
+\contentsline {subsubsection}{Action Restrictions}{20}%
+\contentsline {subsubsection}{Charge}{20}%
+\contentsline {subsection}{\numberline {3.17}Aerial Combat}{20}%
+\contentsline {subsubsection}{Combat Ranges}{20}%
+\contentsline {subsubsection}{Close Combat}{20}%
+\contentsline {subsubsection}{Casting}{20}%
+\contentsline {subsection}{\numberline {3.18}Aquatic Combat}{20}%
+\contentsline {subsubsection}{Defence}{20}%
+\contentsline {subsubsection}{Weapons}{20}%
+\contentsline {section}{\numberline {4}Equipment and Monetary Matters}{21}%
+\contentsline {subsection}{\numberline {4.1}Purchase of goods and items}{21}%
+\contentsline {subsection}{\numberline {4.2}Encumbrance Modifies Agility}{21}%
+\contentsline {section}{\numberline {5}Health and Fitness}{21}%
+\contentsline {subsection}{\numberline {5.1}Eating and Drinking}{21}%
+\contentsline {subsection}{\numberline {5.2}Starvation}{21}%
+\contentsline {subsection}{\numberline {5.3}Dehydration}{21}%
+\contentsline {subsection}{\numberline {5.4}Tiredness and Rest}{21}%
+\contentsline {subsubsection}{Fatigue Loss}{21}%
+\contentsline {subsubsection}{Encumbrance}{21}%
+\contentsline {subsubsection}{Damage}{21}%
+\contentsline {subsubsection}{Spell Casting}{21}%
+\contentsline {subsubsection}{Calculating Current Fatigue}{21}%
+\contentsline {subsubsection}{Exhaustion}{21}%
+\contentsline {subsubsection}{Exhaustion Modifier}{21}%
+\contentsline {subsection}{\numberline {5.5}Fatigue Recovery}{21}%
+\contentsline {subsection}{\numberline {5.6}Damage and Illness}{22}%
+\contentsline {subsubsection}{Effects of Low Endurance}{22}%
+\contentsline {subsubsection}{Endurance recovery}{22}%
+\contentsline {subsubsection}{Healers and Magical Healing}{22}%
+\contentsline {subsubsection}{Natural Healing}{22}%
+\contentsline {subsubsection}{Potions \& Unconscious Patients}{22}%
+\contentsline {subsubsection}{Grievous Injuries}{22}%
+\contentsline {subsubsection}{Natural healing of Specific Injuries}{22}%
+\contentsline {subsection}{\numberline {5.7}Infection}{22}%
+\contentsline {subsubsection}{Becoming Infected}{22}%
+\contentsline {subsubsection}{Effects of Infection}{22}%
+\contentsline {subsubsection}{Curing Infection}{22}%
+\contentsline {section}{\numberline {6}Ranking}{22}%
+\contentsline {subsection}{\numberline {6.1}Characteristics}{22}%
+\contentsline {subsection}{\numberline {6.2}Talents}{23}%
+\contentsline {subsection}{\numberline {6.3}Spells}{23}%
+\contentsline {subsection}{\numberline {6.4}Rituals}{23}%
+\contentsline {subsection}{\numberline {6.5}Skills}{23}%
+\contentsline {subsection}{\numberline {6.6}Adventuring Skills}{23}%
+\contentsline {subsection}{\numberline {6.7}Languages}{23}%
+\contentsline {subsection}{\numberline {6.8}Weapons}{23}%
+\contentsline {subsection}{\numberline {6.9}Names}{23}%
+\contentsline {section}{\numberline {7}Magic}{25}%
+\contentsline {subsection}{\numberline {7.1}Introduction to Magic}{25}%
+\contentsline {subsubsection}{Definitions:}{25}%
+\contentsline {subsection}{\numberline {7.2}How Magic Works}{25}%
+\contentsline {subsubsection}{Extended Rituals}{25}%
+\contentsline {subsection}{\numberline {7.3}How to Cast Spells}{25}%
+\contentsline {subsubsection}{Casting Mechanics}{26}%
+\contentsline {subsection}{\numberline {7.4}Cast Check Modifiers}{26}%
+\contentsline {subsection}{\numberline {7.5}Spell Effects}{26}%
+\contentsline {subsubsection}{Damage}{26}%
+\contentsline {subsubsection}{Doubles and Triples}{26}%
+\contentsline {subsection}{\numberline {7.6}Restrictions on Magic}{26}%
+\contentsline {subsubsection}{Cold Iron}{26}%
+\contentsline {subsubsection}{Confinement}{26}%
+\contentsline {subsubsection}{Proper Procedure}{26}%
+\contentsline {subsubsection}{Concentration}{26}%
+\contentsline {subsubsection}{Queueing}{26}%
+\contentsline {subsection}{\numberline {7.7}Backfires}{26}%
+\contentsline {subsubsection}{Backfire Interpretation}{27}%
+\contentsline {subsection}{\numberline {7.8}Magic Resistance}{27}%
+\contentsline {subsubsection}{Passive Resistance}{27}%
+\contentsline {subsubsection}{Active Resistance}{27}%
+\contentsline {subsection}{\numberline {7.9}Incorporating Magic into Combat}{27}%
+\contentsline {subsection}{\numberline {7.10}The Colleges of Magic}{27}%
+\contentsline {subsubsection}{Branches of Magic}{27}%
+\contentsline {subsubsection}{Restrictions and Modifications}{27}%
+\contentsline {subsubsection}{Learning College Magic}{27}%
+\contentsline {subsubsection}{Knowledge Limitations}{27}%
+\contentsline {subsection}{\numberline {7.11}Magic Descriptions}{27}%
+\contentsline {subsubsection}{Sub-Sections}{28}%
+\contentsline {subsection}{\numberline {7.12}Spell Descriptions}{28}%
+\contentsline {subsubsection}{Interpretations}{28}%
+\contentsline {subsection}{\numberline {7.13}Storage and Entrapment of Magic}{28}%
+\contentsline {section}{\numberline {8}Cantrips}{29}%
+\contentsline {subsection}{\numberline {8.1}Restrictions}{29}%
+\contentsline {subsection}{\numberline {8.2}Modifiers \& Statistics}{29}%
+\contentsline {subsection}{\numberline {8.3}Glamour Cantrips}{29}%
+\contentsline {subsection}{\numberline {8.4}Household Cantrips}{29}%
+\contentsline {section}{\numberline {9}Names \& Auras}{30}%
+\contentsline {subsection}{\numberline {9.1}Detect Aura Talent}{30}%
+\contentsline {subsubsection}{Detect Aura}{30}%
+\contentsline {subsection}{\numberline {9.2}Interpretation and Examples}{30}%
+\contentsline {subsection}{\numberline {9.3}True Names}{30}%
+\contentsline {subsubsection}{Generic True Names}{30}%
+\contentsline {subsubsection}{Individual True Names}{30}%
+\contentsline {section}{\numberline {10}College Magic}{32}%
+\contentsline {subsection}{\numberline {10.1}Introduction}{32}%
+\contentsline {subsection}{\numberline {10.2}Counterspells}{32}%
+\contentsline {subsubsection}{Counterspell}{32}%
+\contentsline {subsection}{\numberline {10.3}General Knowledge Rituals}{32}%
+\contentsline {subsubsection}{Ritual Spell Preparation}{32}%
+\contentsline {subsubsection}{Purification}{32}%
+\contentsline {subsection}{\numberline {10.4}Special Knowledge Rituals}{32}%
+\contentsline {subsubsection}{The Ward Ritual}{32}%
+\contentsline {subsubsection}{The Investment Ritual (Ver 1.1)}{33}%
+\contentsline {section}{\numberline {11}Non-College Magic}{35}%
+\contentsline {subsection}{\numberline {11.1}Introduction}{35}%
+\contentsline {subsection}{\numberline {11.2}Special Knowledge Spells}{35}%
+\contentsline {subsubsection}{Geas}{35}%
+\contentsline {subsubsection}{Major Curse}{35}%
+\contentsline {subsection}{\numberline {11.3}Special Knowledge Rituals}{35}%
+\contentsline {subsubsection}{Remove Curse}{35}%
+\contentsline {section}{\numberline {12}The College of Bardic Magics (Ver 2.1)}{37}%
+\contentsline {subsubsection}{Traditional Colours}{37}%
+\contentsline {subsubsection}{Traditional Symbols}{37}%
+\contentsline {subsection}{\numberline {12.1}Restrictions}{37}%
+\contentsline {subsection}{\numberline {12.2}Base Chance Modifiers}{37}%
+\contentsline {subsection}{\numberline {12.3}Talents}{37}%
+\contentsline {subsubsection}{Concealed Casting (T-1)}{37}%
+\contentsline {subsubsection}{Enhanced Hearing (T-2)}{37}%
+\contentsline {subsubsection}{Melodic Memory (T-3)}{37}%
+\contentsline {subsubsection}{Project Voice (T-4)}{37}%
+\contentsline {subsection}{\numberline {12.4}General Knowledge Spells}{37}%
+\contentsline {subsubsection}{Clairaudience (G-1)}{37}%
+\contentsline {subsubsection}{Enchant Instrument (G-2)}{37}%
+\contentsline {subsubsection}{Ethereal Orchestra (G-3)}{37}%
+\contentsline {subsubsection}{Exhortation (G-4)}{37}%
+\contentsline {subsubsection}{Quietness (G-5)}{37}%
+\contentsline {subsubsection}{Mockery (G-6)}{37}%
+\contentsline {subsubsection}{Shatter (G-7)}{37}%
+\contentsline {subsubsection}{Silent Sounds (G-8)}{38}%
+\contentsline {subsubsection}{Soothe the Savage Beast (G-9)}{38}%
+\contentsline {subsubsection}{Speaking Beasts (G-10)}{38}%
+\contentsline {subsubsection}{Ventriloquism (G-11)}{38}%
+\contentsline {subsection}{\numberline {12.5}General Knowledge Rituals}{38}%
+\contentsline {subsubsection}{Implanting Sounds (Q-1)}{38}%
+\contentsline {subsubsection}{Recitation (Q-2)}{38}%
+\contentsline {subsection}{\numberline {12.6}Special Knowledge Spells}{38}%
+\contentsline {subsubsection}{Charming (S-1)}{38}%
+\contentsline {subsubsection}{Compel Speech (S-2)}{38}%
+\contentsline {subsubsection}{Comprehending Tongues (S-3)}{38}%
+\contentsline {subsubsection}{Confusion of Tongues (S-4)}{38}%
+\contentsline {subsubsection}{Dance of Swords (S-5)}{38}%
+\contentsline {subsubsection}{Enthralling Audience (S-6)}{39}%
+\contentsline {subsubsection}{Shout of Thunder (S-7)}{39}%
+\contentsline {subsubsection}{Inspirational Song (S-8)}{39}%
+\contentsline {subsubsection}{Satyr's Dance (S-9)}{39}%
+\contentsline {subsubsection}{Shell of Silence (S-10)}{39}%
+\contentsline {subsubsection}{Silver Tongue (S-11)}{39}%
+\contentsline {subsubsection}{Siren Song (S-12)}{39}%
+\contentsline {subsubsection}{Slumber Song (S-13)}{39}%
+\contentsline {subsubsection}{Whispering World (S-14)}{39}%
+\contentsline {subsection}{\numberline {12.7}Special Knowledge Rituals}{39}%
+\contentsline {subsubsection}{Cure Deafness and Muteness (R-1)}{39}%
+\contentsline {subsubsection}{Resounding Instrument (R-2)}{39}%
+\contentsline {subsubsection}{Sound of Doom (R-3)}{39}%
+\contentsline {subsubsection}{The Piper's Song (R-4)}{40}%
+\contentsline {section}{\numberline {13}The College of Binding and Animating Magics (Ver 1.1)}{41}%
+\contentsline {subsubsection}{Traditional Colours}{41}%
+\contentsline {subsubsection}{Traditional Symbols}{41}%
+\contentsline {subsection}{\numberline {13.1}Restrictions}{41}%
+\contentsline {subsection}{\numberline {13.2}Base Chance Modifiers}{41}%
+\contentsline {subsection}{\numberline {13.3}Definitions}{41}%
+\contentsline {subsection}{\numberline {13.4}Attuning Golems}{41}%
+\contentsline {subsection}{\numberline {13.5}Golems in Combat}{41}%
+\contentsline {subsection}{\numberline {13.6}Golem Intellience}{41}%
+\contentsline {subsection}{\numberline {13.7}Instructing Golems}{41}%
+\contentsline {subsection}{\numberline {13.8}Talents}{41}%
+\contentsline {subsubsection}{Activate Golem (T-1)}{41}%
+\contentsline {subsubsection}{Detect Enchantment (T-2)}{41}%
+\contentsline {subsection}{\numberline {13.9}General Knowledge Spells}{41}%
+\contentsline {subsubsection}{Adhesion (G-1)}{41}%
+\contentsline {subsubsection}{Animating Objects (G-2)}{42}%
+\contentsline {subsubsection}{Bound Speech (G-3)}{42}%
+\contentsline {subsubsection}{Durability (G-4)}{42}%
+\contentsline {subsubsection}{Mending (G-5)}{42}%
+\contentsline {subsubsection}{Modify Aura (G-6)}{42}%
+\contentsline {subsubsection}{Minor Creation (G-7)}{42}%
+\contentsline {subsubsection}{Moulding Elements (G-8)}{42}%
+\contentsline {subsubsection}{Preservation (G-9)}{42}%
+\contentsline {subsubsection}{Transparency (G-10)}{42}%
+\contentsline {subsection}{\numberline {13.10}General Knowledge Rituals}{43}%
+\contentsline {subsubsection}{Linking Lifeforce (Q-1)}{43}%
+\contentsline {subsubsection}{Petrifaction (Q-2)}{43}%
+\contentsline {subsubsection}{Shaping Clay Golems (Q-3)}{43}%
+\contentsline {subsubsection}{Shaping Rag \& String Golems (Q-4)}{43}%
+\contentsline {subsection}{\numberline {13.11}Special Knowledge Spells}{43}%
+\contentsline {subsubsection}{Bubble of Force (S-1)}{43}%
+\contentsline {subsubsection}{Disintegration (S-2)}{43}%
+\contentsline {subsubsection}{Frictionless Floor (S-3)}{43}%
+\contentsline {subsubsection}{Instant Golem (S-4)}{43}%
+\contentsline {subsubsection}{Instant Petrifaction (S-5)}{43}%
+\contentsline {subsubsection}{Instilling Flight (S-6)}{44}%
+\contentsline {subsubsection}{Itemisation (S-7)}{44}%
+\contentsline {subsubsection}{Making (S-8)}{44}%
+\contentsline {subsubsection}{Matter Transmutation (S-9)}{44}%
+\contentsline {subsubsection}{Possess Golem (S-10)}{44}%
+\contentsline {subsubsection}{Unfastening (S-11)}{44}%
+\contentsline {subsubsection}{Wall of Dust and Sand (S-12)}{44}%
+\contentsline {subsubsection}{Wall Walking (S-13)}{44}%
+\contentsline {subsection}{\numberline {13.12}Special Knowledge Rituals}{44}%
+\contentsline {subsubsection}{Binding Permanency (R-1)}{44}%
+\contentsline {subsubsection}{Investment (R-2)}{44}%
+\contentsline {subsubsection}{Item Divination (R-3)}{44}%
+\contentsline {subsubsection}{Major Creation (R-4)}{45}%
+\contentsline {subsubsection}{Shaping Iron Golems (R-5)}{45}%
+\contentsline {subsubsection}{Shaping Stone Golems (R-6)}{45}%
+\contentsline {subsubsection}{Shaping Wood Golems (R-7)}{45}%
+\contentsline {subsection}{\numberline {13.13}Golem Statistics}{46}%
+\contentsline {section}{\numberline {14}The College of Ensorcelments and Enchantments (Ver 1.1)}{47}%
+\contentsline {subsection}{\numberline {14.1}Restrictions}{47}%
+\contentsline {subsection}{\numberline {14.2}Base Chance Modifiers}{47}%
+\contentsline {subsection}{\numberline {14.3}Talents}{47}%
+\contentsline {subsubsection}{Wizardsight (T-1)}{47}%
+\contentsline {subsection}{\numberline {14.4}General Knowledge Spells}{47}%
+\contentsline {subsubsection}{Charming (G-1)}{47}%
+\contentsline {subsubsection}{Telekinesis (G-2)}{47}%
+\contentsline {subsubsection}{Enchanted Sleep (G-3)}{47}%
+\contentsline {subsubsection}{Walking Unseen (G-4)}{47}%
+\contentsline {subsubsection}{Speaking to Enchanted Creatures (G-5)}{47}%
+\contentsline {subsubsection}{Location (G-6)}{47}%
+\contentsline {subsubsection}{Mass Charming (G-7)}{47}%
+\contentsline {subsubsection}{Invisibility (G-8)}{47}%
+\contentsline {subsubsection}{Evil Eye (G-9)}{47}%
+\contentsline {subsection}{\numberline {14.5}General Knowledge Rituals}{48}%
+\contentsline {subsubsection}{Greater Enchantment (Q-1)}{48}%
+\contentsline {subsubsection}{Creating Crystal of Vision (Q-2)}{48}%
+\contentsline {subsubsection}{Creating Sleep Dust (Q-3)}{48}%
+\contentsline {subsubsection}{Manufacturing Poison Dust (Q-4)}{48}%
+\contentsline {subsection}{\numberline {14.6}Special Knowledge Spells}{48}%
+\contentsline {subsubsection}{Ventriloquism (S-1)}{48}%
+\contentsline {subsubsection}{Bolt of Energy (S-2)}{48}%
+\contentsline {subsubsection}{Opening (S-3)}{48}%
+\contentsline {subsubsection}{Enchant Weapon (S-4)}{48}%
+\contentsline {subsubsection}{Web of Entanglement (S-5)}{48}%
+\contentsline {subsubsection}{Mage Lock (S-6)}{48}%
+\contentsline {subsubsection}{Enhancing Enchantment (S-7)}{48}%
+\contentsline {subsubsection}{Levitation (S-8)}{49}%
+\contentsline {subsubsection}{Enchant Armour (S-9)}{49}%
+\contentsline {subsubsection}{Wizard's Eye (S-10)}{49}%
+\contentsline {subsubsection}{Slowness (S-11)}{49}%
+\contentsline {subsubsection}{Quickness (S-12)}{49}%
+\contentsline {subsection}{\numberline {14.7}Special Knowledge Rituals}{49}%
+\contentsline {section}{\numberline {15}The College of Illusions (Ver 1.4)}{51}%
+\contentsline {subsubsection}{Traditional Colours}{51}%
+\contentsline {subsubsection}{Traditional Symbols}{51}%
+\contentsline {subsubsection}{On Illusions}{51}%
+\contentsline {subsection}{\numberline {15.1}Restrictions}{51}%
+\contentsline {subsection}{\numberline {15.2}Base Chance Modifiers}{51}%
+\contentsline {subsection}{\numberline {15.3}Talents}{51}%
+\contentsline {subsubsection}{Concealed Casting (T-1)}{51}%
+\contentsline {subsubsection}{Enhanced Vision (T-2)}{51}%
+\contentsline {subsubsection}{Project Image (T-3)}{51}%
+\contentsline {subsection}{\numberline {15.4}General Knowledge Spells}{51}%
+\contentsline {subsubsection}{Audile Illusion (G-1)}{51}%
+\contentsline {subsubsection}{Flash of Light (G-2)}{51}%
+\contentsline {subsubsection}{Illusion of Food (G-3)}{51}%
+\contentsline {subsubsection}{Invisibility (G-4)}{51}%
+\contentsline {subsubsection}{Personalised Illusion (G-5)}{51}%
+\contentsline {subsubsection}{Illusion of Seeming (G-6)}{51}%
+\contentsline {subsubsection}{Static Illusion (G-7)}{52}%
+\contentsline {subsubsection}{Illusionary Wall (G-8)}{52}%
+\contentsline {subsection}{\numberline {15.5}General Knowledge Rituals}{52}%
+\contentsline {subsubsection}{Illusionary Cloaking (Q-1)}{52}%
+\contentsline {subsubsection}{Illusory Fog (Q-2)}{52}%
+\contentsline {subsection}{\numberline {15.6}Special Knowledge Spells}{52}%
+\contentsline {subsubsection}{Illusionary Animal (S-1)}{52}%
+\contentsline {subsubsection}{Illusionary Bolt (S-2)}{52}%
+\contentsline {subsubsection}{Illusory Creation (S-3)}{52}%
+\contentsline {subsubsection}{Illusion of Deep Pockets (S-4)}{52}%
+\contentsline {subsubsection}{Disguise Illusion (S-5)}{52}%
+\contentsline {subsubsection}{Illusionary Euphonia (S-6)}{52}%
+\contentsline {subsubsection}{Hallucination (S-7)}{52}%
+\contentsline {subsubsection}{Heroism (S-8)}{52}%
+\contentsline {subsubsection}{Illusion of Innocence (S-9)}{53}%
+\contentsline {subsubsection}{Maze (S-10)}{53}%
+\contentsline {subsubsection}{Illusion of Metamorphosis (S-11)}{53}%
+\contentsline {subsubsection}{Illusion of Mist (S-12)}{53}%
+\contentsline {subsubsection}{Illusion of Multiple Images (S-13)}{53}%
+\contentsline {subsubsection}{Nightmare Illusion (S-14)}{53}%
+\contentsline {subsection}{\numberline {15.7}Special Knowledge Rituals}{53}%
+\contentsline {subsubsection}{Illusionary Aura (R-1)}{53}%
+\contentsline {subsubsection}{Illusionary Terrain (R-2)}{53}%
+\contentsline {subsubsection}{Permanency (R-3)}{53}%
+\contentsline {section}{\numberline {16}The College of Sorceries of the Mind (Ver 1.6)}{55}%
+\contentsline {subsection}{\numberline {16.1}Introduction}{55}%
+\contentsline {subsubsection}{Modifications}{55}%
+\contentsline {subsection}{\numberline {16.2}Talents}{55}%
+\contentsline {subsubsection}{Resist Pain (T-1)}{55}%
+\contentsline {subsubsection}{Resist Temperature (T-2)}{55}%
+\contentsline {subsubsection}{Sense Danger (T-3)}{55}%
+\contentsline {subsection}{\numberline {16.3}General Knowledge Spells}{55}%
+\contentsline {subsubsection}{Control Animal (G-1)}{55}%
+\contentsline {subsubsection}{Control Person (G-2)}{55}%
+\contentsline {subsubsection}{Empathy (G-3)}{55}%
+\contentsline {subsubsection}{ESP (G-4)}{55}%
+\contentsline {subsubsection}{Hypnotism (G-5)}{55}%
+\contentsline {subsubsection}{Limited Precognition (G-6)}{55}%
+\contentsline {subsubsection}{Mind Shield (G-7)}{56}%
+\contentsline {subsection}{\numberline {16.4}General Knowledge Rituals}{56}%
+\contentsline {subsubsection}{Binding Will (Q-1)}{56}%
+\contentsline {subsection}{\numberline {16.5}Special Knowledge Spells}{56}%
+\contentsline {subsubsection}{Disruption (S-1)}{56}%
+\contentsline {subsubsection}{Force Shield (S-2)}{56}%
+\contentsline {subsubsection}{Healing (S-3)}{56}%
+\contentsline {subsubsection}{Mental Attack (S-4)}{56}%
+\contentsline {subsubsection}{Mind Speech (S-5)}{56}%
+\contentsline {subsubsection}{Phantasm (S-6)}{56}%
+\contentsline {subsubsection}{Telekinesis (S-7)}{56}%
+\contentsline {subsubsection}{Telekinetic Rage (S-8)}{56}%
+\contentsline {subsubsection}{Telepathy (S-9)}{56}%
+\contentsline {subsubsection}{Transmutation (S-10)}{57}%
+\contentsline {subsubsection}{Undetectability (S-11)}{57}%
+\contentsline {section}{\numberline {17}The College of Naming Incantations (Ver 2.0)}{59}%
+\contentsline {subsection}{\numberline {17.1}Restrictions}{59}%
+\contentsline {subsection}{\numberline {17.2}Benefits}{59}%
+\contentsline {subsubsection}{Language}{59}%
+\contentsline {subsubsection}{Ranking Names}{59}%
+\contentsline {subsubsection}{Modifications}{59}%
+\contentsline {subsection}{\numberline {17.3}Talents}{59}%
+\contentsline {subsubsection}{Detect Aura (T-1)}{59}%
+\contentsline {subsubsection}{Expel Magic (T-2)}{59}%
+\contentsline {subsubsection}{Quick Cast (T-3)}{59}%
+\contentsline {subsection}{\numberline {17.4}General Knowledge spells}{59}%
+\contentsline {subsection}{\numberline {17.5}General Knowledge Rituals}{59}%
+\contentsline {subsubsection}{Dissipation (Q-1)}{59}%
+\contentsline {subsection}{\numberline {17.6}Special Knowledge Spells}{59}%
+\contentsline {subsubsection}{Bane (S-1)}{59}%
+\contentsline {subsubsection}{Banishment (S-2)}{59}%
+\contentsline {subsubsection}{Compel Obedience (S-3)}{60}%
+\contentsline {subsubsection}{Disjunction (S-4)}{60}%
+\contentsline {subsubsection}{Dispel Magic (S-5)}{60}%
+\contentsline {subsubsection}{Forbidding (S-6)}{60}%
+\contentsline {subsubsection}{Mana Sense (S-7)}{60}%
+\contentsline {subsubsection}{Scry Shield (S-8)}{60}%
+\contentsline {subsubsection}{Spell Barrier (S-9)}{60}%
+\contentsline {subsubsection}{True Seeing (S-10)}{60}%
+\contentsline {subsection}{\numberline {17.7}Special Knowledge Rituals}{60}%
+\contentsline {subsubsection}{Divination (R-1)}{60}%
+\contentsline {subsubsection}{Expulsion (R-2)}{61}%
+\contentsline {subsubsection}{Interregnum (R-3)}{61}%
+\contentsline {subsubsection}{Remove Curse (R-4)}{61}%
+\contentsline {subsubsection}{Sealing (R-5)}{61}%
+\contentsline {subsubsection}{True Form (R-6)}{61}%
+\contentsline {subsubsection}{True Speaking (R-7)}{61}%
+\contentsline {section}{\numberline {18}The College of Air Magics (Ver 2.1)}{63}%
+\contentsline {subsubsection}{Traditional Colours}{63}%
+\contentsline {subsubsection}{Traditional Symbols}{63}%
+\contentsline {subsection}{\numberline {18.1}Glossary}{63}%
+\contentsline {subsection}{\numberline {18.2}Restrictions}{63}%
+\contentsline {subsection}{\numberline {18.3}Base Chance Modifiers}{63}%
+\contentsline {subsection}{\numberline {18.4}Talents}{63}%
+\contentsline {subsubsection}{Aerial Affinity (T-1)}{63}%
+\contentsline {subsubsection}{Detect Fumes (T-2)}{63}%
+\contentsline {subsubsection}{Predict Weather (T-3)}{63}%
+\contentsline {subsection}{\numberline {18.5}General Knowledge Spells}{63}%
+\contentsline {subsubsection}{Calm (G-1)}{63}%
+\contentsline {subsubsection}{Feather Falling (G-2)}{63}%
+\contentsline {subsubsection}{Mage Wind (G-3)}{63}%
+\contentsline {subsubsection}{Mist (G-4)}{63}%
+\contentsline {subsubsection}{Speak to Avians (G-5)}{63}%
+\contentsline {subsubsection}{Storm Calling (G-6)}{63}%
+\contentsline {subsubsection}{Summon Avians (G-7)}{64}%
+\contentsline {subsubsection}{Vapour Breathing (G-8)}{64}%
+\contentsline {subsubsection}{Wind Whistle (G-9)}{64}%
+\contentsline {subsection}{\numberline {18.6}General Knowledge Rituals}{64}%
+\contentsline {subsubsection}{Windspeak (Q-1)}{64}%
+\contentsline {subsection}{\numberline {18.7}Special Knowledge Spells}{64}%
+\contentsline {subsubsection}{Air Blast (S-1)}{64}%
+\contentsline {subsubsection}{Arrow Flight (S-2)}{64}%
+\contentsline {subsubsection}{Avian Control (S-3)}{64}%
+\contentsline {subsubsection}{Barrier of Wind (S-4)}{64}%
+\contentsline {subsubsection}{Conjuring Air (S-5)}{64}%
+\contentsline {subsubsection}{Flying (S-6)}{64}%
+\contentsline {subsubsection}{Gaseous Form (S-7)}{64}%
+\contentsline {subsubsection}{Gliding (S-8)}{65}%
+\contentsline {subsubsection}{Knockout Gas (S-9)}{65}%
+\contentsline {subsubsection}{Lightning Bolt (S-10)}{65}%
+\contentsline {subsubsection}{Lightning Strike (S-11)}{65}%
+\contentsline {subsubsection}{Resist Cold (S-12)}{65}%
+\contentsline {subsubsection}{Shaping Cloud (S-13)}{65}%
+\contentsline {subsubsection}{Whirlwind Vortex (S-14)}{65}%
+\contentsline {subsubsection}{Whispering Wind (S-15)}{65}%
+\contentsline {subsubsection}{Windstorm (S-16)}{65}%
+\contentsline {subsubsection}{Wind Walking (S-17)}{65}%
+\contentsline {subsubsection}{Ball of Lightning (S-18)}{65}%
+\contentsline {subsubsection}{Thunderclap (S-19)}{65}%
+\contentsline {subsection}{\numberline {18.8}Special Knowledge Rituals}{66}%
+\contentsline {subsubsection}{Air Spring (R-1)}{66}%
+\contentsline {subsubsection}{Conjuring Air Elemental (R-2)}{66}%
+\contentsline {subsubsection}{Control Weather (R-3)}{66}%
+\contentsline {subsubsection}{Summon and Bind Cloud (R-4)}{66}%
+\contentsline {subsection}{\numberline {18.9}Weather Scale Table 1.0}{67}%
+\contentsline {section}{\numberline {19}The College of Celestial Magics (Ver 1.3)}{69}%
+\contentsline {subsection}{\numberline {19.1}Restrictions}{69}%
+\contentsline {subsection}{\numberline {19.2}Base Chance Modifiers}{69}%
+\contentsline {subsubsection}{Aspect modifiers}{69}%
+\contentsline {subsection}{\numberline {19.3}Lighting condition modifiers}{69}%
+\contentsline {subsection}{\numberline {19.4}Talents}{69}%
+\contentsline {subsubsection}{Speak to Creatures of Light/Darkness (T-1)}{69}%
+\contentsline {subsubsection}{Night Vision (T-2)}{69}%
+\contentsline {subsubsection}{Detect Aura (T-3)}{69}%
+\contentsline {subsection}{\numberline {19.5}General Knowledge Spells}{69}%
+\contentsline {subsubsection}{Blending (G-1)}{69}%
+\contentsline {subsubsection}{Light (G-2)}{69}%
+\contentsline {subsubsection}{Darkness (G-3)}{69}%
+\contentsline {subsubsection}{Shadow Form / Coruscade (G-4)}{69}%
+\contentsline {subsubsection}{Wall of Starlight (G-5)}{70}%
+\contentsline {subsubsection}{Wall of Darkness (G-6)}{70}%
+\contentsline {subsubsection}{Witchsight (G-7)}{70}%
+\contentsline {subsubsection}{Walking Unseen (G-8)}{70}%
+\contentsline {subsubsection}{Resistance to Light (G-9 Solar)}{70}%
+\contentsline {subsubsection}{Illumination (G-9 Star)}{70}%
+\contentsline {subsubsection}{Charismatic Aura (G-9 Shadow)}{70}%
+\contentsline {subsubsection}{Strength of Darkness (G-9 Dark)}{70}%
+\contentsline {subsection}{\numberline {19.6}General Knowledge Rituals}{70}%
+\contentsline {subsubsection}{Reading the Night Sky (Q-1)}{70}%
+\contentsline {subsubsection}{Summoning and Binding Creatures of Light / Darkness (Q-2)}{70}%
+\contentsline {subsection}{\numberline {19.7}Special Knowledge Spells}{71}%
+\contentsline {subsubsection}{Healing (S-1)}{71}%
+\contentsline {subsubsection}{Creating Light/Dark Sword (S-2)}{71}%
+\contentsline {subsubsection}{Bolt of Starfire (S-3)}{71}%
+\contentsline {subsubsection}{Meteorite Shower (S-4)}{71}%
+\contentsline {subsubsection}{Star / Shadow Wings (S-5)}{71}%
+\contentsline {subsubsection}{Web of Light / Darkness (S-6)}{71}%
+\contentsline {subsubsection}{Fear (S-7)}{71}%
+\contentsline {subsubsection}{Increased Gravity (S-8)}{71}%
+\contentsline {subsubsection}{Whitefire (S-9)}{72}%
+\contentsline {subsubsection}{Solar Flare (S-10 Solar)}{72}%
+\contentsline {subsubsection}{Failing Star (S-10 Star)}{72}%
+\contentsline {subsubsection}{Blackfire (S-10 Dark)}{72}%
+\contentsline {subsubsection}{Shadow Walking (S-10 Shadow)}{72}%
+\contentsline {subsection}{\numberline {19.8}Special Knowledge Rituals}{72}%
+\contentsline {subsubsection}{Conjuring and Controlling Light / Dark Sphere (R-1)}{72}%
+\contentsline {subsection}{\numberline {19.9}Light and Dark Aspect}{72}%
+\contentsline {subsection}{\numberline {19.10}Celestial Lighting Modifier Table}{73}%
+\contentsline {section}{\numberline {20}The College of Earth Magics (Ver 1.2)}{75}%
+\contentsline {subsection}{\numberline {20.1}Restrictions}{75}%
+\contentsline {subsection}{\numberline {20.2}Base Chance Modifiers}{75}%
+\contentsline {subsection}{\numberline {20.3}Talents}{75}%
+\contentsline {subsubsection}{Detect Aura (T-1)}{75}%
+\contentsline {subsection}{\numberline {20.4}General Knowledge Spells}{75}%
+\contentsline {subsubsection}{Converse With Animals (G-1)}{75}%
+\contentsline {subsubsection}{Converse With Plants (G-2)}{75}%
+\contentsline {subsubsection}{Controlling Animals (G-3)}{75}%
+\contentsline {subsubsection}{Blending (G-4)}{75}%
+\contentsline {subsubsection}{Walking Unseen (G-5)}{75}%
+\contentsline {subsubsection}{Healing (G-6)}{75}%
+\contentsline {subsubsection}{Detecting Traps and Snares (G-7)}{75}%
+\contentsline {subsubsection}{Detecting Poisons (G-8)}{76}%
+\contentsline {subsubsection}{Lesser Enchantment (G-9)}{76}%
+\contentsline {subsubsection}{Herbal Lore (G-10)}{76}%
+\contentsline {subsubsection}{Tracking (G-11)}{76}%
+\contentsline {subsection}{\numberline {20.5}General Knowledge Rituals}{76}%
+\contentsline {subsubsection}{Summoning Animals (Q-1)}{76}%
+\contentsline {subsection}{\numberline {20.6}Special Knowledge Spells}{76}%
+\contentsline {subsubsection}{Earth Hammer (S-1)}{76}%
+\contentsline {subsubsection}{Hands of Earth (S-2)}{76}%
+\contentsline {subsubsection}{Strength of Stone (S-3)}{76}%
+\contentsline {subsubsection}{Armour of Earth (S-4)}{76}%
+\contentsline {subsubsection}{Diamond Weapon (S-5)}{76}%
+\contentsline {subsubsection}{Gem Creation (S-6)}{76}%
+\contentsline {subsubsection}{Animal Growth (S-7)}{76}%
+\contentsline {subsubsection}{Enchanting Plants (S-8)}{76}%
+\contentsline {subsubsection}{Binding Animals (S-9)}{76}%
+\contentsline {subsubsection}{Conjuring Earth Elemental (S-10)}{76}%
+\contentsline {subsubsection}{Controlling Earth Elemental (S-11)}{76}%
+\contentsline {subsubsection}{Sinking Doom (S-12)}{77}%
+\contentsline {subsubsection}{Wall of Stone (S-13)}{77}%
+\contentsline {subsubsection}{Wall of Iron (S-14)}{77}%
+\contentsline {subsubsection}{Tunnelling (S-15)}{77}%
+\contentsline {subsubsection}{Trollskin (S-16)}{77}%
+\contentsline {subsubsection}{Smoking Magma (S-17)}{77}%
+\contentsline {subsubsection}{Diamond Javelins (S-18)}{77}%
+\contentsline {subsubsection}{Earth Transformation (S-19)}{77}%
+\contentsline {subsection}{\numberline {20.7}Special Knowledge Rituals}{77}%
+\contentsline {subsubsection}{Binding Earth (R-1)}{77}%
+\contentsline {section}{\numberline {21}The College of Fire Magics (Ver 2.0)}{79}%
+\contentsline {subsubsection}{Traditional colours}{79}%
+\contentsline {subsubsection}{Traditional symbols}{79}%
+\contentsline {subsection}{\numberline {21.1}Restrictions}{79}%
+\contentsline {subsection}{\numberline {21.2}Modifications}{79}%
+\contentsline {subsubsection}{Damage by Burning}{79}%
+\contentsline {subsection}{\numberline {21.3}Talents}{79}%
+\contentsline {subsubsection}{Infravision (T-1)}{79}%
+\contentsline {subsubsection}{Pyrogenisis (T-2)}{79}%
+\contentsline {subsection}{\numberline {21.4}General Knowledge Spells}{79}%
+\contentsline {subsubsection}{Bolt of Fire (G-1)}{79}%
+\contentsline {subsubsection}{Extinguish Fire Spell (G-2)}{79}%
+\contentsline {subsubsection}{Fire Armour (G-3)}{79}%
+\contentsline {subsubsection}{Firelight (G-4)}{79}%
+\contentsline {subsubsection}{Fireproofing (G-5)}{80}%
+\contentsline {subsubsection}{Increase Temperature (G-6)}{80}%
+\contentsline {subsubsection}{Slow Fire (G-7)}{80}%
+\contentsline {subsubsection}{Smoke Creation (G-8)}{80}%
+\contentsline {subsection}{\numberline {21.5}General Knowledge Rituals}{80}%
+\contentsline {subsubsection}{Binding Fire (Q-1)}{80}%
+\contentsline {subsection}{\numberline {21.6}Special Knowledge Spells}{80}%
+\contentsline {subsubsection}{Cleansing Flame Spell (S-1)}{80}%
+\contentsline {subsubsection}{Dragon Flames (S-2)}{80}%
+\contentsline {subsubsection}{Fire Arc (S-3)}{80}%
+\contentsline {subsubsection}{Fireball (S-4)}{80}%
+\contentsline {subsubsection}{Heat Shield (S-5)}{80}%
+\contentsline {subsubsection}{Hellfire (S-6)}{81}%
+\contentsline {subsubsection}{Immolation (S-7)}{81}%
+\contentsline {subsubsection}{Malignant Flames (S-8)}{81}%
+\contentsline {subsubsection}{Pyrotechnics (S-9)}{81}%
+\contentsline {subsubsection}{Speak to Fire Creatures (S-10)}{81}%
+\contentsline {subsubsection}{Summoning Salamander (S-11)}{81}%
+\contentsline {subsubsection}{Weapon of Flames (S-12)}{81}%
+\contentsline {subsubsection}{Wall of Fire (S-13)}{81}%
+\contentsline {subsubsection}{Wildfires (S-14)}{81}%
+\contentsline {subsection}{\numberline {21.7}Special Knowledge Rituals}{81}%
+\contentsline {subsubsection}{Create Drought (R-1)}{81}%
+\contentsline {subsubsection}{Flame Sight (R-2)}{81}%
+\contentsline {subsubsection}{Ritual of Summoning a Lesser Efreeti (R-3)}{82}%
+\contentsline {subsubsection}{Summon Fire Elemental (R-4)}{82}%
+\contentsline {subsection}{\numberline {21.8}Table: Some useful temperatures}{82}%
+\contentsline {section}{\numberline {22}The College of Ice Magics (Ver 1.5)}{83}%
+\contentsline {subsubsection}{Philosophy}{83}%
+\contentsline {subsubsection}{Traditional Colours}{83}%
+\contentsline {subsubsection}{Notes}{83}%
+\contentsline {subsection}{\numberline {22.1}Restrictions}{83}%
+\contentsline {subsection}{\numberline {22.2}Base Chance Modifiers}{83}%
+\contentsline {subsection}{\numberline {22.3}Talents}{83}%
+\contentsline {subsubsection}{Cold Affinity (T-1)}{83}%
+\contentsline {subsubsection}{Endure Hardship (T-2)}{83}%
+\contentsline {subsection}{\numberline {22.4}General Knowledge Spells}{83}%
+\contentsline {subsubsection}{Extinguish Fires (G-1)}{83}%
+\contentsline {subsubsection}{Freeze (G-2)}{83}%
+\contentsline {subsubsection}{Ice Creation (G-3)}{83}%
+\contentsline {subsubsection}{Ice Traversal (G-4)}{83}%
+\contentsline {subsubsection}{Refrigeration (G-5)}{83}%
+\contentsline {subsubsection}{Resist Cold (G-6)}{83}%
+\contentsline {subsubsection}{Snow Shovel (G-7)}{83}%
+\contentsline {subsubsection}{Water to Ice (G-8)}{84}%
+\contentsline {subsection}{\numberline {22.5}General Knowledge Rituals}{84}%
+\contentsline {subsubsection}{Create Igloo (Q-1)}{84}%
+\contentsline {subsubsection}{Bind Ice and Snow (Q-2)}{84}%
+\contentsline {subsection}{\numberline {22.6}Special Knowledge Spells}{84}%
+\contentsline {subsubsection}{Armour of Ice (S-1)}{84}%
+\contentsline {subsubsection}{Icy Transformation (S-2)}{84}%
+\contentsline {subsubsection}{Freezing Wind (S-3)}{84}%
+\contentsline {subsubsection}{Frostbite (S-4)}{84}%
+\contentsline {subsubsection}{Frozen Doom (S-5)}{84}%
+\contentsline {subsubsection}{Hibernation (S-6)}{84}%
+\contentsline {subsubsection}{Ice Bolt (S-7)}{84}%
+\contentsline {subsubsection}{Ice Construction (S-8)}{84}%
+\contentsline {subsubsection}{Iceberg (S-9)}{84}%
+\contentsline {subsubsection}{Ice Pack (S-10)}{85}%
+\contentsline {subsubsection}{Ice Projectiles (S-11)}{85}%
+\contentsline {subsubsection}{Ray of Cold (S-12)}{85}%
+\contentsline {subsubsection}{Snowball (S-13)}{85}%
+\contentsline {subsubsection}{Snowfall (S-14)}{85}%
+\contentsline {subsubsection}{Wall of Ice (S-15)}{85}%
+\contentsline {subsubsection}{Weapon of Cold (S-16)}{85}%
+\contentsline {subsubsection}{Winter Garden (S-17)}{85}%
+\contentsline {subsection}{\numberline {22.7}Special Knowledge Rituals}{85}%
+\contentsline {subsubsection}{Snow Simulacrum (R-1)}{85}%
+\contentsline {subsubsection}{Summoning and Controlling Ice Elemental (R-2)}{85}%
+\contentsline {subsubsection}{Ritual of Winter (R-3)}{86}%
+\contentsline {subsection}{\numberline {22.8}The Element of Ice}{86}%
+\contentsline {subsubsection}{Ice}{86}%
+\contentsline {subsubsection}{Breaking through Ice}{86}%
+\contentsline {subsubsection}{Travel on Ice}{86}%
+\contentsline {subsubsection}{Travel on or through Snow}{86}%
+\contentsline {section}{\numberline {23}The College of Water Magics (Ver 1.3)}{87}%
+\contentsline {subsubsection}{Traditional Colours}{87}%
+\contentsline {subsubsection}{Traditional Symbols}{87}%
+\contentsline {subsection}{\numberline {23.1}Restrictions}{87}%
+\contentsline {subsection}{\numberline {23.2}Base Chance Modifiers}{87}%
+\contentsline {subsubsection}{Notes}{87}%
+\contentsline {subsection}{\numberline {23.3}Talents}{87}%
+\contentsline {subsubsection}{Predict Weather (T-1)}{87}%
+\contentsline {subsubsection}{Dowsing (T-2)}{87}%
+\contentsline {subsubsection}{Aquatic Affinity (T-3)}{87}%
+\contentsline {subsection}{\numberline {23.4}General Knowledge Spells}{87}%
+\contentsline {subsubsection}{Buoyancy (G-1)}{87}%
+\contentsline {subsubsection}{Cold Resistance (G-2)}{87}%
+\contentsline {subsubsection}{Create Fog (G-3)}{87}%
+\contentsline {subsubsection}{Mage Current (G-4)}{87}%
+\contentsline {subsubsection}{Navigation (G-5)}{87}%
+\contentsline {subsubsection}{Rehydration (G-6)}{87}%
+\contentsline {subsubsection}{Saturated Earth (G-7)}{88}%
+\contentsline {subsubsection}{Ship Strength (G-8)}{88}%
+\contentsline {subsubsection}{Speak to Aquatic Life (G-9)}{88}%
+\contentsline {subsubsection}{Summon Aquatic Life (G-10)}{88}%
+\contentsline {subsubsection}{Water Breathing (G-11)}{88}%
+\contentsline {subsubsection}{Water Creation (G-12)}{88}%
+\contentsline {subsubsection}{Waterproofing (G-13)}{88}%
+\contentsline {subsubsection}{Wave Control (G-14)}{88}%
+\contentsline {subsection}{\numberline {23.5}General Knowledge Rituals}{88}%
+\contentsline {subsubsection}{Binding Water (Q-1)}{88}%
+\contentsline {subsection}{\numberline {23.6}Special Knowledge Spells}{88}%
+\contentsline {subsubsection}{Control Aquatic Life (S-1)}{88}%
+\contentsline {subsubsection}{Dehydration (S-2)}{88}%
+\contentsline {subsubsection}{Flash Flood (S-3)}{88}%
+\contentsline {subsubsection}{Geyser (S-4)}{88}%
+\contentsline {subsubsection}{Liquid Purification (S-5)}{89}%
+\contentsline {subsubsection}{Liquid Transmutation (S-6)}{89}%
+\contentsline {subsubsection}{Maelstrom (S-7)}{89}%
+\contentsline {subsubsection}{Rainstorm (S-8)}{89}%
+\contentsline {subsubsection}{Storm Calling (S-9)}{89}%
+\contentsline {subsubsection}{Walk on Water (S-10)}{89}%
+\contentsline {subsubsection}{Waters of Healing (S-11)}{89}%
+\contentsline {subsubsection}{Waters of Strength (S-12)}{89}%
+\contentsline {subsubsection}{Waters of Vision (S-13)}{89}%
+\contentsline {subsubsection}{Waterspout (S-14)}{89}%
+\contentsline {subsubsection}{Wave Riding (S-15)}{89}%
+\contentsline {subsection}{\numberline {23.7}Special Knowledge Rituals}{89}%
+\contentsline {subsubsection}{Summoning and Binding Water Elemental (R-1)}{89}%
+\contentsline {section}{\numberline {24}The College of Greater Summonings (Ver 1.0)}{91}%
+\contentsline {subsection}{\numberline {24.1}Restrictions}{91}%
+\contentsline {subsection}{\numberline {24.2}Base Chance Modifiers}{91}%
+\contentsline {subsection}{\numberline {24.3}Talents}{91}%
+\contentsline {subsection}{\numberline {24.4}General Knowledge Spells}{91}%
+\contentsline {subsection}{\numberline {24.5}General Knowledge Rituals}{91}%
+\contentsline {subsubsection}{Cleansing (Q-1)}{92}%
+\contentsline {subsubsection}{Summoning Succubi (Q-2)}{92}%
+\contentsline {subsubsection}{Summoning Incubi (Q-3)}{92}%
+\contentsline {subsubsection}{Summoning Heroes (Q-4)}{92}%
+\contentsline {subsubsection}{True Speaking (Q-5)}{92}%
+\contentsline {subsubsection}{Binding (Q-6)}{92}%
+\contentsline {subsection}{\numberline {24.6}Special Knowledge Spells}{92}%
+\contentsline {subsection}{\numberline {24.7}Special Knowledge Rituals}{92}%
+\contentsline {subsubsection}{Summoning Demonic Dukes (R-1)}{93}%
+\contentsline {subsubsection}{Summoning Demonic Princes (R-2)}{93}%
+\contentsline {subsubsection}{Summoning Demonic Presidents (R-3)}{93}%
+\contentsline {subsubsection}{Summoning Demonic Earls (R-4)}{93}%
+\contentsline {subsubsection}{Summoning Demonic Marquis (R-5)}{93}%
+\contentsline {subsubsection}{Summoning Demonic Kings (R-6)}{93}%
+\contentsline {subsection}{\numberline {24.8}Additional Notes}{93}%
+\contentsline {subsubsection}{Hexagram}{93}%
+\contentsline {subsubsection}{Counterspells}{93}%
+\contentsline {subsubsection}{Knowing the past, present or future}{93}%
+\contentsline {section}{\numberline {25}The College of Necromantic Conjurations (Ver 1.1)}{95}%
+\contentsline {subsubsection}{Traditional Colours}{95}%
+\contentsline {subsubsection}{Traditional Symbols}{95}%
+\contentsline {subsection}{\numberline {25.1}Restrictions}{95}%
+\contentsline {subsection}{\numberline {25.2}Base Chance Modifiers}{95}%
+\contentsline {subsubsection}{Control Limitations}{95}%
+\contentsline {subsection}{\numberline {25.3}Talents}{95}%
+\contentsline {subsubsection}{Ask the Dead (T-1)}{95}%
+\contentsline {subsubsection}{Death Sense (T-2)}{95}%
+\contentsline {subsubsection}{Necrogeny (T-3)}{95}%
+\contentsline {subsection}{\numberline {25.4}General Knowledge Spells}{95}%
+\contentsline {subsubsection}{Animating Bodily Parts (G-1)}{95}%
+\contentsline {subsubsection}{Binding Lesser Undead (G-2)}{95}%
+\contentsline {subsubsection}{Conjuring Darkness (G-3)}{95}%
+\contentsline {subsubsection}{Detecting Undead (G-4)}{95}%
+\contentsline {subsubsection}{Fear (G-5)}{96}%
+\contentsline {subsubsection}{Noxious Vapours (G-6)}{96}%
+\contentsline {subsubsection}{Putrescence (G-7)}{96}%
+\contentsline {subsubsection}{Putrid Wound (G-8)}{96}%
+\contentsline {subsubsection}{Rigor Mortis (G-9)}{96}%
+\contentsline {subsubsection}{Spectral Hand (G-10)}{96}%
+\contentsline {subsubsection}{Warping (G-11)}{96}%
+\contentsline {subsection}{\numberline {25.5}General Knowledge Rituals}{96}%
+\contentsline {subsubsection}{Converse with the Dead (Q-1)}{96}%
+\contentsline {subsubsection}{Summoning Lesser Undead (Q-2)}{96}%
+\contentsline {subsection}{\numberline {25.6}Special Knowledge Spells}{96}%
+\contentsline {subsubsection}{Agony (S-1)}{96}%
+\contentsline {subsubsection}{Animation of the Dead (S-2)}{96}%
+\contentsline {subsubsection}{Binding Greater Undead (S-3)}{96}%
+\contentsline {subsubsection}{Bone Construction (S-4)}{97}%
+\contentsline {subsubsection}{Dark Vision (S-5)}{97}%
+\contentsline {subsubsection}{Hand of Death (S-6)}{97}%
+\contentsline {subsubsection}{Life Draining (S-7)}{97}%
+\contentsline {subsubsection}{Mass Fear (S-8)}{97}%
+\contentsline {subsubsection}{Necrosis (S-9)}{97}%
+\contentsline {subsubsection}{Petit Mort (S-10)}{97}%
+\contentsline {subsubsection}{Scarring Terrain (S-11)}{97}%
+\contentsline {subsubsection}{Spectral Warrior (S-12)}{97}%
+\contentsline {subsubsection}{Spectral Weapon (S-13)}{97}%
+\contentsline {subsubsection}{Stream of Corruption (S-14)}{97}%
+\contentsline {subsubsection}{Wall of Bones (S-15)}{97}%
+\contentsline {subsubsection}{Wraithcloak (S-16)}{98}%
+\contentsline {subsection}{\numberline {25.7}Special Knowledge Rituals}{98}%
+\contentsline {subsubsection}{Becoming Undead (R-1)}{98}%
+\contentsline {subsubsection}{Life Prolonging (R-2)}{98}%
+\contentsline {subsubsection}{Permanency (R-3)}{98}%
+\contentsline {subsubsection}{Shaping Flesh Golems (R-4)}{98}%
+\contentsline {subsubsection}{Summoning Greater Undead (R-5)}{98}%
+\contentsline {section}{\numberline {26}The College of Rune Magics (Ver 1.1)}{99}%
+\contentsline {subsection}{\numberline {26.1}Restrictions}{99}%
+\contentsline {subsection}{\numberline {26.2}Runewards and Runesticks}{99}%
+\contentsline {subsection}{\numberline {26.3}Base Chance Modifiers}{99}%
+\contentsline {subsection}{\numberline {26.4}Talents}{99}%
+\contentsline {subsubsection}{Read Dead Languages (T-1)}{99}%
+\contentsline {subsubsection}{Decipher Codes and Ciphers (T-2)}{99}%
+\contentsline {subsubsection}{Read Runesticks (T-3)}{100}%
+\contentsline {subsubsection}{Create Codes and Ciphers (T-4)}{100}%
+\contentsline {subsubsection}{Summon Wand (T-5)}{100}%
+\contentsline {subsection}{\numberline {26.5}General Knowledge Spells}{100}%
+\contentsline {subsubsection}{Learn Rune (G-1)}{100}%
+\contentsline {subsubsection}{Darkness (G-2)}{100}%
+\contentsline {subsubsection}{Light (G-3)}{100}%
+\contentsline {subsubsection}{Pyrogenesis (G-4)}{100}%
+\contentsline {subsubsection}{Curse (G-5)}{100}%
+\contentsline {subsubsection}{Illusion (G-6)}{100}%
+\contentsline {subsubsection}{Control Entity (G-7)}{100}%
+\contentsline {subsubsection}{Purification (G-8)}{101}%
+\contentsline {subsubsection}{Runelock (G-9)}{101}%
+\contentsline {subsection}{\numberline {26.6}General Knowledge Rituals}{101}%
+\contentsline {subsubsection}{Fashioning Runesticks (Q-1)}{101}%
+\contentsline {subsubsection}{Fashioning Runewand (Q-2)}{101}%
+\contentsline {subsubsection}{Warding with Runesticks (Q-3)}{101}%
+\contentsline {subsubsection}{Healing (Q-4)}{101}%
+\contentsline {subsubsection}{Runes of Sight (Q-5)}{102}%
+\contentsline {subsubsection}{Sending (Q-6)}{102}%
+\contentsline {subsection}{\numberline {26.7}Special Knowledge Spells}{102}%
+\contentsline {subsubsection}{Runewall Spell (S-1)}{102}%
+\contentsline {subsubsection}{Torment (S-2)}{102}%
+\contentsline {subsubsection}{Creating Rune Shield (S-3)}{102}%
+\contentsline {subsubsection}{Visitation (S-4)}{102}%
+\contentsline {subsubsection}{Truth (S-5)}{102}%
+\contentsline {subsubsection}{Banishment (S-6)}{102}%
+\contentsline {subsubsection}{Smite (S-7)}{102}%
+\contentsline {subsubsection}{Creating Runeweapon (S-8)}{102}%
+\contentsline {subsection}{\numberline {26.8}Special Knowledge Rituals}{103}%
+\contentsline {subsubsection}{Casting the Runes (R-1)}{103}%
+\contentsline {subsubsection}{Creeping Doom (R-2)}{103}%
+\contentsline {subsubsection}{Creating Rune Portal (R-3)}{103}%
+\contentsline {subsubsection}{Binding Elements (R-4)}{103}%
+\contentsline {subsection}{\numberline {26.9}Runewand Table}{103}%
+\contentsline {subsection}{\numberline {26.10}Runestick Chart}{103}%
+\contentsline {section}{\numberline {27}The College of Witchcraft (Ver 1.1)}{105}%
+\contentsline {subsubsection}{Traditional Colours}{105}%
+\contentsline {subsubsection}{Traditional Symbols}{105}%
+\contentsline {subsection}{\numberline {27.1}Restrictions}{105}%
+\contentsline {subsection}{\numberline {27.2}Base Chance Modifiers}{105}%
+\contentsline {subsection}{\numberline {27.3}Talents}{105}%
+\contentsline {subsubsection}{Farsensing (T-1)}{105}%
+\contentsline {subsubsection}{Special Alchemy (T-2)}{105}%
+\contentsline {subsubsection}{Witchsight (T-3)}{106}%
+\contentsline {subsection}{\numberline {27.4}General Knowledge Spells}{106}%
+\contentsline {subsubsection}{Damnum Minatum (G-1)}{106}%
+\contentsline {subsubsection}{Darkness (G-2)}{106}%
+\contentsline {subsubsection}{Decay (G-3)}{106}%
+\contentsline {subsubsection}{Fear (G-4)}{106}%
+\contentsline {subsubsection}{Harming Entity (G-5)}{106}%
+\contentsline {subsubsection}{Hypnotism (G-6)}{106}%
+\contentsline {subsubsection}{Igniting Flammables (G-7)}{106}%
+\contentsline {subsubsection}{Mind Cloak (G-8)}{106}%
+\contentsline {subsubsection}{Protection Against Were-Creatures (G-9)}{107}%
+\contentsline {subsubsection}{Storm Calling (G-10)}{107}%
+\contentsline {subsubsection}{Summoning Enchanted Creatures (G-11)}{107}%
+\contentsline {subsubsection}{Walking Unseen (G-12)}{107}%
+\contentsline {subsubsection}{Wind Whistle (G-13)}{107}%
+\contentsline {subsection}{\numberline {27.5}General Knowledge Rituals}{107}%
+\contentsline {subsubsection}{Finding Familiar (Q-1)}{107}%
+\contentsline {subsubsection}{Tarot Reading (Q-2)}{107}%
+\contentsline {subsection}{\numberline {27.6}Special Knowledge Spells}{108}%
+\contentsline {subsubsection}{Blessing Crops (S-1)}{108}%
+\contentsline {subsubsection}{Blessing/Curse on Unborn Child (S-2)}{108}%
+\contentsline {subsubsection}{Blessing Livestock (S-3)}{108}%
+\contentsline {subsubsection}{Blighting Crops (S-4)}{108}%
+\contentsline {subsubsection}{Cat Vision (S-5)}{108}%
+\contentsline {subsubsection}{Controlling Animals (S-6)}{108}%
+\contentsline {subsubsection}{Converse With Animals (S-7)}{108}%
+\contentsline {subsubsection}{Creating Plague (S-8)}{108}%
+\contentsline {subsubsection}{Creating Restorative (S-9)}{108}%
+\contentsline {subsubsection}{Damnum Magnatum (S-10)}{108}%
+\contentsline {subsubsection}{Earth Tremor (S-11)}{109}%
+\contentsline {subsubsection}{Evil Eye (S-12)}{109}%
+\contentsline {subsubsection}{Hellfire (S-13)}{109}%
+\contentsline {subsubsection}{Instilling Flight (S-14)}{109}%
+\contentsline {subsubsection}{Mass Fear (S-15)}{109}%
+\contentsline {subsubsection}{Pestilence (S-16)}{109}%
+\contentsline {subsubsection}{Skin Change (S-17)}{109}%
+\contentsline {subsubsection}{Virility (S-18)}{109}%
+\contentsline {subsubsection}{Wall of Thorns (S-19)}{109}%
+\contentsline {subsection}{\numberline {27.7}Special Knowledge Rituals}{109}%
+\contentsline {subsubsection}{Controlling Weather (R-1)}{109}%
+\contentsline {subsubsection}{Creeping Doom (R-2)}{109}%
+\contentsline {subsubsection}{Dead Man's Candle (R-3)}{110}%
+\contentsline {subsubsection}{Hand of Glory (R-4)}{110}%
+\contentsline {subsubsection}{Summoning Animals (R-5)}{110}%
+\contentsline {section}{\numberline {28}Skills}{111}%
+\contentsline {subsection}{\numberline {28.1}Acquiring and Using Skills}{111}%
+\contentsline {subsubsection}{Any skill may be acquired at Rank 0 at a variable cost of Experience Points and 8 weeks of game time.}{111}%
+\contentsline {subsubsection}{The method by which a character learns a skill affects the Experience Point cost to acquire that skill or to increase the character's Rank.}{111}%
+\contentsline {subsubsection}{A character may attempt to employ a non-magical skill any number of times during a day.}{111}%
+\contentsline {subsubsection}{The use of a non-magical skill is rarely automatically successful.}{111}%
+\contentsline {subsubsection}{Very few of the abilities associated with the various skills are quasi-magical.}{111}%
+\contentsline {subsubsection}{Expert Knowledge}{111}%
+\contentsline {subsubsection}{Supervision of subordinates}{111}%
+\contentsline {section}{\numberline {29}Adventuring Skills (Ver 1.0)}{112}%
+\contentsline {subsection}{\numberline {29.1}Climbing}{112}%
+\contentsline {subsection}{\numberline {29.2}Horsemanship}{112}%
+\contentsline {subsection}{\numberline {29.3}Flying}{112}%
+\contentsline {subsection}{\numberline {29.4}Knowledge (area)}{112}%
+\contentsline {subsection}{\numberline {29.5}Orienteering}{112}%
+\contentsline {subsubsection}{Conversion}{112}%
+\contentsline {subsection}{\numberline {29.6}Stealth}{112}%
+\contentsline {subsection}{\numberline {29.7}Swimming}{112}%
+\contentsline {subsubsection}{Introduction}{112}%
+\contentsline {subsubsection}{Base chance}{113}%
+\contentsline {subsubsection}{Breath holding}{113}%
+\contentsline {subsubsection}{Drowning}{113}%
+\contentsline {subsubsection}{Sight and Communication}{113}%
+\contentsline {subsubsection}{Movement rates}{113}%
+\contentsline {subsubsection}{Benefits of Rank}{113}%
+\contentsline {section}{\numberline {30}Alchemist (Ver 1.0)}{114}%
+\contentsline {subsection}{\numberline {30.1}Restrictions}{114}%
+\contentsline {subsection}{\numberline {30.2}Benefits}{114}%
+\contentsline {subsubsection}{An alchemist gains the ability to analyse chemicals at Rank 0.}{114}%
+\contentsline {subsubsection}{An alchemist can injure themselves while working with dangerous chemicals.}{114}%
+\contentsline {subsubsection}{An alchemist can mix standard chemicals beginning at Rank 3, and may add one additional ability to their repertoire at Ranks 5, 7 and 9.}{114}%
+\contentsline {subsubsection}{The ability to mix standard chemicals allows the alchemist to produce mixtures which can prove useful on expeditions.}{114}%
+\contentsline {subsubsection}{Medicines and antidotes are used to cure a being suffering from either disease, fever or poison.}{114}%
+\contentsline {subsubsection}{Poisons cause damage when introduced into the blood stream of a being.}{114}%
+\contentsline {subsubsection}{Potions are created by an alchemist with the aid of either an Adept or a Healer.}{114}%
+\contentsline {subsection}{\numberline {30.3}Costs}{115}%
+\contentsline {subsubsection}{An alchemist will be able to better perform their skill when using the proper equipment or when working in a laboratory.}{115}%
+\contentsline {subsubsection}{An alchemist must purchase the components necessary to manufacture each product.}{115}%
+\contentsline {section}{\numberline {31}Armourer (Ver 1.1)}{116}%
+\contentsline {subsection}{\numberline {31.1}Restrictions}{116}%
+\contentsline {subsection}{\numberline {31.2}Benefits}{116}%
+\contentsline {subsubsection}{An armourer acquires the ability to make one category of armour every two ranks.}{116}%
+\contentsline {subsubsection}{An Armourer can make increasingly effective armour as their rank increases.}{116}%
+\contentsline {subsubsection}{The time and cost required for an Armourer to construct a suit of armour is dependent on the effective Rank used and the category of armour.}{116}%
+\contentsline {subsubsection}{Fixing and Modifying Armour}{116}%
+\contentsline {subsubsection}{An Armourer is treated as a Merchant of their armourer rank when attempting to buy or value armour from categories with which they are familiar.}{116}%
+\contentsline {subsection}{\numberline {31.3}Costs}{116}%
+\contentsline {subsubsection}{An Armourer can only perform their skill in a properly maintained workshop.}{116}%
+\contentsline {section}{\numberline {32}Artisan (Ver 2.0)}{117}%
+\contentsline {subsection}{\numberline {32.1}Artisan Skills}{117}%
+\contentsline {subsection}{\numberline {32.2}Benefits of Rank}{117}%
+\contentsline {subsection}{\numberline {32.3}Time \& Cost}{117}%
+\contentsline {subsubsection}{Exceptions}{117}%
+\contentsline {subsection}{\numberline {32.4}Artisan as Merchant}{117}%
+\contentsline {subsection}{\numberline {32.5}Requirements}{118}%
+\contentsline {section}{\numberline {33}Assassin (Ver 1.0)}{119}%
+\contentsline {subsection}{\numberline {33.1}Restrictions}{119}%
+\contentsline {subsubsection}{An assassin must be able to use the sap or garotte at a minimum of Rank 1 before advancing past Rank 2.}{119}%
+\contentsline {subsection}{\numberline {33.2}Benefits}{119}%
+\contentsline {subsubsection}{An assassin increases their chance of causing a Grievous injury as their Rank increases.}{119}%
+\contentsline {subsubsection}{An assassin may gain information from a victim through torture.}{119}%
+\contentsline {subsubsection}{An assassin is trained to improve their memory.}{119}%
+\contentsline {subsubsection}{An assassin is able to buy poisons, distilled venoms and acids at cost (i.e.\ no mark-up) from an alchemist.}{119}%
+\contentsline {subsubsection}{An assassin causes their target increased damage when attacking through a rear hexside in Melee Combat.}{119}%
+\contentsline {subsubsection}{An assassin increases their chance of knocking out a target.}{119}%
+\contentsline {subsubsection}{An assassin increases their chance of performing any action involving stealth.}{119}%
+\contentsline {section}{\numberline {34}Astrologer (Ver 1.0)}{120}%
+\contentsline {subsection}{\numberline {34.1}Restrictions}{120}%
+\contentsline {subsubsection}{An astrologer may not make a general prediction or ask a specific question concerning only themself.}{120}%
+\contentsline {subsubsection}{An astrologer may only try once to answer a particular question or to forecast the outcome of an event.}{120}%
+\contentsline {subsubsection}{The results of a reading will affect the pertinent course of events.}{120}%
+\contentsline {subsection}{\numberline {34.2}Benefits}{120}%
+\contentsline {subsubsection}{An astrologer's Rank determines how many beings they can directly affect with a single prediction.}{120}%
+\contentsline {subsubsection}{An astrologer may make (and possibly modify) a general prediction during a reading.}{120}%
+\contentsline {subsubsection}{An astrologer may seek to answer up to Rank specific questions per month.}{120}%
+\contentsline {subsubsection}{An astrologer can determine the aspect of a being after observing them.}{120}%
+\contentsline {subsubsection}{An astrologer expends Fatigue points when practicing their art.}{120}%
+\contentsline {section}{\numberline {35}Beast Master (Ver 1.0)}{121}%
+\contentsline {subsection}{\numberline {35.1}Restrictions}{121}%
+\contentsline {subsubsection}{A breast master must have atleast 15 Willpower.}{121}%
+\contentsline {subsubsection}{A beast master may only train animals for their own personal use until they achieve Rank 5. They may domesticate animals at any Rank.}{121}%
+\contentsline {subsection}{\numberline {35.2}Benefits}{121}%
+\contentsline {subsubsection}{A beast master acquires the ability to train one type of animal and/or monster at Ranks 0, 5 and 10.}{121}%
+\contentsline {subsubsection}{A beast master must spend (12 - Rank) months to train an animal or monster, or a like number of weeks to domesticate one.}{121}%
+\contentsline {subsubsection}{A trained animal or monster must make a loyalty check whenever it recognises that its master is endangering it, or whenever its master commands an action that runs counter to its instincts.}{121}%
+\contentsline {subsubsection}{A domesticated creature must make a loyalty check if the circumstances described above arise.}{121}%
+\contentsline {subsubsection}{A beast master who intimidates their animals adds one to their Rank when calculating training or domestication time, but the GM adds 10 to any loyalty check dice-roll for one of their animals.}{121}%
+\contentsline {subsubsection}{A beast master may train or domesticate as many creatures as their Rank at one time.}{121}%
+\contentsline {subsection}{\numberline {35.3}Cost}{121}%
+\contentsline {subsubsection}{A beast master must pay 100 Silver Pennies per creature trained and 25 Silver Pennies per creature domesticated.}{121}%
+\contentsline {section}{\numberline {36}Courtier (Ver 2.0)}{122}%
+\contentsline {subsection}{\numberline {36.1}Restrictions}{122}%
+\contentsline {subsection}{\numberline {36.2}Benefits}{122}%
+\contentsline {subsection}{\numberline {36.3}Seduction}{122}%
+\contentsline {section}{\numberline {37}Healer (Ver 1.12)}{123}%
+\contentsline {subsubsection}{Field Operations}{123}%
+\contentsline {subsection}{\numberline {37.1}Benefits}{123}%
+\contentsline {subsection}{\numberline {37.2}Restrictions}{123}%
+\contentsline {subsection}{\numberline {37.3}Ability Descriptions}{123}%
+\contentsline {subsubsection}{Empathy}{123}%
+\contentsline {subsubsection}{Non-Tactile Empathy}{123}%
+\contentsline {subsubsection}{Cure Infection, Disease, Headaches, Fever and Graft Skin}{123}%
+\contentsline {subsubsection}{Neutralise Poison}{123}%
+\contentsline {subsubsection}{Soothe Pain}{123}%
+\contentsline {subsubsection}{Prolong Life}{123}%
+\contentsline {subsubsection}{Heal Endurance and Transfer Fatigue}{123}%
+\contentsline {subsubsection}{Repair Damage}{123}%
+\contentsline {subsubsection}{Preserve Dead}{123}%
+\contentsline {subsubsection}{Resurrection}{123}%
+\contentsline {subsubsection}{Regeneration}{124}%
+\contentsline {subsection}{\numberline {37.4}Potion Costs}{124}%
+\contentsline {section}{\numberline {38}Herbalist (Ver 1.0)}{125}%
+\contentsline {subsection}{\numberline {38.1}Benefits}{125}%
+\contentsline {subsubsection}{A herbalist will learn how to locate and identify herbs and spices growing in any terrain}{125}%
+\contentsline {subsubsection}{A herbalist may establish a garden where common and uncommon herbs and spices are grown}{125}%
+\contentsline {subsubsection}{A herbalist will learn how to preserve herbs and spices and how to prepare them for maximum efficacy}{125}%
+\contentsline {subsubsection}{A herbalist, should they choose to take the artisan cooking skill, gains a reduction of 25\% to their experience for ranking that artisan skill}{125}%
+\contentsline {subsubsection}{A herbalist will be able to prepare herbal mixtures, and salves that will heal, or enhance the normal healing processes}{125}%
+\contentsline {subsubsection}{A herbalist may prepare herbal mixtures that alter the normal rhythms of a sentient being's body}{126}%
+\contentsline {subsubsection}{A herbalist may prepare perfumes that will attract or repel animals or sentients}{126}%
+\contentsline {subsubsection}{A herbalist may prepare toxic mixtures of herbs that may harm and ultimately kill animals and sentients that ingest them}{126}%
+\contentsline {subsubsection}{A herbalist can prepare herbal mixtures that can free the mind from the body}{126}%
+\contentsline {section}{\numberline {39}Languages (Ver 2.0)}{127}%
+\contentsline {subsection}{\numberline {39.1}Restrictions}{127}%
+\contentsline {subsection}{\numberline {39.2}Structure}{127}%
+\contentsline {subsection}{\numberline {39.3}Benefits}{127}%
+\contentsline {subsection}{\numberline {39.4}Literacy}{127}%
+\contentsline {subsubsection}{Phonetic Reading \& Writing}{127}%
+\contentsline {subsubsection}{Table of known Alusian alphabets}{127}%
+\contentsline {subsubsection}{Orthographic languages}{127}%
+\contentsline {subsection}{\numberline {39.5}Special rules}{127}%
+\contentsline {subsection}{\numberline {39.6}Language Families}{127}%
+\contentsline {subsection}{\numberline {39.7}Language groups}{127}%
+\contentsline {section}{\numberline {40}Mechanician (Ver 2.1)}{129}%
+\contentsline {subsection}{\numberline {40.1}Restrictions}{129}%
+\contentsline {subsection}{\numberline {40.2}Benefits}{129}%
+\contentsline {subsection}{\numberline {40.3}Abilities}{129}%
+\contentsline {subsubsection}{The abilities available are:}{129}%
+\contentsline {subsection}{\numberline {40.4}Complex Locks}{129}%
+\contentsline {subsection}{\numberline {40.5}Trap Construction}{129}%
+\contentsline {subsection}{\numberline {40.6}Spell Containment}{130}%
+\contentsline {section}{\numberline {41}Merchant (Ver 1.0)}{131}%
+\contentsline {subsection}{\numberline {41.1}Restrictions}{131}%
+\contentsline {subsection}{\numberline {41.2}Benefits}{131}%
+\contentsline {subsubsection}{The merchant's ability to buy and sell a particular item is dependent upon its type.}{131}%
+\contentsline {subsubsection}{A merchant can purchase items at a cost cheaper than the asking price.}{131}%
+\contentsline {subsubsection}{A merchant may mark up the price of an uncommon or rare item.}{131}%
+\contentsline {subsubsection}{A merchant can assay an item to determine its exact worth.}{131}%
+\contentsline {subsubsection}{A merchant can specialise in a specific category of item assayal every time they achieve a positive Rank divisible by three.}{131}%
+\contentsline {section}{\numberline {42}Military Scientist (Ver 2.0)}{132}%
+\contentsline {subsection}{\numberline {42.1}Restrictions}{132}%
+\contentsline {subsection}{\numberline {42.2}Specialised Fields}{132}%
+\contentsline {subsection}{\numberline {42.3}Benefits}{132}%
+\contentsline {subsubsection}{Command}{132}%
+\contentsline {subsubsection}{Personal guard}{132}%
+\contentsline {subsubsection}{Rally troops}{132}%
+\contentsline {subsubsection}{Raise morale}{132}%
+\contentsline {subsubsection}{Perceive tactics}{132}%
+\contentsline {subsubsection}{Initiative}{132}%
+\contentsline {subsubsection}{Time out}{132}%
+\contentsline {subsubsection}{Logistics}{132}%
+\contentsline {section}{\numberline {43}Navigator (Ver 1.1)}{133}%
+\contentsline {subsection}{\numberline {43.1}Benefits}{133}%
+\contentsline {subsubsection}{A navigator can determine all compass directions if they can view the stars.}{133}%
+\contentsline {subsubsection}{A navigator may always determine the compass direction of a landmark relative to their position.}{133}%
+\contentsline {subsubsection}{A navigator can read a map if they can relate their physical surroundings to the symbols on that map.}{133}%
+\contentsline {subsubsection}{Map Creating}{133}%
+\contentsline {subsubsection}{A navigator can competently pilot a ship of up to (25 + 25 $\times $\ Rank) feet in length.}{133}%
+\contentsline {subsubsection}{A navigator can consistently maintain a ship's speed at (50 + 5 $\times $\ Rank)\% of its optimum speed.}{133}%
+\contentsline {subsubsection}{A navigator can predict weather at sea with (PC + 5 $\times $\ Rank)\% chance of accuracy.}{133}%
+\contentsline {subsubsection}{A navigator can sometimes recognise non-magical danger at sea before subjecting the ship to it.}{133}%
+\contentsline {section}{\numberline {44}Philosopher (Ver 2.0)}{134}%
+\contentsline {subsection}{\numberline {44.1}Library}{134}%
+\contentsline {subsection}{\numberline {44.2}Requirements}{134}%
+\contentsline {subsubsection}{Language restriction}{134}%
+\contentsline {subsubsection}{Books}{134}%
+\contentsline {subsection}{\numberline {44.3}Structure}{134}%
+\contentsline {subsubsection}{Realms}{134}%
+\contentsline {subsubsection}{Fields}{134}%
+\contentsline {subsubsection}{Sub-fields}{134}%
+\contentsline {subsection}{\numberline {44.4}Language benefits}{134}%
+\contentsline {subsection}{\numberline {44.5}Knowledge benefits}{134}%
+\contentsline {subsubsection}{Realms}{134}%
+\contentsline {subsubsection}{Fields \& Sub-fields}{134}%
+\contentsline {subsubsection}{Field restrictions}{134}%
+\contentsline {subsubsection}{Overlaps \& connections}{134}%
+\contentsline {subsection}{\numberline {44.6}Research benefits}{134}%
+\contentsline {subsubsection}{Difficulty}{134}%
+\contentsline {subsubsection}{Answers}{134}%
+\contentsline {subsubsection}{Final result}{134}%
+\contentsline {subsection}{\numberline {44.7}Realms \& Fields}{134}%
+\contentsline {subsubsection}{The Social World}{134}%
+\contentsline {subsubsection}{The Material World}{134}%
+\contentsline {subsubsection}{The Magical World}{134}%
+\contentsline {subsubsection}{The Animal World}{135}%
+\contentsline {subsubsection}{The Plant World}{135}%
+\contentsline {subsection}{\numberline {44.8}Answer Table}{135}%
+\contentsline {section}{\numberline {45}Ranger (Ver 2.1)}{136}%
+\contentsline {subsection}{\numberline {45.1}Benefits}{136}%
+\contentsline {subsubsection}{Primary Environment}{136}%
+\contentsline {subsubsection}{Stealth bonus}{136}%
+\contentsline {subsubsection}{Finding Food}{136}%
+\contentsline {subsubsection}{Camping}{136}%
+\contentsline {subsubsection}{Travelling}{136}%
+\contentsline {subsubsection}{Safety}{136}%
+\contentsline {subsection}{\numberline {45.2}Environments}{136}%
+\contentsline {subsection}{\numberline {45.3}Ranger summary chart}{137}%
+\contentsline {section}{\numberline {46}Spy (Ver 1.1)}{138}%
+\contentsline {subsection}{\numberline {46.1}Restrictions}{138}%
+\contentsline {subsection}{\numberline {46.2}Benefits}{138}%
+\contentsline {subsubsection}{If a character's Rank as a spy is greater then their Rank as a thief, the character expends one-half the necessary Experience Points to acquire or improve the latter skill.}{138}%
+\contentsline {subsubsection}{A spy can pick locks or open safes with the aid of their tools.}{138}%
+\contentsline {subsubsection}{A spy may attempt to detect traps and should the spy succeed, may try to remove them.}{138}%
+\contentsline {subsubsection}{A spy can sometimes detect a secret or hidden aperture.}{138}%
+\contentsline {subsubsection}{A spy can attempt to pick the pocket of another being without being detected.}{138}%
+\contentsline {subsubsection}{A spy will develop a photographic memory as they gain experience.}{138}%
+\contentsline {subsubsection}{A spy increases their chance of performing an action involving stealth by 2\% per Rank.}{138}%
+\contentsline {subsubsection}{A spy may use their photographic memory ability to recall spoken phrases.}{138}%
+\contentsline {section}{\numberline {47}Thief (Ver 1.1)}{139}%
+\contentsline {subsection}{\numberline {47.1}Restrictions}{139}%
+\contentsline {subsection}{\numberline {47.2}Benefits}{139}%
+\contentsline {subsubsection}{If a character's Rank as a thief is greater then their Rank as a spy, the character expends one-half the necessary Experience Points to acquire or improve the latter skill.}{139}%
+\contentsline {subsubsection}{A thief can pick locks or open safes with the aid of tools.}{139}%
+\contentsline {subsubsection}{A thief may attempt to detect traps and should the thief succeed, may try to remove them.}{139}%
+\contentsline {subsubsection}{A thief can sometimes detect a secret or hidden aperture.}{139}%
+\contentsline {subsubsection}{A thief can attempt to pick the pocket of another being without being detected.}{139}%
+\contentsline {subsubsection}{A thief will develop a photographic memory as they gain experience.}{139}%
+\contentsline {subsubsection}{A thief increases their chance to perform an action involving stealth by 1\% per Rank.}{139}%
+\contentsline {subsubsection}{A thief can, as long as they may find a purchase sufficient to bear their weight, climb any structure.}{139}%
+\contentsline {section}{\numberline {48}Troubadour (Ver 2.0)}{140}%
+\contentsline {subsection}{\numberline {48.1}Benefits}{140}%
+\contentsline {subsection}{\numberline {48.2}Bardic Voice}{140}%
+\contentsline {section}{\numberline {49}Warrior (Ver 2.0)}{141}%
+\contentsline {subsection}{\numberline {49.1}Restrictions}{141}%
+\contentsline {subsubsection}{Benefits only apply when the warrior is occupying an enemy's melee zone.}{141}%
+\contentsline {subsubsection}{A warrior may never train in the warrior skill without a training partner of at least equal warrior Rank.}{141}%
+\contentsline {subsubsection}{A warrior requires various minimum weapons skills per Rank.}{141}%
+\contentsline {subsection}{\numberline {49.2}Benefits}{141}%
+\contentsline {subsubsection}{A warrior gains a bonus to defence when facing an opponent wielding a weapon they are familiar with.}{141}%
+\contentsline {subsubsection}{A warrior gains + 1 / Rank to their engaged initiative.}{141}%
+\contentsline {subsubsection}{A warrior has the ability to wield weapons which are similar to other weapons with which they is familiar.}{141}%
+\contentsline {subsubsection}{A warrior gains the ability to Rank weapons without the need for a tutor.}{141}%
+\contentsline {subsubsection}{A warrior's base chance to hit is increased by 1\% + 1\% additional per Rank.}{141}%
+\contentsline {subsubsection}{A warrior becomes an expert in combat equipment.}{141}%
+\contentsline {subsection}{\numberline {49.3}Weapon categories}{141}%
+\contentsline {section}{\numberline {50}Weaponsmith (Ver 1.0)}{142}%
+\contentsline {subsection}{\numberline {50.1}Restrictions}{142}%
+\contentsline {subsubsection}{A weaponsmith's progress in their skill is inhibited by a low Manual Dexterity, and aided by a high Manual Dexterity.}{142}%
+\contentsline {subsection}{\numberline {50.2}Benefits}{142}%
+\contentsline {subsubsection}{A weaponsmith acquires one ability every two Ranks. The character begins with one of the following abilities at Rank 0. All abilities can be performed skillfully.}{142}%
+\contentsline {subsubsection}{A weaponsmith can build increasingly more effective weapons as their Rank increases.}{142}%
+\contentsline {subsubsection}{The time and cost required for a weaponsmith to construct a weapon is dependent on the Rank that is used, and the type of weapon.}{142}%
+\contentsline {subsubsection}{A weaponsmith is treated as a merchant of their weaponsmith Rank when attempting to buy or value weapons which are part of their abilities.}{142}%
+\contentsline {subsection}{\numberline {50.3}Costs}{142}%
+\contentsline {subsubsection}{A weaponsmith, with the exception of some missile weapons, can only perform their skill in a properly maintained workshop.}{142}%
+\contentsline {subsection}{\numberline {50.4}Silvering and Gilding weapons}{142}%
+\contentsline {section}{\numberline {51}Grievous Injury Table}{143}%
+\contentsline {section}{\numberline {52}Fumble Tables}{144}%
+\contentsline {subsection}{\numberline {52.1}Bows and Crossbows only}{144}%
+\contentsline {subsection}{\numberline {52.2}All Other weapons}{144}%
+\contentsline {subsection}{\numberline {52.3}Notes}{144}%
+\contentsline {subsection}{\numberline {52.4}Special cases}{144}%
+\contentsline {subsubsection}{An innately magical weapon}{144}%
+\contentsline {subsubsection}{Unarmed Combat}{144}%
+\contentsline {subsubsection}{Strike Chance over 100}{144}%
+\contentsline {section}{\numberline {53}Backfire Table}{145}%
+\contentsline {section}{\numberline {54}Fright \& Awe Tables}{146}%
+\contentsline {subsection}{\numberline {54.1}Fright Table (Ver 1.0)}{146}%
+\contentsline {subsection}{\numberline {54.2}Awe Table}{146}%
+\contentsline {subsection}{\numberline {54.3}Notes}{146}%
+\contentsline {subsubsection}{Modifiers}{146}%
+\contentsline {subsubsection}{PB Fright Checks}{146}%
+\contentsline {subsubsection}{Familiarity}{146}%
+\contentsline {subsubsection}{Effects of Awe}{146}%
+\contentsline {subsubsection}{Spell Effects}{147}%
+\contentsline {section}{\numberline {55}Experience Point Costs}{148}%
+\contentsline {subsection}{\numberline {55.1}Weapons}{148}%
+\contentsline {subsection}{\numberline {55.2}Skills}{149}%
+\contentsline {subsubsection}{Notes}{149}%
+\contentsline {subsection}{\numberline {55.3}Characteristics}{149}%
+\contentsline {section}{\numberline {56}Weapons, Shields and Armour Charts}{150}%
+\contentsline {subsection}{\numberline {56.1}Weapons}{150}%
+\contentsline {subsection}{\numberline {56.2}Shields}{151}%
+\contentsline {subsection}{\numberline {56.3}Armour Chart with Guild Prices}{151}%
+\contentsline {section}{\numberline {57}Combat Tables}{153}%
+\contentsline {subsection}{\numberline {57.1}Action Summary}{153}%
+\contentsline {subsubsection}{Actions allowed for Engaged figures}{153}%
+\contentsline {subsubsection}{Actions allowed of non-Engaged figures}{153}%
+\contentsline {subsection}{\numberline {57.2}Special Damage Chart}{153}%
+\contentsline {subsection}{\numberline {57.3}Strike Chance Modifiers Summary}{153}%
+\contentsline {subsubsection}{Close Combat Modifiers}{153}%
+\contentsline {subsubsection}{Melee Combat Modifiers}{153}%
+\contentsline {subsubsection}{Ranged Combat Modifiers}{153}%
+\contentsline {subsubsection}{Visibility Condition Modifiers}{153}%
+\contentsline {subsubsection}{Miscellaneous Modifiers}{153}%
+\contentsline {subsection}{\numberline {57.4}Combat Equation Summary}{154}%
+\contentsline {section}{\numberline {58}Miscellaneous Tables}{154}%
+\contentsline {subsection}{\numberline {58.1}Fatigue, Encumbrance and Movement Charts}{154}%
+\contentsline {subsection}{\numberline {58.2}Overland Movement Rate}{154}%

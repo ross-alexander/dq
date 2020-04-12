@@ -1,0 +1,634 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.4;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	98.06.04.05.35.09;	author rossa;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	98.05.11.01.21.21;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.03.30.22.03.04;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	96.01.12.02.23.59;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	95.09.20.15.35.37;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.04.07.05.08.49;	author rale01;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.04.06.04.31.26;	author rale01;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{skill}{Courtier}{2.0}{courtier}
+
+A courtier may be an attendant at and frequenter of courts and
+palaces, or merely a most civilised student of polished and refined
+manners. Courtiers learn to survive in the Machiavellian political
+situation prevalent in most courts and places of high estate, and to
+be obsequious and intimidating by turns. They may learn musical or
+creative skills to enhance their status, and may indulge in
+manipulation and seduction.
+
+\subsection{Restrictions}
+
+A courtier must pay an additional 10\% EP to increase their rank if:
+\begin{Itemize}
+\item Their AG is less than 12;
+\item their PB is less than 15.
+\end{Itemize}
+A courtier pays 10\% less EP to increase their rank if:
+\begin{Itemize}
+\item Their AG is more than 22;
+\item their PB is more than 20.
+\end{Itemize}
+All modifiers are cumulative.
+
+\subsection{Benefits}
+
+A courtier gains 2 abilities at Rank 0, and 1 further ability per
+Rank. All abilities are usually performed at the overall Rank of the
+courtier.  However, a courtier may choose to specialise. If, upon
+gaining a new Rank, the courtier wishes to forego gaining a new
+ability, they may specialise in one of the abilities that they already
+possess.  That ability then operates at (courtier's Rank + 1), maximum
+10. A courtier may specialise more than once with the same ability,
+gaining Rank + 2, Rank + 3, etc. Additional abilities may be gained
+after achieving Rank 10, by the expenditure of 500 Experience Points
+and 2 weeks of training. Individual Base Chances are not provided for
+the various courtier skills; rather there is a generic Base Chance of
+3 \x appropriate characteristic (+ 5 / Rank), modified by the GM to
+reflect the difficulty of the feat being attempted.
+
+The abilities available to a courtier are:
+
+\begin{Description}
+
+\item[Bureaucracy] an understanding of organisations and hierarchies,
+how to get information, which wheels to oil, and which palms to
+grease.
+
+\item[Carousing] the ability to socialise informally with persons of
+all social classes, without being seen as an outsider. Also includes
+the ability to drink considerably less than most observers would
+think.
+
+\item[Dress sense] the knowledge of what to wear, how to wear it, and
+when.  This skill includes dressing formally, seductively, or
+ridiculously as the occasion and culture require. Also includes what
+cosmetics and scents to wear, what accessories, and even when to not
+wear things.
+
+\item[Entertaining] the ability to organise events, ranging from
+intimate parties, to state dinners, grand fetes, and balls. The
+courtier may supervise caterers, and menials, arrange the
+entertainments, and will know whom not to seat next to the Duke.
+
+\item[Etiquette] the knowledge of what to do, how to do it, and
+when. This skill includes courtly graces, correct forms of address,
+and which fork to use for the fish. Etiquette must be learnt
+separately for different cultures.
+
+\item[Formal dance] a good grounding in formal courtly dances,
+particularly suitable for fetes and balls.
+
+\item[Gaming] an understanding of the rules of such recreational
+pursuits as backgammon, chess, go, fox-and-geese, nine-men-morris, and
+tafl. Also various card and dice games.
+
+\item[Hunting \& Hawking] a familiarity with the practice and styles of
+falconry, riding to hounds, and similar courtly sports.
+
+\item[Intimidation] the ability to rule subordinates through terror,
+and knowing character flaws and weaknesses. Also includes a good
+general grounding in methods of personal manipulation, such as
+black-mail.
+
+\item[Oratory] presenting a point of view or a set of information in a
+formal and forceful manner, to an audience. Includes rhetoric and
+declamation, and also the ability to handle interjection, and
+questioning.
+
+\item[Play an instrument] this ability may be taken several times with
+different instruments. A Singer is one who has Play Instrument
+(Voice). A courtier can usually play similar instruments to the ones
+they have chosen at (Rank / 2), and will tend to know mostly formal,
+structured music.
+
+\item[Poetry] creating poetry, often of formal and highly complex
+structure.
+
+\item[Seduction] (see below).
+
+\item[Simulate emotions] the ability to keep careful check on the
+emotions being displayed, so as to deny observers information (such as
+when playing poker), or to give false information (feigned surprise,
+apparent pleasure).
+
+\end{Description}
+
+\subsection{Seduction}
+
+Whilst seduction may be used to entice an entity who is compatible
+with the seducer into a sexual relationship, it may also be used to
+create a sense of friendship and trust, even with a being not sexually
+compatible with the seducer.  The skill mostly consists of flattery
+and gentle coaxing, and a seducer will greatly benefit from being
+skilled at etiquette, dress sense, dance, playing music, or whatever
+is appropriate to the type of seduction undertaken.  Seduction is not
+a rapid skill, requiring hours or even days to achieve the desired
+result. Often there is no skill check made since the GM will decide
+the results of the seduction based on the character's Rank and the way
+the Player describes the attempted seduction.  If a Base Chance is
+used, it is seducer's PB (+ 10 / Rank), modified by the GM to reflect
+the difficulty of the seduction. If the attempt succeeds the seduction
+is generally successful. If the attempt fails but is close to the Base
+Chance the seduction may be attempted again, at a later time. A
+particularly high roll indicates that the target is unimpressed or
+repulsed by the seducer. Player Characters are not bound by the result
+of seduction attempted on them, but the GM should give them strong
+hints as to how their character feels about the seducer.
+
+\end{skill}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 1
+a1 2
+\section{Courtier (Ver 2.0)} 
+\label{courtier}
+d3 1
+a3 4
+\index{courtier}
+\index{skills!courtier|(}
+
+A Courtier may be an attendant at and frequenter of courts and
+d13 1
+a13 1
+A Courtier must pay an additional 10\% EP to increase their rank if:
+d18 1
+a18 1
+A Courtier pays 10\% less EP to increase their rank if:
+d27 1
+a27 1
+A Courtier gains 2 abilities at Rank 0, and 1 further ability per
+d29 11
+a39 11
+Courtier. A Courtier may however choose to specialise. If, upon
+gaining a new Rank the Courtier wishes to forego gaining a new
+ability, they may pick one of the abilities that they already possess
+and specialise. That ability then operates at (Courtier's Rank + 1),
+maximum 10. A Courtier may specialise more than once with the same
+ability, gaining Rank + 2, Rank + 3, etc. Additional abilities may be
+gained after achieving Rank 10, by the expenditure of 500 Experience
+Points, and 2 weeks of training. Individual Base Chances are not
+provided for the various Courtier skills, rather there is a generic
+Base Chance of 3 \x appropriate statistic (+ 5 / Rank), modified by
+the GM to reflect the difficulty of the feat being attempted.
+d41 1
+a41 1
+The abilities available to a Courtier are:
+d62 1
+a62 1
+Courtier may supervise caterers, and menials, arrange the
+d92 1
+a92 1
+(Voice). A Courtier can usually play similar instruments to the ones
+d115 1
+a115 1
+skilled at Etiquette, Dress Sense, Dance, playing music, or whatever
+d121 1
+a121 1
+used, it is Seducer's PB (+ 10 / Rank), modified by the GM to reflect
+d130 1
+a130 2
+\index{courtier}
+\index{skills!courtier|)}
+@
+
+
+3.2
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+3.1
+log
+@Check in before modifying e.g. and i.e.
+@
+text
+@d22 1
+a22 1
+A Courtier pays 10\% EP less to increase their rank if:
+d126 7
+a132 8
+the difficulty of the seduction. If the result is Success, the
+seduction is generally successful. If the attempt fails but is close
+to the Base Chance the seduction may be attempted again, at a later
+time. A particularly high roll indicates that the target is
+unimpressed or repulsed by the seducer. Player Characters are not
+bound by the result of seduction attempted on them, but the GM should
+give them strong hints as to how their character feels about the
+seducer.
+@
+
+
+3.0
+log
+@Courtesan changed to Courtier by Martin Dickson.
+@
+text
+@d2 4
+d134 3
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d1 1
+a1 2
+\section{Courtesan}
+\label{courtesan}
+d3 7
+a9 19
+Courtesanship is a social skill designed expressly to satisfy the
+needs of lonely or status conscious people.  A master courtesan will
+be an accomplished musician, able to play at least one woodwind or
+string instrument.  The master will also be able to sing recite and
+compose stories and legends, perform mime, act out skits and dance.
+The consummate courtesan is also the master of proper dress, and
+attractive appearance and is able to simulate a great range of
+emotions.
+
+The abilities attendant to the courtesan skill are usable by such a
+character in situations not covered by the following rules, as are
+those of the troubadour skill (\S\ref{troubadour}).  The GM should
+improvise and allow a courtesan character to use their skill in
+appropriate instances. If, for instance, the party is at the mercy of
+a homely witch of indeterminate age, a male courtesan should be able
+to charm her and at least win his companions' lives if he plays it
+right.
+
+A courtier is a male courtesan.
+d13 10
+a22 17
+A courtesan character must pay an additional Experience Point
+increment of 10\% to increase their Rank in the skill when:
+\begin{enumerate}
+\setlength\itemsep{0pt}
+\item   Their Manual Dexterity is less than 12
+\item   Their Agility is less than 15
+\item   Their Physical Beauty is  less  than  15
+\item   They are death-aspected
+\end{enumerate}
+A courtesan character decreases the Experience Point cost to increase
+their Rank by an increment of 10\% when:
+\begin{enumerate}
+\setlength\itemsep{0pt}
+\item   Their Agility is greater than 22
+\item   Their Physical Beauty is greater than 20
+\item   They are life-aspected
+\end{enumerate}
+d27 103
+a129 64
+\subsubsection{A courtesan acquires one ability per Rank.}
+
+The character begins with one of the following abilities at Rank 0.
+All acquired abilities can be performed skillfully.
+\begin{enumerate}
+\setlength\itemsep{0pt}
+\item Play a woodwind instrument (e.g., flute)
+\item Play a string instrument (e.g., mandolin, lute, etc.)
+\item Sing
+\item Recite stories and legends
+\item Compose stories and legends
+\item Perform mime
+\item Act out skits
+\item Tell jokes
+\item Dance
+\item Dress well (e.g., formally)
+\item Dress seductively
+\item Appear attractive (by other culture's standards)
+\item Simulate wide range of emotions
+\item Imitate accents
+\end{enumerate}
+A courtesan may gain additional abilities after achieving Rank 10 by
+the expenditure of 500 Experience Points per ability.
+
+\subsubsection{A courtesan may attempt to seduce a being with whom the
+courtesan is sexually compatible.}
+
+The courtesan must arrange a meeting with their intended paramour,
+either alone or with persons who will not interfere while the
+courtesan practices their wiles.  The GM rolls percentile dice: the
+courtesan's base chance of success is equal to the courtesan's
+(Physical Beauty + 10 \x Rank).  The GM then modifies the success
+chance, dependent on the feelings and condition of the seductee.
+
+If the roll is equal to or less than the success percentage, the
+seductee is infatuated with the courtesan and will retire with the
+seductor to a more private place.  If the roll is greater than the
+success percentage, the outcome will depend on how great the roll is.
+A roll close to the success percentage calls for anything from ``the
+body is willing but the spirit needs more convincing'' to polite
+refusal, while a high roll can result in anything from mild
+embarrassment to the courtesan to violent consequences.  Player
+characters are not bound by the result when a courtesan uses their
+skill on them.
+
+\subsubsection{A courtesan's fee for services is dependent upon Rank and
+gender.}
+
+A courtier will receive (25 + Rank squared) Silver Pennies for a
+night's work.  A courtesan will receive (25 + (Rank + 1) squared)
+Silver Pennies for the same job.  The distaff side will do better at
+this profession in a male-dominated society.  The pay rates are
+reversed in a matriarchy.  A courtesan is expected to charge a lower
+\emph{per diam} if hired for consecutive evenings.
+
+\subsubsection{A courtesan's social position has peculiar advantages and
+disadvantages.}
+
+A master courtesan is equally welcome at a royal ball and at the
+lowest dive in town.  At the same time, a courtesan can be prevented
+from practicing their skill or imprisoned if the local authorities are
+so inclined.  A courtesan should keep in mind that it helps to provide
+services at a discount or for free and to bribe the right people to
+ensure freedom of action.
+@
+
+
+1.4
+log
+@Release 1.0 snapshot
+@
+text
+@@
+
+
+1.3
+log
+@Change courtesan to a political skill and remove seduction.
+@
+text
+@a2 1
+\label{courtier}
+d4 8
+a11 12
+Courtesan, and their male counterparts, Couriers, are trained in the
+skills needed for the courtly life.  Court life and High Society
+involve status and rank, where the forms of dress and behaviour must
+be strictly followed if a person wishes to fit in and exert influence.
+While a courtesan and troubadour have similar abilities, a troubadour
+is more at home with the people, where as a courtesan is at home with
+the Lords and Ladies of the land.
+
+A courtesan will be an accomplished musician, able to play at least
+one woodwind or string instrument.  They will also be able to sing
+recite and compose stories and legends, perform mime, act out skits
+and dance.
+d15 8
+a22 5
+those of the troubador skill (q.v.).  The GM should improvise and
+allow a courtesan to use their skill in appropriate instances. If, for
+instance, the party is at the mercy of a homely witch of indeterminate
+age, a male courtesan should be able to charm her and at least win his
+companions' lives if he plays it right.
+d26 2
+a27 2
+A courtesan must pay an additional Experience Point increment of 10\%
+to increase their Rank in the skill when:
+d30 3
+a32 3
+\item   Their MD is less than 12
+\item   Their AG is less than 15
+\item   Their PB than 15
+d35 2
+a36 2
+A courtesan decreases the Experience Point cost to increase their Rank
+by an increment of 10\% when:
+d39 2
+a40 2
+\item   Their AG is greater than 22
+\item   Their PB is greater than 20
+d53 14
+a66 14
+\item   Play a woodwind instrument (e.g., flute)
+\item   Play a string instrument (e.g., mandolin, lute, etc.)
+\item	Sing
+\item   Recite stories and legends
+\item	Compose stories and legends
+\item	Perform mime
+\item	Act out skits
+\item	Tell jokes
+\item   Dance
+\item	Dress well (e.g., Formally)
+\item	Dress seductively
+\item	Appear  attractive  (by   other   culture's standards)
+\item	Simulate wide range of emotions
+\item	Imitate accents
+d71 21
+d107 1
+a107 1
+from practicing her skill or imprisoned if the local authorities are
+a110 11
+
+\subsection{Costs}
+
+\subsubsection{A courtesan must pay 250 + [350 \x Rank] Silver Pennies
+per year for finery and the props of the trade.}
+
+A courtesan who does not spend the above amount operates as if she were
+two Ranks less proficient.  If the Rank of a courtesan is reduced to
+a negative number, the use of the skill is temporarily lost.  The
+above amount does not include extraordinary aids, such as love
+philtres, but does include perfumes and other frippery.
+@
+
+
+1.2
+log
+@Corrections done form March printed version
+@
+text
+@d2 2
+d5 12
+a16 8
+Courtesanship is a social skill designed expressly to satisfy the
+needs of lonely or status conscious people.  A master courtesan will
+be an accomplished musician, able to play at least one woodwind or
+string instrument.  The master will also be able to sing recite and
+compose stories and legends, perform mime, act out skits and dance.
+The consummate courtesan is also the master of proper dress, and
+attractive appearance and is able to simulate a great range of
+emotions.
+d21 4
+a24 6
+allow a courtesan character to use her skill in appropriate
+instances. If, for instance, the party is at the mercy of a homely
+witch of indeterminate age, a male courtesan should be able to charm
+her and at least win his companions' lives if he plays it right.
+
+A courtier is a male courtesan.
+d28 2
+a29 5
+\subsubsection{A courtesan must generate a value for her Physical Beauty
+Characteristic.}
+
+A courtesan character must pay an additional Experience Point
+increment of 10\% to increase her Rank in the skill when:
+d32 4
+a35 4
+\item   Her Manual Dexterity is less than 12
+\item   Her Agility is less than 15
+\item   Her Physical Beauty is  less  than  15
+\item   She is death-aspected
+d37 2
+a38 2
+A courtesan character decreases the Experience Point cost to increase
+her Rank by an increment of 10\% when:
+d41 3
+a43 3
+\item   Her Agility is greater than 22
+\item   Her Physical Beauty is greater than 20
+\item   She is life-aspected
+a71 22
+
+\subsubsection{A courtesan may attempt to seduce a being with whom the
+courtesan is sexually compatible.}
+
+The courtesan must arrange a meeting with her intended paramour,
+either alone or with persons who will not interfere while the
+courtesan practices her wiles.  The GM rolls percentile dice: the
+courtesan's base chance of success is equal to the courtesan's
+(Physical Beauty + 10 \x Rank).  The GM then modifies the
+success chance, dependent oil the feelings and condition of the
+seductee.
+
+If the roll is equal to or less than the success percentage, the
+seductee is infatuated with the courtesan and will retire with the
+seductor to a more private place.  If the roll is greater than the
+success percentage, the outcome will depend on how great the roll
+is.  A roll close to the success percentage calls for anything from
+``the body is willing but the spirit needs more convincing'' to polite
+refusal, while a high roll can result in anything from mild
+embarrassment to the courtesan to violent consequences.  Player
+characters are not bound by the result when a courtesan uses her skill
+on them.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d79 1
+a79 1
+(Physical Beauty + 10 \x Rank]).  The GM then modifies the
+@

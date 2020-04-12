@@ -1,0 +1,162 @@
+This is TeX, Version 3.14159 (Web2C 7.3.2) (format=latex 2000.6.6)  3 MAY 2001 14:35
+**\nonstopmode\input ranking.sty
+(/home/ralexand/dq/documents/styles/ranking.sty
+(/usr/local/tex/share/texmf/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+(/usr/local/tex/share/texmf/tex/latex/tools/array.sty
+Package: array 1998/05/13 v2.3m Tabular extension package (FMi)
+\col@sep=\dimen102
+\extrarowheight=\dimen103
+\NC@list=\toks14
+\extratabsurround=\skip41
+\backup@length=\skip42
+)
+\TX@col@width=\dimen104
+\TX@old@table=\dimen105
+\TX@old@col=\dimen106
+\TX@target=\dimen107
+\TX@delta=\dimen108
+\TX@cols=\count79
+\TX@ftn=\toks15
+)
+(/usr/local/tex/share/texmf/tex/latex/tools/multicol.sty
+Package: multicol 1999/10/21 v1.5w multicolumn formatting (FMi)
+\c@tracingmulticols=\count80
+\mult@box=\box26
+\multicol@leftmargin=\dimen109
+\c@unbalance=\count81
+\c@collectmore=\count82
+\doublecol@number=\count83
+\multicoltolerance=\count84
+\multicolpretolerance=\count85
+\full@width=\dimen110
+\page@free=\dimen111
+\premulticols=\dimen112
+\postmulticols=\dimen113
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count86
+\c@finalcolumnbadness=\count87
+\last@try=\dimen114
+\multicolovershoot=\dimen115
+\multicolundershoot=\dimen116
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+)
+(/usr/local/tex/share/texmf/tex/latex/fancyhdr/fancyhdr.sty
+\headwidth=\dimen117
+)
+
+! LaTeX Error: \small undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \renewcommand{\small}
+                          {\fontfamily{ptm}\fontsize{7}{8pt}\selectfont}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \large undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \renewcommand{\large}
+                          {\fontfamily{ptm}\fontsize{9}{11pt}\selectfont}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \Large undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \renewcommand{\Large}
+                          {\fontfamily{\sfdefault}\fontsize{14}{15pt}\select...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \huge undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \renewcommand{\huge}
+                         {\fontfamily{\sfdefault}\fontsize{18}{20pt}\selectf...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \section undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \renewcommand{\section}
+                            {\@startsection
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \subsection undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 \renewcommand{\subsection}
+                               {\@startsection
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+! Emergency stop.
+<*> \nonstopmode\input ranking.sty
+                                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 306 strings out of 10898
+ 3395 string characters out of 73164
+ 48860 words of memory out of 263001
+ 3303 multiletter control sequences out of 10000+0
+ 3640 words of font info for 14 fonts, out of 400000 for 1000
+ 22 hyphenation exceptions out of 1000
+ 21i,0n,40p,168b,14s stack positions out of 300i,100n,500p,50000b,4000s
+No pages of output.

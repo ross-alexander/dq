@@ -1,0 +1,580 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL30:3.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.2;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.1;
+
+4.1
+date	2000.05.22.13.04.46;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.06.04.05.38.15;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	98.05.11.01.21.24;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	96.01.12.02.13.32;	author rossa;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.05.16.02.46.38;	author rossa;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\section{Backfire Table}
+\label{tables:backfire}
+\begin{multicols}{3}
+
+\begin{Description}
+
+\item[Extra Fatigue] The following effects result in the Adept losing
+extra Fatigue in order to contain the Backfire effect.  If no Fatigue
+was expended during the cast then there will be no apparent effect.
+If the Adept has insufficient Fatigue, then they lose all remaining
+Fatigue and re-roll on this table for each Fatigue point they were
+unable to expend, with any further rolls of Fatigue loss taken as
+damage due to internal injuries.
+
+\item[01--09] Fatigue loss equal to that already expended.
+
+\item[10--16] Fatigue loss equal to twice that already expended.
+
+\item[17--21] Fatigue loss equal to 3 times that already expended.
+
+\item[22--24] Fatigue loss equal to 4 times that already expended.
+
+\item[25] Fatigue loss equal to 5 times that already expended.
+
+\item[Spell Awry] The following effects result in the spell working in
+a manner that was not intended by the Adept.  The spell may still be
+resisted by the eventual target, if the spell is resistible.  Note
+that the Adept will not necessarily be aware of the outcome, since in
+many cases there will be no apparent effect.
+
+\item[26--30] The Adept becomes the target of the spell.
+
+\item[31--32] The Adept becomes the target of the spell with some or
+all effects doubled.
+
+\item[33] The Adept becomes the target of the spell with some or all
+effects tripled.
+
+\item[34--35] The Adept becomes the target of the spell and the spell
+is delayed by D10 pulses.
+
+\item[36] The Adept becomes the target of the spell and the spell is
+delayed by D100 pulses.
+
+\item[37--39] The spell has opposite or different effect to that which
+it was designed.
+
+\item[40--41] The spell's effects are delayed by D10 pulses.
+
+\item[42] The spell's effects are delayed by D100 pulses.
+
+\item[43--45] The spell's effects are intermittent with D10 pulses or
+minutes on, followed by D10 pulses or minutes off.
+
+\item[46--48] The spell affects a random target or area within range,
+or goes in a random direction.
+
+\item[49] The spell affects a random target or area within twice range.
+
+\item[50] The spell affects a random target or area within three times
+range.
+
+\item[51] The spell is cast at random as though the caster is a random
+entity within D10 hexes.
+
+\item[52--53] The spell affects a random target or area within range
+with some or all effects doubled.
+
+\item[54] The spell's effects are delayed by D10 pulses and affects a
+random target or area.
+
+\item[55] The spell's effects are delayed by D100 pulses and affects a
+random target or area.
+
+\item[56--57] The spell works with some or all effects halved.
+
+\item[58] The spell works as normal.
+
+\item[59] The spell works with some or all effects doubled.
+
+\item[60] The spell works with some or all effects tripled.
+
+\item[Minor Curses] The following effects result in the Adept being
+afflicted by a minor curse.  The Adept may resist the curse by using
+their Magical Resistance against non--College Magic.  Some curses can
+be cured by healing skills, and all may be dispelled by a curse
+removal.  Any result specifying a gradual loss of statistics will also
+cause an immediate loss.
+
+\item[61] Blind for D10 pulses.
+
+\item[62] Blind for D10 \x D10 minutes.
+
+\item[63] Blind for D10 \x D10 hours.
+
+\item[64] Blind for D10 days.
+
+\item[65] Deaf for D10 pulses.
+
+\item[66] Deaf for D10 \x D10 minutes.
+
+\item[67] Deaf for D10 \x D10 hours.
+
+\item[68] Deaf for D10 days.
+
+\item[69] Mute for D10 pulses.
+
+\item[70] Mute for D10 \x D10 minutes.
+
+\item[71] Mute for D10 \x D10 hours.
+
+\item[72] Mute for D10 days.
+
+\item[73] Lose smell and taste for D10 days.
+
+\item[74] Lose smell and taste for D10 \x D10 days.
+
+\item[75] Lose tactile sense for D10 days.
+
+\item[76] Lose tactile sense for D10 \x D10 days.
+
+\item[77] Insomnia such that only 1 Fatigue is recovered for each hour
+of sleep for D10 days.
+
+\item[78] Insomnia such that only 1 Fatigue is recovered for each hour
+of sleep for D10 \x D10 days.
+
+\item[79--80] A virulent skin disease halves Physical Beauty and causes
+intense itching which will increase the difficulty of concentration
+checks by 1, until stopped by Cure Disease.
+
+\item[81] Wasting disease causes -1 Strength and -1 Endurance per day
+until stopped by Cure Disease.  The Strength and Endurance lost will
+be recovered at 1 point per day, or by being treated by Repair
+Muscles.
+
+\item[82--83] Periodic muscle spasms lasting D10 pulses cause a loss of
+1 Fatigue each pulse.  There is D10 \x D10 minutes between spasms.
+This can be cured by Repair Muscles.
+
+\item[84] A deep sleep for D10 pulses.
+
+\item[85] A deep sleep for D10 \x D10 minutes.
+
+\item[86--87] Recurring migraines cause a loss of 2 Magical Aptitude
+and 2 Willpower.  Each minute of concentration requires a 4 \x
+Willpower concentration check.  The effects can be treated by Soothe
+Pain and cured by Repair Vital Organs.
+
+\item[88] Periodic hallucinations for D10 hours. Each hallucination
+lasts D10 pulses and there is D10 \x D10 minutes between them.  Can be
+cured by Repair Vital Organs.
+
+\item[89--90] Arthritis causes -4 Dexterity, -4 Agility and increases
+by 1 per hour the Fatigue loss due to exercise, until treated by
+Repair Tissues.
+
+\item[91--92] Enfeeblement causes -4 Strength, -4 Endurance and
+doubles the Fatigue loss due to exercise, until treated by Repair
+Muscles.
+
+\item[93] Asthma causes TMR to be halved, doubles the Fatigue loss due
+to exercise, and the Adept cannot perform strenuous exercise until
+treated by Repair Vital Organs.
+
+\item[94--95] Creeping senility will cause a loss of 1 Magical Aptitude
+every two days until treated by Regenerate Vital Organs.
+
+\item[96] Partial Amnesia causes the loss of all Magical abilities for
+D10 days.
+
+\item[97] Partial Amnesia causes the loss of all Skills (excluding
+Magic and Weapons) for D10 days.
+
+\item[98] Partial Amnesia causes the loss of all memories from the past
+2D10 months.  The Adept will operate at lower ranks in the abilities
+that have been ranked during this period.  The memories will return at
+a rate of 1 month each day.
+
+\item[99] Total Amnesia causes the loss of all memories for D5 \x D5
+days.  All magic and skills other than the primary language will be
+lost, and all weapon ranks will be halved (round down) or lost if Rank
+0.  The Adept's original personality will come to the fore and they
+may need to make a reaction roll to determine their initial feelings
+towards each person.
+
+\item[00] Roll two more times and apply both effects.
+
+\end{Description}
+
+\raggedcolumns
+\pagebreak
+\end{multicols}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@@
+
+
+4.1
+log
+@Replace adept with Adept.
+@
+text
+@@
+
+
+4.0
+log
+@REL40
+@
+text
+@d6 5
+a10 4
+\item[Extra Fatigue] The following effects result in the adept losing extra
+Fatigue in order to contain the Backfire effect.  If no Fatigue was
+expended during the cast then there will be no apparent effect.  If
+the adept has insufficient Fatigue, then they lose all remaining
+d16 1
+d18 1
+d20 1
+d22 1
+d25 23
+a47 12
+\item[Spell Awry] The following effects result in the spell working in a manner
+that was not intended by the adept.  The spell may still be resisted
+by the eventual target, if the spell is resistible.  Note that the
+adept will not necessarily be aware of the outcome, since in many
+cases there will be no apparent effect.
+
+\item[26--30] The adept becomes the target of the spell.
+\item[31--32] The adept becomes the target of the spell with some or all effects doubled.
+\item[33] The adept becomes the target of the spell with some or all effects tripled.
+\item[34--35] The adept becomes the target of the spell and the spell is delayed by D10 pulses.
+\item[36] The adept becomes the target of the spell and the spell is delayed by D100 pulses.
+\item[37--39] The spell has opposite or different effect to that which it was designed.
+d49 1
+d51 7
+a57 2
+\item[43--45] The spell's effects are intermittent with D10 pulses or minutes on, followed by D10 pulses or minutes off.
+\item[46--48] The spell affects a random target or area within range, or goes in a random direction.
+d59 16
+a74 5
+\item[50] The spell affects a random target or area within three times range.
+\item[51] The spell is cast at random as though the caster is a random entity within D10 hexes.
+\item[52--53] The spell affects a random target or area within range with some or all effects doubled.
+\item[54] The spell's effects are delayed by D10 pulses and affects a random target or area.
+\item[55] The spell's effects are delayed by D100 pulses and affects a random target or area.
+d76 1
+d78 1
+d80 1
+d83 6
+a88 6
+\item[Minor Curses] The following effects result in the adept being afflicted by
+a minor curse.  The adept may resist the curse by using their Magical
+Resistance against non--College Magic.  Some curses can be cured by
+healing skills, and all may be dispelled by a curse removal.  Any
+result specifying a gradual loss of statistics will also cause an
+immediate loss.
+d91 1
+d93 1
+d95 1
+d97 1
+d99 1
+d101 1
+d103 1
+d105 1
+d107 1
+d109 1
+d111 1
+d113 1
+d115 1
+d117 1
+d119 1
+d121 20
+a140 5
+\item[77] Insomnia such that only 1 Fatigue is recovered for each hour of sleep for D10 days.
+\item[78] Insomnia such that only 1 Fatigue is recovered for each hour of sleep for D10 \x D10 days.
+\item[79--80] A virulent skin disease halves Physical Beauty and causes intense itching which will increase the difficulty of concentration checks by 1, until stopped by Cure Disease.
+\item[81] Wasting disease causes -1 Strength and -1 Endurance per day until stopped by Cure Disease.  The Strength and Endurance lost will be recovered at 1 point per day, or by being treated by Repair Muscles.
+\item[82--83] Periodic muscle spasms lasting D10 pulses cause a loss of 1 Fatigue each pulse.  There is D10 \x D10 minutes between spasms.  This can be cured by Repair Muscles.
+d142 1
+d144 43
+a186 10
+\item[86--87] Recurring migraines cause a loss of 2 Magical Aptitude and 2 Willpower.  Each minute of concentration requires a 4 x Willpower concentration check.  The effects can be treated by Soothe Pain and cured by Repair Vital Organs.
+\item[88] Periodic hallucinations for D10 hours. Each hallucination lasts D10 pulses and there is D10 \x D10 minutes between them.  Can be cured by Repair Vital Organs.
+\item[89--90] Arthritis causes -4 Dexterity, -4 Agility and increases by 1 per hour the Fatigue loss due to exercise, until treated by Repair Tissues.
+\item[91--92] Enfeeblement causes --4 Strength, --4 Endurance  and doubles the Fatigue loss due to exercise, until treated by Repair Muscles.
+\item[93] Asthma causes TMR to be halved, doubles the Fatigue loss due to exercise, and the adept cannot perform strenuous exercise until treated by Repair Vital Organs.
+\item[94--95] Creeping senility will cause a loss of 1 Magical Aptitude every two days until treated by Regenerate Vital Organs.
+\item[96] Partial Amnesia causes the loss of all Magical abilities for D10 days.
+\item[97] Partial Amnesia causes the loss of all Skills (excluding Magic and Weapons) for D10 days.
+\item[98] Partial Amnesia causes the loss of all memories from the past 2D10 months.  The adept will operate at lower ranks in the abilities that have been ranked during this period.  The memories will return at a rate of 1 month each day.
+\item[99] Total Amnesia causes the loss of all memories for D5 \x D5 days.  All magic and skills other than the primary language will be lost, and all weapon ranks will be halved (round down) or lost if Rank 0.  The adept's original personality will come to the fore and they may need to make a reaction roll to determine their initial feelings towards each person.
+@
+
+
+3.0
+log
+@REL30
+@
+text
+@@
+
+
+2.1
+log
+@Check in before modifying e.g. and i.e.
+@
+text
+@@
+
+
+2.0
+log
+@REL20
+@
+text
+@d5 85
+a89 123
+GMs are free to develop their own backfire table so that an adept is
+never sure about what is likely to happen from a backfire.  Note that
+the general structure of the table should be retained, with 25\% of
+results being Fatigue loss, 35\% with the spell going wrong, and 40\%
+afflictions or minor curses.  The GM is free to alter durations and
+effects on the backfire table, for example choosing instead of rolling
+for the duration of an affliction.  Some ideas when inflicting
+backfires are to make Special Knowledge spell backfires worse than
+General Knowledge, and higher ranked spell backfires worse than those
+of low ranked spells.
+
+{\fontsize{8}{9pt}\selectfont
+\begin{description}
+\item[{\em Dice}] {\bf \em Backfire Result}
+
+\item[01--10] How unfortunate!  Not only do you fail to cast the spell,
+but it costs you twice the normal Fatigue.
+
+\item[11--17] Worse yet!  You fail to cast the spell, and costs you
+three times the normal Fatigue.
+
+\item[18--22] For shame!  You should be grateful that your teachers
+cannot see you in your hour of degradation.  Not only do you fail to
+cast the spell, but it costs you four times the normal Fatigue.
+
+\item[23--24] This is simply not your day.  Not only do you fail to
+cast the spell, but it costs you five times the normal Fatigue.
+
+\item[25] Magic may not be your calling.  You might consider a future
+in animal husbandry instead.  Not only do you fail to cast the spell,
+but it costs you six times the normal Fatigue.
+
+\item[26--35] Your spell has reversed itself and is presently taking
+full effect on your own person instead of on the intended target.
+
+\item[36--45] Once again your spell has reversed itself as in result
+26--35.  However, this time, in addition to the effects of the
+reversal, it costs twice the normal Fatigue.
+
+\item[46--50] Your companions may well curse your name for this!  The
+GM assigns a number to each character within Range and rolls D10.  The
+character whose number is first rolled is the target of the spell.  If
+no character's number is rolled, the GM rolls again until one
+character's number is rolled.
+
+\item[51--55] A result similar to 46--50 except the spell's effect is
+doubled (GM choosing what attribute of the spell will be doubled).
+
+\item[56--60] Your spell takes effect, but only at half strength.  The
+GM determines what characteristic is to be halved and does so
+(rounding down).
+
+\item[61] You are cursed with total blindness lasting D10 weeks.
+
+\item[62] You are cursed with total blindness lasting 2 \x D10 weeks.
+
+\item[63] You are cursed with total blindness lasting 3 \x D10 weeks.
+
+\item[64] You are cursed with total deafness lasting D10 weeks.
+
+\item[65] You are cursed with total deafness lasting 2 \x D10 weeks.
+
+\item[66] You are cursed with total deafness lasting 3 \x D10 weeks.
+
+\item[67] You are cursed with total muteness lasting D10 weeks.
+
+\item[68] You are cursed with total muteness lasting 2 \x D10 weeks.
+
+\item[69] You are cursed with total muteness lasting 3 \x D10 weeks.
+
+\item[70] You are cursed with insomnia and nightmares and may only
+regain half Fatigue (rounded up) during sleep periods for a number of
+weeks equal to D10.
+
+\item[71] You are cursed with insomnia and nightmares and may only
+regain half Fatigue (rounded up) during sleep periods for a number of
+weeks equal to twice D10.
+
+\item[72] You are cursed with insomnia and nightmares and may only
+regain half Fatigue (rounded up) during sleep periods for a number of
+weeks equal to three times D10.
+
+\item[73--75] You are cursed with a virulent skin disease which will cause
+you intense pain and make you hideous to look upon.  The disease will
+reduce your Physical Beauty by 10 and your willpower by 3 until cured
+by magic or the arts of a healer.  Once cured, the disease will still
+reduce your Physical Beauty by 1 for each full week during which it
+affected you.  This reduction is a permanent result of scarring.
+
+\item[76--80] You are cursed with periodic muscle spasms of random
+occurrence and unpredictable duration which tend to leave you limp and
+exhausted.  The spasms will persist until you are cured by magic or
+the arts of a Rank 2 healer.  Reduce MD by 5 and Endurance by
+half (round down) until cured.
+
+\item[81--85] You begin to suffer from intense and regularly
+occurring migraines which reduce your Willpower by 1 and your Magical
+Aptitude by 3 until cured of your affliction either by magic or a Rank
+2 healer.
+
+\item[86--90] You become arthritic and enfeebled and will remain so
+until cured by magic or the arts of a Rank 3 healer.  Reduce your
+Fatigue by half (round down) and subtract 4 from Dexterity and 3 from
+Agility until cured.
+
+\item[91--95] You have become subject to creeping senility which will
+last until cured by magic (only) and which will become worse as time
+goes on.  Your Magical Aptitude is immediately reduced by 2 and is
+reduced by an additional 2 at the beginning of each week until cured.
+Once cured of your affliction, you will have to relearn any spells
+forgotten during the period of your illness.  All spell attempts made
+during the illness will have their Base Chance of taking effect reduced
+by 10.
+
+\item[96--100] You are cursed with total amnesia and lose all skills,
+ranks and magical abilities for a period of D10 days.  During this
+time, you may not cast spells, use special skills or talents or use a
+weapon except in its unranked state.  Your friends will have to care
+for you since your surroundings are totally unfamiliar and your
+survival defences will have been quite effectively short-circuited.
+You will willingly take their orders and advice, but you would just as
+willingly follow an ogre into his cave if he asked.
+\end{description}}
+@
+
+
+1.2
+log
+@Release 1.0 snapshot
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d4 14
+a17 1
+{\small \begin{description}
+d27 2
+a28 2
+cannot see you in you hour of degradation.  Not only do you fail to
+cast the spell, but its costs you four times the normal Fatigue.
+d31 1
+a31 1
+cast the spell, but its costs you five times the normal Fatigue.
+d38 1
+a38 1
+full affect on your own person instead of on the intended target.
+d47 1
+a47 1
+no character's number is rolled, th GM rolls again until one
+@

@@ -1,0 +1,4878 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.5;
+locks
+	ralexand:5.11; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	98.06.04.05.35.09;	author rossa;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	98.05.11.02.03.42;	author rossa;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	98.05.11.01.21.18;	author rossa;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	98.05.10.23.51.43;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.05.04.22.40.49;	author rossa;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	98.05.04.03.58.00;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	97.07.24.01.50.18;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	97.06.06.00.03.03;	author rossa;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	97.06.04.03.17.04;	author rossa;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	97.05.08.21.45.38;	author rossa;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	97.04.28.23.53.06;	author rossa;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	97.04.28.22.21.46;	author rossa;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	97.03.13.23.33.07;	author rossa;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	96.08.09.05.18.10;	author rossa;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	96.08.06.23.46.10;	author rossa;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	96.07.11.00.17.02;	author rossa;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	96.02.13.03.48.57;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	96.01.12.02.15.57;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	95.09.04.14.58.17;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	95.09.04.14.48.56;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.06.06.02.29.01;	author rossa;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.06.06.02.15.00;	author rossa;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\chapter*{Character Generation}
+
+\begin{multicols*}{3}
+
+\index{Character Generation|(}
+\section{Explanation of Characteristics}
+
+This section is an explanation of a character's characteristics and
+how they are used in the game.
+
+All characteristics are calculated when the character is generated but
+Adventurers in a world of magic can expect them to change from time to
+time.  A ``temporary'' change indicates an increase or decrease of
+limited duration to the value of a characteristic; a ``permanent''
+change indicates an increase or decrease of indefinite duration to the
+value of a characteristic.
+
+The first six characteristics are the \emph{primary} characteristics.
+These can be increased temporarily by magic or permanently by training
+(expenditure of experience points), and can be decreased temporarily
+by magic or injury, or permanently by injury to the character. These
+primary characteristics can never be trained more than 5 above their
+starting value, and never above racial maximum, except by unusual
+magical means.
+
+All other characteristics are \emph{secondary} characteristics. The
+manner in which a secondary characteristic can be changed will be
+covered in the appropriate explanation.
+
+Generally, a high characteristic value indicates a character's ability
+to perform a certain task well, while a low value indicates a relative
+lack of such ability. A characteristic's effect is almost always
+translated into numerical terms for the purposes of resolving action
+during play.  Adventurers generally have higher characteristics than
+normal people in the world, that is what makes them heroes after all.
+
+\subsubsection{Effects of Characteristics}
+
+A character develops specific skills during the game, and their
+characteristics influence their base chances with these skills.
+However there are also many feasible tasks that a character may wish
+to perform without having a specific skill to do so.  The GM then uses
+the most appropriate characteristic to generate a base chance to
+perform that task.
+
+\subsubsection{Difficulty Factors (Characteristic Multipliers)}
+
+When a player declares that their character will attempt a task which
+the GM acknowledges as dependent upon a particular characteristic, the
+GM assigns the task a difficulty factor. This difficulty factor will
+be a number from 1/2 through to 5.
+
+The greater the difficulty factor value, the easier a task will be to
+perform.
+
+The player multiplies the difficulty factor by the appropriate
+characteristic, arriving at the percentage chance of the character
+performing the task.  The maximum base chance is (70 + characteristic
++ difficulty factor)\%.  The player then rolls D100, and if the roll
+is less than or equal to the percentage then the character has
+successfully performed the task. If the roll is greater than the
+percentage, the character has failed. If the roll fails by at least
+the value of the characteristic or exceeds the maximum base chance,
+the character has failed miserably and may have injured themself. The
+GM may wish to determine the extent of the injury by how much the roll
+exceeds the percentage plus the characteristic.
+
+\subsection{Strength (PS)}
+
+\textbf{Physical Strength} is a measure of a character's muscle
+co-ordination and strength.  The Physical Strength characteristic
+represents the brute force a character can exert from the thews of
+their arms, the thrusting power of their leg muscles, and their lift
+and weight capacity.
+
+\subsubsection{Specific Influences}
+\begin{Itemize}
+\item Effects of weight carried
+\item Minimum PS requirement for weapons
+\item Damage
+\end{Itemize}
+\subsubsection{Generic Uses}
+\begin{Itemize}
+\item Breaking objects
+\item Lifting heavy or awkward objects
+\end{Itemize}
+\begin{example}
+Consider the sturdiness of the object and the implement being used to
+break it for the former, and consider the weight and bulk of the
+object plus the purchase afforded the character for the latter.
+\end{example}
+
+\subsection{Manual Dexterity (MD)}
+
+\textbf{Manual Dexterity} is a measure of a character's control with
+their hands.  The Manual Dexterity characteristic represents the
+character's hand-to-eye co-ordination, the speed at which the
+character can perform a complex task with their hands, and the ability
+to manipulate their hands.
+
+\subsubsection{Specific Influences}
+\begin{Itemize}
+\item Minimum MD requirement for weapons
+\item Thievery
+\item Strike Chance in Combat
+\end{Itemize}
+\subsubsection{Generic Uses}
+\begin{Itemize}
+\item Handling dangerous substances
+\item Fine handicrafts \& other delicate tasks.
+\end{Itemize}
+\begin{example}
+Consider the delicacy of the task when a character seeks the careful
+manipulation or removal of an object.
+\end{example}
+
+\subsection{Agility (AG)}
+
+\textbf{Agility} is a measure of a character's ability to manoeuvre
+their whole body and their speed of movement.  The Agility
+characteristic represents the character's litheness of body, the speed
+at which the character can run, and their ability to dodge with or
+contort their body.
+\subsubsection{Specific Influences}
+\begin{Itemize}
+\item Tactical Movement Rate
+\item Speed in combat
+\item Defence
+\item Most physical skills
+\end{Itemize}
+\subsubsection{Generic Uses}
+\begin{Itemize}
+\item Manoeuvring
+\end{Itemize}
+\begin{example}
+Consider speed, distance, and complexity of the manoeuvre, as well as
+the nature of any obstacles or features they are using.
+\end{example}
+
+\subsection{Magical Aptitude (MA)}
+
+\textbf{Magic Aptitude} is a measure of a character's ability to
+harness and direct magical energies.  The Magic Aptitude
+characteristic represents the character's control over the flow of
+mana (the stuff of magic), and their ability to remember spells and
+rituals.
+\subsubsection{Specific Influences}
+\begin{Itemize}
+\item Magic Colleges have a minimum MA requirement
+\item Cost of training magic
+\item Base chances of magical skills
+\end{Itemize}
+\subsubsection{Generic Uses}
+\begin{Itemize}
+\item Noticing arcane mana effects
+\end{Itemize}
+
+\subsection{Willpower (WP)}
+
+\textbf{Willpower} is a measure of a character's self control of mind
+and body, especially in stressful situations.  The Willpower
+characteristic represents a character's ability to concentrate, their
+ability to resist the imposition of another's will upon their own, and
+the degree to which their will can be used to counter their instincts
+(when, for instance, the character might be attempting an action which
+could be suicidal).
+
+\subsubsection{Specific Influences}
+\begin{Itemize}
+\item Magic resistance
+\item Fear resistance
+\item Concentration checks to perform magic
+\item Recovering from being stunned
+\end{Itemize}
+\subsubsection{Generic Uses}
+\begin{Itemize}
+\item Resisting suffering
+\item Persevering with boring or dangerous tasks
+\end{Itemize}
+
+\subsection{Endurance (EN)}
+
+\textbf{Endurance} is a measure of the punishment a character's body
+can absorb before the character becomes unconscious, sustains mortal
+wounds, or dies.  The Endurance characteristic represents the
+character's capacity to withstand wounds, their resistance to disease
+and infection and their rate of recovery from same, and directly
+affects their ability to over exert themselves.
+\subsubsection{Specific Influences}
+\begin{Itemize}
+\item Starting fatigue
+\item Damage capacity
+\item Stunning from damage
+\end{Itemize}
+\subsubsection{Generic Uses}
+\begin{Itemize}
+\item Resisting poison, infection \& disease
+\end{Itemize}
+
+\subsection{Fatigue (FT)}
+
+\textbf{Fatigue} is a measure of a character's physical and mental
+fitness.  The Fatigue characteristic represents the degree to which
+the character can exert themself before becoming exhausted, the number
+of minor cuts and bruises they can take before their abilities are
+affected, and the mental energy that can be used to cast spells. This
+characteristic directly reflects a character's current level of
+tiredness as it is reduced temporarily with any strenuous activity and
+restored to normal with rest.  Fatigue may be permanently increased by
+training up to 5 points or to racial maximum.
+
+\subsubsection{Specific Influences}
+\begin{Itemize}
+\item Sustained activity
+\item Minor damage capacity
+\item Spell casting energy
+\end{Itemize}
+\subsubsection{Generic Uses}
+\begin{Itemize}
+\item Ignoring cold
+\item Coping with missing meals or sleep
+\end{Itemize}
+
+\subsection{Physical Beauty (PB)}
+
+\textbf{Physical Beauty} is a measure of a character's exterior
+attractiveness (or repulsiveness) as perceived by the humanoid races.
+Physical Beauty is a characteristic representing a character's
+appearance compared to the aesthetic standards of the main sentient
+races.  It is in no way a reflection of a character's personality.
+Specific reactions to PB are also influenced by the observer's race
+and gender.  The Physical Beauty values for monsters describe how that
+monster appears to a character, and not to another monster of the same
+race.  Physical Beauty can be increased or decreased temporarily by
+magic, and decreased permanently by disfigurement. It cannot be
+increased by training.
+\subsubsection{Specific Influences}
+\begin{Itemize}
+\item Reaction rolls
+\end{Itemize}
+\subsubsection{Generic Uses}
+\begin{Itemize}
+\item Influencing NPCs
+\end{Itemize}
+
+\subsection{Perception (PC)}
+
+\textbf{Perception} is a measure of a character's intuition developed
+as a result of their experience.  The Perception characteristic
+represents the character's ability to note peculiarities in a given
+situation, their ability to deduce a person's habits or customs from
+scant information, and their general knowledge of the world.
+
+The Perception value can be increased or decreased temporarily, and
+can be increased permanently through training up to racial maximum.
+Magic, certain natural or alchemical preparations, and the character's
+condition can cause a temporary increase or decrease in the Perception
+value.
+\subsubsection{Specific Influences}
+\begin{Itemize}
+\item Detecting ambushes or traps
+\item Detecting hidden things
+\item Initiative
+\end{Itemize}
+\subsubsection{Generic Uses}
+\begin{Itemize}
+\item Picking up information from conversation or observation
+\item Peripheral vision
+\item Noticing things out of the ordinary
+\item Remembering vague information
+\item Making connections between new clues and previous knowledge
+\end{Itemize}
+
+\subsection{Tactical Movement Rate (TMR)}
+
+The \textbf{Tactical Movement Rate} is the fastest speed a character
+can move in combat.  A character's Tactical Movement Rate (TMR)
+characteristic is based on their Agility and influenced by any weight
+carried or restricting clothing.  It may be temporarily modified by
+magic or injury, but cannot be trained.
+\subsubsection{Specific Influences}
+\begin{Itemize}
+\item Distance moved in combat
+\end{Itemize}
+\subsubsection{Generic Uses}
+\begin{Itemize}
+\item comparative speeds
+\end{Itemize}
+
+\newpage
+
+\section{Character Generation}
+
+There are six sections in Character Generation:
+\begin{Description}
+\item[\ref{chargen:points}] Characteristic Points
+\item[\ref{chargen:race}] Race
+\item[\ref{chargen:description}] Description
+\item[\ref{chargen:aspect}]Aspect
+\item[\ref{chargen:heritage}] Heritage
+\item[\ref{chargen:abilities}] Starting Abilities \& Possessions
+\end{Description}
+
+Sections \ref{chargen:points} -- \ref{chargen:heritage} may be done
+in any order. Each section is designed so that a player may choose
+from a range of options or randomly generate their character. Section
+\ref{chargen:abilities} should be done last.
+
+\subsection{Characteristic Points}
+\label{chargen:points}
+
+A character has 6 primary statistics which are generated by allocating
+points from a total, and 4 secondary statistics which are either
+derived from the primary statistics or are generated randomly. The
+higher the number, the better the characteristic.
+
+\subsubsection{Generating Characteristic Points}
+
+The player may choose to allocate the primary statistics from a total
+of 90 points or may roll 2D10 once against the following table. If
+they choose to roll the result must stand.
+
+\begin{tabular}{ccl}
+\textbf{Die Roll} & \textbf{Points Total} \\
+2	& 81 \\
+3	& 82 \\
+4	& 83 \\
+5	& 84 \\
+6	& 85 \\
+7	& 86 \\
+8	& 87 \\
+9	& 88 \\
+10	& 89 \\
+\textbf{11} & \textbf{90} & \textbf{(default choice)} \\
+12	& 91 \\
+13	& 92 \\
+14	& 93 \\
+15	& 94 \\
+16	& 95 \\
+17	& 96 \\
+18	& 97 \\
+19	& 98 \\
+20	& 99 \\
+\end{tabular}
+
+\subsubsection{Assigning Characteristic Points}
+
+This total of points need to be spent on the following
+characteristics: Physical Strength, Manual Dexterity, Agility, Magical
+Aptitude, Willpower \& Endurance. These characteristics may change
+during the game, and may be raised up to 5 points through training,
+though not past the character's racial maximum.
+
+The human range for each of these characteristics is 5 -- 25; this
+range is adjusted for non-humans (see the Characteristic Modifier
+tables for the non-human races). These ranges represent the minimum
+and maximum capabilities of the races. The player should assign the
+points and then make any adjustment for race.
+
+Prior to assigning the characteristic points, the player should give
+some thought to what kind of character they wish to have and what
+weapons, spells, and/or skills are desired for the newly created
+individual. Some weapons require a great deal of Physical Strength or
+Manual Dexterity, and the player should be sure to assign enough
+points in those areas to use the weapons of their choice. All magical
+colleges require a minimum Magic Aptitude to join and the player
+should be aware of these restrictions. Most skills do not have any
+special requirements, but many give bonuses for exceeding a minimum
+value in certain characteristics.
+
+When the player has chosen the values for the character, they must
+record them on a Character Sheet. The total value of the six primary
+characteristics (before racial modifiers) must equal the amount
+received in the Generating Characteristic Points section; thus, a
+player cannot ``save'' Characteristic Points and assign them to
+characteristics at a later date. The value of each of the six primary
+characteristics must be recorded before any secondary characteristics
+are generated.
+
+\subsubsection{Generating Secondary Characteristics}
+
+Fatigue, Physical Beauty, Perception and Tactical Movement Rate are
+secondary characteristics. They may be modified if the character is
+non-human (see the Characteristic Modifier tables for the non-human
+races).
+
+\textbf{Fatigue}
+
+The value of a character's Fatigue is a direct function of their
+Endurance. The player enters the Fatigue value corresponding to the
+character's Endurance value after their Endurance has been modified
+for race.
+
+
+\begin{tabular}{cc}
+\textbf{Endurance} & \textbf{Fatigue} \\
+\textbf{3 or 4}	& \textbf{16} \\
+ 5 to 7		& 17 \\
+ 8 to 10	& 18 \\
+11 to 13	& 19 \\ 
+14 to 16	& 20 \\
+17 to 19	& 21 \\
+20 to 22	& 22 \\
+23 to 25	& 23 \\
+\textbf{26 to 27} & \textbf{24} \\
+\end{tabular}
+
+Endurance and Fatigue values in bold type can be achieved only by
+members of certain non-human races.
+
+From this point on, a change in a character's Endurance value will not
+affect their Fatigue value and vice-versa. Fatigue may be raised by up
+to 5 points, though not past the character's racial maximum.
+
+\subsubsection{Physical Beauty}
+
+The value of the Physical Beauty characteristic is generated randomly
+by rolling 4D5 + 3. This characteristic can never be increased by
+training.
+
+\subsubsection{Perception}
+
+A character's perception value begins at 5. This may be trained up to
+racial maximum.
+
+\subsubsection{Tactical Movement Rate}
+
+A character's Tactical Movement Rate (TMR) is a direct function of
+their Agility. It is based on the character's Agility value and is
+recalculated when Agility is modified by encumbrance and armour
+penalties; see the TMR table (\ref{tables:tmr}) for values.
+
+\subsection{Race}
+\label{chargen:race}
+
+\textbf{A player must choose the race of their character.}
+
+The majority of people in Alusia are human, but the player may choose
+one of the common non-human races: dwarf, elf, halfling, or orc.
+
+If the player wishes their character to be giant or shape changer they
+must roll D100.  They may roll once per race and if the roll is lower
+than the race chance \% they must take that race.  If they fail then
+the character must be of one of the common races.  If the player is
+attempting to be a shape changer they must decide what type of shape
+changer they want prior to rolling (\ie wolf, tiger, bear or boar).
+
+\begin{tabular}{lc}
+\textbf{Race} &	\textbf{Chance (\%)} \\
+Hill Giant	& 06 \\
+Shape-Changer	& 04 \\
+\end{tabular}
+
+A player may wish to play one of the very rare sentient races.  To do
+so they must get the agreement of both the generating GM and a member
+of the character tribunal.  They will decide which of the common races
+has the appropriate racial modifiers.  For example Erelheine
+characters are generated using the Elf option.
+
+Humans learn faster than non-humans.  Learning is represented in game
+by spending Experience Points (EP). \emph{Divide} any experience
+points a character gains by the ``racial modifier'' and then spend the
+result normally.
+
+\begin{tabular}{lc}
+\textbf{Race}	& \textbf{Modifier} \\
+Dwarf		& 1.1 \\
+Elf		& 1.2 \\
+Halfling	& 1.1 \\
+Hill Giant	& 1.5 \\
+Human		& 1.0 \\
+Orc		& 1.1 \\
+Shape-Changer	& 1.4 \\
+\end{tabular}
+
+Each race has a description of a stereotypical member of the race and
+any special abilities and characteristic modifiers that apply to a
+character of that race.
+
+\subsubsection{Dwarf}
+
+\textbf{A dwarf is a short, bearded humanoid, usually taciturn who
+frequents mountainous areas.}
+
+\textbf{Description:} Pride and attention to detail are important to
+dwarves. They form strong community ties, and are distrustful of
+strangers, especially those of other races. Their strongest
+antipathies are towards orcs and elves. Although dwarves are greedy by
+nature, they are essentially honest and stand by their word.  Dwarves
+covet precious stones and metals, and appreciate fine, detailed
+workmanship. Dwarven warriors favour the axe as weapon.
+
+\subsubsection{Special Abilities}
+
+\begin{Enumerate}
+\item
+Dwarves close vision is exceptionally sharp, but many have poor
+distance vision. They can see in the dark as a human does at
+dusk. Their effective range of vision in the dark is 50 feet under the
+open sky, 100 feet inside man-made structures, and 150 feet inside
+caves and tunnels.
+
+\item
+Dwarves can assess the value of and deal in gems and metals as if they
+are a Merchant of Rank 5. If a dwarf character progresses in the
+Merchant skill, their ability to assess the value of gems and metals
+is five greater then their current Rank, to a maximum of ten.
+
+\item
+If a dwarf character is a Ranger specialising in mountains or caverns,
+they pay half the EP cost necessary to advance ranks.
+
+\item
+A dwarf's capacity for alcohol is twice that of a human's.
+\end{Enumerate}
+
+\begin{tabularx}{\linewidth}{Xc}
+\textbf{Characteristic} & \textbf{Modifier} \\
+Physical Strength	& + 2 \\
+Agility			& - 2 \\
+Endurance		& + 2 \\
+Magical Aptitude	& - 2 \\
+Willpower		& + 2 \\
+Perception		& + 1 \\
+Physical Beauty		& - 2 \\
+Tactical Movement Rate	& - 1 \\
+Starting Age:		& 20 + \\
+Average Life Span:	& 125 -- 150 years \\
+Base Conception Rate	& 3\% \\
+\end{tabularx}
+
+\subsubsection{Elf}
+
+\textbf{An elf is a slim agile humanoid, who frequents wooded areas.}
+
+\textbf{Description:} Elves are virtually immortal and generally take
+the long term view. They are insular, indifferent to others and tend
+to be traditional.  Elves are great respecters of nature and
+learning. Their Elders are repositories of great wisdom while elvish
+youth are enthusiastic merry makers. Elven warriors favour bow weapons
+and disdain metal armour. Members of other races generally find elves
+attractive.
+
+\subsubsection{Special Abilities}
+
+\begin{Enumerate}
+\item
+Elves have superior vision especially over long distances or in poor
+lighting.  An elf can see in the dark as a human does on a cloudy
+day. Their effective range of vision in the dark is 150 feet under the
+open sky, and 75 feet elsewhere.
+
+\item
+If an elf character is a ranger specialising in woods, they pay
+one-half the EP to advance ranks.
+
+\item
+An elf receives a racial Talent which functions in all respects as the
+Witchcraft Witchsight Talent.
+
+\item
+An elf makes little or no noise while walking and adds 10\% to their
+chance to perform any activity requiring stealth.
+
+\item
+If an elf character takes the healer skill, the elf pays
+three-quarters the EP to advance ranks, though they cannot resurrect
+the dead.
+
+\item
+An elf is impervious to the special abilities of the lesser undead.
+
+\item
+If an elf character takes the courtier skill, the elf pays one-half
+the EP to advance ranks.
+\end{Enumerate}
+
+\begin{tabularx}{\linewidth}{Xc}
+\textbf{Characteristic} & \textbf{Modifier} \\
+Physical Strength	& - 1 \\
+Agility			& + 1 \\
+Endurance		& - 1 \\
+Magical Aptitude	& + 1 \\
+Willpower		& + 1 \\
+Perception		& + 1 \\
+Physical Beauty		& + 2 \\
+Tactical Movement Rate	& + 1 \\
+Starting Age		& 30 -- 300 + \\
+Average Life Span	& Circa 10,000 years \\
+Base Conception Rate	& 1\% \\
+\end{tabularx}
+
+\subsubsection{Halfling}
+
+\textbf{A halfling is a short, cheerful humanoid, who will be an
+active participant in village life.}
+
+\textbf{Description:} Halflings appreciate the good life more than
+most; a successful halfling will arrange a schedule of much sleep,
+good food, and relaxed study or conversation. Halflings are shy around
+other races, preferring to merge into the background.  Amongst
+themselves they are a friendly folk who form into small communities
+where everyone knows everyone else's business. While Halflings take
+their social responsibilities seriously, they are renowned for their
+practical jokes and light fingers. Halflings are noted for their
+tough, hairy feet and usually go barefoot. Halflings avoid the rigours
+of military life but when forced to defend themselves they favour
+small weapons.
+
+\subsubsection{Special Abilities}
+
+\begin{Enumerate}
+\item
+A halfling has infravision, which allows them to see faint red shapes
+where living beings are located in the dark. Their range of vision is
+100 feet.
+
+\item
+A halfling adds 20\% to their chance to perform any activity requiring
+stealth.
+
+\item
+If a halfling takes the thief skill, they pay half the EP cost to
+advance ranks.
+
+\item
+A halfling may drop jewellery down active volcanos without anyone
+thinking the worse of them.
+\end{Enumerate}
+
+\begin{tabularx}{\linewidth}{Xc}
+\textbf{Characteristic} & \textbf{Modifier} \\
+Physical Strength	& - 3 \\
+Manual Dexterity	& + 3 \\
+Agility			& + 1 \\
+Endurance		& - 2 \\
+Magical Aptitude	& - 1 \\
+Willpower		& + 1 \\
+Physical Beauty		& - 1 \\
+Starting Age		& 21 + \\
+Average Life Span 	& 80 -- 90 years \\
+Base Conception Rate	& 4\% \\
+\end{tabularx}
+
+\subsubsection{Hill Giant}
+
+\textbf{A hill giant is a huge, coarse featured humanoid, who has no
+patience for laborious learning.}
+
+\textbf{Description:} Giants are lusty types, preferring nothing
+better than to go through life brawling, drinking, and wenching. They
+tend to gather together in a clan arrangement, building huge halls (or
+steadings) in out-of-the-way locations. They are not overly
+intelligent, and resent humans and elves particularly. Giants enjoy
+riddling and bartering. Giant warriors favour simple weapons scaled to
+their size.
+
+\subsubsection{Special Abilities}
+
+\begin{Enumerate}
+\item
+A giant has infravision, which allows them to see faint red shapes
+where living beings are located in the dark. Their range of vision is
+250 feet.
+
+\item
+A giant's magic resistance is increased by 10\%.
+
+\item
+Whenever a giant attempts minor magic, the GM should increase the
+difficulty factor by one, making it easier.
+
+\item
+Giants may use the giant weapons listed in the Weapons Table
+(\S\ref{tables:weapons}).
+\end{Enumerate}
+
+\begin{tabularx}{\linewidth}{Xc}
+\textbf{Characteristic} & \textbf{Modifier} \\
+Physical Strength	& + 7 \\
+Manual Dexterity	& - 1 \\
+Agility			& - 2 \\
+Endurance		& + 8 \\
+Magical Aptitude	& - 1 \\
+Willpower		& - 1 \\
+Fatigue			& + 1 \\
+Physical Beauty		& - 1 \\
+Tactical Movement Rate	& + 3 \\
+Natural Armour		& + 1 \\
+Starting Age		& 26 + \\
+Average Life Span	& 500 years \\
+Base Conception Rate	& 2\% \\
+\end{tabularx}
+
+\subsubsection{Human}
+
+\textbf{Humans are by far the most common race on Alusia, frequenting
+most areas and climes.}
+
+\textbf{Description:} Humans have a great diversity of cultures,
+languages and sub-racial traits, such as hair and eye colour or skin
+tone. Human behaviour is an odd mix.  They can be superstitious and
+distrustful of the unknown, but they are also insatiably curious and
+look for new knowledge.  Many also seek personal fame and fortune as
+most human social structures are less rigid than those of non-humans
+and a person's birth need not permanently define their place in
+society.  This odd combination of attributes has lead them to become
+great explorers and sailors, and they will venture boldly into
+unexplored areas in search of knowledge and wealth.  Humans build
+great cities and are far more welcoming of other races than most.
+Outside of their own culture they are social chameleons; adept at
+adapting their behaviour to match local customs.
+
+\subsubsection{Special Abilities}
+
+\begin{Enumerate}
+\item
+Humans can ingratiate themselves with strangers more readily than
+other races.  A human character has +10 to any reaction roll in an
+encounter with sentient creatures.
+\end{Enumerate}
+\begin{tabularx}{\linewidth}{Xc}
+\textbf{Characteristic} & \textbf{Modifier} \\
+Starting Age			& 16 + \\
+Average Life Span (Varies widely with wealth and culture) & 40 -- 90 years \\
+Base Conception Rate		& 6\% \\
+\end{tabularx}
+
+\subsubsection{Orc}
+
+\textbf{An Orc is a stoop-shouldered, surly humanoid and a pack
+member by nature.}
+
+\textbf{Description:} Orcs are a cruel, violent folk, liking nothing
+better than to loot and pillage. Individuals test themselves against
+their peers, bullying anything weaker but cowering away from anything
+stronger. A strong individual will form a pack around them, and the
+pack leader's word is law. Orcs enjoy the sensual pleasures of life,
+and reduce their already short life spans through hard living. They
+have a robust digestion and will eat foods that others turn their nose
+up at. Orc warriors favour the great axe and glaive. Orcs are
+considered unattractive by other humanoid races.
+
+\subsubsection{Special Abilities}
+
+\begin{Enumerate}
+\item
+An orc's eyes are highly light-sensitive. They must decrease their
+chance of hitting a target with Ranged Combat by 10\% in daylight.
+
+\item
+An orc has infravision, which allows them to see faint red shapes
+where living beings are located in the dark. Their range of vision is
+150 feet.
+
+\item
+Orcs are either back-stabbing scum or brutal bully-boys. An orc may
+take one of either Assassin Skill or Warrior Skill and pay
+three-quarters the EP to advance in Ranks.
+
+\item
+An orc's seed is highly fertile. The orc and hybrid orc population
+increase mitigates against the high orc fatality rate.
+\end{Enumerate}
+
+\begin{tabularx}{\linewidth}{Xc}
+\textbf{Characteristic} & \textbf{Modifier} \\
+Physical Strength	& + 2 \\
+Endurance		& + 1 \\
+Magical Aptitude	& - 2 \\
+Willpower		& - 2 \\
+Fatigue			& + 2 \\
+Physical Beauty		& - 4 \\
+Natural Armour		& + 1 \\
+Starting Age		& 12 + \\
+Average Life Span	& 40 -- 45 years \\
+Base Conception Rate	& 10\% \\
+\end{tabularx}
+
+\subsubsection{Shape Changer}
+
+\textbf{Shape Changers are a hidden race amongst humans, with the
+ability to change into the form of a particular animal.}
+
+\textbf{Description:} Shape Changers are identical in appearance to
+humans when not in animal form. They are somewhat bestial in nature,
+adopting traits one might expect from an anthropomorphised wolf,
+tiger, bear or boar. There exists a love/hate relationship between
+humans and shape changers: shape changers possess some degree of
+animal magnetism, but, if discovered, can expect severe treatment at
+the hands of humans. Shape Changers are, on the whole, bitter towards
+humans, and are not above using humans to their advantage. There are
+very few ways to tell a shape changer from a human (\eg they will be
+discomforted by wolfbane) and these vary by shape changer type. Shape
+Changers are a ruthless lot.
+
+\subsubsection{Special Abilities}
+
+\begin{Enumerate}
+\item
+A shape changer can change from human to animal form (or
+\emph{vice-versa}) in 10 seconds during daytime and 5 seconds during
+the night-time.
+
+\item
+A shape changer possesses a dual nature. While in animal form, human
+inhibitions will be muted; and while in human form, animal instincts
+will be dulled.
+
+\item
+A shape changer cannot be harmed while in animal form, unless struck
+by a silvered weapon, magic or by a being with a Physical Strength
+greater than 25. Five Damage Points are automatically absorbed in the
+latter case.
+
+\item
+A shape changer will regenerate 1 Endurance Point every 60 seconds
+while in animal form.
+
+\item
+The player must devise a set of characteristics for their animal
+form. Take the difference between the average for each characteristic
+in animal and human form, and modify the human characteristics
+appropriately.
+
+\item
+A shape changer is automatically lunar aspected.
+
+\item
+A shape changer can remain in animal form for a quarter of the night
+times the quarters of the moon showing (\ie at full moon they may
+remain in animal form all night). During the day a shape changer can
+remain in animal form for one hour times the quarter of the moon. A
+shape changer can make one set of transformations times the quarter of
+the of the moon per day (\ie dawn to next dawn).
+
+\item
+If a shape changer is in animal form during the day, there is a 1\%
+cumulative chance for each 5 minutes they remain in animal form that
+they will never be able to change back into human form. Similarly, if
+the shape changer exceeds the time limits given above, there is a 1\%
+cumulative chance (per 5 minutes) of their not being able to return to
+human form.
+
+\item
+A shape changer will be inconvenienced by those wards which can be
+used against were-creatures.
+
+\item
+A shape changer's magic resistance is increased by 5\%.
+
+\item
+If a shape changer takes the courtier skill they pay three-quarters
+the Experience Points necessary to advance ranks.
+\end{Enumerate}
+
+A new set of characteristics must be generated (see Ability 5).
+
+\begin{tabularx}{\linewidth}{Xc}
+\textbf{Characteristic} & \textbf{Modifier} \\
+Physical Beauty		& + 1 \\
+Starting Age		& 16 + \\
+Average Life Span	& 55 -- 65 years \\
+Base Conception Rate	& 5\% \\
+\end{tabularx}
+
+\subsection{Description}
+
+This section covers height, weight, gender, primary hand, and general
+description.
+
+\subsubsection{Height and Weight}
+
+A player should choose their character's height and weight.
+
+The character's height and weight should be chosen according to the
+player's idea of the character, with due regard to the character's
+primary characteristics, race and background.
+
+The following chart give a range of heights and weights within which
+90\% of adventurers fall, and the average values within that
+range. Please modify your chosen height and weight according to gender
+and racial adjustments as below.
+
+\begin{tabular}{ccc}
+\multicolumn{3}{c}{\textbf{Normal Base}} \\
+\textbf{Height} & \textbf{Weight} & \textbf{Range} \\
+5'3"	& 130	& 100--170 \\
+5'6"	& 140	& 110--185 \\
+5'9"	& 150	& 120--200 \\
+6'0"	& 165	& 130--220 \\
+6'3"	& 180	& 145--240 \\
+\end{tabular}
+
+\begin{tabular}{lcc}
+\textbf{Adjustments} & \textbf{Height} &\textbf{Weight} \\
+Human Male	& +0"	& 100\% \\
+Human Female	& -4"	& 80\% \\
+Orc Male	& -4"	& 110\% \\
+Orc Female	& -6"	& 100\% \\
+Elf Male	& +5"	& 80\% \\
+Elf Female	& +2"	& 65\% \\
+\end{tabular}
+
+\begin{tabular}{ccc}
+\multicolumn{3}{c}{\textbf{Short Folk Base}} \\
+\textbf{Height} & \textbf{Weight} & \textbf{Range} \\
+3'9"	& 85	& 65-110 \\
+4'0"	& 95	& 75-125 \\
+4'3"	& 105	& 85-140 \\
+4'6"	& 115	& 95-155 \\
+4'9"	& 125	& 105-170 \\
+\end{tabular}
+
+\begin{tabular}{lcc}
+\textbf{Adjustments} & \textbf{Height} &\textbf{Weight} \\
+Dwarf Male	& +0"	& 100\% \\
+Dwarf Female	& -2"	& 90\% \\
+Halfling Male	& -12"	& 65\% \\
+Halfling Female	& -13"	& 60\% \\
+\end{tabular}
+
+\begin{tabular}{ccc}
+\multicolumn{3}{c}{\textbf{Hill Giants Base}} \\
+\textbf{Height} & \textbf{Weight} & \textbf{Range} \\
+8'4"	& 370	& 295--490 \\
+8'8"	& 420	& 335--555 \\
+9'0"	& 470	& 375--625 \\
+9'4"	& 525	& 420--700 \\
+9'8"	& 580	& 465--780 \\
+\end{tabular}
+
+\begin{tabular}{lcc}
+\textbf{Adjustments} & \textbf{Height} &\textbf{Weight} \\
+Giant Male	& +0"	& 100\% \\
+Giant Female	&  -4"	&  90\% \\
+\end{tabular}
+
+\subsubsection{Gender}
+
+A player may choose whether their character is male or female. It is
+recommended the character be the same gender as the player, as playing
+the opposite gender convincingly is difficult.
+
+Optionally, some characteristics may be adjusted for a female
+character. This would also modify her appropriate racial maximums.
+
+\subsubsection{Female Characteristic Modifier}
+
+\begin{tabular}{lc}
+\textbf{Characteristic} & \textbf{Modifier} \\
+Physical Strength 	& -2 \\
+Manual Dexterity	& +1 \\
+Endurance		& +1 \\
+\end{tabular}
+
+\subsubsection{Primary Hand}
+
+A player must determine whether their character's Primary Hand is
+their right or their left. This determination affects which hand a
+weapon is held during combat, and any penalties assigned for attacking
+with a weapon in a secondary hand.
+
+They may choose either right or left, or roll randomly. If they choose
+to roll, the result must stand.
+
+The player rolls D5 and D10. If the D10 result is greater, the
+character's right hand is primary. If the D5 result is higher, their
+left hand is primary. If the two results are equal, the character is
+ambidextrous.
+
+\subsubsection{Description}
+\label{chargen:description}
+
+The player will sometimes need to describe their character and should
+therefore think about the character's physical appearance based on the
+generated characteristics. They should choose hair, eye and skin
+colour (based on race and family background).
+
+\subsubsection{Conception}
+
+Any rolls against Conception Chance should only be made once in any 48
+hour period.
+
+
+\subsection{Aspects}
+\label{chargen:aspect}
+\index{aspect!astrological}
+
+The timing of a character's birth orients them towards one of several
+astrological influences, or aspects. A character will benefit during
+the time their aspect is powerful, and will suffer when the opposite
+aspect is powerful.
+
+The times of high noon and midnight are extremely important when
+applying the effects of aspects. The GM should allow characters to
+perform actions at precisely those instants, though the passage of
+time must be properly monitored.
+
+\subsubsection{Generating an Aspect}
+
+The player may choose an Aspect as if they had rolled any number up to
+80, or roll D100 once against the following table. If they choose to
+roll on the table, any roll over 80 may be re-rolled.
+
+If the character is joining one of the elemental colleges the player
+may choose any aspect between 1 and 80 that is neutral to their
+college, or they may roll.
+
+
+\begin{tabular}{ll}
+\textbf{Die} & \textbf{Aspect} \\
+01--05		& Winter Air \\
+06--10		& Winter Water \\
+11--15		& Winter Earth \\
+16--20		& Winter Fire \\
+21--25		& Spring Air \\
+26--30		& Spring Water \\
+31--35		& Spring Earth \\
+36--40		& Spring Fire \\
+41--45		& Summer Air \\
+46--50		& Summer Water \\
+51--55		& Summer Earth \\
+56--60		& Summer Fire \\
+61--65		& Autumn Air \\
+66--70		& Autumn Water \\
+71--75		& Autumn Earth \\
+76--80		& Autumn Fire \\
+81--85		& Solar \\
+86--90		& Lunar \\
+91--95		& Life \\
+96-00		& Death \\
+\end{tabular}
+
+\subsubsection{Effects of Aspects}
+
+Apart from elemental aspects, all modifiers apply to percentile rolls,
+not base chances.
+
+\subsubsection{Elemental Aspects}
+
+Characters gain a bonus of 1\% on the Base Chance of performing any
+magic of the same College as their elemental aspect, and a penalty of
+-1\% on the opposed College. Air opposes Earth and Fire opposes
+Water. Ice magic is not affected.
+
+\subsubsection{Seasonal Aspects}
+
+A character is affected by their seasonal aspect during their aspect's
+season and the opposite season. The following table lists the seasonal
+aspect effects and when they apply.
+
+\begin{tabularx}{\linewidth}{Xr}
+\textbf{Time} & \textbf{Effect} \\
+Midnight, Aspect's Season & -10 \\
+Midnight, Equinox or Solstice of Aspect's Season & -25 \\
+Midnight, Opposite Season & +10 \\
+Midnight, Equinox or Solstice of Opposite Season & +25 \\
+\end{tabularx}
+
+The effect is applied for 30 seconds before and after midnight.
+
+\subsubsection{Solar and Lunar Aspects}
+
+A character of solar or lunar aspect is affected by their aspect at
+high noon and midnight. The following table lists the Solar aspect
+effects, and when to apply them.
+
+\begin{tabularx}{\linewidth}{Xr}
+\textbf{Time} & \textbf{Effect} \\
+Noon				& -5 \\
+Midnight			& +5 \\
+Noon, Summer Solstice		& -25 \\
+Midnight, Winter Solstice	& +25 \\
+\end{tabularx}
+
+Lunar aspected characters gain opposite bonuses and penalties for the
+same times. The effect is applied for 10 seconds before and after high
+noon or midnight. If the sky is cloudy, the effect may be reduced to a
+minimum of +/- 1 and 5.
+
+\subsubsection{Life and Death Aspects}
+
+Life and Death aspected people are affected by the creation and
+destruction of life force.
+
+The following table lists the Death aspect effects, and when to apply
+them.
+
+
+{\small \begin{tabularx}{\linewidth}{@@{\hspace{0em}}X@@{\hspace{0.5em}}
+c@@{\hspace{0.5em}}l@@{\hspace{0.5em}}r@@{\hspace{0em}}}
+ & \textbf{Range} & & \\
+ & \textbf{is less} & & \\
+\textbf{Event}		& \textbf{than} & \textbf{Aspect} & \textbf{Effect} \\
+Birth of mammal		& 100'	& Death	& +5 \\
+ & & &  \\
+Birth of humanoid & 250' & Death & +10 \\
+ & & &  \\
+Birth of close relative\dag & 500' & Death & +25 \\
+ & & &  \\
+Death of mammal	& 50' & Death & -5 \\
+ & & &  \\
+Death of humanoid & 125' & Death & -10 \\
+ & & &  \\
+Death of close relative\dag & 250' & Death & -25 \\
+\end{tabularx}}
+
+\dag The close relative can be no more distant than second cousin.
+
+Life aspected characters gain opposite bonuses and penalties for the
+same times. Deaths are non-cumulative (only one can be in effect at a
+given time), though births are cumulative. A stillbirth does not
+affect a life or death aspected character. A resurrection is treated
+as a birth.
+
+A death event is applied for as many seconds as the effect range in
+feet. A life event is applied for 3 times as long.
+
+A female life aspected character will suffer no pain after giving
+birth, and will be as healthy and active as she was before she became
+pregnant.
+
+\subsubsection{Light and Dark Aspects}
+
+All living creatures have an additional celestial Light or Dark
+Aspect.  This is fully explained in an addendum to the College of
+Celestial Magics (\S\ref{celestial:aspect}).
+
+\subsection{Heritage}
+\label{chargen:heritage}
+
+This section is relevant to humans, primarily from the Baronies, and
+should be adapted for other races or regions.
+
+\subsubsection{Social Status}
+
+The ``social status'' is that of the character's \emph{parent(s)},
+usually the father.  The table does not represent the population,
+merely the proportion of backgrounds from which accepted Adventurer's
+Guild applicants originally come. Most social classes are present in a
+variety of environments (city; town/village; rural; court;
+castle/stronghold; maritime).  A player may choose any social category
+in the 01-80 range for the character's background, or roll; however
+any such dice-roll must be accepted.  In general, the higher the
+number rolled, the higher the social status within each band.  A roll
+of 40-90 optionally may, but need not necessarily, indicate a
+respectably retired ex-adventurer.
+
+
+\begin{tabularx}{\linewidth}{lX}
+\textbf{Die} & \textbf{Social Status} \\
+01--14	& Trash / Criminal \\
+15--20	& Bonded \\
+21--29	& Skilled retainer\\
+30--40	& Goodman \\
+45--54	& Master \\
+55--70	& Military \\
+71--84	& Gentry \\
+85--94	& Lesser Nobility \\
+95--98	& Merchant-prince \\
+99--00	& Greater Nobility \\
+\end{tabularx}
+
+\subsubsection{Explanation of Classes}
+
+\begin{Description}
+
+\item[Trash/Criminal] No legitimate employment.
+
+\begin{example}
+Thug; body-snatcher; bandit; pirate; beggar.
+\end{example}
+
+\item[Bonded] There is no slavery in the Baronies. This is the next
+best thing: enforced servitude to one master for a long period [up to
+life], through birth, contract, or debt.
+
+\begin{example}
+Serf; villain; unskilled or semi-skilled servant; labourer;
+indentured apprentice or journeyman in a craft or trade guild;
+dependent artisan contracted to a master; lay member of an accepted
+religious community; ordinary soldier or sailor.
+\end{example}
+
+\item[Skilled Retainer] Voluntarily employed person, physically and
+legally capable of seeking a position elsewhere.  Owns the tools of
+the trade and has other, limited possessions.  Usually works under the
+direction of a goodman or master.  Occasionally an itinerant artisan
+of low status.
+
+\begin{example}
+Clerk; court musician; religious acolyte; freeborn shepherd or farm
+hand; merchant's assistant; family chaplain; tinker; fisher.
+\end{example}
+
+\item[Goodman {[}Goodwife, Goody{]}] Head of a household;
+more possessions and commitments than a mere retainer; comparatively
+independent.  Usually leases or owns a smallholding (if in the
+countryside) or a few rooms (if in a town). Much contact with social
+peers and superiors. Often employs skilled retainers.  Includes
+itinerant professionals and artisans of high status.
+
+\begin{example}
+Miller; pilot; established artisan, minor trader, innkeeper;
+accredited witch; priest in an accepted temple; shop-owner; poor
+freeman-farmer; forester; gamekeeper; itinerant or privately employed
+alchemist, healer, magician or blacksmith.
+\end{example}
+
+\item[Master: {[}Mistress, Mother{]}] Like a goodman, but with a
+larger establishment, more employees, more commitments to subordinates
+and equals.  Tied to one place as direct contact with, and obligations
+to, social superiors and Guilds may make impolitic any relocation or
+other changes in social conduct, despite theoretical liberties and
+rights.
+
+\begin{example}
+Guildmaster of a smaller craft/trading guild, or councillor in a more
+powerful one; wealthy freeman farmer; professional (alchemist, healer
+etc) trading publicly, with own shop and apprentices; Alphonse the
+famous chef; a Ducal Kapellmeister; high-priest of an accepted temple;
+captain-owner of a trade ship; mayor of a medium town.
+\end{example}
+
+\item[Military] A socially sanctioned, trained fighter or skilled
+ancillary. This includes sergeants and low-born lesser officers
+(lieutenants, etc); high-ranking officers are ex officio gentry.
+
+\begin{example}
+Town guardsman; skilled scout or military spy; army blacksmith;
+(legal) mercenary captain.
+\end{example}
+
+\item[Gentry] By birth or service entitled to a coat of arms;
+significant social or military duties. There are often many social
+gradations of gentry not comprehensible to persons outside that
+class. Often possesses an estate or ``independent means'' but is not of
+lordly rank; such persons may, technically, be employed (but usually
+to a lord, or in service to their country). May have difficulty
+ensuring all children have an acceptable start in society (especially
+in larger families).
+
+\begin{example}
+Knight; country squire; beneficed parson; port-reeve; courtier of
+significance; respected \& influential magician; judicial officer of a
+town or district; tax farmer; non-noble army or navy officer
+(generally Captain \& up); cadet member of a noble family.
+\end{example}
+
+\item[Lesser Noble] Of lordly rank. Similar to the gentry, but
+definitely a cut above. Normally owes feudal service to, or through, a
+greater noble.
+
+\begin{example}
+Non-independent Baron; Lord Admiral of a small navy; General; ordinary
+Abbot or other Head of an established, accepted, religious house;
+former gentry ennobled for extraordinary or personal services to a
+great noble or royalty.
+\end{example}
+
+\item[Merchant-Prince] Extremely wealthy city-based merchant, head of
+an extended trade/family.  Controls a nationally significant
+trade-empire and / or monopoly. Has significant power in the local
+guilds. Extensive resources (especially in his/her home city), with
+contacts and enemies in several countries. Capable of ordering actions
+deemed criminal in less influential personages. On a roll of 98, the
+family head is the character's parent; on 95--97, the head is a little
+more distant (perhaps uncle or cousin).
+
+\begin{example}
+Owner of a trade-fleet; trader with a national monopoly on a
+commodity (\eg silk, wine), Guildmaster of a powerful guild.
+\end{example}
+
+\item[Greater Noble] Ruler of a minor country, or head of one of the
+``Great'' families in a larger country.  Will have several estates and
+titles. Usually has subordinates of lordly rank. Children may have
+courtesy titles.
+
+\begin{example}
+An independent Baron; Marshall of a Duke's or independent Count's
+armies; Bishop; Abbot of a mother-abbey; Marshall or vicar-general of
+a powerful order; Count within a duchy; Lord Admiral of a maritime
+nation.
+\end{example}
+
+Greater Noble and Merchant-prince families impact seriously on the
+campaign; the generating GM may need time to consult with other GMs
+before the character's background is finalised.  Characters who wish
+to retain an acknowledged, good social-standing may have to devote
+time and money to maintain their position by indulging in appropriate
+behaviour - noblesse oblige.
+\end{Description}
+
+\subsubsection{Birth Order}
+
+Players should now choose their birth order, or roll on the following
+table. Note that it is unlikely that an heir will go adventuring (at
+least not without active encouragement from the next-in-line).
+
+\begin{tabular}{cl}
+\textbf{Die} & \textbf{Birth Order} \\
+1	& 1st or 2nd \\
+2--3	& 3rd \\
+4	& 4th \\
+5	& 5th \\
+6	& 6th \\
+7--8	& 7th \\
+9	& 8th or later \\
+0	& bastard \\
+\end{tabular}
+
+\subsubsection{Disinheritance}
+
+Beginning characters never start with an estate, magic possessions, or
+other ``real'' wealth.  For game reasons, characters seldom inherit
+while actively adventuring. Most classes will happily pass over an
+adventurer in favour of more deserving and capable stay-at-home
+siblings.  If the heir or heiress can not be passed over (\eg a noble
+estate) and the player does not wish to retire the character, a
+trusted kinsman or tenant must be appointed as trustee or warder, to
+administer and enjoy the inheritance until it is reclaimed.
+
+A noble or wealthy parent may disown adventuring children --- either
+through disfavour, or for mutual protection.  A beginning character
+doesn't want to be set upon by family enemies; and no parent wants the
+social stigma of refusing to pay a ransom. The guild fully supports
+such characters adventuring under an alias, just as it also supports
+gifted adventurers who fled legal restraints in order to join the
+guild (\eg a runaway serf turned mage).  Both classes do have the
+obligation not to expose their fellow adventurers to unnecessary risks
+arising from their backgrounds.
+
+In most cases, achievement begets amnesty.  A serf who has spent a
+year and a day in a town becomes a freeman; a now wealthy prodigal is
+welcomed back into the family fold.
+
+\subsection{Starting Abilities and Possessions}
+\label{chargen:abilities}
+
+This section covers abilities and possessions a character has prior to
+starting life as an adventurer. None of the experience points awarded
+in this section are adjusted by any racial experience modifiers but
+the player must use their character's race and heritage as a guideline
+to the allocation or choices they make. Except where noted, the normal
+acquisition and ranking rules apply to the spending of experience
+points. This section must be started after all other sections are
+completed, and each sub-section must be completed in order.
+
+\subsubsection{Language Skills}
+
+Every character knows their native language, the Alusian trade
+language (Common) and possibly another language. A Guild member will
+be literate in at least one language and literacy is required to learn
+magic.
+
+The player should get the GM's assistance to determine what their
+character's native language is and then choose one of the following
+options for their starting language skills:
+
+\begin{Description}
+\item[Option A] Rank 8 and literate in either native language or
+common; Rank 6 in the other of native language or common; Rank 4 in
+any other common language.
+
+\item[Option B] Rank 8 and literate in either native language or
+common; Rank 7 and literate in the other of native language or common;
+Rank 1 in any other language.
+
+\item[Option C] Rank 9 and literate in either native language or
+common; Rank 6 and literate in the other of native language or common.
+\end{Description}
+
+\subsubsection{Adventuring Skills}
+
+A character starts with Rank 0 in the Adventuring skills of
+Horsemanship, Stealth, Climbing and Swimming. The player now receives
+1250 experience points that may be spent on improving these
+skills. Any experience points left over are lost. They also gain Rank
+0 Flying, but may not raise it at any stage during Character
+Generation.
+
+\subsubsection{Mage or Non Mage?}
+
+The player must decide whether the character will be a magic user or
+not. (This choice can be made at any time during character
+generation).
+
+\subsubsection{Mage}
+
+If the character is to be a magic user then the player must choose a
+college of magic for the character to belong to. Remember that there
+is a minimum Magical Aptitude requirement for each college.
+
+\begin{tabular}{lc}
+\textbf{College}	& \textbf{MA} \\
+Naming Incantation	& 1 \\
+Mind			& 11 \\
+Fire			& 12 \\
+Air			& 13 \\
+Ice			& 13 \\
+Illusion		& 13 \\
+Celestial		& 14 \\
+Earth			& 15 \\
+Bardic			& 16 \\
+E \& E			& 16 \\
+Necromancy		& 16 \\
+Binding \& Animating	& 17 \\
+Water			& 18 \\
+Witchcraft		& 18 \\
+(Rune)			& 18 \\
+\end{tabular}
+
+The character now receives all of the general knowledge abilities of
+their college including talents, general knowledge spells, general
+knowledge rituals, both counterspells, the purification ritual and
+ritual spell preparation.
+
+The player should list these on their character sheet.
+
+\subsubsection{Non Mage}
+
+If a player decides that their character will not be a magic user then
+they receive 6500 experience points to be spent in the following
+order:
+
+\begin{Enumerate}
+\item
+2500 must be spent on either 1 point of Fatigue or 3 points of
+Perception.
+
+\item
+The character must acquire one new skill at rank 2, and may acquire a
+second new skill at no more than rank 1. The Warrior skill may not be
+chosen at this time.
+
+\item
+The character must acquire one weapon at rank 2, and may acquire up to
+two weapons at no more than rank 1.
+
+\item
+The player may save up to 500 points to spend later.
+
+\end{Enumerate}
+
+The player must spend any remaining points on any of:
+\begin{Itemize}
+\item
+1 rank in any known adventuring skills
+
+\item
+more ranks in any known languages
+
+\item
+more perception.
+\end{Itemize}
+
+Any remaining points (other than the permissible 500) are lost.
+
+\subsubsection{Background Experience}
+
+A character now chooses any one Artisan skill at Rank 0. This reflects
+knowledge gained through childhood and must be appropriate to their
+family background.
+
+They also receive 250 Experience Points which, together with any left
+over from the non-mage generation, can be spent freely.
+
+At this time the character may acquire any one new skill at Rank 0 for
+the cost of only 100 EP (rather than the usual cost).
+
+If there is any EP remaining it may be saved for spending later in the
+game.
+
+\subsubsection{Background Possessions}
+
+The character will have two sets of clothing of a quality appropriate
+to their family background. They also have goods up to the value of
+500 sp which may be chosen from the Basic Price List in the Players
+Guide. Up to 50 sp may be saved as cash.
+
+\subsubsection{Modified Agility and Manual Dexterity}
+
+The player should calculate any agility modifiers from the weight of
+their possessions and any armour penalties; see the Encumbrance Table
+(\S\ref{tables:encumbrance}) for values. They should then calculate
+their modified TMR from this value, see the table (\S\ref{tables:tmr})
+for values. If the character uses a shield, they should modify their
+Manual Dexterity as well.
+
+\subsubsection{Finishing the Character}
+
+The player must choose a name for their character.
+
+They should enter every piece of relevant data onto their Character
+Sheet, and calculate base chances and other variables. The generating
+GM will check it, and then sign \& date it as complete.
+
+\index{Character Generation|)}
+\end{multicols*}@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@d529 1
+a529 1
+Dwarf			& 3\% \\
+d588 3
+a590 3
+Starting Age:		& 30 -- 300 + \\
+Average Life Span:	& Circa 10,000 years \\
+Elf			& 1\% \\
+d640 3
+a642 3
+Starting Age:		& 21 + \\
+Average Life Span: 	& 80 -- 90 years \\
+Halfling		& 4\% \\
+d690 3
+a692 3
+Starting Age:		& 26 + \\
+Average Life Span:	& 500 years \\
+Hill Giant		& 2\% \\
+d724 3
+a726 3
+Starting Age:			& 16 + \\
+Average Life Span (Varies widely with wealth and culture): & 40 -- 90 years \\
+Human			& 6\% \\
+d775 3
+a777 3
+Starting Age: 		& 12 + \\
+Average Life Span:	& 40 -- 45 years \\
+Orc			& 10\% \\
+d862 3
+a864 3
+Starting Age: 		& 16 + \\
+Average Life Span:	& 55 -- 65 years \\
+Shape Changer		& 5\% \\
+a956 5
+\subsection{Conception}
+
+Any rolls against Conception Chance should only be made once in any 48
+hour period.
+
+d980 6
+d988 1
+d1123 6
+@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 3
+a3 1
+\begin{multicols}{3}
+d6 1
+a6 1
+\section{Explanation of Characteristics (Vers 2.0)}
+d140 1
+a140 1
+\subsection{Magic Aptitude (MA)}
+d529 1
+d590 1
+d642 1
+d692 1
+d726 1
+d777 1
+d864 1
+d957 5
+d1388 19
+d1493 1
+a1493 3
+\raggedcolumns
+\newpage
+\end{multicols}@
+
+
+3.4
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+3.3
+log
+@Fix e.g. problem
+@
+text
+@d4 1
+a4 1
+\section{Explanation of Characteristics}
+d16 2
+a17 2
+The first six characteristics are the primary characteristics.. These
+can be increased temporarily by magic or permanently by training
+d24 3
+a26 3
+All other characteristics are secondary characteristics. The manner in
+which a secondary characteristic can be changed will be covered in the
+appropriate explanation.
+d54 1
+a54 1
+The GM multiplies the difficulty factor by the appropriate
+d57 2
+a58 2
++ difficulty factor)\%.  The player then rolls D100, and if the roll is
+less than or equal to the percentage then the character has
+d68 5
+a72 5
+Physical Strength is a measure of a character's muscle co-ordination
+and strength.  The Physical Strength characteristic represents the
+brute force a character can exert from the thews of their arms, the
+thrusting power of their leg muscles, and their lift and weight
+capacity.
+a74 1
+
+d78 1
+a79 1
+
+a80 1
+
+d85 1
+a85 1
+
+d89 1
+d93 5
+a97 5
+Manual Dexterity is a measure of a character's control with their
+hands.  The Manual Dexterity characteristic represents the character's
+hand-to-eye co-ordination, the speed at which the character can
+perform a complex task with their hands, and the ability to manipulate
+their hands.
+a99 1
+
+a104 1
+
+a105 1
+
+d107 2
+a108 1
+\item Fine handcrafts \& other delicate tasks.
+d110 1
+a110 1
+
+d113 1
+d117 5
+a121 6
+Agility is a measure of a character's ability to manoeuvre their whole
+body and their speed of movement.  The Agility characteristic
+represents the character's litheness of body, the speed at which the
+character can run, and their ability to dodge with or contort their
+body.
+
+a122 1
+
+a128 1
+
+a129 1
+
+d133 1
+a133 1
+
+d136 1
+d140 5
+a144 5
+Magic Aptitude is a measure of a character's ability to harness and
+direct magical energies.  The Magic Aptitude characteristic represents
+the character's control over the flow of mana (the stuff of magic),
+and their ability to remember spells and rituals.
+
+a145 1
+
+d148 1
+a148 1
+\item Cost of learning \& training magic
+a150 1
+
+a151 1
+
+d158 7
+a164 7
+Willpower is a measure of a character's self control of mind and body,
+especially in stressful situations.  The Willpower characteristic
+represents a character's ability to concentrate, their ability to
+resist the imposition of another's will upon their own, and the degree
+to which their will can be used to counter their instincts (when, for
+instance, the character might be attempting an action which could be
+suicidal).
+a166 1
+
+d171 1
+a172 1
+
+a173 1
+
+d181 6
+a186 7
+Endurance is a measure of the punishment a character's body can absorb
+before the character becomes unconscious, sustains mortal wounds, or
+dies.  The Endurance characteristic represents the character's
+capacity to withstand wounds, their resistance to disease and
+infection and their rate of recovery from same, and directly affects
+their ability to over exert themselves.
+
+a187 1
+
+d189 2
+a190 1
+\item damage capacity
+a192 1
+
+a193 1
+
+d200 5
+a204 5
+Fatigue is a measure of a character's physical and mental fitness.
+The Fatigue characteristic represents the degree to which the
+character can exert themself before becoming exhausted, the number
+minor cuts and bruises they can take before their abilities are
+effected, and the mental energy that can be used to cast spells. This
+a210 1
+
+a215 1
+
+a216 1
+
+d224 11
+a234 12
+Physical Beauty is a measure of a character's exterior attractiveness
+(or repulsiveness) as perceived by the humanoid races.  Physical
+Beauty is a characteristic representing a character's appearance
+compared to the aesthetic standards of the main sentient races.  It is
+in no way a reflection of a character's personality.  Specific
+reactions to PB are also influenced by the observer's race and gender.
+The Physical Beauty values for monsters describe how that monster
+appears to a character, and not to another monster of the same race.
+Physical Beauty can be increased or decreased temporarily by magic,
+and decreased permanently by disfigurement. It cannot be increased by
+training.
+
+a235 1
+
+a238 1
+
+a239 1
+
+d246 5
+a250 5
+Perception is a measure of a character's intuition developed as a
+result of their experience.  The Perception characteristic represents
+the character's ability to note peculiarities in a given situation,
+their ability to deduce a person's habits or customs from scant
+information, and their general knowledge of the world.
+a256 1
+
+a257 1
+
+a262 1
+
+a263 1
+
+d274 5
+a278 6
+The Tactical Movement Rate is the fastest speed a character can move
+in combat.  A character's Tactical Movement Rate (TMR) characteristic
+is based on their Agility and influenced by any weight carried or
+restricting clothing.  It may be temporarily modified by magic or
+injury, but cannot be trained.
+
+a279 1
+
+d283 1
+a283 3
+
+Generic Uses
+
+d332 1
+a332 1
+11	& 90	& (default choice) \\
+d352 1
+a352 1
+The human range for each of these characteristics is 5 -- 25,; this
+d371 6
+a376 5
+characteristics must equal the amount received in the Generating
+Characteristic Points section; thus, a player cannot ``save''
+Characteristic Points and assign them to characteristics at a later
+date. The value of each of the six primary characteristics must be
+recorded before any secondary characteristics are generated.
+d429 1
+a429 1
+penalties; see the TMR (\ref{tables:tmr}) for values.
+d434 1
+a434 1
+A player must choose the race of their character.
+d439 6
+a444 6
+If the player wishes the character to be giant or shape changer they
+must roll D100.  They may roll once per race and if roll lower than
+the race chance \% they must take that race.  If they fail then the
+character must be of one of the common races.  If attempting to be a
+shape changer they must decide what type of shape changer they want
+prior to rolling (\ie wolf, tiger, bear or boar).
+d459 3
+a461 3
+by spending Experience Points (EP). Divide any experience points a
+character gains by the ``racial modifier'' and then spend the result
+normally.
+d464 1
+a464 1
+\textbf{Race}	& \textbf{Multiplier} \\
+d467 1
+a468 1
+Halfling	& 1.1 \\
+d478 1
+a478 1
+\subsection{Dwarf}
+d480 2
+a481 2
+A dwarf is a short, bearded humanoid, usually taciturn who frequents
+mountainous areas.
+d483 1
+a483 1
+\textbf{Traits:} Pride and attention to detail are important to
+d508 2
+a509 2
+If a dwarf character is a Ranger specialising in mountains or caverns
+(spelunker), they pay half the EP cost necessary to advance ranks.
+d515 1
+a515 1
+\begin{tabular}{lc}
+d525 7
+a531 1
+\end{tabular}
+d533 6
+a538 15
+\begin{flushleft}
+Starting Age: 20 + \\
+Average Life Span: 125 to 150 Earth years \\
+\end{flushleft}
+
+\subsection{Elf}
+
+An elf is a slim agile humanoid, who frequents wooded areas.
+
+\textbf{Traits:} Elves are virtually immortal and generally take the
+long term view. They are insular, indifferent to others and tend to be
+traditional.  Elves are great respecters of nature and learning. Their
+Elders are repositories of great wisdom while elvish youth are
+enthusiastic merry makers. Elven warriors favour bow weapons and
+disdain metal armour. Members of other races generally find elves
+d575 1
+a575 1
+\begin{tabular}{lc}
+d585 8
+a592 1
+\end{tabular}
+d594 11
+a604 20
+\begin{flushleft}
+Starting Age: 28 -- 300 + \\
+Average Life Span: Circa 10,000 years \\
+\end{flushleft}
+
+\subsection{Halfling}
+
+A halfling is a short, cheerful humanoid, who will be an active
+participant in village life.
+
+\textbf{Traits:} Halflings appreciate the good life more than most; a
+successful halfling will arrange a schedule of much sleep, good food,
+and relaxed study or conversation. Halfling are shy around other races
+preferring to merge into the background.  Amongst themselves they are
+a friendly folk, who form into small communities where everyone knows
+everyone else's business. While Halflings take their social
+responsibilities seriously, they are renowned for their practical
+jokes and light fingers. Halflings are noted for their tough, hairy
+feet and usually go barefoot. Halflings avoid the rigours of military
+life but when forced to defend themselves they favour small weapons.
+d627 1
+a627 1
+\begin{tabular}{lc}
+d636 8
+a643 1
+\end{tabular}
+d645 3
+a647 13
+\begin{flushleft}
+Starting Age: 21 + \\
+Average Life Span: 80 to 90 years \\
+\end{flushleft}
+
+\subsection{Hill Giant}
+
+A hill giant is a huge, coarse featured humanoid, who has no patience
+for laborious learning.
+
+\textbf{Traits:} Giants are lusty types, preferring nothing better
+than to go through life brawling, drinking, and wenching. They tend to
+gather together in a clan arrangement, building huge halls (or
+d670 1
+a670 1
+(\ref{tables:weapons}).
+d673 1
+a673 1
+\begin{tabular}{lc}
+d685 8
+a692 1
+\end{tabular}
+d694 13
+a706 23
+\begin{flushleft}
+Starting Age: 26 + \\
+Average Life Span: 500 years \\
+\end{flushleft}
+
+\subsection{Human}
+
+Humans are by far the most common race on Alusia, frequenting most
+areas and climes.
+
+\textbf{Traits:} Humans have a great diversity of cultures, languages
+and sub-racial traits, such as hair and eye colour or skin tone. Human
+behaviour is an odd mix.  They can be superstitious and distrustful of
+the unknown, but they are also insatiably curious and look for new
+knowledge.  Many also seek personal fame and fortune as most human
+social structures are less rigid than those of non-humans and a
+person's birth need not permanently define their place in society.
+This odd combination of attributes has lead them to become great
+explorers and sailors, and they will venture boldly into unexplored
+areas in search of knowledge and wealth.  Humans build great cities
+and are far more welcoming of other races than most.  Outside of their
+own culture they are social chameleons; adept at adapting their
+behaviour to match local customs.
+d716 14
+a729 13
+\begin{flushleft}
+Starting Age: 16 + \\
+Average Life Span: 40 to 90 years (Varies widely with wealth and culture). \\
+\end{flushleft}
+
+\subsection{Orc}
+
+An Orc is a stoop-shouldered, surly humanoid and a pack member by
+nature.
+
+\textbf{Traits:} Orcs are a cruel, violent folk, liking nothing better
+than to loot and pillage. Individuals test themselves against their
+peers, bullying anything weaker but cowering away from anything
+d751 2
+a752 5
+take one of either Assassin Skill or Warrior Skill and expend
+three-quarters the Experience points to progress in Ranks.
+
+\item
+Due to their tough skin, orcs have one point of Natural Armour.
+d759 1
+a759 1
+\begin{tabular}{lc}
+d767 4
+a770 6
+\end{tabular}
+
+\begin{flushleft}
+Starting Age: 12 + \\
+Average Life Span: 40 to 45 years \\
+\end{flushleft}
+d772 1
+a772 1
+\subsection{Shape Changer}
+d774 2
+a775 2
+Shape Changers are a hidden race amongst humans, with the ability to
+change into the form of a particular animal.
+d777 2
+a778 2
+\textbf{Traits:} Shape Changers are identical in appearance to humans
+when not in animal form. Shape Changers somewhat bestial in nature,
+d786 1
+a786 1
+discomforted by garlic) and these vary by shape changer type. Shape
+d794 2
+a795 2
+vice-versa) in 10 seconds during daytime and 5 seconds during the
+night-time.
+d799 1
+a799 1
+inhibitions will be muted, and while in human form, animal instincts
+d809 1
+a809 1
+The shape changer will regenerate 1 Endurance Point every 60 seconds
+d851 1
+a851 1
+\begin{tabular}{lc}
+d854 3
+a856 6
+\end{tabular}
+
+\begin{flushleft}
+Starting Age: 16 + \\
+Average Life Span: 55 to 65 years \\
+\end{flushleft}
+d863 1
+a863 1
+\subsubsection{Height \& Weight}
+d874 1
+a874 1
+\& race as below.
+d930 1
+a930 1
+\subsection{Gender}
+d948 1
+a948 1
+\subsection{Primary Hand}
+d963 1
+a963 1
+\subsection{Description}
+d991 2
+a992 2
+may choose any aspect between 1 -80 that is neutral to their college,
+or they may roll.
+d997 18
+a1014 18
+01--05		& Winter Stars (Air) \\
+06--10		& Winter Stars (Water) \\
+11--15		& Winter Stars (Earth) \\
+16--20		& Winter Stars (Fire) \\
+21--25		& Spring Stars (Air) \\
+26--30		& Spring Stars (Water) \\
+31--35		& Spring Stars (Earth) \\
+36--40		& Spring Stars (Fire) \\
+41--45		& Summer Stars (Air) \\
+46--50		& Summer Stars (Water) \\
+51--55		& Summer Stars (Earth) \\
+56--60		& Summer Stars (Fire) \\
+61--65		& Autumn Stars (Air) \\
+66--70		& Autumn Stars (Water) \\
+71--75		& Autumn Stars (Earth) \\
+76--80		& Autumn Stars (Fire) \\
+81--85		& Sun (Solar) \\
+86--90		& Moon (Lunar) \\
+d1029 1
+a1029 1
+Water. Ice \& Celestial magic is not affected.
+d1047 1
+a1047 1
+\subsubsection{Solar \& Lunar Aspects}
+d1066 1
+a1066 1
+\subsubsection{Life \& Death Aspects}
+d1068 1
+a1068 1
+Life \& Death aspected people are affected by the creation and
+d1079 2
+a1080 3
+\textbf{Event} & \textbf{than} & \textbf{Aspect} & \textbf{Effect} \\
+Birth of non-	& 100'	& Life	& -5 \\
+humanoid mammal & & Death & +5 \\
+d1082 1
+a1082 2
+Birth of humanoid & 250' & Life & -10 \\
+mammal		& & Death & +10 \\
+d1084 1
+a1084 3
+Birth of humanoid & 500' & Life & -25 \\
+mammal related & & Death & +25 \\
+to character\dag	& & & \\
+d1086 1
+a1086 2
+Death of non-	& 50' & Life & +5 \\
+humanoid mammal &  & Death & -5 \\
+d1088 1
+a1088 2
+Death of humanoid & 125' & Life & + 10 \\
+mammal	&  & Death & -10 \\
+d1090 1
+a1090 3
+Death of human- & 250' & Life & +25 \\
+oid mammal related\dag & & Death & -25 \\
+to character & & & \\
+d1093 1
+a1093 1
+\dag The relative can be no more distant than second cousin.
+d1116 4
+a1119 4
+The ``social status'' is that of the character's parent(s), usually the
+father.  The table does not represent the population, merely the
+proportion of backgrounds from which accepted Adventurer's Guild
+applicants originally come. Most social classes are present in a
+d1132 1
+a1132 1
+14--20	& Bonded \\
+d1140 1
+a1140 1
+98--00	& Greater Nobility \\
+d1153 1
+a1153 1
+\item[Bonded]There is no slavery in the Baronies. This is the next
+d1164 1
+a1164 1
+\item[Skilled Retainer] Voluntarily employed person, physically \&
+d1166 1
+a1166 1
+the trade \& has other, limited possessions.  Usually works under the
+d1175 2
+a1176 2
+\item[Goodman {[}Feminine forms: Goodwife, Goody{]}] Head of a household;
+more possessions \& commitments than a mere retainer; comparatively
+d1189 6
+a1194 6
+\item[Master: {[}Feminine forms: Mistress, Mother{]}] Like a goodman,
+but with a larger establishment, more employees, more commitments to
+subordinates and equals.  Tied to one place as direct contact with \&
+obligations to social superiors and Guilds may make impolitic any
+relocation or other changes in social conduct, despite theoretical
+liberties \& rights.
+d1197 5
+a1201 5
+Guildmaster of a smaller craft/trading guild, or councillor in a
+more powerful one; wealthy freeman farmer; professional (alchemist,
+healer etc) trading publicly, with own shop \& apprentices; Alphonse
+the famous chef; a Ducal Kapellmeister; high-priest of an accepted
+temple; captain-owner of a trade ship; mayor of a medium town.
+d1205 1
+a1205 1
+ancillary. This includes sergeants \& low-born lesser officers
+d1240 1
+a1240 1
+\item[Merchant-Prince] Obscenely wealthy city-based merchant, head of
+d1242 1
+a1242 1
+trade-empire \&/or monopoly. Has significant power in the local
+d1266 2
+a1267 2
+Greater Noble \& Merchant-prince families impact seriously on the
+campaign; the generating GM may need time to consult with other Ms
+d1298 4
+a1301 6
+siblings (\eg ``A dear child, a wonder with a broadsword; but
+business is business, and in the spice trade ...'').  If the heir or
+heiress can not be passed over (\eg a noble estate) and the player
+does not wish to retire the character, a trusted kinsman or tenant
+must be appointed as trustee, or warder, to administer and enjoy the
+inheritance until it is reclaimed.
+d1314 1
+a1314 1
+year-\&-a-day in a town becomes a freeman; a now wealthy prodigal is
+d1317 1
+a1317 1
+\subsection{Starting Abilities \& Possessions}
+d1322 3
+a1324 3
+in this section are adjusted by racial experience modifiers but the
+player must use their character's race and heritage as a guideline to
+the allocation or choices they make. Except where noted, the normal
+d1331 3
+a1333 3
+Every character knows their native language, the trade language
+(Common) and possibly another language. A Guild member will be
+literate in at least one language and literacy is required to learn
+d1341 1
+a1341 1
+\item[Option A] Rank 8 \& literate in either native language or
+d1345 2
+a1346 2
+\item[Option B] Rank 8 \& literate in either native language or
+common; Rank 7 \& literate in the other of native language or common;
+d1349 2
+a1350 2
+\item[Option C] Rank 9 \& literate in either native language or
+common; Rank 6 \& literate in the other of native language or common.
+d1406 2
+a1407 2
+The player must spend any remaining points on:
+\begin{Enumerate}
+d1416 1
+a1416 1
+\end{Enumerate}
+d1442 1
+a1442 1
+\subsubsection{Modified Agility \& Manual Dexterity}
+d1446 4
+a1449 3
+(§x.x) for values. They should then calculate their modified TMR from
+this value, see the TMR (§61.1) for values. If the character uses a
+shield, they should modify their Manual Dexterity as well.
+@
+
+
+3.2
+log
+@Check in before modifying e.g. and i.e.
+@
+text
+@d471 1
+a471 1
+prior to rolling (i.e.\ wolf, tiger, bear or boar).
+d827 1
+a827 1
+very few ways to tell a shape changer from a human (e.g.\ they will be
+d865 1
+a865 1
+times the quarters of the moon showing (i.e.\ at full moon they may
+d869 1
+a869 1
+the of the moon per day (i.e.\ dawn to next dawn).
+d1304 1
+a1304 1
+commodity (e.g.\ silk, wine), Guildmaster of a powerful guild.
+d1351 1
+a1351 1
+siblings (e.g.\ ``A dear child, a wonder with a broadsword; but
+d1353 1
+a1353 1
+heiress can not be passed over (e.g.\ a noble estate) and the player
+d1364 1
+a1364 1
+guild (e.g.\ a runaway serf turned mage).  Both classes do have the
+@
+
+
+3.1
+log
+@Fix typos and references.
+@
+text
+@d11 2
+a12 2
+time.  A "temporary" change indicates an increase or decrease of
+limited duration to the value of a characteristic; a "permanent"
+d471 1
+a471 1
+prior to rolling (ie. wolf, tiger, bear or boar).
+d482 2
+a483 2
+has the appropriate racial modifiers.  Eg. Erelheine characters are
+generated using the Elf option.
+d487 1
+a487 1
+character gains by the "racial modifier" and then spend the result
+d1269 1
+a1269 1
+class. Often possesses an estate or "independent means" but is not of
+d1304 1
+a1304 1
+commodity (eg.: silk, wine), Guildmaster of a powerful guild.
+@
+
+
+3.0
+log
+@New version of character generation from Rosemary Mansfield.
+@
+text
+@d336 1
+d459 1
+a753 3
+
+\textbf{No characteristic modifiers.}
+
+a758 1
+
+d827 1
+a827 1
+very few ways to tell a shape changer from a human (e.g., they will be
+d865 1
+a865 1
+times the quarters of the moon showing (i.e., at full moon they may
+d869 1
+a869 1
+the of the moon per day (i.e., dawn to next dawn).
+d944 5
+a948 5
+3'6"	& 75	& 55--95 \\
+3'9"	& 85	& 65--110 \\
+4'0"	& 95	& 75--125 \\
+4'3"	& 105	& 85--140 \\
+4'6"	& 115	& 95--155 \\
+d955 2
+a956 2
+Halfling Male	& -8"	& 65\% \\
+Halfling Female	& -10"	& 60\% \\
+d1009 1
+d1017 1
+d1162 1
+d1351 1
+a1351 1
+siblings (e.g.: ``A dear child, a wonder with a broadsword; but
+d1353 1
+a1353 1
+heiress can not be passed over (e.g., a noble estate) and the player
+d1364 1
+a1364 1
+guild (eg.: a runaway serf turned mage).  Both classes do have the
+d1373 1
+@
+
+
+2.2
+log
+@Check in before replacing with completely new version from Rosemary Mansfield.
+@
+text
+@d3 2
+a4 1
+\section{Characters in Adventurers Guild}
+d6 21
+a26 65
+A player assumes the role of a character. The player develops the
+personality of the character during adventures; the character's
+needs, foibles, and ethos are revealed through interaction with the
+other players' characters and the creatures represented by the GM.
+The manner in which the character's personality develops will
+undoubtedly be affected by that character's characteristics.  A
+characteristic is a measure of a facet of the character's physical or
+mental make-up which the player does not invent.
+
+Characters begin play at an age such that their body has matured
+enough that further growth will not alter their characteristics.  The
+character does have some of their life already behind them; the
+memories of those times must be supplied by the player, but any monies
+and experience accumulated are the character's to spend.  Players are
+encouraged to develop a history and a set of basic motivations for the
+character.  These should be consistent with characteristic points,
+skills, etc and the GM should insist that the persona and history of
+the character be explainable in these terms.
+
+A player must keep track of the statistical data (e.g.,
+characteristics) concerning their character. The GM can choose to use
+a different recording form, or modify the one provided.  Whichever the
+case, the GM must be provided with a complete and current character
+record for each player's character.  The GM can then verify the
+information on each record, or make corrections where necessary.  Each
+player should also have a copy of their own character's record, though
+as play goes on, the two records will differ (the GM may note
+something about a character which the player does not know, such as a
+curse).  In addition to a character record, a player must maintain a
+notebook for recording all monetary and EP expenditure.  This should
+be checked by the GM at the beginning of every adventure and ``signed
+off'' by the GM when satisfied that all calculations are correct with
+respect to money, time and EP.
+
+All characters must be rolled up with a GM present.  The GM's role is
+to provide advice required as regards the rules, to counsel with
+respect to choice of race, skills, etc. to suit the player's vision of
+the character, and to verify dice rolls.  When the character is
+completely rolled up the character must be interviewed by a member of
+the Adventurers Guild Membership Tribunal, and sign the Guild
+membership form before being accepted as a Guild member and can go
+adventuring. This gives another GM an opportunity to check that the
+character has been correctly rolled up and all aspects properly
+considered.
+
+\section{Description of Characteristics}
+
+The player must generate and/or assign values to each of the
+character's first eight characteristics, listed below.
+
+The first six characteristics are the \emph{primary} characteristics.
+Primary characteristics can be increased temporarily by magic or or
+permanently by the expenditure of experience, and can be decreased
+temporarily by magic or injury, or permanently by injury to the
+character.  These primary characteristics can never be increased more
+than 5 above their starting value by the expenditure of experience
+points, and never above racial maximum, except by magical means.  All
+other characteristics, whether or not optional, are \emph{secondary}
+characteristics.  The manner in which a secondary characteristic can
+be changed will be covered in the appropriate rule.  A ``temporary''
+change indicates an increase or decrease of limited duration to the
+value of a characteristic; a ``permanent'' change indicates an
+increase or decrease of indefinite duration to the value of a
+characteristic.  Adventurers in a world of magic can expect to be in a
+state of flux for most of the time.
+d30 1
+a30 1
+lack of such ability.  A characteristic's effect is almost always
+d32 21
+a52 1
+during play.
+d54 37
+a90 25
+Though characteristics are relatively fixed, a player retains total
+freedom of choice for the character.  When a player shapes the
+personality of the character, the player will probably wish to account
+for some of the character's more extreme characteristics.  For
+instance, if a character with an extremely low Physical Strength value
+decided to specialise in magic, the character might compensate for an
+inferiority complex developed during adolescence (due to constant
+bullying) by choosing spells of destruction.  The spells would, or
+course, allow that character to stand off the would-be Conans of the
+world.  A character with a high value in Agility might indulge in
+frivolous sports, because of a natural talent in such activities.
+Remember, the greater the care taken when characterising, the more
+``real'' the character becomes.  The player should strive for
+consistency in developing facets of the character's emotional
+make-up.
+
+\subsection{Physical Strength (PS)}
+
+\subsubsection{\emph{Physical Strength} is a measure of a character's
+muscle co-ordination and strength.}
+
+The Physical Strength characteristic represents the brute force a
+character can exert from the thews of their arms, the thrusting power
+of their leg muscles, and their lift and weight capacity (using leg,
+back and stomach muscles).
+d94 2
+a95 4
+\subsubsection{\emph{Manual Dexterity} is a measure of a character's
+digital control.}
+
+The Manual Dexterity characteristic represents the character's
+d100 1
+a100 1
+\subsection{Agility (AG)}
+d102 11
+a112 2
+\subsubsection{\emph{Agility} is a measure of a character's ability to
+manoeuvre their body and their speed of movement.}
+d114 2
+a115 3
+The Agility characteristic represents the character's litheness of
+body, the speed at which the character can run, and their ability to
+dodge with or contort their body.
+d117 22
+a138 1
+\subsection{Endurance (EN)}
+d140 2
+a141 8
+\subsubsection{\emph{Endurance} is a measure of the punishment a
+character's body can absorb before the character becomes unconscious,
+sustains mortal wounds, or dies.}
+
+The Endurance characteristic represents the character's capacity to
+withstand wounds, their resistance to disease and infection and their
+rate of recovery from same, and directly affects their ability to
+over exert themselves.
+d145 18
+a162 6
+\subsubsection{\emph{Magic Aptitude} is a measure of a character's
+ability to harness and direct magical energies.}
+
+The Magic Aptitude characteristic represents the character's control
+over the flow of \emph{mana} (the stuff of magic), and their ability
+to remember spells and rituals.
+d166 5
+a170 6
+\subsubsection{\emph{Willpower} is a measure of a character's control
+of their mind and body especially in stressful situations.}
+
+The Willpower characteristic represents a character's ability to
+resist the imposition of another's will upon their own, the degree to
+which their will can be used to counter their instincts (when, for
+d172 1
+a172 1
+suicidal), and their ability to concentrate.
+d174 1
+a174 1
+\subsection{Fatigue (FT)}
+d176 12
+a187 14
+\subsubsection{\emph{Fatigue} is a measure of the length of time that a
+character can sustain activities requiring a great deal of physical or
+mental exertion.}
+
+The Fatigue characteristic represents the number of potentially
+serious wounds the character can turn into minor cuts and bruises by
+their adroit or random manoeuvring in combat, the mental energy that can be
+used to cast spells, and the degree to which the character can exert
+themself before becoming exhausted.
+
+The Fatigue value can be increased permanently, by expenditure of
+Experience Points, and temporarily, by magic.  The maximum for a human
+is 23, and for other races as modified by their racial modifiers.
+This value may only be exceeded temporarily, and only by magic.
+d189 1
+a189 1
+\subsection{Perception (PC)}
+d191 19
+a209 2
+\subsubsection{\emph{Perception} is a measure of a character's
+intuition developed as a result of their experience.}
+d211 1
+a211 5
+The Perception characteristic represents the character's ability to
+note peculiarities in a given situation (e.g. recognise an ambush),
+their ability to deduce a person's habits or customs from scant
+information, and their ability to gauge the fighting skill of
+another person or monster.
+d213 24
+a236 7
+The Perception value can be increased or decreased temporarily, as a
+result of a character's performance during an expedition, and can be
+increased permanently, through the expenditure of experience. The
+maximum for a human is 25, and for other races as modified by their
+racial modifiers.  Magic, certain natural or alchemical preparations,
+and the character's condition can cause a temporary increase or
+decrease in the Perception value.
+d240 6
+a245 17
+\subsubsection{\emph{Physical Beauty} is a measure of a character's
+exterior attractiveness (or repulsiveness) as perceived by a member
+of a humanoid race.}
+
+Physical Beauty is a characteristic representing a character's
+appearance compared to the aesthetic standards of their society and
+race.  A character with a high Physical Beauty value will be a
+pleasing sight to a member of any of the races described in character
+generation, though reactions will vary by race (for example, a female
+halfling could find a male halfling with a Physical Beauty of 23
+sexually stimulating, while a female human might think that same
+halfling is extremely cute).  Physical Beauty is in no way a reflection
+of a character's personality; a member of the opposite sex might
+be smitten by a character with a high Physical Beauty value, but
+the smitten character's subsequent reactions will probably be
+governed by the beautiful character's personality.
+
+d248 3
+a250 38
+This distinction is made because there is a greater incidence of
+character-to-monster than monster-to-monster interaction, from the
+perspective of the players.  Physical Beauty can be increased or
+decreased temporarily by magic, and decreased permanently by
+disfigurement. It cannot be increased by the expenditure of EP.
+
+\section{Effects of Characteristics}
+
+The characteristics do not cover every facet of a character's
+performance on an adventure.  The GM relies upon characteristics only
+when a player attempts a physical or magical action for which
+character-GM interaction will no longer help decide the outcome.  If
+the character must exercise their intelligence or wisdom (to name a
+few facets of their personality not included in characteristics), the
+player must provide the action or conversation for their character.
+
+\subsubsection{If a character attempts a feasible task not specifically
+explained in a rule, the GM derives a percentage chance of the
+character succeeding.}
+
+When a player declares that their character will attempt a task which
+the GM acknowledges as dependent upon a particular characteristic, the
+GM assigns the task a difficulty factor.  This difficulty factor will
+be a number from one-half through to 5. The greater the difficulty
+factor value, the easier a task will be to perform.
+
+The GM multiplies the difficulty factor by the appropriate
+characteristic, arriving at the percentage chance of the character
+performing the task.  The player then rolls D100, and if the roll is
+less than or equal to the percentage then the character has
+successfully performed the task. If the roll is greater than the
+percentage, but not greater than the percentage plus the relevant
+characteristic, the character has failed without injury to themself
+(if injury is at all possible).  If the roll is greater than the
+percentage plus the relevant characteristic, then the character has
+failed and may have injured themself.  The GM may wish to determine
+the extent of the injury by how much the roll exceeds the percentage
+plus the characteristic.
+d252 1
+a252 18
+\begin{example}
+Rolf the Barbarian informs the GM that he wishes to burst open a
+solid-looking oaken door which has temporarily stymied the party.  He
+proposes to use his trusty great axe to batter the door down.  The GM,
+who knows that the door is buttressed by an iron bolt on the reverse
+side, assigns it a difficulty of 2.5.  Rolf's Physical Strength is 20,
+so if Rolf rolls a 50 or less (2.5 \x 20 = 50), the door bursts
+asunder (and any traps will probably be set off).  If the roll is from
+51 to 70 (2.5 \x 20 + 20 = 70), the door withstands Rolf's assault.
+If the roll is 71 or greater, results will vary from the great axe
+being damaged or broken to Rolf receiving a jarring shock (he hit the
+iron bolt directly) to Rolf suffering Damage Points as oak splinters
+penetrate his armour.  The result depends on the GM's discretion and
+how great the roll is.  Rolf's maximum success chance is 70 + 20 + 2.5
+(round down).  If the GM had assigned a difficulty factor of 5, giving
+a Base Chance of 100 (5 \x 20), a roll of 96 or greater would still
+have failed.
+\end{example}
+d254 3
+a256 2
+The following sample tasks are provided so that GMs can establish
+their own guidelines.
+d258 1
+a258 1
+\subsubsection{Physical Strength}
+d260 3
+a262 5
+Opening doors and lifting heavy objects will be the two most common
+tasks tied to Physical Strength.  Consider the sturdiness of the door
+and the implement being used to open it for the former, and consider
+the weight and bulk of the object plus the purchase afforded the
+character for the latter.
+d264 1
+d266 5
+a270 1
+\subsubsection{Manual Dexterity}
+d272 62
+a333 102
+Consider the delicacy of the task when a character seeks the careful
+manipulation or removal of an object.
+
+
+\subsubsection{Agility}
+
+Consider the sturdiness of the structure being crossed or climbed and
+the ease with which the character can balance themself when attempting
+to cross or climb a poorly anchored structure.
+
+
+\subsubsection{Endurance}
+
+Consider how tired the character already is and how exhausting the
+upcoming task if the character wishes to push their body to its
+limits.
+
+If more than one character is attempting a task which the GM will
+resolve using these rules, the GM can reduce the difficulty factor if
+their combined efforts surpass those of one.  If the task requires a
+co-operative effort, the difficulty factor remains the same.  In either
+case, the lowest-valued characteristic among the performing characters
+is the multiplier.
+
+\subsubsection{Magic tasks require the use of the Magic Aptitude
+characteristic.}
+
+In order to perform any activity involving magic (talent, spell,
+ritual, minor magic or triggering invested magic), a character must be
+a member of the class of beings that have Magic Aptitude.  In general,
+the higher the value of the Magic Aptitude characteristic, the easier
+it will be to perform the magical task.  Refer to Magic Book for more
+detail.
+
+\subsubsection{The information given the players by the GM will
+sometimes depend upon a player's Perception characteristic.}
+
+Characters will often have to rely upon their intuition and their
+powers of observation at crucial junctures during an adventure.  The
+GM can re-create a character's interpretation of events or of a
+tableau in front of them by deriving a percentage chance (of the
+character understanding the situation properly) from one character's
+Perception value.
+
+The GM should use this procedure to dictate what will be told to the
+players only when the particular clue or piece of information is not
+deducible from verbally-relayed data.  The GM should, for example,
+inform the players that the ellipsoid symbol on the robes of the tall
+man approaching them probably indicates that he is a priest, since the
+circle is a religious symbol used throughout their world.
+
+When the GM deems it appropriate to check a player's Perception before
+answering a question, the GM either consults the Perception of the
+leader or the character who is particularly suited to deduce
+information in the current situation.  The obscurity of the
+information sought determines the difficulty factor.  Multiply the
+character's Perception value by the difficulty factor, and the player
+rolls D100.
+
+If the roll is equal to or less than the percentage chance, the GM
+informs the appropriate player of that correct information.  If the
+roll is greater than the percentage, but not greater than the
+percentage plus the character's Perception value, the GM will either
+inform the player that they are not sure or give them part (but not
+all) of the information.  If the roll is greater than their percentage
+plus the character's Perception value, the GM will mix fact with
+fiction, the greater the roll, the more erroneous the information.
+
+
+The GM should not avail themself of this procedure constantly during
+an expedition.  It should be used when the players request more
+information than the GM is willing to give them, when the characters
+venture into foreign places or lands or meet alien people or races,
+and when a decision is necessary to speed play.  Remember that
+constant use of this procedure makes the outcome of the adventure
+increasingly luck dependent.  A judicious GM will use the procedure no
+more than once per hour (real time) during an expedition.
+
+The GM will stint those players who constantly request use of the
+Perception roll when it comes time for experience awards.  A player
+who allows dice rolls to usurp the responsibilities of their mind
+deserves no better.
+
+\section{Generating a Character}
+
+The player randomly generates their character's total Characteristic
+Points.  The player assigns values, within specified limits, to each
+of the primary characteristics from this point pool.  The secondary
+characteristics are generated either randomly or as a direct function
+of a primary characteristic, or they begin at a set number for all
+characters.  Some of the characteristics will be modified if the
+character is of a non-human race.  The player will not know the race
+of their character (unless human) until all of the characteristics have
+been generated.
+
+The range of values for primary characteristics will normally be
+between 5 and 25.  A value of 5 represents the minimum performance
+possible by an adventuring character.  Thus, a character with a Manual
+Dexterity of 5 could not effectively wield a weapon, but is not so
+inept that they could not handle it without damaging themselves.  A
+value of 25 represent the maximum performance which can be achieved by
+a human.
+d337 33
+a369 10
+\subsubsection{Each player begins the game with a randomly determined
+number of Characteristic Points from which to assign values to their
+character's primary characteristics.}
+
+Each player may either roll 2D10 once and reads across the line on the
+Point Generation Table corresponding to the two dice total, or elect
+to have any roll up to 11 (81 -- 90 stat points), but if they choose
+to roll the dice, they must accept the outcome.  The number of
+Characteristic Points and Maximum value thereby obtained is noted on a
+piece of scrap paper.
+d371 1
+a371 23
+\begin{tabular}{ccc}
+\multicolumn{3}{c}{\textbf{Characteristic}} \\
+\textbf{Die Roll} & \textbf{Points} & \textbf{Max Value} \\
+ 2 & 81 & 25 \\
+ 3 & 82 & 25 \\
+ 4 & 83 & 24 \\
+ 5 & 84 & 24 \\
+ 6 & 85 & 24 \\
+ 7 & 86 & 23 \\
+ 8 & 87 & 23 \\
+ 9 & 88 & 23 \\
+10 & 89 & 22 \\
+11 & 90 & 22 \\
+12 & 91 & 22 \\
+13 & 92 & 21 \\
+14 & 93 & 21 \\
+15 & 94 & 21 \\
+16 & 95 & 20 \\
+17 & 96 & 20 \\
+18 & 97 & 20 \\
+19 & 98 & 19 \\
+20 & 99 & 19 \\
+\end{tabular}
+d373 18
+a390 26
+\subsubsection{The minimum value that a player can assign to a primary
+characteristic is 5, and the maximum value is set from the same dice
+roll as above (before racial modifiers).}
+
+Furthermore, a character can have only \emph{one} characteristic
+equal to the maximum value, if that value is greater than 20.  The
+character can have up to \emph{two} characteristics equal to the
+maximum value if that value is 19 or 20.  In either case, the
+character can have up to \emph{two} characteristics equal to \emph{one
+less} than their maximum value and up to \emph{three} characteristics
+equal to \emph{two less} than their maximum value.  If a character
+does not have a characteristic equal to the maximum value, the player
+can increase the limit of characteristics with a value one or two less
+than the maximum value by \emph{one}.  Similarly, the player can
+``transfer'' an extra characteristic equal to two less than the
+maximum value for either or both of their two characteristics equal to
+one less than the maximum value; thus, if it were mathematically
+possible, a character could have \emph{six} characteristics equal to
+\emph{two less} than the maximum value.
+
+Prior to dividing up the characteristic points, the player should give
+some thought to what kind of character the player wishes to have and
+what weapons, spells, and/or skills desired for the newly created
+individual.  Certain weapons require a great deal of Physical Strength
+or Manual Dexterity and the player should be sure to allot enough
+points in those areas to use the weapons of their choice.  All magical
+d392 1
+a392 1
+should be aware of these restrictions.  Most Skills do not have any
+d394 1
+a394 7
+value in certain characteristics.  The choice of race will also alter
+the characteristic values, and the player must consider all
+requirements and restrictions.
+
+It is permissable to roll a character's Aspect (\S
+\ref{chargen:aspects}) prior to the assigning of points to
+characteristics.  Race must be determined after points are assigned.
+d396 21
+a416 20
+\begin{example}
+A player begins with 88 points (maximum 23) with which to assign
+values to characteristics.  The player could choose a Physical
+Strength of 23 (the maximum value), an Endurance and Willpower of 22
+(the two with one less than the maximum value), an Agility and Manual
+Dexterity of 9, and Magical Aptitude of 5.  If the player wishes,
+the player could decrease their Physical Strength by one (to 22), and
+increase either Agility, Manual Dexterity or Magical Aptitude by one.
+\end{example}
+
+When the player has chosen the values for the character, the player
+writes them down on the Character Record.  The total value of the six
+primary characteristics must equal the amount received from the Point
+Generation Table; thus, a player cannot ``save'' Characteristic Points
+and assign them to characteristics at a later date.  The value of each
+of the six primary characteristics must be recorded before any
+secondary characteristics are generated.
+
+\subsubsection{The value of a character's Fatigue is a direct function
+of their Endurance.}
+a417 2
+The player enters the Fatigue value corresponding to the character's
+Endurance value after that EN has been modified for race.
+d432 1
+a432 1
+Endurance and Fatigue values in boldface can be achieved only by
+d435 28
+a462 65
+From this point on in the character generation process, a change in
+the character's Endurance value will \emph{not} affect their Fatigue
+value and \emph{vice-versa}.
+
+\subsubsection{A character's Physical Beauty value is generated
+randomly.}
+
+The value of the Physical Beauty characteristic is generated by rolling
+4D5 + 3.  A roll of 7 indicates an ugly character, while a 23
+indicates a beautiful character.
+
+\subsubsection{A character's Perception value begins at 5.}
+
+\subsubsection{A character's Tactical Movement Rate (TMR) is a direct
+function of their Agility.}
+
+The Tactical Movement Rate is based on a character's modified Agility
+value.  See the TMR (\S\ref{tables:tmr}) for values.
+
+\section{Birthrights}
+
+The worlds of \emph{DragonQuest} generally parallel the Europe of
+medieval Earth, where women were largely relegated to secondary roles.
+However, the bias is not as great in a fantasy world, for the
+physically weak have recourse to magic.  Generally, a female
+adventurer will be a determined soul, having surmounted cultural
+handicaps.
+
+A character's race is just as important as their gender, if not more
+so.  In this world, a person's race connotes the colour of their skin.
+In \emph{DragonQuest}, a character's race indicates that they are a
+member of a distinct humanoid species.  Each race has a separate way
+of life, developed over millennia of co-existence with one another.
+Racial intolerance is common.
+
+A good player will integrate the effects of gender, culture, and race
+into the personality of their character.
+
+\subsubsection{A player can choose the gender of their character.}
+
+A character must be either male or female.  Every race described in
+this section comprises only those two sexes.
+
+Each player should choose the gender for the character.  It is
+recommended each character be the same gender as the player. Role
+playing a character whose entire gestalt is alien to the player is
+hard enough without a change of gender.  If the player wishes a
+character of the opposite sex, the GM should warn them of the
+difficulties, and judge that player's characterisation as closely as
+anyone else's.
+
+As an optional rule, the Physical Strength of a female character is
+decreased by \emph{two}, but her Manual Dexterity and Endurance are
+increased by \emph{one}.  This would modify her appropriate racial
+maximums.
+
+\subsubsection{A player must determine whether their character's
+Primary Hand is their right or their left.}
+
+The player rolls D5 and D10.  If the D10 result is greater, the
+character's primary hand is their right.  If the D5 result is higher,
+the primary hand is the left.  If the two results are identical, the
+character is ambidextrous.  This determination affects which hand a
+weapon is held during combat, and any penalties assigned for attacking
+with a weapon in a non primary hand.
+d464 6
+a469 13
+\subsubsection{A player can always choose to be a human character.  If
+the player wishes the character to be non-human, the player has three
+attempts to roll within one of the indicated ranges.}
+
+If the character is human, none of their characteristics are
+modified.  The character gains no advantages and is subject to no
+restrictions.
+
+When the player wishes to have a non-human character, the player
+declares which race they want the character to be, and roll D100.  If
+the roll is equal to or less than the percentage chance given for that
+race, the character is that race.  If the roll is greater than the
+indicated percentage, the character must not be that race.
+d473 1
+a473 5
+Dwarf		& 25 \\
+Elf		& 30 \\
+Giant		& 06 \\
+Halfling	& 15 \\
+Orc		& 20 \\
+d477 10
+a486 15
+A player can attempt up to three rolls (for different races) to be a
+non-human.  If the player fails on all three rolls, their character is
+human.  Conversely, if one of their rolls falls within the indicated
+span of numbers for a race, their character \emph{must} be of that
+race.  A player can forfeit their right to any further rolls to be a
+non-human if the player has exhausted the races the player wants to
+be.
+
+When a character gains proficiency in an ability, it is represented in
+game by their player expending Experience Points. 
+
+The cost, in terms of Experience Points, to advance in any one ability
+is affected by the character's race.  In practice \emph{divide} any
+experience points a character gains by the ``racial multiplier'' and
+then spend the result normally.
+d492 1
+a492 1
+Giant (hill)	& 1.5 \\
+d499 4
+d505 2
+a506 2
+\subsubsection{A dwarf is a stout, usually taciturn humanoid who
+frequents mountainous areas.}
+d508 17
+a524 15
+\textbf{Traits:}
+Dwarves are enamoured of precious stones and metals, and of intricate
+work incorporating same.  They form strong community ties, and are
+distrustful of strangers, especially those of other races.  Their
+strongest antipathies are towards orcs and elves.  Although dwarves
+are greedy by nature, they are essentially honest.  Dwarven warriors
+favour the axe as weapon.  Pride is important to dwarves.
+
+\textbf{Special Abilities:}
+\begin{enumerate}
+\setlength\itemsep{0pt}
+\item
+A dwarf can see in the dark as a human does at dusk.  Their effective
+range of vision in the dark is 50 feet under the open sky, 100 feet
+inside man-made structures, and 150 feet inside caves and tunnels.
+d533 2
+a534 2
+If a dwarf character is a Ranger specialising in caverns (spelunker),
+they pay half the EP cost necessary to advance ranks.
+d538 1
+a538 1
+\end{enumerate}
+d553 1
+a553 1
+Starting Age: 20 to 24 \\
+d559 1
+a559 2
+\subsubsection{An elf is a lithe humanoid, of joyful demeanour, who
+frequents wooded areas.}
+d561 20
+a580 22
+\textbf{Traits:}
+Elves are great respecters of nature and learning.  They are virtually
+immortal, and are at the same time, repositories of great wisdom and
+highly enthusiastic merry makers.  Many elves cannot handle their dual
+natures, and become either frivolous wastrels or grim questers.  The
+elves are ethical by nature, and, although they do not often interfere
+in the affairs of others, are traditionalists.  Elven warriors
+favour bow weapons and disdain metal armour.  Members of other
+races generally find elves attractive.
+
+\textbf{Special Abilities:}
+\begin{enumerate}
+\setlength\itemsep{0pt}
+\item
+An elf can see in the dark as a human does on a cloudy day.  Their
+effective range of vision in the dark is 150 feet under the open sky,
+and 75 feet elsewhere.
+
+\item
+If an elf character takes the ranger skill and specialises in woods
+environment, they pay one-half the Experience Points to progress in
+ranks.
+d592 2
+a593 2
+three-quarters the Experience Points to progress in ranks, though they
+cannot resurrect the dead.
+d599 3
+a601 3
+If an elf character takes the courtesan skill, the elf pays one-half
+the Experience Point to process in ranks.
+\end{enumerate}
+d616 1
+a616 1
+Starting Age: 28 to 32 \\
+d620 4
+a623 2
+\subsection{Giant}
+\label{chargen:giant}
+d625 10
+a634 2
+\subsubsection{A hill giant is a huge, slightly prognathous humanoid, whose
+existence stems from deep elemental magic.}
+d636 1
+a636 7
+\textbf{Traits:}
+Giants are lusty types, preferring nothing better than to go through
+life brawling, drinking, and wenching.  They tend to gather together
+in a clan arrangement, building huge halls (or steadings) in
+out-of-the-way locations.  They are not overly intelligent, and resent
+humans and elves particularly.  Giants enjoy riddling and bartering.
+Giant warriors favour the club and sword (scaled to their size).
+d638 5
+a643 3
+\textbf{Special Abilities:}
+\begin{enumerate}
+\setlength\itemsep{0pt}
+d645 2
+a646 3
+A giant has infravision, which allows them to see faint red
+shapes where living beings are located in the dark.  Their range of
+vision is 250 feet.
+d649 2
+a650 1
+A giant's magic resistance is increased by 10\%
+d653 3
+a655 3
+Whenever a giant attempts minor magic, the GM should increase the
+difficulty factor by one, making it easier.
+\end{enumerate}
+d659 4
+a662 4
+Physical Strength	& + 7 \\
+Manual Dexterity	& - 1 \\
+Agility			& - 2 \\
+Endurance		& + 8 \\
+d664 1
+a664 2
+Willpower		& - 1 \\
+Fatigue			& + 1 \\
+a665 2
+Tactical Movement Rate	& + 3 \\
+Natural Armour		& + 1 \\
+d669 2
+a670 2
+Starting Age: 26 to 30 \\
+Average Life Span: 500 years \\
+d673 12
+a684 1
+\subsection{Halfling}
+d686 1
+a686 2
+\subsubsection{A halfling is a short, sleepy humanoid, who frequents
+halfling-constructed burrows.}
+d688 1
+a688 12
+\textbf{Traits:} Halflings appreciate the good life more than most; a
+successful halfling will arrange a schedule of much sleep, good food,
+and relaxed study or conversation. Halflings are a friendly folk,
+though are more inclined to socialise among themselves.  They greatly
+enjoy the telling of tales and exchange of gossip.  Halflings take
+their responsibilities seriously.  Halfling warriors use, for obvious
+reasons, smaller weapons, including maces and slings.  Halflings
+usually go barefoot, and are noted for their tough, hairy feet.
+
+\textbf{Special Abilities:}
+\begin{enumerate}
+\setlength\itemsep{0pt}
+d690 3
+a692 3
+A halfling has infravision, which allows them to see faint red shapes
+where living beings are located in the dark.  Their range of vision is
+100 feet.
+d695 1
+a695 2
+A halfling adds 20\% to their chance to perform any activity requiring
+stealth.
+d698 2
+a699 2
+If a halfling takes the thief skill, they pay half the EP cost
+necessary to advance ranks.
+d701 4
+a704 1
+\end{enumerate}
+d708 4
+a711 4
+Physical Strength	& - 3 \\
+Manual Dexterity	& + 3 \\
+Agility			& + 1 \\
+Endurance		& - 2 \\
+d713 2
+a714 1
+Willpower		& + 1 \\
+d716 2
+d721 2
+a722 2
+Starting Age: 18 to 22 \\
+Average Life Span: 80 to 90 years \\
+d727 2
+a728 2
+\subsubsection{A human is a standard humanoid, who frequents most areas
+and climes.}
+d730 24
+a753 9
+\textbf{Traits:}
+Humans have a great diversity of cultures and languages,
+and sub-racial traits, such as hair and eye colour or skin tone.
+They inhabit and thrive in most environments, and may even be
+found in climates far outside their optimums.
+
+\textbf{Special Abilities:}
+Human characters receive no special abilities or modifiers to their
+characteristics due to their race.
+d756 2
+a757 3
+Starting Age: 16--20 \\
+Average Life Span: Varies widely with culture, but usually between 40
+and 90 years. \\
+d760 1
+d763 2
+a764 2
+\subsubsection{An Orc is a stoop-shouldered, surly humanoid who is
+nomadic by nature.}
+d767 10
+a776 6
+than to rape and pillage.  Individually, orcs are a cowardly lot, but
+a charismatic leader can turn a band of orcs into a conquering horde.
+Orcs enjoy the sensual pleasures of life, and reduce their already
+short life spans through hard living.  Orc warriors favour the great
+axe and glaive.  Orcs are considered unattractive by other humanoid
+races.
+d778 4
+a781 2
+\textbf{Special Abilities:}
+\begin{enumerate}
+a782 1
+\setlength\itemsep{0pt}
+d785 1
+a785 1
+where living beings are located in the dark.  Their range of vision is
+d789 3
+a791 7
+An orc's eyes are highly light-sensitive.  They must decrease their
+chance of hitting a target with Ranged Combat by 10\% in daylight.
+
+\item
+ Orcs are either back-stabbing scum or brutal bully-boys. An
+orc may take one of either Assassin Skill or Warrior Skill and
+expend three-quarters the Experience points to progress in Ranks.
+d799 1
+a799 3
+
+\end{enumerate}
+
+d812 2
+a813 2
+Starting Age: 12--16 \\
+Average Life Span: 40 to 45 Earth years \\
+d816 4
+a819 1
+\subsection{Shapechanger}
+d821 11
+a831 2
+\subsubsection{A shapechanger is a separate genetic strain of human,
+with the ability to change into the form of a particular animal.}
+d833 1
+a833 11
+\textbf{Type:}
+The player must roll D10 to determine what type of shape-changer their
+character will be.
+
+\begin{tabularx}{\linewidth}{Xl}
+\textbf{Dice Roll}	& \textbf{Type} \\
+1 -- 4			& Wolf \\
+5 -- 6			& Tiger \\
+7 -- 8			& Bear \\
+9 -- 10			& Boar \\
+\end{tabularx}
+d835 5
+a839 19
+\textbf{Traits:} Shapechangers are identical in appearance to humans
+when not in animal form.  Shapechangers are somewhat bestial in
+nature, adopting traits one might expect from an anthropomorphised
+wolf, tiger, bear or boar.  There exists a love/hate relationship
+between humans and shapechangers: shapechangers possess some degree of
+animal magnetism, but, if discovered, can expect severe treatment at
+the hands of humans.  Shapechangers are, on the whole, bitter towards
+humans, and are not above using humans to their advantage.  There are
+very few ways to tell a shapechanger from a human (e.g., they will be
+discomforted by garlic) and these vary by shapechanger type.
+Shapechangers are a ruthless lot.
+
+\textbf{Special Abilities:}
+\begin{enumerate}
+\setlength\itemsep{0pt}
+\item
+A shapechanger can change from human to animal form (or
+\emph{vice-versa}) in 10 seconds during daytime and 5 seconds during
+the nighttime.
+d842 1
+a842 1
+A shapechanger possesses a dual nature.  While in animal form, human
+d847 1
+a847 1
+A shapechanger cannot be harmed while in animal form, unless struck
+d849 2
+a850 2
+greater than 25. \emph{Five} Damage Points are automatically absorbed
+in the latter case.
+d853 1
+a853 1
+The shapechanger will regenerate 1 Endurance Point every 60 seconds
+d857 3
+a859 3
+The player must devise a set of characteristics for their animal form.
+Take the difference between the average for each characteristic in
+animal and human form, and modify the human characteristics
+d863 1
+a863 1
+A shapechanger is automatically lunar aspected.
+d866 1
+a866 1
+A shapechanger can remain in animal form for a quarter of the night
+d868 3
+a870 3
+remain in animal form all night).  During the day a shapechanger can
+remain in animal form for one hour times the quarter of the moon.  A
+shapechanger can make one set of transformations times the quarter of
+d874 1
+a874 1
+If a shapechanger is in animal form during the day, there is a 1\%
+d876 2
+a877 2
+they will never be able to change back into human form.  Similarly, if
+the shape-changer exceeds the time limits given above, there is a 1\%
+d882 2
+a883 2
+A shapechanger will be inconvienced by those wards which can be used
+against were-creatures.
+d886 1
+a886 1
+A shapechanger's magic resistance is increased by 5\%.
+d889 1
+a889 1
+If a shapechanger takes the courtesan skill they pay three-quarters
+d891 2
+a892 1
+\end{enumerate}
+d901 2
+a902 2
+Starting Age: 16--20 \\
+Average Life Span: 55 to 65 Earth years \\
+d905 99
+a1003 2
+\section{Aspects}
+\label{chargen:aspects}
+d1005 18
+a1022 6
+The date and time of birth of a character will have a small, but
+significant, effect upon the course of their life.  Some mana is
+invested by one of the Great Powers into the soul, or life-force, of
+every being born into a \emph{DragonQuest} world.  A character will
+benefit during the time their Power is in full ascendancy, and will
+suffer when the opposite Power is in full ascendancy.
+d1025 1
+a1025 1
+applying the effects of aspects.  The GM should allow characters to
+d1027 12
+a1038 19
+time must be properly monitored.  The GM may wish to counter the
+players' timing with monsters and/or non-player characters who use
+\emph{their} aspects to full advantage.
+
+\subsubsection{Each player randomly determines the aspect of their
+character.}
+
+Each player rolls D100, and enters the result corresponding to their
+dice-roll on their Character Record.
+
+Seasonal aspects have an elemental portion.  If a character has an
+aspect aligned with their college, then there is a bonus of 1\% on the
+Base Chance of performing any Talent, Spell, or Ritual of their
+college.  If of opposite alignment, then the modifier is -1\%.  Air
+opposes Earth and Fire opposes Water.
+
+If, on the first roll, the player rolls 91--00, then it is permissable
+to re-roll until a roll of other than 91--00 is achieved.  Note,
+however, that the first non 91--00 roll must stand.
+d1064 1
+d1066 15
+a1080 9
+\subsubsection{A character is affected by a seasonal aspect during the
+season of their aspect and during the season which does not share an
+equinox or solstice with the season of their aspect.}
+
+Stars are ascendant during the season for which they are named.  The
+Spring Stars are ascendant when the Autumn Stars are descendant, and
+the Winter Stars are ascendant when the Summer Stars are descendant.
+The reverse is true in both cases.  Consult the following table to
+decide when to apply seasonal aspect effects, and what they are.
+d1084 4
+a1087 4
+Midnight, Character's Stars Ascendant	& -10 \\
+Midnight, Equinox or Solstice named for Character's Stars & -25 \\
+Midnight, Character's Stars Descendant	& +10 \\
+Midnight, Equinox or Solstice other than that named for Character's Stars & +25 \\
+d1090 1
+a1090 2
+The effect is applied for 30 seconds before and after midnight, and is
+applied to percentile rolls, not success chances.
+d1092 1
+a1092 5
+\subsubsection{A character of solar or lunar aspect is affected by
+their aspect at high noon and midnight.}
+
+Consult the following table to determine when to apply solar aspect
+effects, and what they are.
+d1094 3
+d1106 12
+a1117 20
+Multiply the solar aspect effect by -1 to determine the effect for
+lunar aspected characters.  The effect is applied to any percentile
+roll (not success chance) for a solar or lunar aspect character for 10
+seconds before and after high noon or midnight.  If the sky is cloudy,
+reduce the effect to a minimum of 1 and 5, respectively, depending on
+how complete the cloud cover is.
+
+\subsubsection{A character of life or death aspect is affected by a
+birth or death in their immediate vicinity.}
+
+Consult the following table to determine what events bring life or
+death aspect effects into play, the range at which they effect a
+character, and what they are.  For the purposes of life aspect effects
+the moment of birth is considered to be parturition.
+
+A life event is applied for 3 seconds times the range number (e.g.,
+the birth of a humanoid mammal would cause an effect for 750 seconds).
+A death event is applied for 1 second times the range number.  Death
+events are non-cumulative (only one can be in effect at a given time),
+though life events are cumulative.
+a1118 2
+A stillbirth does not affect a life or death aspected character.  A
+resurrection is treated as a birth.
+d1148 9
+d1161 4
+a1164 1
+These effects apply to percentile rolls, not base chances.
+d1166 1
+a1166 1
+\section{Heritage}
+d1168 25
+a1192 44
+Most characters are of an age equal to one-fourth of their life-span
+before players assume control of them.  A human character, for
+instance, will begin with 18 of their 70 years already behind them.
+
+The social position of the character's parents during the time of
+their adolescence is described in general terms.
+
+The heritage rules are designed with a human character in mind.  The
+player of a non-human character and the GM determine the position of
+the character's parents in the appropriate community by comparing it
+to the human analogue given on one of the Heritage Tables.  The
+experience and monies gained from these tables still hold, regardless
+of this history the player and the GM sketch for the character.
+
+\subsubsection{The player must determine the social status of their
+character's parents.}
+
+The player rolls D100, and reads across on the line corresponding to
+the dice roll to derive the status of their parentage and their money
+multiplier.
+
+A character of noble birth will at all times have some sort of stigma
+attached to them: they may be a natural black sheep or a remittance
+person doing time until they will be forgiven for a disgraceful breach
+of conduct.  In rare instances, a noble-born character will be
+naturally adventurous; their family will probably dismiss their
+departure from their proper station on some pretext or other.  The
+young noble is certainly not performing the duties expected of them --
+ruling the people in fief to them, or learning to do so.  A character
+will never be of royal birth.
+
+\subsubsection{Social Status Table}
+
+\begin{tabularx}{\linewidth}{lXr}
+\textbf{Die} & \textbf{Social Status}	& \textbf{$\times$} \\ 
+01--09	& Poor Trash			& 2 \\
+10--25	& Impoverished  Gentlefolk	& 3 \\
+26--44	& Burgher or Farmer		& 4 \\
+45--54	& Merchant			& 6 \\
+55--58	& Merchant Prince		& 10 \\
+59--77	& Craftsman or Adventurer	& 5 \\
+78--89	& Bandit or Pirate		& 8 \\
+90--97	& Lesser Nobility		& 5 \\
+98--00	& Greater Nobility		& 10 \\
+d1195 26
+a1220 2
+\subsubsection{A player must determine the character's legitimacy and
+standing (if any) in relation to their siblings.}
+d1222 4
+a1225 2
+The player rolls D100, and cross-indexes the roll with the social
+status of their parents.
+d1227 6
+a1232 1
+\subsubsection{Order of Birth Table}
+d1234 30
+a1263 15
+{\small
+\begin{tabularx}{\linewidth}{@@{}X@@{\hspace{0.5em}}c@@{\hspace{0.5em}}
+c@@{\hspace{0.5em}}c@@{}}
+			&		& \textbf{Legiti-}& \textbf{First} \\
+			& \textbf{Bastard}& \textbf{mate}& \textbf{child} \\
+Poor Trash		& 01--30	& 31--89 	& 90--100 \\
+Impoverished Gentlefolk	& 01--10	& 11--85 	& 86--100 \\
+Burgher/Farmer		& 01--17	& 18--91	& 92--100 \\
+Merchant		& 01--20        & 21--89	& 90--100 \\
+Merchant Prince		& 01--24	& 25--87	& 88--100 \\
+Craftsman/Adventurer	& 01--13	& 14--92	& 93--100 \\
+Bandit/Pirate		& 01--06	& 07--78	& 79--100 \\
+Lesser Nobility		& 01--27	& 28--96	& 97--100 \\
+Greater Nobility	& 10--35	& 36--98	& 99--100
+\end{tabularx}}
+d1265 8
+a1272 2
+\subsubsection{The character's order of birth modifies their initial
+allotment of experience and monies.}
+d1274 6
+a1279 18
+A bastard was born under dubious circumstances, but should be able to
+prove who is their less-favoured parent.  They will have had to fend
+for themself at an early age, and can handle themself better than
+most.  A bastard receives 50\% of the money due them, but begins with
+25\% more Experience Points.
+
+A legitimate child is the offspring of a couple in wedlock at the time
+of their birth.  Such a child will be the second or younger of the
+acknowledged children.  Their parents gave them as much attention as
+they could.  A legitimate child's monies and experience are unmodified
+by their order of birth.
+
+A first child is the first legitimate child born to their parents
+(though others less fortunate than them may have arrived earlier).
+They have received better treatment than their siblings, but have been
+shielded a little from some of the harsher realities of life.  A first
+child receives a 50\% increase to their initial monies, but a 25\%
+decrease to their starting Experience Point total.
+d1281 3
+a1283 2
+\subsubsection{A player must determine the exact order in which the
+character was born, if they are listed as a ``legitimate child''.}
+d1285 6
+a1290 1
+The player rolls D10 to determine the order of birth.
+d1292 8
+a1299 9
+\begin{tabular}{cl}
+\textbf{Die}	& \textbf{Sibling Rank} \\
+1--3	& Second \\
+4--5	& Third \\
+6	& Fourth \\
+7	& Fifth \\
+8	& Sixth \\
+9--10	& Seventh or younger \\
+\end{tabular}
+d1301 4
+a1304 2
+\subsubsection{A player must determine their character's Language
+Skills.}
+d1306 4
+a1309 51
+Before they start adventuring, every beginning character must be able
+to speak Common (not necessarily fluently) and read and write
+somewhat.  If not a human or shapechanger, they will also always speak
+their racial language (usually as their native tongue).  A beginning
+character will have rank with all others languages in the same
+language family.  They may be more fluent with these or other
+languages depending upon their background.  For example, most Alusian
+nautical terms are Espanol derived, therefore someone from a pirate
+background might well speak at rank 2 or better.
+
+Each character receives an initial allotment of language ranks
+according to the table below that can be spent on language skills, 
+and which is limited by the number of languages they may spend it on.
+The languages and ranks should be justifiable within the framework of
+the character's background.  They must allocate these as follows:
+\begin{enumerate}
+\setlength\itemsep{0pt}
+\item
+If human, then they must have Rank 8 in speaking Common.
+
+\item
+If non-human, then they must have rank 4 in speaking Common and
+rank 8 in speaking their native tongue.
+
+\item
+If a magic user, then they must have rank 8 in their native tongue and
+be literate in that language also.
+
+\item
+If literacy is required or chosen, the player must spend one of the
+available ranks for each language the player wishes their character
+to be literate in.
+
+\item
+Any remaining ranks may be spent according to the Language skill
+rule.  This is optional, but any left over after allocation are
+lost.
+\end{enumerate}
+
+\begin{tabularx}{\linewidth}{Xcc}
+\textbf{Social Status}	& \textbf{Number} & \textbf{Ranks} \\
+Poor Trash		& 2 & 13 \\
+Impoverished Gentlefolk	& 2 & 17 \\
+Burgher/Farmer		& 2 & 15 \\
+Merchant		& 4 & 25 \\
+Merchant Prince		& 5 & 31 \\
+Craftsman/Adventurer	& 3 & 21 \\
+Bandit/Pirate		& 2 & 13 \\
+Lesser Nobility		& 3 & 23 \\
+Greater Nobility	& 4 & 27 \\
+\end{tabularx}
+d1311 6
+a1316 1
+\textbf{Note:} Rank 0 costs 1 Rank.
+d1318 13
+a1330 2
+\subsubsection{A player must determine their character's Adventuring
+skills.}
+d1332 13
+a1344 6
+A character starts with Rank 0 in the Adventuring skills of stealth,
+horsemanship, climbing and swimming.  The following table lists the
+experience points by social status that a player may spend on
+improving these skills.  The experience points must be first modified
+by the character's Racial Modifier.  Any experience points left over
+are lost.
+d1346 85
+a1430 12
+\begin{tabularx}{\linewidth}{Xr}
+\textbf{Social Status}		& \textbf{EP} \\
+Poor trash			& 1850 \\
+Impoverished  Gentlefolk	& 1015 \\
+Burgher/Farmer			& 1125 \\
+Merchant			& 1250 \\
+Merchant Prince			& 765 \\
+Craftsman/Adventurer		& 1760 \\
+Bandit/Pirate			& 1900 \\
+Lesser Nobility			& 1105 \\
+Greater Nobility		& 850 \\
+\end{tabularx}
+d1432 1
+a1432 2
+\subsubsection{The player must decide whether the character will be a
+magic user or not.}
+d1434 1
+a1434 3
+If the character will be a magic user then the player must choose a
+college of magic for the character to belong to.  Bear in mind that
+there is a minimum Magical Aptitude requirement for each college.
+d1437 2
+a1438 4
+they receive a sum of 6500 experience points to be used in the
+following manner. These experience points should not be modified by
+the character's racial modifier.  Furthermore, the allocation must be
+consistent with the character's background.
+d1440 1
+a1440 2
+\begin{enumerate}
+\setlength\itemsep{0pt}
+d1442 2
+a1443 1
+2500 must be spent on either 1 point of Fatigue or 3 points of Perception.
+d1446 3
+a1448 3
+The character must acquire one skill at rank 2 and may acquire a
+second skill at up to rank 1 at the normal acquisition and ranking
+costs.  The Warrior skill may not be chosen at this time.
+d1451 2
+a1452 3
+The character must acquire one weapon at rank 2 and may acquire up to
+two weapons at no more than rank 1 at the normal acquisition and
+ranking costs.
+d1457 7
+d1465 2
+a1466 9
+The player must spend any remaining points on:
+\begin{itemize}
+\setlength\itemsep{0pt}
+\item 1 rank in stealth
+\item 1 rank in horsemanship
+\item 1 rank in swimming
+\item 1 rank in their primary language
+\item more perception.
+\end{itemize}
+d1468 16
+a1483 2
+Any remaining points (other than the permissable 500) are lost.
+\end{enumerate}
+d1485 2
+a1486 1
+\subsubsection{A player should choose their character's height and weight.}
+d1488 6
+a1493 26
+The character's height and weight should be chosen according to the
+player's idea of the character, with due regard to the character's
+primary characteristics, race and background.  The following chart
+will give an idea of reasonable values for each attribute.  Included
+is a percentile distribution both to indicate the likelihood of a
+person being a particular height, and also to allow the height to be
+generated randomly.
+
+\begin{tabular}{cccc}
+\textbf{Dice} & \textbf{Factor} & \textbf{Weight} & \textbf{Range} \\
+01	& 1	& 128	& 98-180 \\
+02	& 2	& 130	& 100-180 \\
+03--04	& 3	& 135	& 108-180 \\
+05--09	& 4	& 140	& 111-187 \\
+10--17	& 5	& 145	& 114-190 \\
+18--27	& 6	& 150	& 116-192 \\
+28--40	& 7	& 155	& 121-197 \\
+41--54	& 8	& 158	& 124-200 \\
+55--70	& 9	& 160	& 129-213 \\
+71--82	& 10	& 165	& 133-214 \\
+83--89	& 11	& 170	& 138-228 \\
+90--95	& 12	& 176	& 140-230 \\
+96--98	& 13	& 184	& 140-240 \\
+99	& 14	& 191	& 140-250 \\
+00	& 15	& 197	& 140-260 \\
+\end{tabular}
+d1495 1
+a1495 21
+The \emph{Factor} should be added to the base height determined from
+the following table based on the character's race and gender.  This
+gives the character's height in inches.
+
+The \emph{Weight} gives the average weight in Pounds for this height
+factor.  This value is modified by the modifier given in the following
+table.
+
+The \emph{Range} gives the range between which 90\% of people of the
+given height factor fall.
+
+\begin{tabular}{@@{}l@@{\hspace{0.5em}}c@@{\hspace{0.5em}}c@@{\hspace{0.5em}}c@@{\hspace{0.5em}}c@@{}}
+\textbf{Race} & \textbf{Male} & \textbf{Mod} &\textbf{Female} & \textbf{Mod} \\
+Dwarf		& 40	& 0.6	& 38	& 0.5 \\
+Elf		& 64	& 0.8	& 60	& 0.65 \\
+Giant		& 100	& 3.0	& 96	& 2.5 \\
+Halfling	& 30	& 0.3	& 28	& 0.3 \\
+Human		& 62	& 1.0	& 57	& 0.8 \\
+Orc		& 60	& 1.1	& 54	& 0.9 \\
+Shapechanger	& 62	& 1.0	& 57	& 0.8 \\
+\end{tabular}
+d1497 5
+a1501 2
+The \emph{Modifier} is the number by which the weight and range values
+in the above table should be multiplied.
+d1503 1
+a1503 2
+\subsubsection{A player now determines their Character's initial
+allotment of silver pennies and Experience Points.}
+d1505 1
+a1505 14
+\begin{tabularx}{\linewidth}{cXc}
+		 &	& \textbf{Silver} \\
+\textbf{Dice Roll} &	& \textbf{Pennies} \\
+01--02		&	& 5 \\
+03--06		&	& 15 \\
+07--14		&	& 25 \\
+15--30		&	& 35 \\
+31--50		&	& 45 \\
+51--70		&	& 55 \\
+71--86		&	& 65 \\
+87--94		&	& 75 \\
+95--98		&	& 85 \\ 
+99--00		&	& 100 \\
+\end{tabularx}
+d1507 3
+a1509 23
+The character automatically gets 250 Experience Points which may be
+modified by the character's order of birth.  The Silver Penny total
+will be modified by the Money Multiplier and may be modified by the
+order of birth.
+
+\subsubsection{A character can spend their initial allotment of
+Experience Points and/or Silver Pennies before ever going on an
+adventure.}
+
+Goods that can be purchased are listed on the Basic Goods List and
+Experience Point costs are listed on the Experience Point Cost Chart.
+Note: A character may spend only 100 Experience Points (rather than
+the usual cost, see Experience Point Cost Chart) to acquire any one
+skill at Rank 0. They can exercise this option before their first, or
+at the conclusion of any adventure.
+
+\subsubsection{The player must choose a name for their character.}
+
+\subsubsection{The player has completely generated their character.}
+
+The player checks what every piece of relevant data has been entered
+on the Character Record, and then hands the completed record to the
+GM.
+d1511 1
+d1513 2
+a1514 2
+\end{multicols}
+
+@
+
+
+2.1
+log
+@Minor corrections from Keith Smith.
+@
+text
+@d1491 1
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d56 1
+a56 1
+Primary characteristics can be increased temporality by magic or or
+d81 1
+a81 1
+instance, if a character will an extremely low Physical Strength value
+d256 1
+a256 1
+asunder (an any traps will probably be set off).  If the roll is from
+d297 1
+a297 1
+limited.
+@
+
+
+1.15
+log
+@May choose up to 90 stat points, rather than choose only 90.
+@
+text
+@@
+
+
+1.14
+log
+@Dice roll for stats changed so player can choose 90 points instead
+of rolling.
+@
+text
+@d393 4
+a396 4
+to have 90 stat points (a roll of 11), but if they choose to roll the
+dice, they must accept the outcome.  The number of Characteristic
+Points and Maximum value thereby obtained is noted on a piece of scrap
+paper.
+@
+
+
+1.13
+log
+@Changes in the text by Craig Beere.
+@
+text
+@d391 6
+a396 5
+Each player rolls 2D10 once and reads across the line on the Point
+Generation Table corresponding to the two dice total.  The number of
+Characteristic Points and Maximum value thereby obtained is noted on a
+piece of scrap paper.
+
+@
+
+
+1.12
+log
+@Spelling mistake corrected by Ross Alexander.
+@
+text
+@d205 1
+a205 1
+the smitten character's subsequent reactions probably be
+d322 1
+a322 1
+tableau in front of them by deriving a percentage chance (or the
+d391 1
+a391 1
+Each player rolls 2D10 and reads across the line on the Point
+d425 1
+a425 1
+Furthermore, a character can have only \emph{one} characteristics
+d446 1
+a446 1
+points in those areas to use the weapons their of choice.  All magical
+d473 1
+a473 1
+of the six primary characteristics must all be recorded before any
+d480 1
+a480 1
+Endurance value.
+a501 4
+\subsubsection{A character's Perception value begins at 5.}
+
+The value can be modified if the character is non-human.
+
+d509 2
+d515 1
+a515 5
+value.  See the TMR (\S\ref{tables:tmr}) for values.  The Tactical
+Movement Rate can be modified if the character is non-human.  In
+addition, a character's normal Tactical Movement Rate can be reduced
+if the character suffers an Agility penalty due to wearing armour, or
+becomes encumbered due to the amount of weight carried.
+d576 1
+a576 1
+indicated percentage, the character can not be that race.
+a603 3
+Multiply the cost for any advancement in one
+ability by the Racial Multiplier.
+
+d692 2
+a693 2
+environment, the elf expends one-half the Experience Points to
+progress in Ranks.
+d697 1
+a697 1
+Wicca Witchsight Talent.
+d704 2
+a705 2
+If an elf character takes the healer skill, the elf expends
+three-quarters the Experience Points to progress in Ranks,though they
+d712 2
+a713 2
+If an elf character takes the courtesan skill, the elf expends
+one-half the Experience Point to process in Ranks.
+d730 1
+a730 1
+Average Life Span: Circa 10,000 Earth years \\
+d780 1
+a780 1
+Average Life Span: 500 Earth years \\
+d828 1
+a828 1
+Average Life Span: 80 to 90 Earth years \\
+d849 1
+a849 1
+and 90 Earth years. \\
+d860 2
+a861 2
+Orc enjoy the sensual pleasures of life, and reduce their already
+short life span through hard living.  Orc warriors favour the great
+d884 1
+a884 1
+Due to their tough skin orcs have one point of Natural Armour.
+d925 1
+a925 1
+\textbf{Traits:} Shape-changers are identical in appearance to humans
+d961 4
+a964 4
+The shapechanger must devise a set of characteristics for their
+animal form.  Take the difference between the average for each
+characteristic in animal and human form, and modify the human
+characteristics appropriately.
+d979 5
+a983 5
+cumulative chance for each 5 minutes they remain in animal form such
+that they will never be able to change back into human form.
+Similarly, if the shape-changer exceeds the time limits given above,
+there is a 1\% cumulative chance (per 5 minutes) of their not being
+able to return to human form.
+d1103 1
+a1103 1
+lunar aspected characters.  Th effect is applied to any percentile
+d1106 1
+a1106 1
+reduce the effect to a minim of 1 and 5, respectively, depending on
+d1145 1
+a1145 1
+mammal\dag	&  & Death & -10 \\
+d1148 1
+a1148 1
+oid mammal related & & Death & -25 \\
+d1158 2
+d1169 6
+a1174 9
+The heritage rules are designed with a human character in mind.  If a
+player has a non-human character, the player will have to take part in
+the ongoing process of defining their character's position within
+their race.  The player of a non-human character and the GM determine
+the position of the character's parents in the appropriate community
+by comparing it to the human analogue given on one of the Heritage
+Tables.  The experience and monies gained from these tables still
+hold, regardless of this history the player and the GM sketch for the
+character.
+d1261 1
+a1261 1
+1---3	& Second \\
+d1275 6
+a1280 6
+their racial language also (usually as their native tongue).  A
+beginning character is rank 0 or rank 1 with all others languages in
+the same language family.  They may be more be fluent with these or
+other languages depending upon their background.  For example, most
+Alusian nautical terms are Espanol derived, therefore someone from a
+pirate background might well speak at rank 2 or better.
+d1285 1
+a1285 1
+the languages and ranks should be justifiable within the framework of
+@
+
+
+1.11
+log
+@Various corrections from Andrew Withy.
+@
+text
+@d1336 1
+a1336 1
+\subsubsection{A player must determine their character's Adventurering
+@
+
+
+1.10
+log
+@Spelling mistake fixed.
+@
+text
+@d3 1
+a3 1
+\section{Characters in DragonQuest}
+d25 13
+a37 15
+characteristics) concerning their character.  A model Character
+Record, on which all pertinent information can be recorded, is
+provided within this rulebook.  The GM can choose to use a different
+recording form, or modify the one provided.  Whichever the case, the
+GM must be provided with a complete and current character record for
+each player's character.  The GM can then verify the information on
+each record, or make corrections where necessary.  Each player should
+also have a copy of their own character's record, though as play goes
+on, the two records will differ (the GM may note something about a
+character which the player does not know, such as a curse).  In
+addition to a character record, a player must maintain a notebook for
+recording all monetary and EP expenditure.  This should be checked by
+the GM at the beginning of every adventure and ``signed off'' by the
+GM when satisfied that all calculations are correct with respect to
+money, time and EP.
+d44 1
+a44 1
+The Adventurers Guild Membership Tribunal, and sign the Guild
+d239 9
+a247 9
+less than or equal to the percentage character has successfully
+performed the task. If the roll is greater than the percentage, but
+not greater than the percentage plus the relevant characteristic, the
+character has failed without injury to themself (if injury is at all
+possible).  If the roll is greater than the percentage plus the
+relevant characteristic, then the character has failed and may have
+injured themself.  The GM may wish to determine the extent of the
+injury by how much the roll exceeds the percentage plus the
+characteristic.
+d252 14
+a265 14
+proposes to use his trusty great axe to batter the door down.  The
+GM, who knows that the door is buttressed by an iron bolt on the
+reverse side, assigns it a difficulty of 2.5.  Rolf's Physical
+Strength is 20, so if Rolf rolls a 50 or less (2.5 \x 20 = 50), the
+door bursts asunder (an any traps will probably be set off).  If the
+roll is from 51 to 70 (2.5 \x 20 + 20 = 70), the door withstands
+Rolf's assault.  If the roll is 71 or grater, results will vary from
+the great axe being damaged or broken to Rolf receiving a jarring
+shock (he hit the iron bolt directly) to Rolf suffering Damage Points
+as oak splinters penetrate his armour.  The result depends on the GM's
+discretion and how great the roll is.  Rolf's maximum success chance
+is 70 + 20 + 2.5 (round down).  If the GM had assigned a difficulty
+factor of 5, giving a Base Chance of 100 (5 \x 20), a roll of 96 or
+greater would still have failed.
+d310 1
+a310 1
+ritual, minor magi@@ or triggering invested magic), a character must be
+d331 1
+a331 4
+circle is a religious symbol used throughout their world.  However, it
+would be up to the players to infer what happened when they see the
+vampire with which their necromancer friend was so recently talking
+come out the door blood dripping from his mouth.
+d353 1
+a353 1
+information than the GM is will to give them, when the characters
+d379 5
+a383 4
+possible by an adventuring character.  Thus, a character will a Manual
+Dexterity of 5 could not effectively wield a weapon, but not so inept
+that they could not handle it without damaging themselves.  A value of
+25 represent the maximum performance which can be achieved by a human.
+d581 2
+a582 2
+race, the character is that type of race.  If the roll is greater than
+the indicated percentage, the character can not be that race.
+d653 1
+a653 1
+they pay half the EP cost necessary to advance ransks.
+d684 1
+a684 1
+highly enthusiastic merrymakers.  Many elves cannot handle their dual
+d778 1
+a778 1
+Endurance		&  +8 \\
+d982 3
+a984 3
+remain in animal for for one hour times the quarter of the moon.  A
+shapechanger can make one transformation times the quater of the of
+the moon per day (i.e., dawn to next dawn).
+d992 1
+a992 2
+able to return to human form.  Roll up a new character, or an know an
+extremely powerful wizard.
+d1048 1
+a1048 1
+However, first non 91--00 roll must stand.
+d1151 1
+a1151 1
+hummanoid mammal &  & Death & -5 \\
+d1231 1
+a1231 1
+Poor Trash		& 01--31	& 31--89 	& 90--100 \\
+d1336 2
+a1337 2
+\subsubsection{A player must determine their character's Stealth,
+Horsemanship, Climbing and Swimming skills.}
+d1340 5
+a1344 4
+horsemanskip, climbing and swimming.  The following tale lists the
+eperience poins by social status that a player may spend on improving
+these skills.  The experience points must be first modified by the
+character's Racial Modifier. Any experience points left over are lost.
+d1459 1
+a1459 1
+allotment of silver Pennies and Experience Points.}
+@
+
+
+1.9
+log
+@Change description of Orc to 1.1 multiplier bully boys.
+@
+text
+@d713 1
+a713 1
+Ail elf makes little or no noise while walking and adds 10\% to their
+d1211 1
+a1211 1
+\textbf{Die} & \textbf{Social Status}	& \textbf{\x} \\ 
+@
+
+
+1.8
+log
+@Fix Human Female weight modifier (1.8 -> 0.8)
+@
+text
+@d624 1
+a624 1
+Orc		& 0.9 \\
+d870 7
+a876 7
+\textbf{Traits:}
+Orcs are a cruel, violent folk, liking nothing better than to rape and
+pillage.  Individually, orcs are a cowardly lot, but a charismatic
+leader can turn a band of orcs into a conquering horde.  Orc enjoy the
+sensual pleasures of life, and reduce their already short life span
+through hard living.  Orc warriors favour the scimitar.  Orcs are
+considered unattractive by other humanoid races.
+d880 1
+d888 7
+a894 3
+An orc's eyes are highly light-sensitive.  The GM should decrease an
+orc's chance of aiming at a target during daylight by 5\% to 15\%,
+depending on the brightness of the sun.
+d897 1
+a897 2
+An orc is not an adept student.  Increase game time required to learn
+or improve upon any ability by one day per week required.
+d900 3
+a902 2
+An orc's seed is fertile.  The orc and hybrid orc population increase
+mitigates against the high orc fatality rate.
+a913 1
+Tactical Movement Rate	& - 1 \\
+@
+
+
+1.7
+log
+@Check in to change file name.
+@
+text
+@d1450 1
+a1450 1
+Human		& 62	& 1.0	& 57	& 1.8 \\
+@
+
+
+1.6
+log
+@Add \label{chargen:giant} for combat.
+@
+text
+@d3 2
+d370 1
+a370 1
+\section{Character Generation}
+@
+
+
+1.5
+log
+@Release 1.0 snapshot
+@
+text
+@d745 1
+@
+
+
+1.4
+log
+@Change made to final experience.  Roll removed and character now automatically
+get 250 EP.  Change made from July (or August) 1995 rules meeting.
+@
+text
+@d12 1
+a12 1
+Character's begin play at an age such that their body has matured
+d14 3
+a16 3
+character does have some of their life already behind; the memories of
+those times must be supplied by the player, but any monies and
+experience accumulated are the character's to expend.  Players are
+d22 2
+a23 2
+A player must keep track of the statistical data
+(e.g. characteristics) concerning their character.  A model Character
+d31 7
+a37 7
+on, the two records will differ (the GM in all probability note
+something about a character which the player does not know, such as a
+curse).  In addition to a character record, a player must maintain a
+notebook for recording all monetary and EP expenditure.  This should
+be checked by the GM at the beginning of every adventure and ``signed
+off'' by the GM when satisfied that all calculations are correct with
+respect to money, time and EP.
+d56 1
+a56 1
+Primary characteristics can be increased temporality by magic or
+d58 5
+a62 5
+temporarily by magic or permanently by injury to the character.  These
+primary characteristics can never be increased more than 5 above
+their starting value by the expenditure of experience points, and
+never above racial maximum, except by magical means.  All other
+characteristics, whether or not optional, are \emph{secondary}
+d64 1
+a64 1
+be changed will be cover in the appropriate rule.  A ``temporary''
+d66 4
+a69 4
+value of a characteristic; a ``permanent'' change indicates an increase
+or decrease of indefinite duration to the value of a characteristic.
+Adventurers in a world of magic can expect to be in a state of flux
+for most of the time.
+d77 1
+a77 1
+Through characteristics are relatively fixed, a player retains total
+d99 1
+a99 1
+character can exert from the threw of their arms, the thrusting power
+d108 1
+a108 1
+The Manual Dexterity characteristic represent the character's
+d129 1
+a129 1
+sustain wounds, their resistance to disease and infection and their
+d139 2
+a140 3
+over the flow of \emph{mana} (the stuff of magic) from another
+dimension, and their ability to remember arcane rituals and
+information.
+d145 1
+a145 1
+of their mind and body especially in stress situations.}
+d148 4
+a151 4
+resist the imposition of another's will upon their own, and the
+degree to which their will can be used to counter their instincts
+(when, for instance, the character might be attempting an action which
+can be suicidal).
+d161 1
+a161 1
+adroit or random maneuvering in combat, the mental energy that can be
+d177 1
+a177 1
+their ability to deduce a people's habits or customs from scant
+d181 1
+a181 1
+The Perception value can he increased or decreased temporarily, as a
+d192 1
+a192 1
+exterior attractiveness (or repulsiveness), as perceived by a member
+d260 1
+a260 1
+shock (he hit the iron bolt directly) to Rold suffering Damage Points
+d383 3
+a385 8
+Dexterity of 5 would be extremely clumsy, but not so inept that the
+character could not be entrusted with a simple, though essential,
+task.  A value of 25 represent the maximum performance which can be
+achieved by a human, a value of 26 or greater befits a superman.
+Thus, a character with a Physical Strength of 25 may not be able to
+bend steel bars in their bare hands, but does pretty well with bars or
+iron.
+
+d401 1
+a401 1
+\textbf{Die} & \textbf{Points} & \textbf{Max} \\
+d424 2
+a425 2
+characteristic is 5, and the maximum value is determined by the
+maximum for the characteristic point total.}
+d428 2
+a429 2
+equal to the maximum value, if that value is greater than 20.  the
+character can have up two \emph{two} characteristics equal to the
+d437 5
+a441 5
+``transfer'' an extra characteristic equal to two less than the maximum
+value for either or both of their two characteristics equal to one
+less than the maximum value; thus, if it were mathematically possible,
+a character could have \emph{six} characteristics equal to \emph{two
+less} than the maximum value.
+d445 2
+a446 2
+what weapons, spells, and/or sills desired for the newly-born
+individual.  Certain weapons require a grate deal of Physical Strength
+d448 7
+a454 7
+points in those areas to use the weapons of choice.  All Magical
+Colleges require a minimum Magic Aptitude to join and the player should
+be aware of these restrictions.  Most Skills do not have any special
+requirements, but many give bonuses for exceeding a minimum value in
+certain characteristics.  The choice of race will also alter the
+characteristic values, and the player must weigh all requirements and
+restrictions.
+d465 1
+a465 1
+Dexterity of 9, and A Magical Aptitude of 5.  If the player wishes,
+d473 1
+a473 1
+Generation Table; thus, a player cannot ``save'' Characteristic Point
+d475 1
+a475 1
+of the six primary characteristics must all be record before any
+d502 1
+a502 1
+value, and \emph{vice-versa}.
+d519 5
+a523 23
+value.
+
+\begin{tabular}{cc}
+\textbf{Modified} & \\
+\textbf{Agility} & \textbf{TMR} \\
+ $<$ 1		& 0 \\
+  1 or 2	& 1 \\
+  3 or 4	& 2 \\
+  5 to 8	& 3 \\
+  9 to 12	& 4 \\
+ 13 to 17	& 5 \\
+ 15 to 21	& 6 \\
+ 22 to 25	& 7 \\
+ 26 or 27	& 8 \\
+$>$ 27		&+1 for every \\
+		& 2 AG \\
+\end{tabular}
+
+The Tactical Movement Rate can be modified if the character is
+non-human.  In addition, a character's normal Tactical Movement Rate
+can be reduced if the character suffers an Agility penalty due to
+wearing armour, or becomes encumbered due to the amount of weight
+carried.
+d527 2
+a528 5
+A character's genetic heritage will have a great influence upon them
+throughout their adventures.  First, there is the matter of gender.
+
+The worlds of \emph{DragonQuest} closely parallel the Europe of medieval
+Earth, where women were largely relegated to secondary roles.
+d532 11
+a542 22
+handicaps.  A character's race is just as important as their gender,
+if not more so.  In this world, a person's race connotes the colour of
+their skin.  In a fantasy world, a character's race indicates that
+they are a member of a distinct humanoid species.  Each race has a
+separate way of life, developed over millennia of coexistence with one
+another.  Racial intolerance is just as prevalent in a fantasy world as
+it is in this world.
+
+Practically, each race has its strengths and weaknesses.  The human
+race is the most prevalent, probably because of its high birth rate
+and the flexibility of the individual human.  The elves, dwarves and
+giants are races in their twilight years; human civilisation will not
+treat them too kindly.  The halflings seem to be adaptable to almost
+any way of life, and thrive because of their compatibility with
+humans.  The orcs and shapechangers are nascent races, who may some
+day challenge human hegemony.
+
+A truly sophisticated player will integrate the effects of sex,
+culture, and race into the personality of their character.  Most GMs,
+while struggling to flesh out the cultures of their world, will settle
+for the character who is the product of their racial and sexual
+background.
+d549 12
+a560 10
+Each player should choose the sex for the character.  It is recommended
+each character be the same sex as the player. Role playing a character
+whose entire gestalt is alien to the player is hard enough without a
+change of sex.  If the player wishes a character of the opposite sex,
+the GM should warn them of the difficulties, and judge that player's
+characterisation as closely as anyone else's.
+
+The Physical Strength of a female character is decreased by
+\emph{two}, but her Manual Dexterity and Endurance are increased by
+\emph{one}.  This also modifies the appropriate racial maximums.
+d565 1
+a565 1
+The player rolls D5 and D10.  If the D1O result is greater, the
+d574 1
+a574 1
+Chances to roll within one of the indicated ranges.}
+d584 1
+a584 1
+the indicated percentage, the character can not be of that race.
+a591 1
+Human		& 100 \\
+d596 1
+a596 1
+A player can attempt up to three rolls (for separate races) to be a
+d599 4
+a602 3
+span of numbers for a race, their character must be of that race.  A
+player can forfeit their right to any further rolls to be a non-human
+if the player has exhausted the races the player wants to be.
+d605 8
+a612 3
+game by their player expending Experience Points.  The cost, in terms
+of Experience Points, to advance in any one ability is affected by the
+character's race.  Multiply the cost for any advancement in one
+d654 2
+a655 3
+If a dwarf character takes the Ranger skill, they expend one-half the
+Experience Points to progress Ranks, if they specialise as a spelunker
+(i.e., caverns).
+d720 1
+a720 1
+An elf impervious to the special abilities of the lesser undead.
+d746 1
+a746 1
+\subsubsection{A giant is a huge, slightly prognathous humanoid, whose
+d762 1
+a762 1
+A giant possesses infravision, which allows them to see faint red
+d776 1
+a776 1
+Physical Strength	& See 70.1 \\
+d779 1
+a779 1
+Endurance		& See 70.1 \\
+d784 2
+a785 1
+Tactical Movement Rate	& See 70.1 \\
+d789 1
+a789 1
+Starting Age: 26 to 300 \\
+d798 6
+a803 7
+\textbf{Traits:}
+Halflings appreciate the good life more than most; a successful
+halting will arrange a schedule of much sleep, good food, and relaxed
+study or conversation. Halflings are a social folk, though are more
+inclined to keep intercourse among themselves.  They greatly enjoy the
+telling of tales and exchange of gossip.  Halflings take their
+responsibilities seriously.  Halfling warriors use, for obvious
+d811 3
+a813 3
+A halfling possesses infravision, which allows them to see faint red
+shapes where living beings are located in the dark.  Their range of
+vision is 100 feet.
+d816 1
+a816 1
+A halting adds 20\% to their chance to perform any activity requiring
+d820 3
+a822 2
+If a halfling takes the thief skill, they expend one-half the
+Experience Points to progress in Ranks.
+d914 1
+a914 1
+\subsection{Shape-changer}
+d916 1
+a916 1
+\subsubsection{A shape-changer is a separate genetic strain of human,
+d923 7
+a929 7
+\begin{tabular}{cl}
+\textbf{Die}	& \textbf{Type} \\
+1 to 4		& Wolf \\
+5 or 6		& Tiger \\
+7 or 8		& Bear \\
+9 or 10		& Boar \\
+\end{tabular}
+d931 10
+a940 11
+\textbf{Traits:}
+Shape-changers are identical in appearance to humans when not in
+animal form.  Shape-changers are somewhat bestial in nature, adopting
+traits one might expect from an anthropomorphised wolf, tiger, bear or
+boar.  There exists a love/hate relationship between humans and
+shape-changers: shapechangers possess some degree of animal magnetism,
+but, if discovered, can expect severe treatment at the hands of
+humans.  Shape-changers are, on the whole, bitter towards humans, and
+are not above using humans to their advantage.  There are very few
+ways to tell a shape-changer from a human (e.g., they will be
+discomforted by garlic, and these vary by shape-changer type.
+d947 1
+a947 1
+A shape-changer can change from human to animal form (or
+d952 1
+a952 1
+A shape-changer possesses a dual nature.  While in animal form, human
+d957 1
+a957 1
+A shape-changer cannot be harmed while in animal form, unless struck
+d959 2
+a960 2
+greater than 25. Five Damage Points are automatically absorbed in the
+latter case.
+d963 1
+a963 1
+The shape-changer will regenerate 1 Endurance Point every 60 seconds
+d967 1
+a967 1
+The shape-changer must devise a set of characteristics for their
+d973 1
+a973 1
+A shape-changer is automatically lunar aspected.
+d976 6
+a981 6
+A shape-changer can remain in animal form for one-quarter of the night
+times the phase of the moon; thus, during the full moon the
+shape-changer could remain in animal form all night.  A shape-changer
+can remain in animal for for one hour times the quarter of the moon
+during the day.  A shapechanger can make one set of transformations
+times the quarter of the moon.
+d993 1
+a993 1
+A shape-changer will be inconvienced by those wards which can be used
+d997 1
+a997 1
+A shape-changer's magic resistance is increased by 5\%.
+d1000 2
+a1001 2
+If a shape-changer takes the courtesan skill they expend
+three-quarters the Experience Points necessary to advance in Ranks.
+a1024 6
+The GM is obliged to keep track of the passage of time for the
+purposes of character advancement in abilities. If the GM is not
+willing to maintain a formalised calendar, then the GM should not use
+the ensuing rules.  The work required is minimal, though, once the
+calendar is set up.
+
+d1030 1
+a1030 1
+their aspects to full advantage.
+d1035 1
+a1035 1
+Each player rolls D100, and enters tile result corresponding to their
+d1039 4
+a1042 4
+aspect aligned with their college, then there is a bonus of 1\% on
+the Base Chance of performing any Talent, Spell, or Ritual of their
+college.  If of opposite alignment, then the modifier is -1\%.  As
+usual, Air opposes Earth and Fire opposes Water.
+d1087 2
+a1088 2
+Midnight, Character's Stars Descendant	& -10 \\
+Midnight, Equinox or Solstice other than that named for Character's Stars & -25 \\
+d1141 2
+a1142 2
+Birth of human- & 250' & Life & -10 \\
+oid mammal	& & Death & +10 \\
+d1144 3
+a1146 3
+Birth of human- & 500' & Life & -25 \\
+oid mammal related & & Death & +25 \\
+to character	& & & \\
+d1151 2
+a1152 2
+Death of human- & 125' & Life & + 10 \\
+oid mammal	&  & Death & -10 \\
+d1159 5
+a1163 3
+The relative can be no more distant than second cousin.  A female life
+aspected character will suffer no pain after giving birth, and will be
+as healthy and active as she was before she became pregnant.
+d1172 7
+a1178 6
+their adolescence is described in general terms.  The heritage rules
+are designed with a human character in mind.  If a player has a
+non-human character, the player will have to take part in the ongoing
+process of defining their character's position within their race.
+The player of a non-human character and the GM determine the
+position of the character's parents in the appropriate community
+d1189 11
+a1199 9
+multiplier.  A character of noble birth will at all times have some
+sort of stigma attached to them: they may be a natural black sheep or
+a remittance person doing time until they will be forgiven for a
+disgraceful breach of conduct.  In rare instances, a noble-born
+character will be naturally adventurous; their family will probably
+dismiss their departure from their proper station on some pretext or
+other.  The young noble is certainly not performing the duties
+expected of them -- ruling the people in fief to them, or learning to
+do so.  A character will never be of royal birth.
+d1203 1
+a1203 1
+\begin{tabularx}{\linewidth}{Xlr}
+d1236 1
+a1236 1
+Nobility		& 01--27	& 28--96	& 97--100 \\
+d1247 14
+a1260 11
+25\% more Experience Points.  A legitimate child is the offspring of a
+couple in wedlock at the time of their birth.  Such a child will be
+the second or younger of the acknowledged children.  Their parents
+gave them as much attention as they could.  A legitimate child's
+monies and experience are unmodified by their order of birth.  A first
+child is the first legitimate child born to their parents (though
+others less fortunate than them may have arrived earlier).  They have
+received better treatment than their siblings, but have been shielded
+a little from some of the harsher realities of life.  A first child
+receives a 50\% increase to their initial monies, but a 25\% decrease
+to their starting Experience Point total.
+d1298 1
+a1298 1
+If human, then must have Rank 8 in speaking Common.
+d1301 1
+a1301 1
+If non-human then must have rank 4 in speaking Common and
+d1305 1
+a1305 1
+If a magic user then must have rank 8 in their native tongue and
+d1328 1
+a1328 1
+Lesser Nobility		& 3 & 21 \\
+d1332 2
+d1335 1
+a1335 1
+Horsemanship and Swimming skills.}
+d1337 5
+a1341 4
+The following table lists the experience points by Social Status that
+a player can spend on Stealth, Horsemanship, and/or Swimming.  The
+experience points must be first modified by the character's Racial
+Modifier. Any experience points left over are lost.
+d1361 1
+a1361 1
+there is minimum Magical Aptitude requirement for each college.
+d1372 1
+a1372 1
+2500 must be spent on either 1 point of fatigue or 3 points of perception.
+d1424 1
+a1424 1
+90--95	& 12	& 176	& 140-240 \\
+d1431 2
+a1432 2
+the following table based on the character's race and sex.  This gives
+the character's height in inches.
+d1441 9
+a1449 9
+\begin{tabular}{@@{}l@@{\hspace{0.5em}}c@@{\hspace{0.5em}}c@@{\hspace{0.5em}}c@@{}}
+\textbf{Race} & \textbf{Male} &\textbf{Female} & \textbf{Modifier} \\
+Dwarf		& 40	& 38		& 0.6 \\
+Elf		& 64	& 60		& 0.8 \\
+Giant		& Special & Special	& Special \\
+Halfling	& 30	& 28		& 0.3 \\
+Human		& 62	& 57		& 1.0 \\
+Orc		& 60	& 54		& 1.1 \\
+Shapechanger	& 62	& 57		& 1.0 \\
+d1453 1
+a1453 2
+in the above table should be multiplied.  In addition, female values
+should be multiplied by a further 0.8.
+d1458 14
+a1471 16
+They player rolls D100 for Silver Pennies.  The character
+automatically gets 250 Experience Points.
+
+\begin{tabular}{lc}
+\textbf{Die}	& \textbf{SP} \\
+01--02		& 5 \\
+03--06		& 15 \\
+07--14		& 25 \\
+15--30		& 35 \\
+31--50		& 45 \\
+51--70		& 55 \\
+71--86		& 65 \\
+87--94		& 75 \\
+95--98		& 85 \\ 
+99--00		& 100 \\
+\end{tabular}
+d1473 4
+a1476 3
+The Experience Point total may be modified by the character's order of
+birth.  The Silver Penny total will be modified by the Money
+Multiplier and may be modified by the order of birth.
+d1478 1
+a1478 1
+\subsubsection{A character can expend their initial allotment of
+d1484 1
+a1484 1
+Note: A character may expend only 100 Experience Points (rather than
+@
+
+
+1.3
+log
+@Checkin before changes for September Guild meeting release.
+@
+text
+@d1486 2
+a1487 2
+They player rolls D100 twice: the first time is for Experience
+Points, the second for Silver Pennies.
+d1489 12
+a1500 17
+In the case of experience points only, it is permissible to re-roll if
+the player desires it. In this case, however, the second roll must
+stand.
+
+\begin{tabular}{lcc}
+		& \textbf{Exp}	&    \\
+\textbf{Die}	& \textbf{Pts}	& \textbf{SP} \\
+01--02		& 10	& 5 \\
+03--06		& 30	& 15 \\
+07--14		& 60	& 25 \\
+15--30		& 90	& 35 \\
+31--50		& 120	& 45 \\
+51--70		& 140	& 55 \\
+71--86		& 170	& 65 \\
+87--94		& 200	& 75 \\
+95--98		& 210	& 85 \\ 
+99--00		& 250	& 100 \\
+@
+
+
+1.2
+log
+@Minor fixes for the tabulars.
+@
+text
+@a0 2
+\chapter{Character Generation}
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1441 1
+a1441 1
+Dice	& Factor & Weight & Range \\
+d1470 2
+a1471 2
+\begin{tabular}{lccc}
+Race		& Male	& Female	& Modifier \\
+d1496 2
+a1497 2
+		& Exp	&    \\
+Die		& Pts	& SP \\
+d1508 1
+@

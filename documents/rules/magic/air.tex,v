@@ -1,0 +1,3081 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL30:3.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.2;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.2;
+
+4.2
+date	2000.05.22.10.46.39;	author ralexand;	state Exp;
+branches;
+next	4.1;
+
+4.1
+date	99.08.02.13.40.36;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.06.04.05.38.15;	author rossa;	state Exp;
+branches;
+next	2.6;
+
+2.6
+date	98.06.04.05.35.06;	author rossa;	state Exp;
+branches;
+next	2.5;
+
+2.5
+date	98.05.11.02.03.35;	author rossa;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	98.05.11.01.21.15;	author rossa;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	98.05.05.05.38.10;	author rossa;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	98.05.04.03.46.15;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	98.05.04.03.41.49;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	97.06.03.02.53.22;	author rossa;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	96.10.01.00.15.00;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	96.07.11.00.00.54;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	96.02.23.01.48.18;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	96.01.29.22.09.49;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	96.01.12.02.28.38;	author rossa;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.11.01.00.17.02;	author rossa;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{college}[2.1]{air}{Air Magics}{AI}
+
+The College of Air Magics is concerned with the environment of air and
+the weather. It should be noted that there used to be a third aspect
+to this college, but the Ice Mages' increasing interest in ice and
+cold (rather than air) was considered totally unacceptable and they
+were expelled (to form the independent College of Ice Magics).
+
+When trying to ascertain the effect of spells which change the
+weather, especially wind, please read the notes accompanying the
+Weather Table. An area may be affected by more than one Air College
+spell or ritual at the same time providing that each change affects a
+different aspect of the weather.
+
+\subsubsection{Traditional Colours}
+
+Air Mages traditionally dress in blues and greys. Due to their habit
+of being outdoors in all weathers, Adepts of this college tend to wear
+practical clothing and avoid long trailing cloaks or skirts.
+
+\subsubsection{Traditional Symbols}
+
+Given the ephemeral nature of their element, Air Mages have little use
+for symbols, usually allowing their traditional colours to advertise
+their profession.
+
+\subsection{Glossary}
+
+\begin{Description}
+\item[Totally Enclosed] is defined as being surrounded by walls or
+earth in a windowless area of less than 100 feet in any dimension
+where there is no direct and immediate communication with the air
+outside.
+
+\item[Partially Enclosed] is defined as being in a cave or building
+or similar walled or earth enclosed area of greater than 100 feet in
+its smallest dimension, or in a smaller area, but having means of
+direct contact with the air outside, such as through an open window or
+portal.
+
+\item[On top of a Mountain] is defined as being within ten minutes
+walking distance of the peak.  Mountains have an enormous impact on
+the weather patterns.
+\end{Description}
+
+\subsection{Restrictions}
+
+Adepts of the College of Air Magics may only practise their arts if
+they are in contact with the air. They may never practise Air magics
+while underwater or in a vacuum. They may never summon avians into an
+environment where they could not survive.
+
+The MA requirement for this college is 13.
+
+\subsection{Base Chance Modifiers}
+
+The following modifiers are added to the Base Chance of performing any
+talent, spell or ritual of the College of Air Magics.  Only one
+modifier may be applied:
+
+\begin{tabularx}{\linewidth}{Xr}
+Caster is underground or totally enclosed	& -15 \\
+Caster is only partially enclosed	& -5 \\
+Caster is flying, or otherwise not in contact with any liquid or solid surface	& +5 \\
+Caster is standing in natural winds of  40 mph or greater	& +10 \\
+Caster is more than 100' above ground  (flying or falling etc.)	& +10 \\
+Caster is above all landmarks within 10 miles and at least 500' above the ground (flying or falling etc.)	& +20 \\
+Caster is on top of a mountain	& +20 \\
+\end{tabularx}
+
+\subsection{Talents}
+
+\begin{talent}[T-1]{Aerial Affinity}
+\multiple{75}
+\begin{effects}
+Due to their close association with the environment of air, Air Mages
+have the following abilities:
+\begin{Enumerate}
+\item
+The Adept can modify any flying or landing rolls by 1 step better per
+5 full ranks.
+
+\begin{example}
+The Air Mage comes in for a landing and the GM tells the player that
+they need to make a 3 \x AG landing roll, but because the Air Mage has
+this talent at rank 12 they need only make a 5 \x AG landing roll.
+\end{example}
+
+\item
+They will not suffer from the effects of high altitude. This talent
+only works up to a height of 2,000 feet per rank.
+
+\begin{example}
+Hypothermia (at high altitudes), flying sickness, altitude sickness.
+\end{example}
+
+\item
+General knowledge relating to being airborne.
+
+\begin{example}
+Safe velocities, altitude, down drafts, flight hazards.
+\end{example}
+
+\item
+Due to their close association with the environment, the Adept can
+modify the Force downwards and Gauge upwards on the Weather Scale
+Table by 1 per 4 ranks, for themselves.
+\end{Enumerate}
+\end{effects}
+\end{talent}
+
+\begin{talent}[T-2]{Detect Fumes}
+\range{10 feet + 10 / Rank}
+\multiple{100}
+\begin{effects}
+The Adept may detect the presence of fumes and vapours and
+has a chance equal to the Adept's modified perception (+ 3 / Rank) of
+accurately identifying each smell present. The Adept must spend a
+pulse sniffing the air while applying this talent. If the Adept's
+sense of smell is not operating, for whatever reason, then this talent
+may not be used. This talent may only be attempted once per set of
+smells. When new smells are introduced, the Adept may be able to
+identify these new smells by attempting this talent again, but any
+previously unidentified smells will remain so.
+\end{effects}
+\end{talent}
+
+\begin{talent}[T-3]{Predict Weather}
+\multiple{50}
+\basechance{30\% + 4\% / Rank}
+\begin{effects}
+The Adept may predict the local weather over the next day (+ 1 / 3
+Ranks). The Adept must be outside or able to see the sky to use this
+ability. If the Adept has resided in an area for a length of time they
+will be more familiar with the local weather. If they have lived in
+the area for over one month they will receive a bonus for predicting
+weather in the season they are familiar with. If they have lived in
+the area for over one year they will receive a bonus in any season.
+
+\begin{tabularx}{\linewidth}{lXr}
+\textbf{Time}	& \textbf{Familiarity}	& \textbf{Bonus} \\
+1 month		& Current season	& + 5\% \dag \\
+1 year		& Complete		& +10\% \dag \\
+\end{tabularx}
+\dag only one modifier applies.
+\end{effects}
+\end{talent}
+
+\subsection{General Knowledge Spells}
+
+\begin{spell}[G-1]{Calm}
+
+\range{50 feet + 50 / Rank}
+\duration{15 minutes + 15 / Rank}
+\multiple{100}
+\basechance{50\%}
+\resist{None}
+\storage{Investment, Ward, Magical Trap}
+\target{Volume}
+\begin{effects}
+The Adept halts all gross or extreme non-magical air movement within a
+volume of 10 foot (+ 10 / Rank) cubed. The entire volume must be
+within the Adept's range. The air within the volume will stay fresh
+and will slowly intermingle with air outside the volume. Once cast the
+volume may not be moved.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-2]{Feather Falling}
+
+\range{10 feet + 10 / Rank}
+\duration{30 minutes + 30 / Rank}
+\multiple{200}
+\basechance{40\%}
+\resist{None}
+\storage{Investment, Ward, Magical Trap}
+\target{Entity}
+\begin{effects}
+This spell causes the target to drift gently downwards if they fall
+more than 5 feet (should the target be falling faster than 5 feet per
+pulse they will undergo a magical deceleration over one pulse). The
+target will be subject to wind effects while drifting downwards.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-3]{Mage Wind}
+
+\range{10 feet + 10 / Rank}
+\duration{1 hour + 1 / Rank}
+\multiple{125}
+\basechance{30\%}
+\resist{None}
+\storage{Investment, Ward, Magical Trap}
+\target{Object}
+\begin{effects}
+The Adept causes 1 wind-driven object to be affected by a magical wind
+with an effective speed of up to 5 miles per hour (+ 1 / Rank). Only
+the object targeted is affected by the magical wind. By concentrating
+the Adept may alter the direction and strength of the Mage wind.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-4]{Mist}
+
+\range{20 feet + 20 / Rank}
+\duration{10 minutes + 10 / Rank}
+\multiple{100}
+\basechance{20\%}
+\resist{None}
+\storage{Investment, Ward, Magical Trap}
+\target{Volume}
+\begin{effects}
+The Adept conjures 1000 cubic feet of mist (+ 500 / additional Rank) of
+any shape entirely within the Adept's range. The mist must be at least
+1 foot in any dimension and may have detail no finer than 1 foot in
+size. The visibility in this mist is normally 30 feet (6 hexes). If
+the wind is stronger than a light breeze, the Adept must actively
+concentrate to maintain the mist. Otherwise, while the Adept actively
+concentrates, the mist may be changed in one of the following ways:
+\begin{Enumerate}
+\item
+The Adept may move the mist up to 1 hex/pulse so long as it remains
+within range.
+\item
+The Adept may change the visibility within the mist down to a minimum
+visibility of 6 hexes (-1 / 4 full Ranks).
+\end{Enumerate}
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-5]{Speak to Avians}
+
+\range{10 feet + 10 / Rank}
+\duration{1 hour + 1 / Rank}
+\multiple{75}
+\basechance{50\%}
+\resist{None}
+\storage{Investment, Magical Trap, Potion}
+\target{Self}
+\begin{effects}
+The spell allows the target to communicate with any one type of aerial
+life within range of the spell. This communication usually consists of
+sound and gesture. If the Adept wishes to converse with several
+different types of aerial life concurrently then they may cast this
+spell multiple times.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-6]{Storm Calling}
+
+\range{Special}
+\duration{60 minutes + 30 / Rank}
+\multiple{200}
+\basechance{40\%}
+\resist{None}
+\storage{Investment, Magical Trap}
+\target{Special}
+\begin{effects}
+The Adept may summon any storm front which may exist anywhere in
+sight. If no front can be seen, the spell can still be cast but the
+Base Chance is modified by -20. Generally, a storm front can be seen
+for 20 to 30 miles. Upon reaching the spot occupied by the Adept at
+the time of casting, the storm front will slow and finally cease
+moving and begin to downpour (snow, rain, hail, sleet or whatever else
+the GM feels the clouds may contain). The storm front will take D10 \x
+3 minutes (- 1 / Rank) to arrive, minimum 1. Once the duration has lapsed
+the weather will gradually return to normal over a similar amount of
+time.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-7]{Summon Avians}
+
+\range{5 miles}
+\duration{Immediate}
+\multiple{125}
+\basechance{30\%}
+\resist{Active, Passive}
+\storage{Investment, Magical Trap}
+\target{Avians}
+\begin{effects}
+The Adept may summon one avian per Rank (minimum 1) to their current
+location. The avians must be native to or present in the area and the
+Adept must specify the species (one per spell) that is being
+summoned. The Adept may summon a specific avian providing it is within
+line of sight (the species need not been known in this case). The
+avian will arrive by the shortest flight path and their initial
+reaction will be wary. The avians must have a clear flight path to the
+Adept and will spend up to 5 minutes attempting to reach the
+Adept. Note that not all avians will have a movement rate which will
+allow them to reach the Adept's location within this time. This spell
+may not be cast if the Adept is totally enclosed. If the avian being
+summoned is fantastical it gains a +20\% to its base chance to resist
+this spell.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-8]{Vapour Breathing}
+
+\range{10 feet + 10 / Rank}
+\duration{30 minutes + 30 / Rank}
+\multiple{150}
+\basechance{35\%}
+\resist{Active, Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Entity}
+\begin{effects}
+The target can breathe any gas including otherwise poisonous vapours
+(\eg Knockout Gas, Noxious Vapours etc). This spell will not enable
+the target to breathe in a vacuum or underwater. Also, this spell will
+not protect the target from any non-gaseous contents of the
+atmosphere, \eg Sleep Dust.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-9]{Wind Whistle}
+
+\range{Special}
+\duration{D10 hours + 1 / Rank}
+\multiple{125}
+\basechance{40\%}
+\resist{None}
+\storage{Investment, Potion}
+\target{Special}
+\begin{effects}
+The Adept is able to create a wind over an open space of up to 100
+feet (+ 100 / Rank) diameter centred on the Adept. Outside of this
+area, the wind will fade back to the prevailing wind over half again
+the distance. The wind will build up over D + 5 minutes (- 1 / Rank,
+minimum 1) and the Mage must choose at the time of casting which
+direction the wind will blow. The speed of the wind is determined by
+rolling a D100 roll as follows:
+
+\begin{tabular}{ccc}
+		& 	& \textbf{Speed} \\
+\textbf{Dice}& \textbf{Force}& \textbf{(mph)} \\
+01--05	& 5	& 19--24 \\
+06--15	& 4	& 13--18 \\
+16--30	& 3	& 8--12 \\
+31--50	& 2	& 4--7 \\
+51--70	& 3	& 8--12 \\
+71--85	& 4	& 13--18 \\
+86--95	& 5	& 19--24 \\
+96--100	& 6	& 25--31 \\
+\end{tabular}
+
+The Adept can choose to modify the dice roll up or down by up to 2 \x
+Rank points to determine the actual wind speed once the dice have been
+rolled. The effects of this spell override any existing wind effects
+including already existing Wind Whistle spells.
+
+If the resulting wind is Force 5 or over, missile fire will be
+affected, reducing base chances by (wind speed/2)\%.
+\end{effects}
+\end{spell}
+
+\subsection{General Knowledge Rituals}
+
+\begin{ritual}[Q-1]{Windspeak}
+
+\range{400 feet + 400 / Rank}
+\duration{1 hour + 1 / Rank}
+\multiple{150}
+\basechance{2 \x MA + 3\% / Rank}
+\resist{None}
+\storage{None}
+\target{Area}
+\casttime{1 hour}
+\material{None}
+\actions{None}
+\concentration{Standard}
+\begin{effects}
+The Adept can speak with the whispering spirits of the wind, learning
+what they have seen or heard and even soliciting their aid. All winds
+within a range of 300 feet (+ 300 per rank) can be communed with in
+this manner. There is no backfire.
+\end{effects}
+\end{ritual}
+
+\subsection{Special Knowledge Spells}
+
+\begin{spell}[S-1]{Air Blast}
+
+\range{10 feet + 10 / Rank}
+\duration{Immediate}
+\multiple{200}
+\basechance{30\%}
+\resist{Active, Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Entity, Object}
+\begin{effects}
+This spell projects a narrow and extremely strong blast of air at the
+target. The blast will impact either on the target or on the first
+obstruction blocking the path from the Adept to the target. If the
+target weighs less than 100 pounds (+ 20 / Rank) they will be thrown
+back 10 feet (+5 per 3 full rank). On landing the target suffers
+damage of [D - 5] + 1 per 3 full ranks and must make a 1 times PS + AG
+check to remain standing. The target is thrown in an arc away from the
+Adept and the highest point of the arc equals (Rank + 1) feet.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-2]{Arrow Flight}
+
+\range{5 feet}
+\duration{20 minutes + 20 / Rank}
+\multiple{200}
+\basechance{35\%}
+\resist{None}
+\storage{Investment}
+\target{Arrows or Quarrels}
+\begin{effects}
+The Adept can temporarily improve the flying quality of 2 (+ 1 / 2 Ranks)
+arrows or quarrels. Anyone firing arrows or quarrels affected by this
+spell has their Base Chance modified by +2\% (+ 1 / Rank). At rank 16+
+the arrows are counted as magical for determining which entities may
+be harmed.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-3]{Avian Control}
+
+\range{100 feet + 100 / Rank}
+\duration{Concentration: maximum 10 minutes + 10 / Rank}
+\multiple{200}
+\basechance{20\%}
+\resist{Active, Passive}
+\storage{Investment, Potion}
+\target{Avian}
+\begin{effects}
+The Adept may control 1 (+ 1 / Rank) avian within range unless the
+avian successfully resists. If the avian is fantastical, it gains
++20\% on its base chance to resist this spell. If the Adept fails to
+gain control or loses control, the avian will immediately attack the
+Adept. An avian which is still controlled when the spell duration
+expires, will flee the Adept's presence. The Adept may recast this
+spell before its duration has expired without breaking concentration.
+When the duration of the first casting expires the target gets another
+resistance check. The Adept may also choose to release an avian from
+their control before the spell's duration is up, whereupon it will
+flee as above. If the avian is sentient and is made to take an action
+that would endanger itself, another resistance check is made.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-4]{Barrier of Wind}
+
+\range{5 feet + 1 / Rank}
+\duration{30 minutes + 30 / Rank}
+\multiple{150}
+\basechance{30\%}
+\resist{None}
+\storage{Investment, Ward, Magical Trap}
+\target{Entity}
+\begin{effects}
+This spell forms a swirling pattern of wind around the entity in all
+directions.  Thrown and missile weapons passing through the barrier
+have a chance of being deflected from their course, to impact
+harmlessly elsewhere. The deflection adds 5 (+ 2 / Rank) to defence
+against missiles. This spell provides a bonus of 5 (+ 1 / Rank) in
+melee or close combat.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-5]{Conjuring Air}
+
+\range{10 feet + 10 / Rank}
+\duration{5 minutes + 5 / Rank}
+\multiple{150}
+\basechance{25\%}
+\resist{None}
+\storage{Investment, Ward, Magical Trap}
+\target{Volume}
+\begin{effects}
+The Adept may conjure anywhere within their range 5 cubic feet (+ 5 /
+Rank) of sweet smelling breathable air in any shape or shapes of their
+choice. No dimension of the shape may be less than 1 foot. The volume
+of air will hold its shape versus any non solid intrusions for the
+full duration. At the end of the duration the volume will rapidly
+disperse into the surrounding area, mixing with whatever atmosphere
+was already there.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-6]{Flying}
+
+\range{5 feet + 5 / Rank}
+\duration{30 minutes + 30 / Rank}
+\multiple{250}
+\basechance{30\%}
+\resist{Active, Passive}
+\storage{Investment, Potion}
+\target{Entity}
+\begin{effects}
+This spell enables the target to fly at a speed of 30 mph (+ 1 / Rank)
+by walking winds and air currents. Initially it will take [D + 10 -
+Rank] minutes for the wind currents to arrive. After the wind currents
+have arrived the target can take off and land as many times as they
+desire, but to recall the winds to take off after landing will take
+[D + 2] pulses. When taking off, it takes one pulse to accelerate to full
+speed. If the target tries to land, it will take one pulse to slow to
+a standstill. The target can only travel into places where air
+currents or winds are possible. This will not normally occur inside
+buildings or tunnels.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-7]{Gaseous Form}
+
+\range{Self, touch at Rank 11+}
+\duration{5 seconds + 5 / 2 Ranks}
+\multiple{300}
+\basechance{20\%}
+\resist{Active, Passive}
+\storage{Potion, Invested, Magical Trap}
+\target{Entity}
+\begin{effects}
+When this spell is cast the target (and possessions) turn into a cloud
+of vapour, that appears as a heavy mist. The target may be affected by
+magic spells. Normal or silvered weapons do not harm the target, but
+magical weapons may. The target may not use any possessions such as
+weapons, nor may the target cast or trigger magic. Magical or Racial
+Talents may be used however. The target may move up to TMR 2 in any
+direction and pass through any opening that is not airtight. When the
+duration of the spell expires, the target will reform in the nearest
+hollow space large enough to accommodate the target's body.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-8]{Gliding}
+
+\range{5 feet + 5 / Rank}
+\duration{5 minutes + 5 / Rank}
+\multiple{200}
+\basechance{30\%}
+\resist{None}
+\storage{Investment, Potion}
+\target{Sentient Entity}
+\begin{effects}
+This spell enables the target to glide at an angle of approximately 1
++ Rank feet horizontally for every foot of descent. The target's
+maximum forward speed will be approximately 80 feet / pulse (+ 1 /
+Rank) and their minimum vertical speed (relative to the air around
+them) will be approximately 40 feet / pulse (-2 / Rank, minimum 1)
+downwards. If the target is gliding in thermals or down-drafts, their
+actual rate of descent (or ascent) may vary. The actual rate of
+descent is up to the GM. The target must keep their arms (or
+equivalent) outstretched until landing or they will fall downwards,
+although the spell will resume if the target returns their arms to an
+outstretched position. The target flies with their body horizontal and
+may turn at a rate of 30 degrees / pulse (+ 5 / Rank) while
+gliding. The spell will cause the target to automatically become
+vertical when within 5 feet of a horizontal surface. The target must
+then make flying roll when landing.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-9]{Knockout Gas}
+
+\range{30 feet + 10 / Rank}
+\duration{5 minutes + 5 / Rank}
+\multiple{450}
+\basechance{15\%}
+\resist{Active, Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Area}
+\begin{effects}
+This spell creates a heavy cloud of knockout gas that rises 10 (+ 1 /
+Rank) feet above the ground. The area has a diameter of 15 feet
+(+ 5 / Rank). At ranks: 0 to 9 the cloud appears as a translucent mist
+(\ie does not inhibit vision) and is pungent smelling; 10 to 15 the
+gas is invisible and pungent smelling; 16 and above the cloud becomes
+invisible and odourless. Any entity (including the Adept) within the
+gas must resist. If they fail to resist, they must roll under 2 \x EN
+each pulse or fall unconscious (not asleep) while they remain within
+the gas. Any wind over 15 mph will disperse the gas in D-Force
+pulses. Once the gas is dispersed, the duration expires or a victim
+is removed from the area, any unconscious entities will recover in 1
+pulse (+ 1 / 5 full Ranks).
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-10]{Lightning Bolt}
+
+\range{60 feet}
+\duration{Immediate}
+\multiple{225}
+\basechance{30\%}
+\resist{Active, Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Entity, Object}
+\begin{effects}
+The Adept may throw a single bolt of lightning 60 feet long from their
+fingertips. The bolt must extend the entire 60 feet and will deflect
+off stone until it reaches its full extent.  All targets that are in
+the path of the bolt must resist or suffer [D + 5] (+ 1 / 3 Ranks)
+damage (save for half damage). In addition, any target who fails to
+resist is automatically stunned.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-11]{Lightning Strike}
+
+\range{15 feet + 5 / Rank}
+\duration{30 minutes + 30 / Rank}
+\multiple{250}
+\basechance{35\%}
+\resist{Active, Passive}
+\storage{Potion}
+\target{Entity}
+\begin{effects}
+This spell creates sheets of lightning that slowly arc around the
+entity's body doing no damage. This is extremely obvious. The first
+time the entity takes damage from a blow in combat and the attacker is
+within range, a bolt will strike out at the entity's attacker doing [D
+- 4] (+ 1 / 2 Ranks) damage (save for half damage).  The spell then
+dissipates. The Range is 5 feet (+ 5 / Rank). At rank 10 or greater,
+any attacker who fails to resist and is capable of being stunned is
+automatically stunned. This spell cannot be cast on a target if they
+are already under the effect of a Lightning Strike spell.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-12]{Resist Cold}
+
+\range{Touch}
+\duration{1 hour + 1 / Rank}
+\multiple{100}
+\basechance{40\%}
+\resist{None}
+\storage{Investment, Ward, Potion}
+\target{Entity}
+\begin{effects}
+This spell protects the target from the effects of cold temperature by
+increasing the Gauge by 1 (+ 1 / 4 full ranks) up to a maximum of
+Gauge 7 (Comfortable). It will totally protect the target from the
+effects of Hypothermia at rank 11+. In addition, the target suffers 1
+(+ 1 / 4 full ranks) less damage due to magical or non-magical cold
+based attacks.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-13]{Shaping Cloud}
+
+\range{5 miles + 1 / Rank}
+\duration{Concentration: maximum 1 minute + 1 / Rank}
+\multiple{150}
+\basechance{40\%}
+\resist{None}
+\storage{Investment, Potion, Ward}
+\target{Cloud band}
+\begin{effects}
+The Adept can cause some of a cloud bank (cloud density 5+) within
+range and line of sight to slowly shape a different image in it
+each minute. Each new shape will be gradually formed from the old over
+the course of the minute. The shape in the clouds is recognisable up
+to a range of 5 miles (+ 1 / Rank).  Measurements for this spell
+should be taken from the ground (\ie disregarding the height of the
+cloud bank).
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-14]{Whirlwind Vortex}
+
+\range{15 feet + 15 / Rank}
+\duration{Immediate}
+\multiple{650}
+\basechance{1\%}
+\resist{Active, Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Entity}
+\begin{effects}
+This spell creates a tornado around one human sized target for every 3
+or fraction ranks (minimum 1). If the target fails to resist they are
+so tossed and torn by the winds that muscles and ligaments tear,
+joints dislocate, bones break, organs rupture, and they perish. If the
+target successfully resists they suffer [D - 4] (+ 1 / Rank) damage
+due to excessive forces (instead of perishing). Targets that fail to
+resist may be resurrected.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-15]{Whispering Wind}
+
+\range{100 miles + 100 / Rank}
+\duration{Special}
+\multiple{150}
+\basechance{40\%}
+\resist{None}
+\storage{Potion}
+\target{Self}
+\begin{effects}
+This spell sends a message to an entity using the winds. The Adept
+must know the name of the entity and be able to pick them out from a
+crowd. The maximum length of the message is 5 words per rank. The
+messages will be in the voice of the Adept at the same volume as when
+spoken, and can only be heard by the target. There is a noticeable but
+minor affect of swirling air when the message is sent and
+received. The time taken for the message to reach the entity (the
+duration) is 1 hour (+ 2 minutes per mile) - rank hours (minimum of 1
+hour).
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-16]{Windstorm}
+
+\range{30 feet + 30 / Rank}
+\duration{10 seconds + 10 / Rank}
+\multiple{200}
+\basechance{40\%}
+\resist{None}
+\storage{Investment, Ward, Magical Trap}
+\target{Area}
+\begin{effects}
+The Adept creates a windstorm of Force 9 centred on the Adept and
+extending out to the full range of the spell. Once cast the Windstorm
+will not move. The winds in the area of a windstorm are random and
+violent, they do not prevail in a particular direction. All entities
+within this area except the Adept and those in the same hex must check
+against 2 \x (Physical Strength + Agility) - 2 \x Rank, every pulse,
+to regain their feet and/or remain upright. Every time an entity
+within the area falls prone, they take [D - 2] damage. This damage is
+physical. For the duration of this spell they have their TMR
+halved. All entities attempting to use missile or thrown weapons
+through or inside the area of effect have their Base Chance reduced by
+5 per every 2 hexes of Windstorm travelled through.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-17]{Wind Walking}
+
+\range{10 feet + 10 / Rank}
+\duration{30 seconds + 30 / Rank}
+\multiple{350}
+\basechance{25\%}
+\resist{Active, Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Entity}
+\begin{effects}
+The target of this spell (and possessions) turns into wind, keeping
+their approximate size and appearance. In the first pulse, the spell's
+effect is to accelerate the target to full speed and in the last
+pulse, the target will gradually slow.  The distance travelled over
+the first and last pulse is half that of normal. The target moves
+through the air at 50 mph (+ 5 / Rank). The target can only pass
+through an area that they could pass through normally. The target
+chooses the direction of the flight but the speed may not be
+altered. The target will not collide with stationary objects during
+the flight, but if rushing directly towards an object or wall, will
+brush along or past it as a wind would. If blown down a corridor to a
+dead end or similar situation, the target will not stop but double
+back in a tight loop. Anything dropped by the target will go in a
+random direction.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-18]{Ball of Lightning}
+
+\range{35 feet + 10 / Rank}
+\duration{Immediate}
+\multiple{350}
+\basechance{30\%}
+\resist{Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Entity or Object}
+\begin{effects}
+This spell creates a ball of lightning which shoots from the caster to
+the target. The ball is utterly silent and moves in a straight line.
+Anything standing between the caster and the target will be struck
+instead.  Upon striking anything the ball explodes, in a bright flash,
+causing [D - 1] (+ 1 per Rank) electrical damage. If the target
+successfully resists the damage is halved (round up), otherwise they
+are also blinded for Rank / 4 pulses (round down).
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-19]{Thunderclap}
+
+\range{20 feet + 20 / Rank}
+\duration{Immediate}
+\multiple{325}
+\basechance{30\%}
+\resist{Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Area}
+\begin{effects}
+The Adept causes the air in the targeted area to violently compress
+with a loud crash. The target area has a diameter of 5' at Ranks 0--5,
+15' at Ranks 6--12, 25' at Ranks 13--19, and 35' at Rank 20. The
+entirety of the affected area must be within the caster's spell range
+for the spell to be effective. All those within the area suffer [D +
+1] (+ 1 per 2 full Ranks) concussive damage (resist for half --- round
+up). Those failing to resist can hear nothing except a loud ringing
+for Rank pulses. On a Double or Triple effect any entities which fail
+to resist are also stunned (normal stun recovery applies). Note that
+this spell can be heard from a distance as per normal thunder.
+\end{effects}
+\end{spell}
+
+
+\subsection{Special Knowledge Rituals}
+
+\begin{ritual}[R-1]{Air Spring}
+
+\duration{Rank \x Rank hours (minimum 1)}
+\multiple{150}
+\basechance{MA + 5\% / Rank}
+\resist{None}
+\storage{None}
+\target{Area}
+\casttime{1 hour}
+\material{None}
+\actions{None}
+\concentration{Standard}
+\begin{effects}
+The Adept can open a one way portal 2 feet in diameter from the
+elemental plane of Air from which fresh clean air flows. The rate of
+flow is 5 cubic feet (+ 5 / Rank) per second. Additionally any
+modifier for being enclosed is reduced by 5.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[R-2]{Conjuring Air Elemental}
+
+\range{20 feet}
+\duration{Concentration: No maximum}
+\multiple{200}
+\basechance{MA + 5\% / Rank}
+\resist{None}
+\storage{None}
+\target{Air Elemental}
+\casttime{1 hour}
+\material{None}
+\actions{None}
+\concentration{Standard}
+\begin{effects}
+The Adept may summon an Air Elemental and bind it to temporary service
+by performing this ritual.  At the end of the ritual a Cast Check is
+performed.  If the ritual is successful the Elemental is summoned and
+controlled.  If the ritual backfires then the Elemental is summoned
+but no controlled and will attack the summoner and companions.
+
+The Air elemental will always appear within 20 feet of the summoner.
+If has a combined Endurance and Fatigue equal to 15 (+ 15 / Rank).
+The Elemental will remain until it is sent back to its home plane by
+the Adept (with Special Knowledge Counterspell of the college of Air
+Magics) or banished.  If it is controlled by the summoner it will
+remain controlled until the summoner's concentration is broken.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[R-3]{Control Weather}
+
+\duration{8 hours + 8 hours / Rank}
+\multiple{300}
+\basechance{2 \x MA + 3\% / Rank}
+\resist{None}
+\storage{None}
+\target{Area}
+\casttime{1 hour}
+\actions{Dance (2 FT when unencumbered)}
+\concentration{None}
+\begin{effects}
+The Adept may change one or more of the three components which make up
+the weather by performing a ritual dance. The three components of
+weather are;
+\begin{Itemize}
+\item Precipitation, Density
+\item Temperature, Gauge
+\item Wind, Force
+\end{Itemize}
+
+The GM should consult the weather table and advise the Adept of the
+current level of each of these three components before they start
+dancing.  The Adept may change the current components by a total of 1
++1 per 2 full ranks.
+
+\begin{example}
+At rank 12, the Adept can change a Force 3 wind into a Force 10 wind
+or Force 3 into Force 7 and Density 5 into Density 2 cloud cover.
+\end{example}
+
+All the changes may be in any direction on the table.
+
+This ritual will not cause weather effects outside the normal climatic
+range of the area (as determined by the GM).  The weather will change
+gradually over (30 - 1 / Rank) minutes per level shifted on the table
+and the three components will change simultaneously. The area of
+effect is circular with a radius of 1 mile / Rank (minimum 1). Casting
+this ritual counts as strenuous activity and the Adept will lose
+fatigue. This ritual cannot backfire.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[R-4]{Summon and Bind Cloud}
+
+\range{5 miles + 5 / Rank}
+\duration{5 hours + 5 / Rank}
+\multiple{300}
+\basechance{2 \x MA + 3\% / Rank}
+\resist{None}
+\storage{None}
+\target{Clouds}
+\casttime{1 hour}
+\material{None}
+\actions{None}
+\concentration{Standard}
+\begin{effects}
+This ritual will summon a quantity of cirro-cumulus cloud and change
+its consistency to that of packed cotton wool to provide a method of
+transport. Items will pass through the cloud after 30 seconds unless
+supported by an Entity. The cloud arrives during the last half hour of
+casting and spends the first and last half hour of travel rising to
+and descending from its natural travelling height. The natural height
+of cirro-cumulus clouds is between 2 and 4 miles above sea level
+(10,000 to 20,000 feet). The cloud may support 1 entity (+ 1 / Rank)
+and transports them in a comfortable and oxygenated environment,
+although it may be slightly cold if improperly clothed. Flying
+entities may take off or land on the cloud as long as the above limit
+is maintained. If more entities land on a cloud than it can carry, it
+will immediately start to descend taking half an hour and dissipate
+upon reaching the ground. The cloud appears to be a normal cloud but
+is sufficiently soft to prevent injury to anything that impacts it
+(it's also non-flammable). The clouds will move with the prevailing
+winds or can be moved with magical winds such as Mage Wind. By
+actively concentrating the Adept can cause the clouds to move at a
+different speed or in a different direction to the prevailing
+wind. The Adept can alter the movement of the clouds by 2 miles per
+hour (+ 2 / Rank) in any one direction. The altitude of the clouds may
+not be controlled. While in contact with the ground the clouds will
+not move.
+\end{effects}
+\end{ritual}
+
+\begin{table*}
+\subsection{Weather Scale Table 1.0}
+
+\begin{tabularx}{\linewidth}{llXc}
+\textbf{Force} & \textbf{Wind} & \textbf{Specification}	& \textbf{Speed (mph)} \\
+0	& Calm		& Smoke rises vertically	& $<$ 1 \\
+1	& Light air	& Direction indicated by smoke only & 1--3 \\
+2	& Light breeze	& Wind felt on face, leaves rustle & 4--7 \\
+3	& Gentle breeze & Leaves and twigs in constant motion, wind extends light flag & 8--12 \\
+4	& Moderate breeze & Wind raises dust and loose paper, small branches move & 13--18 \\
+5	& Fresh breeze	& Small trees in leaf start to sway, crested wavelets on inland waters & 19--24 \\
+6	& Strong breeze	& Large branches in motion, whistling through trees & 25--31 \\
+7	& Near gale	& Whole trees in motion, inconvenient to walk against wind & 32--38 \\
+8 *	& Gale		& Twigs break from trees, difficult to walk & 39--46 \\
+9  **	& Strong gale	& Slight structural damage occurs	& 47--54 \\
+10 **	& Storm		& Trees uprooted, considerable structural damage occur & 55--63 \\
+11 ***	& Violent storm	& Widespread damage		& 64--73 \\
+12+***	& Hurricane	& Widespread damage		& 74 and above \\
+\\
+\textbf{Gauge} & \textbf{Temperature} & \textbf{Specification} & \textbf{Degrees Celcius} \\
+0  ***	& Arctic	& Dangerous	& -20 and below \\
+1  **	& Arctic	& Salt water freezes & -15 \\
+2  *	& Arctic	& Branches become brittle & -10 \\
+3	& Arctic-like	& Dangerously cold if not dressed in winter clothing & -5 \\
+4	& Sub-arctic	& Water freezes, numbness, precipitation becomes hail, snow, sleet & 0 \\
+5	& Sub-arctic	& Cold, uncomfortable if poorly clothed & 5 \\
+6	& Sub-tropical	& Cool	& 10 \\
+7	& Sub-tropical	& Comfortable & 15 \\
+8	& Sub-tropical	& Comfortable, warm & 20 \\
+9	& Tropical	& Hot, uncomfortable if poorly clothed & 25 \\
+10	& Tropical	& Uncomfortably hot, sub-tropical plants wither & 30 \\
+11 **	& Desert-like	& Extreme heat, sub-tropical plants die, tropical plants wither & 35 \\
+12+*** & Desert	& Debilitating, tropical plants die & 40 and above \\
+\\
+\textbf{Degree}	& \textbf{Cloud} & \textbf{Precipitation} & \textbf{Inches / Hour} \\
+0 & Clear & Dry, high fire danger 						& 0 \\
+1 & Clear & Dry, fires easy to start						& 0 \\
+2 & Clear & Comfortable 							& 0 \\
+3 & Sparse & Humid, uncomfortable in high temperature				& 1 \\
+4 & Light & Damp								& 2 \\
+5 & Cloudy & Drizzle, fog in cold conditions					& 3 \\
+6 & Overcast & Showers								& 4 \\
+7 & Heavy Cloud & Light rain, leaves move, fires difficult to start		& 5 \\
+8 & Dark Cloud & Average rain							& 10 \\
+9 & Low black cloud & Heavy rain, small branches move, small fires doused	& 20\\
+10 * & Oppressive & Torrential rain, river rise, large fires doused		& 40 \\
+11 ** & Oppressive & Flood warning, rivers burst their banks			& 80 \\
+12+*** & Oppressive & Flash floods						& 160 \\
+\end{tabularx}
+
+\begin{flushleft}
+* Maximum variation Rank 5 in Control Weather Ritual\\
+** Maximum variation Rank 10 in Control Weather Ritual \\
+*** Maximum variation Rank 15 in Control Weather Ritual \\
+\end{flushleft}
+
+\begin{multicols}{2}
+\begin{Description}
+\item[T1 Aerial Affinity (Air Mage Talent)]
+Due to their close association with the environment the Adept can
+modify the Force downwards, and Gauge upwards on the Weather Scale
+Table by 1 per 4 rank, for themselves.
+
+\item[S-12 Resist Cold (Air Mage Spell)]
+This spell protects the target from the effects of cold temperature by
+increasing the Gauge by 1 (+ 1 / 4 full ranks) up to a maximum of
+Gauge 7.
+
+\item[R-3 Control Weather (Air Mage Ritual)]
+The Adept may change the current components by 1 + 1 per 2 full ranks.
+
+\begin{example}
+At rank 12, the Adept can change a Force 3 wind into a Force 10 wind
+or Force 3 into Force 7 and Density 5 into Density 2 cloud cover.
+\end{example}
+Each of the changes may be in any direction on the table. 
+\end{Description}
+\end{multicols}
+\end{table*}
+\end{college}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@d113 1
+a114 1
+\range{10 feet + 10 / Rank}
+a366 1
+\material{None}
+d369 1
+a809 1
+\material{None}
+d812 1
+a830 1
+\material{None}
+d833 1
+a902 1
+\material{None}
+d905 1
+@
+
+
+4.2
+log
+@Minor corrections from Andrew Withy plus formatting changes.
+@
+text
+@d1 1
+a1 1
+\begin{college}[2.1]{air}{Air Magics}
+d114 1
+a114 1
+\range{10 feet (+ 10 / Rank)}
+d130 1
+a130 1
+\basechance{30\% (+ 4 / Rank)}
+d153 2
+a154 2
+\range{50 feet (+ 50 / Rank)}
+\duration{15 minutes (+ 15 / Rank)}
+d157 1
+a157 1
+\resist{May not be resisted}
+d171 2
+a172 2
+\range{10 feet (+ 10 / Rank)}
+\duration{30 minutes (+ 30 / Rank)}
+d175 1
+a175 1
+\resist{May not be resisted}
+d188 2
+a189 2
+\range{10 feet (+ 10 / Rank)}
+\duration{1 hour (+ 1 / Rank)}
+d192 1
+a192 1
+\resist{May not be resisted}
+d205 2
+a206 2
+\range{20 feet (+ 20 / Rank)}
+\duration{10 minutes (+ 10 / Rank)}
+d209 1
+a209 1
+\resist{May not be resisted}
+d233 2
+a234 2
+\range{10 feet (+ 10 / Rank)}
+\duration{1 hour (+ 1 / Rank)}
+d237 1
+a237 1
+\resist{May not be resisted}
+d252 1
+a252 1
+\duration{1 hour (+30 minutes/Rank)}
+d255 1
+a255 1
+\resist{May not be resisted}
+d278 1
+a278 1
+\resist{May be actively \& passively resisted}
+d300 2
+a301 2
+\range{10 feet (+ 10 / Rank)}
+\duration{30 minutes (+ 30 / Rank)}
+d304 1
+a304 1
+\resist{May be actively \& passively resisted}
+d319 1
+a319 1
+\duration{D10 hours (+ 1 / Rank)}
+d322 1
+a322 1
+\resist{May not be resisted}
+d329 1
+a329 1
+the distance. The wind will build up over D+5 minutes (-1/Rank,
+d361 2
+a362 2
+\range{400 feet (+ 400 / Rank)}
+\duration{1 hour (+ 1 / Rank)}
+d364 2
+a365 2
+\basechance{2 \x MA (+ 3 / Rank)}
+\resist{May not be resisted}
+d384 1
+a384 1
+\range{10 feet (+ 10 / Rank)}
+d388 1
+a388 1
+\resist{May be actively \& passively resisted}
+d405 2
+a406 2
+\range{5 Feet}
+\duration{20 minutes (+ 20 / Rank)}
+d409 1
+a409 1
+\resist{May not be resisted}
+d423 2
+a424 2
+\range{100 feet (+ 100 / Rank)}
+\duration{Concentration/maximum 10 minutes (+ 10 / Rank)}
+d427 1
+a427 1
+\resist{May be actively \& passively resisted}
+d448 2
+a449 2
+\range{5 feet (+ 1 / Rank)}
+\duration{30 minutes (+ 30 / Rank)}
+d452 1
+a452 1
+\resist{May not be resisted}
+d467 2
+a468 2
+\range{10 feet (+ 10 / Rank)}
+\duration{5 minutes (+ 5 / Rank)}
+d471 1
+a471 1
+\resist{May not be resisted}
+d487 2
+a488 2
+\range{5 feet (+ 5 / Rank)}
+\duration{30 minutes (+ 30 / Rank)}
+d491 1
+a491 1
+\resist{May be actively \& passively resisted}
+d511 1
+a511 1
+\duration{5 seconds + 5 per 2 full Ranks}
+d514 1
+a514 1
+\resist{May be actively \& passively resisted }
+d532 2
+a533 2
+\range{5 feet (+ 5 / Rank)}
+\duration{5 minutes (+ 5 / Rank)}
+d536 1
+a536 1
+\resist{May not be resisted}
+d560 2
+a561 2
+\range{30 feet (+ 10 / Rank)}
+\duration{5 minutes (+ 5 / Rank)}
+d564 1
+a564 1
+\resist{May be actively \& passively resisted }
+d589 1
+a589 1
+\resist{May be actively \& passively resisted, (for $\frac{1}{2}$ damage)}
+d597 2
+a598 2
+damage. In addition, any target who fails to resist is automatically
+stunned.
+d604 2
+a605 2
+\range{15 Feet (+ 5 / Rank)}
+\duration{30 minutes (+ 30 / Rank)}
+d608 1
+a608 1
+\resist{May be actively \& passively resisted (for $\frac{1}{2}$ damage)}
+d627 1
+a627 1
+\duration{1 hour (+ 1 / Rank)}
+d630 1
+a630 1
+\resist{May not be resisted}
+d645 2
+a646 2
+\range{Line of Sight (max 5 miles + 1/Rank)}
+\duration{Concentration (max 1 min. + 1 / Rank)}
+d649 1
+a649 1
+\resist{May not be resisted}
+d654 6
+a659 5
+range to slowly shape a different image in it each minute. Each new
+shape will be gradually formed from the old over the course of the
+minute. The shape in the clouds is recognisable up to a range of 5
+miles (+ 1 / Rank).  Measurements for this spell should be taken from
+the ground (\ie disregarding the height of the cloud bank).
+d665 1
+a665 1
+\range{15 feet (+ 15 / Rank)}
+d669 1
+a669 1
+\resist{May be actively \& passively resisted }
+d685 1
+a685 1
+\range{100 miles (+ 100 / Rank)}
+d689 1
+a689 1
+\resist{May not be resisted}
+d707 2
+a708 2
+\range{30 feet (+ 30 / Rank)}
+\duration{10 seconds (+ 10 / Rank)}
+d711 2
+a712 2
+\resist{May not be resisted}
+\storage{Investment,` Ward, Magical Trap}
+d732 2
+a733 2
+\range{10 feet (+ 10 / Rank)}
+\duration{30 seconds (+ 30 / Rank)}
+d736 1
+a736 1
+\resist{May be actively \& passively resisted }
+d759 1
+a759 1
+\range{35 feet (+ 10 / Rank)}
+d763 1
+a763 1
+\resist{May only be passively resisted }
+d779 2
+a780 2
+\range{20 feet (+ 20 / Rank)}
+\duration{Immediate (during Pulse)}
+d783 1
+a783 1
+\resist{May only be Passively Resisted}
+d807 2
+a808 2
+\basechance{MA (+ 5 / Rank)}
+\resist{May not be resisted}
+d828 2
+a829 2
+\basechance{MA (+ 5 / Rank)}
+\resist{May not be resisted}
+d854 1
+a854 1
+\duration{8 hours / Rank (minimum 8)}
+d856 2
+a857 2
+\basechance{2 \x MA (+ 3 / Rank)}
+\resist{May not be resisted}
+d897 2
+a898 2
+\range{5 miles (+ 5 / Rank)}
+\duration{5 hours (+ 5 / Rank)}
+d900 2
+a901 2
+\basechance{2 \x MA (+ 3 / Rank)}
+\resist{May not be resisted}
+@
+
+
+4.1
+log
+@Change Conjuring and Controlling Air Elemental.
+@
+text
+@d1 1
+a1 5
+\section{The College of Air Magics (Ver 2.1)}
+\label{college:air}
+\index{colleges!Air Magics|(}
+
+\begin{multicols}{3}
+d15 11
+a25 8
+\textbf{Traditional Colours:} Air Mages traditionally dress in blues
+and greys. Due to their habit of being outdoors in all weathers,
+Adepts of this college tend to wear practical clothing and avoid long
+trailing cloaks or skirts.
+
+\textbf{Traditional Symbols:} Given the ephemeral nature of their
+element, Air Mages have little use for symbols, usually allowing their
+traditional colours to advertise their profession.
+d29 2
+a30 1
+\textbf{Totally Enclosed:} is defined as being surrounded by walls or
+d35 1
+a35 1
+\textbf{Partially Enclosed:} is defined as being in a cave or building
+d41 1
+a41 1
+\textbf{On top of a Mountain:} is defined as being within ten minutes
+d44 1
+a47 1
+
+d53 1
+a53 1
+\textbf{Magical Aptitude:} The MA requirement for this college is 13.
+d55 1
+a55 1
+\subsection{Modifiers}
+d60 1
+d74 2
+a75 3
+
+\sItem{Experience Multiple}{75}
+\emph{Effect:}
+d109 1
+a109 1
+
+d113 5
+a117 6
+
+\sItem{Experience Multiple}{100}
+\sItem{Range}{10 feet (+ 10 / Rank)}
+\emph{Effect:}
+The Adept may detect the presence of fumes and vapours and has a
+chance equal to the Adept's modified perception (+ 3 / Rank) of
+d125 1
+a125 1
+
+d129 3
+a131 4
+
+\sItem{Experience Multiple}{50}
+\sItem{Base Chance}{30\% (+ 4 / Rank)}
+\emph{Effect:}
+d146 1
+a148 1
+
+d153 8
+a160 8
+\sItem{Range}{50 feet (+ 50 / Rank)}
+\sItem{Duration}{15 minutes (+ 15 / Rank)}
+\sItem{Experience Multiple}{100}
+\sItem{Base Chance}{50\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Volume}
+\emph{Effect:}
+d166 1
+a166 1
+
+d171 8
+a178 8
+\sItem{Range}{10 feet (+ 10 / Rank)}
+\sItem{Duration}{30 minutes (+ 30 / Rank)}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d183 1
+a183 1
+
+d188 8
+a195 8
+\sItem{Range}{10 feet (+ 10 / Rank)}
+\sItem{Duration}{1 hour (+ 1 / Rank)}
+\sItem{Experience Multiple}{125}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Object}
+\emph{Effect:}
+d200 1
+a200 1
+
+d205 8
+a212 8
+\sItem{Range}{20 feet (+ 20 / Rank)}
+\sItem{Duration}{10 minutes (+ 10 / Rank)}
+\sItem{Experience Multiple}{100}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Volume}
+\emph{Effect:}
+d228 1
+a228 1
+
+d233 8
+a240 8
+\sItem{Range}{10 feet (+ 10 / Rank)}
+\sItem{Duration}{1 hour (+ 1 / Rank)}
+\sItem{Experience Multiple}{75}
+\sItem{Base Chance}{50\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Magical Trap, Potion}
+\sItem{Target}{Self}
+\emph{Effect:}
+d246 1
+a246 1
+
+d251 8
+a258 8
+\sItem{Range}{Special}
+\sItem{Duration}{1 hour (+30 minutes/Rank)}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Magical Trap}
+\sItem{Target}{Special}
+\emph{Effect:}
+d269 1
+a269 1
+
+d274 8
+a281 8
+\sItem{Range}{5 miles}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{125}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May be actively \& passively resisted }
+\sItem{Storage}{Investment, Magical Trap}
+\sItem{Target}{Avians}
+\emph{Effect:}
+d295 1
+a295 1
+
+d300 8
+a307 8
+\sItem{Range}{10 feet (+ 10 / Rank)}
+\sItem{Duration}{30 minutes (+ 30 / Rank)}
+\sItem{Experience Multiple}{150}
+\sItem{Base Chance}{35\%}
+\sItem{Resist}{May be actively \& passively resisted }
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d313 1
+a313 1
+
+d318 8
+a325 8
+\sItem{Range}{Special}
+\sItem{Duration}{D10 hours (+ 1 / Rank)}
+\sItem{Experience Multiple}{125}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Potion}
+\sItem{Target}{Special}
+\emph{Effect:}
+d354 1
+a354 1
+
+d361 12
+a372 12
+\sItem{Range}{400 feet (+ 400 / Rank)}
+\sItem{Duration}{1 hour (+ 1 / Rank)}
+\sItem{Experience Multiple}{150}
+\sItem{Base Chance}{2 \x MA (+ 3 / Rank)}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{None}
+\sItem{Material}{None}
+\sItem{Target}{Area}
+\sItem{Cast Time}{1 hour}
+\sItem{Actions}{None}
+\sItem{Concentration Check}{Standard}
+\emph{Effect:}
+d377 1
+d384 8
+a391 8
+\sItem{Range}{10 feet (+ 10 / Rank)}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May be actively \& passively resisted }
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Entity, Object}
+\emph{Effect:}
+d397 1
+a397 1
+damage of [D - 5] +1 per 3 full ranks and must make a 1 times PS + AG
+d400 1
+d405 8
+a412 8
+\sItem{Range}{5 Feet}
+\sItem{Duration}{20 minutes (+ 20 / Rank)}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{35\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment}
+\sItem{Target}{Arrows or Quarrels}
+\emph{Effect:}
+d418 1
+a418 1
+
+d423 8
+a430 8
+\sItem{Range}{100 feet (+ 100 / Rank)}
+\sItem{Duration}{Concentration/maximum 10 minutes (+ 10 / Rank)}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{May be actively \& passively resisted }
+\sItem{Storage}{Investment, Potion}
+\sItem{Target}{Avian}
+\emph{Effect:}
+d443 1
+a443 1
+
+d448 8
+a455 8
+\sItem{Range}{5 feet (+ 1 / Rank)}
+\sItem{Duration}{30 minutes (+ 30 / Rank)}
+\sItem{Experience Multiple}{150}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d462 1
+a462 1
+
+d467 8
+a474 8
+\sItem{Range}{10 feet (+ 10 / Rank)}
+\sItem{Duration}{5 minutes (+ 5 / Rank)}
+\sItem{Experience Multiple}{150}
+\sItem{Base Chance}{25\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Volume}
+\emph{Effect:}
+d482 1
+a482 1
+
+d487 8
+a494 8
+\sItem{Range}{5 feet (+ 5 / Rank)}
+\sItem{Duration}{30 minutes (+ 30 / Rank)}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May be actively \& passively resisted }
+\sItem{Storage}{Investment, Potion}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d505 1
+a505 1
+
+d510 8
+a517 8
+\sItem{Range}{Self, touch at Rank 11+}
+\sItem{Duration}{5 seconds + 5 per 2 full Ranks}
+\sItem{Experience Multiple}{300}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{May be actively \& passively resisted }
+\sItem{Storage}{Potion, Invested, Magical Trap}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d527 1
+a527 1
+
+d532 8
+a539 8
+\sItem{Range}{5 feet (+ 5 / Rank)}
+\sItem{Duration}{5 minutes (+ 5 / Rank)}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Potion}
+\sItem{Target}{Sentient Entity}
+\emph{Effect:}
+d541 15
+a555 14
++ Rank feet horizontal for every foot of descent. The target's maximum
+forward speed will be approximately 80 feet / pulse (+ 1 / Rank) and
+their minimum vertical speed (relative to the air around them) will be
+approximately 40 feet / pulse (-2 / Rank, minimum 1) downwards. If the
+target is gliding in thermals or down-drafts, their actual rate of
+descent (or ascent) may vary. The actual rate of descent is up to the
+GM. The target must keep their arms (or equivalent) outstretched until
+landing or they will fall downwards, although the spell will resume if
+the target returns their arms to an outstretched position. The target
+flies with their body horizontal and may turn at a rate of 30 degrees
+/ pulse (+ 5 / Rank) while gliding. The spell will cause the target to
+automatically become vertical when within 5 feet of a horizontal
+surface. The target must then make flying roll when landing.
+
+d560 8
+a567 8
+\sItem{Range}{30 feet (+ 10 / Rank)}
+\sItem{Duration}{5 minutes (+ 5 / Rank)}
+\sItem{Experience Multiple}{450}
+\sItem{Base Chance}{15\%}
+\sItem{Resist}{May be actively \& passively resisted }
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Area}
+\emph{Effect:}
+d580 1
+a580 1
+
+d585 8
+a592 8
+\sItem{Range}{60 feet}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{225}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May be actively \& passively resisted, (for $\frac{1}{2}$ damage)}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Entity, Object}
+\emph{Effect:}
+d599 1
+a599 1
+
+d604 8
+a611 8
+\sItem{Range}{15 Feet (+ 5 / Rank)}
+\sItem{Duration}{30 minutes (+ 30 / Rank)}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{35\%}
+\sItem{Resist}{May be actively \& passively resisted (for $\frac{1}{2}$ damage)}
+\sItem{Storage}{Potion}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d621 1
+a621 1
+
+d626 8
+a633 8
+\sItem{Range}{Touch}
+\sItem{Duration}{1 hour (+ 1 / Rank)}
+\sItem{Experience Multiple}{100}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward, Potion}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d640 1
+a640 1
+
+d645 8
+a652 8
+\sItem{Range}{Line of Sight (max 5 miles + 1/Rank)}
+\sItem{Duration}{Concentration (max 1 min. + 1 / Rank)}
+\sItem{Experience Multiple}{150}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Potion, Ward}
+\sItem{Target}{Cloud band}
+\emph{Effect:}
+d659 1
+a659 1
+
+d664 8
+a671 8
+\sItem{Range}{15 feet (+ 15 / Rank)}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{650}
+\sItem{Base Chance}{1\%}
+\sItem{Resist}{May be actively \& passively resisted }
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d679 1
+a679 1
+
+d684 8
+a691 8
+\sItem{Range}{100 miles (+ 100 / Rank)}
+\sItem{Duration}{Special}
+\sItem{Experience Multiple}{150}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Potion}
+\sItem{Target}{Self}
+\emph{Effect:}
+d701 1
+a701 1
+
+d706 8
+a713 8
+\sItem{Range}{30 feet (+ 30 / Rank)}
+\sItem{Duration}{10 seconds (+ 10 / Rank)}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Area}
+\emph{Effect:}
+d726 1
+a726 1
+
+d731 8
+a738 8
+\sItem{Range}{10 feet (+ 10 / Rank)}
+\sItem{Duration}{30 seconds (+ 30 / Rank)}
+\sItem{Experience Multiple}{350}
+\sItem{Base Chance}{25\%}
+\sItem{Resist}{May be actively \& passively resisted }
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d753 1
+a753 1
+
+d758 8
+a765 8
+\sItem{Range}{35 feet (+ 10 / Rank)}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{350}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May only be passively resisted }
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Entity or Object}
+\emph{Effect:}
+d773 1
+a773 1
+
+d778 8
+a785 8
+\sItem{Range}{20 feet (+ 20 / Rank)}
+\sItem{Duration}{Immediate (during Pulse)}
+\sItem{Experience Multiple}{325}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May only be Passively Resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Area}
+\emph{Effect:}
+d796 1
+a796 1
+
+d804 11
+a814 11
+\sItem{Duration}{Rank \x Rank hours (minimum 1)}
+\sItem{Experience Multiple}{150}
+\sItem{Base Chance}{MA (+ 5 / Rank)}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{None}
+\sItem{Material}{None}
+\sItem{Target}{Area}
+\sItem{Cast Time}{1 hour}
+\sItem{Actions}{None}
+\sItem{Concentration Check}{Standard}
+\emph{Effect:}
+d819 1
+a819 1
+
+d824 12
+a835 12
+\sItem{Range}{20 feet}
+\sItem{Duration}{Concentration: No maximum}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{MA (+ 5 / Rank)}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{None}
+\sItem{Material}{None}
+\sItem{Target}{Air Elemental}
+\sItem{Cast Time}{1 hour}
+\sItem{Actions}{None}
+\sItem{Concentration Check}{Standard}
+\emph{Effect:}
+d839 2
+a840 4
+controlled.  If the ritual backfires (the Cast Check exceeds the Base
+Chance by 30 or more) then the Elemental is but no controlled and will
+attack the summoner and companions.  If the ritual fails it has no
+effect.
+d848 1
+d853 10
+a862 10
+\sItem{Duration}{8 hours / Rank (minimum 8)}
+\sItem{Experience Multiple}{300}
+\sItem{Base Chance}{2 \x MA (+ 3 / Rank)}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{None}
+\sItem{Target}{Area}
+\sItem{Cast Time}{1 hour}
+\sItem{Actions}{Dance (2 FT when unencumbered)}
+\sItem{Concentration Check}{None}
+\emph{Effect:}
+d891 1
+d896 14
+a909 14
+\sItem{Range}{5 miles (+ 5 / Rank)}
+\sItem{Duration}{5 hours (+ 5 / Rank)}
+\sItem{Experience Multiple}{300}
+\sItem{Base Chance}{2 \x MA (+ 3 / Rank)}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{None}
+\sItem{Material}{None}
+\sItem{Target}{Clouds}
+\sItem{Cast Time}{1 hour}
+\sItem{Actions}{None}
+\sItem{Concentration Check}{Standard}
+\emph{Effect:}
+This ritual will summon a quantity cirro-cumulus cloud and change its
+consistency to that of packed cotton wool to provide a method of
+d931 1
+a931 1
+
+a932 1
+\raggedcolumns\newpage\end{multicols}
+d1013 1
+a1013 3
+
+\clearemptydoublepage
+
+@
+
+
+4.0
+log
+@REL40
+@
+text
+@d824 1
+a824 1
+\sItem{Duration}{Special}
+d835 14
+a848 8
+Upon a sucessful cast of this ritual the Adept summons an Air
+Elemental from the elemental plane of Air.  The Elemental will appear
+within 20 feet of the Adept. The Elemental will remain until banished,
+or until it has an Air Special Counterspell cast on it by the
+Adept. Conjured Air Elementals will normally obey their Summoner, but
+will generally be indifferent to all Non-Elemental entities.  Should
+the ritual fail nothing will occur.  If the ritual backfires an Air
+Elemental will turn up and immediately attack the summoner.
+@
+
+
+3.0
+log
+@REL30
+@
+text
+@@
+
+
+2.6
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+2.5
+log
+@Fix e.g. problem
+@
+text
+@d78 1
+a78 1
+\begin{enumerate}
+d108 1
+a108 1
+\end{enumerate}
+d222 1
+a222 1
+\begin{enumerate}
+d229 1
+a229 1
+\end{enumerate}
+d828 1
+a828 1
+\sItem{Storage}{Investment, Ward, Magical Trap}
+d835 8
+a842 9
+With this Ritual, the Adept conjures an Air Elemental from the
+elemental plane of Air.  The Elemental will appear within 20 feet of
+the Adept. The Elemental will remain until banished, or until it has
+an Air Special Counterspell cast on it by the Adept. Conjured Air
+Elementals will be mildly annoyed with their Summoners and may attack,
+but will generally be indifferent to all Non-Elemental entities.  The
+summoning is always successful but unless the ritual is successfully
+cast then it will arrive uncontrolled.
+
+d860 1
+a860 2
+\begin{itemize}
+\setlength\itemsep{0pt}
+d864 1
+a864 1
+\end{itemize}
+a884 1
+
+@
+
+
+2.4
+log
+@Check in before modifying e.g. and i.e.
+@
+text
+@d311 1
+a311 1
+(e.g.\ Knockout Gas, Noxious Vapours etc). This spell will not enable
+d314 1
+a314 1
+atmosphere, e.g.\ Sleep Dust.
+d570 1
+a570 1
+(i.e.\ does not inhibit vision) and is pungent smelling; 10 to 15 the
+d657 1
+a657 1
+the ground (i.e.\ disregarding the height of the cloud bank).
+@
+
+
+2.3
+log
+@Fix spell environment and indexes
+@
+text
+@d311 1
+a311 1
+(e.g., Knockout Gas, Noxious Vapours etc). This spell will not enable
+d314 1
+a314 1
+atmosphere, e.g., Sleep Dust.
+d570 1
+a570 1
+(i.e., does not inhibit vision) and is pungent smelling; 10 to 15 the
+d657 1
+a657 1
+the ground (i.e., disregarding the height of the cloud bank).
+d929 1
+d931 1
+a931 4
+\end{multicols}
+
+\newpage
+
+d988 1
+a988 1
+\begin{description}
+d1007 1
+a1007 1
+\end{description}
+d1009 2
+a1010 1
+\index{colleges!Air Magics|)}
+d1012 1
+@
+
+
+2.2
+log
+@Fix index.
+@
+text
+@d72 1
+a72 1
+\begin{talent}{Aerial Affinity (T-1)}
+d112 1
+a112 1
+\begin{talent}{Detect Fumes (T-2)}
+d129 1
+a129 1
+\begin{talent}{Predict Weather (T-3)}
+d153 1
+a153 1
+\begin{spell}{Calm (G-1)}
+d171 1
+a171 1
+\begin{spell}{Feather Falling (G-2)}
+d188 1
+a188 1
+\begin{spell}{Mage Wind (G-3)}
+d205 1
+a205 1
+\begin{spell}{Mist (G-4)}
+d233 1
+a233 1
+\begin{spell}{Speak to Avians (G-5)}
+d251 1
+a251 1
+\begin{spell}{Storm Calling (G-6)}
+d274 1
+a274 1
+\begin{spell}{Summon Avians (G-7)}
+d300 1
+a300 1
+\begin{spell}{Vapour Breathing (G-8)}
+d318 1
+a318 1
+\begin{spell}{Wind Whistle (G-9)}
+d361 1
+a361 1
+\begin{ritual}{Windspeak (Q-1)}
+d383 1
+a383 1
+\begin{spell}{Air Blast (S-1)}
+d403 1
+a403 1
+\begin{spell}{Arrow Flight (S-2)}
+d421 1
+a421 1
+\begin{spell}{Avian Control (S-3)}
+d446 1
+a446 1
+\begin{spell}{Barrier of Wind (S-4)}
+d465 1
+a465 1
+\begin{spell}{Conjuring Air (S-5)}
+d485 1
+a485 1
+\begin{spell}{Flying (S-6)}
+d508 1
+a508 1
+\begin{spell}{Gaseous Form (S-7)}
+d530 1
+a530 1
+\begin{spell}{Gliding (S-8)}
+d557 1
+a557 1
+\begin{spell}{Knockout Gas (S-9)}
+d582 1
+a582 1
+\begin{spell}{Lightning Bolt (S-10)}
+d601 1
+a601 1
+\begin{spell}{Lightning Strike (S-11)}
+d623 1
+a623 1
+\begin{spell}{Resist Cold (S-12)}
+d642 1
+a642 1
+\begin{spell}{Shaping Cloud (S-13)}
+d661 1
+a661 1
+\begin{spell}{Whirlwind Vortex (S-14)}
+d681 1
+a681 1
+\begin{spell}{Whispering Wind (S-15)}
+d703 1
+a703 1
+\begin{spell}{Windstorm (S-16)}
+d728 1
+a728 1
+\begin{spell}{Wind Walking (S-17)}
+d755 1
+a755 1
+\begin{spell}{Ball of Lightning (S-18)}
+d775 1
+a775 1
+\begin{spell}{Thunderclap (S-19)}
+d801 1
+a801 1
+\begin{ritual}{Air Spring (R-1)}
+d821 1
+a821 1
+\begin{ritual}{Conjuring Air Elemental (R-2)}
+d846 1
+a846 1
+\begin{ritual}{Control Weather (R-3)}
+d890 1
+a890 1
+\begin{ritual}{Summon and Bind Cloud (R-4)}
+@
+
+
+2.1
+log
+@Major typographical changes.  Spells now spell environments
+@
+text
+@d3 1
+a3 1
+\index{college:air|(}
+d1011 1
+a1011 1
+\index{college:air|)}
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d2 2
+d72 1
+a72 1
+\subsubsection{Aerial Affinity (T-1)}
+d74 2
+a75 4
+\begin{spelldesc}
+\emph{Experience Multiple:} 75 \\
+\end{spelldesc}
+\emph{Effects:}
+d110 1
+a110 1
+\subsubsection{Detect Fumes (T-2)}
+d112 5
+a116 5
+\begin{spelldesc}
+\emph{Experience Multiple:} 100 \\
+\emph{Range:} 10 feet (+ 10 / Rank) \\
+\end{spelldesc}
+\emph{Effects:}
+d127 3
+a129 1
+\subsubsection{Predict Weather (T-3)}
+d131 3
+a133 5
+\begin{spelldesc}
+\emph{Experience Multiple:} 50 \\
+\emph{Base Chance:} 30\% (+ 4 / Rank) \\
+\end{spelldesc}
+\emph{Effects:}
+d148 2
+d153 1
+a153 1
+\subsubsection{Calm (G-1)}
+d155 8
+a162 10
+\begin{spelldesc}
+\emph{Range:} 50 feet (+ 50 / Rank) \\
+\emph{Duration:} 15 minutes (+ 15 / Rank) \\
+\emph{Experience Multiple:} 100 \\
+\emph{Base Chance:} 50\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Volume \\
+\end{spelldesc}
+\emph{Effects:}
+d169 1
+a169 1
+\subsubsection{Feather Falling (G-2)}
+d171 10
+a180 10
+\begin{spelldesc}
+\emph{Range:} 10 feet (+ 10 / Rank) \\
+\emph{Duration:} 30 minutes (+ 30 / Rank) \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d186 3
+a188 1
+\subsubsection{Mage Wind (G-3)}
+d190 8
+a197 10
+\begin{spelldesc}
+\emph{Range:} 10 feet (+ 10 / Rank) \\
+\emph{Duration:} 1 hour (+ 1 / Rank) \\
+\emph{Experience Multiple:} 125 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Object \\
+\end{spelldesc}
+\emph{Effects:}
+d203 1
+a203 1
+\subsubsection{Mist (G-4)}
+d205 10
+a214 10
+\begin{spelldesc}
+\emph{Range:} 20 feet (+ 20 / Rank) \\
+\emph{Duration:} 10 minutes (+ 10 / Rank) \\
+\emph{Experience Multiple:} 100 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Volume \\
+\end{spelldesc}
+\emph{Effects:}
+d231 3
+a233 1
+\subsubsection{Speak to Avians (G-5)}
+d235 8
+a242 10
+\begin{spelldesc}
+\emph{Range:} 10 feet (+ 10 / Rank) \\
+\emph{Duration:} 1 hour (+ 1 / Rank) \\
+\emph{Experience Multiple:} 75 \\
+\emph{Base Chance:} 50\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Magical Trap, Potion \\
+\emph{Target:} Self \\
+\end{spelldesc}
+\emph{Effects:}
+d249 1
+a249 1
+\subsubsection{Storm Calling (G-6)}
+d251 10
+a260 10
+\begin{spelldesc}
+\emph{Range:} Special \\
+\emph{Duration:} 1 hour (+30 minutes/Rank) \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Magical Trap \\
+\emph{Target:} Special \\
+\end{spelldesc}
+\emph{Effects:}
+d272 3
+a274 1
+\subsubsection{Summon Avians (G-7)}
+d276 8
+a283 10
+\begin{spelldesc}
+\emph{Range:} 5 miles \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 125 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May be actively \& passively resisted  \\
+\emph{Storage:} Investment, Magical Trap \\
+\emph{Target:} Avians \\
+\end{spelldesc}
+\emph{Effects:}
+d298 1
+a298 1
+\subsubsection{Vapour Breathing (G-8)}
+d300 10
+a309 10
+\begin{spelldesc}
+\emph{Range:} 10 feet (+ 10 / Rank) \\
+\emph{Duration:} 30 minutes (+ 30 / Rank) \\
+\emph{Experience Multiple:} 150 \\
+\emph{Base Chance:} 35\% \\
+\emph{Resist:} May be actively \& passively resisted  \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d316 3
+a318 1
+\subsubsection{Wind Whistle (G-9)}
+d320 8
+a327 10
+\begin{spelldesc}
+\emph{Range:} Special \\
+\emph{Duration:} D10 hours (+ 1 / Rank) \\
+\emph{Experience Multiple:} 125 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Potion \\
+\emph{Target:} Special \\
+\end{spelldesc}
+\emph{Effects:}
+d357 2
+d361 1
+a361 1
+\subsubsection{Windspeak (Q-1)}
+d363 12
+a374 14
+\begin{spelldesc}
+\emph{Range:} 400 feet (+ 400 / Rank) \\
+\emph{Duration:} 1 hour (+ 1 / Rank) \\
+\emph{Experience Multiple:} 150 \\
+\emph{Base Chance:} 2 \x MA (+ 3 / Rank) \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} None \\
+\emph{Material:} None \\
+\emph{Target:} Area \\
+\emph{Cast Time:} 1 hour \\
+\emph{Actions:} None \\
+\emph{Concentration Check:} Standard \\
+\end{spelldesc}
+\emph{Effects:}
+d379 1
+d383 1
+a383 1
+\subsubsection{Air Blast (S-1)}
+d385 8
+a392 10
+\begin{spelldesc}
+\emph{Range:} 10 feet (+ 10 / Rank) \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May be actively \& passively resisted  \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity, Object \\
+\end{spelldesc}
+\emph{Effects:}
+d401 1
+d403 1
+a403 1
+\subsubsection{Arrow Flight (S-2)}
+d405 8
+a412 10
+\begin{spelldesc}
+\emph{Range:} 5 Feet \\
+\emph{Duration:} 20 minutes (+ 20 / Rank) \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 35\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment \\
+\emph{Target:} Arrows or Quarrels \\
+\end{spelldesc}
+\emph{Effects:}
+d419 1
+a419 1
+\subsubsection{Avian Control (S-3)}
+d421 10
+a430 10
+\begin{spelldesc}
+\emph{Range:} 100 feet (+ 100 / Rank) \\
+\emph{Duration:} Concentration/maximum 10 minutes (+ 10 / Rank) \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} May be actively \& passively resisted  \\
+\emph{Storage:} Investment, Potion \\
+\emph{Target:} Avian \\
+\end{spelldesc}
+\emph{Effects:}
+d444 3
+a446 1
+\subsubsection{Barrier of Wind (S-4)}
+d448 8
+a455 10
+\begin{spelldesc}
+\emph{Range:} 5 feet (+ 1 / Rank) \\
+\emph{Duration:} 30 minutes (+ 30 / Rank) \\
+\emph{Experience Multiple:} 150 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d463 1
+a463 1
+\subsubsection{Conjuring Air (S-5)}
+d465 10
+a474 10
+\begin{spelldesc}
+\emph{Range:} 10 feet (+ 10 / Rank) \\
+\emph{Duration:} 5 minutes (+ 5 / Rank) \\
+\emph{Experience Multiple:} 150 \\
+\emph{Base Chance:} 25\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Volume \\
+\end{spelldesc}
+\emph{Effects:}
+d483 3
+a485 1
+\subsubsection{Flying (S-6)}
+d487 8
+a494 10
+\begin{spelldesc}
+\emph{Range:} 5 feet (+ 5 / Rank) \\
+\emph{Duration:} 30 minutes (+ 30 / Rank) \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May be actively \& passively resisted  \\
+\emph{Storage:} Investment, Potion \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d506 1
+a506 1
+\subsubsection{Gaseous Form (S-7)}
+d508 10
+a517 10
+\begin{spelldesc}
+\emph{Range:} Self, touch at Rank 11+ \\
+\emph{Duration:} 5 seconds + 5 per 2 full Ranks \\
+\emph{Experience Multiple:} 300 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} May be actively \& passively resisted  \\
+\emph{Storage:} Potion, Invested, Magical Trap \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d528 3
+a530 1
+\subsubsection{Gliding (S-8)}
+d532 8
+a539 10
+\begin{spelldesc}
+\emph{Range:} 5 feet (+ 5 / Rank) \\
+\emph{Duration:} 5 minutes (+ 5 / Rank) \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Potion \\
+\emph{Target:} Sentient Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d555 1
+a555 1
+\subsubsection{Knockout Gas (S-9)}
+d557 10
+a566 10
+\begin{spelldesc}
+\emph{Range:} 30 feet (+ 10 / Rank) \\
+\emph{Duration:} 5 minutes (+ 5 / Rank) \\
+\emph{Experience Multiple:} 450 \\
+\emph{Base Chance:} 15\% \\
+\emph{Resist:} May be actively \& passively resisted  \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:}
+d580 3
+a582 1
+\subsubsection{Lightning Bolt (S-10)}
+d584 8
+a591 10
+\begin{spelldesc}
+\emph{Range:} 60 feet \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 225 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May be actively \& passively resisted, (for $\frac{1}{2}$ damage) \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity, Object \\
+\end{spelldesc}
+\emph{Effects:}
+d599 3
+a601 1
+\subsubsection{Lightning Strike (S-11)}
+d603 8
+a610 10
+\begin{spelldesc}
+\emph{Range:} 15 Feet (+ 5 / Rank) \\
+\emph{Duration:} 30 minutes (+ 30 / Rank) \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} 35\% \\
+\emph{Resist:} May be actively \& passively resisted (for $\frac{1}{2}$ damage) \\
+\emph{Storage:} Potion \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d621 1
+a621 1
+\subsubsection{Resist Cold (S-12)}
+d623 10
+a632 10
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} 1 hour (+ 1 / Rank) \\
+\emph{Experience Multiple:} 100 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward, Potion \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d640 3
+a642 1
+\subsubsection{Shaping Cloud (S-13)}
+d644 8
+a651 10
+\begin{spelldesc}
+\emph{Range:} Line of Sight (max 5 miles + 1/Rank) \\
+\emph{Duration:} Concentration (max 1 min. + 1 / Rank) \\
+\emph{Experience Multiple:} 150 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Potion, Ward \\
+\emph{Target:} Cloud band \\
+\end{spelldesc}
+\emph{Effects:}
+d659 1
+a659 1
+\subsubsection{Whirlwind Vortex (S-14)}
+d661 10
+a670 10
+\begin{spelldesc}
+\emph{Range:} 15 feet (+ 15 / Rank) \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 650 \\
+\emph{Base Chance:} 1\% \\
+\emph{Resist:} May be actively \& passively resisted  \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d679 3
+a681 1
+\subsubsection{Whispering Wind (S-15)}
+d683 8
+a690 10
+\begin{spelldesc}
+\emph{Range:} 100 miles (+ 100 / Rank) \\
+\emph{Duration:} Special \\
+\emph{Experience Multiple:} 150 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Potion \\
+\emph{Target:} Self \\
+\end{spelldesc}
+\emph{Effects:}
+d701 1
+a701 1
+\subsubsection{Windstorm (S-16)}
+d703 10
+a712 10
+\begin{spelldesc}
+\emph{Range:} 30 feet (+ 30 / Rank) \\
+\emph{Duration:} 10 seconds (+ 10 / Rank) \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:}
+d726 3
+a728 1
+\subsubsection{Wind Walking (S-17)}
+d730 8
+a737 10
+\begin{spelldesc}
+\emph{Range:} 10 feet (+ 10 / Rank) \\
+\emph{Duration:} 30 seconds (+ 30 / Rank) \\
+\emph{Experience Multiple:} 350 \\
+\emph{Base Chance:} 25\% \\
+\emph{Resist:} May be actively \& passively resisted  \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d753 1
+a753 1
+\subsubsection{Ball of Lightning (S-18)}
+d755 10
+a764 10
+\begin{spelldesc}
+\emph{Range:} 35 feet (+ 10 / Rank) \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 350 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May only be passively resisted  \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity or Object \\
+\end{spelldesc}
+\emph{Effects:}
+d773 3
+a775 1
+\subsubsection{Thunderclap (S-19)}
+d777 8
+a784 10
+\begin{spelldesc}
+\emph{Range:} 20 feet (+ 20 / Rank) \\
+\emph{Duration:} Immediate (during Pulse) \\
+\emph{Experience Multiple:} 325 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May only be Passively Resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:}
+d796 3
+d801 1
+a801 1
+\subsubsection{Air Spring (R-1)}
+d803 11
+a813 13
+\begin{spelldesc}
+\emph{Duration:} Rank \x Rank hours (minimum 1) \\
+\emph{Experience Multiple:} 150 \\
+\emph{Base Chance:} MA (+ 5 / Rank) \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} None \\
+\emph{Material:} None \\
+\emph{Target:} Area \\
+\emph{Cast Time:} 1 hour \\
+\emph{Actions:} None \\
+\emph{Concentration Check:} Standard \\
+\end{spelldesc}
+\emph{Effects:}
+d819 3
+a821 1
+\subsubsection{Conjuring Air Elemental (R-2)}
+d823 12
+a834 14
+\begin{spelldesc}
+\emph{Range:} 20 feet \\
+\emph{Duration:} Special \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} MA (+ 5 / Rank) \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Material:} None \\
+\emph{Target:} Air Elemental \\
+\emph{Cast Time:} 1 hour \\
+\emph{Actions:} None \\
+\emph{Concentration Check:} Standard \\
+\end{spelldesc}
+\emph{Effects:}
+d844 1
+a844 1
+\subsubsection{Control Weather (R-3)}
+d846 12
+a857 12
+\begin{spelldesc}
+\emph{Duration:} 8 hours / Rank (minimum 8) \\
+\emph{Experience Multiple:} 300 \\
+\emph{Base Chance:} 2 \x MA (+ 3 / Rank) \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} None \\
+\emph{Target:} Area \\
+\emph{Cast Time:} 1 hour \\
+\emph{Actions:} Dance (2 FT when unencumbered) \\
+\emph{Concentration Check:} None \\
+\end{spelldesc}
+\emph{Effects:}
+d888 3
+a890 1
+\subsubsection{Summon and Bind Cloud (R-4)}
+d892 12
+a903 14
+\begin{spelldesc}
+\emph{Range:} 5 miles (+ 5 / Rank) \\
+\emph{Duration:} 5 hours (+ 5 / Rank) \\
+\emph{Experience Multiple:} 300 \\
+\emph{Base Chance:} 2 \x MA (+ 3 / Rank) \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} None \\
+\emph{Material:} None \\
+\emph{Target:} Clouds \\
+\emph{Cast Time:} 1 hour \\
+\emph{Actions:} None \\
+\emph{Concentration Check:} Standard \\
+\end{spelldesc}
+\emph{Effects:}
+d928 2
+d1011 1
+a1011 1
+
+@
+
+
+1.7
+log
+@Minor typesettting changes.
+@
+text
+@@
+
+
+1.6
+log
+@Ball Lightning and Thunderclap added (Jon McSpadden).
+@
+text
+@d848 1
+a848 1
+\emph{Duration:} 8 hours/Rank (minimum 8) \\
+d930 2
+@
+
+
+1.5
+log
+@Add \clearemptydoublepage at end of file to force double page break.
+@
+text
+@d1 1
+a1 1
+\section{The College of Air Magics (Ver 2.0)}
+d755 42
+@
+
+
+1.4
+log
+@Remove revision date from start of college.
+@
+text
+@d965 3
+a967 1
+\end{multicols}@
+
+
+1.3
+log
+@Fix range on barrier of wind (added "feet" to description).
+@
+text
+@a4 3
+\textbf{September 1995}
+
+
+@
+
+
+1.2
+log
+@Release 1.0 snapshot
+@
+text
+@d452 1
+a452 1
+\emph{Range:} 5 (+ 1 / Rank) \\
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d38 1
+a38 1
+it's smallest dimension, or in a smaller area, but having means of
+d85 1
+d93 3
+a95 2
+They will not suffer from the affects of high altitude. This talent
+only works up to a hight of 2,000 feet per rank.
+d97 1
+a97 1
+Hypothermia (at high altitudes), Flying sickness, Altitude sickness.
+d101 4
+a104 2
+General knowledge relating to being aerial.
+\begin{example} Safe velocities, altitude, down drafts, flight hazards.
+d108 3
+a110 3
+Due to their close association with the environment the adept can
+modify the Force downwards, and Gauge upwards on the Weather Scale
+Table by 1 per 4 rank, for themselves.
+d138 1
+a138 1
+Rank). The Adept must be outside or able to see the sky to use this
+d185 3
+a187 4
+more that 5 feet. Should the target be falling at greater than 5 feet
+per pulse they will under go a magical deceleration over one
+pulse. The target will be subject to wind effects while drifting
+downwards.
+d248 1
+a248 1
+sound and gesture. If the Adept wish to converse with several
+d291 1
+a291 1
+line of sight (The species need not been known in this case). The
+d296 1
+a296 1
+allow them to reach the Adepts location within this time. This spell
+d313 3
+a315 3
+The target can breath any gas including otherwise poisonous vapours
+(eg. Knockout Gas, Noxious Vapours etc). This spell will not enable
+the target to breath in a vacuum or underwater. Also, this spell will
+d317 1
+a317 1
+atmosphere, eg. Sleep Dust.
+d333 1
+a333 1
+area the wind will fade back to the prevailing wind over half again
+d354 1
+a354 1
+rolled. The effects of this spell over-ride any existing wind effects
+d403 1
+a403 1
+check to remain standing. The target is thrown in a arc away from the
+d420 1
+a420 1
+spell have their Base Chance modified by +2\% (+ 1 / Rank). At rank 16+
+d436 2
+a437 2
+The Adept may control 1 (+ 1 / Rank) avian within the range unless the
+avian successfully resists. If the avian is fantastical it gains a
+d441 1
+a441 1
+expires will flee the Adept's presence. The Adept may recast this
+d447 1
+a447 1
+that would endanger itself a another resistance check is made.
+d500 1
+a500 1
+This spell enables the target to fly at a speed of 30 MPH (+ 1 / Rank)
+d505 1
+a505 1
+[D + 2] pulses. When taking off it takes one pulse to accelerate to full
+d507 1
+a507 1
+a stand-still. The target can only travel into places where air
+d514 2
+a515 2
+\emph{Range:} Self, (Touch at rank 11+) \\
+\emph{Duration:} 5 seconds (+5 per 2 full Ranks) \\
+d520 1
+a520 1
+\emph{Target:} Self, (Entity at rank 11+) \\
+d523 9
+a531 10
+When this spell is cast the target (and possessions) turns into a
+cloud of vapour, that appears as a heavy mist. The target may be
+affected by magic spells. Normal or Silvered weapons do not harm the
+target, but Magical weapons may. The target may not interact with any
+possessions such as using weapons nor may the target cast or trigger
+magic. Magical or Racial Talents may be used however. The target may
+move up to TMR 2, in any direction and pass through any opening that
+is not airtight. When the duration of the spell expires, the target
+will reform in the nearest hollow space large enough to accommodate
+the target's body.
+d546 1
+a546 1
++ Rank feet horizontal for every foot of descent. The targets maximum
+d557 2
+a558 2
+automatically flare out when within 5 feet of a horizontal
+surface. The target must then make Flying roll to land.
+d575 2
+a576 2
+(ie. does not inhibit vision) and is pungent smelling, 10 to 15 the
+gas is invisible and pungent smelling, 16 and above the cloud becomes
+d581 1
+a581 1
+pulses. Once the gas is dispersed or the duration expires or a victim
+d583 1
+a583 1
+pulse (+1 / 5 full Ranks).
+d598 5
+a602 5
+fingertips. The bolt must extend the entire 60 feet and will rebound
+reflectively off stone any distance not travelled initially. All
+targets that are in the path of the bolt must resist or suffer [D + 5]
+(+ 1 / 3 Ranks) damage. In addition, any target who fails to resist is
+automatically stunned.
+d611 1
+a611 1
+\emph{Resist:}Special,  May be actively \& passively resisted (for $\frac{1}{2}$ damage) \\
+d617 2
+a618 2
+entity's body doing no damage and is extremely obvious. The first time
+the entity takes damage from a blow in combat and the attacker is
+d620 5
+a624 6
+- 4] (+ 1 / 2 Ranks) damage (save for $\frac{1}{2}$) and then the
+spell ceases working. The Range is 5 feet (+ 5 / Rank). At rank 10 or
+greater, any attacker who fails to resist and is capable of being
+stunned is automatically stunned. This spell can not be cast on a
+target if they are already under the effect of a Lightning Strike
+spell.
+d645 1
+a645 1
+\subsubsection{Shaping  Cloud (S-13)}
+d662 1
+a662 1
+the ground (ie. disregarding the height of the cloud bank).
+d681 1
+a681 1
+due to excessive forces (instead of perishing). Targets that failed to
+d688 1
+a688 1
+\emph{Duration:} Special. \\
+d725 2
+a726 2
+within the area falls prone the entity takes [D - 2] damage. This
+damage is Physical. For the duration of this spell they have their TMR
+d729 1
+a729 1
+5 per 2 hexes of Windstorm travelled through.
+d743 5
+a747 5
+The target of this spell (and possessions) turns into wind keeping
+their rough size and appearance. The first pulse of this spell's
+effects is taken up with accelerating to full speed, and during the
+last pulse the target will gradually slow down. The distance travelled
+over the first and last pulse is half that of normal. The target moves
+d779 1
+a779 1
+modifier for being enclosed reduced by 5.
+d797 8
+a804 8
+With this Ritual the Adept conjures an Air Elemental from the
+elemental plane of Air which will appear within 20 feet. The Elemental
+will remain until banished, or until it has an Air Special
+Counterspell cast on it by the Adept. Conjured Air Elementals will be
+mildly annoyed with their Summoners and may attack, but will generally
+be indifferent to all Non-Elemental entities. The Elemental is always
+uncontrolled on arrival. If the ritual is successful, the Elemental
+becomes controlled by the caster for the duration.
+d866 1
+a866 1
+This ritual will summon enough cirro-cumulus cloud and change its
+d877 1
+a877 1
+is maintained. If more entities land on a cloud than it can carry it
+d909 1
+a909 3
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{llXc}
+d924 2
+a925 5
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{llXc}
+ & & & \textbf{Inches} \\
+\textbf{Degree}	& \textbf{Cloud} & \textbf{Precipitation} & \textbf{/ Hour} \\
+d950 1
+a950 1
+Due to their close association with the environment the adept can
+d954 1
+a954 1
+\item[S12 Resist Cold (Air Mage Spell)]
+d956 5
+a960 2
+increasing the Gauge by 1 (+1/4 full ranks) up to a maximum of Gauge
+7.
+a961 3
+\item[R3 Control Weather (Air Mage Ritual)]
+The adept may change the current components by 1 +1 per 2 full
+ranks.
+@

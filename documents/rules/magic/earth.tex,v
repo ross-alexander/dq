@@ -1,0 +1,3488 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.8;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.1;
+
+4.1
+date	2000.05.22.10.38.07;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.8;
+
+3.8
+date	98.06.04.05.35.07;	author rossa;	state Exp;
+branches;
+next	3.7;
+
+3.7
+date	98.05.11.02.03.37;	author rossa;	state Exp;
+branches;
+next	3.6;
+
+3.6
+date	98.05.11.01.21.16;	author rossa;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	98.05.07.02.00.34;	author rossa;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	98.05.06.22.35.53;	author rossa;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	98.05.05.05.38.12;	author rossa;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	98.05.05.00.01.35;	author rossa;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	98.05.04.04.05.23;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.05.04.03.42.09;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	97.07.16.05.02.32;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	96.10.01.01.52.39;	author rossa;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	96.02.23.01.53.26;	author rossa;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	96.01.12.02.28.01;	author rossa;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	95.09.06.20.18.28;	author rossa;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	95.06.06.02.50.15;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	95.04.19.02.12.32;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	95.04.19.02.05.57;	author rale01;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	95.04.12.23.04.06;	author rale01;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.04.12.22.28.09;	author rale01;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.04.12.21.39.00;	author rale01;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{college}[1.2]{earth}{Earth Magics}{EA}
+
+The College of Earth Magics is concerned with the shaping of the
+powers of the earth itself and of those entities and things that are
+rooted in the earth or in contact with it.
+
+There are two distinct branches of this College, and a practitioner of
+Earth Magic college can be a member of only one branch at a time.
+They may alter their affiliation, but are treated as if they had quit
+their original branch and lost all knowledge of Earth Magic until such
+time as they has spent six months in study and meditation to relearn
+the General Knowledge of the College in a new form.  The two divisions
+of this College are:
+
+\begin{Description}
+\item[Pacifistic Earth Magic]
+
+Usually practiced by wild people who live in isolation in the
+wilderness, this type of Earth Magic is very powerful, but entirely
+defensive in nature.  An adherent of this division of Earth Magic will
+never attack without provocation (\ie unless attacked themself or
+unless they see animals or plants attacked).  They are unaffected by
+counterspells of their College cast over an area they which occupy
+while attempting to work the magic of their College.  In addition, the
+counterspells of their College give only half the normal benefit to
+characters attempting to resist their magic.  However, they may never
+participate in rituals of this College which involve human sacrifice.
+
+\item[Druidic Earth Magic]
+
+This form of Earth Magic is practiced by strong-willed individuals who
+have no objection to the taking of human life to further their magic.
+It is often practiced communally since it is in part ritual magic.
+Many of the rituals involve courting the darker sides of earth by
+providing blood to quench its thirst.
+
+\end{Description}
+
+\subsection{Restrictions}
+
+Practitioners of the College of Earth Magics must always be in contact
+with the earth to perform magic of this College.
+
+A practitioner of this College is considered in contact with the earth
+if they are in contact with an item which is, itself, rooted in the
+earth (tree, plant, foundation of a house, etc.). They would not be in
+contact with earth if they were in the air or in water where they
+could not touch bottom, or if they were atop a piece of furniture or
+an animal as these are not rooted in the ground.  An Adept in a
+person's arms is not in contact with the earth.
+
+The MA requirement of this College is 15.
+
+\subsection{Base Chance Modifiers}
+
+The following numbers are added to the Base Chance of performing any
+talent, spell or ritual of the College of Earth Magics.
+
+\begin{tabularx}{\linewidth}{Xr}
+Adept is wearing a sprig of fresh mistletoe		& 5 \\
+Adept is in contact with earth, but beneath water\dag	&-20 \\
+Adept is in a manmade dwelling without an earthen floor & -5 \\
+Adept occupies a place of power\ddag 			& 20 \\
+\end{tabularx}
+
+\dag For example, beneath the ocean, if the Adept can find a way of
+breathing in such a situation, the Adept's BC would always be
+reduced by 20.
+
+\ddag These can be any places frequented by worshippers of earth.
+Examples from mythology and literature might include: Stonehenge,
+Finn McCool's Seat, The Hill of Tara, etc.  If the Place of Power is
+used for ritual sacrifice, the practioners of Pacifistic Earth Magic
+would receive no benefit.
+
+All modifiers are cumulative.  They are in addition to the modifiers
+listed in \S\ref{magic:modifiers}.
+
+\subsection{Talents}
+
+\begin{talent}[T-1]{Detect Aura}
+
+\range{Special}
+\multiple{75}
+\basechance{PC + 5\% / Rank}
+\resist{Active}
+\target{Entity, Object, Area, Volume}
+\begin{effects}
+The Base Chance is reduced by 1\% for every foot after the first five
+feet the target is from the Adept.  The results of this talent are the
+same as given in \S \ref{magic:detect-aura}.
+\end{effects}
+\end{talent}
+
+
+\subsection{General Knowledge Spells}
+
+\begin{spell}[G-1]{Converse With Animals}
+
+\range{10 feet + 10 / Rank}
+\duration{3 hours + 3 hours / Rank}
+\multiple{50}
+\basechance{45\%}
+\resist{None}
+\storage{Potion}
+\target{Self}
+\begin{effects}
+The Adept may communicate with fauna (whether verbally or
+symbolically, and to what extent, are left up to the GM's discretion).
+Physical contact between the animal and the Adept increases the Base
+Chance of successfully casting this spell by 5.  This spell does not
+include avians or fish and has to be recast for each type of animal,
+for example talking to wolves does not allow the Adept to talk to
+tigers.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-2]{Converse With Plants}
+
+\range{10 feet + 10 / Rank}
+\duration{3 hours + 3 / Rank}
+\multiple{50}
+\basechance{25\%}
+\resist{None}
+\storage{Potion}
+\target{Self}
+\begin{effects}
+The Adept can communicate with flora with which they are familiar.
+The mode and extent of communication is up to the GM's discretion.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-3]{Controlling Animals}
+
+\range{10 feet + 10 / Rank}
+\duration{Concentration: no maximum}
+\multiple{100}
+\basechance{20\%}
+\resist{Passive}
+\storage{Investment}
+\target{Animal}
+\begin{effects}
+The Adept controls the actions of any animal that does not
+successfully resist.  It will serve them so long as they continue to
+concentrate.  If they release the animal or their concentration is
+broken, it may attack them or flee.  The chance to cast this spell is
+reduced by 5\% if the Adept cannot speak to the animal.  If the Adept
+cannot make eye contact, the Base Chance is reduced another 5\%.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-4]{Blending}
+
+\range{15 feet + 1 / Rank}
+\duration{1 hour + 1 / Rank}
+\multiple{50}
+\basechance{60\%}
+\resist{None}
+\storage{Investment, Potion, Ward}
+\target{Entity}
+\begin{effects}
+Once this spell is cast, the target must remain still in order for it
+to have effect.  While remaining still, the target is not able to be
+seen by non-magical means (\ie as for invisibility).  If the target
+moves, the spell ceases to work.  However, if the target becomes still
+again during the duration of the spell, it will resume its effect.
+The duration of the spell refers to the time since casting, not the
+time that the spell is actually in effect (\ie while the target is
+still).
+
+Keeping still will require (as a minimum) a 4 \x WP check every
+hour.  The target may be required to make additional willpower checks
+at the GM's discretion.
+
+The spell only has effect while the target is ``still''.  This means
+that the target is unable to move any of its external surfaces, with
+limited exceptions.  Moving an external surface encompasses such
+actions as moving a limb, or opening and closing the mouth.  Blinking
+and normal bodily movement caused by normal breathing will not
+constitute moving for the purposes of this spell.  The following
+actions will automatically cause the spell to cease working: talking,
+spellcasting, triggering (subject to any revision of the Investment
+ritual), readying a weapon, altering facing in a hex, moving from the
+hex, using a silent language, or indeed any Action other than a Pass
+action (and Pass actions being restricted as outlined).  Note that it
+is not relevant if an observer would see the movement for the spell to
+cease working (\eg moving hands behind back, or talking behind hand
+will both cause the spell to cease having an effect).
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-5]{Walking Unseen}
+
+\range{1 foot + 1 / Rank}
+\duration{1 hour + 1 / Rank}
+\multiple{100}
+\basechance{50\%}
+\resist{None}
+\storage{Investment, Potion, Ward}
+\target{Entity}
+\begin{effects}
+The target of this spell may move unnoticed, not invisible.  This
+means that it will not transmit light.  As a consequence the target
+will cast a shadow (which may or may not be noticed depending on the
+lighting etc --- even if noticed may not be connected to the target)
+and have a reflection in a mirror (or any reflective surface).
+However the target may not be noticed even if another entity is
+looking directly at him/her. It should be noted that a crystal of
+vision or similar would count as looking directly at the target, not
+as a reflection.  An entity will get a perception check if the target
+becomes invasive on that entity's senses (\eg standing in a frontal
+adjacent hex, or standing behind the entity with the target's hands
+over his/her eyes).  Although the target is not invisible, it may be
+detected using any magical means for detecting invisible entities (\eg
+witchsight).
+
+If the target of the spell be touched by another entity, or that
+entity's possessions, then the spell is broken.  The target of the
+spell may not break it voluntarily (other than by, for example,
+touching another entity). Once broken the spell must be recast.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-6]{Healing}
+
+\range{Touch}
+\duration{Immediate}
+\multiple{100}
+\basechance{40\%}
+\resist{None}
+\storage{None}
+\target{Entity}
+\begin{effects}
+Through a combination of magic and the application of healing herbs
+and salves, the Adept can cure 3 ( + 1 / Rank) Damage Points suffered
+due to disease or injury.  The spell takes about 5 minutes to cast.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-7]{Detecting Traps and Snares}
+
+\range{20 feet + 5 / Rank}
+\duration{1 hour + 1 / Rank}
+\multiple{75}
+\basechance{60\%}
+\resist{None}
+\storage{Potion}
+\target{Self}
+\begin{effects}
+This spell increases the Base Chance of detecting traps or ambushes
+while outdoors by 10 (+ 1 / Rank).
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-8]{Detecting Poisons}
+
+\range{Touch}
+\duration{Immediate}
+\multiple{75}
+\basechance{50\%}
+\resist{None}
+\storage{Potion}
+\target{Self}
+\begin{effects}
+The spell requires a wand of either ashwood, ivory or unicorn horn.
+The Adept touches this to the object or substance in which they
+suspect is poisonous.  The wand will momentarily turn black if poison
+is, in fact, present.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-9]{Lesser Enchantment}
+
+\range{10 feet + 10 / Rank}
+\duration{Special}
+\multiple{125}
+\basechance{20\%}
+\resist{Active, Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Sentient Entity}
+\begin{effects}
+The target of this spell is either blessed or cursed (Adept's choice).
+The spell increases either the character's luck or misfortune
+(depending on whether it operates as a blessing or as a curse) by 1 on
+every percentile dice roll in which the character is directly
+involved.  This spell cannot be cast over oneself.  The duration of
+the enchantment is as follows; Ranks 1--10 = a fortnight; Ranks 11--19
+= 3 months; Rank 20 permanent until dispelled.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-10]{Herbal Lore}
+
+\range{Self}
+\duration{1 hour + 1 / Rank}
+\multiple{75}
+\basechance{25\%}
+\resist{None}
+\storage{Potion}
+\target{Self}
+\begin{effects}
+This gives the Adept Rank 0 Herbalist for the duration of the spell.
+It also increases their chance of finding herbs (as per the Herbalist
+or Ranger skills) by 2\% (+ 2 / Rank).  If the Adept is already ranked in
+Herbalist or Ranger, then they gain an additional +10\%.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-11]{Tracking}
+
+\range{Self}
+\duration{1 day + 1 / Rank}
+\multiple{100}
+\basechance{15\%}
+\resist{None}
+\storage{Potion}
+\target{Self}
+\begin{effects}
+The Adept adds 10\% (+ 2 / Rank) to their chance of Tracking while
+outdoors.
+\end{effects}
+\end{spell}
+
+\subsection{General Knowledge Rituals}
+
+\begin{ritual}[Q-1]{Summoning Animals}
+
+\duration{Immediate}
+\multiple{150}
+\basechance{MA + 3\% / Rank}
+\resist{None}
+\target{Animals}
+\casttime{1 hour}
+\material{None}
+\actions{Concentration}
+\concentration{Standard}
+\begin{effects}
+If the Ritual Check is successful then a number of small animals equal
+to the Adept's Rank (minimum 1) are summoned.  The animal the Adept
+attempts to summon must be a native of the area.  If the Adept chooses
+to vocalise their summons in the form of a load shout or call the Base
+Chance is increased by 25\%.
+\end{effects}
+\end{ritual}
+
+
+\subsection{Special Knowledge Spells}
+
+\begin{spell}[S-1]{Earth Hammer}
+
+\range{25 feet + 10 / Rank}
+\duration{Immediate}
+\multiple{200}
+\basechance{40\%}
+\resist{Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Entity}
+\begin{effects}
+The Adept conjures a giant maul of stone which hurls itself at a
+target of the Adept's choosing.  If the target fails to resist the
+spell, it takes [D - 5] (+ 1 / Rank) damage.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-2]{Hands of Earth}
+
+\range{20 feet + 5 / Rank}
+\duration{1 hour + 1 / Rank}
+\multiple{150}
+\basechance{25\%}
+\resist{Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Entity, Area}
+\begin{effects}
+The spell causes 1 + (Rank / 2) hands of stone to materialise out of
+the ground within range.  Each hand is 7 feet tall and all must be
+contiguous to each other.  They may clutch anything that enters the
+hex they occupy and will continue to do so until they have caught
+something.  Any entity standing on a spot where a hand materialises
+will be snatched up if they fail to resist, otherwise the hand appears
+next to them within the hex.  Any entity caught will still be able to
+wield a weapon or cast if they roll under 2 \x MD.  Entities (or
+combination of entities) with a combined PS + target's AG greater than
+40 (+ 2 / Rank) may attempt a 1 \x PS to escape from the Hands, and
+may do so every pulse after the first.  Any hand which has been broken
+out of will either dissipate or become hard cover (GM discretion).
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-3]{Strength of Stone}
+
+\range{10 feet}
+\duration{1 hour + 1 / Rank}
+\multiple{200}
+\basechance{20\%}
+\resist{Passive}
+\storage{Investment, Potion, Magical Trap}
+\target{Entity}
+\begin{effects}
+The target of this spell has their Physical Strength or Endurance
+(Adept's choice) increased by Rank points (minimum 1).
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-4]{Armour of Earth}
+
+\range{10 feet}
+\duration{30 minutes + 30 / Rank}
+\multiple{200}
+\basechance{20\%}
+\resist{None}
+\storage{Investment, Potion}
+\target{Entity}
+\begin{effects}
+This spell increases the defence from physical weapons of the target
+by 2 + 2 / Rank.  At Rank 11 and above, it also absorbs 1 Damage Point
+per strike.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-5]{Diamond Weapon}
+\range{5 feet + 5 / Rank}
+\duration{5 minutes + 1 / Rank}
+\multiple{250}
+\basechance{30\%}
+\resist{None}
+\storage{Investment}
+\target{Object}
+\begin{effects}
+This spell is cast over a weapon of the Adept's choice, increasing its
+strike chance by Rank\% (minimum of 1).  The chance of an attacker's
+weapon breaking increases by 5\% when striking a weapon under the
+effect of this spell (\ie break chance becomes 94--99, instead of 99).
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-6]{Gem Creation}
+
+\range{10 feet}
+\duration{1 day + 1 / Rank}
+\multiple{250}
+\basechance{10\%}
+\resist{None}
+\storage{Investment}
+\target{Area}
+\begin{effects}
+This spell creates one gemstone of random value for each 5 (or
+fraction) Ranks.  The gems dissipate at the end of the spell.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-7]{Animal Growth}
+
+\range{10 feet + 10 / Rank}
+\duration{1 day + 1 / Rank}
+\multiple{225}
+\basechance{15\%}
+\resist{Passive}
+\storage{Investment, Ward}
+\target{Non-sentient mammal}
+\begin{effects}
+One mammal of the Adept's choice is doubled in size.  The effects of
+this radical change are determined by the GM.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-8]{Enchanting Plants}
+
+\range{10 feet + 10 / Rank}
+\duration{1 day + 1 / Rank}
+\multiple{225}
+\basechance{15\%}
+\resist{None}
+\storage{Investment, Ward}
+\target{Plant}
+\begin{effects}
+This spell may impart partial mobility to a number of plants
+(including trees) equal to the Adept's Rank.  The plants may not
+uproot themselves, but may move their branches and leaves while
+remaining in the same spot.  The plant's actions are always under the
+control of the Adept so long as they maintain their concentration.  If
+their concentration is broken, voluntarily or otherwise, the plants
+will be controlled by the GM until the Adept reestablishes control and
+could, conceivably attack the Adept.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-9]{Binding Animals}
+
+\range{10 feet + 10 / Rank}
+\duration{Until dispelled}
+\multiple{250}
+\basechance{10\%}
+\resist{Passive}
+\storage{Investment, Ward}
+\target{Animal}
+\begin{effects}
+This spell is similar to the Spell of Controlling Animals except that
+the Adept does not have to concentrate on it to maintain it. The
+spell will last until broken by the animal or dispelled by magic.  Any
+animal subject to this spell makes one check per week against its
+Willpower to determine if the spell is broken.  This only works on
+land animals, it will not work on avians or aquatics.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-10]{Conjuring Earth Elemental}
+
+\range{20 feet}
+\duration{Immediate}
+\multiple{225}
+\basechance{25\%}
+\resist{None}
+\storage{Investment, Ward}
+\target{Earth Elemental}
+\begin{effects}
+If the cast is successful, an Earth Elemental with a combined Fatigue
+and Endurance of 15 (+ 5 / Rank) appears within 20 feet of the Adept.
+The Adept automatically casts a Spell of Controlling Earth Elemental
+to see if they control the Elemental.  The Control spell is a separate
+spell and requires additional fatigue to cast, but does not require
+any preparation and is cast in conjunction with this spell.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-11]{Controlling Earth Elemental}
+
+\range{20 feet}
+\duration{Concentration: no maximum}
+\multiple{225}
+\basechance{20\%}
+\resist{None}
+\storage{Investment}
+\target{Earth Elemental}
+\begin{effects}
+The Adept may attempt to control an Elemental they have just summoned.
+The Elemental does not get to resist.  If successful in establishing
+control over the Elemental, the Adept maintains control until their
+concentration is broken or they banish the Elemental with a
+counterspell.  If they fail to gain control of the Elemental or gain
+control, but have their concentration broken, the Elemental will
+immediately attack them.  The Adept cannot banish an Elemental they do
+not control.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-12]{Sinking Doom}
+
+\range{30 feet + 10 / Rank}
+\duration{Immediate}
+\multiple{650}
+\basechance{2\%}
+\resist{Active, Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Entity}
+\begin{effects}
+This spell opens a circular pit under a single human-sized target per
+5 (or fraction) Ranks and sucks the unfortunate standing over it down
+to be encased in rock 5 (+ 5 / Rank) feet underground. This spell may
+be used to affect multi-hex targets, each hex of the target counts as
+one human-sized target.  If the spell does not affect every hex which
+the target occupies then the target will not be affected.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-13]{Wall of Stone}
+
+\range{20 feet + 10 / Rank}
+\duration{10 minutes + 10 / Rank}
+\multiple{150}
+\basechance{10\%}
+\resist{None}
+\storage{Investment, Ward}
+\target{Area}
+\begin{effects}
+Creates a 10 foot high \x 20 foot long wall of granite or a 10 foot
+high ring of stone with a 20 foot radius or a pillar of stone 15 feet
+high and with a 2 foot radius.  The Adept increases any dimension by 1
+foot per Rank.  They may not attempt to create a wall on top of an
+entity.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-14]{Wall of Iron}
+
+\range{20 feet + 10 / Rank}
+\duration{10 minutes + 10 / Rank}
+\multiple{250}
+\basechance{5\%}
+\resist{None}
+\storage{Investment, Ward}
+\target{Area}
+\begin{effects}
+Same as for S-12 (Wall of Stone Spell) except that the Adept creates
+a wall of cold iron.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-15]{Tunnelling}
+
+\range{5 feet + 1 / Rank}
+\duration{30 seconds + 5 / Rank}
+\multiple{200}
+\basechance{10\%}
+\resist{None}
+\storage{Investment, Ward}
+\target{Area}
+\begin{effects}
+The Adept creates a circular opening or tunnel 10 feet in diameter
+and 20 feet deep in a wall, ceiling, floor, ground surface, cliff
+face, etc. The Adept may add 1 foot to either depth or radius per
+Rank.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-16]{Trollskin}
+
+\range{10 feet}
+\duration{30 seconds + 5 / Rank}
+\multiple{250}
+\basechance{20\%}
+\resist{None}
+\storage{Investment, Potion, Ward}
+\target{Entity}
+\begin{effects}
+The spell allows the subject to regenerate Endurance Points.  The
+target begins to regenerate the pulse after the spell is cast and
+continues to regenerate at the rate of 1 Endurance Point per pulse for
+the duration of the spell.  The spell will not help regenerate wounds
+inflicted by acid or fire.  An entity will not die from damage while
+under the effects of a trollskin, even if they are below negative half
+Endurance.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-17]{Smoking Magma}
+
+\range{25 feet + 5 / Rank}
+\duration{10 seconds  + 10 / Rank}
+\multiple{300}
+\basechance{7\%}
+\resist{Passive}
+\storage{Investment, Ward}
+\target{Area}
+\begin{effects}
+The Adept creates a pool of molten rock which wells up from
+underground.  The pool has a radius of 5 feet (+1 / Rank).  Any entity
+within the area covered by the pool suffers damage of [D - 5] (+ 1 /
+Rank).  If the target successfully resists, this damage is halved.
+Note that while the entity is within the area of effect the damage is
+applied ever pulse.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-18]{Diamond Javelins}
+
+\range{30 feet + 10 / Rank}
+\duration{Immediate}
+\multiple{300}
+\basechance{20\%}
+\resist{None}
+\storage{Investment, Ward}
+\target{Entity}
+\begin{effects}
+The spell causes diamond-tipped javelins to fly from the earth at the
+Adept's feet and travel toward a target(s) of the Adept's choice.  The
+number of javelins which appear is 1 (+ 1 / 2 (or fraction) Ranks).
+The javelins have a Base Chance to hit equal to the Base Chance of
+ordinary javelins + 3 / Rank.  Each javelin does [D - 4] (+ 1 / 2 (or
+fraction) Ranks) damage.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-19]{Earth Transformation}
+
+\range{10 feet + 10 / Rank}
+\duration{3 hours + 1 / Rank}
+\multiple{400}
+\basechance{10\%}
+\resist{Passive}
+\storage{Investment, Ward}
+\target{Volume}
+\begin{effects}
+This spell turns 3 (+ 1 / Rank) cubic feet of stone into mud or vice
+versa.  An entity standing on a spot containing a mud puddle that is
+turned to stone has an opportunity to passively resist the effects of
+the spell. If they fail to resist, they will become trapped in the
+stone that has taken the place of the mud they were standing in.  If
+they resist, the mud turns to stone, but they are not trapped.
+\end{effects}
+\end{spell}
+
+\subsection{Special Knowledge Rituals}
+
+\begin{ritual}[R-1]{Binding Earth}
+
+\range{10 feet + 10 / Rank}
+\duration{Concentration: maximum 1 hour + 1 / Rank}
+\multiple{500}
+\basechance{10\%}
+\resist{None}
+\target{Earth}
+\casttime{1 hour}
+\material{A human (or humanoid)}
+\actions{Sacrifice human}
+\concentration{Standard}
+\begin{effects}
+If the is ritual successful, the Adept gains complete control over a
+500 pound weight of earth and stone (plus an additional 500 pound
+weight per Rank).  They can shape or move the earth, change its
+consistency or instill intelligence in it as they choose.  The Base
+Chance to successfully employ this ritual is 10\%.  It can affect any
+earth or stone within 10 feet (+ 10 / Rank) of the Adept.  If a ritual
+sacrifice of a human (or humanoid) being is performed at the end of
+the duration, the affected earth becomes permanently bound (that is,
+it contains no life and blocks all earth shaping effects, for example,
+Hands of Earth, Earth Elementals, Tunnelling).
+\end{effects}
+\end{ritual}
+\end{college}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@d91 1
+a91 1
+same as given in \S \ref{detect-aura}.
+d445 1
+a445 1
+\target{}
+@
+
+
+4.1
+log
+@Minor corrections from Andrew Withy plus formatting changes.
+@
+text
+@d1 1
+a1 1
+\begin{college}[1.2]{earth}{Earth Magics}
+d83 1
+a83 1
+\range{ Special}
+d86 1
+a86 1
+\resist{May only be actively resisted}
+d100 1
+a100 1
+\range{ 10 feet + 10 / Rank}
+d104 1
+a104 1
+\resist{May not be resisted}
+d124 1
+a124 1
+\resist{May not be resisted}
+d139 1
+a139 1
+\resist{May only be passively resisted}
+d158 1
+a158 1
+\resist{May not be resisted}
+d198 1
+a198 1
+\resist{May not be resisted}
+d230 1
+a230 1
+\resist{May not be resisted}
+d246 1
+a246 1
+\resist{May not be resisted}
+d261 1
+a261 1
+\resist{May not be resisted}
+d275 1
+a275 1
+\duration{Ranks 1--10 = a fortnight ; Ranks 11--19 = 3 months ; Rank 20 permanent until dispelled}
+d278 1
+a278 1
+\resist{May be actively \& passively resisted}
+d286 3
+a288 1
+involved.  This spell cannot be cast over oneself.
+d298 1
+a298 1
+\resist{May not be resisted}
+d315 1
+a315 1
+\resist{May not be resisted}
+d331 1
+a331 1
+\resist{May not be resisted}
+d355 1
+a355 1
+\resist{May only be passively resisted}
+d371 1
+a371 1
+\resist{May only be passively resisted}
+d396 1
+a396 1
+\resist{May only be passively resisted}
+d411 1
+a411 1
+\resist{May not be resisted}
+a421 1
+
+d423 1
+a423 1
+\duration{20 seconds \x [D - 5] \x Rank (\x 1 if Rank 0)}
+d426 1
+a426 1
+\resist{May not be resisted}
+d443 1
+a443 1
+\resist{May not be resisted}
+d458 1
+a458 1
+\resist{May only be passively resisted}
+d473 1
+a473 1
+\resist{May not be resisted}
+d494 1
+a494 1
+\resist{May only be passively resisted}
+d513 1
+a513 1
+\resist{May not be resisted}
+d532 1
+a532 1
+\resist{May not be resisted}
+d553 1
+a553 1
+\resist{May be actively \& passively resisted}
+d572 1
+a572 1
+\resist{May not be resisted}
+d590 1
+a590 1
+\resist{May not be resisted}
+d605 1
+a605 1
+\resist{May not be resisted}
+d622 1
+a622 1
+\resist{May not be resisted}
+d642 1
+a642 1
+\resist{ May only be passively resisted (then does half damage)}
+d650 2
+a651 2
+Note that this spell continues to do damage per pulse while the entity
+remains in the area of effect.
+d661 1
+a661 1
+\resist{May not be resisted}
+d680 1
+a680 1
+\resist{May only be passively resisted}
+d701 1
+a701 1
+\resist{May not be resisted}
+d705 1
+a705 1
+\actions{ Sacrifice human}
+@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 1
+a1 5
+\section{The College of Earth Magics (Ver 1.2)}
+\label{college:earth}
+\index{colleges!Earth Magics|(}
+
+\begin{multicols}{3}
+d83 6
+a88 5
+\sItem{Range}{ Special}
+\sItem{Experience Multiple}{75}
+\sItem{Base Chance}{PC + 5\% / Rank}
+\sItem{Resist}{May only be actively resisted}
+\sItem{Target}{Entity, Object, Area, Volume}
+d92 1
+d100 8
+a107 8
+\sItem{Range}{ 10 feet + 10 / Rank}
+\sItem{Duration}{3 hours + 3 hours / Rank}
+\sItem{Experience Multiple}{50}
+\sItem{Base Chance}{45\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Potion}
+\sItem{Target}{Self}
+\emph{Effect:}
+d115 1
+d120 8
+a127 8
+\sItem{Range}{10 feet + 10 / Rank}
+\sItem{Duration}{3 hours + 3 / Rank}
+\sItem{Experience Multiple}{50}
+\sItem{Base Chance}{25\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Potion}
+\sItem{Target}{Self}
+\emph{Effect:}
+d130 1
+d135 8
+a142 8
+\sItem{Range}{10 feet + 10 / Rank}
+\sItem{Duration}{Concentration: no maximum}
+\sItem{Experience Multiple}{100}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Storage}{Investment}
+\sItem{Target}{Animal}
+\emph{Effect:}
+d149 1
+a149 1
+
+d154 8
+a161 8
+\sItem{Range}{15 feet + 1 / Rank}
+\sItem{Duration}{1 hour + 1 / Rank}
+\sItem{Experience Multiple}{50}
+\sItem{Base Chance}{60\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Potion, Ward}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d189 1
+a189 1
+
+d194 8
+a201 8
+\sItem{Range}{1 foot + 1 / Rank}
+\sItem{Duration}{1 hour + 1 / Rank}
+\sItem{Experience Multiple}{100}
+\sItem{Base Chance}{50\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Potion, Ward}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d221 1
+d226 8
+a233 8
+\sItem{Range}{Touch}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{100}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{None}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d237 1
+d242 8
+a249 8
+\sItem{Range}{20 feet + 5 / Rank}
+\sItem{Duration}{1 hour + 1 / Rank}
+\sItem{Experience Multiple}{75}
+\sItem{Base Chance}{60\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Potion}
+\sItem{Target}{Self}
+\emph{Effect:}
+d252 1
+a252 1
+
+d257 8
+a264 8
+\sItem{Range}{Touch}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{75}
+\sItem{Base Chance}{50\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Potion}
+\sItem{Target}{Self}
+\emph{Effect:}
+d269 1
+d274 8
+a281 8
+\sItem{Range}{10 feet + 10 / Rank}
+\sItem{Duration}{Ranks 1--10 = a fortnight ; Ranks 11--19 = 3 months ; Rank 20 permanent until dispelled}
+\sItem{Experience Multiple}{125}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Sentient Entity}
+\emph{Effect:}
+d287 1
+d292 8
+a299 8
+\sItem{Range}{Self}
+\sItem{Duration}{1 hour + 1 / Rank}
+\sItem{Experience Multiple}{75}
+\sItem{Base Chance}{25\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Potion}
+\sItem{Target}{Self}
+\emph{Effect:}
+d304 1
+d309 8
+a316 8
+\sItem{Range}{Self}
+\sItem{Duration}{1 day + 1 / Rank}
+\sItem{Experience Multiple}{100}
+\sItem{Base Chance}{15\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Potion}
+\sItem{Target}{Self}
+\emph{Effect:}
+d319 1
+d326 10
+a335 10
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{150}
+\sItem{Base Chance}{MA + 3\% / Rank}
+\sItem{Resist}{May not be resisted}
+\sItem{Target}{Animals}
+\sItem{Cast Time}{1 hour}
+\sItem{Materials}{None}
+\sItem{Actions}{Concentration}
+\sItem{Concentration Check}{Standard}
+\emph{Effect:}
+d341 1
+d349 8
+a356 8
+\sItem{Range}{25 feet + 10 / Rank}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d360 1
+d365 8
+a372 8
+\sItem{Range}{20 feet + 5 / Rank}
+\sItem{Duration}{1 hour + 1 / Rank}
+\sItem{Experience Multiple}{150}
+\sItem{Base Chance}{25\%}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Entity, Area}
+\emph{Effect:}
+d385 1
+d390 8
+a397 8
+\sItem{Range}{10 feet}
+\sItem{Duration}{1 hour + 1 / Rank}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Storage}{Investment, Potion, Magical Trap}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d400 1
+d405 8
+a412 8
+\sItem{Range}{10 feet}
+\sItem{Duration}{30 minutes + 30 / Rank}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Potion}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d416 1
+d421 8
+a428 8
+\sItem{Range}{5 feet + 5 / Rank}
+\sItem{Duration}{20 seconds \x [D - 5] \x Rank (\x 1 if Rank 0)}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment}
+\sItem{Target}{Object}
+\emph{Effect:}
+d433 1
+d438 8
+a445 8
+\sItem{Range}{10 feet}
+\sItem{Duration}{1 day + 1 / Rank}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{10\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment}
+\sItem{Target}{}
+\emph{Effect:}
+d448 1
+d453 8
+a460 8
+\sItem{Range}{10 feet + 10 / Rank}
+\sItem{Duration}{1 day + 1 / Rank}
+\sItem{Experience Multiple}{225}
+\sItem{Base Chance}{15\%}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Storage}{Investment, Ward}
+\sItem{Target}{Non-sentient mammal}
+\emph{Effect:}
+d463 1
+d468 8
+a475 8
+\sItem{Range}{10 feet + 10 / Rank}
+\sItem{Duration}{1 day + 1 / Rank}
+\sItem{Experience Multiple}{225}
+\sItem{Base Chance}{15\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward}
+\sItem{Target}{Plant}
+\emph{Effect:}
+d484 1
+d489 8
+a496 8
+\sItem{Range}{10 feet + 10 / Rank}
+\sItem{Duration}{Until dispelled}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{10\%}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Storage}{Investment, Ward}
+\sItem{Target}{Animal}
+\emph{Effect:}
+d503 1
+d508 8
+a515 8
+\sItem{Range}{20 feet}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{225}
+\sItem{Base Chance}{25\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward}
+\sItem{Target}{Earth Elemental}
+\emph{Effect:}
+d522 1
+a522 1
+
+d527 8
+a534 8
+\sItem{Range}{20 feet}
+\sItem{Duration}{Concentration: no maximum}
+\sItem{Experience Multiple}{225}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment}
+\sItem{Target}{Earth Elemental}
+\emph{Effect:}
+d543 1
+d548 8
+a555 8
+\sItem{Range}{30 feet + 10 / Rank}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{650}
+\sItem{Base Chance}{2\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d562 1
+d567 8
+a574 8
+\sItem{Range}{20 feet + 10 / Rank}
+\sItem{Duration}{10 minutes + 10 / Rank}
+\sItem{Experience Multiple}{150}
+\sItem{Base Chance}{10\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward}
+\sItem{Target}{Area}
+\emph{Effect:}
+d580 1
+d585 8
+a592 8
+\sItem{Range}{20 feet + 10 / Rank}
+\sItem{Duration}{10 minutes + 10 / Rank}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{5\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward}
+\sItem{Target}{Area}
+\emph{Effect:}
+d595 1
+a595 1
+
+d600 8
+a607 8
+\sItem{Range}{5 feet + 1 / Rank}
+\sItem{Duration}{30 seconds + 5 / Rank}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{10\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward}
+\sItem{Target}{Area}
+\emph{Effect:}
+d612 1
+d617 8
+a624 8
+\sItem{Range}{10 feet}
+\sItem{Duration}{30 seconds + 5 / Rank}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Potion, Ward}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d632 1
+a632 1
+
+d637 8
+a644 8
+\sItem{Range}{25 feet + 5 / Rank}
+\sItem{Duration}{10 seconds  + 10 / Rank}
+\sItem{Experience Multiple}{300}
+\sItem{Base Chance}{7\%}
+\sItem{Resist}{ May only be passively resisted (then does half damage)}
+\sItem{Storage}{Investment, Ward}
+\sItem{Target}{Area}
+\emph{Effect:}
+d651 1
+a651 1
+
+d656 8
+a663 8
+\sItem{Range}{30 feet + 10 / Rank}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{300}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d670 1
+d675 8
+a682 8
+\sItem{Range}{10 feet + 10 / Rank}
+\sItem{Duration}{3 hours + 1 / Rank}
+\sItem{Experience Multiple}{400}
+\sItem{Base Chance}{10\%}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Storage}{Investment, Ward}
+\sItem{Target}{Volume}
+\emph{Effect:}
+d689 1
+a689 1
+
+d696 11
+a706 11
+\sItem{Range}{10 feet + 10 / Rank}
+\sItem{Duration}{Concentration: maximum 1 hour + 1 / Rank}
+\sItem{Experience Multiple}{500}
+\sItem{Base Chance}{10\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Target}{Earth}
+\sItem{Cast Time}{1 hour}
+\sItem{Materials}{A human (or humanoid)}
+\sItem{Actions}{ Sacrifice human}
+\sItem{Concentration Check}{Standard}
+\emph{Effect:}
+d717 1
+d719 1
+a719 5
+
+\index{colleges!Earth Magics|)}
+\raggedcolumns
+\clearemptydoublepage
+\end{multicols}@
+
+
+3.8
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+3.7
+log
+@Fix e.g. problem
+@
+text
+@d25 1
+a25 1
+never attack without provocation (\ie unless attacked them self or
+d45 2
+a46 2
+\subsubsection{Practitioners of the College of Earth Magics must always
+be in contact with the earth to perform magic of this College.}
+d80 2
+a81 2
+These additions to the Base Chance are cumulative.  They are added to
+the modifiers listed in \S\ref{magic:modifiers}.
+d93 2
+a94 2
+from the Adept.  The results of this talent are the same as given in
+\S \ref{detect-aura}.
+d103 1
+a103 1
+\sItem{Duration}{3 hours \x Rank (\x 1 if Rank 0)}
+a116 1
+
+d122 1
+a122 1
+\sItem{Duration}{3 hours \x Rank (\x 1 if Rank 0)}
+d126 1
+a126 1
+\sItem{Storage}{Potion, Investment}
+a130 1
+
+d202 18
+a219 7
+The target of this spell may move unnoticed, not invisible.  If the
+target of the spell, or the target's possessions, are touched by
+another entity, or that entity's possessions, then the spell is
+broken.  An entity's possessions are those non-entity things which the
+entity is wearing or carrying at that time.  An unconscious or
+sleeping entity is not a possession, it is still an entity. The target
+of the spell may not break it voluntarily (other than by, for example,
+a220 15
+
+The target of the spell is not invisible.  This means that it will not
+transmit light.  As a consequence the target will cast a shadow (which
+may or may not be noticed depending on the lighting etc -- even if
+noticed may not be connected to the target) and have a reflection in a
+mirror (or any reflective surface).  However the target may not be
+noticed even if another entity is looking directly at them. It should
+be noted that a crystal of vision or similar would count as looking
+directly at the target, not as a reflection.  An entity will get a
+perception check if the target becomes invasive on that entity's
+senses (\eg standing in a frontal adjacent hex, or standing behind
+the entity with the target's hands over their eyes).  Although the
+target is not invisible, it may be detected using any magical means
+for detecting invisible entities (\eg witchsight).
+
+a235 1
+
+d245 1
+a245 1
+\sItem{Storage}{Potion, Investment}
+d264 3
+a266 4
+The Adept touches the object or substance in which they suspect is
+poisonous.  The wand will momentarily turn black if poison is, in
+fact, present.
+
+d276 1
+a276 1
+\sItem{Storage}{}
+d279 4
+a282 4
+The target of this spell is either blessed or cursed (Adept's
+choice).  The spell increases either the character's luck or
+misfortune (depending on whether it operates as a blessing or as a
+curse) by 1 on every dice roll in which the character is directly
+a283 1
+
+d293 1
+a293 1
+\sItem{Storage}{Potion, Investment}
+a299 1
+
+d309 1
+a309 1
+\sItem{Storage}{Potion, Investment}
+d331 4
+a334 6
+to the Adept's Rank (1 if the Adept has no Rank with the ritual) are
+summoned.  The animal the Adept attempts to summon must be a native of
+the area.  If the Adept chooses to vocalise their summons (assuming
+they are not attempting to go undetected since the vocalisation must
+be in the form of a shout or call) the Base Chance is increased by
+25\%.
+d365 1
+a365 1
+The spell causes a 1 + (Rank / 2) hand of stone to materialise out of
+d373 4
+a376 4
+combination of entities) with a combined PS + target's AG over 40 + 2
+\x Rank may attempt a 1 \x PS to escape from the Hands, and may do so
+every pulse after the first.  Any hand which has been broken out of
+will either dissipate or become hard cover (GM discretion).
+d403 3
+a405 3
+May be cast over one target individual.  It reduces the Base Chance of
+hitting that individual with any physical weapon by 2 + 2 / Rank.  At
+Rank 11 and above, it also absorbs 1 Damage Point per Strike.
+d418 4
+a421 5
+This spell is cast over a weapon of the Adept's choice.  It increases
+a weapon's strike chance by Rank\% (minimum of 1).  The chance of an
+attacker's weapon breaking increases from by 5\% when striking a
+weapon under the effect of this spell (\ie break chance becomes
+94--99, instead of 99).
+d434 2
+a435 2
+Creates one gemstone of random value for each 5 (or fraction) Ranks.
+The gems dissipate at the end of the spell.
+d446 1
+a446 1
+\sItem{Target}{Animal}
+a449 1
+
+d462 8
+a469 8
+The spell may impart partial mobility to a number of plants (including
+trees) equal to the Adept's Rank.  The plants may not uproot
+themselves, but may move their branches and leaves while remaining in
+the same spot.  The plant's actions are always under the control of
+the Adept so long as they maintain their concentration.  If their
+concentration is broken, voluntarily or otherwise, the plants will be
+controlled by the GM until the Adept reestablishes control and could,
+conceivably attack the Adept.
+d539 3
+a541 3
+The spell opens a circular pit under a single human-sized target per 5
+(or fraction) Ranks and sucks the unfortunate standing over it down to
+be encased in rock 5 (+ 5 per Rank) feet underground. This spell may
+d559 2
+a560 2
+high and with a 2 foot radius.  The Adept increases any dimension by
+1 foot per Rank.  They may not attempt to cast the spell on top of an
+d627 2
+a628 2
+within the area covered by the pool suffers damage of [D - 5] + 1 /
+Rank.  If the target successfully resists, this damage is halved.
+@
+
+
+3.6
+log
+@Check in before modifying e.g. and i.e.
+@
+text
+@d25 1
+a25 1
+never attack without provocation (i.e.\ unless attacked them self or
+d166 1
+a166 1
+seen by non-magical means (i.e.\ as for invisibility).  If the target
+d170 1
+a170 1
+time that the spell is actually in effect (i.e.\ while the target is
+d189 1
+a189 1
+cease working (e.g.\ moving hands behind back, or talking behind hand
+d222 1
+a222 1
+senses (e.g.\ standing in a frontal adjacent hex, or standing behind
+d225 1
+a225 1
+for detecting invisible entities (e.g.\ witchsight).
+d433 1
+a433 1
+weapon under the effect of this spell (i.e.\ break chance becomes
+@
+
+
+3.5
+log
+@Strength of Stone changed.
+@
+text
+@d25 1
+a25 1
+never attack without provocation (i.e., unless attacked them self or
+d166 1
+a166 1
+seen by non-magical means (i.e., as for invisibility).  If the target
+d170 1
+a170 1
+time that the spell is actually in effect (i.e., while the target is
+d189 1
+a189 1
+cease working (e.g., moving hands behind back, or talking behind hand
+d222 1
+a222 1
+senses (e.g., standing in a frontal adjacent hex, or standing behind
+d225 1
+a225 1
+for detecting invisible entities (e.g., witchsight).
+d433 1
+a433 1
+weapon under the effect of this spell (i.e., break chance becomes
+@
+
+
+3.4
+log
+@Sinking doom changed.
+@
+text
+@d398 1
+a398 1
+\sItem{Storage}{Investment}
+d401 2
+a402 3
+The target of this spell has their Physical Strength or Fatigue
+(Adept's choice) increased by Rank points (minimum 1).  The spell may
+not be cast over oneself.
+@
+
+
+3.3
+log
+@Fix spell environment and indexes
+@
+text
+@d531 1
+a531 1
+\sItem{Storage}{Investment, Ward}
+d554 6
+a559 3
+The spell opens a circular pit under a single human-sized target per
+each 5 (or fraction) Ranks and sucks the unfortunate standing over it
+into the bowels of the earth to be burned in molten rock.
+@
+
+
+3.2
+log
+@Remove "Spell of " etc from spell names.
+@
+text
+@d85 1
+a85 1
+\begin{talent}{Detect Aura (T-1)}
+d100 1
+a100 1
+\begin{spell}{Converse With Animals (G-1)}
+d120 1
+a120 1
+\begin{spell}{Converse With Plants (G-2)}
+d135 1
+a135 1
+\begin{spell}{Controlling Animals (G-3)}
+d154 1
+a154 1
+\begin{spell}{Blending (G-4)}
+d194 1
+a194 1
+\begin{spell}{Walking Unseen (G-5)}
+d229 1
+a229 1
+\begin{spell}{Healing (G-6)}
+d245 1
+a245 1
+\begin{spell}{Detecting Traps and Snares (G-7)}
+d260 1
+a260 1
+\begin{spell}{Detecting Poisons (G-8)}
+d277 1
+a277 1
+\begin{spell}{Lesser Enchantment (G-9)}
+d295 1
+a295 1
+\begin{spell}{Herbal Lore (G-10)}
+d312 1
+a312 1
+\begin{spell}{Tracking (G-11)}
+d328 1
+a328 1
+\begin{ritual}{Summoning Animals (Q-1)}
+d352 1
+a352 1
+\begin{spell}{Earth Hammer (S-1)}
+d367 1
+a367 1
+\begin{spell}{Hands of Earth (S-2)}
+d391 1
+a391 1
+\begin{spell}{Strength of Stone (S-3)}
+d406 1
+a406 1
+\begin{spell}{Armour of Earth (S-4)}
+d421 1
+a421 1
+\begin{spell}{Diamond Weapon (S-5)}
+d438 1
+a438 1
+\begin{spell}{Gem Creation (S-6)}
+d452 1
+a452 1
+\begin{spell}{Animal Growth (S-7)}
+d467 1
+a467 1
+\begin{spell}{Enchanting Plants (S-8)}
+d487 1
+a487 1
+\begin{spell}{Binding Animals (S-9)}
+d505 1
+a505 1
+\begin{spell}{Conjuring Earth Elemental (S-10)}
+d524 1
+a524 1
+\begin{spell}{Controlling Earth Elemental (S-11)}
+d544 1
+a544 1
+\begin{spell}{Sinking Doom (S-12)}
+d559 1
+a559 1
+\begin{spell}{Wall of Stone (S-13)}
+d576 1
+a576 1
+\begin{spell}{Wall of Iron (S-14)}
+d591 1
+a591 1
+\begin{spell}{Tunnelling (S-15)}
+d607 1
+a607 1
+\begin{spell}{Trollskin (S-16)}
+d627 1
+a627 1
+\begin{spell}{Smoking Magma (S-17)}
+d646 1
+a646 1
+\begin{spell}{Diamond Javelins (S-18)}
+d664 1
+a664 1
+\begin{spell}{Earth Transformation (S-19)}
+d685 1
+a685 1
+\begin{ritual}{Binding Earth (R-1)}
+@
+
+
+3.1
+log
+@Fix indexes.
+@
+text
+@a85 1
+\index{detect aura}
+d100 1
+a100 2
+\begin{spell}{Spell of Converse With Animals (G-1)}
+\index{spells!converse with animals}
+d120 1
+a120 2
+\begin{spell}{Spell of Converse With Plants (G-2)}
+\index{spells!converse with plants}
+d135 1
+a135 2
+\begin{spell}{Spell of Controlling Animals (G-3)}
+\index{spells!controlling animals}
+d154 1
+a154 2
+\begin{spell}{Spell of Blending (G-4)}
+\index{spells!blending}
+d194 1
+a194 2
+\begin{spell}{Spell of Walking Unseen (G-5)}
+\index{spells!walking unseen}
+d229 1
+a229 2
+\begin{spell}{Spell of Healing (G-6)}
+\index{spells!healing}
+d245 1
+a245 2
+\begin{spell}{Spell of Detecting Traps and Snares (G-7)}
+\index{spells!Detecting traps and snares}
+d260 1
+a260 2
+\begin{spell}{Spell of Detecting Poisons (G-8)}
+\index{spells!dectecting poisons}
+d277 1
+a277 2
+\begin{spell}{Spell of Lesser Enchantment (G-9)}
+\index{spells!lesser enchantment}
+d295 1
+a295 2
+\begin{spell}{Spell of Herbal Lore (G-10)}
+\index{spells!herbal lore}
+d312 1
+a312 2
+\begin{spell}{Spell of Tracking (G-11)}
+\index{spells!tracking}
+d328 1
+a328 2
+\begin{ritual}{Ritual of Summoning Animals (Q-1)}
+\index{rituals!summoning animals}
+d352 1
+a352 2
+\begin{spell}{Earth Hammer Spell (S-1)}
+\index{spells!earth hammer}
+a364 1
+
+d367 1
+a367 2
+\begin{spell}{Hands of Earth Spell (S-2)}
+\index{spells!hands of earth}
+a388 1
+
+d391 1
+a391 2
+\begin{spell}{Strength of Stone Spell (S-3)}
+\index{spells!strength of stone}
+a403 1
+
+d406 1
+a406 1
+\begin{spell}{Armour of Earth Spell (S-4)}
+a418 1
+
+d421 1
+a421 1
+\begin{spell}{Diamond Weapon Spell (S-5)}
+a435 2
+
+
+d438 1
+a438 1
+\begin{spell}{Spell of Gem Creation (S-6)}
+a449 1
+
+d452 1
+a452 1
+\begin{spell}{Spell of Animal Growth (S-7)}
+d467 1
+a467 1
+\begin{spell}{Spell of Enchanting Plants (S-8)}
+a484 1
+
+d487 1
+a487 1
+\begin{spell}{Spell of Binding Animals (S-9)}
+a502 1
+
+d505 1
+a505 1
+\begin{spell}{Spell of Conjuring Earth Elemental (S-10)}
+d524 1
+a524 1
+\begin{spell}{Spell of Controlling Earth Elemental (S-11)}
+a541 1
+
+d544 1
+a544 1
+\begin{spell}{Spell of Sinking Doom (S-12)}
+a556 1
+
+d559 1
+a559 1
+\begin{spell}{Wall of Stone Spell (S-13)}
+a573 1
+
+d576 1
+a576 2
+\begin{spell}{Wall of Iron Spell (S-14)}
+
+d591 1
+a591 1
+\begin{spell}{Spell of Tunnelling (S-15)}
+a604 1
+
+d607 1
+a607 1
+\begin{spell}{Trollskin Spell (S-16)}
+d627 1
+a627 1
+\begin{spell}{Spell of Smoking Magma (S-17)}
+d646 1
+a646 1
+\begin{spell}{Spell of Diamond Javelins (S-18)}
+a661 2
+
+
+d664 1
+a664 1
+\begin{spell}{Spell of Earth Transformation (S-19)}
+d685 1
+a685 1
+\begin{ritual}{Ritual of Binding Earth (R-1)}
+@
+
+
+3.0
+log
+@Major typographical changes.  Spells now spell environments
+@
+text
+@d3 1
+a3 1
+\index{colleges!earth|(}
+d742 1
+a742 1
+\index{colleges!earth|)}
+@
+
+
+2.1
+log
+@Fix error in Controlling Earth Elemental (Steve Martin).
+@
+text
+@d2 3
+a4 1
+\index{earth}
+d85 1
+a85 1
+\subsubsection{Detect Aura (T-1)}
+d88 5
+a92 7
+\begin{spelldesc}
+\emph{Range:}  Special \\
+\emph{Experience Multiple:} 75 \\
+\emph{Base Chance:} PC + 5\% / Rank \\
+\emph{Resist:} May only be actively resisted \\
+\emph{Target:} Entity, Object, Area, Volume \\
+\end{spelldesc}
+d96 2
+d101 2
+a102 2
+\subsubsection{Spell of Converse With Animals (G-1)}
+\index{converse with animals}
+d104 8
+a111 10
+\begin{spelldesc}
+\emph{Range:}  10 feet + 10 / Rank \\
+\emph{Duration:} 3 hours \x Rank (\x 1 if Rank 0) \\
+\emph{Experience Multiple:} 50 \\
+\emph{Base Chance:} 45\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Potion, Investment \\
+\emph{Target: } Self \\
+\end{spelldesc}
+\emph{Effects:}
+d120 1
+a120 1
+\subsubsection{Spell of Converse With Plants (G-2)}
+d122 11
+a132 10
+\begin{spelldesc}
+\emph{Range:} 10 feet + 10 / Rank \\
+\emph{Duration:} 3 hours \x Rank (\x 1 if Rank 0) \\
+\emph{Experience Multiple:} 50 \\
+\emph{Base Chance:} 25\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Potion, Investment \\
+\emph{Target:} Self \\
+\end{spelldesc}
+\emph{Effects:}
+d136 4
+a139 1
+\subsubsection{Spell of Controlling Animals (G-3)}
+d141 8
+a148 10
+\begin{spelldesc}
+\emph{Range:} 10 feet + 10 / Rank \\
+\emph{Duration:} Concentration: no maximum \\
+\emph{Experience Multiple:} 100 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Storage:} Investment, Ward \\
+\emph{Target:} Animal \\
+\end{spelldesc}
+\emph{Effects:}
+d156 1
+a156 1
+\subsubsection{Spell of Blending (G-4)}
+d158 11
+a168 10
+\begin{spelldesc}
+\emph{Range:} 15 feet + 1 / Rank \\
+\emph{Duration:} 1 hour + 1 / Rank \\
+\emph{Experience Multiple:} 50 \\
+\emph{Base Chance:} 60\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Potion, Ward \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d197 4
+a200 1
+\subsubsection{Spell of Walking Unseen (G-5)}
+d202 8
+a209 10
+\begin{spelldesc}
+\emph{Range:} 1 foot + 1 / Rank \\
+\emph{Duration:} 1 hour + 1 / Rank \\
+\emph{Experience Multiple:} 100 \\
+\emph{Base Chance:} 50\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Potion, Ward \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d233 1
+a233 1
+\subsubsection{Spell of Healing (G-6)}
+d235 11
+a245 10
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 100 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} None \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d250 4
+a253 1
+\subsubsection{Spell of Detecting Traps and Snares (G-7)}
+d255 8
+a262 10
+\begin{spelldesc}
+\emph{Range:} 20 feet + 5 / Rank \\
+\emph{Duration:} 1 hour + 1 / Rank \\
+\emph{Experience Multiple:} 75 \\
+\emph{Base Chance:} 60\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Potion, Investment \\
+\emph{Target:} Self \\
+\end{spelldesc}
+\emph{Effects:}
+d266 1
+a266 1
+\subsubsection{Spell of Detecting Poisons (G-8)}
+d268 11
+a278 10
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 75 \\
+\emph{Base Chance:} 50\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Potion \\
+\emph{Target:} Self \\
+\end{spelldesc}
+\emph{Effects:}
+d284 4
+a287 1
+\subsubsection{Spell of Lesser Enchantment (G-9)}
+d289 8
+a296 10
+\begin{spelldesc}
+\emph{Range:} 10 feet + 10 / Rank \\
+\emph{Duration:} Ranks 1--10 = a fortnight ; Ranks 11--19 = 3 months ; Rank 20 permanent until dispelled \\
+\emph{Experience Multiple:} 125 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Storage:} \\
+\emph{Target:} Sentient Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d303 1
+a303 1
+\subsubsection{Spell of Herbal Lore (G-10)}
+d305 11
+a315 10
+\begin{spelldesc}
+\emph{Range:} Self \\
+\emph{Duration:} 1 hour + 1 / Rank \\
+\emph{Experience Multiple:} 75 \\
+\emph{Base Chance:} 25\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Potion, Investment \\
+\emph{Target:} Self \\
+\end{spelldesc}
+\emph{Effects:}
+d321 4
+a324 1
+\subsubsection{Spell of Tracking (G-11)}
+d326 8
+a333 10
+\begin{spelldesc}
+\emph{Range:} Self \\
+\emph{Duration:} 1 day + 1 / Rank \\
+\emph{Experience Multiple:} 100 \\
+\emph{Base Chance:} 15\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Potion, Investment \\
+\emph{Target:} Self \\
+\end{spelldesc}
+\emph{Effects:}
+d336 1
+d340 2
+a341 1
+\subsubsection{Ritual of Summoning Animals (Q-1)}
+d343 10
+a352 12
+\begin{spelldesc}
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 150 \\
+\emph{Base Chance:} MA + 3\% / Rank \\
+\emph{Resist:} May not be resisted \\
+\emph{Target:} Animals \\
+\emph{Cast Time:} 1 hour \\
+\emph{Materials:} None \\
+\emph{Actions:} Concentration \\
+\emph{Concentration Check:} Standard \\
+\end{spelldesc}
+\emph{Effects:}
+d360 2
+d365 2
+a366 1
+\subsubsection{Earth Hammer Spell (S-1)}
+d368 8
+a375 10
+\begin{spelldesc}
+\emph{Range:} 25 feet + 10 / Rank \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d380 4
+a383 1
+\subsubsection{Hands of Earth Spell (S-2)}
+d385 8
+a392 10
+\begin{spelldesc}
+\emph{Range:} 20 feet + 5 / Rank \\
+\emph{Duration:} 1 hour + 1 / Rank \\
+\emph{Experience Multiple:} 150 \\
+\emph{Base Chance:} 25\% \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity, Area \\
+\end{spelldesc}
+\emph{Effects:}
+d406 1
+a406 1
+\subsubsection{Strength of Stone Spell (S-3)}
+d408 11
+a418 10
+\begin{spelldesc}
+\emph{Range:} 10 feet \\
+\emph{Duration:} 1 hour + 1 / Rank \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Storage:} Investment \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d423 3
+a425 1
+\subsubsection{Armour of Earth Spell (S-4)}
+d427 8
+a434 10
+\begin{spelldesc}
+\emph{Range:} 10 feet \\
+\emph{Duration:} 30 minutes + 30 / Rank \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Potion \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d439 1
+a439 1
+\subsubsection{Diamond Weapon Spell (S-5)}
+d441 10
+a450 10
+\begin{spelldesc}
+\emph{Range:} 5 feet + 5 / Rank \\
+\emph{Duration:} 20 seconds \x [D - 5] \x Rank (\x 1 if Rank 0) \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment \\
+\emph{Target:} Object \\
+\end{spelldesc}
+\emph{Effects:}
+d458 3
+a460 1
+\subsubsection{Spell of Gem Creation (S-6)}
+d462 8
+a469 10
+\begin{spelldesc}
+\emph{Range:} 10 feet \\
+\emph{Duration:} 1 day + 1 / Rank \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} 10\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment \\
+\emph{Target:} \\
+\end{spelldesc}
+\emph{Effects:}
+d473 1
+a473 1
+\subsubsection{Spell of Animal Growth (S-7)}
+d475 10
+a484 10
+\begin{spelldesc}
+\emph{Range:} 10 feet + 10 / Rank \\
+\emph{Duration:} 1 day + 1 / Rank \\
+\emph{Experience Multiple:} 225 \\
+\emph{Base Chance:} 15\% \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Storage:} Investment, Ward \\
+\emph{Target:} Animal \\
+\end{spelldesc}
+\emph{Effects:}
+d488 3
+a490 1
+\subsubsection{Spell of Enchanting Plants (S-8)}
+d492 8
+a499 10
+\begin{spelldesc}
+\emph{Range:} 10 feet + 10 / Rank \\
+\emph{Duration:} 1 day + 1 / Rank \\
+\emph{Experience Multiple:} 225 \\
+\emph{Base Chance:} 15\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward \\
+\emph{Target:} Plant \\
+\end{spelldesc}
+\emph{Effects:}
+d509 1
+a509 1
+\subsubsection{Spell of Binding Animals (S-9)}
+d511 10
+a520 10
+\begin{spelldesc}
+\emph{Range:} 10 feet + 10 / Rank \\
+\emph{Duration:} Until dispelled \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} 10\% \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Storage:} Investment, Ward \\
+\emph{Target:} Animal \\
+\end{spelldesc}
+\emph{Effects:}
+d528 3
+a530 1
+\subsubsection{Spell of Conjuring Earth Elemental (S-10)}
+d532 8
+a539 10
+\begin{spelldesc}
+\emph{Range:} 20 feet \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 225 \\
+\emph{Base Chance:} 25\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward \\
+\emph{Target:} Earth Elemental \\
+\end{spelldesc}
+\emph{Effects:}
+d547 1
+a547 1
+\subsubsection{Spell of Controlling Earth Elemental (S-11)}
+d549 10
+a558 10
+\begin{spelldesc}
+\emph{Range:} 20 feet \\
+\emph{Duration:} Concentration: no maximum \\
+\emph{Experience Multiple:} 225 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward \\
+\emph{Target:} Earth Elemental \\
+\end{spelldesc}
+\emph{Effects:}
+d568 3
+a570 1
+\subsubsection{Spell of Sinking Doom (S-12)}
+d572 8
+a579 10
+\begin{spelldesc}
+\emph{Range:} 30 feet + 10 / Rank \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 650 \\
+\emph{Base Chance:} 2\% \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d584 1
+a584 1
+\subsubsection{Wall of Stone Spell (S-13)}
+d586 10
+a595 10
+\begin{spelldesc}
+\emph{Range:} 20 feet + 10 / Rank \\
+\emph{Duration:} 10 minutes + 10 / Rank \\
+\emph{Experience Multiple:} 150 \\
+\emph{Base Chance:} 10\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:}
+d602 3
+a604 1
+\subsubsection{Wall of Iron Spell (S-14)}
+d607 8
+a614 10
+\begin{spelldesc}
+\emph{Range:} 20 feet + 10 / Rank \\
+\emph{Duration:} 10 minutes + 10 / Rank \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} 5\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:}
+d618 1
+a618 1
+\subsubsection{Spell of Tunnelling (S-15)}
+d620 10
+a629 10
+\begin{spelldesc}
+\emph{Range:} 5 feet + 1 / Rank \\
+\emph{Duration:} 30 seconds + 5 / Rank \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 10\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:}
+d635 3
+a637 1
+\subsubsection{Trollskin Spell (S-16)}
+d639 8
+a646 10
+\begin{spelldesc}
+\emph{Range:} 10 feet \\
+\emph{Duration:} 30 seconds + 5 / Rank \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Potion, Ward \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d655 1
+a655 1
+\subsubsection{Spell of Smoking Magma (S-17)}
+d657 10
+a666 10
+\begin{spelldesc}
+\emph{Range:} 25 feet + 5 / Rank \\
+\emph{Duration:} 10 seconds  + 10 / Rank \\
+\emph{Experience Multiple:} 300 \\
+\emph{Base Chance:} 7\% \\
+\emph{Resist:}  May only be passively resisted (then does half damage) \\
+\emph{Storage:} Investment, Ward \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:}
+d674 3
+a676 1
+\subsubsection{Spell of Diamond Javelins (S-18)}
+d678 8
+a685 10
+\begin{spelldesc}
+\emph{Range:} 30 feet + 10 / Rank \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 300 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d694 1
+a694 1
+\subsubsection{Spell of Earth Transformation (S-19)}
+d696 10
+a705 10
+\begin{spelldesc}
+\emph{Range:} 10 feet + 10 / Rank \\
+\emph{Duration:} 3 hours + 1 / Rank \\
+\emph{Experience Multiple:} 400 \\
+\emph{Base Chance:} 10\% \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Storage:} Investment, Ward \\
+\emph{Target:} Volume \\
+\end{spelldesc}
+\emph{Effects:}
+d713 2
+d717 1
+a717 1
+\subsubsection{Ritual of Binding Earth (R-1)}
+d719 11
+a729 13
+\begin{spelldesc}
+\emph{Range:} 10 feet + 10 / Rank \\
+\emph{Duration:} Concentration: maximum 1 hour + 1 / Rank \\
+\emph{Experience Multiple:} 500 \\
+\emph{Base Chance:} 10\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Target:} Earth \\
+\emph{Cast Time:} 1 hour \\
+\emph{Materials:} A human (or humanoid) \\
+\emph{Actions:}  Sacrifice human \\
+\emph{Concentration Check:} Standard \\
+\end{spelldesc}
+\emph{Effects:}
+d740 1
+d742 1
+d744 1
+a744 1
+\newpage
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d17 1
+a17 2
+\begin{description}
+\setlength\itemsep{0pt}
+d39 1
+a39 1
+\end{description}
+d546 5
+a550 5
+The Adept may either attempt to control an Elemental they have just
+summoned.  The Elemental does not get to resist.  If successful in
+establishing control over the Elemental, the Adept maintains control
+until their concentration is broken or they banish the Elemental with
+a counterspell.  If they fail to gain control of the Elemental or gain
+@
+
+
+1.10
+log
+@Change description to smoking magma to make it clear that it does damage
+per pulse.
+@
+text
+@@
+
+
+1.9
+log
+@Ross Alexander's name removed.
+@
+text
+@a91 1
+\emph{Storage:} \\
+d96 1
+a96 2
+\S
+\ref{detect-aura}.
+d105 1
+a105 1
+\emph{Duration:} 3 hours \x rank (\x 1 if Rank 0)\\
+d125 1
+a125 1
+\emph{Duration:} 3 hours \x Rank (\x 1 if Rank unranked) \\
+d656 5
+a660 4
+underground.  The pool has a radius of 5 feet (+1 / Rank).  Any
+character within the area covered by the pool suffers damage of [D -
+5] + 1 / Rank.  If the target successfully resists, this
+damage is halved.
+@
+
+
+1.8
+log
+@Release 1.0 snapshot
+@
+text
+@a4 2
+\textbf{Ross Alexander -- June 6 1995}
+
+@
+
+
+1.7
+log
+@Change Hands of Earth and spell check.
+@
+text
+@d12 6
+a17 6
+Earth Magic college be a member of only one branch at a time.  They
+may alter their affiliation, but is treated as if they had quit their
+original branch and lost all knowledge of Earth Magic until such time
+as they has spent six months in study and meditation to relearn the
+General Knowledge of the College in a new form.  The two divisions of
+this College are:
+a18 1
+{\setlength\leftmargini{1.0em}
+d28 2
+a29 2
+counterspells of their College cast over an area they may occupy while
+attempting to work the magic of their College.  In addition, the
+d42 1
+a42 1
+\end{description}}
+d53 3
+a55 3
+could not touch bottom, or if he were atop a piece of furniture or an
+animal since they are not rooted in the ground.  An Adept in a man's
+arms is not in contact with the earth.
+d65 4
+a68 4
+Caster is wearing a sprig of fresh mistletoe		& 5 \\
+Caster is in contact with earth, but beneath water\dag	&-20 \\
+Caster is in a man-made dwelling without an earthen floor & -5 \\
+Caster occupies a place of power\ddag 			& 20 \\
+d71 2
+a72 2
+\dag For example, beneath the ocean, if the caster can find a way of
+breathing in such a situation, the caster's BC would always be
+d82 1
+a82 1
+the modifiers listed in ~\ref{magic:modifiers}.
+d92 1
+a92 1
+\emph{Base Chance:} Perception + 5\% / Rank -1\% for every foot after the first five \\
+d97 4
+a100 1
+The results of talent are the same as given in \S \ref{detect-aura}.
+d117 1
+a117 1
+The caster may communicate with fauna (whether verbally or
+d119 1
+a119 1
+Physical contact between the animal and the caster increases the Base
+d122 1
+a122 1
+for example talking to wolves does not allow the caster to talk to
+d137 1
+a137 1
+The caster can communicate with flora with which they are familiar.
+d152 1
+a152 1
+The caster controls the actions of any animal that does not
+d156 2
+a157 4
+reduced by 5 if the Adept cannot speak to the animal.  If the Adept
+cannot make eye contact, the Base Chance is reduced another 5.  The
+Spell of Converse With Animals may be used in conjunction with this
+Spell if the animal's language is known.
+d172 2
+a173 2
+to have effect.  While remaining still the target is not able to be
+seen by non-magical means (i.e.  as for invisibility).  If the target
+d177 1
+a177 1
+time that the spell is actually in effect (i.e. while the target is
+d180 1
+a180 1
+Keeping sill will require (as a minimum) a 4 \x WP check every
+d187 11
+a197 11
+actions as moving a limb, opening and closing the mouth.  Blinking and
+normal bodily movement caused by normal breathing will not constitute
+moving for the purposes of this spell.  The following actions will
+automatically cause the spell to cease working: talking, spellcasting,
+triggering (subject to any revision of the Investment ritual),
+readying a weapon, altering facing in a hex, moving from the hex,
+using a silent language, or indeed any Action other than a Pass action
+(and Pass actions being restricted as outlined).  Note that it is not
+relevant if an observer would see the movement for the spell to cease
+working (eg. moving hands behind back, or talking behind hand will
+both cause the spell to cease having an effect).
+d218 1
+a218 1
+touching another entity). Once broken the spell most be recast.
+d225 6
+a230 6
+noticed even if another entity is looking directly at him/her. It
+should be noted that a crystal of vision or similar would count as
+looking directly at the target, not as a reflection.  An entity will
+get a perception check if the target becomes invasive on that entity's
+senses (eg.  standing in a frontal adjacent hex, or standing behind
+the entity with the target's hands over his/her eyes).  Although the
+d232 1
+a232 1
+for detecting invisible entities (eg. witchsight).
+d237 1
+a237 1
+\emph{Range:} Adjacent character \\
+d247 2
+a248 3
+and salves, the caster can cure 3 ( + 1 / Rank) Damage Points suffered
+by a character due to disease or injury.  The spell takes about 5
+minutes to cast.
+d262 2
+a263 2
+This spell increased the Base Chance of detecting traps or ambushes
+while out doors by 10 (+ 1 / Rank).
+d268 1
+a268 1
+\emph{Range:} Must be in touch with object or substance \\
+d278 3
+a280 3
+The caster touches the object or substance in which he suspects
+poison.  The wand will momentarily turn black if poison is, in fact,
+present.
+d294 1
+a294 1
+The target of this spell is either blessed or cursed (caster's
+d312 4
+a315 4
+This gives the target Rank 0 Herbalist for the duration of the spell.
+It also increases their chance of find herbs (as per the Herbalist or
+Ranger skills) by 2 + 2 / Rank.  If the target is already ranked in
+Herbalist or Ranger, they gain an additional +10.
+d329 1
+a329 1
+The caster adds 10 (+ 2 / Rank) to his chance of Tracking while
+d339 1
+a339 1
+\emph{Base Chance:} MA + 3\% / Rank + Special \\
+d348 7
+a354 6
+If the Ritual Check is successful then a number of small animals appear
+equal to the Adept's Rank (1 if the Adept has no Rank with the
+ritual).  The animal the Adept attempts to summon must be a native of
+the area.  If the Adept chooses to vocalise his summons (assuming they
+are not attempting to go undetected since the vocalisation must be in
+the form of a shout or call), the Base Chance is increased by 25\%.
+d370 2
+a371 2
+The caster conjures a giant maul of stone which hurls itself at a
+target of the caster's choosing.  If the target fails to resist the
+d386 1
+a386 1
+The spell causes a 1 + (Rank / 2) hands of stone to materialise out of
+d392 6
+a397 6
+next to them within the hex.  Any entity caught will keep be still be
+able to wield a weapon or cast if they roll under 2 \x MD.  Entities
+(or combination of entities) with a PS over 20 + Rank may attempt a 1
+\x PS to escape from the Hands, and may do so every pulse after the
+first.  Any Hand which has been broken out of will either dissipate or
+become hard cover (GM discretion).
+d412 1
+a412 1
+(caster's choice) increased by Rank points (minimum 1).  The spell may
+d443 6
+a448 5
+This spell is cast over a weapon of the caster's choice.  It increases
+the Base Chance of that weapon hitting a character by 1 per Rank
+(minimum of 1).  Any character attempting to Strike a character who
+possesses a weapon that has this spell in effect over it, breaks his
+own weapon on a roll of 94--99 instead of 99.
+d477 1
+a477 1
+One mammal of the caster's choice is doubled in size.  The effects of
+d493 1
+a493 1
+trees) equal to the caster's Rank.  The plants may not uproot
+d496 1
+a496 1
+the caster so long as they maintains their concentration.  If his
+d498 2
+a499 2
+controlled by the GM until the caster reestablishes control and could,
+conceivably attack the caster.
+d514 1
+a514 1
+the caster does not have to concentrate on it to maintain it. The
+d533 5
+a537 5
+and Endurance of 15 (+ 5 / Rank) appears within 20 feet of the caster.
+The caster may automatically casts a Spell of Controlling Earth
+Elemental to see if they control the Elemental.  The Control spell is
+a separate spell and requires additional fatigue to cast, but does not
+require any preparation is cast in conjunction with this spell.
+d553 1
+a553 1
+establishing control over the Elemental, the caster maintains control
+d555 3
+a557 3
+a counterspell.  If they fail to gain control of the Elemental or
+gains control, but has their concentration broken, the Elemental will
+immediately attack them.  A caster cannot banish an Elemental they do
+d590 3
+a592 3
+high and with a 2 foot radius.  The caster increases any dimension by
+1 foot per Rank.  They may not attempt to cast the spell on top of a
+character.
+d607 1
+a607 1
+Same as for S-12 (Wall of Stone Spell) except that the caster creates
+d622 1
+a622 1
+The caster creates a circular opening or tunnel 10 feet in diameter
+d624 1
+a624 1
+face, etc. The caster may add 1 foot to either depth or radius per
+d643 1
+a643 1
+inflicted by acid or fire.  A character will not die from damage while
+d659 1
+a659 1
+The caster creates a pool of molten rock which wells up from
+d662 2
+a663 2
+5] + 1 / Rank.  If the character successfully resists, this damage is
+halved.
+d678 5
+a682 6
+caster's feet and travel toward a target(s) of the caster's choice.
+The number of javelins appearing is always 1 + 1 for every 2 (or
+fraction) Ranks of the spell.  The javelins have a Base Chance equal
+to the Base Chance of ordinary javelins of hitting their target + 3
+per Rank of the spell.  Each javelin does [D - 4] (+ 1 per every 2 or
+fraction Ranks) damage.
+d697 6
+a702 7
+This spell turns 3 cubic feet of stone into mud or vice versa.  The
+caster may add 1 cubic foot to this figure per Rank.  A character
+standing on a spot containing a mud puddle that is turned to stone has
+an opportunity to passively resist the effects of the spell. If they
+fail to resist, they will become trapped in the stone that has taken
+the place of the mud they were standing in.  If they resist, the mud
+turns to stone, but they is not trapped.
+d724 1
+a724 1
+consistency or instill intelligence in it at their option.  The Base
+d727 1
+a727 1
+sacrifice of a human (or humanoid) being is performed, at the end of
+d729 2
+a730 2
+it contains no life and blocks all magic effects, for example Hands of
+Earth, Wizard's Eye, Telepathy).
+@
+
+
+1.6
+log
+@Change to Earth version 1.2.  Hands still the Rank hands and no chance
+to break out etc.  Other changes done, such as Trollskin, Herbal Lore,
+Traps and Snares, Summoning Animals.  Bound Earth, permancy changed.
+@
+text
+@d119 1
+a119 1
+include avians of fish and has to be recast for each type of animal,
+d386 12
+a397 7
+The spell causes Rank (minimum 1) hands of stone to materialise out of
+the ground within range.  Each hand is 7 feet tall.  They may clutch
+anything in their grasp immediately after casting, but become
+stationary after that (that is they only try at clutch something
+once).  Any entity standing on a spot where a hand materialises will
+be snatched up if they fail to resist, otherwise the hand appears next
+to them within the hex.
+d535 2
+a536 2
+a seperate spell and requires additional fatigue to cast, but does not
+require any preparation is cast in conjuction with this spell.
+d710 1
+a710 1
+\emph{Range:} 10 feet + 10 / Rank
+d729 1
+a729 1
+the duration, the affected earth becomes permanantly bound (that is,
+@
+
+
+1.5
+log
+@Minor changes
+@
+text
+@d1 1
+a1 1
+\section{The College of Earth Magics (Ver 1.1)}
+d5 2
+d83 1
+a83 1
+the modifiers listed in ~ref{magic:modifiers}.
+d145 1
+a145 1
+\emph{Resist:} May be actively and passively resisted \\
+d241 2
+a242 2
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Storage:} \\
+d254 2
+a255 2
+\emph{Range: } 20 feet + 5 / Rank \\
+\emph{Duration:} Immediate \\
+d259 2
+a260 2
+\emph{Storage:} \\
+\emph{Target:} \\
+d263 2
+a264 2
+This spell reduces the Base Chance of being trapped or ambushed while
+out doors by 10 (+ 1 / Rank).
+d304 2
+a305 2
+\emph{Range:} May be cast over self only \\
+\emph{Duration:} Immediate \\
+d309 1
+a309 1
+\emph{Storage:} Potion \\
+d313 4
+a316 2
+The spell gives the caster the ability to recognise herbs of magical
+significance growing wild.
+d321 1
+a321 1
+\emph{Range:} May be cast over self only \\
+d324 1
+a324 1
+\emph{Base Chance:} 15 \\
+d326 1
+a326 1
+\emph{Storage:} Potion \\
+d330 1
+a330 1
+The caster adds 10 (+2 / Rank) to his chance of Tracking while
+d340 1
+a340 1
+\emph{Base Change:} MA + Special \\
+d349 1
+a349 1
+If the Ritual Check is sucessful then a number of small animals appear
+d354 1
+a354 1
+the form of a shout or call), the Base Chance is increased by 25.
+d366 2
+a367 2
+\emph{Storage:} \\
+\emph{Target:} \\
+d382 2
+d386 7
+a392 7
+The spell causes a number of hands of stone equal to the Rank of the
+caster to materialise out of the ground within range.  Each hand is 7
+feet tall.  Once they appear, they remain stationary.  They may clutch
+anything in their grasp, but may not move from the spot on which they
+surfaced.  A character standing on a spot where a hand materialises
+will be snatched up and will be unable to move until the spell
+dissipates.
+d407 2
+a408 2
+(caster's choice) increased by Rank points.  The spell may not be cast
+over oneself.
+d418 2
+a419 2
+\emph{Storage:} \\
+\emph{Target:} \\
+d452 1
+a452 1
+\emph{Storage:}  \\
+d465 4
+a468 4
+\emph{Base Chance:} 15 \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Storage:} \\
+\emph{Target:} \\
+d502 3
+a504 3
+\emph{Resist:} May be actively \& passively resisted. \\
+\emph{Storage:} \\
+\emph{Target:} \\
+d514 1
+a514 1
+\subsubsection{Spell of Conjuring and Controlling Earth Elemental (S-10)}
+d518 3
+a520 3
+\emph{Duration:} Concentration: No maximum \\
+\emph{Experience Multiple:} 225 for each portion of the spell \\
+\emph{Base Chance:} 25\% / 20\% \\
+d522 21
+a542 2
+\emph{Storage:} \\
+\emph{Target:} \\
+d545 6
+a550 12
+This is a two-part spell.  Each part of the spell is learned, ranked
+and recorded separately, but there is a single procedure and a single
+Fatigue cost to cast the spell.  The caster has a BC of 25\% of
+successfully casting the first part of the spell.  If successful, an
+Earth Elemental with a combined Fatigue and Endurance of 15 (+ 5 /
+Rank) appears within 20 feet of the caster.  The caster must
+immediately make a second check with a Base Chance of 20\% to see if
+they control the Elemental.  If successful in establishing control
+over the Elemental, the caster maintains control until their
+concentration is broken or they banish the Elemental with a
+counterspell.  If they fail to gain control of the Elemental or gains
+control, but has their concentration broken, the Elemental will
+d554 1
+a554 1
+\subsubsection{Spell of Sinking Doom (S-11)}
+d562 2
+a563 2
+\emph{Storage:} \\
+\emph{Target:} \\
+d570 1
+a570 1
+\subsubsection{Wall of Stone Spell (S-12)}
+d578 2
+a579 2
+\emph{Storage:} \\
+\emph{Target:} \\
+d588 1
+a588 1
+\subsubsection{Wall of Iron Spell (S-13)}
+d597 2
+a598 2
+\emph{Storage:} \\
+\emph{Target:} \\
+d604 1
+a604 1
+\subsubsection{Spell of Tunnelling (S-14)}
+d612 2
+a613 2
+\emph{Storage:} \\
+\emph{Target:} \\
+d621 1
+a621 1
+\subsubsection{Trollskin Spell (S-15)}
+d625 1
+a625 1
+\emph{Duration:} 60 seconds + 5 / Rank \\
+d633 6
+a638 7
+The spell allows the subject to regenerate Endurance Points removed as
+a result of damage incurred in combat.  The target begins to
+regenerate 30 seconds after a wound is inflicted and continues to
+regenerate at the rate of 1 Endurance Point per pulse for the duration
+of the spell.  The spell will not help regenerate wounds inflicted by
+acid or fire.  A character will not die from damage while under the
+effects of a trollskin, even if they are below negative half
+d641 1
+a641 1
+\subsubsection{Spell of Smoking Magma (S-16)}
+d659 1
+a659 2
+
+\subsubsection{Spell of Diamond Javelins (S-17)}
+d680 1
+a680 1
+\subsubsection{Spell of Earth Transformation (S-18)}
+d706 1
+a706 1
+\emph{Duration:} 1 hour + 1 / Rank \\
+d708 1
+a708 1
+\emph{Base Change:} 10\% \\
+d717 10
+a726 10
+This ritual takes one hour to perform and involves the ritual
+sacrifice of a human (or humanoid) being.  If the is ritual
+successful, the Adept gains complete control over a 500 pound weight
+of earth and stone (plus an additional 500 pound weight per Rank).
+They can shape or move the earth, change its consistency or instill
+intelligence in it at their option.  The Base Chance to successfully
+employ this ritual is 10\%.  It can affect any earth or stone within
+10 feet (+ 10 / Rank) of the Adept.  It cannot be resisted.  Once cast,
+it lasts for 1 hour (+ 1 / Rank) or until the Adept's concentration is
+broken.
+@
+
+
+1.4
+log
+@Fix up hands and change tracking back to duration days
+@
+text
+@d1 1
+a1 1
+\section{The College of Earth Magics (Ver 1.2)}
+a4 2
+\textbf{Ross Alexander -- April 1995}
+
+d239 2
+a240 2
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} None \\
+d252 2
+a253 2
+\emph{Range:} 20 feet + 5 / Rank \\
+\emph{Duration:} 1 hour + 1 / Rank \\
+d257 2
+a258 2
+\emph{Storage:} Potion, Investment \\
+\emph{Target:} Self \\
+d261 2
+a262 2
+This spell increased the Base Chance of detecting traps or ambushes
+while out doors by 10 (+ 1 / Rank).
+d302 2
+a303 2
+\emph{Range:} Self \\
+\emph{Duration:} 1 hour + 1 / Rank \\
+d307 1
+a307 1
+\emph{Storage:} Potion, Investment \\
+d311 2
+a312 3
+This gives the target Rank 0 Herbalist for the duration of the spell.
+It also increases their chance of find herbs (as per the Herbalist
+skill) by 2 + 2 / Rank.
+d317 1
+a317 1
+\emph{Range:} Self \\
+d320 1
+a320 1
+\emph{Base Chance:} 25\% \\
+d322 1
+a322 1
+\emph{Storage:} Potion, Investment \\
+d326 1
+a326 1
+The caster adds 10 (+ 2 / Rank) to his chance of Tracking while
+d336 1
+a336 1
+\emph{Base Change:} MA + 3\% / Rank + Special \\
+d345 1
+a345 1
+If the Ritual Check is successful then a number of small animals appear
+d362 2
+a363 2
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity \\
+d374 1
+a374 1
+\emph{Duration:} 10 minutes + 10 / Rank \\
+a377 2
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity, Area \\
+d380 7
+a386 10
+The spell causes a 1 + (Rank / 2) hands of stone to materialise out of
+the ground within range.  Each hand is 7 feet tall.  They may clutch
+anything in their grasp immediately after casting, but become
+stationary after that (that is they only try at clutch something
+once).  Any entity standing on a spot where a hand materialises will
+be snatched up if they fail to resist, otherwise the hand appears next
+to them within the hex.  Any entity caught will keep their upper body
+free if they roll under 2 \x AG.  Entities (or combination of
+entities) with a PS over 15 + Rank / 2 may attempt a 1 \x PS to escape
+from the Hands per pulse after the first.
+d412 2
+a413 2
+\emph{Storage:} Investment, Potion \\
+\emph{Target:} Entity \\
+d446 1
+a446 1
+\emph{Storage:} Investment \\
+d459 1
+a459 1
+\emph{Base Chance:} 15\% \\
+d461 2
+a462 2
+\emph{Storage:} Investment, Ward \\
+\emph{Target:} Animal \\
+d497 2
+a498 2
+\emph{Storage:} Investment, Ward \\
+\emph{Target:} Animal \\
+d516 2
+a517 2
+\emph{Storage:} Investment, Ward \\
+\emph{Target:} Earth Elemental \\
+d543 2
+a544 2
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity \\
+d559 2
+a560 2
+\emph{Storage:} Investment, Ward \\
+\emph{Target:} Area \\
+d578 2
+a579 2
+\emph{Storage:} Investment, Ward \\
+\emph{Target:} Area \\
+d593 2
+a594 2
+\emph{Storage:} Investment, Ward \\
+\emph{Target:} Area \\
+d606 1
+a606 1
+\emph{Duration:} 30 seconds + 5 / Rank \\
+d614 7
+a620 6
+The spell allows the subject to regenerate Endurance Points.  The
+target begins to regenerate the pulse after the spell is cast and
+continues to regenerate at the rate of 1 Endurance Point per pulse for
+the duration of the spell.  The spell will not help regenerate wounds
+inflicted by acid or fire.  A character will not die from damage while
+under the effects of a trollskin, even if they are below negative half
+d700 1
+a700 1
+This ritual takes one hour to perform and involves tile ritual
+@
+
+
+1.3
+log
+@Ross's changes to hands, trollskin
+@
+text
+@d5 2
+d254 1
+a254 1
+\emph{Range: } 20 feet + 5 / Rank \\
+d260 1
+a260 1
+\emph{Target:} Entity \\
+d321 1
+a321 1
+\emph{Duration:} 1 hour + 1 / Rank \\
+d329 1
+a329 1
+The caster adds 10 (+2 / Rank) to his chance of Tracking while
+d348 1
+a348 1
+If the Ritual Check is sucessful then a number of small animals appear
+d385 10
+a394 11
+The spell causes a Rank number of hands of stone to materialise out of
+the ground within range.  Each hand is 7 feet tall and must be
+adjacent to each other.  They may clutch anything in their grasp
+immediately after casting, but become stationary after that (that is
+they only try at clutch something once).  Any entity standing on a
+spot where a hand materialises will be snatched up if they fail to
+resist, otherwise the hand appears next to them within the hex.  Any
+entity caught will keep their upper body free if they roll under 2 \x
+AG.  Entities (or combination of entities) with a PS over 15 + Rank /
+2 may attempt a 1 \x PS to escape from the Hands per pulse after the
+first.
+@
+
+
+1.2
+log
+@Just syntax changes
+@
+text
+@d1 1
+a1 1
+\section{The College of Earth Magics (Ver 1.1)}
+d239 2
+a240 2
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Storage:} \\
+d253 1
+a253 1
+\emph{Duration:} Immediate \\
+d257 2
+a258 2
+\emph{Storage:} \\
+\emph{Target:} \\
+d261 2
+a262 2
+This spell reduces the Base Chance of being trapped or ambushed while
+out doors by 10 (+ 1 / Rank).
+d302 2
+a303 2
+\emph{Range:} May be cast over self only \\
+\emph{Duration:} Immediate \\
+d307 1
+a307 1
+\emph{Storage:} Potion \\
+d311 3
+a313 2
+The spell gives the caster the ability to recognise herbs of magical
+significance growing wild.
+d318 2
+a319 2
+\emph{Range:} May be cast over self only \\
+\emph{Duration:} 1 day + 1 / Rank \\
+d321 1
+a321 1
+\emph{Base Chance:} 15 \\
+d323 1
+a323 1
+\emph{Storage:} Potion \\
+d337 1
+a337 1
+\emph{Base Change:} MA + Special \\
+d363 2
+a364 2
+\emph{Storage:} \\
+\emph{Target:} \\
+d375 1
+a375 1
+\emph{Duration:} 1 hour + 1 / Rank \\
+d379 2
+d383 11
+a393 7
+The spell causes a number of hands of stone equal to the Rank of the
+caster to materialise out of the ground within range.  Each hand is 7
+feet tall.  Once they appear, they remain stationary.  They may clutch
+anything in their grasp, but may not move from the spot on which they
+surfaced.  A character standing on a spot where a hand materialises
+will be snatched up and will be unable to move until the spell
+dissipates.
+d419 2
+a420 2
+\emph{Storage:} \\
+\emph{Target:} \\
+d453 1
+a453 1
+\emph{Storage:}  \\
+d466 1
+a466 1
+\emph{Base Chance:} 15 \\
+d468 2
+a469 2
+\emph{Storage:} \\
+\emph{Target:} \\
+d504 2
+a505 2
+\emph{Storage:} \\
+\emph{Target:} \\
+d523 2
+a524 2
+\emph{Storage:} \\
+\emph{Target:} \\
+d550 2
+a551 2
+\emph{Storage:} \\
+\emph{Target:} \\
+d566 2
+a567 2
+\emph{Storage:} \\
+\emph{Target:} \\
+d585 2
+a586 2
+\emph{Storage:} \\
+\emph{Target:} \\
+d600 2
+a601 2
+\emph{Storage:} \\
+\emph{Target:} \\
+d613 1
+a613 1
+\emph{Duration:} 60 seconds + 5 / Rank \\
+d621 6
+a626 7
+The spell allows the subject to regenerate Endurance Points removed as
+a result of damage incurred in combat.  The target begins to
+regenerate 30 seconds after a wound is inflicted and continues to
+regenerate at the rate of 1 Endurance Point per pulse for the duration
+of the spell.  The spell will not help regenerate wounds inflicted by
+acid or fire.  A character will not die from damage while under the
+effects of a trollskin, even if they are below negative half
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 1
+a1 1
+\section{The College of Earth Magics}
+d25 1
+a25 1
+never attack without provocation (i.e., unless attacked themself or
+d28 1
+a28 1
+attempting to work the magic of their College.  In addition,the
+d31 1
+a31 2
+participate in rituals of this College which involve human
+sacrifice.
+d43 4
+a46 2
+Practitioners of the College of Earth Magics must always be in contact
+with the earth to perform magic of this College.
+d52 2
+a53 2
+could not touch bottom, or if he were atop a piece of furnature or an
+animal since they are not rooted in ttie ground.  An Adept in a man's
+d56 1
+d58 1
+a58 1
+\subsection{Base Chance Modefiers}
+d74 2
+a75 2
+\ddag These can be any places frequented by worshipers of earth.
+Examples from mythlology and literature might include: Stonehenge,
+d105 1
+a105 1
+\emph{Duration:} 3 hours \x rank (\x 1 if Rank 0).\\
+d109 1
+a109 1
+\emph{Storage:} \\
+d114 1
+a114 1
+symbolically, and to what extent, are left up to the GM's descretion).
+d117 1
+a117 1
+include aviens of fish and has to be recast for each type of animal,
+d125 1
+a125 1
+\emph{Duration:} Concentration: 3 hours \x Rank (\x 1 if Rank unranked). \\
+d129 1
+a129 1
+\emph{Storage:} \\
+d144 2
+a145 2
+\emph{Storage:} \\
+\emph{Target:} \\
+d154 1
+a154 1
+Spell of Converse With Aninials may be used in conjunction with this
+d160 2
+a161 2
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:}	1 hour + 1 / Rank \\
+d200 1
+a200 1
+\emph{Range:} 15 feet + 15 / Rank \\
+d220 1
+a220 1
+may or may not be noticed depending on the lighting etc - even if
+d223 1
+a223 1
+noticed even if another entity is looking directly at him/her. lt
+d256 1
+a256 1
+\emph{Resist:} May no be resisted \\
+d271 1
+a271 1
+\emph{Resist:} May no be resisted \\
+d285 1
+a285 1
+\emph{Duration:} Ranks 1--10 = a fortnight ; Ranks 11--19 = 3 months ; Rank 20 permanant until dispelled \\
+d297 1
+a297 1
+involved.  Note: This spell cannot be cast over oneself.
+d306 1
+a306 1
+\emph{Resist:} May no be resisted \\
+d311 1
+a311 1
+The spell gives the caster the ability to recognize herbs of magical
+d321 1
+a321 1
+\emph{Resist:} May no be resisted \\
+d345 6
+a350 8
+At the end of the ritual, the Adept's player rolls D100.  If the
+resulting number is equal to or less than the Adept's Magical
+Aptitude, then a number of small animals appear equal to the Adept's
+Rank (1 if the Adept has no Rank with the ritual).  The animal the
+Adept attempts to summon must be a native of the area.  If the Adept
+chooses to vocalize his summons (assuming they are not attempting to
+go undetected since the vocalization must be in the form of a shout or
+call), the Base Chance is increased by 25.
+d368 1
+a368 1
+spell, it takes [D - 5] (+1 / Rank) damage.
+d381 1
+a381 1
+caster to materialize out of the ground within range.  Each hand is 7
+d384 1
+a384 1
+surfaced.  A character standing on a spot where a hand materializes
+d404 1
+a404 1
+\subsubsection{Armor of Earth Spell (S-4)}
+d417 2
+a418 3
+hitting that individual with any physical weapon by 2 for each Rank
+the caster has achieved with the spell.  At Rank 11 and above, it also
+absorbs 1 Damage Point per Strike.
+d445 1
+a445 1
+\emph{Resist:} May noy be resisted \\
+d515 1
+a515 1
+\emph{Resist:} May no be resisted \\
+d524 1
+a524 1
+Earth Elemental with a combined Fatigue and Endurance of 15 (+5 /
+d558 1
+a558 1
+\emph{Resist:} May no be resisted \\
+d577 1
+a577 1
+\emph{Resist:} May no be resisted \\
+d585 1
+a585 1
+\subsubsection{Spell of Tunneling (S-14)}
+d609 1
+a609 1
+\emph{Resist:} May no be resisted \\
+d620 2
+a621 1
+effects of a trollskin, even if they below negative half Endurance.
+d649 1
+a649 1
+\emph{Resist:} May no be resisted \\
+d659 1
+a659 1
+per Rank of the spell.  Each javelin does [D - 4] ( +1 per every 2 or
+d677 1
+a677 1
+standing on a spot containing a mudpuddle that is turned to stone has
+@

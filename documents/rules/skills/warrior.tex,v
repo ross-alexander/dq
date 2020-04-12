@@ -1,0 +1,850 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL30:3.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.4;
+locks
+	ralexand:5.11; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.06.04.05.38.15;	author rossa;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	98.06.04.05.35.10;	author rossa;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	98.05.11.02.03.48;	author rossa;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	98.05.11.01.21.24;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	97.07.24.02.43.13;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	96.02.23.02.20.42;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	96.01.12.02.16.39;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	95.06.03.05.11.50;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.04.07.05.08.49;	author rale01;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.04.06.04.31.26;	author rale01;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{skill*}{Warrior}{2.0}{warrior}
+
+Warriors practice the art of melee combat until it becomes a series of
+finely honed instincts.  They practise on all terrains with all types
+of weapons against different configurations and tactics, so that they
+may always respond optimally with the need for thought.  Unlike most
+professions that impart knowledge through practise and theory, the
+warrior skill is all about practise for its own sake.
+
+The discipline and training regime associated with warrior training is
+often liked to ethical codes such as chivalry, and training is often
+only available after indoctrination to a code.  This is unsurprising,
+as a warrior gains no advantage unless facing an active opponent.
+While there is no reason why a warrior should not also be an assassin,
+as a warrior becomes more skilled, their training and instincts will
+push them towards fair combat.
+
+\subsection{Restrictions}
+
+\subsubsection{Benefits only apply when the warrior is occupying an
+enemy's melee zone.}
+
+\subsubsection{A warrior may never train in the warrior skill without a
+training partner of at least equal warrior Rank.}
+
+A warrior needs a training partner of at least their current skill
+level in order to practice combat, they cannot practice on their own.
+
+\subsubsection{A warrior requires various minimum weapons skills per Rank.}
+
+Before being able to achieve any new Rank in the warrior skill, a
+character must first have achieved a certain standard of weapon
+proficiency, with a variety of weapons.  Firstly a warrior must have
+at least Rank 4 with a weapon rated for close combat.  Secondly a
+warrior must achieve the Ranks summarised in the attached table.
+
+\subsection{Benefits}
+
+\subsubsection{A warrior gains a bonus to defence when facing an
+opponent wielding a weapon they are familiar with.}
+
+When facing a weapon, which is from a category in which the warrior
+has Ranks, the warrior gains a bonus to their defence of either (2 +
+4\% per Rank of the highest Ranked weapon the warrior has in the
+category) or (2 + 2\% per warrior Rank), whichever is lower.
+
+\subsubsection{A warrior gains + 1 / Rank to their engaged initiative.}
+
+No bonus is gained at Rank 0.
+
+\subsubsection{A warrior has the ability to wield weapons which are
+similar to other weapons with which they is familiar.}
+
+A warrior may use any weapon from a category in which they have Ranks
+at half the Rank of their maximum Ranked weapon in that category or at
+half their warrior Rank, whichever is lower.
+
+\subsubsection{A warrior gains the ability to Rank weapons without the
+need for a tutor.}
+
+A warrior is able to Rank a weapon without a tutor from a category in
+which they already have Ranked weapons, for an additional 10\% EP
+cost, as long as the Rank they are attaining is not greater than their
+highest Ranked weapon in that category.  When attempting to attain
+higher Ranks or Rank with a weapon from a category in which they do
+not have Ranks in, a warrior must expend 25\% more experience to Rank
+a weapon without a tutor.
+
+\subsubsection{A warrior's base chance to hit is increased by 1\% + 1\%
+additional per Rank.}
+
+A warrior also inflicts an extra point of damage at Ranks 5 \& 10, and
+gains a bonus of +1 at Ranks 4 \& 8 to the parry calculation.
+
+\subsubsection{A warrior becomes an expert in combat equipment.}
+
+A warrior is treated as a merchant of their warrior Rank when
+attempting to buy or value non-magical weapons (including shields),
+with which they are familiar. If they have a passing familiarity with
+the weapon (\ie has Ranks in the same category but not the actual
+weapon) they will act as a merchant of half their warrior Rank.  If
+they are completely unfamiliar with the equipment they may not use
+this ability.
+\end{skill*}
+
+\begin{table*}[h]
+\begin{minipage}{\linewidth}
+\begin{multicols}{4}
+\subsection{Weapon categories}
+
+\textbf{Note:} These definitions only apply to the warrior skill, not
+combat in general.
+
+\begin{Enumerate}
+\item Shortswords
+\begin{Itemize}
+\item Dagger
+\item Main Gauche
+\item Shortsword
+\item Sai
+\end{Itemize}
+
+\item Single Edged
+\begin{Itemize}
+\item Tulwar
+\item Falchion
+\item Scimitar
+\item Sabre
+\end{Itemize}
+
+\item Double Edged
+\begin{Itemize}
+\item Hand \& a half
+\item Two-Handed Sword
+\item Claymore
+\item Broadsword
+\end{Itemize}
+
+\item A Class Swords
+\begin{Itemize}
+\item Rapier
+\item Estoc
+\end{Itemize}
+                   
+\item Oriental Swords          
+\begin{Itemize}
+\item Katana/Wakizashi
+\item O-Dachi
+\item Ninjato
+\end{Itemize}
+
+\item Axes
+\begin{Itemize}
+\item Hand Axe
+\item Battle  Axe
+\item  Great  Axe
+\end{Itemize}
+
+\item Blunt
+\begin{Itemize}
+\item War Club
+\item Mace
+\item War Hammer
+\item  War   Pick
+\item Mattock
+\end{Itemize}
+
+\item Entangling / Chain
+\begin{Itemize}
+\item  Flail
+\item Morningstar
+\item Bola
+\item Net
+\item Manriki Kusari
+\item Nunchaku
+\end{Itemize}
+
+\item A Class Pole
+\begin{Itemize}
+\item Javelin                              
+\item Spear
+\item Pike
+\item Lance
+\item Trident
+\end{Itemize}
+
+\item  B Class Pole
+\begin{Itemize}
+\item Halberd                   
+\item Poleaxe
+\item Glaive
+\item Quarterstaff
+\end{Itemize}
+
+\item Unarmed
+\begin{Itemize}
+\item Unarmed
+\item Cestus
+\end{Itemize}
+
+\item Shield
+\begin{Itemize}
+\item Tower
+\item Kite
+\item Large Round
+\item Small Round
+\item Buckler
+\end{Itemize}
+\end{Enumerate}
+
+\end{multicols}
+\end{minipage}
+\end{table*}
+
+\begin{table*}[h]
+\begin{center}
+\begin{tabular}{|l|c|c|c|c|c|c|} \hline
+Warrior	& No.		& Minimum& No. Weapons & No. Weapons & No. Weapons & No. Weapons \\
+Rank	& Categories	& Rank	&  $\geq$ Rank 4 & $\geq$ Rank 5 & $\geq$ Rank 6 & $\geq$ Rank 7 \\ \hline
+0	& 4		& 0	& 1	& 	& 	& \\
+1	& 4		& 1	&	& 1	& 	& \\
+2	& 7		& 1	& 	& 1	& 	& \\
+3	& 4		& 2	&	& 2	&	& \\
+4	& 7		& 2	&	& 2	&	& \\
+5	& 4		& 3	&	&	& 1	& \\
+6	& 7		& 3	&	&	& 2	& \\
+7	& 4		& 4	&	&	&	& 1 \\
+8	& 7		& 4	& 	&	& 	& 2 \\
+9	& 4		& 5	&	&	&	& 3 \\
+10	& 7		& 5	&	&	&	& 4 \\ \hline
+\end{tabular}
+\end{center}
+\caption{Ranking Requirements}
+\end{table*}
+\newpage
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 1
+a1 2
+\section{Warrior (Ver 2.0)}
+\label{warrior}
+d3 14
+a16 74
+\index{warrior|(}
+\index{skills!warrior|(}
+A warrior is one who learns the art of combat. The skill is not so
+much concerned with weapon skills as with combat skills. As such
+weapons not used in melee combat (\eg bows) and uses of weapons
+that are not melee oriented (\eg throwing weapons or attacking
+from behind or close combat, although it is expected that a warrior
+will have some skill in close and ranged combat) receive no bonus
+from this skill.  To understand the warrior skill it is important to
+realize that unlike other skills where advancement is dependent
+equally on knowledge and practice, for a warrior advancement must
+revolve around practice primarily and knowledge of special moves and
+tactics is less important.  Thus a warrior does not necessarily know
+more about combat than another fighter, but is more practiced at all
+the possible variations on combat.
+
+The advantages a warrior receives in melee combat accrue because of
+their experience in combat both against and with all types of
+weapons. They train on all terrains and in all combinations (\eg one
+on one, one on two, two on one etc.) and in the process learn the
+advantages and disadvantages of each weapon and each combat situation.
+
+More importantly, because the warrior spends so much of their time
+training in weapons and in combat, the individual weapon skills become
+more than a set of well learned thrusts, cuts, parries, and ripostes --
+they become reactions. Thus a warrior no longer decides their action
+whether it be right or wrong, they react, and because of their
+training their reactions are the best possible given the weapon they
+are using, the weapon they are facing, and the situation they are
+in.
+
+Obviously the skill teaches more than just the appropriate reactions;
+a warrior will become able to choose the best weapon and tactics for
+any given engagement, they will be able to make the best use of the
+terrain, and the other relevant factors to improve their chances of
+success. But ultimately once the preliminary decisions have been made,
+when weapon meets weapon it is their trained reactions that give the
+warrior the real advantage in combat.
+
+As a result of the dedication to training required to become a warrior
+the skill has become associated with other codes of conduct, such as
+chivalry and honourable combat, which may govern a warrior's whole
+outlook on life.  But as should be clear it is not necessary to have a
+code of ethics to be a warrior, the skill is a result of training,
+although it may prove difficult to be trained without being
+indoctrinated by the teacher, and as such many warriors will come out
+of training with a specific code of ethics.  Equally obvious should be
+the fact that there is no specific reason why a warrior cannot become
+an assassin or an assassin become a warrior.  Of course many warriors
+will be trained to abhor assassins and assassination. The warrior
+skill will give no advantage to situations where the attack is more
+akin to assassination than combat.
+
+Nevertheless some of the results of the training could easily be
+confused with an ethical code, and this is perhaps why the warrior
+skill is often considered part of an honourable or chivalric code. To
+explain this, it is necessary to look at how the warrior trains.  They
+spend most of their time in combat --- not deadly combat, but
+practice.  This is when they learn how to use their knowledge of
+combat and tactics. The purpose of this combat is to practice the
+skill of combat; thus once an opponent is defeated the combat is over
+and a new one begins.  In short the warrior's natural instincts in
+combat are to defeat the opponent, not necessarily kill them.
+
+The natural result of this kind of training is that a warrior gains no
+advantages when his opponent cannot reply (due to surprise, stunning,
+disarming, always remembering unarmed combat as a legitimate weapon,
+etc.). This is an interactive skill; to gain their bonuses a warrior
+needs an active opponent. As is obvious from the above the warrior
+loses all their skill bonuses if they attack an opponent who cannot
+reply; they simply have not trained for such a situation (that's an
+executioner's or assassin's job).  While such an attack may be in
+character, as the warrior becomes more skilled their instincts will
+push them towards ``fair'' combat (not to mention their ego).
+d20 2
+a21 2
+\subsubsection{The warrior skill only operates when the warrior is engaged; this
+is when they are occupying an opponent's melee zone.}
+a36 10
+Note to find the requirements for any given Rank find the Rank in the
+first column and read across the row noting requirements in each
+column. Thus to achieve a given Rank a warrior must have at least one
+weapon of the minimum Rank (given in the minimum Rank column) in at
+least as many categories as given in the no. categories column
+(categories refers to the weapon categories assigned in the attached
+list of weapons).  In addition the warrior must have weapons of higher
+Rank as noted in the other columns.
+
+
+d47 1
+a47 1
+\subsubsection{A warrior gains a bonus to their engaged initiative.}
+d49 1
+a49 2
+The bonus to engaged initiative is 1 additional point at Ranks 1, 3,
+5, 6, 7, 8, 9 \& 10.
+d84 1
+d86 1
+a86 1
+\begin{table*}
+d88 1
+a88 1
+\begin{multicols}{3}
+d195 1
+a195 1
+\begin{table*}
+d215 1
+a215 3
+
+\index{warrior|)}
+\index{skills!warrior|)}
+@
+
+
+3.0
+log
+@REL30
+@
+text
+@@
+
+
+2.4
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+2.3
+log
+@Fix e.g. problem
+@
+text
+@d165 1
+a165 2
+\begin{enumerate}
+\setlength\itemsep{0pt}
+d167 1
+a167 2
+\begin{itemize}
+\setlength\itemsep{0pt}
+d172 1
+a172 1
+\end{itemize}
+d175 1
+a175 2
+\begin{itemize}
+\setlength\itemsep{0pt}
+d180 1
+a180 1
+\end{itemize}
+d183 1
+a183 2
+\begin{itemize}
+\setlength\itemsep{0pt}
+d188 1
+a188 1
+\end{itemize}
+d191 1
+a191 2
+\begin{itemize}
+\setlength\itemsep{0pt}
+d194 1
+a194 1
+\end{itemize}
+d197 1
+a197 2
+\begin{itemize}
+\setlength\itemsep{0pt}
+d201 1
+a201 1
+\end{itemize}
+d204 1
+a204 2
+\setlength\itemsep{0pt}
+\begin{itemize}
+d208 1
+a208 1
+\end{itemize}
+d211 1
+a211 2
+\begin{itemize}
+\setlength\itemsep{0pt}
+d217 1
+a217 1
+\end{itemize}
+d220 1
+a220 2
+\begin{itemize}
+\setlength\itemsep{0pt}
+d227 1
+a227 1
+\end{itemize}
+d230 1
+a230 2
+\begin{itemize}
+\setlength\itemsep{0pt}
+d236 1
+a236 1
+\end{itemize}
+d239 1
+a239 2
+\begin{itemize}
+\setlength\itemsep{0pt}
+d244 1
+a244 1
+\end{itemize}
+d247 1
+a247 2
+\begin{itemize}
+\setlength\itemsep{0pt}
+d250 1
+a250 1
+\end{itemize}
+d253 1
+a253 2
+\begin{itemize}
+\setlength\itemsep{0pt}
+d259 2
+a260 2
+\end{itemize}
+\end{enumerate}
+@
+
+
+2.2
+log
+@Check in before modifying e.g. and i.e.
+@
+text
+@d8 2
+a9 2
+weapons not used in melee combat (e.g.\ bows) and uses of weapons
+that are not melee oriented (e.g.\ throwing weapons or attacking
+d22 1
+a22 1
+weapons. They train on all terrains and in all combinations (e.g.\ one
+d152 1
+a152 1
+the weapon (i.e.\ has Ranks in the same category but not the actual
+@
+
+
+2.1
+log
+@Minor change from Keith Smith.
+@
+text
+@d4 2
+a5 2
+\begin{multicols}{3}
+
+d8 2
+a9 2
+weapons not used in melee combat (eg.  bows) and uses of weapons
+that are not melee oriented (eg.  throwing weapons or attacking
+d22 1
+a22 1
+weapons. They train on all terrains and in all combinations (e.g., one
+d152 1
+a152 1
+the weapon (ie. has Ranks in the same category but not the actual
+d157 3
+d276 2
+d299 3
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d28 1
+a28 1
+more than a set of well learned thrusts, cuts, paries, and ripostes --
+@
+
+
+1.5
+log
+@\textbf{Mark  Harrison \& Bart Janssen} removed from start of skill.
+@
+text
+@@
+
+
+1.4
+log
+@Release 1.0 snapshot
+@
+text
+@d2 2
+a4 2
+
+\noindent \textbf{Mark  Harrison \& Bart Janssen}
+@
+
+
+1.3
+log
+@Change Weapon categories for ... to Weapon categories.
+@
+text
+@d21 13
+a33 13
+his experience in combat both against and with all types of
+weapons. He trains on all terrains and in all combinations (eg one on
+one, one on two, two on one etc.) arid in the process learns the
+advantages and disadvantages of each weapon and each combat
+situation.
+
+More importantly because the warrior spends so much of his time
+training in weapons and in combat the individual weapon skills become
+more than a set of well learned thrusts, cuts, paries, and ripostes
+they become reactions. Thus a warrior no longer decides his action
+whether it be right or wrong, he reacts, and because of his training
+his reactions are the best possible given the weapon he is using, to
+the weapon he is facing, and the situation he is in.
+d35 1
+a35 1
+Obviously the skill teaches more than just the appropriate reactions,
+d37 2
+a38 2
+any given engagement, he will be able to make the best use of the
+terrain, and the other relevant factors to improve his chances of
+d40 1
+a40 1
+when weapon meets weapon it is his trained reactions that give the
+d45 1
+a45 1
+chivalry and honourable combat, which may govern a warriors whole
+d47 2
+a48 2
+code of ethics to be a warrior, the skill is a result of training.
+Although it may prove difficult to be trained without being
+d60 7
+a66 7
+explain this, it is necessary to look at how the warrior trains, he
+spends most of his time in combat, not deadly combat, this is
+practice.  This is when he learns how to use his knowledge of combat
+and tactics. The purpose of this combat is to practice the skill of
+combat, thus once an opponent is defeated the combat is over and a new
+one begins.  In short the warriors natural instincts in combat are to
+defeat the opponent, not necessarily killing him.
+d70 2
+a71 2
+disarming always remembering unarmed combat as a legitimate weapon,
+etc.). This is an interactive skill, to gain his bonuses a warrior
+d73 5
+a77 5
+loses all his skill bonuses if he attacks an opponent who cannot
+reply, he simply has not trained for such a situation (that's an
+executioners or assassins job).  While such an attack may be in
+character, as the warrior becomes more skilled his instincts will push
+him towards ``fair'' combat (not to mention his ego).
+d81 2
+a82 2
+\subsubsection{The warrior skill only operates when the warrior is engaged, this
+is when he is occupying an opponents melee zone.}
+d85 1
+a85 1
+training partner of at least equal warrior rank.}
+d87 2
+a88 2
+A warrior needs a training partner of at least his current skill level
+in order to practice combat, he cannot practice on his own.
+d90 1
+a90 1
+\subsubsection{A warrior requirements various minimum weapons skills per rank}
+d92 1
+a92 1
+Before being able to achieve any new rank in the warrior skill , a
+d95 2
+a96 2
+at least rank 4 with a weapon rated for close combat.  Secondly a
+warrior must achieve the ranks summarised in the attached table.
+d98 1
+a98 1
+Note to find the requirements for any given rank find the rank in the
+d100 3
+a102 3
+column. Thus to achieve a given rank a warrior must have at least one
+weapon of the minimum rank (given in the minimum rank column) in at
+least as many categories as given in the no.  categories column
+d105 1
+a105 1
+rank as noted in the other columns.
+d111 1
+a111 1
+opponent wielding a weapon he is familiar with.}
+d114 3
+a116 3
+has ranks, the warrior gains a bonus to his defence of either; (2 + 4\%
+per Rank of the highest ranked weapon the warrior has in the category)
+or (2 + 2\% per warrior Rank), whichever is lower.
+d118 1
+a118 1
+\subsubsection{A warrior gains a bonus to his engaged initiative.}
+d120 2
+a121 2
+The bonus to engaged initiative is 1 additional point at ranks
+1,3,5,6,7,8,9 \& 10.
+d124 1
+a124 1
+similar to other weapons with which he is familiar.}
+d126 3
+a128 3
+A warrior may use any weapon from a category in which he has ranks at
+half the rank of his maximum ranked weapon in that category or at half
+his warrior rank, whichever is lower.
+d130 1
+a130 1
+\subsubsection{A warrior gains the ability to rank weapons with out the
+d133 7
+a139 7
+A warrior is able to rank a weapon without a tutor from a category in
+which he already has ranked weapons, for an additional 10\% EP cost, as
+long as the rank he is attaining is not greater than his highest
+ranked weapon in that category.  When attempting to attain higher
+ranks or rank with a weapon from a category in which he does not have
+ranks in, a warrior must expend 25\% more experience to rank a weapon
+without a tutor.
+d142 1
+a142 1
+additional per rank.}
+d144 2
+a145 2
+A warrior also inflicts an extra point of damage at ranks 5 \& 10, and
+gains a bonus of +1 at ranks 4 \& 8 to the parry calculation.
+d149 7
+a155 15
+A warrior is treated as a merchant of his warrior rank when attempting
+to buy or value non-magical weapons (including shields), with which he is
+familiar. If he is has a passing familiarity with the weapon (ie. has
+ranks in the same category but not the actual weapon) he will act as a
+merchant of half his warrior rank.  If he is completely unfamiliar
+with the equipment he may not use this ability.
+
+\subsubsection{A warrior must pay (50 + 50 \x Rank) Silver
+Pennies per year to maintain contacts with weaponsmiths and to pay for
+equipment maintenance.}
+
+The GM should allow a player to negotiate with PC \& NPC weaponsmiths
+to alter this sum, and should feel free to reduce the sum if the
+warrior is also a weaponsmith, and is willing to spend the time
+himself to maintain contacts etc.
+@
+
+
+1.2
+log
+@Corrections done form March printed version
+@
+text
+@d165 1
+a165 1
+\subsection{Weapon categories for the Warrior skill}
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d28 6
+a33 6
+training in Ins weapons and in combat the individual weapon skills
+become more than a set of well learned thrusts, cuts, paries, and
+ripostes they become reactions. Thus a warrior no longer decides his
+action whether it be right or wrong, he reacts, and because of his
+training his reactions are the best possible given the weapon he is
+using, the weapon he is facing, and the situation he is in.
+d167 3
+d177 1
+a177 1
+\item Short sword
+d193 1
+a193 1
+\item Hand \& a Half
+d274 2
+a275 2
+\item Lg Round
+\item Sm Round
+@

@@ -1,0 +1,2972 @@
+head	5.13;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.6;
+locks; strict;
+comment	@% @;
+
+
+5.13
+date	2003.05.16.14.27.30;	author ralexand;	state Exp;
+branches;
+next	5.12;
+
+5.12
+date	2003.05.16.14.27.04;	author ralexand;	state Exp;
+branches;
+next	5.11;
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.1;
+
+4.1
+date	2000.05.22.10.36.41;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	98.06.04.05.35.07;	author rossa;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	98.05.11.02.03.39;	author rossa;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	98.05.11.01.21.17;	author rossa;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	98.05.05.05.38.14;	author rossa;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	98.05.05.00.31.23;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.05.04.03.42.09;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	97.04.29.09.18.23;	author rossa;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	97.04.29.08.54.16;	author rossa;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	96.02.13.02.13.36;	author rossa;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	96.01.30.00.31.25;	author rossa;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	96.01.12.02.27.03;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	95.09.05.18.50.34;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	95.06.08.21.39.37;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	95.06.08.21.39.23;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.05.06.21.41.59;	author rale01;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.04.20.03.29.22;	author rale01;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.13
+log
+@Fix another typo.
+@
+text
+@\begin{college}[1.6]{mind}{Sorceries of the Mind}{MI}
+
+\textbf{This version of the College is probationary, and is under
+trial for two years (as of September 2001).  All characters that join
+this College do so under the understanding that if this version is
+deemed unplayable, it may be withdrawn or radically changed.  At that
+point, all such characters may revert to the previous version or have
+the EP and time spent in this College refunded, to be re-spent freely
+in another College as if that College had been their original choice.}
+
+\subsection{Introduction}
+
+The College of Sorceries of the Mind deals primarily with controlling
+or influencing the minds of others. Adepts of this College are
+variously known as Mind Mages, or Sorcerers. It is widely believed
+that Sorcerers can peer into the darkest nooks and crannies of the
+soul, and are near-universally feared.
+
+\textbf{Traditional Colours \& Symbols:} This college has no
+traditional colours or symbols as Sorcerers prefer to blend into
+society.
+
+\textbf{Restrictions:} Adepts of the College of Sorceries of the Mind
+may practice their arts without restriction.
+
+The Magical Aptitude requirement for becoming a member of this College
+is 11.
+
+\subsubsection{Modifications}
+
+The Base Chance of performing any talent, spell or ritual of the
+College of Sorceries of the Mind against a single entity target is
+affected by relative Willpower:
+
+\begin{inline}
+\begin{tabularx}{\linewidth}{Xr}
+For each point the Adept's Willpower is above the target's Willpower	& +1 \\
+For each point the Adept's Willpower is below the target's Willpower	& -2 \\
+\end{tabularx}
+\end{inline}
+
+\subsection{Talents}
+
+\begin{talent}[T-1]{Resist Pain}
+
+\range{Self}
+\multiple{300}
+\storage{Potion}
+\begin{effects}
+The Adept is largely immune to pain. They cannot be tortured or
+stunned by physical means. In addition, if there is a chance that
+their concentration may have been broken, 5 (+ 1 / Rank) is always
+added to their Concentration Check. No matter what the circumstances
+the Adept will always have a chance of maintaining concentration. Like
+all magic, this talent is affected by cold iron. However, for a weapon
+to affect the talent, the weapon must be made of cold iron, must have
+done endurance damage, and must remain in contact with the body. If
+cold iron is used in the torture of a mind mage, the Adept adds their
+concentration bonus to the base chance of resisting the torture
+attempt.
+\end{effects}
+\end{talent}
+
+\begin{talent}[T-2]{Resist Temperature}
+
+\range{Self}
+\multiple{250}
+\storage{Potion}
+\begin{effects}
+The Adept is immune to climatic extremes of temperature from arctic
+cold to desert heat whether generated naturally or by magic. They
+therefore do not suffer from exposure, frostbite, wind-chill, heat
+stress, hypothermia or hyperthermia, and their fatigue loss is
+unaffected by temperature. If the Adept is attacked by fire, ice, heat
+or cold (whether magical or not) then the damage points are reduced by
+1 + 1 per 5 full ranks.
+\end{effects}
+\end{talent}
+
+\begin{talent}[T-3]{Sense Danger}
+
+\basechance{PC + 3 / Rank}
+\multiple{300}
+\storage{Potion}
+\begin{effects}
+The Adept may sense the presence of a hazard to the Adept's life or
+wellbeing. Generally this may be interpreted as a ``bad feeling''
+about a person or an object, or a sense of foreboding about a
+situation.  This talent operates continuously and unconsciously. The
+Adept may also add 2 + 2 / Rank to the chance of detecting an ambush
+(see Ranger) and to the chance of detecting a trap (see Spy/Thief).
+\end{effects}
+\end{talent}
+
+\subsection{General Knowledge Spells}
+
+\begin{spell}[G-1]{Control Animal}
+
+\range{30 feet + 15 / Rank}
+\duration{Concentration: no maximum}
+\multiple{100}
+\basechance{40\%}
+\resist{Passive}
+\target{Non-sentient entity}
+\storage{Investment}
+\begin{effects}
+The Adept gains control over one non-sentient entity within
+range. Control is lost if the entity leaves the range but recommences
+if range is re-entered. The Adept does not receive any sensations from
+the animal. If the Adept releases the animal or their concentration is
+broken the animal may attack the Adept. The Adept controls the
+animal's mind and therefore need not know how to make a bird fly: the
+Adept commands the animal to do something and the animal knows how to
+do it. The animal will comply within the spirit of the command.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-2]{Control Person}
+
+\range{30 feet + 15 / Rank}
+\duration{Concentration: no maximum}
+\multiple{650}
+\basechance{30\%}
+\resist{Active, Passive}
+\storage{Investment}
+\target{Sentient Entity}
+\begin{effects}
+The Adept gains absolute control over every action of one sentient
+entity within range. The Adept does not receive any sensations from
+the target. The Adept does not need to know the target's language to
+control them. Control is lost if the target leaves the range but
+recommences if range is re-entered. They may control the physical
+activities of that target, and use the target's physical skills where
+known, but may not cause the target to cast spells.
+
+The Adept may not use their own skills through the target. The target
+always acts as if they were also affected by a Spell of Slowness (E\&E
+S-11) unless they choose not to resist the spell, or subsequently
+decide to co-operate with the Adept's commands. The spell continues in
+effect until the Adept's concentration is broken or the Adept chooses
+to release the target. The target is aware of the control, and
+although the target is unable to do anything about it at the time,
+they will remember being controlled. The Adept may force the target to
+act in direct opposition to the target's own wishes. Suicidal
+instructions however, grant the target another magic resistance which,
+if successful, dissipates the spell.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-3]{Empathy}
+
+\range{Touch until Rank 10}
+\duration{Immediate}
+\multiple{200}
+\basechance{20\%}
+\resist{None}
+\storage{Investment}
+\target{Entity}
+\begin{effects}
+The spell allows the Adept to feel the emotions and physical
+sensations which the target of the spell is currently experiencing. It
+also allows the Adept to absorb wounds from Endurance and Fatigue at a
+rate of 2 points cured for every 1 which the Adept agrees to subtract
+from their own Fatigue (never Endurance). The additional fatigue
+subtracted by the Adept is damage fatigue, not spell fatigue. This
+spell may not be used to regenerate spell or tiredness fatigue, but
+only reduces/transfers damage. At Rank 10 or higher, the Adept can
+cast this spell on a target who is within 15 feet (+ 15 / Rank over
+10) or less from them. This spell may be cast on self, but only to
+cure endurance damage. On a `Double' effect, 3 Damage Points are cured
+for each point inflicted on the Adept; a `Triple' effect allows for 4
+points per point inflicted on the Adept.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-4]{ESP}
+
+\range{30 feet + 15 / Rank}
+\duration{30 seconds + 10 / Rank}
+\multiple{100}
+\basechance{40\%}
+\resist{None}
+\storage{Potion}
+\target{Self}
+\begin{effects}
+The Adept can sense the presence and general mood (but not the exact
+nature) of all entities within range of the spell. The Adept has a
+general idea of where each entity is, say to within 90 or 60 degrees,
+the accuracy of which may increase with rank. ESP will detect the
+presence of an entity even if that entity is mind cloaked. Spells
+cannot be targeted through ESP.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-5]{Hypnotism}
+
+\range{15 feet + 15 / Rank}
+\duration{Concentration: no maximum}
+\multiple{200}
+\basechance{40\%}
+\resist{Active, Passive}
+\storage{Investment}
+\target{Entity}
+\begin{effects}
+The spell causes an entity to accept suggestions from the Adept.  The
+spell may only be cast over a target with whom the caster is normally
+able to communicate verbally. It can never be cast over a totally
+hostile target. The target may be enabled to remember otherwise
+forgotten details through appropriate questioning.
+
+Once the target has been hypnotised, the Adept can make suggestions
+which the target will readily accept unless they conflict directly
+with their best interests. The target will never remember where these
+suggestions came from.
+
+The Adept may choose up to 1 (+ 1 / 5 Ranks) of the above suggestions
+to be active in a post-hypnotic manner, which the target will continue
+to implement for 3 (+ 3 / Rank) hours after the spell ceases. The
+target will stop following all other suggestions once the spell
+ceases.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-6]{Limited Precognition}
+
+\range{Special}
+\duration{Immediate}
+\multiple{150}
+\basechance{20\%}
+\resist{May not be resisted}
+\storage{Potion}
+\target{Self}
+\begin{effects}
+The Adept may see (unclearly) up to 1 (+ 1 / Rank) hours into their
+own future and may foresee possible events.  The Adept's player should
+describe a plan of action, and the GM will describe a vision based on
+the consequences of those actions, which can be as literal or
+metaphorical as the GM wishes. The clarity and detail of the vision
+will be dependant on the Adept's rank. Should the Adept foresee their
+own death, a fright check may be appropriate. This spell cannot be
+recast immediately with a different plan; the Adept must wait until
+they have taken some action to change their situation. This spell
+works at any range.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-7]{Mind Shield}
+
+\range{Self}
+\duration{1 hour + 2 / Rank}
+\multiple{250}
+\basechance{30\%}
+\resist{May not be resisted}
+\storage{Potion}
+\target{Self}
+\begin{effects}
+The Adept cloaks their own mind so that their thoughts cannot be
+detected or ``read'', \eg by Telepathy or other mind reading talents,
+spells or rituals. The Adept's Resistance versus Mental Attack is
+increased by 10 (+ 2 / Rank) while the spell is in effect. Mind Cloak
+does not block ESP or Empathy. The Adept can cast Mind Speech as
+normal, and may choose to decline Mind Speech from an external source.
+\end{effects}
+\end{spell}
+
+\subsection{General Knowledge Rituals}
+
+\begin{ritual}[Q-1]{Binding Will}
+\range{10 feet}
+\duration{1 day + 1 / Rank}
+\multiple{500}
+\basechance{10\% + 5\% / Rank}
+\resist{Passive}
+\casttime{1 hour}
+\begin{effects}
+The Adept may bind the will of an entity so that they become the loyal
+retainer of the Adept and serve them in all things.  The target must
+be in range during the ritual but may be unconscious or otherwise
+restrained. The target gets an additional resistance check at the
+beginning of each following day and if required to do anything
+suicidal. If they successfully resist, the binding is broken and they
+are free. The target is then aware that they have been under an
+external influence. The Adept may never release the binding
+voluntarily, and until the duration expires the binding continues,
+even if the Adept dies (the target will do everything possible to get
+the Adept resurrected).  If the ritual backfires, the Adept loses D10
+from their Willpower in addition to any other backfire effect;
+Hypnotism (G-5) cures this loss.
+\end{effects}
+\end{ritual}
+
+\subsection{Special Knowledge Spells}
+
+\begin{spell}[S-1]{Disruption}
+
+\range{15 feet + 15 / Rank}
+\duration{Immediate}
+\multiple{400}
+\basechance{25\%}
+\resist{Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Object or Entity}
+\begin{effects}
+The Adept causes an object or corporeal entity (substantial rather
+than insubstantial) to pulsate, doing [D + 1] (+ 1 / Rank) points of
+damage if the target fails to resist, and half damage to any target
+that successfully resists. At Rank 10 or above, the target's internal
+structure and surface will be partially disrupted, requiring the arts
+of a healer or artisan of rank equal to (spell Rank / 3 , or Rank / 6
+if the target resisted the spell) to prevent or remove the scaring
+(damage can be cured normally).
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-2]{Force Shield}
+
+\range{Self}
+\duration{10 minutes + 10 / Rank}
+\multiple{250}
+\basechance{40\%}
+\resist{None}
+\storage{Potion}
+\target{Self}
+\begin{effects}
+This spell creates an invisible protection around the entire body
+which increases the Defence of the Adept by 5 (+ 1 / Rank) against all
+attacks at any range.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-3]{Healing}
+
+\range{Touch}
+\duration{Immediate}
+\multiple{375}
+\basechance{40\%}
+\resist{None}
+\storage{Investment, Potion}
+\target{Entity}
+\begin{effects}
+The Adept may heal the target of 2 (+ 1 / Rank) Damage Points that
+have been removed from the target's Fatigue or Endurance. Endurance
+damage is healed first, wrapping to Fatigue damage. On a multiple
+effect, the Damage Points restored may be multiplied.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-4]{Mental Attack}
+
+\range{15 feet + 15 / Rank}
+\duration{10 seconds + 10 / Rank}
+\multiple{350}
+\basechance{25\%}
+\resist{Active, Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Entity}
+\begin{effects}
+The Adept may cast this spell at any entity within range who can be
+seen or whose position has been pinpointed via Telepathy. If the
+target fails to resist, they fall unconscious and at Rank 15 and above
+the Target loses [D - 5] from Willpower.  The Willpower loss is
+recoverable via Hypnotism, Remove Minor Curse or naturally at one
+point every 3 days. Repeated casts may further reduce the targets
+Willpower to a minimum of 1.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-5]{Mind Speech}
+
+\range{30 feet + 30 / Rank}
+\duration{10 minutes + 10 / Rank}
+\multiple{400}
+\basechance{20\%}
+\resist{May not be resisted}
+\storage{Investment}
+\target{Entities}
+\begin{effects}
+Allows the Adept to choose a Principal Target, plus up to 1 + 1 / Rank
+other targets, who may then communicate mentally to each other as if
+talking aloud in a group.  The entities may be targeted via the Spell
+of Telepathy (at the time of casting). If an entity subsequently goes
+further than 30 feet + 30 / Rank from the Principal Target, their
+participation ceases until they re-enter that range. A language in
+common is required for normal speech. At Rank 10 and above visual
+images may be transmitted. All communication requires the same level
+of concentration as for normal speech. The spell dissipates if the
+Principal Target is killed.
+
+Multiple casts are a special case. If one or more entities are part of
+two or more spells, and are within range of all of their Principal
+Targets, then every target of those spells may speak to each other as
+if in one group. This can effectively increase the working range of
+the effect.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-6]{Phantasm}
+
+\range{Special}
+\duration{Concentration: no maximum}
+\multiple{400}
+\basechance{1\%}
+\resist{May not be resisted}
+\storage{Investment}
+\target{Entity}
+\begin{effects}
+This spell creates an insubstantial, magical beast that must be
+targeted at a particular victim which is either visible to the Adept
+or located through the spell of Telepathy. The target may interpret
+the beast as being a phantasm from their own worst nightmare. Lack of
+imagination, however, does not offer any protection or immunity. The
+Adept has no control over the shape of the creature.
+
+The phantasm appears beside the Adept, and then travels straight
+towards the target at a TMR equal to 1 + 1 / Rank, passing through
+walls, air etc. When in melee range of the target the Phantasm always
+does [D - 4] (+ 1 / Rank) damage each pulse, including the pulse when
+it arrives at the target.
+
+The phantasm is only substantial to, and visible to, the target and
+thus can be directly affected by the target (using spells or magical
+weapons). Anyone may cast a Mind College Special Counterspell over
+the area currently occupied by the phantasm to dissipate it. The
+phantasm is immune to all other spells and weapons.
+
+The Phantasm's magic resistance, defence and initiative are all zero
+and it always acts last in the pulse. The phantasm has a single
+combined Endurance and Fatigue of 20 (+ 5 / 3 Ranks).
+
+The phantasm dissipates when: its endurance drops to zero; it is
+dispelled by counterspell; its target dies or leaves the plane; the
+Adept drops or loses concentration. The Adept has some awareness of
+the phantasm's location, and is aware of its dissipation.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-7]{Telekinesis}
+
+\range{15 feet + 15 / Rank}
+\duration{Concentration: maximum 10 seconds + 10 / Rank}
+\multiple{250}
+\basechance{25\%}
+\resist{None}
+\storage{Investment}
+\target{Entity or object}
+\begin{effects}
+Allows the Adept to lift and manoeuvre a target weighting up to 2
+pounds and move it at the rate of 2 TMR. The Adept may move an
+additional 5 pounds or move the chosen target at an additional 3 TMR
+per Rank. The Adept may increase both mass and speed by applying
+separate ranks to each. Gross movement is automatic, although fine
+movements require an MD check and should attract negative modifiers
+for range.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-8]{Telekinetic Rage}
+
+\range{30 feet + 5 / Rank}
+\duration{Instantaneous}
+\multiple{750}
+\basechance{1\%}
+\resist{Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Area}
+\begin{effects}
+The Adept creates an instantaneous, magical storm that fills the area
+within range with roiling, body-wrenching forces. All objects and
+entities that fail to resist, are hurled away from the Adept until
+they are out of the area of effect, or they strike a solid barrier.
+
+The storm inflicts [D - 5] (+ 1 / foot travelled) of magical damage
+and is inflicted once only, at the time of casting. The damage is not
+contingent on striking an object. Additional damage may be done on
+hitting a wall, entity or other substantial object.
+\end{effects}
+\end{spell}
+
+
+\begin{spell}[S-9]{Telepathy}
+
+\range{30 feet + 30 / Rank}
+\duration{10 minutes + 10 / Rank}
+\multiple{550}
+\basechance{10\%}
+\resist{Passive}
+\storage{Potion}
+\target{Self}
+\begin{effects}
+The spell gives the Adept the ability to read the surface thoughts of
+any entity within range who fails to resist. Each target may only
+resist each Telepathy once, regardless of whether they move in or out
+of the range of the spell.
+
+Each pulse, the Adept may use their telepathy to either locate the
+minds that are within range, or to read the thoughts of a particular
+mind. The Adept need not know the language of the entity whose
+thoughts are being read, but will have difficulty comprehending the
+thoughts of alien minds. Animal thoughts are usually very primitive
+and can summed up in a single word, \eg ``food'', ``danger'', ``sex.''
+
+It is not possible to utilise a target's senses and the Adept may only
+gain an impression of physical sensations if the entity is
+concentrating on them, \eg savouring a meal.
+
+Telepathy may be used to target the Mind Speech, Mental Attack and
+Phantasm spells.
+
+Targets are not aware that their thoughts are being read.
+Concentration checks should be required of targets who try to control
+their thoughts by reciting poetry etc.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-10]{Transmutation}
+
+\range{15 feet + 15 / Rank}
+\duration{10 minutes + 10 / Rank}
+\multiple{1000}
+\basechance{1\%}
+\resist{Active, Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Entity or Object}
+\begin{effects}
+The Adept may transmute and rearrange the elemental components of any
+target that fails to resist, transforming it into any form of the same
+mass that the Adept desires. A living entity can only be rearranged
+into another living form, and objects into objects. This spell cannot
+confer skills or magical abilities, but the target will acquire the
+non-magical features of the new form such as wings, gills etc, and may
+use them. If the new form is maintained without disruption for the
+duration of the spell, the target will revert to its original shape.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-11]{Undetectability}
+
+\range{Touch}
+\duration{10 minutes + 10 / Rank}
+\multiple{450}
+\basechance{15\%}
+\resist{May not be resisted}
+\storage{Potion, Investment}
+\target{Entity}
+\begin{effects}
+The target is totally undetectable by physical senses. Changes to the
+physical environment which are made by the target and are entirely
+within 5 feet (+ 1 / Rank) (\eg leaves tracks, opens doors, picks up
+an object) will be unnoticed by normal observers. Other entities will
+automatically take such changes in their stride (\eg will just walk
+through the previously shut door, will not sit down on the chair that
+the target whipped out from under them but go and get another drink
+instead).
+
+Magical observation (Wizards Eye, Witchsight, Clair-audience etc) will
+not detect the target. The spell does not however, affect indirect
+observation, such as Locate, Telepathy or ESP.
+
+The Adept may nominate, at the time of casting, up to 1 (+ 1 / 3 full
+Ranks) entities who will ignore the workings of the spell.
+
+The spell will dissipate if the target is in physical contact with
+another entity for more than 5 seconds (other than the nominated
+entities) or makes a strike check for a non-ranged attack (regardless
+of its success). The target may choose to end the spell at any time.
+\end{effects}
+\end{spell}
+\end{college}
+@
+
+
+5.12
+log
+@Fix typo.
+@
+text
+@d266 1
+a266 1
+\subsection{General Knowledge Ritual}
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@d95 1
+a95 1
+\subsection{General Knowledge spells}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@d1 1
+a1 1
+\begin{college}[1.1]{mind}{Sorceries of the Mind}{MI}
+d3 38
+a40 23
+The College of Sorceries of the Mind is concerned with the
+manipulation of the mental powers of sentient beings.  Practioners of
+this college are often known as Sorcerers.
+
+\subsection{Restrictions}
+
+Adepts of the College of Sorceries of the Mind may practice their arts
+without restriction.
+
+The MA requirement for this College is 11.
+
+\subsection{Base Chance Modifiers}
+
+The following numbers are added to the Base Chance of performing any
+talent, spell, or ritual (which has a target of entity) of the College
+of Sorceries of the Mind.
+
+{\small \begin{tabularx}{\linewidth}{Xr}
+Each point the Adept's Willpower is greater than target's Willpower. & +1 \\
+Each point the Adept's Willpower is less than target's Willpower & -2 \\
+\end{tabularx}}
+
+All modifiers are cumulative.
+d44 1
+a44 1
+\begin{talent}[T-1]{Resist Temperature}
+d46 3
+a48 1
+\multiple{250}
+d50 11
+a60 3
+Adepts of this College suffer 1 (+ 1 for each 5 (or fraction) Ranks)
+less Damage Points from either heat or cold (or fire or ice) used as
+weapons. They are immune to extremes of temperature.
+d64 1
+a64 1
+\begin{talent}[T-2]{Resist Pain}
+d66 3
+a68 1
+\multiple{300}
+d70 7
+a76 15
+Adepts of this College are more or less immune to pain. They cannot be
+tortured or stunned. In addition, if there is a chance that their
+concentration may have been broken, 5 (+ 1 / Rank) is always added to
+the Base Chance of their maintaining the concentration despite
+intrusions.
+
+Their concentration is never automatically broken (\ie is never
+broken without a check to see if they maintain concentration).
+
+Since this is a magical talent, it is affected by cold iron. However,
+for a weapon to affect the talent, the weapon must be cold iron, must
+have done endurance damage, and must remain in contact with the
+body. If cold iron is used in the torture of a mind mage, the Adept
+adds their concentration bonus to the base chance of resisting the
+torture attempt.
+d80 1
+a80 1
+\begin{talent}[T-3]{Sensitivity to Danger}
+d82 1
+d84 1
+d86 6
+a91 2
+Adepts of this College always add 5 (+ 1 / Rank) to their chances of
+detecting an ambush.
+d95 1
+a95 1
+\subsection{General Knowledge Spells}
+d97 1
+a97 1
+\begin{spell}[G-1]{Extrasensory Perception}
+d100 1
+a100 1
+\duration{30 seconds + 10 / Rank}
+d103 3
+a105 3
+\resist{None}
+\storage{Potion}
+\target{Self}
+d107 8
+a114 4
+The Adept can sense the presence and general mood (but not the exact
+nature) of any entity within range of the spell.  ESP will detect the
+presence of an entity even if that entity is mind cloaked.  Spells
+cannot be targetted through ESP.
+d118 1
+a118 1
+\begin{spell}[G-2]{Limited Precognition}
+d120 3
+a122 19
+\range{Special}
+\duration{Immediate}
+\multiple{150}
+\basechance{20\%}
+\resist{None}
+\storage{Potion}
+\target{Self}
+\begin{effects}
+The Adept may see (unclearly) up to 1 ( + 1 / Rank) hours into the
+future and may foresee events that may or may not be important to
+them.  This spell works at any range.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-3]{Mind Cloak}
+
+\range{Self}
+\duration{1 hour + 2 / Rank}
+\multiple{250}
+d124 3
+a126 3
+\resist{None}
+\storage{Potion}
+\target{Self}
+d128 19
+a146 5
+The Adept cloaks their own mind so that their thoughts cannot be
+detected or ``read'', \eg by Spell of Telepathy (S-2) or other mind
+reading talents, spells or rituals. The Adept's Resistance versus
+Mental Attack (S-1) is increased by 10 (+ 2 / Rank) while the spell is
+in effect.
+d150 1
+a150 1
+\begin{spell}[G-4]{Empathy}
+d164 28
+a191 5
+from their own Fatigue (never Endurance). Thus, an Adept could remove
+6 Damage Points from a target by inflicting 3 of the 6 on themselves
+(the other 3 being eliminated). At Rank 10 or higher, the Adept can
+cast this spell on characters who are 15 feet (+ 15 / Rank - 10) or
+less from them.
+d205 16
+a220 15
+The Adept may lull an entity into a trance-like state in which they
+will be subject to suggestion.  The spell may only be cast over a
+target with whom the caster is normally able to communicate
+verbally. It can never be cast over a totally hostile target.  Once
+the subject has been hypnotized, the Adept can make suggestions which
+the subject will readily accept unless they conflict directly with
+their best interests.  The subject will remain suggestible so long as
+concentration is maintained and will continue to implement the
+post-hypnotic suggestion for 3 (+ 3 / Rank) hours after the spell
+ceases. The subject will never have any idea where the suggestions
+they are implementing came from.
+
+Only one post-hypnotic suggestion may be made per spell. The duration
+of the spell is concentration -- it is only the post-hypnotic
+suggestion that has a time duration.
+d224 1
+a224 1
+\begin{spell}[G-6]{Controlling Animals}
+d226 7
+a232 7
+\range{30 feet + 15 / Rank}
+\duration{Concentration: no maximum}
+\multiple{100}
+\basechance{40\%}
+\resist{Active, Passive}
+\storage{Investment}
+\target{Animal}
+d234 10
+a243 7
+The Adept gains control over every action of one animal within
+range. If they release the animal or their concentration is broken it
+may attack them.
+
+The Adept controls the animal's mind and body, \eg it is only
+possible to make a bird fly if the Adept is intimately familiar with
+the function of flying.
+d247 1
+a247 1
+\begin{spell}[G-7]{Controlling Person}
+d249 3
+a251 3
+\range{30 feet + 15 / Rank}
+\duration{Concentration: no maximum}
+\multiple{650}
+d253 3
+a255 3
+\resist{Active, Passive}
+\storage{Investment}
+\target{Sentient Entity}
+d257 6
+a262 6
+The Adept gains control over every action of one person within
+range. They may control the physical activities of that person, but
+may not cause the target to cast spells. The subject always acts as if
+they were also affected by a Spell of Slowness (E\&E S-11). The spell
+continues in effect until the Adept's concentration is broken or they
+release the victim.
+d266 1
+a266 1
+\subsection{General Knowledge Rituals}
+a268 1
+
+d276 13
+a288 15
+The Adept may employ this ritual in order to bind the will of an
+entity that is physically present and either unconscious or otherwise
+restrained. The Adept may perform no other action while engaged in the
+performance of this ritual.  Once bound, the subject will remain bound
+until the effects of the ritual wear off or they break the psychic
+bonds restraining them. The subject gets a chance to passively resist
+once at the end of the ritual and once at the end of each day. If they
+successfully resist, the bonds are broken and they are free.  Until
+that time, they will be the loyal retainer of the Adept and serve them
+in all things.  The Adept may never release the subject from servitude
+voluntarily, and the magic continues to work even after the Adept is
+dead (the subject will do all within their power to attempt to get the
+Adept resurrected).  If the ritual backfires, the Adept loses D10 from
+their willpower in addition to any other backfire effect; hypnotism
+(G-5) cures this loss.
+d294 1
+a294 1
+\begin{spell}[S-1]{Mental Attack}
+d297 2
+a298 2
+\duration{10 seconds + 10 / Rank}
+\multiple{350}
+d300 1
+a300 1
+\resist{Active, Passive}
+d302 1
+a302 1
+\target{Entity}
+d304 8
+a311 6
+The Adept may cast this spell at any entity within range who can be
+seen or whose position has been pinpointed via Telepathy (S-2). If the
+target fails to resist, they fall unconscious for the duration of the
+spell. In addition, at Rank 15 and above they lose [D - 5] from
+Willpower. This loss of Willpower may be cured via hypnotism
+(G-5). Once hypnotised, the subject is totally cured.
+d315 1
+a315 1
+\begin{spell}[S-2]{Telepathy}
+d317 1
+a317 1
+\range{30 feet + 30 / Rank}
+d319 3
+a321 3
+\multiple{550}
+\basechance{10\%}
+\resist{Passive}
+d325 3
+a327 10
+The spell gives the Adept the ability to read the thoughts of any
+entity within range, who fails to resist.  Each pulse, the Adept may
+use their telepathy to either locate the minds that are within range,
+or to read the thoughts of a particular mind.  The Adept need not know
+the language of the entity whose thoughts are being read, but will
+have difficulty comprehending the thoughts of alien minds.  Entities
+only get to resist telepathy once, regardless of whether they move in
+or out of range of the spell.  Animal thoughts are usually very
+primitive and can summed up in a single word, \eg ``food'',
+``danger'', ``sex.''
+d331 1
+a331 1
+\begin{spell}[S-3]{Phantasm}
+d333 4
+a336 4
+\range{Special}
+\duration{Concentration: no maximum}
+\multiple{400}
+\basechance{1\%}
+d338 1
+a338 1
+\storage{Investment}
+d341 4
+a344 20
+The spell conjures a beast with an Endurance and Fatigue with a
+combined value of 20 (+ 5 / 3 full Ranks).  The creature is a magical
+entity which must be targeted at a particular victim. It will then
+track the victim down and attack them until either the victim is
+killed, the victim kills it or the phantasm is dispelled (with a
+counterspell). The phantasm always hits for [D - 4] (+ 1 / Rank)
+damage per pulse.
+
+The target can only be an entity who is can be seen by the Adept or
+uniquely identified by Telepathy, or whose Individual True Name is
+known and used in the spell.  The TMR of a phantasm is 1 + 1 /
+Rank. The phantasm is unseeable rather than invisible to all except
+the target, including the Adept. The phantasm will be dispelled if an
+area effect Mind Special Knowledge counterspell is cast on an area
+that the phantasm occupies, but it can enter an already existing area
+counterspell.
+
+The phantasm appears as an horrific nightmare from the target's
+subconscious, hence the Adept cannot choose its appearance.  A
+phantasm always acts last in the pulse.
+d348 1
+a348 1
+\begin{spell}[S-4]{Molecular Disruption}
+d351 4
+a354 4
+\duration{Immediate}
+\multiple{400}
+\basechance{1\%}
+\resist{Passive}
+d358 7
+a364 4
+This spell causes cellular damage to any living being or being in
+corporeal (substantial rather than insubstantial) form. It does [D +
+1] (+ 1 / Rank) to any single target that fails to resist and half
+damage (round up) to any target that successfully resists.
+d368 1
+a368 1
+\begin{spell}[S-5]{Molecular Rearrangement}
+d370 1
+a370 1
+\range{15 feet + 15 / Rank}
+d372 5
+a376 5
+\multiple{1000}
+\basechance{1\%}
+\resist{Active, Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Entity or Object}
+d378 16
+a393 5
+The Adept may rearrange the cells of any target that fails to resist,
+turning it into any shape of the same mass that they desire.
+
+If the new form is maintained without disruption for the duration of
+the spell, the target may revert to its original shape.
+d397 1
+a397 1
+\begin{spell}[S-6]{Force Shield}
+d399 6
+a404 20
+\range{Self}
+\duration{10 minutes + 10 / Rank}
+\multiple{250}
+\basechance{40\%}
+\resist{None}
+\storage{Potion}
+\target{Self}
+\begin{effects}
+Reduces the Base Chance of the Adept being hit by 5 (+ 1 / Rank).
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-7]{Healing}
+
+\range{Touch}
+\duration{Immediate}
+\multiple{375}
+\basechance{40\%}
+\resist{None}
+\storage{Investment, Ward, Potion}
+d407 27
+a433 2
+The Adept may heal the target of 2 (+ 1 / Rank) Damage Points that
+have been removed from the subject's Fatigue or Endurance.
+d437 1
+a437 1
+\begin{spell}[S-8]{Undetectability}
+d440 1
+a440 40
+\duration{10 minutes + 10 / Rank}
+\multiple{450}
+\basechance{15\%}
+\resist{None}
+\storage{Investment, Potion, Ward}
+\target{Entity}
+\begin{effects}
+The target of this spell becomes undetectable (other than by touch).
+The target may be detected if an observing entity makes a 1 \x
+perception roll. Only one perception roll is made per entity for the
+duration of the spell, irrespective of the target of the spell's
+actions.
+
+The target of the spell is effectively invisible (per E\&E G-8, but
+cannot be seen by Witchsight or other magical means) and therefore has
+no shadow or reflection. The target also emits no odour and leaves no
+scent. The target makes no audible sound from its direct action,
+although secondary effects are possible. Thus where the target or its
+possessions interface with the external environment, no sound is made,
+however the adept may make sound using non-possessions.
+\begin{example}
+An undetectable horse will make no sound crossing a cobblestone
+courtyard; an undetectable man will make no sound knocking on a door,
+however if he uses the knocker he will (as neither knocker nor door
+are possessions).
+\end{example}
+The target of this spell may initiate physical attacks or spell
+casting without the spell ceasing effect. The spell may not be
+terminated voluntarily (other than by way of counterspell).
+
+It may be possible to detect a target of this spell using mundane
+means. For example the target of this spell will leave footprints in
+the sand, would leave a hole in a room full of dust.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-9]{Telekinesis}
+
+\range{15 feet + 15 / Rank}
+\duration{10 seconds + 10 / Rank}
+d447 7
+a453 4
+Allows the Adept to lift the target with weight of up to 2 pounds and
+move it at the rate of 2 TMR.  The Adept may choose to move an
+additional 5 pounds or increase the spell by an additional 3 TMR for
+each Rank in the spell.
+d457 1
+a457 1
+\begin{spell}[S-10]{Telekinetic Rage}
+d460 1
+a460 1
+\duration{Concentration: maximum 60 seconds + 10 / Rank}
+d463 24
+a486 1
+\resist{Active, Passive}
+d490 22
+a511 4
+The Adept creates a storm of force emanating from them which hurls any
+object or entity away from them at bone-breaking speed until out of
+the range of the spell.  Anything which fails to resist suffers [D -
+5] (+ 1 / foot travelled) damage.
+d515 1
+a515 1
+\begin{spell}[S-11]{Mind Speech}
+d517 1
+a517 1
+\range{30 feet + 30 / Rank}
+d519 5
+a523 5
+\multiple{400}
+\basechance{20\%}
+\resist{None}
+\storage{Potion, Investment}
+\target{Entity}
+d525 8
+a532 5
+Allows the Adept to communicate telepathically with 1 + 1 / Rank
+entities. The entities targeted must be both within the range of the
+spell and either in sight or pinpointed via the Spell of Telepathy (at
+the time of casting). If the entity subsequently leaves the range, the
+communication continues.
+d536 1
+a536 1
+\subsection{Special Knowledge Rituals}
+d538 7
+a544 5
+\begin{ritual}[R-1]{Binding Elements}
+
+\multiple{600}
+\basechance{1\% + 3\% / Rank}
+\casttime{1 hour}
+d546 20
+a565 7
+The Adept can bind any element (Earth, Air, Fire or Water) as if he
+were performing the binding ritual for the College dealing with that
+element. The ritual is conducted in exactly the same manner as the
+specific ritual for binding the element apart from Base Chance and
+EM. In all other ways the binding is executed according to the rules
+governing the appropriate ritual of binding from the College concerned
+with the element being bound.
+d567 1
+a567 1
+\end{ritual}
+@
+
+
+4.1
+log
+@Minor corrections from Andrew Withy plus formatting changes.
+@
+text
+@d1 1
+a1 1
+\begin{college}[1.1]{mind}{Sorceries of the Mind}
+d4 2
+a5 1
+manipulation of the mental powers of sentient beings.
+d78 1
+a78 1
+\resist{May not be resisted}
+d95 1
+a95 1
+\resist{May not be resisted}
+d111 1
+a111 1
+\resist{May not be resisted}
+d129 1
+a129 1
+\resist{May not be resisted}
+d151 1
+a151 1
+\resist{May be actively \& passively resisted}
+d179 1
+a179 1
+\resist{May be actively \& passively resisted}
+d199 1
+a199 1
+\resist{May be actively \& passively resisted}
+d220 1
+a220 1
+\resist{May only be passively resisted}
+d249 1
+a249 1
+\resist{May be actively \& passively resisted}
+d268 1
+a268 1
+\resist{May only be passively resisted}
+d291 1
+a291 1
+\resist{May not be resisted}
+d324 1
+a324 1
+\resist{May only be passively resisted}
+d341 1
+a341 1
+\resist{May be actively \& passively resisted}
+d359 1
+a359 1
+\resist{May not be resisted}
+d373 1
+a373 1
+\resist{May not be resisted}
+d388 1
+a388 1
+\resist{May not be resisted}
+d427 1
+a427 1
+\resist{May not be resisted}
+d444 1
+a444 1
+\resist{May be actively \& passive resisted}
+d461 1
+a461 1
+\resist{May not be resisted}
+@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 1
+a1 5
+\section{The College of Sorceries of the Mind (Ver 1.1)}
+\label{mind}
+\index{colleges!Sorceries of the Mind|(}
+
+\begin{multicols}{3}
+d30 2
+a31 2
+\sItem{Experience Multiple}{250}
+\emph{Effect:}
+d35 1
+d40 2
+a41 2
+\sItem{Experience Multiple}{300}
+\emph{Effect:}
+d57 1
+d62 2
+a63 2
+\sItem{Experience Multiple}{300}
+\emph{Effect:}
+d66 1
+d73 8
+a80 8
+\sItem{Range}{30 feet + 15 / Rank}
+\sItem{Duration}{30 seconds + 10 / Rank}
+\sItem{Experience Multiple}{100}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Potion}
+\sItem{Target}{Self}
+\emph{Effect:}
+d85 1
+d90 8
+a97 8
+\sItem{Range}{Special}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{150}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Potion}
+\sItem{Target}{Self}
+\emph{Effect:}
+d101 1
+d106 8
+a113 8
+\sItem{Range}{Self}
+\sItem{Duration}{1 hour + 2 / Rank}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Potion}
+\sItem{Target}{Self}
+\emph{Effect:}
+d119 1
+d124 8
+a131 8
+\sItem{Range}{Touch until Rank 10}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d141 1
+d146 8
+a153 8
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{Concentration: no maximum}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Storage}{Investment}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d169 1
+d174 8
+a181 8
+\sItem{Range}{30 feet + 15 / Rank}
+\sItem{Duration}{Concentration: no maximum}
+\sItem{Experience Multiple}{100}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Storage}{Investment}
+\sItem{Target}{Animal}
+\emph{Effect:}
+d189 1
+d194 8
+a201 8
+\sItem{Range}{30 feet + 15 / Rank}
+\sItem{Duration}{Concentration: no maximum}
+\sItem{Experience Multiple}{650}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Storage}{Investment}
+\sItem{Target}{Sentient Entity}
+\emph{Effect:}
+d208 1
+d215 7
+a221 7
+\sItem{Range}{10 feet}
+\sItem{Duration}{1 day + 1 / Rank}
+\sItem{Experience Multiple}{500}
+\sItem{Base Chance}{10\% + 5\% / Rank}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Time Taken}{1 hour}
+\emph{Effect:}
+d233 1
+a233 1
+dead (the subject will do all within their power to attept to get the
+d237 1
+d244 8
+a251 8
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{10 seconds + 10 / Rank}
+\sItem{Experience Multiple}{350}
+\sItem{Base Chance}{25\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d258 1
+d263 8
+a270 8
+\sItem{Range}{30 feet + 30 / Rank}
+\sItem{Duration}{10 minutes + 10 / Rank}
+\sItem{Experience Multiple}{550}
+\sItem{Base Chance}{10\%}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Storage}{Potion}
+\sItem{Target}{Self}
+\emph{Effect:}
+d281 1
+d286 8
+a293 8
+\sItem{Range}{Special}
+\sItem{Duration}{Concentration: no maximum}
+\sItem{Experience Multiple}{400}
+\sItem{Base Chance}{1\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d314 1
+d319 8
+a326 8
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{400}
+\sItem{Base Chance}{1\%}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d331 1
+d336 8
+a343 8
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{10 minutes + 10 / Rank}
+\sItem{Experience Multiple}{1000}
+\sItem{Base Chance}{1\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Entity or Object}
+\emph{Effect:}
+d349 1
+d354 8
+a361 8
+\sItem{Range}{Self}
+\sItem{Duration}{10 minutes + 10 / Rank}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Potion}
+\sItem{Target}{Self}
+\emph{Effect:}
+d363 1
+d368 8
+a375 8
+\sItem{Range}{Touch}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{375}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward, Potion}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d378 1
+d383 8
+a390 8
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{10 minutes + 10 / Rank}
+\sItem{Experience Multiple}{450}
+\sItem{Base Chance}{15\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Potion, Ward}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d417 1
+d422 8
+a429 8
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{10 seconds + 10 / Rank}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{25\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment}
+\sItem{Target}{Entity or object}
+\emph{Effect:}
+d434 1
+d439 8
+a446 8
+\sItem{Range}{30 feet + 5 / Rank}
+\sItem{Duration}{Concentration: maximum 60 seconds + 10 / Rank}
+\sItem{Experience Multiple}{750}
+\sItem{Base Chance}{1\%}
+\sItem{Resist}{May be actively \& passive resisted}
+\sItem{Storage}{Potion}
+\sItem{Target}{Self}
+\emph{Effect:}
+d451 1
+d456 8
+a463 8
+\sItem{Range}{30 feet + 30 / Rank}
+\sItem{Duration}{10 minutes + 10 / Rank}
+\sItem{Experience Multiple}{400}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Potion, Investment}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d469 1
+d476 4
+a479 4
+\sItem{Experience Multiple}{600}
+\sItem{Base Chance}{1\% + 3\% / Rank}
+\sItem{Time Taken}{1 hour}
+\emph{Effect:}
+d487 1
+d489 1
+a489 5
+
+\raggedcolumns
+\index{colleges!Sorceries of the Mind|)}
+\clearemptydoublepage
+\end{multicols}
+@
+
+
+3.5
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+3.4
+log
+@Fix e.g. problem
+@
+text
+@d24 2
+a25 2
+Each point Adept's Willpower is greater than target's Willpower. & +1 \\
+Each point Adept's Willpower is less than target's Willpower & -2 \\
+d66 2
+a67 2
+Adepts of this College always add 5 (+1 / Rank) to their chances of
+detecting an ambush (see also Ranger skill).
+d83 3
+a85 4
+nature) of any entity within range of the spell.
+
+ESP will detect the presence of an entity even if that entity is mind
+cloaked.
+d184 1
+a184 1
+th function of flying.
+d247 4
+a250 4
+target fails to resist, they fall unconscious. In addition, at Rank 15
+and above they lose [D - 5] from Willpower. This loss of Willpower may
+be cured via hypnotism (G-5). Once hypnotised, the subject is totally
+cured.
+d286 4
+a289 4
+combined value of 20 (+ 5 additional points for every 3 Ranks).  The
+creature is a magical entity which must be targeted at a particular
+victim. It will then track the victim down and attack them until
+either the victim is killed or the phantasm is dispelled (using a
+d296 5
+a300 5
+Rank. The phantasm is unseeable rather than invisible to all others
+than the target -- this includes the Adept. The phantasm will be
+dispelled if an area effect Mind Special Knowledge counterspell is
+cast on an area that the phantasm occupies, but it can enter an
+already existing area counterspell.
+d303 1
+a303 1
+subconscious.  Hence the Adept cannot choose its appearance.  A
+d317 4
+a320 4
+Spell causes cellular damage to any living being or being in corporeal
+(substantial rather than insubstantial) form. It does [D + 1] (+ 1 /
+Rank) to any single target that fails to resist and half damage (round
+up) to any target that successfully resists.
+d347 1
+a347 1
+\sItem{Storage}{Investment, Potion}
+d389 3
+a391 2
+however the adept may make sound using non-possessions.  Examples are:
+an undetectable horse will make no sound crossing a cobblestone
+d395 1
+a395 1
+
+d416 3
+a418 2
+move it at the rate of 1 mph. The Adept may move an additional 5
+pounds or move the chosen target at an additional 2 mph per Rank.
+d428 1
+a428 1
+\sItem{Storage}{Investment, Potion, Ward}
+d444 1
+a444 1
+\sItem{Storage}{Potion}
+@
+
+
+3.3
+log
+@Check in before modifying e.g. and i.e.
+@
+text
+@d51 1
+a51 1
+Their concentration is never automatically broken (i.e.\ is never
+d115 1
+a115 1
+detected or ``read'', e.g.\ by Spell of Telepathy (S-2) or other mind
+d183 1
+a183 1
+The Adept controls the animal's mind and body, e.g.\ it is only
+d272 1
+a272 1
+primitive and can summed up in a single word, e.g.\ ``food'',
+@
+
+
+3.2
+log
+@Fix spell environment and indexes
+@
+text
+@d51 1
+a51 1
+Their concentration is never automatically broken (i.e., is never
+d115 1
+a115 1
+detected or ``read'', e.g., by Spell of Telepathy (S-2) or other mind
+d183 1
+a183 1
+The Adept controls the animal's mind and body, e.g., it is only
+d272 1
+a272 1
+primitive and can summed up in a single word, e.g., ``food'',
+@
+
+
+3.1
+log
+@Remove "Spell of " from spell names.
+@
+text
+@d32 1
+a32 1
+\begin{talent}{Resist Temperature (T-1)}
+d41 1
+a41 1
+\begin{talent}{Resist Pain (T-2)}
+d62 1
+a62 1
+\begin{talent}{Sensitivity to Danger (T-3)}
+d72 1
+a72 1
+\begin{spell}{Extrasensory Perception (G-1)}
+d89 1
+a89 1
+\begin{spell}{Limited Precognition (G-2)}
+d104 1
+a104 1
+\begin{spell}{Mind Cloak (G-3)}
+d121 1
+a121 1
+\begin{spell}{Empathy (G-4)}
+d142 1
+a142 1
+\begin{spell}{Hypnotism (G-5)}
+d169 1
+a169 1
+\begin{spell}{Controlling Animals (G-6)}
+d188 1
+a188 1
+\begin{spell}{Controlling Person (G-7)}
+d208 1
+a208 1
+\begin{ritual}{Binding Will (Q-1)}
+d236 1
+a236 1
+\begin{spell}{Mental Attack (S-1)}
+d254 1
+a254 1
+\begin{spell}{Telepathy (S-2)}
+d276 1
+a276 1
+\begin{spell}{Phantasm (S-3)}
+d308 1
+a308 1
+\begin{spell}{Molecular Disruption (S-4)}
+d324 1
+a324 1
+\begin{spell}{Molecular Rearrangement (S-5)}
+d341 1
+a341 1
+\begin{spell}{Force Shield (S-6)}
+d354 1
+a354 1
+\begin{spell}{Healing (S-7)}
+d368 1
+a368 1
+\begin{spell}{Undetectability (S-8)}
+d405 1
+a405 1
+\begin{spell}{Telekinesis (S-9)}
+d420 1
+a420 1
+\begin{spell}{Telekinetic Rage (S-10)}
+d436 1
+a436 1
+\begin{spell}{Mind Speech (S-11)}
+d455 1
+a455 1
+\begin{ritual}{Binding Elements (R-1)}
+@
+
+
+3.0
+log
+@Major typographical changes.  Spells now spell environments
+@
+text
+@d3 1
+a3 1
+\index{college!mind|(}
+d72 1
+a72 1
+\begin{spell}{Spell of Extrasensory Perception (G-1)}
+d89 1
+a89 1
+\begin{spell}{Spell of Limited Precognition (G-2)}
+d104 1
+a104 1
+\begin{spell}{Mind Cloak Spell (G-3)}
+d121 1
+a121 1
+\begin{spell}{Spell of Empathy (G-4)}
+d142 1
+a142 1
+\begin{spell}{Spell of Hypnotism (G-5)}
+d169 1
+a169 1
+\begin{spell}{Spell of Controlling Animals (G-6)}
+d188 1
+a188 1
+\begin{spell}{Spell of Controlling Person (G-7)}
+d208 1
+a208 1
+\begin{ritual}{Ritual of Binding Will (Q-1)}
+d236 1
+a236 1
+\begin{spell}{Spell of Mental Attack (S-1)}
+d254 1
+a254 1
+\begin{spell}{Spell of Telepathy (S-2)}
+d276 1
+a276 1
+\begin{spell}{Phantasm Spell (S-3)}
+d308 1
+a308 1
+\begin{spell}{Spell of Molecular Disruption (S-4)}
+d324 1
+a324 1
+\begin{spell}{Spell of Molecular Rearrangement (S-5)}
+d341 1
+a341 1
+\begin{spell}{Force Shield Spell (S-6)}
+d354 1
+a354 1
+\begin{spell}{Spell of Healing (S-7)}
+d368 1
+a368 1
+\begin{spell}{Spell of Undetectability (S-8)}
+d405 1
+a405 1
+\begin{spell}{Spell of Telekinesis (S-9)}
+d420 1
+a420 1
+\begin{spell}{Spell of Telekinetic Rage (S-10)}
+d436 1
+a436 1
+\begin{spell}{Spell of Mind Speech (S-11)}
+d455 1
+a455 1
+\begin{ritual}{Ritual of Binding Elements (R-1)}
+d471 1
+a471 1
+\index{college!mind|)}
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d3 1
+d32 1
+a32 1
+\subsubsection{Resist Temperature (T-1)}
+d34 1
+a34 3
+\begin{spelldesc}
+\emph{Experience Multiple:} 250 \\
+\end{spelldesc}
+d39 1
+d41 1
+a41 1
+\subsubsection{Resist Pain (T-2)}
+d43 1
+a43 3
+\begin{spelldesc}
+\emph{Experience Multiple:} 300 \\
+\end{spelldesc}
+d60 1
+d62 1
+a62 1
+\subsubsection{Sensitivity to Danger (T-3)}
+d64 1
+a64 3
+\begin{spelldesc}
+\emph{Experience Multiple:} 300 \\
+\end{spelldesc}
+d68 1
+d72 1
+a72 1
+\subsubsection{Spell of Extrasensory Perception (G-1)}
+d74 7
+a80 9
+\begin{spelldesc}
+\emph{Range:} 30 feet + 15 / Rank \\
+\emph{Duration:} 30 seconds + 10 / Rank \\
+\emph{Experience Multiple:} 100 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Potion \\
+\emph{Target:} Self \\
+\end{spelldesc}
+d87 1
+d89 1
+a89 1
+\subsubsection{Spell of Limited Precognition (G-2)}
+d91 7
+a97 9
+\begin{spelldesc}
+\emph{Range:} Special \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 150 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Potion \\
+\emph{Target:} Self \\
+\end{spelldesc}
+d102 1
+d104 1
+a104 1
+\subsubsection{Mind Cloak Spell (G-3)}
+d106 7
+a112 9
+\begin{spelldesc}
+\emph{Range:} Self \\
+\emph{Duration:} 1 hour + 2 / Rank \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Potion \\
+\emph{Target:} Self \\
+\end{spelldesc}
+d119 1
+d121 1
+a121 1
+\subsubsection{Spell of Empathy (G-4)}
+d123 7
+a129 9
+\begin{spelldesc}
+\emph{Range:} Touch until Rank 10 \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+d140 1
+d142 1
+a142 1
+\subsubsection{Spell of Hypnotism (G-5)}
+d144 7
+a150 9
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} Concentration: no maximum \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Storage:} Investment \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+d167 1
+d169 1
+a169 1
+\subsubsection{Spell of Controlling Animals (G-6)}
+d171 7
+a177 9
+\begin{spelldesc}
+\emph{Range:} 30 feet + 15 / Rank \\
+\emph{Duration:} Concentration: no maximum \\
+\emph{Experience Multiple:} 100 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Storage:} Investment \\
+\emph{Target:} Animal \\
+\end{spelldesc}
+d186 1
+d188 1
+a188 1
+\subsubsection{Spell of Controlling Person (G-7)}
+d190 7
+a196 9
+\begin{spelldesc}
+\emph{Range:} 30 feet + 15 / Rank \\
+\emph{Duration:} Concentration: no maximum \\
+\emph{Experience Multiple:} 650 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Storage:} Investment \\
+\emph{Target:} Sentient Entity \\
+\end{spelldesc}
+d204 1
+d208 1
+a208 1
+\subsubsection{Ritual of Binding Will (Q-1)}
+d210 6
+a215 8
+\begin{spelldesc}
+\emph{Range:} 10 feet \\
+\emph{Duration:} 1 day + 1 / Rank \\
+\emph{Experience Multiple:} 500 \\
+\emph{Base Chance:} 10\% + 5\% / Rank \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Time Taken:} 1 hour \\
+\end{spelldesc}
+d232 1
+d236 1
+a236 1
+\subsubsection{Spell of Mental Attack (S-1)}
+d238 7
+a244 9
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} 10 seconds + 10 / Rank \\
+\emph{Experience Multiple:} 350 \\
+\emph{Base Chance:} 25\% \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+d252 1
+d254 1
+a254 1
+\subsubsection{Spell of Telepathy (S-2)}
+d256 7
+a262 9
+\begin{spelldesc}
+\emph{Range:} 30 feet + 30 / Rank \\
+\emph{Duration:} 10 minutes + 10 / Rank \\
+\emph{Experience Multiple:} 550 \\
+\emph{Base Chance:} 10\% \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Storage:} Potion \\
+\emph{Target:} Self \\
+\end{spelldesc}
+d274 1
+d276 1
+a276 1
+\subsubsection{Phantasm Spell (S-3)}
+d278 7
+a284 9
+\begin{spelldesc}
+\emph{Range:} Special \\
+\emph{Duration:} Concentration: no maximum \\
+\emph{Experience Multiple:} 400 \\
+\emph{Base Chance:} 1\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+d306 1
+d308 1
+a308 1
+\subsubsection{Spell of Molecular Disruption (S-4)}
+d310 7
+a316 9
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 400 \\
+\emph{Base Chance:} 1\% \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+d322 1
+d324 1
+a324 1
+\subsubsection{Spell of Molecular Rearrangement (S-5)}
+d326 7
+a332 9
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} 10 minutes + 10 / Rank \\
+\emph{Experience Multiple:} 1000 \\
+\emph{Base Chance:} 1\% \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity or Object \\
+\end{spelldesc}
+d339 1
+d341 1
+a341 1
+\subsubsection{Force Shield Spell (S-6)}
+d343 7
+a349 9
+\begin{spelldesc}
+\emph{Range:} Self \\
+\emph{Duration:} 10 minutes + 10 / Rank \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Potion \\
+\emph{Target:} Self \\
+\end{spelldesc}
+d352 1
+d354 1
+a354 1
+\subsubsection{Spell of Healing (S-7)}
+d356 7
+a362 9
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 375 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward, Potion \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+d366 1
+d368 1
+a368 1
+\subsubsection{Spell of Undetectability (S-8)}
+d370 7
+a376 9
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} 10 minutes + 10 / Rank \\
+\emph{Experience Multiple:} 450 \\
+\emph{Base Chance:} 15\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Potion, Ward \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+d403 1
+d405 1
+a405 1
+\subsubsection{Spell of Telekinesis (S-9)}
+d407 7
+a413 9
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} 10 seconds + 10 / Rank \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} 25\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment \\
+\emph{Target:} Entity or object \\
+\end{spelldesc}
+d418 1
+d420 1
+a420 1
+\subsubsection{Spell of Telekinetic Rage (S-10)}
+d422 7
+a428 9
+\begin{spelldesc}
+\emph{Range:} 30 feet + 5 / Rank \\
+\emph{Duration:} Concentration: maximum 60 seconds + 10 / Rank \\
+\emph{Experience Multiple:} 750 \\
+\emph{Base Chance:} 1\% \\
+\emph{Resist:} May be actively \& passive resisted \\
+\emph{Storage:} Investment, Potion, Ward \\
+\emph{Target:} Self \\
+\end{spelldesc}
+d434 1
+d436 1
+a436 1
+\subsubsection{Spell of Mind Speech (S-11)}
+d438 7
+a444 9
+\begin{spelldesc}
+\emph{Range:} 30 feet + 30 / Rank \\
+\emph{Duration:} 10 minutes + 10 / Rank \\
+\emph{Experience Multiple:} 400 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Potion \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+d451 1
+d455 1
+a455 1
+\subsubsection{Ritual of Binding Elements (R-1)}
+d457 3
+a459 5
+\begin{spelldesc}
+\emph{Experience Multiple:} 600 \\
+\emph{Base Chance:} 1\% + 3\% / Rank \\
+\emph{Time Taken:} 1 hour \\
+\end{spelldesc}
+d468 1
+d471 1
+@
+
+
+1.10
+log
+@Typo in telepathy.  Ross Alexander.
+@
+text
+@@
+
+
+1.9
+log
+@Spelling mistake corrections and change of gender.
+@
+text
+@d282 1
+a282 1
+have difficulty comprehending the thoughts of alien minds.  Entity's
+@
+
+
+1.8
+log
+@Change range on Limited precog to special.
+@
+text
+@d143 1
+a143 1
+6 Damage Points from a character by inflicting 3 of the 6 on himself
+d145 1
+a145 1
+cast this spell on characters who are 15 feet (+ 15 / Rank over 10) or
+d192 1
+a192 1
+The Adept controls the animal's mind and body, e.g., it is oly
+@
+
+
+1.7
+log
+@Change range on Phantasm to special.  Alter description to make it clear
+that the target must either be seeable by the Adept, or be on Telepathy,
+at the time of casting the spell.
+@
+text
+@d95 1
+a95 1
+\emph{Range:} Works at any range \\
+d106 1
+a106 1
+them.
+@
+
+
+1.6
+log
+@Release 1.0 snapshot
+@
+text
+@d291 1
+a291 1
+\emph{Range:} Works at any range \\
+d308 8
+a315 8
+The target can only be an entity who has been seen or uniquely
+identified by Telepathy, or whose Individual True Name is known and
+used in the spell.  The TMR of a phantasm is 1 + 1 / Rank. The
+phantasm is unseeable rather than invisible to all others than the
+target -- this includes the caster. The phantasm will be dispelled if
+an area effect Mind Special Knowledge counterspell is cast on an area
+that the phantasm occupies, but it can enter an already existing area
+counterspell.
+d318 1
+a318 1
+subconscious.  Hence the caster cannot choose its appearance.  A
+@
+
+
+1.5
+log
+@Add some changes from Brent's comments and some from Andrew Withy's notes.
+@
+text
+@d18 3
+a20 3
+The following numbers are added to the Base Chance of performing
+any talent, spell, or ritual of the College of Sorceries of the
+Mind which has a target of entity.
+d53 1
+a53 1
+Their concentration is never automatically broken (i.e.. is never
+d56 6
+a61 6
+Since this magical talent, it is affected by cold iron. However, note
+the following points: For a weapon to affect the talent the weapon
+must be cold iron, must have done endurance damage, and must remain in
+contact with the body. If cold iron is used in the torture of a mind
+mage, then the Adept adds their concentration bonus to the base chance
+of resisting the torture attempt.
+d82 1
+a82 1
+\emph{Storage:} Investment, Potion \\
+d100 1
+a100 1
+\emph{Storage:} Investment, Potion \\
+d105 1
+a105 1
+future and may ascertain events that may or may not be important to
+d116 1
+a116 1
+\emph{Storage:} Investment, Potion \\
+d121 4
+a124 3
+detected or ``read'', eg., by Spell of Telepathy (S-2). The Adept's
+Resistance versus Mental Attack (S-1) is increased by 10 (+ 2 / Rank)
+while the spell is in effect.
+d139 5
+a143 5
+sensations the target of the spell is currently experiencing. It also
+allows the Adept to absorb wounds from Endurance and Fatigue at a rate
+of 2 point's cured for every 1 which the Adept agrees to subtract from
+their own Fatigue (never Endurance). Thus, an Adept could remove 6
+Damage Points from a character by inflicting 3 of the 6 on himself
+d192 4
+d208 4
+a211 4
+The Adept gains control of the every action of one person within
+range. They may control the physical activities of that person (but
+may not cause him to cast spells). The subject always acts as if he
+was also affected by a Spell of Slowness (E\&E S-11). The spell
+d220 1
+d234 9
+a242 9
+once during the performance of the ritual and once at the end of each
+day. If they successfully resists, the bonds are broken and they are
+free.  Until that time, they will be the loyal retainer of the Adept
+and serve them in all things.  The Adept may never release the subject
+from servitude voluntarily, and the magic continues to work even after
+the Adept is dead (the subject will dispose of the body and take the
+deceased's personal effects to their widow/widower). If the ritual
+backfires, the Adept loses D10 from their willpower; hypnotism (G-5)
+cures this loss.
+d261 3
+a263 3
+and above they lose [D - 5] from Willpower. This loss of Willpower
+may only be cured via hypnotism (G-5) (once hypnotised, the subject is
+totally cured).
+d273 1
+a273 1
+\emph{Storage:} Investment, Potion \\
+d277 10
+a286 3
+The spell gives the Adept the ability to completely read the every
+thought of all entities within Range. The entity is pinpointed
+whenever their thoughts are read.
+d296 1
+a296 1
+\emph{Storage:} Investment, Ward \\
+d301 1
+a301 1
+combined value of 20 (+ 5 additional points for each 3 Ranks).  The
+d306 1
+a306 9
+damage. It need not make a Strike Check when it hits.
+
+They can only be cast on an entity being seen or uniquely identified
+by telepathy. The TMR of a phantasm is 1 + 1 / Rank. The phantasm is
+unseeable rather than invisible to all others than the target -- this
+includes the caster. The phantasm will be dispelled if an area effect
+Mind Special counterspell is cast on an area that the phantasm
+occupies, but it can enter an already existing area counterspell.  A
+phantasm cannot do critical or endurance blows.
+d308 12
+a319 1
+A phantasm is magical and always acts last in the pulse.
+d334 3
+a336 3
+(substantial rather than insubstantial) form, doing [D + 1] (+ 1 / Rank)
+to any single target that fails to resist and half damage (round up)
+to any target that successfully resists.
+d351 4
+a354 1
+turning it into anything of the same mass that they desire.
+d378 1
+a378 1
+\emph{Storage:} Investment, Ward \\
+d382 1
+a382 1
+The Adept may heal the subject of 2 (+ 1 / Rank) Damage Points that
+d431 1
+a431 1
+\emph{Storage:} Investment, Potion \\
+d452 3
+a454 3
+object or entity away from them at bone-breaking speed out of the
+range of the spell.  Anything which fails to resist suffers [D - 5] (+
+1 / foot travelled) damage.
+d464 1
+a464 1
+\emph{Storage:} \\
+d469 4
+a472 4
+entities. The entities targeted must be, at the time of casting, both
+within the range of the spell and either in sight or pinpointed via
+the Spell of Telepathy. If the entity subsequently leaves the range,
+the communication continues.
+d487 4
+a490 4
+specific ritual for binding the element the Adept is attempting to
+bind, apart from Base Chance and EM. In all other ways the binding is
+executed according to the rules governing the appropriate ritual of
+binding from the College concerned with the element being bound.
+@
+
+
+1.4
+log
+@Fix TK Rage again
+@
+text
+@d20 1
+a20 1
+Mind.
+a33 1
+\emph{Duration:} Always active \\
+a34 1
+\emph{Target:} Self \\
+a43 1
+\emph{Duration:} Always active \\
+a44 1
+\emph{Target:} Self \\
+a65 1
+\emph{Duration:} Always active \\
+a66 1
+\emph{Target:} Self \\
+d104 3
+a106 3
+The Adept may see (unclearly) into the future a number of hours
+equal to 1 (+ 1 / Rank) and may ascertain events that may or may
+not be important to them.
+d120 4
+a123 3
+The Adept cloaks his own mind so that his thoughts cannot be detected
+or ``read.'' The Adept's Resistance versus Mental Attack (S-1) is
+increased by 10 (+ 2 / Rank) while the spell is in effect.
+d159 11
+a169 11
+The Adept may lull an entity of his choice that is within range into a
+trance-like state in which he will be subject to suggestion.  The
+spell may only be cast over a target with whom the caster is normally
+able to communicate verbally. It can never be cast over a totally
+hostile character. Once the subject has been hypnotized, the Adept can
+make suggestions which the subject will readily accept unless they
+conflict directly with their best interests.  The subject will remain
+suggestible so long as concentration is maintained and will continue
+to implement suggestions for 3 (+ 3 / Rank) hours after the suggestion
+has been made, even when no longer hypnotized. The subject will never
+have any idea where the suggestions they are implementing came from.
+d187 3
+a189 3
+The Adept gains control over the every action of one animal within
+range. If he releases the animal or his concentration is broken it may
+attack him.
+d206 3
+a208 3
+was also affected by a Spell of Slowness (Ensorcelments and
+Enchantments S-11). The spell continues in effect until the Adept's
+concentration is broken or they release the victim.
+d222 3
+a224 4
+The Adept may employ this ritual in order to bind the will of 1 entity
+that is physically present and either unconscious or otherwise
+restrained. The ritual takes 1 hour to perform and lasts for 1 day (+
+1 / Rank). The Adept may perform no other action while engaged in the
+d230 2
+a231 2
+free. Until that time, they will be the loyal retainer of the Adept
+and serve them in all things. The Adept may never release the subject
+d234 3
+a236 3
+deceased's personal effects to his widow/widower). If the ritual
+backfires, the Adept loses D10 from his willpower; hypnotism (G-5) may
+cure this loss.
+d252 1
+a252 1
+The Adept may cast this spell at any character within range who can be
+d254 4
+a257 4
+target fails to resist a successful spellcast, he falls
+unconscious. In addition, at Ranks of 15 and above he loses [D - 5]
+from Willpower. This loss from Willpower may be cured via hypnotism
+(G-5) only (once hypnotised, the subject is totally cured).
+d273 1
+a273 1
+whenever his thoughts are read.
+d289 1
+a289 1
+creature is a physical entity which must be targeted at a particular
+d292 10
+a301 14
+counterspell). The phantasm always bites for [D - 4] (+ 1 / Rank)
+damage. It need not make a Strike Check when it hits.  The phantasm is
+invisible to all but the victim.
+
+Phantasms require the active concentration of the caster, i.e.  caster
+cannot sleep or cast other concentration spells while keeping a
+phantasm going. They can only be cast on an entity being seen or
+uniquely identified by telepathy. The TMR of a phantasm is 1 + 1 /
+Rank. The phantasm is unseeable rather than invisible to all others
+than the target -- this includes the caster. The phantasm will be
+dispelled if an area effect counter spell of the appropriate college
+(Mind Special) is cast on an area that phantasm occupies, but it can
+walk into an already existing counterspell with no effects. A phantasm
+cannot do critical or endurance blows.
+d379 1
+a379 1
+The target may be detected if an observing entity makes a 1x
+d416 3
+a418 3
+Allows the Adept to lift 2 pounds and move it at the rate of 1
+mph. The Adept may move an additional 5 pounds or move the chosen
+target at an additional 2 mph per Rank.
+d432 4
+a435 4
+The Adept creates a storm of force emanating from him which hurls any
+object or entity away from him at bone-breaking speed out of the range
+of the spell. Any character who fails to resist suffers [D - 5] (+ 1 /
+foot travelled) damage.
+d460 1
+a460 1
+\emph{Range:} 600 \\
+@
+
+
+1.3
+log
+@Change TK Rage from Target: Object or Entity to Target: Self
+@
+text
+@d439 1
+a439 1
+\emph{Target:} Area \\
+@
+
+
+1.2
+log
+@Changes to gender and mistakes in headers
+@
+text
+@d439 1
+a439 1
+\emph{Target:} Entity or Object \\
+d484 1
+a484 1
+\pagebreak
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 3
+a3 1
+\section{The College of Sorceries of the Mind}
+d16 1
+a16 4
+\subsection{Base Chance Modefiers}
+
+The following numbers are added to the Base Chance of performing any
+talent, spell, or ritual of the College of Sorceries of the Mind.
+d18 8
+a25 6
+{\small \begin{tabular}{lr}
+Each point Adept's Willpower is greater & \\
+than    target's    Willpower. & +1 \\
+Each point Adept's Willpower is less & \\
+than    target's    Willpower & -2 \\
+\end{tabular}}
+a28 9
+\textbf{Note:} This may change to the following
+
+{\small \begin{tabular}{lr}
+Each point Adept's Willpower is greater & \\
+than 20 & +2 \\
+Each point Adept's Willpower is less & \\
+than 20  & -1 \\
+\end{tabular}}
+
+d34 3
+a36 3
+{\em Duration:} Always active \\
+{\em Experience Multiple:} 250 \\
+{\em Target:} Self \\
+d38 1
+d41 1
+a41 1
+weapons.  They are immune to extremes of temperature.
+d46 12
+a57 9
+{\em Duration:} Always active \\
+{\em Experience Multiple:} 300 \\
+{\em Target:} Self \\
+\end{spelldesc}
+Adepts of this College are more or less immune to pain.  They cannot
+be tortured or stunned.  In addition, if there is a chance that their
+concentration may have been broken, 5 (+ 1 / Rank) is always added to the
+Base Chance of their maintaining the concentration despite intrusions.
+Their concentration is never automatically broken (ie.  is never
+d60 6
+a65 13
+\textbf{From the GM's Guide:}
+Since this magical talen, it must be affected by cold iron.  However,
+note the following points :
+\begin{enumerate}
+\setlength\itemsep{0pt}
+\item
+For a weapon to affect the talent the weaspon must be cold iron, must
+have done endurance damage, and must remain in contact with the body.
+\item
+If cold iron is used in the torture of a mind mage, then the Adept
+adds their concentration bonus to the base chance of resisting the
+torture attempt.
+\end{enumerate}
+d70 3
+a72 3
+{\em Duration:} Always active \\
+{\em Experience Multiple:} 300 \\
+{\em Target:} Self \\
+d74 1
+a74 1
+
+d76 1
+a76 1
+detecting an ambush (see 80.2).
+d83 7
+a89 7
+{\em Range:}  30 feet + 15 / Rank \\
+{\em Duration:} 30 seconds + 10 / Rank \\
+{\em Experience Multiple:} 100 \\
+{\em Base Change:} 40\% \\
+{\em Resist:} May not be resisted \\
+{\em Storage:} Investment, Potion \\
+{\em Target:} Self \\
+d91 3
+a93 2
+{\em Effects:} The Adept can sense the presence and general mood (but
+not the exact nature) of any entity within range of the spell.
+d95 1
+a95 2
+\textbf{From GM's Guide:}
+ESP will detect the presence of an entity even if taht entity is mind
+d101 12
+a112 12
+{\em Range:}  works at any range \\
+{\em Duration:} Immediate \\
+{\em Experience Multiple:} 150 \\
+{\em Base Change:} 20\% \\
+{\em Resist:} May not be resisted \\
+{\em Storage:} Investment, Potion \\
+{\em Target:} Self \\
+\end{spelldesc}
+{\em Effects:} The Adept may see (unclearly) into the future a number
+of hours equal to 1 (+ 1 / Rank) and may ascertain events that may or
+may not be important to them.
+
+d117 12
+a128 12
+{\em Range:}  Self \\
+{\em Duration:} 1 hour + 2 / Rank \\
+{\em Experience Multiple:} 250 \\
+{\em Base Change:} 30\% \\
+{\em Resist:} May not be resisted \\
+{\em Storage:} Investment, Potion \\
+{\em Target:} Self \\
+\end{spelldesc}
+{\em Effects:} The Adept cloaks his own mind so that his thoughts
+cannot be detected or ``read.''  The Adept's Resistance versus Mental
+Attack (S-1) is increased by 10 (+2 / Rank) while the spell is in
+effect.
+d133 17
+a149 16
+{\em Range:} Touch until Rank 10 \\
+{\em Duration:} Immediate \\
+{\em Experience Multiple:} 200 \\
+{\em Base Change:} 20\% \\
+{\em Resist:} May not be resisted \\
+{\em Storage:} Investment \\
+{\em Target:} Entity \\
+\end{spelldesc}
+{\em Effects:} The spell allows the Adept to feel the emotions and
+physical sensations the target of the spell is currently experiencing.
+It also allows the Adept to absorb wounds from Endurance and Fatigue
+at a rate of 2 poin's cured for every 1 which the Adept agrees to
+subtract from their own Fatigue (never Endurance).  Thus, an Adept
+could remove 6 Damage Points from a character by inflicting 3 of the 6
+on himself (the other 3 being eliminated).  At Rank 10 or higher, the
+Adept can cast this spell on characters who are 15 feet (+15/Rank) or
+a151 3
+{\em Editors Note:} Is the range correct or should it be 15 feet
+(+15/(Rank-10))?
+
+d155 20
+a174 20
+{\em Range:}  15 feet + 15 / Rank \\
+{\em Duration:} Concentration: No maximum \\
+{\em Experience Multiple:} 200 \\
+{\em Base Change:} 40\% \\
+{\em Resist:} May be actively \& passively resisted \\
+{\em Storage:} Investment \\
+{\em Target:} Entity \\
+\end{spelldesc}
+{\em Effects:} The Adept may lull an entity of his choice that is
+within range into a trance-like state in which he will be subject to
+suggestion. The spell may only be cast over a target with whom the
+caster is normally able to communicate verbally.  lt can never be cast
+over a totally hostile character.  Once the subject has been
+hypnotized, the Adept can make suggestions which the subject will
+readily accept unless they conflict directly with their best
+interests.  The subject will remain suggestable so long as
+concentration is maintained and will continue to implement suggestions
+for 3 (+ 3 / Rank) hours after the suggestion has been made, even when no
+longer hypnotized. The subject will never have any idea where the
+suggestions they are implementing came from.
+d176 1
+a176 2
+\textbf{From GM's Guide:}
+Only one post-hypnotic suggestion may be made per spell.  The duration
+d183 12
+a194 11
+{\em Range:}  30 feet + 15 / Rank \\
+{\em Duration:} Concentration: No maximum \\
+{\em Experience Multiple:} 100 \\
+{\em Base Change:} 40\% \\
+{\em Resist:} May be actively \& passively resisted \\
+{\em Storage:} Investment \\
+{\em Target:} Animal \\
+\end{spelldesc}
+{\em Effects:} The Adept gains control over the every action of one
+animal within range.  If he releases the animal or his concentration
+is broken it may attack him.
+d199 15
+a213 14
+{\em Range:}  30 feet + 15 / Rank \\
+{\em Duration:} Concentration: No maximum \\
+{\em Experience Multiple:} 650 \\
+{\em Base Change:} 30\% \\
+{\em Resist:} May be actively \& passively resisted \\
+{\em Storage:} Investment \\
+{\em Target:} Sentient Entity \\
+\end{spelldesc}
+{\em Effects:} The Adept gains control of the every action of one
+person within range.  They may control the physical activities of that
+person (but may not cause him to cast spells).  The subject always
+acts as if he was also affected by a Spell of Slowness (Ensorcelments
+and Enchantments (S-11).  The spell continues in effect until the
+Adept's concentration is broken or they release the victim.
+d220 5
+a224 5
+{\em Duration:} 1 day + 1 / Rank \\
+{\em Experience Multiple:} 500 \\
+{\em Base Change:} 10\% (+5\% / Rank) \\
+{\em Resist:} May only be passively resisted \\
+{\em Time Taken:} 1 hour \\
+d226 1
+d229 2
+a230 2
+restrained.  The ritual takes 1 hour to perform and lasts for 1 day
+(+ 1 / Rank).  The Adept may perform no other action while engaged in the
+d232 6
+a237 6
+until the effects of the ritual wear off or he breaks the psychic
+bounds restraining him.  The subject gets a chance to passively
+resist once during the performance of the ritual and once at the end
+of each day.  If he successfully resists, the bonds are broken and he
+is free.  Until that time, he will be the loyal retainer of the Adept
+and serve him in all things.  The Adept may never release the subject
+d239 4
+a242 5
+Ehe Adept is dead (the subject will dispose of the body and take the
+deceased's personal effects to his widow/widower).  If the ritual
+backfires, the Adept loses D1O from his willpower; hypnotism (G-5)
+may cure this loss.
+
+d249 15
+a263 15
+{\em Range:}  15 feet + 15 / Rank \\
+{\em Duration:} 10 seconds + 10 / Rank \\
+{\em Experience Multiple:} 350 \\
+{\em Base Change:} 25\% \\
+{\em Resist:} May be actively \& passively resisted \\
+{\em Storage:} Investment, Ward, Magical Trap \\
+{\em Target:} Entity \\
+\end{spelldesc}
+{\em Effects:} The Adept may cast this spell at any character within
+range who can be seen or whose position has been pinpointed via
+Telpathy (S-2). If the target fails to resist a successful spellcast,
+he falls unconscious.  In addition, at Ranks of 15 and above he loses
+[D - 5] from Willpower.  This loss from Willpower may be cured via
+hypnotism (G-5) only (once hypnotised, tne subject is totally cured).
+
+d268 12
+a279 12
+{\em Range:}  30 feet + 30 / Rank \\
+{\em Duration:} 10 minutes + 10 / Rank \\
+{\em Experience Multiple:} 550 \\
+{\em Base Change:} 10\% \\
+{\em Resist:} May only be passively resisted \\
+{\em Storage:} Investment, Potion \\
+{\em Target:} Self \\
+\end{spelldesc}
+{\em Effects:} The spell gives the Adept the ability to completely
+read the every thought of all entities within Range.  The entity is
+pinpointed whenever his thoughts are read.
+
+d284 17
+a300 16
+{\em Range:}  Works at any range \\
+{\em Duration:} Concentration: No maximum \\
+{\em Experience Multiple:} 400 \\
+{\em Base Change:} 1\% \\
+{\em Resist:} May not be resisted \\
+{\em Storage:} Investment, Ward \\
+{\em Target:} Entity \\
+\end{spelldesc}
+{\em Effects:} The spell conjures a beast with an Endurance and
+Fatigue with a combined value of 20 (+ 5 additional points for each 3
+Ranks).  The creature is a physical entity which must be targeted at a
+particular victim.  It will then track the victim down and attack them
+until either the victim is killed or the phantasm is dispelled (using
+a counterspell).  The phantasm always bits for [D - 4] (+ 1 / Rank)
+damage.  It need not make a Strike Check when it hits.  The phantasm
+is invisible to all but the victim.
+d302 1
+a302 2
+\textbf{From GM's Guide:}
+Phantasms require the active concentration of the caster, ie caster
+d304 4
+a307 4
+phantasm going.  The can only be cast on an entity being seen or
+uniquely identified by telepathy.  The TMR of a phantasm is 1 + 1 /
+Rank.  The phantasm is unseeable rather than invisible to all others
+than the target -- this includes the caster.  The phantasm will be
+d309 2
+a310 2
+(Mind Special) is cast on an area that phantasm occupies, but can walk
+into an already existing counterspell with no minuses.  A phantasm
+d313 2
+d318 13
+a330 12
+{\em Range:}  15 feet + 15 / Rank \\
+{\em Duration:} Immediate \\
+{\em Experience Multiple:} 400 \\
+{\em Base Change:} 1\% \\
+{\em Resist:} May be passively resisted (then suffers half damage) \\
+{\em Storage:} Investment, Ward, Magical Trap \\
+{\em Target:} Entity \\
+\end{spelldesc}
+{\em Effects:} Spell causes cellular damage to any living being or
+being incorporeal (substantial rather than insubstantial) form, doing
+[D + 1] (+ 1 / Rank) to any single target that fails to resist and half
+damage (round up) to any target that successfully resists.
+d335 11
+a345 16
+{\em Range:}  15 feet + 15 / Rank \\
+{\em Duration:} 10 minutes + 10 / Rank \\
+{\em Experience Multiple:} 1000 \\
+{\em Base Change:} 1\% \\
+{\em Resist:} May be actively \& passively resisted \\
+{\em Storage:} Investment, Ward, Magical Trap \\
+{\em Target:} Entity or object \\
+\end{spelldesc}
+{\em Effects:} The Adept may rearrange the cells of any object that
+fails to resist, turning it into anything of the same mass that they
+desire.
+
+\textbf{Editor's note:} Perhaps someone should add what happens to
+entities after the duration of the spell has ended.  The current
+(original) writeup is very unclear, especially with respect to
+\emph{cells of any object}.
+d350 7
+a356 7
+{\em Range:}  Self \\
+{\em Duration:} 10 minutes + 10 / Rank \\
+{\em Experience Multiple:} 250 \\
+{\em Base Change:} 40\% \\
+{\em Resist:} May not be resisted \\
+{\em Storage:} Investment, Potion \\
+{\em Target:} Self \\
+d358 2
+a359 2
+{\em Effects:} Reduces the Base Chance of the Adept being hit by 5\%
+(+ 1\% / Rank).
+d364 7
+a370 7
+{\em Range:}  Touch \\
+{\em Duration:} Immediate \\
+{\em Experience Multiple:} 375 \\
+{\em Base Change:} 40\% \\
+{\em Resist:} May not be resisted \\
+{\em Storage:} Investment, Ward \\
+{\em Target:} Entity \\
+d372 3
+a374 2
+{\em Effects:} The Adept may heal the subject of 2 (+ 1 / Rank) Damage
+Points that have been removed from the subject's Fatigue or Endurance.
+d379 30
+a408 27
+{\em Range:} 15 feet + 15 / Rank \\
+{\em Duration:}	10 minutes + 10 / Rank \\
+{\em Experience Multiple:} 450 \\
+{\em Base Chance:} 15\% \\
+{\em Resist:} May not be resisted \\
+{\em Storage:} Investment, Potion, Ward \\
+{\em Target:} Entity \\
+\end{spelldesc}
+{\em Effects:} The target of this spell becomes undetectable (other
+than by touch).  The target may be detected if an observing entity
+makes a 1 \x perception roll.  Only one perception roll is made
+per entity for the duration of the spell, irrespective of the target
+of the spell's actions.  The target of the spell is effectively
+invisible (per E\&E G-8, but cannot be seen by Witchsight or other
+magical means) and therefore has no shodow or relection.  The target
+also emits no odour and leaves no scent.  The target makes no audible
+sound from its direct action, although secondary effects are possible.
+Thus where the target or its possessions interface with the external
+environment, no sound is made, however the adept may make sound using
+non-possessions.  Examples are: an undetectable horse will make no
+sound crossing a cobblestone courtyard; an undetectable man will make
+no sound knocking on a door, however if he uses the knocker
+he will (as neither knocker nor door are possessions).
+
+The target of this spell may initiate physical atiicks or spell casting
+without the spell ceasing effect.  The spell may not be terminated
+voluntarily (other than by way of counterspell).
+d412 1
+a412 10
+the sand, would leave a hole in a room full of dust (as the dust in
+contact withthe target would become a possession and therefore
+undetectable).
+
+The spell may only be cast over entities.  The spell encompasses all
+the target's possessions.  Possessions are non-entity things which are
+worn or carried.  An unconscious or sleeping entity is not a
+possession.
+
+This spell may be made into a potion, invested, or warded.
+d417 12
+a428 11
+{\em Range:}  15 feet + 15 / Rank \\
+{\em Duration:} 10 seconds + 10 / Rank \\
+{\em Experience Multiple:} 250 \\
+{\em Base Change:} 25\% \\
+{\em Resist:} May not be resisted \\
+{\em Storage:} Investment, Potion \\
+{\em Target:} Entity or object \\
+\end{spelldesc}
+{\em Effects:} Allows the Adept to lift 2 pounds and move it at the
+rate of one mile an hour.  The Adept may move an additional 5 pounds or
+move the chosen target at an additional 2 miles an hour per Rank.
+d433 13
+a445 12
+{\em Range:}  30 feet + 5 / Rank \\
+{\em Duration:} Concentration: maximum 60 seconds + 10 / Rank \\
+{\em Experience Multiple:} 750 \\
+{\em Base Change:} 1\% \\
+{\em Resist:} May be actively \& passive resisted \\
+{\em Storage:} Investment, Potion, Ward \\
+{\em Target:} Entity or object \\
+\end{spelldesc}
+{\em Effects:} The Adept creates a storm of force emanating from him
+which hurls any object or entity away from him at bone-breaking speed
+out of the range of the spell.  Any character who fails to resist
+suffers [D - 5] + 1 per foot travelled damage.
+d453 1
+a453 1
+\emph{Base Change:} 20\% \\
+d458 1
+a458 1
+\emph{Effects:} 
+d460 4
+a463 2
+entities within sight (at the time of casting) or pinpointed via the
+Spell of Telepathy and within the range of the spell.
+d467 1
+a467 1
+\subsubsection{Ritual of Binding Elements (T-1)}
+d470 3
+a472 3
+{\em Experience Multiple:} 600 \\
+{\em Base Change:} 1\% (+3\%/Rank) \\
+{\em Time Taken:} 1 hour \\
+d474 1
+d477 1
+a477 1
+element.  The ritual is conducted in exactly the same manner as the
+d479 3
+a481 4
+bind, but the Base Chance is only 1\%.  In addition, the Experience
+Multiple is 600.  In all other ways the binding is executed according
+to the rules governing the appropriate ritual of binding from the
+College concered with the element being bound.
+d485 1
+a485 1
+\end{multicols}@

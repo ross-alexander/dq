@@ -1,0 +1,501 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL30:3.0;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.06.04.05.38.15;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	98.06.04.05.33.30;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	98.05.11.01.20.15;	author rossa;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	98.05.04.22.41.59;	author rossa;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{contributors}
+Ross Alexander \\
+Jim Arona \\
+Jono Bean \\
+Craig Beere \\
+Errol Cavit \\
+Martin Dickson \\
+Daniel Dixon \\
+Jacqui Dunford-Smith \\
+William Dymock \\
+Dean Ellis \\
+Mark Harrison \\
+Michael Haycock \\
+Bryan Holden \\
+Brent Jackson \\
+Gary Jackson \\
+Bart Janssen \\
+Struan Judd \\
+Phil Judd \\
+Rosemary Mansfield \\
+Stephen Martin \\
+Jon McSpadden \\
+George Mitchenson \\
+Michael Parkinson \\
+Carl Reynolds \\
+Lisa Rose \\
+Paul Schmidt \\
+Keith Smith \\
+Terry Spencer \\
+Ben Tabener \\
+Adam Tennant \\
+Sue Turner \\
+Clare West \\
+Andrew Withy \\
+Ian Wood \\
+Michael Young \\
+\end{contributors}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@d2 7
+a8 1
+Ian Wood \\
+d10 4
+a13 3
+Martin Dickson \\
+Jim Arona \\
+Carl Reynolds \\
+a14 5
+Adam Tennant \\
+Dean Ellis \\
+Clare West \\
+Keith Smith \\
+Jon McSpadden \\
+d16 4
+a19 1
+Andrew Withy \\
+d21 2
+d24 6
+a29 1
+William Dymock \\
+d31 5
+a35 2
+Terry Spencer \\
+Lisa Rose \\
+a36 14
+Jono Bean \\
+Ross Alexander \\
+Stephen Martin \\
+Struan Judd \\
+Mark Harrison \\
+Bart Janssen \\
+Sue Turner \\
+Daniel Dixon \\
+Michael Parkinson \\
+Phil Judd \\
+Gary Jackson \\
+Craig Beere \\
+Michael Haycock \\
+Paul Schmidt \\
+@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 36
+a36 243
+\begin{center}
+{\Large \textbf{Contributors}} \\
+\end{center}
+
+\begin{center}
+\begin{tabular}{llll}
+Ian Wood                & Jacqui Dunford-Smith	& Martin Dickson	& Jim Arona \\
+Carl Reynolds           & Bryan Holden		& Adam Tennant		& Dean Ellis \\
+Clare West              & Keith Smith		& Jon McSpadden		& Brent Jackson \\
+Andrew Withy            & Rosemary Mansfield	& George Mitchenson	& William Dymock \\
+Ben Tabener             & Terry Spencer		& Lisa Rose		& Michael Young \\
+Jono Bean               & Ross Alexander	& Stephen Martin	& Struan Judd \\
+Mark Harrison           & Bart Janssen		& Sue Turner		& Daniel Dixon \\
+Michael Parkinson	& Phil Judd		& Gary Jackson		& Craig Beere \\
+			& Michael Haycock	& Paul Schmidt \\
+\end{tabular}
+\end{center}
+
+\vspace*{\fill}
+
+\begin{center}
+\psfig{file=pics/ee.eps}
+\end{center}
+
+\vspace*{\fill}
+
+\begin{center}
+\Large \textbf{History of Edition 1.2}
+\end{center}
+
+\begin{multicols}{3}
+
+\begin{Description}
+\item[June 4, 1998] Various editing changes before final print.
+
+\item[May 11, 1998] Add aquatic adventuring changes from Keith Smith.
+Fix e.g. and i.e. problems.  Change descriptions of Greater
+Enchantment, Sleep, Purification, Strength of Stone and Damnum
+Minatum.  Herbalist stat increase potions changed.  Namer encounter
+method removed and generic names now teachable.
+
+\item[May 7, 1998] Alter navigator find landmark back to DQII original
+rule (Michael Parkinson).  Change Sinking Doom, Whitefire and
+Incinerate to no longer be irresurectable. (Stephen Martin).
+
+\item[May 6, 1998] New combat section by Andrew Withy.
+
+\item[May 5, 1998] New character generation from Rosemary Mansfield.
+Major typographical changes in magic.
+
+\item[April 15, 1998] Artisan and Mechanician completely rewritten
+(Martin Dickson).
+
+\item[March 30, 1998] Expert and Supervisor added to skills
+introduction (Martin Dickson).  Courtier, Philosopher, Military
+Scientist and Troubadour completely rewritten (Martin Dickson).
+
+\item[September 3, 1997] Add minor typographical changes to Ice, Water
+and corrections from Keith Smith.
+
+\item[June 23, 1997] Typesetting changes to force Binder and Ice to
+put in an empty page if end on odd page.
+
+\end{Description}
+\end{multicols}
+
+
+\begin{center}
+\Large \textbf{History of Edition 1.1}
+\end{center}
+
+\begin{multicols}{3}
+
+\begin{Description}
+\item[6 June, 1997] Final print for 1997 rulebook.
+
+\item[5 June, 1997] Witchcraft control weather modified.  Initial stat
+generation modified so player can choose 90 points rather than
+rolling.  Bardic 1.1 added (Jacqui Smith and Martin Dickson).
+
+\item[22 May, 1997] Parts of Stephen Martin's document on eating,
+recovery and infection added.  Infection removed from combat.  Falling
+removed from Thief and put into Adventure.  Binder 1.1 from Stephen
+Martin added.
+
+\item[15 May, 1997] Aquatic Affinity talent added to Water (Keith
+Smith).  Paragraph about Bardic and Ice being probationary until June
+1999.  Skills imply knowledge of the subject area added (Martin
+Dickson).  Skills do not necessarily imply traits added (Ian Wood).
+
+Notes on blood agents moved from infection in combat.  Infection
+removed from combat.
+
+\item[7 May, 1997] Walls of Darkness and Walls of Starlight changed so
+that BC/EM switched for Solar/Star (Andrew Withy).  Version changed to
+1.3.  Necro and Witchcraft Darkness modified to Celestial Darkness.
+Ice 1.5 from Carl Reynolds introduced (May Gods meeting).
+
+\item[29 April, 1997] Numerous minor changes.  Damage on heavy
+crossbows changed from +4 to +5.
+
+\item[22 April, 1997] Weight of invested items changed to minimum of
+one ounce (April Gods meeting).
+
+\item[9 April, 1997] Weight table modified so that values represent
+maximums rather than median values.  This should make it simpler to
+use.  Mages now cannot cast while prone.  Gilding removed from
+restrictions on magic and cold iron.
+
+\item[6 April, 1997] Ice College 1.3 added by Carl Reynolds - 12/1/96.
+Bardic 1.0 by Jacqui Smith added.
+
+\item[April 1, 1997] Typo in Waters of Vision and Crystal of Vision
+fixed.
+
+\item[March 20, 1997] Notes on shaped items added to introduction
+to magic.
+
+\item[March 19, 1997] Monsters introduction and aspect moved to
+GM's Guide.
+
+\item[March 14, 1997] DQ Swimming Skill - Ver 2.3 by Keith Smith
+added.  Flying added and EP added to EP table (as 125 / Rank).  Notes
+on Ranking added to adventuring section.
+
+\item[March 13, 1997] Extended rituals and notes on possessions
+moved from Binder to general magic.  Counterspells made wardable
+and trappable.  Storages on Namer spells fixed.
+
+\item[February 28, 1997] Guild banking removed from adventure
+section and appending to player's guide.
+
+\item[February 25, 1997] Spelling mistake in combat summary fixed.
+Invisibility added to modifiers (-50).  Water fixed by Clare West,
+with new version (1.3).
+
+\item[February 11, 1997] Giants changed to weight multiple 9 (to be
+confirmed).  Notes of other creatures added.  Minor fixes to Illusion
+1.4.
+
+\item[February 7, 1997] Change maximum Rank of Silent Tongue to six.
+
+\item[January 15, 1997] Spelling mistakes corrected in Namer Name
+List, Light and Dark Aspect and Minor Magics.  Additional indices
+added to Introduction to Magic.
+
+\item[December 17, 1996] New version of the Investment ritual (v1.0)
+added.  Extra indices added to college and non college ritual section.
+
+\item[November 5, 1996] Awe table appended to fright table.  Fright
+from low PB now minimum 1 \x WP.
+
+\item[November 1, 1996] Additional indexes added and notes on
+orienteering changed in the skills cost tables.  Ordering of tables
+changed.  Daylight time and holiday times moved to Player's Guide.
+
+\item[October 8, 1996] Map reading added to ranger.  Map reading
+and drawing maps changed in navigator.  Orienteering removed and
+artisan cartographer added instead (Andrew Withy).
+
+\item[October 1, 1996] Tidy up files in general.  Targeting in magic
+changed so that an Adept can attempt to cast at a target that is
+potentially out of range in the hope of a multiple effect.  Notes on
+magical storage (not approved at this time) added to magic.  Distract
+removed from minor magic.
+
+\item[September 26, 1996] Greater Summonings altered.  The
+descriptions of imps, devils, succubi and incubi removed and put into
+the monster manual, while the descriptions of the special rituals
+(summoning Dukes, Princes, Presidents, Earls, Marquis and Kings)
+added.  Half devils also added to monster manual, under summonables.
+
+\item[September 16, 1996] Add two new combat spells to Air (Jon
+McSpadden), and change version to 2.1.  Fix resistance in Damnum
+Magnatum.  Add notes on magical storage to introduction to magic.  Add
+note that learning a college for the first time takes 6500 ep and six
+months.  Dragon Flames and Necrosis now actively resistable.
+
+\item[September 12, 1996] Changes to Celestial Lighting modifiers and
+the spells of Light and Darkness added.  Version updated to 1.2.
+
+\item[August 12, 1996] Add new bow rules.  Missile weapons before
+unarmed combat in combat section and tables updated.
+
+\item[August 9, 1996] Change the description of orcs and their racial
+multiplier to 1.1.  Change hill giants size multiplier to 11 (rather
+than 15).  This has to be verified.  Be able to target outside normal
+range in the hope of a double or triple.
+
+\item[July 11, 1996]
+Add Monsters section introduction and notes on aspects.
+
+\item[March 27, 1996]
+Add Name list of Namer.  Add holidays and sunrise / sunset table.  Add
+combat equation summary to tables.
+
+\item[March 25, 1996] Rework coinage table to make clearer.  Make
+first reprint.
+
+\item[February 22, 1996] Change weight of coins and remove personal
+names from colleges.
+
+\item[February 17, 1996] Parameters tweaked for formatting, and tables
+moved to back of book, after skills.
+
+\item[January 12, 1996] Initial release for players and GMs.  Release
+document does not contain combat.
+
+\item[January 5, 1996] E \& E and Mind revised by Ross Alexander and
+Brent Jackson.
+
+\item[October 14, 1995] Air rewritten by Jono Bean, Carl Reynolds,
+Phil Judd and Rosemary Mansfield.  Version 2.0 released.
+
+\item[October 14, 1995] Illusion rewritten by Andrew Withy to version
+1.3.
+
+\item[October 1, 1995] General magic revised by Ross Alexander, Andrew
+Withy and Brent Jackson.
+
+\item[June 8, 1995] Water revised by Clare West to version 1.2.
+
+\item[June 6, 1995] First draft is released to GMs for comments and
+corrections.
+
+\item[June 4, 1995] Earth revised by Ross Alexander to version 1.2.
+
+\end{Description}
+\end{multicols}
+
+\vspace*{\fill}
+
+\textbf{Copyright}
+
+DragonQuest is copyright to Simulations Publications, Inc.  First
+Edition, Copyright\copyright{} 1980.  Second Edition,
+Copyright\copyright{} 1981.  Parts of the work \copyright{} 1996,
+1997, 1998 to Ross Alexander.
+
+The above named contributors assert their right to this work.  This
+rule book is copylefted under the GNU Public License, version 2.0.
+
+\clearemptydoublepage
+@
+
+
+3.0
+log
+@REL30
+@
+text
+@@
+
+
+1.3
+log
+@Checkin for release 3.0.
+@
+text
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d34 10
+a43 2
+\item[May 7, 1998] Alter nagivator find landmark back to DQII original
+rule (Michael Parkinson).  Change Sinking doom, Whitefire and
+d61 1
+a61 1
+\item[June 23, 1997] Typesetting changes to force binder and ice to
+d79 1
+a79 1
+rollings.  Bardic 1.1 added (Jacqui Smith and Martin Dickson).
+d83 1
+a83 1
+removed from Thief and put into adventure.  Binder 1.1 from Stephen
+d86 1
+a86 1
+\item[15 May, 1997] Aquatic Afinity talent added to Water (Keith
+d106 3
+a108 3
+maximums rather median values.  This should make it simpler to use.
+Mages now cannot cast while prone.  Gilding removed from restrictions
+on magic and cold iron.
+d124 1
+a124 1
+on Ranking added to adventurering section.
+d151 1
+a151 1
+from low PB now minium 1 \x WP.
+d155 1
+a155 1
+changed.  Daylight time and holiday times moved to Player's Guild.
+d158 1
+a158 1
+and drawing maps changed in nagivator.  Orienteering removed and
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d34 10
+a43 1
+\item[April 15 1998] Artisan and Mechanician completely rewritten
+d46 1
+a46 1
+\item[March 30 1998] Expert and Supervisor added to skills
+d50 1
+a50 1
+\item[3 September 1997] Add minor typographical changes to Ice, Water
+d53 1
+a53 1
+\item[23 June, 1997] Typesetting changes to force binder and ice to
+@

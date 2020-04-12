@@ -1,0 +1,681 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.3;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	98.06.04.05.35.09;	author rossa;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	98.05.11.01.21.19;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.04.06.03.16.22;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	96.10.08.01.57.18;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	96.02.23.02.17.18;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	96.01.12.02.24.49;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.04.07.05.08.49;	author rale01;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.04.06.04.31.26;	author rale01;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{skill}{Artisan}{2.0}{artisan}
+
+Artisan is not a skill in itself. It is a heading under which many
+craft, trade and service skills may be grouped, as they all function
+in a similar manner within the rules. Any, or indeed all of the skills
+listed below may be learned, but each is learned and ranked as a
+separate skill. Knowledge of any one of the artisan skills confers no
+benefit with regard to learning or ranking another.
+
+\subsection{Artisan Skills}
+
+The most common skills under the heading of artisan are:
+
+\begin{Description}
+\item[Apiarist] bee breeder, keeper, honey collector.
+\item[Artist, Painter] formal, perspective painting.
+\item[Artist, Sculptor] sculpture design and construction.
+\item[Barber / coiffeur] simple hairstyling through to massive structures of hair, wire and glue, made to resemble ships in full sail, castles, etc.
+\item[Basketmaker] basket weaving, making wicker.
+\item[Blacksmith] iron smelting and fashioning, simple founding.
+\item[Brewer] brewing beer, ale, stout, mead, creating new recipes.
+\item[Brickmaker/bricklayer] mixing the ingredients for bricks, using brick moulds, checking integrity, making brick constructions, designing paving stones.
+\item[Butcher] killing, butchering and preparation of animals.
+\item[Carpenter / cabinetmaker] joints and wood-\-joining, woodworking, making basic wooden constructions, wooden furniture.
+\item[Calligrapher / illuminator] fancy script, book illustration, drafting official documents.
+\item[Cartographer / chartmaker] map and sea chart making and copying.
+\item[Cartwright / wheelwright] basic wagon and cart design, wagon, cart and wheel construction.
+\item[Carver / bone / etching / wood] carving, engraving, woodcuts, plates for printing.
+\item[Caster / pewterer / tinsmith] complex and intricate casting by sand, mould or "lost wax" methods.  Making and casting pewter and smelting and fashioning of soft base metals.
+\item[Chandler / lamp maker] design and construction of lamps and lanterns.
+\item[Charcoaler] making charcoal from partially burnt wood and bones.
+\item[Cheesemaker] turning milk into curds and whey, pressing curd to form cheese, creating new recipes.
+\item[Clothmaker / fuller / weaver] material collection, cleaning, spinning, weaving, hammering in dirt to soften, cloth design and creation.
+\item[Cobbler / cordwainer] shoe and boot design and construction.
+\item[Cook / baker] food preparation and cooking, baking, pastry making, creating new recipes.
+\item[Cooper] design and construction of barrels and casks.
+\item[Dyer / inkmaker] extraction of natural dyes, mixing of mineral compounds to make inks and dyes.
+\item[Farmer/gardener] ploughing, planting, tending, harvesting, food crops or ornamental plants.
+\item[Fisher] fishing, basic net repair, fish identification.
+\item[Glass-blower] glass mixing, blowing, window construction, staining.
+\item[Gold / silversmith] smelting and fashioning of gold, silver, platinum and other precious metals.
+\item[Hatter / milliner] design and construction of men's and women's hats.
+\item[Hunter / trapper] use of gin, or other animal traps, skinning, animal collection.
+\item[Husbander] breeding, raising, tending of animals.
+\item[Lapidary] gem and semi-precious stone cutting, polishing, finishing.
+\item[Leatherworker] making of leather into garments and articles such as saddles.
+\item[Locksmith] design and construction of simple locks.
+\item[Lumberjack] tree felling, hewing, sawing for planks, replanting.
+\item[Mason] stone quarrying, cutting, finishing and fitting.
+\item[Miller] milling grains into flour, millwheel use.
+\item[Miner] quarrying, prospecting, tunnelling, not mine design.
+\item[Musical instrument maker] design and construction.
+\item[Papermaker] plant collection, pulping, screening, drying, grading, creating new recipes.
+\item[Perfumer] extraction of scents, perfume recipe creation, perfume mixing.
+\item[Plasterer] mixing and application of plaster.
+\item[Potter] clay collection and mixing, pottery design and construction, firing, glazing.
+\item[Printer / bookbinder] setting printing type and plates, press operation, binding books.
+\item[Roofer / thatcher] material collection, bundling, binding, attaching roofs of thatch, sod, or tile.
+\item[Rope / netmaker] plant collection, unravelling, winding and braiding, net design and construction.
+\item[Rug / carpetmaker] pattern design, material  collection, weaving, and finishing.
+\item[Sail/tentmaker] sail construction, sewing tents, tarring and waterproofing.
+\item[Sailor] operating small boats and crewing ships. Basic sail repair and knots.
+\item[Salter] salt collection from inland sources or by evaporating seawater.
+\item[Shipwright] boat and ship construction from standard designs, not creating new designs.
+\item[Tailor/seamstress] cutting, fitting, designing and constructing, men's or women's clothing.
+\item[Tanner/hideworker/furrier] cleaning, scraping, preserving, grading, leather or pelts, making of preserved pelts into garments, or garment trims..
+\item[Tattooist] tattoo design, pigment mixing and implementation.
+\item[Taxidermist] pithing, preserving, stuffing and mounting of animals and trophies.
+\item[Tinker] basic metal implement repair, knife grinding.
+\item[Toymaker] design and construction of puppets, dolls and simple mechanical toys.
+\item[Undertaker / embalmer] funeral preparation and celebration, body preservation and reconstruction, mixing embalming fluids.
+\item[Vintner] manufacture of wine, sherry, port, brandy and other fermented or distilled beverages, creating new recipes.
+\item[Wig maker] hair collection, cleaning, sorting, wig design, manufacture and fitting.
+\end{Description}
+
+\subsection{Benefits of Rank}
+
+An Artisan becomes increasingly more effective at their skill as their
+rank increases. An artisan may always work at an effective Rank lower
+than their true rank. Standard items, as shown on the DQ Equipment
+List, are manufactured with an effective Rank of 0.  The artisan
+creating the item may have had a higher rank than this, but the skill
+used was elementary. Generally, work produced at a higher effective
+Rank will appear better, be more aesthetically pleasing, be more
+durable, taste better, or result in a higher yield, as appropriate.
+
+\begin{Description}
+\item[Applicable base chance]  +1\% / Rank applied.
+\item[Applicable characteristic] + 1 / 5 full Ranks applied.
+\item[Difficulty modifier] -0.5 / 5 full Ranks applied.
+\item[Yield] +5\% / Rank applied.
+\end{Description}
+
+These effects are not cumulative, but the effective Rank used may be
+spread between these aspects.  The benefits of the improved quality
+will only accrue if the Skill (or item created) is used correctly and
+in appropriate circumstances.
+
+\begin{example}
+A seamstress with Rank 8 in her kkill creates a ball gown at an
+effective Rank of 8 for a courtesan.  She must make the gown out of
+very high quality cloth (of an appropriate type) and can either create
+a gown which confers +8\% on reaction rolls or one that gives +1 PB and
++3\% on reaction rolls, provided that the courtesan wears it both
+correctly and in a situation for which it was designed.
+\end{example}
+
+\begin{example}
+A carpenter with Rank 7 may build a door (to resist the gentle
+ministrations of adventurers) that either reduces their chance of
+kicking it down by 7\% or is half a difficulty factor harder to kick
+in and further reduces their chances by 2\%.
+\end{example}
+
+\begin{example}
+A Fisher with Rank 10 may catch 150\% (100 + (Rank 10 \x 5\%)) of the
+normal amount of fish, in a days fishing.
+\end{example}
+
+No more than one Artisan bonus may applied to a specific Base Chance
+or Difficulty Modifier, be gained to any one characteristic, or be
+added to a Yield. If there is a conflict the better of the bonuses may
+be employed.
+
+\begin{example}
+If the courtesan in the example above where to wear her Rank 8 (+1 PB,
++3\%) ballgown in conjuntion with the a tiara she had made at Rank 5
+that also grants +1 PB, she would still only gain +1 to PB.
+\end{example}
+
+If the Skill (or item created) is used incorrectly or in inappropriate
+circumstances then no bonus will be gained and negative modifiers may
+apply.
+
+\subsection{Time \& Cost}
+
+The time and cost for an artisan to perform their skill is dependant
+on the effective Rank used and the Base Time required for that skill.
+
+The Time required is: (Base Time \x ((effective Rank / 2) + 1)).
+
+\begin{example}
+If the base time to make a Rank 0 ball gown is 1 week, then an Rank 7
+one will take 1 week \x ((7 / 2) + 1) = 4.5 weeks.
+\end{example}
+
+The Cost is (80\% of Base Cost \x (effective Rank + 1)) silver
+pennies. Note: This is the cost to the artisan, not the sale price.
+
+\subsubsection{Exceptions}
+
+Those Ranks used to gain extra yield do not count in the time
+calculation.  Also, half of any Ranks possessed by the artisan above
+the rank being used, may be subtracted from the effective Rank in the
+time calculation, to a minimum of the base time.
+
+\subsection{Artisan as Merchant}
+
+An artisan is treated as a merchant of half their Rank (rounded down)
+when attempting to buy or value equipment or materials with which
+someone with their skill would be familiar.
+
+\subsection{Requirements}
+
+An artisan will usually require a workshop, or at least a tool-kit to
+perform their skill properly. The cost of tools and basic materials
+will vary, but will usually be (100 + (50 \x Rank)) silver pennies. An
+artisan may not perform their skill at a higher rank than that of
+their workshop or tool kit.
+
+\end{skill}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 1
+a1 5
+\section{Artisan (Ver 2.0)}
+\label{artisan}
+
+\index{artisan|(}
+\index{skills!artisan|(}
+d7 1
+a7 1
+separate skill. Knowledge of any one of the Artisan skills confers no
+d12 1
+a12 1
+The most common skills under the heading of Artisan are:
+d79 1
+a79 1
+rank increases. An Artisan may always work at an Effective Rank lower
+d81 1
+a81 1
+List, are manufactured with an Effective Rank of 0.  The Artisan
+d83 1
+a83 1
+used was elementary. Generally, work produced at a higher Effective
+d100 2
+a101 2
+A Seamstress with Rank 8 in her Skill creates a ball-gown at an
+Effective Rank of 8 for a courtesan.  She must make the gown out of
+d109 1
+a109 1
+A Carpenter with Rank 7 may build a door (to resist the gentle
+d111 2
+a112 2
+kicking it down by 7\% or is half a difficulty factor harder to kick in
+and further reduces their chances by 2\%.
+d126 1
+a126 1
+If the Courtesan in the example above where to wear her Rank 8 (+1 PB,
+d137 2
+a138 2
+The time and cost for an Artisan to perform their skill is dependant
+on the Effective Rank used and the Base Time required for that skill.
+d140 1
+a140 1
+The Time required is: (Base Time \x ((Effective Rank / 2) + 1)).
+d143 1
+a143 1
+If the Base Time to make a Rank 0 Ball-gown is 1 week, then an Rank 7
+d147 2
+a148 2
+The Cost is (80\% of Base Cost \x (Effective Rank + 1)) silver
+pennies. Note: This is the cost to the Artisan, not the sale price.
+d152 4
+a155 4
+Those Ranks used to gain extra yield do not count in the Time
+calculation.  Also, half of any Ranks possessed by the Artisan above
+the Rank being used, may be subtracted from the Effective Rank in the
+Time calculation, to a minimum of the Base Time.
+d159 1
+a159 1
+An Artisan is treated as a Merchant of half their Rank (rounded down)
+d165 1
+a165 1
+An Artisan will usually require a workshop, or at least a tool-kit to
+d168 1
+a168 1
+Artisan may not perform their skill at a higher rank than that of
+d171 1
+a171 2
+\index{artisan|)}
+\index{skills!artisan|)}
+@
+
+
+3.2
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+3.1
+log
+@Check in before modifying e.g. and i.e.
+@
+text
+@d85 5
+a89 5
+List as manufactured with an Effective Rank of 0. The Artisan creating
+the item may have had a higher rank than this, but the skill used was
+elementary. Generally, work produced at a higher Effective Rank will
+appear better, be more aesthetically pleasing, be more durable, taste
+better, or result in a higher yield, as appropriate.
+@
+
+
+3.0
+log
+@Complete rewrite by Martin Dickson.
+@
+text
+@d2 4
+d175 2
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d1 1
+a1 64
+\section{Artisan (Ver 1.0)}
+\label{artisan}
+\index{artisan|(}
+
+Artisan is not a skill in itself.  It is a heading under which many
+``Trade'' skills can be grouped, as they all act in a similar fashion
+inside the DragonQuest system.  Any (or all) of the skills listed
+below may be learned, but each is learnt and ranked as a completely
+separate skill.  Knowledge of any of the Artisan skills confers no
+particular benefit when learning or ranking any of the others.  The
+most common skills under the heading Artisan are
+
+\subsection{Various Artisan Skills}
+
+\begin{flushleft}
+Apiarist (Bee Keeper) \\
+Artist/Painter/Sculptor \\
+Barber \\
+Basket maker \\
+Blacksmith \\
+Brewer \\
+Butcher \\
+Calligrapher/Illuminator \\
+Carpenter/Cabinetmaker \\
+Cartographer \\
+Cart wright/Wheelwright \\
+Carver (Wood, Bone, Etching) \\
+Chandler/Lamp maker \\
+Cheesemaker \\
+Cobbler/Boot maker/Cordwainer \\
+Cook/Baker \\
+Cooper (Barrels \& Casks) \\
+Dyer/Ink maker \\
+Farmer/Gardener \\
+Fisher \\
+Glass-blower (inc., windows) \\
+Gold/Silversmith \\
+Hatter/Milliner \\
+Husbandry man (raising animals) \\
+Gem Cutter \\
+Locksmith \\
+Miller \\
+Miner \\
+Musical Instrument maker \\
+Papermaker \\
+Perfumer \\
+Pewterer/Caster \\
+Potter \\
+Printer/Bookbinder \\
+Rope/Net maker \\
+Sail/Tentmaker \\
+Shipwright \\
+Stone Mason \\
+Tailor/Seamstress \\
+Tanner \\
+Thatcher/Roofer \\
+Tattooist \\
+Taxidermist \\
+Toy maker \\
+Undertaker/Embalmer \\
+Vintner \\
+Weaver/Cloth maker \\
+Wig maker \\
+\end{flushleft}
+d3 74
+a76 2
+\subsection{Benefits}
+\index{artisan!benefits}
+d79 19
+a97 18
+rank increases.  An Artisan may always work at an Effective Rank lower
+than their true rank.  Generally, work produced at a higher Effective
+Rank will appear better, be more aesthetically pleasing, be more
+durable, smell better, taste better or whatever as applicable.
+Standard items, as shown on the DQ Equipment List are manufactured
+with an Effective Rank of 0.  The Artisan creating the item may have
+an actual Rank higher than this, but the skill used was elementary.
+
+Every Effective Rank an Artisan skill is performed with allows an
+applicable percentile roll to be modified by 1\%.
+
+For every Effective Rank divisible by \emph{five} an applicable
+characteristic may be modified by 1 \emph{or} an applicable
+difficulty modifier may be altered by 0.5
+
+These benefits are not cumulative (though non-cumulative combinations
+are allowable), and will only accrue if the skill (or item created) is
+used correctly and in appropriate circumstances.
+d100 7
+a106 6
+A Seamstress with Rank 8 in her skill creates a ball-gown at an
+Effective Rank of 8 for a Courtesan.  She must make the gown out of
+very high quality cloth (of an appropriate type) and can \emph{either}
+create a gown which confers +8\% on reaction rolls \emph{or} one that
+gives +1 PB and +3\% on reaction rolls, provided that the Courtesan
+wears it both correctly, and in a situation for which it was designed.
+d108 1
+d110 19
+a128 3
+ministrations of adventurers) that \emph{either} reduces their chance
+of kicking it down by 7\% or is half a difficulty factor harder to
+kick in and further reduces their chances by 2\%.
+d131 20
+a150 2
+\subsection{Requirements}
+\index{artisan!requirements}
+d152 4
+a155 13
+The time and cost for an Artisan to perform their skill is dependent
+on the Effective Rank used and the Basic time required for that
+skill.
+
+\begin{itemize}
+\item The time required is (Base Time \x ((Effective Rank / 2) + 1)).
+For example, if a ball gown's base time to prepare is a week, then an
+Effective Rank 7 one will take 1 week \x ((7 / 2) + 1) = 4.5 weeks
+
+\item The cost is (80\% of Base Cost \x (Effective Rank + 1)) silver
+pennies.  \textbf{Note:} This is the cost to the Artisan, not the sale
+price.
+\end{itemize}
+d157 1
+a157 2
+\subsection{Artisan as a Merchant}
+\index{artisan!as merchant}
+d163 1
+a163 2
+\subsection{Costs}
+\index{artisan!costs}
+d165 5
+a169 5
+An Artisan will usually require a workshop, or at least a tool kit to
+perform their skill properly.  The cost of tools (and very basic
+materials) will vary, but will usually be around (100 + 50 \x Rank)
+silver pennies.  An Artisan may not perform their skill at a higher
+Effective Rank than that of their workshop or tool kit.
+a170 1
+\index{artisan|)}@
+
+
+1.5
+log
+@indexes and cartographer added.
+@
+text
+@@
+
+
+1.4
+log
+@Removed Martin Dixon's name from start of the skill.
+@
+text
+@d2 2
+d19 1
+a19 1
+Basketmaker \\
+d25 2
+a26 1
+Cartwright/Wheelwright \\
+d30 1
+a30 1
+Cobbler/Bootmaker/Cordwainer \\
+d33 1
+a33 1
+Dyer/Inkmaker \\
+d39 1
+a39 1
+Husbandryman (raising animals) \\
+d50 1
+a50 1
+Rope/Netmaker \\
+d57 1
+a57 1
+Tattoist \\
+d59 1
+a59 1
+Toymaker \\
+d62 1
+a62 1
+Weaver/Clothmaker \\
+d67 1
+d104 1
+d121 1
+d128 1
+d136 1
+@
+
+
+1.3
+log
+@Release 1.0 snapshot
+@
+text
+@a2 2
+\textbf{Martin Dickson}
+
+@
+
+
+1.2
+log
+@Corrections done form March printed version
+@
+text
+@d3 1
+a3 1
+Martin Dickson
+d16 1
+a16 1
+Aparist (Bee Keeper) \\
+d23 1
+a23 1
+Caligrapher/Illuminator \\
+d35 1
+a35 1
+Glass-blower (inc. Windows) \\
+d88 1
+a88 1
+A Seamstress with rank 8 in her skill creates a ball-gown at an
+d91 1
+a91 1
+create a own which confers +8\% on reaction rolls \emph{or} one that
+d109 2
+a110 2
+For Example if a Ball-Gown's base time to prepare is a week, then an
+Effective Rank 7 one will take : 1 week \x ((7 / 2) + 1) = 4.5 weeks
+d119 1
+a119 1
+An Artisan is treated as a Merchant of half their rank (rounded down)
+a122 1
+
+d125 1
+a125 1
+ An Artisan will usually require a workshop, or at least a tool kit to
+d127 3
+a129 5
+materials) will vary, but will usually be around (100 + 50 \x
+Rank) silver pennies. An Artisan may not perform their skill at a
+higher Effective Rank than that of their workshop or tool kit.  An
+annual expenditure of 25\% of the purchase price is required to
+maintain either.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d79 3
+a81 3
+For every Effective Rank divisible by FIVE an applicable
+characteristic may be modified by 1 OR an applicable difficulty
+modifier may be altered by .5
+d91 3
+a93 3
+create a own which confers +8\% on reaction rolls OR one that gives +1
+PB and +3\% on reaction rolls, provided that the Courtesan wears it
+both correctly, and in a situation for which it was designed.
+d108 7
+a114 6
+\item The time required is (Base Time \x ((Effective Rank / 2) + 1))
+Eg. if a Ball-Gown's base time to prepare is a week, then an Effective
+Rank 7 one will take : 1 week \x ((7 / 2) + 1) = 4.5 weeks
+
+\item  The cost is (80\% of Base Cost \x (Effective Rank + 1)) silver pennies.
+N.B. This is the cost to the Artisan, NOT the sale price.
+@

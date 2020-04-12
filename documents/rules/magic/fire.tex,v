@@ -1,0 +1,4289 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL50:5.4
+	REL40:4.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.5;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.29.31;	author ralexand;	state Exp;
+branches;
+next	5.8;
+
+5.8
+date	2001.07.11.16.09.57;	author ralexand;	state Exp;
+branches;
+next	5.7;
+
+5.7
+date	2001.07.11.16.07.51;	author ralexand;	state Exp;
+branches;
+next	5.6;
+
+5.6
+date	2000.08.31.08.26.44;	author ralexand;	state Exp;
+branches;
+next	5.5;
+
+5.5
+date	2000.08.31.08.26.24;	author ralexand;	state Exp;
+branches;
+next	5.4;
+
+5.4
+date	2000.06.09.15.30.14;	author ralexand;	state Exp;
+branches;
+next	5.3;
+
+5.3
+date	2000.06.08.23.51.05;	author ralexand;	state Exp;
+branches;
+next	5.2;
+
+5.2
+date	2000.06.08.21.46.13;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2000.06.08.13.24.22;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.5;
+
+4.5
+date	2000.05.22.10.37.59;	author ralexand;	state Exp;
+branches;
+next	4.4;
+
+4.4
+date	2000.03.02.16.33.12;	author ralexand;	state Exp;
+branches;
+next	4.3;
+
+4.3
+date	2000.03.02.16.30.38;	author ralexand;	state Exp;
+branches;
+next	4.2;
+
+4.2
+date	2000.03.02.16.29.19;	author ralexand;	state Exp;
+branches;
+next	4.1;
+
+4.1
+date	2000.03.02.16.27.19;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	98.06.04.05.35.07;	author rossa;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	98.05.06.22.53.08;	author rossa;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	98.05.05.05.38.12;	author rossa;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	98.05.05.00.13.38;	author rossa;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	98.05.04.04.05.57;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.05.04.03.42.09;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	97.07.24.02.23.46;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	96.10.07.23.14.42;	author rossa;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	96.09.16.01.16.03;	author rossa;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	96.09.16.01.02.36;	author rossa;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	96.09.15.23.01.35;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	96.01.12.02.27.53;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	95.05.11.04.13.20;	author rale01;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	95.05.09.02.35.39;	author rale01;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.05.06.22.25.42;	author rale01;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.04.20.03.28.58;	author rale01;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{college}[2.0]{fire}{Fire Magics}{FI}
+
+\textbf{This College is a probationary College. This means that this
+College is under trial for two years (as of January 2000). All
+characters that join this College do so under the understanding that
+if this College is deemed unplayable, it may be withdrawn or radically
+changed. At that point, all such characters may have the EP and time
+spent in this College refunded, to be re-spent freely in another
+College as if that College had been their original choice.}
+
+The College of Fire Magics is concerned exclusively with manipulating
+the element of fire. Adepts of this College are referred to as Fire
+Mages or Pyromancers.
+
+The affinity fire mages have for their element has often led to them
+being considered to be pyromaniacs. Most fire mages, however, have a
+healthy respect for fire, and rarely will they wantonly set people or
+places alight. They do enjoy being in or near fire and are generally
+the first to suggest a nice camp fire when adventuring. Fire mages are
+also thought to be hot-tempered, to enjoy hot and spicy food, and to
+dislike getting wet. They frequently have red hair. Generally fire
+mages are flamboyant characters, particularly in their
+spell-casting. The College of Fire Magics is anything but subtle, and
+its spells involve more than the usual amounts of shouting and
+arm-waving.
+
+The element of fire is unquestionably destructive, and as a
+consequence the majority of the spells of this college cause
+considerable amount of damage, if only as a side-effect. The Fire
+College is not noted for being harmless, and so fire mages are even
+less popular than most mages among the common folk. When it is
+revealed that a person is an Adept of the Fire College the usual
+reaction will generally be one of fear and trepidation. Fire mages are
+quite amicable towards the Adepts of other colleges with the notable
+exception of those of the College of Water Magics.
+
+\subsubsection{Traditional colours}
+
+Fire mages generally prefer to wear red, the colour of their element,
+often trimmed with black, yellow or orange. For jewellery the fire
+mage most frequently chooses garnets or rubies, set in gold.
+
+\subsubsection{Traditional symbols}
+
+The symbol of the Fire College is the flame, usually depicted in red
+or gold.
+
+\subsection{Restrictions}
+
+Adepts of the College of Fire Magics may only practice their arts in
+an area where it is possible for fire to exist. They may not practice
+fire magic underwater or in a vacuum, for example.
+
+The MA requirement for this college is 12.
+
+\subsection{Modifications}
+
+The Base Chance of performing any talent, spell or ritual of the
+College of Fire Magics is modified by addition of the following
+numbers:
+
+\begin{inset}{\small}{center}
+\begin{tabularx}{\linewidth}{Xr}
+Adept is in light mist, fog, or rain, or is soaking wet &  -5 \\
+Adept is in heavy fog, or rain, or is partially immersed in water &  -10 \\
+Adept is almost totally immersed in water &  -15 \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{Xr}
+Adept is within 30 feet of large campfire &  +5 \\
+Adept is within 30 feet of bonfire &  +10 \\
+Adept is in contact with small campfire &  +5 \\
+Adept is in contact with large campfire &  +10 \\
+Adept is in contact with bonfire &  +15 \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{Xr}
+Adept is in a hot, dry region (\eg desert)	&  +5 \\
+\end{tabularx}
+\end{inset}
+
+Only one modifier from each group may be applied together. These
+bonuses only apply to normal fire. Magical fire may only be used to
+reduce negative modifiers to zero.
+
+Unless otherwise specified, Magical Fire will automatically ignite
+flammables.
+
+\subsubsection{Damage by Burning}
+
+Occasionally a character will suffer damage from falling in to, or
+being exposed to, fire. The following table indicates the pulse by
+pulse damage taken by an entity being in contact with fire. While
+ignition of flammables on a person will not always occur, if an entity
+is immersed in fire (\eg passage through a Wall of Fire) flammable
+possessions will catch alight. Unless otherwise specified, Magical
+Fire will automatically ignite flammables.
+
+If the pulse after ignition is spent putting flammables out, no
+further damage occurs. In general exposure to a fire source indicates
+exposure for a full pulse, therefore standing in a bonfire might hurt
+a character but simply jumping through one might not. This table
+should be used as a guide to how much damage exposure to a particular
+fire source might cause.
+
+\begin{inset}{\small}{center}
+\begin{tabularx}{\linewidth}{Xr}
+Clothing alight after passage through a fire	&  D + 3 \\
+Standing in campfire &  D + 5 \\
+Standing in a one Hex bonfire &  D + 10 \\
+Very large bonfire, house fire &  D + 15 \\
+Raging forest fire &  D + 25 \\
+Immersion in boiling water &  D + 35 \\
+Immersion in boiling oil &  D + 50 \\
+Immersion in molten metal or lava &  D + 100 \\
+Sauron's forge &  D + 150 \\
+\end{tabularx}
+\end{inset}
+
+\subsection{Talents}
+
+\begin{talent}[T-1]{Infravision}
+\range{50 feet + 5 / Rank}
+\multiple{75}
+\resist{None}
+\begin{effects}
+The Adept is able to see heat sources as if they emit normal light and
+target them (\eg with weapons or spells) in the absence of visible
+light.  It works best in relative darkness, since it is easily
+over-powered by visible light.
+
+Within range low level heat sources (such as living bodies) can be
+seen. At double range medium level sources (such as camp fires) are
+visible and high level heat sources may be visible at any range.
+
+This talent can sometimes penetrate where normal vision cannot. At
+half normal range the Adept can see heat sources which are warmer than
+the obscurement, eg. living entities through mist or light bushes. It
+may also possible to detect the residual heat of a source which has
+recently been moved or extinguished.
+
+The Adept has a base chance of PC (+ 5 / Rank) - 1 / 10 feet between
+the Adept and the heat source (after the first 10) of gaining
+additional information about a particular heat source. They may:
+
+\begin{Enumerate}
+\item
+Determine the relative temperature of the heat source.
+
+\item
+Identify the general type of heat source. Only those heat sources that
+the Adept has previously encountered may be identified with this
+talent. At higher ranks familiar individuals may identified.
+
+\item
+Determine if the heat radiated by source is being generated by magic,
+\eg the Adept is able to distinguish between normal and magical
+fire. (Note only fire College infravision has this ability).
+
+The Adept may re-attempt any of these abilities after a period of 41
+pulses (- 2 / Rank) has elapsed or if the Adept is 20 feet closer to
+the target.
+\end{Enumerate}
+\end{effects}
+\end{talent}
+
+\begin{talent}[T-2]{Pyrogenisis}
+\range{Sight}
+\duration{Immediate}
+\multiple{75}
+\basechance{MA + 5 / Rank - 1 / 5 feet separating the Adept from the target (after the first 5 feet)}
+\resist{Passive}
+\begin{effects}
+The Adept may cause to burst into flame a single mass of dry,
+flammable material weighing up to 1oz (+ 1/ 5 ranks). Once alight it
+will burn normally and may be extinguished by either mundane or
+magical means. Flammable materials are defined as wood, paper, cloth
+etc, but not flesh, except that Pyrogenisis may be used to cremate
+insects and small creatures within the maximum weight restrictions.
+This talent cannot be used on possessions. Utilising this talent
+requires a pass action, and is obvious to observers.
+\end{effects}
+\end{talent}
+
+\subsection{General Knowledge Spells}
+
+\begin{spell}[G-1]{Bolt of Fire}
+\range{25 feet + 25 / Rank}
+\duration{Immediate}
+\multiple{200}
+\basechance{40\%}
+\resist{Passive}
+\storage{Ward, Investment, Magical Trap}
+\target{Entity, Object, Area}
+\begin{effects}
+The Adept causes a bolt of Fire to streak from their hand towards
+anywhere in range. The first entity or object the bolt hits in its
+path must resist or suffer D (+ 1 / Rank) damage.  If the bolt does
+not hit anything it will dissipate at the end of its range. At Rank 20
+the Adept may delay releasing the bolt for a pulse if they should
+choose.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-2]{Extinguish Fire Spell}
+\range{15 feet + 15 / Rank}
+\duration{Immediate}
+\multiple{100}
+\basechance{50\%}
+\resist{None}
+\storage{Investment, Ward, Magical Trap}
+\target{Volume}
+\begin{effects}
+When successfully cast, this spell will extinguish all fire in a 10
+foot (+ 10 / Rank) sphere. All the volume affected must be within
+range of the spell. If the range doubled or tripled the volume may
+likewise be increased.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-3]{Fire Armour}
+\range{Touch}
+\duration{1 hour + 1 / Rank}
+\multiple{200}
+\basechance{25\%}
+\resist{None}
+\storage{Potion}
+\target{Object, Entity}
+\begin{effects}
+This spell protects the target against damage by fire for 4 (+ 4 /
+Rank) points of protection. Protection is ablative and when the damage
+the spell may absorb is exceeded, the spell is dissapated with any
+excess damage applied to the target. Double and triple effects may
+apply to duration or degree of protection. At Rank 20 the spell
+confers 100 points of protection.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-4]{Firelight}
+\range{Touch}
+\duration{30 minutes + 30 / Rank}
+\multiple{75}
+\basechance{50\%}
+\resist{Passive}
+\storage{Investment}
+\target{Object, Point}
+\begin{effects}
+The Adept creates a source of light emanating in all directions from
+an object or point touched by them. At ranks 0 to 5 the light emitted
+is equivalent to that of a torch, at ranks 6 to 10 that of a small
+campfire, at ranks 11 to 15 a large campfire, and at ranks 16 to 20 a
+bonfire. The light emitted will have the appearance of firelight of
+the appropriate strength. It is magical light, and will cast poor
+contrast shadows.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-5]{Fireproofing}
+\range{Touch}
+\duration{1 hour + 1 / Rank}
+\multiple{150}
+\basechance{30\%}
+\resist{None}
+\storage{Potion, Investment}
+\target{Entity, Object}
+\begin{effects}
+The spell protects the target from all non-magical fire and heat
+effects up to the heat equivalent of a bonfire. An entity or object is
+also protected against smoke effects (including smoke inhalation),
+hypothermia and sunstroke.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-6]{Increase Temperature}
+\range{Touch}
+\duration{Special}
+\multiple{100}
+\basechance{35\%}
+\resist{Passive}
+\storage{Investment}
+\target{Volume, Object}
+\begin{effects}
+The Adept must remain in contact with the target for heating
+to occur.  When the spell ends the target will cool normally.
+\begin{Description}
+\item[Gases] Duration: 1 hour + 1 / Rank
+
+The Adept may cause the temperature of a closed contiguous volume of
+gas (such as air) to increase. The volume affected is equal to 125 (+
+125 / Rank) cubic feet. The temperature can be increased by up to 2(C
+per Rank. At Rank 20 the volume that can be affected by Increase
+Temperature is doubled
+
+\item[Solids] Duration: 5 minutes + 5 / Rank
+
+The Adept may heat 1 lb (+ 1 / Rank) of solid material up to 50 (+ 50
+/ Rank) degrees C. The Adept may choose any combination of temperature
+increase increment and mass increment to a total of the Adept's
+rank. The temperature increase takes 10 seconds / 100 degrees / pound
+mass. At Rank 20 any metal item within the weight limit of the Adept
+can be reduced to molten slag in as little as 10 seconds (resistance
+roll is applicable).
+
+\item[Liquids] Duration: 5 minutes + 5 / Rank
+
+The Adept may heat 1 (+ 1 / Rank) pints of liquid up to 20 (+ 20 /
+Rank) degrees C. They may choose any combination of temperature
+increase increment and mass increment to a total of the Adept's
+rank. The temperature increase takes 10 seconds / 10 degrees /
+pint. The volume of material that may be affected is increased by 6
+times at Rank 20.
+\end{Description}
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-7]{Slow Fire}
+\range{5 feet + 5 / Rank}
+\duration{1 hour + 1 / Rank}
+\multiple{100}
+\basechance{20\%}
+\resist{None}
+\storage{Investment}
+\target{Object}
+\begin{effects}
+This spell increases the duration that a wood, lamp or oil fire will
+burn for by 1 (+ 1 / Rank) hours. Light remains constant while the
+spell is in effect but heat from the fire source is halved. This spell
+may be used to slow the effects of small fires or to ensure a fire
+lasts for a considerable period of time.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-8]{Smoke Creation}
+\range{10 feet + 10 / Rank}
+\duration{30 minutes + 30 / Rank}
+\multiple{75}
+\basechance{25\%}
+\resist{None}
+\storage{Investment, Ward}
+\target{Volume}
+\begin{effects}
+The Adept may create a volume of smoke equal to 1000 cubic feet (+ 500
+/ Rank). This volume must be closed and contiguous, and has a minimum
+thickness of 5 feet. The density of the smoke may vary from light
+vapours at Rank 0 to thick, roiling smoke at Rank 20. The Adept may
+choose the density of the smoke when casting. The smoke produced
+reduces visual perception by 1 multiplier per 5 full ranks (but may
+not reduce it to less than once times perception). The effective Rank
+of the spell will be decreased by 1 Rank per 10 miles/hour of wind
+(minimum Rank 0) in the target volume. Below rank 10 the smoke created
+by this spell is completely transparent to infravision.
+\end{effects}
+\end{spell}
+
+\subsection{General Knowledge Rituals}
+
+\begin{ritual}[Q-1]{Binding Fire}
+\range{10 feet + 10 / Rank}
+\duration{1 hour + 1 / Rank}
+\multiple{500}
+\basechance{10\%}
+\resist{None}
+\target{Fire}
+\material{Fire source + Endurance (optional)}
+\actions{Chanting and dancing}
+\concentration{Standard}
+\begin{effects}
+The Adept gains complete control over a fire source as large as 10 (+
+10 / Rank) cubic feet. This fire may then be moulded and shaped as
+desired but with a minimum of one foot thickness in any dimension.
+Regardless of the shape created, the fire retains its normal heat and
+damaging properties. Damage is as per a large bonfire or [D - 3] if
+the entity is within one hex. Bound fire is unaffected by normal rains
+and winds short of hurricane conditions, but may be extinguished by a
+dousing of water of similar or greater volume than the fire.
+
+If the Adept sacrifices 2 points of Endurance from a sentient as part
+of the ritual, the duration of the Ritual of Binding Fire is enhanced
+to 1 year (+ 1 / Rank).
+
+If the Adept sacrifices 4 points of Endurance from a sentient creature
+the duration of the Ritual of Binding Fire is permanent. This Fire is
+bound to a specific non-movable item from which the fire appears to
+issue (\eg a ruby set in a wall, a line of runes on a floor etc).
+Permanent Bound Fire can be suppressed for [21 - Rank] minutes by a
+dousing of water of similar or greater volume than the fire, attack
+with magical cold for more damage than the damage rating of the fire
+etc. To disippate a permanent Bound Fire the object to which it is
+bound must be broken, destroyed or seriously defaced.
+
+The Adept may instil basic intelligence in a Bound Fire if desired and
+give the entity thus created simple commands.
+\end{effects}
+\end{ritual}
+
+\subsection{Special Knowledge Spells}
+
+\begin{spell}[S-1]{Cleansing Flame Spell}
+\range{10 feet + 10 / Rank above 10}
+\duration{125 seconds - 5 / Rank}
+\multiple{300}
+\basechance{20\%}
+\resist{Special}
+\storage{Potion, Ward, Investment}
+\target{Entity}
+\begin{effects}
+The target is wreathed in yellowy green flames causing hideous
+suffering, yet curing the target of the effects of natural poisons
+(acts as Rank / 2 vs synthetic poison), venoms, fevers and diseases. As
+the foulness is burnt away, the flames change colour until they become
+silvery white. While cleansing takes place any ongoing harm is
+halted. At the end of the duration, the target is cured and their
+possessions are cleaned to a high polish. During the cleansing all the
+target's Strike Chances, Defence and Cast Chances are reduced by 25
+(-1 / Rank). This spell only affects willing targets. At Rank 20 this
+spell also cures the effects of Malignant Flames. This spell can also
+be used to cure burns, including third degree burns but scaring from
+burns are not affected.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-2]{Dragon Flames}
+\range{Special}
+\duration{Immediate}
+\multiple{500}
+\basechance{10\%}
+\resist{Passive}
+\storage{Investment}
+\target{Area}
+\begin{effects}
+The Adept may breath magical fire like a Dragon causing D10 (+ 3 /
+Rank) damage to entities within the area of effect. The area of effect
+is a cone issuing from the Adepts mouth and is 20 feet (+ 5 / Rank)
+long, and 5 (+ 5 / 3 Ranks) wide at end farthest from the Adept. If an
+entity resists the damage is halved, unless they are more than half
+immersed in water (eg. swimming) where they take no damage. Dragon
+Flames are analogous to an instantaneous flash of heat, but there are
+no over-pressure or explosive effects.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-3]{Fire Arc}
+\range{Touch}
+\duration{Immediate}
+\multiple{250}
+\basechance{15\%}
+\resist{Passive}
+\storage{Potion, Investment}
+\target{Entity}
+\begin{effects}
+The Adept may transform 1 entity (+ 1 / 3 or fraction Ranks) into a
+bolt of fire that flashes to any unobstructed point in line of sight
+up to 25 (+ 25 / Rank) feet away. The bolt must land within 5 feet of
+a potentially flammable substance, an entity or a solid surface. When
+the bolt arrives, it bursts into flame causing D10 damage to all
+entities within 1 hex. At Rank 20 the target may instantaneously
+return to the point of origin of the spell at the end of the next
+pulse should they so desire. Double and triple effects apply to range
+only. This spell affects only willing targets and will not work
+underwater. Any barriers, wards etc that are passed over affect the
+targets as if crossed normally.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-4]{Fireball}
+\range{60 feet + 10 / Rank}
+\duration{Immediate}
+\multiple{550}
+\basechance{25\%}
+\resist{Active, Passive}
+\storage{Investment, Ward}
+\target{Area}
+\begin{effects}
+The Adept conjures a ball of fire 1 foot in diameter which rushes to a
+point in line of sight of the Adept, and explodes in a radius of 5
+foot (+ 5 / 5 or fraction Ranks). Every thing in this radius must
+resist or suffer D10 (+ 1 / Rank) damage. If an entity resists the
+damage is halved, unless they are more than half immersed in water
+(\eg swimming) where they take no damage. The spell may set flammable
+items afire when it bursts. Hard cover (\eg walls, parapets, but not
+shields) reduces damage to half before resistance. In some instances,
+\eg a character wading through water, resistance may negate all
+damage. The fireball is analogous to an instantaneous flash of heat
+and are no over-pressure or explosive effects. A fireball may be
+detonated prematurely by the imposition of barriers in its line of
+flight.
+
+At Rank 20 this spell may be cast with a detonation delay of up to 10
+pulses. This extends the casting time 4 pulses. A delayed blast
+fireball manifests itself as a 1 foot wide floating sphere of fire
+until detonation occurs. If a second fireball is cast within the
+proposed volume of effect of the first, both are detonated.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-5]{Heat Shield}
+\range{Touch}
+\duration{1 hour + 1 / Rank}
+\multiple{200}
+\basechance{25\%}
+\resist{None}
+\storage{Potion}
+\target{Object, Entity}
+\begin{effects}
+This spell protects the target against damage by cold or ice for 4 (+
+4 / Rank) points of protection.  Protection is ablative and when the
+damage the spell may absorb is exceeded, the spell is dissapated with
+any excess damage applied to the target. Double and triple effects may
+apply to duration or degree of protection.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-6]{Hellfire}
+\range{10 feet + 5 / Rank}
+\duration{Immediate}
+\multiple{650}
+\basechance{5\%}
+\resist{Active, Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Entity}
+\begin{effects}
+This sulphurous fire attacks 1 target for every 3 (or fraction)
+Ranks. The target's Magical Resistance is reduced by 5 (+ 1 / Rank).
+The spell does D10 (+ 2 / Rank) damage to each target. If a target
+successfully resists, they suffer only half damage (round up).  Double
+damage add an additional 1 / Rank damage and triple damage adds an
+additional 2 / Rank damage.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-7]{Immolation}
+\range{Self}
+\duration{30 minutes + 30 / Rank}
+\multiple{200}
+\basechance{15\%}
+\resist{None}
+\storage{Potion}
+\target{Self}
+\begin{effects}
+The Adept gains the grace and form of a dancing flame, without in
+anyway altering their physical nature, but increasing their defence by
+2 (+ 3 / 2 Ranks). Any entity that is within 5 feet must resist or
+take 1 / 2 (or fraction) Ranks Fire damage per pulse. The target will
+glow with the same degree of brightness as a Firelight spell 5 Ranks
+lower, (minimum 1). The target appears to be a humanoid shape composed
+of flame. If the target hides in a fire, the target may only be
+detected by witchsight or by infravision..
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-8]{Malignant Flames}
+\range{10 feet + 10 / Rank}
+\duration{Immediate}
+\multiple{550}
+\basechance{5\%}
+\resist{Active, Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Entity}
+\begin{effects}
+The target is swathed in flames that are only visible to the victim
+causing D10 (+ 2 / Rank) damage.  If the spell is at rank 5 or higher
+the target may be cursed with the loss of [D - 4] (+1 / 5 Ranks)
+points from one characteristic or statistic, as chosen by the Adept. A
+characteristic may not be reduced below 1 as a result of this
+spell. This minor curse will last 4 (+ 1 / Rank) days.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-9]{Pyrotechnics}
+\range{60 feet + 10 / Rank}
+\duration{Immediate}
+\multiple{200}
+\basechance{20\%}
+\resist{Passive}
+\storage{Investment, Magical Trap}
+\target{Volume}
+\begin{effects}
+This spell may be mistaken for a Fireball. The Adept conjures a ball
+of fire 1 foot in diameter which rushes to a point in line of sight of
+the Adept, and bursts in a radius of 5 foot (+ 5 / 5 or fraction
+Ranks) with an enormous flash of light and fireworks. Any entity in
+this radius who can see must resist or they are dazzled by the flash
+for [D - 5] (+ 1 / 3 or fraction Ranks) pulses.  Dazzled entities have
+their strike chances, cast chances and perception checks reduced by 1
+(+ 2 / Rank). Entities without normal vision (\eg Undead) are
+unaffected by Pyrotechnics.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-10]{Speak to Fire Creatures}
+\range{15 feet + 15 / Rank}
+\duration{20 minutes + 10 / Rank}
+\multiple{75}
+\basechance{40\%}
+\resist{None}
+\storage{Potion}
+\target{Self}
+\begin{effects}
+This spell allows the Adept to communicate with all fire creatures
+within range. This communication is at an effective language rank of 1
+(+ 1 / 2 Ranks). For the purposes of this spell, fire creatures are:
+Elementals, Salamanders, Efreets, desert creatures and creatures
+created using a Binding Fire Ritual.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-11]{Summoning Salamander}
+\range{Unlimited}
+\duration{Until dispelled}
+\multiple{200}
+\basechance{15\%}
+\resist{None}
+\storage{Investment, Magical Trap}
+\target{Salamander}
+\begin{effects}
+The Adept may summon a salamander which will then attempt to set afire
+anything flammable that it can reach. A Salamander may only be
+summoned to an environment it can survive in (\eg a large fire source,
+volcano, in a desert). The Adept has no control over the salamander.
+Dispelling the spell returns the salamander to its origin.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-12]{Weapon of Flames}
+\range{5 feet + 1 / Rank}
+\duration{5 minutes + 1 / Rank}
+\multiple{250}
+\basechance{30\%}
+\resist{None}
+\storage{Investment}
+\target{Weapon}
+\begin{effects}
+The Adept may cause any weapon to burst into flame but without causing
+damage to the weapon or its wielder. The weapon has its Strike Chance
+increased by 1 (+ 1 / Rank), damage increased by + 1 / 2 (or fraction)
+Ranks. When the weapon is used against a entity which are creatures of
+cold or water or against the Undead, damage increases to 1 / Rank. A
+missile may also be the target (\eg arrow), but not missile weapons.
+At rank 11 any hand-held weapon may be created from fire. This weapon
+has normal characteristic requirements but no weight.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-13]{Wall of Fire}
+\range{10 feet + 10 / Rank}
+\duration{10 minutes + 10 / Rank}
+\multiple{250}
+\basechance{25\%}
+\resist{Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Area}
+\begin{effects}
+The Adept may create a 5 foot high \x 20 foot long \x 1 foot thick
+wall of flames, or a 5 foot high \x 1 foot thick circle of flames with
+a 5 foot radius, or a pillar fire 15 feet high with a 2 foot radius.
+The Adept can increase any single dimension by 1 foot / Rank. The wall
+must be anchored to a surface and cannot easily be seen through. Any
+object or entity that passes through the wall must resist or suffer
+D10 ( + 1 / Rank) damage. If an entity resists the damage is halved.
+The wall will provide light equivalent to a large campfire. At Rank 20
+the Adept may double the damage of a Wall of Fire by halving its
+duration.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-14]{Wildfires}
+\range{Touch}
+\duration{20 minutes + 20 / Rank}
+\multiple{250}
+\basechance{25\%}
+\resist{Active, Passive}
+\storage{Potion, Investment}
+\target{Entity}
+\begin{effects}
+This spell imbues an entity with the speed and essence of a forest
+fire. The target may run without tiring at a speed of 20 (+ 2 / Rank)
+miles per hour over any solid surface.  Additionally they may ``run''
+across any substance that would ordinarily support fire (\eg across
+tree tops, up a wooden wall, or across oil). Like a fire, momentum
+effects do not apply to the target: they may take corners at
+impossible angles, climb a flammable surface impossibly quickly, or
+stop instantly in place. The target may leap a gap (as a fire leaps a
+firebreak) a horizontal distance of PS (+ 1 / Rank) feet or a vertical
+distance of 1/2 PS (+ 1 / Rank) feet. The target will leave charred
+footprints behind them but will not normally ignite surfaces they
+cross.
+
+An entity under Wildfires is moving too quickly to undertake normal
+tactical combat or to otherwise interact with other entities. If they
+wish to engage in melee they must dissipate the spell.
+
+The target must keep moving at least two hexes in any direction per
+pulse.  If they stop the spell is disippated. When the spell ends the
+target stops instantly in place.
+
+At Rank 20 the target may extend the duration of the spell by
+suffering 1 EN damage / 10 additional minutes.
+\end{effects}
+\end{spell}
+
+\subsection{Special Knowledge Rituals}
+
+\begin{ritual}[R-1]{Create Drought}
+\range{2 miles + 2 / Rank}
+\duration{8 hours + 8 / Rank}
+\multiple{200}
+\basechance{30\% + 3\% / Rank}
+\resist{None}
+\target{Area}
+\material{Fire source}
+\actions{Chanting and dancing}
+\concentration{Standard}
+\begin{effects}
+This ritual increases temperature in the target area by 2C per Rank,
+slowly building up at 2 degrees C per hour. This may impede rainfall,
+kills plants, dry up wells, ponds, etc and ruin crops if repeated
+regularly. In cold or icy areas climes it may make an area tolerable
+for life for a time or result in standing fogs if the difference
+between climes is too extreme.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[R-2]{Flame Sight}
+\range{5 feet}
+\duration{1 minute + 1 / Rank}
+\multiple{250}
+\basechance{40\% + 5\% / Rank}
+\resist{None}
+\material{Small fire}
+\actions{Staring into flames}
+\concentration{Standard}
+\begin{effects}
+The Adept must sit next to a fire and stare into the flames
+for half an hour.  They may then attempt one of three visions:
+
+\begin{Itemize}
+\item
+A view as if the Adept was looking out of a fire within 1/2 a mile (+
+1/4 mile Rank). The Adept may choose to look out of a specific fire,
+otherwise the fire is randomly determined from all those in range. If
+no fires are within range the Adept will see nothing. They may move
+their viewpoint within the fire so as to see in any direction. There
+is no way to perceive that a fire is looked through by this ritual.
+
+\item
+A precognitive vision which is controlled by the GM. The detail of
+this vision and the amount of information obtained increases with
+rank.
+
+\item
+If the Adept chooses to sacrifice an object (which is destroyed) in
+the fire, they gain a vision relevant to that object's past. This
+version of the ritual can only be performed on flammable objects.
+\end{Itemize}
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[R-3]{Ritual of Summoning a Lesser Efreeti}
+\range{5 feet}
+\duration{1 hour + 1 / Rank}
+\multiple{200}
+\basechance{30\% + 3\% / Rank}
+\resist{None}
+\target{Entity}
+\casttime{3 Hours - 10 minutes / Rank (minimum 10 minutes)}
+\material{none}
+\concentration{Standard}
+\begin{effects}
+The Adept may summon a Lesser Efreeti to act as a steed for a
+themselves. The Lesser Efreeti will obey all its rider 's commands
+while it is mounted. If the rider is not mounted or is out of its
+presence then it will only follow simple passive commands (\eg wait
+here, go there).  At Rank 14 or higher it will obey commands which
+move it away from the rider (\eg go attack people behind the hill, go
+and pick up Bob).
+
+Its charactertics and statistics are based on either the Adept or
+their rank in the ritual.
+\begin{center}
+\begin{tabularx}{\linewidth}{XX}
+{\bf PS} 30 (+ 2 / Rank) & MD = Adept \\
+EN = 30 (+ 1 / Rank) & AG = Adept \\
+FT = 30 (+ 2 / Rank) & WP = Adept \\
+PC = Adept         & MA = Adept \\
+\end{tabularx}
+\end{center}
+
+\begin{Description}
+\item[Natural Armour] WP / 4 (+ 1 / 3 or fraction Ranks)
+
+\item[DEF] WP + Ritual BC / 2
+
+\item[TMR] Walking = 5 (+ Rank / 4); Flying 8 (+ Rank / 3)
+
+\item[Movement Rate] Movement Rate = 20 (+ 2 / Rank) miles per hour
+
+\item[Size] 1 (+ 1 / 10 Ranks) hexes
+
+\item[Weapons] The Lesser Efreeti has three physical attacks, two
+claws and a bite. These have a base chance of 40\% and do D + 4 (+ 1 /
+2 Ranks) damage.  It also has a 65\% chance of igniting in battle with
+flames extending in a 5 foot radius.  Entities within the radius,
+except for the rider, must resist or suffer D (+ 1 / 2 Ranks) damage.
+Entities that resist suffer half damage.
+
+\item[Abilities] The Lesser Efreeti is immune to damage from fire but
+takes double damage from ice or water and magic resistance to these
+attacks is reduced by 10\%. It cannot be banished while the rider is
+mounted.
+\end{Description}
+
+At Rank 20 the ritual has extra benefits:
+\begin{Itemize}
+\item the adept may nominate another entity as the rider.
+
+\item the Lesser Efreeti has Strength and Fatigue of 80 and Endurance
+of 60.
+
+\item NA is 8 (+ WP / 4).
+
+\item damage from claws and bite is [D + 16].
+
+\item the ritual's duration is 24 hours.
+\end{Itemize}
+
+This ritual may double or triple duration and may backfire. It may be
+invested with a material cost of 50,000 silver pieces per charge.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[R-4]{Summon Fire Elemental}
+\range{20 feet}
+\duration{Concentration, no maximum}
+\multiple{450}
+\basechance{MA + 4\% / Rank}
+\resist{None}
+\target{Fire Elemental}
+\material{Large fire}
+\actions{Concentration}
+\concentration{Standard}
+\begin{effects}
+The Adept may summon a Fire Elemental with a combined endurance and
+fatigue of 15 (+ 5 / Rank) which appears within the fire. The
+Elemental is under the Adept's control but strongly resents being
+summoned.
+
+If the ritual backfires the elemental arrives uncontrolled and will
+immediately attempt to kill the summoner
+
+The Elemental is returned to its own dimension if the summoner's
+concentration is broken, it is banished, or the Adept casts a Fire
+Special Counterspell.
+\end{effects}
+\end{ritual}
+
+\subsection{Table: Some useful temperatures}
+
+\begin{center}
+\begin{tabularx}{\linewidth}{lX}
+100	& Boiling Water \\
+113	& Molten Sulphur \\
+200	& Burning paper and meths \\
+232	& Tin melts \\
+300	& Boiling oil \\
+327	& Lead melts \\
+419	& Molten zinc \\
+800	& Molten salt \\
+1000	& Silver melts \\
+1053	& Gold melts \\
+1083	& Bronze and copper armour and weapons melt \\
+1600	& Molten iron \\
+1800	& Sand melts \\
+4000	& Molten graphite \\
+>4000	& Sauron's jewellery \\
+\end{tabularx}
+\end{center}
+\end{college}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.8
+log
+@Add duration to Speak to Fire Creatures.
+Now 20 minutes + 10 / Rank.
+@
+text
+@@
+
+
+5.7
+log
+@Change EM of fireball from 500 to 550.
+@
+text
+@d592 1
+@
+
+
+5.6
+log
+@Weapon of Flames duration changed to 5 mins + 1/Rank.
+@
+text
+@d468 1
+a468 1
+\multiple{500}
+@
+
+
+5.5
+log
+@Check in before changing duration of Weapon of Flames.
+@
+text
+@d624 1
+a624 1
+\range{5 feet + 5 / Rank}
+@
+
+
+5.4
+log
+@Complete revision from Rosemary with a number of minor changes from Ross
+@
+text
+@d62 1
+a62 2
+\begin{inline}
+\begin{center}
+d80 1
+a80 2
+\end{center}
+\end{inline}
+d106 1
+a106 2
+\begin{inline}
+\begin{center}
+d118 1
+a118 2
+\end{center}
+\end{inline}
+d763 2
+a766 2
+\target{Entity}
+\casttime{3 Hours - 10 minutes / Rank (minimum 10 minutes)}
+@
+
+
+5.3
+log
+@Change EM of Fireball back to 500
+@
+text
+@d21 5
+a25 5
+dislike getting wet. They frequently have red hair, though there
+appears to be no hereditary basis for this. Generally fire mages are
+flamboyant characters, particularly in their spell-casting. The
+College of Fire Magics is anything but subtle, and its spells involve
+more than the usual amounts of shouting and arm-waving.
+d30 6
+a35 7
+College is not noted for being environmentally friendly, and so fire
+mages are even less popular than most mages among the common
+folk. When it is revealed that a person is an Adept of the Fire
+College the usual reaction will generally be 1 of fear and
+trepidation. Fire mages are quite amicable towards the Adepts of other
+colleges with the notable exception of those of the College of Water
+Magics.
+d62 1
+a62 1
+{\small
+d65 3
+a67 3
+Adept is in light mist, fog, or rain, or is soaking wet &  -5 \\ 
+Adept is in heavy fog, or rain, or is partially immersed in water &  -10 \\ 
+Adept is almost totally immersed in water &  -15 \\ 
+a68 2
+\end{center}
+
+a69 1
+\begin{center}
+d71 5
+a75 5
+Adept is within 30 feet of large campfire &  +5 \\ 
+Adept is within 30 feet of bonfire &  +10 \\ 
+Adept is in contact with small campfire &  +5 \\ 
+Adept is in contact with large campfire &  +10 \\ 
+Adept is in contact with bonfire &  +15
+a76 1
+\end{center}
+a77 2
+
+\begin{center}
+d79 1
+a79 1
+Adept is in a hot, dry region (such as a desert)	&  +5 \\ 
+d82 1
+a82 1
+}
+d93 14
+a106 15
+Occasionally a character will suffer damage from fire, by ether
+falling in to it, or being exposed to it. The following table
+indicates the pulse by pulse damage taken by a character standing in
+fire or by having their clothing etc, catching alight in the pulse
+after exposure to a Fireball, Dragon Flames or passage through a Wall
+of Fire etc.  While ignition of flammables on a person will not always
+occur, spells that are immersive in nature \eg passage through a Wall
+of Fire, or where a character deliberately stands in a fire, will
+always result in ignition of flammable material.  If the pulse after
+ignition is spent putting flammables out, no further damage occurs. In
+general exposure to a fire source indicates exposure for a full pulse,
+therefore standing in a bonfire might hurt a character but simply
+jumping through one might not. The table below should be used as a
+guide to how much damage exposure to a particular fire source might
+cause.
+d108 1
+a108 1
+{\small
+d111 9
+a119 9
+Clothing alight after passage through a fire	&  D + 3 \\ 
+Standing in campfire &  D + 5 \\ 
+Standing in a one Hex bonfire &  D + 10 \\ 
+Very large bonfire, house fire &  D + 15 \\ 
+Raging forest fire &  D + 25 \\ 
+Immersion in boiling water &  D + 35 \\ 
+Immersion in boiling oil &  D + 50 \\ 
+Immersion in molten metal or lava &  D + 100 \\ 
+Sauron's forge &  D + 150 \\ 
+d121 2
+a122 2
+\end{center}}
+
+d131 18
+a148 20
+The Adept is able to see heat sources as if they emitted normal
+light. This works best in relative darkness, since it is easily
+over-powered by visible light. Infravision can be used to target
+weapons and spells. As a result of this talent the Adept can see in
+the absence of visible light. Low level heat sources such as living
+bodies give this talent a normal working range of 50 feet + 5 / Rank
+to this talent. Medium level high sources such as campfires are
+visible at twice this distance (note that the plume of hot air from a
+fire will extend to a considerable height). High level heat sources
+may be visible at any range. This talent can sometimes penetrate where
+normal vision cannot.  For example, the Adept can see heat sources
+through smoke and mist as long as the obscurement is not warmer than
+the thing being viewed (at a 50\% reduction in range). The Adept can
+perceive living entities attempting to hide in light cover (such as
+bushes). It is also possible to detect the residual heat of a source,
+which has recently been moved or extinguished. Should the Adept wish
+to concentrate on a particular heat source, a check against a base
+chance of perception + 5 / Rank - 1 / 10 feet separating the Adept
+from the heat source (after the first 10 feet). If this is successful
+the Adept can:
+d150 5
+d156 12
+a167 12
+the Adept has previously encountered and as a consequence knows the
+heat signature of may be identified with this talent. At higher ranks
+familiar individuals may identified.  Determine the relative
+temperature of the heat source.  Determine if the heat radiated by any
+object or entity perceived by this talent is being generated by
+magic. Thus the Adept may employ this talent to distinguish between
+normal and magical fire. Only fire mage infravision has this
+capability.
+
+Should the talent fail it may be re-attempted after either the Adept
+or target has moved so that the Adept is at least 20 feet closer to
+the target, or after a period of 41 pulses - 2 / Rank has elapsed.
+a171 1
+
+d175 1
+a175 1
+\basechance{MA + 5 / Rank - 1 / 5  feet separating the Adept from the target (after the first 5 feet)}
+d178 8
+a185 11
+The Adept may cause a single mass of dry, flammable material to burst
+into flame. This amount is equal to 1 oz + 1 oz for every 5 ranks the
+Adept has attained in the talent. Thereafter it will burn normally and
+may be extinguished by either mundane or magical means. Flammable
+materials are to be defined as wood, paper, cloth etc, but not flesh,
+with the exception that Pyrogenisis may be used to cremate insects and
+small invertebrates \eg slugs, snails etc within the mass restrictions
+detailed above. If the talent is used on another's possession this
+talent will automatically fail. Utilizing this talent requires a pass
+action, and it has an obvious somatic component. Should it fail the
+talent may be re-attempted immediately.
+d192 1
+a192 1
+\range{25 feet + 25 feet / Rank}
+d197 2
+a198 2
+\storage{Ward, Investments, Magical Trap}
+\target{Entity or Object}
+d200 6
+a205 7
+The Adept causes a bolt of elemental Fire to streak from their
+outstretched hand towards the designated target for D10 (+ 1 / Rank)
+fire damage. The bolt will always impact on the first target reached
+so it may not for example, be bounced around rooms. If there is no
+target in sight the bolt will dissipate at the end of its range. At
+Rank 20 the Adept may delay releasing the bolt for a pulse if they
+should choose.
+d218 4
+a221 5
+When successfully cast, this spell will extinguish all fire in a cube
+up to 10 (+ 10 / Rank) feet on a side. All the volume affected must be
+within range of the spell. On a multiple effect this volume may be
+doubled or tripled. The Adept may always choose to extinguish a
+smaller volume of Fire than their maximum by rank.
+a225 1
+
+d232 1
+a232 1
+\target{Object or Entity}
+d234 1
+a234 1
+This spell protects the target against fire to the value of 4 (+ 4 /
+d236 4
+a239 4
+the spell may absorb is exceeded, the spell ceases to be in effect
+with the excess damage being applied to the character. Double and
+triple effects apply to either duration or degree of protection. At
+Rank 20 the spell confers 100 points of protection.
+d250 1
+a250 1
+\target{Object or point}
+d253 5
+a257 5
+the object or point touched by the Adept. At ranks 0 to 5 the light
+emitted is equivalent to that of a torch, at ranks 6 to 10 that of a
+small campfire, at ranks 11 to 15 a large campfire, and at ranks 16 to
+20 a bonfire. The light emitted will have the appearance of firelight
+of the appropriate strength. It is magical light, and will cast poor
+d269 1
+a269 1
+\target{Entity or Object}
+d287 2
+a288 1
+The Adept must remain in contact with the object for heating to occur.
+d294 3
+a296 5
+125 / Rank) cubic feet (125 cubic feet is the volume of a cube 5 feet
+on each side). The temperature can be increased by up to 2C per
+Rank. When the spell ends the affected volume will cool normally. At
+Rank 20 the volume that can be affected by Increase Temperature is
+doubled.
+d300 2
+a301 3
+The Adept may heat solid material to a maximum of 50 (+ 50 / Rank)
+degrees C. The mass which can be affected is equal to a maximum of 1lb
++ 1lb / Rank. The Adept may choose any combination of temperature
+d303 4
+a306 4
+rank. The temperature increase requires 10 seconds per 100 degrees per
+pound mass. At Rank 20 any metal item within the weight limit of the
+Adept can be reduced to molten slag in as little as 10 seconds
+(resistance roll is applicable).
+d310 6
+a315 8
+The increase is equal to a maximum of 20 (+ 20 / Rank) degrees C. The
+volume which can be affected is equal to a maximum of 1 (+ 1 / Rank)
+pint. The Adept may choose any combination of temperature increase
+increment and mass increment to a total of the Adept's rank. The
+temperature increase requires 10 seconds per 10 degrees per pint. When
+the spell effect ends the solid material or the volume of liquid will
+cool normally. The volume of material that may be effected is
+increased by 6 times at Rank 20.
+d331 3
+a333 4
+spell is in effect but heat from the fire source is halved. Double and
+triple effects apply to duration. This spell may be used to slow the
+effects of small fires or to ensure a fire lasts for a considerable
+period of time.
+d346 10
+a355 12
+The Adept may create a volume of smoke equal to 1000 (+500 / Rank)
+cubic feet. This volume must be closed and contiguous, and has a
+minimum thickness of 5 feet. The density of the smoke may vary from
+light vapors at Rank 0 to thick, roiling smoke at Rank 20. The Adept
+at casting may vary the density of the smoke. The smoke produced
+reduces visual perception by 1 level per 5 full ranks (but may not
+reduce it to less than once times perception). Thus at Rank 10 a 4 \x
+perception check reduces to 2 \x perception check. The effective Rank
+of the spell will be decreased by 1 Rank per 10 miles/hour of wind, to
+a minimum of Rank 0, if cast out of doors or in a space where wind is
+present.  Below rank 10 the smoke created by this spell is completely
+transparent to infravision.
+d360 1
+d362 1
+a362 1
+\range{10 feet + 10 feet / Rank}
+d368 1
+a368 1
+\material{Fire source + special}
+d372 25
+a396 25
+If the ritual is successful the Adept gains complete control over a
+fire source as large as 10 (+ 10 / Rank) cubic feet.  This fire may
+then be moulded and shaped as desired but with a minimum of one foot
+thickness in any dimension. Regardless of the shape created, the fire
+retains its normal heat and damaging properties. Damage is as per a
+large bonfire or [D - 3] if the entity is within one hex. Bound fire
+is unaffected by normal rains and winds short of hurricane conditions,
+but may be extinguished by a dousing of water of similar or greater
+volume than the fire. If the Adept sacrifices 2 points of Endurance
+from a sentient as part of the ritual, the duration of the Ritual of
+Binding Fire is enhanced to 1 (+ 1 / Rank) years.  While expensive, a
+Ritual of Binding Fire may be made permanent. This may only be
+accomplished by the sacrifice of at least 4 points of Endurance from a
+sentient creature. In these cases the Fire is bound to a specific
+nonmovable item from which the fire appears to issue \eg a ruby set in
+a wall, a line of runes on a floor etc. For a permanent Bound Fire to
+be negated, the object to which it is bound must be broken, destroyed
+or defaced. Any other successful damage to a permanent Bound Fire
+simply suppresses the Fire for Rank minutes \eg dousing with the
+required volume of water, attack with Ray of Cold for more damage than
+the damage rating of the Bound Fire etc.
+
+The Adept may instil intelligence in a Bound Fire if desired and give
+the entity thus created simple commands.  Examples ``Protect me'' or
+``only allow those to pass who say zebus'' etc.
+d404 1
+a404 1
+\duration{Special}
+d408 1
+a408 1
+\storage{Potion, Ward, and Investment}
+d412 10
+a421 11
+suffering, yet curing the target entity of the effects of natural
+poisons (acts as Rank / 2 for synthetic poison), venoms, fevers and
+diseases; halting the deleterious effects while cleansing takes
+place. As the foulness is burnt away, the flames change colour until
+they become silvery white. The time required to heal a target is 25
+pulses - 1 / Rank. At the end of the spell, the target and his
+possessions are cleaned to a high polish. During the cleansing all
+Strike Chances, Defence and Cast Chances are reduced by 25 - 1 /
+Rank. This spell only affects willing targets. At Rank 20 this spell
+also cures the effects of Malignant Flames. This spell can also be
+used to cure burns, including third degree burns but scaring from
+d435 8
+a442 8
+Allows the Adept to breath magical fire like a Dragon for D10 (+ 3 /
+Rank).  If the target resists then they take half damage.  The cone
+issues from the Adepts mouth and is 20 (+ 5 / Rank) feet in length and
+5 (+ 5 / 3 Ranks) feet in width at the end farthest from the Adept. In
+some instances, \eg a character wading through water, a resistance
+roll may negate all damage.  There are no over-pressure or explosive
+effects.  Dragon Flames is analogous to an instantaneous flash of
+heat.
+d455 9
+a463 10
+The spell transforms the target in to a bolt of fire that flashes to
+any unobstructed point in line of sight up to 25 (+ 25 / Rank) feet
+away. The bolt must appear within 5 feet of a potentially flammable
+substance, an entity or a solid surface. When the bolt arrives, it
+arrives in a burst of flame for D10 damage to all creatures within 1
+hex. The Adept may effect 1 + 1 creatures for every 3 full ranks or
+fractions there of.  At Rank 20 the Adept may instantaneously return
+to the point of origin of the spell at the end of the next pulse
+should they so desire. Double and triple effects can be applied to
+range only. This spell affects only willing targets and will not work
+d476 1
+a476 1
+\target{Entity, Object}
+d478 19
+a496 20
+The spell conjures a ball of fire 1 foot in diameter which rushes to
+the point selected by the Adept, exploding in a radius of 5 (+ 5 every
+5 or fraction Ranks) feet. Damage is D10 (+ 1 / Rank), with the target
+taking half if they sucessfully resist.  The spell may set flammable
+items alight when it bursts. Hard cover (\eg walls, parapets,
+mantelets but not shields) reduces damage to 1/2 before resistance is
+rolled. There are no over-pressure or explosive effects --- the
+fireball is analogous to an instantaneous flash of heat. A fireball
+may be detonated prematurely by the imposition of barriers in its line
+of flight and it may only be aimed at a point that the Adept can see
+and which is in range. At Rank 20 this spell may be cast with a
+detonation delay of up to 10 pulses. If this option is chosen then
+casting time is extended to 4 pulses as the mage must include the
+``delay'' factor in his casting. A delayed blast fireball manifests
+itself as a 1 foot diameter floating sphere of fire until detonation
+occurs. If a second fireball is cast within the proposed volume of
+effect of the first, both are detonated.
+
+Note: There are some instances where resisting the spell will negate
+all damage.  For example, the target is wading through deep water.
+d498 1
+a499 1
+\end{spell}
+d507 1
+a507 1
+\target{Object or Entity}
+d509 5
+a513 6
+This spell creates a magical sheath of heat to protect the body
+against cold or ice damage for 4 (+ 4 / Rank) points of protection.
+Protection is ablative and when the damage the spell may absorb is
+exceeded, the spell ceases to be in effect with the excess applied to
+the character. Double and triple effects may be applied to either
+duration or degree of protection.
+d527 5
+a531 5
+Ranks. The target's Magical Resistance is reduced by 5 (+ 1 /
+Rank). The spell does D10 (+ 2 / Rank) damage to each target. If a
+target successfully resists, they suffer only half damage (round up).
+Double damage add an additional 1 / Rank damage and triple damage adds
+an additional 2 / Rank damage.
+d542 1
+a542 1
+\target{Touch}
+d547 5
+a551 6
+take 1 point of Fire damage per pulse for every 2 or fraction Ranks of
+the Adept. Any entity under the influence of this spell will glow with
+the same degree of brightness as a Firelight spell 5 Ranks lower,
+minimum 1. Should the target choose to hide in a fire, the target may
+only be detected by Witchsight, Wizardsight or by infravision.
+Otherwise the target appears to be a humanoid shape composed of flame.
+d564 6
+a569 11
+A target of the Adept 's choice is swathed in flames that are only
+visible to the victim. The flames do D10 (+ 2 / Rank) damage.  If the
+target resists they suffer half damage.  In addition the target is
+subject to other damage if the spell is at rank 5 or higher. In this
+case, a number of points equal to [D - 4] + (1 / 5 full Ranks) are
+removed from 1 characteristic or statistic of the victim. The victim
+will regain these points after (4 + Rank) days or after a remove curse
+ritual is performed over the victim. The Adept may determine the
+characteristic to be affected. A characteristic may not be reduced
+below 1 as a result of this spell. At Rank 20 a victim may be affected
+for (4 + Rank) days.
+d580 1
+a580 1
+\target{Entity, Object, Point}
+d582 9
+a590 12
+This spell may be mistaken for a Fireball. A small 1 foot globe of
+Fire streaks to the target, then bursts with an enormous flash of
+light, smoke and fireworks. All those in the area of effect who see
+the explosion must resist or be are dazzled and left blinking by the
+flash for [D - 5] (+ 1 / 3 or fraction Ranks) pulses.  Dazzled
+entities have their strike chances reduced by 1 (+ 2 / Rank) of the
+Adept. Perception and casting checks are reduced by the same amount.
+The volume affected by the spell is a radius centred on a hex of 5 (+
+5 / 3 or fraction Ranks) feet. Creatures without normal vision, \eg
+the undead, are unaffected by Pyrotechnics. Double and triple effects
+may be applied to range only.  The Adept can always cast a smaller
+radius effect if desired to a minium of 5 feet.
+d619 5
+a623 7
+The Adept may summon a salamander, which will then attempt to set
+afire anything flammable that it can reach.  The Summoner will have no
+control over the salamander. Casting a Special Knowledge Counterspell
+is the only way to dispel the salamander. The summoning of a
+Salamander may only occur in the presence of a large fire source or in
+environmental conditions conducive to the survival of the entity \eg
+near a bonfire, volcano, in a desert.
+d634 1
+a634 1
+\target{Special}
+d636 8
+a643 12
+The spell is cast over a weapon of the Adept's choice causing it to
+burst into flame but without causing damage to the weapon or its
+wielder. The Strike Chance to hit a target with the weapon is
+increased by 1 (+ 1 / Rank), and damage is increased by 1 / 2 Ranks of
+the Adept. When the weapon is used against a creature of cold or water
+or against the Undead, damage increases to 1 / Rank. All creatures
+that live in cold environments or in water are considered creatures of
+cold or water. At rank 11 any hand-held weapon may be created from
+fire. Such weapons have little actual weight, but strength and
+dexterity requirements must be met as per normal. Missiles may also be
+affected by this spell, but not missile weapons, thus an arrow may be
+enflamed but not a bow.
+d653 1
+a653 1
+\storage{Investment, Ward or Magical Trap}
+d656 1
+a656 1
+The Adept can create a 5 foot high \x 20 foot long \x 1 foot thick
+d658 8
+a665 7
+a 5 foot radius, or a pillar 15 feet high with a 2 foot radius. The
+Adept can increase any 1 dimension by 1 foot per Rank. The wall cannot
+easily be seen through, and must be anchored to a surface. Any object
+or entity that passes through the wall must resist or suffer [D +
+Rank] damage (resist for half). The wall will provide light equivalent
+to a Firelight spell or a large campfire. At Rank 20 the Adept may
+double the damage of a Wall of Fire by halving its duration.
+d674 1
+d678 23
+a700 26
+This spell imbues a character with the speed and essence of a forest
+fire. The character may run without tiring at a speed of 20 (+ 2 /
+Rank) miles per hour over any solid surface. Additionally a character
+may ``run'' across any substance that would ordinarily support a fire
+\eg a character under the effect of a Wildfires spell could run across
+tree tops, up a wooden gate or palisade or across oil spread over
+water. Like a fire, momentum effects do not apply to a character under
+Wildfires, they may take corners at impossible angles, climb any
+flammable surface \eg a tree, impossibly quickly, or stop instantly in
+place. A character under Wildfires may leap such as a fire leaps a
+firebreak. This distance is equal to 1 \x PS + 1 foot per rank of
+horizontal distance or 1/2 PS + 1 foot per rank vertically. This spell
+may be ended at any time prior to expiry and on expiry the character
+stops instantly in place, much like a fire at the end of a burn. Prior
+to this a character must continue to move at the designated speed for
+at least two hexes of forward or lateral motion per pulse. At Rank 20
+a character under Wildfires may continue to run beyond the normal
+duration of the spell by suffering 1 point of Endurance damage for
+each additional 10 minutes that they run. This spell leaves charred
+footprints behind the user but these will only ignite substances
+coated in oil or similarly materials, not ordinary wood. This spell
+may be actively resisted. Double and triple effects may only be
+applied to duration. A character under Wildfires is moving too quickly
+to undertake normal tactical combat or to otherwise interact with
+other characters. If they wish to engage in melee they must end the
+duration of the spell.
+d715 1
+a715 1
+\concentration{	standard}
+d717 6
+a722 6
+This ritual increases temperature in the target area by 2 degrees C
+per Rank, slowly building up at 2 degrees C per hour. This may impede
+rainfall, kills plants, dry up wells, ponds, and ruin crops if
+repeated regularly. In cold or icy areas climes it may make an area
+tolerable for life for a time or result in standing fogs if the
+difference between climes is too extreme.
+d727 1
+a727 1
+\range{Adjacent fire}
+d731 3
+a733 2
+\material{Fuel for fire}
+\actions{Concentration, looking into the flames}
+d736 3
+a738 3
+The Adept may, after concentrating for half an hour and staring into
+the flames of a fire, attempt to obtain 1 of 3 types of vision (as
+determined by the Adept).
+d741 6
+a746 8
+A view as if the Adept was looking out of any fire within 1/2 a mile
+(+ 1/4 mile / Rank). If there are a number of fires within range, the
+fire the Adept looks out of is randomly determined, unless the Adept
+knows of a specific fire (within range) and chooses to look out of
+this particular fire. Should no fires exist within range, the Adept
+will see nothing. The Adept cannot be perceived by anyone looking into
+the fire, and may move their viewpoint within the fire so as to see in
+all directions.
+d749 3
+a751 4
+A precognitive vision (which is not controllable by the Adept). The
+detail of this vision and the amount of information obtained is
+dependant on rank.
+
+d766 5
+a770 1
+\casttime{3 Hours - 10 minutes / Rank (minimum of 10 minutes)}
+d772 10
+a781 14
+Summons a Lesser Efreeti to act as a stead for a Fire Adept. The
+Lesser Efreeti begins as a single hex mount with a base Endurance,
+Strength and Fatigue of 30. These characteristics increase at a rate
+of 2 points of Strength and Fatigue for every Rank of the Adept, and 1
+Point of Endurance per Rank. The exception to this is at Rank 20 at
+which point the Lesser Efreeti has an Endurance of 60, Strength and
+Fatigue of 80. The size of the Lesser Efreeti likewise increases. It
+begins as a one hex monster, increases to 2 hexes at Rank 12, and 3
+hexes at Rank 20.
+
+Damage from an Lesser Efreeti comes from two sources, the fire from
+which it is composed and from its physical attacks. The entity has
+three attacks, two claws and a bite. These increase in power as
+follows:
+d783 6
+a788 8
+\begin{tabular}{lr}
+Rank 0: & D + 4 \\
+Rank 4: & D + 6 \\
+Rank 8: & D + 8 \\
+Rank 12:&  D + 10 \\
+Rank 16: & D + 12 \\
+Rank 20: &D + 16 \\
+\end{tabular}
+d791 40
+a830 34
+The Lesser Efreeti has a 65\% chance of igniting in battle and damage
+is D10 (+ 1 / 2 Rank), resist for 1/2. This extends in a 5 feet radius
+from the creature. This fire does not affect the Adept, nor does it
+effect a person for whom a Lesser Efreeti is summoned (which is only
+possible at Rank 20).
+
+The hide of the Lesser Efreeti also increases in toughness with the
+rank of the Adept. It begins at an equivalent of 1/4 of the Adept's
+Willpower and increases by 1 point for every 3 ranks of the Adept's
+ritual. At Rank 20 the armour becomes equivalent to 1/4 the Adept's
+Willpower + 8.
+
+The willpower, magic resistance and all other faculties of the
+creature are those of its Adept.  Prior to Rank 14, a Lesser Efreeti
+will follow orders that remove it from the presence of the Adept only
+if these are passive in nature (e.g. wait for me here, return to this
+spot at this time, fly from this point to another. Prior to this it
+cannot be given orders to attack or retrieve a particular entity or
+thing unless the rider is atop the creature.
+
+The creature moves in tactical combat at a TMR of 5 (+ 1 / 4 Ranks of
+the Adept's ritual) when grounded, or 8 (+ 1 / 3 ranks of the Adept's
+ritual) while in the air. Long distance movement is at a rate of 20 (+
+2 / Rank) miles per hour. The duration of a summoned Lesser Efreeti at
+Rank 20 is 24 hours.  Double and triple effects can be applied to
+duration only.
+
+A Lesser Efreeti ignores fire attacks, but its rider suffers damage as
+normal. Ice and water attacks against the creature do twice the damage
+and resistance to these attacks is at -10\%. The Lesser Efreeti has a
+defence rating equal to the Willpower of its Adept + 1/2 the Adept's
+\% chance of the ritual. The ritual may be invested, but at a cost of
+50,000 silver pieces per charge. A Lesser Efreeti cannot be banished
+while the Adept is atop his stead.
+d835 1
+a835 1
+\range{Adjacent fire}
+d841 1
+a841 1
+\material{Fuel for fire}
+d843 1
+a843 1
+\concentration{ Standard}
+d845 11
+a855 12
+The Adept summons a Fire Elemental with a combined endurance and
+fatigue of 15 (+ 5 / Rank), within a fire, which must be constructed
+within 20 feet of the Adept. If the ritual check is less than or equal
+to the Adept's base chance, then the elemental is summoned and under
+the Adept's control. If the result is 30 or more than the Adept's base
+chance the ritual backfires, and the elemental arrives uncontrolled.
+Any other result has no effect. The elemental strongly resents being
+brought from the plane of elemental fire and therefore hates the Adept
+and will immediately try to kill the Adept unless it is brought under
+control. Once controlled, the elemental remains controlled until the
+Adept's concentration is broken, it is banished, or the Adept returns
+it to its own dimension with a special knowledge Counterspell.
+@
+
+
+5.2
+log
+@Fix name of college and add some formatting.
+@
+text
+@d492 1
+a492 1
+\multiple{550}
+@
+
+
+5.1
+log
+@Change EM of Fireball from 350 to 550 at request of Jim.
+@
+text
+@d1 1
+a1 1
+\begin{college}[2.0]{fire}{Fire Magic}{FI}
+d363 11
+a373 11
+The Adept may create a volume of smoke equal to 1000 cubic feet +
+500/Rank. This volume must be closed and contiguous, and has a minimum
+thickness of 5 feet. The density of the smoke may vary from light
+vapors at Rank 0 to thick, roiling smoke at Rank 20. The Adept at
+casting may vary the density of the smoke. The smoke produced reduces
+visual perception by 1 level per 5 full ranks (but may not reduce it
+to less than once times perception). Thus at Rank 10 a 4 x perception
+check reduces to 2 x perception check. The effective Rank of the spell
+will be decreased by 1 Rank per 10 miles/hour of wind, to a minimum of
+Rank 0, if cast out of doors or in a space where wind is present.
+Below rank 10 the smoke created by this spell is completely
+d837 16
+a852 11
+possible at Rank 20).  The hide of the Lesser Efreeti also increases
+in toughness with the rank of the Adept. It begins at an equivalent of
+1/4 of the Adept's Willpower and increases by 1 point for every 3
+ranks of the Adept's ritual. At Rank 20 the armour becomes equivalent
+to 1/4 the Adept's Willpower + 8.  The willpower, magic resistance and
+all other faculties of the creature are those of its Adept.  Prior to
+Rank 14, a Lesser Efreeti will follow orders that remove it from the
+presence of the Adept only if these are passive in nature (e.g. wait
+for me here, return to this spot at this time, fly from this point to
+another. Prior to this it cannot be given orders to attack or retrieve
+a particular entity or thing unless the rider is atop the creature.
+@
+
+
+5.0
+log
+@REL50
+@
+text
+@d492 1
+a492 1
+\multiple{350}
+d496 1
+a496 1
+\target{Entity or Object}
+@
+
+
+4.5
+log
+@Minor corrections from Rosemary Mansfield plus formatting changes.
+@
+text
+@d1 1
+a1 1
+\begin{college}[2.0]{fire}{Fire Magic}
+d209 2
+a210 2
+The Adept causes a bolt of elemental Fire to streak from his
+outstretched hand towards the designated target for D10 + 1 / Rank
+d224 1
+a224 1
+\resist{May not be resisted}
+d279 1
+a279 1
+\resist{May not be resisted}
+d292 1
+a292 1
+\duration{See Effects}
+d359 1
+a359 1
+\resist{May not be resisted}
+d384 1
+a384 1
+\resist{May not be resisted}
+d450 1
+a450 1
+\resist{Passive, Save for Half}
+d454 8
+a461 7
+Allows the Adept to breath magical fire like a Dragon for D10 + 3 /
+Rank.  The cone issues from the Adepts mouth and is 20 (+ 5 / Rank)
+feet in length and 5 (+ 5 / 3 Ranks) feet in width at the end farthest
+from the Adept. In some instances, \eg a character wading through
+water, a resistance roll may negate all damage.  There are no
+over-pressure or explosive effects.  Dragon Flames is analogous to an
+instantaneous flash of heat.
+d494 1
+a494 1
+\resist{Active or Passive, then Half Damage}
+d500 10
+a509 9
+5 or fraction Ranks) feet. Damage is D10 + 1 / Rank, and the spell may
+set flammable items alight when it bursts. Hard cover (\eg walls,
+parapets, mantelets but not shields) reduces damage to 1/2 before
+resistance is rolled. There are no over-pressure or explosive effects
+--- the fireball is analogous to an instantaneous flash of heat. A
+fireball may be detonated prematurely by the imposition of barriers in
+its line of flight and it may only be aimed at a point that the Adept
+can see and which is in range. At Rank 20 this spell may be cast with
+a detonation delay of up to 10 pulses. If this option is chosen then
+d526 1
+a526 1
+\resist{May not be resisted}
+d544 1
+a544 1
+\resist{May be actively and passively resisted}
+d548 2
+a549 3
+This sulphurous fire attacks 1 human-sized target for every 3 (or
+fraction of 3) Ranks the Adept has achieved with the spell. The
+target's Magical Resistance is automatically reduced by 5 (+ 1 /
+d573 1
+a573 1
+only be detected by WitchSight, WizardSight or by infravision.
+d583 1
+a583 1
+\resist{Active and passive}
+d588 10
+a597 9
+visible to the victim. The flames do D10 (+ 2 / Rank) damage. In
+addition the target is subject to other damage if the spell is at rank
+5 or higher. In this case, a number of points equal to [D - 4] + (1 /
+5 Full Ranks) are removed from 1 characteristic or statistic of the
+victim. The victim will regain these points after (4 + rank) days or
+after a remove curse ritual is performed over the victim. The Adept
+may determine the characteristic to be affected. A characteristic may
+not be reduced below 1 as a result of this spell. At Rank 20 a victim
+may be affected for (4 + Rank) days.
+d606 1
+a606 1
+\resist{Passive only}
+d646 1
+a646 1
+\resist{May not be resisted}
+d649 2
+a650 1
+\begin{effects}The Adept may summon a salamander, which will then attempt to set
+d655 2
+a656 2
+environmental conditions conducive to the survival of the entity
+\eg near a bonfire, volcano, in a desert.
+d662 1
+a662 1
+\duration{5 minutes + 5 / Rank}
+d667 1
+a667 1
+\target{See below}
+d680 1
+a680 3
+enflamed but not a bow. At Rank 20 the Adept may cast this spell on a
+weapon, or create a weapon, so as to allow it to drain heat from Fire
+creatures.  Damage in this instance is increased to 1 (+ 1 / 4 Ranks).
+d689 1
+a689 1
+\resist{Passive for Half Damage}
+d698 4
+a701 4
+or entity that passes through the wall must resist or suffer D10 +
+Rank damage. The wall will provide light equivalent to a Firelight
+spell or a large campfire. At Rank 20 the Adept may double the damage
+of a Wall of Fire by halving its duration.
+d748 2
+a749 2
+\basechance{30\% + 3 / Rank}
+\resist{May not be resisted}
+d768 1
+a768 1
+\basechance{40\% + 5 / Rank}
+d801 1
+a801 1
+\begin{ritual}[R-4]{Ritual of Summoning a Lesser Efreeti}
+d806 1
+a806 1
+\casttime{3 Hours - 10 minutes per Rank (to a minimum of 10 minutes)}
+d869 1
+a869 1
+\basechance{MA + 4 / Rank}
+@
+
+
+4.4
+log
+@Minor typo changes.
+@
+text
+@d38 1
+a38 4
+\textbf{Traditional colours:} Fire mages generally prefer to
+wear red, the colour of their element, often trimmed with black,
+yellow or orange. For jewellery the fire mage most frequently chooses
+garnets or rubies, set in gold.
+d40 3
+a42 2
+\textbf{Traditional symbols:} The symbol of the Fire College
+is the flame, usually depicted in red or gold.
+d44 4
+a47 2
+\textbf{Magical aptitude:} The MA requirement for this college
+is 12.
+d54 2
+@
+
+
+4.3
+log
+@Made Hellfire description slightly clearer.
+@
+text
+@d519 1
+a519 1
+\duration{1 hour + 1/ Rank}
+d527 5
+a531 5
+against cold or ice damage for 4 (+ 4 / Rank) points of
+protection. Protection is ablative and when the damage the spell may
+absorb is exceeded, the spell ceases to be in effect with the excess
+applied to the character. Double and triple effects may be applied to
+either duration or degree of protection.
+d536 1
+a536 1
+\range{10 feet + 5/Rank}
+d540 1
+a540 1
+\resist{May be passively and actively resisted (then suffers half damage)}
+@
+
+
+4.2
+log
+@Fire version 2.0 with probationary status.
+@
+text
+@d549 2
+a550 2
+Double damage add an additional 1 / Rank and triple damage adds an
+additional 2 / Rank.
+@
+
+
+4.1
+log
+@Last checkin for version 1.1.
+@
+text
+@d1 1
+a1 1
+\begin{college}[1.1]{fire}{Fire Magics}
+d3 7
+a9 2
+The College of Fire Magics is concerned exclusively with shaping the
+element of fire.
+d11 38
+a50 2
+The MA requirement for this college is 12.
+
+d52 2
+a53 4
+an area where it is possible for fire to exist.  The bonuses and
+penalties gained in this section apply to non-magical forms of this
+element.  Magical forms of the element may at best neutralise any
+penalties suffered due to the natural element.
+d55 1
+a55 2
+They may not practice fire magic underwater or in a vacuum, for
+example.
+d57 3
+a59 1
+\subsection{Modifiers}
+d61 8
+a68 2
+The following numbers are added to the Base Chance of performing any
+talent, spell or ritual of the College of Fire Magics:
+d70 2
+d73 5
+a77 8
+Adept is in light mist, fog, or rain		&  -5 \\
+Adept is in medium fog, or rain			& -10 \\
+Adept is in heavy fog or rain			& -15 \\
+Adept is within 30 feet of large campfire	&   5 \\
+Adept is within 30 feet of bonfire		&  10 \\
+Adept is in contact with small campfire		&   5 \\
+Adept is in contact with large campfire		&  10 \\
+Adept  is in contact with bonfire		&  15 \\
+d79 1
+a79 1
+\smallskip
+a80 2
+Only one negative and one positive modifier may be applied together.
+These bonuses only apply to normal fire.
+d82 48
+d133 1
+a133 2
+
+\range{50 feet + 10 / Rank}
+d135 1
+a135 1
+\basechance{PC + 5\% / Rank}
+d137 20
+a156 5
+The Adept may identify a heat source which is within range.  Whenever
+the Adept attempts to make an identification of this type, their
+player rolls D100.  If the resulting number is less than or equal to
+the Adept's Perception, the heat source is identified. In addition to
+other modifiers, the Base Chance is modified as follows:
+d158 9
+a166 3
+\begin{tabularx}{\linewidth}{Xr}
+For every 10 feet (after the first 10) to the heat source & -1\% \\
+\end{tabularx}
+d168 3
+a170 7
+The working of this talent may be actively, but not passively,
+resisted.  In the event that the heat source is identified, the GM
+must tell the Adept's player the size of the heat source and if it is
+magical or not.  No other information is provided.  This talent only
+works in the dark and has a range of 50 (+ 10 / Rank) feet.  Note: A
+heat source with a magic effect on it is not magical.
+
+d174 1
+a174 1
+\begin{talent}[T-2]{Pyrogenesis}
+d177 1
+d179 2
+a180 3
+\basechance{MA + 5\% / Rank}
+\resist{May be passively resisted}
+\target{Object}
+d182 11
+a192 12
+The Adept may cause one small flammable object within range to ignite.
+Thereafter, the flames are fuelled by the object.  They may be
+extinguished.  Note: This spell is meant to be used to light matches.
+It is not meant for use against human-sized characters and has
+insufficient power to set clothing alight.  For example, it can cause
+an effect similar to a mosquito bite on humans.  The Adept's MA is
+modified in the same manner as any Base Chance in spell casting. In
+addition to other modifiers, the Base Chance is modified as follows:
+
+\begin{tabularx}{\linewidth}{Xr}
+For every 10 feet (after the first 10) & -1\% \\
+\end{tabularx}
+d198 2
+a199 3
+\begin{spell}[G-1]{Heal Burns}
+
+\range{Touch}
+d201 1
+a201 1
+\multiple{100}
+d203 3
+a205 3
+\resist{May not be resisted}
+\storage{Investment, Potion}
+\target{Entity}
+d207 7
+a213 3
+The Adept may cure damage done by magical or non-magical fire. The
+spell heals 4 + 1 / Rank Fatigue and / or Endurance damage.  It does
+not cure scarring, etc.
+d217 1
+a217 17
+\begin{spell}[G-2]{Temperature Alteration}
+
+\range{25 feet + 5 / Rank}
+\duration{Concentration (Maximum 1 hour \x 2 / Rank)}
+\multiple{50}
+\basechance{35\%}
+\resist{May not be resisted}
+\storage{Investment}
+\target{Volume}
+\begin{effects}
+The Adept  may  cause  the  temperature
+of one 15-foot cube to rise by $2^\circ$C / Rank.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-3]{Extinguish Fire}
+
+d226 5
+a230 3
+When successfully cast, this spell will extinguish all fire within a
+chosen 5 foot (+ 5 / Rank) diameter sphere, all of which must be
+within the spell's range.  It will not extinguish magical fire.
+d234 1
+a234 1
+\begin{spell}[G-4]{Firelight}
+d236 7
+a242 7
+\range{15 feet + 15 / Rank}
+\duration{15 minutes \x [D - 5] \x Rank (\x 1 if Rank 0)}
+\multiple{75}
+\basechance{50\%}
+\resist{May only be passively resisted}
+\storage{Investment, Ward}
+\target{Point on object}
+d244 6
+a249 7
+The Adept creates a source of light which emanates in all directions
+from a point on a object nominated by the Adept within the spell's
+range. At ranks 0--5 the light emitted is equivalent to that of a
+torch, at ranks 6--10 that of a small campfire, at ranks 11--15 a
+large campfire, and at ranks 16--20 a bonfire.  The light emitted will
+have the appearance of firelight of the appropriate strength. It is
+magical light, and will cast poor contrast shadows.
+d253 6
+a258 7
+\begin{spell}[G-5]{Heat Metal}
+
+\range{ 5 feet + 5 / Rank}
+\duration{Concentration: maximum 5 minutes + 5 / Rank}
+\multiple{125}
+\basechance{15\%}
+\resist{May be passively resisted}
+d260 1
+a260 1
+\target{Object}
+d262 7
+a268 5
+The Adept may heat 5 (+ 5 / Rank) pounds of metal which will become
+red hot in [100 - Rank \x 5] seconds and will melt in [100 - Rank \x
+5] minutes.  When the spell effect ends the object will cool normally.
+The initial temperature of the metal in no way affects the time it
+takes to heat up.
+d272 1
+a272 19
+\begin{spell}[G-6]{Smoke Creation}
+
+\range{10 feet + 10 / Rank}
+\duration{15 minutes \x [D - 6] \x Rank ( \x 1 if unranked)}
+\multiple{75}
+\basechance{15\%}
+\resist{May not be resisted}
+\storage{Investment, Ward}
+\target{Volume}
+\begin{effects}
+The Adept may create two 5 foot cubes of smoke per Rank.  The Adept
+may choose the intensity of the smoke from light vapours to thick,
+roiling smoke.  The duration of the spell will be decreased if cast
+out of doors in a breeze, gusting or strong wind.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-7]{Fireproofing}
+
+d274 1
+a274 1
+\duration{30 minutes \x D10 \x Rank ( \x 1 if unranked) for entities, 24 hours \x D10 \x Rank ( \x 1 if unranked) for objects}
+d278 1
+a278 1
+\storage{Investment, Potion}
+d282 5
+a286 2
+effects.  The target cannot suffer damage from non-magical fire while
+under the effects of this spell.
+d288 43
+a332 1
+\begin{spell}[G-8]{Protection Against Magical Fire}
+d334 2
+a335 1
+\range{Touch}
+d337 20
+a356 2
+\multiple{175}
+\basechance{15\%}
+d358 2
+a359 2
+\storage{1. Potion; 2. Investment}
+\target{Entity}
+d361 12
+a372 14
+The target is protected against all magical forms of fire, or against
+fire spells according to the rank of the spell.  If cast on the Adept,
+the effective rank of the damaging fire is reduced by the Rank of this
+spell, to a minimum of no effect.  If cast on another target, the
+effective rank of the damaging fire spell is reduced by half the Rank
+of this spell, to a minimum of Rank 0.  If a damaging effect is not
+caused by a spell or ritual its effective Rank is held to be equal to
+the ``plus'' to the damage die.
+
+\begin{example}
+If a dragon's breath does [D + 25] damage, then it is said to have an
+effective Rank of 25, so a Rank 12 Protection from Magical Fire will
+reduce the damage to [D + 13].
+\end{example}
+a376 1
+
+d378 8
+a385 9
+
+\duration{Concentration: maximum 1 hour + 1 / Rank}
+\multiple{750}
+\basechance{9\% + 5\ / Rank}
+\resist{May not be resisted (passively by creatures of fire)}
+\target{Any fire}
+\casttime{1 hour}
+\material{A fire}
+\actions{Concentration}
+d388 21
+a408 8
+The Adept can bind the element of fire to their will by performing a
+Ritual of Binding fire in an area where fire already exists.  The
+ritual requires that the Adept spend one hour of time. If the Ritual
+Check is less than or equal to 9\% (+ 5 / Rank), the ritual is
+successful and the fire source over which the ritual was cast is
+considered bound for a length of time equal to the ability of the
+adept to retain concentration over it (maximum of 1 hour + 1
+additional hour per Rank).
+d410 3
+a412 18
+The chance that the ritual will be successful is modified by the
+following numbers:
+
+\begin{tabularx}{\linewidth}{X@@{\hspace{0.5em}}r}
+For every 5 feet separating the Adept from the fire being bound & -4\% \\
+\end{tabularx}
+
+A bound fire can be shaped by the Adept who bound it into any desired
+form.  Its size may be increased to a size which is greater than its
+original size by a factor equal to the square of the Adept's rank.
+The Adept can instill in the fire intelligence equal to the their own.
+The higher the Adept's Rank with the ritual, the greater the results
+of the ritual.  Whereas at Rank 1, the Adept could create a Fire
+Creature which would have to be guided at every turn, at Rank 10, the
+same Fire Creature might be endowed with free will, but would be loyal
+to the purposes of the Adept.  The ritual cannot be resisted except by
+an intelligent being composed of fire (and then only passive
+resistance is possible).
+d418 8
+a425 9
+\begin{spell}[S-1]{Wall of Fire}
+
+\range{ 10 feet + 10 / Rank}
+\duration{10 minutes + 10 / Rank}
+\multiple{100}
+\basechance{25\%}
+\resist{May only be passively resisted}
+\storage{Investment, Ward, Magical Trap}
+\target{Area}
+d427 13
+a439 29
+The Adept can create a 5 foot high \x 20 foot long \x 1 foot
+thick wall of flames, or a 5 foot high \x 1 foot thick circle of
+flames with a 5 foot radius, or a pillar 15 feet high with a 2 foot
+radius.  The Adept can increase any one dimension by 1 foot per Rank.
+The wall cannot be seen through, and cannot be cast so as to be in
+contact with any entity.  Any entity coming into contact with the wall
+must resist or suffer [D - 5] (+ 1 / Rank) Fire damage.  The wall
+will provide light equivalent to a Firelight spell large campfire.
+
+The entirety of one edge must be affixed to a surface.  This means
+that a wall can be created with a smaller dimension than would
+otherwise be possible.  For example, casting a wall of fire on a
+stepping stone that is 3' square will result in a wall which is only
+3' long.  Any edge may be affixed but, for the purposes of this spell,
+this does not include either face.  (For example, a wall could not be
+placed flat on a large open surface). The surface or surfaces that the
+Wall of fire is affixed to do not need to be flat, but the length of
+the wall is measured from the deepest depression on the surface that
+the wall fills.  (For example, a circularly concave wall of 5' radius,
+with a rank 0 wall affixed to it will end in a flit edge 15' beyond
+the end of the curvature).  The entire anchoring edge must be visible
+to the Adept.  The wall itself cannot be moved.  Should an entire
+cross-section of the last remaining anchoring edge be removed then the
+wall will immediately dissipate.  (For example, an adept casts a wall
+1' off the ground, attached to a door.  As soon as the door is opened
+the wall is dissipated.  If, however, the adept had cast it so that it
+overlapped the door frame, and it projected slightly above the top of
+the door, then it would not have been dissipated because no entire
+cross-section of the anchoring edge has been removed.
+d443 2
+a444 3
+\begin{spell}[S-2]{Bolt of Fire}
+
+\range{ 25 feet + 25 / Rank}
+d446 5
+a450 5
+\multiple{200}
+\basechance{40\%}
+\resist{May only be passively resisted}
+\storage{Investment, Ward, Magical Trap}
+\target{Entity or Object}
+d452 7
+a458 9
+A bolt of fire emanates from the Adept's fingers which travels in the
+desired direction to the extent of the spell's range.  The bolt will
+always travel its full range unless it hits a target.  It will always
+impact on the first target reached.  If there is no target the bolt
+will dissipate at the end of its range. Unless the target successfully
+resists they will suffer [D - 5] (+ 1 / Rank) damage from the bolt.
+The target's resistance is reduced by 10.  If the target fails to
+resist and is flammable or is wearing flammable clothing, then the
+flammable possessions of the target will ignite.
+d462 2
+a463 3
+\begin{spell}[S-3]{Ball of Fire}
+
+\range{ 20 feet + 20 / Rank}
+d465 5
+a469 5
+\multiple{200}
+\basechance{30\%}
+\resist{May only be passively resisted}
+\storage{Investment, Ward, Magical Trap}
+\target{Volume}
+d471 12
+a482 6
+This spell affects a spherical volume with a 12 foot radius.  The
+entirety of the affected volume must be within the Adept's spell
+range for the spell to be effective.  Any targets within the blast
+zone that do not successfully resist suffer [D - 4] (+ 1 / 2, or
+fraction, Ranks) damage.  There will be an overflow effect if cast in
+a volume less than the size of the ball.
+d486 25
+a510 1
+\begin{spell}[S-4]{Web of Fire}
+d512 2
+a513 30
+\range{ 20 feet + 10 / Rank}
+\duration{Concentration: maximum 15 minutes + 15 / Rank}
+\multiple{200}
+\basechance{15\%}
+\resist{May only be passively resisted}
+\storage{Investment}
+\target{Area}
+\begin{effects}
+The Adept projects a flaming web, similar to a spider web in
+construction, from their fingertips at a target hex, object or entity.
+Any objects or entities standing between the Adept and the target are
+ensnared by the web along with the target.  The web may only ensnare a
+number of entities equal to the Adept's rank and so will stop at the
+hex at which this limit is reached (or maximum range).  Entities
+ensnared in the web suffer [D - 2] (+ 1 per Rank) damage (halved if
+they successfully resist) each pulse that they remain in the web after
+the first.  The damage is done at the end of each pulse.  The web
+continues to burn until cut or until the Adept ceases to concentrate
+on it.  In order to cut the web, a character must successfully strike
+with a weapon that does B class damage and must inflict at least web's
+Rank points of damage as a result of that single strike.  The web has
+no defence.  Any ensnared entity must roll 1 \x Physical Strength ( \x
+2 if they successfully resisted) in order to move themselves to an
+adjacent hex (which may be free of the web), or to perform an action
+within the web.  A similar check is required for any entity attempting
+to remove an object from the web.  If an entity receives aid in
+removing themselves from the web, the PS of the assisting character
+may be combined with their own.  Any dropped object will become
+ensnared by the web, as will any entity who comes into contact with it
+(up to the limit of the web).
+d515 1
+d517 3
+a519 5
+
+\begin{spell}[S-5]{Self-immolation}
+
+\range{Self}
+\duration{45 seconds + 15 / Rank}
+d521 2
+a522 2
+\basechance{15\%}
+\resist{May only be passively resisted}
+d524 1
+a524 1
+\target{Self}
+d526 6
+a531 5
+If the spell is successfully cast, the target bursts into flames
+suffering [D - 4] damage immediately unless the spell is Rank 10 or
+higher (total damage, not per pulse).  Any entity or object within 5
+feet of the target suffers [D - 5] (+ 1 / Rank) damage per pulse
+unless they successfully resist.
+d535 8
+a542 9
+\begin{spell}[S-6]{Weapon of Flames}
+
+\range{5 feet + 5 / Rank}
+\duration{20 seconds \x [D - 5] \x Rank ( \x 1 if unranked)}
+\multiple{250}
+\basechance{30\%}
+\resist{May not be resisted}
+\storage{Investment}
+\target{See below}
+d544 7
+a550 15
+The spell is cast over a weapon of the Adept's choice causing it to
+burst into flame without damage to the weapon or wielder.  The Base
+Chance to hit a target with the weapon is increased by 1 (+ 1 / Rank),
+and the damage is increased by 1 for every 3 (or fraction) Ranks.
+\emph{Note:} The increased damage is caused by magical fire.  When the
+weapon is used against a creature of cold or water or against an
+undead creature the damage is increased by 1 per Rank instead.  All
+creatures which live in cold environments or in water are considered
+creatures of cold or water.  At Rank 6, this spell may be used to
+create a sword of flame without the necessity of casting it over a
+sword.  At Rank 10 the Adept can create any flaming weapon of their
+choice out of air using this spell.  When a weapon is created, it is
+substantial and requires normal minimums for that weapon.  A created
+weapon may be a thrown weapon, a quarrel, dart, etc, but may not be a
+bow, crossbow, sling or blowgun.
+d554 1
+a554 2
+\begin{spell}[S-7]{Speak to Fire Creatures}
+
+d556 4
+a559 4
+\duration{20 minutes + 10 / Rank}
+\multiple{75}
+\basechance{50\%}
+\resist{May not be resisted}
+d561 1
+a561 1
+\target{Self}
+d563 9
+a571 4
+This spell allows the Adept to communicate with all fire creatures
+within 15 feet (+ 15 per Rank).  For the purposes of this spell, fire
+creatures are: Elementals, Salamanders, Efreets, and creatures created
+using a Binding Fire Ritual.
+d575 1
+a575 2
+\begin{spell}[S-8]{Hellfire}
+
+d578 1
+a578 1
+\multiple{675}
+d580 1
+a580 1
+\resist{May be actively \& passively resisted}
+d584 10
+a593 5
+This invisible fire attacks one human-sized target for every 3 (or
+fraction of 3) Ranks the Adept has achieved with the spell.  The
+target's Magical Resistance is automatically reduced by 20.  The spell
+does [D + 1] (+ 2 / Rank) damage.  If a character successfully
+resists, they suffer only half damage (round up).
+d597 2
+a598 3
+\begin{spell}[S-9]{Dragon Flames}
+
+\range{25 feet + 25 / Rank}
+d600 5
+a604 5
+\multiple{525}
+\basechance{25\%}
+\resist{May be actively \& passively resisted}
+\storage{Investment, Ward, Magical Trap}
+\target{Entity}
+d606 12
+a617 4
+The Adept designates a single target for this spell who is then
+struck by the flames if the cast is successful.  If the target fails
+to resist the spell, it does [D + 1] (+ 4 / Rank) damage.  If the
+target resists, the damage is halved (round up).
+d621 7
+a627 9
+\begin{spell}[S-10]{Malignant Flames}
+
+\range{20 feet + 10 / Rank}
+\duration{Immediate}
+\multiple{550}
+\basechance{1\%}
+\resist{May be actively \& passively resisted}
+\storage{Investment, Ward, Magical Trap}
+\target{Entity}
+d629 5
+a633 19
+Any target of the Adept's choice within range is immediately wrapped
+in flames which are visible only to the victim.  The flames do [D - 5]
+( + 2 / Rank) damage.  In addition, the target is subject to
+additional damage if the spell is Rank 15 or higher.  In this case a
+number of points equal to [D - 3] are removed from one characteristic
+stat of the victim.  The victim will regain these points after (4 +
+Rank) weeks.  To determine which characteristic is affected, the
+Adept's player rolls D10 and consults the list of results shown below:
+
+\begin{tabular}{ll}
+\textbf{Die} & \textbf{Characteristic} \\
+1,2      & Physical Strength \\
+3,4      & Manual Dexterity \\
+5,6      & Agility \\
+7,8      & Magical Aptitude \\
+9,10     & Willpower \\
+\end{tabular}
+
+A characteristic may not be reduced below 1 as a result of this spell.
+d637 2
+a638 20
+\begin{spell}[S-11]{Incineration}
+
+\range{25 feet + 10 / Rank}
+\duration{Immediate}
+\multiple{500}
+\basechance{2\%}
+\resist{May be actively \& passively resisted}
+\storage{Investment, Ward, Magical Trap}
+\target{Entity}
+\begin{effects} If the target fails to resist, it is dead.  The target's
+body is a blackened husk, their skin needs to be regenerated and their
+chance of resurrection is reduced by 2 per rank.  This spell will have
+no effect on a target whose Willpower is greater than the modified
+chance of casting the spell (though the spell could still backfire).
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-12]{Summoning Salamander}
+
+\range{Works at any range}
+d645 18
+d664 14
+a677 4
+The Adept may summon a salamander which will then attempt to set
+afire anything flammable that it can reach.  The summoner will have no
+control over the salamander.  It may only be sent away by casting a
+Special Knowledge Counterspell of the College of Fire Magics over it.
+d681 20
+a700 1
+\begin{spell}[S-13]{Fire Flight}
+d702 4
+a705 3
+\range{ 10 feet + 10 / Rank}
+\duration{6 minutes + 6 / Rank}
+\multiple{350}
+d707 1
+a707 2
+\resist{May be actively \& passively resisted}
+\storage{Investment, Ward, Potion, Magical Trap}
+d710 26
+a735 13
+This spell causes the target to be enveloped in a corona of flame.
+The corona of flame will inflict [D - 5] (+ 1 / Rank) damage upon any
+entity occupying the same hex.  The target of the spell suffers [D -
+4] damage unless the spell is Rank 10 or higher (total damage, not per
+Pulse).  Whilst under the effects of the spell the target may rocket
+through the air at the head of a 30 foot comet, with a speed of 60 (+
+10 / Rank) mph under their own directional control. The target may
+change the speed to either zero or maximum over the space of one
+pulse, and may not hover.  Flammables may be ignited by the flames
+within a 10 foot radius on landing and takeoff.  This spell does not
+protect the wearer from the effects of magical fire.  In addition, if
+a double or triple effect is obtained then only the speed may be
+doubled or tripled.
+d739 1
+a739 1
+\subsubsection{Special Knowledge Rituals}
+d741 5
+a745 5
+\begin{ritual}[R-1]{Summoning and Controlling Fire Elemental}
+
+\duration{Concentration: No maximum}
+\multiple{250}
+\basechance{MA + 5\% / Rank + 1\% / WP over 15}
+d747 4
+a750 5
+\target{Fire Elemental}
+\casttime{2 hours}
+\material{None}
+\actions{Concentration}
+\concentration{Standard}
+d752 6
+a757 15
+The Adept may summon a Fire Elemental and bind it to temporary service
+by performing this ritual.  If the Ritual Check is less than or equal
+to the summoner's Base Chance, then the Elemental is summoned and
+controlled.  If the ritual backfires and the Elemental appears, but is
+uncontrolled and will attack the summoner and their friends.  Any
+other result has no effect.
+
+A Fire Elemental always appears within 20 feet of the summoner.  It
+has a combined Endurance and Fatigue equal to (15 + 15 / Rank) and,
+unless controlled by the summoner will attack and burn until dispelled
+by a Special Knowledge Counterspell of the College of Fire Magics.
+Once controlled, the Fire Elemental remains controlled until the
+summoner's concentration is broken or they choose to send the
+Elemental back to its own dimension with a Special Knowledge
+Counterspell of this College or it is banished.
+d762 1
+a762 2
+
+\range{5 miles + 5 / Rank}
+d765 3
+a767 6
+\basechance{MA + 30\% + 5\% / Rank}
+\resist{May not be resisted}
+\target{Any fire within range}
+\casttime{30 minutes}
+\material{A fire}
+\actions{Concentration}
+d771 24
+a794 5
+the flames of a fire, get a view of looking out of any fire within
+range.  The Adept may also get visions of a precognitive nature (which
+are not controllable by the Adept).  If the Adept chooses to sacrifice
+an object (which is destroyed) in the fire, they may gain a vision
+relevant to the object.
+d798 16
+a813 1
+\begin{ritual}[R-3]{Summoning Efreet}
+d815 44
+a858 23
+\duration{No maximum}
+\multiple{225}
+\basechance{25\% + 5\% / Rank}
+\resist{May not be resisted}
+\target{An Efreet}
+\casttime{1 hour}
+\material{None}
+\actions{Concentration}
+\concentration{Standard}
+\begin{effects}
+The Adept may summon an Efreet which will be sympathetic to the
+summoner as a fellow fire-user and will usually attempt to aid them.
+If the Efreet does not agree to aid them voluntarily, the Adept may
+still demand one service in exchange for allowing the Efreet to
+depart.  This service must take the form of a defined task to be
+performed in a matter of hours or days (though the service may take
+place in the future at some indefinite time).  The Efreet will almost
+always serve the summoner in battle against entities not associated
+with the College of Fire Magic, but will never assist the summoner in
+battle against a member of the College of Fire Magics.  Even demanding
+that the Efreet attack a fellow Adept of the College of Fire Magics as
+its obligatory service to the summoner will not cause the Efreet to
+change its attitude in this regard.
+d862 8
+a869 10
+\begin{ritual}[R-4]{Creating Drought}
+
+\range{200 feet + 200 / Rank}
+\duration{1 month \x Rank (minimum 1)}
+\multiple{200}
+\basechance{30\% + 5\% / Rank}
+\resist{May not be resisted}
+\target{Area}
+\casttime{1 hour}
+\material{None}
+d871 1
+a871 1
+\concentration{Standard}
+d873 12
+a884 5
+This ritual increases temperature in the target area by $2^\circ$C per
+Rank, slowly building up over the first month.  The ritual impedes
+rainfall, kills plants, dries wells, ponds, etc.  For each month after
+the first there is a 3 \x (degrees - 15)\% chance that a
+brushfire will occur.
+d887 22
+@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 1
+a1 3
+\section{The College of Fire Magics (Ver 1.1)}
+\label{college:fire}
+\index{colleges!Fire Magics|(}
+a2 2
+\begin{multicols}{3}
+
+d43 4
+a46 4
+\sItem{Range}{50 feet + 10 / Rank}
+\sItem{Experience Multiple}{75}
+\sItem{Base Chance}{PC + 5\% / Rank}
+\emph{Effect:}
+d64 1
+d69 6
+a74 6
+\sItem{Range}{Sight}
+\sItem{Experience Multiple}{75}
+\sItem{Base Chance}{MA + 5\% / Rank}
+\sItem{Resist}{May be passively resisted}
+\sItem{Target}{Object}
+\emph{Effect:}
+d87 1
+d94 8
+a101 8
+\sItem{Range}{Touch}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{100}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Potion}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d105 1
+d110 8
+a117 8
+\sItem{Range}{25 feet + 5 / Rank}
+\sItem{Duration}{Concentration (Maximum 1 hour \x 2 / Rank)}
+\sItem{Experience Multiple}{50}
+\sItem{Base Chance}{35\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment}
+\sItem{Target}{Volume}
+\emph{Effect:}
+d120 1
+d125 8
+a132 8
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{100}
+\sItem{Base Chance}{50\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Volume}
+\emph{Effect:}
+d136 1
+d141 8
+a148 8
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{15 minutes \x [D - 5] \x Rank (\x 1 if Rank 0)}
+\sItem{Experience Multiple}{75}
+\sItem{Base Chance}{50\%}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Storage}{Investment, Ward}
+\sItem{Target}{Point on object}
+\emph{Effect:}
+d156 1
+d161 8
+a168 8
+\sItem{Range}{ 5 feet + 5 / Rank}
+\sItem{Duration}{Concentration: maximum 5 minutes + 5 / Rank}
+\sItem{Experience Multiple}{125}
+\sItem{Base Chance}{15\%}
+\sItem{Resist}{May be passively resisted}
+\sItem{Storage}{Investment}
+\sItem{Target}{Object}
+\emph{Effect:}
+d174 1
+d179 8
+a186 8
+\sItem{Range}{10 feet + 10 / Rank}
+\sItem{Duration}{15 minutes \x [D - 6] \x Rank ( \x 1 if unranked)}
+\sItem{Experience Multiple}{75}
+\sItem{Base Chance}{15\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward}
+\sItem{Target}{Volume}
+\emph{Effect:}
+d191 1
+d196 8
+a203 8
+\sItem{Range}{Touch}
+\sItem{Duration}{30 minutes \x D10 \x Rank ( \x 1 if unranked) for entities, 24 hours \x D10 \x Rank ( \x 1 if unranked) for objects}
+\sItem{Experience Multiple}{150}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Potion}
+\sItem{Target}{Entity or Object}
+\emph{Effect:}
+d208 1
+d212 8
+a219 8
+\sItem{Range}{Touch}
+\sItem{Duration}{1 hour + 1 / Rank}
+\sItem{Experience Multiple}{175}
+\sItem{Base Chance}{15\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{1. Potion; 2. Investment}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d234 1
+d241 10
+a250 10
+\sItem{Duration}{Concentration: maximum 1 hour + 1 / Rank}
+\sItem{Experience Multiple}{750}
+\sItem{Base Chance}{9\% + 5\ / Rank}
+\sItem{Resist}{May not be resisted (passively by creatures of fire)}
+\sItem{Target}{Any fire}
+\sItem{Cast Time}{1 hour}
+\sItem{Materials}{A fire}
+\sItem{Actions}{Concentration}
+\sItem{Concentration Check}{Standard}
+\emph{Effect:}
+d278 1
+d285 8
+a292 8
+\sItem{Range}{ 10 feet + 10 / Rank}
+\sItem{Duration}{10 minutes + 10 / Rank}
+\sItem{Experience Multiple}{100}
+\sItem{Base Chance}{25\%}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Area}
+\emph{Effect:}
+d322 1
+d327 8
+a334 8
+\sItem{Range}{ 25 feet + 25 / Rank}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Entity or Object}
+\emph{Effect:}
+d344 1
+d349 8
+a356 8
+\sItem{Range}{ 20 feet + 20 / Rank}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Volume}
+\emph{Effect:}
+d363 1
+d368 8
+a375 8
+\sItem{Range}{ 20 feet + 10 / Rank}
+\sItem{Duration}{Concentration: maximum 15 minutes + 15 / Rank}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{15\%}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Storage}{Investment}
+\sItem{Target}{Area}
+\emph{Effect:}
+d398 1
+d403 8
+a410 8
+\sItem{Range}{Self}
+\sItem{Duration}{45 seconds + 15 / Rank}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{15\%}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Storage}{Potion}
+\sItem{Target}{Self}
+\emph{Effect:}
+d416 1
+d421 8
+a428 8
+\sItem{Range}{5 feet + 5 / Rank}
+\sItem{Duration}{20 seconds \x [D - 5] \x Rank ( \x 1 if unranked)}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment}
+\sItem{Target}{See below}
+\emph{Effect:}
+d444 1
+d449 8
+a456 8
+\sItem{Range}{Self}
+\sItem{Duration}{20 minutes + 10 / Rank}
+\sItem{Experience Multiple}{75}
+\sItem{Base Chance}{50\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Potion}
+\sItem{Target}{Self}
+\emph{Effect:}
+d461 1
+d466 8
+a473 8
+\sItem{Range}{10 feet + 10 / Rank}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{675}
+\sItem{Base Chance}{5\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d479 1
+d484 8
+a491 8
+\sItem{Range}{25 feet + 25 / Rank}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{525}
+\sItem{Base Chance}{25\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d496 1
+d501 8
+a508 8
+\sItem{Range}{20 feet + 10 / Rank}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{550}
+\sItem{Base Chance}{1\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d528 1
+d533 8
+a540 8
+\sItem{Range}{25 feet + 10 / Rank}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{500}
+\sItem{Base Chance}{2\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Entity}
+\emph{Effect:} If the target fails to resist, it is dead.  The target's
+d545 1
+d550 8
+a557 8
+\sItem{Range}{Works at any range}
+\sItem{Duration}{Until dispelled}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{15\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Magical Trap}
+\sItem{Target}{Salamander}
+\emph{Effect:}
+d562 1
+d567 8
+a574 8
+\sItem{Range}{ 10 feet + 10 / Rank}
+\sItem{Duration}{6 minutes + 6 / Rank}
+\sItem{Experience Multiple}{350}
+\sItem{Base Chance}{25\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Storage}{Investment, Ward, Potion, Magical Trap}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d588 1
+d595 10
+a604 10
+\sItem{Duration}{Concentration: No maximum}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{MA + 5\% / Rank + 1\% / WP over 15}
+\sItem{Resist}{May not be resisted}
+\sItem{Target}{Fire Elemental}
+\sItem{Cast Time}{2 hours}
+\sItem{Materials}{None}
+\sItem{Actions}{Concentration}
+\sItem{Concentration Check}{Standard}
+\emph{Effect:}
+d608 1
+a608 2
+controlled.  If the result is 30 or more higher than the Base Chance,
+then the ritual backfires and the Elemental appears, but is
+d620 1
+d625 11
+a635 11
+\sItem{Range}{5 miles + 5 / Rank}
+\sItem{Duration}{1 minute + 1 / Rank}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{MA + 30\% + 5\% / Rank}
+\sItem{Resist}{May not be resisted}
+\sItem{Target}{Any fire within range}
+\sItem{Cast Time}{30 minutes}
+\sItem{Materials}{A fire}
+\sItem{Actions}{Concentration}
+\sItem{Concentration Check}{Standard}
+\emph{Effect:}
+d642 1
+d647 10
+a656 10
+\sItem{Duration}{No maximum}
+\sItem{Experience Multiple}{225}
+\sItem{Base Chance}{25\% + 5\% / Rank}
+\sItem{Resist}{May not be resisted}
+\sItem{Target}{An Efreet}
+\sItem{Cast Time}{1 hour}
+\sItem{Materials}{None}
+\sItem{Actions}{Concentration}
+\sItem{Concentration Check}{Standard}
+\emph{Effect:}
+d670 1
+d675 11
+a685 11
+\sItem{Range}{200 feet + 200 / Rank}
+\sItem{Duration}{1 month \x Rank (minimum 1)}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{30\% + 5\% / Rank}
+\sItem{Resist}{May not be resisted}
+\sItem{Target}{Area}
+\sItem{Cast Time}{1 hour}
+\sItem{Materials}{None}
+\sItem{Actions}{Concentration}
+\sItem{Concentration Check}{Standard}
+\emph{Effect:}
+d691 1
+d693 1
+a693 5
+
+\raggedcolumns
+\index{colleges!Fire Magics|)}
+\clearemptydoublepage
+\end{multicols}
+@
+
+
+3.5
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+3.4
+log
+@Incinerate changed.
+@
+text
+@d212 1
+a212 1
+\sItem{Storage}{1. None; 2. Potion}
+d456 1
+a456 1
+\sItem{Resist}{May only be passively resisted}
+d526 1
+a526 1
+no affect on a target whose Willpower is greater than the modified
+@
+
+
+3.3
+log
+@Fix spell environment and indexes
+@
+text
+@a511 1
+
+d523 5
+a527 5
+\emph{Effect:}
+If the target fails to resist, it is reduced to a pile of ash.
+However, the spell will have no affect on a character whose Willpower
+is greater than the modified chance of casting the spell (though the
+spell could still backfire).
+@
+
+
+3.2
+log
+@Remove "Spell of" from spell names.
+Remove investment from self immolation.
+@
+text
+@d45 1
+a45 1
+\begin{talent}{Infravision (T-1)}
+d70 1
+a70 1
+\begin{talent}{Pyrogenesis (T-2)}
+d94 1
+a94 1
+\begin{spell}{Heal Burns (G-1)}
+d109 1
+a109 1
+\begin{spell}{Temperature Alteration (G-2)}
+d123 1
+a123 1
+\begin{spell}{Extinguish Fire (G-3)}
+d138 1
+a138 1
+\begin{spell}{Firelight (G-4)}
+d157 1
+a157 1
+\begin{spell}{Heat Metal (G-5)}
+d174 1
+a174 1
+\begin{spell}{Smoke Creation (G-6)}
+d190 1
+a190 1
+\begin{spell}{Fireproofing (G-7)}
+d205 1
+a205 1
+\begin{spell}{Protection Against Magical Fire (G-8)}
+d233 1
+a233 1
+\begin{ritual}{Binding Fire (Q-1)}
+d276 1
+a276 1
+\begin{spell}{Wall of Fire (S-1)}
+d317 1
+a317 1
+\begin{spell}{Bolt of Fire (S-2)}
+d338 1
+a338 1
+\begin{spell}{Ball of Fire (S-3)}
+d356 1
+a356 1
+\begin{spell}{Web of Fire (S-4)}
+d390 1
+a390 1
+\begin{spell}{Self-immolation (S-5)}
+d407 1
+a407 1
+\begin{spell}{Weapon of Flames (S-6)}
+d434 1
+a434 1
+\begin{spell}{Speak to Fire Creatures (S-7)}
+d450 1
+a450 1
+\begin{spell}{Hellfire (S-8)}
+d467 1
+a467 1
+\begin{spell}{Dragon Flames (S-9)}
+d483 1
+a483 1
+\begin{spell}{Malignant Flames (S-10)}
+d515 1
+a515 1
+\begin{spell}{Incineration (S-11)}
+d531 1
+a531 1
+\begin{spell}{Summoning Salamander (S-12)}
+d547 1
+a547 1
+\begin{spell}{Fire Flight (S-13)}
+d574 1
+a574 1
+\begin{ritual}{Summoning and Controlling Fire Elemental (R-1)}
+d604 1
+a604 1
+\begin{ritual}{Flame Sight (R-2)}
+d625 1
+a625 1
+\begin{ritual}{Summoning Efreet (R-3)}
+d652 1
+a652 1
+\begin{ritual}{Creating Drought (R-4)}
+@
+
+
+3.1
+log
+@Fix index.
+@
+text
+@a106 1
+
+d109 1
+a109 1
+\begin{spell}{Spell of Temperature Alteration (G-2)}
+a120 1
+
+d123 1
+a123 1
+\begin{spell}{Extinguish Fire Spell (G-3)}
+a135 1
+
+d138 1
+a138 1
+\begin{spell}{Spell of Firelight (G-4)}
+a154 1
+
+d157 1
+a157 1
+\begin{spell}{Spell of Heat Metal (G-5)}
+a171 1
+
+d174 1
+a174 1
+\begin{spell}{Spell of Smoke Creation (G-6)}
+a187 1
+
+d190 1
+a190 1
+\begin{spell}{Spell of Fireproofing (G-7)}
+d205 1
+a205 2
+
+\begin{spell}{Spell of Protection Against Magical Fire (G-8)}
+a228 1
+
+d233 1
+a233 1
+\begin{ritual}{Ritual of Binding Fire (Q-1)}
+a271 1
+
+d276 1
+a276 1
+\begin{spell}{Wall of Fire Spell (S-1)}
+a314 1
+
+d317 1
+a317 1
+\begin{spell}{Bolt of Fire Spell (S-2)}
+a335 1
+
+d338 1
+a338 1
+\begin{spell}{Ball of Fire Spell (S-3)}
+a353 1
+
+d356 1
+a356 1
+\begin{spell}{Web of Fire Spell (S-4)}
+d390 1
+a390 1
+\begin{spell}{Spell of Self-immolation (S-5)}
+d397 1
+a397 1
+\sItem{Storage}{Potion, Investment}
+d407 1
+a407 1
+\begin{spell}{Weapon of Flames Spell (S-6)}
+a431 1
+
+d434 1
+a434 1
+\begin{spell}{Speak to Fire Creatures Spell (S-7)}
+a447 1
+
+d450 1
+a450 1
+\begin{spell}{Spell of Hellfire (S-8)}
+a464 1
+
+d467 1
+a467 1
+\begin{spell}{Spell of Dragon Flames (S-9)}
+a480 1
+
+d483 1
+a483 1
+\begin{spell}{Malignant Flames Spell (S-10)}
+d515 1
+a515 1
+\begin{spell}{Spell of Incineration (S-11)}
+a528 1
+
+d531 1
+a531 1
+\begin{spell}{Spell of Summoning Salamander (S-12)}
+a544 1
+
+d547 1
+a547 1
+\begin{spell}{Spell of Fire Flight (S-13)}
+a569 1
+
+d574 1
+a574 1
+\begin{ritual}{Ritual of Summoning and Controlling Fire Elemental (R-1)}
+a601 1
+
+d604 1
+a604 1
+\begin{ritual}{Ritual of Flame Sight (R-2)}
+a622 1
+
+d625 1
+a625 1
+\begin{ritual}{Ritual of Summoning Efreet (R-3)}
+a649 1
+
+d652 1
+a652 1
+\begin{ritual}{Ritual of Creating Drought (R-4)}
+@
+
+
+3.0
+log
+@Major typographical changes.  Spells now spell environments
+@
+text
+@d3 1
+a3 1
+\index{colleges!fire|(}
+d695 1
+a695 1
+\index{colleges!fire|)}
+@
+
+
+2.1
+log
+@Minor changes from Keith Smith.
+@
+text
+@d2 3
+d45 1
+a45 1
+\subsubsection{Infravision (T-1)}
+d47 4
+a50 6
+\begin{spelldesc}
+\emph{Range:} 50 feet + 10 / Rank \\
+\emph{Experience Multiple:} 75 \\
+\emph{Base Chance:} PC + 5\% / Rank \\
+\end{spelldesc}
+\emph{Effects:}
+d68 3
+a70 1
+\subsubsection{Pyrogenesis (T-2)}
+d72 6
+a77 8
+\begin{spelldesc}
+\emph{Range:} Sight \\
+\emph{Experience Multiple:} 75 \\
+\emph{Base Chance:} MA + 5\% / Rank \\
+\emph{Resist:} May be passively resisted \\
+\emph{Target:} Object \\
+\end{spelldesc}
+\emph{Effects:}
+d90 1
+d94 1
+a94 1
+\subsubsection{Heal Burns (G-1)}
+d96 8
+a103 10
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 100 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Potion \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d108 1
+a108 1
+\subsubsection{Spell of Temperature Alteration (G-2)}
+d110 10
+a119 10
+\begin{spelldesc}
+\emph{Range:} 25 feet + 5 / Rank \\
+\emph{Duration:} Concentration (Maximum 1 hour \x 2 / Rank) \\
+\emph{Experience Multiple:} 50 \\
+\emph{Base Chance:} 35\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment \\
+\emph{Target:} Volume \\
+\end{spelldesc}
+\emph{Effects:}
+d123 3
+a125 1
+\subsubsection{Extinguish Fire Spell (G-3)}
+d127 8
+a134 10
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 100 \\
+\emph{Base Chance:} 50\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Volume \\
+\end{spelldesc}
+\emph{Effects:}
+d139 1
+a139 1
+\subsubsection{Spell of Firelight (G-4)}
+d141 10
+a150 10
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} 15 minutes \x [D - 5] \x Rank (\x 1 if Rank 0) \\
+\emph{Experience Multiple:} 75 \\
+\emph{Base Chance:} 50\% \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Storage:} Investment, Ward \\
+\emph{Target:} Point on object \\
+\end{spelldesc}
+\emph{Effects:}
+d159 3
+a161 1
+\subsubsection{Spell of Heat Metal (G-5)}
+d163 8
+a170 10
+\begin{spelldesc}
+\emph{Range:}  5 feet + 5 / Rank \\
+\emph{Duration:} Concentration: maximum 5 minutes + 5 / Rank \\
+\emph{Experience Multiple:} 125 \\
+\emph{Base Chance:} 15\% \\
+\emph{Resist:} May be passively resisted \\
+\emph{Storage:} Investment \\
+\emph{Target:} Object \\
+\end{spelldesc}
+\emph{Effects:}
+d177 3
+a179 1
+\subsubsection{Spell of Smoke Creation (G-6)}
+d181 8
+a188 10
+\begin{spelldesc}
+\emph{Range:} 10 feet + 10 / Rank \\
+\emph{Duration:} 15 minutes \x [D - 6] \x Rank ( \x 1 if unranked) \\
+\emph{Experience Multiple:} 75 \\
+\emph{Base Chance:} 15\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward \\
+\emph{Target:} Volume \\
+\end{spelldesc}
+\emph{Effects:}
+d194 1
+a194 1
+\subsubsection{Spell of Fireproofing (G-7)}
+d196 10
+a205 10
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} 30 minutes \x D10 \x Rank ( \x 1 if unranked) for entities, 24 hours \x D10 \x Rank ( \x 1 if unranked) for objects \\
+\emph{Experience Multiple:} 150 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Potion \\
+\emph{Target:} Entity or Object \\
+\end{spelldesc}
+\emph{Effects:}
+d210 3
+a212 1
+\subsubsection{Spell of Protection Against Magical Fire (G-8)}
+d214 8
+a221 10
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} 1 hour + 1 / Rank \\
+\emph{Experience Multiple:} 175 \\
+\emph{Base Chance:} 15\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} 1. None; 2. Potion \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d237 2
+d241 1
+a241 1
+\subsubsection{Ritual of Binding Fire (Q-1)}
+d243 10
+a252 12
+\begin{spelldesc}
+\emph{Duration:} Concentration: maximum 1 hour + 1 / Rank \\
+\emph{Experience Multiple:} 750 \\
+\emph{Base Chance:} 9\% + 5\ / Rank \\
+\emph{Resist:} May not be resisted (passively by creatures of fire) \\
+\emph{Target:} Any fire \\
+\emph{Cast Time:} 1 hour \\
+\emph{Materials:} A fire \\
+\emph{Actions:} Concentration \\
+\emph{Concentration Check:} Standard \\
+\end{spelldesc}
+\emph{Effects:}
+d281 2
+d285 1
+a285 1
+\subsubsection{Wall of Fire Spell (S-1)}
+d287 8
+a294 10
+\begin{spelldesc}
+\emph{Range:}  10 feet + 10 / Rank \\
+\emph{Duration:} 10 minutes + 10 / Rank \\
+\emph{Experience Multiple:} 100 \\
+\emph{Base Chance:} 25\% \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:}
+d325 3
+a327 1
+\subsubsection{Bolt of Fire Spell (S-2)}
+d329 8
+a336 10
+\begin{spelldesc}
+\emph{Range:}  25 feet + 25 / Rank \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity or Object \\
+\end{spelldesc}
+\emph{Effects:}
+d347 3
+a349 1
+\subsubsection{Ball of Fire Spell (S-3)}
+d351 8
+a358 10
+\begin{spelldesc}
+\emph{Range:}  20 feet + 20 / Rank \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Volume \\
+\end{spelldesc}
+\emph{Effects:}
+d366 1
+a366 1
+\subsubsection{Web of Fire Spell (S-4)}
+d368 10
+a377 10
+\begin{spelldesc}
+\emph{Range:}  20 feet + 10 / Rank \\
+\emph{Duration:} Concentration: maximum 15 minutes + 15 / Rank \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 15\% \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Storage:} Investment \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:}
+d400 1
+d402 1
+a402 1
+\subsubsection{Spell of Self-immolation (S-5)}
+d404 8
+a411 10
+\begin{spelldesc}
+\emph{Range:} Self \\
+\emph{Duration:} 45 seconds + 15 / Rank \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 15\% \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Storage:} Potion, Investment \\
+\emph{Target:} Self \\
+\end{spelldesc}
+\emph{Effects:}
+d417 1
+d419 1
+a419 1
+\subsubsection{Weapon of Flames Spell (S-6)}
+d421 8
+a428 10
+\begin{spelldesc}
+\emph{Range:} 5 feet + 5 / Rank \\
+\emph{Duration:} 20 seconds \x [D - 5] \x Rank ( \x 1 if unranked) \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment \\
+\emph{Target:} See below \\
+\end{spelldesc}
+\emph{Effects:}
+d445 3
+a447 1
+\subsubsection{Speak to Fire Creatures Spell (S-7)}
+d449 8
+a456 10
+\begin{spelldesc}
+\emph{Range:} Self \\
+\emph{Duration:} 20 minutes + 10 / Rank \\
+\emph{Experience Multiple:} 75 \\
+\emph{Base Chance:} 50\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Potion \\
+\emph{Target:} Self \\
+\end{spelldesc}
+\emph{Effects:}
+d458 1
+a458 1
+within 15 feet ( + 15 per Rank).  For the purposes of this spell, fire
+d462 3
+a464 1
+\subsubsection{Spell of Hellfire (S-8)}
+d466 8
+a473 10
+\begin{spelldesc}
+\emph{Range:} 10 feet + 10 / Rank \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 675 \\
+\emph{Base Chance:} 5\% \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d480 1
+a480 1
+\subsubsection{Spell of Dragon Flames (S-9)}
+d482 10
+a491 10
+\begin{spelldesc}
+\emph{Range:} 25 feet + 25 / Rank \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 525 \\
+\emph{Base Chance:} 25\% \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d497 3
+a499 1
+\subsubsection{Malignant Flames Spell (S-10)}
+d501 8
+a508 10
+\begin{spelldesc}
+\emph{Range:} 20 feet + 10 / Rank \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 550 \\
+\emph{Base Chance:} 1\% \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d529 3
+a531 1
+\subsubsection{Spell of Incineration (S-11)}
+d533 8
+a540 10
+\begin{spelldesc}
+\emph{Range:} 25 feet + 10 / Rank \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 500 \\
+\emph{Base Chance:} 2\% \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d546 1
+a546 1
+\subsubsection{Spell of Summoning Salamander (S-12)}
+d548 10
+a557 10
+\begin{spelldesc}
+\emph{Range:} Works at any range \\
+\emph{Duration:} Until dispelled \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 15\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Magical Trap \\
+\emph{Target:} Salamander \\
+\end{spelldesc}
+\emph{Effects:}
+d563 3
+a565 1
+\subsubsection{Spell of Fire Flight (S-13)}
+d567 8
+a574 10
+\begin{spelldesc}
+\emph{Range:}  10 feet + 10 / Rank \\
+\emph{Duration:} 6 minutes + 6 / Rank \\
+\emph{Experience Multiple:} 350 \\
+\emph{Base Chance:} 25\% \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Storage:} Investment, Ward, Potion, Magical Trap \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d589 2
+d593 1
+a593 1
+\subsubsection{Ritual of Summoning and Controlling Fire Elemental (R-1)}
+d595 10
+a604 12
+\begin{spelldesc}
+\emph{Duration:} Concentration: No maximum \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} MA + 5\% / Rank + 1\% / WP over 15 \\
+\emph{Resist:} May not be resisted \\
+\emph{Target:} Fire Elemental \\
+\emph{Cast Time:} 2 hours \\
+\emph{Materials:} None \\
+\emph{Actions:} Concentration \\
+\emph{Concentration Check:} Standard \\
+\end{spelldesc}
+\emph{Effects:}
+d622 1
+a622 1
+\subsubsection{Ritual of Flame Sight (R-2)}
+d624 13
+a636 13
+\begin{spelldesc}
+\emph{Range:} 5 miles + 5 / Rank \\
+\emph{Duration:} 1 minute + 1 / Rank \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} MA + 30\% + 5\% / Rank \\
+\emph{Resist:} May not be resisted \\
+\emph{Target:} Any fire within range \\
+\emph{Cast Time:} 30 minutes \\
+\emph{Materials:} A fire \\
+\emph{Actions:} Concentration \\
+\emph{Concentration Check:} Standard \\
+\end{spelldesc}
+\emph{Effects:}
+d644 3
+a646 1
+\subsubsection{Ritual of Summoning Efreet (R-3)}
+d648 10
+a657 12
+\begin{spelldesc}
+\emph{Duration:} No maximum \\
+\emph{Experience Multiple:} 225 \\
+\emph{Base Chance:} 25\% + 5\% / Rank \\
+\emph{Resist:} May not be resisted \\
+\emph{Target:} An Efreet \\
+\emph{Cast Time:} 1 hour \\
+\emph{Materials:} None \\
+\emph{Actions:} Concentration \\
+\emph{Concentration Check:} Standard \\
+\end{spelldesc}
+\emph{Effects:}
+d672 3
+a674 1
+\subsubsection{Ritual of Creating Drought (R-4)}
+d676 11
+a686 13
+\begin{spelldesc}
+\emph{Range:} 200 feet + 200 / Rank \\
+\emph{Duration:} 1 month \x Rank (minimum 1) \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 30\% + 5\% / Rank \\
+\emph{Resist:} May not be resisted \\
+\emph{Target:} Area \\
+\emph{Cast Time:} 1 hour \\
+\emph{Materials:} None \\
+\emph{Actions:} Concentration \\
+\emph{Concentration Check:} Standard \\
+\end{spelldesc}
+\emph{Effects:}
+d692 1
+d695 1
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d234 1
+a234 1
+reduce the damage do [D + 13].
+d306 1
+a306 1
+otherwise be possible.  For example, casting a wall of light on a
+d311 1
+a311 1
+Wall of Light is affixed to do not need to be flat, but the length of
+@
+
+
+1.9
+log
+@Change storage of Immolation back to Potion + Investment.
+@
+text
+@@
+
+
+1.8
+log
+@Fix resistance on DF to active & passive.
+@
+text
+@d409 1
+a409 1
+\emph{Storage:} Potion \\
+@
+
+
+1.7
+log
+@Change resistance on self immolation.
+@
+text
+@d489 1
+a489 1
+\emph{Resist:} May only be passively resisted \\
+d493 1
+a493 1
+\emph{Effects: }
+@
+
+
+1.6
+log
+@Fix resistance and storage on self immolation.
+@
+text
+@d408 1
+a408 1
+\emph{Resist:} May no be resisted \\
+@
+
+
+1.5
+log
+@Release 1.0 snapshot
+@
+text
+@d408 2
+a409 2
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Storage:} Potion, Investment \\
+d414 4
+a417 4
+suffering [D - 4] damage unless the spell is Rank 10 or higher (total
+damage, not per Pulse).  Any entity or object within 5 feet of the
+target suffers [D - 5] (+ 1 / Rank) damage per pulse unless they
+successfully resist.
+@
+
+
+1.4
+log
+@Fix up create drought
+@
+text
+@d11 5
+a15 2
+\subsubsection{Adepts of the College of Fire Magics may only practice
+their arts in an area where it is possible for fire to exist.}
+d26 8
+a33 8
+Caster is in light mist, fog, or rain		&  -5 \\
+Caster is in medium fog, or rain                & -10 \\
+Caster is in heavy fog or rain                  & -15 \\
+Caster is within 30 feet of large campfire	&   5 \\
+Caster is within 30 feet of bonfire             &  10 \\
+Caster is in contact with small campfire	&   5 \\
+Caster is in contact with large campfire	&  10 \\
+Caster  is in contact with bonfire              &  15 \\
+a45 1
+\emph{Duration:} Immediate \\
+d47 1
+a47 3
+\emph{Base Chance:} Perception + 5\% / Rank \\
+\emph{Resist:} May not be resisted \\
+\emph{Target:} Object, Entity or Volume \\
+d61 2
+a62 2
+resisted. In the event that the heat source is identified, the GM must
+tell the Adept's player the size of the heat source and if it is
+d64 2
+a65 2
+works in the dark and has a range of 50 feet (+ 10 feet / Rank).  Note:
+A heat source with a magic effect on it is not magical.
+a70 1
+\emph{Duration:} Immediate \\
+d73 1
+a73 1
+\emph{Resist:} May not be resisted \\
+d77 8
+a84 9
+The Adept may cause one small flammable object within range to
+ignite.  Thereafter, the flames are fuelled by the object or entity.
+They may be extinguished.  Note: This spell is meant to be used to
+light matches and fry small insects.  It is not meant for use against
+human-sized characters and has insufficient power to set clothing
+alight.  For example, it can cause an effect similar to a mosquito
+bite on humans.  The Adept's MA is modified in the same manner as any
+Base Chance in spell casting. In addition to other modifiers, the Base
+Chance is modified as follows:
+d104 1
+a104 1
+The caster may cure damage done by magical or non-magical fire. The
+d120 1
+a120 1
+The caster  may  cause  the  temperature
+d143 1
+a143 1
+\emph{Duration:} 10 minutes \x [D - 5] \x Rank (\x 1 if Rank 0) \\
+d151 7
+a157 8
+The caster creates a source of light which cannot be moved emanating
+in all directions from a point on a object nominated by the caster
+within the spell's range. At ranks 0--5 the light emitted is
+equivalent to that of a torch, at ranks 6--10 that of a small
+campfire, at ranks 11--15 a large campfire, and at ranks 16--20 a
+bonfire.  The light emitted will have the appearance of firelight of
+the appropriate strength. It is magical light, and will cast poor
+contrast shadows.
+d171 1
+a171 1
+The caster may heat 5 (+ 5 / Rank) pounds of metal which will become
+d189 1
+a189 1
+The caster may create two 5 foot cubes of smoke per Rank.  The caster
+d214 1
+a214 1
+\emph{Duration:} 1 day \x Rank ( \x 1 if unranked) \\
+d216 1
+a216 1
+\emph{Base Chance:} 2\% \\
+d218 1
+a218 1
+\emph{Storage:} Investment, Potion \\
+d222 14
+a235 8
+The spell provides protection from all magical types of fire or fire
+spells according to the rank of the spell.  The effective rank of the
+fire spell causing the flames or heat is reduced by the rank of this
+spell.  For example, if the target is under the effect of this spell
+at rank 5, a Hellfire cast at rank 12 will cause damage at an
+effective rank of 7.  If the rank of the protection is greater than
+the rank of the damaging spell then the target is totally protected
+from all effects.
+d244 1
+a244 1
+\emph{Base Chance:} 9 + 5\% / Rank \\
+d256 5
+a260 5
+Check is less than or equal to 9, the ritual is a successful and the
+fire source over which the ritual was cast is considered bound for a
+length of time equal to the ability of the adept to retain
+concentration over it (maximum of 1 hour + 1 additional hour per
+Rank).
+d262 2
+a263 2
+The chance that the  ritual  will  be  successful  is
+modified by the following numbers:
+a266 1
+For each Rank the Adept has achieved with the ritual & +5\% \\
+d274 1
+a274 1
+of the ritual.  For whereas at Rank 1, the Adept could create a Fire
+d295 1
+a295 1
+The caster can create a 5 foot high \x 20 foot long \x 1 foot
+d298 1
+a298 1
+radius.  The caster can increase any one dimension by 1 foot per Rank.
+d303 21
+a323 2
+The wall must be affixed to a surface in the same manner as Celestial
+Wall of Starlight.
+d334 1
+a334 1
+\emph{Target:} Entity, Object or Area \\
+d337 1
+a337 1
+A bolt of fire emanates from the caster's fingers which travels in the
+d340 1
+a340 1
+impact on the first target reached.  If there is no target then bolt
+d342 4
+a345 4
+resists they will suffer [D - 5] (+ 1 / Rank) damage from the bolt.  The
+target's resistance is reduced by 10.  If the target fails to resist
+and is flammable or is wearing flammable clothing, then the flammable
+possessions of the target will ignite.
+d360 1
+a360 1
+entirety of the affected volume must be within the caster's spell
+d378 1
+a378 1
+The caster projects a flaming web, similar to a spider web in
+d380 1
+a380 1
+Any objects or entities standing between the caster and the target are
+d382 1
+a382 1
+number of entities equal to the caster's rank and so will stop at the
+d387 1
+a387 1
+continues to burn until cut or until the caster ceases to concentrate
+d389 1
+a389 1
+with a weapon that does type B damage and must inflict at least web's
+d391 9
+a399 9
+no defence.  Any ensnared entity must roll 1 \x Physical
+Strength ( \x 2 if they successfully resisted) in order to move
+themselves to an adjacent hex (which may be free of the web), or to
+perform an action within the web.  A similar check is required for any
+entity attempting to remove an object from the web.  If an entity
+receives aid in removing themselves from the web, the PS of the aiding
+character may be combined with their own.  Any dropped object will
+become ensnared by the web, as will any entity who comes into contact
+with it (up to the limit of the web).
+d404 1
+a404 1
+\emph{Range:} 5 feet \\
+d409 2
+a410 2
+\emph{Storage:} Potion, Magical Trap, Investment, Ward \\
+\emph{Target:} Entity \\
+d417 1
+a417 2
+successfully resist.  In addition, the target is Protected from
+Magical Fire at the Rank of the this spell for its duration.
+d422 1
+a422 1
+\emph{Range:}  15 feet + 15 / Rank \\
+d431 7
+a437 7
+The spell is cast over a weapon of the caster's choice causing it to
+burst into flame without damage to the weapon or wielder of it.  The
+Base Chance to hit a target with the weapon is increased by (1 + 1 /
+Rank), and the damage is increased by 1 for every 3 or fraction of 3
+ranks.  \emph{Note:} The increased damage is caused by magical fire.
+When the weapon is used against a creature of cold or water or against
+an undead creature the damage is increased by 1 per rank instead.  All
+d441 5
+a445 5
+sword.  At Rank 10 the caster can create any flaming weapon of their
+choice out of air using this spell.  When a weapon is created then it
+is substantial and requires normal minimums for that weapon.  A
+created weapon may be a thrown weapon, a quarrel, dart, etc, but may
+not be a bow, crossbow, sling or blowgun.
+d459 1
+a459 1
+This spell allows the caster to communicate with all fire creatures
+d494 1
+a494 1
+The caster designates a single target for this spell who is then
+d511 1
+a511 1
+Any target of the caster's choice within range is immediately wrapped
+d513 6
+a518 6
+( + 2 / Rank) damage.  In addition, the target is subject to other
+damage if the spell is Rank 5 or higher.  In this case a number of
+points equal to [D - 3] are removed from one characteristic stat of
+the victim.  The victim will regain these points after (4 + Rank)
+weeks.  To determine what characteristic is affected, the caster's
+player rolls D10 and consults the list of results shown below:
+d560 1
+a560 1
+The caster may summon a salamander which will then attempt to set
+d597 2
+a598 2
+\emph{Experience Multiple:} 750 \\
+\emph{Base Chance:} MA + 4\% / Rank + 1/% / WP over 15 \\
+d621 1
+a621 1
+Elemental back to it's own dimension with a Special Knowledge
+d627 1
+a627 1
+\emph{Range:} 5 miles + 5 / Rank
+d630 1
+a630 1
+\emph{Base Chance:} MA + 30\% + 5/% / Rank \\
+d651 1
+a651 1
+\emph{Base Chance:} 15\% + 4/% \\
+d669 4
+a672 4
+battle against a member of the College of Fire Magic.  Even demanding
+that the Efreet attack a fellow Adept of the College of Fire Magic as
+it's obligatory service to the summoner will not cause the Efreet to
+change it's attitude in this regard.
+d680 1
+a680 1
+\emph{Base Chance:} 30\% + 5\% / Rank + 1\% / WP over 15 \\
+d696 1
+a696 1
+\newpage
+@
+
+
+1.3
+log
+@Change Self-immolation spell to fix PMF effects.
+@
+text
+@d660 1
+a660 1
+\emph{Base Chance:} 30\% + 5\% / Rank + 1/% / WP over 15 \\
+@
+
+
+1.2
+log
+@Changes made before May Gods meeting
+@
+text
+@d383 1
+a383 1
+\emph{Range:} Self \\
+d389 1
+a389 1
+\emph{Target:} Self \\
+d396 2
+a397 2
+successfully resist.  Whilst under the effects of the spell the target
+is unaffected by magical fires.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d89 1
+a89 1
+For every 10 feet (after the first 10) to the heat source & -1\% \\
+d145 1
+a145 1
+\emph{Duration:} 10 minutes \x [D - 5] \x Rank (\x 1 if unranked) \\
+d155 3
+a157 3
+within the spell's range. At ranks 0 to 5 the light emitted is
+equivalent to that of a torch, at ranks 6 to 10 that of a small
+campfire, at ranks 11 to 15 a large campfire, and at ranks 16 to 20 a
+d166 1
+a166 1
+\emph{Duration:} Concentration: Maximum 5 minutes + 5 / Rank \\
+d175 4
+a178 4
+red hot in (100 - Rank \x 5) seconds and will melt in (100 -
+Rank \x 5) minutes (minimum of 1 minute).  When the spell effect
+ends the object will cool normally.  The initial temperature of the
+metal in no way affects the time it takes to heat up.
+d241 2
+a242 2
+\emph{Base Chance:} 9 + 4/% / Rank \\
+\emph{Resist:} May not be resisted (passively by creatures of fire)\\
+d257 1
+a257 1
+rank).
+d272 1
+a272 1
+of the ritual.  For whereas at rank 1, the Adept could create a Fire
+d299 1
+a299 1
+must resist or suffer [D - 5] (+ 1 per Rank) Fire damage.  The wall
+d321 1
+a321 1
+resists they will suffer [D - 5] + 1 / Rank damage from the bolt.  The
+d341 3
+a343 3
+zone that do not successfully resist suffer [D - 4] (+ 1 for every 2
+or fraction of 2 Ranks) damage.  There will be an overflow effect if
+cast in a volume less than the size of the ball.
+d349 1
+a349 1
+\emph{Duration:} Concentration: Maximum 15 minutes + 15 / Rank \\
+d368 2
+a369 2
+with a weapon that does type B damage and must inflict at least Web's
+rank points of damage as a result of that single strike.  The web has
+d383 1
+a383 1
+\emph{Range:} 5 feet \\
+d389 1
+a389 1
+\emph{Target:} Entity \\
+d395 1
+a395 1
+target suffers [D - 5] (+ 1 per Rank) damage per pulse unless they
+a398 4
+\textbf{Note:} This needs a good clean up.  The part about being
+protected against magical fire is a problem and is the ``self'' only
+or not?
+
+d413 2
+a414 2
+Base Chance to hit a target with the weapon is increased by 1 + 1 per
+rank, and the damage is increased by 1 for every 3 or fraction of 3
+d438 1
+a438 2
+
+\emph{Effects: }
+d441 2
+a442 2
+creatures are; Elementals, Salamanders, Efreets, and creatures
+created using a Binding Fire Ritual.
+d459 2
+a460 2
+does [D + 1] + 2 / Rank damage.  If a character successfully resists,
+they suffer only half damage (round up).
+a472 1
+
+d476 1
+a476 1
+to resist the spell, it does [D + 1] ( + 4 per Rank) damage.  If the
+d496 3
+a498 4
+the victim.  The victim will regain these points after a number of
+weeks equal to 4 + Rank of the spell.  To determine what characteristic
+is affected, the caster's player rolls D10 and consults the list of
+results shown below:
+d523 2
+a524 2
+If the target fails to resist, it is reduced to a smoking corpse.
+However, the spell will have no affect on a character whose willpower
+a527 4
+\textbf{Note:} The text of this spell has changed from pile of ash
+to smoking corpse so that it is possible to resurrect the body (maybe
+a minus).
+
+d558 1
+a558 1
+The corona of flame will inflict [D - 5] + 1 per Rank damage upon any
+d562 8
+a569 8
+through the air at the head of a 30 foot comet, with a speed of 60
+miles per hour + 10  / Rank under their own directional control. The
+target may change the speed to either zero or maximum over the space
+of one pulse, and may not hover.  Flammables may be ignited by the
+flames within a 10 foot radius on landing and takeoff.  This spell
+does not protect the wearer from the effects of magical fire.  In
+addition, if a double or triple effect is obtained then only the speed
+may be doubled or tripled.
+d578 1
+a578 1
+\emph{Base Chance:} MA + 4/% / Rank + 1/% / WP over 15 \\
+d588 6
+a593 9
+by performing this ritual.  The ritual takes two hours.  It may only
+be performed if the summoner remains stationery and takes no other a
+during the time the ritual is being performed.
+
+If the Ritual Check is less than or equal to the summoner's Base
+Chance, then the Elemental is summoned and controlled.  If the result
+is 30 or more higher than the Base Chance, then the ritual backfires
+and the Elemental appears, but is uncontrolled and will attack the
+summoner and their friends.  Any other result has no effect.
+d596 7
+a602 8
+has a combined Endurance and Fatigue equal to 15 (+ 15 additional
+points per Rank) and, unless controlled by the summoner will attack
+and burn until dispelled by a Special Knowledge Counterspell of the
+College of Fire Magics.  Once controlled, the Fire Elemental remains
+controlled until the summoner's concentration is broken or they choose
+to send the Elemental back to it's own dimension with a Special
+Knowledge Counterspell of this College or it is banished.  The
+Experience Multiple for this ritual is 250.
+d610 1
+a610 1
+\emph{Base Chance:} MA + 30/% + 5/% / Rank \\
+d660 1
+a660 1
+\emph{Base Chance:} 30\% + 5/% / Rank + 1/% / WP over 15 \\
+d672 1
+a672 1
+the first there is a 3 \x (degrees - 15) percent chance that a
+@

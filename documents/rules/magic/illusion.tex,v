@@ -1,0 +1,3501 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.3;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.3;
+
+4.3
+date	2000.05.22.10.36.55;	author ralexand;	state Exp;
+branches;
+next	4.2;
+
+4.2
+date	2000.03.29.11.20.46;	author ralexand;	state Exp;
+branches;
+next	4.1;
+
+4.1
+date	2000.03.02.16.24.50;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.6;
+
+3.6
+date	98.06.04.05.35.07;	author rossa;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	98.05.11.02.03.38;	author rossa;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	98.05.08.03.20.56;	author rossa;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	98.05.05.05.38.13;	author rossa;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	98.05.05.00.26.28;	author rossa;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	98.05.05.00.23.42;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.05.04.03.42.09;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	97.04.29.08.51.27;	author rossa;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	97.02.11.04.30.06;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	97.02.11.04.11.54;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	96.02.23.02.09.11;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	96.01.12.02.27.34;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.09.05.19.52.47;	author rossa;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.06.08.21.42.28;	author rossa;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{college}[1.4]{illusion}{Illusions}{IL}
+
+The College of Illusions is concerned with truth, deception and
+sensation. Practitioners of the College (or Art) of Illusions are
+called Illusionists. This College is one of extremes, of subtlety and
+flamboyance, and especially of deception and honesty. Illusionists are
+taught that they are privy to one of the most potent truths known to
+the sentient races, namely that our senses are the only window to the
+existence of reality. Based on this doctrine, they change the
+appearance of reality rather than the actual nature. This often leads
+to more impressive but superficial effects than other Colleges. These
+effects have meant that Illusionists have historically been associated
+with stage magicians and sleight-of-hand artists, which has degraded
+their status in the eyes of other Adepts. Most accept their stage
+heritage, and revel in the layers of deception involved in revealing a
+great truth to their audience. Some, however, become enmeshed within
+their own fantasy and fail to differentiate between this and
+reality. Others deny this deception totally, and turn to death as the
+only fixed point in a changing world. These Adepts use people's
+dependency on their senses to cause death and despair.
+
+\subsubsection{Traditional Colours}
+
+The more flamboyant of the Illusionists will often wear bright, even
+garish clothing incorporating as many colours as possible. These
+colours will usually not clash, but the Illusionist wearing them will
+stand out in any crowd. At the very least, most Illusionists will wear
+extremes of colours; fire, blood, sable, snow, charcoal, emerald,
+gold, etc.
+
+\subsubsection{Traditional Symbols}
+
+The College of Illusions is associated with a plethora of symbols
+adopted from individual performers. Theatrical symbology is common.
+
+
+\subsubsection{On Illusions}
+
+Most Magics in this College are Illusions.  Illusions cannot be
+``disbelieved''; the images are there and will interact with light and
+sound in the same manner as the objects they represent. Mirrors and
+light sources may not be created. Unless stated, the Illusions will
+not be substantial, and any solid objects or spells will pass through
+them. Illusions will interact with each other as if real. Illusion
+spells may be dispelled by anyone with the appropriate counterspell,
+although Illusions on an entity gains their passive magic resistance.
+
+\subsection{Restrictions}
+
+Adepts of the College of Illusions may practice their arts without
+restrictions.
+
+The MA requirement for becoming an Adept of the College of Illusions
+is 13.
+
+
+\subsection{Base Chance Modifiers}
+
+The Base Chance of performing any talent, spell or ritual of the
+College of Illusions may be modified by conditions.
+
+As the successful performance of Illusion magic is as much finesse and
+presentation as raw power, a knowledge of the Performing Arts is
+considered essential by many Adepts. Furthermore, willing a change in
+reality to the level of detail necessary for deception, requires good
+concentration and Willpower. The following conditions modify the base
+chances of the College of Illusions:
+
+{\small \begin{tabularx}{\linewidth}{Xr}
+For each point the Adept's Willpower varies from 15	& +/- 1 \\
+For each two full Ranks in Troubadour	& + 1 \\
+\end{tabularx}}
+
+\subsection{Talents}
+
+\begin{talent}[T-1]{Concealed Casting}
+
+\multiple{150}
+\begin{effects}
+This Talent allows the Adept to cast without any apparent movement or
+noise. The Adept may not speak or make meaningful or extravagant
+actions. They may not cast without a hand free or if mute. If an
+observer is intent on the Adept (\eg in conversation with), the
+observer may make a (2 \x PC) - Rank check to notice. All aspects of
+the Spell (including Base Chance) must be cast at the lower of the
+Talent's and Spell's ranks, and the Base Chance is further reduced by
+20\%. The Talent only functions with spells of the College of
+Illusions.
+\end{effects}
+\end{talent}
+
+\begin{talent}[T-2]{Enhanced Vision}
+
+\multiple{225}
+\begin{effects}
+The Adept may see through any obscurement such as smoke, dust, water,
+fog, cloud or rain (though not darkness) to a distance of 10 feet (+
+10 / Rank) as if unobscured. Normal penalties then accrue from this
+range. The Adept may see objects or entities that are invisible - they
+appear to have a slight blue sheen around them. If the invisibility
+effect (excluding Walking Unseen) is of a higher Rank than the
+Enhanced Vision, the object or entity may not be clearly identified or
+directly magically targeted. The Adept has a Base Chance of PC (+ 5 /
+Rank) of Detecting Illusions if they take a Pass Action --- each
+Illusion may only be checked once. Detecting an Illusion does not
+nullify its effects.
+\end{effects}
+\end{talent}
+
+\begin{talent}[T-3]{Project Image}
+
+\multiple{200}
+\begin{effects}
+This Talent creates a visual Illusion of the Adept, who becomes
+Invisible as per (G-4) except that attacking in melee will always
+disrupt this Talent. Initially, the image forms over the Adept. The
+image will reflect the current appearance of the Adept, in any desired
+stance. The image may only be changed or moved (at TMR) when the Adept
+takes a pass action. The image must remain in line of sight and within
+15 feet (+ 15 / Rank), and may not pass through solid objects.  At
+Rank 5, the image may make appropriate environmental noises, \eg
+foot-steps. At Rank 10, the Adept may move while maintaining the
+relative distance and direction to their image. At Rank 15, the Adept
+may project their voice through the image. At Rank 20, the Illusionist
+may also see through the image. The abilities gained at Ranks 15 and
+20 require pass actions to use.
+\end{effects}
+\end{talent}
+
+\subsection{General Knowledge Spells}
+
+\begin{spell}[G-1]{Audile Illusion}
+
+\range{15 feet + 15 / Rank}
+\duration{10 minutes + 10 / Rank}
+\multiple{125}
+\basechance{30\%}
+\resist{None}
+\storage{Investment, Ward, Magical Trap}
+\target{Area}
+\begin{effects}
+This Illusion allows the Adept to create up to Rank simple sounds,
+each coming from a location fixed either absolutely or relative to an
+object. Whilst taking a pass action, the Adept may cause any
+combination of these sounds to occur. Sounds and locations are defined
+as they are first used, not at time of casting. No language or musical
+instrument may be imitated. The maximum volume at Ranks 0--4 is that of
+a stage whisper (usually clearly audible at 25'), at Ranks 5--9, normal
+conversation (50'), at Ranks 10--14, shouting (200'), at Ranks 15--19,
+screaming (500'), and at Rank 20, thunder (1 mile). The range at which
+the sound will be clearly heard is affected by the ambient level of
+noise.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-2]{Flash of Light}
+
+\range{15 feet + 15 / Rank}
+\duration{Immediate}
+\multiple{150}
+\basechance{20\%}
+\resist{Passive}
+\storage{Potion}
+\target{Self}
+\begin{effects}
+This spell creates a blinding flash of light emanating from the
+Adept's body. This light is magical in nature, and may cut through
+areas of magical darkness. All entities not shielded by a solid object
+and within range must either resist or be blinded for 5 seconds (+ 5 /
+2 full Ranks). Blinded characters have their Strike Chance reduced by
+50, and they move at half their normal TMR. The Adept is normally not
+affected by this spell.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-3]{Illusion of Food}
+
+\range{15 feet + 15 / Rank}
+\duration{10 minutes + 10 / Rank}
+\multiple{100}
+\basechance{50\%}
+\resist{None}
+\storage{Investment}
+\target{Object}
+\begin{effects}
+The Adept may change the taste, appearance and smell of up to 1 cubic
+foot of food or drink (+ 1 / Rank). At Rank 11, the Adept may create
+(Rank - 10) pounds of food or drink. This magically created food will
+recover fatigue for the duration of the spell. The Adept's Cooking
+Rank will effectively be improved by 2, or to a minimum of Rank / 2.
+No other properties (\eg poison, magic) may be changed or created with
+this spell.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-4]{Invisibility}
+
+\range{15 feet + 15 / Rank}
+\duration{5 minutes + 5 / Rank}
+\multiple{450}
+\basechance{30\%}
+\resist{None}
+\storage{Investment, Potion, Ward}
+\target{Entity or Object}
+\begin{effects}
+The target is made invisible, but cannot melee attack without becoming
+visible. At Rank 16, the target can attack in melee whilst
+invisible. The target may become visible at will. Once they have
+become visible, the spell ends. The effects of this spell are
+identical to the E \& E College spell of the same name.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-5]{Personalised Illusion}
+
+\range{30 feet + 30 / Rank}
+\duration{1 hour + 1 / Rank}
+\multiple{75}
+\basechance{40\%}
+\resist{None}
+\storage{Investment, Ward, Magical Trap}
+\target{Area}
+\begin{effects}
+This Illusion creates an image of a specific type peculiar to the
+Adept. At Rank 0, the image must be of a rock. At each of Ranks 4, 8,
+11, 14, 16, 18, 19 and 20, another image may be chosen. The Adept may
+select the colouring, size and conformation of the image at cast time
+(\eg a closed iron chest, or an open wooden casket) up to a maximum
+diameter of 5' and height of 8'. The Illusion is not affected by
+physical laws except that it is opaque to light. The Adept may move or
+rotate (though not manipulate) the Illusion by taking a pass
+action. The workmanship is as if the Adept were an Artisan of
+one-third Rank.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-6]{Illusion of Seeming}
+
+\range{5 feet + 5 / Rank}
+\duration{10 minutes + 10 / Rank}
+\multiple{200}
+\basechance{20\%}
+\resist{None}
+\storage{Investment, Ward}
+\target{Object or Illusion}
+\begin{effects}
+This Illusion creates a visual image of up to 2 cubic foot (+ 2 /
+Rank) on an object, which will move with the object if the object
+changes shape or position, and dissipate if the object is destroyed.
+The Adept may move or change the image by taking a pass action to
+concentrate on it. The object has not been changed, and still has its
+original physical properties. The workmanship is as if the Adept were
+an Artisan of one-third Rank.
+
+If the target is an Illusion, the target may be changed to any other
+form that it could normally take. Up to 1 cubic foot of the target (+
+1 / Rank) may be changed during each pass action. This change will
+revert if the Seeming ceases before the target Illusion. The Adept may
+only affect their own Illusions.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-7]{Static Illusion}
+
+\range{15 feet + 15 / Rank}
+\duration{30 minutes + 30 / Rank}
+\multiple{200}
+\basechance{30\%}
+\resist{None}
+\storage{Investment, Ward, Magical Trap}
+\target{Area}
+\begin{effects}
+This spell creates a visual Illusion within a volume no larger than
+(Rank + 3) feet by (Rank / 2 + 2) feet by (Rank / 3 + 1) feet. The
+Illusion is fixed at casting, and may not be changed or moved with
+this spell. The workmanship is as if the Adept were an Artisan of
+one-half Rank.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-8]{Illusionary Wall}
+
+\range{15 feet + 15 / Rank}
+\duration{30 minutes + 30 / Rank}
+\multiple{125}
+\basechance{20\%}
+\resist{None}
+\storage{Investment, Ward, Magical Trap}
+\target{Area}
+\begin{effects}
+This spell creates an Illusion of a non-solid, linear or smoothly
+curved wall. It may have all the characteristics of any other wall
+spell (except solidity, damage or fear), or mimic an adjacent surface
+instead. The wall is 20' by 10' by 12", with each Rank altering its
+height or width by 2' or thickness by 4". The wall must be attached
+along the entirety of one of its thinnest edges.
+\end{effects}
+\end{spell}
+
+\subsection{General Knowledge Rituals}
+
+\begin{ritual}[Q-1]{Illusionary Cloaking}
+
+\range{5 feet + 5 / Rank}
+\duration{6 hours + 6 / Rank}
+\multiple{100}
+\basechance{40\% + 4\% / Rank}
+\target{Area}
+\casttime{1 hour}
+\material{None}
+\begin{effects}
+This ritual creates a subtle visual Illusion over all non-living
+matter within range according to the Adept's wishes. Only surface
+appearance is changed, and this ritual does not provide invisibility.
+This means that objects will retain their silhouette, and the Illusion
+will fill the same volume as the object. The new appearance will fade
+over the last hour of the duration. The workmanship is as if the Adept
+were an Artisan of one-half Rank.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[Q-2]{Illusory Fog}
+
+\range{30 feet + 30 / Rank}
+\duration{1 hour + 1 / Rank}
+\multiple{75}
+\basechance{40\% + 4\% / Rank}
+\target{Area}
+\casttime{30 minutes}
+\material{None}
+\begin{effects}
+This ritual creates Illusory fog to a height of 10 feet + 2 / Rank
+within range. The fog will rise within five minutes of the ritual's
+completion, centred on the spot where the Adept performed the
+ritual. The fog has a visibility of 20 hexes (- 1 / Rank).
+\end{effects}
+\end{ritual}
+
+\subsection{Special Knowledge Spells}
+
+\begin{spell}[S-1]{Illusionary Animal}
+
+\range{15 feet + 15 / Rank}
+\duration{10 minutes + 10 / Rank}
+\multiple{150}
+\basechance{35\%}
+\resist{None}
+\storage{None}
+\target{Area}
+\begin{effects}
+An Illusion of a non-magical, non-sentient creature of no larger than
+10 lb + 10 lb \x Rank squared is created. The Illusion will have the
+instincts of the creature it is based on, though it will obey most
+simple mental instructions from the Adept. This communication is
+one-way, and may only occur while the animal is within range of the
+spell. No other communication is possible - it has no mind.  The
+animal has the minimum PS, MD, AG, TMR and PC for the selected
+creature.  The animal is solid, and can bear weight. It cannot attack
+effectively, nor cause fear. Only creatures previously observed by the
+Adept may be created. Smell, sound and feel are created as
+appropriate. If damaged, the Illusion is dissipated. The Adept may
+perceive through the animal's senses as follows: Rank 3 taste; Rank 7
+smell; Rank 11 touch; Rank 15 hearing; Rank 19 sight.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-2]{Illusionary Bolt}
+
+\range{15 feet + 5 / Rank}
+\duration{5 seconds + 5 / Rank}
+\multiple{200}
+\basechance{30\%}
+\resist{Active, Passive}
+\storage{Investment}
+\target{Entity, Object or Area}
+\begin{effects}
+An Illusion of any dangerous-looking object of ``throwable'' size is
+created in the Adept's hand. When thrown, it flies in a straight line,
+doing (D-2) + 1 / 2 full Ranks magical damage to the first Entity or
+object struck. Illusions take double damage from this bolt.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-3]{Illusory Creation}
+
+\range{Touch}
+\duration{10 minutes + 10 / Rank}
+\multiple{250}
+\basechance{20\%}
+\resist{None}
+\storage{Investment}
+\target{Area}
+\begin{effects}
+This spell creates the Illusion of one small object. The object will
+have the physical attributes of one of the following: cloth, leather,
+wood, bronze; to a maximum of 1 lb (+ 1 / 3 full Ranks). The object
+will be of a single form, with no moving or removable pieces, though
+of any combination of colours. The object will interact normally with
+its surrounds. The workmanship is as if the Adept were an Artisan of
+one-third Rank.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-4]{Illusion of Deep Pockets}
+
+\range{Self}
+\duration{1 hour + 1 / Rank}
+\multiple{200}
+\basechance{40\%}
+\resist{None}
+\storage{Potion}
+\target{Entity}
+\begin{effects}
+This Illusion creates 1 magical pocket (+ 1 / Rank) about the Adept's
+clothing. Each pocket can hold an object with a largest dimension of
+no more than 1 inch (+ 1 / Rank). No entity can be placed in a pocket.
+The total weight held may not exceed 1 lb (+ 1 / Rank), and no
+individual object can weigh more than half this amount. The pockets
+are not obvious, but thorough investigation may find them: searchers
+get a (2 \x PC) - Rank check to notice. Items within the pockets may
+not be located by spells of a lesser rank. The pockets may only be
+accessed while the Adept is clothed; however, a new set of clothes
+will still contain the pockets. At the end of the spell, the pockets
+expel their contents.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-5]{Disguise Illusion}
+
+\range{Touch}
+\duration{1 hour + 1 / Rank}
+\multiple{200}
+\basechance{20\%}
+\resist{Active, Passive}
+\storage{Investment, Potion, Ward}
+\target{Entity}
+\begin{effects}
+The Adept may change the target's appearance. The target may not be
+located by location spells of a lesser rank. The target's height may
+vary by 1\% / Rank, and their weight by 2\% / Rank. The target's voice
+or clothing may be changed at Rank 5 or both of these at Rank 10; an
+individual may be duplicated or gender or race changed at Rank 15; or
+two of these at Rank 20. If clothes are included in the spell, they
+revert to normal if discarded. The disguised form has the PB of the
+target +/- 2 / 3 full Ranks, within racial limitations.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-6]{Illusionary Euphonia}
+
+\range{15 feet + 15 / Rank}
+\duration{10 minutes + 10 / Rank}
+\multiple{150}
+\basechance{25\%}
+\resist{None}
+\storage{Investment, Ward, Magical Trap}
+\target{Area}
+\begin{effects}
+This Illusion creates the sound of harmonious voices or musical
+instruments. One instrument (+ 1 / 3 full Ranks) may be played; or one
+voice (+ 1 / 6 full Ranks) may speak or sing. Each may come from a
+different location fixed either absolutely or relative to an
+object. The effective rank of the performance or conversation is
+Rank/2, to a maximum of the Adept's rank in the instrument or
+language. Pass actions are required for musical performance at a skill
+level above Rank/5, or conversation. The maximum volume at Ranks 0-4
+is that of a stage whisper (usually clearly audible at 25'), at Ranks
+5-9, normal conversation (50'), at Ranks 10-14, shouting (200'), at
+Ranks 15-19, screaming (500'), and at Rank 20, thunder (1 mile). The
+range at which the sound will be clearly heard is affected by the
+ambient level of noise.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-7]{Hallucination}
+
+\range{15 feet + 15 / Rank}
+\duration{10 minutes + 10 / Rank}
+\multiple{225}
+\basechance{25\%}
+\resist{Active, Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Entity}
+\begin{effects}
+This spell enables the Adept to select 1 entity (+ 1 / 3 full Ranks)
+as an audience for their Illusions. Whenever the Adept casts an
+Illusion, they must decide whether everyone can perceive it, or just
+the targets of this spell. This spell does not circumvent any
+resistance checks by the targets. The Illusion must be cast during the
+duration of this spell although the effects may last after the
+Hallucination duration has expired.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-8]{Heroism}
+
+\range{15 feet + 15 / Rank}
+\duration{10 minutes + 10 / Rank}
+\multiple{200}
+\basechance{30\%}
+\resist{None}
+\storage{Investment, Potion}
+\target{Entity}
+\begin{effects}
+This spell charges the target with great might and heroism. They seem
+taller and stronger, and their actions gain a natural grace and power.
+All allies (in line-of-sight) led by the target gain a bonus die
+modifier of 1 (+ 1 / Rank) to all fear checks, while neutral observers
+gain a bonus of 1 (+ 1 / Rank) to reaction rolls.  The target gains a
+defence bonus of 1\% + 1\% / Rank.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-9]{Illusion of Innocence}
+
+\range{1 foot + 1 / Rank}
+\duration{10 minutes + 10 / Rank}
+\multiple{250}
+\basechance{30\%}
+\resist{Active}
+\storage{Investment, Potion}
+\target{Entity}
+\begin{effects}
+This Illusion changes the mien of 1 entity (+ 1 / 4 full Ranks). This
+influences the initial reactions of all entities who perceive the
+target: they will react as if the target is an innocent (this does not
+necessarily mean a favourable reaction). The spell does not force
+people to act stupidly - if the target does not act appropriately,
+their opinion may be revised rapidly. Extreme behaviour terminates
+these effects. For example, should a target prepare a weapon, cast a
+passively resistible spell, or attack, the spell will dissipate.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-10]{Maze}
+
+\range{15 feet + 15 / Rank}
+\duration{5 seconds + 5 / Rank}
+\multiple{450}
+\basechance{1\%}
+\resist{Active, Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Entity}
+\begin{effects}
+The target is transported into a hedge-maze of perpetual fog, where
+they may wander as they will. The hex that they occupied is filled
+with opaque mist that disperses in 5 seconds. At the end of the spell,
+the target reappears in their original hex (they are displaced by
+solids but displace fluids); any items dropped inside the maze
+reappear along with the target. Whilst in the maze, they must make a 2
+\x WP check each pulse to perform a non-pass action. Personal magical
+effects continue, (\eg while a Phantasm would follow the target into
+the maze, Agony wouldn't). For all purposes, the Maze is deemed to be
+on the same plane that the target just disappeared from. Each target
+appears within their own unique Maze. The Adept may still see (and
+thus cast upon) the target, but not physically contact them.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-11]{Illusion of Metamorphosis}
+
+\range{1 foot + 1 / Rank}
+\duration{5 minutes + 5 / Rank}
+\multiple{225}
+\basechance{15\%}
+\resist{Active, Passive}
+\storage{Investment, Potion}
+\target{Entity}
+\begin{effects}
+The target's appearance alters to that of a one hex creature of at
+least (target's PS + EN) pounds, over a period of 5 seconds. Their
+actual form and characteristics do not change. They do not gain any
+special abilities (\eg poison, magic, fear, flight) associated with
+that animal. The Adept must be familiar with the desired animal. The
+spell will cease when the target takes effective Endurance damage.
+Creatures available by Rank:
+
+\begin{Description}
+\item[Rank 0] Small Land Animals;
+\item[Rank 4] Felines, Apes \& Prehumans;
+\item[Rank 8] Avians, Fish, Lizards \& Snakes;
+\item[Rank 12] Horses, Large Land Animals;
+\item[Rank 16] Earth Dwellers, Fairy Folk, Humans;
+\item[Rank 20] Giants.
+\end{Description}
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-12]{Illusion of Mist}
+
+\range{20 feet + 20 / Rank}
+\duration{10 minutes + 10 / Rank}
+\multiple{100}
+\basechance{30\%}
+\resist{None}
+\storage{Investment, Ward}
+\target{Area}
+\begin{effects}
+The Adept creates an Illusion of 1000 cubic feet of mist (+ 500 /
+Rank) of any shape entirely within the Adept's range. The mist must be
+least 1 foot in any dimension and may have detail no finer than one
+foot in size. The visibility in this mist is 20 feet (- 1 / Rank). The
+mist is not affected by wind. By taking a pass action, the Adept may
+move the mist up to 1 hex / pulse so long as it remains within range.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-13]{Illusion of Multiple Images}
+
+\range{1 foot + 1 / Rank}
+\duration{1 minute + 1 / Rank}
+\multiple{200}
+\basechance{20\%}
+\resist{None}
+\storage{Investment, Potion}
+\target{Entity}
+\begin{effects}
+One image of the target (+ 1 / 5 full Ranks) appears in the target's
+hex. Each image disappears upon receiving damage. All images are
+identical to the target, and will imitate their actions faithfully.
+The images have the same defence as the target, but no magic
+resistance. Any targeted attack has an equal chance of hitting each
+image and the target. More than one image may be struck by a
+multi-target or area effect attack.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-14]{Nightmare Illusion}
+
+\range{15 feet + 15 / Rank}
+\duration{10 seconds + 10 / Rank}
+\multiple{400}
+\basechance{5\%}
+\resist{Passive}
+\storage{Investment, Ward, Magical Trap}
+\target{Area}
+\begin{effects}
+The Adept creates a terrifying, hostile and dangerous Illusion. The
+Nightmare is initially under the Adept's control, and will obey their
+commands until the Adept's concentration is broken or the Nightmare is
+slain or dissipated. The Nightmare is totally insubstantial and
+invisible to all who resist. The Nightmare has a combined EN and FT of
+20 (+ 5 / 2 full Ranks), but no defence or armour.  It can
+automatically hit up to two different targets a pulse for [D - 2] (+ 1
+/ 2 full Ranks) magical damage. It has a TMR of 10 and an Initiative
+of 30 (+ 2 / Rank). It may not be stunned. At Rank 15, every target
+must make a fear check upon first being struck. The Nightmare may move
+in any direction without restriction, including through air, walls,
+water, etc.\ except through the area of an Illusion Special
+counterspell.  If concentration is lost, the Nightmare will attempt to
+kill as many people as possible, and can not be controlled by any
+means.
+\end{effects}
+\end{spell}
+
+\subsection{Special Knowledge Rituals}
+
+\begin{ritual}[R-1]{Illusionary Aura}
+
+\range{5 feet}
+\duration{1 day + 1 / Rank}
+\multiple{200}
+\basechance{30\% + 3\% per Rank}
+\target{Entity}
+\casttime{1 hour}
+\material{None}
+\begin{effects}
+This ritual creates an Illusion to alter the Aura of the target.  The
+target's apparent Aura is altered by fooling the DA, DE or Divination
+with a stereotype defined in Rank + 1 words, \eg Rank 4 - ``Master
+Thatcher and Evil Necromancer''. The questioner then receives
+appropriate answers based on the stereotype; if the question is not
+covered by the stereotype, the real answer is returned. The Illusory
+Aura will not hide information, merely alter it. The Ritual of Warding
+is not affected.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[R-2]{Illusionary Terrain}
+
+\range{5 feet + 5 / Rank}
+\duration{2 hours + 2 / Rank}
+\multiple{150}
+\basechance{MA + 3\% per Rank}
+\target{Area}
+\casttime{1 hour}
+\material{None}
+\begin{effects}
+This ritual creates an Illusion such that observers outside the range
+can not sense any sign of entities or their trappings within the area.
+Temporary campsites will not be seen and permanent dwellings appear
+deserted and dilapidated. However, some effects may be seen, \eg the
+smoke and light of a campfire rising above the ritual's range.  The
+ritual will not hide entities from each other if both are outside the
+effect, even if the area lies between them. Magic that is not targeted
+on entities or their possessions may not be hidden through this
+ritual.  Any Location or Scrying magic lower than the Rank of
+Illusionary Terrain may not detect into the ritual's area.
+\end{effects}
+\end{ritual}
+
+\begin{ritual}[R-3]{Permanency}
+
+\range{5 feet}
+\duration{Permanent}
+\multiple{550}
+\basechance{MA + 2\% per Rank}
+\target{Spell or Ritual}
+\casttime{1 hour}
+\material{Special}
+\begin{effects}
+The Adept can make any one of their own Illusion spells or rituals
+permanent. The Illusion must have sufficient duration to last
+throughout the ritual. Once an Illusion has been made permanent, no
+changes are possible. The Illusion may be overridden by any similar
+spell for the duration, rather than queueing. Ingredients costing
+5,000sp (- 200 / Rank) are consumed upon success or backfire. The
+ritual is removable by a Ritual of Dissipation or the Adept's own
+Special Knowledge counterspell.
+\end{effects}
+\end{ritual}
+\end{college}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@d308 1
+a310 1
+\target{Area}
+d328 1
+a330 1
+\target{Area}
+d664 1
+a666 1
+\target{Entity}
+d685 1
+a687 1
+\target{Area}
+d708 1
+a710 1
+\target{Spell or Ritual}
+@
+
+
+4.3
+log
+@Minor corrections from Andrew Withy plus formatting changes.
+@
+text
+@d1 1
+a1 1
+\begin{college}[1.4]{illusion}{Illusions}
+d138 1
+a138 1
+\resist{May not be resisted}
+d162 1
+a162 1
+\resist{May only be passively resisted}
+d182 1
+a182 1
+\resist{May not be resisted}
+d202 1
+a202 1
+\resist{May not be resisted}
+d220 1
+a220 1
+\resist{May not be resisted}
+d243 1
+a243 1
+\resist{May not be resisted}
+d269 1
+a269 1
+\resist{May not be resisted}
+d287 1
+a287 1
+\resist{May not be resisted}
+d347 1
+a347 1
+\resist{May not be resisted}
+d373 1
+a373 1
+\resist{May be actively \& passively resisted}
+d390 1
+a390 1
+\resist{May not be resisted}
+d410 1
+a410 1
+\resist{May not be resisted}
+d434 1
+a434 1
+\resist{May be actively \& passively resisted}
+d455 1
+a455 1
+\resist{May not be resisted}
+d481 1
+a481 1
+\resist{May be actively \& passively resisted}
+d501 1
+a501 1
+\resist{May not be resisted}
+d520 1
+a520 1
+\resist{May only be actively resisted}
+d541 1
+a541 1
+\resist{May be actively \& passively resisted}
+d566 1
+a566 1
+\resist{May be actively \& passively resisted}
+d595 1
+a595 1
+\resist{May not be resisted}
+d614 1
+a614 1
+\resist{May not be resisted}
+d634 1
+a634 1
+\resist{May only be passively resisted}
+@
+
+
+4.2
+log
+@Enchanced Vision Talent changed as per Andrew Withy.
+@
+text
+@d22 25
+a46 21
+\textbf{Traditional Colours:} The more flamboyant of the Illusionists will
+often wear bright, even garish clothing incorporating as many colours
+as possible. These colours will usually not clash, but the Illusionist
+wearing them will stand out in any crowd. At the very least, most
+Illusionists will wear extremes of colours; fire, blood, sable, snow,
+charcoal, emerald, gold, etc.
+
+\textbf{Traditional Symbols:} The College of Illusions is associated with a
+plethora of symbols adopted from individual performers. Theatrical
+symbology is common.
+
+
+\textbf{On Illusions:} Most Magics in this College are Illusions.
+Illusions cannot be ``disbelieved''; the images are there and will
+interact with light and sound in the same manner as the objects they
+represent. Mirrors and light sources may not be created. Unless
+stated, the Illusions will not be substantial, and any solid objects
+or spells will pass through them. Illusions will interact with each
+other as if real. Illusion spells may be dispelled by anyone with the
+appropriate counterspell, although Illusions on an entity gains their
+passive magic resistance.
+d57 1
+a57 1
+\subsection{Modifiers}
+d168 5
+a172 5
+areas of magical darkness. All entities facing the Adept and within
+range must either resist or be blinded for 5 seconds (+ 5 / 2 full
+Ranks). Blinded characters have their Strike Chance reduced by 50, and
+they move at half their normal TMR. The Adept is normally not affected
+by this spell.
+d357 2
+a358 2
+animal has the minisun PS, MD, AG, TMR and PC for the selected
+creature.  The animal is solid, can bear weight. It cannot attack
+@
+
+
+4.1
+log
+@Description of Illusory Animal modified.
+@
+text
+@d92 11
+a102 7
+This Talent allows the Adept to see though any obscurement such as
+smoke, dust, water, fog, cloud or rain (though not darkness) to a
+distance of 10 feet + 10 / Rank) as if unobscured. Normal penalties
+then accrue from this point. The Adept has a base chance of PC + 5\% /
+Rank of seeing invisible, as per the Witchsight talent; and of
+detecting Illusions, if they take a pass action. This may only be
+attempted once. Detecting an Illusion does not nullify its effects.
+@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 1
+a1 3
+\section{The College of Illusions (Ver 1.4)}
+\label{illusion}
+\index{colleges!Illusions|(}
+a2 2
+\begin{multicols}{3}
+
+d74 2
+a75 2
+\sItem{Experience Multiple}{150}
+\emph{Effect:}
+d85 1
+d90 2
+a91 2
+\sItem{Experience Multiple}{225}
+\emph{Effect:}
+d99 1
+d104 2
+a105 2
+\sItem{Experience Multiple}{200}
+\emph{Effect:}
+d119 1
+d126 8
+a133 8
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{10 minutes + 10 / Rank}
+\sItem{Experience Multiple}{125}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Area}
+\emph{Effect:}
+d145 1
+d150 8
+a157 8
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{Immediate}
+\sItem{Experience Multiple}{150}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Storage}{Potion}
+\sItem{Target}{Self}
+\emph{Effect:}
+d165 1
+d170 8
+a177 8
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{10 minutes + 10 / Rank}
+\sItem{Experience Multiple}{100}
+\sItem{Base Chance}{50\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment}
+\sItem{Target}{Object}
+\emph{Effect:}
+d185 1
+d190 8
+a197 8
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{5 minutes + 5 / Rank}
+\sItem{Experience Multiple}{450}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Potion, Ward}
+\sItem{Target}{Entity or Object}
+\emph{Effect:}
+d203 1
+d208 8
+a215 8
+\sItem{Range}{30 feet + 30 / Rank}
+\sItem{Duration}{1 hour + 1 / Rank}
+\sItem{Experience Multiple}{75}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Area}
+\emph{Effect:}
+d226 1
+d231 8
+a238 8
+\sItem{Range}{5 feet + 5 / Rank}
+\sItem{Duration}{10 minutes + 10 / Rank}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward}
+\sItem{Target}{Object or Illusion}
+\emph{Effect:}
+d252 1
+d257 8
+a264 8
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{30 minutes + 30 / Rank}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Area}
+\emph{Effect:}
+d270 1
+d275 8
+a282 8
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{30 minutes + 30 / Rank}
+\sItem{Experience Multiple}{125}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Area}
+\emph{Effect:}
+d289 1
+d296 8
+a303 8
+\sItem{Range}{5 feet + 5 / Rank}
+\sItem{Duration}{6 hours + 6 / Rank}
+\sItem{Experience Multiple}{100}
+\sItem{Base Chance}{40\% + 4\% / Rank}
+\sItem{Cast Time}{1 hour}
+\sItem{Materials}{None}
+\sItem{Target}{Area}
+\emph{Effect:}
+d311 1
+d316 8
+a323 8
+\sItem{Range}{30 feet + 30 / Rank}
+\sItem{Duration}{1 hour + 1 / Rank}
+\sItem{Experience Multiple}{75}
+\sItem{Base Chance}{40\% + 4\% / Rank}
+\sItem{Cast Time}{30 minutes}
+\sItem{Materials}{None}
+\sItem{Target}{Area}
+\emph{Effect:}
+d327 2
+a328 2
+ritual. The fog has a visibility of 20 hexes (- 1 / Rank). Backfires,
+doubles and triples may occur, as a spell.
+d335 8
+a342 8
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{10 minutes + 10 / Rank}
+\sItem{Experience Multiple}{150}
+\sItem{Base Chance}{35\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{None}
+\sItem{Target}{Area}
+\emph{Effect:}
+d344 1
+a344 1
+10 lb + 10 lb x Rank squared is created. The Illusion will have the
+d348 9
+a356 8
+spell. No other communication is possible - it has no mind. The animal
+has a PS, AG and PC equal to Rank + 5, and a TMR of Rank / 2. The
+animal is solid, can bear weight. It cannot attack effectively, nor
+cause fear. Only creatures previously observed by the Adept may be
+created. Smell, sound and feel are created as appropriate. If damaged,
+the Illusion is dissipated. The Adept may perceive through the
+animal's senses as follows: Rank 3 taste; Rank 7 smell; Rank 11 touch;
+Rank 15 hearing; Rank 19 sight.
+d361 8
+a368 8
+\sItem{Range}{15 feet + 5 / Rank}
+\sItem{Duration}{5 seconds + 5 / Rank}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Storage}{Investment}
+\sItem{Target}{Entity, Object or Area}
+\emph{Effect:}
+d373 1
+d378 8
+a385 8
+\sItem{Range}{Touch}
+\sItem{Duration}{10 minutes + 10 / Rank}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment}
+\sItem{Target}{Area}
+\emph{Effect:}
+d393 1
+d398 8
+a405 8
+\sItem{Range}{Self}
+\sItem{Duration}{1 hour + 1 / Rank}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{40\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Potion}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d417 1
+d422 8
+a429 8
+\sItem{Range}{Touch}
+\sItem{Duration}{1 hour + 1 / Rank}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Storage}{Investment, Potion, Ward}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d438 1
+d443 8
+a450 8
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{10 minutes + 10 / Rank}
+\sItem{Experience Multiple}{150}
+\sItem{Base Chance}{25\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Area}
+\emph{Effect:}
+d464 1
+d469 8
+a476 8
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{10 minutes + 10 / Rank}
+\sItem{Experience Multiple}{225}
+\sItem{Base Chance}{25\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d484 1
+d489 8
+a496 8
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{10 minutes + 10 / Rank}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Potion}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d503 1
+d508 8
+a515 8
+\sItem{Range}{1 foot + 1 / Rank}
+\sItem{Duration}{10 minutes + 10 / Rank}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May only be actively resisted}
+\sItem{Storage}{Investment, Potion}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d524 1
+d529 8
+a536 8
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{5 seconds + 5 / Rank}
+\sItem{Experience Multiple}{450}
+\sItem{Base Chance}{1\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d549 1
+d554 8
+a561 8
+\sItem{Range}{1 foot + 1 / Rank}
+\sItem{Duration}{5 minutes + 5 / Rank}
+\sItem{Experience Multiple}{225}
+\sItem{Base Chance}{15\%}
+\sItem{Resist}{May be actively \& passively resisted}
+\sItem{Storage}{Investment, Potion}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d578 1
+d583 8
+a590 8
+\sItem{Range}{20 feet + 20 / Rank}
+\sItem{Duration}{10 minutes + 10 / Rank}
+\sItem{Experience Multiple}{100}
+\sItem{Base Chance}{30\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Ward}
+\sItem{Target}{Area}
+\emph{Effect:}
+d597 1
+d602 8
+a609 8
+\sItem{Range}{1 foot + 1 / Rank}
+\sItem{Duration}{1 minute + 1 / Rank}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment, Potion}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d617 1
+d622 8
+a629 8
+\sItem{Range}{15 feet + 15 / Rank}
+\sItem{Duration}{10 seconds + 10 / Rank}
+\sItem{Experience Multiple}{400}
+\sItem{Base Chance}{5\%}
+\sItem{Resist}{May only be passively resisted}
+\sItem{Storage}{Investment, Ward, Magical Trap}
+\sItem{Target}{Area}
+\emph{Effect:}
+d645 1
+d652 8
+a659 8
+\sItem{Range}{5 feet}
+\sItem{Duration}{1 day + 1 / Rank}
+\sItem{Experience Multiple}{200}
+\sItem{Base Chance}{30\% + 3\% per Rank}
+\sItem{Cast Time}{1 hour}
+\sItem{Materials}{None}
+\sItem{Target}{Entity}
+\emph{Effect:}
+d668 1
+d673 8
+a680 8
+\sItem{Range}{5 feet + 5 / Rank}
+\sItem{Duration}{2 hours + 2 / Rank}
+\sItem{Experience Multiple}{150}
+\sItem{Base Chance}{MA + 3\% per Rank}
+\sItem{Cast Time}{1 hour}
+\sItem{Materials}{None}
+\sItem{Target}{Area}
+\emph{Effect:}
+d691 1
+d696 8
+a703 8
+\sItem{Range}{5 feet}
+\sItem{Duration}{Permanent}
+\sItem{Experience Multiple}{550}
+\sItem{Base Chance}{MA + 2\% per Rank}
+\sItem{Cast Time}{1 hour}
+\sItem{Materials}{Special}
+\sItem{Target}{Spell or Ritual}
+\emph{Effect:}
+d712 1
+d714 1
+a714 5
+
+\raggedcolumns
+\index{colleges!Illusions|)}
+\clearemptydoublepage
+\end{multicols}
+@
+
+
+3.6
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+3.5
+log
+@Fix e.g. problem
+@
+text
+@d38 9
+a46 9
+\textbf{On Illusions:}On Illusions: Most Magics in this College are
+Illusions. Illusions cannot be ``disbelieved''; the images are there
+and will interact with light and sound in the same manner as the
+objects they represent. Mirrors and light sources may not be
+created. Unless stated, the Illusions will not be substantial, and any
+solid objects or spells will pass through them. Illusions will
+interact with each other as if real. Illusion spells may be dispelled
+by anyone with the appropriate counterspell, although Illusions on an
+entity gains their passive magic resistance.
+d552 1
+a552 2
+\begin{description}
+\setlength\itemsep{0pt}
+d559 1
+a559 1
+\end{description}
+@
+
+
+3.4
+log
+@Rename Minor Illusion to Illusory Creation.
+@
+text
+@d83 1
+a83 1
+observer is intent on the Adept (e.g.\ in conversation with), the
+d115 1
+a115 1
+Rank 5, the image may make appropriate environmental noises, e.g.\
+d182 1
+a182 1
+No other properties (e.g.\ poison, magic) may be changed or created with
+d217 1
+a217 1
+(e.g.\ a closed iron chest, or an open wooden casket) up to a maximum
+d527 1
+a527 1
+effects continue, (e.g.\ while a Phantasm would follow the target into
+d547 1
+a547 1
+special abilities (e.g.\ poison, magic, fear, flight) associated with
+d641 1
+a641 1
+with a stereotype defined in Rank + 1 words, e.g.\ Rank 4 - ``Master
+d662 1
+a662 1
+deserted and dilapidated. However, some effects may be seen, e.g.\ the
+@
+
+
+3.3
+log
+@Fix spell environment and indexes
+@
+text
+@d366 20
+a385 1
+\begin{spell}[S-3]{Illusion of Deep Pockets}
+d408 1
+a408 1
+\begin{spell}[S-4]{Disguise Illusion}
+d428 1
+a428 1
+\begin{spell}[S-5]{Illusionary Euphonia}
+d453 1
+a453 1
+\begin{spell}[S-6]{Hallucination}
+d472 1
+a472 1
+\begin{spell}[S-7]{Heroism}
+d490 1
+a490 1
+\begin{spell}[S-8]{Illusion of Innocence}
+d510 1
+a510 1
+\begin{spell}[S-9]{Maze}
+d534 1
+a534 1
+\begin{spell}[S-10]{Illusion of Metamorphosis}
+a560 19
+\end{spell}
+
+\begin{spell}[S-11]{Minor Illusion}
+
+\sItem{Range}{Touch}
+\sItem{Duration}{10 minutes + 10 / Rank}
+\sItem{Experience Multiple}{250}
+\sItem{Base Chance}{20\%}
+\sItem{Resist}{May not be resisted}
+\sItem{Storage}{Investment}
+\sItem{Target}{Area}
+\emph{Effect:}
+This spell creates the Illusion of one small object. The object will
+have the physical attributes of one of the following: cloth, leather,
+wood, bronze; to a maximum of 1 lb (+ 1 / 3 full Ranks). The object
+will be of a single form, with no moving or removable pieces, though
+of any combination of colours. The object will interact normally with
+its surrounds. The workmanship is as if the Adept were an Artisan of
+one-third Rank.
+@
+
+
+3.2
+log
+@Fix index.
+@
+text
+@d76 1
+a76 1
+\begin{talent}{Concealed Casting (T-1)}
+d91 1
+a91 1
+\begin{talent}{Enhanced Vision (T-2)}
+d104 1
+a104 1
+\begin{talent}{Project Image (T-3)}
+d125 1
+a125 1
+\begin{spell}{Audile Illusion (G-1)}
+d148 1
+a148 1
+\begin{spell}{Flash of Light (G-2)}
+d167 1
+a167 1
+\begin{spell}{Illusion of Food (G-3)}
+d186 1
+a186 1
+\begin{spell}{Invisibility (G-4)}
+d203 1
+a203 1
+\begin{spell}{Personalised Illusion (G-5)}
+d225 1
+a225 1
+\begin{spell}{Illusion of Seeming (G-6)}
+d250 1
+a250 1
+\begin{spell}{Static Illusion (G-7)}
+d267 1
+a267 1
+\begin{spell}{Illusionary Wall (G-8)}
+d287 1
+a287 1
+\begin{ritual}{Illusionary Cloaking (Q-1)}
+d306 1
+a306 1
+\begin{ritual}{Illusory Fog (Q-2)}
+d325 1
+a325 1
+\begin{spell}{Illusionary Animal (S-1)}
+d350 1
+a350 1
+\begin{spell}{Illusionary Bolt (S-2)}
+d366 1
+a366 1
+\begin{spell}{Illusion of Deep Pockets (S-3)}
+d389 1
+a389 1
+\begin{spell}{Disguise Illusion (S-4)}
+d409 1
+a409 1
+\begin{spell}{Illusionary Euphonia (S-5)}
+d434 1
+a434 1
+\begin{spell}{Hallucination (S-6)}
+d453 1
+a453 1
+\begin{spell}{Heroism (S-7)}
+d471 1
+a471 1
+\begin{spell}{Illusion of Innocence (S-8)}
+d491 1
+a491 1
+\begin{spell}{Maze (S-9)}
+d515 1
+a515 1
+\begin{spell}{Illusion of Metamorphosis (S-10)}
+d544 1
+a544 1
+\begin{spell}{Minor Illusion (S-11)}
+d563 1
+a563 1
+\begin{spell}{Illusion of Mist (S-12)}
+d581 1
+a581 1
+\begin{spell}{Illusion of Multiple Images (S-13)}
+d600 1
+a600 1
+\begin{spell}{Nightmare Illusion (S-14)}
+d629 1
+a629 1
+\begin{ritual}{Illusionary Aura (R-1)}
+d649 1
+a649 1
+\begin{ritual}{Ritual of Illusionary Terrain (R-2)}
+d671 1
+a671 1
+\begin{ritual}{Permanency (R-3)}
+@
+
+
+3.1
+log
+@Fix "Spell of" in spell names.
+@
+text
+@d692 1
+a692 1
+\index{college!Illusions|)}
+@
+
+
+3.0
+log
+@Major typographical changes.  Spells now spell environments
+@
+text
+@d3 1
+a3 1
+\index{college!illusion|(}
+d76 1
+a76 1
+\begin{talent}{Concealed Casting Talent (T-1)}
+a88 1
+
+d91 1
+a91 1
+\begin{talent}{Enhanced Vision Talent (T-2)}
+a101 1
+
+d104 1
+a104 1
+\begin{talent}{Project Image Talent (T-3)}
+d148 1
+a148 1
+\begin{spell}{Flash of Light Spell (G-2)}
+a164 1
+
+d186 1
+a186 1
+\begin{spell}{Spell of Invisibility (G-4)}
+a247 1
+
+a264 1
+
+d287 1
+a287 1
+\begin{ritual}{Ritual of Illusionary Cloaking (Q-1)}
+a303 1
+
+d306 1
+a306 1
+\begin{ritual}{Ritual of Illusory Fog (Q-2)}
+d434 1
+a434 1
+\begin{spell}{Spell of Hallucination (S-6)}
+d453 1
+a453 1
+\begin{spell}{Spell of Heroism (S-7)}
+d491 1
+a491 1
+\begin{spell}{Maze Spell (S-9)}
+d629 1
+a629 1
+\begin{ritual}{Ritual of Illusionary Aura (R-1)}
+d671 1
+a671 1
+\begin{ritual}{Ritual of Permanency (R-3)}
+d692 1
+a692 1
+\index{college!illusion|)}
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d3 1
+a3 1
+\index{college!illusion}
+d76 1
+a76 2
+\subsubsection{Concealed Casting Talent (T-1)}
+\index{talents!concealed casting}
+d78 2
+a79 4
+\begin{spelldesc}
+\emph{Experience Multiple:} 150 \\
+\end{spelldesc}
+\emph{Effects:}
+d90 1
+a90 2
+\subsubsection{Enhanced Vision Talent (T-2)}
+\index{talents!enhanced vision}
+d92 4
+a95 4
+\begin{spelldesc}
+\emph{Experience Multiple:} 225 \\
+\end{spelldesc}
+\emph{Effects:}
+d104 3
+a106 2
+\subsubsection{Project Image Talent (T-3)}
+\index{talents!project image}
+d108 2
+a109 4
+\begin{spelldesc}
+\emph{Experience Multiple:} 200 \\
+\end{spelldesc}
+\emph{Effects:}
+d123 1
+a123 1
+
+d127 1
+a127 2
+\subsubsection{Audile Illusion (G-1)}
+\index{spells!audile illusion}
+d129 8
+a136 10
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} 10 minutes + 10 / Rank \\
+\emph{Experience Multiple:} 125 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:}
+d148 1
+d150 1
+a150 2
+\subsubsection{Flash of Light Spell (G-2)}
+\index{spells!flash of light}
+d152 8
+a159 10
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} Immediate \\
+\emph{Experience Multiple:} 150 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Storage:} Potion \\
+\emph{Target:} Self \\
+\end{spelldesc}
+\emph{Effects:}
+d168 1
+d170 1
+a170 2
+\subsubsection{Illusion of Food (G-3)}
+\index{spells!illusion of food}
+d172 8
+a179 10
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} 10 minutes + 10 / Rank \\
+\emph{Experience Multiple:} 100 \\
+\emph{Base Chance:} 50\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment \\
+\emph{Target:} Object \\
+\end{spelldesc}
+\emph{Effects:}
+d187 1
+d189 1
+a189 2
+\subsubsection{Spell of Invisibility (G-4)}
+\index{spells!invisibility}
+d191 8
+a198 10
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} 5 minutes + 5 / Rank \\
+\emph{Experience Multiple:} 450 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Potion, Ward \\
+\emph{Target:} Entity or Object \\
+\end{spelldesc}
+\emph{Effects:}
+d204 1
+d206 1
+a206 2
+\subsubsection{Personalised Illusion (G-5)}
+\index{spells!personalised illusion}
+d208 8
+a215 10
+\begin{spelldesc}
+\emph{Range:} 30 feet + 30 / Rank \\
+\emph{Duration:} 1 hour + 1 / Rank \\
+\emph{Experience Multiple:} 75 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:}
+d226 1
+d228 1
+a228 2
+\subsubsection{Illusion of Seeming (G-6)}
+\index{spells!illusion of seeming}
+d230 8
+a237 10
+\begin{spelldesc}
+\emph{Range:} 5 feet + 5 / Rank \\
+\emph{Duration:} 10 minutes + 10 / Rank \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward \\
+\emph{Target:} Object or Illusion \\
+\end{spelldesc}
+\emph{Effects:}
+d252 1
+a252 2
+\subsubsection{Static Illusion (G-7)}
+\index{spells!static illusion}
+d254 10
+a263 10
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} 30 minutes + 30 / Rank \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:}
+d270 12
+a281 14
+\subsubsection{Illusionary Wall (G-8)}
+\index{spells!illusionary wall}
+\index{wall!illusionary}
+
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} 30 minutes + 30 / Rank \\
+\emph{Experience Multiple:} 125 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:}
+d288 1
+a288 1
+
+d292 1
+a292 2
+\subsubsection{Ritual of Illusionary Cloaking (Q-1)}
+\index{rituals!illusionary cloaking}
+d294 8
+a301 10
+\begin{spelldesc}
+\emph{Range:} 5 feet + 5 / Rank \\
+\emph{Duration:} 6 hours + 6 / Rank \\
+\emph{Experience Multiple:} 100 \\
+\emph{Base Chance:} 40\% + 4\% / Rank \\
+\emph{Cast Time:} 1 hour \\
+\emph{Materials:} None \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:}
+d310 3
+a312 2
+\subsubsection{Ritual of Illusory Fog (Q-2)}
+\index{rituals!illusory fog}
+d314 8
+a321 10
+\begin{spelldesc}
+\emph{Range:} 30 feet + 30 / Rank \\
+\emph{Duration:} 1 hour + 1 / Rank \\
+\emph{Experience Multiple:} 75 \\
+\emph{Base Chance:} 40\% + 4\% / Rank \\
+\emph{Cast Time:} 30 minutes \\
+\emph{Materials:} None \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:}
+d327 1
+d331 1
+a331 2
+\subsubsection{Illusionary Animal (S-1)}
+\index{spells!illusionary animal}
+d333 8
+a340 10
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} 10 minutes + 10 / Rank \\
+\emph{Experience Multiple:} 150 \\
+\emph{Base Chance:} 35\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} None \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:}
+d354 1
+d356 1
+d358 8
+a365 14
+\subsubsection{Illusionary Bolt (S-2)}
+\index{spells!illusionary bolt}
+\index{bolt!illusionary}
+
+\begin{spelldesc}
+\emph{Range:} 15 feet + 5 / Rank \\
+\emph{Duration:} 5 seconds + 5 / Rank \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Storage:} Investment \\
+\emph{Target:} Entity, Object or Area \\
+\end{spelldesc}
+\emph{Effects:}
+d370 1
+d372 1
+d374 8
+a381 13
+\subsubsection{Illusion of Deep Pockets (S-3)}
+\index{spells!illusion of deep pockets}
+
+\begin{spelldesc}
+\emph{Range:} Self \\
+\emph{Duration:} 1 hour + 1 / Rank \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 40\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Potion \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d393 1
+d395 1
+a395 2
+\subsubsection{Disguise Illusion (S-4)}
+\index{spells!disguise illusion}
+d397 8
+a404 10
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} 1 hour + 1 / Rank \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Storage:} Investment, Potion, Ward \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d413 1
+d415 1
+a415 2
+\subsubsection{Illusionary Euphonia (S-5)}
+\index{spells!illusionary euphonia}
+d417 8
+a424 10
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} 10 minutes + 10 / Rank \\
+\emph{Experience Multiple:} 150 \\
+\emph{Base Chance:} 25\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:}
+d438 1
+d440 1
+a440 2
+\subsubsection{Spell of Hallucination (S-6)}
+\index{spells!hallucination}
+d442 8
+a449 10
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} 10 minutes + 10 / Rank \\
+\emph{Experience Multiple:} 225 \\
+\emph{Base Chance:} 25\% \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d457 1
+d459 1
+a459 2
+\subsubsection{Spell of Heroism (S-7)}
+\index{spells!heroism}
+d461 8
+a468 10
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} 10 minutes + 10 / Rank \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Potion \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d475 1
+d477 1
+a477 2
+\subsubsection{Illusion of Innocence (S-8)}
+\index{spells!illusion of innocence}
+d479 8
+a486 10
+\begin{spelldesc}
+\emph{Range:} 1 foot + 1 / Rank \\
+\emph{Duration:} 10 minutes + 10 / Rank \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May only be actively resisted \\
+\emph{Storage:} Investment, Potion \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d495 1
+d497 1
+a497 2
+\subsubsection{Maze Spell (S-9)}
+\index{spells!maze}
+d499 8
+a506 10
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} 5 seconds + 5 / Rank \\
+\emph{Experience Multiple:} 450 \\
+\emph{Base Chance:} 1\% \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d519 1
+d521 1
+a521 2
+\subsubsection{Illusion of Metamorphosis (S-10)}
+\index{spells!illusion of metamorphosis}
+d523 8
+a530 10
+\begin{spelldesc}
+\emph{Range:} 1 foot + 1 / Rank \\
+\emph{Duration:} 5 minutes + 5 / Rank \\
+\emph{Experience Multiple:} 225 \\
+\emph{Base Chance:} 15\% \\
+\emph{Resist:} May be actively \& passively resisted \\
+\emph{Storage:} Investment, Potion \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d548 1
+d550 1
+a550 2
+\subsubsection{Minor Illusion (S-11)}
+\index{spells!minor illusion}
+d552 8
+a559 10
+\begin{spelldesc}
+\emph{Range:} Touch \\
+\emph{Duration:} 10 minutes + 10 / Rank \\
+\emph{Experience Multiple:} 250 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:}
+d567 1
+d569 1
+a569 2
+\subsubsection{Illusion of Mist (S-12)}
+\index{spells!illusion of mist}
+d571 8
+a578 10
+\begin{spelldesc}
+\emph{Range:} 20 feet + 20 / Rank \\
+\emph{Duration:} 10 minutes + 10 / Rank \\
+\emph{Experience Multiple:} 100 \\
+\emph{Base Chance:} 30\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Ward \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:}
+d585 1
+d587 1
+d589 8
+a596 13
+\subsubsection{Illusion of Multiple Images (S-13)}
+\index{spells!illusion of multiple images}
+
+\begin{spelldesc}
+\emph{Range:} 1 foot + 1 / Rank \\
+\emph{Duration:} 1 minute + 1 / Rank \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} May not be resisted \\
+\emph{Storage:} Investment, Potion \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d604 1
+d606 1
+a606 2
+\subsubsection{Nightmare Illusion (S-14)}
+\index{spells!nightmare illusion}
+d608 8
+a615 10
+\begin{spelldesc}
+\emph{Range:} 15 feet + 15 / Rank \\
+\emph{Duration:} 10 seconds + 10 / Rank \\
+\emph{Experience Multiple:} 400 \\
+\emph{Base Chance:} 5\% \\
+\emph{Resist:} May only be passively resisted \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:}
+d631 1
+d635 1
+a635 2
+\subsubsection{Ritual of Illusionary Aura (R-1)}
+\index{rituals!illusionary aura}
+d637 8
+a644 10
+\begin{spelldesc}
+\emph{Range:} 5 feet \\
+\emph{Duration:} 1 day + 1 / Rank \\
+\emph{Experience Multiple:} 200 \\
+\emph{Base Chance:} 30\% + 3\% per Rank \\
+\emph{Cast Time:} 1 hour \\
+\emph{Materials:} None \\
+\emph{Target:} Entity \\
+\end{spelldesc}
+\emph{Effects:}
+d653 1
+d655 1
+a655 2
+\subsubsection{Ritual of Illusionary Terrain (R-2)}
+\index{rituals!illusionary terrain}
+d657 8
+a664 10
+\begin{spelldesc}
+\emph{Range:} 5 feet + 5 / Rank \\
+\emph{Duration:} 2 hours + 2 / Rank \\
+\emph{Experience Multiple:} 150 \\
+\emph{Base Chance:} MA + 3\% per Rank \\
+\emph{Cast Time:} 1 hour \\
+\emph{Materials:} None \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:}
+d675 1
+d677 1
+a677 2
+\subsubsection{Ritual of Permanency (R-3)}
+\index{rituals!permanency!illusion}
+d679 8
+a686 10
+\begin{spelldesc}
+\emph{Range:} 5 feet \\
+\emph{Duration:} Permanent \\
+\emph{Experience Multiple:} 550 \\
+\emph{Base Chance:} MA + 2\% per Rank \\
+\emph{Cast Time:} 1 hour \\
+\emph{Materials:} Special \\
+\emph{Target:} Spell or Ritual \\
+\end{spelldesc}
+\emph{Effects:}
+d695 1
+d697 3
+a700 1
+\clearemptydoublepage@
+
+
+1.7
+log
+@Range of Disguise Illusion changed to Touch, Andrew Withy.
+@
+text
+@@
+
+
+1.6
+log
+@Spelling corrected.
+@
+text
+@d432 1
+a432 1
+\emph{Range:} 1 foot + 1 / Rank \\
+@
+
+
+1.5
+log
+@Illusion 1.4 from Andrew Withy.
+@
+text
+@d21 1
+a21 1
+their own fantasy and fail to dif!  ferentiate between this and
+d94 1
+a94 1
+\index{talents!enchanded vision}
+d197 1
+a197 1
+No other properties (eg; poison, magic) may be changed or created with
+d236 1
+a236 1
+(eg; a closed iron chest, or an open wooden casket) up to a maximum
+d244 1
+a244 1
+\index{spells!illsion of seeming}
+d436 1
+a436 1
+\emph{Resist:} Active and Passive \\
+d485 1
+a485 1
+\emph{Resist:} Active and Passive \\
+d548 1
+a548 1
+\emph{Resist:} Active and Passive \\
+d574 1
+a574 1
+\emph{Resist:} Active and Passive \\
+d729 1
+a729 1
+deserted and dilapidated. However, some effects may be seen, eg; the
+d754 1
+a754 1
+spell for the duration, rather than queuing. Ingredients costing
+@
+
+
+1.4
+log
+@Removed date at start of college.
+@
+text
+@d1 1
+a1 1
+\section{The College of Illusions (Ver 1.3)}
+d3 1
+d21 1
+a21 1
+their own fantasy and fail to differentiate between this and
+d23 2
+a24 23
+only fixed point in a changing world. These (far more dangerous)
+Illusionists use people's dependency on their senses to cause death
+and despair.
+
+\textbf{Traditional Colours:} The more flamboyant of the Illusionists
+will often wear bright, even garish clothing incorporating as many
+colours as possible. These colours will usually not clash, but the
+Illusionist wearing them will stand out in any crowd. At the very
+least, most Illusionists will wear extremes of colours; fire, blood,
+sable, snow, charcoal, emerald, gold, etc.
+
+\textbf{Traditional Symbols:} The College of Illusions is associated
+with a plethora of symbols adopted from individual
+performers. Theatrical symbology is common.
+
+\textbf{On Illusions:} Most Magics in this College are
+Illusions. Illusions cannot be ``disbelieved''; the images are there and
+will interact with light and sound in the same manner as the objects
+they represent. Mirrors and light sources may not be created. Unless
+stated, the Illusions will have no tactile qualities and any solid
+objects or spells will pass through them. Illusions will interact with
+each other as if real. Illusion spells may be dispelled by anyone with
+the appropriate counterspell.
+d26 21
+a46 2
+\textbf{Magical Aptitude:} The MA requirement for becoming an Adept of
+the College of Illusions is 13.
+d53 4
+d77 1
+d86 4
+a89 4
+observer is intent on the Adept (e.g., in conversation with) the
+observer may make a (2 \x PC) - Rank check to notice.  For all
+purposes the Rank of the spell cannot exceed the Rank of this Talent.
+In addition, the Base Chance of the spell is further reduced by
+d94 1
+d101 6
+a106 5
+smoke, dust, water, fog, cloud or rain (but not darkness) to a
+distance of 10' + 10' per Rank. The Adept has a base chance of PC +
+5\% per Rank of seeing unseen, blended or invisible objects, or of
+detecting Illusions, if they take a pass action. Detecting an Illusion
+in no way nullifies its effects.
+d109 1
+d116 13
+a128 15
+Invisible as per (G-4) except that the ability to attack in melee is
+not gained at Rank 16. The image takes a pulse to form (over the
+Adept). The image will reflect the current appearance of the Adept, in
+any desired stance. The image may only be moved (at the Adept's TMR)
+when the Adept takes a pass action. The image must remain in line of
+sight and within 15 feet (+ 15 feet / Rank), and may not pass through
+solid objects.
+
+Special abilities are gained at higher Ranks. At Rank 5, the image may
+make appropriate environmental noises, eg; foot-steps. At Rank 10, the
+Adept may move while maintaining the relative distance and direction
+to their image. At Rank 15, the Adept may project their voice through
+the image. At Rank 20, the Illusionist may also see through the
+image. The abilities gained at Ranks 15 and 20 require pass actions to
+use.
+d133 1
+d136 2
+a137 2
+\emph{Range:} 5 feet + 5 / Rank \\
+\emph{Duration:} 5 minutes + 5 / Rank \\
+d140 1
+a140 1
+\emph{Resist:} None \\
+d146 2
+a147 2
+each coming from a location fixed either absolutely or relative to the
+Adept. Whilst taking a pass action, the Adept may cause any
+d150 6
+a155 2
+instrument may be imitated. The maximum volume is that of normal
+conversation.
+d158 1
+d165 1
+a165 1
+\emph{Resist:} Passive \\
+d173 5
+a177 4
+range must either resist or be blinded for 5 seconds (+ 5 seconds per
+2 full Ranks). Blinded characters have their Strike Chance reduced by
+50, and they move at half their normal TMR. The Adept is normally not
+affected by this spell.
+d180 1
+d183 1
+a183 1
+\emph{Range:} 5 feet \\
+d187 1
+a187 1
+\emph{Resist:} None \\
+d192 7
+a198 8
+The Adept may change the taste, appearance and smell of up to one
+pound of food or drink + one pound per Rank. At Rank 10, the Adept may
+create (Rank - 10) pounds of food or drink. This magically created
+food will recover fatigue for the duration of the spell (i.e., at the
+end of the spell the regained fatigue goes away).  The quality of food
+is the lesser of (Adept's Cooking Rank + 2) and (Rank / 2 of this
+spell).  No other properties (e.g., poison, magic) may be changed or
+created with this spell.
+d201 1
+d208 1
+a208 1
+\emph{Resist:} None \\
+d213 2
+a214 2
+The target is made invisible, but cannot melee attack without first
+becoming visible. At Rank 16, the target can attack in melee while
+d217 1
+a217 1
+identical to the E\&E College spell of the same name.
+d220 1
+d227 1
+a227 1
+\emph{Resist:} None \\
+d232 10
+a241 10
+This Illusion creates an image (with a maximum diameter of 5') of a
+specific type peculiar to the Adept. At Rank 0, the image must be of a
+rock. At each of Ranks 4, 8, 11, 14, 16, 18, 19 and 20, another image
+may be chosen. The Adept may select the colouring, size and stance of
+the image at cast time (eg; a closed iron chest, or an open wooden
+casket). The Illusion does not interact with other Illusions, and is
+not affected by physical laws except that it is opaque to light. The
+Adept may move or rotate (though not manipulate) the Illusion by
+taking a pass action. The quality of detail and realism as is they
+were an Artisan of one-third Rank.
+d244 1
+d251 3
+a253 3
+\emph{Resist:} None \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Object \\
+d256 6
+a261 10
+This Illusion creates an image on up to Rank objects; each image is
+contained within a 1 foot cube, and may differ from any or all other
+images. The image can vary in size and shape from the object by up to
+50\%, as long as neither is less than one inch square. The object may
+be moved without disrupting this Illusion, but it will be dissipated
+if an object is broken. One image may seem to change its appearance,
+though not position, in each pulse that the Adept takes a pass
+action. Multiple, non-overlapping areas on the same object may be
+affected by this spell. The objects have not been changed, and still
+have their original physical properties.  Workmanship as is they were
+d264 6
+d271 1
+d278 1
+a278 1
+\emph{Resist:} None \\
+d283 5
+a287 6
+This spell creates a visual Illusion contained within 5 (+ 5 per Rank)
+adjacent one foot cubes. The Illusion is fixed at casting, and may not
+be changed or moved with this spell. Note, however, that Seeming (G-6)
+will treat objects created with this spell as real, and thus
+alterable.  Quality of detail and realism as is they were an Artisan
+of one-half Rank.
+d290 2
+d298 1
+a298 1
+\emph{Resist:} None \\
+d306 4
+a309 3
+instead. The wall is 10' by 10' by 12", alterable by 2' per Rank (or
+4" per Rank thickness). The wall must be attached along the entirety
+of one of its thinnest edges.
+d314 1
+d328 5
+a332 5
+appearance is changed, and this ritual does not provide
+invisibility. This means that objects will retain their silhouette,
+and the Illusion will fill the same volume as the object. The new
+appearance will fade over the last hour of the duration. Workmanship
+as is they were an Artisan of one-half Rank.
+d335 1
+d347 5
+a351 6
+The Adept can, by spending one hour in the performance of this ritual,
+create Illusory fog or mist to a height of 10 feet + 2 feet per Rank
+within range. The fog will remain centred on the spot where the Adept
+performed the ritual. The fog has a visibility of 20 hexes minus 1 hex
+per Rank. Backfires, double and triple effects may occur, as with a
+spell.
+d356 1
+d363 1
+a363 1
+\emph{Resist:} None \\
+d369 8
+a376 7
+10 lb + 10 lb \x Rank squared is created. The Illusion will behave
+like the creature it is based on, though it will obey simple mental
+instructions from the Adept. This communication is one-way, and no
+other communication is possible with it - it has no mind. The animal
+has an PS, AG and PC equal to Rank + 5, and a TMR of Rank / 2. The
+animal is solid, and can bear weight. It cannot attack effectively,
+nor cause fear. Only creatures previously observed by the Adept may be
+d382 1
+d384 2
+d392 1
+a392 1
+\emph{Resist:} Active and Passive \\
+d399 3
+a401 3
+doing [D - 2] + 1 per 2 full Ranks magical damage to the first Entity or
+object struck. Appropriate sounds are made by the object. Illusions
+take double damage from this bolt.
+d404 1
+d411 1
+a411 1
+\emph{Resist:} None \\
+d416 1
+a416 1
+This Illusion creates Rank + 1 magical pockets about the Adept's
+d418 9
+a426 9
+no more than Rank + 1 inches. No Entity can be placed in a pocket. The
+total weight held may not exceed (1 + 1 / Rank) lb, and no individual
+object can weigh more than half this amount. The pockets are not
+obvious to casual searchers, but thorough investigation may find them:
+searchers get a (2 \x PC) - Rank check to notice. Items within the
+pockets may not be located by lower-ranked Locate spells. The pockets
+may only be accessed while the Adept is clothed; however, a new set of
+clothes will still contain the pockets. At the end of the spell, the
+pockets disappear after expelling all items.
+d429 1
+d432 1
+a432 1
+\emph{Range:} Touch \\
+d441 8
+a448 10
+The Adept may change the target's appearance. Entities with their
+appearance changed may not be Located (as per the E\&E spell) if the
+Locate is of a lower rank than the Disguise. The target's height may
+vary by 1\% per Rank, and their weight by 2\% per Rank. The target's
+voice or clothing may be changed at Rank 5 or both of these at Rank
+10; an individual may be duplicated or gender or race changed (frame
+is not altered) at Rank 15; or two of these at Rank 20. If clothes are
+included in the spell, they revert to normal if discarded. The
+disguised form has the PB of the target +/- 1 per 2 full Ranks, within
+racial limitations.
+d450 2
+a451 1
+\subsubsection{Illusionary Euphonia  (S-5)}
+d454 2
+a455 2
+\emph{Range:} 5 feet + 5 / Rank \\
+\emph{Duration:} 5 minutes + 5 / Rank \\
+d458 1
+a458 1
+\emph{Resist:} None \\
+d463 13
+a475 7
+This Illusion creates the sound of voices or musical instruments. One
+instrument + one per three full Ranks may be played; or one voice +
+one per ten full Ranks may speak or sing. Each may come from a
+different location fixed either absolutely or relative to the
+Adept. The quality of sound is the lower of the Adept's rank in the
+instrument or language, and half Rank. Pass actions are required for
+musical performance at a skill level above Rank 0 or conversation.
+d478 1
+d490 7
+a496 7
+This spell enables the Adept to select who (up to 1 Entity + 1 Entity
+per 3 full Ranks) will be affected by their Illusions. Whenever the
+Adept casts an Illusion, they must decide whether everyone can
+perceive it, or just the targets of this spell. This spell does not
+circumvent any resistance checks by the targets. The Illusion must be
+cast during the duration of this spell - the effects may last after
+the Hallucination duration has expired.
+d499 1
+d506 1
+a506 1
+\emph{Resist:} None \\
+d512 5
+a516 5
+taller and stronger, and their actions gain a natural grace and
+power. All allies (in line-of-sight) led by the Hero gain a bonus die
+modifier of Rank to all fear checks, while neutral observers gain a
+bonus of Rank to reaction rolls.  The target also gains a defence
+bonus of 1 + 1 / Rank.
+d519 1
+d526 1
+a526 1
+\emph{Resist:} Active only \\
+d531 8
+a538 9
+This Illusion changes the mien of one Entity + one additional Entity
+per four full Ranks. It influences the initial reactions of all
+entities who perceive the target: they will react as if the target is
+an innocent (this does not necessarily mean a favourable reaction).
+The spell does not force people to act stupidly - if the target does
+not act appropriately, their opinion may be revised rapidly. Extreme
+behaviour terminates these effects. For example, should the target
+prepare a weapon, cast a passively resistible spell, or attack, the
+spell will dissipate.
+d541 1
+d553 12
+a564 14
+The target has effectively been transported into a hedge-maze of
+perpetual fog, where they may wander as they will. The hex that they
+occupied is filled with opaque mist that disperses in 5 seconds. At
+the end of the spell, the target reappears in their original hex (they
+are displaced by solids but displace fluids); any items dropped inside
+the maze reappear along with the target. Whilst in the maze, they must
+make a 2 \x Willpower check each pulse to perform a non-pass
+action. Personal magical effects continue, eg; while a Phantasm would
+follow the target into the maze, Nightmares wouldn't. For all
+purposes, the Maze is deemed to be on the same plane that the target
+just disappeared from. Each target appears within their own unique
+Maze. The Adept may still see (and thus cast upon) the target, but not
+physically contact them.
+
+d567 1
+d582 1
+a582 1
+special abilities (eg; poison, magic, fear, flight) associated with
+d585 1
+a586 1
+Creatures available by Rank:
+d590 3
+a592 3
+\item[Rank 4] Apes \& Prehumans, Felines, Horses;
+\item[Rank 8] Fish, Lizards, Snakes;
+\item[Rank 12] Large Land Animals;
+d598 1
+d605 1
+a605 1
+\emph{Resist:} None \\
+d612 5
+a616 5
+wood, bronze; to a maximum of 1 pound + 1 pound per 3 full Ranks. The
+object will be of a single form, with no moving or removable pieces,
+though of any combination of colours. Workmanship as is the Adept were
+an Artisan of one-third Rank.  The object is effectively real and will
+interact normally with its surrounds.
+d619 1
+d625 2
+a626 2
+\emph{Base Chance:} 20\% \\
+\emph{Resist:} None \\
+d631 6
+a636 7
+The Adept creates an Illusion of 1000 cubic feet of mist + 500 feet
+per Rank of any shape entirely within the Adept's range. The mist must
+be in a solid of at least one foot in any dimension and may have
+detail no finer than one foot in size. The visibility in this mist is
+normally 30 feet (six hexes), but may be reduced to 20 feet - 1 foot
+per Rank. The mist is not affected by wind. This Illusion is not the
+same as the Air College spell of Conjuring Mist.
+d640 1
+d647 1
+a647 1
+\emph{Resist:} None \\
+d652 6
+a657 5
+One image of the target + 1 additional image per 5 full Ranks appear
+in the target's hex. These images disappear upon receiving damage. All
+images are identical to the target, and will imitate their actions
+faithfully. Any targeted attack has an equal chance of hitting any
+image or the target. More than one image may be struck by a
+d661 1
+d668 1
+a668 1
+\emph{Resist:} Passive \\
+d678 10
+a687 12
+20 (+ 5 per 2 full Ranks), but no defence or armour. It can
+automatically hit up to two different targets a pulse for [D - 2] + 1
+per 2 full Ranks magical damage. Its Initiative is 30 + 2 per Rank. It
+may not be stunned and has a TMR of 10. At Rank 15, every target must
+make a fear check upon first being struck. The Nightmare may move in
+any direction without restriction, including through air, walls,
+water, etc., except through the area of an Illusion Special
+counterspell.  If a Illusion Special Counterspell is cast on the area
+of the Nightware then it is dissipated.  If concentration is lost, the
+Nightmare will attempt to kill as many people as possible, and can not
+be controlled by any means.
+
+d692 1
+d704 8
+a711 7
+This ritual creates an Illusion to obscure the Aura of the target. The
+target's apparent Aura is altered by fooling the DA or DE with a
+stereotype defined in Rank + 1 words. eg; Rank 4 -- ``Evil Elven
+Necromancer without Necrosis''. The questioner then receives
+appropriate answers based on their perception of the stereotype; if
+the question is not covered by the stereotype, the real answer is
+returned. The Rituals of Warding and Divination are not affected.
+d714 1
+d727 9
+a735 9
+can not sense any sign of Entities or their trappings within this
+range. Temporary campsites will not be seen and permanent dwellings
+appear deserted. However, some effects will be seen, eg; the smoke and
+light of a campfire may be seen above the ritual's range. The ritual
+will not hide Entities from each other if both are outside the effect,
+even if the area lies between them. Magic that is not targeted on
+Entities may not be hidden through this ritual. Any Location or
+Scrying magic lower than the Rank of Illusionary Terrain may not
+detect into the ritual's area.
+d738 1
+d753 5
+a757 55
+changes are possible.  The permanent Illusion is regarded as reality
+by other Illusions and may be overridden by a similar Illusion rather
+than stacking or queuing.  Ingredients costing 5,000sp (-200sp per
+Rank) are consumed upon success or backfire. The ritual is removable
+by a Ritual of Dissipation or the Adept's own Special counterspell.
+
+\subsection{Conversion \& Magic Costs}
+
+Conversion from the current Illusion College will be non-intuitive.
+The structure has undergone a radical change, and there is no easy
+conversion between the old and new Colleges.
+\begin{itemize}
+\item
+Any Illusionist may change College at this point, as the old College
+has been destroyed.  Up to half of their magic EP can be transferred
+to the College of their choice.
+
+\item
+Existing Ranks in Enhanced Vision, Project Image, Flash of Light,
+Counterspells, Purification, Aura and Permanency remain constant.
+
+\item
+Audile, Seeming \& Static Illusions must all have at least half the
+Rank of their old equivalents (Visual for the latter two).
+
+\item
+Ranks in the old Ritual of Fog may be converted into equal Ranks in
+either the new Ritual of Fog or the Ritual of Covering.
+
+\item
+Ranks in the Detect Illusion Talent may be converted to equal ranks in
+the Concealed Casting Talent if so desired, or the EP spent on other
+Talents, or (with no MA discount) on General Spells.
+
+\item
+All new General Magics can be learnt within a two week refresher
+course. EP spent on Visual, Olfactory \& Tactile Illusions and
+Sensation may be respent on any General Knowledge Spells, excluding
+Flash of Light. The time cost will be ignored. Note that (with the MA
+discount reversed), EP may be put aside for Special Knowledge Spells
+\& Rituals.
+
+\item
+EP \& Time spent on Programme Illusion, Record Aura and the 26
+combination Illusions will be refunded, to be spent on Special
+Knowledge Spells and Rituals. These will need to be paid for and
+learnt normally once all General Magics are known.
+
+\item
+Any specially acquired spells should go through a vetting process to
+ensure that they fit into the new flavour of the College.  All
+conversion problems will be dealt with on a case-by-case basis by
+Andrew Withy. All conversions should be independently checked and
+counter-signed by your next GM and Andrew Withy (366-6094).
+\end{itemize}
+@
+
+
+1.3
+log
+@Release 1.0 snapshot
+@
+text
+@a5 2
+\textbf{September 1995}
+
+@
+
+
+1.2
+log
+@Illusion introduced into June 1995 Campaign.
+@
+text
+@d1 1
+a1 1
+\section{The College of Illusions (Ver 1.2)}
+d6 1
+a6 1
+\textbf{A. Withy \& D. Tomes -- 6/6/95}
+d28 22
+a49 21
+\textbf{Traditional Colours:}
+The more flamboyant of the Illusionists will often wear bright, even
+garish clothing incorporating as many colours as possible. These
+colours will usually not clash, but the Illusionist wearing them will
+stand out in any crowd. At the very least, most Illusionists will wear
+extremes of colours; fire, blood, sable, snow, charcoal, emerald,
+gold, etc.
+
+\textbf{Traditional Symbols:}
+The College of Illusions is associated with a plethora of symbols
+adopted from individual performers. Theatrical symbology is common.
+
+\textbf{On Illusions:}
+Most Magics in this College are Illusions. Illusions cannot be
+``disbelieved''; the images are there and will interact with light and
+sound in the same manner as the objects they represent. Mirrors and
+light sources may not be created. Unless stated, the Illusions will
+have no tactile qualities and any solid objects or spells will pass
+through them. Illusions will interact with each other as if
+real. Illusion spells may be dispelled by anyone with the appropriate
+counterspell.
+d56 1
+a56 1
+The MA requirement for becoming an Adept of the College of Illusions is 13.
+a57 1
+\subsection{Base Chance Modifiers}
+d64 1
+a64 1
+reality, to the level of detail necessary for deception, requires good
+d68 4
+a71 4
+\begin{tabularx}{\linewidth}{Xr}
+For each point the Adept's Willpower varies from 15	& $\pm$ 1 \\
+For each two full Ranks in Troubadour			& $+$ 1 \\
+\end{tabularx}
+d84 4
+a87 4
+observer is intent on the Adept (eg; in conversation with), the
+observer may make a (2 \x PC) - Rank check to notice. All aspects of
+the Spell (including Base Chance) must be cast at the lower of the
+Talent's and Spell's ranks, and the Base Chance is further reduced by
+d94 1
+a94 1
+\emph{Experience Multiple:} 250 \\
+d98 1
+a98 1
+smoke, dust, water, fog, cloud or rain (though not darkness) to a
+d100 3
+a102 4
+5\% / Rank of seeing unseen, blended or invisible objects, or of
+detecting Illusions, if they actively concentrate (that is, take a
+pass action).  Detecting an Illusion in no way nullifies its effects.
+
+d111 7
+a117 6
+Invisible as per (G-4). The image takes a pulse to form, and always
+forms over the Adept. Passive concentration is required to maintain
+the Image. The image will reflect the current appearance of the
+Adept. The image may only be moved (at TMR) when the Adept actively
+concentrates. The image must remain in line of sight and within 15
+feet (+ 15 feet / Rank), and may not pass through solid objects.
+d124 2
+a125 2
+image. The abilities gained at Ranks 15 and 20 require active
+concentration.
+d132 1
+a132 1
+\emph{Range:} 15 feet + 15 / Rank \\
+d134 1
+a134 1
+\emph{Experience Multiple:} 200 \\
+d142 6
+a147 4
+each coming from a fixed location. Whilst concentrating, the Adept may
+cause any combination of sounds to occur. Sounds and locations are
+defined as they are first used, not at time of casting. The maximum
+volume is that of normal conversation. No language may be imitated.
+d166 2
+a167 1
+50, and they move at half their normal TMR.
+d169 1
+a169 1
+\subsubsection{Illusion of Food Creation (G-3)}
+d172 1
+a172 1
+\emph{Range:} Touch \\
+d182 7
+a188 6
+pound of food or drink per Rank. At Rank 11, the Adept may create
+(Rank - 10) pounds of food or drink. The fatigue gained from eating a
+hot meal created by this spell will be removed at the end of the
+duration (from EN if no FT remains). The quality of food is the
+maximum of twice the Adept's Cooking skill \& Rank / 3. No poisonous
+or magical substances may be created with this spell.
+d202 5
+a206 3
+The target is made invisible, but cannot attack without first becoming
+visible. At Rank 16, the target can attack while invisible. This spell
+is identical to the E\&E College spell of the same name.
+d208 1
+a208 1
+\subsubsection{Illusionary Rock (G-5)}
+d211 2
+a212 2
+\emph{Range:} 30 feet + 30 feet per Rank \\
+\emph{Duration:} 1 hour + 1 hour per Rank \\
+d214 1
+a214 1
+\emph{Base Chance:} 40\ \\
+d220 10
+a229 25
+This spell creates a 1' to 5' diameter, roughly spherical Illusion of
+a rock. The rock will behave in all ways as a rock, subject to the
+following differences:
+\begin{itemize}
+\setlength\itemsep{0pt}
+\item
+It passes through all Entities and magical animates and their
+possessions.
+
+\item
+It bounces off everything else.
+
+\item
+Light can not pass through it, or exist within it. It will cast
+shadows.
+
+\item
+It treats Illusions as if they are real; e.g, it will pass through a
+Nightmare.
+
+\item
+If an object is placed (as a possession) within an Illusory Rock, it
+will behave as though that rock does not exist. Hence, if the rock is
+moved, the object will remain.
+\end{itemize}
+d237 1
+a237 1
+\emph{Base Chance:} 25\% \\
+d243 11
+a253 10
+This Illusion creates an image (contained within a 1 foot cube) on
+each of Rank objects. The objects may be moved without disrupting this
+Illusion, but it will be dissipated if the object is broken or passive
+concentration is dropped. One of these images may be changed, while
+remaining within its volume, in each pulse that the Adept engages in
+active concentration. The image can vary in size and shape from the
+object, as long as neither is less than one inch square. Multiple,
+non-overlapping areas on the same object may be Seemed by the The
+objects have not been changed, and still have their original physical
+properties. Workman-ship is as an Artisan of one-fifth Rank.
+d261 1
+a261 1
+\emph{Base Chance:} 20\% \\
+d267 1
+a267 1
+This spell creates a visual Illusion contained within 5 (+ 3 / Rank)
+d271 2
+a272 2
+alterable. Quality of detail and realism is as an Artisan of one-third
+Rank.
+d286 6
+a291 10
+This spell creates an Illusion of a linear or smoothly curved wall. It
+may have all the characteristics of any other wall spell (except
+solidity, damage or fear), or mimic an adjacent surface instead. At
+Rank 0, the wall is 10' by 10' by 1'. Each Rank can be used to alter
+width or height by 2', or thickness by 4". The wall must be attached
+along the entirety of one of its thinnest edges.
+
+\subsubsection{General Knowledge Rituals}
+
+\subsubsection{Ritual of Fog (Q-1)}
+d293 1
+a293 15
+\begin{spelldesc}
+\emph{Range:} 30 feet + 30 / Rank \\
+\emph{Duration:} 1 hour + 1 / Rank \\
+\emph{Experience Multiple:} 75 \\
+\emph{Base Chance:} 40\% + 4\% / Rank \\
+\emph{Cast Time:} 1 hour \\
+\emph{Materials:} None \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:} The Adept can, by spending one hour in the performance
+of this ritual, create fog or mist to a height of Rank + 5 feet within
+range. The fog will remain centred on the spot where the Adept
+performed the ritual unless a strong wind disperses it. The fog has a
+visibility of (22 - 1 / Rank) hexes. Backfires, doubles and triples
+may occur, as a spell.
+d295 1
+a295 1
+\subsubsection{Ritual of Illusionary Covering (Q-2)}
+d300 2
+a301 2
+\emph{Experience Multiple:} 50 \\
+\emph{Base Chance:} 50\% + 5\% / Rank \\
+d313 20
+a332 1
+is as an Artisan of one-third Rank.
+d348 12
+a359 12
+An Illusion of a non-magical, non-sentient terrestrial creature is
+created beside the Adept. The creature will be no larger than 10
+pounds \x (Rank squared). The Illusion will behave like the creature it
+is based on, given that it has a close bond with the Adept, as a
+Beastmaster of one-half Rank. No communi-cation is possible with it,
+and it has no mind to be detected. The animal has an AG and PC equal
+to Rank + 5, and a TMR of Rank / 2. It has no effective PS, and may
+not pass through solid objects. It cannot attack effectively, nor
+cause fear. Only creatures observed by the Adpet may be created. Smell
+and sound are created as appropriate. If damaged, the Illusion is
+dissipated.
+
+d365 1
+a365 1
+\emph{Duration:} 5 seconds \\
+d369 1
+a369 1
+\emph{Storage:} Investment, Ward, Magical Trap \\
+d374 4
+a377 4
+created in the Adept's hand and flies in a straight line, doing [D - 2]
++ 1 per 2 full Ranks magical damage to the first Entity or object
+struck. Sounds are made as appropriate to the object. Illusions take
+double damage from this bolt.
+d388 1
+a388 1
+\emph{Target:} Self \\
+d391 11
+a401 12
+This Illusion creates Rank magical pockets about the Adept's
+clothing. Each pocket can hold one object with a largest dimension of
+no more than Rank inches. No Entity can fit into a pocket. The total
+weight held may not exceed one lb + one lb per two Ranks, and no
+individual object can weigh more than half this amount. The pockets
+are not obvious to casual searchers, but thorough investigation may
+find them - they get a (2 \x PC - Rank) check to notice. Any item
+within a pocket does not affect encumbrance. Items within the pockets
+may not be located by lower-ranked Locate spells. The pockets may only
+be accessed while the Adept is clothed; however, a new set of clothes
+will still contain the pockets. At the end of the spell, all items are
+expelled from the pockets before they disappear.
+d415 30
+a444 9
+The Adept may change the target's appearance. Their clothes may be
+included in the spell, but revert to normal if discarded and
+unobserved. Entities with their appearance changed may not be Located
+(as per the E\&E spell) if the Locate is of a lower rank than the
+Disguise. At Rank 10 the target's voice may be disguised. A convincing
+disguise of gender is possible at Rank 15. An individual may be
+imitated given sufficient study, or the target's race may be altered
+(while preserving size), at Rank 20. The disguised form may have a PB
+within the range of 16 $\pm$ 1 per 2 full Ranks.
+d446 1
+a446 1
+\subsubsection{Spell of Mass Hallucination (S-5)}
+d450 3
+a452 3
+\emph{Duration:} 30 minutes + 30 / Rank \\
+\emph{Experience Multiple:} 350 \\
+\emph{Base Chance:} 10\% \\
+d458 7
+a464 7
+This spell affects the perceptions of 1 Entity + 1 Entity per 3 full
+Ranks, so that they are more attuned to Illusion. Each of the next
+Rank Illusions cast by the Adept may only affect the targets, at the
+Adept's whim. An Illusion with a non-entity target will only be
+perceived by the targets of this spell. This does not circumvent
+resistance checks by the targets. If this spell is cast multiple
+times, a large number of targets may be affected by the next Illusion.
+d466 1
+a466 1
+\subsubsection{Spell of Heroism (S-6)}
+d471 2
+a472 2
+\emph{Experience Multiple:} 300 \\
+\emph{Base Chance:} 15\% \\
+d482 2
+a483 3
+bonus of Rank to reaction rolls. The target also gains a defence bonus
+of 1 + 1 per Rank. Their PS, FT and stun threshold increase by 1 + 1
+per 4 full ranks.
+d485 1
+a485 1
+\subsubsection{Illusion of Innocence (S-7)}
+d492 1
+a492 1
+\emph{Resist:} None \\
+d497 9
+a505 9
+This spell places an Illusion over one Entity + one additional Entity
+per four full Ranks. Anything said by the Entities will be interpreted
+in the most innocent light (within reason and past
+history). Optionally, the Entities' armour may look like clothes and
+their weapons may look like harmless items. Should an Entity prepare a
+weapon, cast a resistable spell, undergo a search, attack or be
+attacked, the spell will dissipate on them. The spell will overlay
+incongruous noises (eg; armour) with other background noises of equal
+volume.
+d507 1
+a507 1
+\subsubsection{Maze Spell (S-8)}
+d533 2
+a534 1
+\subsubsection{Illusion of Metamorphosis (S-9)}
+d537 1
+a537 1
+\emph{Range:} Speical \\
+d542 2
+a543 2
+\emph{Storage:} Potion \\
+\emph{Target:} Special \\
+d546 2
+a547 2
+The Adept's appearance alters to that of a one hex creature of at
+least (Adept's PS + EN) pounds, over a period of 5 seconds. Their
+d550 2
+a551 3
+that Entity. The spell will cease when the Adept takes effective
+Endurance damage. This spell may be cast upon other people within 5',
+with a 20\% cast chance penalty.
+d564 1
+a564 1
+\subsubsection{Minor Illusion (S-10)}
+d580 3
+a582 3
+though of any combination of colours. Workmanship is as an Artisan of
+one-third Rank. The object is effectively real and will interact
+normally with its surrounds.
+d584 1
+a584 1
+\subsubsection{Spell of Mist (S-11)}
+d596 8
+a603 8
+The Adept conjures 1000 cubic feet of mist + 500 feet per Rank of any
+shape entirely within the Adept's range. The mist must be at least one
+foot in any dimension and may have detail no finer than one foot in
+size. The visibility in this mist is normally 30 feet (six hexes), but
+may be reduced to six hexes minus one per four full Ranks; however
+this requires concentration. If the wind is stronger that a light
+breeze, the Adept must concentrate to maintain the mist. This spell is
+identical to the Air College spell of the same name.
+d605 1
+a605 1
+\subsubsection{Illusion of Multiple Images (S-12)}
+d608 1
+a608 1
+\emph{Range:} touch \\
+d614 1
+a614 1
+\emph{Target:} touch \\
+d617 2
+a618 3
+An Illusion of 1 image + 1 additional image per 5 full Ranks appear in
+the target's hex. These images disappear upon receiving damage, though
+they have a defence and magic resistance of 2\% + 2\% per Rank. All
+d621 2
+a622 2
+image or the target. Multiple images may be struck by a multi-target
+or area effect attack.
+d624 1
+a624 1
+\subsubsection{Nightmare Illusion (S-13)}
+d638 14
+a651 13
+commands until the Adept's active concentration is broken or the
+Nightmare is slain or dissipated. The Nightmare is totally
+insubstantial and invisible to all who resist. The Nightmare has a
+combined EN and FT of 20 (+ 5 per 2 full Ranks), but no defence or
+armour. It can automatically hit up to two different targets a pulse
+for [D - 2] + 1 / 2 full Ranks magical damage. Its Initiative is 30 +
+2 / Rank. It may not be stunned and has a TMR of 10. At Rank 15, all
+within 5' who failed to resist it must make a fear check. The
+Nightmare may move in any direction without restriction, including
+through air, walls, water, etc. except through the area of an Illusion
+Special counterspell. If concentration is lost, the Nightmare will
+attempt to kill as many people as possible, and can not be controlled
+by any means.
+a652 18
+\subsubsection{Illusionary Orchestra (S-14)}
+
+\begin{spelldesc}
+\emph{Range:} 5 feet + 5 / Rank \\
+\emph{Duration:} 5 minutes + 5 / Rank \\
+\emph{Experience Multiple:} 150 \\
+\emph{Base Chance:} 25\% \\
+\emph{Resist:} None \\
+\emph{Storage:} Investment, Ward, Magical Trap \\
+\emph{Target:} Area \\
+\end{spelldesc}
+\emph{Effects:}
+This Illusion creates the sound of musical instruments. One instrument
++ one instrument per 3 full ranks may be played. Each instrument may
+appear to play from a different point. The quality of sound for each
+instrument is the lower of the Adept's rank in playing the instrument
+and half Rank. Active Concentration is required for musical
+per-formance at a skill level above Rank 0.
+d662 1
+a662 1
+\emph{Base Chance:} 30\% + 3\% / Rank \\
+d665 1
+a665 1
+\emph{Target:} Entity or Object \\
+d669 6
+a674 9
+Adept may change the answer to one DA or DE question plus one question
+per two full Ranks, plus whatever other answers are required to
+maintain minimal consistency. For example; If Hellfire was the
+target's highest ranked spell, changing ``Rank in Hellfire'' would
+alter ``highest Rank in any spell'' and ``name of highest ranked
+spell'' but would not change ``College of Magic''. A question may not
+be changed to or from ``No Answer''. The Rituals of Warding and
+Divination are not affected, but do not detect which answers have been
+altered.
+d681 1
+a681 1
+\emph{Experience Multiple:} 250 \\
+d694 4
+a697 3
+even if the area lies between them. Magic may never be hidden through
+this ritual. Any Locate or Scrying magic lower than the Rank of
+Illusionary Terrain may not detect into the ritual's area.
+d708 1
+a708 1
+\emph{Target:} Entity or Object \\
+d714 11
+a724 13
+concentration is possible. The Illusion may be overridden by any
+similar spell for the duration, rather than queuing. Ingredients
+costing 5,000sp (- 200sp per Rank) are consumed upon success or
+backfire. The ritual is removable by a Ritual of Dissipation or the
+Adept's own Special counterspell.
+
+
+\subsection{Guild Integration}
+
+Conversion from the current Illusion College will be
+non-intuitive. The structure has undergone a radical change, and there
+is no bijection between most pieces of the old and new Colleges.
+{\setlength\leftmargini{1.0em}
+d728 2
+a729 2
+has been destroyed. Up to half of their magic EP can be transferred to
+the College of their choice.
+d764 4
+a767 250
+ensure that they fit into the new flavour of the College.  Particular
+conversion problems will be dealt with on a case-by-case basis by a GM
+(yet to be nominated).
+\end{itemize}}
+
+\subsubsection{Illusionist Magics Available at the Guild}
+\begin{tabularx}{\linewidth}{lXr}
+S-1	& Animal		&  1,500 \\
+S-2	& Bolt			&  2,000 \\
+S-3	& Deep Pockets		&  6,000 \\
+S-4	& Disguise		& 12,000 \\
+S-5	& Hallucination		&  7,000 \\
+S-6	& Heroism		& 10,000 \\
+S-7	& Innocence		&  4,000 \\
+S-9	& Metamorphosis		& 12,000 \\
+S-10	& Minor Illusion	&  6,000 \\
+S-11	& Mist			&  1,000 \\
+S-12	& Multiple Images	&  5,000 \\
+S-14	& Orchestra		&  2,500 \\
+R-1	& Aura			& 10,000 \\
+R-2	& Terrain		&  5,000 \\
+	& Ward			&  8,000 \\
+\end{tabularx}
+
+\subsection{Notes on Illusion}
+
+\subsubsection{Visual Illusions}
+Visual Illusions work under the following restrictions:
+{\setlength\leftmargini{1.0em}
+\begin{enumerate}
+\setlength\itemsep{0pt}
+\item
+Mirrors and light sources may not be created. Light can not pass
+through an Illusion, or shine within it. It will cast shadows.
+ 
+\item
+Illusions are opaque.
+
+\item
+Only that which has been seen can be created with any verisimilitude.
+
+\item
+They have no tactile reality --- they don't prevent movement, emit or
+block heat, stop or cause damage, or support weight.
+
+\item
+They will ignore damage as well --- except Animal, Multiple Image \&
+Nightmare.
+
+\item
+Fine detail and control is gained only at higher Ranks.
+
+\item
+Artistic merit or skill is not generated by Illusions, but by the
+Adept.
+\end{enumerate}}
+
+Simple Visual Illusions
+{\setlength\leftmargini{1.0em}
+\begin{itemize}
+\setlength\itemsep{0pt}
+\item	Illusionary Animal
+\item	Illusion of Multiple Images
+\item	Projected Image
+\item	Illusionary Rock
+\item	Static Illusion
+\item	Illusionary Wall
+\end{itemize}}
+
+Attached Visual Illusions
+{\setlength\leftmargini{1.0em}
+\begin{itemize}
+\setlength\itemsep{0pt}
+\item	Illusion of Food Creation
+\item	Illusion of Metamorphosis
+\item	Illusion of Seeming
+\item	Ritual of Illusionary Terrain
+\end{itemize}}
+
+These are Visual Illusions targeted on real objects. They are more
+powerful than Disguise Illusions, in that they will hide that which is
+real and create that which is not. This may lead to obvious
+contradictions, especially with objects moving through confined
+spaces. However, these spells do not allow the control and finesse of
+Disguise Illusions.
+
+Disguise Illusions
+{\setlength\leftmargini{1.0em}
+\begin{itemize}
+\setlength\itemsep{0pt}
+\item	Ritual of Illusionary Aura
+\item	Ritual of Illusionary Covering
+\item	Illusion of Deep Pockets
+\item	Disguise Illusion
+\item	Illusion of Innocence
+\end{itemize}}
+
+The Disguise category of Illusions subtly change the appearance of
+real objects. They create a web of subtle alterations to colouring and
+shadowing. They work better with an existing deception. They do not
+affect the shape of the target, make anything invisible or add that
+which is not there. This leads to a strong consistency with reality,
+making these spells harder to detect. Disguise prevents low-ranked
+location of the Entity; Deep Pockets, location of carried items.
+
+Damaging Visual Illusions
+{\setlength\leftmargini{1.0em}
+\begin{itemize}
+\setlength\itemsep{0pt}
+\item	Illusionary Bolt
+\item	Nightmare Illusion
+\end{itemize}}
+
+These spells work like normal Visual Illusions, except that they
+affect entities or objects physically.
+
+\subsubsection{``Real'' Illusions}
+
+{\setlength\leftmargini{1.0em}
+\begin{itemize}
+\setlength\itemsep{0pt}
+\item	Audile Illusion
+\item	Minor Illusion
+\item	Illusionary Orchestra
+\end{itemize}}
+
+These Illusions are effectively real, except that they can be
+counterspelled, by casting a counterspell which includes one source of
+the sounds in its area of effect. Only Minor Illusion generates a
+Visual Illusion.
+
+{\setlength\leftmargini{1.0em}
+\begin{itemize}
+\setlength\itemsep{0pt}
+\item	Normal Magics
+\item	Flash of Light Spell 
+\item	Ritual of Fog
+\item	Spell of Hallucination
+\item	Spell of Heroism
+\item	Spell of Invisibility
+\item	Maze Spell
+\item	Spell of Mist
+\item	Ritual of Permanency
+\end{itemize}}
+
+These spells and rituals should be treated like the magics of any
+other college.
+
+\subsubsection{Auras}
+
+No Illusion other than Aura allows the obscurement or change of the
+target's aura beyond the normal impact of a spell. Either the real
+object or the Illusion may be targeted, with the object being the
+default target.
+
+\subsubsection{Stacking}
+Illusions are subject to the same stacking and queuing rules as any
+other magic. The only exception to this is Permanent Illusion. These
+Illusions become the new base reality that other Illusions work
+from. For example, a Human permanently disguised as an Elf could not
+be disguised as a Human below Rank 20, though they could be disguised
+as an Elf.
+
+{\setlength\leftmargini{1.0em}
+\begin{itemize}
+\setlength\itemsep{0pt}
+\item
+Heroism does not stack with Armour of Earth, Enchanted Armour,
+Shadowform, Strength of Darkness, Strength of Stone, Waters of
+Strength, Wraithcloak or other spells affecting PS, FT, defence, stun
+or fear checks. It does stack with talents.
+
+\item
+Disguise and
+Metamorphosis do not stack.
+
+\item
+Terrain and Covering do not stack.
+
+\item
+Mist and Fog do not stack.
+\end{itemize}}
+
+\subsubsection{College Overlaps}
+
+{\setlength\leftmargini{1.0em}
+\begin{itemize}
+\setlength\itemsep{0pt}
+\item
+Invisibility is identical to the E\&E spell of the same name,
+excluding Base Chance.
+
+\item	Mist is identical to Air's Conjuring Mist,
+except that it is Special Knowledge.
+
+\item
+Orchestra is identical to the proposed Bardic Ethereal Orchestra,
+except that it is Special Knowledge.
+
+\item
+Static Illusion is identical to Rune's Illusion.
+
+\item
+Minor Illusion is a weakened version of Binder's Minor Creation.
+
+\item
+Nightmare is similar to Necromancy's Spectral Warrior, altered for
+mass effect and fear.
+
+\item
+Wall will work as any other wall spell, except for damage, solidity
+and fear.
+\end{itemize}}
+
+\subsubsection{Adept's Styles}
+
+There are three major styles of Illusionist. These are Pure Illusion,
+Deception and Combat. We suggest a selection of spells particularly
+appropriate for each style:
+{\setlength\leftmargini{1.0em}
+\setlength\leftmarginii{1.0em}
+\begin{itemize}
+\item Pure Illusion
+\begin{itemize}
+\item Audile
+\item Covering
+\item Minor Illusion
+\item Seeming
+\item Static
+\item Wall
+\end{itemize}
+
+\item Deception
+\begin{itemize}
+\item Aura
+\item Deep Pockets
+\item Disguise
+\item Innocence
+\item Invisibility
+\item Terrain
+\end{itemize}
+
+\item Combat
+\begin{itemize}
+\item Bolt
+\item Flash of Light 
+\item Heroism
+\item Maze
+\item Multiple Images
+\item Nightmare
+a768 37
+\end{itemize}}
+
+\subsubsection{Tips}
+
+{\setlength\leftmargini{1.0em}
+\setlength\leftmarginii{1.0em}
+\begin{itemize}
+\item 
+Casting Seeming on a Static or Minor Illusion will allow some
+movement, as with a real object.
+
+\item 
+Illusions can not be made invisible --- only other Illusions treat them
+as real.  Remember all Illusions treat each other as real. An
+Illusionary Animal may stand on Illusions, but may not pass through
+them. A Metamorphed entity may not. However, a Metamorphed Illusionary
+Animal can.
+
+\item 
+Mirrors can play havoc with Flash of Light - shut your eyes when you
+cast.  Don't create clothing in a Disguise that you plan to use for a
+long time.  Don't go around counterspelling Illusions without very
+good reason. It is impolite, and can be returned in kind.
+
+\item 
+Remember that Illusions are as powerful as any other College ---
+devastating in their element, weak or irrelevant elsewhere. Illusions
+specialise in deception.  If in doubt, go with common sense and the
+spirit of the descriptions, not the exact wording.
+
+\item 
+Illusion is still intended to allow creative flair, as a performance
+College. Allow Best Dramatic Effect.
+
+\item 
+All stage magic except ESP is possible with this College.
+\end{itemize}}
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d70 1
+a70 1
+For each two full Ranks in Troubadour			& + 1 \\
+d1064 1
+@

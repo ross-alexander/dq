@@ -1,0 +1,570 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL30:3.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.1;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.1;
+
+4.1
+date	2000.03.02.16.44.07;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.06.04.05.38.15;	author rossa;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	98.06.04.05.35.11;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	98.03.30.22.20.24;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	97.05.22.02.45.48;	author rossa;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	97.04.29.08.56.45;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	97.03.14.03.37.38;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	97.03.13.21.40.59;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	96.10.31.21.36.21;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	96.10.01.02.51.14;	author rossa;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.12.03.22.55.32;	author rossa;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\section{Experience Point Costs}
+\label{tables:ep}
+\index{experience point costs}
+
+\subsection{Weapons}
+\index{weapons!experience point costs}
+
+{\newcommand{\tb}{\textbf}
+{ \begin{tabularx}{\linewidth}{Xrrrrrrrrrrr} \hline
+\tb{Sword}	&\tb{0}	&\tb{1}	&\tb{2}	&\tb{3}	&\tb{4} &\tb{5}	&\tb{6}	&\tb{7}	&\tb{8}	&\tb{9}	&\tb{10} \\ \hline
+Dagger		& 25	& 25	& 50	& 100	& 200	& 400	& 700	& 1500	& 3000	& 4000	&	 \\ \hline
+Main-gauche	& 50	& 50	& 100	& 200	& 400	& 1100	& 1500	& 3000	& 3000	& 3000	& 4000	 \\ \hline
+Short sword	& 100	& 100	& 200	& 400	& 700	& 1500	& 3000	&	&	&	&	 \\ \hline
+Falchion	& 25	& 25	& 50	& 100	& 200	& 400	& 700	& 1500	& 3000	&	&	 \\ \hline
+Scimitar	& 100	& 100	& 200	& 400	& 700	& 1500	& 3000	& 3000	& 3000	&	&	 \\ \hline
+Tulwar		& 100	& 100	& 200	& 400	& 700	& 1500	& 3000	& 3000	& 3000 	&	&	 \\ \hline
+Rapier		& 200	& 200	& 200	& 200	& 200	& 500	& 500	& 2000	& 4000	& 4000	& 3000	 \\ \hline
+Sabre		& 150	& 150	& 200	& 500	& 1000	& 2000	& 2000	& 2000	&	&	&	 \\ \hline
+Broadsword	& 50	& 50	& 100	& 200	& 400	& 700	& 1500	&	&	&	&	 \\ \hline
+Estoc		& 75	& 75	& 150	& 200	& 500	& 1000	& 2000	& 4000	& 4000	& 3000	&	 \\ \hline
+Hand \& a half	& 100	& 100	& 200	& 400	& 500	& 900	& 1700	& 2000	&	&	&	 \\ \hline
+Claymore	& 50	& 50	& 100	& 200	& 400	& 700	& 1500	& 1800	&	&	&	 \\ \hline
+Two-handed sword& 50	& 50	& 100	& 200	& 400	& 700	&	&	&	&	&	 \\ \hline
+\tb{Hafted weapons}&&	&	&	&	&	&	&	&	&	&	 \\ \hline
+Hand axe	& 100	& 100	& 200	& 500	& 1500	&	&	&	&	&	&	 \\ \hline
+Battle axe	& 75	& 75	& 150	& 200	& 500	& 1000	& 2000	& 4000	&	&	&	 \\ \hline
+Giant axe	& 75	& 75	& 150	& 200	& 500	& 1000	& 2000	& 4000	&	&	&	 \\ \hline
+Great axe	& 150	& 50	& 100	& 200	& 500	& 1000	& 3000	& 5000	&	&	&	 \\ \hline
+Crude club	& 25	& 25	& 50	&	&	&	&	&	&	&	&	 \\ \hline
+War club	& 25	& 75	& 150	& 300	& 500	& 700	&	&	&	&	&	 \\ \hline
+Giant club	& 25	& 75	& 150	& 300	& 500	& 700	&	&	&	&	&	 \\ \hline
+Mace		& 50	& 50	& 100	& 200	& 400	& 700	&	&	&	&	&	 \\ \hline
+Giant mace	& 50	& 50	& 100	& 200	& 400	& 700	&	&	&	&	&	 \\ \hline
+War hammer	& 50	& 50	& 100	& 200	& 400	& 700	&	&	&	&	&	 \\ \hline
+War pick	& 75	& 75	& 150	& 200	& 500	& 1000	&	&	&	&	&	 \\ \hline
+Flail		& 25	& 25	& 50	& 100	& 200	& 400	&	&	&	&	&	 \\ \hline
+Morningstar	& 100	& 100	& 200	& 400	& 700	& 1800	&	&	&	&	&	 \\ \hline
+Mattock		& 50	& 50	& 100	& 200	& 400	& 700	&	&	&	&	&	 \\ \hline
+Quarterstaff	& 75	& 75	& 150	& 200	& 500	& 1000	& 2000	& 4000	& 4000	& 3000	&	 \\ \hline
+Sap		& 25	& 75	& 150	& 250	&	&	&	&	&	&	&	 \\ \hline
+\tb{Pole arms}&	&	&	&	&	&	&	&	&	&	&	 \\ \hline
+Javelin		& 50	& 50	& 100	& 200	& 400	& 800	& 1400	& 2000	& 2000	& 2000	& 3000	 \\ \hline
+Spear		& 100	& 100	& 200	& 400	& 700	& 1800	&	&	&	&	&	 \\ \hline
+Giant spear	& 100	& 100	& 200	& 400	& 700	& 1800	&	&	&	&	&	 \\ \hline
+Pike		& 200	& 200	& 400	& 700	& 1500	& 3000	&	&	&	&	&	 \\ \hline
+Lance		& 250	& 400	& 700	& 1000	& 1700	& 3500	&	&	&	&	&	 \\ \hline
+Halberd		& 100	& 100	& 200	& 400	& 700	& 1500	&	&	&	&	&	 \\ \hline
+Poleaxe		& 100	& 100	& 200	& 400	& 700	& 1500	&	&	&	&	&	 \\ \hline
+Trident		& 200	& 200	& 400	& 800	& 1400	& 3000	&	&	&	&	&	 \\ \hline
+Glaive		& 50	& 50	& 100	& 200	& 200	& 200	& 500	& 800	& 1500	& 3000	&	 \\ \hline
+Giant glaive	& 50	& 50	& 100	& 200	& 200	& 200	& 500	& 800	& 1500	& 3000  &	 \\ \hline
+\tb{Missile weapons}&&	&	&	&	&	&	&	&	&	&	 \\ \hline
+Sling		& 200	& 200	& 400	& 700	& 1500	& 3000	& 3000	& 3000	& 3000	&	&	 \\ \hline
+Self bow	& 100	& 100	& 200	& 400	& 700	& 1500	& 3000	& 3000	& 3000	&	&	 \\ \hline
+Short bow	& 100	& 100	& 200	& 400	& 700	& 1500	& 3000	& 3000	& 3000	&	&	 \\ \hline
+Long bow	& 300	& 200	& 500	& 1000	& 2000	& 2000	& 2000	& 2000	& 3000	&	&	 \\ \hline
+Giant bow	& 300	& 200	& 500	& 1000	& 2000	& 2000	& 2000	& 2000	& 3000	&	&	 \\ \hline
+Composite bow	& 200	& 200	& 400	& 700	& 1500	& 3000	& 3000	& 3000	& 3000	&	&	 \\ \hline
+Crossbow	& 100	& 100	& 200	& 400	& 800	& 1000	&	&	&	&	&	 \\ \hline
+Heavy crossbow	& 100	& 100	& 200	& 400	& 800	& 1000	&	&	&	&	&	 \\ \hline
+Spear thrower	& 25	& 25	& 50	& 100	& 200	& 400	& 700	& 1500	& 3000	& 4000	& 5000	 \\ \hline
+Blowgun	& 25	& 25	& 50	& 100	& 200	& 400	& 700	& 1500	& 3000	& 4000	& 5000	 \\ \hline
+\tb{Thrown weapons}&&	&	&	&	&	&	&	&	&	&	 \\ \hline
+Throwing dart	& 200	& 100	& 200	& 500	& 1000	& 2000	& 2000	& 2000	& 2000	& 2000	& 2000	 \\ \hline
+Boomerang	& 100	& 300	& 500	& 1000	& 1200	& 1500	& 1500	& 1500	&	&	&	 \\ \hline
+Grenado		& 25	& 50	& 75	& 100	& 150	&	&	&	&	&	&	 \\ \hline
+\tb{Entangling weapons}&&	&	&	&	&	&	&	&	&	&	 \\ \hline
+Net		& 150	& 150	& 300	& 600	& 1300	&	&	&	&	&	&	 \\ \hline
+Bola		& 200	& 200	& 400	& 700	& 1500	& 2000	& 5000	&	&	&	&	 \\ \hline
+Whip		& 150	& 150	& 500	& 900	& 1400	& 2000	& 3500	& 4000	& 5000	& 5000	& 6000	 \\ \hline
+\tb{Special weapons}&&	&	&	&	&	&	&	&	&	&	 \\ \hline
+Rock		& 25	& 25	& 100	& 150	& 200	& 300	& 500	&	&	&	&	 \\ \hline
+Cestus		& 30	& 40	& 50	& 100	& 200	& 400	& 700	& 1500	& 3000	& 6000	&	 \\ \hline
+Garotte		& 100	& 200	& 300	& 600	&	&	&	&	&	&	&	 \\ \hline
+Shield		& 25	& 25	& 50	& 100	& 200	&	&	&	&	&	&	 \\ \hline
+\tb{Unarmed}&&	&	&	&	&	&	&	&	&	&	 \\ \hline
+Unarmed		& 150	& 300	& 450	& 600	& 800	& 900	& 1500	& 3000	& 4000	& 5000	& 4000	 \\ \hline
+
+\end{tabularx}}}
+
+\vfil
+
+\pagebreak
+
+\subsection{Skills}
+\index{skills!experience point costs}
+\label{epcosts:skills}
+{
+\renewcommand{\thefootnote}{\Alph{footnote}}
+\begin{tabularx}{\linewidth}{Xrrrrrrrrrrr}
+& {\bf 0} & {\bf 1} & {\bf 2} &{\bf 3}&{\bf 4}&{\bf 5}&{\bf 6}&{\bf 7}&{\bf 8}& {\bf 9} & {\bf 10} \\
+\hline Adventuring
+skills\footnotemark[1] & 0 & 125 & 250 & 375 & 500 & 625 & 750 & 875 &1000 & 1125 & 1250 \\ \hline
+Alchemist & 800 & 350 &1200 & 2650 & 4350& 6500 & 8650 & 11100 & 12750 & 14500 & 17000 \\ \hline
+Armourer & 600& 300 & 800 & 1600 & 3000 & 5500 & 6200 & 7300 & 8800 & 10800 & 14000 \\ \hline
+Artisan & 250 & 100 & 150 & 350 & 700 & 950 & 1500 & 1850 &2500 & 3200 & 4000 \\ \hline
+Assassin & 600 & 250 & 750 & 1700 & 2900 & 4200 & 5750 & 7550 & 9500 & 11700 & 14100 \\ \hline
+Astrologer & 400& 150 & 500 & 1150 & 2050 & 3100 & 4400 & 5900 & 7500 & 9400 & 11500 \\ \hline
+Beast Master\footnotemark[2] & 600 & 250 & 750 & 1650 & 2800 & 4300 & 5600 & 7350 & 9300 & 11400 & 13750 \\ \hline
+Courtier\footnotemark[3] & 250 & 100 & 200 & 500 & 950 & 1450 & 2050& 2800 & 3600 & 6300 & 8000 \\ \hline
+Healer &1000 & 400 &1600 & 3500 & 5800 & 8400 &11400 & 14700 & 18500 & 22500 & 26750 \\ \hline
+Herbalist & 800 & 350 &1200 & 2650 & 4350 & 6500 & 8650 & 11100 & 12750 & 14500 & 17000 \\ \hline
+Languages & 200 & 75 & 125 & 300 & 550 & 850 & 1350 & 1700 & 2250 & 2900 & 3500 \\ \hline
+Mechanician & 600 & 250 & 650 & 1500 & 2600 & 3900 & 5300 & 7000 & 8850 & 10900 & 13000 \\ \hline
+Merchant\footnotemark[4]& 300 & 125 & 300 & 850 & 1400 & 2200 & 3400 & 4200 & 5300 & 6800 & 9500 \\ \hline
+Military Scientist & 300 & 125 &350 & 950 & 1500 & 2350 & 3100 & 4150 & 5400 & 6750 & 10000 \\ \hline
+Navigator & 400 & 150 & 400 & 900 & 1550 & 2400 & 3350 & 4450 & 5750 & 7100 & 10500 \\ \hline
+Philosopher &1400 & 700&1400 & 2100 & 2800 & 3500 & 4200 & 4900 & 5600 & 6300 & 7000 \\ \hline
+Ranger & 600 & 250 & 800 & 1650 & 2750 & 4100 & 5650 & 7350 &9300 & 11400 & 13250 \\ \hline
+Spy\footnotemark[5] & 500 & 200 & 600 &1400 & 2400 & 3600 & 5000 & 6600 & 8400 & 10400 & 12600 \\ \hline
+Stealth & 0 & 500 &1000 & 1500 & 2000 & 2500 & 3000 & 3500 & 4000 & 4500 & 5000 \\ \hline
+Thief\footnotemark[5] & 750 & 300 &1050 & 2350 & 4000 & 5750 & 7900 & 10250 & 12900 & 14850 & 16000 \\ \hline
+Troubadour\footnotemark[6] & 250 & 100 & 200 & 500 & 1050 & 1450 & 2100 & 2800 & 3900 & 4600 & 7000 \\ \hline
+Warrior & 600 & 250 & 750 & 1700 & 2900 & 4200 & 5750 & 7550 & 9500 & 11700 & 14100 \\ \hline
+Weaponsmith & 600 & 300 & 800 & 1600 & 3000 & 5500 & 6200 & 7300 & 8800 & 10800 & 14000 \\ \hline
+\end{tabularx}}
+
+\begin{multicols}{2}
+\subsubsection{Notes}
+
+{\setlength\leftmargini{0pt}
+\begin{description}
+\setlength\itemsep{0pt}
+\item[A] Adventuring skills includes Horsemanship, Climbing, Flying,
+Swimming and Knowledge.  Orienteering is now the Artisan skill of
+cartographer.  See the above table for Stealth.  Knowledge is an
+adventurering skill which takes 4 weeks and 500ep to learn Rank 0.  It
+cannot be Ranked beyond Rank 0.
+
+\item[B] A beastmaster may acquire the ability to train additional
+types of creatures after they reach Rank 10 through the expenditure of
+additional EP.  See Beastmaster (\S\ref{beastmaster}) for details.
+
+\item[C] Depending on the characters's personal characteristics, the
+courtier may pay 10\% more, or maybe even 10\% less, EP to rise in
+Rank.  See Courtier (\S\ref{courtier}) for details.  Once a courtier
+has reached Rank 10, they may expend 1000 extra EP per ability in
+order to gain additional abilities within the profession.
+
+\item[D] After attaining Rank 10 the merchant may expend additional EP
+in expanding the list of areas of expertise.  See merchant
+(\S\ref{merchant}) for details.
+
+\item[E] If a character is more proficient thief than spy, then the
+cost to rise in Ranks in spying is halved, until the two Ranks are
+equal.  The reverse is also true.  See Spy (\S\ref{spy}) or Thief
+(\S\ref{thief}) for details.
+
+\item[F] After attaining Rank 10 it is possible for the troubadour to
+add more abilities to their repertoire through the expenditure of 500
+extra EP per ability.  See Troubadour (\S\ref{troubadour}) for
+details.
+
+\item[G] Learning to use climbing claws has a one off cost of 1000 EP.
+Similarly, the use of ropes has a one off cost of 500 EP.
+
+\end{description}}
+
+\subsection{Characteristics}
+\label{epcosts:stats}
+\index{characteristics!experience point costs}
+
+\begin{tabularx}{\linewidth}{Xcc}
+\textbf{Stat} & \textbf{First Point} & \textbf{Extra Points} \\ \hline
+Fatigue		& 2500 & 2500 \\ \hline
+Endurance	& 5000 & 2500 \\ \hline
+Perception	& 1000 & 750 \\ \hline
+All others	& 5000 & 5000 \\ \hline
+\end{tabularx}
+
+\end{multicols}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@d110 1
+a110 1
+Spy\footnotemark[6] & 500 & 200 & 600 &1400 & 2400 & 3600 & 5000 & 6600 & 8400 & 10400 & 12600 \\ \hline
+d112 2
+a113 2
+Thief & 750 & 300 &1050 & 2350 & 4000 & 5750 & 7900 & 10250 & 12900 & 14850 & 16000 \\ \hline
+Troubadour\footnotemark[7] & 250 & 100 & 200 & 500 & 1050 & 1450 & 2100 & 2800 & 3900 & 4600 & 7000 \\ \hline
+@
+
+
+4.1
+log
+@Expert changed to Knowledge in table notes.
+@
+text
+@@
+
+
+4.0
+log
+@REL40
+@
+text
+@d125 2
+a126 2
+Swimming and Expert.  Orienteering is now the Artisan skill of
+cartographer.  See the above table for Stealth.  Expert is an
+@
+
+
+3.0
+log
+@REL30
+@
+text
+@@
+
+
+2.2
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+2.1
+log
+@Add Expert and modify courtesan to courtier.
+@
+text
+@d2 1
+a2 1
+\label{epcosts}
+d124 3
+a126 3
+\item[A] Adventuring skills includes horsemanship, climbing, flying,
+swimming and expert.  Orienteering is now the artisan skill of
+cartographer.  See the above table for stealth.  Expert is an
+d130 1
+a130 1
+\item[B] A Beastmaster may acquire the ability to train additional
+d132 1
+a132 1
+additional EP.  See beast master (\S\ref{beastmaster}) for details.
+d136 1
+a136 1
+Rank.  See courtier (\S\ref{courtier}) for details.  Once a courtier
+d140 1
+a140 1
+\item[D] After attaining Rank 10 the Merchant may expend additional EP
+d144 4
+a147 4
+\item[E] If a character is more proficient at thieving than spying,
+then the cost to rise in Ranks in spying is halved, until the two
+Ranks are equal.  The reverse is also true.  See spy (\S\ref{spy}) or
+thief (\S\ref{thief}) for details.
+d149 1
+a149 1
+\item[F] After attaining Rank 10 it is possible for the Troubadour to
+d151 1
+a151 1
+extra EP per ability.  See troubadour (\S\ref{troubadour}) for
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d100 1
+a100 1
+Courtesan\footnotemark[3] & 250 & 100 & 200 & 500 & 950 & 1450 & 2050& 2800 & 3600 & 6300 & 8000 \\ \hline
+d110 1
+a110 1
+Spy\footnotemark[5] & 500 & 200 & 600 &1400 & 2400 & 3600 & 5000 & 6600 & 8400 & 10400 & 12600 \\ \hline
+d113 1
+a113 1
+Troubadour\footnotemark[6] & 250 & 100 & 200 & 500 & 1050 & 1450 & 2100 & 2800 & 3900 & 4600 & 7000 \\ \hline
+d124 5
+a128 3
+\item[A] Adventuring skills includes horsemanship, climbing, flying and
+swimming.  Orienteering is now the artisan skill of cartographer.  See
+the above table for stealth.
+d135 4
+a138 4
+courtesan may pay 10\% more, or maybe even 10\% less, EP to rise in
+Rank.  See courtesan (\S\ref{courtesan}) for details.  Once a
+courtesan has reached Rank 10, they may expend 1000 extra EP per
+ability in order to gain additional abilities within the profession.
+d154 1
+a154 2
+\item[G]
+Learning to use climbing claws has a one off cost of 1000 EP.
+@
+
+
+1.7
+log
+@Footnoting modified to use Alpha rather than numbers.
+@
+text
+@@
+
+
+1.6
+log
+@Flying added to adventering skills (Ross Alexander).
+@
+text
+@d88 2
+a89 1
+
+d116 1
+a116 1
+\end{tabularx}
+d125 2
+a126 3
+swimming.  Orienteering is now the artisan skill of cartographer, with
+map reading skills added to nagivator and ranger.  See the above table
+for stealth.
+@
+
+
+1.5
+log
+@Add additional labels.
+@
+text
+@d159 2
+a160 1
+\label{characteristics!experience point costs}
+@
+
+
+1.4
+log
+@flying added to adventurering skills.
+@
+text
+@d87 1
+@
+
+
+1.3
+log
+@Add indexing and change notes about orienteering.
+@
+text
+@d122 1
+a122 1
+\item[A] Adventuring skills includes horsemanship, climbing and
+@
+
+
+1.2
+log
+@Self bow added to bows.  Overland movement rate removed from file.
+@
+text
+@d2 2
+d6 1
+d86 1
+d123 3
+a125 2
+swimming.  Orienteering has a flat cost of 2500 EP and see the
+above table for stealth.
+d158 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d51 1
+a160 62
+
+\end{multicols}
+
+\rule{\linewidth}{0.2em}
+
+\begin{multicols}{2}
+\section{Overland Movement Rate}
+
+\begin{tabularx}{0.8\linewidth}{Xcccc}
+& \multicolumn{4}{c}{\tiny\textsc{RATE OF EXERCISE}} \\
+{\tiny\textsc{TERRAIN}} &
+{\tiny\textsc{LIGHT}} &
+{\tiny\textsc{MEDIUM}} &
+{\tiny\textsc{HEAVY}} &
+{\tiny\textsc{STRENUOUS}} \\
+\hline
+Cavern	& 5/-	& 10/-	& 15/-	& 20/- \\
+\hline
+Field	& 15/15	& 25/25	& 30/40* & 35/50* \\
+\hline
+Marsh	& -/-	& 5/5	& 10/10* & 15/15* \\
+\hline
+Plain	& 15/15 & 25/25	& 30/40* & 40/50* \\
+\hline
+Rough	& 10/5	& 15/10	& 20/15* & 25/-	\\
+\hline
+Waste	& 10/5	& 15/10	& 20/10* & -/-	\\
+\hline
+Woods	& 10/5	& 15/10 & 20/15* & 25/- \\
+\hline
+\end{tabularx}
+
+\smallskip
+
+The number before the slash indicates movement in miles per day on
+foot; the number following the slash indicates mounted movement
+(assuming horses).  Rates for other animals types must be adjusted by
+the GM.  The day assumes a total of 8 hours marching.  Effects of
+adverse weather must be adjudicated by the GM. Any paths or roads
+negative the effect of other terrain, and the Plain movement rates are
+used. (-): Movement type impossible at the this exercise rate.
+
+\begin{enumerate}
+\item
+Movement rates assume some sort of passable terrain; total swamp is
+impassable except (sometimes) by canoes.
+
+\item
+If terrain is mountainous, halve rates on foot and prohibit mounted
+movement.
+
+\item
+If terrain is desert, the GM should apply strictures regarding the
+effects of heat, dehydration, etc.
+
+\item
+If terrain is deep woods, halve movement rates.
+\end{enumerate}
+
+* In these exercise rate categories, horses' maximum rates will
+deteriorate 33\% per day.  They can travel at these rates for
+approximately 4 consecutive days and then they will die.
+@

@@ -1,0 +1,733 @@
+\indexentry{Character Generation|(}{7}
+\indexentry{aspect!astrological}{11}
+\indexentry{Character Generation|)}{13}
+\indexentry{adventure|(}{21}
+\indexentry{infection}{22}
+\indexentry{ranking|(}{22}
+\indexentry{ranking|)}{23}
+\indexentry{adventure|)}{23}
+\indexentry{magic|(}{25}
+\indexentry{resistance!active}{25}
+\indexentry{backfires!definition}{25}
+\indexentry{magic!branches}{25}
+\indexentry{iron!cold}{25}
+\indexentry{colleges!definition}{25}
+\indexentry{concentration!definition}{25}
+\indexentry{mana!high}{25}
+\indexentry{mana!low}{25}
+\indexentry{mana}{25}
+\indexentry{resistance!passive}{25}
+\indexentry{rituals!extended rituals}{25}
+\indexentry{spells!casting}{25}
+\indexentry{magic!preparing a spell}{26}
+\indexentry{magic!casting a spell}{26}
+\indexentry{spells!cast changes modifiers}{26}
+\indexentry{spells!damage}{26}
+\indexentry{spells!multiple effects}{26}
+\indexentry{cold iron}{26}
+\indexentry{concentration!casting}{26}
+\indexentry{spells!queueing}{26}
+\indexentry{backfires}{26}
+\indexentry{resistance!magic}{27}
+\indexentry{magic!resistance}{27}
+\indexentry{resistance!passive}{27}
+\indexentry{resistance!active}{27}
+\indexentry{combat!magic}{27}
+\indexentry{magic!colleges}{27}
+\indexentry{magic!branches}{27}
+\indexentry{magic!learning}{27}
+\indexentry{spells!magical aptitude limitation}{27}
+\indexentry{spell storage}{28}
+\indexentry{magic|)}{28}
+\indexentry{cantrips}{29}
+\indexentry{detect aura}{30}
+\indexentry{talents!Detect Aura}{30}
+\indexentry{true names}{30}
+\indexentry{true names!generic}{30}
+\indexentry{true names!individual}{30}
+\indexentry{rituals!college}{32}
+\indexentry{counterspells}{32}
+\indexentry{spells!Counterspell}{32}
+\indexentry{rituals!Ritual Spell Preparation}{32}
+\indexentry{rituals!Purification}{32}
+\indexentry{rituals!The Ward Ritual}{32}
+\indexentry{spell storage!ward}{32}
+\indexentry{rituals!The Investment Ritual (Ver 1.1)}{33}
+\indexentry{spell storage!investment}{33}
+\indexentry{rituals!college|)}{33}
+\indexentry{rituals!non-college}{35}
+\indexentry{spells!Geas}{35}
+\indexentry{spells!Major Curse}{35}
+\indexentry{curse!major}{35}
+\indexentry{rituals!Remove Curse}{35}
+\indexentry{curse!remove curse ritual}{35}
+\indexentry{colleges!Bardic Magics|(}{37}
+\indexentry{talents!Concealed Casting}{37}
+\indexentry{talents!Enhanced Hearing}{37}
+\indexentry{talents!Melodic Memory}{37}
+\indexentry{talents!Project Voice}{37}
+\indexentry{spells!Clairaudience}{37}
+\indexentry{spells!Enchant Instrument}{37}
+\indexentry{spells!Ethereal Orchestra}{37}
+\indexentry{spells!Exhortation}{37}
+\indexentry{spells!Quietness}{37}
+\indexentry{spells!Mockery}{37}
+\indexentry{spells!Shatter}{37}
+\indexentry{spells!Silent Sounds}{38}
+\indexentry{spells!Soothe the Savage Beast}{38}
+\indexentry{spells!Speaking Beasts}{38}
+\indexentry{spells!Ventriloquism}{38}
+\indexentry{rituals!Implanting Sounds}{38}
+\indexentry{rituals!Recitation}{38}
+\indexentry{spells!Charming}{38}
+\indexentry{spells!Compel Speech}{38}
+\indexentry{spells!Comprehending Tongues}{38}
+\indexentry{spells!Confusion of Tongues}{38}
+\indexentry{spells!Dance of Swords}{38}
+\indexentry{spells!Enthralling Audience}{39}
+\indexentry{spells!Shout of Thunder}{39}
+\indexentry{spells!Inspirational Song}{39}
+\indexentry{spells!Satyr's Dance}{39}
+\indexentry{spells!Shell of Silence}{39}
+\indexentry{spells!Silver Tongue}{39}
+\indexentry{spells!Siren Song}{39}
+\indexentry{spells!Slumber Song}{39}
+\indexentry{spells!Whispering World}{39}
+\indexentry{rituals!Cure Deafness and Muteness}{39}
+\indexentry{rituals!Resounding Instrument}{39}
+\indexentry{rituals!Sound of Doom}{39}
+\indexentry{rituals!The Piper's Song}{40}
+\indexentry{colleges!Bardic Magics|)}{40}
+\indexentry{colleges!Binding and Animating Magics|(}{41}
+\indexentry{talents!Activate Golem}{41}
+\indexentry{talents!Detect Enchantment}{41}
+\indexentry{spells!Adhesion}{41}
+\indexentry{spells!Animating Objects}{42}
+\indexentry{spells!Bound Speech}{42}
+\indexentry{spells!Durability}{42}
+\indexentry{spells!Mending}{42}
+\indexentry{spells!Modify Aura}{42}
+\indexentry{spells!Minor Creation}{42}
+\indexentry{spells!Moulding Elements}{42}
+\indexentry{spells!Preservation}{42}
+\indexentry{spells!Transparency}{42}
+\indexentry{rituals!Linking Lifeforce}{43}
+\indexentry{rituals!Petrifaction}{43}
+\indexentry{rituals!Shaping Clay Golems}{43}
+\indexentry{rituals!Shaping Rag \& String Golems}{43}
+\indexentry{spells!Bubble of Force}{43}
+\indexentry{spells!Disintegration}{43}
+\indexentry{spells!Frictionless Floor}{43}
+\indexentry{spells!Instant Golem}{43}
+\indexentry{spells!Instant Petrifaction}{43}
+\indexentry{spells!Instilling Flight}{44}
+\indexentry{spells!Itemisation}{44}
+\indexentry{spells!Making}{44}
+\indexentry{spells!Matter Transmutation}{44}
+\indexentry{spells!Possess Golem}{44}
+\indexentry{spells!Unfastening}{44}
+\indexentry{spells!Wall of Dust and Sand}{44}
+\indexentry{spells!Wall Walking}{44}
+\indexentry{rituals!Binding Permanency}{44}
+\indexentry{rituals!Investment}{44}
+\indexentry{rituals!Item Divination}{44}
+\indexentry{rituals!Major Creation}{45}
+\indexentry{rituals!Shaping Iron Golems}{45}
+\indexentry{rituals!Shaping Stone Golems}{45}
+\indexentry{rituals!Shaping Wood Golems}{45}
+\indexentry{colleges!Binding and Animating Magics|)}{45}
+\indexentry{colleges!Ensorcelments and Enchantments|(}{47}
+\indexentry{talents!Wizardsight}{47}
+\indexentry{spells!Charming}{47}
+\indexentry{spells!Telekinesis}{47}
+\indexentry{spells!Enchanted Sleep}{47}
+\indexentry{spells!Walking Unseen}{47}
+\indexentry{spells!Speaking to Enchanted Creatures}{47}
+\indexentry{spells!Location}{47}
+\indexentry{spells!Mass Charming}{47}
+\indexentry{spells!Invisibility}{47}
+\indexentry{spells!Evil Eye}{47}
+\indexentry{rituals!Greater Enchantment}{48}
+\indexentry{rituals!Creating Crystal of Vision}{48}
+\indexentry{rituals!Creating Sleep Dust}{48}
+\indexentry{rituals!Manufacturing Poison Dust}{48}
+\indexentry{spells!Ventriloquism}{48}
+\indexentry{spells!Bolt of Energy}{48}
+\indexentry{spells!Opening}{48}
+\indexentry{spells!Enchant Weapon}{48}
+\indexentry{spells!Web of Entanglement}{48}
+\indexentry{spells!Mage Lock}{48}
+\indexentry{spells!Enhancing Enchantment}{48}
+\indexentry{spells!Levitation}{49}
+\indexentry{spells!Enchant Armour}{49}
+\indexentry{spells!Wizard's Eye}{49}
+\indexentry{spells!Slowness}{49}
+\indexentry{spells!Quickness}{49}
+\indexentry{colleges!Ensorcelments and Enchantments|)}{49}
+\indexentry{colleges!Illusions|(}{51}
+\indexentry{talents!Concealed Casting}{51}
+\indexentry{talents!Enhanced Vision}{51}
+\indexentry{talents!Project Image}{51}
+\indexentry{spells!Audile Illusion}{51}
+\indexentry{spells!Flash of Light}{51}
+\indexentry{spells!Illusion of Food}{51}
+\indexentry{spells!Invisibility}{51}
+\indexentry{spells!Personalised Illusion}{51}
+\indexentry{spells!Illusion of Seeming}{51}
+\indexentry{spells!Static Illusion}{52}
+\indexentry{spells!Illusionary Wall}{52}
+\indexentry{rituals!Illusionary Cloaking}{52}
+\indexentry{rituals!Illusory Fog}{52}
+\indexentry{spells!Illusionary Animal}{52}
+\indexentry{spells!Illusionary Bolt}{52}
+\indexentry{spells!Illusory Creation}{52}
+\indexentry{spells!Illusion of Deep Pockets}{52}
+\indexentry{spells!Disguise Illusion}{52}
+\indexentry{spells!Illusionary Euphonia}{52}
+\indexentry{spells!Hallucination}{52}
+\indexentry{spells!Heroism}{52}
+\indexentry{spells!Illusion of Innocence}{53}
+\indexentry{spells!Maze}{53}
+\indexentry{spells!Illusion of Metamorphosis}{53}
+\indexentry{spells!Illusion of Mist}{53}
+\indexentry{spells!Illusion of Multiple Images}{53}
+\indexentry{spells!Nightmare Illusion}{53}
+\indexentry{rituals!Illusionary Aura}{53}
+\indexentry{rituals!Illusionary Terrain}{53}
+\indexentry{rituals!Permanency}{53}
+\indexentry{colleges!Illusions|)}{53}
+\indexentry{colleges!Sorceries of the Mind|(}{55}
+\indexentry{talents!Resist Pain}{55}
+\indexentry{talents!Resist Temperature}{55}
+\indexentry{talents!Sense Danger}{55}
+\indexentry{spells!Control Animal}{55}
+\indexentry{spells!Control Person}{55}
+\indexentry{spells!Empathy}{55}
+\indexentry{spells!ESP}{55}
+\indexentry{spells!Hypnotism}{55}
+\indexentry{spells!Limited Precognition}{55}
+\indexentry{spells!Mind Shield}{56}
+\indexentry{rituals!Binding Will}{56}
+\indexentry{spells!Disruption}{56}
+\indexentry{spells!Force Shield}{56}
+\indexentry{spells!Healing}{56}
+\indexentry{spells!Mental Attack}{56}
+\indexentry{spells!Mind Speech}{56}
+\indexentry{spells!Phantasm}{56}
+\indexentry{spells!Telekinesis}{56}
+\indexentry{spells!Telekinetic Rage}{56}
+\indexentry{spells!Telepathy}{56}
+\indexentry{spells!Transmutation}{57}
+\indexentry{spells!Undetectability}{57}
+\indexentry{colleges!Sorceries of the Mind|)}{57}
+\indexentry{colleges!Naming Incantations|(}{59}
+\indexentry{talents!Detect Aura}{59}
+\indexentry{talents!Expel Magic}{59}
+\indexentry{talents!Quick Cast}{59}
+\indexentry{rituals!Dissipation}{59}
+\indexentry{spells!Bane}{59}
+\indexentry{spells!Banishment}{59}
+\indexentry{spells!Compel Obedience}{60}
+\indexentry{spells!Disjunction}{60}
+\indexentry{spells!Dispel Magic}{60}
+\indexentry{spells!Forbidding}{60}
+\indexentry{spells!Mana Sense}{60}
+\indexentry{spells!Scry Shield}{60}
+\indexentry{spells!Spell Barrier}{60}
+\indexentry{spells!True Seeing}{60}
+\indexentry{rituals!Divination}{60}
+\indexentry{rituals!Expulsion}{61}
+\indexentry{rituals!Interregnum}{61}
+\indexentry{rituals!Remove Curse}{61}
+\indexentry{rituals!Sealing}{61}
+\indexentry{rituals!True Form}{61}
+\indexentry{rituals!True Speaking}{61}
+\indexentry{colleges!Naming Incantations|)}{61}
+\indexentry{colleges!Air Magics|(}{63}
+\indexentry{talents!Aerial Affinity}{63}
+\indexentry{talents!Detect Fumes}{63}
+\indexentry{talents!Predict Weather}{63}
+\indexentry{spells!Calm}{63}
+\indexentry{spells!Feather Falling}{63}
+\indexentry{spells!Mage Wind}{63}
+\indexentry{spells!Mist}{63}
+\indexentry{spells!Speak to Avians}{63}
+\indexentry{spells!Storm Calling}{63}
+\indexentry{spells!Summon Avians}{64}
+\indexentry{spells!Vapour Breathing}{64}
+\indexentry{spells!Wind Whistle}{64}
+\indexentry{rituals!Windspeak}{64}
+\indexentry{spells!Air Blast}{64}
+\indexentry{spells!Arrow Flight}{64}
+\indexentry{spells!Avian Control}{64}
+\indexentry{spells!Barrier of Wind}{64}
+\indexentry{spells!Conjuring Air}{64}
+\indexentry{spells!Flying}{64}
+\indexentry{spells!Gaseous Form}{64}
+\indexentry{spells!Gliding}{65}
+\indexentry{spells!Knockout Gas}{65}
+\indexentry{spells!Lightning Bolt}{65}
+\indexentry{spells!Lightning Strike}{65}
+\indexentry{spells!Resist Cold}{65}
+\indexentry{spells!Shaping Cloud}{65}
+\indexentry{spells!Whirlwind Vortex}{65}
+\indexentry{spells!Whispering Wind}{65}
+\indexentry{spells!Windstorm}{65}
+\indexentry{spells!Wind Walking}{65}
+\indexentry{spells!Ball of Lightning}{65}
+\indexentry{spells!Thunderclap}{65}
+\indexentry{rituals!Air Spring}{66}
+\indexentry{rituals!Conjuring Air Elemental}{66}
+\indexentry{rituals!Control Weather}{66}
+\indexentry{rituals!Summon and Bind Cloud}{66}
+\indexentry{colleges!Air Magics|)}{66}
+\indexentry{colleges!Celestial Magics|(}{69}
+\indexentry{talents!Speak to Creatures of Light/Darkness}{69}
+\indexentry{talents!Night Vision}{69}
+\indexentry{talents!Detect Aura}{69}
+\indexentry{spells!Blending}{69}
+\indexentry{spells!Light}{69}
+\indexentry{spells!Darkness}{69}
+\indexentry{spells!Shadow Form / Coruscade}{69}
+\indexentry{spells!Wall of Starlight}{70}
+\indexentry{spells!Wall of Darkness}{70}
+\indexentry{spells!Witchsight}{70}
+\indexentry{spells!Walking Unseen}{70}
+\indexentry{spells!Resistance to Light}{70}
+\indexentry{spells!Illumination}{70}
+\indexentry{spells!Charismatic Aura}{70}
+\indexentry{spells!Strength of Darkness}{70}
+\indexentry{rituals!Reading the Night Sky}{70}
+\indexentry{rituals!Summoning and Binding Creatures of Light / Darkness}{70}
+\indexentry{spells!Healing}{71}
+\indexentry{spells!Creating Light/Dark Sword}{71}
+\indexentry{spells!Bolt of Starfire}{71}
+\indexentry{spells!Meteorite Shower}{71}
+\indexentry{spells!Star / Shadow Wings}{71}
+\indexentry{spells!Web of Light / Darkness}{71}
+\indexentry{spells!Fear}{71}
+\indexentry{spells!Increased Gravity}{71}
+\indexentry{spells!Whitefire}{72}
+\indexentry{spells!Solar Flare}{72}
+\indexentry{spells!Failing Star}{72}
+\indexentry{spells!Blackfire}{72}
+\indexentry{spells!Shadow Walking}{72}
+\indexentry{rituals!Conjuring and Controlling Light / Dark Sphere}{72}
+\indexentry{aspect!light and dark}{72}
+\indexentry{colleges!Celestial Magics|)}{72}
+\indexentry{colleges!Earth Magics|(}{75}
+\indexentry{talents!Detect Aura}{75}
+\indexentry{spells!Converse With Animals}{75}
+\indexentry{spells!Converse With Plants}{75}
+\indexentry{spells!Controlling Animals}{75}
+\indexentry{spells!Blending}{75}
+\indexentry{spells!Walking Unseen}{75}
+\indexentry{spells!Healing}{75}
+\indexentry{spells!Detecting Traps and Snares}{75}
+\indexentry{spells!Detecting Poisons}{76}
+\indexentry{spells!Lesser Enchantment}{76}
+\indexentry{spells!Herbal Lore}{76}
+\indexentry{spells!Tracking}{76}
+\indexentry{rituals!Summoning Animals}{76}
+\indexentry{spells!Earth Hammer}{76}
+\indexentry{spells!Hands of Earth}{76}
+\indexentry{spells!Strength of Stone}{76}
+\indexentry{spells!Armour of Earth}{76}
+\indexentry{spells!Diamond Weapon}{76}
+\indexentry{spells!Gem Creation}{76}
+\indexentry{spells!Animal Growth}{76}
+\indexentry{spells!Enchanting Plants}{76}
+\indexentry{spells!Binding Animals}{76}
+\indexentry{spells!Conjuring Earth Elemental}{76}
+\indexentry{spells!Controlling Earth Elemental}{76}
+\indexentry{spells!Sinking Doom}{77}
+\indexentry{spells!Wall of Stone}{77}
+\indexentry{spells!Wall of Iron}{77}
+\indexentry{spells!Tunnelling}{77}
+\indexentry{spells!Trollskin}{77}
+\indexentry{spells!Smoking Magma}{77}
+\indexentry{spells!Diamond Javelins}{77}
+\indexentry{spells!Earth Transformation}{77}
+\indexentry{rituals!Binding Earth}{77}
+\indexentry{colleges!Earth Magics|)}{77}
+\indexentry{colleges!Fire Magics|(}{79}
+\indexentry{talents!Infravision}{79}
+\indexentry{talents!Pyrogenisis}{79}
+\indexentry{spells!Bolt of Fire}{79}
+\indexentry{spells!Extinguish Fire Spell}{79}
+\indexentry{spells!Fire Armour}{79}
+\indexentry{spells!Firelight}{79}
+\indexentry{spells!Fireproofing}{80}
+\indexentry{spells!Increase Temperature}{80}
+\indexentry{spells!Slow Fire}{80}
+\indexentry{spells!Smoke Creation}{80}
+\indexentry{rituals!Binding Fire}{80}
+\indexentry{spells!Cleansing Flame Spell}{80}
+\indexentry{spells!Dragon Flames}{80}
+\indexentry{spells!Fire Arc}{80}
+\indexentry{spells!Fireball}{80}
+\indexentry{spells!Heat Shield}{80}
+\indexentry{spells!Hellfire}{81}
+\indexentry{spells!Immolation}{81}
+\indexentry{spells!Malignant Flames}{81}
+\indexentry{spells!Pyrotechnics}{81}
+\indexentry{spells!Speak to Fire Creatures}{81}
+\indexentry{spells!Summoning Salamander}{81}
+\indexentry{spells!Weapon of Flames}{81}
+\indexentry{spells!Wall of Fire}{81}
+\indexentry{spells!Wildfires}{81}
+\indexentry{rituals!Create Drought}{81}
+\indexentry{rituals!Flame Sight}{81}
+\indexentry{rituals!Ritual of Summoning a Lesser Efreeti}{82}
+\indexentry{rituals!Summon Fire Elemental}{82}
+\indexentry{colleges!Fire Magics|)}{82}
+\indexentry{colleges!Ice Magics|(}{83}
+\indexentry{talents!Cold Affinity}{83}
+\indexentry{talents!Endure Hardship}{83}
+\indexentry{spells!Extinguish Fires}{83}
+\indexentry{spells!Freeze}{83}
+\indexentry{spells!Ice Creation}{83}
+\indexentry{spells!Ice Traversal}{83}
+\indexentry{spells!Refrigeration}{83}
+\indexentry{spells!Resist Cold}{83}
+\indexentry{spells!Snow Shovel}{83}
+\indexentry{spells!Water to Ice}{84}
+\indexentry{rituals!Create Igloo}{84}
+\indexentry{rituals!Bind Ice and Snow}{84}
+\indexentry{spells!Armour of Ice}{84}
+\indexentry{spells!Icy Transformation}{84}
+\indexentry{spells!Freezing Wind}{84}
+\indexentry{spells!Frostbite}{84}
+\indexentry{spells!Frozen Doom}{84}
+\indexentry{spells!Hibernation}{84}
+\indexentry{spells!Ice Bolt}{84}
+\indexentry{spells!Ice Construction}{84}
+\indexentry{spells!Iceberg}{84}
+\indexentry{spells!Ice Pack}{85}
+\indexentry{spells!Ice Projectiles}{85}
+\indexentry{spells!Ray of Cold}{85}
+\indexentry{spells!Snowball}{85}
+\indexentry{spells!Snowfall}{85}
+\indexentry{spells!Wall of Ice}{85}
+\indexentry{spells!Weapon of Cold}{85}
+\indexentry{spells!Winter Garden}{85}
+\indexentry{rituals!Snow Simulacrum}{85}
+\indexentry{rituals!Summoning and Controlling Ice Elemental}{85}
+\indexentry{rituals!Ritual of Winter}{86}
+\indexentry{colleges!Ice Magics|)}{86}
+\indexentry{colleges!Water Magics|(}{87}
+\indexentry{talents!Predict Weather}{87}
+\indexentry{talents!Dowsing}{87}
+\indexentry{talents!Aquatic Affinity}{87}
+\indexentry{spells!Buoyancy}{87}
+\indexentry{spells!Cold Resistance}{87}
+\indexentry{spells!Create Fog}{87}
+\indexentry{spells!Mage Current}{87}
+\indexentry{spells!Navigation}{87}
+\indexentry{spells!Rehydration}{87}
+\indexentry{spells!Saturated Earth}{88}
+\indexentry{spells!Ship Strength}{88}
+\indexentry{spells!Speak to Aquatic Life}{88}
+\indexentry{spells!Summon Aquatic Life}{88}
+\indexentry{spells!Water Breathing}{88}
+\indexentry{spells!Water Creation}{88}
+\indexentry{spells!Waterproofing}{88}
+\indexentry{spells!Wave Control}{88}
+\indexentry{rituals!Binding Water}{88}
+\indexentry{spells!Control Aquatic Life}{88}
+\indexentry{spells!Dehydration}{88}
+\indexentry{spells!Flash Flood}{88}
+\indexentry{spells!Geyser}{88}
+\indexentry{spells!Liquid Purification}{89}
+\indexentry{spells!Liquid Transmutation}{89}
+\indexentry{spells!Maelstrom}{89}
+\indexentry{spells!Rainstorm}{89}
+\indexentry{spells!Storm Calling}{89}
+\indexentry{spells!Walk on Water}{89}
+\indexentry{spells!Waters of Healing}{89}
+\indexentry{spells!Waters of Strength}{89}
+\indexentry{spells!Waters of Vision}{89}
+\indexentry{spells!Waterspout}{89}
+\indexentry{spells!Wave Riding}{89}
+\indexentry{rituals!Summoning and Binding Water Elemental}{89}
+\indexentry{colleges!Water Magics|)}{90}
+\indexentry{colleges!Greater Summonings|(}{91}
+\indexentry{rituals!Cleansing}{92}
+\indexentry{rituals!Summoning Succubi}{92}
+\indexentry{rituals!Summoning Incubi}{92}
+\indexentry{rituals!Summoning Heroes}{92}
+\indexentry{rituals!True Speaking}{92}
+\indexentry{rituals!Binding}{92}
+\indexentry{rituals!Summoning Demonic Dukes}{93}
+\indexentry{rituals!Summoning Demonic Princes}{93}
+\indexentry{rituals!Summoning Demonic Presidents}{93}
+\indexentry{rituals!Summoning Demonic Earls}{93}
+\indexentry{rituals!Summoning Demonic Marquis}{93}
+\indexentry{rituals!Summoning Demonic Kings}{93}
+\indexentry{colleges!Greater Summonings|)}{93}
+\indexentry{colleges!Necromantic Conjurations|(}{95}
+\indexentry{talents!Ask the Dead}{95}
+\indexentry{talents!Death Sense}{95}
+\indexentry{talents!Necrogeny}{95}
+\indexentry{spells!Animating Bodily Parts}{95}
+\indexentry{spells!Binding Lesser Undead}{95}
+\indexentry{spells!Conjuring Darkness}{95}
+\indexentry{spells!Detecting Undead}{95}
+\indexentry{spells!Fear}{96}
+\indexentry{spells!Noxious Vapours}{96}
+\indexentry{spells!Putrescence}{96}
+\indexentry{spells!Putrid Wound}{96}
+\indexentry{spells!Rigor Mortis}{96}
+\indexentry{spells!Spectral Hand}{96}
+\indexentry{spells!Warping}{96}
+\indexentry{rituals!Converse with the Dead}{96}
+\indexentry{rituals!Summoning Lesser Undead}{96}
+\indexentry{spells!Agony}{96}
+\indexentry{spells!Animation of the Dead}{96}
+\indexentry{spells!Binding Greater Undead}{96}
+\indexentry{spells!Bone Construction}{97}
+\indexentry{spells!Dark Vision}{97}
+\indexentry{spells!Hand of Death}{97}
+\indexentry{spells!Life Draining}{97}
+\indexentry{spells!Mass Fear}{97}
+\indexentry{spells!Necrosis}{97}
+\indexentry{spells!Petit Mort}{97}
+\indexentry{spells!Scarring Terrain}{97}
+\indexentry{spells!Spectral Warrior}{97}
+\indexentry{spells!Spectral Weapon}{97}
+\indexentry{spells!Stream of Corruption}{97}
+\indexentry{spells!Wall of Bones}{97}
+\indexentry{spells!Wraithcloak}{98}
+\indexentry{rituals!Becoming Undead}{98}
+\indexentry{rituals!Life Prolonging}{98}
+\indexentry{rituals!Permanency}{98}
+\indexentry{rituals!Shaping Flesh Golems}{98}
+\indexentry{rituals!Summoning Greater Undead}{98}
+\indexentry{colleges!Necromantic Conjurations|)}{98}
+\indexentry{colleges!Rune Magics|(}{99}
+\indexentry{talents!Read Dead Languages}{99}
+\indexentry{talents!Decipher Codes and Ciphers}{99}
+\indexentry{talents!Read Runesticks}{100}
+\indexentry{talents!Create Codes and Ciphers}{100}
+\indexentry{talents!Summon Wand}{100}
+\indexentry{spells!Learn Rune}{100}
+\indexentry{spells!Darkness}{100}
+\indexentry{spells!Light}{100}
+\indexentry{spells!Pyrogenesis}{100}
+\indexentry{spells!Curse}{100}
+\indexentry{curse!rune}{100}
+\indexentry{spells!Illusion}{100}
+\indexentry{spells!Control Entity}{100}
+\indexentry{spells!Purification}{101}
+\indexentry{spells!Runelock}{101}
+\indexentry{rituals!Fashioning Runesticks}{101}
+\indexentry{rituals!Fashioning Runewand}{101}
+\indexentry{rituals!Warding with Runesticks}{101}
+\indexentry{rituals!Healing}{101}
+\indexentry{rituals!Runes of Sight}{102}
+\indexentry{rituals!Sending}{102}
+\indexentry{spells!Runewall Spell}{102}
+\indexentry{spells!Torment}{102}
+\indexentry{spells!Creating Rune Shield}{102}
+\indexentry{spells!Visitation}{102}
+\indexentry{spells!Truth}{102}
+\indexentry{spells!Banishment}{102}
+\indexentry{spells!Smite}{102}
+\indexentry{spells!Creating Runeweapon}{102}
+\indexentry{rituals!Casting the Runes}{103}
+\indexentry{rituals!Creeping Doom}{103}
+\indexentry{rituals!Creating Rune Portal}{103}
+\indexentry{rituals!Binding Elements}{103}
+\indexentry{tables!runewand table}{103}
+\indexentry{tables!runestick table}{103}
+\indexentry{colleges!Rune Magics|)}{103}
+\indexentry{colleges!Witchcraft|(}{105}
+\indexentry{talents!Farsensing}{105}
+\indexentry{talents!Special Alchemy}{105}
+\indexentry{alchemy!witchcraft special alchemy}{105}
+\indexentry{talents!Witchsight}{106}
+\indexentry{witchsight!witchcraft}{106}
+\indexentry{spells!Damnum Minatum}{106}
+\indexentry{curse!damnum minatum}{106}
+\indexentry{spells!Darkness}{106}
+\indexentry{spells!Decay}{106}
+\indexentry{spells!Fear}{106}
+\indexentry{spells!Harming Entity}{106}
+\indexentry{spells!Hypnotism}{106}
+\indexentry{spells!Igniting Flammables}{106}
+\indexentry{spells!Mind Cloak}{106}
+\indexentry{spells!Protection Against Were-Creatures}{107}
+\indexentry{spells!Storm Calling}{107}
+\indexentry{spells!Summoning Enchanted Creatures}{107}
+\indexentry{spells!Walking Unseen}{107}
+\indexentry{spells!Wind Whistle}{107}
+\indexentry{rituals!Finding Familiar}{107}
+\indexentry{rituals!Tarot Reading}{107}
+\indexentry{spells!Blessing Crops}{108}
+\indexentry{spells!Blessing/Curse on Unborn Child}{108}
+\indexentry{spells!Blessing Livestock}{108}
+\indexentry{spells!Blighting Crops}{108}
+\indexentry{spells!Cat Vision}{108}
+\indexentry{spells!Controlling Animals}{108}
+\indexentry{spells!Converse With Animals}{108}
+\indexentry{spells!Creating Plague}{108}
+\indexentry{spells!Creating Restorative}{108}
+\indexentry{spells!Damnum Magnatum}{108}
+\indexentry{spells!Earth Tremor}{109}
+\indexentry{spells!Evil Eye}{109}
+\indexentry{spells!Hellfire}{109}
+\indexentry{spells!Instilling Flight}{109}
+\indexentry{spells!Mass Fear}{109}
+\indexentry{fear!witchcraft mass fear}{109}
+\indexentry{spells!Pestilence}{109}
+\indexentry{spells!Skin Change}{109}
+\indexentry{spells!Virility}{109}
+\indexentry{spells!Wall of Thorns}{109}
+\indexentry{rituals!Controlling Weather}{109}
+\indexentry{rituals!Creeping Doom}{109}
+\indexentry{rituals!Dead Man's Candle}{110}
+\indexentry{rituals!Hand of Glory}{110}
+\indexentry{rituals!Summoning Animals}{110}
+\indexentry{colleges!Witchcraft|)}{110}
+\indexentry{skills|(}{111}
+\indexentry{skills!introduction}{111}
+\indexentry{skills!acquiring}{111}
+\indexentry{skills!usage}{111}
+\indexentry{skills!rank 0}{111}
+\indexentry{skills!expert knowledge}{111}
+\indexentry{skills!supervision}{111}
+\indexentry{skills|)}{111}
+\indexentry{Adventuring Skills|(}{112}
+\indexentry{skills!Adventuring Skills|(}{112}
+\indexentry{climbing}{112}
+\indexentry{skills!climbing}{112}
+\indexentry{falling}{112}
+\indexentry{horsemanship}{112}
+\indexentry{skills!horsemanship}{112}
+\indexentry{flying}{112}
+\indexentry{skills!flying}{112}
+\indexentry{skills!knowledge}{112}
+\indexentry{orienteering}{112}
+\indexentry{skills!orienteering}{112}
+\indexentry{stealth}{112}
+\indexentry{swimming}{112}
+\indexentry{skills!swimming}{112}
+\indexentry{Adventuring Skills|)}{113}
+\indexentry{skills!Adventuring Skills|)}{113}
+\indexentry{Alchemist|(}{114}
+\indexentry{skills!Alchemist|(}{114}
+\indexentry{potions!alchemist}{114}
+\indexentry{poisons!alchemist}{114}
+\indexentry{spell storage!potion}{114}
+\indexentry{potions!storing spells}{114}
+\indexentry{Alchemist|)}{115}
+\indexentry{skills!Alchemist|)}{115}
+\indexentry{Armourer|(}{116}
+\indexentry{skills!Armourer|(}{116}
+\indexentry{Armourer|)}{116}
+\indexentry{skills!Armourer|)}{116}
+\indexentry{Artisan|(}{117}
+\indexentry{skills!Artisan|(}{117}
+\indexentry{Artisan|)}{118}
+\indexentry{skills!Artisan|)}{118}
+\indexentry{Assassin|(}{119}
+\indexentry{skills!Assassin|(}{119}
+\indexentry{poisons!assassin}{119}
+\indexentry{stealth!assassin}{119}
+\indexentry{Assassin|)}{119}
+\indexentry{skills!Assassin|)}{119}
+\indexentry{Astrologer|(}{120}
+\indexentry{skills!Astrologer|(}{120}
+\indexentry{Astrologer|)}{120}
+\indexentry{skills!Astrologer|)}{120}
+\indexentry{Beast Master|(}{121}
+\indexentry{skills!Beast Master|(}{121}
+\indexentry{Beast Master|)}{121}
+\indexentry{skills!Beast Master|)}{121}
+\indexentry{Courtier|(}{122}
+\indexentry{skills!Courtier|(}{122}
+\indexentry{Courtier|)}{122}
+\indexentry{skills!Courtier|)}{122}
+\indexentry{Healer|(}{123}
+\indexentry{skills!Healer|(}{123}
+\indexentry{Healer|)}{124}
+\indexentry{skills!Healer|)}{124}
+\indexentry{Herbalist|(}{125}
+\indexentry{skills!Herbalist|(}{125}
+\indexentry{resurrection!herbalist restore life}{126}
+\indexentry{potions!sleep draughts}{126}
+\indexentry{potions!fertility}{126}
+\indexentry{potions!infertility}{126}
+\indexentry{potions!stat increase}{126}
+\indexentry{poisons!herbalist}{126}
+\indexentry{Herbalist|)}{126}
+\indexentry{skills!Herbalist|)}{126}
+\indexentry{Languages|(}{127}
+\indexentry{skills!Languages|(}{127}
+\indexentry{Languages|)}{128}
+\indexentry{skills!Languages|)}{128}
+\indexentry{Mechanician|(}{129}
+\indexentry{skills!Mechanician|(}{129}
+\indexentry{spell storage!mechancian traps}{130}
+\indexentry{Mechanician|)}{130}
+\indexentry{skills!Mechanician|)}{130}
+\indexentry{Merchant|(}{131}
+\indexentry{skills!Merchant|(}{131}
+\indexentry{Merchant|)}{131}
+\indexentry{skills!Merchant|)}{131}
+\indexentry{Military Scientist|(}{132}
+\indexentry{skills!Military Scientist|(}{132}
+\indexentry{initiative!military scientist}{132}
+\indexentry{Military Scientist|)}{132}
+\indexentry{skills!Military Scientist|)}{132}
+\indexentry{Navigator|(}{133}
+\indexentry{skills!Navigator|(}{133}
+\indexentry{maps!reading}{133}
+\indexentry{maps!creation}{133}
+\indexentry{predict weather!nagivator}{133}
+\indexentry{Navigator|)}{133}
+\indexentry{skills!Navigator|)}{133}
+\indexentry{Philosopher|(}{134}
+\indexentry{skills!Philosopher|(}{134}
+\indexentry{Philosopher|)}{135}
+\indexentry{skills!Philosopher|)}{135}
+\indexentry{Ranger|(}{136}
+\indexentry{skills!Ranger|(}{136}
+\indexentry{Ranger|)}{136}
+\indexentry{skills!Ranger|)}{136}
+\indexentry{Spy|(}{138}
+\indexentry{skills!Spy|(}{138}
+\indexentry{pickpocket, spy!pickpocket}{138}
+\indexentry{stealth!spy}{138}
+\indexentry{Spy|)}{138}
+\indexentry{skills!Spy|)}{138}
+\indexentry{Thief|(}{139}
+\indexentry{skills!Thief|(}{139}
+\indexentry{stealth!thief}{139}
+\indexentry{climbing!thief}{139}
+\indexentry{Thief|)}{139}
+\indexentry{skills!Thief|)}{139}
+\indexentry{Troubadour|(}{140}
+\indexentry{skills!Troubadour|(}{140}
+\indexentry{Troubadour|)}{140}
+\indexentry{skills!Troubadour|)}{140}
+\indexentry{Warrior|(}{141}
+\indexentry{skills!Warrior|(}{141}
+\indexentry{Warrior|)}{141}
+\indexentry{skills!Warrior|)}{141}
+\indexentry{Weaponsmith|(}{142}
+\indexentry{skills!Weaponsmith|(}{142}
+\indexentry{Weaponsmith|)}{142}
+\indexentry{skills!Weaponsmith|)}{142}
+\indexentry{fear}{146}
+\indexentry{tables!fear}{146}
+\indexentry{awe}{146}
+\indexentry{physical beauty!fear}{146}
+\indexentry{physical beauty!awe}{146}
+\indexentry{fear!effects!wall of bones}{147}
+\indexentry{fear!effects!spell of fear}{147}
+\indexentry{fear!effects!spell of mass fear}{147}
+\indexentry{experience point costs}{148}
+\indexentry{weapons!experience point costs}{148}
+\indexentry{skills!experience point costs}{149}
+\indexentry{characteristics!experience point costs}{149}

@@ -1,0 +1,442 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL30:3.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.3;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.06.04.05.38.15;	author rossa;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	98.06.04.05.35.10;	author rossa;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	98.05.11.02.03.47;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	98.05.11.01.21.22;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	96.01.12.02.21.22;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.04.07.05.08.49;	author rale01;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.04.06.04.31.26;	author rale01;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{skill}{Merchant}{1.0}{merchant}
+
+Since adventurers are highly talented individuals who often risk their
+lives, and a person is usually compensated for the value of the work
+they do, the player characters will fare better than most
+economically.  A merchant character, blessed with the ability to earn
+even more Silver Pennies, has the best of all worlds.  Their business
+acumen enables them to command a stiff price for those goods they
+vend, and to acquire that which they covet at bargain rates.  The
+merchant is not often fooled in monetary matters, for they can be an
+expert in evaluating the worth of rare and costly goods.
+
+The economies of most DragonQuest worlds do not promote the growth of
+capitalism.  Basically, the nobility has a vested interest in all
+rural lands, which comprise the vast majority of human-settled areas.
+An ambitious, dynamic merchant could perhaps own the entirety of a
+large town, but it is quite likely that a jealous duke or prince would
+twist justice to break the merchant's power.  Therefore, it behooves a
+merchant to cultivate powerful allies when their holdings burgeon.
+
+\subsection{Restrictions}
+
+A merchant must be able to read and write in at least three languages
+at Rank 6 in order to use their assaying ability.
+
+\subsection{Benefits}
+
+\subsubsection{The merchant's ability to buy and sell a particular item is
+dependent upon its type.}
+
+Any item will be classified as one of three types: common, uncommon,
+and rare or costly.  Items listed in the Players' Handbook are of the
+common type.  Jewellery set with semi-precious stones, spices from
+another continent, and fine paintings are examples of the uncommon
+type.  Rare and costly items include magic-invested objects, diamonds,
+roc's eggs, giant slaves, etc.  The GM must classify each item with
+which a merchant wishes to deal.
+
+\subsubsection{A merchant can purchase items at a cost cheaper than the
+asking price.}
+
+\smallskip
+\begin{tabular}{ll}
+\textbf{Item Type}	& \textbf{Discount to Merchant} \\
+Common			& [5 \x Rank] \% \\
+Uncommon		& [2 \x Rank] \% \\
+Costly or Rare		& [1 \x Rank] \% \\
+\end{tabular}
+\smallskip
+
+If the GM is actively playing the role of the seller, or another
+player is the seller, the merchant must do their own haggling.  There
+will also be those items which the vendor cannot afford to sell at the
+usual discount to the merchant.  The GM should use their discretion
+here.
+
+\subsubsection{A merchant may mark up the price of an uncommon or rare
+item.}
+  
+A merchant can gain (1.5 \x Rank)\% above the value of an uncommon
+item they are selling.  They can gain (0.5 \x Rank)\% above the value
+of a costly or rare item they are selling.
+
+\subsubsection{A merchant can assay an item to determine its exact worth.}
+
+The player characters will generally receive a fair quote on the price
+of basic goods, but must accept the word of the being with whom they
+are dealing when conducting a transaction involving uncommon, rare or
+costly items.  The odds of the player characters being bilked increase
+as they venture forth from their native land(s).  However, if a
+merchant is amongst them, they can assay the value of any item after
+(11 - Rank) minutes.
+
+The success percentage for assaying a common item is equal to the
+merchant's (Perception + 12 \x Rank)\%, to assay an uncommon item
+equal to (Perception + 9 \x Rank)\%, and to assay a rare or costly
+item equal to (Perception + 6 \x Rank)\%.  If the GM's roll is equal
+to or less than the success percentages, the merchant character is
+told the exact value of the item in question.  If the roll is greater
+than the success percentage, the GM's quote increasingly diverges from
+reality as the result approaches 100.  If the result is odd, the quote
+is below the actual asking price; if even, it is above.
+
+A merchant character may use their skill to affect transactions
+involving up to (250 + 50 \x Rank Squared) Silver Pennies per month,
+or a single transaction of any amount.
+
+The merchant must buy and sell at the asking price for any
+transactions over their monthly limit.
+
+\subsubsection{A merchant can specialise in a specific category
+of item assayal every time they achieve a positive Rank divisible by
+three.}
+
+The merchant chooses their speciality from the following list (and any
+the GM should add):
+\begin{Enumerate}
+\item Ancient Writings
+\item Antiques
+\item Archaeological Finds
+\item Art
+\item Books
+\item Gems
+\item Jewellery
+\item Land
+\item Magic Items
+\item Monster and Animal Products (\eg furs, eggs)
+\item Precious Metals
+\item Slaves
+\end{Enumerate}
+
+When a merchant assays an item of a category in which they specialise,
+they add (2 \x Rank)\% to their success percentages.  It is possible
+for a merchant to attain a 100\% chance of accurately pricing a
+speciality item (exception to 90\% + Rank limit).
+
+If a merchant wishes to add a new speciality after attaining Rank 10,
+they must expend 1500 Experience Points per speciality.
+
+\end{skill}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 1
+a1 5
+\section{Merchant}
+\label{merchant}
+
+\index{merchant|(}
+\index{skills!merchant|(}
+d32 1
+a32 1
+and rare or costly.  Items listed on the Players' Handbook are of the
+d71 2
+a72 2
+merchant is amongst them, he can assay the value of any item after (11
+- Rank) minutes.
+d95 1
+a95 1
+The merchant chooses his speciality from the following list (and any
+d106 1
+a106 1
+\item Magic-Invested Items
+d120 1
+a120 2
+\index{merchant|)}
+\index{skills!merchant|)}
+@
+
+
+3.0
+log
+@REL30
+@
+text
+@@
+
+
+2.3
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+2.2
+log
+@Fix e.g. problem
+@
+text
+@d101 1
+a101 2
+\begin{enumerate}
+\setlength\itemsep{0pt}
+d114 1
+a114 1
+\end{enumerate}
+@
+
+
+2.1
+log
+@Check in before modifying e.g. and i.e.
+@
+text
+@d112 1
+a112 1
+\item Monster and Animal Products (e.g.\ furs, eggs)
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d4 3
+d112 1
+a112 1
+\item Monster and Animal Products (eg. furs, eggs)
+d124 3
+@
+
+
+1.3
+log
+@Release 1.0 snapshot
+@
+text
+@@
+
+
+1.2
+log
+@Corrections done form March printed version
+@
+text
+@d6 1
+a6 1
+he does, the player characters will fare better than most
+d8 5
+a12 5
+even more Silver Pennies, has the best of all worlds.  His business
+acumen enables him to command a stiff price for those goods he vends,
+and to acquire that which he covets at bargain rates.  The merchant
+is not often fooled in monetary matters, for he can be an expert in
+evaluating the worth of rare and costly goods.
+d19 2
+a20 3
+twist the king's justice to break the merchant's power.  Therefore, it
+behooves a merchant to cultivate powerful allies when his holdings
+burgeon.
+d24 2
+a25 2
+A merchant must be able to read and write in a least three languages
+at Rank 6 in order to use his assaying ability.
+d33 6
+a38 6
+and rare or costly.  Items listed on the Basic Goods Cost List (see
+81.4) are of the common type.  Jewelry set with semi-precious stones,
+spices from another continent, and fine paintings are examples of the
+uncommon type.  Rare and costly items include magic-invested objects,
+diamonds, roc's eggs, giant slaves, etc.  The GM must classify each
+item with which a merchant wishes to deal.
+d48 1
+a48 1
+Costly or Rare		& [1 x Rank] \% \\
+d53 1
+a53 1
+player is the seller, the merchant must do his own haggling.  There
+d55 1
+a55 1
+usual discount to the merchant.  The GM should use his discretion
+d61 3
+a63 3
+A merchant can gain (1.5 \x Rank)\% above the value of an
+uncommon item he is selling. He can gain (0.5 x Rank)\% above the
+value of a costly or rare item he is selling.
+d76 1
+a76 1
+merchant's (Perception + 12 \x Rank)\%, to assay all uncommon item
+d85 3
+a87 3
+A merchant character may use his skill to affect transactions
+involving up to (250 + 50 \x Rank Squared) Silver Pennies per
+month, or a single transaction of any amount.
+d90 1
+a90 1
+transactions over his monthly limit.
+d93 1
+a93 1
+of item assayal every time he achieves a positive Rank divisible by
+d106 1
+a106 1
+\item Jewelry
+d114 7
+a120 20
+When a merchant assays an item of a category in which he specialises,
+he adds (2 \x Rank)\% to his success percentages.  It is possible for
+a merchant to attain a 100\% chance of accurately pricing a speciality
+item (exception to 90\% + Rank limit).
+
+If a merchant wishes to add a new  speciality after he attains Rank 10,
+he must expend 1500 Experience Points per speciality.
+
+\subsection{Costs}
+
+\subsubsection{A merchant must spend (15 + 5 \x Rank) Silver Pennies
+per week to keep up appearances, and (100 + 175 \x Rank) Silver
+Pennies per year to purchase assayal reference works.}
+
+If the merchant fails to spend the former amount, he operates as if he
+were two Ranks less proficient for a full month. If he does not spend
+the latter amount, he operates as if he were four Ranks less
+proficient when conducting an assayal (though he retains all
+specialities).  If his Rank is reduced to a negative number, he
+temporarily loses the merchant ability.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d2 1
+d64 1
+a64 2
+value of a costly or rare item he is selling.  Again, the proviso at
+the end of 57.3 holds true.
+d118 1
+a118 1
+item (exception to 48.4).
+d125 3
+a127 3
+A merchant must spend (15 + 5 \x Rank) Silver Pennies per week to keep
+up appearances, and (100 + 175 \x Rank) Silver Pennies per year to
+purchase assayal reference works.
+@

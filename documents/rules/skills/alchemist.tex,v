@@ -1,0 +1,766 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL50:5.0
+	REL40:4.0
+	REL30:3.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.3;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.29.31;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2000.08.31.08.35.50;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.06.04.05.38.15;	author rossa;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	98.06.04.05.35.09;	author rossa;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	98.05.11.02.03.43;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	98.05.11.01.21.19;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	97.05.15.22.46.08;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	97.05.15.03.02.18;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	96.01.12.02.25.02;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.04.07.05.08.49;	author rale01;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.04.06.04.30.46;	author rale01;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{skill}{Alchemist}{1.0}{alchemist}
+
+Almost all natural chemicals can be combined into a variety of useful
+mixtures by expert hands. The potions which will be in most demand by
+characters will be those that affect the bodily functions of
+humanoids.  The effects of these potions range from stimulation and
+depression of emotions to deadly poisons.  In a sense, alchemy is a
+``poor man's magic''; it is more cost-efficient in affecting the
+actions of beings than the use of mana, albeit not as easily applied
+to the victim.
+
+There are five main areas of study of alchemy.  The first is that of
+chemical analysis, the ability to determine the effects of ingestion
+or application of a given liquid substance.  The others are: standard
+chemicals, medicines and antidotes, poisons (including venoms) and
+potions.  The creation of a potion requires the aid of an Adept.
+
+As a character gains experience in the field of alchemy, they will
+increase the efficacy of the mixtures they produce.  The character
+will also decrease the cost of goods (to manufacture).
+
+\subsection{Restrictions}
+
+An alchemist must know how to read and write in one language if they
+wish to advance beyond Rank 0.
+
+\subsection{Benefits}
+
+\subsubsection{An alchemist gains the ability to analyse chemicals at
+Rank 0.}
+\label{alchemist:analyse}
+
+An alchemist may identify a liquid by its type (\eg medicine,
+poison).  If the liquid is not a common one, the alchemist must spend
+(110 - 10 \x Rank) minutes using the proper equipment to analyse the
+liquid's type.
+
+If a liquid to be analysed is particularly well-known to the alchemist
+(such as water or wine), they will recognise it almost immediately.
+If an alchemist wishes to determine the exact nature of a not readily
+identifiable substance, the GM rolls D100.  If the roll is equal to or
+less than (Perception + 8 \x Rank), the alchemist is told the common
+name of the substance in question (\eg hemlock, quicksilver).  If
+the roll is greater than the success percentage, the GM either informs
+the alchemist that they are not sure or gives an incorrect answer.
+The greater the roll, the more likely the GM is to give false
+information.
+
+\subsubsection{An alchemist can injure themselves while working with
+dangerous chemicals.}
+
+Whenever an alchemist uses or analyses a liquid with potential
+injurious effects, there is a chance that some of the substance will
+come in contact with their person.  The GM incorporates the accident
+chance into any other alchemy-related percentile roll; should there
+not be one, they roll D100.  The chance of no accident is (70 + 2 \x
+Rank + Manual Dexterity)\%.  If the roll is within the span of numbers
+for accident, the alchemist suffers from the chemical.  A roll of 100
+always causes an accident.
+
+\begin{example}
+An alchemist character with a Manual Dexterity of 17 and of Rank 3
+would have a 7\% chance of failure.  Any roll from 94 to 100 will cause
+the alchemist to have an accident.
+\end{example}
+
+The GM will determine the exact effects upon the unfortunate
+character.  The minimum damage will be from formaldehyde type
+chemicals, which will cause about 1 Damage Point and causes blisters.
+The maximum damage from a non-magical liquid will be from something on
+the order of non-dilute hydrochloric acid, which will cause about 12
+Damage Points per pulse, and possibly permanent bone and tissue
+damage.  The effects of certain chemicals are described in the
+following cases.  Unless either the GM or the player have a fair
+knowledge of chemistry, the alchemist should restrict themselves to
+common liquids.
+
+If the alchemist is dabbling with dangerous chemicals without using
+the proper equipment (see \S\ref{alchemist:lab}), double the chance of
+accident.  If an alchemist is working in their lab they may prevent
+damage due to chemicals after the first pulse (unless they are
+incapacitated during the first pulse) by pouring the appropriate
+counter-agent upon the affected area.
+
+If a combination of chemicals forms a gas or a solid, the character's
+Agility value is substituted for their Manual Dexterity when rolling
+for accident.
+
+\subsubsection{An alchemist can mix standard chemicals beginning at
+Rank 3, and may add one additional ability to their repertoire at
+Ranks 5, 7 and 9.}
+
+An alchemist chooses their additional ability from the following:
+medicines and antidotes, poisons (including venoms) and potions.
+
+\subsubsection{The ability to mix standard chemicals allows the
+alchemist to produce mixtures which can prove useful on expeditions.}
+
+An alchemist may produce well-known chemical combinations (\eg oil
+and vinegar, water and anything) at any Rank.  The standard chemicals
+ability allows the alchemist to perform most distillations and
+extractions, and mix the simplest of compounds.
+
+For example, an alchemist can produce Greek Fire and methane with the
+standard chemicals ability.  The components for 12 ounces of Greek
+Fire (enough to fill a grenado) cost 600 Silver Pennies.  Enough
+methane to fill a grenado can be manufactured at a cost of 300 Silver
+Pennies.  If a creature is directly hit by a grenado filled with Greek
+Fire, that creature will suffer [D + 7] Damage Points per Pulse until
+the flames are extinguished (the virtue of Greek Fire as a weapon is
+that it sticks to the target).  A partial hit will cause [D - 3]
+Damage Points per Pulse; if a shield is interposed between target and
+grenado, the shield catches fire, though the intended target suffers
+no more than 2 Damage Points.  A methane grenado creates a ball of
+fire in the hex in which it detonates and the adjacent six hexes.  Any
+creature in one of those hexes will suffer [D - 3] Damage Points, but
+will be able to avoid further damage by exiting the fire hexes
+(methane is not a persistent inflammable).
+
+Whenever an alchemist wishes to manufacture standard chemicals, they
+must spend [D + 7] hours in a laboratory and pay for the components.
+The quantity mixed does not affect the time required, but an alchemist
+is limited to the manufacture of one end product during a given
+laboratory session.
+
+An alchemist can produce standard chemicals for the use of local
+businessmen (\eg embalming fluid for the undertaker), and earn
+between 50 and 75 Silver Pennies per full week of labour.
+Alternately, they may produce chemicals which are likely to be put to
+illegal uses (\eg a corrosive for iron) or manufacture addictives
+(\eg cocaine, heroin).  The alchemist must discover an outlet to
+sell such chemicals, and the return on the goods is up to the GM's
+discretion.
+
+\subsubsection{Medicines and antidotes are used to cure a being
+suffering from either disease, fever or poison.}
+
+\index{potions!alchemist}
+
+An alchemist may manufacture three types of medicine:
+\begin{Itemize}
+\item bactericide (remedy for disease)
+\item antipyretic (remedy for fever)
+\item salve (remedy for skin inflammation)
+\end{Itemize}
+A bactericide or antipyretic must be ingested, while one dose of salve
+can cover up to two square feet of skin.
+
+Whenever a being uses a medicine to counteract an affliction from
+which they are suffering, the GM rolls percentile dice.  If the roll
+is equal to or less than (8 \x Alchemist's Rank + User's Endurance),
+the user is completely cured.  If the roll is above the success
+percentage, the user subtracts 10 from their next dice-roll to see if
+they naturally recovers from their infection (see
+~\S\ref{adventure:infection}).  The failure of one medicine to work
+has no effect upon any subsequent medicines used by a being.
+
+When an alchemist manufactures an antidote, they must specify the type
+of poison they are negating.  Natural poisons are classified by the
+source from which they stem.  Thus, a snake antidote will cure all
+poison from snakes, and so on.  Synthetic poisons (those manufactured
+by alchemists) are cured by an antidote from an alchemist of equal or
+higher Rank than the alchemist who created the poison.  When a being
+ingests the proper antidote, the poison in their system will no longer
+affect them.
+
+\subsubsection{Poisons cause damage when introduced into the blood
+stream of a being.}
+\label{alchemist:poisons}
+\index{poisons!alchemist}
+
+Poisons come from two sources: those which occur in nature (venoms
+from animals and plants) and those which are created in a laboratory
+(synthetic poisons).  An alchemist may distill venoms and synthesise
+poisons.  A venom is distilled from either the poison sacs of a
+poisonous animal (the most common being a snake), or from certain
+plants.  An alchemist may distill [D - 1] doses of poison from poison
+sacs.  The amount they may distill from plants depends on the type of
+plant (GM's discretion).  An alchemist requires (11 - Rank) hours to
+distill one dose of venom from either source.  The cost of a poison
+plant or sac is (750 + 150 \x Average Damage per Pulse) Silver
+Pennies, and there is no cost for the distillation process.
+
+Venoms come in two forms: Nerve Agents and Blood Agents.  Nerve Agents
+work quickly (doing damage every Pulse) while Blood Agents (such as
+arsenic) work over a long period of time.  The effects of slow acting
+(blood agent) poisons function in the same manner as infections except
+there is no roll for cure. The damage a being will suffer from a dose
+of Nerve Agent venom is equal to the damage it would suffer from the
+venom of the source animal or plant.
+
+An Alchemist may also manufacture synthetic poisons (both venoms and
+paralysants) in their laboratory. A synthetic venom will do [D +
+Alchemist's Rank - 5] damage points per Pulse and costs (1000 - 75
+\x Rank) Silver Pennies to manufacture.  If a synthetic
+paralysant is used to affect a being, the formula used for the
+Willpower Check of the victim is [4 \x Willpower + 20 - 5 \x
+Alchemist's Rank).  A synthetic paralysant costs 1750 - (60 \x Rank)
+Silver Pennies to manufacture.  An alchemist can produce up to three
+doses of synthetic poison per day.
+
+\subsubsection{Potions are created by an alchemist with the aid of
+either an Adept or a Healer.}
+\label{alchemist:potions}
+
+\index{spell storage!potion}
+\index{potions!storing spells}
+
+Potions are designed to create a specific effect when imbibed by a
+being.  They are manufactured in one-use doses and the entire dose
+must be swallowed for the effect.
+
+Magical potions are created by the concerted efforts of an Adept and
+the alchemist (who may be the same person).  Any spell or talent which
+the Adept knows and which is designed to affect only the Adept or some
+facet of their own person may be imbued into a potion. It takes two
+whole days of continuous combined effort to create the potion.  It is
+successfully created if at the end of the time the player rolls less
+than (10 \x Alchemist's Rank) + Adept's Rank with the spell or
+talent).  A roll above this indicates the potion is useless and the
+process must be repeated with new ingredients, etc.  The effect of a
+successful potion for the imbiber is as if the Adept had already made
+a successful Cast Check and the spell had taken effect.  The workings
+of magical potions are immediate.  The cost to manufacture a magical
+potion is equal to [(Experience Multiple of spell or talent \x 20) -
+(Alchemist's Rank \x 10)].
+
+An alchemist and a healer working together may create a healing potion
+(again, they may be the same person).  The potions possible and their
+Base Value are listed in \S\ref{healer:potions}.  The time required to
+produce the potion is the same as a magical one, and the equation to
+see if the process was successful is (10 \x Alchemist's Rank + 3 \x
+Healer's Rank). If successfully created, the potion will act on the
+imbiber as if a healer of the creator's Rank was attempting to heal
+them (any success rolls must still be attempted).  The cost to
+manufacture a healing potion is (Base Value - 50 \x Alchemist's Rank)
+Silver Pennies.
+
+The duration of a potioned talent, that is the duration of the talent
+the imbiber will gain, is 1 hour \x Rank of Talent (minimum 1).
+
+\subsection{Costs}
+
+\subsubsection{An alchemist will be able to better perform their skill
+when using the proper equipment or when working in a laboratory.}
+\label{alchemist:lab}
+
+It costs 2500 Silver Pennies to construct a lab, and 1000 Silver
+Pennies per year to maintain it.  An alchemist can only manufacture
+medicines, antidotes, poisons or potions or distill venoms in a lab.
+A laboratory may be rented at a cost of 15 Silver Pennies per day.
+
+The chance of an alchemist correctly analysing a chemical (see
+\S\ref{alchemist:analyse}) is increased by 10 when they perform the
+analysis in a laboratory.
+
+The GM and an alchemist player should scale costs and effects of
+improved alchemical support material to the above rules.
+
+\subsubsection{An alchemist must purchase the components necessary to
+manufacture each product.}
+
+A medicine costs (150 - 10 \x Rank) Silver Pennies.  An antidote costs
+(250 - 15 \x Rank) Silver Pennies.  The costs for poisons and potions
+are given with their rules.  All costs given are for one creation
+attempt; if that attempt fails, new ingredients must be purchased.
+
+The cost for a standard chemical will range from 1 Silver Penny for a
+quart of flammable oil to 2000 Silver Pennies for a fluid ounce of
+non-dilute hydrochloric acid.  The GM should scale the costs of other
+chemicals appropriately.
+
+\end{skill}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@Fix duration of potioned talents from rank of alchemist to rank of talent.
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@d240 1
+a240 1
+the imbiber will gain, is 1 hour \x Rank of Alchemist (minimum 1).
+@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 1
+a1 5
+\section{Alchemist}
+\label{alchemist}
+
+\index{alchemist|(}
+\index{skills!alchemist|(}
+d33 1
+a33 1
+An alchemist may identify a liquid by it's type (\eg medicine,
+d81 2
+a82 2
+damage due to chemicals after the first round (unless they are
+incapacitated during the first round) by pouring the appropriate
+d155 2
+a156 2
+~\S\ref{infection}).  The failure of one medicine to work has
+no effect upon any subsequent medicines used by a being.
+d273 1
+a273 2
+\index{skills!alchemist|)}
+\index{alchemist|)}
+@
+
+
+3.0
+log
+@REL30
+@
+text
+@@
+
+
+2.3
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+2.2
+log
+@Fix e.g. problem
+@
+text
+@d4 2
+a5 2
+\index{alchmist|(}
+\index{skills!alchmist|(}
+d145 1
+a145 2
+\begin{itemize}
+\setlength\itemsep{0pt}
+d149 1
+a149 1
+\end{itemize}
+d277 2
+a278 2
+\index{skills!alchmist|)}
+\index{alchmist|)}
+@
+
+
+2.1
+log
+@Check in before modifying e.g. and i.e.
+@
+text
+@d37 1
+a37 1
+An alchemist may identify a liquid by it's type (e.g., medicine,
+d47 1
+a47 1
+name of the substance in question (e.g., hemlock, quicksilver).  If
+d103 1
+a103 1
+An alchemist may produce well-known chemical combinations (e.g., oil
+d131 1
+a131 1
+businessmen (e.g., embalming fluid for the undertaker), and earn
+d134 2
+a135 2
+illegal uses (e.g., a corrosive for iron) or manufacture addictives
+(e.g., cocaine, heroin).  The alchemist must discover an outlet to
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d4 3
+d142 2
+d175 1
+d211 3
+d277 3
+@
+
+
+1.5
+log
+@Change label for infection (since it moved out of combat).
+@
+text
+@@
+
+
+1.4
+log
+@Notes on blood agents moved from infection in combat.
+@
+text
+@d155 1
+a155 1
+~\S\ref{combat:infection}).  The failure of one medicine to work has
+@
+
+
+1.3
+log
+@Release 1.0 snapshot
+@
+text
+@d185 5
+a189 4
+arsenic) work over a long period of time, inflicting damage like
+Infections.  The damage a being will suffer from a dose of Nerve Agent
+venom is equal to the damage it would suffer from the venom of the
+source animal or plant.
+@
+
+
+1.2
+log
+@Corrections done form March printed version
+@
+text
+@d19 3
+a21 3
+As a character gains experience in the field of alchemy, he will
+increase the efficacy of the mixtures he produces.  The character
+will also decrease the cost of goods (to him).
+d25 2
+a26 2
+An alchemist must know how to read and write in one language if he
+wishes to advance beyond Rank 0.
+d40 9
+a48 9
+(such as water or wine), he will recognise it almost immediately.
+If an alchemist wishes to determine exactly what a not readily
+identifiable substance is, the GM rolls D100.  If the roll is equal
+to or less than (Perception + 8 \x Rank), the
+alchemist is told the common name of the substance in question (e.g.,
+hemlock, quicksilver).  If the roll is greater than the success
+percentage, the GM either informs the alchemist that he is not sure or
+gives an incorrect answer.  The greater the roll, the more likely the
+GM is to give false information.
+d50 1
+a50 1
+\subsubsection{An alchemist can injure himself while working with
+d55 1
+a55 1
+come in contact with his person.  The GM incorporates the accident
+d57 4
+a60 4
+not be one, he rolls D100.  The chance of accident is (30 - (2 \x
+Rank + Manual Dexterity))\%.  If the roll is within the span of
+numbers for accident, the alchemist suffers from the chemical.  A
+roll of 100 always causes an accident.
+d63 3
+a65 3
+An alchemist character with a Manual Dexterity of 17 and of
+Rank 3 would have a 7% chance of failure. Any roll from 94 to 100 will
+cause the alchemist o have an accident.
+d71 3
+a73 3
+The maxi-mum damage from a non-magical liquid will be from something
+on the order of non-dilute hydrochloric acid, which will cause about
+12 Damage Points per pulse, and possibly permanent bone and tissue
+d76 1
+a76 1
+knowledge of chemistry, the alchemist should restrict himself to
+d81 2
+a82 2
+accident.  If an alchemist is working in his lab.  he may prevent
+damage due to chemicals after the first round (unless he is
+d87 2
+a88 2
+Agility value is substituted for his Manual Dexterity when rolling for
+accident.
+d91 2
+a92 2
+Rank 3, and may add one additional ability to his repertoire
+at Ranks 5, 7 and 9.}
+d94 1
+a94 1
+An alchemist chooses his additional ability from the following:
+d111 2
+a112 3
+the flames are extinguished
+ (the virtue of Greek Fire as a weapon
+is that it sticks to the target).  A partial hit will cause [D - 3]
+d121 1
+a121 1
+Whenever an alchemist wishes to manufacture standard chemicals, he
+d129 6
+a134 5
+between 50 and 75 Silver Pennies per full week of labour.  Alternately,
+he may produce chemicals which are likely to be put to illegal uses
+(e.g., a corrosive for iron) or manufacture addictives (e.g., cocaine,
+heroin).  The alchemist must discover an outlet to sell such
+chemicals, and the return oil the goods is up to the GM's discretion.
+d150 7
+a156 7
+which he is suffering.  the GM rolls percentile dice.  If the roll is
+equal to or less than (8 \x Alchemist's Rank + User's Endurance), the
+user is completely cured.  If the roll is above the success
+percentage, the user subtracts 10 from his next dice-roll to see if he
+naturally recovers from his infection (see 24).  The failure of one
+medicine to work has no effect upon any subsequent medicines used by a
+being.
+d158 2
+a159 2
+When an alchemist manufactures an antidote, he must specify the type
+of poison he is negating.  Natural poisons are classified by the
+d164 2
+a165 2
+ingests the proper antidote, the poison in his system will no longer
+affect him.
+d177 1
+a177 1
+sacs.  The amount he may distill from plants depends on the type of
+d186 3
+a188 3
+Infections (see 24).  The damage a being will suffer from a dose of
+Nerve Agent venom is equal to the damage it would suffer
+from the venom of the source animal or plant.
+d190 2
+a191 2
+An alchemist may also manufacture synthetic poisons (both venoms and
+paralysants) in his laboratory. A synthetic venom will do [D +
+d194 5
+a198 5
+paralysant (see 24) is used to affect a being, the formula used for
+the Willpower Check of the victim is [4 \x Willpower + 20 - 5 \x
+Alchemist's Rank).  A synthetic paralysant costs 1750 - (60 \x
+Rank) Silver Pennies to manufacture.  An alchemist can produce up to
+three doses of synthetic poison per day.
+d209 13
+a221 13
+the alchemist (who may be one in the same person).  Any spell or
+talent which the Adept knows and which is designed to affect only the
+Adept or some facet of his own person may be imbued into a potion. It
+takes two whole days of continuous combined effort to create the
+potion.  It is successfully created if at the end of the time the
+player rolls less than ( 10 \x Alchemist's Rank) + Adept's Rank
+with the spell or talent).  A roll above this indicates the potion is
+useless and the process must be repeated with new ingredients, etc.
+The effect of a successful potion for the imbiber is as if the Adept
+had already made a successful Cast Check and the spell had taken
+effect.  The workings of magical potions are immediate.  The cost to
+manufacture a magical potion is equal to [(Experience Multiple of
+spell or talent \x 20) - (Alchemist's Rank \x 10)].
+d225 3
+a227 3
+Base Value are listed in \S\ref{healer:potions}.  The time required to produce the
+potion is the same as a magical one, and the equation to see if the
+process was successful is (10 \x Alchemist's Rank + 3 \x
+d230 3
+a232 3
+him (any success rolls must still be attempted).  The cost to
+manufacture a healing potion is (Base Value - 50 \x Alchemist's
+Rank) Silver Pennies.
+d234 2
+a235 2
+The duration of potioned talent, that is the duration of talent the
+imbiber will gain, is 1 hour \x Rank of Alchemist (minimum 1).
+d239 2
+a240 3
+\subsubsection{An alchemist will be able to better perform
+his skill when using the proper equipment or when working in a
+laboratory.}
+a242 5
+It costs 500 Silver Pennies per year to purchase basic equipment.
+This includes acid-resistant (not proof) flasks, gloves, pipettes,
+etc.  A character may not mix chemicals to specified measurements
+unless he uses proper equipment.
+
+d249 1
+a249 1
+\S\ref{alchemist:analyse}) is increased by 10 when he performs the
+a254 1
+
+d256 1
+a256 1
+manufacture each of his products.}
+d260 1
+a260 2
+are given with their rules (\ref{alchemist:poisons} and
+\ref{alchemist:potions}).  All costs given are for one creation
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d2 1
+d32 1
+d62 2
+a63 1
+Example: An alchemist character with a Manual Dexterity of 17 and of
+d66 1
+d80 5
+a84 5
+the proper equipment (see 50.3), double the chance of accident.  If an
+alchemist is working in his lab.  he may prevent damage due to
+chemicals after the first round (unless he is incapacitated during
+the first round) by pouring the appropriate counter-agent upon the
+affected area.
+d151 6
+a156 6
+equal to or less than ([8 \x Alchemist's Rank] + User's
+Endurance), the user is completely cured.  If the roll is above the
+success percentage, the user subtracts 10 from his next dice-roll to
+see if he naturally recovers from his affection (see 24).  The failure
+of one medicine to work has no effect upon any subsequent medicines
+used by a being.
+d169 1
+d192 1
+a192 1
+Alchemist's Rank - 5] damage points per Pulse and costs 11000 - (75
+d202 1
+d223 1
+a223 1
+An alchemist a6d a healer working together may create a healing potion
+d225 1
+a225 1
+Base Value are listed in 55.9.  The time required to produce the
+d234 3
+d242 1
+d254 3
+a256 2
+The chance of an alchemist correctly analysing a chemical (see 50.1)
+is increased by 10 when he performs the analysis in a laboratory.
+d265 5
+a269 5
+A medicine costs (150 - 10 \x Rank) Silver Pennies.  An antidote
+costs (250 - 15 \x Rank) Silver Pennies.  The costs for poisons
+and potions are given with their rules (50.8 and 50.9).  All costs
+given are for one creation attempt; if that attempt fails, new
+ingredients must be purchased.
+@

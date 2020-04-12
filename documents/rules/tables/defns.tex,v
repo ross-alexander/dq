@@ -1,0 +1,111 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@% @;
+
+
+1.1
+date	97.06.06.00.04.45;	author rossa;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@\section{Definitions}
+
+\begin{multicols}{2}
+\begin{description}
+
+\item[D100] A roll with two D10 dice, giving a uniformly distributed
+value between 1 and 00 (100).
+
+\item[D10] A roll with a single D10 die, giving a uniformly distributed
+value between 1 and 10.
+
+\item[D] See D10.
+
+\item[Modifiers] All modifiers, unless specified, are chance modified,
+that is they affect base chance, strike chance, etc.  See below for
+die modifiers.
+
+\item[Die modifiers] Die modifiers are added or subtracted directly from
+the value of the die roll.  Because the system is a criticals system,
+die modifiers have a much greater effect than chance modifiers.
+
+\item[Criticals] There are five levels of success given a die roll
+verses some chance.  A roll of $\leq$ 5\% of the chance is a critical
+success (see triple effect in magic or possible grievous blow in
+combat, skill or stat rolls do not have critical successes).  A roll
+of $\leq$ 15\% of the chance is a exceptional success (see double
+effect in magic or endurance blow in combat, skill or stat rolls do
+not have exceptional successes).  Critical failures depend on the type
+of roll.  Magic critical failures are defined under backfires in
+magic.  Combat critical failures result in weapon breaks or drop.
+Stat rolls have a critical failure of \emph{70 + stat + difficulty}.
+Skill rolls have a critical failure of \emph{90 + Rank}.  Note that a
+00 is always a critical failure.
+
+\item[Stat rolls] Stat rolls have a difficulty factor, so that a base
+chance for a stat roll is \emph{stat $\times$ difficulty + modifiers}.
+To calculate a stat multiple (the converse of a difficulty factor),
+make the roll, then modify the die value by any die modifier.
+Subtract any chance modifiers (such as Enchantment) and then divide by
+the appropriate stat.  This value, rounded up, is the correct stat
+multiple.  For example, a person with PC of 14, and enchantment of 11,
+and a lesser enchantment, rolls a 89 on the die.  They subtract 1 from
+die to for lesser enchantment.  They then subtract 11 for the
+enchantment, giving 77.  77 / 14 gives 5.5, so they made a 6 times PC
+roll, but failed a 5 times roll.
+
+
+\item[{$\left[{x}\right]$}] Take the value $x$, minimum 1, so
+$[\mbox{D} - 5]$ means roll a D10, subtract 5, and if the value is
+less than one, then take it to be one.
+
+\item[$\lfloor \mbox{Rank} / x\rfloor$] Take the value of Rank / $x$
+and round down.  Often see as just \emph{Rank / $x$}, \emph{1 for
+every $n$ Ranks} or \emph{$1 / x$ Ranks}, e.g.\ if the Rank is 11 then
+\emph{Rank / 3} is 3.
+
+\item[{$\lceil \mbox{Rank} / x\rceil$}] Take the value of Rank / $x$
+and round up.  Often see as just \emph{Rank / $x$ or fraction},
+\emph{1 for every $n$ or fraction Ranks} or \emph{$1 / x$ or fraction
+Ranks}, e.g.\ if the Rank is 11 then \emph{Rank / 3 or fraction} is 4.
+
+\item[$x$ / Rank] Means $x \times \text{Rank}$. \emph{$x$ / Rank} does
+not include Rank 0.  Any bonus for Rank 0 is defined as \emph{$n + x$
+/ Rank}.
+
+\item[$x$ per Rank] Equivilent to $x \times \text{Rank}$.  Rank 0 is
+never counted as a Rank for calculations, unless explicitly specified.
+
+\end{description}
+\end{multicols}
+
+\begin{figure}[h]
+\begin{tabularx}{\linewidth}{lXXXXX}
+		& Critical		& Superior		&		&		& Critical \\
+		& Success		& Success		& Success	& Failure	& Failure \\ \hline
+Talent Magic	& $\leq$ 5\% of BC	& $\leq$ 15\% of BC	& $\leq$ BC	& $>$ BC	& N/A \\
+		& Specific to talent	& Specific to talent	&		&		&	\\ \hline
+Spell Magic	& $\leq$ 5\% of BC	& $\leq$ 15\% of BC	& $\leq$ BC	& $>$ BC	& $>$ BC + 30\dag \\
+		& Triple effect		& Double effect		&		&		& Backfire spell \\ \hline
+Ritual Magic	& $\leq$ 5\% of BC	& $\leq$ 15\% of BC	& $\leq$ BC	& $>$ BC	& $>$ BC + 40\ddag \\
+		& Specific to ritual	& Specific to ritual	&		&		& Backfire ritual \\ \hline
+Skill		& N/A			& N/A			& $\leq x \times \text{STAT}$ & $> x \times \text{STAT}$ & N/A \\
+		&			&			&		& or 70 + STAT + $x$ & \\
+		&			&			& for difficulty factor $x$ & & & \\
+\end{tabularx}
+\end{figure}
+
+
+@

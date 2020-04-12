@@ -1,0 +1,9 @@
+This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
+Scanning input file rules.idx....done (733 entries accepted, 0 rejected).
+Sorting entries.........done (8032 comparisons).
+Generating output file rules.ind....
+## Warning (input = rules.idx, line = 57; output = rules.ind, line = 172):
+   -- Unmatched range closing operator ).
+done (703 lines written, 1 warning).
+Output written in rules.ind.
+Transcript written in rules.ilg.

@@ -1,0 +1,1085 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL30:3.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.6;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.1;
+
+4.1
+date	2000.03.02.16.48.41;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.06.04.05.38.15;	author rossa;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	98.06.04.05.35.09;	author rossa;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	98.05.11.02.03.43;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	98.05.10.23.52.47;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	97.05.15.22.52.25;	author rossa;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	97.03.13.21.39.40;	author rossa;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	96.10.08.01.58.07;	author rossa;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	96.02.15.04.20.08;	author rossa;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	96.01.12.02.25.30;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	95.06.10.14.06.44;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	95.04.07.05.08.49;	author rale01;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	95.04.06.22.07.58;	author rale01;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.04.06.05.34.36;	author rale01;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.04.06.05.27.29;	author rale01;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{skill}{Adventuring Skills}{1.0}{adventuring}
+
+These skills may be ranked as with any other skill.  The only
+differences are that all characters start with swimming, climbing,
+stealth and horsemanship at Rank 0, and if the skill is used
+conspicuously during an adventure it can be ranked once without the
+need for training time, but there must be a tutor who with a similar
+skill who is present to advise the character on the technique they
+should employ.
+
+
+\subsection{Climbing}
+\label{climbing}
+\label{falling}
+
+\index{climbing}
+\index{skills!climbing}
+
+This skill allows a character to climb anything from walls to
+mountains without the aid of specialised equipment, if this is at all
+possible.  The Base Chance to use this skill is (4 \x MD + 8 \x Rank -
+[structure height in feet / 10])\%.  A character utilising this skill
+should make a roll at approximately 20' intervals, but if the climb is
+especially difficult, every 10'. Note that the GM may modify the
+formula in certain instances.
+
+Various items of equipment may be used to improve a character's chance
+of climbing; however they will only function if a character has
+familiarity with them as follows:
+\begin{Enumerate}
+\item
+Climbing Claws add 15\% to BC but have no use for rock climbing where
+hands are more use. The additional experience cost to become familiar
+with these is 1000.
+
+\item
+Rope allows the user to climb the structure making only one roll but
+are only useful where ropes may be practically used.  The additional
+experience cost to gain familiarity with rope use is 500.
+
+\item
+A climber suffers ([Height of fall (in feet) / 10] Squared) Endurance
+Points when they fall.
+\index{falling}
+\end{Enumerate}
+
+
+\subsection{Horsemanship}
+\label{skills:horsemanship}
+
+\index{horsemanship}
+\index{skills!horsemanship}
+
+An adventurer will use horsemanship to direct animals which they ride.
+An adventurer may use their horsemanship with any animal or monster
+which they would ordinarily ride (such as horses, donkeys, camels,
+elephants, etc.).  Enchanted or Fantastical monsters do not
+necessarily fall into this category, and the GM must make rulings
+governing these situations.
+
+The character's player will roll percentile dice whenever their
+horsemanship is called into play.  A character's horsemanship is equal
+to [(modified AG + WP) / 2 + Rank \x 8], round down.
+
+The type of mount a character is riding will modify their horsemanship
+as follows:
+
+\begin{tabularx}{\linewidth}{@@{}XrXr@@{}}
+Donkey        &  -10 & Palfrey   & +15 \\
+Mustang       & -12\dag & Warhorse  & -5\dag \\
+Quarterhorse  &  -10 & Camel     & -15 \\
+Dire Wolf     &  -10 & Mule      &  -8 \\
+Draft Horse   &   -5 & Pony      & +10 \\
+Elephant  & -10 & & \\
+\end{tabularx}
+
+\dag Rating unless trained by rider; in that case, 0.
+
+The GM should also take into account the familiarity the character has
+with the individual animal type and apply modifiers thereby (\ie the
+first time a character finds themself atop a camel should be worth at
+least an additional - 15).
+
+A character's horsemanship is called into play whenever they wish
+their mount to perform an unusual or difficult action.  Any mount can
+be directed into moving at a walking pace or even a brisk trot; an
+unusual or difficult action would be to break into a gallop or charge,
+jump an obstacle, etc.  During combat, horsemanship is called into
+play during every Pulse to a) keep the mount controlled, b) regain
+control if it is lost, and c) direct the mount to take any specific
+Action.  Remember only a Warhorse can be directed to enter into Close
+Combat by its rider, and all other mounts will only attack if directly
+assaulted.
+
+A successful roll will result in the mount obeying the directions of
+the rider.  A roll above the modified percentage but less than the
+modified percentage plus the rider's WP indicates the mount either
+does nothing or continues to do whatever it was doing.  A roll above
+both of these indicates the mount will either disobey the rider, buck,
+attempt to throw the rider, or some other unpleasant result.  The
+actual occurrence must be decided by the GM and should become worse
+the farther the roll is above the modified percentage.
+
+If the GM judges the rider has totally lost control of their mount,
+the rider may take no other action until they have regained control
+(presuming they manage to stay mounted).
+
+Using horsemanship while in combat may be done in combination with any
+other Action.  A trained rider receives certain abilities as they rise
+in Rank:
+
+\begin{Description}
+\item[Rank 3] May use two-handed weapons 
+\item[Rank 5] May fire a missle weapon while moving or cast a spell
+\item[Rank 7] May use two one-handed weapons at once
+\end{Description}
+
+
+\subsection{Flying}
+\index{flying}
+\index{skills!flying}
+
+Flying is the skill of performing aerial manoeuvres using magical
+flying. As a rule aerial combat is difficult. Flying is an adventuring
+skill.
+
+A character may always take off, fly, or land in an appropriate manner
+and reasonable conditions, and under such circumstances no roll is
+necessary. Note that landing appropriately is not precise. The success
+chance to perform a complex aerial manoeuvre with precision is (3 \x
+AG + 10 \x Rank). This base chance may be modified by the following:
+
+\begin{tabularx}{\linewidth}{lX}
+0 to -50       & Environmental conditions. \\
++10 to -50     & Type of flight used. \\
+0 to -m/hr     & Speed. \\
+\end{tabularx}
+
+Flying into an obstacle causes up to [D + (relative speed in miles per
+hour / 10) squared] endurance damage. The nature of the obstacle may
+reduce the damage. Specific grievous injuries may also be incurred
+(normally C class).
+
+Note that a speed of one mile per hour is equal to 30 yards per minute
+in the chase sequence and 1.5 hexes per pulse in combat.
+
+A trained magical flier receives certain combat abilities as they rise
+in rank.
+
+\begin{Description}
+\item[Rank 3] May use two-handed weapons 
+\item[Rank 5] May fire a missle weapon while moving or cast a spell
+\item[Rank 7] May use two one-handed weapons at once
+\end{Description}
+
+\subsection{Knowledge (area)}
+\label{skills:knowledge}
+\index{skills!knowledge}
+
+This is a skill that can be taken many times --- once for each area of
+knowledge. A character with this skill knows most of the common lore
+and traditions concerning their chosen area. An area may include: a
+particular city or territory, a culture, an historical period, or a
+race, or species. In addition, an area of knowledge may be taken from
+the Philosopher skill. If this is done, the area is equivalent in size
+to a Sub-field, and any Sub-fields except Advanced, Experimental or
+Ancient are available as areas of knowledge.
+
+A character is limited to the knowledge available to their
+culture. The knowledge held by the character may not be entirely
+factual, and may contain certain popular misconceptions or
+superstitions. This skill mostly gives the character a much wider
+general knowledge about their area, some history of it, and perhaps
+some biographical knowledge of famous figures associated with it, both
+historical and contemporary. This skill is entirely one of knowledge,
+and confers no special ability to perform a craft or trade.
+
+Generally there is no success percentage, the GM simply giving far
+more information regarding a certain topic to a character who has
+knowledge of that area.  If there is doubt as to whether or not a
+character should know something from their specific area, the Base
+Chances are:
+
+\begin{tabular}{lc}
+\textbf{Rarity of Information}	& \textbf{Base Chance} \\
+Common			& WP + 70\% \\
+Uncommon		& WP + 40\% \\
+Rare or Obscure		& WP + 10\% \\
+\end{tabular}
+
+These chances may be further modified by the GM to reflect the
+individual rarity of the knowledge. A character will not know the
+theories behind the lore.
+
+If a character learns an area of Knowledge that is also a Philosopher
+Sub-field, and that character is, or becomes a Philosopher, the
+Knowledge (area) may be used as the appropriate Sub-field.  See the EP
+cost table note A (\S\ref{tables:ep}) for details on Ranking.
+
+
+\subsection{Orienteering}
+\label{skills:orienteering}
+
+\index{orienteering}
+\index{skills!orienteering}
+
+The adventuring skill of orienteering no longer exists.  Instead,
+artisan Cartographer (\S\ref{artisan}) exists.  A Cartographer may use
+Landmarks and Read \& Draw Maps as per a Navigator. They may not use
+Charts or Rutters.
+
+\subsubsection{Conversion}
+
+Characters with the current Orienteering skill have spent precisely
+the same amount of EP as a Rank 5 Artisan. They will gain Rank 5
+Cartography. This normally takes 23 weeks, but they may spend only 10
+weeks to convert the skill. There is no requirement as to when they
+have to spend the weeks. If they partially complete the ten weeks
+training, they may act as an Orienteer equal to half the weeks already
+spent training, until the training is complete. A character with
+Orienteering and Cartography will have 2,500ep and 13 weeks towards
+further ranks in Cartography.
+
+
+\subsection{Stealth}
+\label{stealth}
+\index{stealth}
+
+An adventurer can use stealth to move as soundlessly and unobtrusively
+as possible.
+
+An adventurer may use their stealth ability only if they have adequate
+cover (\ie space in which to conceal or obscure themselves) in the
+area they wish to traverse, they are appropriately clad (\eg not in
+plate armour or luminescent clothing), and they are not currently
+under observation by the being(s) from whom they are attempting to
+conceal their presence.
+
+The GM will roll percentile dice to determine if a character is able
+to use their stealth ability successfully.  The GM only makes such a
+check if there is a reasonable possibility that the character could be
+detected.  The GM makes one check each time the character attempts one
+continuous action, or each time an unexpected change of condition has
+a significant effect upon the character's chance of remaining hidden
+(\eg one of the beings under surveillance heads for a room which
+happens to be through the doorway in which the character is hidden).
+The GM may modify the success percentage.
+
+A character's base chance of using their stealth ability is (3 \x
+Agility + 5 \x Rank + Thief Rank + 2 \x Spy Rank + 2 \x Assassin
+Rank)\%.  The greatest Perception value of the beings who may be able
+to discover the character using the stealth ability is subtracted if
+those beings are unaware of the character's presence, or three times
+that Perception value if they are.
+
+
+\subsection{Swimming}
+\label{swimming}
+\index{swimming}
+\index{skills!swimming}
+
+\subsubsection{Introduction}
+This skill is required in order to perform any actions in the water.
+All player characters start off with Rank 0. This, under good
+conditions, will allow the character to tread water in order to stay
+afloat. The higher the rank, the more the character will be able to do
+until they are at the stage where they can swim like a fish and
+survive even in adverse conditions.
+
+\subsubsection{Base chance}
+
+The base chance for swimming is: PS + AG + EN + 8 \x Rank and is
+modified by the following (all adjustments cumulative)
+
+\begin{tabularx}{\linewidth}{Xr}
+Wearing no or little clothing		& +10 \\
+Encumbered (per pound)			& -1 \\
+\\
+Water Temperature			& +5 to -25 \\
+Water Conditions			& +10 to -25 \\
+May not swim freely			& -10 to -50 \\
+\end{tabularx}
+
+Other modifiers may be applied by GM as appropriate.  An unsuccessful
+skill roll does not imply drowning (yet) but the character could be in
+serious trouble. However if they are trying to float and the roll is
+failed then they need to make another successful skill roll in order
+to stay afloat.  Two failed skill rolls does imply they are
+underwater, holding their breath, without preparation.
+
+If an Adept is attempting to cast then they can do so, within the
+restrictions of their College, if breathing water or if they make a
+successful skill roll. A concentration check (3 \x WP) may also be
+required in adverse conditions.
+
+\subsubsection{Breath holding}
+
+The base time a character can hold their breath is (current EN / 3 +
+swimming Rank / 2) pulses rounded up. The time is doubled if a Pass
+Action is used in the previous pulse to prepare.
+
+\subsubsection{Drowning}
+
+Once that time is expired then the character must make a 5 \x WP check
+in order to continue holding their breath. At the end of subsequent
+pulses, the WP factor is reduced by 1 until the roll fails.
+
+At that point the character starts drowning, taking physical damage at
+a rate of D10 EN per pulse until death or rescue. A drowning character
+needs to make a 2 \x (WP + swimming rank) check before being able to
+perform useful activity as above.
+
+\subsubsection{Sight and Communication}
+
+The character can see PC hexes in clear water. This is halved in lakes
+and rivers because of algae and silt.
+
+Communication is by sign language or a range of one hex if speaking.
+
+\subsubsection{Movement rates}
+
+Swimming TMR = (Land TMR + Rank) / 3. Walking on the bottom (if
+weighted) = Land TMR / 3.  Swimming is generally a hard or strenuous
+activity unless the entity concerned is an aquatic.
+
+Characters that are encumbered by non-buoyant materials descend at the
+following rates:
+\begin{tabular}{lr}
+Unencumbered to 5 lbs	& 0 ft per pulse \\
+5--10 lbs encumberance	& 1 ft per pulse \\
+10--15 lbs		& 2 ft per pulse \\
+15--20 lbs		& 3 ft per pulse \\
+20--25 lbs		& 4 ft per pulse \\
+25+			& 5 ft per pulse \\
+\end{tabular}
+
+Unencumbered characters floating to the surface (\eg if unconscious) do so
+at 1 ft per pulse.
+
+\subsubsection{Benefits of Rank}
+
+A trained swimmer receives certain combat abilities as they rise in
+rank.
+
+\end{skill}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@@
+
+
+4.1
+log
+@Knowledge EP costs refer to Note A now.
+@
+text
+@d7 3
+a9 3
+need for training time, but there must be a tutor who may be any PC /
+NPC with a similar skill who is present to advise the character on the
+technique they should employ.
+d14 1
+a43 1
+\label{falling}
+d63 1
+a63 2
+to [(modified AG + WP) / 2 + Rank \x 8].  In the above equation, round
+all fractions down.
+d95 8
+a102 9
+A successful roll (less than or equal to the modified percentage) will
+result in the mount obeying the directions of the rider.  A roll above
+the modified percentage but less than the modified percentage plus the
+rider's WP indicates the mount either does nothing or continues to do
+whatever it was doing.  A roll above both of these indicates the mount
+will either disobey the rider, buck, attempt to throw the rider, or
+some other unpleasant result.  The actual occurrence must be decided
+by the GM and should become worse the farther the roll is above the
+modified percentage.
+d114 1
+a114 1
+\item[Rank 5] May fire a weapon while moving
+d150 5
+a154 1
+
+d167 1
+a167 1
+Ancient, are available as areas of knowledge.
+d291 1
+a291 1
+If a spell-caster is attempting to cast then they can do so, within the
+d298 3
+a300 6
+The Base Chance for Breath Holding is (current EN/3 + swimming rank/2) pulses
+rounded up. The time is doubled if a Pass Action is used in the previous pulse
+to prepare.
+
+This time can be utilised for useful activity such as swimming rolls to regain
+the surface or jettisoning equipment.
+@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 1
+a1 2
+\section{Adventuring Skills}
+\index{skills!adventuring|(}
+d196 1
+a196 1
+cost table (\S\ref{tables:ep}) for details on Ranking.
+d346 1
+a346 3
+
+\index{skills!adventuring|)}
+\raggedcolumns
+@
+
+
+3.0
+log
+@REL30
+@
+text
+@@
+
+
+2.3
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+2.2
+log
+@Fix e.g. problem
+@
+text
+@d12 1
+a45 1
+
+a47 22
+\subsection{Orienteering}
+\label{skills:orienteering}
+
+\index{orienteering}
+\index{skills!orienteering}
+
+The adventuring skill of orienteering no longer exists.  Instead,
+artisan Cartographer (\S\ref{artisan}) exists.  A Cartographer may use
+Landmarks and Read \& Draw Maps as per a Navigator. They may not use
+Charts or Rutters.
+
+\subsubsection{Conversion}
+
+Characters with the current Orienteering skill have spent precisely
+the same amount of EP as a Rank 5 Artisan. They will gain Rank 5
+Cartography. This normally takes 23 weeks, but they may spend only 10
+weeks to convert the skill. There is no requirement as to when they
+have to spend the weeks. If they partially complete the ten weeks
+training, they may act as an Orienteer equal to half the weeks already
+spent training, until the training is complete. A character with
+Orienteering and Cartography will have 2,500ep and 13 weeks towards
+further ranks in Cartography.
+d112 2
+a113 2
+other Action.  A trained horseman receives certain abilities as they
+rise in Rank:
+d115 1
+a115 1
+\begin{description}
+d119 104
+a222 1
+\end{description}
+d255 1
+d272 1
+a272 1
+modified by the following (all adjustment cumulative)
+d276 1
+a276 1
+Encumbered (per pound of weight)	& -1 \\
+d285 1
+a285 1
+serious trouble. However if he/she is trying to float and the roll is
+d288 1
+a288 2
+underwater, holding their breath, without preparation (see the section
+on Adventuring in the Aquatic Environment)
+d295 2
+a296 1
+Breath holding
+d302 1
+a302 1
+the surface or jettisoning equipment
+a314 3
+Movement
+(see Swimming Skill)
+
+a346 31
+
+\subsection{Flying}
+\index{flying}
+\index{skills!flying}
+
+Flying is the skill of performing aerial manoeuvres using magical
+flying. As a rule aerial combat is difficult. Flying is an adventuring
+skill.
+
+A character may always take off, fly, or land in an appropriate manner
+and reasonable conditions, and under such circumstances no roll is
+necessary. Note that landing appropriately is not precise. The success
+chance to perform a complex aerial manoeuvre with precision is (3 \x
+AG + 10 \x Rank). This base chance may be modified by the following:
+
+\begin{tabularx}{\linewidth}{lX}
+0 to -50       & Environmental conditions. \\
++10 to -50     & Type of flight used. \\
+0 to -m/hr     & Speed. \\
+\end{tabularx}
+
+Flying into an obstacle causes up to [D + (relative speed in miles per
+hour / 10) squared] endurance damage. The nature of the obstacle may
+reduce the damage. Specific grievous injuries may also be incurred
+(normally C class).
+
+Note that a speed of one mile per hour is equal to 30 yards per minute
+in the chase sequence and 1.5 hexes per pulse in combat.
+
+A trained magical flier receives certain combat abilities as they rise
+in rank.
+@
+
+
+2.1
+log
+@Fix swimming for aquatic adventurering.
+@
+text
+@d104 1
+a104 1
+with the individual animal type and apply modifiers thereby (i.e., the
+d151 2
+a152 2
+cover (i.e., space in which to conceal or obscure themselves) in the
+area they wish to traverse, they are appropriately clad (e.g.\ not in
+d163 1
+a163 1
+(e.g.\ one of the beings under surveillance heads for a room which
+d260 1
+a260 1
+Unencumbered characters floating to the surface (e.g.\ if unconscious) do so
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d2 1
+a2 2
+
+\begin{multicols}{3}
+d14 1
+d16 1
+d50 1
+d52 1
+d73 1
+d75 1
+d152 1
+a152 1
+area they wish to traverse, they are appropriately clad (e.g., not in
+d163 1
+a163 1
+(e.g., one of the beings under surveillance heads for a room which
+d177 1
+a177 1
+
+d214 29
+d249 14
+d270 2
+d300 1
+a301 1
+\end{multicols}@
+
+
+1.10
+log
+@Falling damage added.
+@
+text
+@@
+
+
+1.9
+log
+@Swimming (2.3) and flying added from Keith Smith.
+@
+text
+@d28 1
+a28 1
+\begin{enumerate}
+d38 8
+a45 1
+\end{enumerate}
+@
+
+
+1.8
+log
+@indexes added.
+Orienteering removed, replaced by artisan cartographer.
+@
+text
+@d44 1
+a44 1
+The adventuring skill of orienteering no longer exists.  Instread,
+d164 1
+a164 1
+\index{swmimming}
+a165 31
+The chance of swimming without incident is somewhat dependent on the
+time which will have to be spent in the water, reckoned in increments
+of 15 minutes.  For example, if a character will have to swim for half
+an hour then the ``duration'' in the formula for the base chance is 2.
+The base chance for a successful swim is (EN + WP + MD) + (10 \x Rank)
+minus the square of the duration.  Thus, a Rank 1 swimmer with EN 15,
+WP 12, and MD 18 who is trying to swim for an hour has a base chance
+of succeeding: (15 + 12 + 18) + (10 \x 1) - (4 \x 4) = 39.
+
+The base chance is adjusted by +30\% if the water is very still, by
+-30\% if the water is unusually rough, by -20\% if the character was
+completely unprepared for a swim (eg., thrown in unawares), and by a
+negative amount equal to the square of (total Agility loss due to
+armour and encumbrance).
+
+If the roll is failed and the character is alone, the unfortunate
+swimmer drowns.  If a companion is travelling with the character, all
+is not lost: the companion may attempt to save the victim, at a base
+chance of (2 \x companion's AG) + (5 \x companion's Rank), with
+modifiers of +20 for still water and -30 for rough water.  If this
+roll also fails, the character is dead.  Even if the companion manages
+to keep the character from drowning, the character being saved takes
+1D10 damage directly to Endurance and must make a new attempt to
+complete the swim.  If this second attempt also fails, the character
+drowns with no possibility of being saved by a companion.
+
+A character who has not attained any Rank with Swimming but who needs
+it anyway has to make a roll against (4 \x modified AG) to stay afloat
+--- and repeat this for every minute spent in the water.  The
+character who can't swim may be able to keep from sinking, but cannot
+make any headway in the water.
+d167 77
+@
+
+
+1.7
+log
+@Add \label{skills:horsemanskip} for combat reference.
+@
+text
+@d14 2
+d41 2
+d44 16
+a59 8
+This skill allows the character to read and understand maps, and using
+landmarks position themselves upon said map. If a map is inaccurate a
+person with this skill would probably not detect the flaw unless it
+was relatively major. This skill can only be used if the character is
+able to detect a specific compass direction or if at least two major
+landmarks are within sight. The experience cost to learn this skill is
+2500.
+
+d63 1
+d133 1
+d164 1
+@
+
+
+1.6
+log
+@ Release 1.0 snapshot
+@
+text
+@d50 1
+@
+
+
+1.5
+log
+@Save before removing silent tongue.
+@
+text
+@d3 10
+a13 1
+\label{climbing}
+d18 2
+a19 2
+[structure height in feet])% A character utilising this skill should
+make a roll at approximately 20' intervals, but if the climb is
+d23 3
+a25 3
+Various items of equipment may be used to improve a characters chance
+of climbing, however they will only function if a character has
+familiarity with them as follows.
+a37 36
+This skill may be ranked as with any other adventuring skill, for
+example horsemanship. That is, if the skill is used conspicuously
+during an adventure it can be ranked once without the need for
+training time, but there must be a tutor who may be any PC / NPC with
+a similar skill who is present to advise the character on the
+technique they should employ.
+
+\subsection{Codes / Ciphers}
+
+This skill allows a character to create and read codes.  It ranks as
+read / write any other language, though rarely are codes employed with
+a vocabulary of greater than rank 6.  The time required to create a
+code is 1 hour + 1 hour per rank of the code to be created, up to the
+rank of the person creating it.
+
+The character may attempt to break codes with which they are
+unfamiliar.  The Base Chance of successfully doing this is
+(A + B - C) \x 5\%, where -
+\begin{flushleft}
+     A = 3 \x sum of ranks employed on the job \\
+     B = 2 \x days of study \\
+     C = 4 \x rank of code \\
+\end{flushleft}
+
+The minimum time that can be used to break a code is 24 hours minus
+the average rank of the code-breakers, unless they have the code key
+(for example a book from which the code is derived) in which case the
+BC is improved by 20\% and the minimum time halved.
+
+\subsection{Silent Language}
+\label{silentlanguage}
+
+This is a form of sign language.  It ranks as speak any other
+language.  There may be many specialised forms of this and each one
+will require individual learning.
+
+a38 1
+\label{orienteering}
+d44 3
+a46 3
+able to detect a specific compass direction or if there exists within
+sight at least two major landmarks. The experience cost to learn this
+skill is 2500.
+a49 1
+\label{horsemanship}
+d51 3
+a53 3
+An adventurer will use horsemanship to direct animals which he rides.
+An adventurer may use his horsemanship with any animal or monster
+which he would ordinarily ride (such as horses, donkeys, camels,
+d58 1
+a58 1
+The character's player will roll percentile dice whenever his
+d60 13
+a72 11
+to [(modified Agility + Willpower) / 2 + Rank \x 8].  In the above
+equation, round all fractions down.  The type of mount a character
+is riding will modify his horsemanship as follows:
+
+\begin{tabularx}{\linewidth}{X@@{\hspace{0.5em}}rX@@{\hspace{0.5em}}r}
+Donkey		&  -10 & Palfrey   & +15 \\
+Mustang		& -12\dag & Warhorse  & -5\dag \\
+Quarterhorse	&  -10 & Camel     & -15 \\
+Dire Wolf	&  -10 & Mule      &  -8 \\
+Draft Horse	&   -5 & Pony      & +10 \\
+Elephant	& -10 \\
+d75 1
+a75 1
+\dag Rating  unless  trained  by   rider;   in   that case, 0.
+d79 1
+a79 1
+first time a character finds himself atop a camel should be worth at
+d82 9
+a90 10
+A character's horsemanship is called into play whenever he wishes his
+mount to perform an unusual or difficult action.  Also, every Pulse in
+combat a horsemanship roll must be made.  Any mount can be directed
+into moving at a walking pace or even a brisk trot; an unusual or
+difficult action would be to break into a gallop or charge, jump an
+obstacle, etc.  During combat, horsemanship is called into play during
+every Pulse to a) keep the mount controlled, b) regain control if it
+is lost, and c) direct the mount to take any specific Action.
+Remember only a Warhorse can be directed to enter into Close Combat by
+its rider, and all other mounts will only attack if directly
+d93 1
+a93 1
+A successful roll (equal to or less than the modified percentage) will
+d95 5
+a99 5
+the modified percentage but less than the modified percentage the
+rider's Willpower indicates the mount either does nothing or continues
+to do whatever it was doing.  A roll above both of these indicates the
+mount will either disobey the rider, buck, attempt to throw the rider,
+or some other unpleasant result.  The actual occurrence must be decided
+d103 3
+a105 3
+If the GM judges the rider has totally lost control of his mount, the
+rider may take no other action until he has regained control
+(presuming he managed to stay mounted).
+d108 2
+a109 2
+other Action.  A trained horseman receives certain abilities as he
+rises in Rank:
+a111 1
+\setlength\itemsep{0pt}
+d123 6
+a128 6
+An adventurer may use his stealth ability only if he has adequate
+cover (i.e., space in which to conceal or obscure himself) in the area
+he wishes to traverse, he is appropriately clad (e.g., not in plate
+armour or luminescent clothing), and he is not currently under
+observation by the being(s) from whom he is attempting to conceal his
+presence.
+d131 1
+a131 1
+to use his stealth ability successfully.  The GM only makes such a
+d140 1
+a140 1
+A character's base chance of using his stealth ability is (3 \x
+d145 1
+a145 7
+that Perception value if they are.  If the GM's roll is equal to or
+less than the success percentage, the character is undetected.  If the
+roll is between the success percentage and that percentage plus the
+character's Agility, he has made a slight noise or given a being a
+glimpse of himself, and may be (at the discretion of the GM)
+discovered.  If the roll is greater than or equal to the success
+percentage plus the character's Agility, he has been discovered.
+a148 1
+\index{swimming, adventurering!swimming}
+d150 33
+a182 2
+Currently there are no base chances associated with swimming.  This
+should be in by the next revision.
+@
+
+
+1.4
+log
+@Swimming added
+@
+text
+@d93 7
+a99 7
+\begin{tabularx}{\linewidth}{XrXr}
+Donkey        &  -10 & Palfrey   & +15 \\
+Mustang       & -12\dag & Warhorse  & -5\dag \\
+Quarterhorse  &  -10 & Camel     & -15 \\
+Dire Wolf     &  -10 & Mule      &  -8 \\
+Draft Horse   &   -5 & Pony      & +10 \\
+              &      & Elephant  & -10 \\
+@
+
+
+1.3
+log
+@Change formatting of description list
+@
+text
+@d4 1
+d59 1
+d66 1
+d78 1
+d147 1
+d183 2
+@
+
+
+1.2
+log
+@Swimming added
+@
+text
+@d136 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d7 5
+a11 5
+possible.  The Base Chance to use this skill is ([4 \x MD] +
+[8 \x Rank] - [structure height in feet]%  A character utilising this
+skill should make a roll at approximately 20' intervals, but if the
+climb is especially difficult, every 1O'. Note that the GM may modify
+the formula in certain instances.
+d31 3
+a33 3
+training time, but there must be a tutor who may be any PC/NPC with a
+similar skill who is present to advise the character on the technique
+they should employ.
+d38 4
+a41 4
+read/write any other language, though rarely are codes employed with a
+vocabulary of greater than rank 6.  The time required to create a code
+is 1 hour + I hour per rank of the code to be created, up to the rank
+of the person creating it.
+d83 1
+a83 1
+The character's plaver will roll percentile dice whenever his
+d118 1
+a118 1
+result in the mount obeving the directions of the rider.  A roll above
+d123 1
+a123 1
+or some othcr unpleasant result.  The actual occurance must be decided
+d136 3
+a138 3
+\item[Rank 3]      May use two-handed weapons
+\item[Rank 5]      May   fire   a   weapon while    moving
+\item[Rank 7]      May   use    two    one-handed    weapons at once
+d149 2
+a150 2
+armor or luminescent clothing), and he is not currently under
+obscrvation by the being(s) from whom he is attempting to conceal his
+d176 4
+@

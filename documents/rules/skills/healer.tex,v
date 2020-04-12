@@ -1,0 +1,1496 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL30:3.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.4;
+locks
+	ralexand:5.11; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.1;
+
+4.1
+date	2000.06.06.16.03.08;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.06.04.05.38.15;	author rossa;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	98.06.04.05.35.09;	author rossa;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	98.05.11.02.03.44;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	98.05.11.01.21.21;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	97.05.16.00.08.34;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	97.05.15.22.57.04;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	96.01.12.02.22.27;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	95.05.29.22.35.24;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.04.07.05.08.49;	author rale01;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.04.06.04.31.26;	author rale01;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{skill*}{Healer}{1.12}{healer}
+The healer skill is pseudo-magical and Healers are able to cure all
+physical ills and perform miracles.  It is a highly skilled profession
+and Healers are not common but even so their existence means the
+health and life span of people in the DQ world are considerably better
+than their medieval counterpart.
+
+A healer's empathy often gives them a distaste for causing pain to
+others.
+
+A healer will charge whatever their client can afford for their lower
+Ranked abilities. The charge for a miracle (the performance of an
+ability Rank 8 or greater) will normally exceed 2000 Silver Pennies.
+
+A healer may also use their abilities upon animals which they have
+Beastmaster (\S\ref{beastmaster}) familiarity. However non sentients
+cannot be resurrected.
+
+The section \S\ref{adventure:health} Health and Fitness details the
+effects of injury and illness on patients.
+
+\subsubsection{Field Operations}
+
+Once a healer begins work on curing a patient the condition of the
+patient is ``stabilised'' while that curing is continuing. This means
+that no Endurance or Fatigue loss will occur for the condition that is
+being cured. Other afflictions will be unaffected. After each healing
+attempt a pulse effectively passes prior to any other attempt
+beginning.
+
+\subsection{Benefits}
+
+A healer gains specific abilities at each Rank as per the following
+table:
+\begin{Enumerate}
+\setcounter{enumi}{-1}
+\item
+Empathy, Non-tactile empathy (optional)
+
+\item
+Cure Infection, Disease, Headaches, Fever
+
+\item
+Soothe Pain, Prolong Life
+
+\item
+Heal Endurance, Transfer Fatigue
+
+\item
+Neutralise Poison, Graft Skin
+
+\item
+Repair Muscle, Preserve Dead
+
+\item
+Repair Bones
+
+\item
+Repair Tissues and Organs
+
+\item
+Resurrect the Dead
+
+\item
+Regenerate Limbs and Joints
+
+\item
+Regenerate Trunk, Head and Vital Organs
+\end{Enumerate}
+
+NB. A healer must choose at Rank 0 whether or not to learn Non-tactile
+empathy.
+
+\subsection{Restrictions}
+
+A healer must expend as many Fatigue Points as the Rank at which they
+acquired the ability they are using (except non-tactile empathy).
+
+A healer may use any of their abilities (with the exception of
+resurrection) upon themselves.
+
+A healer must ``lay hands'' (place their hands) on an entity on whom
+they are to use any of their abilities (except non-tactile empathy).
+
+A healer has the following modifications to their combat strike chances:
+
+\emph{Tactical Empathy:}
+
+\begin{tabularx}{\linewidth}{lX}
+- 1 / 2 Rank & Close Combat strike chance \\
+- 1 / 5 Rank & Melee Combat strike chance \\
+\end{tabularx}
+
+\emph{Non-Tactile Empathy:}
+
+\begin{tabularx}{\linewidth}{lX}
+- 1 / Rank  & Close Combat strike chance \\
+-1 / 2 Rank & Melee Combat strike chance \\
+\end{tabularx}
+
+\subsection{Ability Descriptions}
+
+\subsubsection{Empathy}
+\basechance{automatic}
+\timetaken{5 seconds}
+When a healer lays on hands they immediately invoke empathy.
+
+A healer uses empathy to identify which of the healing abilities is
+required to heal the patient.
+
+The healer automatically detects the surface emotions of the entity
+being healed. An entity's surface emotions are those which currently
+occupy their conscious mind. The GM informs the healer of the general
+feelings of the being with which they have empathy.
+
+\subsubsection{Non-Tactile Empathy}
+
+\basechance{Perception + 10 / Rank}
+\timetaken{5 seconds}
+If the healer has learnt non-tactile empathy they may attempt to
+detect the surface emotions of an entity no more than (2 \x Rank) feet
+away from them at a cost of 1 Fatigue Point. If the entity actively
+resists then subtract twice the target's Willpower from this success
+chance.
+
+\subsubsection{Cure Infection, Disease, Headaches, Fever and Graft Skin}
+\label{healer:cure}
+\basechance{15 \x Rank + Patient's Endurance}
+\timetaken{30 minutes - 2 / Rank}
+A healer cures fevers and diseases, neutralises poisons and grafts
+skin in much the same manner that medicines and antidotes do.
+
+If the healing attempt is unsuccessful the patient subtracts 10 from
+their next die roll to see if they naturally recovers from their
+affliction.
+
+\subsubsection{Neutralise Poison}
+
+\basechance{90 + Rank or 50 - 5 \x Difference in Rank (see below)}
+\timetaken{5 seconds}
+A healer may neutralise the effects of a natural venom or the effects
+of a synthetic poison created by an alchemist of equal or lesser
+Rank. If a synthetic poison is produced by an alchemist of greater
+Rank they must roll the 2nd Base Chance above.
+
+\subsubsection{Soothe Pain}
+
+\basechance{90\% + Rank}
+\timetaken{60 seconds - 5 / Rank}
+\duration{Rank squared hours}
+When a healer uses their soothe pain ability, they numb their
+patient's nervous system so that it will not transmit pain sensations
+to their brain. The ability also has a soporific effect upon the
+patient, so that they will not inadvertently injure themselves while
+unable to distinguish hurtful actions. The GM may, at their
+discretion, permit the healer to use this ability as if they had fed
+or injected their patient with a local or general anaesthetic,
+tranquilliser, etc.
+
+\subsubsection{Prolong Life}
+\basechance{90\% + Rank}
+\timetaken{60 seconds - 5 / Rank}
+When a healer uses the prolong life ability add D10 \x (Healer's Rank +
+Patient's Endurance) days to the life of their patient. A patient's
+life may not be prolonged to over three times their natural life. An
+entity with a prolonged life has a reduced chance of resurrection.
+
+\subsubsection{Heal Endurance and Transfer Fatigue}
+
+\basechance{90\% + Rank}
+\timetaken{Time: 11 minutes - 1 / Rank}
+Heal Endurance will cure the patient of [D + Rank - 5] Endurance
+points.  It will not heal damage associated with a specific grievous
+injury.
+
+When a healer transfers fatigue the patient gains one Fatigue point
+for each point the healer expends (above the fatigue cost to use the
+ability).
+
+An entity may never have more Fatigue or Endurance Points than the
+value of the relevant characteristic and excess points cured have no
+effect upon the patient.
+
+\subsubsection{Repair Damage}
+
+\basechance{90\% + Rank}
+\timetaken{50 hours - 3 / Rank}
+A healer may repair torn, damaged, or broken muscles, bone, tissues
+and organs.  Generally these abilities will be used to repair the
+effects of grievous injuries.
+
+At least one half of a muscle, bone, or organ to be repaired must
+remain in the patient's body if the healer is to use one of these
+abilities. Tissue may be grown from existing material in or on the
+patient's body.
+
+A healer can act as a cosmetic surgeon. First, they sedate their
+patient with the soothe pain ability. They then slice and reshape the
+skin, muscles, and bones which are deemed unsightly, and make them
+whole with the appropriate repair ability. Unless the healer has also
+learnt regeneration, it is best that they work with a partner.
+
+\subsubsection{Preserve Dead}
+
+\basechance{90\% + Rank}
+\timetaken{60 minutes - 5 / Rank}
+A healer can suspend the time limit on resurrection by preserving the
+dead body of a being. Each time a healer uses the preserve dead
+ability, the body will not ``age'' for a number of days equal to the
+healer's Rank. This ability may be repeated by the same healer on the
+same body.
+
+\subsubsection{Resurrection}
+
+\timetaken{60 minutes - 5 / Rank}
+\emph{Base Chance:} Patient's Endurance + 8\% / Rank \\
+\hspace*{2em} minimum = Rank \\
+\hspace*{2em} maximum = 90 + Rank \\
+\hspace*{2em} regardless of the total modifiers.
+
+\emph{Base Chance Modifiers:}\\
+\begin{tabularx}{\linewidth}{rX}
++5	& healer is life aspected \\
++5	& patient is life-aspected \\
+-5	& healer is death-aspected \\
+-5	& patient is death-aspected \\
+-1	& per year (or fraction) the patient's life has been prolonged \\
+-1	& per day of regeneration it would normally require to make the body whole \\
+-10	& body is whole but has suffered Damage Points equal to or greater
+ than twice its Endurance (including after death damage) \\
+-10	& per unsuccessful resurrection attempt since patient died \\
+\end{tabularx}
+
+\begin{effects}
+A resurrection will cure the body of all ills and damage done to it
+provided that Rank 8 healing or below would been sufficient had the
+patient been alive. For example, poison and non-specific wounds will
+be cured automatically.
+
+If the resurrection is successful, the patient is resurrected with
+their body whole. Their Endurance Characteristic is decreased by one,
+though all of their other characteristics remain as before they died.
+
+After a resurrection the patient will have 1 Endurance point and 0
+Fatigue. The Endurance is considered to be grievous damage and the
+Fatigue loss is deemed to be due to tiredness. This means that the
+Fatigue loss may only be recovered by sleep, rest, hot meals or some
+form of fatigue transfer and the endurance loss may be cured by a
+Healer, magic or by letting the body heal itself naturally.
+
+If the resurrection is unsuccessful the patient is not resurrected and
+their Endurance characteristic is decreased by one. The body is
+preserved for one full day after the attempt. When an entity's
+Endurance is reduced to zero or less, that entity may no longer be
+resurrected.
+
+If the roll for resurrection is equal to or greater than (90 + Rank),
+the healer has summoned a malignant spirit, rather than the patient's
+life-force.  The spirit will drain the healer's Endurance
+characteristic by [D - 5]. The spirit will then return to the
+netherworld.
+\end{effects}
+
+\smallskip
+\emph{Restrictions:}
+\begin{Enumerate}
+\item
+A healer may attempt the resurrection of an entity who is less than 10
+\x Rank hours dead.
+
+\item
+A healer must have a body part at least the size of a torso to attempt
+the resurrection of an entity. A healer will not succeed if they
+attempt the resurrection of a living being from a severed body part
+(there is only one life force). If a body is completely destroyed
+(perhaps burned), which prevents the resurrection of the entity, that
+thing may become a revenant.
+
+\item
+If the patient has wounds that require regeneration (Rank 9 or 10)
+healing, these need to be healed separately.
+
+\item
+Most vital organs will need to be healed prior to the resurrection
+otherwise the body will died again immediately (the notable exception
+being the eyes).
+
+\item
+The healer need not know what the patient looked like since the
+healing of the body is governed by its own characteristics. Hence any
+changes that had been made to the body (for example facial changes or
+embedded items) will be gone after the resurrection.
+
+\item
+A player may take no action with their character's dead body.
+
+\item
+In rare instances a healer may be able to resurrect a life force into
+a different body. The resurrected entity has the physical
+characteristics of the new body and the mental characteristics from
+the life force.  It will take some months for the entity to get used
+to the new body and this will effect base chances of physical
+abilities.  The GM will advise the specifics..
+
+\item
+A body that has been animated (\eg Zombie) may still be resurrected
+provided it is no longer animated and all the other conditions have
+been made (for example length of death, condition, etc.). Note that
+the Healer Preserve Dead will not affect Zombies.
+\end{Enumerate}
+
+\subsubsection{Regeneration}
+
+\basechance{90\% + Rank}
+\timetaken{1 week (per organ or body part)}
+A healer can regenerate every portion of an entity's body including
+vital organs or severed body parts.
+
+A healer must regenerate each vital organ or body part separately. An
+entity's vital organs are the heart, stomach, viscera (liver, small
+and large intestines and kidneys), genetalia, brain, and eyes.
+
+A regenerated vital organ will immediately begin to function if enough
+of the rest of the entity's body is in working order. Otherwise, the
+vital organ will be dormant until the healer can repair or regenerate
+the necessary body parts. The regeneration time does not need to be
+consecutive, but the damaged part will not function until the
+regeneration is complete.
+
+\subsection{Potion Costs}
+\label{healer:potions}
+A healer can manufacture certain potions in conjunction with an
+alchemist. See Alchemist (\ref{alchemist}) for more details.
+
+\begin{tabularx}{\linewidth}{Xr}
+			& \textbf{Base} \\
+\textbf{Potion}		& \textbf{Value} \\
+Cure Disease		& 600 \\
+Cure Fever		& 600 \\
+(Graft) Skin Salve	& 650 \\
+Neutralise Poison (specify type) & 700 \\
+Cure Endurance Points	& 1500 \\
+Prolong Life		& 2500 \\
+\end{tabularx}
+\end{skill*}
+
+\begin{table*}[h]
+\begin{center}
+\begin{tabular}{|l|l|l|l|} \hline
+\textbf{Ability}	& \textbf{Base Chance}	& \textbf{Time} \\ \hline
+Empathy			& Automatic		& 5 seconds \\
+Non-tactile empathy 	& PC + 10 / Rank	& 5 seconds \\
+Cure Infection, Disease, Headaches, Fever \& Graft Skin	& (15 \x Rank) + Patients EN	& 30 minutes - 2 / Rank \\
+Soothe Pain		& 90 + Rank	& 60 - 5 / Rank seconds \\
+Prolong Life		& 90 + Rank	& 90 + Rank or 50 - 5 \x Difference in Rank \\
+Heal Endurance		& 90 + Rank	& 11 minutes - 1 / Rank \\
+Transfer Fatigue	& 90 + Rank	& 11 minutes - 1 / Rank \\
+Neutralise Poison	& 90 + or 50 - 5 \x Difference in Rank	& 5 seconds \\
+Repair Muscle, Bones, Tissues and Organs & 90 + Rank	& 50 hours - 3 / Rank \\
+Preserve Dead 		& 90 + Rank	& 60 seconds - 5 / Rank \\
+Resurrect the Dead	& special	& 60 minutes - 5 / Rank \\
+Regenerateration	& 90 + Rank	& 1 week \\  \hline
+\end{tabular}
+\end{center}
+\end{table*}
+\newpage
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@d19 2
+a20 2
+See \S\ref{adventure:health} Health and Fitness details the effects of injury
+and illness on patients.
+@
+
+
+4.1
+log
+@Check in before vers 1.12.
+@
+text
+@d1 6
+a6 1
+\begin{skill}{Healer}{1.1}{healer}
+d8 2
+a9 7
+The life span of one who lives in a fantasy world is considerably
+longer than that of their medieval counterpart.  The disparity in age
+can be attributed to the presence of healers where mana exists.  These
+partially empathic beings can cure all the physical ills which beset a
+character during adventure.  Healers do not generally make good
+fighters, since active engagement in combat is usually contrary to the
+principles of their profession.
+d12 1
+a12 1
+Ranked abilities.  The charge for a miracle (the performance of an
+d16 1
+a16 1
+beast master (\S\ref{beastmaster}) familiarity.  However non sentients
+d19 12
+d33 2
+a34 2
+A healer gains one or more abilities at each Rank they achieve,
+according to the following schedule:
+d37 32
+a68 11
+\item Empathy
+\item Cure Infection, Disease, Headaches, Fever
+\item Soothe Pain, Prolong Life
+\item Heal Wounds, Transfer Fatigue
+\item Neutralise Poison, Graft Skin
+\item Repair Muscle, Preserve Dead
+\item Repair Bones
+\item Repair Tissues and Organs
+\item Resurrect the Dead
+\item Regenerate Limbs and Joints
+\item Regenerate Trunk, Head and Vital Organs
+d71 5
+d77 1
+a77 1
+acquired the ability they are using (exception: non-tactile empathy).
+d82 4
+a85 2
+\subsubsection{A healer must ``lay hands'' (place their hands) on a
+being on whom they are to use any of their abilities except empathy.}
+d87 13
+a99 2
+When they do so, they can automatically detect the surface emotions of
+the being they are healing.
+d101 44
+a144 47
+A being's surface emotions are those which currently occupy their
+conscious mind.  The GM informs the healer of the general feelings of
+the being with which they have empathy.
+
+A healer may also choose the ability of non-tactile empathy (though
+this has its disadvantages; see below).  A healer with such empathy
+may attempt to detect the surface emotions of a being no more than (2
+\x Rank) feet away from them at a cost of 1 Fatigue Point.  The
+healer's success percentage is equal to (Perception + 10
+\x Rank) if the other being consents to empathic communication.
+Subtract twice the being's Willpower if the target Actively Resists
+(see \S\ref{magic:resistance}) the detection of their surface
+emotions.
+
+If a healer chooses the non-tactile empathy ability, subtract their
+Rank from their Base Chance to strike in Close Combat, and subtract
+one-half their Rank in Melee Combat.  If a healer only has empathy
+when laying on hands, subtract one-half their Rank from their Base
+Chance in Close Combat, and one-fifth in Melee Combat.  Round
+fractions down in all cases.
+
+\subsubsection{A healer cures fevers and diseases, neutralises poisons
+and grafts skin in much the same manner that medicines and antidotes
+do.}
+\label{healer:cure.disease}
+
+\index{poisons!healer}
+
+When a healer attempts to cure a being of an affliction (\ie fever,
+disease, or skin problem), their success percentage is (15 \x Healer's
+Rank + Patient's Endurance).  The GM rolls percentile dice: if the
+roll is less than or equal to the success percentage, the patient is
+cured.  If the roll is greater than the success percentage, the
+patient subtracts 10 from their next dice-roll to see if they
+naturally recover from their affliction (see \S\ref{infection} and
+\S\ref{recuperation}).  See Alchemist (\S\ref{alchemist:potions}) for
+details on salves and antidotes.
+
+A healer must spend (30 - 2 \x Rank) minutes to implement any
+of the abilities covered in this rule.
+
+A healer automatically neutralise the effects of a natural venom.  A
+healer may automatically neutralise the effects of a synthetic poison
+created by an alchemist of equal or lesser Rank.  Their success
+percentage to neutralise a synthetic poison produced by an alchemist
+of greater Rank than they are equal to (50 - 5 \x Difference in
+Rank)\%
+d148 3
+d154 2
+a155 2
+patient, so that they will not inadvertently injure themself while
+unable to distinguish hurtful actions.  The GM may, at their
+d158 1
+a158 3
+tranquiliser, etc. The effects of the soothe pain ability last for
+(Rank squared) hours.  A healer must spend (60 - 5 \x Rank) seconds to
+soothe pain.
+d161 6
+a166 6
+
+When a healer uses the prolong life ability add D10 \x (Healer's Rank
++ Patient's Endurance) days to the life of their patient.  A patient's
+life may not be prolonged to over three times their natural life.  A
+being with a prolonged life has a reduced chance of resurrection.  A
+healer must spend (60 - 5 \x Rank) minutes to perform this ability.
+a168 4
+\label{healer:cure.damage}
+
+If a healer takes (11 - Rank) minutes the patient will be healed [D10
++ Rank - 5] Endurance points with this ability.
+d170 13
+a182 6
+When a healer uses the transfer fatigue ability, the patient gains one
+Fatigue Point for each Fatigue Point the healer expends (above the
+fatigue cost to use the ability).  A being may never have more Fatigue
+or Endurance Points than the value of the relevant characteristic.
+Excess points healed by the healer have no effect upon the patient.
+This ability takes (11 - Rank) minutes to perform.
+a184 1
+\label{healer:repair}
+d186 2
+d189 1
+a189 1
+and organs.  Generally, these abilities will be used to repair the
+d192 1
+a192 1
+At least one-half of a muscle, bone, or organ to be repaired must
+d194 2
+a195 3
+abilities.  Tissue may be grown from existing material in or on the
+patient's body.  The healer must spend (50 - 3 \x Rank) hours laying
+hands on the patient and the body part will be whole again.
+d197 2
+a198 2
+A healer can act as a cosmetic surgeon.  First, they sedate their
+patient with the soothe pain ability.  They then slice and reshape the
+d200 2
+a201 3
+whole with the appropriate repair ability.  Unless the healer has
+gained the regeneration abilities, it is best that they work with a
+partner.
+a203 2
+\label{healer:preserve}
+\index{healer!preserve}
+d205 2
+d208 1
+a208 1
+dead body of a being.  Each time a healer uses the preserve dead
+d210 2
+a211 3
+healer's Rank.  A healer must lay hands on a dead body for (60 - 5 \x
+Rank) minutes to preserve it.  The Healer Preserve Dead ability may be
+repeated by the same healer on the same body.
+a213 2
+\label{healer:resurrection}
+\index{resurrection,healer!resurrection}
+d215 20
+d236 27
+a262 21
+(including cosmetic surgery) provided that a healing skill of Rank 8
+or below would been sufficient had the patient been alive.  For
+example, poison and standard wounds will be cured automatically.  If
+the patient has wounds that require Rank 9 or above healing, these
+will have to be cured separately.  Most vital organs will need to be
+cured prior to the resurrection (the notable exception being the
+eyes).  The healer need not know what the patient looked like since
+the healing of the body is governed by its own genetics (or aura, if
+you prefer).  Hence any changes that had been made to the body (for
+example facial changes or embedded items) will have to be redone after
+the resurrection.
+
+The body need not be in a ``normal'' state of health before the
+attempt is made.  There is a minus of 1\% for every day of
+regeneration it would normally require to make the body whole.  The
+actual resurrection time required is as [60 - 5 \x Rank] minutes.
+
+If a body is Zombie'ed, then it may still be resurrected when it is no
+longer a Zombie provided all the other conditions have been made (for
+example length of death, condition, etc.)  Note that the Healer
+Preserve Dead will not affect Zombies.
+d264 3
+a266 15
+A healer may attempt the resurrection of a being who is no more than
+(10 \x Healer's Rank) hours dead.  
+
+A healer must have a body part at least the size of a torso to attempt
+the resurrection of a being. A healer will not succeed if they attempt
+the resurrection of a living being from a severed body part (there is
+only one life-force).  If a body is completely destroyed (perhaps
+burned), which prevents the resurrection of the being, that thing may
+become a revenant.
+
+When a healer attempts to use the resurrect the dead ability, the base
+success percentage is equal to (8 \x Healer's Rank + Patient's
+Endurance).  The base percentage is modified as follows:
+
+\begin{Itemize}
+d268 2
+a269 1
+Add 5\% if the healer is life-aspected.
+d272 6
+a277 1
+Add 5\% if the patient is life-aspected.
+d280 2
+a281 1
+Subtract 5\% if the healer is death-aspected.
+d284 3
+a286 1
+Subtract 5\% if the patient is death-aspected.
+d289 4
+a292 2
+Subtract 1\% for each year (or fraction thereof) the patient's life
+has been prolonged.
+d295 1
+a295 2
+Subtract 1\% for each day of regeneration it would normally require to
+make the patient's body whole.
+d298 6
+a303 4
+Subtract 10\% if the patient's body is whole but suffered Damage
+Points equal to or greater than twice its Endurance when it died (the
+patient's slayer may carve up the body to bring this provision into
+effect).
+d306 5
+a310 32
+Subtract 10\% for each unsuccessful resurrection attempt since patient
+died.
+\end{Itemize}
+
+The minimum success percentage for resurrection is equal to the Rank
+of the healer, regardless of the total modifiers.
+
+If the resurrection roll is successful, the patient is resurrected
+with their body whole.  Their Endurance is decreased by one, though
+all of their other characteristics remain as before they died.  If the
+roll is greater than the success percentage, the patient is not
+resurrected and their Endurance is decreased by one.  The body is
+preserved for one full day after an unsuccessful resurrection attempt.
+When a being's Endurance is reduced to zero or less, that being may no
+longer be resurrected.
+
+If the roll for resurrection is equal to or greater than (90 +
+Healer's Rank), the healer has summoned a malignant phantasm, rather
+than the patient's life-force.  The phantasm will drain some power
+from the healer, reducing their Endurance value by [D - 5] (minimum of
+1).  The phantasm will then return to the netherworld.
+
+A dead character may take no action with their body.  An Adept may
+compel the body to speak by spell, and the life-force may be placed in
+another body, which the player would then control.
+
+If a character's life-force is placed in another's body, they retain
+any magical abilities, the skill Ranks are halved (rounding down) and
+the combat abilities are those of the previous inhabitant of the body.
+The temporary union of life-force and body uses the value of the
+body's first four characteristics, and the value of the life-force's
+characteristics for the remainder.
+a312 25
+\label{healer:regenerate}
+
+A healer can regenerate every portion of a being's body.  A being's
+vital organs are the heart, liver, stomach, small and large
+intestines, kidneys, genitals, brain, and eyes.  A healer must spend
+(15 - Rank) days regenerating each vital organ (\ie creating a new
+one).  A regenerated vital organ will immediately begin to function if
+enough of the rest of the being's body is in working order.
+Otherwise, the vital organ will be dormant until the healer can repair
+or regenerate the necessary body parts.
+
+If a portion of the body has been severed, or there is a hole in a
+being's anatomy, the GM measures the body part of the player which
+corresponds to that which is missing from the character's body.  The
+healer will require a number of days to regenerate the character's
+missing body part equal to the measurement in inches of the player's
+corresponding part.  The character's race does not affect the time
+requirement; the circulatory system regenerates at a constant rate for
+every race.
+
+\begin{example}
+A character's arm has been severed at the shoulder.  The player's arm
+measures 24 inches.  The healer can regenerate the character's arm in
+24 (not necessarily consecutive) days.
+\end{example}
+d314 15
+a328 1
+\subsection{Costs}
+d330 1
+a330 2
+\subsubsection{A healer can manufacture certain potions in conjunction
+with an alchemist.}
+d332 2
+d345 1
+d347 20
+a366 2
+See Alchemist (\S\ref{alchemist}) for more details.
+\end{skill}
+@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 1
+a1 5
+\section{Healer (Ver 1.1)}
+\label{healer}
+
+\index{healer|(}
+\index{skills!healer|(}
+d15 3
+a17 4
+\subsection{Restrictions}
+
+\subsubsection{The abilities which can be used and the Fatigue Points
+expended when a healer practices their arts depend upon their Rank.}
+d22 1
+a22 2
+according to the following schedule (ordered by Rank):
+
+a40 5
+\begin{example}
+The regeneration of limbs (a Rank 9 ability) will cost the healer 9
+Fatigue Points
+\end{example}
+
+a53 9
+\begin{example}
+A healer lays hands on a comrade who has suffered a Grievous Injury.
+The GM informs the healer that his comrade feels great pain.  If the
+healer lays hands on an assassin who is feigning injury to lull any
+suspicion the healer may have, the GM will inform the healer of the
+assassin's murderous intent just before they announce the result of the
+assassin's attack.
+\end{example}
+
+d66 4
+a69 6
+one-half their Rank in Melee Combat (Example: A healer of Rank 8 would
+have 8\% subtracted from they Base Chance in Close Combat and 4\%
+subtracted in Melee Combat).  If a healer only has empathy when laying
+on hands, subtract one-half their Rank from their Base Chance in Close
+Combat, and one-fifth in Melee Combat.  Round fractions down in all
+cases.
+d84 3
+a86 3
+naturally recovers from their affliction (see \S\ref{infection}
+and \S\ref{recuperation}).  See Alchemist (\S\ref{alchemist:potions})
+for details on salves and antidotes.
+d98 1
+a98 5
+A healer does not cure any bodily damage (\eg Endurance Point loss,
+broken bones) previous to their laying on hands on the patient with
+this particular ability.
+
+\subsubsection{A healer may soothe pain and prolong life.}
+d108 4
+a111 1
+(Rank squared) hours.
+d116 2
+a117 5
+being with a prolonged life has a reduced chance of resurrection.
+
+A healer must spend (60 - 5 \x Rank) seconds to implement the soothe
+pain ability, and a like number of minutes to implement the prolong
+life.
+d119 1
+a119 2
+\subsubsection{A healer can cure Endurance Points and transfer Fatigue
+Points.}
+d122 2
+a123 2
+When a healer uses the cure wounds (that is Endurance Points) ability,
+the patient is cured of [D10 + Rank - 5] Damage Points.
+d125 6
+a130 11
+When a healer uses the transfer fatigue (points) ability, their
+patient gains one Fatigue Point for each Fatigue Point the healer
+expends (above the fatigue cost to use the ability).  A being may
+never have more Fatigue or Endurance Points than the value of the
+relevant characteristic.  Excess points cured by the healer have no
+effect upon the patient.
+
+A healer may not use the cure Endurance Points or transfer Fatigue
+Points abilities while on the Tactical Display (\ie not while in
+combat).  It requires (11 - Rank) minutes each time the healer
+implements either of these abilities.
+d132 1
+a132 2
+\subsubsection{A healer may repair torn, damaged, or broken muscles,
+bone, tissues and organs.}
+d135 4
+a144 3
+Generally, these abilities will be used to repair the effects of
+Grievous Injuries.
+
+d152 1
+a152 2
+\subsubsection{A healer can preserve the body of a dead being in the
+hopes of having it resurrected.}
+d154 10
+a164 1
+\index{healer!preserve}
+d167 23
+d191 1
+a191 5
+(10 \x Healer's Rank) hours dead.  However, a healer can suspend the
+time limit on resurrection by preserving the dead body of a being.
+Each time a healer uses the preserve dead ability, the body will not
+``age'' for a number of days equal to the healer's Rank.  A healer must
+lay hands on a dead body for (60 - 5 \x Rank) minutes to preserve it.
+d206 2
+a207 1
+Add 5\% if the healer is life-aspected
+d209 2
+a210 1
+Add 5\% if the patient is life-aspected
+d212 2
+a213 1
+Subtract 5\% if the healer is death-aspected
+d215 2
+a216 1
+Subtract 5\% if the patient is death-aspected
+d219 2
+a220 1
+has been prolonged
+d222 3
+a224 2
+Subtract 1\% for each day of regeneration it would normally
+require to make the patient's body whole
+d229 2
+a230 1
+effect)
+d239 8
+a246 7
+If the roll in D100 is equal to or less than the success percentage,
+the patient is resurrected with their body whole.  Their Endurance is
+decreased by one, though all of their other stats remain as before
+they died.  If the roll is greater than the success percentage, the
+patient is not resurrected and their Endurance is decreased by one.
+The body is preserved for one full day after an unsuccessful
+resurrection attempt.
+a253 4
+When a being's Endurance Value is reduced to zero or less, that being
+may no longer be resurrected.  Presumably, what remains of its
+life-essence is absorbed by one of the Great Powers.
+
+d265 1
+a265 1
+\subsubsection{A healer can regenerate every portion of a being's body.}
+d268 2
+a269 1
+A being's vital organs are the heart, liver, stomach, small and large
+d310 1
+a310 108
+
+\subsection{Addendum}
+
+What follows is a summary of how various healing abilities are
+currently played.
+
+\subsubsection{Grievous Damage}
+
+Grievous damage is damage that is inflicted is specified on the
+grievous injury table.  It can only be healed once the wound
+associated with it has been healed (For example if one had an ear
+sliced off for 2 extra Endurance damage then those 2 Endurance could
+not be healed until the ear had been regenerated).  Even if the wound
+is such that extra repair or regeneration is not necessary (for
+example concussion), a healer is required to heal the Endurance points
+(that is a healing potion or spell is not sufficient).  Alternatively,
+the body will heal naturally as specified in the DQ Manual
+(\S\ref{recuperation}).
+
+\subsubsection{Resurrections}
+
+A resurrection will cure the body of all ills and damage done to it
+(including so-called plastic surgery) provided that a healing skill of
+Rank 8 or below would been sufficient had the patient been alive.  For
+example, poison and standard wounds will be cured automatically.  If
+the patient has wounds that require Rank 9 or above healing, these
+will have to be cured separately.  Most vital organs will need to be
+cured prior to the resurrection (the notable exception being the
+eyes).  The healer need not know what the patient looked like since
+the healing of the body is governed by its own genetics (or aura, if
+you prefer).  Hence any changes that had been made to the body (for
+example facial changes or embedded items) will have to be redone after
+the resurrection.
+
+
+The body need not be in a ``normal'' state of health before the
+attempt is made.  There is a minus of 1\% for every day of
+regeneration it would normally require to make the body whole.  The
+actual resurrection time required is as per preserve (that is [60 - 5
+\x Rank] minutes).
+
+If a body is Zombie'ed, then it may still be resurrected when it is no
+longer a Zombie provided all the other conditions have been made (for
+example length of death, condition, etc.)  Note that the Healer
+Preserve Dead will not affect Zombies.
+
+The Healer Preserve Dead ability may be repeated by the same healer
+on the same body.
+
+After a resurrection the patient will have 1 Endurance point and 0
+Fatigue.  The Endurance is considered to be grievous damage and the
+Fatigue loss is deemed to be due to tiredness.  This means that the
+Fatigue loss may only be recovered by sleep, rest, hot meals or some
+form of fatigue transfer and the endurance loss may only be recovered
+by the arts of a Healer (Cure Endurance), magic (Celestial, Rune,
+Earth or Mind Mage Healing, and Mind Mage Empathy) or by letting the
+body heal itself as specified in the DQ Manual (\S\ref{recuperation}).
+
+Although the Guild does not charge for healing services of Rank 4 or
+less (another free Guild service to its members) it obviously has a
+limit on the amount of healing that can be supplied.  For this reason,
+resurrection patients are usually only treated with a single heal per
+day (5 Endurance points).  Such healing is administered within an hour
+of the resurrection which is normally performed as soon as possible
+and thereafter at twenty four hour intervals.  Thus it will usually be
+several days before the patient is fully cured.
+
+
+\subsubsection{Field Operations}
+
+Once a healer begins work on curing a patient the condition of the
+patient is ``stabilised'' while that curing is continuing.  This means
+that no Endurance or Fatigue loss will occur for the condition that is
+being cured.  Other afflictions will be unaffected.  After each
+healing attempt a pulse effectively passed prior to any other attempt
+being begun.
+
+\subsubsection{Below Zero Endurance}
+
+When a character is below zero Endurance they are on the very brink of
+death.  They will continue to take damage from any further blows,
+spells, grievous wounds which are bleeders, burning, etc. and in any
+case will lose 1 Fatigue (Endurance when Fatigue is exhausted) per
+pulse due to blood loss and system failure.  They will not die
+however until their Endurance falls below negative one-half their
+\emph{original} Endurance.  If they can be healed to at least 0
+Endurance before this occurs then they will not die.  The Endurance
+can be cured via magic (for example Celestial or Mind Mage healing,
+Mind Mage Empathy) or the arts of a healer (Rank 3 -- Cure Endurance).
+
+The entity cannot drink a healing potion but one can be massaged down
+their throat.  The chance of doing this is equal to the Manual
+Dexterity + Perception of the person administering the potion, or if a
+healer, 90 + Healer Rank.  If successful then D10 per 10 points of the
+healing potion's curing (round down) will be received.  If the person
+fails the roll, the potion is wasted, but no harmful effects occur to
+the patient.
+
+GMs should not let players take advantage of out of character
+information when another player's character is below 0 Endurance.  A
+visual and tactile examination of the entity will reveal that the
+entity is dead.  A successful DA or empathy will reveal the actual
+state of the entity.  (Remember that all skills have a maximum of (90
++ Rank)\% chance of being successful, even if they have no stated base
+chance).
+
+\index{healer|)}
+\index{skills!healer|)}
+@
+
+
+3.0
+log
+@REL30
+@
+text
+@@
+
+
+2.3
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+2.2
+log
+@Fix e.g. problem
+@
+text
+@d29 1
+a29 1
+\begin{enumerate}
+a30 1
+\renewcommand{\itemsep}{0in}
+d42 1
+a42 1
+\end{enumerate}
+d209 1
+a209 2
+\begin{itemize}
+\setlength\itemsep{0pt}
+d232 1
+a232 1
+\end{itemize}
+@
+
+
+2.1
+log
+@Check in before modifying e.g. and i.e.
+@
+text
+@d101 1
+a101 1
+When a healer attempts to cure a being of an affliction (i.e., fever,
+d121 1
+a121 1
+A healer does not cure any bodily damage (e.g., Endurance Point loss,
+d161 1
+a161 1
+Points abilities while on the Tactical Display (i.e., not while in
+d273 1
+a273 1
+(15 - Rank) days regenerating each vital organ (i.e., creating a new
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d4 3
+d99 2
+d417 3
+@
+
+
+1.6
+log
+@Minor textual changes.
+@
+text
+@@
+
+
+1.5
+log
+@Minor textual changes and reference changes.
+@
+text
+@d292 1
+a292 1
+with an alchemist (see \S\ref{alchemist}).}
+d305 2
+@
+
+
+1.4
+log
+@Release 1.0 snapshot
+@
+text
+@d93 1
+a93 1
+do (see \S\ref{alchemist:potions}).}
+d102 3
+a104 3
+naturally recovers from their affliction (see \S\ref{combat:infection}
+and
+\S\ref{recuperation}).
+@
+
+
+1.3
+log
+@Fix up reference and gender neutral language
+@
+text
+@a3 2
+\textbf{Jon MacSpadden (18/9/94)}
+
+d5 1
+a5 1
+longer than that of his medieval counterpart.  The disparity in age
+d12 1
+a12 1
+A healer will charge whatever his client can afford for his lower
+d19 1
+a19 1
+expended when a healer practices his art depend upon his Rank.}
+d23 1
+a23 1
+A healer gains one or more abilities at each Rank he achieves,
+d27 1
+d29 11
+a39 10
+\item Empathy, Cure Infection, Disease, Headaches, Fever
+\item    Soothe   Pain,   Prolong    Life
+\item    Heal Wounds, Transfer Fatigue
+\item    Neutralise Poison, Graft Skin
+\item    Repair Muscle, Preserve Dead
+\item    Repair Bones
+\item    Repair   Tissues   and    Organs
+\item    Resurrect the Dead
+\item	Regenerate Limbs and Joints
+\item	Regenerate Trunk, Head and Vital Organs
+d42 2
+a43 2
+A healer must expend as many Fatigue Points as the Rank at which he
+acquires an ability he uses (exception: non-tactile empathy).
+d47 1
+a47 3
+Fatigue Points.  A healer may use only his empathy ability if he is
+handless.  A healer may use any of his abilities (with the exception
+of resurrection) upon himself.
+d50 8
+a57 2
+\subsubsection{A healer must ``lay hands'' (place his hands) on a being on
+whom he is to use any of his abilities but empathy.}
+d59 3
+a61 2
+When he does so, he can automatically detect the surface emotions of
+the being he is healing.
+d63 8
+a70 8
+A  being's surface emotions   are  those which currently occupy  their
+conscious mind.  The GM informs the  healer of the general feelings of
+the being with which he has empathy.  Example: A  healer lays hands on
+a  comrade who  has suffered  a Grievous  Injury.   The GM informs the
+healer that his comrade feels great pain.  If the healer lays hands on
+an assassin  who is feigning injury  to lull any  suspicion the heater
+may have,  the GM will inform the  healer of the  assassin's murderous
+intent just before he announces the result of the assassin's attack.
+d73 1
+a73 1
+this has its Disadvantages; see below).  A healer with such empathy
+d87 1
+a87 1
+on hands, subtract one-half their Rank from his Base Chance in Close
+d91 1
+a91 1
+\subsubsection{ A healer cures fevers and diseases, neutralises poisons
+d93 1
+a93 1
+do (see \S{alchemist:potions}).}
+d97 8
+a104 6
+disease, or skin problem), his success percentage is (10 \x
+Healer's Rank + Patient's Endurance).  The GM rolls percentile
+dice: if the roll is less than or equal to the success percentage,
+the patient is cured. If the roll is greater than the success
+percentage, the , patient subtracts 10 from his next dice-roll to see
+if he naturally recovers from his affliction (see 24 and 85.2).
+d109 3
+a111 3
+A healer automatically neutralise, the effects of a natural venom.  A
+healer may automatically neutralise the effects of a synthetic
+poison created by an alchemist of equal or lesser Rank.  His success
+d113 1
+a113 1
+of greater Rank than he is equal to (50 - 5 \x Difference in
+d117 2
+a118 2
+broken bones) previous to his laying on hands on the patient with this
+particular ability (but see \ref{healer:regenerate}).
+d122 18
+a139 18
+When a healer uses his soothe pain ability, he numbs his patient's
+nervous system so that it will not transmit pain sensations to his
+brain. The ability also has a soporific effect upon the patient, so
+that he will not inadvertently injure himself while unable to
+distinguish hurtful actions.  The GM may, at his discretion, permit
+the healer to use this ability as if he had fed or injected his
+patient with a local or general anaesthetic, tranquiliser, etc. The
+effects of the soothe pain ability last for the healer's (Rank
+squared) hours.
+
+When a healer uses the prolong life ability  add D10
+\x (Healer's Rank + Patient's Endurance) days to the life of
+his patient.  A patient's life may not be prolonged to over three
+times his natural life.  A being with a prolonged life has a reduced
+chance of resurrection (see 55.7).
+
+A healer must spend (60 - 5 \x Rank) seconds to implement the first
+ability, and a like number of minutes to implement the second.
+d148 6
+a153 6
+When a healer uses the transfer fatigue (points) ability, his patient
+gains one Fatigue Point for each Fatigue Point the healer expends
+(above the fatigue cost to use the ability).  A being may never have
+more Fatigue or Endurance Points than the value of the relevant
+characteristic.  Excess points cured by the healer have no effect upon
+the patient.
+d164 1
+a164 1
+If least one-half of a muscle, bone, or organ to be repaired must
+d167 2
+a168 2
+patient's body.  The healer must spend (50 - 3 \x Rank) hours
+laying hands on the patient and the body part will be whole again.
+d173 6
+a178 6
+A healer can act as a cosmetic surgeon.  First, he sedates his patient
+with the soothe pain ability.  He then slices and reshapes tile skin,
+muscles, and bones which are deemed unsightly, and makes them whole
+with the appropriate repair ability.  Unless the healer has gained the
+regeneration abilities (see \ref{healer:regenerate} ), it is best that
+he work with a healer partner.
+d181 1
+a181 1
+hopes of having him resurrected.}
+d183 1
+a183 1
+\label{healer:resussect}
+d195 1
+a195 1
+the resurrection of a being. A healer will not succeed if he attempts
+d219 1
+a219 1
+qSubtract 1\% for each day of regeneration it would normally
+d223 1
+a223 1
+Points equal to or greater than twice his Endurance when he died (the
+d235 12
+a246 12
+the patient is resurrected with his body whole.  His Endurance is
+decreased by one, though all of his other values remain as before he
+died.  If the roll is greater than the success percentage, the patient
+ is not resurrected and his Endurance is decreased by one.  His
+body is preserved for one full day after an unsuccessful resurrection
+attempt.
+
+If the roll for resurrection is equal to or greater than (90 + Healer's
+Rank), the healer has summoned a malignant phantasm, rather than his
+patient's life-force.  The phantasm will drain some power from the
+healer, reducing his Endurance value by [D - 5] (minimum of 1).  The
+phantasm will then return to the netherworld.
+d249 1
+a249 1
+may no longer be resurrected.  Presumably, what remains of his
+d252 2
+a253 2
+A dead character may take no action with his body.  An Adept may
+compel his body to speak by spell, and his life-force may be placed in
+d256 3
+a258 3
+If a character's life-force is placed in another's body, he retains
+any magical abilities, his skill Ranks are halved (rounding down), his
+combat abilities are those of the previous inhabitant of the body.
+d266 1
+a266 1
+A being's vital organs are his heart, liver, stomach, small and large
+d268 5
+a272 5
+(15 - Rank) days regenerating each vital organ (i.e., creating a
+new one).  A regenerated vital organ will immediately begin to
+function if enough of the rest of the being's body is in working
+order.  Otherwise, the vital organ will be dormant until the healer
+can repair or regenerate the necessary body parts.
+d281 7
+a287 4
+every race.  Example: A character's arm has been severed at the
+shoulder.  The player's arm measures 24 inches.  The healer can
+regenerate the character's arm in 24 (not necessarily consecutive)
+days.
+d321 2
+a322 2
+the body will heal naturally as specified in the DQ Manual (Section
+85).
+d347 1
+a347 1
+longer a Zombie provided all the otter conditions have been made (for
+d349 1
+a349 1
+Preserve Dead will not effect Zombies.
+d359 3
+a361 3
+by the arts of a Healer (Cure Endurance), magic (Celestial or Mind
+Mage Healing) or by letting the body heal itself as specified in the DQ
+Manual (Section 85).
+d375 1
+a375 1
+Once a haler begins work on curing a patient the condition of the
+d393 1
+a393 1
+Mind Mage Empathy) or the arts of a healer (Rank 4 -- Cure Endurance).
+d395 1
+a395 1
+The Entity cannot drink a healing potion but one can be massaged down
+d399 3
+a401 2
+healing potion's curing (round down) will be received.  \textbf{If the
+person fails the roll the patient is dead from drowning.}
+d403 1
+a403 1
+GMs should not let Players take advantage of out of character
+@
+
+
+1.2
+log
+@Corrections done form March printed version
+@
+text
+@d70 2
+a71 2
+\x Rank) feet away from him at a cost of 1 Fatigue Point.  The
+healer's success percentage is equal to his (Perception +  10
+d73 3
+a75 2
+Subtract twice the being's Willpower if he Actively Resists (see
+\S\ref{magic:resist}) the detection of his surface emotions.
+d77 8
+a84 7
+If a healer chooses the non-tactile empathy ability, subtract his Rank
+from his Base Chance to strike in Close Combat, and subtract one-half
+his Rank in Melee Combat (Example: A healer of Rank 8 would have 8\%
+subtracted from his Base Chance in Close Combat and 4\% subtracted in
+Melee Combat).  If a healer only has empathy when laying on hands,
+subtract one-half his Rank from his Base Chance in Close Combat, and
+one-fifth in Melee Combat.  Round fractions down in all cases.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d2 1
+d43 8
+a50 5
+acquires an ability he uses (exception: see 55.2, paragraph 2).
+Example: The regeneration of limbs (a Rank 9 ability) will cost the
+healer 9 Fatigue Points.  A healer may use only his empathy ability
+if he is handless.  A healer may use any of his abilities (with the
+exception of resurrection) upon himself.
+d73 2
+a74 2
+Subtract twice the being's Willpower if he Actively Resists (see 31.2)
+the detection of his surface emotions.
+d86 2
+a87 1
+do (see 50.7).}
+d109 1
+a109 1
+particular ability (but see 55.8).
+d134 1
+d153 1
+d168 2
+a169 2
+regeneration abilities (see 55.8), it is best that he work with a
+healer partner.
+d173 4
+d180 1
+a180 1
+time limit on resurrection by pre- serving the dead body of a being.
+d210 1
+a210 1
+qSubtract 1\% for each day of regeneration (see 55.8) it would normally
+d255 1
+d280 2
+a281 1
+with an alchemist (see 50).}
+d330 3
+a332 3
+regeneration it would normally require to make the body whole (Section
+55.7).  The actual resurrection time required is as per preserve
+(that is [60 - 5 \x Rank] minutes).
+@

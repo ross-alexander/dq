@@ -1,0 +1,96 @@
+#!/usr/bin/perl
+
+use XML::LibXML;
+
+sub AddExtras {
+    my ($dom, $dq) = @_;
+
+    if (!$dq->find('//college[@abbrev="NA"]/general-spells'))
+    {
+	my $na = $dq->findnodes('//college[@abbrev="NA"]')->[0];
+	my $gs = $dom->createElement("general-spells");
+	$na->appendChild($gs);
+    }
+    my @nl = $dq->findnodes("//general-spells")->get_nodelist;
+    map {
+	my $college = $_->parentNode()->getAttribute("short");
+	my $ab = $_->parentNode()->getAttribute("abbrev");
+	$college = ucfirst($college);
+	my $gcs = $dom->createElement("spell");
+	my $scs = $dom->createElement("spell");
+	$gcs->setAttribute("name", "$college General Counterspell");
+	$scs->setAttribute("name", "$college Special Counterspell");
+	$gcs->setAttribute("ref", "G-GC");
+	$scs->setAttribute("ref", "G-SC");
+	$gcs->setAttribute("bc", "40 + 3 * Rank");
+	$scs->setAttribute("bc", "40 + 3 * Rank");
+
+	$_->appendChild($gcs);
+	$_->appendChild($scs);
+    } @nl;
+
+    @nl = $dq->findnodes("//general-rituals")->get_nodelist;
+    map {
+	my $p = $dom->createElement("ritual");
+	$p->setAttribute("ref", "Q-0");
+	$p->setAttribute("name", "Purification");
+	$p->setAttribute("bc", "MA + WP + 3 * Rank");
+
+	$_->appendChild($p);
+    } @nl;
+}
+
+sub ConvertCollege {
+    my ($dom, $dq, $file) = @_;
+    open(IN, "$file") || die;
+    my @text = <IN>;
+    close(IN);
+    my ($college, $block, $spell);
+    map {
+	if (/\\begin{college}\[([0-9]+\.[0-9]+)\]{([a-z ]+)}{([A-Za-z ]+)}{([A-Z]+)}/)
+	{
+	    $college = $dq->appendChild($dom->createElement("college"));
+	    $college->setAttribute("version", $1);
+	    $college->setAttribute("short", $2);
+	    $college->setAttribute("full", $3);
+	    $college->setAttribute("abbrev", $4);
+	}
+
+	$block = $college->appendChild($dom->createElement("talents")) if (/\\subsection{Talents}/);
+	$block = $college->appendChild($dom->createElement("general-spells")) if (/\\subsection{General Knowledge Spells}/);
+	$block = $college->appendChild($dom->createElement("special-spells")) if (/\\subsection{Special Knowledge Spells}/);
+	$block = $college->appendChild($dom->createElement("general-rituals")) if (/\\subsection{General Knowledge Rituals}/);
+	$block = $college->appendChild($dom->createElement("special-rituals")) if (/\\subsection{Special Knowledge Rituals}/);
+
+	if (/\\begin{(talent|spell|ritual)}\[([A-Za-z0-9- ]+)\]{([A-Za-z\'\/ -]+)}/)
+	{
+	    $spell = $block->appendChild($dom->createElement($1));
+	    $spell->setAttribute("ref", $2);
+	    $spell->setAttribute("name", $3);
+	}
+	if (m:\\basechance{([A-Za-z0-9\% +*/\\]+):)
+	{
+	    my $bc = $1;
+	    $bc =~ s:\\\%::g;
+	    $bc =~ s:\\x:*:;
+	    $bc =~ s:Automatic::;
+	    $bc =~ s:Perception:PC:;
+	    $bc =~ s:/:*:;
+	    $bc = $bc . " + 3 * Rank" if (!($bc =~ m:\+:));
+	    $spell->setAttribute("bc", $bc) if (length($bc));
+	}
+    } @text;
+}
+
+my $dom = XML::LibXML::Document->new("1.0", "iso-8859-1");
+my $dq = $dom->createElement("dragon-quest");
+$dom->setDocumentElement($dq);
+
+for my $f ('magic/air.tex', 'magic/bardic.tex', 'magic/binder.tex', 'magic/celestial.tex', 'magic/earth.tex', 'magic/enchant.tex', 'magic/fire.tex', 'magic/ice.tex', 'magic/illusion.tex', 'magic/magic.tex', 'magic/mind.tex', 'magic/namer.tex', 'magic/necro.tex', 'magic/rune.tex', 'magic/summoning.tex', 'magic/water.tex', 'magic/witchcraft.tex')
+{
+    &ConvertCollege($dom, $dq, $f);
+}
+
+&AddExtras($dom, $dq);
+
+print $dom->toString(1);

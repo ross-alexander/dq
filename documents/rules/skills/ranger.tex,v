@@ -1,0 +1,890 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL30:3.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.3;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.06.04.05.38.15;	author rossa;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	98.06.04.05.35.10;	author rossa;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	98.05.11.02.03.48;	author rossa;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	98.05.11.01.21.23;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	97.07.24.02.39.46;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	97.04.29.09.06.21;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	96.10.08.01.56.59;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	96.01.12.02.20.38;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.04.07.05.08.49;	author rale01;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.04.06.04.31.26;	author rale01;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{skill}{Ranger}{2.1}{ranger}
+
+Rangers are trained to survive, and perhaps thrive, in wilderness.
+They can feed themselves, shelter from the elements, choose the best
+way to travel and identify natural dangers.  Rangers' general training
+is useful in any outdoors environment but they benefit further from
+learning the specifics of particular environments.
+
+\subsection{Benefits}
+
+\subsubsection{Primary Environment}
+
+A ranger knows far more about the environment with which they are most
+familiar. While in this primary environment the ranger's base
+chances and formulas should be calculated as if they were 2 Ranks
+higher.  A ranger's initial primary environment is that in which
+they learnt the skill. A ranger may later chose to change their
+primary environment during ranking.
+
+The ranger must train in the new environment, the ranking time is
+increased by 1 week and the EP cost for this rank is increased by 50\%
+(to maximum of +3000 EP). To return to a previously learnt primary
+environment the ranger must spend 500 EP and 2 weeks in the
+environment.  After rank 10 a ranger may learn a new environment by
+training for 4 weeks in the new environment and spending 3000 EP.
+
+\subsubsection{Stealth bonus}
+
+While using any of the abilities in this skill a ranger gains a bonus
+to stealth of + 3 / Rank.  No other skill bonuses to stealth may be
+applied at the same time as this bonus.
+
+\subsubsection{Finding Food}
+
+\begin{Description}
+\item[Foraging]
+
+A ranger knows how to find water, edible plants, and animals suitable
+for the pot. Foraging includes finding plants, setting snares, hunting
+small animals, fishing etc. Snares should be left overnight (or even
+days) to be successful.  A ranger does not need to make an attack roll
+but may automatically kill small animals that were caught during
+foraging.
+
+In an average area in one hour a ranger can find enough food to feed
+one person for a day (+ 30 minutes per extra person).  The volume of
+food available is dependant on fertility and season so the GM should
+adjust the time to suit the environment.  If a ranger wants to hunt
+larger animals they should use the Tracking ability to locate game and
+then use an appropriate hunting weapon to kill it (\ie ranged weapons,
+spear).  If they make a successful attack then their quarry is
+immediately killed.  If they miss the animal will flee. If a ranger is
+hunting predators, extremely large animals or sentients they must use
+the combat rules to kill their quarry.  A ranger and mechanician may
+combine their abilities to build and conceal large traps, pit falls,
+etc at the GM's discretion.
+
+\item[Identify and Find Plants and Animals]
+
+A ranger can recognise common plants and animals.  They have a
+(Perception + 10 / Rank)\% chance of resolving whether a strange plant
+or animal is suitable for food. If they roll 10\% or less than their
+success chance they may also notice other properties of the item
+(\eg poisonous, valuable etc).
+
+A ranger can identify the types of entities living in an area from the
+traces they leave behind (tracks, game paths, grazing signs, prey
+remains etc).  This takes about 15 minutes and gives them an idea of
+the variety of animals in the area (\eg the primary carnivore is a
+wolf pack; there is a large herd of red deer, and a flock of pigeons).
+
+A ranger may search for a specific plant or animal (including herbs
+required in the First Aid ability), provided it is native to the
+region.  The base chance is 2 \x PC + 5 / Rank (- 0 if common, - 25 if
+uncommon and -75 if rare).  This roll should be made once per hour
+of searching.
+
+\item[Tracking]
+
+A ranger can follow the tracks left by entities moving on the ground.
+In calm weather, tracks normally last around 10 days but the clarity
+and duration of tracks will be enhanced by the number of entities, or
+soft ground, and reduced by hard ground, rough weather, or if the
+entity is trying to hide their tracks.  The base chance of following
+tracks is Perception (+ 5 / Rank) (+2 / entity in group) (- 4 / Rank
+of quarry's ability to hide tracks).  If a ranger is following a fresh
+track they will be aware when they are close enough to be detected.
+They may then use stealth to sneak up on their quarry and they will be
+able to get 25\% closer than a non-ranger before there is a
+possibility of being detected.
+\end{Description}
+
+\subsubsection{Camping}
+
+\begin{Description}
+\item[Preparing Food]
+
+A ranger knows how to get a fire going, gut and skin animals, and cook
+simple meals over an open fire.
+
+\item[Campsites]
+
+A ranger knows where to set up camp so that they are sheltered from
+the elements, close to water, or other by criteria they may choose
+(\eg hidden or defensible).
+
+A ranger can easily erect tents, they can add extra comfort to a
+campsite by setting up tarps to protect from wind or water, and they
+can take advantage of nearby resources to build a crude shelter.
+\end{Description}
+
+\subsubsection{Travelling}
+
+\begin{Description}
+
+\item[Orientation]
+
+A ranger has a sensitivity towards north. They are able to pinpoint
+true north to within (10 - Rank) degrees and from this they can work
+out the other compass directions.
+
+\item[Map Reading]
+
+A ranger can read a simple map if they can relate their physical
+surroundings to the symbols on that map. There are no standard symbols
+or keys so interpreting a new map is a challenge of the Ranger's
+wits and experience. A ranger may place themselves on a map if they
+can determine the direction of two marked landmarks.
+
+\item[Route Finding]
+
+A ranger is rarely lost and can normally back track to a known point.
+They learn to recognise landmarks from unfamiliar directions and
+estimate the time and effort required to travel through various
+terrain.  A ranger can pick a route through unknown terrain based on
+ease of travel, speed, stealth, or safety etc.  The base chance of the
+ranger picking the best route for their purpose is 2 \x Perception (+5
+/ rank)\%.  The roll should be made by the GM and if the ranger fails
+then the route travelled should be hard or longer or dangerous as
+appropriate.  This roll should only be made once per day.
+
+After a ranger has travelled through an area several times they do not
+need to use known routes but can freely take shortcuts or choose
+better routes.
+
+\item[Distance Estimates]
+
+A ranger can estimate distance travelled overland to within (90 +
+Rank)\% accuracy.
+\end{Description}
+
+\subsubsection{Safety}
+
+\begin{Description}
+
+\item[Detect Hidden]
+
+In a natural setting a ranger may notice hidden entities, or recognise
+an ambush or trap before they walk into it. The base chance is 3 \x
+Perception (+ 5 / Rank) (-5 / Rank of person who did the hiding or set
+the ambush or trap).
+
+\item[Hide Tracks]
+
+A ranger can obscure the tracks of 1 (+ 1 / Rank) entities moving in
+the same direction.  It takes 30 (- 1 / Rank) minutes to obscure 100
+yards of track.  This time may be reduced if the ground is rocky or
+naturally hard.
+
+\item[Hide Entities]
+
+A ranger can attempt to hide 1 (+ 1 / Rank) entities in natural cover.
+The ease of hiding someone is dependent on the available terrain. The
+GM should advise a modifier based on the terrain of 1 (\eg flat open
+ground) to 10 (\eg thick bushes or jungle). The base chance of hiding
+is (modifier \x Rank) - 5.  (NB this ability does not imply that the
+ranger can set up ambushes).
+
+\item[First aid]
+
+A ranger knows simple first aid to prevent minor accidents in the wilderness becoming severe.  The know how to:
+\begin{Itemize}
+\item Stop external bleeding
+\item Splint broken bones
+\item Treat minor burns
+\item Recognise the effects of common natural poisons
+\end{Itemize}
+They also know how to brew tisanes (herbal teas) which help reduce the
+effects of headaches, nausea, fevers and food poisoning.  To make
+tisanes the ranger requires fresh common herbs (which have been picked
+within 24 hours of use).
+
+The First Aid abilities cannot be used in combat.
+\end{Description}
+
+\subsection{Environments}
+\label{ranger:speciality}
+
+The environments a ranger may chose as their primary environment are
+dominated by similarities of climate, terrain and fertility.  These
+environments cover lightly populated areas eg. open farmland, moors,
+but do not include towns, cities, etc.  Some environments overlap.
+
+\begin{Description}
+\item[Arctic]
+
+Includes tundra, steppes, permafrost and ice caps and other infertile lowlands in cold climates.  
+Fertility: Infertile, Seasons: standard, note that winter has no daylight \& summer has no night time.
+
+\item[Caverns]
+
+Includes all caves, tunnels, natural caverns, and other substantial underground areas.
+Fertility: Infertile, Seasons: always low season.
+
+\item[Coastal]
+
+Includes land adjacent to saltwater, estuaries, coastal marshes etc.
+Fertility: Average or poor, Seasons: standard.
+
+\item[Highlands]
+
+Includes hills and mountains, moors, high plateaus.  Also includes
+evergreen forests on steep ground.  These areas are fertile in summer
+but snow or ice covered and hostile in winter.  Fertility: Poor,
+Seasons: standard.
+
+\item[Jungle]
+
+Includes hot climate forests of any sort.  They are particularly
+characterised by heavy undergrowth and high rainfall.  Fertility:
+Rich, Seasons: wet/dry.
+
+\item[Plains]
+
+Includes grasslands, plains, pampas, savannah, prairie, veldt, and
+other more or less open and flat or rolling terrain.  May include low
+hills where the land is open and not wooded.  Fertility: Poor,
+Seasons: standard.
+
+\item[Rural]
+
+Generally mild climate cultivated terrain, lightly inhabited.
+Includes cultivated fields, grazing lands, vineyards, heaths, etc.
+Fertility: Average, Seasons: standard.
+
+\item[Waste]
+
+Includes all deserts, wastelands, salt flats, and other infertile
+lowlands in mild to hot climates.  Fertility: Infertile, Seasons:
+Reversed in hot regions as the most fertile period is autumn and the
+least fertile summer.
+
+\item[Wetlands (freshwater)]
+
+Includes marshes \& swamps, and land adjacent to freshwater rivers,
+lakes \& ponds, etc.  Fertility: Rich, Seasons: standard.
+
+\item[Woods]
+
+Includes mild climate deciduous and evergreen forests or large wooded
+areas with few sentient inhabitants, in mild to cold climates.
+Fertility: Average, Seasons: standard.
+\end{Description}
+
+\begin{table*}
+\subsection{Ranger summary chart}
+\begin{tabularx}{\linewidth}{|l|p{100pt}|X|l|} \hline
+\textbf{Ability}		& \textbf{Base Chance}	& \textbf{Notes}				& \textbf{Time} \\ \hline
+Brew Tisanes			& 90 + 1 / Rank	& Reduces effects of headaches, nausea, fevers and stomach upsets & \\ \hline
+Choosing campsites		& 90 + 1 / Rank	& & \\ \hline
+Detect hidden\& traps		& 3 \x PC + 5 / Rank (-5 / Rank of opposing ability) 	& incl. hidden entities, ambushes & \\ \hline
+Distance Estimates		& 90 + 1 / Rank		& & \\ \hline
+Find specific plant/animal	& 2 \x PC + 5 / Rank (-25 if uncommon / - 75 if rare) 	&	& Roll per hour \\ \hline
+First Aid			& 90 + 1 / Rank		& Stop external bleeding, treat burns, splint bones, recognise poison	&\\ \hline
+Foraging			& 90 + 1 / Rank		& Modified by season and fertility	& 60 mins + 30 per extra person\\ \hline
+Hide Entities			& (Modifier \x rank) - 5& Hides 1 + 1 / Rank entities. Modifier based on available cover & \\ \hline
+Hide Tracks			& 90 + 1 / Rank		& Obscures tracks of 1 + 1 / Rank entities	& 30 - 1 / Rank minutes\\ \hline
+Identify Local Inhabitants	& 90 + 1 / Rank		& & 15 minutes \\ \hline
+Map Reading			& 90 + 1 / Rank		& & \\ \hline
+Orientation			& 90 + 1 / Rank		& & \\ \hline
+Preparing Food			& 90 + 1 / Rank		& & \\ \hline
+Recognise plants/animals	& PC + 10 / Rank	& & \\ \hline
+Route Finding			& 2 \x PC + 5 / Rank	& Rolled by GM			& Roll per day \\ \hline
+Tracking			& PC + 5 / Rank (+ 2 / entity) (- 4 / Rank opposing ranger)	& Tracks last 7 - 10 days & \\ \hline
+\end{tabularx}
+\end{table*}
+\end{skill}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@d1 1
+a1 1
+\begin{skill}{Ranger}{1.0}{ranger}
+d3 5
+a7 8
+A few hardy souls, known as rangers, are trained to survive unequipped
+in wilderness environments.  A ranger develops an instinctive sense of
+direction.  They will become extremely sensitive to signs of
+instrusion by humanoids, and so will become an expert at tracking and
+recognising ambushes.  The ranger is knowledgable in herbalist lore,
+which allows them to distinguish the properties of plants.  A ranger
+will become comfortable with one particular environment, and will
+operate best there.
+d11 1
+a11 95
+\subsubsection{A Ranger can read a simple map if they can relate their
+physical surroundings to the symbols on that map.}
+\index{maps!reading}
+
+Interpreting each new map is a challenge of the Ranger's wits and
+experience. If a character does not have a map-reading skill, they may
+not read maps.
+
+A Ranger may place themselves on a map if they can determine the
+direction of two marked landmarks.
+
+\subsubsection{A ranger acquires a ``bump'' of direction as they
+increase their Rank.}
+
+A ranger instinctively knows the relationship of each of the cardinal
+directions (of the compass) to each other.  They are able to pinpoint
+true north to within (10 - Rank) degrees.  A ranger can also estimate
+distance travelled overland to within (90 + Rank)\% accuracy.  The
+maximum amount of travel which can be estimated by a ranger is (1 +
+Rank) consecutive weeks' worth.  A check must be made to determine the
+accuracy of the Ranger's estimate each time they reach their time
+limit.  Both the above rules are exceptions to the maximum success
+change of (90 + Rank)\% rule.
+
+If a ranger is lost or wishes to travel out of a wilderland by a
+direction other than that by which they came, their success percentage
+to discover the shortest route out is (2 \x Perception + 7 \x Rank)\%.
+The GM rolls percentile dice, and if the roll is equal to or less than
+the success percentage, the ranger character chooses the quickest
+route.  If the roll is between one and two times the success
+percentage, the ranger is unsure of which direction to go, and may
+check again in (12 - Rank) hours.  If the roll is equal to or greater
+than twice the success percentage, the ranger has decided upon a
+random direction as the best.
+
+\subsubsection{A ranger can sometimes recognise an ambush in a natural
+setting before they (or a fellow party member) blunders into it.}
+\index{detect ambush!ranger}
+
+A ranger has a (3 \x Perception + 5 \x Rank)\% chance to detect an
+ambush or trap before they step into it.  Subtract 5\% per Rank of the
+thief or ranger who set the trap or ambush from the success
+percentage.
+
+\subsubsection{A ranger can attempt to track the progress of land bound
+beings through certain types of terrain.}
+
+A ranger may only try to track somebody through terrain which will
+show traces of passage.  For example, a human in armour can be tracked
+through underbrush, but not across a mountain normally.
+
+A ranger's success percentage to track, assuming that their quarry has
+attempted to obscure signs of their passage, is (Perception + 6
+\x Rank)\%.  The percentage is doubled if the quarry did not
+attempt to cover their tracks; it is decreased by four times the Rank
+of a ranger who used their craft in covering the tracks.  If the GM's
+roll on percentile dice is equal to or less than the success
+percentage, the ranger may track their quarry as far as the spoor
+goes. If the roll is greater than the success percentage, the ranger
+loses the trail an appreciable distance before they could run their
+quarry to ground.
+
+If a quarry's tracks can weather the passage of time, a ranger may
+trace tracks of up to (2 + Rank Squared) days ago.
+
+\subsubsection{A ranger can usually recognise the effect a particular
+plant or animal product will have upon a humanoid.}
+
+A ranger can always recognise a common animal or plant product (\eg
+pine cones, deer meat).  When a ranger tries to determine the use of a
+less common animal or plant product, their success percentage is equal
+to (Perception + 10 \x Rank)\%.  If the GM's roll on percentile dice
+is equal to or less than the success percentage, the ranger discovers
+the properties of the substance under analysis.  If the roll is
+between one and two times the success percentage, the ranger is unsure
+of the substance's use.  If the roll is equal to or greater than twice
+the success percentage, the ranger mistakenly identifies the substance
+as something else which it could appear to be.
+
+\subsubsection{A ranger can forage for curative plants in a woods
+habitat.}
+
+If a ranger spends a full day (about 12 hours) foraging in a woods
+area, they may do one of the following:
+
+\begin{Enumerate}
+\item   Cure disease
+\item   Cure fever
+\item   Salve skin irritations
+\item   Restore lost Endurance Points
+\end{Enumerate}
+
+The herbs gathered by the ranger will, when applied to a patient for
+(12 - Rank) minutes, cure as if the ranger were a healer of same Rank
+(see \S\ref{healer:cure}).
+d13 140
+a152 2
+\subsubsection{A ranger can specialise in one particular environment.}
+\label{ranger:speciality}
+d154 1
+a154 4
+When a ranger achieves Rank 2, they may choose one of the environments
+listed below as their speciality.  When a ranger performs an ability
+in the environment of their speciality, they add (2 \x Rank)\% to
+their success percentage.
+d156 1
+a156 1
+A ranger may not specialise in more than one environment.
+d158 34
+a191 3
+\subsubsection{A ranger may increase the chance of a favourable
+reaction when encountering an animal in the environment of their
+speciality.}
+d193 2
+a194 3
+The reaction dice roll is increased by two for every Rank the ranger
+has achieved.  The ranger forfeits this bonus if they (or any
+accompanying party member) take hostile action towards the beast.
+d196 2
+a197 2
+\subsection{Ranger Environment List}
+\label{tables!environments}
+d199 4
+a202 1
+\index{tables!environments}
+d205 5
+d211 22
+a232 11
+Includes all caves, tunnels, natural caverns, and other underground
+areas which are not part of an inhabited dwelling.
+\item[Crypts]
+Includes all barrows, crypts, burial mounds, graveyards, and other
+places of interment for the dead.
+\item[Fields]
+Includes cultivated fields, vineyards, moors, heaths, etc (usually
+near inhabited areas).
+\item[Marshes]
+Includes swamps, meres, ponds, etc.  In addition, small streams and
+rivers are included herein.
+d234 12
+a245 7
+Includes all plains, steppes, and other more or less open and flat or
+rolling terrain.
+\item[Rough]
+Includes both hills and mountains.
+\item[Ruins]
+Includes all abandoned dwellings (cities, castles, monasteries,
+villages, etc).
+d247 11
+a257 2
+Includes all deserts, wastelands, salt flats, where life is not
+likely to be found in profusion.
+d259 4
+a262 2
+All wooded glens, forests, brush land, etc., where large amounts of
+common wildlife are likely to be found and where few humanoids dwell.
+d265 23
+a287 1
+\end{skill}@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 1
+a1 5
+\section{Ranger}
+\label{ranger}
+
+\index{ranger|(}
+\index{skills!ranger|(}
+d106 3
+a108 3
+The herbs gathered by the ranger will, when applied a patient for (12
+- Rank) minutes, cure as if the ranger were a healer of same Rank (see
+\S\ref{healer:cure.disease}).
+d121 1
+a121 1
+reaction when encountering an animal in the environment of
+d141 1
+a141 1
+Includes culitivated fields, vineyards, moors, heaths, etc (usually
+d162 1
+a162 2
+\index{ranger|)}
+\index{skills!ranger|)}
+@
+
+
+3.0
+log
+@REL30
+@
+text
+@@
+
+
+2.4
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+2.3
+log
+@Fix e.g. problem
+@
+text
+@d103 1
+a103 2
+\begin{enumerate}
+\renewcommand{\itemsep}{0pt}
+d108 1
+a108 1
+\end{enumerate}
+d137 1
+a137 1
+\begin{description}
+d164 1
+a164 1
+\end{description}
+@
+
+
+2.2
+log
+@Check in before modifying e.g. and i.e.
+@
+text
+@d86 1
+a86 1
+A ranger can always recognise a common animal or plant product (e.g.,
+@
+
+
+2.1
+log
+@Minor change from Keith Smith.
+@
+text
+@d3 1
+d5 1
+a16 1
+\index{ranger!benefits}
+d20 1
+a20 2
+\index{ranger!map reading}
+\index{map reading!ranger}
+a30 1
+\index{ranger!direction sense}
+d55 1
+a55 1
+\index{ranger!detect ambush}
+a63 1
+\index{ranger!tracking}
+a98 1
+\index{forage}
+a116 1
+\index{ranger!speciality}
+d134 3
+a136 2
+\label{envionment.list}
+\index{environment list}
+d167 2
+a168 1
+\index{ranger|)}@
+
+
+2.0
+log
+@REL20
+@
+text
+@d9 1
+a9 1
+recognising ambushes.  The ranger is knowledgable in herablist lore,
+@
+
+
+1.5
+log
+@Map reading changed so to become under Benefits.  Ross Alexander.
+@
+text
+@@
+
+
+1.4
+log
+@Map reading added.
+@
+text
+@d14 5
+a18 1
+\subsection{Map Reading}
+d22 3
+a24 4
+A Ranger can read a simple map if they can relate their physical
+surroundings to the symbols on that map. Interpreting each new map is
+a challenge of the Ranger's wits and experience. If a character does
+not have a map-reading skill, they may not read maps.
+a27 3
+
+\subsection{Benefits}
+\index{ranger!benefits}
+@
+
+
+1.3
+log
+@Release 1.0 snapshot
+@
+text
+@d3 1
+d14 12
+d27 2
+d31 1
+d56 1
+d65 1
+d120 1
+d139 1
+d169 2
+@
+
+
+1.2
+log
+@Corrections done form March printed version
+@
+text
+@d2 1
+d6 6
+a11 6
+direction.  He will become extremely sensitive to signs of instrusion
+by humanoids, and so will become an expert tracker and recognizer of
+ambushes.  The ranger is knowledgable in herablist lore, which allows
+him to distinguish the properties of plants.  A ranger will become
+comfortable with one particular environment, and will operate best
+there.
+d14 2
+a15 2
+\subsubsection{A ranger acquires a ``bump'' of direction as he increases his
+Rank.}
+d18 1
+a18 1
+directions (of the compass) to each other.  He is able to pinpoint
+d20 6
+a25 6
+the distance he has travelled overland to within (90 + Rank)\%
+accuracy.  The maximum amount of travel which can be estimated by a
+ranger is (1 + Rank) consecutive weeks' worth (see 83.4).  A check
+must be made to determine the accuracy of the Ranger's estimate each
+time he reaches his time limit.  Both the above rules are exceptions
+to the maximum success change of (90 + Rank)\% rule.
+d28 9
+a36 9
+direction other than that by which he came, his success percentage to
+discover the shortest route out is his (2 \x Perception + 7
+\x Rank)\%.  The GM rolls percentile dice, and if the rou is
+equal to or less than the success percentage, the ranger character
+chooses the quickest route.  If the roll is between one and two times
+the success percentage, the ranger is unsure of which direction to go,
+and may check again in (12 - Rank) hours.  If the roll is equal to or
+greater than twice the success percentage, the ranger has decided upon
+a random direction as the best.
+d39 1
+a39 6
+setting before he (or a fellow party member) blunders into it.}
+
+A ranger has a (3 \x Perception + 5 \x Rank)\% chance to
+detect an ambush or trap before he steps into it.  Subtract 5\% per
+Rank of the thief or ranger who set the trap or ambush from the
+success percentage.
+d41 4
+d53 2
+a54 2
+A ranger's success percentage to track, assuming that his quarry has
+attempted to obscure signs of his passage, is (Perception + 6
+d56 7
+a62 6
+attempt to cover his tracks; it is decreased by four times the Rank of
+a ranger who used his craft in covering the tracks.  If the GM's roll
+on percentile dice is equal to or less than the success percentage,
+the ranger may track his quarry as far as the spoor goes. If the roll
+is greater than the success percentage, the ranger loses the trail
+an appreciable distance before he could run his quarry to ground.
+d72 8
+a79 8
+less common animal or plant product, his success percentage is equal
+to (Perception + 10 \x Rank)\%.  If the GM's roll on percentile
+dice is equal to or less than the success percentage, the ranger
+discovers the properties of the substance under analysis.  If the roll
+is between one and two times the success percentage, the ranger is
+unsure of the substance's use.  If the roll is equal to or greater
+than twice the success percentage, the ranger mistakenly identifies
+the substance as something else which it could appear to be.
+d86 1
+a86 1
+area, he may do one of the following:
+d96 3
+a98 4
+The herbs gathered by the ranger will, when he applies them to his
+patient for (12 - Rank) minutes, cure as if he were a healer of his
+ranger Rank (see \S\ref{healer:cure.disease} and
+\S\ref{healer:cure.damage}).
+d103 4
+a106 4
+When a ranger achieves Rank 2, he may choose one of the environments
+listed in 63.1 as his speciality.  When a ranger performs an ability in
+the environment of his speciality, he adds (2 \x Rank)\% to
+his success percentage.
+d110 2
+a111 2
+\subsubsection{A ranger may increase the chance of a favourable reaction
+(see 64) when encountering an animal in the environment of his
+d115 34
+a148 3
+has achieved.  The ranger forfeits this bonus if he (or any
+accompanying party member) takes hostile action towards the
+beast.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d16 9
+a24 9
+A ranger instinctively knows the relationship of each of the
+cardinal directions (of the compass) to each other.  He is able to
+pinpoint true north to within (10 - Rank) degrees.  A ranger can
+also estimate the distance he has travelled overland to within (90 +
+Rank)\% accuracy.  The maximum amount of travel which can be
+estimated by a ranger is (1 + Rank) consecutive weeks' worth (see
+83.4).  A check must be made to determine the accuracy of the Ranger's
+estimate each time he reaches his time limit.  Both the above rules
+are exceptions to rule 48.4.
+d33 1
+a33 1
+and may check again in(12 - Rank) hours.  If the roll is equal to or
+d40 1
+a40 1
+A ranger has a (3 \x Perception) + [5 \x Rank)\% chance to
+d64 1
+a64 1
+trace tracks of up to (2 + [Rank Squared]) days ago.
+d97 2
+a98 1
+ranger Rank (see 55.3 and 55.5).
+@

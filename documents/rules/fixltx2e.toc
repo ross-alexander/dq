@@ -1,0 +1,63 @@
+\contentsline {section}{\numberline {1}Introduction}{2}
+\contentsline {subsection}{\numberline {1.1}Using \textsf {fixltx2e}}{3}
+\contentsline {subsection}{\numberline {1.2}Using \textsf {fix-cm}}{3}
+\contentsline {section}{\numberline {2}Fixes added}{3}
+\contentsline {subsection}{\numberline {2.1}2-col: 1-col fig can come before earlier 2-col fig (pr/2346)}{3}
+\contentsline {subsubsection}{\numberline {2.1.1}Notes on the Implementation Strategy}{4}
+\contentsline {subsection}{\numberline {2.2}Wrong header for twocolumn (pr/2613)}{5}
+\contentsline {subsubsection}{\numberline {2.2.1}Notes on the Implementation Strategy}{5}
+\contentsline {subsection}{\numberline {2.3}\texttt {\textbackslash @} discards spaces when moving (pr/3039)}{6}
+\contentsline {subsection}{\numberline {2.4}\texttt {\textbackslash setlength} produces error if used with registers like \texttt {\textbackslash dimen0} (pr/3066)}{6}
+\contentsline {subsection}{\numberline {2.5}\texttt {\textbackslash addpenalty} ruins flush-bottom (pr/3073)}{6}
+\contentsline {section}{\numberline {3}Fixes added for 2003/06/01}{6}
+\contentsline {subsection}{\numberline {3.1}\texttt {\textbackslash fnsymbol} should use text symbols if possible (pr/3400)}{6}
+\contentsline {subsection}{\numberline {3.2}No hyphenation in first word after float environment (pr/3498)}{7}
+\contentsline {subsection}{\numberline {3.3}Allowing \texttt {\textbackslash emph} to produce small caps, etc}{7}
+\contentsline {subsection}{\numberline {3.4}Using EC fonts (T1 encoding) makes my documents look bl**dy horrible (from c.t.t.)\\ I can't use arbitrary sizes with CM fonts (from c.t.t.)}{7}
+\contentsline {subsubsection}{\numberline {3.4.1}What \textsf {fix-cm} does}{8}
+\contentsline {subsubsection}{\numberline {3.4.2}How to load the package}{9}
+\contentsline {subsubsection}{\numberline {3.4.3}Usage notes}{9}
+\contentsline {section}{\numberline {4}Fixes added for 2005/12/01}{9}
+\contentsline {subsection}{\numberline {4.1}\texttt {\textbackslash textsubscript} not defined in latex.ltx (pr/3492)}{9}
+\contentsline {subsection}{\numberline {4.2}\texttt {\textbackslash DeclareMathSizes} only take pts. (pr/3693)}{9}
+\contentsline {subsection}{\numberline {4.3}\texttt {\textbackslash addpenalty} ruins flush-bottom (pr/3073)}{10}
+\contentsline {subsection}{\numberline {4.4}\texttt {\textbackslash footnotemark[x]} crashes with fixltx2e.sty (pr/3752)}{10}
+\contentsline {subsubsection}{\numberline {4.4.1}Notes on the implementation strategy}{10}
+\contentsline {subsection}{\numberline {4.5}Fewer fragile commands}{11}
+\contentsline {subsubsection}{\numberline {4.5.1}Notes on the implementation strategy}{11}
+\contentsline {section}{\numberline {5}Fixes added for 2014/05/01}{12}
+\contentsline {subsection}{\numberline {5.1}Check the optional arguments of floats}{12}
+\contentsline {subsection}{\numberline {5.2}Infinite glue found (pr/4023 and pr/2346)}{12}
+\contentsline {section}{\numberline {6}Implementation}{12}
+\contentsline {subsection}{\numberline {6.1}2-col: 1-col fig can come before earlier 2-col fig (pr/2346) \\ Wrong headline for twocolumn (pr/2613)}{12}
+\contentsline {subsubsection}{\numberline {6.1.1}Preserving Marks}{12}
+\contentsline {subsubsection}{\numberline {6.1.2}Preserving Float Order}{14}
+\contentsline {subsection}{\numberline {6.2}\texttt {\textbackslash @} discards spaces when moving (pr3039)}{19}
+\contentsline {subsection}{\numberline {6.3}\texttt {\textbackslash setlength} produces error if used with registers like \texttt {\textbackslash dimen0} (pr/3066)}{20}
+\contentsline {subsection}{\numberline {6.4}\texttt {\textbackslash addpenalty} ruins flush-bottom (pr/3073)}{20}
+\contentsline {subsection}{\numberline {6.5}\texttt {\textbackslash fnsymbol} should use text symbols if possible (pr/3400)}{21}
+\contentsline {subsection}{\numberline {6.6}No hyphenation in first word after float environment(pr/3498)}{22}
+\contentsline {subsection}{\numberline {6.7}Allowing \texttt {\textbackslash emph} to produce small caps, etc}{22}
+\contentsline {subsection}{\numberline {6.8}\texttt {\textbackslash textsubscript} not defined in latex.ltx (pr/3492)}{22}
+\contentsline {subsection}{\numberline {6.9}\texttt {\textbackslash DeclareMathSizes} only take pts. (pr/3693)}{23}
+\contentsline {subsection}{\numberline {6.10}Fewer fragile macros}{23}
+\contentsline {subsection}{\numberline {6.11}Using EC fonts (T1 encoding) makes my documents look bl**dy horrible}{24}
+\contentsline {subsubsection}{\numberline {6.11.1}Preliminaries}{24}
+\contentsline {subsubsection}{\numberline {6.11.2}T1 encoding}{25}
+\contentsline {paragraph}{CM Roman}{25}
+\contentsline {paragraph}{CM Sans}{27}
+\contentsline {paragraph}{CM Typewriter}{27}
+\contentsline {paragraph}{CM Typewiter (var.)}{28}
+\contentsline {subsubsection}{\numberline {6.11.3}TS1 encoding}{29}
+\contentsline {paragraph}{CM Roman}{29}
+\contentsline {paragraph}{CM Sans}{30}
+\contentsline {paragraph}{CM Typewriter}{31}
+\contentsline {paragraph}{CM Typewriter (var.)}{32}
+\contentsline {subsubsection}{\numberline {6.11.4}OT1 encoding}{32}
+\contentsline {paragraph}{CM Roman}{32}
+\contentsline {paragraph}{CM Sans}{33}
+\contentsline {paragraph}{CM Typewriter}{34}
+\contentsline {paragraph}{CM Typewriter (var.)}{34}
+\contentsline {subsubsection}{\numberline {6.11.5}OML and OMS encoded math fonts}{35}
+\contentsline {subsubsection}{\numberline {6.11.6}\LaTeX {} symbols}{35}
+\contentsline {subsection}{\numberline {6.12}Check the optional argument to floats}{35}

@@ -1,0 +1,1017 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL30:3.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.4;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.2;
+
+4.2
+date	2000.02.29.11.46.11;	author ralexand;	state Exp;
+branches;
+next	4.1;
+
+4.1
+date	2000.02.29.11.44.54;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.06.04.05.38.15;	author rossa;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	98.06.04.05.35.10;	author rossa;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	98.05.11.02.03.45;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	98.05.11.01.21.22;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	97.02.07.03.28.39;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	96.01.12.02.21.39;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	95.06.10.14.08.44;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.04.07.05.08.49;	author rale01;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.04.06.04.31.26;	author rale01;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{skill}{Languages}{2.0}{languages}
+
+The campaign has many languages. Each sentient race usually has one
+intrinsic to itself, or more if that race is split into various
+populations. There is no universal language, but Common is the first
+language of several nations.
+
+\subsection{Restrictions}
+
+A language may not be known above its maximum rank. Characters may not
+speak a tongue for which they do not have the vocal apparatus.
+Characters may not learn a language without instruction from a source
+of at least the same rank as that being learnt.
+
+\subsection{Structure}
+
+\begin{Description}
+
+\item[Family] Each Language belongs to one particular Family of
+intrinsically related tongues (see \S\ref{languages:families}).
+
+\item[Language Group] History, geography, and custom all transform
+languages --- therefore languages with a common history or interaction
+share the same Language Group (see \S\ref{languages:groups}). A
+language may belong to several groups, and a group may link languages
+from different Families.
+
+\end{Description}
+
+Learning a language is easier if one already knows a related or similar
+language at a higher rank. The EP discount is:
+\begin{Itemize}
+
+\item 20\% if in the same Family or Group;
+
+\item 30\% if in both the same Group and the same Family. 
+\end{Itemize}
+
+\subsection{Benefits}
+
+Languages vary in their complexity; a low maximum rank may indicates
+less versatility, vocabulary, or foreignisms.
+
+At Rank 0 in a language, you cannot speak it, but can probably sense
+the general mood of plain statements: a threat, a greeting, etc.
+Thereafter, with increasing rank, one's competency and vocabulary
+progressively increase, as compared to humans, using a typical human
+language, to talk about every-day things in their village.
+
+\begin{Description}
+
+\item[Rank] Effect (\& approximate Vocabulary).
+
+\item[1] Some of the simple, common words (2\%).
+
+\item[2] A few simple statements (5\%).
+
+\item[3] Common phrases, including basic directions; several tenses;
+Effectively rank 0 in all other languages of that Group (20\%).
+
+\item[4] Common idioms; more tenses; can give passable descriptions of
+events or people; Effectively rank 0 in all other languages of the
+same Family (70\%).
+
+\item[5] Rarer idioms; most tenses; sufficient to use most professional skills (90\%).
+
+\item[6] Normal, every-day fluency \& usage; can give clear \&
+accurate descriptions of events or people; Effectively rank 1 in all
+other languages of that Group (100\%).
+
+\item[7] Courtly or professional speaker (120+\%).
+
+\item[8] Can express any conceivable thought; may cast college magic;
+Effectively rank 1 in all others of the same Family (200+\%).
+
+\item[9] Effectively rank 2 in all other languages of that Group (400+\%).
+
+\item[10] Maximum mastery of the language (500+\%).
+
+\end{Description}
+
+Note that some languages are very limited. For example, many concepts
+or emotions cannot be articulated in Troll.
+
+\subsection{Literacy}
+
+Literacy in a language is distinct from the skill of speaking. It is
+easily learnt if the written form is alphabetic. Most cultures have a
+large proportion of the population that is illiterate.
+
+Not all languages have a written form. It is not possible to attain
+literacy in a language that does not have an established written
+form. One may attempt to transcribe that language, adapting a known
+script, but the ``writing'' produced is ineffectual for communicating
+with others.
+
+\subsubsection{Phonetic Reading \& Writing}
+
+Most Alusian languages are written using a phonetic alphabet: a set of
+signs representing, one-to-one, all the sounds of that language.
+Historically, a recently literate language usually re-uses an
+established alphabet with minor variations. Therefore there are many
+languages, but few alphabets.
+
+For each alphabet, the cost is 1000 EP and 4 weeks the first time you
+learn literacy using it; literacy in a subsequent language, using the
+same alphabet, is only 500 EP and 2 weeks. Sometimes, for different
+cultures, one language is written in different phonetic alphabets. If
+so, you must pay the time and EP for each one you learn.
+
+\subsubsection{Table of known Alusian alphabets}
+\label{languages:scripts}
+\begin{Description}
+\item[b] Bedouin script (human, flowing, cursive).
+
+\item[d] Drakonic.
+
+\item[e] Elvish script.
+
+\item[i] Island (used near the land-locked ocean).
+
+\item[k] Kingdom (used near  the Azurian Empire).
+
+\item[n] Nagan (elaborate, but versatile).
+
+\item[o] Ogham (human, rune-like).
+
+\item[r] Dwarvish runes.
+
+\item[w] Westron (usual Western human alphabet; also adopted by many
+newly literate societies).
+
+
+\end{Description}
+
+\subsubsection{Orthographic languages}
+
+A literate language not using a truly phonetic alphabet is
+orthographic --- \eg it uses pictograms, or an elaborate spelling
+structure. The written form is so complex that it must be learned as
+if it were, in effect, another language of the same language family
+(\eg written and spoken Erehleine are treated as two separate members
+of the Eldar Family). Hence one often speaks and writes an
+orthographic language at different ranks. Orthographic languages are
+indicated in \S\ref{languages:families} by an asterisk (*). Each
+orthographic system is functionally unique to its particular language.
+
+\subsection{Special rules}
+
+\begin{Description}
+
+\item[Common] is easily learnt. Knowledge of any other language at a
+higher rank gives a 50\% EP discount.
+
+\item[Accent] Every speaker has an accent which reflects a mixture of
+their native language and the tutors from whom one learnt the
+language.  At Rank 6 or higher, any speaker may gain a particular
+accent by spending 500 EP and 1--3 weeks study or being tutored (the
+GM decrees how much time is necessary).
+
+\item[Unpronounceable Tongues] all languages of the Dragon Family
+(except Saurime) require unusual vocal apparatus. No humanoid race may
+normally speak these tongues. However, you may rank the language at
+twice normal cost, to gain comprehension. Alphabetic literacy in an
+unpronounceable language costs 2000 EP and 8 weeks. If you do have the
+physiological or magical ability to speak such languages, you may rank
+them without penalty.
+
+\item[Immersion] If character spends a number of weeks listening to a
+particular language being spoken daily and frequently by speakers who
+use it at a rank higher than the character knows it, the GM may allow
+that character to use those weeks as ranking time for that language in
+addition to any other activity undertaken \eg going on adventure,
+other training, etc. The EP must still be paid. A character may only
+rank one language by immersion at any one time.
+
+\item[New languages] when a new language is introduced into the
+campaign, the GM concerned must determine the following:
+\begin{Enumerate}
+\item Its Family and any language groups. 
+
+\item Whether it has a written form --- and, if so, is it phonetic or
+orthographic? If it is alphabetic, what alphabet is used?
+
+\item Its maximum rank. 
+\end{Enumerate}
+\end{Description}
+
+
+\subsection{Language Families}
+\label{languages:families}
+
+
+The figure in [ ] represent the maximum rank that can be achieved with
+the language; the letter(s) represent the phonetic alphabet(s) used,
+and * identifies orthographic languages. If no letter or asterisk is
+given, the language does not have an established written form.
+
+\begin{Description}
+
+\item[Common] Common [9i,k,w].
+
+\item[Western-Human] Alman[9o,w], Brett\-[9o,e], Des\-tin\-ian\-[8w],
+Ebolan\-[9w], Folk\-sprach\-[9w], Lalange\-[10w], Rani\-terran\-[9e],
+Reich\-spiel\-[9w].
+
+\item[Central-Human] Arabiq[9b], Draknbrger[9w], Ellenic[10i],
+Kravonian[9*], Panjari[9*], Pasifikan[8], Sanddweller[9e],
+Sea-of-Grass[9], Themiskryan [9i,*].
+
+\item[Eastern-Human] Five-Sisters-Courtly[10*],
+Five-Sisters-Trader[9*], Lunar-Empire[9*].
+
+\item[Merfolk] [?,?].
+
+\item[Eldar] Drow\-[9e], Eldaran\-[10d], Elv\-ish\-[10e], Ereh\-leine\-[10*],
+Frog\-elf\-[8*], Purple-Drow\-[9e], Purple-Old-Drow\-[9e], Quenchan\-[10*],
+Terra\-novan-Drow\-[9*].
+
+\item[Faerie] Brownie[7], Centaur[9i], Dryad[6], Fossegrim[6],
+Leprechaun[6], Nixie[6], Nymph[7], Pixie[7], Satyr[7], Sylphine[6].
+
+\item[False-Fey] Doppel\-ganger[8], Gargoyle[6], Harpy\-[7], Medusa[6].
+
+\item[Earth-Dweller] Gnomish[9r], Goblin[8w], Half\-ling\-[9r],
+Hob\-goblin[8w], Khuzdul[9r], Kobold[8], Dwarv\-ish[9r], Ogre[6w],
+Orcish[9w], Sasquatch[3], Troll[4], Yeti[3].
+
+\item[Giant] Cloud[9w], Fire[9w], Frost[9w], Hill[8w], Stone[8w],
+Storm[9w], Titan[10i].
+
+\item[Dragon] Culhuan\-[10*], Draconic\-[10d], Nagan[10n],
+Old-High-Draconic\-[10d], Saurime\-[7d], Wyvern\-[4].
+
+\item[Signing] Silent-Tongue[6], Bandito [5].
+
+\end{Description}
+
+\subsection{Language groups}
+\label{languages:groups}
+
+\begin{Description}
+
+\item[Archaic] Eldaran, Purple-Old-Drow, Quenchan.
+
+\item[Draconic] Draconic, Nagan, Old-Draconic, Wyvern.
+
+\item[Dravidic] Drow, Raniterran, Sanddweller.
+
+\item[Dwarvic] Dwarvish, Gnomish, Halfling, Khuzdul.
+
+\item[Dwarvidic] Alman, Brett, Ebolan, Folksprach, Reichspiel.
+
+\item[Ellenic] Centaur, Ellenic.
+
+\item[Elvic] Drow, Eldaran, Elvish, Erehleine, Purple-Drow, Terranovan-Drow.
+
+\item[Elvidic] Elvish, Lalange.
+
+\item[Gnomic] Fossegrim, Gnomish.
+
+\item[Herpetic] Culhuan, Saurime.
+
+\item[Littoral] Destinian, Ebolan.
+
+\item[Low Gigantic] Hill-Giant, Ogre, Stone-Giant.
+
+\item[Nomadic] Draknbrger, Kravonian, Sea-of-Grass.
+
+\item[Orcal] Goblin, Hobgoblin, Kobold, Ogre, Orcish.
+
+\item[Panic] Centaur, Dryad, Nymph, Satyr, Sylphine.
+
+\item[Perfidic] Fossegrim, Nixie, Pixie.
+
+\item[Protonic] Eldaran, Old-Draconic, Draconic.
+
+\item[Purpuric] Purple-Drow, Purple-Old-Drow.
+
+\item[Rustic] Brownie, Leprechaun.
+
+\item[Titanic] Cloud-Giant, Storm-Giant, Titan.
+
+\end{Description}
+\end{skill}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@@
+
+
+4.2
+log
+@Version 2.0 of languages document.
+@
+text
+@d5 1
+a5 1
+populations. There is no universal language; but Common is the first
+d15 1
+a15 1
+\subsection{Structure of languages}
+d24 3
+a26 3
+share the same Language Group (see \S\ref{languages:groups}). Clearly,
+one language may belong to several groups; and sometimes one group
+will link languages from different Families.
+d30 1
+a30 1
+Learning a language is easier if one already know a related or similar
+d39 1
+a39 1
+\subsection{Benefits of Rank}
+d42 1
+a42 1
+less versatility, vocabulary, foreignisms.
+d48 1
+a48 1
+language, to talk about any every-day things in their village.
+d174 2
+a175 2
+other training, etc. Of course the EP must still be paid. A character
+may only rank one language by immersion at any one time.
+@
+
+
+4.1
+log
+@Final checkin of version 1.2 before 2.0 is rolled out.
+@
+text
+@d1 1
+a1 1
+\begin{skill}{Languages}{1.2}{languages}
+d3 4
+a6 7
+There are many languages and dialects in the world.  Each sentient
+species has at least one language intrinsic to itself, and frequently
+more if it has culturally or geographically separated populations.
+There is no totally universal language; however, \emph{Common}, which
+is the first language of several human nations, is also used as a
+lingua franca by some members of most species, especially in
+interracial conversations.  Common is also called the trade tongue.
+a7 7
+A language usually has other related tongues which it sometimes
+resembles, principally in the vocabulary and grammar, but often in
+underlying racial concepts as well.  A speaker usually finds it easier
+to learn a related language than an unrelated one. The families into
+which languages are grouped are listed in the Language Table
+(\ref{languages:table}).
+
+d10 4
+a13 2
+\subsubsection{A character must spend Experience Points, time and
+perhaps money to increase Rank in a language.}
+d15 1
+a15 10
+Normally it takes 1 week of training to reach Rank 0, and 2 \x (Rank
+to be achieved) weeks to improve.  However, it takes only 1 \x (Rank
+to be achieved) weeks of training and half the listed experience to
+improve in any tongue when the character speaks some other tongue of
+the same language family at a higher Rank.  If one is Rank 3 in a
+tongue one is automatically Rank 0 in all other tongues of the same
+Language family.  Common belongs to no particular Language family, but
+it is easily learnt, taking only 1 \x (Rank to be achieved) weeks of
+training and half the listed experience to improve if the character
+speaks any other tongue at a higher Rank.
+d17 1
+a17 2
+\subsubsection{Literacy in a language is a separate ability from the
+skill of speaking that language.}
+d19 2
+a20 7
+Many cultures have some social classes or professions (frequently most
+of the population) that are illiterate.  The written forms of most
+languages are alphabetical and essential phonetic. A few languages are
+not written in character-based form, or the equivalent.  In such a
+case, the written form of the tongue is so complex that it must be
+learned as if it certain essential were another language of the same
+language family, \eg Erelhein.
+d22 5
+a26 3
+Sometimes the same language is customarily written in different
+alphabets by differing cultures.  The identified alphabets are listed
+below.
+d28 22
+a49 1
+\textbf{Class}\hspace{1.0cm}\textbf{Alphabet}
+d51 29
+a79 12
+\item[b] Bedouin script (human, cursive)
+\item[d] Drakonic
+\item[e] ``Elvish'' script
+\item[i] Island (used in and around the land-locked ocean)
+\item[k] Kingdom (used in the Azurian Empire and satellite nations)
+\item[n] Nagan (elaborate, but versatile)
+\item[o] Ogham (human, rune-like)
+\item[r] Dwarvish runes
+\item[w] ``Standard'' Western (used by most Common speakers in the
+West; has also been adopted and adapted by many newly literate
+societies)
+\item[*] Language is written in characters.
+d82 2
+a83 7
+It takes 4 weeks and 1000 EP to be literate in any one form of any
+language although it will take only 2 weeks and only 500 EP to be
+literate in any one form of any one language if the character is
+either literate in some other form of the language and/or is literate
+in some different language which uses an almost identical alphabet.
+When one is literate in a language, one writes and reads comparatively
+as well as one speaks it.
+d85 1
+a85 1
+\subsubsection{Not all languages have a written form.}
+d87 3
+a89 4
+It is not possible to attain literacy in languages that do not have a
+written form.  This is not to say that they may not be represented in
+a phonetic form in a language in which the character has literacy, but
+this is of no value in communication.
+d91 5
+a95 1
+\subsubsection{Not all languages have the same complexity.}
+d97 1
+a97 3
+That is, not all languages have the same maximum rank because not all
+languages need the same degree of versatility and vocabulary.  For
+example, only player characters' racial tongues go to rank 10.
+d99 5
+a103 4
+For any language with a maximum rank of 8 or less, maximum rank
+represents native fluency, (maximum - 1) rank represent, fluency
+with a foreign accent, and rank 0 represents only a limited grasp of
+some of the basics.
+d105 5
+a109 2
+\subsubsection{The ease with which a character can engage in
+conversation in a language is guided by their rank in it.}
+d111 4
+a114 1
+The table below is constructed for a language with maximum rank of 10.
+d116 1
+a116 5
+\begin{Enumerate}
+\setcounter{enumi}{-1}
+\item
+Possibly understands mutually common simple concepts when slowly
+spoken, accompanied by gestures, etc.
+d118 1
+a118 3
+\item
+Can speak, recognise and understand certain essential stock phrases
+such as ``Help'', ``Hello, my name is ...'', ``Ein Bier'', etc.
+d120 1
+a120 2
+\item
+Knows a wider range of useful phrases and some general vocabulary.
+d122 1
+a122 3
+\item
+Can apply some basic grammar to make the limited phrases and
+vocabulary more flexible.
+d124 1
+a124 3
+\item
+Can converse (slowly) in a specialised field, \eg in one's merchant
+specialities.
+d126 1
+a126 4
+\item
+Understands most of the grammar.  Can comprehend anything, provided
+the natives speak clearly and they don't mind occasionally rephrasing
+themselves.
+d128 1
+a128 3
+\item
+Can converse on any subject, but not fluently. Confused by rare idioms
+or other irregularities.
+d130 2
+a131 3
+\item
+Is as fluent as a native, but has non-native accent or turn of
+phrase.
+a132 5
+\item
+Normal level of native speakers.  Is as fluent as a native and can
+pass for one.  Recognises some accents of dialect or style, and can
+imitate some of them with varying success.  Immediately understands
+all but the most obscure dialects.
+d134 1
+a134 3
+\item
+Can imitate several dialects/styles accurately and understands
+nuances that natives would not normally be aware of.
+d136 1
+a136 5
+\item
+This is maximum mastery - as competent as rank 9 but more dialects are
+known.  Can pick up a new dialect/style after only hearing it a brief
+while.
+\end{Enumerate}
+d138 9
+a146 2
+\subsubsection{Demons' linguistic skills are exceptions to the
+above rules.}
+d148 1
+a148 2
+These rules do not apply to Demons or other creatures from the Demonic
+planes.
+d150 1
+a150 7
+\subsection{Language Table}
+\label{languages:table}
+The figures in [] represent the maximum rank that can be achieved with
+the language.  The letters in [] represent the alphabet(s) used
+(sometimes slightly modified).  Note particularly that Common is
+sometimes written differently in different areas, although it
+essentially sounds the same in all areas.
+d152 2
+a153 2
+Languages are listed in their  family groups, and separate tables list
+these groups according to whether or not they have a written form.
+d155 5
+a159 1
+\subsubsection{Languages which have a written form.}
+d161 18
+a178 1
+There are 14 Language Families that have a written form.
+d180 6
+a185 14
+\item Common [10;i,k,w]
+\item Western Human [8 to 10; b,i,k,o,w, and * only in rare and archaic circumstances]
+\item Eastern Human [8 to 10; often *]
+\item Elf [10;e], Erelhein [10;*], Drow [10;e]
+\item Merfolk [8 to 10; various],
+\item Suarime [8;d], Dragon [10;d]
+\item Giantish (6 dialects) [10;w], Titan [9;i]
+\item Dryad [6;e], Sylph [6;e], Nymph/Satyr [8;e]
+\item Brownie [7;e], Leprechaun [6;e]
+\item Fossergrim [6;r], Pixie [7;r]
+\item Dwarvish [10;r], Hobbit [10;r] Gnome [9;r]
+\item Goblin [8;w], Hobgoblin [8;w] Orc [10;w], Ogre [6;w]
+\item Gorgon [6;i], Centaur [8;i]
+\item Naga [7;n]
+d187 1
+a188 1
+\subsubsection{Languages which have no written form.}
+d190 2
+a191 1
+There exist Language Families that have no written form.
+a192 11
+\begin{Enumerate}
+\item	Silent Tongue [6]
+\item   Sphinx [7]
+\item   Direwolf [6]
+\item   Sasquatch [3], Yeti [3]
+\item   Gargovie [6], Harpy [7]
+\item   Gryphon [3]
+\item   Pegasus [6], Unicorn [6]
+\item   Wyvern [4]
+\item   Gnollish [7], Troll [4], Kobold [8]
+\end{Enumerate}
+d194 4
+a197 2
+\subsubsection{Only those languages listed in the Language table may be
+learned by characters.}
+d199 1
+a199 5
+``Languages'' such as horse, cat, dolphin, etc., are not considered
+languages for the purposes of these rules.  This does not preclude the
+use of magic in communicating, or special abilities granted by
+powerful beings, it simply means that a character may not learn them
+in the normal sense.
+d201 1
+a201 2
+\subsubsection{A GM must assign certain characteristics to a new
+language when it is introduced.}
+d203 3
+a205 14
+If a new language is to be introduced the GM must determine the
+following.
+\begin{Enumerate}
+\item
+Assign a language group.
+\item
+Determine whether it has a written form (\ie characters can obtain
+literacy).
+\item
+If written, determine whether it is character or phonetically based,
+and the alphabet(s) that apply.
+\item
+The maximum rank.
+\end{Enumerate}
+d207 3
+a209 1
+\subsection{Codes / Ciphers}
+d211 2
+a212 2
+\index{codes}
+\index{ciphers}
+d214 1
+a214 5
+This language allows a character to create and read codes.  It ranks
+as any other language, though rarely are codes employed with a
+vocabulary of greater than rank 6.  The time required to create a code
+is 1 hour + 1 hour per rank of the code to be created, up to the rank
+of the person creating it.
+d216 3
+a218 8
+The character may attempt to break codes with which they are
+unfamiliar.  The Base Chance of successfully doing this is
+(A + B - C) \x 5\%, where -
+\begin{flushleft}
+A = 3 \x sum of ranks employed on the job \\
+B = 2 \x days of study \\
+C = 4 \x rank of code \\
+\end{flushleft}
+d220 2
+a221 4
+The minimum time that can be used to break a code is 24 hours minus
+the average rank of the code-breakers, unless they have the code key
+(for example a book from which the code is derived) in which case the
+BC is improved by 20\% and the minimum time halved.
+d223 62
+@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 1
+a1 2
+\section{Languages}
+\label{languages}
+a2 3
+\index{languages|(}
+\index{skills!languages|(}
+
+d251 1
+a251 2
+\index{languages|)}
+\index{skills!languages|)}
+@
+
+
+3.0
+log
+@REL30
+@
+text
+@@
+
+
+2.3
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+2.2
+log
+@Fix e.g. problem
+@
+text
+@d54 1
+a54 2
+\begin{description}
+\renewcommand{\itemsep}{0pt}
+d67 1
+a67 1
+\end{description}
+d100 1
+a100 1
+\begin{enumerate}
+d148 1
+a148 1
+\end{enumerate}
+d170 1
+a170 2
+\begin{enumerate}
+\renewcommand{\itemsep}{0pt}
+d185 1
+a185 1
+\end{enumerate}
+d191 1
+a191 2
+\begin{enumerate}
+\renewcommand{\itemsep}{0pt}
+d201 1
+a201 1
+\end{enumerate}
+d217 1
+a217 1
+\begin{enumerate}
+d228 1
+a228 1
+\end{enumerate}
+@
+
+
+2.1
+log
+@Check in before modifying e.g. and i.e.
+@
+text
+@d47 1
+a47 1
+language family, e.g.\ Erelhein.
+d119 1
+a119 1
+Can converse (slowly) in a specialised field, e.g.\ in one's merchant
+d224 1
+a224 1
+Determine whether it has a written form (i.e.\ characters can obtain
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d4 3
+d47 1
+a47 1
+language family, eg. Erelhein.
+d119 1
+a119 1
+Can converse (slowly) in a specialised field, eg.  in one's merchant
+d224 1
+a224 1
+Determine whether it has a written form (i.e., characters can obtain
+d235 3
+d257 3
+@
+
+
+1.5
+log
+@Silent Tongue has maximum rank 6.
+@
+text
+@@
+
+
+1.4
+log
+@Release 1.0 snapshot
+@
+text
+@d192 1
+a192 1
+\item	Silent Tongue [8]
+@
+
+
+1.3
+log
+@Add silent tongue to languages as family with no written form.
+@
+text
+@d1 2
+a2 1
+\section{Languages (Ver 1.1)}
+d7 4
+a10 5
+There is no totally universal language; however,
+\emph{common}, which is the first language of several human nations,
+is also used as a lingua franca by some members of most species,
+especially in interracial conversations.  Common is also called the
+trade tongue.
+d15 1
+a15 1
+to hear related language than an unrelated one. The families into
+d22 1
+a22 12
+perhaps money to increase rank in a language.}
+
+Normally it takes 1 week of training to reach Rank 0, and 2 \x (rank to
+be achieved) weeks to improve.  However, it takes only 1 \x (rank to be
+achieved) weeks of training and half the listed experience to improve
+in any tongue when the character speaks some other tongue of the same
+language family at a higher rank.  If one is Rank 3 in a tongue one is
+automatically Rank 0 in all other tongues of the same Language family.
+Common belongs to no particular Language family, but it is easily
+learnt, taking only 1 \x (rank to be achieved) weeks of training and
+half the listed experience to improve if the character speaks any
+other tongue at a higher rank.
+d24 10
+a49 1
+
+d53 12
+a64 12
+\item[b]    Bedouin script (human, cursive)
+\item[d]    Drakonic
+\item[e]    ``Elvish'' script
+\item[i]    Island  (used   in   and   around   the   land-locked ocean)                                   
+\item[k]    Kingdom   (used   in   the    Azurian    Empire and satellite nations)
+\item[n]    Nagan (elaborate, but versatile)
+\item[o]    Ogham (human. rune-like)
+\item[r]    Dwarvish runes
+\item[w]    ``Standard''   Western   (used by most Common speakers  in  the West; has  also  been
+     adopted   and   adapted    by   many    newly
+     literate societies)
+\item[*]    Language  is  Written  in  characters.
+d67 1
+a67 1
+It takes 4 weeks and 100 EP to be literate in any one form of any
+d148 1
+a148 1
+\subsubsection{Demons linguistic skills are exceptions to the
+d170 14
+a183 18
+\item   Common [10;i,k,w]
+\item   Western  Human  [8  to  10;  b,i,k,o.w, and
+     *  only  in  rare  and  archaic  circumstances]
+
+\item   Eastern Human [8 to 10; often *]
+\item   Elf [10-.e],  Erelhein  [10;*],  Drow   [10;e]
+\item   Merfolk [8 to 10; various],
+\item   Suarime [8;d], Dragon [10;d]
+\item   Giantish  (6  dialects)  [10;w],  Titan  [9;i]
+\item   Drvad   [6;e],   Sylph    [6;c],    Nymph/Satyr [8;e]
+\item   Brownie [7:e], Leprechaun [6;e]
+\item   Fossergrim [6;r], Pixie [7;r]
+\item   Dwarvish   [10;r],    Hobbit    [10;r]    Gnome
+     [9;r]
+\item   Goblin    [8;w],    Hobgoblin     [8;w]     Orc
+     [10;w], Ogre [6;w]
+\item  Gorgon [6;i], Centaur [8;i]
+\item  Naga [7;n]
+d188 1
+a188 1
+There are 8 Language Families that have no written form.
+d212 1
+a212 1
+\subsubsection{A Gamemaster must assign certain characteristics to a new
+d215 2
+a216 2
+If a new language is to be introduced the gamemaster must determine
+the following.
+d218 33
+a250 6
+\item  Assign a language group.
+\item  Determine  whether  it  has  a  whiten  form
+     (ie. character's can obtain literacy).
+\item  If written, determine whether it is  character or phonetically based, and  the  alphabet(s) that apply.
+\item  The maximum rank.
+\end{enumerate}@
+
+
+1.2
+log
+@Corrections done form March printed version
+@
+text
+@d169 1
+a169 1
+There are 14 Language Families that hove a written form.
+d198 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 1
+a1 1
+\section{Spoken and Written Languages (V 1.1)}
+d98 1
+a98 2
+Be guided by the precepts in section 49.4.  The table below is
+constructed for a language with maximum rank of 10.
+d204 1
+a204 1
+\item   Wvvern [4]
+@

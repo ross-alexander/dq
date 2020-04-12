@@ -1,0 +1,648 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.3;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	98.06.04.05.35.10;	author rossa;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	98.05.11.01.21.23;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.03.30.22.05.55;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	96.01.12.02.16.48;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.04.07.05.08.49;	author rale01;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.04.06.04.31.26;	author rale01;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\begin{skill}{Troubadour}{2.0}{troubadour}
+
+A troubadour is a multi-talented entertainer and performer, and a well
+skilled troubadour may be an actor, poet, mimic and musician. The most
+powerful ability that a troubadour can gain is the Bardic Voice, which
+enables them to influence all but the deaf.
+
+\subsection{Benefits}
+
+All troubadours gain a grounding in stagecraft. They become able to
+size up an audience and determine what form of entertainment will be
+the best to perform, and how to handle interjection and ridicule.
+
+In addition, a troubadour gains 3 abilities at Rank 0, and one further
+ability per Rank. All abilities are usually performed at the overall
+Rank ofthe troubadour. However, a troubadour may choose to specialise.
+If, upon gaining a new Rank, the troubadour wishes to forego gaining a
+new ability, they may specialise in one of the abilities that they
+already possess. That ability then operates at (troubadour's Rank +
+1), maximum 10. A troubadour may specialise more than once with the
+same ability, gaining Rank + 2, Rank + 3, etc. Additional abilities
+may be gained after achieving Rank 10, by the expenditure of 500
+Experience Points and 2 weeks of training. Individual Base Chances are
+not provided for the various troubadour skills; rather there is a
+generic Base Chance of 3 \x appropriate characteristic (+ 5 / Rank),
+modified by the GM to reflect the difficulty of the feat being
+attempted.
+
+The abilities available to a troubadour are:
+
+\begin{Description}
+
+\item[Acrobatics]
+mostly involves tumbling across the ground, but also performing
+manoeuvres after swinging from a trapeze, rope, or bar; jumping from a
+springboard, or high ledge.
+
+\item[Acting]
+Portraying fictitious personalities and devising rationales for
+assumed identities.  Usually involves accentuated and exaggerated
+actions and emotions.
+
+\item[Bardic voice]
+(see below). Note: A troubadour may not specialise in Bardic Voice.
+
+\item[Comedy]
+The use of timing, inflection and language to cause merriment or
+laughter. Also writing both jokes and skits. Comedy may also be
+combined or included in many other art forms.
+
+\item[Dance]
+Mostly traditional, often rural dances, performed for an
+audience; also includes creating new dances.
+
+\item[Fire eating]
+Appearing to swallow and/or produce flame, usually, from the mouth.
+To do this, a fire eater requires a special liquid, which may be
+purchased from an Alchemist for a modest fee.
+
+\item[Juggling]
+Throwing and catching objects. A juggler is able to keep up to 1 (+ 1
+/ Rank) items, of equal weight and size, in the air at the same time.
+If the items juggled are of a different size and/or weight, each
+difference counts as another item juggled.
+
+\item[Make up]
+using props, stage makeup, and items such as wigs, fake beards, and
+wax noses, a troubadour can portray a character of a different age,
+race, sex, or profession to their own.
+
+\item[Mime]
+Using only the performer's body, and its movements, to convey an idea,
+describe a scene, tell a tale, or entertain.
+
+\item[Mimicry]
+Imitating sounds and voices accurately and believably.
+
+\item[Patter]
+Talking interestingly, seemingly non-stop, either as advertising for a
+show or as a misdirecting part of a performance.
+
+\item[Play an instrument]
+This ability may be taken several times with different instruments. A
+singer is one who has play instrument (voice). A troubadour can
+usually play similar instruments to the ones they have chosen at
+(Rank / 2).
+
+\item[Poetry]
+Creating and reciting poetry, including lengthy epics running to
+hundreds of lines.
+
+\item[Prestidigitation]
+Manipulation of small articles such as coins, eggs, or pebbles to make
+them move, disappear and reappear in unusual and entertaining
+ways. This ability also gives a bonus to the casting of all Minor
+Magics of 2\% (+ 2 / Rank).
+
+\item[Production]
+Play writing and turning a play into a successful production. Includes
+set design and sound effects.  The higher the Rank, the less likely it
+is that a major catastrophe will befall the production through
+something having been forgotten or overlooked.
+
+\item[Puppetry]
+Writing a story to be performed by puppeteers, and performing a story
+or play with puppets.
+
+\item[Stilt walking]
+Balancing and walking on stilts of up to 50\% (+ 20\% / Rank) of the
+troubadour's height.
+
+\item[Storytelling]
+Creating and reciting stories for an audience.
+
+\item[Sword swallowing]
+Controlling the mouth, tongue and throat such as to be able to allow
+long, rigid props to pass into the throat.
+
+\item[Tightrope walking]
+Walking, balancing, and turning on a taut raised rope, or narrow beam.
+
+\item[Ventriloquism]
+The ability to speak without moving the lips and make the voice seem
+to come from any location up to (Rank / 2) feet away.
+
+\end{Description}
+
+\subsection{Bardic Voice}
+
+A troubadour may use their Bardic Voice in an attempt to influence an
+audience. Beings who are affected will seethe troubadour as their
+friend, andthe troubadour's words as wise and well meant. Bardic
+Voice may be used, for example, to calm a lynch mob, or to begin a
+riot against a cruel tyrant. The troubadour begins speaking to key
+elements in the crowd, stirring their emotions and playing upon their
+beliefs and feelings. All beings to be affected must be within
+earshot, and capable of understanding the language used by the
+troubadour. Whenthe troubadour begins to use this ability they may
+enthral up to (4 + 6 / Rank) beings, with (15 - Rank) minutes being
+required to work their skill. Once they have spent the required time,
+the troubadour makes a Check to see if they are having the desired
+effect. If successful,the troubadour may elect to use their voice
+again on the same crowd. By doing this they may double the number of
+beings whose attention they have captured. Using Bardic Voice is
+tiring, and a troubadour must expend 4 FT each time that they use this
+ability. A troubadour may use their voice continuously upon a crowd
+until they exhaust their FT; they reach the limit of the size of
+audience; they fail a Bardic Voice roll; or they have doubled (Rank /
+2, round down) times. The Base Chance is 50\% (+ 5 / Rank), modified
+by the GM for the reasonableness ofthe troubadour's suggestions and
+the audiences' predisposition to certain actions.
+
+\end{skill}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 1
+a1 2
+\section{Troubadour (Ver 2.0)}
+\label{troubadour}
+d3 3
+a5 5
+\index{skills!troubadour|(}
+
+A Troubadour is a multi-talented entertainer and performer, and a well
+skilled Troubadour may be an actor, poet, mimic and musician. The most
+powerful ability that a Troubadour can gain is the Bardic Voice, which
+d10 1
+a10 1
+All Troubadours gain a grounding in stagecraft. They become able to
+d14 1
+a14 1
+In addition, a Troubadour gains 3 abilities at Rank 0, and one further
+d16 11
+a26 11
+Rank of the Troubadour. A Troubadour may however choose to specialise.
+If, upon gaining a new Rank the Troubadour wishes to forego gaining a
+new ability, they may pick one of the abilities that they already
+possess and specialise. That ability then operates at (Troubadour's
+Rank + 1), maximum 10. A Troubadour may specialise more than once with
+the same ability, gaining Rank + 2, Rank + 3, etc. Additional
+abilities may be gained after achieving Rank 10, by the expenditure of
+500 Experience Points, and 2 weeks of training. Individual Base
+Chances are not provided for the various Troubadour skills, rather
+there is a generic Base Chance of 3 \x appropriate statistic (+ 5 /
+Rank), modified by the GM to reflect the difficulty of the feat being
+d29 1
+a29 1
+The abilities available to a Troubadour are:
+d44 1
+a44 1
+(see below). Note: A Troubadour may not specialise in Bardic Voice.
+a46 1
+
+d52 2
+a53 2
+mostly traditional, often rural dances, performed for an audience,
+also includes creating new dances.
+d61 1
+a61 1
+Throwing and catching objects. A Juggler is able to keep up to 1 (+ 1
+d68 1
+a68 1
+wax noses, a Troubadour can portray a character of a different age,
+d84 1
+a84 1
+Singer is one who has Play Instrument (Voice). A Troubadour can
+d105 1
+a105 1
+Writing a story to be performed by Puppeteers, and performing a story
+d110 1
+a110 1
+Troubadour's height.
+d130 3
+a132 3
+A Troubadour may use their Bardic Voice in an attempt to influence an
+audience. Beings who are affected will see the Troubadour as their
+friend, and the Troubadour's words as wise and well meant. Bardic
+d134 1
+a134 1
+riot against a cruel tyrant. The Troubadour begins speaking to key
+d138 1
+a138 1
+Troubadour. When the Troubadour begins to use this ability they may
+d141 2
+a142 2
+the Troubadour makes a Check to see if they are having the desired
+effect. If successful, the Troubadour may elect to use their voice
+d145 2
+a146 2
+tiring, and a Troubadour must expend 4 FT each time that they use this
+ability. A Troubadour may use their voice continuously upon a crowd
+d150 1
+a150 1
+by the GM for the reasonableness of the Troubadour's suggestions and
+d153 1
+a153 1
+\index{skills!troubadour|)}
+@
+
+
+3.2
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+3.1
+log
+@Check in before modifying e.g. and i.e.
+@
+text
+@d132 1
+a132 1
+\subsection{Bardic voice}
+@
+
+
+3.0
+log
+@Complete rewrite by Martin Dickson.
+@
+text
+@d2 3
+d156 2
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d1 1
+a1 2
+\section{Troubadour}
+\label{troubadour}
+d3 4
+a6 15
+In a DragonQuest world, a minstrel who wishes to be welcome for their
+entertainment abilities during their travels is known as a troubadour.
+
+A troubadour becomes a multi-talented performer as they increase their
+experience in the field. The troubadour is also a student of the
+people they visit, and is as knowledgeable as a scholar in the matter
+of customs.  A troubadour, being a skilled actor, can also be a master
+of disguise.  The most useful ability a troubadour will gain is their
+bardic voice, which enables them to influence the actions of all but
+the deaf.
+
+The abilities subsumed in the troubadour rules are usable by such a
+character in situations not explicitly covered in the next few pages.
+The GM should improvise and allow a troubadour character to use their
+skill in appropriate instances.
+d10 143
+a152 93
+\subsubsection{A troubadour acquires one ability per Rank.}
+
+The character begins with one of the following abilities at Rank 0.
+All acquired abilities can be performed skillfully.
+
+\begin{enumerate}
+\renewcommand{\itemsep}{0pt}
+\item Play the instrument of the player's choice. The troubadour must
+acquire this ability anew for each separate instrument they wish to
+use.
+\item	Sing or chant.
+\item	Recite stories and legends.
+\item	Compose stories and legends.
+\item	Perform mime.
+\item	Mimic speech.
+\item	Act out skits or parody.
+\item	Tell and compose jokes.
+\item	Dance (especially folk dance).
+\item	Dress appropriately to all situations.
+\item	Simulate wide range of emotions.
+\item	Execute acrobatics.
+\item	Amuse small children.
+\item	Amuse  semi-intelligent   creatures.
+\item	Appear attractive.
+\end{enumerate}
+
+A troubadour may gain additional abilities after achieving Rank 10
+by the expenditure of 500 Experience Points per ability.
+
+\subsubsection{A troubadour's chance of successfully performing minor
+magic is increased by 2\% per Rank.}
+
+\subsubsection{When a troubadour uses their Perception value to gain
+information about the customs or habits of humanoids, add 2 per Rank
+they have achieved to their success percentage.}
+
+\subsubsection{A troubadour can use disguise to appear of a different
+humanoid race, gender, or profession.}
+
+A troubadour cannot disguise themself as a member of a race for which
+their size is inappropriate (e.g., an elf troubadour cannot disguise
+themself as a halfling) or as practitioner of a profession for which
+they are physically unsuited (e.g., a frost giant troubadour could not
+imitate a jockey).  A troubadour's disguise ability is intended to
+fool someone who does not know the humanoid the troubadour is
+masquerading; if the troubadour is attempting to pass themself off as
+an acquaintance of a particular being, the GM will have to determine
+the chance of the substitution being noticed.
+
+A troubadour's base success percentage to use their disguise ability is
+(12 \x Rank)\%.  Subtract:
+
+\begin{enumerate}
+\item
+Two times the Perception of the being to be deceived by the troubadour
+if the troubadour is impersonating a member of their own race.
+
+\item
+Four times the Perception of the being to be deceived by the
+troubadour if the troubadour is impersonating a member of another
+race.
+
+\item
+(11 - Troubadour's Rank) if they impersonate a person of opposite
+gender.
+\end{enumerate}
+
+If the GM's roll on percentile dice is equal to or less than the
+troubadour's success percentage, the being to whom the troubadour is
+falsely representing themself is taken in.  If the roll is greater
+than the success percentage, the being notices inconsistencies (with
+the role being assumed) in the troubadour's appearance or behaviour.
+The inconsistency becomes more glaring as the roll approaches 100.  If
+a troubadour is using disguise in close proximity to a being, a check
+against their success percentage must be made every hour.
+
+\subsubsection{A troubadour can use their bardic voice to charm several
+beings at once.}
+
+A troubadour may use their bardic voice on not more than (2 + 2 \x
+Rank) beings who can understand the language which they speak.  The
+troubadour may not use the voice ability in combat, but may use it
+against hostile beings.  A Willpower check must be made for every
+being the troubadour hopes to affect.  The success percentage for the
+Willpower check is (10 \x Troubadour's Rank - 2 \x Being's
+Willpower)\%.  If the roll is less than or equal to the success
+percentage, the being is charmed, as described in the College of
+Ensorcelments and Enchantments spell of the same name (see
+\S\ref{e-and-e}).  If the roll is greater than the success percentage,
+the being is not affected.
+
+A troubadour must expend (15 - Rank) Fatigue Points every time they
+use the bardic voice ability.
+@
+
+
+1.3
+log
+@Release 1.0 snapshot
+@
+text
+@@
+
+
+1.2
+log
+@Corrections done form March printed version
+@
+text
+@d2 1
+d4 2
+a5 2
+In a DragonQuest world, a minstrel who wishes to be welcome for his
+entertainment abilities during his travels is known as a troubadour.
+d7 7
+a13 6
+A troubadour becomes a multi-talented performer as he increases his
+experience in the field. The troubadour is also a student of the people
+he visits, and is as knowledgeable as a scholar in the matter of
+customs.  A troubadour, being a skilled actor, can also be a master of
+disguise.  The most useful ability a troubadour will gain is his bardic
+voice, which enables him to influence the actions of all but the deaf.
+d16 3
+a18 3
+character in situations not explicitly covered in the next few
+pages.  The GM should improvise and allow a troubadour character to
+use his skill in appropriate instances.
+d29 3
+a31 3
+\item	Play  the  instrument  of  the  player's choice. The character
+must acquire this ability anew for each separate instrument he wishes
+to use.
+d54 1
+a54 6
+\subsubsection{If a troubadour is a mage of the College of Illusion
+(see \S\ref{illusion}), he adds 1 to his modified chance to cast a
+spell for every Rank he achieves.}
+
+
+\subsubsection{When a troubadour uses his Perception value to gain
+d56 1
+a56 1
+he has achieved to his success percentage.}
+d61 9
+a69 9
+A troubadour cannot disguise himself as a member of a race for which
+his size is inappropriate (e.g., an elf troubadour cannot disguise
+himself as a halfling) or as practitioner of a profession for which he
+is physically unsuited (e.g., a frost giant troubadour could not
+imitate a jockey).  A troubadour's disguise ability is intended to fool
+someone who does not know the humanoid the troubadour is masquerading;
+if the troubadour is attempting to pass himself off as an acquaintance
+of a particular being, the GM will have to determine the chance of the
+substitution being noticed.
+d71 1
+a71 1
+A troubadour's base success percentage to use his disguise ability is
+d75 8
+a82 7
+\item      Two  times  the  Perception  of  the  being  to
+be deceived by the troubadour if the troubadour is impersonating a
+member of his own race.
+
+\item    Four  times  the  Perception  of  the  being  to
+be deceived by the troubadour if the troubadour is impersonating a
+member of another race.
+d84 2
+a85 1
+\item (11 - Troubadour's Rank) if he impersonates a person of opposite
+d91 6
+a96 7
+falsely representing himself is taken in.  If the is greater than
+the success percentage, the being notices inconsistencies (with the
+role being assumed) in the troubadour's appearance or behaviour.  The
+inconsistency becomes more glaring as the roll approaches 100.  If a
+troubadour is using disguise in close proximity to a being, a check
+against his success percentage must be made every hour.
+
+d98 1
+a98 1
+\subsubsection{A troubadour can use his bardic voice to charm several
+d101 2
+a102 2
+A troubadour may use his bardic voice on not more than (2 + 2 \x Rank)
+beings who can understand the language which he speaks.  The
+d113 2
+a114 13
+A troubadour must expend (15 - Rank) Fatigue Points every time he uses
+the bardic voice ability.
+
+\subsection{Costs}
+
+\subsubsection{A troubadour must spend (50 + 100 \x Rank)
+Silver Pennies per year to supply himself with the props necessary for
+his trade.}
+
+A troubadour who does not spend the above amount operates as if he
+were two Ranks less proficient. If the rank of a troubadour is
+reduced to a negative number, the use of the skill is temporarily
+lost.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d50 1
+a50 1
+magic (see 4.2) is increased by 2\% per Rank.}
+d52 3
+a54 3
+\subsubsection{If a troubadour is a mage of the College of Illusion (see
+38), he adds 1 to his modified chance to cast a spell for every Rank
+he achieves.}
+d58 2
+a59 2
+information (see 4.3) about the customs or habits of humanoids, add 2
+per Rank he has achieved to his success percentage.}
+d103 2
+a104 2
+A troubadour may use his bardic voice on not more than (2 + 2 \x
+Rank) beings who can understand the language which he speaks.  The
+d108 2
+a109 2
+Willpower check is ([10 \x Troubadour's Rank] - [2 \x Being's
+Willpower])\%.  If the roll is less than or equal to the success
+d111 3
+a113 3
+Ensorcelments and Enchantments spell of the same name (see 36).  If
+the roll is greater than the success percentage, the being is not
+affected.
+@

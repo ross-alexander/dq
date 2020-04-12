@@ -1,0 +1,2654 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<dq>
+  <college abbrev="AI" short="air" long="Air Magics" version="2.1">
+    <talents>
+      <talent abbrev="T-1" name="Aerial Affinity">
+        <multiple>75</multiple>
+      </talent>
+      <talent abbrev="T-2" name="Detect Fumes">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>100</multiple>
+      </talent>
+      <talent abbrev="T-3" name="Predict Weather">
+        <multiple>50</multiple>
+        <bc base="30" rank="4">30 + 4 / Rank</bc>
+      </talent>
+    </talents>
+    <general-spells>
+      <spell abbrev="G-1" name="Calm">
+        <range>50 feet + 50 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="50">50</bc>
+      </spell>
+      <spell abbrev="G-2" name="Feather Falling">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-3" name="Mage Wind">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>125</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="G-4" name="Mist">
+        <range>20 feet + 20 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-5" name="Speak to Avians">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>75</multiple>
+        <bc base="50">50</bc>
+      </spell>
+      <spell abbrev="G-6" name="Storm Calling">
+        <range>Special</range>
+        <multiple>200</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-7" name="Summon Avians">
+        <range>5 miles</range>
+        <multiple>125</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="G-8" name="Vapour Breathing">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="35">35</bc>
+      </spell>
+      <spell abbrev="G-9" name="Wind Whistle">
+        <range>Special</range>
+        <multiple>125</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Air General Counterspell">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Air Special Counterspell">
+        <bc>40</bc>
+      </spell>
+    </general-spells>
+    <general-rituals>
+      <ritual abbrev="Q-1" name="Windspeak">
+        <range>400 feet + 400 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="2*MA" rank="3">2 * MA + 3 / Rank</bc>
+      </ritual>
+    </general-rituals>
+    <special-spells>
+      <spell abbrev="S-1" name="Air Blast">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-2" name="Arrow Flight">
+        <range>5 feet</range>
+        <multiple>200</multiple>
+        <bc base="35">35</bc>
+      </spell>
+      <spell abbrev="S-3" name="Avian Control">
+        <range>100 feet + 100 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-4" name="Barrier of Wind">
+        <range>5 feet + 1 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-5" name="Conjuring Air">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-6" name="Flying">
+        <range>5 feet + 5 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-7" name="Gaseous Form">
+        <multiple>300</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-8" name="Gliding">
+        <range>5 feet + 5 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-9" name="Knockout Gas">
+        <range>30 feet + 10 / Rank</range>
+        <multiple>450</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="S-10" name="Lightning Bolt">
+        <range>60 feet</range>
+        <multiple>225</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-11" name="Lightning Strike">
+        <range>15 feet + 5 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="35">35</bc>
+      </spell>
+      <spell abbrev="S-12" name="Resist Cold">
+        <range>Touch</range>
+        <multiple>100</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="S-13" name="Shaping Cloud">
+        <range>5 miles + 1 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="S-14" name="Whirlwind Vortex">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>650</multiple>
+        <bc base="1">1</bc>
+      </spell>
+      <spell abbrev="S-15" name="Whispering Wind">
+        <range>100 miles + 100 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="S-16" name="Windstorm">
+        <range>30 feet + 30 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="S-17" name="Wind Walking">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>350</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-18" name="Ball of Lightning">
+        <range>35 feet + 10 / Rank</range>
+        <multiple>350</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-19" name="Thunderclap">
+        <range>20 feet + 20 / Rank</range>
+        <multiple>325</multiple>
+        <bc base="30">30</bc>
+      </spell>
+    </special-spells>
+    <special-rituals>
+      <ritual abbrev="R-1" name="Air Spring">
+        <multiple>150</multiple>
+        <bc base="MA" rank="5">MA + 5 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-2" name="Conjuring Air Elemental">
+        <range>20 feet</range>
+        <multiple>200</multiple>
+        <bc base="MA" rank="5">MA + 5 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-3" name="Control Weather">
+        <multiple>300</multiple>
+        <bc base="2*MA" rank="3">2 * MA + 3 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-4" name="Summon and Bind Cloud">
+        <range>5 miles + 5 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="2*MA" rank="3">2 * MA + 3 / Rank</bc>
+      </ritual>
+    </special-rituals>
+  </college>
+  <college abbrev="BA" short="bardic" long="Bardic Magics" version="2.1">
+    <talents>
+      <talent abbrev="T-1" name="Concealed Casting">
+        <multiple>150</multiple>
+      </talent>
+      <talent abbrev="T-2" name="Enhanced Hearing">
+        <multiple>75</multiple>
+      </talent>
+      <talent abbrev="T-3" name="Melodic Memory">
+        <multiple>75</multiple>
+      </talent>
+      <talent abbrev="T-4" name="Project Voice">
+        <multiple>75</multiple>
+      </talent>
+    </talents>
+    <general-spells>
+      <spell abbrev="G-1" name="Clairaudience">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="G-2" name="Enchant Instrument">
+        <range>Touch</range>
+        <multiple>100</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="G-3" name="Ethereal Orchestra">
+        <range>25 feet + 25 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="35">35</bc>
+      </spell>
+      <spell abbrev="G-4" name="Exhortation">
+        <range>25 feet + 25 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="G-5" name="Quietness">
+        <range>1 foot + 1 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="G-6" name="Mockery">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-7" name="Shatter">
+        <range>5 feet + 5 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="G-8" name="Silent Sounds">
+        <range>Touch</range>
+        <multiple>100</multiple>
+        <bc base="35">35</bc>
+      </spell>
+      <spell abbrev="G-9" name="Soothe the Savage Beast">
+        <range>5 feet + 5 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="G-10" name="Speaking Beasts">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="35">35</bc>
+      </spell>
+      <spell abbrev="G-11" name="Ventriloquism">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Bardic General Counterspell">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Bardic Special Counterspell">
+        <bc>40</bc>
+      </spell>
+    </general-spells>
+    <general-rituals>
+      <ritual abbrev="Q-1" name="Implanting Sounds">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="20" rank="4">20 + 4 / Rank</bc>
+      </ritual>
+      <ritual abbrev="Q-2" name="Recitation">
+        <range>Touch</range>
+        <multiple>200</multiple>
+        <bc base="25" rank="4">25 + 4 / Rank</bc>
+      </ritual>
+    </general-rituals>
+    <special-spells>
+      <spell abbrev="S-1" name="Charming">
+        <range>50 feet + 5 / Rank</range>
+        <multiple>400</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-2" name="Compel Speech">
+        <range>Touch</range>
+        <multiple>200</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-3" name="Comprehending Tongues">
+        <range>Self</range>
+        <multiple>300</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="S-4" name="Confusion of Tongues">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>350</multiple>
+        <bc base="10">10</bc>
+      </spell>
+      <spell abbrev="S-5" name="Dance of Swords">
+        <range>5 feet + 5 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="S-6" name="Enthralling Audience">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-7" name="Shout of Thunder">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-8" name="Inspirational Song">
+        <range>15 feet + 5 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="S-9" name="Satyr's Dance">
+        <range>5 feet + 5 / Rank</range>
+        <multiple>450</multiple>
+        <bc base="10">10</bc>
+      </spell>
+      <spell abbrev="S-10" name="Shell of Silence">
+        <range>10 feet + 1 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="S-11" name="Silver Tongue">
+        <range>Self</range>
+        <multiple>200</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-12" name="Siren Song">
+        <range>5 feet + 5 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="S-13" name="Slumber Song">
+        <range>5 feet + 5 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-14" name="Whispering World">
+        <range>100 miles + 100 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="20">20</bc>
+      </spell>
+    </special-spells>
+    <special-rituals>
+      <ritual abbrev="R-1" name="Cure Deafness and Muteness">
+        <range>Touch</range>
+        <multiple>200</multiple>
+        <bc base="25" rank="4">25 + 4 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-2" name="Resounding Instrument">
+        <range>Touch</range>
+        <multiple>250</multiple>
+        <bc base="MA" rank="4">MA + 4 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-3" name="Sound of Doom">
+        <range>Sight</range>
+        <multiple>400</multiple>
+        <bc base="MA" rank="3">MA + 3 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-4" name="The Piper's Song">
+        <range>30 feet + 30 / Rank</range>
+        <multiple>400</multiple>
+        <bc base="MA" rank="3">MA + 3 / Rank</bc>
+      </ritual>
+    </special-rituals>
+  </college>
+  <college abbrev="BI" short="binder" long="Binding and Animating Magics" version="1.1">
+    <talents>
+      <talent abbrev="T-1" name="Activate Golem"/>
+      <talent abbrev="T-2" name="Detect Enchantment">
+        <multiple>50</multiple>
+      </talent>
+    </talents>
+    <general-spells>
+      <spell abbrev="G-1" name="Adhesion">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>175</multiple>
+        <bc base="35">35</bc>
+      </spell>
+      <spell abbrev="G-2" name="Animating Objects">
+        <range>10 feet + 5 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-3" name="Bound Speech">
+        <range>1 foot + 1 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-4" name="Durability">
+        <range>10 feet + 5 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="G-5" name="Mending">
+        <range>Touch</range>
+        <multiple>150</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-6" name="Modify Aura">
+        <range>5 feet + 5 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="G-7" name="Minor Creation">
+        <range>Touch</range>
+        <multiple>250</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-8" name="Moulding Elements">
+        <range>30 feet + 10 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-9" name="Preservation">
+        <range>5 feet + 1 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-10" name="Transparency">
+        <range>10 feet + 5 / Rank</range>
+        <multiple>175</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Binder General Counterspell">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Binder Special Counterspell">
+        <bc>40</bc>
+      </spell>
+    </general-spells>
+    <general-rituals>
+      <ritual abbrev="Q-1" name="Linking Lifeforce">
+        <multiple>300</multiple>
+        <bc base="40" rank="4">40 + 4 / Rank</bc>
+      </ritual>
+      <ritual abbrev="Q-2" name="Petrifaction">
+        <multiple>200</multiple>
+        <bc base="55" rank="3">55 + 3 / Rank</bc>
+      </ritual>
+      <ritual abbrev="Q-3" name="Shaping Clay Golems">
+        <multiple>300</multiple>
+        <bc base="10" rank="4">10 + 4 / Rank</bc>
+        <multiple>250</multiple>
+        <bc base="40" rank="3">40 + 3 / Rank</bc>
+      </ritual>
+    </general-rituals>
+    <special-spells>
+      <spell abbrev="S-1" name="Bubble of Force">
+        <range>5 feet + 1 / Rank</range>
+        <multiple>450</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="S-2" name="Disintegration">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-3" name="Frictionless Floor">
+        <range>40 feet + 15 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-4" name="Instant Golem">
+        <range>10 feet + 5 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-5" name="Instant Petrifaction">
+        <range>10 feet + 5 / Rank</range>
+        <multiple>500</multiple>
+        <bc base="1">1</bc>
+      </spell>
+      <spell abbrev="S-6" name="Instilling Flight">
+        <range>Touch</range>
+        <multiple>350</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-7" name="Itemisation">
+        <range>Touch</range>
+        <multiple>300</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-8" name="Making">
+        <range>Self</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-9" name="Matter Transmutation">
+        <range>2 feet + 2 / Rank</range>
+        <multiple>400</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-10" name="Possess Golem">
+        <range>10 feet</range>
+        <multiple>250</multiple>
+        <bc base="35">35</bc>
+      </spell>
+      <spell abbrev="S-11" name="Unfastening">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-12" name="Wall of Dust and Sand">
+        <range>20 feet + 10 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-13" name="Wall Walking">
+        <range>Self</range>
+        <multiple>450</multiple>
+        <bc base="10">10</bc>
+      </spell>
+    </special-spells>
+    <special-rituals>
+      <ritual abbrev="R-1" name="Binding Permanency">
+        <multiple>400</multiple>
+        <bc base="20" rank="4">20 + 4 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-2" name="Investment"/>
+      <ritual abbrev="R-3" name="Item Divination">
+        <multiple>150</multiple>
+        <bc base="2*MA" rank="3">2 * MA + 3 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-4" name="Major Creation">
+        <multiple>250</multiple>
+        <bc base="40" rank="3">40 + 3 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-5" name="Shaping Iron Golems">
+        <multiple>350</multiple>
+        <bc base="20" rank="4">20 + 4 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-6" name="Shaping Stone Golems">
+        <multiple>350</multiple>
+        <bc base="20" rank="4">20 + 4 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-7" name="Shaping Wood Golems">
+        <multiple>250</multiple>
+        <bc base="40" rank="3">40 + 3 / Rank</bc>
+      </ritual>
+    </special-rituals>
+  </college>
+  <college abbrev="CE" short="celestial" long="Celestial Magics" version="1.3">
+    <talents>
+      <talent abbrev="T-1" name="Speak to Creatures of Light/Darkness">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>50</multiple>
+      </talent>
+      <talent abbrev="T-2" name="Night Vision">
+        <range>50 feet + 10 / Rank</range>
+        <multiple>100</multiple>
+      </talent>
+      <talent abbrev="T-3" name="Detect Aura">
+        <range>Special</range>
+        <multiple>75</multiple>
+        <bc base="Perception" rank="5">Perception + 5 / Rank</bc>
+      </talent>
+    </talents>
+    <general-spells>
+      <spell abbrev="G-1" name="Blending">
+        <range>15 feet + 1 / Rank</range>
+        <multiple>50</multiple>
+        <bc base="60">60</bc>
+      </spell>
+      <spell abbrev="G-2" name="Light">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>75</multiple>
+        <bc base="50">50</bc>
+      </spell>
+      <spell abbrev="G-3" name="Darkness">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>75</multiple>
+        <bc base="50">50</bc>
+      </spell>
+      <spell abbrev="G-4" name="Shadow Form / Coruscade">
+        <range>15 feet + 1 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="10">10</bc>
+      </spell>
+      <spell abbrev="G-5" name="Wall of Starlight">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="G-6" name="Wall of Darkness">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="G-7" name="Witchsight">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="G-8" name="Walking Unseen">
+        <range>1 foot + 1 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="50">50</bc>
+        <range>Self</range>
+        <multiple>200</multiple>
+        <bc base="15">15</bc>
+        <range>15 feet</range>
+        <multiple>200</multiple>
+        <bc base="15">15</bc>
+        <range>Self</range>
+        <multiple>200</multiple>
+        <bc base="15">15</bc>
+        <range>15 feet</range>
+        <multiple>200</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Celestial General Counterspell">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Celestial Special Counterspell">
+        <bc>40</bc>
+      </spell>
+    </general-spells>
+    <general-rituals>
+      <ritual abbrev="Q-1" name="Reading the Night Sky">
+        <multiple>150</multiple>
+        <bc base="MA" rank="4">MA + 4 / Rank</bc>
+      </ritual>
+      <ritual abbrev="Q-2" name="Summoning and Binding Creatures of Light / Darkness">
+        <multiple>200</multiple>
+        <bc base="20" rank="4">20 + 4 / Rank</bc>
+      </ritual>
+    </general-rituals>
+    <special-spells>
+      <spell abbrev="S-1" name="Healing">
+        <range>Touch</range>
+        <multiple>200</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="S-2" name="Creating Light/Dark Sword">
+        <range>15 feet + 5 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-3" name="Bolt of Starfire">
+        <range>40 feet + 15 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="35">35</bc>
+      </spell>
+      <spell abbrev="S-4" name="Meteorite Shower">
+        <range>60 feet + 15 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="10">10</bc>
+      </spell>
+      <spell abbrev="S-5" name="Star / Shadow Wings">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-6" name="Web of Light / Darkness">
+        <range>30 feet + 15 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-7" name="Fear">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>350</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-8" name="Increased Gravity">
+        <range>60 feet + 15 / Rank</range>
+        <multiple>450</multiple>
+        <bc base="2">2</bc>
+      </spell>
+      <spell abbrev="S-9" name="Whitefire">
+        <range>30 feet + 15 / Rank</range>
+        <multiple>500</multiple>
+        <bc base="1">1</bc>
+        <range>75 feet + 15 / Rank</range>
+        <multiple>500</multiple>
+        <bc base="5">5</bc>
+        <range>75 feet + 15 / Rank</range>
+        <multiple>500</multiple>
+        <bc base="1">1</bc>
+        <range>30 feet + 5 / Rank</range>
+        <multiple>350</multiple>
+        <bc base="5">5</bc>
+        <range>Self</range>
+        <multiple>550</multiple>
+        <bc base="1">1</bc>
+      </spell>
+    </special-spells>
+    <special-rituals>
+      <ritual abbrev="R-1" name="Conjuring and Controlling Light / Dark Sphere">
+        <multiple>450</multiple>
+        <bc base="1" rank="3">1  + 3 / Rank</bc>
+      </ritual>
+    </special-rituals>
+  </college>
+  <college abbrev="EA" short="earth" long="Earth Magics" version="1.2">
+    <talents>
+      <talent abbrev="T-1" name="Detect Aura">
+        <range>Special</range>
+        <multiple>75</multiple>
+        <bc base="PC" rank="5">PC + 5 / Rank</bc>
+      </talent>
+    </talents>
+    <general-spells>
+      <spell abbrev="G-1" name="Converse With Animals">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>50</multiple>
+        <bc base="45">45</bc>
+      </spell>
+      <spell abbrev="G-2" name="Converse With Plants">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>50</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="G-3" name="Controlling Animals">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-4" name="Blending">
+        <range>15 feet + 1 / Rank</range>
+        <multiple>50</multiple>
+        <bc base="60">60</bc>
+      </spell>
+      <spell abbrev="G-5" name="Walking Unseen">
+        <range>1 foot + 1 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="50">50</bc>
+      </spell>
+      <spell abbrev="G-6" name="Healing">
+        <range>Touch</range>
+        <multiple>100</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-7" name="Detecting Traps and Snares">
+        <range>20 feet + 5 / Rank</range>
+        <multiple>75</multiple>
+        <bc base="60">60</bc>
+      </spell>
+      <spell abbrev="G-8" name="Detecting Poisons">
+        <range>Touch</range>
+        <multiple>75</multiple>
+        <bc base="50">50</bc>
+      </spell>
+      <spell abbrev="G-9" name="Lesser Enchantment">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>125</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-10" name="Herbal Lore">
+        <range>Self</range>
+        <multiple>75</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="G-11" name="Tracking">
+        <range>Self</range>
+        <multiple>100</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Earth General Counterspell">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Earth Special Counterspell">
+        <bc>40</bc>
+      </spell>
+    </general-spells>
+    <general-rituals>
+      <ritual abbrev="Q-1" name="Summoning Animals">
+        <multiple>150</multiple>
+        <bc base="MA" rank="3">MA + 3 / Rank</bc>
+      </ritual>
+    </general-rituals>
+    <special-spells>
+      <spell abbrev="S-1" name="Earth Hammer">
+        <range>25 feet + 10 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="S-2" name="Hands of Earth">
+        <range>20 feet + 5 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-3" name="Strength of Stone">
+        <range>10 feet</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-4" name="Armour of Earth">
+        <range>10 feet</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-5" name="Diamond Weapon">
+        <range>5 feet + 5 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-6" name="Gem Creation">
+        <range>10 feet</range>
+        <multiple>250</multiple>
+        <bc base="10">10</bc>
+      </spell>
+      <spell abbrev="S-7" name="Animal Growth">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>225</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="S-8" name="Enchanting Plants">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>225</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="S-9" name="Binding Animals">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="10">10</bc>
+      </spell>
+      <spell abbrev="S-10" name="Conjuring Earth Elemental">
+        <range>20 feet</range>
+        <multiple>225</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-11" name="Controlling Earth Elemental">
+        <range>20 feet</range>
+        <multiple>225</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-12" name="Sinking Doom">
+        <range>30 feet + 10 / Rank</range>
+        <multiple>650</multiple>
+        <bc base="2">2</bc>
+      </spell>
+      <spell abbrev="S-13" name="Wall of Stone">
+        <range>20 feet + 10 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="10">10</bc>
+      </spell>
+      <spell abbrev="S-14" name="Wall of Iron">
+        <range>20 feet + 10 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="5">5</bc>
+      </spell>
+      <spell abbrev="S-15" name="Tunnelling">
+        <range>5 feet + 1 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="10">10</bc>
+      </spell>
+      <spell abbrev="S-16" name="Trollskin">
+        <range>10 feet</range>
+        <multiple>250</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-17" name="Smoking Magma">
+        <range>25 feet + 5 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="7">7</bc>
+      </spell>
+      <spell abbrev="S-18" name="Diamond Javelins">
+        <range>30 feet + 10 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-19" name="Earth Transformation">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>400</multiple>
+        <bc base="10">10</bc>
+      </spell>
+    </special-spells>
+    <special-rituals>
+      <ritual abbrev="R-1" name="Binding Earth">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>500</multiple>
+        <bc base="10">10</bc>
+      </ritual>
+    </special-rituals>
+  </college>
+  <college abbrev="EN" short="enchanter" long="Ensorcelments and Enchantments" version="1.1">
+    <talents>
+      <talent abbrev="T-1" name="Wizardsight">
+        <multiple>150</multiple>
+        <bc base="Perception" rank="4">Perception + 4 / Rank</bc>
+      </talent>
+    </talents>
+    <general-spells>
+      <spell abbrev="G-1" name="Charming">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>500</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="G-2" name="Telekinesis">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-3" name="Enchanted Sleep">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="G-4" name="Walking Unseen">
+        <range>1 foot + 1 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-5" name="Speaking to Enchanted Creatures">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-6" name="Location">
+        <range>10 miles + 5 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="G-7" name="Mass Charming">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>850</multiple>
+        <bc base="5">5</bc>
+      </spell>
+      <spell abbrev="G-8" name="Invisibility">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>450</multiple>
+        <bc base="45">45</bc>
+      </spell>
+      <spell abbrev="G-9" name="Evil Eye">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Enchanter General Counterspell">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Enchanter Special Counterspell">
+        <bc>40</bc>
+      </spell>
+    </general-spells>
+    <general-rituals>
+      <ritual abbrev="Q-1" name="Greater Enchantment">
+        <multiple>125</multiple>
+        <bc base="80" rank="1">80 + 1 / Rank</bc>
+      </ritual>
+      <ritual abbrev="Q-2" name="Creating Crystal of Vision">
+        <multiple>200</multiple>
+        <bc base="75" rank="1">75 + 1 / Rank</bc>
+      </ritual>
+      <ritual abbrev="Q-3" name="Creating Sleep Dust">
+        <multiple>250</multiple>
+        <bc base="80" rank="1">80 + 1 / Rank</bc>
+      </ritual>
+      <ritual abbrev="Q-4" name="Manufacturing Poison Dust">
+        <multiple>250</multiple>
+        <bc base="80" rank="1">80 + 1 / Rank</bc>
+      </ritual>
+    </general-rituals>
+    <special-spells>
+      <spell abbrev="S-1" name="Ventriloquism">
+        <range>90 feet</range>
+        <multiple>100</multiple>
+        <bc base="60">60</bc>
+      </spell>
+      <spell abbrev="S-2" name="Bolt of Energy">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="50">50</bc>
+      </spell>
+      <spell abbrev="S-3" name="Opening">
+        <range>15 feet + 15 / Ranks</range>
+        <multiple>150</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-4" name="Enchant Weapon">
+        <range>5 feet + 5 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-5" name="Web of Entanglement">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="35">35</bc>
+      </spell>
+      <spell abbrev="S-6" name="Mage Lock">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-7" name="Enhancing Enchantment">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-8" name="Levitation">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>125</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-9" name="Enchant Armour">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-10" name="Wizard's Eye">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-11" name="Slowness">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-12" name="Quickness">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="20">20</bc>
+      </spell>
+    </special-spells>
+    <special-rituals/>
+  </college>
+  <college abbrev="FI" short="fire" long="Fire Magics" version="2.0">
+    <talents>
+      <talent abbrev="T-1" name="Infravision">
+        <range>50 feet + 5 / Rank</range>
+        <multiple>75</multiple>
+      </talent>
+      <talent abbrev="T-2" name="Pyrogenisis">
+        <range>Sight</range>
+        <multiple>75</multiple>
+      </talent>
+    </talents>
+    <general-spells>
+      <spell abbrev="G-1" name="Bolt of Fire">
+        <range>25 feet + 25 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-2" name="Extinguish Fire Spell">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="50">50</bc>
+      </spell>
+      <spell abbrev="G-3" name="Fire Armour">
+        <range>Touch</range>
+        <multiple>200</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="G-4" name="Firelight">
+        <range>Touch</range>
+        <multiple>75</multiple>
+        <bc base="50">50</bc>
+      </spell>
+      <spell abbrev="G-5" name="Fireproofing">
+        <range>Touch</range>
+        <multiple>150</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="G-6" name="Increase Temperature">
+        <range>Touch</range>
+        <multiple>100</multiple>
+        <bc base="35">35</bc>
+      </spell>
+      <spell abbrev="G-7" name="Slow Fire">
+        <range>5 feet + 5 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-8" name="Smoke Creation">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>75</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Fire General Counterspell">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Fire Special Counterspell">
+        <bc>40</bc>
+      </spell>
+    </general-spells>
+    <general-rituals>
+      <ritual abbrev="Q-1" name="Binding Fire">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>500</multiple>
+        <bc base="10">10</bc>
+      </ritual>
+    </general-rituals>
+    <special-spells>
+      <spell abbrev="S-1" name="Cleansing Flame Spell">
+        <range>10 feet + 10 / Rank above 10</range>
+        <multiple>300</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-2" name="Dragon Flames">
+        <range>Special</range>
+        <multiple>500</multiple>
+        <bc base="10">10</bc>
+      </spell>
+      <spell abbrev="S-3" name="Fire Arc">
+        <range>Touch</range>
+        <multiple>250</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="S-4" name="Fireball">
+        <range>60 feet + 10 / Rank</range>
+        <multiple>550</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-5" name="Heat Shield">
+        <range>Touch</range>
+        <multiple>200</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-6" name="Hellfire">
+        <range>10 feet + 5 / Rank</range>
+        <multiple>650</multiple>
+        <bc base="5">5</bc>
+      </spell>
+      <spell abbrev="S-7" name="Immolation">
+        <range>Self</range>
+        <multiple>200</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="S-8" name="Malignant Flames">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>550</multiple>
+        <bc base="5">5</bc>
+      </spell>
+      <spell abbrev="S-9" name="Pyrotechnics">
+        <range>60 feet + 10 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-10" name="Speak to Fire Creatures">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>75</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="S-11" name="Summoning Salamander">
+        <range>Unlimited</range>
+        <multiple>200</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="S-12" name="Weapon of Flames">
+        <range>5 feet + 1 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-13" name="Wall of Fire">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-14" name="Wildfires">
+        <range>Touch</range>
+        <multiple>250</multiple>
+        <bc base="25">25</bc>
+      </spell>
+    </special-spells>
+    <special-rituals>
+      <ritual abbrev="R-1" name="Create Drought">
+        <range>2 miles + 2 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="30" rank="3">30 + 3 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-2" name="Flame Sight">
+        <range>5 feet</range>
+        <multiple>250</multiple>
+        <bc base="40" rank="5">40 + 5 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-3" name="Ritual of Summoning a Lesser Efreeti">
+        <range>5 feet</range>
+        <multiple>200</multiple>
+        <bc base="30" rank="3">30 + 3 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-4" name="Summon Fire Elemental">
+        <range>20 feet</range>
+        <multiple>450</multiple>
+        <bc base="MA" rank="4">MA + 4 / Rank</bc>
+      </ritual>
+    </special-rituals>
+  </college>
+  <college abbrev="IC" short="ice" long="Ice Magics" version="1.5">
+    <talents>
+      <talent abbrev="T-1" name="Cold Affinity">
+        <multiple>100</multiple>
+      </talent>
+      <talent abbrev="T-2" name="Endure Hardship">
+        <multiple>150</multiple>
+      </talent>
+    </talents>
+    <general-spells>
+      <spell abbrev="G-1" name="Extinguish Fires">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="50">50</bc>
+      </spell>
+      <spell abbrev="G-2" name="Freeze">
+        <range>5 feet + 5 / Rank</range>
+        <multiple>50</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-3" name="Ice Creation">
+        <range>15 feet + 10 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="G-4" name="Ice Traversal">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>125</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="G-5" name="Refrigeration">
+        <range>25 feet + 5 / Rank</range>
+        <multiple>50</multiple>
+        <bc base="35">35</bc>
+      </spell>
+      <spell abbrev="G-6" name="Resist Cold">
+        <range>Touch</range>
+        <multiple>100</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-7" name="Snow Shovel">
+        <range>Self</range>
+        <multiple>125</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-8" name="Water to Ice">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Ice General Counterspell">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Ice Special Counterspell">
+        <bc>40</bc>
+      </spell>
+    </general-spells>
+    <general-rituals>
+      <ritual abbrev="Q-1" name="Create Igloo">
+        <multiple>100</multiple>
+        <bc base="MA" rank="4">MA + 4 / Rank</bc>
+      </ritual>
+      <ritual abbrev="Q-2" name="Bind Ice and Snow">
+        <multiple>750</multiple>
+        <bc base="MA" rank="4">MA + 4 / Rank</bc>
+      </ritual>
+    </general-rituals>
+    <special-spells>
+      <spell abbrev="S-1" name="Armour of Ice">
+        <range>Touch</range>
+        <multiple>250</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-2" name="Icy Transformation">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-3" name="Freezing Wind">
+        <range>5 feet + 5 / Rank</range>
+        <multiple>225</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-4" name="Frostbite">
+        <range>50 feet + 25 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-5" name="Frozen Doom">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>500</multiple>
+        <bc base="5">5</bc>
+      </spell>
+      <spell abbrev="S-6" name="Hibernation">
+        <range>5 feet</range>
+        <multiple>250</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-7" name="Ice Bolt">
+        <range>20 feet + 10 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="35">35</bc>
+      </spell>
+      <spell abbrev="S-8" name="Ice Construction">
+        <range>15 feet + 5 / Rank</range>
+        <multiple>225</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="S-9" name="Iceberg">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-10" name="Ice Pack">
+        <range>10 feet +5 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="S-11" name="Ice Projectiles">
+        <range>20 feet + 5 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-12" name="Ray of Cold">
+        <range>30 feet + 15 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-13" name="Snowball">
+        <range>10 feet +10 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-14" name="Snowfall">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="S-15" name="Wall of Ice">
+        <range>20 feet + 10 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-16" name="Weapon of Cold">
+        <range>10 feet + 5 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-17" name="Winter Garden">
+        <range>20 feet + 10 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="35">35</bc>
+      </spell>
+    </special-spells>
+    <special-rituals>
+      <ritual abbrev="R-1" name="Snow Simulacrum">
+        <multiple>300</multiple>
+        <bc base="MA" rank="3">MA + 3 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-2" name="Summoning and Controlling Ice Elemental">
+        <multiple>250</multiple>
+        <bc base="MA" rank="5">MA + 5 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-3" name="Ritual of Winter">
+        <multiple>350</multiple>
+        <bc base="MA" rank="3">MA + 3 / Rank</bc>
+      </ritual>
+    </special-rituals>
+  </college>
+  <college abbrev="IL" short="illusion" long="Illusions" version="1.4">
+    <talents>
+      <talent abbrev="T-1" name="Concealed Casting">
+        <multiple>150</multiple>
+      </talent>
+      <talent abbrev="T-2" name="Enhanced Vision">
+        <multiple>225</multiple>
+      </talent>
+      <talent abbrev="T-3" name="Project Image">
+        <multiple>200</multiple>
+      </talent>
+    </talents>
+    <general-spells>
+      <spell abbrev="G-1" name="Audile Illusion">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>125</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="G-2" name="Flash of Light">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-3" name="Illusion of Food">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="50">50</bc>
+      </spell>
+      <spell abbrev="G-4" name="Invisibility">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>450</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="G-5" name="Personalised Illusion">
+        <range>30 feet + 30 / Rank</range>
+        <multiple>75</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-6" name="Illusion of Seeming">
+        <range>5 feet + 5 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-7" name="Static Illusion">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="G-8" name="Illusionary Wall">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>125</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Illusion General Counterspell">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Illusion Special Counterspell">
+        <bc>40</bc>
+      </spell>
+    </general-spells>
+    <general-rituals>
+      <ritual abbrev="Q-1" name="Illusionary Cloaking">
+        <range>5 feet + 5 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="40" rank="4">40 + 4 / Rank</bc>
+      </ritual>
+      <ritual abbrev="Q-2" name="Illusory Fog">
+        <range>30 feet + 30 / Rank</range>
+        <multiple>75</multiple>
+        <bc base="40" rank="4">40 + 4 / Rank</bc>
+      </ritual>
+    </general-rituals>
+    <special-spells>
+      <spell abbrev="S-1" name="Illusionary Animal">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="35">35</bc>
+      </spell>
+      <spell abbrev="S-2" name="Illusionary Bolt">
+        <range>15 feet + 5 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-3" name="Illusory Creation">
+        <range>Touch</range>
+        <multiple>250</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-4" name="Illusion of Deep Pockets">
+        <range>Self</range>
+        <multiple>200</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="S-5" name="Disguise Illusion">
+        <range>Touch</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-6" name="Illusionary Euphonia">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-7" name="Hallucination">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>225</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-8" name="Heroism">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-9" name="Illusion of Innocence">
+        <range>1 foot + 1 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-10" name="Maze">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>450</multiple>
+        <bc base="1">1</bc>
+      </spell>
+      <spell abbrev="S-11" name="Illusion of Metamorphosis">
+        <range>1 foot + 1 / Rank</range>
+        <multiple>225</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="S-12" name="Illusion of Mist">
+        <range>20 feet + 20 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-13" name="Illusion of Multiple Images">
+        <range>1 foot + 1 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-14" name="Nightmare Illusion">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>400</multiple>
+        <bc base="5">5</bc>
+      </spell>
+    </special-spells>
+    <special-rituals>
+      <ritual abbrev="R-1" name="Illusionary Aura">
+        <range>5 feet</range>
+        <multiple>200</multiple>
+        <bc base="30" rank="3perRank">30 + 3 per Rank</bc>
+      </ritual>
+      <ritual abbrev="R-2" name="Illusionary Terrain">
+        <range>5 feet + 5 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="MA" rank="3perRank">MA + 3 per Rank</bc>
+      </ritual>
+      <ritual abbrev="R-3" name="Permanency">
+        <range>5 feet</range>
+        <multiple>550</multiple>
+        <bc base="MA" rank="2perRank">MA + 2 per Rank</bc>
+      </ritual>
+    </special-rituals>
+  </college>
+  <college abbrev="MI" short="mind" long="Sorceries of the Mind" version="1.6">
+    <talents>
+      <talent abbrev="T-1" name="Resist Pain">
+        <range>Self</range>
+        <multiple>300</multiple>
+      </talent>
+      <talent abbrev="T-2" name="Resist Temperature">
+        <range>Self</range>
+        <multiple>250</multiple>
+      </talent>
+      <talent abbrev="T-3" name="Sense Danger">
+        <bc base="PC" rank="3">PC + 3 / Rank</bc>
+        <multiple>300</multiple>
+      </talent>
+    </talents>
+    <general-spells>
+      <spell abbrev="G-1" name="Control Animal">
+        <range>30 feet + 15 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-2" name="Control Person">
+        <range>30 feet + 15 / Rank</range>
+        <multiple>650</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="G-3" name="Empathy">
+        <range>Touch until Rank 10</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-4" name="ESP">
+        <range>30 feet + 15 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-5" name="Hypnotism">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-6" name="Limited Precognition">
+        <range>Special</range>
+        <multiple>150</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-7" name="Mind Shield">
+        <range>Self</range>
+        <multiple>250</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Mind General Counterspell">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Mind Special Counterspell">
+        <bc>40</bc>
+      </spell>
+    </general-spells>
+    <general-rituals>
+      <ritual abbrev="Q-1" name="Binding Will">
+        <range>10 feet</range>
+        <multiple>500</multiple>
+        <bc base="10" rank="5">10 + 5 / Rank</bc>
+      </ritual>
+    </general-rituals>
+    <special-spells>
+      <spell abbrev="S-1" name="Disruption">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>400</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-2" name="Force Shield">
+        <range>Self</range>
+        <multiple>250</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="S-3" name="Healing">
+        <range>Touch</range>
+        <multiple>375</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="S-4" name="Mental Attack">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>350</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-5" name="Mind Speech">
+        <range>30 feet + 30 / Rank</range>
+        <multiple>400</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-6" name="Phantasm">
+        <range>Special</range>
+        <multiple>400</multiple>
+        <bc base="1">1</bc>
+      </spell>
+      <spell abbrev="S-7" name="Telekinesis">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-8" name="Telekinetic Rage">
+        <range>30 feet + 5 / Rank</range>
+        <multiple>750</multiple>
+        <bc base="1">1</bc>
+      </spell>
+      <spell abbrev="S-9" name="Telepathy">
+        <range>30 feet + 30 / Rank</range>
+        <multiple>550</multiple>
+        <bc base="10">10</bc>
+      </spell>
+      <spell abbrev="S-10" name="Transmutation">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>1000</multiple>
+        <bc base="1">1</bc>
+      </spell>
+      <spell abbrev="S-11" name="Undetectability">
+        <range>Touch</range>
+        <multiple>450</multiple>
+        <bc base="15">15</bc>
+      </spell>
+    </special-spells>
+    <special-rituals/>
+  </college>
+  <college abbrev="NA" short="namer" long="Naming Incantations" version="2.0">
+    <talents>
+      <talent abbrev="T-1" name="Detect Aura">
+        <multiple>75</multiple>
+      </talent>
+      <talent abbrev="T-2" name="Expel Magic">
+        <multiple>75</multiple>
+      </talent>
+      <talent abbrev="T-3" name="Quick Cast"/>
+    </talents>
+    <general-spells>
+      <spell abbrev="G-GC" name="Air General Counterspell" college="AI">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Air Special Counterspell" college="AI">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Bardic General Counterspell" college="BA">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Bardic Special Counterspell" college="BA">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Binder General Counterspell" college="BI">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Binder Special Counterspell" college="BI">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Celestial General Counterspell" college="CE">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Celestial Special Counterspell" college="CE">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Earth General Counterspell" college="EA">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Earth Special Counterspell" college="EA">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Enchanter General Counterspell" college="EN">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Enchanter Special Counterspell" college="EN">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Fire General Counterspell" college="FI">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Fire Special Counterspell" college="FI">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Ice General Counterspell" college="IC">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Ice Special Counterspell" college="IC">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Illusion General Counterspell" college="IL">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Illusion Special Counterspell" college="IL">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Mind General Counterspell" college="MI">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Mind Special Counterspell" college="MI">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Namer General Counterspell">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Namer Special Counterspell">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Namer General Counterspell" college="NA">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Namer Special Counterspell" college="NA">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Necro General Counterspell" college="NE">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Necro Special Counterspell" college="NE">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Rune General Counterspell" college="RU">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Rune Special Counterspell" college="RU">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Summoner General Counterspell" college="GS">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Summoner Special Counterspell" college="GS">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Water General Counterspell" college="WA">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Water Special Counterspell" college="WA">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Witchcraft General Counterspell" college="WI">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Witchcraft Special Counterspell" college="WI">
+        <bc>40</bc>
+      </spell>
+    </general-spells>
+    <general-rituals>
+      <ritual abbrev="Q-1" name="Dissipation">
+        <bc base="AsperCounterspell" rank="Ritualpreparation">As per Counterspell + Ritual preparation</bc>
+      </ritual>
+    </general-rituals>
+    <special-spells>
+      <spell abbrev="S-1" name="Bane">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-2" name="Banishment">
+        <range>Self</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-3" name="Compel Obedience">
+        <range>15 feet + 5 / Rank</range>
+        <multiple>400</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-4" name="Disjunction">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-5" name="Dispel Magic">
+        <range>Self</range>
+        <multiple>400</multiple>
+        <bc base="5">5</bc>
+      </spell>
+      <spell abbrev="S-6" name="Forbidding">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-7" name="Mana Sense">
+        <range>Self</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-8" name="Scry Shield">
+        <range>10 feet + 5 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-9" name="Spell Barrier">
+        <range>10 feet + 5 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-10" name="True Seeing">
+        <range>10 feet + 5 / 2 Ranks</range>
+        <multiple>300</multiple>
+        <bc base="25">25</bc>
+      </spell>
+    </special-spells>
+    <special-rituals>
+      <ritual abbrev="R-1" name="Divination">
+        <range>5 feet + 1 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="40" rank="10">40 + 10 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-2" name="Expulsion">
+        <range>5 feet + 1 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="10" rank="5">10 + 5 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-3" name="Interregnum">
+        <range>10 feet</range>
+        <multiple>250</multiple>
+        <bc base="MA" rank="4">MA + 4 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-4" name="Remove Curse"/>
+      <ritual abbrev="R-5" name="Sealing">
+        <range>20 feet +20 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="20" rank="4">20 + 4 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-6" name="True Form">
+        <range>5 feet</range>
+        <multiple>300</multiple>
+        <bc base="20" rank="3">20 + 3 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-7" name="True Speaking">
+        <range>10 feet</range>
+        <multiple>300</multiple>
+        <bc base="40" rank="3">40 + 3 / Rank</bc>
+      </ritual>
+    </special-rituals>
+  </college>
+  <college abbrev="NE" short="necro" long="Necromantic Conjurations" version="1.1">
+    <talents>
+      <talent abbrev="T-1" name="Ask the Dead">
+        <range>10 feet</range>
+        <multiple>150</multiple>
+        <bc base="20" rank="4">20 + 4 / Rank</bc>
+      </talent>
+      <talent abbrev="T-2" name="Death Sense">
+        <multiple>75</multiple>
+      </talent>
+      <talent abbrev="T-3" name="Necrogeny">
+        <range>Self</range>
+        <multiple>150</multiple>
+        <bc base="Automatic">Automatic</bc>
+      </talent>
+    </talents>
+    <general-spells>
+      <spell abbrev="G-1" name="Animating Bodily Parts">
+        <range>Touch</range>
+        <multiple>175</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="G-2" name="Binding Lesser Undead">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="35">35</bc>
+      </spell>
+      <spell abbrev="G-3" name="Conjuring Darkness">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="50">50</bc>
+      </spell>
+      <spell abbrev="G-4" name="Detecting Undead">
+        <range>50 feet + 50 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="G-5" name="Fear">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="G-6" name="Noxious Vapours">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="G-7" name="Putrescence">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="50">50</bc>
+      </spell>
+      <spell abbrev="G-8" name="Putrid Wound">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-9" name="Rigor Mortis">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-10" name="Spectral Hand">
+        <range>15 feet + 5 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="G-11" name="Warping">
+        <range>Touch</range>
+        <multiple>175</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Necro General Counterspell">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Necro Special Counterspell">
+        <bc>40</bc>
+      </spell>
+    </general-spells>
+    <general-rituals>
+      <ritual abbrev="Q-1" name="Converse with the Dead">
+        <multiple>200</multiple>
+        <bc base="MA" rank="4">MA + 4 / Rank</bc>
+      </ritual>
+      <ritual abbrev="Q-2" name="Summoning Lesser Undead">
+        <multiple>250</multiple>
+        <bc base="MA" rank="3">MA + 3 / Rank</bc>
+      </ritual>
+    </general-rituals>
+    <special-spells>
+      <spell abbrev="S-1" name="Agony">
+        <range>30 feet + 15 / Rank</range>
+        <multiple>350</multiple>
+        <bc base="10">10</bc>
+      </spell>
+      <spell abbrev="S-2" name="Animation of the Dead">
+        <range>30 feet + 15 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-3" name="Binding Greater Undead">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-4" name="Bone Construction">
+        <range>5 feet + 5 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="S-5" name="Dark Vision">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="60">60</bc>
+      </spell>
+      <spell abbrev="S-6" name="Hand of Death">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-7" name="Life Draining">
+        <range>Touch</range>
+        <multiple>300</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="S-8" name="Mass Fear">
+        <range>30 feet + 15 / Rank</range>
+        <multiple>400</multiple>
+        <bc base="10">10</bc>
+      </spell>
+      <spell abbrev="S-9" name="Necrosis">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>450</multiple>
+        <bc base="5">5</bc>
+      </spell>
+      <spell abbrev="S-10" name="Petit Mort">
+        <range>Touch</range>
+        <multiple>250</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-11" name="Scarring Terrain">
+        <range>50 feet + 25 / Rank</range>
+        <multiple>225</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-12" name="Spectral Warrior">
+        <range>Sight</range>
+        <multiple>400</multiple>
+        <bc base="5">5</bc>
+      </spell>
+      <spell abbrev="S-13" name="Spectral Weapon">
+        <range>5 feet + 5 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="S-14" name="Stream of Corruption">
+        <range>30 feet + 5 / Rank</range>
+        <multiple>350</multiple>
+        <bc base="5">5</bc>
+      </spell>
+      <spell abbrev="S-15" name="Wall of Bones">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-16" name="Wraithcloak">
+        <range>Self</range>
+        <multiple>200</multiple>
+        <bc base="15">15</bc>
+      </spell>
+    </special-spells>
+    <special-rituals>
+      <ritual abbrev="R-1" name="Becoming Undead">
+        <multiple>250</multiple>
+        <bc base="10" rank="3">10 + 3 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-2" name="Life Prolonging">
+        <multiple>350</multiple>
+        <bc base="5" rank="5">5 + 5 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-3" name="Permanency">
+        <multiple>350</multiple>
+        <bc base="MA" rank="4">MA + 4 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-4" name="Shaping Flesh Golems">
+        <multiple>500</multiple>
+        <bc base="Special">Special</bc>
+      </ritual>
+      <ritual abbrev="R-5" name="Summoning Greater Undead">
+        <multiple>350</multiple>
+        <bc base="MA/2" rank="3">MA / 2 + 3 / Rank</bc>
+      </ritual>
+    </special-rituals>
+  </college>
+  <college abbrev="RU" short="rune" long="Rune Magics" version="1.1">
+    <talents>
+      <talent abbrev="T-1" name="Read Dead Languages">
+        <multiple>150</multiple>
+      </talent>
+      <talent abbrev="T-2" name="Decipher Codes and Ciphers">
+        <multiple>150</multiple>
+        <bc base="25" rank="3">25 + 3 / Rank</bc>
+      </talent>
+      <talent abbrev="T-3" name="Read Runesticks">
+        <multiple>100</multiple>
+      </talent>
+      <talent abbrev="T-4" name="Create Codes and Ciphers">
+        <multiple>150</multiple>
+      </talent>
+      <talent abbrev="T-5" name="Summon Wand">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="40" rank="3">40 + 3 / Rank</bc>
+      </talent>
+    </talents>
+    <general-spells>
+      <spell abbrev="G-1" name="Learn Rune">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="45">45</bc>
+      </spell>
+      <spell abbrev="G-2" name="Darkness">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>75</multiple>
+        <bc base="45">45</bc>
+      </spell>
+      <spell abbrev="G-3" name="Light">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>75</multiple>
+        <bc base="50">50</bc>
+      </spell>
+      <spell abbrev="G-4" name="Pyrogenesis">
+        <range>Touch of Runewand</range>
+        <multiple>75</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-5" name="Curse">
+        <range>Touch of Runewand</range>
+        <multiple>400</multiple>
+        <bc base="35">35</bc>
+      </spell>
+      <spell abbrev="G-6" name="Illusion">
+        <range>5 feet + 5 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="35">35</bc>
+      </spell>
+      <spell abbrev="G-7" name="Control Entity">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>500</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="G-8" name="Purification">
+        <range>Touch</range>
+        <multiple>100</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="G-9" name="Runelock">
+        <range>5 feet + 5 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Rune General Counterspell">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Rune Special Counterspell">
+        <bc>40</bc>
+      </spell>
+    </general-spells>
+    <general-rituals>
+      <ritual abbrev="Q-1" name="Fashioning Runesticks">
+        <multiple>100</multiple>
+        <bc base="55" rank="3">55 + 3 / Rank</bc>
+      </ritual>
+      <ritual abbrev="Q-2" name="Fashioning Runewand">
+        <multiple>300</multiple>
+        <bc base="30" rank="3">30 + 3 / Rank</bc>
+      </ritual>
+      <ritual abbrev="Q-3" name="Warding with Runesticks">
+        <multiple>200</multiple>
+      </ritual>
+      <ritual abbrev="Q-4" name="Healing">
+        <multiple>150</multiple>
+        <bc base="50" rank="4">50 + 4 / Rank</bc>
+      </ritual>
+      <ritual abbrev="Q-5" name="Runes of Sight">
+        <multiple>300</multiple>
+      </ritual>
+      <ritual abbrev="Q-6" name="Sending">
+        <range>10 miles + 5 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="30" rank="5">30 + 5 / Rank</bc>
+      </ritual>
+    </general-rituals>
+    <special-spells>
+      <spell abbrev="S-1" name="Runewall Spell">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="50">50</bc>
+      </spell>
+      <spell abbrev="S-2" name="Torment">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="S-3" name="Creating Rune Shield">
+        <range>Touch</range>
+        <multiple>200</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="S-4" name="Visitation">
+        <range>1 mile + 1 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="S-5" name="Truth">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-6" name="Banishment">
+        <range>Touch</range>
+        <multiple>250</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-7" name="Smite">
+        <range>Touch</range>
+        <multiple>200</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-8" name="Creating Runeweapon">
+        <range>Touch</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+    </special-spells>
+    <special-rituals>
+      <ritual abbrev="R-1" name="Casting the Runes">
+        <multiple>500</multiple>
+        <bc base="5" rank="5">5 + 5 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-2" name="Creeping Doom">
+        <multiple>450</multiple>
+        <bc base="20" rank="4">20 + 4 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-3" name="Creating Rune Portal">
+        <multiple>400</multiple>
+      </ritual>
+      <ritual abbrev="R-4" name="Binding Elements">
+        <multiple>500</multiple>
+        <bc base="MA" rank="3">MA + 3 / Rank</bc>
+      </ritual>
+    </special-rituals>
+  </college>
+  <college abbrev="GS" short="summoner" long="Greater Summonings" version="1.0">
+    <talents/>
+    <general-spells>
+      <spell abbrev="G-GC" name="Summoner General Counterspell">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Summoner Special Counterspell">
+        <bc>40</bc>
+      </spell>
+    </general-spells>
+    <general-rituals>
+      <ritual abbrev="Q-1" name="Cleansing"/>
+      <ritual abbrev="Q-2" name="Summoning Succubi">
+        <multiple>300</multiple>
+        <bc base="5" rank="3">5 + 3 / Rank</bc>
+      </ritual>
+      <ritual abbrev="Q-3" name="Summoning Incubi">
+        <multiple>300</multiple>
+        <bc base="5" rank="3">5 + 3 / Rank</bc>
+      </ritual>
+      <ritual abbrev="Q-4" name="Summoning Heroes">
+        <multiple>500</multiple>
+      </ritual>
+      <ritual abbrev="Q-5" name="True Speaking">
+        <multiple>250</multiple>
+        <bc base="50">50</bc>
+      </ritual>
+      <ritual abbrev="Q-6" name="Binding">
+        <multiple>400</multiple>
+      </ritual>
+    </general-rituals>
+    <special-spells/>
+    <special-rituals>
+      <ritual abbrev="R-1" name="Summoning Demonic Dukes">
+        <multiple>300</multiple>
+      </ritual>
+      <ritual abbrev="R-2" name="Summoning Demonic Princes">
+        <multiple>350</multiple>
+      </ritual>
+      <ritual abbrev="R-3" name="Summoning Demonic Presidents">
+        <multiple>350</multiple>
+      </ritual>
+      <ritual abbrev="R-4" name="Summoning Demonic Earls">
+        <multiple>500</multiple>
+      </ritual>
+      <ritual abbrev="R-5" name="Summoning Demonic Marquis">
+        <multiple>550</multiple>
+      </ritual>
+      <ritual abbrev="R-6" name="Summoning Demonic Kings">
+        <multiple>600</multiple>
+      </ritual>
+    </special-rituals>
+  </college>
+  <college abbrev="WA" short="water" long="Water Magics" version="1.3">
+    <talents>
+      <talent abbrev="T-1" name="Predict Weather">
+        <multiple>75</multiple>
+        <bc base="MA" rank="5">MA + 5 / Rank</bc>
+      </talent>
+      <talent abbrev="T-2" name="Dowsing">
+        <multiple>75</multiple>
+        <bc base="2*MA" rank="4">2 * MA + 4 / Rank</bc>
+      </talent>
+      <talent abbrev="T-3" name="Aquatic Affinity">
+        <multiple>100</multiple>
+      </talent>
+    </talents>
+    <general-spells>
+      <spell abbrev="G-1" name="Buoyancy">
+        <range>Touch</range>
+        <multiple>100</multiple>
+        <bc base="45">45</bc>
+      </spell>
+      <spell abbrev="G-2" name="Cold Resistance">
+        <range>Touch</range>
+        <multiple>150</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-3" name="Create Fog">
+        <range>20 feet + 20 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-4" name="Mage Current">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>125</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="G-5" name="Navigation">
+        <range>Self</range>
+        <multiple>125</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="G-6" name="Rehydration">
+        <range>Touch</range>
+        <multiple>350</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="G-7" name="Saturated Earth">
+        <range>100 feet + 50 / Rank</range>
+        <multiple>250</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="G-8" name="Ship Strength">
+        <range>90 feet + 15 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-9" name="Speak to Aquatic Life">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-10" name="Summon Aquatic Life">
+        <range>Unlimited</range>
+        <multiple>100</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-11" name="Water Breathing">
+        <range>Touch</range>
+        <multiple>100</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="G-12" name="Water Creation">
+        <range>Touch</range>
+        <multiple>150</multiple>
+        <bc base="35">35</bc>
+      </spell>
+      <spell abbrev="G-13" name="Waterproofing">
+        <range>Touch</range>
+        <multiple>150</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="G-14" name="Wave Control">
+        <range>90 feet + 90 / Rank</range>
+        <multiple>125</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Water General Counterspell">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Water Special Counterspell">
+        <bc>40</bc>
+      </spell>
+    </general-spells>
+    <general-rituals>
+      <ritual abbrev="Q-1" name="Binding Water">
+        <range>10 feet + 15 / Rank</range>
+        <multiple>750</multiple>
+        <bc base="MA" rank="4">MA + 4 / Rank</bc>
+      </ritual>
+    </general-rituals>
+    <special-spells>
+      <spell abbrev="S-1" name="Control Aquatic Life">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-2" name="Dehydration">
+        <range>20 feet + 20 / Rank</range>
+        <multiple>500</multiple>
+        <bc base="1">1</bc>
+      </spell>
+      <spell abbrev="S-3" name="Flash Flood">
+        <range>600 feet + 600 / Rank</range>
+        <multiple>500</multiple>
+        <bc base="2">2</bc>
+      </spell>
+      <spell abbrev="S-4" name="Geyser">
+        <range>20 feet + 20 / Rank</range>
+        <multiple>350</multiple>
+        <bc base="15">15</bc>
+      </spell>
+      <spell abbrev="S-5" name="Liquid Purification">
+        <range>15 feet</range>
+        <multiple>350</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-6" name="Liquid Transmutation">
+        <range>Touch</range>
+        <multiple>350</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-7" name="Maelstrom">
+        <range>30 feet + 30 / Rank</range>
+        <multiple>500</multiple>
+        <bc base="10">10</bc>
+      </spell>
+      <spell abbrev="S-8" name="Rainstorm">
+        <range>20 feet + 20 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-9" name="Storm Calling">
+        <range>Works at any Range</range>
+        <multiple>200</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="S-10" name="Walk on Water">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-11" name="Waters of Healing">
+        <range>Touch</range>
+        <multiple>400</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-12" name="Waters of Strength">
+        <range>Touch</range>
+        <multiple>350</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-13" name="Waters of Vision">
+        <range>Touch</range>
+        <multiple>250</multiple>
+        <bc base="25">25</bc>
+      </spell>
+      <spell abbrev="S-14" name="Waterspout">
+        <range>60 feet + 60 / Rank</range>
+        <multiple>750</multiple>
+        <bc base="5">5</bc>
+      </spell>
+      <spell abbrev="S-15" name="Wave Riding">
+        <range>10 feet + 10 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="20">20</bc>
+      </spell>
+    </special-spells>
+    <special-rituals>
+      <ritual abbrev="R-1" name="Summoning and Binding Water Elemental">
+        <range>20 feet</range>
+        <multiple>250</multiple>
+        <bc base="MA" rank="5">MA +5 / Rank +1 WP above 15</bc>
+      </ritual>
+    </special-rituals>
+  </college>
+  <college abbrev="WI" short="witchcraft" long="Witchcraft" version="1.1">
+    <talents>
+      <talent abbrev="T-1" name="Farsensing">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>150</multiple>
+      </talent>
+      <talent abbrev="T-2" name="Special Alchemy"/>
+      <talent abbrev="T-3" name="Witchsight">
+        <multiple>200</multiple>
+      </talent>
+    </talents>
+    <general-spells>
+      <spell abbrev="G-1" name="Damnum Minatum">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-2" name="Darkness">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="60">60</bc>
+      </spell>
+      <spell abbrev="G-3" name="Decay">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="50">50</bc>
+      </spell>
+      <spell abbrev="G-4" name="Fear">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>350</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-5" name="Harming Entity">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-6" name="Hypnotism">
+        <range>15 feet</range>
+        <multiple>200</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-7" name="Igniting Flammables">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-8" name="Mind Cloak">
+        <range>Self</range>
+        <multiple>250</multiple>
+        <bc base="30">30</bc>
+        <range>15 feet</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-10" name="Storm Calling">
+        <range>Works at any range</range>
+        <multiple>200</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-11" name="Summoning Enchanted Creatures">
+        <range>5 miles + 1 / Rank</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="G-12" name="Walking Unseen">
+        <range>1 foot + 1 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="60">60</bc>
+      </spell>
+      <spell abbrev="G-13" name="Wind Whistle">
+        <range>Self</range>
+        <multiple>100</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="G-GC" name="Witchcraft General Counterspell">
+        <bc>40</bc>
+      </spell>
+      <spell abbrev="G-SC" name="Witchcraft Special Counterspell">
+        <bc>40</bc>
+      </spell>
+    </general-spells>
+    <general-rituals>
+      <ritual abbrev="Q-1" name="Finding Familiar">
+        <multiple>250</multiple>
+        <bc base="40" rank="4">40 + 4 / Rank</bc>
+      </ritual>
+      <ritual abbrev="Q-2" name="Tarot Reading">
+        <multiple>500</multiple>
+        <bc base="Special" rank="3">Special + 3 / Rank</bc>
+      </ritual>
+    </general-rituals>
+    <special-spells>
+      <spell abbrev="S-1" name="Blessing Crops">
+        <range>Sight</range>
+        <multiple>125</multiple>
+        <bc base="40">40</bc>
+      </spell>
+      <spell abbrev="S-2" name="Blessing/Curse on Unborn Child">
+        <range>Sight</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-3" name="Blessing Livestock">
+        <range>Sight</range>
+        <multiple>150</multiple>
+        <bc base="45">45</bc>
+      </spell>
+      <spell abbrev="S-4" name="Blighting Crops">
+        <range>Sight</range>
+        <multiple>125</multiple>
+        <bc base="45">45</bc>
+      </spell>
+      <spell abbrev="S-5" name="Cat Vision">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="60">60</bc>
+      </spell>
+      <spell abbrev="S-6" name="Controlling Animals">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-7" name="Converse With Animals">
+        <range>Self</range>
+        <multiple>50</multiple>
+        <bc base="60">60</bc>
+      </spell>
+      <spell abbrev="S-8" name="Creating Plague">
+        <range>15 feet</range>
+        <multiple>200</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-9" name="Creating Restorative">
+        <range>Touch</range>
+        <multiple>200</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-10" name="Damnum Magnatum">
+        <range>20 feet + 15 / Rank</range>
+        <multiple>600</multiple>
+        <bc base="5">5</bc>
+      </spell>
+      <spell abbrev="S-11" name="Earth Tremor">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>350</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-12" name="Evil Eye">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>300</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-13" name="Hellfire">
+        <range>10 feet + 5 / Rank</range>
+        <multiple>650</multiple>
+        <bc base="5">5</bc>
+      </spell>
+      <spell abbrev="S-14" name="Instilling Flight">
+        <range>Touch</range>
+        <multiple>350</multiple>
+        <bc base="20">20</bc>
+      </spell>
+      <spell abbrev="S-15" name="Mass Fear">
+        <range>10 feet + 15 / Rank</range>
+        <multiple>400</multiple>
+        <bc base="10">10</bc>
+      </spell>
+      <spell abbrev="S-16" name="Pestilence">
+        <range>Sight</range>
+        <multiple>150</multiple>
+        <bc base="45">45</bc>
+      </spell>
+      <spell abbrev="S-17" name="Skin Change">
+        <range>Touch</range>
+        <multiple>350</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-18" name="Virility">
+        <range>5 feet + 5 / Rank</range>
+        <multiple>100</multiple>
+        <bc base="30">30</bc>
+      </spell>
+      <spell abbrev="S-19" name="Wall of Thorns">
+        <range>15 feet + 15 / Rank</range>
+        <multiple>150</multiple>
+        <bc base="20">20</bc>
+      </spell>
+    </special-spells>
+    <special-rituals>
+      <ritual abbrev="R-1" name="Controlling Weather">
+        <multiple>300</multiple>
+        <bc base="30" rank="3">30 + 3 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-2" name="Creeping Doom">
+        <multiple>450</multiple>
+        <bc base="20" rank="4">20 + 4 / Rank</bc>
+      </ritual>
+      <ritual abbrev="R-3" name="Dead Man's Candle">
+        <multiple>None</multiple>
+        <bc base="Automatic">Automatic</bc>
+      </ritual>
+      <ritual abbrev="R-4" name="Hand of Glory">
+        <multiple>None</multiple>
+        <bc base="Automatic">Automatic</bc>
+      </ritual>
+      <ritual abbrev="R-5" name="Summoning Animals">
+        <multiple>150</multiple>
+        <bc base="MA" rank="5">MA + 5 / Rank</bc>
+      </ritual>
+    </special-rituals>
+  </college>
+</dq>

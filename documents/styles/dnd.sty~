@@ -1,0 +1,56 @@
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+
+\ifx\pdfoutput\undefined
+  \renewcommand{\sfdefault}{pag}
+  \usepackage[dvips]{graphicx}
+\else
+  \renewcommand{\sfdefault}{phv}
+  \usepackage[pdftex]{graphicx}
+\fi
+
+\renewcommand{\normalsize}{\fontencoding{T1}\fontfamily{\sfdefault}\fontsize{8}{10.0pt}\selectfont}
+
+\setlength\parindent{0em}
+\setlength\parskip{2em}
+\setlength\oddsidemargin{-40pt}
+\setlength\evensidemargin{-40pt}
+\setlength\textwidth{520pt}
+\setlength\topmargin{-20mm}
+\setlength\textheight{750pt}
+\setlength\premulticols{2cm}
+%\setcounter{tracingmulticols}{5}
+
+\newenvironment{spelllist}
+{
+  \begin{figure}
+  \renewcommand{\normalsize}{\fontencoding{T1}\fontfamily{phv}\fontsize{7}{8.0pt}\selectfont}
+  \normalsize
+  \begin{multicols}{3}
+}
+{
+  \end{multicols}
+  \end{figure}
+}
+
+\newenvironment{itemlist}{
+\begin{figure}[t]
+\renewcommand{\normalsize}{\fontencoding{T1}\fontfamily{\sfdefault}\fontsize{8}{9.0pt}\selectfont}
+\normalsize
+\begin{multicols}{2}}
+{\end{multicols}\end{figure}
+}
+
+
+
+\newcommand{\thisday}{\slshape\fontsize{8}{9pt}\selectfont{\MakeUppercase{\today}}}
+\pagestyle{fancyplain}
+\lhead[\fancyplain{}{\slshape\fontsize{8}{9pt}\selectfont Page \thepage}]{\fancyplain{}{\thisday}}
+\rhead[\fancyplain{}{\thisday}]{\fancyplain{}{\slshape\fontsize{8}{9pt}\selectfont Page \thepage}}
+\cfoot{}
+
+\renewcommand\headrulewidth{1.0pt}
+\renewcommand\footrulewidth{0.0pt}
+\renewcommand\footruleskip{0.0pt}

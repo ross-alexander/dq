@@ -1,0 +1,2218 @@
+head	5.11;
+access;
+symbols
+	REL511:5.11
+	REL510:5.10
+	REL51:5.1
+	REL50:5.0
+	REL40:4.0
+	REL30:3.0
+	REL22:2.0
+	REL21:2.0
+	REL20:2.0
+	REL10:1.3;
+locks; strict;
+comment	@% @;
+
+
+5.11
+date	2002.09.10.09.52.11;	author ralexand;	state Exp;
+branches;
+next	5.10;
+
+5.10
+date	2001.12.19.09.30.11;	author ralexand;	state Exp;
+branches;
+next	5.1;
+
+5.1
+date	2001.12.19.09.28.03;	author ralexand;	state Exp;
+branches;
+next	5.0;
+
+5.0
+date	2000.06.08.09.10.19;	author ralexand;	state Exp;
+branches;
+next	4.2;
+
+4.2
+date	2000.06.06.16.01.54;	author ralexand;	state Exp;
+branches;
+next	4.1;
+
+4.1
+date	2000.05.12.15.52.11;	author ralexand;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	98.06.04.05.40.06;	author rossa;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	98.06.04.05.38.15;	author rossa;	state Exp;
+branches;
+next	2.6;
+
+2.6
+date	98.06.04.05.35.09;	author rossa;	state Exp;
+branches;
+next	2.5;
+
+2.5
+date	98.05.11.02.03.42;	author rossa;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	98.05.10.23.51.15;	author rossa;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	98.05.08.04.49.49;	author rossa;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	98.05.08.04.41.05;	author rossa;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	97.07.24.02.01.31;	author rossa;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	97.06.06.01.34.47;	author rossa;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	97.06.05.02.40.04;	author rossa;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	97.05.22.02.48.34;	author rossa;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	97.05.08.21.47.37;	author rossa;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	97.04.29.04.21.30;	author rossa;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	97.02.28.06.16.50;	author rossa;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	96.03.25.06.16.56;	author rossa;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	96.02.23.01.44.16;	author rossa;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	96.01.12.03.45.16;	author rossa;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	96.01.12.02.16.18;	author rossa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.12.03.22.56.11;	author rossa;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.12.03.22.43.21;	author rossa;	state Exp;
+branches;
+next	;
+
+
+desc
+@New version checked in for James Mitchell to work on.
+@
+
+
+5.11
+log
+@REL511
+@
+text
+@\chapter*{Adventure}
+
+\begin{multicols*}{3}
+\index{adventure|(}
+
+\section{Equipment and Monetary Matters}
+
+\subsection{Purchase of goods and items}
+
+The GM will be guided in determining the price (in Silver Pennies) of
+the various goods produced by craftsmen by the Price List (see Players
+Handbook and Tables \S\ref{tables:weapons}, \S\ref{tables:armour} and
+\ref{tables:shields}. The three factors which determine the price of
+finished goods are the quality of the material used, the hours spent
+in construction, and the estimated Rank of the artisan (if one person
+produces the goods) or of the overseer (if the effort is a team
+project). However, if a character wishes to purchase a custom-made or
+rare item, then they will have to negotiate with the artisan
+(represented by the GM), and may defray costs by providing some of the
+scarcer components themself. The barter system is acceptable when
+dealing in costly or rare items.
+
+The value of a coin is determined by its weight and metal of which it
+is made.
+
+\begin{tabularx}{\linewidth}{Xll}
+\textbf{Name}		& \textbf{Weight}	&\textbf{Value} \\
+Copper farthing (cf)	& 1/5 oz \\
+Silver penny (sp)	& 1/20 oz	& 4 cf \\
+Gold shilling (gs)	& 1/20 oz	& 12 sp \\
+Truesilver guinea (tg)	& 1/10 oz	& 21 gs \\
+\end{tabularx}
+
+Other common coins include the halfpenny, three-pence, and
+sixpence. The values and weights of these coins correspond to those of
+the Silver Penny.
+
+\subsection{Encumbrance Modifies Agility}
+
+The weight borne by a character may temporarily reduce the character's
+Agility.
+
+To calculate modified Agility user the Fatigue and Encumbrance Table
+(\S\ref{tables:encumbrance}) and:
+\begin{Enumerate}
+\item
+Cross-reference the character's Physical Strength and the weight they
+are carrying.
+
+\item
+Read down this column until it intersects with the row which reads
+``Agility Loss.''
+
+\item
+Deduct the resulting number from the character's Agility to give
+Modified Ability.
+
+\item
+Re-calculate this number if there is a change in the weight they bear.
+\end{Enumerate}
+
+The character's Modified Agility is used as a basis for determining
+their current TMR. A character is considered to have a minimum Agility
+of 1 for all other game functions.
+
+\section{Health and Fitness}
+\label{adventure:health}
+An character's Fatigue will vary depending upon the amount of food and
+rest they get compared to their activities.
+
+A character's Endurance may be temporarily reduced by lack of
+sustenance, extreme activities, damage, or illness.
+
+\subsection{Eating and Drinking}
+\label{adventure:eating}
+The amount of food and water required per day is dependent on many
+factors. These include the person (endurance, weight, build, metabolic
+rate and race) and the level of activity they are involved in (light,
+medium, hard or strenuous).
+
+On average 1 lb of food and 2 pints of water per day is required.
+
+\subsection{Starvation}
+
+Starvation occurs when a character does not have at least 1 nourishing
+meal a day.
+
+If a character is starved they will have their Fatigue maximum and
+Endurance temporarily reduced by 1 each day. This decrease will last
+until the character starts receiving proper nourishment.
+
+A starved character's Fatigue maximum and Endurance will recover by 1
+point each day, after the first, that they receive proper nourishment
+
+\subsection{Dehydration}
+
+Dehydration occurs when a character does not have at least 2 pints of
+water a day. This will increase in high temperatures, plus 1 pint per
+10 degrees above 20.
+
+If a character is dehydrated they will have their Fatigue maximum and
+Endurance temporarily reduced by 5 each day. If the character receives
+part of their water requirement, the penalty is reduced. For every
+20\% (or fraction) less than the daily requirement they lose 1 from FT
+max and EN. This decrease will last until the character starts
+receiving adequate quantities of water.
+
+A dehydrated character's Fatigue and Endurance maximums will recover
+by 5 points each day, after the first, that they receive adequate
+quantities of water.
+
+\subsection{Tiredness and Rest}
+
+Characters have a tendency to lose Fatigue points on adventure. A
+fatigued character must rest to recover Fatigue points. Sleep, as
+might be expected, is the best way to become refreshed, but food and
+rest will also help.
+
+The Fatigue point loss and recovery rates given in these rules assume
+that the character is in good health and is well fed. If the character
+is not in condition, the GM may adjust the effects of activity, the
+effects of weight carried and the rate of recovery.
+
+\subsubsection{Fatigue Loss}
+\label{adventure:exercise}
+A character can lose Fatigue points when they engage in any activity
+more stressful than a leisurely walk.
+
+There are four classes of activity which can fatigue a character:
+\begin{Enumerate}
+\item
+Light Exercise includes moderate to brisk walking, riding slowly or at
+a moderate pace on a docile mount, etc.
+
+\item
+Medium Exercise includes jogging, riding on a cantering mount, light
+construction or precision work, etc.
+
+\item
+Hard Exercise includes paced running, riding at a gallop, hard manual
+labour, etc.
+
+\item
+Strenuous Exercise includes constant sprinting, breakneck riding, and
+generally those actions with which the character pushes their body to
+its practical limits.
+\end{Enumerate}
+
+It is possible for a character's actions to be more taxing than
+Strenuous Exercise, which requires superhuman exertion. This Fatigue
+loss from this activity will be determined by the GM.
+
+A character's degree of exertion is judged each hour. 
+
+The GM should indicate to players the level of exertion of their
+activities (averaging where necessary). If the GM gives consistent
+guidelines the players will be able to keep an ongoing track of
+fatigue loss.
+
+\subsubsection{Encumbrance}
+
+A character is limited in the weight they can bear and if they engage
+in exercise, they may become fatigued more quickly because of the
+weight they are carrying.
+
+The Fatigue and Encumbrance Table (\S\ref{tables:encumbrance}) lists
+the maximum weight a character may carry.
+
+A player must determine the total weight their character is carrying
+if the character is to engage in light or more stressful exercise for
+a significant length of time during a day.
+
+When an entity has a Physical Strength value greater than 40, the GM
+divides that value by 40. Multiply the quotient by the entry for 40,
+and add the entry corresponding to the remainder to determine that
+entity's capabilities.
+
+\subsubsection{Damage}
+
+A character may lose Fatigue by being damaged.  This may be recovered
+naturally or by being healed.
+
+\subsubsection{Spell Casting}
+
+A character may lose Fatigue by using magical abilities.  This may be
+recovered naturally but may not be healed.
+
+\subsubsection{Calculating Current Fatigue}
+\label{adventure:fatigue}
+
+The Fatigue status of a character only needs to be calculated before
+they enter into combat, wish to perform magic or if they perform
+fatiguing activities for long periods.  To calculate current Fatigue
+use the Fatigue and Encumbrance Table (\S\ref{tables:encumbrance}):
+\begin{Enumerate}
+\item
+Cross-reference the character's Physical Strength and the weight they
+are carrying.
+
+\item
+Read down this column until it intersects with the row corresponding
+to the character's rate of exercise.
+
+\item
+Multiply the resulting number (Fatigue points lost per hour) by the
+number of hours at this exercise level.
+
+\item
+Perform this calculation once for each time one (or more) of the three
+factors changes.
+
+\item
+Add each separate subtotal to determine the total Fatigue points
+expended by the character so far.
+\end{Enumerate}
+
+\subsubsection{Exhaustion}
+
+If a character's Fatigue point total is reduced below zero, they are
+exhausted. An exhausted character is limited in the activities they
+may choose to do and the performance of their abilities is adversely
+effected. Their Fatigue is considered zero for the purposes of combat
+or magic use.
+
+A character may choose to exert themselves after their Fatigue points
+are reduced to zero until they have expended a nominal one-half their
+initial Fatigue points (round down). When they reach this limit they
+will collapse unless they succeed a 1 \x WP check every (2 \x
+Endurance) minutes.
+
+An exhausted character must sleep for as much time as they were
+performing any light exercise while exhausted \emph{before} they may
+recover \emph{any} Fatigue points.
+
+If an exhausted character wishes to engage in Strenuous Exercise, they
+must succeed a separate 1 \x WP check.
+
+\subsubsection{Exhaustion Modifier}
+
+The character must subtract 1 / half hour (or fraction) of exhaustion
+to any base chance.
+
+\subsection{Fatigue Recovery}
+
+A character may regain Fatigue points naturally by eating a hot meal
+or resting.
+
+A character may never have a Fatigue total greater than their Fatigue
+Characteristic.
+
+A character naturally recovers Fatigue points as follows:
+
+\begin{tabular}{ll}
+\textbf{Activity} & \textbf{Fatigue points / Hour} \\
+Eat Hot Meal	& 2 \\
+Relaxation 	& 1 \\
+Nap		& 2 \\
+Sleep		& 3 \\
+\end{tabular}
+
+\begin{Enumerate}
+\item
+A character may benefit from a hot meal no more than three times
+during a 24 hour period, and each meal must be separated by at least 4
+hours.
+
+\item
+A character that does not get at least 6 hours of rest and/or sleep
+per day will have their Fatigue maximum temporarily reduced by 1 FT /
+hour (or fraction) of sleep under 6 hours. This may be recovered at
+the rate of 1 FT / 4 hours sleep.
+
+\item
+If a character's Endurance is less than 10, they recover one-half of a
+FT point less per hour or meal, and if their Endurance is less than 5,
+they recover one less FT point. However, a character always recovers a
+minimum of one-half a FT point when resting.
+
+\item
+If a character's Endurance is from 21 to 30, they recover an
+additional one-half of a FT point per hour or meal. Each succeeding
+ten point Endurance bracket carries an additional one-half FT point
+bonus.
+
+\item
+Fatigue loss from damage may also be recovered by magical healing (but
+not the Healer skill Heal Endurance).
+\end{Enumerate}
+
+\subsection{Damage and Illness}
+
+\subsubsection{Effects of Low Endurance}
+\begin{Description}
+\item[Unconsciousness] When an entity's Endurance reaches 3 or less,
+they must make a (current EN) \x WP check or fall unconscious; this
+WP check is repeated every minute or if their EN changes.
+
+An entity on 0 Endurance is unconscious, but stable. An entity with a
+full Endurance of 5 or less does not make consciousness checks. They
+remain conscious until they fall to 0 or less Endurance.
+
+\item[Below Zero Endurance] An entity on negative Endurance will lose
+one point of Fatigue (Endurance when no Fatigue remains) until the
+bleeding is stanched by a Healer, or until dead. They will continue to
+take damage from any further blows, spells, grievous wounds which are
+bleeders, burning, etc.
+
+When an entity is below zero Endurance they are on the very brink of
+death.  It takes time and skill to tell the difference between this
+state and death (\eg empathy, DA). GMs should not let players take
+advantage of out of character information when another player's
+character is below 0 Endurance.
+
+\item[Death] When an entity's Endurance falls below negative one-half
+their full Endurance, they are dead. Once dead, ongoing damage (\eg
+poison or bleeding) ceases but further damage may be inflicted on the
+body.
+\end{Description}
+
+\subsubsection{Endurance recovery}
+
+There are many causes of a character losing En-durance
+points. However, once lost there are two primary methods of recovering
+them.
+
+\subsubsection{Healers and Magical Healing}
+
+Healers, herbalists, potions, medicines and some magics may aid the
+recovery of Endurance. The exact effects can be found under the
+appropriate skill or magic.
+
+\subsubsection{Natural Healing}
+
+The rate at which Endurance Points recover naturally primarily depends
+on how active the injured being is.
+
+If an entity is resting they regain 1 Endurance point every three full
+days.
+
+This rate is reduced to 1 / 4 days if the entity:
+\begin{Itemize}
+\item takes any further EN damage 
+\item uses more than half their FT
+\item does not receive adequate nourishment
+\end{Itemize}
+
+If an entity is given ministrations from a physicker's kit, their body
+requires one less day to regain an Endurance Point.
+
+Injuries which are not quantified as Endurance point losses or
+grievous injuries (\eg hamstrung muscles) heal at the same rate as
+they do in this world.
+
+These healing rates are based on average Endurance value of 15. The GM
+may chose to increase the healing rate if an entity's full Endurance
+is very high or decrease it for a low Endurance entity.
+
+\subsubsection{Potions \& Unconscious Patients}
+
+An entity cannot drink a healing potion when they are unconscious or
+below zero endurance but one can be massaged down their throat. The
+chance of doing this is equal to the Manual Dexterity + Perception of
+the person administering the potion, or if a healer, 90 + Healer
+Rank. If successful then D10 per 10 points of the healing potion's
+curing (round down) will be received. If the person fails the roll,
+the potion is wasted, but no harmful effects occur to the patient.
+
+\subsubsection{Grievous Injuries}
+
+Endurance loss resulting from specific grievous injuries may not be
+healed separately from the underlying specific injury.  When the
+specific injury is fully cured the related endurance is recovered
+automatically.
+
+\subsubsection{Natural healing of Specific Injuries}
+
+Major injuries take a long time to heal and some will not heal
+naturally but require a healer. Here are guidelines for the healing
+requirements of some common major injuries.
+\begin{Description}
+\item[Broken bones] will knit in 4 weeks for a simple fracture, or up
+to 10 weeks for a compound fracture.  A bone must be properly set
+before the bone may knit together.
+
+\item[Internal injuries] an entity will usually die from internal
+injuries. If the patient is comfortable, unmoving, and kept alive by a
+healer or physician, internal injuries will heal 1 Endurance point per
+week
+
+\item[Open wounds] will heal at half the normal rate, provided that
+they are kept free of infection. Open wounds will leave scars.
+
+\item[Removed body parts] will not regrow naturally. However, the
+remaining wound will heal over at quarter the normal rate, provided it
+is kept free from infection.
+
+\item[Magical healing of Specific Injuries] Healers and certain magics may
+heal specific injuries. The time taken and effects of these magics may
+be found under the appropriate skill or magic.
+\end{Description}
+
+\subsection{Infection}
+\label{adventure:infection}
+\index{infection}
+If a character is wounded there is the possibility that they have
+become infected as a result of their wounds.
+
+An Infection Check must be performed to determine whether they are
+infected or not.
+
+\subsubsection{Becoming Infected}
+
+The chance of becoming infected depends on the entity's health, the
+type of injury and the environment the entity is in, modifiers are
+cumulative but only one from each category:
+
+\begin{tabbing}
+\hspace{2em}\= \kill
+There is a wound which is $\ldots$ \\
+\> Dirty			\` +20\% \\
+\> Heavily contaminated		\` +50\% \\
+The environment is $\ldots$ \\
+\> Dry   			\` -5\% \\
+\> Humid			\` +20\% \\
+The average temperature is $\ldots$ \\
+\> Below 0			\` +20\% \\
+\> 1 -- 5			\` +10\% \\
+\> 30 -- 40			\` +10\% \\
+\> Above 40			\` +20\% \\
+\end{tabbing}
+
+Some specific grievous injuries also increase the chance of infection.
+
+\subsubsection{Effects of Infection}
+
+An entity with an infection will be slowly poisoned by the
+infection. The damage is [D - 5] Endurance per day, until the infection
+is cured. An infected wound will not heal until the infection is
+cured.
+
+\subsubsection{Curing Infection}
+
+There are two ways to recover from infection. The first is to tough it
+out. The second is to be healed by a healer.
+
+\begin{Description}
+\item[Toughing it out] An infected character may make a 1 \x Endurance
+check every day to recover naturally.
+
+\item[Healing] An infected character may be cured by the arts of a
+Healer or by magic. The rank at which this is possible, and the chance
+of success can be found under the appropriate skill or spell.
+\end{Description}
+
+\section{Ranking}
+\label{adventure:ranking}
+\index{ranking|(}
+
+Experience points are required to advance in anything.  Time spent
+training is required to increase proficiency in spells, skills and
+weapons.  Adventuring time is required to advance in characteristics
+and talents.
+
+EP is spent as per below but note the following.
+\begin{itemize}
+
+\item
+Spells must be cast at least five times before the next rank can be
+achieved.  Casting chambers are available in the Guild, and monitored
+on request.
+
+\item
+Talents may be ranked only once per game adventuring week.
+
+\item
+Weapon skills take 1 week of training to reach Rank 0, and 2 weeks \x
+(rank to be achieved) to improve.
+
+\item
+Skill ranks 8, 9, and 10 must be ratified by a GM and in general
+required significant use of the skill.
+
+\item
+The character may rank any combination of two things at the same time,
+providing the character does not rank magic (\ie spells or rituals)
+at the same time as non-magic (\ie weapons or skills).
+
+\item
+Namers may rank 1 name in addition to other forms of ranking.  They
+may also substitute ranking names for any other form of ranking.
+Hence it is possible for a Namer to be ranking up to three names at
+any one time.
+
+\end{itemize}
+
+All adventurers can learn any skill or weapon, and any magic within
+their college. Learning costs EP, time and money.  The following can
+be ranked: Skills, Weapons, Spells, and Languages, Names, Rituals,
+Talents, Adventuring Skills and Characteristics.
+
+\subsection{Characteristics}
+
+A Characterisitic may only be raised by five points over its
+\emph{starting value} to a maximum of 25 (modified by racial bonuses /
+penalties), except Fatigue, and Physical Beauty (which cannot be
+raised).  The exception to this is Perception, which can be raised to
+racial maximum.
+
+To calculate the maximum for Fatigue, take the racial maximum for
+endurance and find the maximum Fatigue from the chart (see character
+generation).  For example, dwarves have +2 to EN so their maximum EN
+is 27, hence their maximum FT is 24 from the chart.  Then apply any
+additional racial modifiers to FT.  For example, orcs gain +2 to FT so
+their maximum is $24 + 2 = 26$.
+
+A Characteristic point may only be increased once per adventuring
+session (if a session took more than the normal session length, then
+this rule should be applied appropriately).  If a character did not
+adventure during a session then they cannot raise any characteristic
+points, and if they participated on more than one adventure during the
+session, then they can still only raise a characteristic point by one.
+Any or all of the stat points may be raised simultaneously if
+permissable.
+
+If a character has lost characteristic points for any reason, they may
+buy back as many points as they wish in addition to any normal
+increase.  The cost of buying a characteristic point back is the same
+as buying an extra point (see table \S\ref{epcosts:stats}).
+
+\subsection{Talents}
+
+For each week of actual, out in the field, adventuring, you can rank
+each of your talents once.  No training time is required to rank
+Talents. Like Spells and Rituals, each Talent has an EM. No MA
+discounts apply to any Talents.
+
+\subsection{Spells}
+
+If you are an Adept (\ie cast magic), you can rank your spells.
+Each spell has an EM, or Experience Multiplier. This is multiplied by
+the Rank that you wish to achieve, to give a total EP cost. If the
+Adept has MA $>$ 15, (MA - 15) \x 5\% of the EP cost of General Spells
+may be discounted. Training time for spells is (Rank to be achieved)
+days.  All spells must be cast five times before each new rank is
+achieved. As these spells may backfire, these rolls will need to be
+made at some stage.  Learning a new spell to Rank 0 takes (EM / 100
+rounded up + 1) weeks, but no experience points. See Handbook for
+availability of special knowledge spells.  You can not have more
+spells and rituals below rank 6 than your MA characteristic.  Rank 20
+is the Maximum Rank achievable with any Spell (except Geas).
+
+\subsection{Rituals}
+
+Rituals are learnt and ranked just like spells, except that Ranking
+time is (Rank to be achieved) weeks, rather than days.  MA discount
+applies to General Knowledge Rituals.
+
+\subsection{Skills}
+
+All skills are assumed to be unranked (\ie unknown) initially. The
+first level of competence is Rank 0, and will take eight weeks to
+learn. Each subsequent rank will take that number of weeks to reach
+(eg; to get to Rank 8 from Rank 7 will take 8 weeks). The EP cost for
+ranking Skills is listed in the rulebook.  Some skills require minimum
+Characteristic requirements to Rank, or impose EP penalties (or
+discounts) for exceptional Characteristics.
+
+If the character is taught by someone of greater Rank in the skill,
+decrease any Experience Point cost by 10\%.  If the character learns
+from a book (the availability of which is up to the GM), verbal
+descriptions or practices with someone of equal or lesser Rank in the
+skill, any Experience Point cost is unmodified.  If the character
+practices with no useful outside assistance, any Experience Point cost
+is increased by 25\%.  If training is done at the Guild, it costs
+150sp \x (Rank to be achieved minimum 1). Achieving Ranks 8, 9 and 10
+is difficult.  You must find and complete a special task relating to
+your skill, with the assistance of a GM, for each of these Ranks. Rank
+10 is the maximum achievable Rank in all Skills.
+
+\subsection{Adventuring Skills}
+
+Adventuring Skills are skills used every day by adventurers to
+survive, and thus are continually honed. These skills include
+Knowledge, Horsemanship, Swimming, Flying, Stealth and Climbing.
+
+If you have extensively used an adventuring skill while on adventure,
+you may rank this skill without any time requirements. Otherwise,
+Ranking time is as per normal skills.
+
+Adventurers are assumed to start off with Rank 0 or more in all these
+skills, unless specifically told otherwise. Experience Point costs are
+set out in the rulebook.  The Maximum Rank in all these Skills is 10.
+
+\subsection{Languages}
+
+Languages have the same time requirement as normal skills, except that
+the time for Rank 0 in a language is only 1 week.
+
+The undiscounted EP costs are set out in Table \S\ref{epcosts:skills}.
+Note that knowing the Philosopher Skill may grant an EP discount. The
+maximum total EP discount applicable is 50\%, regardless of how many
+individual discounts are available to the character.
+
+\subsection{Weapons}
+
+All weapons are assumed to be unranked initially.  Rank 0 in a weapon
+takes 1 week.  All higher ranks take 2 \x Rank weeks. Weapons have
+individual maximum Ranks.  EP costs are detailed in \S\ref{tables:ep}.
+All Weapons require minimum PS and MD Characteristics. If you do not
+fulfil both requirements, you may not rank a weapon.  You may not get
+an EP discount for training, but if no trainer is available, you may
+not increase in Rank.  The cost of a trainer is 10 \x Rank squared
+(minimum 1) silver pennies.
+
+\subsection{Names}
+
+Anyone can learn Names, but only Namers can Rank them beyond Rank 0.
+Once acquired, an Individual or Generic Name may be studied and fully
+learnt. For Ranking Names beyond see the College of Naming
+Incantations (\S\ref{namer:ranking}).
+
+\begin{Itemize}
+\item Generic Names take one day of study to be learned (\ie Rank 0).
+
+\item Individual Names take on week of study to be learned.
+
+\item Names can be Ranked alongside any other Ranking.
+\end{Itemize}
+
+\index{ranking|)}
+\index{adventure|)}
+\end{multicols*}
+@
+
+
+5.10
+log
+@REL510
+@
+text
+@@
+
+
+5.1
+log
+@REL51
+@
+text
+@@
+
+
+5.0
+log
+@REL50
+@
+text
+@d1 1
+a1 1
+\chapter{Adventure}
+d12 1
+a12 1
+Hand-book and Tables \S\ref{tables:weapons}, \S\ref{tables:armour} and
+d19 1
+a19 1
+(represented by the GM), and may de-fray by providing some of the
+d163 2
+a164 2
+in exercise, they may become fatigued more quickly because the weight
+they are carrying.
+a395 1
+\end{Description}
+d397 1
+a397 1
+Magical healing of Specific Injuries Healers and certain magics may
+d400 1
+d456 1
+d501 14
+a514 1
+\subsection{Skills}
+d516 8
+a523 7
+All skills are assumed to be unranked (\ie unknown) initially. The
+first level of competence is Rank 0, and will take eight weeks to
+learn. Each subsequent rank will take that number of weeks to reach
+(eg; to get to Rank 8 from Rank 7 will take 8 weeks). The EP cost for
+ranking Skills is listed in the rulebook.  Some skills require minimum
+Characteristic requirements to Rank, or impose EP penalties (or
+discounts) for exceptional Characteristics.
+d525 4
+a528 11
+If the character is taught by someone of greater Rank in the skill,
+decrease any Experience Point cost by 10\%.  If the character learns
+from a book (the availability of which is up to the GM), verbal
+descriptions or practices with someone of equal or lesser Rank in the
+skill, any Experience Point cost is unmodified.  If the character
+practices with no useful outside assistance, any Experience Point cost
+is increased by 25\%.  If training is done at the Guild, it costs
+150sp \x (Rank to be achieved minimum 1). Achieving Ranks 8, 9 and 10
+is difficult.  You must find and complete a special task relating to
+your skill, with the assistance of a GM, for each of these Ranks. Rank
+10 is the maximum achievable Rank in all Skills.
+d530 1
+a530 1
+\subsection{Weapons}
+d532 4
+a535 8
+All weapons are assumed to be unranked initially.  Rank 0 in a weapon
+takes 1 week. All higher ranks take 2 \x (Rank to be achieved)
+weeks. Weapons have individual maximum Ranks.  EP costs are detailed
+in \S\ref{tables:ep}.  All Weapons require minimum PS and MD
+Characteristics. If you do not fulfil both requirements, you may not
+rank a weapon.  You may not get an EP discount for training, but if no
+trainer is available, you may not increase in Rank.  The cost of a
+trainer is 10 \x (Rank to be achieved squared) silver pennies.
+a551 19
+\subsection{Languages}
+
+Languages have the same time requirement as normal skills, except that
+the time for Rank 0 in a language is only 1 week.
+
+The undiscounted EP costs are set out in Table \S\ref{epcosts:skills}.
+Note that knowing the Philosopher Skill may grant an EP discount. The
+maximum total EP discount applicable is 50\%, regardless of how many
+individual discounts are available to the character.
+
+\subsection{Names}
+
+Anyone can rank Names, but only Namers and E \& Es gain any normal
+advantage from this.  Learning a Generic Name takes one day; learning
+an Individual Name takes one week. Ranking a Generic Name takes (Rank
+to be achieved) weeks; Ranking an Individual Name takes the same
+number of months. No EP is required. Namers get special advantages in
+Ranking (\S\ref{college:namer}).
+
+d558 9
+a566 1
+\subsection{Talents}
+d568 11
+a578 4
+For each week of actual, out in the field, adventuring, you can rank
+each of your talents once.  No training time is required to rank
+Talents. Like Spells and Rituals, each Talent has an EM. No MA
+discounts apply to any Talents.
+d594 22
+a615 1
+\subsection{Characteristics}
+d617 4
+a620 5
+A Characterisitic may only be raised by five points over its
+\emph{starting value} to a maximum of 25 (modified by racial bonuses /
+penalties), except Fatigue, and Physical Beauty (which cannot be
+raised).  The exception to this is Perception, which can be raised to
+racial maximum.
+d622 2
+a623 6
+To calculate the maximum for Fatigue, take the racial maximum for
+endurance and find the maximum Fatigue from the chart (see character
+generation).  For example, dwarves have +2 to EN so their maximum EN
+is 27, hence their maximum FT is 24 from the chart.  Then apply any
+additional racial modifiers to FT.  For example, orcs gain +2 to FT so
+their maximum is $24 + 2 = 26$.
+d625 1
+a625 8
+A Characteristic point may only be increased once per adventuring
+session (if a session took more than the normal session length, then
+this rule should be applied appropriately).  If a character did not
+adventure during a session then they cannot raise any characteristic
+points, and if they participated on more than one adventure during the
+session, then they can still only raise a characteristic point by one.
+Any or all of the stat points may be raised simultaneously if
+permissable.
+d627 2
+a628 4
+If a character has lost characteristic points for any reason, they may
+buy back as many points as they wish in addition to any normal
+increase.  The cost of buying a characteristic point back is the same
+as buying an extra point (see table \S\ref{epcosts:stats}).
+@
+
+
+4.2
+log
+@Check in before major changes from Rosemary.
+@
+text
+@d1 1
+a1 1
+\chapter*{Adventure}
+a3 1
+
+d6 1
+a6 1
+\section{Monetary Matters}
+d11 28
+a38 23
+the various goods produced by craftsmen by the Goods List (see Players
+Handbook).  Weaponsmiths' products are valued on the Weapons Table
+(\S\ref{tables:weapons}); Armourers' on the Armour and Shield Tables
+(\S\ref{tables:armour} and \S\ref{tables:shields}).  The three factors
+which determine the price of finished goods are the quality of the
+material used, the hours spent in construction, and the estimated Rank
+of the artisan (if one person produces the goods) or of the overseer
+(if the effort is a team project).  However, if a character wishes to
+purchase a custom-made or rare item, then they will have to negotiate
+with the artisan (represented by the GM), and may defray by providing
+some of the scarcer components themself.  The barter system is
+acceptable when dealing in costly or rare items.
+
+\subsubsection{The value of a coin is determined by its weight and metal
+of which it is made.}
+
+\begin{tabular}{l@@{\hspace{0.5em}}c@@{\hspace{1.0em}}l}
+\textbf{Name} & \textbf{Weight} & \textbf{Value} \\
+Copper farthing (cf) & 1/5 oz & \\
+Silver penny (sp) & 1/20 oz & 4 cf \\
+Gold shilling (gs) & 1/20 oz & 12 sp \\
+Truesilver guinea (tg) & 1/10 oz & 21 gs \\
+\end{tabular}
+d40 2
+a41 3
+Other common coins include the halfpenny, threepence, and sixpence.
+The values and weights of these coins correspond to those of the
+Silver Penny.
+d43 6
+a48 1
+\section{Health and Fitness}
+d50 3
+a52 1
+\subsubsection{Grievous Damage}
+d54 3
+a56 57
+Grievous damage is damage that is inflicted is specified on the
+grievous injury table.  It can only be healed once the wound
+associated with it has been healed (For example if one had an ear
+sliced off for 2 extra Endurance damage then those 2 Endurance could
+not be healed until the ear had been regenerated).  Even if the wound
+is such that extra repair or regeneration is not necessary (for
+example concussion), a healer is required to heal the Endurance points
+(that is a healing potion or spell is not sufficient).
+
+\subsubsection{Field Operations}
+
+Once a healer begins work on curing a patient the condition of the
+patient is ``stabilised'' while that curing is continuing.  This means
+that no Endurance or Fatigue loss will occur for the condition that is
+being cured.  Other afflictions will be unaffected.  After each
+healing attempt a pulse effectively passed prior to any other attempt
+being begun.
+
+\subsubsection{Below Zero Endurance}
+
+When a character is below zero Endurance they are on the very brink of
+death.  They will continue to take damage from any further blows,
+spells, grievous wounds which are bleeders, burning, etc. and in any
+case will lose 1 Fatigue (Endurance when Fatigue is exhausted) per
+pulse due to blood loss and system failure.  They will not die
+however until their Endurance falls below negative one-half their
+\emph{original} Endurance.  If they can be healed to at least 0
+Endurance before this occurs then they will not die.  The Endurance
+can be cured via magic (for example Celestial or Mind Mage healing,
+Mind Mage Empathy) or the arts of a healer (Rank 3 -- Heal Endurance).
+
+The entity cannot drink a healing potion but one can be massaged down
+their throat.  The chance of doing this is equal to the Manual
+Dexterity + Perception of the person administering the potion, or if a
+healer, 90 + Healer Rank.  If successful then D10 per 10 points of the
+healing potion's curing (round down) will be received.  If the person
+fails the roll, the potion is wasted, but no harmful effects occur to
+the patient.
+
+GMs should not let players take advantage of out of character
+information when another player's character is below 0 Endurance.  A
+visual and tactile examination of the entity will reveal that the
+entity is dead.  A successful DA or empathy will reveal the actual
+state of the entity.  (Remember that all skills have a maximum of (90
++ Rank)\% chance of being successful, even if they have no stated base
+chance).
+
+\subsection{Recuperation}
+\label{recuperation}
+
+\subsubsection{The rate at which Endurance Points are recovered depends
+on how active the injured being is.}
+
+If a being expends and/or loses no more than one-half their Fatigue
+Points (round down) for three consecutive days, they regain one
+Endurance Point at the end of the third day.  Otherwise, they recover
+an Endurance Point at the end of the following (\ie fourth) day.
+d58 3
+a60 2
+If a being is given ministrations from a physicker's kit, their body
+requires one less day to regain an Endurance Point.
+d62 3
+a64 8
+\subsubsection{Injuries which are not quantified as Endurance Point
+losses (\eg hamstrung muscles) heal at the same rate as they do in
+this world.}
+
+The GM should assume that an Endurance value of 15 indicates a body
+which heals in average time.  Values greater than 15 will allow a
+being to heal more quickly, while values lower than 15 will cause a
+corresponding extension to the time required.
+d66 4
+a69 2
+\subsection{Eating and Drinking}
+\label{eating}
+d71 2
+a72 1
+\subsubsection{Requirements}
+d74 2
+d77 3
+a79 3
+factors.  These include the person (endurance, weight, build,
+metabolic rate and race); the activity (light, medium, hard or
+strenuous) and the environment or terrain.
+d81 1
+a81 1
+On average 1lb of food and 2 pints of water per day is required.
+d83 1
+d85 2
+a86 1
+\subsubsection{Starvation}
+d88 3
+a90 3
+\begin{Description}
+\item[Starvation occurs] when a character does not have at least 1
+nourishing meal a day.
+d92 2
+a93 8
+\item[Effects of starvation] the character will have their Fatigue
+maximum and Endurance temporarily reduced by 1 each day.  This
+decrease will last until the character starts receiving proper
+nourishment.
+
+\item[Recovery] a starved character's Fatigue maximum and Endurance
+will recover by 1 point each day, after the first, that they receive
+proper nourishment.
+d95 1
+a95 1
+\end{Description}
+d97 3
+a99 1
+\subsubsection{Dehydration}
+d101 6
+a106 1
+\begin{Description}
+d108 3
+a110 14
+\item[Dehydration occurs] when a character does not have at least 2
+pints of water a day.  This will increase in high temperatures, +1
+pint per 10 degrees above 20.
+
+\item[Effects of dehydration] the character will have their Fatigue
+maximum and Endurance temporarily reduced by 5 each day.  If the
+character receives part of their water requirement, the penalty is
+reduced.  For every 20\% (or fraction) less than the daily requirement
+they lose 1 from FT max and EN.  This decrease will last until the
+character starts receiving adequate quantities of water.
+
+\item[Recovery] a dehydrated character's Fatigue maximum and Endurance
+will recover by 5 points each day, after the first, that they receive
+adequate quantities of water.
+d112 1
+a112 1
+\end{Description}
+d114 4
+a117 2
+\subsection{Fatigue Loss and Recovery}
+\label{adventure:fatigue}
+d119 4
+a122 5
+Characters have a tendency to lose Fatigue Points in the course of
+adventures.  A fatigued character must engage in some restful action
+to recover lost Fatigue Points.  Sleep, as might be expected, is the
+best way to become refreshed, but there are several other options
+available to the character who wishes to remain alert.
+d124 1
+a124 2
+\subsubsection{The rate at which a character loses Fatigue Points is
+determined by how tiring their main activity for each hour is.}
+d126 2
+d129 1
+a129 3
+A character can lose Fatigue Points when they engage in any activity
+more stressful than a leisurely walk.  There are four classes of
+activity which can fatigue a character:
+d141 1
+a141 1
+labor, etc.
+d149 16
+a164 18
+It is possible for a character to achieve a level of performance more
+taxing than Strenuous Exercise, which requires superhuman exertion.
+This type of activity is governed by the GM, who will have to
+determine how many Fatigue Points are lost by a character conducting
+such actions.
+
+A character's degree of exertion is judged each hour.  Since a
+character does not necessarily choose to do the same activity for an
+entire hour, the GM must average out the levels of activity achieved
+at different times within the hour.  If the GM is consistent with
+their guidelines for what type of activity constitutes which of the
+four types of exercise, the players will be able to keep a running
+total of their characters' Fatigue Points without forcing the GM to
+stop play to consider the matter.
+
+\subsubsection{A character is limited in the weight they can bear; if
+they engage in exercise, they may become fatigued more quickly because
+of the objects they carry with them.}
+d173 17
+a189 25
+When a creature has a Physical Strength value greater than 40, the GM
+divides that value by 40.  Multiply the quotient by the entry for
+40, and add the entry corresponding to the remainder to determine that
+creature's capabilities.
+
+\subsubsection{The Fatigue Point loss for a character engaged in magic
+or combat is not calculated using the provisions of this rule.}
+
+The only Fatigue Points lost for casting magic, being affected by
+magic, skills, or physical attacks are those lost per the appropriate
+rules (\ie the deductions for casting, using skills, or being
+successfully struck).
+
+\subsubsection{The Fatigue Point loss rates given in these rules assume
+that the character is in good health and is well fed.}
+
+If the character is not in condition, the GM should shift up Physical
+Strength rows and / or shift weight columns to represent debilitating
+effects upon the character.  The shift of weight columns should also
+be accompanied by a corresponding decrease in the maximum weight
+allowable for that character.
+
+\subsubsection{The Fatigue status of a character need be calculated
+only before they enter into combat or wish to perform magic or, if
+they do neither, once for the entire day.}
+d191 4
+a194 1
+\textbf{Procedure}
+d205 2
+a206 3
+Multiply the resulting number (Fatigue Points lost per hour) by the
+number of hours during which all three factors (Physical Strength,
+weight carried and rate of exercise) remain constant.
+d213 2
+a214 2
+Add each separate product (\ie subtotal) to determine the total
+Fatigue Points expended by the character so far.
+d217 17
+a233 15
+If a character's Fatigue Point total is reduced below zero, they are
+exhausted (see below). Their Fatigue is considered zero, if they
+should become involved in combat.
+
+\subsubsection{An exhausted character is limited in the activities they
+may choose to do, and is worse in the performance of their abilities.}
+
+A character may choose to exert themselves after their Fatigue Points
+are reduced to zero for a period during which they would normally
+expend (if they had them) one-half their initial Fatigue Points (round
+down).  Unless they succeed in a Willpower Check every (2 \x
+Endurance) minutes, they will collapse if they reach or try to exceed
+this limit.  An exhausted character must sleep for as much time as
+they was performing at least light exercise while exhausted
+\emph{before} they may recover \emph{any} Fatigue Points.
+d236 8
+a243 1
+must succeed in a separate Willpower Check.
+d245 14
+a258 20
+Add \emph{one} for each half-hour (or fraction thereof) that a
+character has been exhausted to any percentile roll to resolve the use
+of one of that character's abilities (\eg to strike a blow during
+combat).
+
+\subsubsection{A character may regain Fatigue Points by resting or
+eating a hot meal.}
+
+A character may never have a Fatigue Point total greater than their
+Fatigue value.
+
+A character recovers Fatigue Points according to the following
+schedule:
+
+\begin{tabular}{lr}
+\textbf{Activity} & \textbf{Fatigue Points / Hour} \\
+Relaxation      & 1 \\
+Nap             & 2 \\
+Sleep           & 3 \\
+Eat Hot Meal    & 2 \\
+d260 1
+d264 1
+a264 1
+during a 24 hour period, and each time must be separated by at least 4
+d268 6
+d275 3
+a277 4
+Fatigue Point less per hour or meal, and if their Endurance is less
+than 5, they recover one less Fatigue Point.  However, a character
+must always recover a minimum of one-half a Fatigue Point when
+resting.
+d281 3
+a283 3
+additional one-half of a Fatigue Point per hour or meal.  Each
+succeeding ten point Endurance bracket carries an additional one-half
+Fatigue Point per hour or meal bonus.
+d286 2
+a287 5
+A character that does not get at least 6 hours of rest and/or sleep
+per day, will have their Fatigue maximum temporarily reduced by 1 FT
+per hour (or fraction) of sleep under 6.  This may be recovered at the
+rate of 1 FT per 4 hours sleep.
+
+d290 1
+a290 2
+\subsubsection{The weight borne by a character may temporarily reduce a
+character's Agility.}
+d292 27
+a318 1
+\textbf{Procedure:}
+d320 1
+a320 1
+\begin{Enumerate}
+d322 3
+a324 2
+\item Cross-reference the character's Physical Strength and the weight
+they are carrying.
+d326 1
+a326 2
+\item Read down this column until it intersects with the row which
+reads ``Agility Loss.''
+d328 3
+a330 8
+\item Deduct the resulting number from the character's Agility until
+there is a change in the weight they bear (at which point the
+subtraction must be recalculated).
+
+\item A character is considered to have a minimum Agility of 1 for all
+other game functions.  The character's current Agility is used as a
+basis for determining their current TMR.
+\end{Enumerate}
+d332 1
+a332 1
+\subsection{Recovery from Damage}
+d334 2
+a335 4
+\subsubsection{Endurance recovery}
+
+There are many causes of a character taking Endurance damage.
+However, once damaged there are two primary methods of recovering.
+d337 2
+a338 1
+\begin{Description}
+d340 3
+a342 5
+\item[Natural healing] A character will recover 1 Endurance for every
+three full days of rest.  The recuperation will be ineffective and
+interrupted if the character:
+\begin{itemize}
+\item takes any further EN damage
+d344 2
+a345 2
+\item does not receive adequate nourishment (\S\ref{eating}).
+\end{itemize}
+d347 2
+a348 3
+\item[Being healed] Healers, herbalists, and some magics may aid the
+recovery of Endurance.  The exact effects can be found under the
+appropriate skill or magic.
+d350 17
+a366 1
+\end{Description}
+d370 4
+a373 3
+Endurance loss resulting from Specific Grievous injuries may not be
+healed normally.  The specific injury must be healed, then the
+Endurance may be recovered.
+d377 3
+a379 3
+Many injuries will not heal naturally.  The following states which
+injuries will heal, and how long it will take.
+
+d381 1
+a381 1
+\item[Broken bones] Will knit in 4 weeks for a simple fracture, or up
+d385 11
+a395 12
+\item[Internal injuries] A character will usually die from internal
+injuries.  If the character is comfortable, unmoving, and kept alive
+by a healer or physician, internal injuries will heal 1 Endurance
+point per week.
+
+\item[Open wounds] Will heal at half the normal rate, provided that
+they are kept free of infection.  Open wounds will leave scars.
+
+\item[Removed body parts] Will not regrow naturally.  However, they
+will heal over at quarter the normal rate, provided they are kept free
+from infection.
+
+d398 3
+a400 5
+\subsubsection{Magical healing of Specific Injuries}
+
+Healers and certain magics may heal specific injuries.  The time taken
+and effects of these magics may be found under the appropriate skill
+or magic.
+d404 3
+a406 1
+\label{infection}
+d408 2
+a409 3
+If a character is wounded there is the possibility that they have
+become infected as a result of their wounds.  An Infection Check must
+be performed to determine whether they are infected or not.
+d413 1
+a413 1
+The chance of becoming infected depends on the entities health, the
+d415 1
+a415 1
+cumulative but only one from each category.
+d432 1
+a432 1
+Specific grievous injuries may also increase the chance of infection.
+d436 4
+a439 3
+An entity with an infection will be slowly poisoned by the infection.
+The damage is [D-5] Endurance per day, until the infection is cured.
+An infected wound may not be healed until the infection is cured.
+d443 2
+a444 2
+There are two ways to recover from infection.  The first is to tough
+it out.  The second is to be healed by a healer.
+d447 2
+a448 2
+\item[Toughing it out] An infected character may make a roll (Base
+Chance of Endurance \%) every day to recover naturally.
+d451 2
+a452 2
+Healer or by magic.  The rank at which this is possible, and the
+chance of success can be found under the appropriate skill or spell.
+@
+
+
+4.1
+log
+@Change section headings (adding Health and Fitness) and adding Ranking into the file.
+@
+text
+@d42 49
+a578 4
+If appropriate, the masterwork to gain Rank 8, 9, or 10 may be the
+same masterwork as one presented for a skill, \eg Philosopher,
+Troubadour, Courtier, etc.  Learning magic counts as a masterwork.
+
+a646 1
+
+@
+
+
+4.0
+log
+@REL40
+@
+text
+@d1 3
+a3 1
+\begin{multicols}{3}
+a4 1
+\section{Adventure}
+d7 1
+a7 1
+\subsection{Monetary Matters}
+d9 1
+a9 1
+\subsubsection{Purchase of goods and items}
+d40 2
+d427 173
+d601 2
+a602 2
+\raggedcolumns\newpage
+\end{multicols}
+@
+
+
+3.0
+log
+@REL30
+@
+text
+@@
+
+
+2.6
+log
+@Check in for release 3.0
+@
+text
+@@
+
+
+2.5
+log
+@Fix e.g. problem
+@
+text
+@d31 1
+a31 1
+Gold schilling (gs) & 1/20 oz & 12 sp \\
+d167 1
+a167 1
+The Fatigue and Encumberance Table (\S\ref{tables:encumbrance}) lists
+d180 1
+a180 1
+or combat is not calculated using the provisions of rule 82.}
+d191 1
+a191 1
+Strength rows and/or shift weight columns to represent debilitating
+d233 1
+a233 1
+expend (if they had them) one-half his initial Fatigue Points (round
+d416 2
+a417 2
+\item[Toughing it out] An infected character may make a roll every day
+to recover naturally.  BC: Endurance \%.
+@
+
+
+2.4
+log
+@Fix typos.
+@
+text
+@d48 1
+a48 1
+an Endurance Point at the end of the following (i.e.\ fourth) day.
+d54 1
+a54 1
+losses (e.g.\ hamstrung muscles) heal at the same rate as they do in
+d184 1
+a184 1
+rules (i.e.\ the deductions for casting, using skills, or being
+d220 1
+a220 1
+Add each separate product (i.e.\ subtotal) to determine the total
+d245 1
+a245 1
+of one of that character's abilities (e.g.\ to strike a blow during
+@
+
+
+2.3
+log
+@Add label.
+@
+text
+@d48 1
+a48 1
+an Endurance Point at the end of the following (i.e., fourth) day.
+d54 1
+a54 1
+losses (e.g., hamstrung muscles) heal at the same rate as they do in
+d184 1
+a184 1
+rules (i.e., the deductions for casting, using skills, or being
+d220 1
+a220 1
+Add each separate product (i.e., subtotal) to determine the total
+d245 1
+a245 1
+of one of that character's abilities (e.g., to strike a blow during
+@
+
+
+2.2
+log
+@Change infection.
+@
+text
+@d375 1
+@
+
+
+2.1
+log
+@Minor changes by Keith Smith.
+@
+text
+@d1 2
+d4 1
+a4 2
+
+\begin{multicols}{3}
+d374 1
+a374 1
+\label{infection}
+d382 3
+a384 5
+When an entity is wounded or otherwise suffers Endurance damage, there
+is a chance that they will become infected.  The chance of becoming
+infected depends on the entities health, the type of injury and the
+environment the entity is in, modifiers are cumulative but only one
+from each category.
+a387 3
+Current Endurance is $\ldots$ \\
+\> Half or more			\` 10\% \\
+\> Less than half		\` 20\% \\
+a408 1
+
+d423 2
+a424 172
+\end{multicols}
+\pagebreak
+
+\section{Ranking}
+\begin{multicols}{3}
+Experience points are required to advance in anything.  Time spent
+training is required to increase proficiency in spells, skills and
+weapons.  Adventuring time is required to advance in characteristics
+and talents.
+
+EP is spent as per below but note the following.
+\begin{itemize}
+
+\item
+Spells must be cast at least five times before the next rank can be
+achieved.  Casting chambers are available in the Guild, and monitored
+on request.
+
+\item
+Talents may be ranked only once per game adventuring week.
+
+\item
+Weapon skills take 1 week of training to reach Rank 0, and 2 weeks \x
+(rank to be achieved) to improve.
+
+\item
+Skill ranks 8, 9, and 10 must be ratified by a GM and in general
+required significant use of the skill.
+
+\item
+The character may rank any combination of two things at the same time,
+providing the character does not rank magic (i.e.\ spells or rituals)
+at the same time as non-magic (i.e.\ weapons or skills).
+
+\item
+Namers may rank 1 name in addition to other forms of ranking.  They
+may also substitute ranking names for any other form of ranking.
+Hence it is possible for a Namer to be ranking up to three names at
+any one time.
+
+\end{itemize}
+
+All adventurers can learn any skill or weapon, and any magic within
+their college. Learning costs EP, time and money.  The following can
+be ranked: Skills, Weapons, Spells, and Languages, Names, Rituals,
+Talents, Adventuring Skills and Characteristics.
+
+\subsection{Skills}
+
+All skills are assumed to be unranked (i.e.\ unknown) initially. The
+first level of competence is Rank 0, and will take eight weeks to
+learn. Each subsequent rank will take that number of weeks to reach
+(eg; to get to Rank 8 from Rank 7 will take 8 weeks). The EP cost for
+ranking Skills is listed in the rulebook.  Some skills require minimum
+Characteristic requirements to Rank, or impose EP penalties (or
+discounts) for exceptional Characteristics.
+
+If the character is taught by someone of greater Rank in the skill,
+decrease any Experience Point cost by 10\%.  If the character learns
+from a book (the availability of which is up to the GM), verbal
+descriptions or practices with someone of equal or lesser Rank in the
+skill, any Experience Point cost is unmodified.  If the character
+practices with no useful outside assistance, any Experience Point cost
+is increased by 25\%.  If training is done at the Guild, it costs
+150sp \x (Rank to be achieved minimum 1). Achieving Ranks 8, 9 and 10
+is difficult.  You must find and complete a special task relating to
+your skill, with the assistance of a GM, for each of these Ranks. Rank
+10 is the maximum achievable Rank in all Skills.
+
+\subsection{Weapons}
+
+All weapons are assumed to be unranked initially.  Rank 0 in a weapon
+takes 1 week. All higher ranks take 2 \x (Rank to be achieved)
+weeks. Weapons have individual maximum Ranks.  EP costs are detailed
+in \S\ref{epcosts}.  All Weapons require minimum PS and MD
+Characteristics. If you do not fulfil both requirements, you may not
+rank a weapon.  You may not get an EP discount for training, but if no
+trainer is available, you may not increase in Rank.  The cost of a
+trainer is 10 \x (Rank to be achieved squared) silver pennies.
+
+\subsection{Spells}
+
+If you are an Adept (i.e.\ cast magic), you can rank your spells.
+Each spell has an EM, or Experience Multiplier. This is multiplied by
+the Rank that you wish to achieve, to give a total EP cost. If the
+Adept has MA $>$ 15, (MA - 15) \x 5\% of the EP cost of General Spells
+may be discounted. Training time for spells is (Rank to be achieved)
+days.  All spells must be cast five times before each new rank is
+achieved. As these spells may backfire, these rolls will need to be
+made at some stage.  Learning a new spell to Rank 0 takes (EM / 100
+rounded up + 1) weeks, but no experience points. See Handbook for
+availability of special knowledge spells.  You can not have more
+spells and rituals below rank 6 than your MA characteristic.  Rank 20
+is the Maximum Rank achievable with any Spell (except Geas).
+
+\subsection{Languages}
+
+Spoken Languages have the same time requirement as weapons. They have
+EP costs as set out in Table \S\ref{epcosts:skills}. EP discounts are
+as for Skills.  Note that knowing the Philosopher Skill may grant an
+EP discount.
+
+Learning Written Languages is a one-off cost of 1000 EP and 4 weeks.
+Various discounts may apply, as specified in the rulebook under
+languages and philosopher.
+
+\subsection{Names}
+
+Anyone can rank Names, but only Namers and E\&Es gain any normal
+advantage from this.  Learning a Generic Name takes one day; learning
+an Individual Name takes one week. Ranking a Generic Name takes (Rank
+to be achieved) weeks; Ranking an Individual Name takes the same
+number of months. No EP is required. Namers get special advantages in
+Ranking (\S\ref{namer}).
+
+\subsection{Rituals}
+
+Rituals are learnt and ranked just like spells, except that Ranking
+time is (Rank to be achieved) weeks, rather than days.  MA discount
+applies to General Knowledge Rituals.
+
+\subsection{Talents}
+
+For each week of actual, out in the field, adventuring, you can rank
+each of your talents once.  No training time is required to rank
+Talents. Like Spells and Rituals, each Talent has an EM. No MA
+discounts apply to any Talents.
+
+\subsection{Adventuring Skills}
+
+Adventuring Skills are skills used every day by adventurers to
+survive, and thus are continually honed. These skills include
+Orienteering, Riding, Swimming, Flying, Stealth and Climbing.
+
+If you have extensively used an adventuring skill while on adventure,
+you may rank this skill without any time requirements. Otherwise,
+Ranking time is as per normal skills.
+
+Adventurers are assumed to start off with Rank 0 or more in all these
+skills, unless specifically told otherwise. Experience Point costs are
+set out in the rulebook.  The Maximum Rank in all these Skills is 10.
+
+\subsection{Characteristics}
+
+A Characterisitic may only be raised by five points over its
+\emph{starting value} to a maximum of 25 (modified by racial bonuses /
+penalties), except Fatigue, and Physical Beauty (which cannot be
+raised).  The exception to this is Perception, which can be raised to
+racial maximum.
+
+To calculate the maximum for Fatigue, take the racial maximum for
+endurance and find the maximum Fatigue from the chart (see character
+generation).  For example, dwarves have +2 to EN so their maximum EN
+is 27, hence their maximum FT is 24 from the chart.  Then apply any
+additional racial modifiers to FT.  For example, orcs gain +2 to FT so
+their maximum is $24 + 2 = 26$.
+
+A Characteristic point may only be increased once per adventuring
+session (if a session took more than the normal session length, then
+this rule should be applied appropriately).  If a character did not
+adventure during a session then they cannot raise any characteristic
+points, and if they participated on more than one adventure during the
+session, then they can still only raise a characteristic point by one.
+Any or all of the stat points may be raised simultaneously if
+permissable.
+
+If a character lost characteristic points for any reason, they may buy
+them all back up at once, and then increase it as per normal.  The
+cost of buying a characteristic point back is the same as buying an
+extra point (see table
+\S\ref{epcosts:stats}).
+
+@
+
+
+2.0
+log
+@REL20
+@
+text
+@d573 4
+a576 4
+\emph{starting value} to a maximum of 25, except Fatigue, and Physical
+Beauty (which cannot be raised).  The exception to this is Perception,
+which can be raised to racial maximum.  Racial maximums are affected by
+racial modifiers.
+@
+
+
+1.11
+log
+@Syntax change.
+@
+text
+@@
+
+
+1.10
+log
+@Changes from Stephen Martin's document on eating, resting,
+recovery, infection and falling.
+@
+text
+@d575 1
+a575 1
+which can be raised to racial maximum.  Racial maximums is affected by
+@
+
+
+1.9
+log
+@Minor change to text by Craig Beere.
+@
+text
+@d61 51
+d128 1
+a128 1
+\begin{enumerate}
+d145 1
+a145 1
+\end{enumerate}
+d200 1
+a200 1
+\begin{enumerate}
+d221 1
+a221 1
+\end{enumerate}
+d263 1
+a263 1
+\begin{enumerate}
+d281 8
+a288 1
+\end{enumerate}
+d295 1
+a295 1
+\begin{enumerate}
+d310 120
+a429 1
+\end{enumerate}
+d432 1
+a432 1
+
+a600 5
+
+\pagebreak
+
+
+
+@
+
+
+1.8
+log
+@Various spelling corrections from Andrew Withy.
+@
+text
+@d27 1
+a27 1
+\textbf{Name} & \textbf{Weight} & \textbf{Conv} \\
+@
+
+
+1.7
+log
+@Guild banking stuff removed and put into player's guild
+@
+text
+@d38 1
+a38 1
+\subsection{Recuperation and Upkeep}
+d111 3
+a113 3
+\subsubsection{A character is limited in the weight he can bear; if he
+engages in exercise, they may become fatigued more quickly because of
+the objects they carry with them.}
+d118 3
+a120 3
+A player must determine the total weight his character is carrying if
+the character is to engage in light or more stressful exercise for a
+significant length of time during a day.
+d176 2
+a177 2
+\subsubsection{An exhausted character is limited in the activities he
+may choose to do, and is worse in the performance of his abilities.}
+d184 1
+a184 1
+this limit.  An exhausted character must steep for as much time as
+d199 1
+a199 1
+A character may never have a Fatigue Point total greater than they
+d219 1
+a219 1
+If a character's Endurance is less than 10, he recovers one-half of a
+d253 170
+@
+
+
+1.6
+log
+@Fixup coinage table.
+@
+text
+@a37 12
+\subsubsection{The Adventurer's Guild will bank money and/or valuables
+at a fee of 2 Silver Pennies per 500 ounces per month.}
+
+If money and/or valuables deposited with the Guild has a weight not
+divisible by 500, round up to the nearest five-hundred weight.  A
+guildmember pays one-half the price to bank with the guild.
+
+The Guild will place money and/or valuables in safekeeping until the
+depositor redeems their property, or until the value of the deposit
+covers the banking fee.  The Guild does not extend credit when it
+comes to banking fees.
+
+@
+
+
+1.5
+log
+@Change weight of currency.
+@
+text
+@d26 6
+a31 4
+\begin{tabular}{@@{\hspace{0.5em}}l@@{\hspace{0.5em}}c@@{\hspace{0.5em}}c@@{\hspace{0.5em}}c@@{\hspace{0.5em}}c@@{\hspace{0.5em}}}
+Abbrev		&  cf		& sp		& gs		& tg \\
+Weight		& 1/5 oz	& 1/20 oz	& 1/20 oz	& 1/10 oz \\
+Conversion      & 4/1 sp	& 12/1 gs	& 21/1 tg	& \\
+@
+
+
+1.4
+log
+@Last minute additions to release 1.0
+@
+text
+@d27 3
+a29 3
+Abbrev		&  cf	& sp	& gs	& tg \\
+Weight		& 4 oz	& 1 oz	& 1 oz	& 2 oz \\
+Conversion      & 4/1 sp& 12/1 gs& 21/1 tg & \\
+a262 2
+
+
+d265 1
+a265 2
+\bigskip
+\rule{\linewidth}{0.5pt}
+a266 2
+\subsection{Fatigue and Encumbrance Chart}
+\label{tables:encumbrance}
+a267 66
+\begin{center}
+{\fontsize{12}{15pt}\selectfont
+\begin{tabular}{l@@{\hspace{1.5em}}c@@{\hspace{1.5em}}c@@{\hspace{1.5em}}c@@{\hspace{1.5em}}c@@{\hspace{1.5em}}c@@{\hspace{1.5em}}c@@{\hspace{1.5em}}c@@{\hspace{1.5em}}c@@{\hspace{1.5em}}c}
+\textbf{PS} & \multicolumn{8}{c}{\textbf{Weight of Load (lbs)}} & \textbf{Max} \\ \hline
+3-5	&0	&0	&0	&10	&18	&25	&35	&40	&50 \\ \hline
+6-8	&0	&0	&10	&15	&20	&30	&50	&60	&75 \\ \hline
+9-12	&0	&10	&15	&20	&30	&50	&70	&80	&100 \\ \hline
+13-17	&10	&15	&20	&30	&50	&70	&90	&100	&125 \\ \hline
+18-20	&15	&20	&30	&40	&60	&90	&120	&130	&150 \\ \hline
+21-23	&20	&30	&50	&60	&80	&120	&160	&170	&200 \\ \hline
+24-27	&30	&40	&60	&70	&100	&140	&180	&190	&225 \\ \hline
+28-32	&40	&50	&80	&90	&120	&160	&200	&210	&250 \\ \hline
+33-36	&50	&60	&100	&120	&160	&200	&240	&250	&275 \\ \hline
+37-40	&60	&70	&120	&150	&190	&225	&270	&290	&325 \\ \hline
+\multicolumn{10}{l}{\textbf{Rate of Exercise}} \\
+Light	&0	&0	&0	&$\frac{1}{2}$&$\frac{1}{2}$&1	&2	&3	&5 \\ \hline
+Medium	&0	&0	&$\frac{1}{2}$&$\frac{1}{2}$&1	&1	&3	&4	&6 \\ \hline
+Hard	&$\frac{1}{2}$&$\frac{1}{2}$&1	&1	&2	&3	&5	&6	&8 \\ \hline
+Strenuous&2	&2	&3	&3	&4	&5	&6	&7	&9 \\ \hline
+\multicolumn{10}{l}{\textbf{Agility Loss in Combat}} \\
+Loss	 &0	&1	&2	&3	&5	&7	&9	&10	&12 \\ \hline
+\end{tabular}}
+\end{center}
+
+\begin{multicols}{2}
+
+{\setlength\leftmargini{0pt}
+\begin{description}
+\setlength\itemsep{0pt}
+\item[Weight of Load (lbs)] The weight, in pounds, that a character is
+carrying, rounded off to the nearest entry on the appropriate Physical
+Strength row (if the weight is exactly between two entries, use the
+greater one).  Note: A mount can carry weight for a character while
+they are riding.
+
+\item[Max] The maximum load, in pounds, that a character can carry for
+a sustained period of time.
+
+\item[Rate of Exercise] See \S\ref{adventure:exercise}.
+
+\item[Agility Points Lost] The temporary Agility Point loss suffered
+by a character toting the given weight in combat.  Use the procedure
+in rule \S\ref{adventure:fatigue} to use this chart.
+\end{description}}
+
+\subsection{TMR Chart}
+\label{tables:tmr}
+
+\parbox{\linewidth}{
+\begin{tabularx}{\linewidth}{cXc}
+\textbf{Modified} & \\
+\textbf{Agility} & & \textbf{TMR} \\ \hline
+ $<$ 1		& & 0 \\ \hline
+  1 -- 2	& & 1 \\ \hline
+  3 -- 4	& & 2 \\ \hline
+  5 -- 8	& & 3 \\ \hline
+  9 -- 12	& & 4 \\ \hline
+ 13 -- 17	& & 5 \\ \hline
+ 18 -- 21	& & 6 \\ \hline
+ 22 -- 25	& & 7 \\ \hline
+ 26 -- 27	& & 8 \\ \hline
+$>$ 27		& & \dag \\ \hline
+\end{tabularx}
+\dag TMR = 9 + 1 for every two points of AG over 28, for example AG 32 gives 11 TMR.}
+
+\end{multicols}
+@
+
+
+1.3
+log
+@Release 1.0 snapshot
+@
+text
+@d322 1
+a322 1
+\begin{tabularx}{\linewidth}{cXr}
+d324 11
+a334 11
+\textbf{Agility} & & \textbf{TMR} \\
+ $<$ 1		& & 0 \\
+  1 -- 2	& & 1 \\
+  3 -- 4	& & 2 \\
+  5 -- 8	& & 3 \\
+  9 -- 12	& & 4 \\
+ 13 -- 17	& & 5 \\
+ 18 -- 21	& & 6 \\
+ 22 -- 25	& & 7 \\
+ 26 -- 27	& & 8 \\
+$>$ 27		& & \dag \\
+@
+
+
+1.2
+log
+@Remove cost of living from adventuring as it is in the player's handbook.
+@
+text
+@d10 12
+a21 11
+the various goods produced by craftsmen by the Basic Goods Cost List
+(81.4).  Weaponsmiths' products are valued on the Weapons Table
+(19.3); Armourers' on the Armour and Shield Tables (17.8 and 17.9).
+The three factors which determine the price of finished goods are the
+quality of the material used, the hours spent in construction, and the
+estimated Rank of the craftsman (if one person produces the goods) or
+of the overseer (if the effort is a team project).  However, if a
+character wishes to purchase a custom-made or rare item, then they
+will have to negotiate with the craftsman (represented by the GM), and
+may defray by providing some of the scarcer components themself.  The
+barter system is acceptable when dealing in costly or rare items.
+d29 1
+a29 1
+Conversion      & 4/1 sp& 12/1 gs& 21/tg & \\
+a31 5
+
+The Platinum Shilling (ps.\ weighs 1 oz.)  is not in regular
+circulation, and is worth $1\frac{1}{2}$ times the value of a Gold
+Shilling.
+
+d44 1
+a44 1
+depositor redeems his property, or until the value of the deposit
+d48 2
+a49 2
+\subsubsection{The Basic Goods Cost List is an anthology of the prices
+and weights of common items likely to be used by adventurers.}
+d51 19
+a69 10
+While the list is lengthy, it is by no means comprehensive.  When a
+character wishes to purchase a common item not found on the list, the
+GM should scale the price in accordance with the already evaluated
+items.  Furthermore, the prices given on the Cost List are averages.
+Fish, for instance, will be much cheaper in a maritime town than in an
+inland city.
+
+The weights are given so that players can calculate how much their
+characters are carrying, which affects the rate at which they lose
+Fatigue Points while marching (see 82.2).
+d81 1
+a81 1
+determined by how tiring his main activity for each hour is.}
+d84 1
+a84 1
+A character can lose Fatigue Points when he engages in any activity
+d102 1
+a102 1
+generally those actions with which the character pushes his body to
+d108 3
+a110 3
+This type of activity is governed in part by 4.1, and the GM will have
+to determine how many Fatigue Points are lost by a character
+conducting such actions.
+d113 7
+a119 7
+ character does not necessafily choose lo do the same activity for an
+ entire hour, the GM must average out the levels of activity achieved
+ at different times within the hour.  If the GM is consistent with his
+ guidelines for what type of activity constitutes which of the four
+ types of exercise, the players will be able to keep a running total
+ of their characters' Fatigue Points without forcing the GM to stop
+ play to consider the matter.
+d122 2
+a123 2
+engages in exercise, he may become fatigued more quickly because of
+the objects he carries with him.}
+d125 2
+a126 2
+The Fatigue and Encumberance Table (82.9) lists the maximum weight a
+character may carry.
+d137 2
+a138 2
+\subsubsection{The Fatigue Point loss for character engaged in or both
+magic or combat is not calculated using the provisions of rule 82.}
+d155 2
+a156 2
+only before he enters into combat or wishes to perform magic or, if he
+does neither, once for the entire day.}
+d161 2
+a162 2
+Cross-reference the character's Physical Strength and the weight he is
+carrying.
+d178 1
+a178 1
+Add each separate product (i.c., subtotal) to determine the total
+d182 3
+a184 3
+If a character's Fatigue Point total is reduced below zero, he is
+exhausted (see 82.6). His Fatigue is considered zero, if he should
+become involved in combat.
+d189 8
+a196 8
+A character may choose to exert himself after his Fatigue Points are
+reduced to zero for a period during which he would normally expend (if
+he had them) one-half his initial Fatigue Points (round down).  Unless
+he succeeds in a Willpower Check every (2 \x Endurance) minutes, he
+will collapse if he reaches or tries to exceed this limit.  An
+exhausted character must steep for as much time as he was performing
+at least light exercise while exhausted \emph{before} he may recover
+\emph{any} Fatigue Points (see 82.7).
+d198 1
+a198 1
+If an exhausted character wishes to engage in Strenuous Exercise, he
+d209 1
+a209 1
+A character may never have a Fatigue Point total greater than his
+d224 3
+a226 3
+A character's Fatigue Point total may benefit from a hot meal no more
+than three times during a 24 hour period, and each time must be
+separated by at least 4 hours.
+d230 4
+a233 3
+Fatigue Point less per hour or meal, and if his Endurance is less than
+5, he recovers one less Fatigue Point.  However, a character must
+always recover a minimum of one-half a Fatigue Point when resting.
+d236 4
+a239 4
+If a character's Endurance is from 21 to 30, he recovers an additional
+one-half of a Fatigue Point per hour or meal.  Each succeeding ten
+point Endurance bracket carries an additional one-half Fatigue Point
+per hour or meal bonus.
+d250 1
+a250 1
+he is carrying.
+d256 1
+a256 1
+there is a change in the weight he bears (at which point the
+d261 1
+a261 1
+basis for determining the Action Points he may expend.
+a263 5
+\subsection{Recuperation and Upkeep}
+\label{recuperation}
+
+\subsubsection{The rate at which Endurance Points are recovered depends
+on how active the injured being is.}
+d265 1
+a265 4
+If a being expends and/or loses no more than one-half his Fatigue
+Points (round down) for three consecutive days, he regains one
+Endurance Point at the end of the third day.  Otherwise, he recovers
+an Endurance Point at the end of the following (i.e., fourth) day.
+d267 2
+a268 2
+If a being is given ministrations from a physicker's kit, his body
+requires one less day to regain an Endurance Point.
+d270 2
+a271 3
+\subsubsection{Injuries which are not quantified as Endurance Point
+losses (e.g., hamstrung muscles) heal at the same rate as they do in
+this world.}
+d273 64
+a336 4
+The GM should assume that an Endurance value of 15 indicates a body
+which heals in average time.  Values greater than 15 will allow a
+being to heal more quickly, while values lower than 15 will cause a
+corresponding extension to the time required.
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a280 29
+\subsubsection{A character must spend money between adventures on his
+upkeep.}
+
+A player chooses a life-style for his character by the amount of money
+he has the character spend on upkeep.
+
+\begin{tabularx}{\linewidth}{lr}
+ & \textbf{Expenses} \\
+\textbf{Lifestyle} & \textbf{/ Week} \\
+Subsistence  & 20 sp \\
+Moderate     & 45 sp \\
+Comfortable  & 65 sp \\
+Expensive    & 100 sp \\
+Extravagant  & 150+ sp \\
+\end{tabularx}
+
+The above sums will purchase food and lodging for a week, including
+drinks at bars, laundering of clothes, etc.  Anv permanent
+acquisitions (such as clothes and furniture) must be paid for
+separately.
+
+A character who lives at subsistence level temporarily reduces his
+Fatigue and Endurance to three-quarters (round down) value.  A
+character who cannot even afford (or does not wish to pay for) that
+minimal expense temporarily reduces his Fatigue and Endurance to
+one-half (round down) value.  It can be assumed that a destitute (or
+extremely penurious) character survives by rooting through garbage
+heaps for their daily fare and sleeping in the cold outdoors.
+
+@

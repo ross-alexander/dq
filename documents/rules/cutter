@@ -1,0 +1,28 @@
+open(FILE, "rules.ind");
+
+OUTER: while (<FILE>)
+{
+  if (/\\item (colleges)|(skills)/)
+  {
+    while (<FILE>)
+    {
+      if (!/\\subitem /)
+      {
+	next OUTER;
+      }
+      chomp $_;
+      s/[ ]*\\subitem //;
+      my ($name, $pages) = split(/, */, $_);
+      my ($first, $last) = split(/\-\-/, $pages);
+      if (!length($last))
+      {
+	$last = $first;
+      }
+      my $cmd;
+      $name =~ s/ /-/g;
+      $cmd  = sprintf "ps2pdf -dFirstPage=$first -dLastPage=$last rules.pdf \"pdf-files/$name.pdf\"";
+      print "$cmd\n";
+      system($cmd);
+    }
+  }
+} 
