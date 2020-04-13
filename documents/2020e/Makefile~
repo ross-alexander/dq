@@ -1,0 +1,11 @@
+PANDOC_FLAGS = -V documentclass=report -V fontsize=8pt
+
+rules.pdf : rules.tex chargen.tex characteristics.tex ranking.tex health.tex equipment.tex combat.tex dq2020e.sty
+	xelatex $<
+
+rules2014.pdf : rules2014.tex combat.tex
+	xelatex $<
+
+combat.tex : combat.md
+	pandoc $(PANDOC_FLAGS) -f markdown -t latex $< -o $@
+

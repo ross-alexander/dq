@@ -1,0 +1,317 @@
+%% This is linuxdoc-qwertz.sty, for use with SGML-generated LaTeX
+%% by Matt Welsh (mdw@sunsite.unc.edu)
+%%
+%% Based on linuxdoc.sty by Michael K. Johnson, and latex.tex by 
+%% Leslie Lamport. 
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{dq}[2020/04/13 v1.1 DQ style file]
+
+% \RequirePackage{fixltx2e}
+\RequirePackage{ifpdf}
+% \RequirePackage[TU]{fontenc}
+\RequirePackage{ifthen}
+%% \RequirePackage{mathptmx}
+\RequirePackage{multicol}
+\RequirePackage{tabularx}
+\RequirePackage{array}
+\RequirePackage{fancyhdr}
+\RequirePackage{textcomp}
+\RequirePackage{float}
+\RequirePackage{geometry}
+\RequirePackage{ifxetex}
+
+\ifxetex
+  \RequirePackage{fontspec}
+\fi
+
+\typeout{DQ Rules style sheet, version 0.5 <12 April 2020>}
+
+%% \RequirePackage{libertine}
+
+\DeclareOption{libertine}{
+  \newfontfamily\fslibertine[NFSSFamily=libertine]{Linux Libertine O}
+  \newfontfamily\fsbiolinum[NFSSFamily=biolinum]{Linux Biolinum O}
+
+  \renewcommand{\rmdefault}{libertine}
+  \renewcommand{\sfdefault}{biolinum}
+
+%%  \renewcommand{\scriptsize}{\fontfamily{\rmdefault}\fontsize{6}{7pt}\selectfont}
+%%  \renewcommand{\small}{\fontfamily{\rmdefault}\fontsize{7}{8pt}\selectfont}
+%%  \renewcommand{\normalsize}{\fontfamily{\rmdefault}\fontsize{8}{9.0pt}\selectfont}
+%%  \renewcommand{\large}{\fontfamily{\sfdefault}\fontsize{9}{11pt}\selectfont}
+%%  \renewcommand{\Large}{\fontfamily{\sfdefault}\fontsize{12}{15pt}\selectfont}
+%%  \renewcommand{\huge}{\fontfamily{\sfdefault}\fontsize{18}{20pt}\selectfont}
+%%  \renewcommand{\Huge}{\fontfamily{\rmdefault}\fontsize{24}{24pt}\selectfont} 
+}
+
+\DeclareOption{times}{
+  \renewcommand{\encodingdefault}{T1}
+  \renewcommand{\rmdefault}{ptm}
+  \renewcommand{\sfdefault}{phv}
+
+%%  \renewcommand{\scriptsize}{\fontfamily{\rmdefault}\fontsize{6}{7pt}\selectfont}
+%%  \renewcommand{\small}{\fontfamily{\rmdefault}\fontsize{7}{8pt}\selectfont}
+%%  \renewcommand{\normalsize}{\fontfamily{\rmdefault}\fontsize{8}{9.0pt}\selectfont}
+%%  \renewcommand{\large}{\fontfamily{\sfdefault}\fontsize{9}{11pt}\selectfont}
+%%  \renewcommand{\Large}{\fontfamily{\sfdefault}\fontsize{12}{15pt}\selectfont}
+%%  \renewcommand{\huge}{\fontfamily{\sfdefault}\fontsize{18}{20pt}\selectfont}
+%%  \renewcommand{\Huge}{\fontfamily{\rmdefault}\fontsize{24}{24pt}\selectfont}
+}
+
+%% %%% FONT THINGS
+
+\DeclareOption{avant}{
+  \renewcommand{\encodingdefault}{T1}
+  \renewcommand{\rmdefault}{pnc}
+  \renewcommand{\sfdefault}{pag}
+  \renewcommand{\ttdefault}{pcr}
+}
+
+\ProcessOptions
+
+
+\renewcommand{\scriptsize}{\fontfamily{\rmdefault}\fontsize{6}{7pt}\selectfont}
+\renewcommand{\small}{\fontfamily{\rmdefault}\fontsize{7}{8pt}\selectfont}
+\renewcommand{\normalsize}{\fontfamily{\rmdefault}\fontsize{8}{9.5pt}\selectfont}
+\renewcommand{\large}{\fontfamily{\sfdefault}\fontsize{10}{11pt}\selectfont}
+\renewcommand{\Large}{\fontfamily{\sfdefault}\fontsize{14}{15pt}\selectfont}
+\renewcommand{\huge}{\fontfamily{\sfdefault}\fontsize{18}{20pt}\selectfont}
+\renewcommand{\Huge}{\fontfamily{\rmdefault}\fontsize{24}{24pt}\selectfont}
+
+%% %%% GLOBAL LAYOUT THINGS
+
+\setlength\marginparwidth{0.0 in}
+\setlength\parindent{0.0 in}
+\setlength\topmargin{-0.75 in}
+\setlength\textheight{10.65 in}
+
+%% %%% ONE-SIDED/TWO-SIDED DEPENDENCIES
+
+\if@twoside % ``book'' style was chosen
+  \oddsidemargin -15.0 mm
+  \evensidemargin -15.0 mm
+  \textwidth 188mm
+\else % if not book style, then
+  \oddsidemargin -6.3mm
+  \evensidemargin\oddsidemargin
+  \textwidth 182mm
+\fi
+
+\addtolength{\parskip}{0.3 em}
+\setlength\headsep{5pt}
+
+\setlength\leftmargini{1.5em}
+\setlength\leftmarginii{2.0em}
+
+\let\ps@plain\ps@empty
+
+%% secnumdepth is set to 1 as we are using chapters so number is
+%% chapter.section only.  subsections and below are not numbered
+
+\setcounter{secnumdepth}{1}
+\setcounter{tocdepth}{1}
+
+\setcounter{columnbadness}{1000}
+\setcounter{finalcolumnbadness}{1000}
+\setcounter{collectmore}{50}
+
+\renewcommand{\section}{\@startsection
+	{section}%
+	{1}%
+	{\z@}%
+	{10.0pt}
+	{0.2pt}
+	{\reset@font\Large\bfseries}}%
+
+\renewcommand{\subsection}{\@startsection
+	{subsection}%
+	{2}%
+	{\z@}%
+	{1.0\parskip plus4pt}
+ 	{0.25\baselineskip}
+	{\reset@font\large\bfseries}}%
+
+\renewcommand{\subsubsection}{\@startsection
+	{subsubsection}%
+	{3}%
+	{\z@}%
+	{4ptminus2pt}
+ 	{0.25\baselineskip}
+	{\reset@font\normalfont\bfseries}}%
+
+\@ifundefined{chapter}{}{
+\renewcommand\chapter{\if@openright\cleardoublepage\else\clearpage\fi
+                    \thispagestyle{plain}%
+                    \global\@topnum\z@
+                    \@afterindentfalse
+                    \secdef\@zchapter\@zschapter}
+
+\def\@zchapter[#1]#2{
+  \ifnum \c@secnumdepth >\m@ne%
+    \refstepcounter{chapter}%
+    \typeout{\@chapapp\space\thechapter.}%
+    \addcontentsline{toc}{chapter}{\protect\numberline{\thechapter}#1}%
+  \else
+    \addcontentsline{toc}{chapter}{#1}%
+  \fi
+  \chaptermark{#1}%
+  \addtocontents{lot}{\protect\addvspace{10\p@}}%
+  \if@twocolumn
+    \@topnewpage[\@zmakechapterhead{#2}]%
+  \else
+    \@zmakechapterhead{#2}%
+    \@afterheading
+    \fi
+}
+
+\def\@zmakechapterhead#1{%
+  {\parindent \z@ \raggedright \normalfont
+    \interlinepenalty\@M
+    \Huge \bfseries \thechapter \hspace{1em} #1\par\nobreak
+    \vskip 20\p@
+  }
+}
+
+\def\@zschapter#1{\if@twocolumn
+                   \@topnewpage[\@zmakeschapterhead{#1}]%
+                 \else
+                   \@zmakeschapterhead{#1}%
+                   \@afterheading
+                 \fi}
+
+\def\@zmakeschapterhead#1{%
+  {\parindent \z@ \raggedright
+    \normalfont
+    \interlinepenalty\@M
+    \Huge \bfseries  #1\par\nobreak
+    \vskip 20\p@
+  }}
+}
+
+%% %\pagestyle{headings}
+
+\newcommand{\thisday}{\slshape\fontsize{8}{9pt}\selectfont{\MakeUppercase{\today}}}
+
+\pagestyle{fancyplain}
+\lhead[\fancyplain{}{\slshape\fontsize{8}{9pt}\selectfont\rightmark}]{\fancyplain{}{\thisday}}
+\rhead[\fancyplain{}{\thisday}]{\fancyplain{}{\slshape\fontsize{8}{9pt}\selectfont\rightmark}}
+\cfoot{\fancyplain{}{\fontsize{8}{9pt}\selectfont\thepage}}
+\renewcommand\headrulewidth{0.0pt}
+\renewcommand\footrulewidth{0.0pt}
+\renewcommand\footruleskip{0.0pt}
+
+
+%% %%% USEFUL MACROS
+
+
+%% %  \@removefromreset{FOO}{BAR} : Removes counter FOO from the list of 
+%% %                       counters \cl@BAR to be reset when counter BAR
+%% %                       is stepped.  The opposite of \@addtoreset.
+
+\def\@removefromreset#1#2{\let\@tempb\@elt 
+   \expandafter\let\expandafter\@tempa\csname c@#1\endcsname
+   \def\@elt##1{\expandafter\ifx\csname c@##1\endcsname\@tempa\else
+         \noexpand\@elt{##1}\fi}%
+   \expandafter\edef\csname cl@#2\endcsname{\csname cl@#2\endcsname}%
+   \let\@elt\@tempb}
+
+\renewcommand\thesection{\thechapter.\arabic{section}}
+% \@removefromreset{section}{chapter}
+
+
+\renewcommand{\@makefnmark}{\scriptsize{\mbox{$^{\@thefnmark}$}}}
+
+\newcommand{\x}{$\times$\ }
+\newcommand{\eg}{e.g.\ }
+\newcommand{\ie}{i.e.\ }
+\newcommand{\half}{\textonehalf{}}
+\newcommand{\fourth}{\textonequarter{}}
+
+\newenvironment{talent}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{talents!#2}}{}
+\newenvironment{talent*}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{talents!#2}}{}
+
+\newenvironment{spell}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{spells!#2}}{}
+\newenvironment{spell*}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{spells!#2}}{}
+
+\newenvironment{ritual}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{rituals!#2}}{}
+\newenvironment{ritual*}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{rituals!#2}}{}
+
+\newenvironment{example}[0]{\small \textbf{Example}\hspace{1.2em}}{}
+\newcommand{\clearemptydoublepage}{\newpage{\pagestyle{empty}\cleardoublepage}}
+\newcommand{\sItem}[2]{\emph{#1}: #2 \\}
+
+\newenvironment{Itemize}[0]{\begin{itemize}\setlength\itemsep{0pt}}{\end{itemize}}
+\newenvironment{Enumerate}[0]{\begin{enumerate}\setlength\itemsep{0pt}}{\end{enumerate}}
+\newenvironment{Description}[0]{\setlength\leftmargini{0pt}\begin{description}\setlength\itemsep{0pt}}{\end{description}}
+\newenvironment{Chapter}[1]{\chapter{#1}\begin{multicols*}{3}}{\end{multicols*}}
+\newenvironment{Table}[1]{\chapter{#1}}{}
+
+\ifpdf
+  \typeout{Using PDF driver}
+  \renewcommand{\rmdefault}{ptm}
+  \renewcommand{\sfdefault}{phv}
+  \renewcommand{\ttdefault}{pcr}
+\else
+   \typeout{Using DVI driver}
+\fi
+
+\renewcommand{\thisday}{\fontsize{8}{9pt}\selectfont{\MakeUppercase{\today}}}
+\lhead[\fancyplain{}{\fontsize{8}{9pt}\selectfont\rightmark}]{\fancyplain{}{\thisday}}
+\rhead[\fancyplain{}{\thisday}]{\fancyplain{}{\fontsize{8}{9pt}\selectfont\rightmark}}
+\cfoot{\fancyplain{}{\fontsize{8}{9pt}\selectfont\thepage}}
+
+
+%% New environment stuff added to reduce formatting in actual file
+
+\newenvironment{contributors}[0]{\begin{center}{\Large \textbf{Contributors}}\end{center}\begin{multicols}{4}}{\end{multicols}}
+
+%% 13.06.2001 Add the Description environment into edition to make the history.tex file cleaner.
+
+\newenvironment{edition}[1]{\begin{center}\Large \textbf{History of Edition #1}\end{center}\begin{multicols}{3}\begin{Description}}{\end{Description}\end{multicols}}
+
+
+\newenvironment{college}[4][1.0]{\section{The College of #3 (Ver #1)}\label{college:#2}\def\dq@college{#3} \index{colleges!\dq@college|(} \begin{multicols*}{3}}%
+{\index{colleges!\dq@college|)}\end{multicols*} \clearemptydoublepage}
+
+\newcommand{\range}[1]{\sItem{Range}{#1}}
+\newcommand{\area}[1]{\sItem{Area}{#1}}
+\newcommand{\multiple}[1]{\sItem{Experience Multiple}{#1}}
+\newcommand{\basechance}[1]{\sItem{Base Chance}{#1}}
+\newcommand{\duration}[1]{\sItem{Duration}{#1}}
+\newcommand{\resist}[1]{\sItem{Resist}{#1}}
+\newcommand{\target}[1]{\sItem{Target}{#1}}
+\newcommand{\storage}[1]{\sItem{Storage}{#1}}
+\newcommand{\material}[1]{\sItem{Material}{#1}}
+\newcommand{\casttime}[1]{\sItem{Cast Time}{#1}}
+\newcommand{\actions}[1]{\sItem{Actions}{#1}}
+\newcommand{\concentration}[1]{\sItem{Concentration Check}{#1}}
+\newcommand{\materialcost}[1]{\sItem{Material Cost}{#1}}
+\newcommand{\basetime}[1]{\sItem{Base Construction Time}{#1}}
+\newcommand{\timetaken}[1]{\sItem{Time}{#1}}
+
+\newenvironment{effects}[0]{\emph{Effects: }}{}
+
+%% \setlength{\@fptop}{0pt}\setlength{\@fpsep}{8pt}
+
+\newenvironment{skill}[3]%
+{\begin{multicols*}{3} \ifthenelse{\equal{#2}{\empty}}{\section{#1}}{\section{#1 (Ver #2)}}\def\dq@skill{#1}\label{#3}\index{\dq@skill|(} \index{skills!\dq@skill|(}}%
+{\index{\dq@skill|)}\index{skills!\dq@skill|)}\end{multicols*} \newpage}
+
+\newenvironment{skill*}[3]%
+{\begin{multicols}{3} \ifthenelse{\equal{#2}{\empty}}{\section{#1}}{\section{#1 (Ver #2)}}\def\dq@skill{#1}\label{#3}\index{\dq@skill|(} \index{skills!\dq@skill|(}}%
+{\index{\dq@skill|)}\index{skills!\dq@skill|)}\end{multicols}}
+
+\newenvironment{inline}{\small}{}
+
+%% The inset environment just hides font and position control away
+
+\newenvironment{inset}[2]{\def\inset@env{#2}\begin{\inset@env}#1}{\end{\inset@env}}
+
+\ifpdf
+  \RequirePackage[pdftex]{graphicx}
+  \newcommand{\coverpic}{\vspace{2em}\includegraphics[viewport=0 0 310 307,clip]{pics/cover.pdf}}
+\else
+  \RequirePackage[dvips]{graphicx}
+  \newcommand{\coverpic}{\vspace{2em}\includegraphics[scale=1.0]{pics/cover.eps}}
+\fi

@@ -1,0 +1,472 @@
+\Chapter{Health and Fitness}
+
+A character’s Fatigue will vary depending upon the 
+amount of food and rest they get compared to their 
+activities. 
+
+A  character’s  Endurance  may  be  temporarily  re-
+duced  by  lack  of  sustenance,  extreme  activities, 
+damage, or illness. 
+
+4.1 Eating and Drinking 
+The  amount  of  food  and  water  required  per  day  is 
+dependent  on  many  factors.  These  include  the 
+person  (endurance,  weight,  build,  metabolic  rate 
+and race) and the level of activity they are involved 
+in (light, medium, hard or strenuous). 
+
+On  average  1  lb  of  food  and  2  pints  of  water  per 
+day is required. 
+
+4.2 Starvation 
+Starvation  occurs  when  a  character  does  not  have 
+at least 1 nourishing meal a day. 
+
+If a character is starved they will have their Fatigue 
+maximum and Endurance temporarily reduced by 1 
+each day. This decrease will last until the character 
+starts receiving proper nourishment. 
+
+A  starved  character’s  Fatigue  maximum  and  En-
+durance will recover by 1 point each day, after the 
+first, that they receive proper nourishment 
+
+4.3 Dehydration 
+Dehydration occurs when a character does not have 
+at  least  2  pints  of  water  a  day.  This  amount  will 
+increase  in  high  temperatures  by  1  pint  per  10 
+degrees above 20. 
+
+If  a  character  is  dehydrated  they  will  have  their 
+Fatigue  maximum  and  Endurance  temporarily 
+reduced  by  5  each  day.  If  the  character  receives 
+part  of  their  water  requirement,  the  penalty  is  re-
+duced.  For  every  20%  (or  fraction)  less  than  the 
+daily  requirement  they  lose  1  from  FT  max  and 
+EN. This decrease will last until the character starts 
+receiving adequate quantities of water. 
+
+A  dehydrated  character’s  Fatigue  and  Endurance 
+maximums will recover by 5 points each day, after 
+the  first,  that  they  receive  adequate  quantities  of 
+water. 
+
+4.4 Tiredness and Rest 
+Characters  have  a  tendency  to  lose  Fatigue  points 
+on  adventure.  A  fatigued  character  must  rest  to 
+recover  Fatigue  points.  Sleep,  as  might  be  ex-
+pected,  is  the  best  way  to  become  refreshed,  but 
+food and rest will also help. 
+
+The  Fatigue point loss and recovery  rates given in 
+these  rules  assume  that  the  character  is  in  good 
+health  and  is  well  fed.  If  the  character  is  not  in 
+good  condition,  the  GM  may  adjust  the  effects  of 
+activity,  the  effects  of  weight  carried  and  the  rate 
+of recovery. 
+
+Fatigue Loss 
+
+A  character  can  lose  Fatigue  points  when  they 
+engage  in  any  activity  more  stressful  than  a  lei-
+surely walk. 
+
+There are four classes of activity which can fatigue 
+a character: 
+
+1. Light Exercise includes moderate to brisk walk-
+ing, riding slowly or at a moderate pace on a docile 
+mount, etc. 
+
+2.  Medium  Exercise  includes  jogging,  riding  on  a 
+cantering  mount,  light  construction  or  precision 
+work, etc. 
+
+3. Hard Exercise includes paced running, riding at 
+a gallop, hard manual labour, etc. 
+
+4.  Strenuous  Exercise  includes  constant  sprinting, 
+breakneck  riding,  and  generally  those  actions  with 
+which the character pushes their body to its practi-
+cal limits. 
+
+It  is  possible  for  a  character’s  actions  to  be  more 
+taxing  than  Strenuous  Exercise,  which  requires 
+
+superhuman  exertion.  This  Fatigue  loss  from  this 
+activity will be determined by the GM. 
+
+A  character’s  degree  of  exertion  is  judged  each 
+hour. 
+
+The  GM  should  indicate  to  players  the  level  of 
+exertion of their activities (averaging where neces-
+sary).  If  the  GM  gives  consistent  guidelines  the 
+players  will  be  able  to  keep  an  ongoing  track  of 
+fatigue loss. 
+
+Encumbrance 
+
+A character is limited in the weight they can bear, 
+and  may  become  fatigued  if  they  engage  in  exer-
+cise. 
+
+The  Fatigue  and  Encumbrance  Table  (§58.1)  lists 
+the maximum weight a character may carry. 
+
+A  player  must  determine  the  total  weight  their 
+character is carrying if the character is to engage in 
+light  or  more  stressful  exercise  for  a  significant 
+length of time during a day. 
+
+When  an  entity  has  a  Physical  Strength  value 
+greater  than  40,  the  GM  divides  that  value  by  40. 
+Multiply  the  quotient by  the  entry  for  40,  and  add 
+the  entry  corresponding  to  the  remainder  to  deter-
+mine that entity’s capabilities. 
+
+Damage 
+
+A  character  may  lose  Fatigue  by  being  damaged. 
+This  may  be  recovered  naturally  or  by  being 
+healed. 
+
+Spell Casting 
+
+A  character  may  lose  Fatigue  by  using  magical 
+abilities. This may be recovered naturally but may 
+not be healed. 
+
+Calculating Current Fatigue 
+
+The  Fatigue  status  of  a  character  only  needs  to  be 
+calculated  before  they  enter  into  combat,  wish  to 
+perform magic  or  if  they  perform  fatiguing  activi-
+ties  for  long  periods.  To  calculate  current  Fatigue 
+use the Fatigue and Encumbrance Table (§58.1): 
+
+1.  Cross-reference 
+Strength and the weight they are carrying. 
+
+the 
+
+character’s  Physical 
+
+2.  Read  down  this  column  until  it  intersects  with 
+the  row  corresponding  to  the  character’s  rate  of 
+exercise. 
+
+3.  Multiply  the  resulting  number  (Fatigue  points 
+lost per hour) by the number of hours at this exer-
+cise level. 
+
+4.  Perform this  calculation  once  for each time  one 
+(or more) of the three factors changes. 
+
+5. Add each separate subtotal to determine the total 
+Fatigue points expended by the character so far. 
+
+Exhaustion 
+
+If a character’s Fatigue point total is reduced below 
+zero, they are exhausted. An exhausted character is 
+limited in the activities they may choose to do and 
+the  performance  of  their  abilities  is  adversely  ef-
+fected.  Their  Fatigue  is  considered  zero  for  the 
+purposes of combat or magic use. 
+
+A  character  may  choose  to  exert  themselves  after 
+their  Fatigue  points  are  reduced  to  zero  until  they 
+have  expended  a  nominal  one-half  their  initial 
+Fatigue points (round down). When they reach this 
+limit  they  will  collapse  unless  they  succeed  a  1  × 
+WP check every (2 × Endurance) minutes. 
+
+An  exhausted  character  must  sleep  for  as  much 
+time  as  they  were  performing  any  exercise  while 
+exhausted  before  they  may  recover  any  Fatigue 
+points. 
+
+If  an  exhausted  character  wishes  to  engage  in 
+Strenuous Exercise, they must succeed a separate 1 
+× WP check. 
+
+Exhaustion Modifier 
+
+The  character  must  subtract 1  /  half  hour  (or  frac-
+tion) of exhaustion to any base chance. 
+
+13 
+
+4 HEALTH AND FITNESS 
+
+4.5 Fatigue Recovery 
+A character may regain Fatigue points naturally by 
+eating a hot meal or resting. 
+
+A character may never have a Fatigue total greater 
+than their Fatigue Characteristic. 
+
+A  character  naturally  recovers  Fatigue  points  as 
+follows: 
+
+Activity 
+
+Fatigue points / Hour 
+
+2 
+1 
+2 
+3 
+
+Eat Hot Meal 
+Relaxation 
+Nap  
+Sleep  
+1.  A  character  may  benefit  from  a  hot  meal  no 
+more than three times during a 24 hour period, and 
+each meal must be separated by at least 4 hours. 
+
+2. A character that does not get at least 6 hours of 
+rest  and/or  sleep  per  day  will  have  their  Fatigue 
+maximum  temporarily  reduced  by  1  FT  /  hour  (or 
+fraction)  of  sleep  under  6  hours.  This  may  be  re-
+covered at the rate of 1 FT / 4 hours sleep. 
+
+3.  If  a  character’s  Endurance  is  less  than  10,  they 
+recover  one-half  of  a  FT  point  less  per  hour  or 
+meal,  and  if  their  Endurance  is  less  than  5,  they 
+recover  one  less  FT  point.  However,  a  character 
+always recovers a minimum of one-half a FT point 
+when resting. 
+
+4. If a character’s Endurance is from 21 to 30, they 
+recover  an  additional  one-half  of  a  FT  point  per 
+hour or meal. Each succeeding ten point Endurance 
+bracket  carries  an  additional  one-half  FT  point 
+bonus. 
+
+5. Fatigue loss from damage may also be recovered 
+by  magical  healing  (but  not  the  Healer  skill  Heal 
+Endurance). 
+
+4.6 Damage and Illness 
+
+Effects of Low Endurance 
+
+Unconsciousness  When  an  entity’s  Endurance 
+reaches 3 or less, they must make a (current EN) × 
+WP  check  or  fall  unconscious;  this  WP  check  is 
+repeated every minute or if their EN changes. 
+
+An  entity  on  0  Endurance  is  unconscious,  but  sta-
+ble.  An  entity  with  a  full  Endurance  of  5  or  less 
+does not make consciousness checks. They remain 
+conscious until they fall to 0 or less Endurance. 
+
+Below  Zero  Endurance  An  entity  on  negative 
+Endurance  will  lose  one  point  of  Fatigue  (Endur-
+ance when no Fatigue remains) until the bleeding is 
+stanched  by  a  Healer,  or  until  dead.  They  will 
+continue  to  take  damage  from  any  further  blows, 
+spells,  grievous  wounds  which  are  bleeders,  burn-
+ing, etc. 
+
+When  an  entity  is  below  zero  Endurance  they  are 
+on the very brink of death. It takes time and skill to 
+tell the difference between this state and death (e.g. 
+empathy,  DA).  GMs  should  not  let  players  take 
+advantage  of  out  of  character  information  when 
+another player’s character is below 0 Endurance. 
+
+Death  When  an  entity’s  Endurance  falls  below 
+negative  one-half  their  full  Endurance,  they  are 
+dead.  Once  dead,  ongoing  damage  (e.g.  poison  or 
+bleeding)  ceases  but  further  damage  may  be  in-
+flicted on the body. 
+
+Endurance Recovery 
+
+There  are  many  causes  of  a  character  losing  En-
+durance  points.  However,  once  lost  there  are  two 
+primary methods of recovering them. 
+
+Healers and Magical Healing 
+
+Healers,  herbalists,  potions,  medicines  and  some 
+magics  may  aid  the  recovery  of  Endurance.  The 
+exact  effects  can  be  found  under  the  appropriate 
+skill or magic. 
+
+4 HEALTH AND FITNESS/ 5 EQUIPMENT AND MONEY 
+
+Natural Healing 
+
+Natural Healing of Grievous Injuries 
+
+The  rate  at  which  Endurance  Points  recover  natu-
+rally  primarily  depends  on  how  active  the  injured 
+being is. 
+
+If an entity is resting they regain 1 Endurance point 
+every three full days. 
+
+This rate is reduced to 1 / 4 days if the entity:  
+
+• takes any further EN damage  
+
+• uses more than half their FT  
+
+• does not receive adequate nourishment 
+
+If  an  entity 
+is  given  ministrations  from  a 
+physicker’s kit, their body requires one  less day to 
+regain an Endurance Point. 
+
+Injuries  which  are  not  quantified  as  Endurance 
+point  losses  or  grievous  injuries  (e.g.  hamstrung 
+muscles)  heal  at  the  same  rate  as  they  do  in  this 
+world. 
+
+These  healing  rates  are  based  on  average  Endur-
+ance  value  of  15.  The  GM  may  chose  to  increase 
+the healing rate if an entity’s full Endurance is very 
+high or decrease it for a low Endurance entity. 
+
+Potions \& Unconscious Patients 
+
+An entity cannot drink a healing potion when they 
+are  unconscious  or  below  zero  endurance  but  one 
+can be massaged down their throat. The chance of 
+doing  this  is  equal  to  the Manual  Dexterity  +  Per-
+ception of the person administering the potion, or if 
+a healer, 90 + Healer Rank. If successful then D10 
+per 10 points of the healing potion’s curing (round 
+down) will be received. If the person fails the roll, 
+the  potion  is  wasted,  but  no  harmful  effects  occur 
+to the patient. 
+
+Grievous Injuries 
+
+Endurance  loss  resulting  from  specific  grievous 
+injuries  may  not  be  healed  separately  from  the 
+underlying  specific  injury.  When  the  specific  in-
+jury  is  fully  cured  the  related  endurance  is  recov-
+ered automatically. 
+
+Major  injuries  take  a  long  time  to  heal  and  some 
+will  not  heal  naturally  but  require  a  healer.  Here 
+are guidelines for the healing requirements of some 
+common major injuries. 
+
+Broken  bones  will  knit  in  4  weeks  for  a  simple 
+fracture,  or  up  to  10  weeks  for  a  compound  frac-
+ture.  A  bone  must  be  properly  set  before  the  bone 
+may knit together. 
+
+Internal  injuries  an  entity  will  usually  die  from 
+internal  injuries.  If  the  patient  is  comfortable,  un-
+moving,  and  kept  alive  by  a  healer  or  physician, 
+internal  injuries  will  heal  1  Endurance  point  per 
+week 
+
+Open  wounds  will  heal  at  half  the  normal  rate, 
+provided that they are kept free  of infection. Open 
+wounds will leave scars. 
+
+Removed  body  parts  will  not  regrow  naturally. 
+However,  the  remaining  wound  will  heal  over  at 
+quarter  the  normal  rate,  provided  it  is  kept  free 
+from infection. 
+
+Magical  healing of  Specific  Injuries  Healers  and 
+certain magics may heal specific injuries. The time 
+taken  and  effects  of  these  magics  may  be  found 
+under the appropriate skill or magic. 
+
+4.7 Infection 
+If  a  character  is  wounded  there  is  the  possibility 
+that they  have  become  infected  as  a result  of  their 
+wounds. 
+
+An  Infection  Check  must  be  performed  to  deter-
+mine whether they are infected or not. 
+
+Becoming Infected 
+
+The  chance  of  becoming  infected  depends  on  the 
+entity’s health, the type of injury, and the environ-
+ment the entity is in. Modifiers are cumulative one 
+is applied from each category: 
+
+There is a wound which is ... 
+Dirty 
++20%  
+Heavily contaminated  +50% 
+The environment is ... 
+
+5 Equipment and Money 
+
+-5%  
++20% 
+
+Dry 
+Humid 
+The average temperature is ... 
+Below 0 
+1 – 5 
+30 – 40 
+Above 40 
+Some  specific  grievous  injuries  also  increase  the 
+chance of infection. 
+
++20% 
++10% 
++10%  
++20% 
+
+Effects of Infection 
+
+An entity with an infection will be slowly poisoned 
+by the infection. The damage is [D - 5] Endurance 
+per  day,  until  the  infection  is  cured.  An  infected 
+wound will not heal until the infection is cured. 
+
+Curing Infection 
+
+There are two ways to recover from infection. The 
+first  is  to  tough  it  out.  The  second  is  to  be  healed 
+by a healer. 
+
+Toughing it out An infected character may make a 
+1  ×  Endurance  check  every  day  to  recover  natu-
+rally. 
+
+Healing An infected character may be cured by the 
+arts of a Healer or by magic. The rank at which this 
+is possible, and the chance of success can be found 
+under the appropriate skill or spell. 
+
+4.8 Conception 
+The natural conception chances for character races 
+are:  
+
+3% 
+1% 
+4% 
+2% 
+6% 
+10% 
+5% 
+
+Dwarf 
+Elf 
+Halﬂing 
+Hill Giant 
+Human 
+Orc 
+Shapechanger 
+Checks against the relevant chance should be made 
+no more often than once per 48 hours of appropri-
+ate activity. 
