@@ -16,7 +16,7 @@
 \RequirePackage{fancyhdr}
 \RequirePackage{textcomp}
 \RequirePackage{float}
-\RequirePackage{geometry}
+\RequirePackage[top=20mm,left=15mm,right=15mm,bottom=10mm]{geometry}
 \RequirePackage{hyperref}
 
 \hypersetup{colorlinks=true,allcolors=blue,
@@ -54,9 +54,16 @@
 }
 
 \DeclareOption{times}{
-  \renewcommand{\encodingdefault}{T1}
-  \renewcommand{\rmdefault}{ptm}
-  \renewcommand{\sfdefault}{phv}
+  \ifxetex
+    \newfontfamily\fstimes[NFSSFamily=ptm]{Nimbus Roman}
+    \newfontfamily\fshelvetica[NFSSFamily=phv]{Nimbus Sans}
+    \renewcommand{\rmdefault}{ptm}
+    \renewcommand{\sfdefault}{phv}
+  \else
+    \renewcommand{\encodingdefault}{T1}
+    \renewcommand{\rmdefault}{ptm}
+    \renewcommand{\sfdefault}{phv}
+  \fi
 
 %%  \renewcommand{\scriptsize}{\fontfamily{\rmdefault}\fontsize{6}{7pt}\selectfont}
 %%  \renewcommand{\small}{\fontfamily{\rmdefault}\fontsize{7}{8pt}\selectfont}
@@ -78,33 +85,46 @@
 
 \ProcessOptions
 
+\ifpdf
+  \typeout{Using PDF driver}
+  \renewcommand{\rmdefault}{ptm}
+  \renewcommand{\sfdefault}{phv}
+  \renewcommand{\ttdefault}{pcr}
+\else
+  \ifxetex
+    \typeout{Using XeTeX}
+  \else
+     \typeout{Using DVI driver}
+  \fi
+\fi
 
 \renewcommand{\scriptsize}{\fontfamily{\rmdefault}\fontsize{6}{7pt}\selectfont}
 \renewcommand{\small}{\fontfamily{\rmdefault}\fontsize{7}{8pt}\selectfont}
 \renewcommand{\normalsize}{\fontfamily{\rmdefault}\fontsize{8}{9.5pt}\selectfont}
 \renewcommand{\large}{\fontfamily{\sfdefault}\fontsize{10}{11pt}\selectfont}
-\renewcommand{\Large}{\fontfamily{\sfdefault}\fontsize{14}{15pt}\selectfont}
-\renewcommand{\huge}{\fontfamily{\sfdefault}\fontsize{18}{20pt}\selectfont}
-\renewcommand{\Huge}{\fontfamily{\rmdefault}\fontsize{24}{24pt}\selectfont}
+\renewcommand{\Large}{\fontfamily{\sfdefault}\fontsize{12}{15pt}\selectfont}
+\renewcommand{\huge}{\fontfamily{\sfdefault}\fontsize{14}{20pt}\selectfont}
+\renewcommand{\Huge}{\fontfamily{\rmdefault}\fontsize{20}{24pt}\selectfont}
 
 %% %%% GLOBAL LAYOUT THINGS
 
-\setlength\marginparwidth{0.0 in}
-\setlength\parindent{0.0 in}
-\setlength\topmargin{-0.75 in}
-\setlength\textheight{10.65 in}
+\setlength\marginparwidth{0.0 mm}
+\setlength\parindent{0.0 mm}
+
+%\setlength\topmargin{-0.75 in}
+%\setlength\textheight{10.65 in}
 
 %% %%% ONE-SIDED/TWO-SIDED DEPENDENCIES
 
-\if@twoside % ``book'' style was chosen
-  \oddsidemargin -15.0 mm
-  \evensidemargin -15.0 mm
-  \textwidth 188mm
-\else % if not book style, then
-  \oddsidemargin -6.3mm
-  \evensidemargin\oddsidemargin
-  \textwidth 182mm
-\fi
+%\if@twoside % ``book'' style was chosen
+%  \oddsidemargin -15.0 mm
+%  \evensidemargin -15.0 mm
+%  \textwidth 188mm
+%\else % if not book style, then
+%  \oddsidemargin -6.3mm
+%  \evensidemargin\oddsidemargin
+%  \textwidth 182mm
+%\fi
 
 \addtolength{\parskip}{0.3 em}
 \setlength\headsep{5pt}
@@ -254,15 +274,6 @@
 \newenvironment{Description}[0]{\setlength\leftmargini{0pt}\begin{description}\setlength\itemsep{0pt}}{\end{description}}
 \newenvironment{Chapter}[1]{\chapter{#1}\begin{multicols*}{3}}{\end{multicols*}}
 \newenvironment{Table}[1]{\chapter{#1}}{}
-
-\ifpdf
-  \typeout{Using PDF driver}
-  \renewcommand{\rmdefault}{ptm}
-  \renewcommand{\sfdefault}{phv}
-  \renewcommand{\ttdefault}{pcr}
-\else
-   \typeout{Using DVI driver}
-\fi
 
 \renewcommand{\thisday}{\fontsize{8}{9pt}\selectfont{\MakeUppercase{\today}}}
 \lhead[\fancyplain{}{\fontsize{8}{9pt}\selectfont\rightmark}]{\fancyplain{}{\thisday}}

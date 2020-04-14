@@ -46,10 +46,15 @@
 }
 
 \DeclareOption{times}{
-  \renewcommand{\encodingdefault}{T1}
-  \renewcommand{\rmdefault}{ptm}
-  \renewcommand{\sfdefault}{phv}
-
+  \ifxetex
+    \newfontfamily\fstimes[NFSSFamily=ptm]{Nimbus Roman No9}
+    \newfontfamily\fshelvetica[NFSSFamily=phv]{Nimbus Sans}
+  \else
+    \renewcommand{\encodingdefault}{T1}
+    \renewcommand{\rmdefault}{ptm}
+    \renewcommand{\sfdefault}{phv}
+  \fi
+ 
 %%  \renewcommand{\scriptsize}{\fontfamily{\rmdefault}\fontsize{6}{7pt}\selectfont}
 %%  \renewcommand{\small}{\fontfamily{\rmdefault}\fontsize{7}{8pt}\selectfont}
 %%  \renewcommand{\normalsize}{\fontfamily{\rmdefault}\fontsize{8}{9.0pt}\selectfont}
