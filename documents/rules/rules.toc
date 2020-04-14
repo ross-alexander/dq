@@ -75,7 +75,7 @@
 \contentsline {subsubsection}{Birth Order}{12}%
 \contentsline {subsubsection}{Disinheritance}{12}%
 \contentsline {subsection}{\numberline {2.6}Starting Abilities and Possessions}{12}%
-\contentsline {subsubsection}{Language Skills}{12}%
+\contentsline {subsubsection}{Language Skills}{13}%
 \contentsline {subsubsection}{Adventuring Skills}{13}%
 \contentsline {subsubsection}{Mage or Non Mage?}{13}%
 \contentsline {subsubsection}{Mage}{13}%
@@ -208,7 +208,7 @@
 \contentsline {subsubsection}{Effects of Infection}{22}%
 \contentsline {subsubsection}{Curing Infection}{22}%
 \contentsline {section}{\numberline {6}Ranking}{22}%
-\contentsline {subsection}{\numberline {6.1}Characteristics}{22}%
+\contentsline {subsection}{\numberline {6.1}Characteristics}{23}%
 \contentsline {subsection}{\numberline {6.2}Talents}{23}%
 \contentsline {subsection}{\numberline {6.3}Spells}{23}%
 \contentsline {subsection}{\numberline {6.4}Rituals}{23}%
@@ -553,7 +553,7 @@
 \contentsline {subsubsection}{Windstorm (S-16)}{65}%
 \contentsline {subsubsection}{Wind Walking (S-17)}{65}%
 \contentsline {subsubsection}{Ball of Lightning (S-18)}{65}%
-\contentsline {subsubsection}{Thunderclap (S-19)}{65}%
+\contentsline {subsubsection}{Thunderclap (S-19)}{66}%
 \contentsline {subsection}{\numberline {18.8}Special Knowledge Rituals}{66}%
 \contentsline {subsubsection}{Air Spring (R-1)}{66}%
 \contentsline {subsubsection}{Conjuring Air Elemental (R-2)}{66}%
@@ -669,7 +669,7 @@
 \contentsline {subsubsection}{Dragon Flames (S-2)}{80}%
 \contentsline {subsubsection}{Fire Arc (S-3)}{80}%
 \contentsline {subsubsection}{Fireball (S-4)}{80}%
-\contentsline {subsubsection}{Heat Shield (S-5)}{80}%
+\contentsline {subsubsection}{Heat Shield (S-5)}{81}%
 \contentsline {subsubsection}{Hellfire (S-6)}{81}%
 \contentsline {subsubsection}{Immolation (S-7)}{81}%
 \contentsline {subsubsection}{Malignant Flames (S-8)}{81}%
@@ -764,7 +764,7 @@
 \contentsline {subsubsection}{Control Aquatic Life (S-1)}{88}%
 \contentsline {subsubsection}{Dehydration (S-2)}{88}%
 \contentsline {subsubsection}{Flash Flood (S-3)}{88}%
-\contentsline {subsubsection}{Geyser (S-4)}{88}%
+\contentsline {subsubsection}{Geyser (S-4)}{89}%
 \contentsline {subsubsection}{Liquid Purification (S-5)}{89}%
 \contentsline {subsubsection}{Liquid Transmutation (S-6)}{89}%
 \contentsline {subsubsection}{Maelstrom (S-7)}{89}%
@@ -776,8 +776,8 @@
 \contentsline {subsubsection}{Waters of Vision (S-13)}{89}%
 \contentsline {subsubsection}{Waterspout (S-14)}{89}%
 \contentsline {subsubsection}{Wave Riding (S-15)}{89}%
-\contentsline {subsection}{\numberline {23.7}Special Knowledge Rituals}{89}%
-\contentsline {subsubsection}{Summoning and Binding Water Elemental (R-1)}{89}%
+\contentsline {subsection}{\numberline {23.7}Special Knowledge Rituals}{90}%
+\contentsline {subsubsection}{Summoning and Binding Water Elemental (R-1)}{90}%
 \contentsline {section}{\numberline {24}The College of Greater Summonings (Ver 1.0)}{91}%
 \contentsline {subsection}{\numberline {24.1}Restrictions}{91}%
 \contentsline {subsection}{\numberline {24.2}Base Chance Modifiers}{91}%
@@ -842,7 +842,7 @@
 \contentsline {subsubsection}{Spectral Warrior (S-12)}{97}%
 \contentsline {subsubsection}{Spectral Weapon (S-13)}{97}%
 \contentsline {subsubsection}{Stream of Corruption (S-14)}{97}%
-\contentsline {subsubsection}{Wall of Bones (S-15)}{97}%
+\contentsline {subsubsection}{Wall of Bones (S-15)}{98}%
 \contentsline {subsubsection}{Wraithcloak (S-16)}{98}%
 \contentsline {subsection}{\numberline {25.7}Special Knowledge Rituals}{98}%
 \contentsline {subsubsection}{Becoming Undead (R-1)}{98}%
@@ -850,397 +850,397 @@
 \contentsline {subsubsection}{Permanency (R-3)}{98}%
 \contentsline {subsubsection}{Shaping Flesh Golems (R-4)}{98}%
 \contentsline {subsubsection}{Summoning Greater Undead (R-5)}{98}%
-\contentsline {section}{\numberline {26}The College of Rune Magics (Ver 1.1)}{99}%
-\contentsline {subsection}{\numberline {26.1}Restrictions}{99}%
-\contentsline {subsection}{\numberline {26.2}Runewards and Runesticks}{99}%
-\contentsline {subsection}{\numberline {26.3}Base Chance Modifiers}{99}%
-\contentsline {subsection}{\numberline {26.4}Talents}{99}%
-\contentsline {subsubsection}{Read Dead Languages (T-1)}{99}%
-\contentsline {subsubsection}{Decipher Codes and Ciphers (T-2)}{99}%
-\contentsline {subsubsection}{Read Runesticks (T-3)}{100}%
-\contentsline {subsubsection}{Create Codes and Ciphers (T-4)}{100}%
-\contentsline {subsubsection}{Summon Wand (T-5)}{100}%
-\contentsline {subsection}{\numberline {26.5}General Knowledge Spells}{100}%
-\contentsline {subsubsection}{Learn Rune (G-1)}{100}%
-\contentsline {subsubsection}{Darkness (G-2)}{100}%
-\contentsline {subsubsection}{Light (G-3)}{100}%
-\contentsline {subsubsection}{Pyrogenesis (G-4)}{100}%
-\contentsline {subsubsection}{Curse (G-5)}{100}%
-\contentsline {subsubsection}{Illusion (G-6)}{100}%
-\contentsline {subsubsection}{Control Entity (G-7)}{100}%
-\contentsline {subsubsection}{Purification (G-8)}{101}%
-\contentsline {subsubsection}{Runelock (G-9)}{101}%
-\contentsline {subsection}{\numberline {26.6}General Knowledge Rituals}{101}%
-\contentsline {subsubsection}{Fashioning Runesticks (Q-1)}{101}%
-\contentsline {subsubsection}{Fashioning Runewand (Q-2)}{101}%
-\contentsline {subsubsection}{Warding with Runesticks (Q-3)}{101}%
-\contentsline {subsubsection}{Healing (Q-4)}{101}%
-\contentsline {subsubsection}{Runes of Sight (Q-5)}{102}%
-\contentsline {subsubsection}{Sending (Q-6)}{102}%
-\contentsline {subsection}{\numberline {26.7}Special Knowledge Spells}{102}%
-\contentsline {subsubsection}{Runewall Spell (S-1)}{102}%
-\contentsline {subsubsection}{Torment (S-2)}{102}%
-\contentsline {subsubsection}{Creating Rune Shield (S-3)}{102}%
-\contentsline {subsubsection}{Visitation (S-4)}{102}%
-\contentsline {subsubsection}{Truth (S-5)}{102}%
-\contentsline {subsubsection}{Banishment (S-6)}{102}%
-\contentsline {subsubsection}{Smite (S-7)}{102}%
-\contentsline {subsubsection}{Creating Runeweapon (S-8)}{102}%
-\contentsline {subsection}{\numberline {26.8}Special Knowledge Rituals}{103}%
-\contentsline {subsubsection}{Casting the Runes (R-1)}{103}%
-\contentsline {subsubsection}{Creeping Doom (R-2)}{103}%
-\contentsline {subsubsection}{Creating Rune Portal (R-3)}{103}%
-\contentsline {subsubsection}{Binding Elements (R-4)}{103}%
-\contentsline {subsection}{\numberline {26.9}Runewand Table}{103}%
-\contentsline {subsection}{\numberline {26.10}Runestick Chart}{103}%
-\contentsline {section}{\numberline {27}The College of Witchcraft (Ver 1.1)}{105}%
-\contentsline {subsubsection}{Traditional Colours}{105}%
-\contentsline {subsubsection}{Traditional Symbols}{105}%
-\contentsline {subsection}{\numberline {27.1}Restrictions}{105}%
-\contentsline {subsection}{\numberline {27.2}Base Chance Modifiers}{105}%
-\contentsline {subsection}{\numberline {27.3}Talents}{105}%
-\contentsline {subsubsection}{Farsensing (T-1)}{105}%
-\contentsline {subsubsection}{Special Alchemy (T-2)}{105}%
-\contentsline {subsubsection}{Witchsight (T-3)}{106}%
-\contentsline {subsection}{\numberline {27.4}General Knowledge Spells}{106}%
-\contentsline {subsubsection}{Damnum Minatum (G-1)}{106}%
-\contentsline {subsubsection}{Darkness (G-2)}{106}%
-\contentsline {subsubsection}{Decay (G-3)}{106}%
-\contentsline {subsubsection}{Fear (G-4)}{106}%
-\contentsline {subsubsection}{Harming Entity (G-5)}{106}%
-\contentsline {subsubsection}{Hypnotism (G-6)}{106}%
-\contentsline {subsubsection}{Igniting Flammables (G-7)}{106}%
-\contentsline {subsubsection}{Mind Cloak (G-8)}{106}%
-\contentsline {subsubsection}{Protection Against Were-Creatures (G-9)}{107}%
-\contentsline {subsubsection}{Storm Calling (G-10)}{107}%
-\contentsline {subsubsection}{Summoning Enchanted Creatures (G-11)}{107}%
-\contentsline {subsubsection}{Walking Unseen (G-12)}{107}%
-\contentsline {subsubsection}{Wind Whistle (G-13)}{107}%
-\contentsline {subsection}{\numberline {27.5}General Knowledge Rituals}{107}%
-\contentsline {subsubsection}{Finding Familiar (Q-1)}{107}%
-\contentsline {subsubsection}{Tarot Reading (Q-2)}{107}%
-\contentsline {subsection}{\numberline {27.6}Special Knowledge Spells}{108}%
-\contentsline {subsubsection}{Blessing Crops (S-1)}{108}%
-\contentsline {subsubsection}{Blessing/Curse on Unborn Child (S-2)}{108}%
-\contentsline {subsubsection}{Blessing Livestock (S-3)}{108}%
-\contentsline {subsubsection}{Blighting Crops (S-4)}{108}%
-\contentsline {subsubsection}{Cat Vision (S-5)}{108}%
-\contentsline {subsubsection}{Controlling Animals (S-6)}{108}%
-\contentsline {subsubsection}{Converse With Animals (S-7)}{108}%
-\contentsline {subsubsection}{Creating Plague (S-8)}{108}%
-\contentsline {subsubsection}{Creating Restorative (S-9)}{108}%
-\contentsline {subsubsection}{Damnum Magnatum (S-10)}{108}%
-\contentsline {subsubsection}{Earth Tremor (S-11)}{109}%
-\contentsline {subsubsection}{Evil Eye (S-12)}{109}%
-\contentsline {subsubsection}{Hellfire (S-13)}{109}%
-\contentsline {subsubsection}{Instilling Flight (S-14)}{109}%
-\contentsline {subsubsection}{Mass Fear (S-15)}{109}%
-\contentsline {subsubsection}{Pestilence (S-16)}{109}%
-\contentsline {subsubsection}{Skin Change (S-17)}{109}%
-\contentsline {subsubsection}{Virility (S-18)}{109}%
-\contentsline {subsubsection}{Wall of Thorns (S-19)}{109}%
-\contentsline {subsection}{\numberline {27.7}Special Knowledge Rituals}{109}%
-\contentsline {subsubsection}{Controlling Weather (R-1)}{109}%
-\contentsline {subsubsection}{Creeping Doom (R-2)}{109}%
-\contentsline {subsubsection}{Dead Man's Candle (R-3)}{110}%
-\contentsline {subsubsection}{Hand of Glory (R-4)}{110}%
-\contentsline {subsubsection}{Summoning Animals (R-5)}{110}%
-\contentsline {section}{\numberline {28}Skills}{111}%
-\contentsline {subsection}{\numberline {28.1}Acquiring and Using Skills}{111}%
-\contentsline {subsubsection}{Any skill may be acquired at Rank 0 at a variable cost of Experience Points and 8 weeks of game time.}{111}%
-\contentsline {subsubsection}{The method by which a character learns a skill affects the Experience Point cost to acquire that skill or to increase the character's Rank.}{111}%
-\contentsline {subsubsection}{A character may attempt to employ a non-magical skill any number of times during a day.}{111}%
-\contentsline {subsubsection}{The use of a non-magical skill is rarely automatically successful.}{111}%
-\contentsline {subsubsection}{Very few of the abilities associated with the various skills are quasi-magical.}{111}%
-\contentsline {subsubsection}{Expert Knowledge}{111}%
-\contentsline {subsubsection}{Supervision of subordinates}{111}%
-\contentsline {section}{\numberline {29}Adventuring Skills (Ver 1.0)}{112}%
-\contentsline {subsection}{\numberline {29.1}Climbing}{112}%
-\contentsline {subsection}{\numberline {29.2}Horsemanship}{112}%
-\contentsline {subsection}{\numberline {29.3}Flying}{112}%
-\contentsline {subsection}{\numberline {29.4}Knowledge (area)}{112}%
-\contentsline {subsection}{\numberline {29.5}Orienteering}{112}%
-\contentsline {subsubsection}{Conversion}{112}%
-\contentsline {subsection}{\numberline {29.6}Stealth}{112}%
-\contentsline {subsection}{\numberline {29.7}Swimming}{112}%
-\contentsline {subsubsection}{Introduction}{112}%
-\contentsline {subsubsection}{Base chance}{113}%
-\contentsline {subsubsection}{Breath holding}{113}%
-\contentsline {subsubsection}{Drowning}{113}%
-\contentsline {subsubsection}{Sight and Communication}{113}%
-\contentsline {subsubsection}{Movement rates}{113}%
-\contentsline {subsubsection}{Benefits of Rank}{113}%
-\contentsline {section}{\numberline {30}Alchemist (Ver 1.0)}{114}%
-\contentsline {subsection}{\numberline {30.1}Restrictions}{114}%
-\contentsline {subsection}{\numberline {30.2}Benefits}{114}%
-\contentsline {subsubsection}{An alchemist gains the ability to analyse chemicals at Rank 0.}{114}%
-\contentsline {subsubsection}{An alchemist can injure themselves while working with dangerous chemicals.}{114}%
-\contentsline {subsubsection}{An alchemist can mix standard chemicals beginning at Rank 3, and may add one additional ability to their repertoire at Ranks 5, 7 and 9.}{114}%
-\contentsline {subsubsection}{The ability to mix standard chemicals allows the alchemist to produce mixtures which can prove useful on expeditions.}{114}%
-\contentsline {subsubsection}{Medicines and antidotes are used to cure a being suffering from either disease, fever or poison.}{114}%
-\contentsline {subsubsection}{Poisons cause damage when introduced into the blood stream of a being.}{114}%
-\contentsline {subsubsection}{Potions are created by an alchemist with the aid of either an Adept or a Healer.}{114}%
-\contentsline {subsection}{\numberline {30.3}Costs}{115}%
-\contentsline {subsubsection}{An alchemist will be able to better perform their skill when using the proper equipment or when working in a laboratory.}{115}%
-\contentsline {subsubsection}{An alchemist must purchase the components necessary to manufacture each product.}{115}%
-\contentsline {section}{\numberline {31}Armourer (Ver 1.1)}{116}%
-\contentsline {subsection}{\numberline {31.1}Restrictions}{116}%
-\contentsline {subsection}{\numberline {31.2}Benefits}{116}%
-\contentsline {subsubsection}{An armourer acquires the ability to make one category of armour every two ranks.}{116}%
-\contentsline {subsubsection}{An Armourer can make increasingly effective armour as their rank increases.}{116}%
-\contentsline {subsubsection}{The time and cost required for an Armourer to construct a suit of armour is dependent on the effective Rank used and the category of armour.}{116}%
-\contentsline {subsubsection}{Fixing and Modifying Armour}{116}%
-\contentsline {subsubsection}{An Armourer is treated as a Merchant of their armourer rank when attempting to buy or value armour from categories with which they are familiar.}{116}%
-\contentsline {subsection}{\numberline {31.3}Costs}{116}%
-\contentsline {subsubsection}{An Armourer can only perform their skill in a properly maintained workshop.}{116}%
-\contentsline {section}{\numberline {32}Artisan (Ver 2.0)}{117}%
-\contentsline {subsection}{\numberline {32.1}Artisan Skills}{117}%
-\contentsline {subsection}{\numberline {32.2}Benefits of Rank}{117}%
-\contentsline {subsection}{\numberline {32.3}Time \& Cost}{117}%
-\contentsline {subsubsection}{Exceptions}{117}%
-\contentsline {subsection}{\numberline {32.4}Artisan as Merchant}{117}%
-\contentsline {subsection}{\numberline {32.5}Requirements}{118}%
-\contentsline {section}{\numberline {33}Assassin (Ver 1.0)}{119}%
-\contentsline {subsection}{\numberline {33.1}Restrictions}{119}%
-\contentsline {subsubsection}{An assassin must be able to use the sap or garotte at a minimum of Rank 1 before advancing past Rank 2.}{119}%
-\contentsline {subsection}{\numberline {33.2}Benefits}{119}%
-\contentsline {subsubsection}{An assassin increases their chance of causing a Grievous injury as their Rank increases.}{119}%
-\contentsline {subsubsection}{An assassin may gain information from a victim through torture.}{119}%
-\contentsline {subsubsection}{An assassin is trained to improve their memory.}{119}%
-\contentsline {subsubsection}{An assassin is able to buy poisons, distilled venoms and acids at cost (i.e.\ no mark-up) from an alchemist.}{119}%
-\contentsline {subsubsection}{An assassin causes their target increased damage when attacking through a rear hexside in Melee Combat.}{119}%
-\contentsline {subsubsection}{An assassin increases their chance of knocking out a target.}{119}%
-\contentsline {subsubsection}{An assassin increases their chance of performing any action involving stealth.}{119}%
-\contentsline {section}{\numberline {34}Astrologer (Ver 1.0)}{120}%
-\contentsline {subsection}{\numberline {34.1}Restrictions}{120}%
-\contentsline {subsubsection}{An astrologer may not make a general prediction or ask a specific question concerning only themself.}{120}%
-\contentsline {subsubsection}{An astrologer may only try once to answer a particular question or to forecast the outcome of an event.}{120}%
-\contentsline {subsubsection}{The results of a reading will affect the pertinent course of events.}{120}%
-\contentsline {subsection}{\numberline {34.2}Benefits}{120}%
-\contentsline {subsubsection}{An astrologer's Rank determines how many beings they can directly affect with a single prediction.}{120}%
-\contentsline {subsubsection}{An astrologer may make (and possibly modify) a general prediction during a reading.}{120}%
-\contentsline {subsubsection}{An astrologer may seek to answer up to Rank specific questions per month.}{120}%
-\contentsline {subsubsection}{An astrologer can determine the aspect of a being after observing them.}{120}%
-\contentsline {subsubsection}{An astrologer expends Fatigue points when practicing their art.}{120}%
-\contentsline {section}{\numberline {35}Beast Master (Ver 1.0)}{121}%
-\contentsline {subsection}{\numberline {35.1}Restrictions}{121}%
-\contentsline {subsubsection}{A breast master must have atleast 15 Willpower.}{121}%
-\contentsline {subsubsection}{A beast master may only train animals for their own personal use until they achieve Rank 5. They may domesticate animals at any Rank.}{121}%
-\contentsline {subsection}{\numberline {35.2}Benefits}{121}%
-\contentsline {subsubsection}{A beast master acquires the ability to train one type of animal and/or monster at Ranks 0, 5 and 10.}{121}%
-\contentsline {subsubsection}{A beast master must spend (12 - Rank) months to train an animal or monster, or a like number of weeks to domesticate one.}{121}%
-\contentsline {subsubsection}{A trained animal or monster must make a loyalty check whenever it recognises that its master is endangering it, or whenever its master commands an action that runs counter to its instincts.}{121}%
-\contentsline {subsubsection}{A domesticated creature must make a loyalty check if the circumstances described above arise.}{121}%
-\contentsline {subsubsection}{A beast master who intimidates their animals adds one to their Rank when calculating training or domestication time, but the GM adds 10 to any loyalty check dice-roll for one of their animals.}{121}%
-\contentsline {subsubsection}{A beast master may train or domesticate as many creatures as their Rank at one time.}{121}%
-\contentsline {subsection}{\numberline {35.3}Cost}{121}%
-\contentsline {subsubsection}{A beast master must pay 100 Silver Pennies per creature trained and 25 Silver Pennies per creature domesticated.}{121}%
-\contentsline {section}{\numberline {36}Courtier (Ver 2.0)}{122}%
-\contentsline {subsection}{\numberline {36.1}Restrictions}{122}%
-\contentsline {subsection}{\numberline {36.2}Benefits}{122}%
-\contentsline {subsection}{\numberline {36.3}Seduction}{122}%
-\contentsline {section}{\numberline {37}Healer (Ver 1.12)}{123}%
-\contentsline {subsubsection}{Field Operations}{123}%
-\contentsline {subsection}{\numberline {37.1}Benefits}{123}%
-\contentsline {subsection}{\numberline {37.2}Restrictions}{123}%
-\contentsline {subsection}{\numberline {37.3}Ability Descriptions}{123}%
-\contentsline {subsubsection}{Empathy}{123}%
-\contentsline {subsubsection}{Non-Tactile Empathy}{123}%
-\contentsline {subsubsection}{Cure Infection, Disease, Headaches, Fever and Graft Skin}{123}%
-\contentsline {subsubsection}{Neutralise Poison}{123}%
-\contentsline {subsubsection}{Soothe Pain}{123}%
-\contentsline {subsubsection}{Prolong Life}{123}%
-\contentsline {subsubsection}{Heal Endurance and Transfer Fatigue}{123}%
-\contentsline {subsubsection}{Repair Damage}{123}%
-\contentsline {subsubsection}{Preserve Dead}{123}%
-\contentsline {subsubsection}{Resurrection}{123}%
-\contentsline {subsubsection}{Regeneration}{124}%
-\contentsline {subsection}{\numberline {37.4}Potion Costs}{124}%
-\contentsline {section}{\numberline {38}Herbalist (Ver 1.0)}{125}%
-\contentsline {subsection}{\numberline {38.1}Benefits}{125}%
-\contentsline {subsubsection}{A herbalist will learn how to locate and identify herbs and spices growing in any terrain}{125}%
-\contentsline {subsubsection}{A herbalist may establish a garden where common and uncommon herbs and spices are grown}{125}%
-\contentsline {subsubsection}{A herbalist will learn how to preserve herbs and spices and how to prepare them for maximum efficacy}{125}%
-\contentsline {subsubsection}{A herbalist, should they choose to take the artisan cooking skill, gains a reduction of 25\% to their experience for ranking that artisan skill}{125}%
-\contentsline {subsubsection}{A herbalist will be able to prepare herbal mixtures, and salves that will heal, or enhance the normal healing processes}{125}%
-\contentsline {subsubsection}{A herbalist may prepare herbal mixtures that alter the normal rhythms of a sentient being's body}{126}%
-\contentsline {subsubsection}{A herbalist may prepare perfumes that will attract or repel animals or sentients}{126}%
-\contentsline {subsubsection}{A herbalist may prepare toxic mixtures of herbs that may harm and ultimately kill animals and sentients that ingest them}{126}%
-\contentsline {subsubsection}{A herbalist can prepare herbal mixtures that can free the mind from the body}{126}%
-\contentsline {section}{\numberline {39}Languages (Ver 2.0)}{127}%
-\contentsline {subsection}{\numberline {39.1}Restrictions}{127}%
-\contentsline {subsection}{\numberline {39.2}Structure}{127}%
-\contentsline {subsection}{\numberline {39.3}Benefits}{127}%
-\contentsline {subsection}{\numberline {39.4}Literacy}{127}%
-\contentsline {subsubsection}{Phonetic Reading \& Writing}{127}%
-\contentsline {subsubsection}{Table of known Alusian alphabets}{127}%
-\contentsline {subsubsection}{Orthographic languages}{127}%
-\contentsline {subsection}{\numberline {39.5}Special rules}{127}%
-\contentsline {subsection}{\numberline {39.6}Language Families}{127}%
-\contentsline {subsection}{\numberline {39.7}Language groups}{127}%
-\contentsline {section}{\numberline {40}Mechanician (Ver 2.1)}{129}%
-\contentsline {subsection}{\numberline {40.1}Restrictions}{129}%
-\contentsline {subsection}{\numberline {40.2}Benefits}{129}%
-\contentsline {subsection}{\numberline {40.3}Abilities}{129}%
-\contentsline {subsubsection}{The abilities available are:}{129}%
-\contentsline {subsection}{\numberline {40.4}Complex Locks}{129}%
-\contentsline {subsection}{\numberline {40.5}Trap Construction}{129}%
-\contentsline {subsection}{\numberline {40.6}Spell Containment}{130}%
-\contentsline {section}{\numberline {41}Merchant (Ver 1.0)}{131}%
-\contentsline {subsection}{\numberline {41.1}Restrictions}{131}%
-\contentsline {subsection}{\numberline {41.2}Benefits}{131}%
-\contentsline {subsubsection}{The merchant's ability to buy and sell a particular item is dependent upon its type.}{131}%
-\contentsline {subsubsection}{A merchant can purchase items at a cost cheaper than the asking price.}{131}%
-\contentsline {subsubsection}{A merchant may mark up the price of an uncommon or rare item.}{131}%
-\contentsline {subsubsection}{A merchant can assay an item to determine its exact worth.}{131}%
-\contentsline {subsubsection}{A merchant can specialise in a specific category of item assayal every time they achieve a positive Rank divisible by three.}{131}%
-\contentsline {section}{\numberline {42}Military Scientist (Ver 2.0)}{132}%
-\contentsline {subsection}{\numberline {42.1}Restrictions}{132}%
-\contentsline {subsection}{\numberline {42.2}Specialised Fields}{132}%
-\contentsline {subsection}{\numberline {42.3}Benefits}{132}%
-\contentsline {subsubsection}{Command}{132}%
-\contentsline {subsubsection}{Personal guard}{132}%
-\contentsline {subsubsection}{Rally troops}{132}%
-\contentsline {subsubsection}{Raise morale}{132}%
-\contentsline {subsubsection}{Perceive tactics}{132}%
-\contentsline {subsubsection}{Initiative}{132}%
-\contentsline {subsubsection}{Time out}{132}%
-\contentsline {subsubsection}{Logistics}{132}%
-\contentsline {section}{\numberline {43}Navigator (Ver 1.1)}{133}%
-\contentsline {subsection}{\numberline {43.1}Benefits}{133}%
-\contentsline {subsubsection}{A navigator can determine all compass directions if they can view the stars.}{133}%
-\contentsline {subsubsection}{A navigator may always determine the compass direction of a landmark relative to their position.}{133}%
-\contentsline {subsubsection}{A navigator can read a map if they can relate their physical surroundings to the symbols on that map.}{133}%
-\contentsline {subsubsection}{Map Creating}{133}%
-\contentsline {subsubsection}{A navigator can competently pilot a ship of up to (25 + 25 $\times $\ Rank) feet in length.}{133}%
-\contentsline {subsubsection}{A navigator can consistently maintain a ship's speed at (50 + 5 $\times $\ Rank)\% of its optimum speed.}{133}%
-\contentsline {subsubsection}{A navigator can predict weather at sea with (PC + 5 $\times $\ Rank)\% chance of accuracy.}{133}%
-\contentsline {subsubsection}{A navigator can sometimes recognise non-magical danger at sea before subjecting the ship to it.}{133}%
-\contentsline {section}{\numberline {44}Philosopher (Ver 2.0)}{134}%
-\contentsline {subsection}{\numberline {44.1}Library}{134}%
-\contentsline {subsection}{\numberline {44.2}Requirements}{134}%
-\contentsline {subsubsection}{Language restriction}{134}%
-\contentsline {subsubsection}{Books}{134}%
-\contentsline {subsection}{\numberline {44.3}Structure}{134}%
-\contentsline {subsubsection}{Realms}{134}%
-\contentsline {subsubsection}{Fields}{134}%
-\contentsline {subsubsection}{Sub-fields}{134}%
-\contentsline {subsection}{\numberline {44.4}Language benefits}{134}%
-\contentsline {subsection}{\numberline {44.5}Knowledge benefits}{134}%
-\contentsline {subsubsection}{Realms}{134}%
-\contentsline {subsubsection}{Fields \& Sub-fields}{134}%
-\contentsline {subsubsection}{Field restrictions}{134}%
-\contentsline {subsubsection}{Overlaps \& connections}{134}%
-\contentsline {subsection}{\numberline {44.6}Research benefits}{134}%
-\contentsline {subsubsection}{Difficulty}{134}%
-\contentsline {subsubsection}{Answers}{134}%
-\contentsline {subsubsection}{Final result}{134}%
-\contentsline {subsection}{\numberline {44.7}Realms \& Fields}{134}%
-\contentsline {subsubsection}{The Social World}{134}%
-\contentsline {subsubsection}{The Material World}{134}%
-\contentsline {subsubsection}{The Magical World}{134}%
-\contentsline {subsubsection}{The Animal World}{135}%
-\contentsline {subsubsection}{The Plant World}{135}%
-\contentsline {subsection}{\numberline {44.8}Answer Table}{135}%
-\contentsline {section}{\numberline {45}Ranger (Ver 2.1)}{136}%
-\contentsline {subsection}{\numberline {45.1}Benefits}{136}%
-\contentsline {subsubsection}{Primary Environment}{136}%
-\contentsline {subsubsection}{Stealth bonus}{136}%
-\contentsline {subsubsection}{Finding Food}{136}%
-\contentsline {subsubsection}{Camping}{136}%
-\contentsline {subsubsection}{Travelling}{136}%
-\contentsline {subsubsection}{Safety}{136}%
-\contentsline {subsection}{\numberline {45.2}Environments}{136}%
-\contentsline {subsection}{\numberline {45.3}Ranger summary chart}{137}%
-\contentsline {section}{\numberline {46}Spy (Ver 1.1)}{138}%
-\contentsline {subsection}{\numberline {46.1}Restrictions}{138}%
-\contentsline {subsection}{\numberline {46.2}Benefits}{138}%
-\contentsline {subsubsection}{If a character's Rank as a spy is greater then their Rank as a thief, the character expends one-half the necessary Experience Points to acquire or improve the latter skill.}{138}%
-\contentsline {subsubsection}{A spy can pick locks or open safes with the aid of their tools.}{138}%
-\contentsline {subsubsection}{A spy may attempt to detect traps and should the spy succeed, may try to remove them.}{138}%
-\contentsline {subsubsection}{A spy can sometimes detect a secret or hidden aperture.}{138}%
-\contentsline {subsubsection}{A spy can attempt to pick the pocket of another being without being detected.}{138}%
-\contentsline {subsubsection}{A spy will develop a photographic memory as they gain experience.}{138}%
-\contentsline {subsubsection}{A spy increases their chance of performing an action involving stealth by 2\% per Rank.}{138}%
-\contentsline {subsubsection}{A spy may use their photographic memory ability to recall spoken phrases.}{138}%
-\contentsline {section}{\numberline {47}Thief (Ver 1.1)}{139}%
-\contentsline {subsection}{\numberline {47.1}Restrictions}{139}%
-\contentsline {subsection}{\numberline {47.2}Benefits}{139}%
-\contentsline {subsubsection}{If a character's Rank as a thief is greater then their Rank as a spy, the character expends one-half the necessary Experience Points to acquire or improve the latter skill.}{139}%
-\contentsline {subsubsection}{A thief can pick locks or open safes with the aid of tools.}{139}%
-\contentsline {subsubsection}{A thief may attempt to detect traps and should the thief succeed, may try to remove them.}{139}%
-\contentsline {subsubsection}{A thief can sometimes detect a secret or hidden aperture.}{139}%
-\contentsline {subsubsection}{A thief can attempt to pick the pocket of another being without being detected.}{139}%
-\contentsline {subsubsection}{A thief will develop a photographic memory as they gain experience.}{139}%
-\contentsline {subsubsection}{A thief increases their chance to perform an action involving stealth by 1\% per Rank.}{139}%
-\contentsline {subsubsection}{A thief can, as long as they may find a purchase sufficient to bear their weight, climb any structure.}{139}%
-\contentsline {section}{\numberline {48}Troubadour (Ver 2.0)}{140}%
-\contentsline {subsection}{\numberline {48.1}Benefits}{140}%
-\contentsline {subsection}{\numberline {48.2}Bardic Voice}{140}%
-\contentsline {section}{\numberline {49}Warrior (Ver 2.0)}{141}%
-\contentsline {subsection}{\numberline {49.1}Restrictions}{141}%
-\contentsline {subsubsection}{Benefits only apply when the warrior is occupying an enemy's melee zone.}{141}%
-\contentsline {subsubsection}{A warrior may never train in the warrior skill without a training partner of at least equal warrior Rank.}{141}%
-\contentsline {subsubsection}{A warrior requires various minimum weapons skills per Rank.}{141}%
-\contentsline {subsection}{\numberline {49.2}Benefits}{141}%
-\contentsline {subsubsection}{A warrior gains a bonus to defence when facing an opponent wielding a weapon they are familiar with.}{141}%
-\contentsline {subsubsection}{A warrior gains + 1 / Rank to their engaged initiative.}{141}%
-\contentsline {subsubsection}{A warrior has the ability to wield weapons which are similar to other weapons with which they is familiar.}{141}%
-\contentsline {subsubsection}{A warrior gains the ability to Rank weapons without the need for a tutor.}{141}%
-\contentsline {subsubsection}{A warrior's base chance to hit is increased by 1\% + 1\% additional per Rank.}{141}%
-\contentsline {subsubsection}{A warrior becomes an expert in combat equipment.}{141}%
-\contentsline {subsection}{\numberline {49.3}Weapon categories}{141}%
-\contentsline {section}{\numberline {50}Weaponsmith (Ver 1.0)}{142}%
-\contentsline {subsection}{\numberline {50.1}Restrictions}{142}%
-\contentsline {subsubsection}{A weaponsmith's progress in their skill is inhibited by a low Manual Dexterity, and aided by a high Manual Dexterity.}{142}%
-\contentsline {subsection}{\numberline {50.2}Benefits}{142}%
-\contentsline {subsubsection}{A weaponsmith acquires one ability every two Ranks. The character begins with one of the following abilities at Rank 0. All abilities can be performed skillfully.}{142}%
-\contentsline {subsubsection}{A weaponsmith can build increasingly more effective weapons as their Rank increases.}{142}%
-\contentsline {subsubsection}{The time and cost required for a weaponsmith to construct a weapon is dependent on the Rank that is used, and the type of weapon.}{142}%
-\contentsline {subsubsection}{A weaponsmith is treated as a merchant of their weaponsmith Rank when attempting to buy or value weapons which are part of their abilities.}{142}%
-\contentsline {subsection}{\numberline {50.3}Costs}{142}%
-\contentsline {subsubsection}{A weaponsmith, with the exception of some missile weapons, can only perform their skill in a properly maintained workshop.}{142}%
-\contentsline {subsection}{\numberline {50.4}Silvering and Gilding weapons}{142}%
-\contentsline {section}{\numberline {51}Grievous Injury Table}{143}%
-\contentsline {section}{\numberline {52}Fumble Tables}{144}%
-\contentsline {subsection}{\numberline {52.1}Bows and Crossbows only}{144}%
-\contentsline {subsection}{\numberline {52.2}All Other weapons}{144}%
-\contentsline {subsection}{\numberline {52.3}Notes}{144}%
-\contentsline {subsection}{\numberline {52.4}Special cases}{144}%
-\contentsline {subsubsection}{An innately magical weapon}{144}%
-\contentsline {subsubsection}{Unarmed Combat}{144}%
-\contentsline {subsubsection}{Strike Chance over 100}{144}%
-\contentsline {section}{\numberline {53}Backfire Table}{145}%
-\contentsline {section}{\numberline {54}Fright \& Awe Tables}{146}%
-\contentsline {subsection}{\numberline {54.1}Fright Table (Ver 1.0)}{146}%
-\contentsline {subsection}{\numberline {54.2}Awe Table}{146}%
-\contentsline {subsection}{\numberline {54.3}Notes}{146}%
-\contentsline {subsubsection}{Modifiers}{146}%
-\contentsline {subsubsection}{PB Fright Checks}{146}%
-\contentsline {subsubsection}{Familiarity}{146}%
-\contentsline {subsubsection}{Effects of Awe}{146}%
-\contentsline {subsubsection}{Spell Effects}{147}%
-\contentsline {section}{\numberline {55}Experience Point Costs}{148}%
-\contentsline {subsection}{\numberline {55.1}Weapons}{148}%
-\contentsline {subsection}{\numberline {55.2}Skills}{149}%
-\contentsline {subsubsection}{Notes}{149}%
-\contentsline {subsection}{\numberline {55.3}Characteristics}{149}%
-\contentsline {section}{\numberline {56}Weapons, Shields and Armour Charts}{150}%
-\contentsline {subsection}{\numberline {56.1}Weapons}{150}%
-\contentsline {subsection}{\numberline {56.2}Shields}{151}%
-\contentsline {subsection}{\numberline {56.3}Armour Chart with Guild Prices}{151}%
-\contentsline {section}{\numberline {57}Combat Tables}{153}%
-\contentsline {subsection}{\numberline {57.1}Action Summary}{153}%
-\contentsline {subsubsection}{Actions allowed for Engaged figures}{153}%
-\contentsline {subsubsection}{Actions allowed of non-Engaged figures}{153}%
-\contentsline {subsection}{\numberline {57.2}Special Damage Chart}{153}%
-\contentsline {subsection}{\numberline {57.3}Strike Chance Modifiers Summary}{153}%
-\contentsline {subsubsection}{Close Combat Modifiers}{153}%
-\contentsline {subsubsection}{Melee Combat Modifiers}{153}%
-\contentsline {subsubsection}{Ranged Combat Modifiers}{153}%
-\contentsline {subsubsection}{Visibility Condition Modifiers}{153}%
-\contentsline {subsubsection}{Miscellaneous Modifiers}{153}%
-\contentsline {subsection}{\numberline {57.4}Combat Equation Summary}{154}%
-\contentsline {section}{\numberline {58}Miscellaneous Tables}{154}%
-\contentsline {subsection}{\numberline {58.1}Fatigue, Encumbrance and Movement Charts}{154}%
-\contentsline {subsection}{\numberline {58.2}Overland Movement Rate}{154}%
+\contentsline {section}{\numberline {26}The College of Rune Magics (Ver 1.1)}{101}%
+\contentsline {subsection}{\numberline {26.1}Restrictions}{101}%
+\contentsline {subsection}{\numberline {26.2}Runewards and Runesticks}{101}%
+\contentsline {subsection}{\numberline {26.3}Base Chance Modifiers}{101}%
+\contentsline {subsection}{\numberline {26.4}Talents}{101}%
+\contentsline {subsubsection}{Read Dead Languages (T-1)}{101}%
+\contentsline {subsubsection}{Decipher Codes and Ciphers (T-2)}{101}%
+\contentsline {subsubsection}{Read Runesticks (T-3)}{102}%
+\contentsline {subsubsection}{Create Codes and Ciphers (T-4)}{102}%
+\contentsline {subsubsection}{Summon Wand (T-5)}{102}%
+\contentsline {subsection}{\numberline {26.5}General Knowledge Spells}{102}%
+\contentsline {subsubsection}{Learn Rune (G-1)}{102}%
+\contentsline {subsubsection}{Darkness (G-2)}{102}%
+\contentsline {subsubsection}{Light (G-3)}{102}%
+\contentsline {subsubsection}{Pyrogenesis (G-4)}{102}%
+\contentsline {subsubsection}{Curse (G-5)}{102}%
+\contentsline {subsubsection}{Illusion (G-6)}{102}%
+\contentsline {subsubsection}{Control Entity (G-7)}{102}%
+\contentsline {subsubsection}{Purification (G-8)}{103}%
+\contentsline {subsubsection}{Runelock (G-9)}{103}%
+\contentsline {subsection}{\numberline {26.6}General Knowledge Rituals}{103}%
+\contentsline {subsubsection}{Fashioning Runesticks (Q-1)}{103}%
+\contentsline {subsubsection}{Fashioning Runewand (Q-2)}{103}%
+\contentsline {subsubsection}{Warding with Runesticks (Q-3)}{103}%
+\contentsline {subsubsection}{Healing (Q-4)}{103}%
+\contentsline {subsubsection}{Runes of Sight (Q-5)}{104}%
+\contentsline {subsubsection}{Sending (Q-6)}{104}%
+\contentsline {subsection}{\numberline {26.7}Special Knowledge Spells}{104}%
+\contentsline {subsubsection}{Runewall Spell (S-1)}{104}%
+\contentsline {subsubsection}{Torment (S-2)}{104}%
+\contentsline {subsubsection}{Creating Rune Shield (S-3)}{104}%
+\contentsline {subsubsection}{Visitation (S-4)}{104}%
+\contentsline {subsubsection}{Truth (S-5)}{104}%
+\contentsline {subsubsection}{Banishment (S-6)}{104}%
+\contentsline {subsubsection}{Smite (S-7)}{104}%
+\contentsline {subsubsection}{Creating Runeweapon (S-8)}{105}%
+\contentsline {subsection}{\numberline {26.8}Special Knowledge Rituals}{105}%
+\contentsline {subsubsection}{Casting the Runes (R-1)}{105}%
+\contentsline {subsubsection}{Creeping Doom (R-2)}{105}%
+\contentsline {subsubsection}{Creating Rune Portal (R-3)}{105}%
+\contentsline {subsubsection}{Binding Elements (R-4)}{105}%
+\contentsline {subsection}{\numberline {26.9}Runewand Table}{105}%
+\contentsline {subsection}{\numberline {26.10}Runestick Chart}{105}%
+\contentsline {section}{\numberline {27}The College of Witchcraft (Ver 1.1)}{107}%
+\contentsline {subsubsection}{Traditional Colours}{107}%
+\contentsline {subsubsection}{Traditional Symbols}{107}%
+\contentsline {subsection}{\numberline {27.1}Restrictions}{107}%
+\contentsline {subsection}{\numberline {27.2}Base Chance Modifiers}{107}%
+\contentsline {subsection}{\numberline {27.3}Talents}{107}%
+\contentsline {subsubsection}{Farsensing (T-1)}{107}%
+\contentsline {subsubsection}{Special Alchemy (T-2)}{107}%
+\contentsline {subsubsection}{Witchsight (T-3)}{108}%
+\contentsline {subsection}{\numberline {27.4}General Knowledge Spells}{108}%
+\contentsline {subsubsection}{Damnum Minatum (G-1)}{108}%
+\contentsline {subsubsection}{Darkness (G-2)}{108}%
+\contentsline {subsubsection}{Decay (G-3)}{108}%
+\contentsline {subsubsection}{Fear (G-4)}{108}%
+\contentsline {subsubsection}{Harming Entity (G-5)}{108}%
+\contentsline {subsubsection}{Hypnotism (G-6)}{108}%
+\contentsline {subsubsection}{Igniting Flammables (G-7)}{108}%
+\contentsline {subsubsection}{Mind Cloak (G-8)}{108}%
+\contentsline {subsubsection}{Protection Against Were-Creatures (G-9)}{109}%
+\contentsline {subsubsection}{Storm Calling (G-10)}{109}%
+\contentsline {subsubsection}{Summoning Enchanted Creatures (G-11)}{109}%
+\contentsline {subsubsection}{Walking Unseen (G-12)}{109}%
+\contentsline {subsubsection}{Wind Whistle (G-13)}{109}%
+\contentsline {subsection}{\numberline {27.5}General Knowledge Rituals}{109}%
+\contentsline {subsubsection}{Finding Familiar (Q-1)}{109}%
+\contentsline {subsubsection}{Tarot Reading (Q-2)}{109}%
+\contentsline {subsection}{\numberline {27.6}Special Knowledge Spells}{110}%
+\contentsline {subsubsection}{Blessing Crops (S-1)}{110}%
+\contentsline {subsubsection}{Blessing/Curse on Unborn Child (S-2)}{110}%
+\contentsline {subsubsection}{Blessing Livestock (S-3)}{110}%
+\contentsline {subsubsection}{Blighting Crops (S-4)}{110}%
+\contentsline {subsubsection}{Cat Vision (S-5)}{110}%
+\contentsline {subsubsection}{Controlling Animals (S-6)}{110}%
+\contentsline {subsubsection}{Converse With Animals (S-7)}{110}%
+\contentsline {subsubsection}{Creating Plague (S-8)}{110}%
+\contentsline {subsubsection}{Creating Restorative (S-9)}{110}%
+\contentsline {subsubsection}{Damnum Magnatum (S-10)}{110}%
+\contentsline {subsubsection}{Earth Tremor (S-11)}{111}%
+\contentsline {subsubsection}{Evil Eye (S-12)}{111}%
+\contentsline {subsubsection}{Hellfire (S-13)}{111}%
+\contentsline {subsubsection}{Instilling Flight (S-14)}{111}%
+\contentsline {subsubsection}{Mass Fear (S-15)}{111}%
+\contentsline {subsubsection}{Pestilence (S-16)}{111}%
+\contentsline {subsubsection}{Skin Change (S-17)}{111}%
+\contentsline {subsubsection}{Virility (S-18)}{111}%
+\contentsline {subsubsection}{Wall of Thorns (S-19)}{111}%
+\contentsline {subsection}{\numberline {27.7}Special Knowledge Rituals}{111}%
+\contentsline {subsubsection}{Controlling Weather (R-1)}{111}%
+\contentsline {subsubsection}{Creeping Doom (R-2)}{112}%
+\contentsline {subsubsection}{Dead Man's Candle (R-3)}{112}%
+\contentsline {subsubsection}{Hand of Glory (R-4)}{112}%
+\contentsline {subsubsection}{Summoning Animals (R-5)}{112}%
+\contentsline {section}{\numberline {28}Skills}{113}%
+\contentsline {subsection}{\numberline {28.1}Acquiring and Using Skills}{113}%
+\contentsline {subsubsection}{Any skill may be acquired at Rank 0 at a variable cost of Experience Points and 8 weeks of game time.}{113}%
+\contentsline {subsubsection}{The method by which a character learns a skill affects the Experience Point cost to acquire that skill or to increase the character's Rank.}{113}%
+\contentsline {subsubsection}{A character may attempt to employ a non-magical skill any number of times during a day.}{113}%
+\contentsline {subsubsection}{The use of a non-magical skill is rarely automatically successful.}{113}%
+\contentsline {subsubsection}{Very few of the abilities associated with the various skills are quasi-magical.}{113}%
+\contentsline {subsubsection}{Expert Knowledge}{113}%
+\contentsline {subsubsection}{Supervision of subordinates}{113}%
+\contentsline {section}{\numberline {29}Adventuring Skills (Ver 1.0)}{114}%
+\contentsline {subsection}{\numberline {29.1}Climbing}{114}%
+\contentsline {subsection}{\numberline {29.2}Horsemanship}{114}%
+\contentsline {subsection}{\numberline {29.3}Flying}{114}%
+\contentsline {subsection}{\numberline {29.4}Knowledge (area)}{114}%
+\contentsline {subsection}{\numberline {29.5}Orienteering}{114}%
+\contentsline {subsubsection}{Conversion}{114}%
+\contentsline {subsection}{\numberline {29.6}Stealth}{114}%
+\contentsline {subsection}{\numberline {29.7}Swimming}{114}%
+\contentsline {subsubsection}{Introduction}{114}%
+\contentsline {subsubsection}{Base chance}{115}%
+\contentsline {subsubsection}{Breath holding}{115}%
+\contentsline {subsubsection}{Drowning}{115}%
+\contentsline {subsubsection}{Sight and Communication}{115}%
+\contentsline {subsubsection}{Movement rates}{115}%
+\contentsline {subsubsection}{Benefits of Rank}{115}%
+\contentsline {section}{\numberline {30}Alchemist (Ver 1.0)}{116}%
+\contentsline {subsection}{\numberline {30.1}Restrictions}{116}%
+\contentsline {subsection}{\numberline {30.2}Benefits}{116}%
+\contentsline {subsubsection}{An alchemist gains the ability to analyse chemicals at Rank 0.}{116}%
+\contentsline {subsubsection}{An alchemist can injure themselves while working with dangerous chemicals.}{116}%
+\contentsline {subsubsection}{An alchemist can mix standard chemicals beginning at Rank 3, and may add one additional ability to their repertoire at Ranks 5, 7 and 9.}{116}%
+\contentsline {subsubsection}{The ability to mix standard chemicals allows the alchemist to produce mixtures which can prove useful on expeditions.}{116}%
+\contentsline {subsubsection}{Medicines and antidotes are used to cure a being suffering from either disease, fever or poison.}{116}%
+\contentsline {subsubsection}{Poisons cause damage when introduced into the blood stream of a being.}{116}%
+\contentsline {subsubsection}{Potions are created by an alchemist with the aid of either an Adept or a Healer.}{116}%
+\contentsline {subsection}{\numberline {30.3}Costs}{117}%
+\contentsline {subsubsection}{An alchemist will be able to better perform their skill when using the proper equipment or when working in a laboratory.}{117}%
+\contentsline {subsubsection}{An alchemist must purchase the components necessary to manufacture each product.}{117}%
+\contentsline {section}{\numberline {31}Armourer (Ver 1.1)}{118}%
+\contentsline {subsection}{\numberline {31.1}Restrictions}{118}%
+\contentsline {subsection}{\numberline {31.2}Benefits}{118}%
+\contentsline {subsubsection}{An armourer acquires the ability to make one category of armour every two ranks.}{118}%
+\contentsline {subsubsection}{An Armourer can make increasingly effective armour as their rank increases.}{118}%
+\contentsline {subsubsection}{The time and cost required for an Armourer to construct a suit of armour is dependent on the effective Rank used and the category of armour.}{118}%
+\contentsline {subsubsection}{Fixing and Modifying Armour}{118}%
+\contentsline {subsubsection}{An Armourer is treated as a Merchant of their armourer rank when attempting to buy or value armour from categories with which they are familiar.}{118}%
+\contentsline {subsection}{\numberline {31.3}Costs}{118}%
+\contentsline {subsubsection}{An Armourer can only perform their skill in a properly maintained workshop.}{118}%
+\contentsline {section}{\numberline {32}Artisan (Ver 2.0)}{119}%
+\contentsline {subsection}{\numberline {32.1}Artisan Skills}{119}%
+\contentsline {subsection}{\numberline {32.2}Benefits of Rank}{119}%
+\contentsline {subsection}{\numberline {32.3}Time \& Cost}{119}%
+\contentsline {subsubsection}{Exceptions}{119}%
+\contentsline {subsection}{\numberline {32.4}Artisan as Merchant}{119}%
+\contentsline {subsection}{\numberline {32.5}Requirements}{120}%
+\contentsline {section}{\numberline {33}Assassin (Ver 1.0)}{121}%
+\contentsline {subsection}{\numberline {33.1}Restrictions}{121}%
+\contentsline {subsubsection}{An assassin must be able to use the sap or garotte at a minimum of Rank 1 before advancing past Rank 2.}{121}%
+\contentsline {subsection}{\numberline {33.2}Benefits}{121}%
+\contentsline {subsubsection}{An assassin increases their chance of causing a Grievous injury as their Rank increases.}{121}%
+\contentsline {subsubsection}{An assassin may gain information from a victim through torture.}{121}%
+\contentsline {subsubsection}{An assassin is trained to improve their memory.}{121}%
+\contentsline {subsubsection}{An assassin is able to buy poisons, distilled venoms and acids at cost (i.e.\ no mark-up) from an alchemist.}{121}%
+\contentsline {subsubsection}{An assassin causes their target increased damage when attacking through a rear hexside in Melee Combat.}{121}%
+\contentsline {subsubsection}{An assassin increases their chance of knocking out a target.}{121}%
+\contentsline {subsubsection}{An assassin increases their chance of performing any action involving stealth.}{121}%
+\contentsline {section}{\numberline {34}Astrologer (Ver 1.0)}{122}%
+\contentsline {subsection}{\numberline {34.1}Restrictions}{122}%
+\contentsline {subsubsection}{An astrologer may not make a general prediction or ask a specific question concerning only themself.}{122}%
+\contentsline {subsubsection}{An astrologer may only try once to answer a particular question or to forecast the outcome of an event.}{122}%
+\contentsline {subsubsection}{The results of a reading will affect the pertinent course of events.}{122}%
+\contentsline {subsection}{\numberline {34.2}Benefits}{122}%
+\contentsline {subsubsection}{An astrologer's Rank determines how many beings they can directly affect with a single prediction.}{122}%
+\contentsline {subsubsection}{An astrologer may make (and possibly modify) a general prediction during a reading.}{122}%
+\contentsline {subsubsection}{An astrologer may seek to answer up to Rank specific questions per month.}{122}%
+\contentsline {subsubsection}{An astrologer can determine the aspect of a being after observing them.}{122}%
+\contentsline {subsubsection}{An astrologer expends Fatigue points when practicing their art.}{122}%
+\contentsline {section}{\numberline {35}Beast Master (Ver 1.0)}{123}%
+\contentsline {subsection}{\numberline {35.1}Restrictions}{123}%
+\contentsline {subsubsection}{A breast master must have atleast 15 Willpower.}{123}%
+\contentsline {subsubsection}{A beast master may only train animals for their own personal use until they achieve Rank 5. They may domesticate animals at any Rank.}{123}%
+\contentsline {subsection}{\numberline {35.2}Benefits}{123}%
+\contentsline {subsubsection}{A beast master acquires the ability to train one type of animal and/or monster at Ranks 0, 5 and 10.}{123}%
+\contentsline {subsubsection}{A beast master must spend (12 - Rank) months to train an animal or monster, or a like number of weeks to domesticate one.}{123}%
+\contentsline {subsubsection}{A trained animal or monster must make a loyalty check whenever it recognises that its master is endangering it, or whenever its master commands an action that runs counter to its instincts.}{123}%
+\contentsline {subsubsection}{A domesticated creature must make a loyalty check if the circumstances described above arise.}{123}%
+\contentsline {subsubsection}{A beast master who intimidates their animals adds one to their Rank when calculating training or domestication time, but the GM adds 10 to any loyalty check dice-roll for one of their animals.}{123}%
+\contentsline {subsubsection}{A beast master may train or domesticate as many creatures as their Rank at one time.}{123}%
+\contentsline {subsection}{\numberline {35.3}Cost}{123}%
+\contentsline {subsubsection}{A beast master must pay 100 Silver Pennies per creature trained and 25 Silver Pennies per creature domesticated.}{123}%
+\contentsline {section}{\numberline {36}Courtier (Ver 2.0)}{124}%
+\contentsline {subsection}{\numberline {36.1}Restrictions}{124}%
+\contentsline {subsection}{\numberline {36.2}Benefits}{124}%
+\contentsline {subsection}{\numberline {36.3}Seduction}{124}%
+\contentsline {section}{\numberline {37}Healer (Ver 1.12)}{125}%
+\contentsline {subsubsection}{Field Operations}{125}%
+\contentsline {subsection}{\numberline {37.1}Benefits}{125}%
+\contentsline {subsection}{\numberline {37.2}Restrictions}{125}%
+\contentsline {subsection}{\numberline {37.3}Ability Descriptions}{125}%
+\contentsline {subsubsection}{Empathy}{125}%
+\contentsline {subsubsection}{Non-Tactile Empathy}{125}%
+\contentsline {subsubsection}{Cure Infection, Disease, Headaches, Fever and Graft Skin}{125}%
+\contentsline {subsubsection}{Neutralise Poison}{125}%
+\contentsline {subsubsection}{Soothe Pain}{125}%
+\contentsline {subsubsection}{Prolong Life}{125}%
+\contentsline {subsubsection}{Heal Endurance and Transfer Fatigue}{125}%
+\contentsline {subsubsection}{Repair Damage}{125}%
+\contentsline {subsubsection}{Preserve Dead}{125}%
+\contentsline {subsubsection}{Resurrection}{125}%
+\contentsline {subsubsection}{Regeneration}{126}%
+\contentsline {subsection}{\numberline {37.4}Potion Costs}{126}%
+\contentsline {section}{\numberline {38}Herbalist (Ver 1.0)}{127}%
+\contentsline {subsection}{\numberline {38.1}Benefits}{127}%
+\contentsline {subsubsection}{A herbalist will learn how to locate and identify herbs and spices growing in any terrain}{127}%
+\contentsline {subsubsection}{A herbalist may establish a garden where common and uncommon herbs and spices are grown}{127}%
+\contentsline {subsubsection}{A herbalist will learn how to preserve herbs and spices and how to prepare them for maximum efficacy}{127}%
+\contentsline {subsubsection}{A herbalist, should they choose to take the artisan cooking skill, gains a reduction of 25\% to their experience for ranking that artisan skill}{127}%
+\contentsline {subsubsection}{A herbalist will be able to prepare herbal mixtures, and salves that will heal, or enhance the normal healing processes}{127}%
+\contentsline {subsubsection}{A herbalist may prepare herbal mixtures that alter the normal rhythms of a sentient being's body}{128}%
+\contentsline {subsubsection}{A herbalist may prepare perfumes that will attract or repel animals or sentients}{128}%
+\contentsline {subsubsection}{A herbalist may prepare toxic mixtures of herbs that may harm and ultimately kill animals and sentients that ingest them}{128}%
+\contentsline {subsubsection}{A herbalist can prepare herbal mixtures that can free the mind from the body}{128}%
+\contentsline {section}{\numberline {39}Languages (Ver 2.0)}{129}%
+\contentsline {subsection}{\numberline {39.1}Restrictions}{129}%
+\contentsline {subsection}{\numberline {39.2}Structure}{129}%
+\contentsline {subsection}{\numberline {39.3}Benefits}{129}%
+\contentsline {subsection}{\numberline {39.4}Literacy}{129}%
+\contentsline {subsubsection}{Phonetic Reading \& Writing}{129}%
+\contentsline {subsubsection}{Table of known Alusian alphabets}{129}%
+\contentsline {subsubsection}{Orthographic languages}{129}%
+\contentsline {subsection}{\numberline {39.5}Special rules}{129}%
+\contentsline {subsection}{\numberline {39.6}Language Families}{129}%
+\contentsline {subsection}{\numberline {39.7}Language groups}{129}%
+\contentsline {section}{\numberline {40}Mechanician (Ver 2.1)}{131}%
+\contentsline {subsection}{\numberline {40.1}Restrictions}{131}%
+\contentsline {subsection}{\numberline {40.2}Benefits}{131}%
+\contentsline {subsection}{\numberline {40.3}Abilities}{131}%
+\contentsline {subsubsection}{The abilities available are:}{131}%
+\contentsline {subsection}{\numberline {40.4}Complex Locks}{131}%
+\contentsline {subsection}{\numberline {40.5}Trap Construction}{131}%
+\contentsline {subsection}{\numberline {40.6}Spell Containment}{132}%
+\contentsline {section}{\numberline {41}Merchant (Ver 1.0)}{133}%
+\contentsline {subsection}{\numberline {41.1}Restrictions}{133}%
+\contentsline {subsection}{\numberline {41.2}Benefits}{133}%
+\contentsline {subsubsection}{The merchant's ability to buy and sell a particular item is dependent upon its type.}{133}%
+\contentsline {subsubsection}{A merchant can purchase items at a cost cheaper than the asking price.}{133}%
+\contentsline {subsubsection}{A merchant may mark up the price of an uncommon or rare item.}{133}%
+\contentsline {subsubsection}{A merchant can assay an item to determine its exact worth.}{133}%
+\contentsline {subsubsection}{A merchant can specialise in a specific category of item assayal every time they achieve a positive Rank divisible by three.}{133}%
+\contentsline {section}{\numberline {42}Military Scientist (Ver 2.0)}{134}%
+\contentsline {subsection}{\numberline {42.1}Restrictions}{134}%
+\contentsline {subsection}{\numberline {42.2}Specialised Fields}{134}%
+\contentsline {subsection}{\numberline {42.3}Benefits}{134}%
+\contentsline {subsubsection}{Command}{134}%
+\contentsline {subsubsection}{Personal guard}{134}%
+\contentsline {subsubsection}{Rally troops}{134}%
+\contentsline {subsubsection}{Raise morale}{134}%
+\contentsline {subsubsection}{Perceive tactics}{134}%
+\contentsline {subsubsection}{Initiative}{134}%
+\contentsline {subsubsection}{Time out}{134}%
+\contentsline {subsubsection}{Logistics}{134}%
+\contentsline {section}{\numberline {43}Navigator (Ver 1.1)}{135}%
+\contentsline {subsection}{\numberline {43.1}Benefits}{135}%
+\contentsline {subsubsection}{A navigator can determine all compass directions if they can view the stars.}{135}%
+\contentsline {subsubsection}{A navigator may always determine the compass direction of a landmark relative to their position.}{135}%
+\contentsline {subsubsection}{A navigator can read a map if they can relate their physical surroundings to the symbols on that map.}{135}%
+\contentsline {subsubsection}{Map Creating}{135}%
+\contentsline {subsubsection}{A navigator can competently pilot a ship of up to (25 + 25 $\times $\ Rank) feet in length.}{135}%
+\contentsline {subsubsection}{A navigator can consistently maintain a ship's speed at (50 + 5 $\times $\ Rank)\% of its optimum speed.}{135}%
+\contentsline {subsubsection}{A navigator can predict weather at sea with (PC + 5 $\times $\ Rank)\% chance of accuracy.}{135}%
+\contentsline {subsubsection}{A navigator can sometimes recognise non-magical danger at sea before subjecting the ship to it.}{135}%
+\contentsline {section}{\numberline {44}Philosopher (Ver 2.0)}{136}%
+\contentsline {subsection}{\numberline {44.1}Library}{136}%
+\contentsline {subsection}{\numberline {44.2}Requirements}{136}%
+\contentsline {subsubsection}{Language restriction}{136}%
+\contentsline {subsubsection}{Books}{136}%
+\contentsline {subsection}{\numberline {44.3}Structure}{136}%
+\contentsline {subsubsection}{Realms}{136}%
+\contentsline {subsubsection}{Fields}{136}%
+\contentsline {subsubsection}{Sub-fields}{136}%
+\contentsline {subsection}{\numberline {44.4}Language benefits}{136}%
+\contentsline {subsection}{\numberline {44.5}Knowledge benefits}{136}%
+\contentsline {subsubsection}{Realms}{136}%
+\contentsline {subsubsection}{Fields \& Sub-fields}{136}%
+\contentsline {subsubsection}{Field restrictions}{136}%
+\contentsline {subsubsection}{Overlaps \& connections}{136}%
+\contentsline {subsection}{\numberline {44.6}Research benefits}{136}%
+\contentsline {subsubsection}{Difficulty}{136}%
+\contentsline {subsubsection}{Answers}{136}%
+\contentsline {subsubsection}{Final result}{136}%
+\contentsline {subsection}{\numberline {44.7}Realms \& Fields}{136}%
+\contentsline {subsubsection}{The Social World}{136}%
+\contentsline {subsubsection}{The Material World}{136}%
+\contentsline {subsubsection}{The Magical World}{136}%
+\contentsline {subsubsection}{The Animal World}{137}%
+\contentsline {subsubsection}{The Plant World}{137}%
+\contentsline {subsection}{\numberline {44.8}Answer Table}{137}%
+\contentsline {section}{\numberline {45}Ranger (Ver 2.1)}{138}%
+\contentsline {subsection}{\numberline {45.1}Benefits}{138}%
+\contentsline {subsubsection}{Primary Environment}{138}%
+\contentsline {subsubsection}{Stealth bonus}{138}%
+\contentsline {subsubsection}{Finding Food}{138}%
+\contentsline {subsubsection}{Camping}{138}%
+\contentsline {subsubsection}{Travelling}{138}%
+\contentsline {subsubsection}{Safety}{138}%
+\contentsline {subsection}{\numberline {45.2}Environments}{138}%
+\contentsline {subsection}{\numberline {45.3}Ranger summary chart}{139}%
+\contentsline {section}{\numberline {46}Spy (Ver 1.1)}{140}%
+\contentsline {subsection}{\numberline {46.1}Restrictions}{140}%
+\contentsline {subsection}{\numberline {46.2}Benefits}{140}%
+\contentsline {subsubsection}{If a character's Rank as a spy is greater then their Rank as a thief, the character expends one-half the necessary Experience Points to acquire or improve the latter skill.}{140}%
+\contentsline {subsubsection}{A spy can pick locks or open safes with the aid of their tools.}{140}%
+\contentsline {subsubsection}{A spy may attempt to detect traps and should the spy succeed, may try to remove them.}{140}%
+\contentsline {subsubsection}{A spy can sometimes detect a secret or hidden aperture.}{140}%
+\contentsline {subsubsection}{A spy can attempt to pick the pocket of another being without being detected.}{140}%
+\contentsline {subsubsection}{A spy will develop a photographic memory as they gain experience.}{140}%
+\contentsline {subsubsection}{A spy increases their chance of performing an action involving stealth by 2\% per Rank.}{140}%
+\contentsline {subsubsection}{A spy may use their photographic memory ability to recall spoken phrases.}{140}%
+\contentsline {section}{\numberline {47}Thief (Ver 1.1)}{141}%
+\contentsline {subsection}{\numberline {47.1}Restrictions}{141}%
+\contentsline {subsection}{\numberline {47.2}Benefits}{141}%
+\contentsline {subsubsection}{If a character's Rank as a thief is greater then their Rank as a spy, the character expends one-half the necessary Experience Points to acquire or improve the latter skill.}{141}%
+\contentsline {subsubsection}{A thief can pick locks or open safes with the aid of tools.}{141}%
+\contentsline {subsubsection}{A thief may attempt to detect traps and should the thief succeed, may try to remove them.}{141}%
+\contentsline {subsubsection}{A thief can sometimes detect a secret or hidden aperture.}{141}%
+\contentsline {subsubsection}{A thief can attempt to pick the pocket of another being without being detected.}{141}%
+\contentsline {subsubsection}{A thief will develop a photographic memory as they gain experience.}{141}%
+\contentsline {subsubsection}{A thief increases their chance to perform an action involving stealth by 1\% per Rank.}{141}%
+\contentsline {subsubsection}{A thief can, as long as they may find a purchase sufficient to bear their weight, climb any structure.}{141}%
+\contentsline {section}{\numberline {48}Troubadour (Ver 2.0)}{142}%
+\contentsline {subsection}{\numberline {48.1}Benefits}{142}%
+\contentsline {subsection}{\numberline {48.2}Bardic Voice}{142}%
+\contentsline {section}{\numberline {49}Warrior (Ver 2.0)}{143}%
+\contentsline {subsection}{\numberline {49.1}Restrictions}{143}%
+\contentsline {subsubsection}{Benefits only apply when the warrior is occupying an enemy's melee zone.}{143}%
+\contentsline {subsubsection}{A warrior may never train in the warrior skill without a training partner of at least equal warrior Rank.}{143}%
+\contentsline {subsubsection}{A warrior requires various minimum weapons skills per Rank.}{143}%
+\contentsline {subsection}{\numberline {49.2}Benefits}{143}%
+\contentsline {subsubsection}{A warrior gains a bonus to defence when facing an opponent wielding a weapon they are familiar with.}{143}%
+\contentsline {subsubsection}{A warrior gains + 1 / Rank to their engaged initiative.}{143}%
+\contentsline {subsubsection}{A warrior has the ability to wield weapons which are similar to other weapons with which they is familiar.}{143}%
+\contentsline {subsubsection}{A warrior gains the ability to Rank weapons without the need for a tutor.}{143}%
+\contentsline {subsubsection}{A warrior's base chance to hit is increased by 1\% + 1\% additional per Rank.}{143}%
+\contentsline {subsubsection}{A warrior becomes an expert in combat equipment.}{143}%
+\contentsline {subsection}{\numberline {49.3}Weapon categories}{143}%
+\contentsline {section}{\numberline {50}Weaponsmith (Ver 1.0)}{144}%
+\contentsline {subsection}{\numberline {50.1}Restrictions}{144}%
+\contentsline {subsubsection}{A weaponsmith's progress in their skill is inhibited by a low Manual Dexterity, and aided by a high Manual Dexterity.}{144}%
+\contentsline {subsection}{\numberline {50.2}Benefits}{144}%
+\contentsline {subsubsection}{A weaponsmith acquires one ability every two Ranks. The character begins with one of the following abilities at Rank 0. All abilities can be performed skillfully.}{144}%
+\contentsline {subsubsection}{A weaponsmith can build increasingly more effective weapons as their Rank increases.}{144}%
+\contentsline {subsubsection}{The time and cost required for a weaponsmith to construct a weapon is dependent on the Rank that is used, and the type of weapon.}{144}%
+\contentsline {subsubsection}{A weaponsmith is treated as a merchant of their weaponsmith Rank when attempting to buy or value weapons which are part of their abilities.}{144}%
+\contentsline {subsection}{\numberline {50.3}Costs}{144}%
+\contentsline {subsubsection}{A weaponsmith, with the exception of some missile weapons, can only perform their skill in a properly maintained workshop.}{144}%
+\contentsline {subsection}{\numberline {50.4}Silvering and Gilding weapons}{144}%
+\contentsline {section}{\numberline {51}Grievous Injury Table}{145}%
+\contentsline {section}{\numberline {52}Fumble Tables}{146}%
+\contentsline {subsection}{\numberline {52.1}Bows and Crossbows only}{146}%
+\contentsline {subsection}{\numberline {52.2}All Other weapons}{146}%
+\contentsline {subsection}{\numberline {52.3}Notes}{146}%
+\contentsline {subsection}{\numberline {52.4}Special cases}{146}%
+\contentsline {subsubsection}{An innately magical weapon}{146}%
+\contentsline {subsubsection}{Unarmed Combat}{146}%
+\contentsline {subsubsection}{Strike Chance over 100}{146}%
+\contentsline {section}{\numberline {53}Backfire Table}{147}%
+\contentsline {section}{\numberline {54}Fright \& Awe Tables}{148}%
+\contentsline {subsection}{\numberline {54.1}Fright Table (Ver 1.0)}{148}%
+\contentsline {subsection}{\numberline {54.2}Awe Table}{148}%
+\contentsline {subsection}{\numberline {54.3}Notes}{148}%
+\contentsline {subsubsection}{Modifiers}{148}%
+\contentsline {subsubsection}{PB Fright Checks}{148}%
+\contentsline {subsubsection}{Familiarity}{148}%
+\contentsline {subsubsection}{Effects of Awe}{148}%
+\contentsline {subsubsection}{Spell Effects}{149}%
+\contentsline {section}{\numberline {55}Experience Point Costs}{150}%
+\contentsline {subsection}{\numberline {55.1}Weapons}{150}%
+\contentsline {subsection}{\numberline {55.2}Skills}{151}%
+\contentsline {subsubsection}{Notes}{151}%
+\contentsline {subsection}{\numberline {55.3}Characteristics}{151}%
+\contentsline {section}{\numberline {56}Weapons, Shields and Armour Charts}{152}%
+\contentsline {subsection}{\numberline {56.1}Weapons}{152}%
+\contentsline {subsection}{\numberline {56.2}Shields}{153}%
+\contentsline {subsection}{\numberline {56.3}Armour Chart with Guild Prices}{153}%
+\contentsline {section}{\numberline {57}Combat Tables}{155}%
+\contentsline {subsection}{\numberline {57.1}Action Summary}{155}%
+\contentsline {subsubsection}{Actions allowed for Engaged figures}{155}%
+\contentsline {subsubsection}{Actions allowed of non-Engaged figures}{155}%
+\contentsline {subsection}{\numberline {57.2}Special Damage Chart}{155}%
+\contentsline {subsection}{\numberline {57.3}Strike Chance Modifiers Summary}{155}%
+\contentsline {subsubsection}{Close Combat Modifiers}{155}%
+\contentsline {subsubsection}{Melee Combat Modifiers}{155}%
+\contentsline {subsubsection}{Ranged Combat Modifiers}{155}%
+\contentsline {subsubsection}{Visibility Condition Modifiers}{155}%
+\contentsline {subsubsection}{Miscellaneous Modifiers}{155}%
+\contentsline {subsection}{\numberline {57.4}Combat Equation Summary}{156}%
+\contentsline {section}{\numberline {58}Miscellaneous Tables}{156}%
+\contentsline {subsection}{\numberline {58.1}Fatigue, Encumbrance and Movement Charts}{156}%
+\contentsline {subsection}{\numberline {58.2}Overland Movement Rate}{156}%

@@ -11,7 +11,8 @@ symbols
 	REL21:2.1
 	REL20:2.0
 	REL10:1.5.1.1;
-locks; strict;
+locks
+	ralexand:5.11; strict;
 comment	@% @;
 
 

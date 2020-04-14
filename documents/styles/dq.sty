@@ -5,7 +5,7 @@
 %% Leslie Lamport. 
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{dq}[2014/11/07 v0.4 DQ style file]
+\ProvidesPackage{dq}[2020/04/13 v1.1 DQ style file]
 
 % \RequirePackage{fixltx2e}
 \RequirePackage{ifpdf}
@@ -23,7 +23,7 @@
 
 \ifxetex
   \RequirePackage{fontspec}
-\else
+\fi
 
 \typeout{DQ Rules style sheet, version 0.5 <12 April 2020>}
 
@@ -239,6 +239,7 @@
 \newenvironment{Itemize}[0]{\begin{itemize}\setlength\itemsep{0pt}}{\end{itemize}}
 \newenvironment{Enumerate}[0]{\begin{enumerate}\setlength\itemsep{0pt}}{\end{enumerate}}
 \newenvironment{Description}[0]{\setlength\leftmargini{0pt}\begin{description}\setlength\itemsep{0pt}}{\end{description}}
+\newenvironment{Chapter}[1]{\chapter{#1}\begin{multicols*}{3}}{\end{multicols*}}
 
 \ifpdf
   \typeout{Using PDF driver}

@@ -5,9 +5,8 @@
 %% Leslie Lamport. 
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{dq}[2020/04/13 v1.1 DQ style file]
+\ProvidesPackage{dq2020e}[2020/04/13 v1.1 DQ style file]
 
-\RequirePackage[utf8]{inputenc}
 \RequirePackage{ifpdf}
 \RequirePackage{ifthen}
 \RequirePackage{ifxetex}
@@ -22,14 +21,16 @@
 
 \hypersetup{colorlinks=true,allcolors=blue,
    bookmarksnumbered=true,     
-    bookmarksopen=true,         
-    bookmarksopenlevel=1,
-    bookmarks=true,
-  pdfstartview=Fit,pdfpagemode=UseOutlines}
+   bookmarksopen=true,         
+   bookmarksopenlevel=1,
+   pdfstartview=Fit,pdfpagemode=UseOutlines
+}
 
 
 \ifxetex
   \RequirePackage{fontspec}
+\else
+  \RequirePackage[utf8]{inputenc}
 \fi
 
 \typeout{DQ Rules style sheet, version 0.5 <12 April 2020>}
