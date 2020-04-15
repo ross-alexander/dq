@@ -272,7 +272,7 @@
 \newenvironment{Itemize}[0]{\begin{itemize}\setlength\itemsep{0pt}}{\end{itemize}}
 \newenvironment{Enumerate}[0]{\begin{enumerate}\setlength\itemsep{0pt}}{\end{enumerate}}
 \newenvironment{Description}[0]{\setlength\leftmargini{0pt}\begin{description}\setlength\itemsep{0pt}}{\end{description}}
-\newenvironment{Chapter}[1]{\chapter{#1}\begin{multicols*}{3}}{\end{multicols*}}
+\newenvironment{Chapter}[1]{\chapter{#1}\begin{multicols}{3}}{\end{multicols}}
 \newenvironment{Table}[1]{\chapter{#1}}{}
 
 \renewcommand{\thisday}{\fontsize{8}{9pt}\selectfont{\MakeUppercase{\today}}}
@@ -299,7 +299,7 @@
 \newenvironment{College}[4][1.0]%
                {\chapter{The College of #3 (Ver #1)}\label{college:#2}\def\dq@college{#3} \index{colleges!\dq@college|(} \begin{multicols*}{3}}%
                {\index{colleges!\dq@college|)}\end{multicols*}}
-               
+
 \newcommand{\range}[1]{\sItem{Range}{#1}}
 \newcommand{\area}[1]{\sItem{Area}{#1}}
 \newcommand{\multiple}[1]{\sItem{Experience Multiple}{#1}}
