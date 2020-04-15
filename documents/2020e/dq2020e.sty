@@ -16,7 +16,7 @@
 \RequirePackage{fancyhdr}
 \RequirePackage{textcomp}
 \RequirePackage{float}
-\RequirePackage[top=20mm,left=15mm,right=15mm,bottom=10mm]{geometry}
+\RequirePackage[top=20mm,left=10mm,right=10mm,bottom=10mm]{geometry}
 \RequirePackage{hyperref}
 
 \hypersetup{colorlinks=true,allcolors=blue,
@@ -44,13 +44,13 @@
   \renewcommand{\rmdefault}{libertine}
   \renewcommand{\sfdefault}{biolinum}
 
-%%  \renewcommand{\scriptsize}{\fontfamily{\rmdefault}\fontsize{6}{7pt}\selectfont}
-%%  \renewcommand{\small}{\fontfamily{\rmdefault}\fontsize{7}{8pt}\selectfont}
-%%  \renewcommand{\normalsize}{\fontfamily{\rmdefault}\fontsize{8}{9.0pt}\selectfont}
-%%  \renewcommand{\large}{\fontfamily{\sfdefault}\fontsize{9}{11pt}\selectfont}
-%%  \renewcommand{\Large}{\fontfamily{\sfdefault}\fontsize{12}{15pt}\selectfont}
-%%  \renewcommand{\huge}{\fontfamily{\sfdefault}\fontsize{18}{20pt}\selectfont}
-%%  \renewcommand{\Huge}{\fontfamily{\rmdefault}\fontsize{24}{24pt}\selectfont} 
+  \renewcommand{\scriptsize}{\fontfamily{\rmdefault}\fontsize{6}{7pt}\selectfont}
+  \renewcommand{\small}{\fontfamily{\rmdefault}\fontsize{7}{8pt}\selectfont}
+  \renewcommand{\normalsize}{\fontfamily{\rmdefault}\fontsize{8}{9.0pt}\selectfont}
+  \renewcommand{\large}{\fontfamily{\sfdefault}\fontsize{9}{11pt}\selectfont}
+  \renewcommand{\Large}{\fontfamily{\sfdefault}\fontsize{12}{15pt}\selectfont}
+  \renewcommand{\huge}{\fontfamily{\sfdefault}\fontsize{14}{16pt}\selectfont}
+  \renewcommand{\Huge}{\fontfamily{\rmdefault}\fontsize{16}{18pt}\selectfont} 
 }
 
 \DeclareOption{times}{
@@ -83,8 +83,6 @@
   \renewcommand{\ttdefault}{pcr}
 }
 
-\ProcessOptions
-
 \ifpdf
   \typeout{Using PDF driver}
   \renewcommand{\rmdefault}{ptm}
@@ -105,6 +103,8 @@
 \renewcommand{\Large}{\fontfamily{\sfdefault}\fontsize{12}{15pt}\selectfont}
 \renewcommand{\huge}{\fontfamily{\sfdefault}\fontsize{14}{20pt}\selectfont}
 \renewcommand{\Huge}{\fontfamily{\rmdefault}\fontsize{20}{24pt}\selectfont}
+
+\ProcessOptions
 
 %% %%% GLOBAL LAYOUT THINGS
 
@@ -148,7 +148,7 @@
 	{section}%
 	{1}%
 	{\z@}%
-	{10.0pt}
+	{6.0pt}
 	{0.2pt}
 	{\reset@font\Large\bfseries}}%
 
