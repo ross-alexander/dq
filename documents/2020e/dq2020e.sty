@@ -48,7 +48,7 @@
   \renewcommand{\small}{\fontfamily{\rmdefault}\fontsize{7}{8pt}\selectfont}
   \renewcommand{\normalsize}{\fontfamily{\rmdefault}\fontsize{8}{9.0pt}\selectfont}
   \renewcommand{\large}{\fontfamily{\sfdefault}\fontsize{9}{11pt}\selectfont}
-  \renewcommand{\Large}{\fontfamily{\sfdefault}\fontsize{12}{15pt}\selectfont}
+  \renewcommand{\Large}{\fontfamily{\sfdefault}\fontsize{10}{12pt}\selectfont}
   \renewcommand{\huge}{\fontfamily{\sfdefault}\fontsize{14}{16pt}\selectfont}
   \renewcommand{\Huge}{\fontfamily{\rmdefault}\fontsize{16}{18pt}\selectfont} 
 }
@@ -265,7 +265,8 @@
 \newenvironment{ritual}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{rituals!#2}}{}
 \newenvironment{ritual*}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{rituals!#2}}{}
 
-\newenvironment{example}[0]{\small \textbf{Example}\hspace{1.2em}}{}
+\newenvironment{example}[0]{\small \emph{Example}\hspace{1.2em}}{}
+
 \newcommand{\clearemptydoublepage}{\newpage{\pagestyle{empty}\cleardoublepage}}
 \newcommand{\sItem}[2]{\emph{#1}: #2 \\}
 
