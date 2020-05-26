@@ -1,0 +1,51 @@
+<!entity % general system "general" -- general purpose characters -- >
+%general;
+
+<!entity space " ">
+<!entity null "">
+
+<!shortref global
+      "&#RS;B" null  -- delete leading blanks --
+      "%" percnt
+>
+
+<!usemap global dqmm>
+
+<!element dqmm o o (group)>
+
+<!entity % inline "#pcdata|itemize|br">
+<!element group - - (notes?, ((class|monster)+)) >
+<!attlist group name cdata #required >
+<!element class - - (notes?, (monster+)) >
+<!attlist class name cdata #required >
+<!element mhead o o (#pcdata)>
+<!element notes o o ((%inline)*) >
+<!element monster - - ((details, stats, comments?) |(comments))>
+<!attlist monster name cdata #required >
+<!element details - o (habitat, frequency, number, description, talents, weapons, movement) >
+
+<!element cdesc o o (comments)> 
+<!element itemize - - (item+)>
+<!element item - o (#PCDATA)>
+<!element habitat - o (#PCDATA) >
+<!element frequency - o (#PCDATA) >
+<!element number - o (#PCDATA) >
+<!element description - o (%inline) >
+<!element talents - o ((%inline)*) >
+<!element movement - o (#PCDATA) >
+<!element weapons - o (%inline) >
+<!element comments - o (%inline) >
+<!element stats o o ((PS & MD & AG), MA, (EN & FT & WP), PC, (PB & TMR), NA) >
+<!element PS - o (#PCDATA) >
+<!element MD - o (#PCDATA) >
+<!element AG - o (#PCDATA) >
+<!element MA - o (#PCDATA) >
+<!element EN - o (#PCDATA) >
+<!element FT - o (#PCDATA) >
+<!element WP - o (#PCDATA) >
+<!element PC - o (#PCDATA) >
+<!element PB - o (#PCDATA) >
+<!element TMR - o (#PCDATA) >
+<!element NA - o (#PCDATA) >
+
+<!element br - o EMPTY >

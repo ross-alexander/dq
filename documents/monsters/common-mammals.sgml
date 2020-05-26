@@ -1,0 +1,1040 @@
+<!doctype dqmm system>
+<group name="Common land mammals">
+
+<class name="Apes and Prehumans">
+
+<notes>
+Apes and prehumans include baboons, gorillas, and orang-outangs in
+addition to two classes of prehumans: neanderthals and sasquatchs. All
+of these tend to be shy of humans and will usually dwell in high
+mountains or deep jungle.  They have three times the stealth of an
+average human (30) and are often adept at tracking and have other
+talents sometimes associated with the Ranger Skill.
+
+<monster name="Baboon">
+<details>
+<habitat> Plains
+<frequency> Common
+<number> 1-100 (2)
+<description> Baboons are medium-sized apes, usually no more than 4
+feet tall, and 120 pounds in weight. They are characterized by their
+large heads and long sharp fangs.  Baboons generally have light brown
+fur, but may have brightly coloured (orange, blue, purple or red)
+faces and/or rumps (especially females).
+
+<talents> Baboons possess no special talents or skills. They are
+neither magic nor tool users and are only semi-intelligent.
+
+<weapons> Baboons cannot attack except in Close Combat.  They will
+swarm over their victim, using their bite (Base Chance of 65&percnt,
+Damage of +4) to kill by increasing blood loss.  Comments: Baboons
+tend to be vicious and unpredictable, attacking without warning. They
+are tribal in nature and do not fear men when in company with the rest
+of the tribe.  They can sometimes (30&percnt chance) be assuaged by
+food (usually meat).
+
+
+<movement> Running: 350
+<PS> 12-18
+<MD> 16-20
+<AG> 18-22
+<MA> None
+<EN> 6-10
+<FT> 10-15
+<WP> 7-9
+<PC> 17-21
+<PB> 6-9
+<TMR> 7
+<NA> Fur absorbs 2 DP
+</monster>
+
+
+<monster name="Gorilla (Mountain Gorilla/Great Ape)">
+<details>
+<habitat> Woods, Forest and Mountains
+<frequency> Rare
+<number> 1-40 (20)
+<description> Gorillas reach 650 pounds and 6+ feet in height.  They
+usually have arm spans when full grown of over 10 feet.  Gorillas tend
+to have black fur, but older males will often have gray or silver
+fur. Some species are entirely white.  Both males and females have
+prominant canines and are vicious fighters.  Due to their great
+weight, gorillas cannot move between trees in the manner of other
+apes.
+
+<talents> Gorillas have no special talents or skills. They are not
+tool or magic users.
+
+<weapons> Gorillas may only attack via Close Combat.  However, they
+may enter Close Combat with an entity whose combined modified Agility
+and Physical Strength is half or less their own by grabbing the victim
+and pulling him into their hex.  This maneuver requires a Charge
+Action and is implemented in the same manner (except that the victim
+is pulled out of his hex into the gorilla's.  Gorillas may bite (Base
+Chance of 30&percnt, [D - 2] Damage) or rend (Base Chance of
+50&percnt, [D + 6] Damage) in Close Combat, but not in the same pulse.
+
+<movement> Running: 350
+
+
+<PS> 30-40
+<MD> 20-23
+<AG> 14-17
+<MA> None
+<EN> 28-33
+<FT> 33-38
+<WP> 6-8 
+<PC> 12-18
+<PB> 3-7
+<TMR> 7
+<NA> Fur absorbs 3 DP
+
+<comments> Gorillas will usually flee humanoids, but will occasionally
+attack if led by a large, powerful male.
+
+</monster>
+
+<monster name="Neanderthal">
+<details>
+<habitat> Woods, Rough, Caverns
+<frequency> Rare
+<number> 1-30 (8)
+
+<description> Neanderthals are a species of pre-human characterized by
+sloping foreheads, hairy bodies, limited intelligence, and a
+semi-erect posture.
+
+<talents> Neanderthals may have limited Beast Master skills and will
+possess most Ranger skills at Ranks 1-6 (some at higher Rank). They
+will have no talents and will not be magic users. Neanderthals will
+have only a limited tool using capacity and will generally not use
+weapons more complicated than stones and clubs.
+
+<weapons> Neanderthals will use rocks and sticks and sometimes simple
+clubs and axes.  They will rarely (15&percnt) pick up and use a dropped
+weapon of a more complex nature.  They will be at a total loss to
+figure out the workings of such complex weapons as bows.  They have
+prominent canines and will always attempt to enter Close Combat where
+they will bite (Base Chance of 30&percnt, [D - 3] Damage) in addition to
+striking.
+
+<movement> Running: 300
+
+<PS> 18-25
+<MD> 13-15
+<AG> 12-14
+<MA> None
+<EN> 14-16
+<FT> 20-24
+<WP> 8-10
+<PC> 13-18
+<PB> 8-10
+<TMR> 6
+<NA> Skin absorbs 1 DP
+<comments> Neanderthals fear other humanoids and will flee them if
+possible. Some, however, are cannibals and will stalk other humanoids
+as prey.
+
+</monster>
+
+<monster name="Orang-outang (Man-Apes)">
+<details>
+<habitat> Woods, perferably deep Forest
+<frequency> Uncommon
+<number> 1-3 (1)
+
+<description> Orang-outangs are 4-5 feet tall and may weigh up to 200
+pounds.  They are characterized by long, rust-colored fur over their
+entire body except for the chest and belly.  They stand semi-erect and
+have long fore-limbs that reach almost to the ground. They use these
+limbs to assist them in running and in climbing.
+
+<talents>
+Orang-outangs possess no skills or talents and are neither magic nor
+tool users.
+
+<weapons> orang-outangs attack in Melee Combat in the same manner as
+humans (striking with bare hands).  In Close Combat, they receive 1
+attack per Pulse at a Base Chance of 40&percnt for [D - 1] Damage and
+with a possible Rank of 1-3.
+
+<movement> Running: 300; Climbing: 100
+
+<PS> 15-15
+<MD> 16-22
+<AG> 18-23
+<MA> None
+<EN> 10-12
+<FT> 15-17
+<WP> 8-12
+<PC> 17-21
+<PB> 7-9
+<TMR> 6/2
+<NA> Fur absorbs 2 DP
+
+<comments> Orang-outangs are not social in nature.  They have a strong
+sense of territory and will waylay tresspassers.  They are
+vegetarians.
+
+</monster>
+
+<monster name="Sasquatch (Yeti/Abominable Snow Man)">
+<details>
+<habitat> Woods, Rough (Lair in clearings or caverns)
+<frequency> Very Rare
+<number> 1-6 (1)
+
+<description> The sasquatch is a large humanoid being, very shy. it is
+covered in long brown fur which allows it to survive in even the
+coldest climes. The sasquatch tends to be shy of humans and will run
+or hide rather than attack except when its lair is threatened.
+
+<talents> The sasquatch is a natural tracker and forester and will
+possess the Ranger skill at Ranks 1-8.  The sasquatch will not,
+however, possess any magic abilities and will not employ any skill
+involving tools or weapons.
+
+<weapons> Bare hands as per the Unarmed Combat rules, but with +1
+damage.  Hands may not be Ranked.
+
+<movement> Running: 300
+
+<PS> 24-30
+<MD> 15-25
+<AG> 14-18
+<MA> 1-6
+<EN> 25-35
+<FT> 30-40
+<WP> 10-15
+<PC> 22-26
+<PB> 5-8
+<TMR> 6
+<NA> Fur absorbs 3 DP
+
+<comments> The sasquatch is a fairly docile creature, but the Yeti
+(the mountain-dwelling version of the species) tends to be much larger
+and meaner and will attack instead of running when its privacy is
+invaded.
+</monster>
+</class>
+
+<class name="Felines">
+
+<monster name="Cheetah">
+<details>
+<habitat>Plains and (sometimes) Woods
+<frequency> Rare
+<number> Rare 1-4 (1)
+
+<description> The cheetah is spotted, but without the characteristic
+pattern of the leopard. It is possessed of retractable claws and is
+leggy and slender. Its head is dog-like in appearance. The cheetah is
+usually a nocturnal hunter and will often advertise its presence by a
+hunting scream as it leaps upon its victim.
+
+<talents> Cheetahs have no talents or skills and are neither magic nor
+tool users.
+
+<weapons> Bite does [D - 2] Damage in Close Combat (Base Chance of
+25&percnt). Claws do [D - 3] Damage (Base Chance of 30%, possible Rank
+of 1-5) in either Close or Melee Combat.
+
+<movement>  Running: 1200
+
+<PS> 20-23
+<MD> 22-25
+<AG> 30-34
+<MA> None
+<EN> 14-18
+<WP> 5-7
+<FT> 20-25  
+<PC> 18-23
+<PB> 6-9
+<TMR> 24
+<NA> Fur absorbs 2 DP
+
+<comments> Cheetahs are extremely fast over short distances, but tire
+rapidly. Their Movement should be quartered after their rirst few
+minutes at a dead run. If captured young, cheetahs are especially
+trainable. Cubs will generally sell for 300-400 Silver Pennies each.
+
+</monster>
+
+<monster name="Housecat">
+<details>
+<habitat>  Fields (around people)
+<frequency> Common
+<number>  Common  1-20 (2)
+
+<description> House cats will tend to be 10-24 inches long and weigh
+12-35 pounds. The larger breeds of Siamese and Burmese cats are often
+bred for fighting ability and will appear more muscular and be much
+larger than the average house cat.
+
+<talents> House cats have no talents, skills, or magic. They are not
+tool users.
+
+<weapons> House cats cannot Melee. They get one combined attack (teeth
+and claws) in Close Combat with a Base Chance of 20&percnt and Damage
+of [D - 7].
+
+<movement> Running: 450
+
+<PS> 3-4
+<MD> 19-21
+<AG> 22-24
+<MA> None
+<EN> 4-5
+<FT> 8-10
+<WP> 9-11
+<PC> 18-20
+<PB> 12-18
+<TMR> 9
+<NA> Fur absorbs 1 DP*
+
+<comments> *Applies only to Burmese and Siamese breeds.  Familiars
+will frequently appear in the more or less permanent shape of house
+cats.
+
+</monster>
+
+<monster name="Leopard">
+<details>
+<habitat> Woods, Rough, Plains
+<frequency> Rare
+<number> Rare 1-4 (1)
+
+<description> Leopards usually appear as butter-colored cats with 5
+black spots. Some leopards, however, have shiny black coats and are
+called black panthers. In either case, they usually weigh 130-180
+pounds. They hunt during both day and night, though they will usually
+be encountered at night.
+
+<talents> Leopards have no special skills or talents and are neither
+tool nor magic users. They do have the ability to climb trees and move
+between branches with ease and will follow prey into the upper
+branches of trees if necessary.
+
+<weapons> Bite has a Base Chance of 30&percnt and Damage of [D- 2].
+Claws have a Base Chance of 30&percnt and Damage of [D - 3]. Claws may
+be Ranks 1-3.
+
+<movement> Running: 400; Climbing: 200
+
+<PS> 22-26
+<MD> 24-30
+<AG> 28-32
+<MA> None
+<EN> 15-18
+<WP> 6-8
+<FT> 20-25  
+<PC> 18-23
+<PB> 7-10
+<TMR> 8/4
+<NA> Fur absorbs 2 DP
+
+<comments> Leopards haunt game trails near rivers and streams (they
+sometimes eat fish). They are stealthier than most other felines and
+will seldom be seen except when they attack. The fur of adult leopards
+is worth 200-300 Silver Pennies.
+
+</monster>
+
+<monster name="Lion">
+
+<details><habitat> Plains
+<frequency> Uncommon
+<number> 1-8 (2)
+
+<description> Lions are large, tan cats. The males usually have great
+black (sometimes red) manes and will usually scare game in the
+direction of the females who are the better fighters and hunters.
+
+<talents> Lions possess no skills or talents and are neither tool nor
+magic users.
+
+<weapons> Bite does [D + 1] Damage and has a Base Chance of
+35&percnt;. Claws do [D - 1] Damage and have a Base Chance of
+45&percnt;.  Males may have 1-3 Rank with claws.  Females will have
+twice that Rank.
+
+<movement> Running: 450
+
+<PS> 25-30
+<MD> 20-25
+<AG> 25-30
+<MA> None
+<EN> 20-25
+<FT> 25-30
+<WP> 12-16
+<PC> 18-23
+<PB> 5-10
+<TMR> 9
+<NA> Fur absorbs 3 DP
+
+</monster>
+
+<monster name="Sabretooth tiger">
+
+<details><habitat> Plains, Caverns
+<frequency> Rare
+<number> Rare 1-8 (1)
+
+<description> Sabretooth tigers are huge, dark yellow or dun colored
+hunting cats with disproportionate fangs.
+
+<talents> Sabretooth Tigers have no special talents or abilities and
+use neither tools nor magic.
+
+<weapons> Bite has a Base Chance of 50&percnt of doing [D + 4]
+Damage. Claws do [D + 3] Damage alid have a Base Chance of 60&percnt
+with possible Rank of 1-5.
+
+<movement> Running: 600
+
+<PS> 30-32
+<AG> 23-25
+<MD> 18-20  
+<MA> None
+<EN> 20-22
+<WP> 8-10
+<FT> 33-36  
+<PC> 21-25
+<PB> 7-10
+<TMR> 12
+<NA> Hide absorbs 5 DP
+
+<comments> These cats have no fear of humanoids. If hungry, they will
+readily attack a party of adventurers.  They are valuable as
+curiosities, and live cubs fetch 400-500 Silver Pennies each, while
+mature cats fetch 3 times that amount.
+
+</monster>
+
+<monster name="Tiger (including bengal tiger and white tiger)">
+
+<details><habitat> Plains, Rough, Fields and Woods
+<frequency> Uncommon
+<number> 1-4 (1)
+
+<description> Tigers are usually orange with black stripes, though
+some types have thick, pale fur. All weretigers will have the latter
+coloring when in their tiger form. Though varying greatly in size,
+most tigers will be between 4 and 7 feet in length and weigh several
+hundred pounds.
+
+<talents> Tigers have no special talents or skills. They are not tool
+or magic users.
+
+<weapons> Bite has a Base Chance of 45&percnt of doing [D + 2] Damage.
+Claws have a Base Chance of 30&percnt of doing [D - 1] Damage and may be
+Ranked 1-2.
+
+<movement>  Running: 450
+
+<PS> 24-28
+<MD> 22-26
+<AG> 25-30
+<MA> None
+<EN> 20-24
+<FT> 25-29
+<WP> 8-10
+<PC> 18-23
+<PB> 5-9
+<TMR> 9
+<NA> Fur absorbs 3 DP
+
+<comments> Tigers are solitary, nocturnal hunters. They will attack
+humanoids with little provocation, and some have been known to develop
+a positive craving for human flesh. They enjoy swimming and will be
+undeterred by a water barrier between them and their prey.
+
+</monster>
+
+<monster name="Wild cat (bobcat/marsh cat)">
+
+<details><habitat>  Plains, Woods, Marsh, Rough
+<frequency> Uncommon
+<number> 1-6 (1)
+
+<description> There is some form of wild cat in most climes.  They
+will vary from 2 to 4 feet in length and from 25 to 90 pounds in
+weight. Most wild cats have blunt tails with black tips.  They often
+have tufted ears and are sometimes spotted.
+
+<talents> Wild cats have no special talents or skills. They are not
+tool or magic users.
+
+<weapons> Bite has a Base Chance of 20&percnt of doing [D - 5] Damage,
+Claws have a Base Chance of 25&percnt of doing [D - 6] Damage and may
+be Ranks 1-4.
+
+<movement>  Running: 300-400
+<PS> 12-17
+<MD> 14-20
+<AG> 18-24
+<MA> None
+<EN> 10-13
+<FT> 5-18  
+<WP> 8-10
+<PC> 16-21
+<PB> 8-11
+<TMR> 6-8
+<NA> Fur absorbs 2 DP
+
+<comments> Wild cats will usually not stray far from their lair.  They
+may be captured and sold as exotic pets in some areas, but will
+usually not fetch more than 100-150 Silver Pennies.  There is a
+70&percnt; chance that there will be [D - 1] young in their lair.
+
+</monster>
+</class>
+
+<class name="Great Land Mammals">
+
+<monster name="Bear">
+<details><habitat> Woods, Rough, Caverns
+<frequency> Uncommon
+<number>   1-4
+
+<description> Bears exist in any climate and have even been known to
+live in desert habitats. Arctic and mountain bears will be
+white. Other bears may vary in color from brown to black, and some
+will have creamy or rust tinged fur. They will generally weigh between
+500 and 1500 pounds. They tend to walk on all four feet, but may stand
+on their hind legs to fight.
+
+<talents> Bears possess no special skills or talents. They are not
+magic or tool users. However, Shape Changers may use tools (and
+weapons) in their bear form.
+
+<weapons> Bears may make two claw attacks in Melee with a Base Chance
+of 35&percnt of doing [D + 2] Damage and may achieve Ranks 1-4 with
+claws. They may bite in Close Combat with a Base Chance of 20&percnt of
+doing [D + 4] Damage. Bears may bite and claw during the same Pulse while
+in Close Combat or they can attempt to ``hug'' their victim with a Base
+Chance of 60&percnt of doing [D + 8] Damage.
+
+<movement>  Running: 300
+<PS> 35-40
+<MD> 10-15
+<AG> 10-15
+<MA> None
+<EN> 30-35
+<WP> 8-10
+<FT> 35-40  
+<PC> 18-22
+<PB> 6-10
+<TMR> 6
+<NA> Fur absorbs 4 DP
+
+<comments> Bears are omniverous. They are also curious. They will,
+consequently, investigate and possibly attack a party of less than 6
+humanoids. Larger parties will less likely be bothered. In spring,
+they will have 1-2 cubs in their lair. Each cub will fetch 400-800
+Silver Pennies in an untrained state.
+
+</monster>
+
+<monster name="Boar (wild pig)">
+<details><habitat> Woods, Marsh, Rough
+<frequency> Uncommon
+<number> 1-3 (1)
+
+<description> Boars grow to 550 pounds, are covered in long, dark
+bristles and have long tusks. They tend to be both stupid and vicious.
+
+<talents> Boars have no special skills or talents and use neither
+tools nor magic.
+
+<weapons>
+Boars always attempt to charge their victims and either impale them on
+their tusks or knock them to the ground and trample them. Tusks do [D
+- 1] Damage with a Base Chance of 50&percnt and Rank of 1-2. Feet do
+[D - 3] Damage with a Base Chance of 20&percnt;. A boar may only
+attack in Close Combat. He may not trample and tusk in the same Pulse.
+
+<movement>  Running: 350
+<PS> 22-27
+<MD> 14-18
+<AG> 20-25
+<MA> None
+<EN> 20-25
+<FT> 25-30
+<WP> 4-10
+<PC> 12-16
+<PB> 6-10
+<TMR> 7
+<NA> Bristles absorb 4 DP
+
+<comments> Boars tend to be nocturnal and will seldom be encountered
+in daylight. They are omniverous and will devour anything they find
+laying about or will kill humanoids for food.
+
+</monster>
+
+<monster name="Camel">
+<details><habitat> Waste, Plains
+<frequency> Common
+<number> 1-6 (3)
+
+<description> A camel is a tawny, thin-legged creature often used as a
+riding beast. Camels will have either one large hump on their back or
+two. If the latter is in the case, the camel is called a dromedary.
+
+<talents> Camels'metabolisms allow them to retain large quantities of
+fat and water, so they are able to survive for long periods without
+eating or drinking. On average, a camel can live for a week to ten
+days without water without suffering substantial ill effects. While
+valued for this trait, they are difficult to train and so will bring
+little money in an untrained state. Trained camels will bring 700-900
+Silver Pennies.
+
+<weapons> Bite has a Base Chance of 30&percnt of doing [D - 1] Damage in
+Melee or Close Combat. Camels may kick instead of biting in Melee with
+a Base Chance of 25&percnt of doing [D + 4] damage. Camels may only kick
+into their rear hexes.
+
+<movement>  Running: 600
+
+<PS> 25-30
+<MD> 12-15
+<AG> 11-14
+<MA> None
+<EN> 27-30
+<FT> 20-25
+<WP> 10-12 
+<PC> 14-18
+<PB> 7-9
+<TMR> 12
+<NA> Hide absorbs 3 DP
+</monster>
+
+<monster name="Elephant">
+<details><habitat> Plains
+<frequency> Common
+<number> 1-50 (20)
+
+<description> Elephants are 10 to 14 feet high at the shoulder and
+weigh between 4 and 8 tons (with ``Indian'' Elephants being much
+smaller on the average than ``African'' Elephants). They tend to be
+gray in color, but may appear brown, yellow or red, depending upon
+what type of mud they have been wallowing in.  Elephants are
+four-hex monsters.
+
+<talents> Elephants have no talents or skills and are not magic or
+tool users. They are dextrous with their trunks and can often use them
+to lift large burdens, shake trees, crush or throw objects (like
+people) without much accuracy.  They have a highly developed sense of
+smell and poor eyesight.
+
+<weapons> The elephant's main weapons are his tusks, which can be used
+in Melee or Close Combat with a Base Chance of 15&percnt of doing [D +
+2] Damage. If the elephant is charging while making a tusk attack, the
+Base Chance is 60&percnt and Damage is [D + 8]. The elephant can also
+attack with his trunk during the same Pulse in A,hich he Melee Attacks
+with tusks and has a Base Chance of 80&percnt of doing [D - 2]
+Damage. If an elephant runs over an entity in Close Combat, he has a
+Base Chance of 50&percnt of doing [D + 6] Damage (resolve one attack
+per foot, total of 4).
+
+<movement> Running: 450
+
+<PS> 60-75
+<MD> 15-18
+<AG> 10-12
+<MA> None
+<EN> 40-50
+<WP> 10-14
+<FT> 45-55
+<PC> 10-12
+<PB> 6-8
+<TMR> 9
+<NA> Hide absorbs 5 DP
+
+<comments> Elephants will usually shy away from humanoids unless
+provoked (70&percnt chance that provocation short of attack will be
+ignored). If one elephant is attacked, all nearby elephants will come
+to his assistance, especially if the elephant is a cow or
+calf. Elephant tusks are valuable ([D + 3] Silver Pennies per pound of
+ivory with each tusk weighing 100 pounds). Calves will sell for 1000
+Silver Pennies and adult bulls will sell for three times that if
+unharmed. Adult females may fetch 1500 Silver Pennies if still in
+their breeding years
+</monster>
+
+
+<monster name="Ox">
+<details><habitat> Plains, Fields (but only near man)
+<frequency> Common
+<number> 1-20 (2)
+
+<description> Oxen are literally castrated cattle. This heading
+subsumes all such forms of domesticated beasts (water buffalo,
+carabao, etc.) used for pulling wagons, carts, plows, etc., or for
+carrying burdens.  Oxen generally have horns, but will seldom use them
+unless directly attacked.
+
+<talents> Oxen have no special talent or skill and are neither tool
+not magic users. They will almost always be trained to pull a plow or
+wagon.
+
+<weapons> Oxen may attack in Melee with their horns for [D + 3] Damage
+(Base Chance of 20&percnt). They may trample in Close Combat with a 40% Base
+Chance of doing [D + 5] Damage (4 attacks per pulse possible).
+
+<movement>  Running: 250
+
+<PS> 50-60   
+<MD> 7-9
+<AG> 8-10
+<MA> None
+<EN> 25-30
+<FT> 32-40
+<WP> 7-9
+<PC> 12-15
+<PB> 6-8
+<TMR> 5
+<NA> Hide absorbs 3 DP
+</monster>
+
+
+<monster name="Stag">
+<details><habitat> Woods (especially deep woods or forest)
+<frequency> Uncommon
+<number> 1-5 (1)
+<description> Stags are great male deer, boasting large racks of
+antlers. They will sometimes be accompanied by female deer and fawns
+(1-2 per couple). They generally have a tawny coat, but rare specimens
+are black.
+<talents> Stags have no special talents or skills and use neither
+tools nor magic.
+
+<weapons> Stags can attempt to horn with a Base Chance of 30&percnt of doing
+[D + 5] Damage in Close or Melee Combat (possible Rank of 1-4). They
+can kick at a character occupying the hex opposite that they are
+facing in Melee Combat with a Base Chance of 50&percnt of doing [D + 3]
+damage.
+
+<movement>  Running: 750
+<PS> 20-26
+<MD> 19-24  
+<AG> 22-26
+<MA> None
+<EN> 15-20
+<WP> 10-11
+<FT> 20-25  
+<PC> 20-25
+<PB> 12-13
+<TMR> 13
+<NA> Hide absorbs 3 DP
+
+<comments> Stags will be wary of humanoids, but will not flee
+them. Their racks are extremely valuable (worth D10 + 1 per point
+hundreds of Silver Pennies). In addition, their hide will fetch 300
+Silver Pennies (5 times that if the stag is black).
+
+
+</monster>
+
+<monster name="Wooly mammoth (mastodon)">
+<details><habitat> Plains (and sometimes Woods)
+<frequency> Uncommon 
+<number> 1-10 (4)
+
+<description> Mammoths are huge, hairy, evil-tempered elephantine
+animals growing to twice the size of elephants.  Mastodons are
+generally longer and lower to the ground, but otherwise similar to the
+mammoth. Both mammoths and mastodons are four-hex monsters.
+
+<talents> Mammoths possess no talents, skills or magic. They are not
+tool users.
+
+<weapons> Mammoths attack in exactly the same manner as elephants, but
+do 1 additional point of damage per attack.
+
+<movement>  Running: 500
+<PS> 65-80
+<MD> 15-18
+<AG> 10-12
+<MA> None
+<EN> 50-60
+<FT> 55-65
+<WP> 10-14
+<PC> 10-12
+<PB> 5-7
+<TMR> 10
+<NA> Hide absorbs 6 DP
+
+<comments> Mammoths tend to be more irritable than elephants and will
+be quicker to attack, but are otherwise similar. Their tusks are
+valued the same as elephant tusks, but weigh only 50-80 pounds each.
+
+</monster>
+</class>
+
+<class name="Small Land Mammals">
+
+<monster name="Dingo">
+<details><habitat> Plains, Waste, Woods
+<frequency> Common
+<number> 1-12 (6)
+
+<description> Dingoes are wild dogs, usually between 2 and 3 feet in
+length and sometimes marked in the same manner as jackals. The
+characteristics of dingoes are the same for all types of dogs, though,
+unlike dingoes, other types may be trained and sold without
+restriction (since they do not have the savage nature of wild dogs).
+
+<talents> Dingoes have no special talents or skills and do not use
+magic or tools.
+
+<weapons> Dingoes may bite in Close Combat with a Base Chance of
+65&percnt of doing [D - 4] Damage. They may not otherwise attack.
+
+<movement>  Running: 350
+
+<PS> 6-10
+<MD> 15-20
+<AG> 16-20
+<MA> None
+<EN> 5-10
+<FT> 10-15  
+<WP> 6-10
+<PC> 18-22
+<PB> 10-14
+<TMR> 7
+<NA> Fur absorbs 2 DP
+
+<comments> Dingoes hunt in packs. They will usually refrain from
+attacking humanoids unless they catch an individual alone and are
+hungry. They can be rapped and the pups are trainable, but they cannot
+be sold to an individual who was not present at their training.
+
+</monster>
+
+<monster name="Hyena">
+
+<details><habitat> Plains
+<frequency> Common Common
+<number> 1-10 (6)
+<description> Hyenas are light brown, snub-snouted animals about 4
+feet in length. Their hides are specked with large dark brown
+rings. They have short tails and rounded ears. The forelegs of a hyena
+are longer than the rear legs, so when the animal stands, it seems to
+slope downward from its shoulders to its tail.  At night, hyenas can
+be recognized by their barking howl.
+
+<talents> Hyena have no special talents or skills. They do not use
+tools or magic.
+
+<weapons> Hyenas can only attack in Close Combat and then they bite
+with a Base Chance of 60&percnt of doing [D - 1] damage.
+
+<movement> Running: 300
+
+<PS> 6-8
+<MD> 19-21
+<AG> 22-24
+<MA> None
+<EN> 7-9
+<FT> 11-13  
+<WP> 8-10
+<PC> 19-23
+<PB> 6-8
+<TMR> 7
+<NA> Hide absorbs 3 DP
+<comments> Hyenas are mainly scavengers, preying on the remains of
+carcases left by the great cats and other hunters.
+
+</monster>
+
+<monster name="Jackal">
+<details><habitat> Plains
+<frequency> Common
+<number>  1-8 (2)
+
+<description> A jackal looks like a cross between a fox and a wolf,
+has a speckled grey and brown coat, and is about 3 feet long.
+
+<talents> A jackal has no special talents or skills and does not use
+tools or magic.
+
+<weapons> Jackals can only attack in Close Combat. Their bite has a
+Base Chance of 60&percnt of doing [D - 2] damage.
+
+<movement>  Running: 300
+<PS> 5-7
+<MD> 18-20
+<AG> 22-24
+<MA> None
+<EN> 6-8
+<FT> 9-12
+<WP> 7-9
+<PC> 20-23
+<PB> 7-9
+<TMR> 6
+<NA> Fur absorbs 2 DP
+
+<comments> Jackals, like hyenas, are scavengers, and are none too
+courageous. They are curious, and will occasionally raid a human camp
+searching for food, but they will run at the first sign of danger.
+
+</monster>
+
+<monster name="Mongoose">
+<details><habitat> Woods, Rough, Marsh
+<frequency> Common
+<number> 1-20 (6)
+
+<description> Mongooses have light gray fur and grow to a length of
+about two feet. They are very common rodents in some parts of the
+world, and are valued as snake-killers.
+
+<talents> Mongooses have no special skills or talents. They are not
+tool or magic users.
+
+<weapons> Mongooses get one bite in Cloie Combat at a Base Chance of
+80&percnt of doing [D - 6] Damage.
+
+
+<movement> Running: 400
+
+<PS> 2-3
+<MD> 26-32
+<AG> 26-32
+<MA> None
+<EN> 4-6
+<FT> 6-8  
+<WP> 18-20
+<PC> 20-24
+<PB> 10-12
+<TMR> 8
+<NA> None
+<comments> Mongooses are especially valued as house pets and a
+mongoose which is trained to remain in the vicinity of a dwelling (and
+protect against snakes, especially cobras) will fetch 300-400 Silver
+Pennies. They are relatively easy to train for this task.
+
+</monster>
+
+<monster name="Rat">
+<details><habitat> Caverns, Ruins, Crypts
+<frequency> Common
+<number> 1-100 (12)
+
+<description> Usually about eight inches long, these animals can be
+any combination of shades of black, white, or brown. Some larger
+strains of rats can grow to 18 inches (with corresponding increase in
+the damage they can do and their Base Chance of biting during Close
+Combat - see below).
+
+<talents> Rats have no special talents, skills, or magical abilities.
+
+<weapons> Rats have a Base Chance of 75&percnt of doing [D - 7] damage in
+Close Combat. They cannot attack in Melee Combat.
+
+<movement>  Running: 100
+<PS> 4-6
+<MD> 15-20
+<AG> 15-20
+<MA> None
+<EN> 1-2  
+<FT> 2-3
+<WP> 8-16
+<PC> 17-20
+<PB> 4-8
+<TMR> 2
+<NA> None
+
+<comments> Rats are not tool-users, but they can dig holes and gnaw
+through substances as hard as sandstone and lead, given enough
+time. When in combat they tend to head for the eyes and other
+unprotected areas, so the armor protection Rating of characters
+defending against rats should be reduced by three or four points. A
+character has a 10&percnt chance of contracting a disease if he is in
+contact with rats for any period of time. If a character is bitten by
+a rat, increase chance of infection by 20.
+
+</monster>
+
+<monster name="Weasel">
+<details><habitat> Woods
+<frequency> Uncommon
+<number> 1-2 (1)
+
+<description> Weasels have a brown coat during the summer, which turns
+white as winter approaches. They are slim, and utterly vicious.  The
+pelts of weasels taken during winter are worth 40-70 Silver Pennies
+each.
+
+
+<talents> Weasels are the only animals which can stand the gaze and
+breath of the basilisk, and thus they are often trained to kill
+them. They are, however, difficult to train and a trained Basilisk
+killer is worth 4,000-6,000 Silver Pennies. Other than this special
+ability, weasels have no talents or skills. They use neither tools nor
+magic.
+
+<weapons> Weasels may only attack in Close Combat by biting.  Bite has
+a Base Chance of 75&percnt of doing [D + 4] damage.
+
+<movement> Running: 250
+<PS> 1-2
+<MD> 19-23
+<AG> 25-29
+<MA> None
+<EN> 1-2
+<FT> 3-4
+<WP> 18-23
+<PC> 17-23
+<TMR> 5
+<PB> 10-13
+<NA> Fur absorbs 1 DP
+
+<comments> Weasels are very curious, and they are thus fairly easy to
+trap. If a pair of weasels is found in spring, there is a
+80&percnt chance they will be accompanied by 4-8 young. Weasels are
+bloodthirsty, and will gladly take on much larger creatures.
+
+</monster>
+
+<monster name="Wolf">
+  <details>
+<habitat> Woods
+<frequency> Uncommon
+<number> 2-24 (6)
+
+<description> The color of wolves' fur varies greatly with
+environment, but they will usually be colored so as to blend in with
+their surroundings. The thickness of the fur depends on the season.
+
+<talents> Wolves have no skills, talents or magical abilities and are
+not tool users. Wolves have incredible stamina, however, and can run
+for literally days at a time.
+
+<weapons> Wolves Melee Attack with their bite. (Base Chance of
+60&percnt, [D + 1] Damage). In Close Combat, damage from biting goes
+up to [D + 3].
+
+<movement> All-out Run: 400; Steady Run: 250
+
+<PS> 10-12   
+<MD> 18-20
+<AG> 18-20
+<MA> None
+<EN> 15-20
+<FT> 30-35  
+<WP> 18-22
+<PC> 20-24
+<PB> 6-9
+<TMR> 8
+<NA> Fur absorbs 3 DP
+
+<comments> Wolves travel in packs, although lone wolves can
+occasionally be found. During the spring, a wolf's lair will be
+occupied by from 3-12 cubs per female in the pack.
+
+</monster>
+</class>
+</group>

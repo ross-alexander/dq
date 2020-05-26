@@ -1,0 +1,4257 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<svg contentScriptType="text/ecmascript" width="576.0"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css" height="1584.0"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.0">
+    <g id="Page-1" style="font-family:sanserif;font-size:12"
+       transform="translate(0,0.0)">
+        <rect width="576.0" x="0.0" height="792.0" y="0.0"
+              style="fill:none;stroke:black"/>
+        <text x="108.518" y="87.79999" style="font-family:Times;font-size:18.0">
+            Avians
+        </text>
+        <text x="81.121" y="106.0" style="font-family:Times;font-size:14.0">
+            Common
+        </text>
+        <text x="149.021" y="106.0" style="font-family:Times;font-size:14.0">
+            Avians
+        </text>
+        <text x="72.0" y="118.29999" style="font-size:9.0;fill:rgb(255,0,0)">
+            Common
+        </text>
+        <text x="115.658" y="118.29999" style="font-size:9.0;fill:rgb(255,0,0)">
+            avians
+        </text>
+        <text x="147.015" y="118.29999" style="font-size:9.0;fill:rgb(255,0,0)">
+            include
+        </text>
+        <text x="72.0" y="129.09998" style="font-size:9.0;fill:rgb(255,0,0)">
+            buzzards,
+        </text>
+        <text x="119.303" y="129.09998" style="font-size:9.0;fill:rgb(255,0,0)">
+            eagles,
+        </text>
+        <text x="153.933" y="129.09998" style="font-size:9.0;fill:rgb(255,0,0)">
+            goshawks,
+        </text>
+        <text x="72.0" y="139.90002" style="font-size:9.0;fill:rgb(255,0,0)">
+            owls.
+        </text>
+        <rect width="132.0" x="72.0" height="-16.0" y="152.79999"
+              style="stroke:rgb(0,0,255);fill:rgb(0,0,255)"/>
+        <text x="117.342" y="162.79999"
+              style="font-family:Times;font-size:10.0;font-weight:bold">
+            Buzzard
+        </text>
+        <text x="72.0" y="180.70001" style="font-size:9.0;font-weight:bold">
+            Description:
+        </text>
+        <text x="141.899" y="180.70001" style="font-size:9.0">
+            These
+        </text>
+        <text x="181.801" y="180.70001" style="font-size:9.0">
+            birds
+        </text>
+        <text x="72.0" y="191.5" style="font-size:9.0">
+            have
+        </text>
+        <text x="98.412" y="191.5" style="font-size:9.0">
+            dark
+        </text>
+        <text x="124.173" y="191.5" style="font-size:9.0">
+            brown
+        </text>
+        <text x="157.751" y="191.5" style="font-size:9.0">
+            plummage
+        </text>
+        <text x="72.0" y="202.29999" style="font-size:9.0">
+            and
+        </text>
+        <text x="94.203" y="202.29999" style="font-size:9.0">
+            thin,
+        </text>
+        <text x="120.171" y="202.29999" style="font-size:9.0">
+            unfeathered
+        </text>
+        <text x="178.943" y="202.29999" style="font-size:9.0">
+            necks
+        </text>
+        <text x="72.0" y="213.09998" style="font-size:9.0">
+            of
+        </text>
+        <text x="90.473" y="213.09998" style="font-size:9.0">
+            a
+        </text>
+        <text x="105.079" y="213.09998" style="font-size:9.0">
+            tannish
+        </text>
+        <text x="146.994" y="213.09998" style="font-size:9.0">
+            color.
+        </text>
+        <text x="181.425" y="213.09998" style="font-size:9.0">
+            Their
+        </text>
+        <text x="72.0" y="223.90002" style="font-size:9.0">
+            beaks
+        </text>
+        <text x="115.333" y="223.90002" style="font-size:9.0">
+            are
+        </text>
+        <text x="146.837" y="223.90002" style="font-size:9.0">
+            black
+        </text>
+        <text x="187.779" y="223.90002" style="font-size:9.0">
+            and
+        </text>
+        <text x="72.0" y="234.70001" style="font-size:9.0">
+            snub-tipped.
+        </text>
+        <text x="137.243" y="234.70001" style="font-size:9.0">
+            They
+        </text>
+        <text x="166.029" y="234.70001" style="font-size:9.0">
+            prey
+        </text>
+        <text x="192.886" y="234.70001" style="font-size:9.0">
+            on
+        </text>
+        <text x="72.0" y="245.5" style="font-size:9.0">
+            the
+        </text>
+        <text x="97.543" y="245.5" style="font-size:9.0">
+            dead
+        </text>
+        <text x="130.433" y="245.5" style="font-size:9.0">
+            and
+        </text>
+        <text x="158.23" y="245.5" style="font-size:9.0">
+            near-dead
+        </text>
+        <text x="72.0" y="256.3" style="font-size:9.0">
+            (espcially
+        </text>
+        <text x="116.261" y="256.3" style="font-size:9.0">
+            if
+        </text>
+        <text x="126.157" y="256.3" style="font-size:9.0">
+            unconscious).
+        </text>
+        <text x="72.0" y="267.09998" style="font-size:9.0;font-weight:bold">
+            Talents:
+        </text>
+        <text x="117.235" y="267.09998" style="font-size:9.0">
+            Buzzards
+        </text>
+        <text x="165.719" y="267.09998" style="font-size:9.0">
+            can
+        </text>
+        <text x="189.385" y="267.09998" style="font-size:9.0">
+            see
+        </text>
+        <text x="72.0" y="277.90002" style="font-size:9.0">
+            each
+        </text>
+        <text x="98.378" y="277.90002" style="font-size:9.0">
+            other
+        </text>
+        <text x="127.753" y="277.90002" style="font-size:9.0">
+            miles
+        </text>
+        <text x="157.158" y="277.90002" style="font-size:9.0">
+            away,
+        </text>
+        <text x="187.781" y="277.90002" style="font-size:9.0">
+            and
+        </text>
+        <text x="72.0" y="288.7" style="font-size:9.0">
+            thus
+        </text>
+        <text x="103.706" y="288.7" style="font-size:9.0">
+            when
+        </text>
+        <text x="139.407" y="288.7" style="font-size:9.0">
+            one
+        </text>
+        <text x="168.117" y="288.7" style="font-size:9.0">
+            buzzard
+        </text>
+        <text x="72.0" y="299.5" style="font-size:9.0">
+            descends
+        </text>
+        <text x="118.271" y="299.5" style="font-size:9.0">
+            for
+        </text>
+        <text x="136.337" y="299.5" style="font-size:9.0">
+            a
+        </text>
+        <text x="146.854" y="299.5" style="font-size:9.0">
+            meal,
+        </text>
+        <text x="176.235" y="299.5" style="font-size:9.0">
+            others
+        </text>
+        <text x="72.0" y="310.3" style="font-size:9.0">
+            soon
+        </text>
+        <text x="98.13" y="310.3" style="font-size:9.0">
+            follow.
+        </text>
+        <text x="132.38" y="310.3" style="font-size:9.0">
+            Except
+        </text>
+        <text x="166.331" y="310.3" style="font-size:9.0">
+            for
+        </text>
+        <text x="183.752" y="310.3" style="font-size:9.0">
+            their
+        </text>
+        <text x="72.0" y="321.1" style="font-size:9.0">
+            keen
+        </text>
+        <text x="108.538" y="321.1" style="font-size:9.0">
+            eyesight,
+        </text>
+        <text x="163.53" y="321.1" style="font-size:9.0">
+            buzzards
+        </text>
+        <text x="72.0" y="331.9" style="font-size:9.0">
+            possess
+        </text>
+        <text x="114.537" y="331.9" style="font-size:9.0">
+            no
+        </text>
+        <text x="133.633" y="331.9" style="font-size:9.0">
+            special
+        </text>
+        <text x="171.662" y="331.9" style="font-size:9.0">
+            talents,
+        </text>
+        <text x="72.0" y="342.7" style="font-size:9.0">
+            skills
+        </text>
+        <text x="98.712" y="342.7" style="font-size:9.0">
+            or
+        </text>
+        <text x="112.397" y="342.7" style="font-size:9.0">
+            magic.
+        </text>
+        <text x="145.912" y="342.7" style="font-size:9.0">
+            They
+        </text>
+        <text x="171.378" y="342.7" style="font-size:9.0">
+            are
+        </text>
+        <text x="189.519" y="342.7" style="font-size:9.0">
+            not
+        </text>
+        <text x="72.0" y="353.5" style="font-size:9.0">
+            tool
+        </text>
+        <text x="93.009" y="353.5" style="font-size:9.0">
+            users.
+        </text>
+        <text x="72.0" y="364.3" style="font-size:9.0;font-weight:bold">
+            Weapons:
+        </text>
+        <text x="120.79" y="364.3" style="font-size:9.0">
+            A
+        </text>
+        <text x="131.993" y="364.3" style="font-size:9.0">
+            buzzard
+        </text>
+        <text x="172.87" y="364.3" style="font-size:9.0">
+            attacks
+        </text>
+        <text x="72.0" y="375.1" style="font-size:9.0">
+            in
+        </text>
+        <text x="89.351" y="375.1" style="font-size:9.0">
+            Close
+        </text>
+        <text x="122.473" y="375.1" style="font-size:9.0">
+            Combat
+        </text>
+        <text x="165.795" y="375.1" style="font-size:9.0">
+            with
+        </text>
+        <text x="193.446" y="375.1" style="font-size:9.0">
+            its
+        </text>
+        <text x="72.0" y="385.9" style="font-size:9.0">
+            claws
+        </text>
+        <text x="102.269" y="385.9" style="font-size:9.0">
+            and
+        </text>
+        <text x="125.056" y="385.9" style="font-size:9.0">
+            beak.
+        </text>
+        <text x="155.379" y="385.9" style="font-size:9.0">
+            The
+        </text>
+        <text x="178.236" y="385.9" style="font-size:9.0">
+            claws&apos;
+        </text>
+        <text x="72.0" y="396.7" style="font-size:9.0">
+            Base
+        </text>
+        <text x="96.932" y="396.7" style="font-size:9.0">
+            Chance
+        </text>
+        <text x="134.107" y="396.7" style="font-size:9.0">
+            is
+        </text>
+        <text x="146.48" y="396.7" style="font-size:9.0">
+            45\%,
+        </text>
+        <text x="176.627" y="396.7" style="font-size:9.0">
+            for
+        </text>
+        <text x="194.331" y="396.7" style="font-size:9.0">
+            [D
+        </text>
+        <text x="72.0" y="407.5" style="font-size:9.0">
+            -
+        </text>
+        <text x="87.937" y="407.5" style="font-size:9.0">
+            5]
+        </text>
+        <text x="107.283" y="407.5" style="font-size:9.0">
+            Damage,
+        </text>
+        <text x="156.568" y="407.5" style="font-size:9.0">
+            while
+        </text>
+        <text x="190.033" y="407.5" style="font-size:9.0">
+            the
+        </text>
+        <text x="72.0" y="418.3" style="font-size:9.0">
+            bite&apos;
+            s
+        </text>
+        <text x="101.498" y="418.3" style="font-size:9.0">
+            Base
+        </text>
+        <text x="127.45" y="418.3" style="font-size:9.0">
+            Chance
+        </text>
+        <text x="165.645" y="418.3" style="font-size:9.0">
+            is
+        </text>
+        <text x="179.038" y="418.3" style="font-size:9.0">
+            40\%,
+        </text>
+        <text x="72.0" y="429.1" style="font-size:9.0">
+            for
+        </text>
+        <text x="94.764" y="429.1" style="font-size:9.0">
+            [D
+        </text>
+        <text x="114.676" y="429.1" style="font-size:9.0">
+            -
+        </text>
+        <text x="130.128" y="429.1" style="font-size:9.0">
+            6]
+        </text>
+        <text x="148.989" y="429.1" style="font-size:9.0">
+            Damage.
+        </text>
+        <text x="197.789" y="429.1" style="font-size:9.0">
+            A
+        </text>
+        <text x="72.0" y="439.9" style="font-size:9.0">
+            buzzard
+        </text>
+        <text x="118.465" y="439.9" style="font-size:9.0">
+            cannot
+        </text>
+        <text x="158.69" y="439.9" style="font-size:9.0">
+            attack
+        </text>
+        <text x="195.813" y="439.9" style="font-size:9.0">
+            in
+        </text>
+        <text x="72.0" y="450.7" style="font-size:9.0">
+            Melee
+        </text>
+        <text x="101.38" y="450.7" style="font-size:9.0">
+            Combat.
+        </text>
+        <rect width="132.0" x="72.0" height="-16.0" y="463.6"
+              style="stroke:rgb(0,0,255);fill:rgb(0,0,255)"/>
+        <text x="124.788" y="473.6"
+              style="font-family:Times;font-size:10.0;font-weight:bold">
+            Eagle
+        </text>
+        <text x="72.0" y="491.5" style="font-size:9.0;font-weight:bold">
+            Description:
+        </text>
+        <text x="140.346" y="491.5" style="font-size:9.0">
+            Great
+        </text>
+        <text x="176.34" y="491.5" style="font-size:9.0">
+            Eagles
+        </text>
+        <text x="72.0" y="502.3" style="font-size:9.0">
+            are
+        </text>
+        <text x="91.573" y="502.3" style="font-size:9.0">
+            the
+        </text>
+        <text x="111.445" y="502.3" style="font-size:9.0">
+            largest
+        </text>
+        <text x="147.183" y="502.3" style="font-size:9.0">
+            of
+        </text>
+        <text x="161.927" y="502.3" style="font-size:9.0">
+            the
+        </text>
+        <text x="181.799" y="502.3" style="font-size:9.0">
+            birds
+        </text>
+        <text x="72.0" y="513.1" style="font-size:9.0">
+            of
+        </text>
+        <text x="94.603" y="513.1" style="font-size:9.0">
+            prey.
+        </text>
+        <text x="130.278" y="513.1" style="font-size:9.0">
+            They
+        </text>
+        <text x="165.035" y="513.1" style="font-size:9.0">
+            have
+        </text>
+        <text x="199.028" y="513.1" style="font-size:9.0">
+            a
+        </text>
+        <text x="72.0" y="523.9" style="font-size:9.0">
+            wingspan
+        </text>
+        <text x="117.94" y="523.9" style="font-size:9.0">
+            of
+        </text>
+        <text x="131.18" y="523.9" style="font-size:9.0">
+            7
+        </text>
+        <text x="141.273" y="523.9" style="font-size:9.0">
+            feet
+        </text>
+        <text x="162.379" y="523.9" style="font-size:9.0">
+            when
+        </text>
+        <text x="189.9" y="523.9" style="font-size:9.0">
+            full
+        </text>
+        <text x="72.0" y="534.7" style="font-size:9.0">
+            grown.
+        </text>
+        <text x="112.203" y="534.7" style="font-size:9.0">
+            Their
+        </text>
+        <text x="144.791" y="534.7" style="font-size:9.0">
+            feathers
+        </text>
+        <text x="190.334" y="534.7" style="font-size:9.0">
+            are
+        </text>
+        <text x="72.0" y="545.5" style="font-size:9.0">
+            gray
+        </text>
+        <text x="95.002" y="545.5" style="font-size:9.0">
+            except
+        </text>
+        <text x="128.225" y="545.5" style="font-size:9.0">
+            around
+        </text>
+        <text x="163.276" y="545.5" style="font-size:9.0">
+            neck
+        </text>
+        <text x="187.781" y="545.5" style="font-size:9.0">
+            and
+        </text>
+        <text x="72.0" y="556.3" style="font-size:9.0">
+            head
+        </text>
+        <text x="97.219" y="556.3" style="font-size:9.0">
+            (which
+        </text>
+        <text x="129.445" y="556.3" style="font-size:9.0">
+            is
+        </text>
+        <text x="140.619" y="556.3" style="font-size:9.0">
+            white).
+        </text>
+        <text x="72.0" y="567.1" style="font-size:9.0;font-weight:bold">
+            Talents:
+        </text>
+        <text x="120.822" y="567.1" style="font-size:9.0">
+            Eagles
+        </text>
+        <text x="160.571" y="567.1" style="font-size:9.0">
+            have
+        </text>
+        <text x="192.887" y="567.1" style="font-size:9.0">
+            no
+        </text>
+        <text x="72.0" y="577.9" style="font-size:9.0">
+            special
+        </text>
+        <text x="106.341" y="577.9" style="font-size:9.0">
+            talents
+        </text>
+        <text x="140.125" y="577.9" style="font-size:9.0">
+            or
+        </text>
+        <text x="153.63" y="577.9" style="font-size:9.0">
+            skills.
+        </text>
+        <text x="183.009" y="577.9" style="font-size:9.0">
+            They
+        </text>
+        <text x="72.0" y="588.7" style="font-size:9.0">
+            are
+        </text>
+        <text x="91.025" y="588.7" style="font-size:9.0">
+            not
+        </text>
+        <text x="110.863" y="588.7" style="font-size:9.0">
+            magic
+        </text>
+        <text x="142.415" y="588.7" style="font-size:9.0">
+            users
+        </text>
+        <text x="171.229" y="588.7" style="font-size:9.0">
+            and
+        </text>
+        <text x="192.807" y="588.7" style="font-size:9.0">
+            do
+        </text>
+        <text x="72.0" y="599.5" style="font-size:9.0">
+            not
+        </text>
+        <text x="91.572" y="599.5" style="font-size:9.0">
+            use
+        </text>
+        <text x="111.851" y="599.5" style="font-size:9.0">
+            tools.
+        </text>
+        <text x="141.401" y="599.5" style="font-size:9.0">
+            They
+        </text>
+        <text x="167.485" y="599.5" style="font-size:9.0">
+            do
+        </text>
+        <text x="183.77" y="599.5" style="font-size:9.0">
+            have
+        </text>
+        <text x="72.0" y="610.3" style="font-size:9.0">
+            keen
+        </text>
+        <text x="96.859" y="610.3" style="font-size:9.0">
+            eyesight.
+        </text>
+        <text x="72.0" y="621.1" style="font-size:9.0;font-weight:bold">
+            Weapons:
+        </text>
+        <text x="122.075" y="621.1" style="font-size:9.0">
+            Eagles
+        </text>
+        <text x="156.014" y="621.1" style="font-size:9.0">
+            can
+        </text>
+        <text x="177.457" y="621.1" style="font-size:9.0">
+            attack
+        </text>
+        <text x="72.0" y="631.9" style="font-size:9.0">
+            only
+        </text>
+        <text x="97.615" y="631.9" style="font-size:9.0">
+            in
+        </text>
+        <text x="113.0" y="631.9" style="font-size:9.0">
+            Close
+        </text>
+        <text x="144.156" y="631.9" style="font-size:9.0">
+            Combat
+        </text>
+        <text x="185.512" y="631.9" style="font-size:9.0">
+            with
+        </text>
+        <text x="72.0" y="642.7" style="font-size:9.0">
+            either
+        </text>
+        <text x="102.844" y="642.7" style="font-size:9.0">
+            beak
+        </text>
+        <text x="129.334" y="642.7" style="font-size:9.0">
+            (Base
+        </text>
+        <text x="157.589" y="642.7" style="font-size:9.0">
+            Chance
+        </text>
+        <text x="195.161" y="642.7" style="font-size:9.0">
+            of
+        </text>
+        <text x="72.0" y="653.5" style="font-size:9.0">
+            50\%
+        </text>
+        <text x="104.628" y="653.5" style="font-size:9.0">
+            of
+        </text>
+        <text x="123.978" y="653.5" style="font-size:9.0">
+            doing
+        </text>
+        <text x="159.48" y="653.5" style="font-size:9.0">
+            [D
+        </text>
+        <text x="179.66" y="653.5" style="font-size:9.0">
+            -
+        </text>
+        <text x="195.38" y="653.5" style="font-size:9.0">
+            1]
+        </text>
+        <text x="72.0" y="664.3" style="font-size:9.0">
+            Damage)
+        </text>
+        <text x="117.923" y="664.3" style="font-size:9.0">
+            or
+        </text>
+        <text x="134.422" y="664.3" style="font-size:9.0">
+            2
+        </text>
+        <text x="147.401" y="664.3" style="font-size:9.0">
+            talons
+        </text>
+        <text x="181.327" y="664.3" style="font-size:9.0">
+            (Base
+        </text>
+        <text x="72.0" y="675.1" style="font-size:9.0">
+            Chance
+        </text>
+        <text x="109.103" y="675.1" style="font-size:9.0">
+            of
+        </text>
+        <text x="123.053" y="675.1" style="font-size:9.0">
+            70\%
+        </text>
+        <text x="150.281" y="675.1" style="font-size:9.0">
+            of
+        </text>
+        <text x="164.231" y="675.1" style="font-size:9.0">
+            doing
+        </text>
+        <text x="194.333" y="675.1" style="font-size:9.0">
+            [D
+        </text>
+        <text x="72.0" y="685.9" style="font-size:9.0">
+            +
+        </text>
+        <text x="94.031" y="685.9" style="font-size:9.0">
+            1]
+        </text>
+        <text x="117.524" y="685.9" style="font-size:9.0">
+            Damage)
+        </text>
+        <text x="171.035" y="685.9" style="font-size:9.0">
+            without
+        </text>
+        <text x="72.0" y="696.7" style="font-size:9.0">
+            penalty
+        </text>
+        <text x="111.243" y="696.7" style="font-size:9.0">
+            in
+        </text>
+        <text x="126.77" y="696.7" style="font-size:9.0">
+            the
+        </text>
+        <text x="148.076" y="696.7" style="font-size:9.0">
+            same
+        </text>
+        <text x="178.39" y="696.7" style="font-size:9.0">
+            Pulse.
+        </text>
+        <text x="72.0" y="707.5" style="font-size:9.0">
+            An
+        </text>
+        <text x="88.888" y="707.5" style="font-size:9.0">
+            eagle
+        </text>
+        <text x="117.192" y="707.5" style="font-size:9.0">
+            may
+        </text>
+        <text x="140.36" y="707.5" style="font-size:9.0">
+            achieve
+        </text>
+        <text x="177.905" y="707.5" style="font-size:9.0">
+            Ranks
+        </text>
+        <text x="222.0" y="79.900024" style="font-size:9.0">
+            1-3
+        </text>
+        <text x="243.532" y="79.900024" style="font-size:9.0">
+            with
+        </text>
+        <text x="266.963" y="79.900024" style="font-size:9.0">
+            beak
+        </text>
+        <text x="292.816" y="79.900024" style="font-size:9.0">
+            and
+        </text>
+        <text x="313.98" y="79.900024" style="font-size:9.0">
+            1-2
+        </text>
+        <text x="335.512" y="79.900024" style="font-size:9.0">
+            with
+        </text>
+        <text x="222.0" y="90.70001" style="font-size:9.0">
+            talons.
+        </text>
+        <rect width="132.0" x="222.0" height="-16.0" y="103.599976"
+              style="stroke:rgb(0,0,255);fill:rgb(0,0,255)"/>
+        <text x="264.808" y="113.599976"
+              style="font-family:Times;font-size:10.0;font-weight:bold">
+            Goshawk
+        </text>
+        <text x="222.0" y="131.5" style="font-size:9.0;font-weight:bold">
+            Description:
+        </text>
+        <text x="287.133" y="131.5" style="font-size:9.0">
+            Goshawks
+        </text>
+        <text x="340.333" y="131.5" style="font-size:9.0">
+            are
+        </text>
+        <text x="222.0" y="142.29999" style="font-size:9.0">
+            the
+        </text>
+        <text x="244.769" y="142.29999" style="font-size:9.0">
+            largest
+        </text>
+        <text x="283.404" y="142.29999" style="font-size:9.0">
+            of
+        </text>
+        <text x="301.045" y="142.29999" style="font-size:9.0">
+            the
+        </text>
+        <text x="323.814" y="142.29999" style="font-size:9.0">
+            hawks.
+        </text>
+        <text x="222.0" y="153.09998" style="font-size:9.0">
+            They
+        </text>
+        <text x="249.315" y="153.09998" style="font-size:9.0">
+            are
+        </text>
+        <text x="269.305" y="153.09998" style="font-size:9.0">
+            almost
+        </text>
+        <text x="305.083" y="153.09998" style="font-size:9.0">
+            20
+        </text>
+        <text x="322.787" y="153.09998" style="font-size:9.0">
+            feet
+        </text>
+        <text x="345.814" y="153.09998" style="font-size:9.0">
+            in
+        </text>
+        <text x="222.0" y="163.90002" style="font-size:9.0">
+            length.
+        </text>
+        <text x="261.551" y="163.90002" style="font-size:9.0">
+            The
+        </text>
+        <text x="286.782" y="163.90002" style="font-size:9.0">
+            feathers
+        </text>
+        <text x="331.251" y="163.90002" style="font-size:9.0">
+            of
+        </text>
+        <text x="349.03" y="163.90002" style="font-size:9.0">
+            a
+        </text>
+        <text x="222.0" y="174.70001" style="font-size:9.0">
+            goshawk
+        </text>
+        <text x="280.952" y="174.70001" style="font-size:9.0">
+            are
+        </text>
+        <text x="315.095" y="174.70001" style="font-size:9.0">
+            primarily
+        </text>
+        <text x="222.0" y="185.5" style="font-size:9.0">
+            brown,
+        </text>
+        <text x="257.538" y="185.5" style="font-size:9.0">
+            although
+        </text>
+        <text x="301.667" y="185.5" style="font-size:9.0">
+            the
+        </text>
+        <text x="320.93" y="185.5" style="font-size:9.0">
+            belly
+        </text>
+        <text x="346.81" y="185.5" style="font-size:9.0">
+            is
+        </text>
+        <text x="222.0" y="196.29999" style="font-size:9.0">
+            pure
+        </text>
+        <text x="247.145" y="196.29999" style="font-size:9.0">
+            white
+        </text>
+        <text x="275.845" y="196.29999" style="font-size:9.0">
+            and
+        </text>
+        <text x="297.264" y="196.29999" style="font-size:9.0">
+            some
+        </text>
+        <text x="325.995" y="196.29999" style="font-size:9.0">
+            of
+        </text>
+        <text x="340.032" y="196.29999" style="font-size:9.0">
+            the
+        </text>
+        <text x="222.0" y="207.09998" style="font-size:9.0">
+            tail
+        </text>
+        <text x="242.295" y="207.09998" style="font-size:9.0">
+            feathers
+        </text>
+        <text x="284.579" y="207.09998" style="font-size:9.0">
+            are
+        </text>
+        <text x="305.002" y="207.09998" style="font-size:9.0">
+            black.
+        </text>
+        <text x="337.71" y="207.09998" style="font-size:9.0">
+            The
+        </text>
+        <text x="222.0" y="217.90002" style="font-size:9.0">
+            sharp
+        </text>
+        <text x="254.742" y="217.90002" style="font-size:9.0">
+            beak
+        </text>
+        <text x="283.904" y="217.90002" style="font-size:9.0">
+            and
+        </text>
+        <text x="308.377" y="217.90002" style="font-size:9.0">
+            claws
+        </text>
+        <text x="340.332" y="217.90002" style="font-size:9.0">
+            are
+        </text>
+        <text x="222.0" y="228.70001" style="font-size:9.0">
+            black.
+        </text>
+        <text x="222.0" y="239.5" style="font-size:9.0;font-weight:bold">
+            Talents:
+        </text>
+        <text x="269.024" y="239.5" style="font-size:9.0">
+            Other
+        </text>
+        <text x="303.953" y="239.5" style="font-size:9.0">
+            than
+        </text>
+        <text x="333.75" y="239.5" style="font-size:9.0">
+            their
+        </text>
+        <text x="222.0" y="250.29999" style="font-size:9.0">
+            excellent
+        </text>
+        <text x="266.467" y="250.29999" style="font-size:9.0">
+            eyesight,
+        </text>
+        <text x="310.938" y="250.29999" style="font-size:9.0">
+            goshawks
+        </text>
+        <text x="222.0" y="261.09998" style="font-size:9.0">
+            have
+        </text>
+        <text x="254.986" y="261.09998" style="font-size:9.0">
+            no
+        </text>
+        <text x="278.858" y="261.09998" style="font-size:9.0">
+            special
+        </text>
+        <text x="321.663" y="261.09998" style="font-size:9.0">
+            talents,
+        </text>
+        <text x="222.0" y="271.90002" style="font-size:9.0">
+            skills,
+        </text>
+        <text x="257.063" y="271.90002" style="font-size:9.0">
+            or
+        </text>
+        <text x="276.252" y="271.90002" style="font-size:9.0">
+            magical
+        </text>
+        <text x="319.995" y="271.90002" style="font-size:9.0">
+            abilities
+        </text>
+        <text x="222.0" y="282.7" style="font-size:9.0">
+            and
+        </text>
+        <text x="242.205" y="282.7" style="font-size:9.0">
+            are
+        </text>
+        <text x="259.857" y="282.7" style="font-size:9.0">
+            not
+        </text>
+        <text x="278.322" y="282.7" style="font-size:9.0">
+            tool
+        </text>
+        <text x="299.331" y="282.7" style="font-size:9.0">
+            users.
+        </text>
+        <text x="222.0" y="293.5" style="font-size:9.0;font-weight:bold">
+            Weapons:
+        </text>
+        <text x="272.151" y="293.5" style="font-size:9.0">
+            In
+        </text>
+        <text x="286.683" y="293.5" style="font-size:9.0">
+            Close
+        </text>
+        <text x="316.995" y="293.5" style="font-size:9.0">
+            Combat,
+        </text>
+        <text x="222.0" y="304.3" style="font-size:9.0">
+            a
+        </text>
+        <text x="233.838" y="304.3" style="font-size:9.0">
+            Goshawk
+        </text>
+        <text x="280.073" y="304.3" style="font-size:9.0">
+            can
+        </text>
+        <text x="302.105" y="304.3" style="font-size:9.0">
+            attack
+        </text>
+        <text x="335.514" y="304.3" style="font-size:9.0">
+            with
+        </text>
+        <text x="222.0" y="315.1" style="font-size:9.0">
+            two
+        </text>
+        <text x="245.148" y="315.1" style="font-size:9.0">
+            claws
+        </text>
+        <text x="276.169" y="315.1" style="font-size:9.0">
+            and
+        </text>
+        <text x="299.708" y="315.1" style="font-size:9.0">
+            its
+        </text>
+        <text x="317.582" y="315.1" style="font-size:9.0">
+            beak
+        </text>
+        <text x="345.81" y="315.1" style="font-size:9.0">
+            in
+        </text>
+        <text x="222.0" y="325.9" style="font-size:9.0">
+            the
+        </text>
+        <text x="249.077" y="325.9" style="font-size:9.0">
+            same
+        </text>
+        <text x="285.162" y="325.9" style="font-size:9.0">
+            Pulse
+        </text>
+        <text x="321.035" y="325.9" style="font-size:9.0">
+            without
+        </text>
+        <text x="222.0" y="336.7" style="font-size:9.0">
+            penalty.
+        </text>
+        <text x="266.989" y="336.7" style="font-size:9.0">
+            The
+        </text>
+        <text x="293.518" y="336.7" style="font-size:9.0">
+            claw
+        </text>
+        <text x="322.872" y="336.7" style="font-size:9.0">
+            attacks
+        </text>
+        <text x="222.0" y="347.5" style="font-size:9.0">
+            have
+        </text>
+        <text x="247.049" y="347.5" style="font-size:9.0">
+            a
+        </text>
+        <text x="256.841" y="347.5" style="font-size:9.0">
+            Base
+        </text>
+        <text x="281.41" y="347.5" style="font-size:9.0">
+            Chance
+        </text>
+        <text x="318.222" y="347.5" style="font-size:9.0">
+            of
+        </text>
+        <text x="331.881" y="347.5" style="font-size:9.0">
+            80\%
+        </text>
+        <text x="222.0" y="358.3" style="font-size:9.0">
+            and
+        </text>
+        <text x="246.727" y="358.3" style="font-size:9.0">
+            do
+        </text>
+        <text x="266.427" y="358.3" style="font-size:9.0">
+            [D
+        </text>
+        <text x="284.602" y="358.3" style="font-size:9.0">
+            -
+        </text>
+        <text x="298.317" y="358.3" style="font-size:9.0">
+            3]
+        </text>
+        <text x="315.441" y="358.3" style="font-size:9.0">
+            Damage,
+        </text>
+        <text x="222.0" y="369.1" style="font-size:9.0">
+            while
+        </text>
+        <text x="250.282" y="369.1" style="font-size:9.0">
+            the
+        </text>
+        <text x="269.794" y="369.1" style="font-size:9.0">
+            beak
+        </text>
+        <text x="296.249" y="369.1" style="font-size:9.0">
+            attack
+        </text>
+        <text x="328.337" y="369.1" style="font-size:9.0">
+            has
+        </text>
+        <text x="349.026" y="369.1" style="font-size:9.0">
+            a
+        </text>
+        <text x="222.0" y="379.9" style="font-size:9.0">
+            Base
+        </text>
+        <text x="250.02" y="379.9" style="font-size:9.0">
+            Chance
+        </text>
+        <text x="290.283" y="379.9" style="font-size:9.0">
+            of
+        </text>
+        <text x="307.393" y="379.9" style="font-size:9.0">
+            65\%
+        </text>
+        <text x="337.781" y="379.9" style="font-size:9.0">
+            and
+        </text>
+        <text x="222.0" y="390.7" style="font-size:9.0">
+            does
+        </text>
+        <text x="249.367" y="390.7" style="font-size:9.0">
+            [D
+        </text>
+        <text x="265.608" y="390.7" style="font-size:9.0">
+            -
+        </text>
+        <text x="277.389" y="390.7" style="font-size:9.0">
+            4]
+        </text>
+        <text x="292.579" y="390.7" style="font-size:9.0">
+            Damage.
+        </text>
+        <text x="337.708" y="390.7" style="font-size:9.0">
+            The
+        </text>
+        <text x="222.0" y="401.5" style="font-size:9.0">
+            goshawk
+        </text>
+        <text x="270.193" y="401.5" style="font-size:9.0">
+            cannot
+        </text>
+        <text x="309.554" y="401.5" style="font-size:9.0">
+            attack
+        </text>
+        <text x="345.813" y="401.5" style="font-size:9.0">
+            in
+        </text>
+        <text x="222.0" y="412.3" style="font-size:9.0">
+            Melee
+        </text>
+        <text x="251.38" y="412.3" style="font-size:9.0">
+            Combat.
+        </text>
+        <rect width="132.0" x="222.0" height="-16.0" y="425.2"
+              style="stroke:rgb(0,0,255);fill:rgb(0,0,255)"/>
+        <text x="277.928" y="435.2"
+              style="font-family:Times;font-size:10.0;font-weight:bold">
+            Owl
+        </text>
+        <text x="222.0" y="453.1" style="font-size:9.0;font-weight:bold">
+            Description:
+        </text>
+        <text x="282.967" y="453.1" style="font-size:9.0">
+            Owls
+        </text>
+        <text x="309.16" y="453.1" style="font-size:9.0">
+            can
+        </text>
+        <text x="329.404" y="453.1" style="font-size:9.0">
+            be
+        </text>
+        <text x="345.162" y="453.1" style="font-size:9.0">
+            of
+        </text>
+        <text x="222.0" y="463.9" style="font-size:9.0">
+            several
+        </text>
+        <text x="257.53" y="463.9" style="font-size:9.0">
+            types,
+        </text>
+        <text x="288.714" y="463.9" style="font-size:9.0">
+            but
+        </text>
+        <text x="308.333" y="463.9" style="font-size:9.0">
+            in
+        </text>
+        <text x="321.523" y="463.9" style="font-size:9.0">
+            general
+        </text>
+        <text x="222.0" y="474.7" style="font-size:9.0">
+            they
+        </text>
+        <text x="248.349" y="474.7" style="font-size:9.0">
+            are
+        </text>
+        <text x="269.697" y="474.7" style="font-size:9.0">
+            between
+        </text>
+        <text x="313.97" y="474.7" style="font-size:9.0">
+            one
+        </text>
+        <text x="337.779" y="474.7" style="font-size:9.0">
+            and
+        </text>
+        <text x="222.0" y="485.5" style="font-size:9.0">
+            two
+        </text>
+        <text x="243.655" y="485.5" style="font-size:9.0">
+            feet
+        </text>
+        <text x="266.185" y="485.5" style="font-size:9.0">
+            in
+        </text>
+        <text x="280.198" y="485.5" style="font-size:9.0">
+            length.
+        </text>
+        <text x="316.634" y="485.5" style="font-size:9.0">
+            Coloring
+        </text>
+        <text x="222.0" y="496.3" style="font-size:9.0">
+            varies,
+        </text>
+        <text x="259.061" y="496.3" style="font-size:9.0">
+            but
+        </text>
+        <text x="282.378" y="496.3" style="font-size:9.0">
+            brown
+        </text>
+        <text x="318.473" y="496.3" style="font-size:9.0">
+            feathers
+        </text>
+        <text x="222.0" y="507.1" style="font-size:9.0">
+            speckled
+        </text>
+        <text x="271.396" y="507.1" style="font-size:9.0">
+            with
+        </text>
+        <text x="300.865" y="507.1" style="font-size:9.0">
+            grey
+        </text>
+        <text x="330.857" y="507.1" style="font-size:9.0">
+            is
+        </text>
+        <text x="349.028" y="507.1" style="font-size:9.0">
+            a
+        </text>
+        <text x="222.0" y="517.9" style="font-size:9.0">
+            common
+        </text>
+        <text x="272.017" y="517.9" style="font-size:9.0">
+            coloration.
+        </text>
+        <text x="330.825" y="517.9" style="font-size:9.0">
+            Owls&apos;
+        </text>
+        <text x="222.0" y="528.7" style="font-size:9.0">
+            eyes
+        </text>
+        <text x="247.782" y="528.7" style="font-size:9.0">
+            are
+        </text>
+        <text x="267.913" y="528.7" style="font-size:9.0">
+            both
+        </text>
+        <text x="294.521" y="528.7" style="font-size:9.0">
+            on
+        </text>
+        <text x="312.099" y="528.7" style="font-size:9.0">
+            the
+        </text>
+        <text x="332.529" y="528.7" style="font-size:9.0">
+            front
+        </text>
+        <text x="222.0" y="539.5" style="font-size:9.0">
+            of
+        </text>
+        <text x="240.038" y="539.5" style="font-size:9.0">
+            the
+        </text>
+        <text x="263.204" y="539.5" style="font-size:9.0">
+            head,
+        </text>
+        <text x="296.485" y="539.5" style="font-size:9.0">
+            unlike
+        </text>
+        <text x="332.332" y="539.5" style="font-size:9.0">
+            inost
+        </text>
+        <text x="222.0" y="550.3" style="font-size:9.0">
+            birds,
+        </text>
+        <text x="251.708" y="550.3" style="font-size:9.0">
+            and
+        </text>
+        <text x="272.59" y="550.3" style="font-size:9.0">
+            they
+        </text>
+        <text x="295.92" y="550.3" style="font-size:9.0">
+            tend
+        </text>
+        <text x="320.212" y="550.3" style="font-size:9.0">
+            to
+        </text>
+        <text x="333.769" y="550.3" style="font-size:9.0">
+            have
+        </text>
+        <text x="222.0" y="561.1" style="font-size:9.0">
+            large,
+        </text>
+        <text x="251.888" y="561.1" style="font-size:9.0">
+            dark
+        </text>
+        <text x="276.627" y="561.1" style="font-size:9.0">
+            rings
+        </text>
+        <text x="303.856" y="561.1" style="font-size:9.0">
+            around
+        </text>
+        <text x="340.033" y="561.1" style="font-size:9.0">
+            the
+        </text>
+        <text x="222.0" y="571.9" style="font-size:9.0">
+            eyes.
+        </text>
+        <text x="222.0" y="582.7" style="font-size:9.0;font-weight:bold">
+            Talents:
+        </text>
+        <text x="262.78" y="582.7" style="font-size:9.0">
+            Owls
+        </text>
+        <text x="287.94" y="582.7" style="font-size:9.0">
+            see
+        </text>
+        <text x="306.602" y="582.7" style="font-size:9.0">
+            well
+        </text>
+        <text x="327.799" y="582.7" style="font-size:9.0">
+            in
+        </text>
+        <text x="340.032" y="582.7" style="font-size:9.0">
+            the
+        </text>
+        <text x="222.0" y="593.5" style="font-size:9.0">
+            dark
+        </text>
+        <text x="253.794" y="593.5" style="font-size:9.0">
+            and
+        </text>
+        <text x="282.231" y="593.5" style="font-size:9.0">
+            have
+        </text>
+        <text x="314.676" y="593.5" style="font-size:9.0">
+            excellent
+        </text>
+        <text x="222.0" y="604.3" style="font-size:9.0">
+            hearing.
+        </text>
+        <text x="272.486" y="604.3" style="font-size:9.0">
+            They
+        </text>
+        <text x="308.068" y="604.3" style="font-size:9.0">
+            have
+        </text>
+        <text x="342.886" y="604.3" style="font-size:9.0">
+            no
+        </text>
+        <text x="222.0" y="615.1" style="font-size:9.0">
+            magical
+        </text>
+        <text x="265.743" y="615.1" style="font-size:9.0">
+            abilities,
+        </text>
+        <text x="312.574" y="615.1" style="font-size:9.0">
+            skills
+        </text>
+        <text x="344.79" y="615.1" style="font-size:9.0">
+            or
+        </text>
+        <text x="222.0" y="625.9" style="font-size:9.0">
+            talents
+        </text>
+        <text x="261.77" y="625.9" style="font-size:9.0">
+            and
+        </text>
+        <text x="288.27" y="625.9" style="font-size:9.0">
+            are
+        </text>
+        <text x="312.217" y="625.9" style="font-size:9.0">
+            not
+        </text>
+        <text x="336.977" y="625.9" style="font-size:9.0">
+            tool
+        </text>
+        <text x="222.0" y="636.7" style="font-size:9.0">
+            users.
+        </text>
+        <text x="222.0" y="647.5" style="font-size:9.0;font-weight:bold">
+            Weapons:
+        </text>
+        <text x="272.151" y="647.5" style="font-size:9.0">
+            In
+        </text>
+        <text x="286.683" y="647.5" style="font-size:9.0">
+            Close
+        </text>
+        <text x="316.995" y="647.5" style="font-size:9.0">
+            Combat,
+        </text>
+        <text x="222.0" y="658.3" style="font-size:9.0">
+            Owls
+        </text>
+        <text x="251.856" y="658.3" style="font-size:9.0">
+            can
+        </text>
+        <text x="275.763" y="658.3" style="font-size:9.0">
+            attack
+        </text>
+        <text x="311.047" y="658.3" style="font-size:9.0">
+            with
+        </text>
+        <text x="338.276" y="658.3" style="font-size:9.0">
+            onc
+        </text>
+        <text x="222.0" y="669.1" style="font-size:9.0">
+            bite
+        </text>
+        <text x="246.08" y="669.1" style="font-size:9.0">
+            (Base
+        </text>
+        <text x="276.188" y="669.1" style="font-size:9.0">
+            Chance
+        </text>
+        <text x="315.613" y="669.1" style="font-size:9.0">
+            of
+        </text>
+        <text x="331.885" y="669.1" style="font-size:9.0">
+            55\%
+        </text>
+        <text x="222.0" y="679.9" style="font-size:9.0">
+            and
+        </text>
+        <text x="245.706" y="679.9" style="font-size:9.0">
+            Damage
+        </text>
+        <text x="288.901" y="679.9" style="font-size:9.0">
+            [D
+        </text>
+        <text x="306.055" y="679.9" style="font-size:9.0">
+            -
+        </text>
+        <text x="318.749" y="679.9" style="font-size:9.0">
+            6])
+        </text>
+        <text x="337.778" y="679.9" style="font-size:9.0">
+            and
+        </text>
+        <text x="222.0" y="690.7" style="font-size:9.0">
+            two
+        </text>
+        <text x="245.07" y="690.7" style="font-size:9.0">
+            claws
+        </text>
+        <text x="276.013" y="690.7" style="font-size:9.0">
+            (Base
+        </text>
+        <text x="305.928" y="690.7" style="font-size:9.0">
+            Chance
+        </text>
+        <text x="345.16" y="690.7" style="font-size:9.0">
+            of
+        </text>
+        <text x="222.0" y="701.5" style="font-size:9.0">
+            50\%
+        </text>
+        <text x="250.423" y="701.5" style="font-size:9.0">
+            and
+        </text>
+        <text x="272.95" y="701.5" style="font-size:9.0">
+            [D
+        </text>
+        <text x="288.925" y="701.5" style="font-size:9.0">
+            -
+        </text>
+        <text x="300.44" y="701.5" style="font-size:9.0">
+            7]
+        </text>
+        <text x="315.364" y="701.5" style="font-size:9.0">
+            Damage)
+        </text>
+        <text x="222.0" y="712.3" style="font-size:9.0">
+            in
+        </text>
+        <text x="237.973" y="712.3" style="font-size:9.0">
+            the
+        </text>
+        <text x="259.725" y="712.3" style="font-size:9.0">
+            same
+        </text>
+        <text x="290.485" y="712.3" style="font-size:9.0">
+            Pulse
+        </text>
+        <text x="321.033" y="712.3" style="font-size:9.0">
+            without
+        </text>
+        <text x="372.0" y="79.900024" style="font-size:9.0">
+            penalty.
+        </text>
+        <text x="413.4" y="79.900024" style="font-size:9.0">
+            Owls
+        </text>
+        <text x="441.164" y="79.900024" style="font-size:9.0">
+            cannot
+        </text>
+        <text x="477.458" y="79.900024" style="font-size:9.0">
+            attack
+        </text>
+        <text x="372.0" y="90.70001" style="font-size:9.0">
+            in
+        </text>
+        <text x="384.172" y="90.70001" style="font-size:9.0">
+            Melee
+        </text>
+        <text x="413.552" y="90.70001" style="font-size:9.0">
+            Combat.
+        </text>
+        <text x="375.51" y="106.0" style="font-family:Times;font-size:14.0">
+            Fantastical
+        </text>
+        <text x="454.631" y="106.0" style="font-family:Times;font-size:14.0">
+            Avians
+        </text>
+        <rect width="132.0" x="372.0" height="-16.0" y="120.400024"
+              style="stroke:rgb(0,0,255);fill:rgb(0,0,255)"/>
+        <text x="415.36" y="130.40002"
+              style="font-family:Times;font-size:10.0;font-weight:bold">
+            Gargoyle
+        </text>
+        <text x="372.0" y="148.29999" style="font-size:9.0;font-weight:bold">
+            Description:
+        </text>
+        <text x="437.511" y="148.29999" style="font-size:9.0">
+            Gargoyles
+        </text>
+        <text x="490.333" y="148.29999" style="font-size:9.0">
+            are
+        </text>
+        <text x="372.0" y="159.09998" style="font-size:9.0">
+            humanoid
+        </text>
+        <text x="421.631" y="159.09998" style="font-size:9.0">
+            in
+        </text>
+        <text x="435.528" y="159.09998" style="font-size:9.0">
+            form,
+        </text>
+        <text x="465.007" y="159.09998" style="font-size:9.0">
+            but
+        </text>
+        <text x="485.333" y="159.09998" style="font-size:9.0">
+            they
+        </text>
+        <text x="372.0" y="169.90002" style="font-size:9.0">
+            have
+        </text>
+        <text x="400.289" y="169.90002" style="font-size:9.0">
+            leathery
+        </text>
+        <text x="443.285" y="169.90002" style="font-size:9.0">
+            wings,
+        </text>
+        <text x="479.512" y="169.90002" style="font-size:9.0">
+            sharp
+        </text>
+        <text x="372.0" y="180.70001" style="font-size:9.0">
+            claws,
+        </text>
+        <text x="406.657" y="180.70001" style="font-size:9.0">
+            a
+        </text>
+        <text x="419.736" y="180.70001" style="font-size:9.0">
+            hom,
+        </text>
+        <text x="450.207" y="180.70001" style="font-size:9.0">
+            a
+        </text>
+        <text x="463.286" y="180.70001" style="font-size:9.0">
+            tail,
+        </text>
+        <text x="487.78" y="180.70001" style="font-size:9.0">
+            and
+        </text>
+        <text x="372.0" y="191.5" style="font-size:9.0">
+            spiked
+        </text>
+        <text x="410.242" y="191.5" style="font-size:9.0">
+            elbows
+        </text>
+        <text x="450.022" y="191.5" style="font-size:9.0">
+            and
+        </text>
+        <text x="475.693" y="191.5" style="font-size:9.0">
+            knees.
+        </text>
+        <text x="372.0" y="202.29999" style="font-size:9.0">
+            Their
+        </text>
+        <text x="407.635" y="202.29999" style="font-size:9.0">
+            skin
+        </text>
+        <text x="438.731" y="202.29999" style="font-size:9.0">
+            is
+        </text>
+        <text x="458.982" y="202.29999" style="font-size:9.0">
+            stony
+        </text>
+        <text x="495.813" y="202.29999" style="font-size:9.0">
+            in
+        </text>
+        <text x="372.0" y="213.09998" style="font-size:9.0">
+            appearance,
+        </text>
+        <text x="445.204" y="213.09998" style="font-size:9.0">
+            and
+        </text>
+        <text x="481.638" y="213.09998" style="font-size:9.0">
+            upon
+        </text>
+        <text x="372.0" y="223.90002" style="font-size:9.0">
+            contact
+        </text>
+        <text x="410.678" y="223.90002" style="font-size:9.0">
+            it
+        </text>
+        <text x="423.29" y="223.90002" style="font-size:9.0">
+            feels
+        </text>
+        <text x="450.46" y="223.90002" style="font-size:9.0">
+            very
+        </text>
+        <text x="475.161" y="223.90002" style="font-size:9.0">
+            rough.
+        </text>
+        <text x="372.0" y="234.70001" style="font-size:9.0">
+            Gargoyles
+        </text>
+        <text x="429.72" y="234.70001" style="font-size:9.0">
+            have
+        </text>
+        <text x="464.469" y="234.70001" style="font-size:9.0">
+            deep-set
+        </text>
+        <text x="372.0" y="245.5" style="font-size:9.0">
+            eyes,
+        </text>
+        <text x="398.15" y="245.5" style="font-size:9.0">
+            and
+        </text>
+        <text x="418.355" y="245.5" style="font-size:9.0">
+            sharp,
+        </text>
+        <text x="449.676" y="245.5" style="font-size:9.0">
+            small
+        </text>
+        <text x="476.823" y="245.5" style="font-size:9.0">
+            teeth.
+        </text>
+        <text x="372.0" y="256.3" style="font-size:9.0;font-weight:bold">
+            Talents:
+        </text>
+        <text x="417.49" y="256.3" style="font-size:9.0">
+            Gargoyles
+        </text>
+        <text x="469.445" y="256.3" style="font-size:9.0">
+            possess
+        </text>
+        <text x="372.0" y="267.09998" style="font-size:9.0">
+            no
+        </text>
+        <text x="389.877" y="267.09998" style="font-size:9.0">
+            special
+        </text>
+        <text x="426.687" y="267.09998" style="font-size:9.0">
+            skills
+        </text>
+        <text x="455.688" y="267.09998" style="font-size:9.0">
+            or
+        </text>
+        <text x="471.662" y="267.09998" style="font-size:9.0">
+            talents.
+        </text>
+        <text x="372.0" y="277.90002" style="font-size:9.0">
+            They
+        </text>
+        <text x="407.03" y="277.90002" style="font-size:9.0">
+            have
+        </text>
+        <text x="441.296" y="277.90002" style="font-size:9.0">
+            only
+        </text>
+        <text x="473.751" y="277.90002" style="font-size:9.0">
+            limited
+        </text>
+        <text x="372.0" y="288.7" style="font-size:9.0">
+            magical
+        </text>
+        <text x="413.62" y="288.7" style="font-size:9.0">
+            abilities
+        </text>
+        <text x="455.481" y="288.7" style="font-size:9.0">
+            in
+        </text>
+        <text x="471.523" y="288.7" style="font-size:9.0">
+            general
+        </text>
+        <text x="372.0" y="299.5" style="font-size:9.0">
+            but
+        </text>
+        <text x="391.82" y="299.5" style="font-size:9.0">
+            may
+        </text>
+        <text x="415.099" y="299.5" style="font-size:9.0">
+            use
+        </text>
+        <text x="435.49" y="299.5" style="font-size:9.0">
+            tools
+        </text>
+        <text x="462.305" y="299.5" style="font-size:9.0">
+            and
+        </text>
+        <text x="483.729" y="299.5" style="font-size:9.0">
+            even
+        </text>
+        <text x="372.0" y="310.3" style="font-size:9.0">
+            weapons.
+        </text>
+        <text x="372.0" y="321.1" style="font-size:9.0;font-weight:bold">
+            Weapons:
+        </text>
+        <text x="425.5" y="321.1" style="font-size:9.0">
+            A
+        </text>
+        <text x="441.413" y="321.1" style="font-size:9.0">
+            gargoyle
+        </text>
+        <text x="488.836" y="321.1" style="font-size:9.0">
+            can
+        </text>
+        <text x="372.0" y="331.9" style="font-size:9.0">
+            use
+        </text>
+        <text x="392.24" y="331.9" style="font-size:9.0">
+            his
+        </text>
+        <text x="410.067" y="331.9" style="font-size:9.0">
+            horn,
+        </text>
+        <text x="438.348" y="331.9" style="font-size:9.0">
+            his
+        </text>
+        <text x="456.175" y="331.9" style="font-size:9.0">
+            claws,
+        </text>
+        <text x="487.777" y="331.9" style="font-size:9.0">
+            and
+        </text>
+        <text x="372.0" y="342.7" style="font-size:9.0">
+            his
+        </text>
+        <text x="390.538" y="342.7" style="font-size:9.0">
+            bite
+        </text>
+        <text x="412.948" y="342.7" style="font-size:9.0">
+            in
+        </text>
+        <text x="426.899" y="342.7" style="font-size:9.0">
+            Melee
+        </text>
+        <text x="458.058" y="342.7" style="font-size:9.0">
+            and
+        </text>
+        <text x="480.042" y="342.7" style="font-size:9.0">
+            Close
+        </text>
+        <text x="372.0" y="353.5" style="font-size:9.0">
+            Combat.
+        </text>
+        <text x="416.46" y="353.5" style="font-size:9.0">
+            In
+        </text>
+        <text x="432.093" y="353.5" style="font-size:9.0">
+            any
+        </text>
+        <text x="454.806" y="353.5" style="font-size:9.0">
+            one
+        </text>
+        <text x="478.389" y="353.5" style="font-size:9.0">
+            Pulse,
+        </text>
+        <text x="372.0" y="364.3" style="font-size:9.0">
+            he
+        </text>
+        <text x="391.341" y="364.3" style="font-size:9.0">
+            may
+        </text>
+        <text x="418.157" y="364.3" style="font-size:9.0">
+            make
+        </text>
+        <text x="450.545" y="364.3" style="font-size:9.0">
+            up
+        </text>
+        <text x="470.536" y="364.3" style="font-size:9.0">
+            to
+        </text>
+        <text x="488.172" y="364.3" style="font-size:9.0">
+            two
+        </text>
+        <text x="372.0" y="375.1" style="font-size:9.0">
+            strike
+        </text>
+        <text x="408.18" y="375.1" style="font-size:9.0">
+            attempts
+        </text>
+        <text x="458.585" y="375.1" style="font-size:9.0">
+            with
+        </text>
+        <text x="488.741" y="375.1" style="font-size:9.0">
+            any
+        </text>
+        <text x="372.0" y="385.9" style="font-size:9.0">
+            combinations
+        </text>
+        <text x="451.311" y="385.9" style="font-size:9.0">
+            of
+        </text>
+        <text x="480.433" y="385.9" style="font-size:9.0">
+            these
+        </text>
+        <text x="372.0" y="396.7" style="font-size:9.0">
+            weapons.
+        </text>
+        <text x="422.0" y="396.7" style="font-size:9.0">
+            Base
+        </text>
+        <text x="450.618" y="396.7" style="font-size:9.0">
+            Chance
+        </text>
+        <text x="491.479" y="396.7" style="font-size:9.0">
+            for
+        </text>
+        <text x="372.0" y="407.5" style="font-size:9.0">
+            the
+        </text>
+        <text x="393.265" y="407.5" style="font-size:9.0">
+            bite
+        </text>
+        <text x="417.21" y="407.5" style="font-size:9.0">
+            is
+        </text>
+        <text x="431.698" y="407.5" style="font-size:9.0">
+            45\%,
+        </text>
+        <text x="463.96" y="407.5" style="font-size:9.0">
+            [D
+        </text>
+        <text x="480.927" y="407.5" style="font-size:9.0">
+            +
+        </text>
+        <text x="495.381" y="407.5" style="font-size:9.0">
+            2]
+        </text>
+        <text x="372.0" y="418.3" style="font-size:9.0">
+            Damage;
+        </text>
+        <text x="420.284" y="418.3" style="font-size:9.0">
+            Base
+        </text>
+        <text x="449.76" y="418.3" style="font-size:9.0">
+            Chance
+        </text>
+        <text x="491.479" y="418.3" style="font-size:9.0">
+            for
+        </text>
+        <text x="372.0" y="429.1" style="font-size:9.0">
+            the
+        </text>
+        <text x="392.643" y="429.1" style="font-size:9.0">
+            horn
+        </text>
+        <text x="419.701" y="429.1" style="font-size:9.0">
+            is
+        </text>
+        <text x="433.567" y="429.1" style="font-size:9.0">
+            35\%,
+        </text>
+        <text x="465.207" y="429.1" style="font-size:9.0">
+            [D
+        </text>
+        <text x="481.552" y="429.1" style="font-size:9.0">
+            +
+        </text>
+        <text x="495.384" y="429.1" style="font-size:9.0">
+            1]
+        </text>
+        <text x="372.0" y="439.9" style="font-size:9.0">
+            Damage;
+        </text>
+        <text x="420.284" y="439.9" style="font-size:9.0">
+            Base
+        </text>
+        <text x="449.76" y="439.9" style="font-size:9.0">
+            Chance
+        </text>
+        <text x="491.479" y="439.9" style="font-size:9.0">
+            for
+        </text>
+        <text x="372.0" y="450.7" style="font-size:9.0">
+            the
+        </text>
+        <text x="392.414" y="450.7" style="font-size:9.0">
+            claws
+        </text>
+        <text x="422.564" y="450.7" style="font-size:9.0">
+            is
+        </text>
+        <text x="436.201" y="450.7" style="font-size:9.0">
+            50\%,
+        </text>
+        <text x="467.612" y="450.7" style="font-size:9.0">
+            [D
+        </text>
+        <text x="483.728" y="450.7" style="font-size:9.0">
+            -
+        </text>
+        <text x="495.384" y="450.7" style="font-size:9.0">
+            3]
+        </text>
+        <text x="372.0" y="461.5" style="font-size:9.0">
+            Damage.
+        </text>
+        <text x="460.802" y="461.5" style="font-size:9.0">
+            Gargoyles
+        </text>
+        <text x="372.0" y="472.3" style="font-size:9.0">
+            sometimes
+        </text>
+        <text x="428.418" y="472.3" style="font-size:9.0">
+            (but
+        </text>
+        <text x="454.876" y="472.3" style="font-size:9.0">
+            not
+        </text>
+        <text x="478.272" y="472.3" style="font-size:9.0">
+            often)
+        </text>
+        <text x="372.0" y="483.1" style="font-size:9.0">
+            will
+        </text>
+        <text x="391.798" y="483.1" style="font-size:9.0">
+            use
+        </text>
+        <text x="412.045" y="483.1" style="font-size:9.0">
+            weapons
+        </text>
+        <text x="455.388" y="483.1" style="font-size:9.0">
+            (instead
+        </text>
+        <text x="495.162" y="483.1" style="font-size:9.0">
+            of
+        </text>
+        <text x="372.0" y="493.9" style="font-size:9.0">
+            claws).
+        </text>
+        <rect width="132.0" x="372.0" height="-16.0" y="506.8"
+              style="stroke:rgb(0,0,255);fill:rgb(0,0,255)"/>
+        <text x="415.769" y="516.8"
+              style="font-family:Times;font-size:10.0;font-weight:bold">
+            Gryphon
+        </text>
+        <text x="372.0" y="534.7" style="font-size:9.0;font-weight:bold">
+            Description:
+        </text>
+        <text x="433.313" y="534.7" style="font-size:9.0">
+            The
+        </text>
+        <text x="455.028" y="534.7" style="font-size:9.0">
+            gryphon
+        </text>
+        <text x="496.811" y="534.7" style="font-size:9.0">
+            is
+        </text>
+        <text x="372.0" y="545.5" style="font-size:9.0">
+            a
+        </text>
+        <text x="382.478" y="545.5" style="font-size:9.0">
+            large
+        </text>
+        <text x="409.864" y="545.5" style="font-size:9.0">
+            beast
+        </text>
+        <text x="438.973" y="545.5" style="font-size:9.0">
+            with
+        </text>
+        <text x="462.967" y="545.5" style="font-size:9.0">
+            the
+        </text>
+        <text x="482.44" y="545.5" style="font-size:9.0">
+            body
+        </text>
+        <text x="372.0" y="556.3" style="font-size:9.0">
+            of
+        </text>
+        <text x="390.359" y="556.3" style="font-size:9.0">
+            a
+        </text>
+        <text x="404.851" y="556.3" style="font-size:9.0">
+            lion,
+        </text>
+        <text x="433.535" y="556.3" style="font-size:9.0">
+            the
+        </text>
+        <text x="457.022" y="556.3" style="font-size:9.0">
+            head
+        </text>
+        <text x="487.777" y="556.3" style="font-size:9.0">
+            and
+        </text>
+        <text x="372.0" y="567.1" style="font-size:9.0">
+            wings
+        </text>
+        <text x="402.789" y="567.1" style="font-size:9.0">
+            of
+        </text>
+        <text x="417.097" y="567.1" style="font-size:9.0">
+            an
+        </text>
+        <text x="433.123" y="567.1" style="font-size:9.0">
+            eagle
+        </text>
+        <text x="461.804" y="567.1" style="font-size:9.0">
+            and
+        </text>
+        <text x="483.494" y="567.1" style="font-size:9.0">
+            back
+        </text>
+        <text x="372.0" y="577.9" style="font-size:9.0">
+            covered
+        </text>
+        <text x="414.396" y="577.9" style="font-size:9.0">
+            with
+        </text>
+        <text x="441.109" y="577.9" style="font-size:9.0">
+            feathers.
+        </text>
+        <text x="487.71" y="577.9" style="font-size:9.0">
+            The
+        </text>
+        <text x="372.0" y="588.7" style="font-size:9.0">
+            gryphon&apos;
+            s
+        </text>
+        <text x="419.913" y="588.7" style="font-size:9.0">
+            claws
+        </text>
+        <text x="448.522" y="588.7" style="font-size:9.0">
+            are
+        </text>
+        <text x="467.096" y="588.7" style="font-size:9.0">
+            so
+        </text>
+        <text x="482.119" y="588.7" style="font-size:9.0">
+            large
+        </text>
+        <text x="372.0" y="599.5" style="font-size:9.0">
+            that
+        </text>
+        <text x="395.101" y="599.5" style="font-size:9.0">
+            they
+        </text>
+        <text x="419.582" y="599.5" style="font-size:9.0">
+            can
+        </text>
+        <text x="440.56" y="599.5" style="font-size:9.0">
+            be
+        </text>
+        <text x="457.052" y="599.5" style="font-size:9.0">
+            made
+        </text>
+        <text x="486.916" y="599.5" style="font-size:9.0">
+            into
+        </text>
+        <text x="372.0" y="610.3" style="font-size:9.0">
+            serviceable
+        </text>
+        <text x="430.005" y="610.3" style="font-size:9.0">
+            drinking
+        </text>
+        <text x="476.185" y="610.3" style="font-size:9.0">
+            horns.
+        </text>
+        <text x="372.0" y="621.1" style="font-size:9.0">
+            The
+        </text>
+        <text x="393.221" y="621.1" style="font-size:9.0">
+            gryphon
+        </text>
+        <text x="434.51" y="621.1" style="font-size:9.0">
+            is
+        </text>
+        <text x="446.63" y="621.1" style="font-size:9.0">
+            about
+        </text>
+        <text x="476.675" y="621.1" style="font-size:9.0">
+            5
+        </text>
+        <text x="487.297" y="621.1" style="font-size:9.0">
+            feet
+        </text>
+        <text x="372.0" y="631.9" style="font-size:9.0">
+            long
+        </text>
+        <text x="399.375" y="631.9" style="font-size:9.0">
+            and
+        </text>
+        <text x="423.644" y="631.9" style="font-size:9.0">
+            stands
+        </text>
+        <text x="460.453" y="631.9" style="font-size:9.0">
+            man-high
+        </text>
+        <text x="372.0" y="642.7" style="font-size:9.0">
+            when
+        </text>
+        <text x="404.234" y="642.7" style="font-size:9.0">
+            full
+        </text>
+        <text x="427.446" y="642.7" style="font-size:9.0">
+            grown.
+        </text>
+        <text x="466.749" y="642.7" style="font-size:9.0">
+            Gryphon
+        </text>
+        <text x="372.0" y="653.5" style="font-size:9.0">
+            eggs
+        </text>
+        <text x="397.718" y="653.5" style="font-size:9.0">
+            (2-5
+        </text>
+        <text x="422.126" y="653.5" style="font-size:9.0">
+            possible
+        </text>
+        <text x="463.267" y="653.5" style="font-size:9.0">
+            per
+        </text>
+        <text x="482.522" y="653.5" style="font-size:9.0">
+            nest)
+        </text>
+        <text x="372.0" y="664.3" style="font-size:9.0">
+            are
+        </text>
+        <text x="394.409" y="664.3" style="font-size:9.0">
+            solid
+        </text>
+        <text x="424.133" y="664.3" style="font-size:9.0">
+            agate
+        </text>
+        <text x="456.807" y="664.3" style="font-size:9.0">
+            and
+        </text>
+        <text x="481.769" y="664.3" style="font-size:9.0">
+            quite
+        </text>
+        <text x="372.0" y="675.1" style="font-size:9.0">
+            valuable
+        </text>
+        <text x="412.783" y="675.1" style="font-size:9.0">
+            (4000
+        </text>
+        <text x="443.189" y="675.1" style="font-size:9.0">
+            -
+        </text>
+        <text x="453.116" y="675.1" style="font-size:9.0">
+            6000
+        </text>
+        <text x="480.596" y="675.1" style="font-size:9.0">
+            Silver
+        </text>
+        <text x="372.0" y="685.9" style="font-size:9.0">
+            Pennies
+        </text>
+        <text x="409.346" y="685.9" style="font-size:9.0">
+            apiece).
+        </text>
+        <text x="372.0" y="696.7" style="font-size:9.0;font-weight:bold">
+            Talents:
+        </text>
+        <text x="416.096" y="696.7" style="font-size:9.0">
+            Gryphons
+        </text>
+        <text x="465.295" y="696.7" style="font-size:9.0">
+            have
+        </text>
+        <text x="492.885" y="696.7" style="font-size:9.0">
+            no
+        </text>
+        <text x="372.0" y="707.5" style="font-size:9.0">
+            special
+        </text>
+        <text x="414.293" y="707.5" style="font-size:9.0">
+            skills
+        </text>
+        <text x="448.777" y="707.5" style="font-size:9.0">
+            or
+        </text>
+        <text x="470.234" y="707.5" style="font-size:9.0">
+            magical
+        </text>
+        <a xlink:href="#svgView(viewBox(0, 0.0, 576, 792))" xlink:type="simple"
+           xlink:actuate="onRequest" xlink:show="replace"
+           xmlns:xlink="http://www.w3.org/1999/xlink">
+            <rect width="288.0" x="0.0" height="792.0" y="0.0"
+                  style="fill:blue;visibility:hidden"/>
+        </a>
+        <a xlink:href="#svgView(viewBox(0, 792.0, 576, 792))"
+           xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace"
+           xmlns:xlink="http://www.w3.org/1999/xlink">
+            <rect width="288.0" x="288.0" height="792.0" y="0.0"
+                  style="fill:blue;visibility:hidden"/>
+        </a>
+    </g>
+    <g id="Page-2" style="font-family:sanserif;font-size:12"
+       transform="translate(0,792.0)">
+        <rect width="576.0" x="0.0" height="792.0" y="0.0"
+              style="fill:none;stroke:black"/>
+        <text x="72.0" y="79.900024" style="font-size:9.0">
+            abilities,
+        </text>
+        <text x="118.931" y="79.900024" style="font-size:9.0">
+            but
+        </text>
+        <text x="143.625" y="79.900024" style="font-size:9.0">
+            their
+        </text>
+        <text x="173.952" y="79.900024" style="font-size:9.0">
+            special
+        </text>
+        <text x="72.0" y="90.70001" style="font-size:9.0">
+            talent
+        </text>
+        <text x="109.178" y="90.70001" style="font-size:9.0">
+            is
+        </text>
+        <text x="128.642" y="90.70001" style="font-size:9.0">
+            locating
+        </text>
+        <text x="175.789" y="90.70001" style="font-size:9.0">
+            buried
+        </text>
+        <text x="72.0" y="101.5" style="font-size:9.0">
+            treasure
+        </text>
+        <text x="114.486" y="101.5" style="font-size:9.0">
+            and
+        </text>
+        <text x="137.291" y="101.5" style="font-size:9.0">
+            their
+        </text>
+        <text x="164.125" y="101.5" style="font-size:9.0">
+            nest
+        </text>
+        <text x="189.263" y="101.5" style="font-size:9.0">
+            will
+        </text>
+        <text x="72.0" y="112.29999" style="font-size:9.0">
+            quite
+        </text>
+        <text x="103.535" y="112.29999" style="font-size:9.0">
+            often
+        </text>
+        <text x="135.642" y="112.29999" style="font-size:9.0">
+            be
+        </text>
+        <text x="155.625" y="112.29999" style="font-size:9.0">
+            built
+        </text>
+        <text x="184.747" y="112.29999" style="font-size:9.0">
+            near
+        </text>
+        <text x="72.0" y="123.099976" style="font-size:9.0">
+            such
+        </text>
+        <text x="96.62" y="123.099976" style="font-size:9.0">
+            treasure
+        </text>
+        <text x="136.774" y="123.099976" style="font-size:9.0">
+            which
+        </text>
+        <text x="166.342" y="123.099976" style="font-size:9.0">
+            they
+        </text>
+        <text x="189.263" y="123.099976" style="font-size:9.0">
+            will
+        </text>
+        <text x="72.0" y="133.90002" style="font-size:9.0">
+            actively
+        </text>
+        <text x="136.976" y="133.90002" style="font-size:9.0">
+            guard.
+        </text>
+        <text x="197.79" y="133.90002" style="font-size:9.0">
+            A
+        </text>
+        <text x="72.0" y="144.70001" style="font-size:9.0">
+            ``domesticated&apos;&apos;
+        </text>
+        <text x="167.643" y="144.70001" style="font-size:9.0">
+            gryphon
+        </text>
+        <text x="72.0" y="155.5" style="font-size:9.0">
+            has
+        </text>
+        <text x="92.981" y="155.5" style="font-size:9.0">
+            a
+        </text>
+        <text x="103.79" y="155.5" style="font-size:9.0">
+            Base
+        </text>
+        <text x="129.376" y="155.5" style="font-size:9.0">
+            Chance
+        </text>
+        <text x="167.205" y="155.5" style="font-size:9.0">
+            of
+        </text>
+        <text x="181.881" y="155.5" style="font-size:9.0">
+            60\%
+        </text>
+        <text x="72.0" y="166.29999" style="font-size:9.0">
+            of
+        </text>
+        <text x="95.778" y="166.29999" style="font-size:9.0">
+            locating
+        </text>
+        <text x="145.59" y="166.29999" style="font-size:9.0">
+            any
+        </text>
+        <text x="175.788" y="166.29999" style="font-size:9.0">
+            buried
+        </text>
+        <text x="72.0" y="177.09998" style="font-size:9.0">
+            treasure
+        </text>
+        <text x="115.033" y="177.09998" style="font-size:9.0">
+            within
+        </text>
+        <text x="148.838" y="177.09998" style="font-size:9.0">
+            a
+        </text>
+        <text x="160.941" y="177.09998" style="font-size:9.0">
+            radius
+        </text>
+        <text x="195.163" y="177.09998" style="font-size:9.0">
+            of
+        </text>
+        <text x="72.0" y="187.90002" style="font-size:9.0">
+            250
+        </text>
+        <text x="98.755" y="187.90002" style="font-size:9.0">
+            feet
+        </text>
+        <text x="125.143" y="187.90002" style="font-size:9.0">
+            of
+        </text>
+        <text x="143.665" y="187.90002" style="font-size:9.0">
+            it.
+        </text>
+        <text x="162.164" y="187.90002" style="font-size:9.0">
+            Gryphons
+        </text>
+        <text x="72.0" y="198.70001" style="font-size:9.0">
+            make
+        </text>
+        <text x="102.471" y="198.70001" style="font-size:9.0">
+            valuable
+        </text>
+        <text x="145.359" y="198.70001" style="font-size:9.0">
+            steeds,
+        </text>
+        <text x="183.263" y="198.70001" style="font-size:9.0">
+            once
+        </text>
+        <text x="72.0" y="209.5" style="font-size:9.0">
+            tamed.
+        </text>
+        <text x="72.0" y="220.29999" style="font-size:9.0;font-weight:bold">
+            Weapons:
+        </text>
+        <text x="125.252" y="220.29999" style="font-size:9.0">
+            The
+        </text>
+        <text x="150.997" y="220.29999" style="font-size:9.0">
+            gryphon
+        </text>
+        <text x="196.81" y="220.29999" style="font-size:9.0">
+            is
+        </text>
+        <text x="72.0" y="231.09998" style="font-size:9.0">
+            not
+        </text>
+        <text x="95.137" y="231.09998" style="font-size:9.0">
+            a
+        </text>
+        <text x="108.765" y="231.09998" style="font-size:9.0">
+            toot
+        </text>
+        <text x="135.211" y="231.09998" style="font-size:9.0">
+            user,
+        </text>
+        <text x="165.584" y="231.09998" style="font-size:9.0">
+            but
+        </text>
+        <text x="188.857" y="231.09998" style="font-size:9.0">
+            has
+        </text>
+        <text x="72.0" y="241.90002" style="font-size:9.0">
+            natural
+        </text>
+        <text x="107.73" y="241.90002" style="font-size:9.0">
+            weapons
+        </text>
+        <text x="150.983" y="241.90002" style="font-size:9.0">
+            in
+        </text>
+        <text x="164.14" y="241.90002" style="font-size:9.0">
+            the
+        </text>
+        <text x="183.076" y="241.90002" style="font-size:9.0">
+            form
+        </text>
+        <text x="72.0" y="252.70001" style="font-size:9.0">
+            of
+        </text>
+        <text x="88.915" y="252.70001" style="font-size:9.0">
+            beak
+        </text>
+        <text x="117.901" y="252.70001" style="font-size:9.0">
+            (useable
+        </text>
+        <text x="162.34" y="252.70001" style="font-size:9.0">
+            in
+        </text>
+        <text x="178.604" y="252.70001" style="font-size:9.0">
+            Melee
+        </text>
+        <text x="72.0" y="263.5" style="font-size:9.0">
+            and
+        </text>
+        <text x="96.771" y="263.5" style="font-size:9.0">
+            Close
+        </text>
+        <text x="129.28" y="263.5" style="font-size:9.0">
+            Combat
+        </text>
+        <text x="171.989" y="263.5" style="font-size:9.0">
+            with
+        </text>
+        <text x="199.027" y="263.5" style="font-size:9.0">
+            a
+        </text>
+        <text x="72.0" y="274.3" style="font-size:9.0">
+            Base
+        </text>
+        <text x="97.675" y="274.3" style="font-size:9.0">
+            Chance
+        </text>
+        <text x="135.593" y="274.3" style="font-size:9.0">
+            of
+        </text>
+        <text x="150.358" y="274.3" style="font-size:9.0">
+            65\%,
+        </text>
+        <text x="181.248" y="274.3" style="font-size:9.0">
+            [D
+        </text>
+        <text x="196.843" y="274.3" style="font-size:9.0">
+            +
+        </text>
+        <text x="72.0" y="285.1" style="font-size:9.0">
+            5]
+        </text>
+        <text x="85.176" y="285.1" style="font-size:9.0">
+            Damage,
+        </text>
+        <text x="128.291" y="285.1" style="font-size:9.0">
+            possible
+        </text>
+        <text x="169.097" y="285.1" style="font-size:9.0">
+            Rank
+        </text>
+        <text x="195.162" y="285.1" style="font-size:9.0">
+            of
+        </text>
+        <text x="72.0" y="295.9" style="font-size:9.0">
+            1-3)
+        </text>
+        <text x="98.518" y="295.9" style="font-size:9.0">
+            and
+        </text>
+        <text x="121.742" y="295.9" style="font-size:9.0">
+            claws
+        </text>
+        <text x="152.448" y="295.9" style="font-size:9.0">
+            (useable
+        </text>
+        <text x="195.814" y="295.9" style="font-size:9.0">
+            in
+        </text>
+        <text x="72.0" y="306.7" style="font-size:9.0">
+            Melee
+        </text>
+        <text x="108.151" y="306.7" style="font-size:9.0">
+            and
+        </text>
+        <text x="135.127" y="306.7" style="font-size:9.0">
+            Close
+        </text>
+        <text x="169.841" y="306.7" style="font-size:9.0">
+            Combat
+        </text>
+        <text x="72.0" y="317.5" style="font-size:9.0">
+            with
+        </text>
+        <text x="95.087" y="317.5" style="font-size:9.0">
+            a
+        </text>
+        <text x="104.658" y="317.5" style="font-size:9.0">
+            Base
+        </text>
+        <text x="129.006" y="317.5" style="font-size:9.0">
+            Chance
+        </text>
+        <text x="165.597" y="317.5" style="font-size:9.0">
+            of
+        </text>
+        <text x="179.035" y="317.5" style="font-size:9.0">
+            60\%,
+        </text>
+        <text x="72.0" y="328.3" style="font-size:9.0">
+            Damage
+        </text>
+        <text x="112.293" y="328.3" style="font-size:9.0">
+            of
+        </text>
+        <text x="125.715" y="328.3" style="font-size:9.0">
+            [D
+        </text>
+        <text x="139.967" y="328.3" style="font-size:9.0">
+            +
+        </text>
+        <text x="151.706" y="328.3" style="font-size:9.0">
+            5],
+        </text>
+        <text x="167.754" y="328.3" style="font-size:9.0">
+            possible
+        </text>
+        <text x="72.0" y="339.1" style="font-size:9.0">
+            Rank
+        </text>
+        <text x="100.168" y="339.1" style="font-size:9.0">
+            of
+        </text>
+        <text x="115.668" y="339.1" style="font-size:9.0">
+            1-4).
+        </text>
+        <text x="144.691" y="339.1" style="font-size:9.0">
+            The
+        </text>
+        <text x="167.643" y="339.1" style="font-size:9.0">
+            gryphon
+        </text>
+        <text x="72.0" y="349.9" style="font-size:9.0">
+            may
+        </text>
+        <text x="95.742" y="349.9" style="font-size:9.0">
+            attack
+        </text>
+        <text x="127.951" y="349.9" style="font-size:9.0">
+            twice
+        </text>
+        <text x="156.143" y="349.9" style="font-size:9.0">
+            with
+        </text>
+        <text x="180.297" y="349.9" style="font-size:9.0">
+            claws
+        </text>
+        <text x="72.0" y="360.7" style="font-size:9.0">
+            and
+        </text>
+        <text x="94.919" y="360.7" style="font-size:9.0">
+            once
+        </text>
+        <text x="122.355" y="360.7" style="font-size:9.0">
+            with
+        </text>
+        <text x="147.541" y="360.7" style="font-size:9.0">
+            beak
+        </text>
+        <text x="175.149" y="360.7" style="font-size:9.0">
+            in
+        </text>
+        <text x="190.035" y="360.7" style="font-size:9.0">
+            the
+        </text>
+        <text x="72.0" y="371.5" style="font-size:9.0">
+            same
+        </text>
+        <text x="98.959" y="371.5" style="font-size:9.0">
+            pulse.
+        </text>
+        <rect width="132.0" x="72.0" height="-16.0" y="384.4"
+              style="stroke:rgb(0,0,255);fill:rgb(0,0,255)"/>
+        <text x="122.388" y="394.4"
+              style="font-family:Times;font-size:10.0;font-weight:bold">
+            Harpy
+        </text>
+        <text x="72.0" y="412.3" style="font-size:9.0;font-weight:bold">
+            Description:
+        </text>
+        <text x="142.545" y="412.3" style="font-size:9.0">
+            Harpies
+        </text>
+        <text x="190.334" y="412.3" style="font-size:9.0">
+            are
+        </text>
+        <text x="72.0" y="423.1" style="font-size:9.0">
+            buzzard-like
+        </text>
+        <text x="135.494" y="423.1" style="font-size:9.0">
+            birds
+        </text>
+        <text x="164.62" y="423.1" style="font-size:9.0">
+            with
+        </text>
+        <text x="190.034" y="423.1" style="font-size:9.0">
+            the
+        </text>
+        <text x="72.0" y="433.9" style="font-size:9.0">
+            upper
+        </text>
+        <text x="109.004" y="433.9" style="font-size:9.0">
+            bodies
+        </text>
+        <text x="149.457" y="433.9" style="font-size:9.0">
+            of
+        </text>
+        <text x="169.689" y="433.9" style="font-size:9.0">
+            women.
+        </text>
+        <text x="72.0" y="444.7" style="font-size:9.0">
+            They
+        </text>
+        <text x="100.163" y="444.7" style="font-size:9.0">
+            have
+        </text>
+        <text x="127.562" y="444.7" style="font-size:9.0">
+            long
+        </text>
+        <text x="154.059" y="444.7" style="font-size:9.0">
+            claws,
+        </text>
+        <text x="187.779" y="444.7" style="font-size:9.0">
+            and
+        </text>
+        <text x="72.0" y="455.5" style="font-size:9.0">
+            pale,
+        </text>
+        <text x="99.044" y="455.5" style="font-size:9.0">
+            thin
+        </text>
+        <text x="122.129" y="455.5" style="font-size:9.0">
+            faces.
+        </text>
+        <text x="153.413" y="455.5" style="font-size:9.0">
+            They
+        </text>
+        <text x="180.352" y="455.5" style="font-size:9.0">
+            make
+        </text>
+        <text x="72.0" y="466.3" style="font-size:9.0">
+            a
+        </text>
+        <text x="87.746" y="466.3" style="font-size:9.0">
+            tremendous
+        </text>
+        <text x="150.949" y="466.3" style="font-size:9.0">
+            amount
+        </text>
+        <text x="195.161" y="466.3" style="font-size:9.0">
+            of
+        </text>
+        <text x="72.0" y="477.1" style="font-size:9.0">
+            noise
+        </text>
+        <text x="105.318" y="477.1" style="font-size:9.0">
+            flying,
+        </text>
+        <text x="142.577" y="477.1" style="font-size:9.0">
+            and
+        </text>
+        <text x="168.799" y="477.1" style="font-size:9.0">
+            have
+        </text>
+        <text x="199.029" y="477.1" style="font-size:9.0">
+            a
+        </text>
+        <text x="72.0" y="487.9" style="font-size:9.0">
+            horrible
+        </text>
+        <text x="110.343" y="487.9" style="font-size:9.0">
+            smell.
+        </text>
+        <text x="72.0" y="498.7" style="font-size:9.0;font-weight:bold">
+            Talents:
+        </text>
+        <text x="114.943" y="498.7" style="font-size:9.0">
+            Harpies
+        </text>
+        <text x="154.284" y="498.7" style="font-size:9.0">
+            can
+        </text>
+        <text x="175.658" y="498.7" style="font-size:9.0">
+            speak,
+        </text>
+        <text x="72.0" y="509.5" style="font-size:9.0">
+            but
+        </text>
+        <text x="97.663" y="509.5" style="font-size:9.0">
+            have
+        </text>
+        <text x="128.938" y="509.5" style="font-size:9.0">
+            limited
+        </text>
+        <text x="170.235" y="509.5" style="font-size:9.0">
+            magical
+        </text>
+        <text x="72.0" y="520.3" style="font-size:9.0">
+            abilities
+        </text>
+        <text x="110.6" y="520.3" style="font-size:9.0">
+            and
+        </text>
+        <text x="131.414" y="520.3" style="font-size:9.0">
+            no
+        </text>
+        <text x="147.122" y="520.3" style="font-size:9.0">
+            special
+        </text>
+        <text x="181.763" y="520.3" style="font-size:9.0">
+            skills
+        </text>
+        <text x="72.0" y="531.1" style="font-size:9.0">
+            or
+        </text>
+        <text x="99.809" y="531.1" style="font-size:9.0">
+            talents.
+        </text>
+        <text x="150.744" y="531.1" style="font-size:9.0">
+            They
+        </text>
+        <text x="190.334" y="531.1" style="font-size:9.0">
+            are
+        </text>
+        <text x="72.0" y="541.9" style="font-size:9.0">
+            occasionally
+        </text>
+        <text x="159.44" y="541.9" style="font-size:9.0">
+            prophetic,
+        </text>
+        <text x="72.0" y="552.7" style="font-size:9.0">
+            although
+        </text>
+        <text x="124.614" y="552.7" style="font-size:9.0">
+            they
+        </text>
+        <text x="157.064" y="552.7" style="font-size:9.0">
+            will
+        </text>
+        <text x="185.584" y="552.7" style="font-size:9.0">
+            only
+        </text>
+        <text x="72.0" y="563.5" style="font-size:9.0">
+            speak
+        </text>
+        <text x="102.019" y="563.5" style="font-size:9.0">
+            a
+        </text>
+        <text x="111.513" y="563.5" style="font-size:9.0">
+            prophecy
+        </text>
+        <text x="156.485" y="563.5" style="font-size:9.0">
+            if
+        </text>
+        <text x="166.919" y="563.5" style="font-size:9.0">
+            it
+        </text>
+        <text x="177.41" y="563.5" style="font-size:9.0">
+            is
+        </text>
+        <text x="189.122" y="563.5" style="font-size:9.0">
+            evil
+        </text>
+        <text x="72.0" y="574.3" style="font-size:9.0">
+            and
+        </text>
+        <text x="96.611" y="574.3" style="font-size:9.0">
+            they
+        </text>
+        <text x="123.67" y="574.3" style="font-size:9.0">
+            wish
+        </text>
+        <text x="151.769" y="574.3" style="font-size:9.0">
+            to
+        </text>
+        <text x="169.055" y="574.3" style="font-size:9.0">
+            torment
+        </text>
+        <text x="72.0" y="585.1" style="font-size:9.0">
+            the
+        </text>
+        <text x="89.951" y="585.1" style="font-size:9.0">
+            listener.
+        </text>
+        <text x="72.0" y="595.9" style="font-size:9.0;font-weight:bold">
+            Weapons:
+        </text>
+        <text x="124.781" y="595.9" style="font-size:9.0">
+            Unless
+        </text>
+        <text x="162.375" y="595.9" style="font-size:9.0">
+            cornered,
+        </text>
+        <text x="72.0" y="606.7" style="font-size:9.0">
+            harpies
+        </text>
+        <text x="109.312" y="606.7" style="font-size:9.0">
+            do
+        </text>
+        <text x="125.713" y="606.7" style="font-size:9.0">
+            not
+        </text>
+        <text x="145.401" y="606.7" style="font-size:9.0">
+            fight
+        </text>
+        <text x="171.082" y="606.7" style="font-size:9.0">
+            man.
+        </text>
+        <text x="198.095" y="606.7" style="font-size:9.0">
+            If
+        </text>
+        <text x="72.0" y="617.5" style="font-size:9.0">
+            they
+        </text>
+        <text x="100.649" y="617.5" style="font-size:9.0">
+            do
+        </text>
+        <text x="121.823" y="617.5" style="font-size:9.0">
+            fight,
+        </text>
+        <text x="155.124" y="617.5" style="font-size:9.0">
+            they
+        </text>
+        <text x="183.773" y="617.5" style="font-size:9.0">
+            have
+        </text>
+        <text x="72.0" y="628.3" style="font-size:9.0">
+            their
+        </text>
+        <text x="106.62" y="628.3" style="font-size:9.0">
+            long
+        </text>
+        <text x="140.317" y="628.3" style="font-size:9.0">
+            talons
+        </text>
+        <text x="181.326" y="628.3" style="font-size:9.0">
+            (Base
+        </text>
+        <text x="72.0" y="639.1" style="font-size:9.0">
+            Chance
+        </text>
+        <text x="112.144" y="639.1" style="font-size:9.0">
+            of
+        </text>
+        <text x="129.135" y="639.1" style="font-size:9.0">
+            70\%,
+        </text>
+        <text x="162.251" y="639.1" style="font-size:9.0">
+            [D
+        </text>
+        <text x="180.072" y="639.1" style="font-size:9.0">
+            +
+        </text>
+        <text x="195.38" y="639.1" style="font-size:9.0">
+            5]
+        </text>
+        <text x="72.0" y="649.9" style="font-size:9.0">
+            Damage)
+        </text>
+        <text x="115.255" y="649.9" style="font-size:9.0">
+            to
+        </text>
+        <text x="128.77" y="649.9" style="font-size:9.0">
+            strike
+        </text>
+        <text x="157.901" y="649.9" style="font-size:9.0">
+            with,
+        </text>
+        <text x="183.855" y="649.9" style="font-size:9.0">
+            both
+        </text>
+        <text x="72.0" y="660.7" style="font-size:9.0">
+            of
+        </text>
+        <text x="86.33" y="660.7" style="font-size:9.0">
+            which
+        </text>
+        <text x="117.137" y="660.7" style="font-size:9.0">
+            can
+        </text>
+        <text x="137.794" y="660.7" style="font-size:9.0">
+            strike
+        </text>
+        <text x="167.797" y="660.7" style="font-size:9.0">
+            twice
+        </text>
+        <text x="195.814" y="660.7" style="font-size:9.0">
+            in
+        </text>
+        <text x="72.0" y="671.5" style="font-size:9.0">
+            Melee
+        </text>
+        <text x="105.168" y="671.5" style="font-size:9.0">
+            or
+        </text>
+        <text x="122.152" y="671.5" style="font-size:9.0">
+            Close
+        </text>
+        <text x="153.883" y="671.5" style="font-size:9.0">
+            Combat
+        </text>
+        <text x="195.814" y="671.5" style="font-size:9.0">
+            in
+        </text>
+        <text x="72.0" y="682.3" style="font-size:9.0">
+            the
+        </text>
+        <text x="90.017" y="682.3" style="font-size:9.0">
+            same
+        </text>
+        <text x="117.042" y="682.3" style="font-size:9.0">
+            pulse
+        </text>
+        <text x="144.545" y="682.3" style="font-size:9.0">
+            at
+        </text>
+        <text x="156.933" y="682.3" style="font-size:9.0">
+            no
+        </text>
+        <text x="172.098" y="682.3" style="font-size:9.0">
+            penalty
+        </text>
+        <text x="72.0" y="693.1" style="font-size:9.0">
+            to
+        </text>
+        <text x="84.88" y="693.1" style="font-size:9.0">
+            the
+        </text>
+        <text x="102.831" y="693.1" style="font-size:9.0">
+            harpy.
+        </text>
+        <rect width="132.0" x="72.0" height="-16.0" y="706.0"
+              style="stroke:rgb(0,0,255);fill:rgb(0,0,255)"/>
+        <text x="111.691" y="716.0"
+              style="font-family:Times;font-size:10.0;font-weight:bold">
+            Hippogriff
+        </text>
+        <text x="222.0" y="79.900024" style="font-size:9.0;font-weight:bold">
+            Description:
+        </text>
+        <text x="284.526" y="79.900024" style="font-size:9.0">
+            Hippogriffs
+        </text>
+        <text x="340.334" y="79.900024" style="font-size:9.0">
+            are
+        </text>
+        <text x="222.0" y="90.70001" style="font-size:9.0">
+            similar
+        </text>
+        <text x="255.797" y="90.70001" style="font-size:9.0">
+            to
+        </text>
+        <text x="269.044" y="90.70001" style="font-size:9.0">
+            Pegasi
+        </text>
+        <text x="301.154" y="90.70001" style="font-size:9.0">
+            in
+        </text>
+        <text x="313.693" y="90.70001" style="font-size:9.0">
+            that
+        </text>
+        <text x="335.333" y="90.70001" style="font-size:9.0">
+            they
+        </text>
+        <text x="222.0" y="101.5" style="font-size:9.0">
+            are
+        </text>
+        <text x="241.596" y="101.5" style="font-size:9.0">
+            basically
+        </text>
+        <text x="284.831" y="101.5" style="font-size:9.0">
+            winged
+        </text>
+        <text x="322.17" y="101.5" style="font-size:9.0">
+            horses,
+        </text>
+        <text x="222.0" y="112.29999" style="font-size:9.0">
+            but
+        </text>
+        <text x="245.133" y="112.29999" style="font-size:9.0">
+            their
+        </text>
+        <text x="273.899" y="112.29999" style="font-size:9.0">
+            head
+        </text>
+        <text x="303.65" y="112.29999" style="font-size:9.0">
+            is
+        </text>
+        <text x="319.356" y="112.29999" style="font-size:9.0">
+            that
+        </text>
+        <text x="345.161" y="112.29999" style="font-size:9.0">
+            of
+        </text>
+        <text x="222.0" y="123.099976" style="font-size:9.0">
+            some
+        </text>
+        <text x="254.898" y="123.099976" style="font-size:9.0">
+            great
+        </text>
+        <text x="286.908" y="123.099976" style="font-size:9.0">
+            bird
+        </text>
+        <text x="313.886" y="123.099976" style="font-size:9.0">
+            of
+        </text>
+        <text x="332.09" y="123.099976" style="font-size:9.0">
+            prey,
+        </text>
+        <text x="222.0" y="133.90002" style="font-size:9.0">
+            with
+        </text>
+        <text x="247.484" y="133.90002" style="font-size:9.0">
+            a
+        </text>
+        <text x="259.452" y="133.90002" style="font-size:9.0">
+            fearsome
+        </text>
+        <text x="306.956" y="133.90002" style="font-size:9.0">
+            beak.
+        </text>
+        <text x="337.709" y="133.90002" style="font-size:9.0">
+            The
+        </text>
+        <text x="222.0" y="144.70001" style="font-size:9.0">
+            head
+        </text>
+        <text x="248.233" y="144.70001" style="font-size:9.0">
+            differs
+        </text>
+        <text x="281.399" y="144.70001" style="font-size:9.0">
+            from
+        </text>
+        <text x="307.32" y="144.70001" style="font-size:9.0">
+            that
+        </text>
+        <text x="329.607" y="144.70001" style="font-size:9.0">
+            of
+        </text>
+        <text x="343.444" y="144.70001" style="font-size:9.0">
+            an
+        </text>
+        <text x="222.0" y="155.5" style="font-size:9.0">
+            eagle
+        </text>
+        <text x="252.706" y="155.5" style="font-size:9.0">
+            in
+        </text>
+        <text x="268.388" y="155.5" style="font-size:9.0">
+            that
+        </text>
+        <text x="293.171" y="155.5" style="font-size:9.0">
+            it
+        </text>
+        <text x="306.634" y="155.5" style="font-size:9.0">
+            has
+        </text>
+        <text x="329.272" y="155.5" style="font-size:9.0">
+            large,
+        </text>
+        <text x="222.0" y="166.29999" style="font-size:9.0">
+            feathered
+        </text>
+        <text x="271.735" y="166.29999" style="font-size:9.0">
+            ears,
+        </text>
+        <text x="300.952" y="166.29999" style="font-size:9.0">
+            almost
+        </text>
+        <text x="338.523" y="166.29999" style="font-size:9.0">
+            like
+        </text>
+        <text x="222.0" y="177.09998" style="font-size:9.0">
+            wings,
+        </text>
+        <text x="257.81" y="177.09998" style="font-size:9.0">
+            at
+        </text>
+        <text x="273.791" y="177.09998" style="font-size:9.0">
+            the
+        </text>
+        <text x="295.401" y="177.09998" style="font-size:9.0">
+            back
+        </text>
+        <text x="323.549" y="177.09998" style="font-size:9.0">
+            of
+        </text>
+        <text x="340.031" y="177.09998" style="font-size:9.0">
+            the
+        </text>
+        <text x="222.0" y="187.90002" style="font-size:9.0">
+            head.
+        </text>
+        <text x="251.989" y="187.90002" style="font-size:9.0">
+            The
+        </text>
+        <text x="274.187" y="187.90002" style="font-size:9.0">
+            front
+        </text>
+        <text x="301.566" y="187.90002" style="font-size:9.0">
+            legs
+        </text>
+        <text x="325.288" y="187.90002" style="font-size:9.0">
+            of
+        </text>
+        <text x="340.034" y="187.90002" style="font-size:9.0">
+            the
+        </text>
+        <text x="222.0" y="198.70001" style="font-size:9.0">
+            hippogriff
+        </text>
+        <text x="280.945" y="198.70001" style="font-size:9.0">
+            also
+        </text>
+        <text x="314.022" y="198.70001" style="font-size:9.0">
+            resemble
+        </text>
+        <text x="222.0" y="209.5" style="font-size:9.0">
+            those
+        </text>
+        <text x="250.625" y="209.5" style="font-size:9.0">
+            of
+        </text>
+        <text x="264.007" y="209.5" style="font-size:9.0">
+            a
+        </text>
+        <text x="273.522" y="209.5" style="font-size:9.0">
+            bird
+        </text>
+        <text x="295.678" y="209.5" style="font-size:9.0">
+            of
+        </text>
+        <text x="309.06" y="209.5" style="font-size:9.0">
+            prey,
+        </text>
+        <text x="335.514" y="209.5" style="font-size:9.0">
+            with
+        </text>
+        <text x="222.0" y="220.29999" style="font-size:9.0">
+            huge
+        </text>
+        <text x="247.781" y="220.29999" style="font-size:9.0">
+            talons
+        </text>
+        <text x="278.404" y="220.29999" style="font-size:9.0">
+            and
+        </text>
+        <text x="298.609" y="220.29999" style="font-size:9.0">
+            feathers.
+        </text>
+        <text x="222.0" y="231.09998" style="font-size:9.0;font-weight:bold">
+            Talents:
+        </text>
+        <text x="263.652" y="231.09998" style="font-size:9.0">
+            Hippogriffs
+        </text>
+        <text x="317.74" y="231.09998" style="font-size:9.0">
+            have
+        </text>
+        <text x="342.886" y="231.09998" style="font-size:9.0">
+            no
+        </text>
+        <text x="222.0" y="241.90002" style="font-size:9.0">
+            magical
+        </text>
+        <text x="288.689" y="241.90002" style="font-size:9.0">
+            or
+        </text>
+        <text x="330.824" y="241.90002" style="font-size:9.0">
+            other
+        </text>
+        <text x="222.0" y="252.70001" style="font-size:9.0">
+            extra-ordinary
+        </text>
+        <text x="317.148" y="252.70001" style="font-size:9.0">
+            abilities,
+        </text>
+        <text x="222.0" y="263.5" style="font-size:9.0">
+            talents
+        </text>
+        <text x="256.259" y="263.5" style="font-size:9.0">
+            or
+        </text>
+        <text x="270.239" y="263.5" style="font-size:9.0">
+            skills,
+        </text>
+        <text x="300.093" y="263.5" style="font-size:9.0">
+            and
+        </text>
+        <text x="321.082" y="263.5" style="font-size:9.0">
+            are
+        </text>
+        <text x="339.518" y="263.5" style="font-size:9.0">
+            not
+        </text>
+        <text x="222.0" y="274.3" style="font-size:9.0">
+            tool
+        </text>
+        <text x="243.009" y="274.3" style="font-size:9.0">
+            users.
+        </text>
+        <text x="222.0" y="285.1" style="font-size:9.0;font-weight:bold">
+            Weapons:
+        </text>
+        <text x="271.672" y="285.1" style="font-size:9.0">
+            In
+        </text>
+        <text x="285.725" y="285.1" style="font-size:9.0">
+            Melee
+        </text>
+        <text x="316.995" y="285.1" style="font-size:9.0">
+            Combat,
+        </text>
+        <text x="222.0" y="295.9" style="font-size:9.0">
+            the
+        </text>
+        <text x="246.89" y="295.9" style="font-size:9.0">
+            hippogriff
+        </text>
+        <text x="301.369" y="295.9" style="font-size:9.0">
+            can
+        </text>
+        <text x="327.458" y="295.9" style="font-size:9.0">
+            attack
+        </text>
+        <text x="222.0" y="306.7" style="font-size:9.0">
+            with
+        </text>
+        <text x="245.484" y="306.7" style="font-size:9.0">
+            two
+        </text>
+        <text x="266.31" y="306.7" style="font-size:9.0">
+            claws
+        </text>
+        <text x="295.009" y="306.7" style="font-size:9.0">
+            and
+        </text>
+        <text x="316.226" y="306.7" style="font-size:9.0">
+            one
+        </text>
+        <text x="337.351" y="306.7" style="font-size:9.0">
+            bite
+        </text>
+        <text x="222.0" y="317.5" style="font-size:9.0">
+            in
+        </text>
+        <text x="236.951" y="317.5" style="font-size:9.0">
+            the
+        </text>
+        <text x="257.681" y="317.5" style="font-size:9.0">
+            same
+        </text>
+        <text x="287.419" y="317.5" style="font-size:9.0">
+            pulse
+        </text>
+        <text x="317.635" y="317.5" style="font-size:9.0">
+            with
+        </text>
+        <text x="342.886" y="317.5" style="font-size:9.0">
+            no
+        </text>
+        <text x="222.0" y="328.3" style="font-size:9.0">
+            penalty.
+        </text>
+        <text x="261.64" y="328.3" style="font-size:9.0">
+            The
+        </text>
+        <text x="282.82" y="328.3" style="font-size:9.0">
+            bite
+        </text>
+        <text x="304.356" y="328.3" style="font-size:9.0">
+            has
+        </text>
+        <text x="324.389" y="328.3" style="font-size:9.0">
+            a
+        </text>
+        <text x="334.25" y="328.3" style="font-size:9.0">
+            Base
+        </text>
+        <text x="222.0" y="339.1" style="font-size:9.0">
+            Chance
+        </text>
+        <text x="258.465" y="339.1" style="font-size:9.0">
+            of
+        </text>
+        <text x="271.777" y="339.1" style="font-size:9.0">
+            65\%
+        </text>
+        <text x="298.367" y="339.1" style="font-size:9.0">
+            and
+        </text>
+        <text x="319.061" y="339.1" style="font-size:9.0">
+            does
+        </text>
+        <text x="344.329" y="339.1" style="font-size:9.0">
+            [D
+        </text>
+        <text x="222.0" y="349.9" style="font-size:9.0">
+            +
+        </text>
+        <text x="239.397" y="349.9" style="font-size:9.0">
+            4]
+        </text>
+        <text x="258.256" y="349.9" style="font-size:9.0">
+            Damage,
+        </text>
+        <text x="307.054" y="349.9" style="font-size:9.0">
+            while
+        </text>
+        <text x="340.032" y="349.9" style="font-size:9.0">
+            the
+        </text>
+        <text x="222.0" y="360.7" style="font-size:9.0">
+            claws
+        </text>
+        <text x="250.206" y="360.7" style="font-size:9.0">
+            have
+        </text>
+        <text x="274.938" y="360.7" style="font-size:9.0">
+            a
+        </text>
+        <text x="284.413" y="360.7" style="font-size:9.0">
+            Base
+        </text>
+        <text x="308.665" y="360.7" style="font-size:9.0">
+            Chance
+        </text>
+        <text x="345.16" y="360.7" style="font-size:9.0">
+            of
+        </text>
+        <text x="222.0" y="371.5" style="font-size:9.0">
+            55\%
+        </text>
+        <text x="255.522" y="371.5" style="font-size:9.0">
+            and
+        </text>
+        <text x="283.148" y="371.5" style="font-size:9.0">
+            do
+        </text>
+        <text x="305.747" y="371.5" style="font-size:9.0">
+            [D
+        </text>
+        <text x="326.821" y="371.5" style="font-size:9.0">
+            +
+        </text>
+        <text x="345.382" y="371.5" style="font-size:9.0">
+            2]
+        </text>
+        <text x="222.0" y="382.3" style="font-size:9.0">
+            Damage.
+        </text>
+        <text x="268.657" y="382.3" style="font-size:9.0">
+            In
+        </text>
+        <text x="284.936" y="382.3" style="font-size:9.0">
+            Close
+        </text>
+        <text x="316.995" y="382.3" style="font-size:9.0">
+            Combat,
+        </text>
+        <text x="222.0" y="393.1" style="font-size:9.0">
+            the
+        </text>
+        <text x="240.22" y="393.1" style="font-size:9.0">
+            hippogriff
+        </text>
+        <text x="288.029" y="393.1" style="font-size:9.0">
+            can
+        </text>
+        <text x="307.448" y="393.1" style="font-size:9.0">
+            still
+        </text>
+        <text x="327.459" y="393.1" style="font-size:9.0">
+            attack
+        </text>
+        <text x="222.0" y="403.9" style="font-size:9.0">
+            with
+        </text>
+        <text x="246.417" y="403.9" style="font-size:9.0">
+            its
+        </text>
+        <text x="262.902" y="403.9" style="font-size:9.0">
+            claws
+        </text>
+        <text x="292.534" y="403.9" style="font-size:9.0">
+            normally,
+        </text>
+        <text x="339.383" y="403.9" style="font-size:9.0">
+            but
+        </text>
+        <text x="222.0" y="414.7" style="font-size:9.0">
+            the
+        </text>
+        <text x="241.562" y="414.7" style="font-size:9.0">
+            Base
+        </text>
+        <text x="266.906" y="414.7" style="font-size:9.0">
+            Chance
+        </text>
+        <text x="304.493" y="414.7" style="font-size:9.0">
+            on
+        </text>
+        <text x="321.203" y="414.7" style="font-size:9.0">
+            its
+        </text>
+        <text x="337.354" y="414.7" style="font-size:9.0">
+            bite
+        </text>
+        <text x="222.0" y="425.5" style="font-size:9.0">
+            is
+        </text>
+        <text x="233.174" y="425.5" style="font-size:9.0">
+            reduced
+        </text>
+        <text x="272.392" y="425.5" style="font-size:9.0">
+            to
+        </text>
+        <text x="285.272" y="425.5" style="font-size:9.0">
+            35\%.
+        </text>
+        <rect width="132.0" x="222.0" height="-16.0" y="438.4"
+              style="stroke:rgb(0,0,255);fill:rgb(0,0,255)"/>
+        <text x="267.835" y="448.4"
+              style="font-family:Times;font-size:10.0;font-weight:bold">
+            Pegasus
+        </text>
+        <text x="222.0" y="466.3" style="font-size:9.0;font-weight:bold">
+            Description:
+        </text>
+        <text x="295.232" y="466.3" style="font-size:9.0">
+            Pegasi
+        </text>
+        <text x="340.334" y="466.3" style="font-size:9.0">
+            are
+        </text>
+        <text x="222.0" y="477.1" style="font-size:9.0">
+            winged
+        </text>
+        <text x="264.468" y="477.1" style="font-size:9.0">
+            horses
+        </text>
+        <text x="304.51" y="477.1" style="font-size:9.0">
+            with
+        </text>
+        <text x="334.055" y="477.1" style="font-size:9.0">
+            pure
+        </text>
+        <text x="222.0" y="487.9" style="font-size:9.0">
+            white
+        </text>
+        <text x="249.492" y="487.9" style="font-size:9.0">
+            coats
+        </text>
+        <text x="276.544" y="487.9" style="font-size:9.0">
+            tinged
+        </text>
+        <text x="308.377" y="487.9" style="font-size:9.0">
+            with
+        </text>
+        <text x="330.855" y="487.9" style="font-size:9.0">
+            silver
+        </text>
+        <text x="222.0" y="498.7" style="font-size:9.0">
+            around
+        </text>
+        <text x="262.556" y="498.7" style="font-size:9.0">
+            mane
+        </text>
+        <text x="296.069" y="498.7" style="font-size:9.0">
+            and
+        </text>
+        <text x="321.83" y="498.7" style="font-size:9.0">
+            flowing
+        </text>
+        <text x="222.0" y="509.5" style="font-size:9.0">
+            tail.
+        </text>
+        <text x="244.508" y="509.5" style="font-size:9.0">
+            They
+        </text>
+        <text x="271.622" y="509.5" style="font-size:9.0">
+            are
+        </text>
+        <text x="291.411" y="509.5" style="font-size:9.0">
+            intelligent
+        </text>
+        <text x="341.479" y="509.5" style="font-size:9.0">
+            for
+        </text>
+        <text x="222.0" y="520.3" style="font-size:9.0">
+            equines
+        </text>
+        <text x="262.405" y="520.3" style="font-size:9.0">
+            and
+        </text>
+        <text x="284.979" y="520.3" style="font-size:9.0">
+            can
+        </text>
+        <text x="306.498" y="520.3" style="font-size:9.0">
+            sometimes
+        </text>
+        <text x="222.0" y="531.1" style="font-size:9.0">
+            speak
+        </text>
+        <text x="251.481" y="531.1" style="font-size:9.0">
+            the
+        </text>
+        <text x="269.432" y="531.1" style="font-size:9.0">
+            common
+        </text>
+        <text x="311.472" y="531.1" style="font-size:9.0">
+            tongue.
+        </text>
+        <text x="222.0" y="541.9" style="font-size:9.0;font-weight:bold">
+            Talents:
+        </text>
+        <text x="270.789" y="541.9" style="font-size:9.0">
+            Pegasi
+        </text>
+        <text x="310.602" y="541.9" style="font-size:9.0">
+            have
+        </text>
+        <text x="342.885" y="541.9" style="font-size:9.0">
+            no
+        </text>
+        <text x="222.0" y="552.7" style="font-size:9.0">
+            special
+        </text>
+        <text x="265.718" y="552.7" style="font-size:9.0">
+            talents
+        </text>
+        <text x="308.879" y="552.7" style="font-size:9.0">
+            or
+        </text>
+        <text x="331.761" y="552.7" style="font-size:9.0">
+            skills
+        </text>
+        <text x="222.0" y="563.5" style="font-size:9.0">
+            except
+        </text>
+        <text x="255.257" y="563.5" style="font-size:9.0">
+            for
+        </text>
+        <text x="271.847" y="563.5" style="font-size:9.0">
+            their
+        </text>
+        <text x="296.166" y="563.5" style="font-size:9.0">
+            flying
+        </text>
+        <text x="324.646" y="563.5" style="font-size:9.0">
+            ability.
+        </text>
+        <text x="222.0" y="574.3" style="font-size:9.0">
+            They
+        </text>
+        <text x="249.078" y="574.3" style="font-size:9.0">
+            are
+        </text>
+        <text x="268.831" y="574.3" style="font-size:9.0">
+            not
+        </text>
+        <text x="289.397" y="574.3" style="font-size:9.0">
+            magic
+        </text>
+        <text x="321.677" y="574.3" style="font-size:9.0">
+            or
+        </text>
+        <text x="336.974" y="574.3" style="font-size:9.0">
+            tool
+        </text>
+        <text x="222.0" y="585.1" style="font-size:9.0">
+            users.
+        </text>
+        <text x="222.0" y="595.9" style="font-size:9.0;font-weight:bold">
+            Weapons:
+        </text>
+        <text x="281.539" y="595.9" style="font-size:9.0">
+            In
+        </text>
+        <text x="305.459" y="595.9" style="font-size:9.0">
+            battle,
+        </text>
+        <text x="349.03" y="595.9" style="font-size:9.0">
+            a
+        </text>
+        <text x="222.0" y="606.7" style="font-size:9.0">
+            pegasus
+        </text>
+        <text x="264.367" y="606.7" style="font-size:9.0">
+            attacks
+        </text>
+        <text x="301.844" y="606.7" style="font-size:9.0">
+            as
+        </text>
+        <text x="317.75" y="606.7" style="font-size:9.0">
+            a
+        </text>
+        <text x="329.069" y="606.7" style="font-size:9.0">
+            heavy
+        </text>
+        <text x="222.0" y="617.5" style="font-size:9.0">
+            warhorse.
+        </text>
+        <rect width="132.0" x="222.0" height="-16.0" y="630.4"
+              style="stroke:rgb(0,0,255);fill:rgb(0,0,255)"/>
+        <text x="267.828" y="640.4"
+              style="font-family:Times;font-size:10.0;font-weight:bold">
+            Phoenix
+        </text>
+        <text x="222.0" y="658.3" style="font-size:9.0;font-weight:bold">
+            Description:
+        </text>
+        <text x="290.396" y="658.3" style="font-size:9.0">
+            The
+        </text>
+        <text x="319.194" y="658.3" style="font-size:9.0">
+            Phoenix
+        </text>
+        <text x="222.0" y="669.1" style="font-size:9.0">
+            appears
+        </text>
+        <text x="262.084" y="669.1" style="font-size:9.0">
+            to
+        </text>
+        <text x="276.511" y="669.1" style="font-size:9.0">
+            be
+        </text>
+        <text x="292.722" y="669.1" style="font-size:9.0">
+            much
+        </text>
+        <text x="322.436" y="669.1" style="font-size:9.0">
+            like
+        </text>
+        <text x="343.445" y="669.1" style="font-size:9.0">
+            an
+        </text>
+        <text x="222.0" y="679.9" style="font-size:9.0">
+            eagle
+        </text>
+        <text x="250.758" y="679.9" style="font-size:9.0">
+            in
+        </text>
+        <text x="264.492" y="679.9" style="font-size:9.0">
+            profile
+        </text>
+        <text x="298.439" y="679.9" style="font-size:9.0">
+            but
+        </text>
+        <text x="318.602" y="679.9" style="font-size:9.0">
+            is
+        </text>
+        <text x="331.338" y="679.9" style="font-size:9.0">
+            three
+        </text>
+        <text x="222.0" y="690.7" style="font-size:9.0">
+            times
+        </text>
+        <text x="252.221" y="690.7" style="font-size:9.0">
+            the
+        </text>
+        <text x="272.437" y="690.7" style="font-size:9.0">
+            size
+        </text>
+        <text x="296.049" y="690.7" style="font-size:9.0">
+            of
+        </text>
+        <text x="311.137" y="690.7" style="font-size:9.0">
+            an
+        </text>
+        <text x="327.943" y="690.7" style="font-size:9.0">
+            eagle.
+        </text>
+        <text x="222.0" y="701.5" style="font-size:9.0">
+            The
+        </text>
+        <text x="250.96" y="701.5" style="font-size:9.0">
+            bird&apos;
+            s
+        </text>
+        <text x="287.89" y="701.5" style="font-size:9.0">
+            plummage
+        </text>
+        <text x="346.81" y="701.5" style="font-size:9.0">
+            is
+        </text>
+        <text x="222.0" y="712.3" style="font-size:9.0">
+            partly
+        </text>
+        <text x="254.285" y="712.3" style="font-size:9.0">
+            red
+        </text>
+        <text x="275.945" y="712.3" style="font-size:9.0">
+            and
+        </text>
+        <text x="299.464" y="712.3" style="font-size:9.0">
+            partly
+        </text>
+        <text x="331.749" y="712.3" style="font-size:9.0">
+            gold,
+        </text>
+        <text x="372.0" y="79.900024" style="font-size:9.0">
+            and
+        </text>
+        <text x="395.685" y="79.900024" style="font-size:9.0">
+            is
+        </text>
+        <text x="410.339" y="79.900024" style="font-size:9.0">
+            dazzlingly
+        </text>
+        <text x="462.458" y="79.900024" style="font-size:9.0">
+            beautiful.
+        </text>
+        <text x="372.0" y="90.70001" style="font-size:9.0">
+            The
+        </text>
+        <text x="395.618" y="90.70001" style="font-size:9.0">
+            Phoenix
+        </text>
+        <text x="437.753" y="90.70001" style="font-size:9.0">
+            is
+        </text>
+        <text x="452.27" y="90.70001" style="font-size:9.0">
+            a
+        </text>
+        <text x="464.569" y="90.70001" style="font-size:9.0">
+            four-hex
+        </text>
+        <text x="372.0" y="101.5" style="font-size:9.0">
+            monster.
+        </text>
+        <text x="372.0" y="112.29999" style="font-size:9.0;font-weight:bold">
+            Talents:
+        </text>
+        <text x="421.061" y="112.29999" style="font-size:9.0">
+            The
+        </text>
+        <text x="449.678" y="112.29999" style="font-size:9.0">
+            Phoenix
+        </text>
+        <text x="496.812" y="112.29999" style="font-size:9.0">
+            is
+        </text>
+        <text x="372.0" y="123.099976" style="font-size:9.0">
+            highly
+        </text>
+        <text x="403.26" y="123.099976" style="font-size:9.0">
+            intelligent,
+        </text>
+        <text x="454.627" y="123.099976" style="font-size:9.0">
+            although
+        </text>
+        <text x="498.033" y="123.099976" style="font-size:9.0">
+            it
+        </text>
+        <text x="372.0" y="133.90002" style="font-size:9.0">
+            cannot
+        </text>
+        <text x="409.839" y="133.90002" style="font-size:9.0">
+            speak.
+        </text>
+        <text x="446.377" y="133.90002" style="font-size:9.0">
+            It
+        </text>
+        <text x="460.531" y="133.90002" style="font-size:9.0">
+            does
+        </text>
+        <text x="489.52" y="133.90002" style="font-size:9.0">
+            not
+        </text>
+        <text x="372.0" y="144.70001" style="font-size:9.0">
+            have
+        </text>
+        <text x="400.86" y="144.70001" style="font-size:9.0">
+            any
+        </text>
+        <text x="424.75" y="144.70001" style="font-size:9.0">
+            magical
+        </text>
+        <text x="467.147" y="144.70001" style="font-size:9.0">
+            abilities.
+        </text>
+        <text x="372.0" y="155.5" style="font-size:9.0">
+            The
+        </text>
+        <text x="394.355" y="155.5" style="font-size:9.0">
+            distinguishing
+        </text>
+        <text x="462.591" y="155.5" style="font-size:9.0">
+            ability
+        </text>
+        <text x="495.162" y="155.5" style="font-size:9.0">
+            of
+        </text>
+        <text x="372.0" y="166.29999" style="font-size:9.0">
+            the
+        </text>
+        <text x="391.982" y="166.29999" style="font-size:9.0">
+            Phoenix
+        </text>
+        <text x="432.805" y="166.29999" style="font-size:9.0">
+            is
+        </text>
+        <text x="446.01" y="166.29999" style="font-size:9.0">
+            its
+        </text>
+        <text x="462.581" y="166.29999" style="font-size:9.0">
+            ability
+        </text>
+        <text x="495.103" y="166.29999" style="font-size:9.0">
+            to
+        </text>
+        <text x="372.0" y="177.09998" style="font-size:9.0">
+            reproduce
+        </text>
+        <text x="440.711" y="177.09998" style="font-size:9.0">
+            itself
+        </text>
+        <text x="486.458" y="177.09998" style="font-size:9.0">
+            (see
+        </text>
+        <text x="372.0" y="187.90002" style="font-size:9.0">
+            ``Comments&apos;&apos;
+            ).
+        </text>
+        <text x="449.959" y="187.90002" style="font-size:9.0">
+            Other
+        </text>
+        <text x="484.494" y="187.90002" style="font-size:9.0">
+            than
+        </text>
+        <text x="372.0" y="198.70001" style="font-size:9.0">
+            that
+        </text>
+        <text x="393.878" y="198.70001" style="font-size:9.0">
+            it
+        </text>
+        <text x="404.436" y="198.70001" style="font-size:9.0">
+            has
+        </text>
+        <text x="424.169" y="198.70001" style="font-size:9.0">
+            no
+        </text>
+        <text x="439.873" y="198.70001" style="font-size:9.0">
+            special
+        </text>
+        <text x="474.51" y="198.70001" style="font-size:9.0">
+            talents
+        </text>
+        <text x="372.0" y="209.5" style="font-size:9.0">
+            or
+        </text>
+        <text x="385.196" y="209.5" style="font-size:9.0">
+            skills.
+        </text>
+        <text x="372.0" y="220.29999" style="font-size:9.0;font-weight:bold">
+            Weapons:
+        </text>
+        <text x="427.673" y="220.29999" style="font-size:9.0">
+            Phoenix
+        </text>
+        <text x="474.356" y="220.29999" style="font-size:9.0">
+            cannot
+        </text>
+        <text x="372.0" y="231.09998" style="font-size:9.0">
+            attack
+        </text>
+        <text x="413.251" y="231.09998" style="font-size:9.0">
+            except
+        </text>
+        <text x="457.147" y="231.09998" style="font-size:9.0">
+            in
+        </text>
+        <text x="480.043" y="231.09998" style="font-size:9.0">
+            Close
+        </text>
+        <text x="372.0" y="241.90002" style="font-size:9.0">
+            Combat
+        </text>
+        <text x="410.469" y="241.90002" style="font-size:9.0">
+            when
+        </text>
+        <text x="437.899" y="241.90002" style="font-size:9.0">
+            they
+        </text>
+        <text x="460.878" y="241.90002" style="font-size:9.0">
+            can
+        </text>
+        <text x="480.354" y="241.90002" style="font-size:9.0">
+            make
+        </text>
+        <text x="372.0" y="252.70001" style="font-size:9.0">
+            three
+        </text>
+        <text x="402.445" y="252.70001" style="font-size:9.0">
+            attacks
+        </text>
+        <text x="441.357" y="252.70001" style="font-size:9.0">
+            in
+        </text>
+        <text x="457.327" y="252.70001" style="font-size:9.0">
+            one
+        </text>
+        <text x="481.238" y="252.70001" style="font-size:9.0">
+            Pulse
+        </text>
+        <text x="372.0" y="263.5" style="font-size:9.0">
+            without
+        </text>
+        <text x="414.856" y="263.5" style="font-size:9.0">
+            penalty:
+        </text>
+        <text x="459.496" y="263.5" style="font-size:9.0">
+            one
+        </text>
+        <text x="485.514" y="263.5" style="font-size:9.0">
+            with
+        </text>
+        <text x="372.0" y="274.3" style="font-size:9.0">
+            beak
+        </text>
+        <text x="398.565" y="274.3" style="font-size:9.0">
+            (Base
+        </text>
+        <text x="426.895" y="274.3" style="font-size:9.0">
+            Chance
+        </text>
+        <text x="464.542" y="274.3" style="font-size:9.0">
+            of
+        </text>
+        <text x="479.036" y="274.3" style="font-size:9.0">
+            60\%,
+        </text>
+        <text x="372.0" y="285.1" style="font-size:9.0">
+            [D
+        </text>
+        <text x="388.843" y="285.1" style="font-size:9.0">
+            +
+        </text>
+        <text x="403.173" y="285.1" style="font-size:9.0">
+            8]
+        </text>
+        <text x="418.965" y="285.1" style="font-size:9.0">
+            Damage)
+        </text>
+        <text x="464.775" y="285.1" style="font-size:9.0">
+            and
+        </text>
+        <text x="488.17" y="285.1" style="font-size:9.0">
+            two
+        </text>
+        <text x="372.0" y="295.9" style="font-size:9.0">
+            with
+        </text>
+        <text x="396.33" y="295.9" style="font-size:9.0">
+            talons
+        </text>
+        <text x="428.811" y="295.9" style="font-size:9.0">
+            (Base
+        </text>
+        <text x="457.328" y="295.9" style="font-size:9.0">
+            Chance
+        </text>
+        <text x="495.162" y="295.9" style="font-size:9.0">
+            of
+        </text>
+        <text x="372.0" y="306.7" style="font-size:9.0">
+            65\%,
+        </text>
+        <text x="400.948" y="306.7" style="font-size:9.0">
+            [D
+        </text>
+        <text x="414.601" y="306.7" style="font-size:9.0">
+            +
+        </text>
+        <text x="425.741" y="306.7" style="font-size:9.0">
+            6]
+        </text>
+        <text x="438.343" y="306.7" style="font-size:9.0">
+            Damage).
+        </text>
+        <rect width="132.0" x="372.0" height="-16.0" y="319.6"
+              style="stroke:rgb(0,0,255);fill:rgb(0,0,255)"/>
+        <text x="428.611" y="329.6"
+              style="font-family:Times;font-size:10.0;font-weight:bold">
+            Roc
+        </text>
+        <text x="372.0" y="347.5" style="font-size:9.0;font-weight:bold">
+            Description:
+        </text>
+        <text x="434.633" y="347.5" style="font-size:9.0">
+            Rocs
+        </text>
+        <text x="461.793" y="347.5" style="font-size:9.0">
+            are
+        </text>
+        <text x="482.205" y="347.5" style="font-size:9.0">
+            huge
+        </text>
+        <text x="372.0" y="358.3" style="font-size:9.0">
+            birds
+        </text>
+        <text x="400.474" y="358.3" style="font-size:9.0">
+            with
+        </text>
+        <text x="425.236" y="358.3" style="font-size:9.0">
+            wingspans
+        </text>
+        <text x="477.636" y="358.3" style="font-size:9.0">
+            of
+        </text>
+        <text x="492.749" y="358.3" style="font-size:9.0">
+            up
+        </text>
+        <text x="372.0" y="369.1" style="font-size:9.0">
+            to
+        </text>
+        <text x="385.828" y="369.1" style="font-size:9.0">
+            250
+        </text>
+        <text x="407.832" y="369.1" style="font-size:9.0">
+            feet.
+        </text>
+        <text x="432.316" y="369.1" style="font-size:9.0">
+            Except
+        </text>
+        <text x="466.299" y="369.1" style="font-size:9.0">
+            for
+        </text>
+        <text x="483.752" y="369.1" style="font-size:9.0">
+            their
+        </text>
+        <text x="372.0" y="379.9" style="font-size:9.0">
+            size,
+        </text>
+        <text x="401.863" y="379.9" style="font-size:9.0">
+            they
+        </text>
+        <text x="430.185" y="379.9" style="font-size:9.0">
+            much
+        </text>
+        <text x="464.021" y="379.9" style="font-size:9.0">
+            resemble
+        </text>
+        <text x="372.0" y="390.7" style="font-size:9.0">
+            eagles.
+        </text>
+        <text x="407.268" y="390.7" style="font-size:9.0">
+            Their
+        </text>
+        <text x="434.464" y="390.7" style="font-size:9.0">
+            body
+        </text>
+        <text x="460.646" y="390.7" style="font-size:9.0">
+            size
+        </text>
+        <text x="482.631" y="390.7" style="font-size:9.0">
+            is
+        </text>
+        <text x="494.443" y="390.7" style="font-size:9.0">
+            as
+        </text>
+        <text x="372.0" y="401.5" style="font-size:9.0">
+            a
+        </text>
+        <text x="380.956" y="401.5" style="font-size:9.0">
+            four-hex
+        </text>
+        <text x="424.371" y="401.5" style="font-size:9.0">
+            monster.
+        </text>
+        <text x="372.0" y="412.3" style="font-size:9.0;font-weight:bold">
+            Talents:
+        </text>
+        <text x="423.237" y="412.3" style="font-size:9.0">
+            Rocs
+        </text>
+        <text x="458.155" y="412.3" style="font-size:9.0">
+            have
+        </text>
+        <text x="492.886" y="412.3" style="font-size:9.0">
+            no
+        </text>
+        <text x="372.0" y="423.1" style="font-size:9.0">
+            special
+        </text>
+        <text x="414.769" y="423.1" style="font-size:9.0">
+            talents,
+        </text>
+        <text x="459.828" y="423.1" style="font-size:9.0">
+            skills
+        </text>
+        <text x="494.788" y="423.1" style="font-size:9.0">
+            or
+        </text>
+        <text x="372.0" y="433.9" style="font-size:9.0">
+            magic,
+        </text>
+        <text x="411.433" y="433.9" style="font-size:9.0">
+            and
+        </text>
+        <text x="438.045" y="433.9" style="font-size:9.0">
+            are
+        </text>
+        <text x="462.104" y="433.9" style="font-size:9.0">
+            not
+        </text>
+        <text x="486.976" y="433.9" style="font-size:9.0">
+            tool
+        </text>
+        <text x="372.0" y="444.7" style="font-size:9.0">
+            users.
+        </text>
+        <text x="372.0" y="455.5" style="font-size:9.0;font-weight:bold">
+            Weapons:
+        </text>
+        <text x="420.335" y="455.5" style="font-size:9.0">
+            Rocs
+        </text>
+        <text x="445.288" y="455.5" style="font-size:9.0">
+            are
+        </text>
+        <text x="463.493" y="455.5" style="font-size:9.0">
+            fearsome
+        </text>
+        <text x="372.0" y="466.3" style="font-size:9.0">
+            creatures
+        </text>
+        <text x="417.339" y="466.3" style="font-size:9.0">
+            in
+        </text>
+        <text x="430.355" y="466.3" style="font-size:9.0">
+            battle.
+        </text>
+        <text x="463.013" y="466.3" style="font-size:9.0">
+            They
+        </text>
+        <text x="488.834" y="466.3" style="font-size:9.0">
+            can
+        </text>
+        <text x="372.0" y="477.1" style="font-size:9.0">
+            engage
+        </text>
+        <text x="414.624" y="477.1" style="font-size:9.0">
+            in
+        </text>
+        <text x="433.629" y="477.1" style="font-size:9.0">
+            Melee
+        </text>
+        <text x="469.842" y="477.1" style="font-size:9.0">
+            Combat
+        </text>
+        <text x="372.0" y="487.9" style="font-size:9.0">
+            from
+        </text>
+        <text x="400.551" y="487.9" style="font-size:9.0">
+            a
+        </text>
+        <text x="413.151" y="487.9" style="font-size:9.0">
+            range
+        </text>
+        <text x="445.643" y="487.9" style="font-size:9.0">
+            of
+        </text>
+        <text x="462.11" y="487.9" style="font-size:9.0">
+            3
+        </text>
+        <text x="475.43" y="487.9" style="font-size:9.0">
+            hexes,
+        </text>
+        <text x="372.0" y="498.7" style="font-size:9.0">
+            and
+        </text>
+        <text x="398.388" y="498.7" style="font-size:9.0">
+            they
+        </text>
+        <text x="427.224" y="498.7" style="font-size:9.0">
+            can
+        </text>
+        <text x="452.557" y="498.7" style="font-size:9.0">
+            take
+        </text>
+        <text x="481.336" y="498.7" style="font-size:9.0">
+            three
+        </text>
+        <text x="372.0" y="509.5" style="font-size:9.0">
+            attacks
+        </text>
+        <text x="408.336" y="509.5" style="font-size:9.0">
+            in
+        </text>
+        <text x="421.73" y="509.5" style="font-size:9.0">
+            one
+        </text>
+        <text x="443.065" y="509.5" style="font-size:9.0">
+            Pulse
+        </text>
+        <text x="471.034" y="509.5" style="font-size:9.0">
+            without
+        </text>
+        <text x="372.0" y="520.3" style="font-size:9.0">
+            penalty.
+        </text>
+        <text x="416.41" y="520.3" style="font-size:9.0">
+            They
+        </text>
+        <text x="447.062" y="520.3" style="font-size:9.0">
+            attack
+        </text>
+        <text x="483.264" y="520.3" style="font-size:9.0">
+            once
+        </text>
+        <text x="372.0" y="531.1" style="font-size:9.0">
+            with
+        </text>
+        <text x="396.165" y="531.1" style="font-size:9.0">
+            a
+        </text>
+        <text x="406.814" y="531.1" style="font-size:9.0">
+            bite
+        </text>
+        <text x="429.138" y="531.1" style="font-size:9.0">
+            (Base
+        </text>
+        <text x="457.49" y="531.1" style="font-size:9.0">
+            Chance
+        </text>
+        <text x="495.159" y="531.1" style="font-size:9.0">
+            of
+        </text>
+        <text x="372.0" y="541.9" style="font-size:9.0">
+            75\%,[D
+        </text>
+        <text x="411.893" y="541.9" style="font-size:9.0">
+            +
+        </text>
+        <text x="424.311" y="541.9" style="font-size:9.0">
+            20]
+        </text>
+        <text x="443.881" y="541.9" style="font-size:9.0">
+            Damage)
+        </text>
+        <text x="487.779" y="541.9" style="font-size:9.0">
+            and
+        </text>
+        <text x="372.0" y="552.7" style="font-size:9.0">
+            twice
+        </text>
+        <text x="409.396" y="552.7" style="font-size:9.0">
+            with
+        </text>
+        <text x="442.754" y="552.7" style="font-size:9.0">
+            claws
+        </text>
+        <text x="481.327" y="552.7" style="font-size:9.0">
+            (Base
+        </text>
+        <text x="372.0" y="563.5" style="font-size:9.0">
+            Chance
+        </text>
+        <text x="414.97" y="563.5" style="font-size:9.0">
+            70\%,
+        </text>
+        <text x="450.912" y="563.5" style="font-size:9.0">
+            [D
+        </text>
+        <text x="471.559" y="563.5" style="font-size:9.0">
+            +
+        </text>
+        <text x="489.693" y="563.5" style="font-size:9.0">
+            25]
+        </text>
+        <text x="372.0" y="574.3" style="font-size:9.0">
+            Damage).
+        </text>
+        <a xlink:href="#svgView(viewBox(0, 0.0, 576, 792))" xlink:type="simple"
+           xlink:actuate="onRequest" xlink:show="replace"
+           xmlns:xlink="http://www.w3.org/1999/xlink">
+            <rect width="288.0" x="0.0" height="792.0" y="0.0"
+                  style="fill:blue;visibility:hidden"/>
+        </a>
+    </g>
+</svg>

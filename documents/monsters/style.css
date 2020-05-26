@@ -1,0 +1,56 @@
+DQMM {
+  background: #aaaaff;
+  width: 700pt;
+  display: block;
+}
+
+GROUP {
+  display: block;
+}
+
+CLASS {
+  padding: 0pt;
+  display: block;
+}
+
+GROUP:before {
+  content: attr(NAME);
+  text-align: center;
+  font-size: 20pt;
+  background: #0000ff;
+  color: white;
+  display: block;
+}
+
+MONSTER {
+  display: block;
+  border: 2pt black solid;
+  padding: 4pt 4pt 4pt 4pt;
+  margin: 6pt 0pt 6pt 0pt;
+  background: white;
+}
+
+MONSTER:before {
+  content: attr(NAME);
+  font-face: helvetica ariel;
+  font-weight: bold;
+  font-size: 16pt;
+  display: block;
+  text-align: center;
+  background: #8080ff;
+}
+
+DQMM NOTES {
+  display: block;
+  background: white;
+  font-size: 12pt;
+  font-face: helvetica ariel;
+}
+
+DESCRIPTION, TALENTS, NOTES {
+  width: inherit;
+  display: inline;
+}
+
+
+

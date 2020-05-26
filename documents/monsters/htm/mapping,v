@@ -1,0 +1,83 @@
+head	1.1;
+access;
+symbols;
+locks
+	rossa:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	96.12.17.23.12.57;	author rossa;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<dqmm>		+
+</dqmm>		+
+
+<group>		+ "\\begin{multicols}{2}\n\n"
+			"\\setlength\\columnseprule{0.4mm}\n"
+			 "\n\\section"
+</group>	+ "\\end{multicols}\n"
+
+<class>		+ "\n\\subsection"
+</class>	+
+
+<monster>	+ "\n\\subsubsection"
+</monster>	+
+
+<heading>	+ "{"
+</heading>	+ "}\n\n"
+
+<mblock>	+ "\n\\begin{description}\n"
+			"\\setlength\\itemsep{0pt}\n"
+</mblock>	+ "\n\\end{description}\n"
+<habitat>	+ "\\item\[Natural Habitat\]"
+
+<bc>		+ "\n\\item\[Base Chance\]"
+<lesser>	+ "\n\\item\[Lesser Spirits\]"
+<freq>		+ "\n\\item\[Frequency\]"
+<number>	+ "\n\\item\[Number\]"
+<desc>		+ "\n\\item\[Description\]"
+<talents>	+ "\n\\item\[Talents, Skills and Magic\]"
+<movement>	+ "\n\\item\[Movement Rates\]"
+<stats>		+ "\n\\end{description}\n"
+			"\\begin{tabularx}{\\linewidth}{\@@{}X\@@{\\hspace{0.5em}}X\@@{\\hspace{0.5em}}X\@@{\\hspace{0.5em}}X\@@{}}\n"
+<ps>		+ "\\textbf{PS:} "
+</ps>		+ "\& "
+<md>		+ "\\textbf{MD:} "
+</md>		+ "\& "
+<ag>		+ "\\textbf{AG:} "
+</ag>		+ "\& "
+<ma>		+ "\\textbf{MA:} "
+</ma>		+ "\\\\\n"
+<en>		+ "\\textbf{EN:} "
+</en>		+ "\& "
+<ft>		+ "\\textbf{FT:} "
+</ft>		+ "\& "
+<wp>		+ "\\textbf{WP:} "
+</wp>		+ "\& "
+<pc>		+ "\\textbf{PC:} "
+</pc>		+ "\\\\\n"
+<ps>		+ "\\textbf{PC:} "
+</ps>		+ "\& "
+<pb>		+ "\\textbf{PB:} "
+</pb>		+ "\& "
+<tmr>		+ "\\textbf{TMR:} "
+</tmr>		+ "\& "
+<na>		+ "\\multicolumn{2}{@@{}l@@{}}{\\textbf{NA:} "
+</na>		+ "}\\\\\n"
+</stats>	+ "\\end{tabularx}\n"
+			"\n\\begin{description}\n"
+<weapons>	+ "\n\\item\[Weapons\]"
+<comments>	+ "\n\\item\[Comments\]"
+@

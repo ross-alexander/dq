@@ -1,0 +1,97 @@
+head	1.2;
+access;
+symbols;
+locks
+	ralexand:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2003.04.28.12.44.49;	author ralexand;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.03.15.09.44;	author ralexand;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Check in before typing to fix the percent problem.
+@
+text
+@<!entity % general system "general" -- general purpose characters -- >
+%general;
+
+<!entity space " ">
+<!entity null "">
+
+<!shortref global
+      "&#RS;B" null  -- delete leading blanks --
+      "%" percnt
+>
+
+<!usemap global dqmm>
+
+<!element dqmm o o (group)>
+
+<!entity % inline "#pcdata|itemize|br">
+<!element group - - (notes?, ((class|monster)+)) >
+<!attlist group name cdata #required >
+<!element class - - (notes?, (monster+)) >
+<!attlist class name cdata #required >
+<!element mhead o o (#pcdata)>
+<!element notes o o ((%inline)*) >
+<!element monster - - ((habitat, frequency, number, description, talents, movement, stats, weapons, comments?)|(comments))>
+<!attlist monster name cdata #required >
+<!element cdesc o o (comments)> 
+<!element itemize - - (item+)>
+<!element item - o (#pcdata)>
+<!element habitat - o (#PCDATA) >
+<!element frequency - o (#PCDATA) >
+<!element number - o (#PCDATA) >
+<!element description - o (%inline) >
+<!element talents - o ((%inline)*) >
+<!element movement - o (#PCDATA) >
+<!element weapons - o (%inline) >
+<!element comments - o (%inline) >
+<!element stats o o
+	((PS & MD & AG), MA, (EN & FT & WP), PC, (PB & TMR), NA) >
+<!element PS - o (#PCDATA) >
+<!element MD - o (#PCDATA) >
+<!element AG - o (#PCDATA) >
+<!element MA - o (#PCDATA) >
+<!element EN - o (#PCDATA) >
+<!element FT - o (#PCDATA) >
+<!element WP - o (#PCDATA) >
+<!element PC - o (#PCDATA) >
+<!element PB - o (#PCDATA) >
+<!element TMR - o (#PCDATA) >
+<!element NA - o (#PCDATA) >
+
+<!element br - o EMPTY >
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d16 1
+a16 1
+<!entity % inline "#pcdata|itemize">
+d22 2
+a23 2
+<!element notes o o (#pcdata)>
+<!element monster - - (mblock)>
+a24 1
+<!element mblock o o ((habitat, frequency, number, description, talents, movement, stats, weapons, comments?)|(comments)) >
+d49 2
+@

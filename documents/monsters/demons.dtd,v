@@ -1,0 +1,72 @@
+head	1.1;
+access;
+symbols;
+locks
+	ralexand:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2003.01.03.16.18.18;	author ralexand;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<!entity % general system "general" -- general purpose characters -- >
+%general;
+
+<!entity space " ">
+<!entity null "">
+
+<!shortref global
+      "&#RS;B" null -- delete leading blanks --
+      "%" percnt
+>
+
+<!usemap global demons>
+
+<!element demons o o (group)>
+
+<!entity % inline "#pcdata|itemize">
+<!element group - - (notes?, ((class|monster)+)) >
+<!attlist group name cdata #required >
+<!element class - - (notes?, (demon*)) >
+<!attlist class name cdata #required >
+<!element notes o o (#pcdata)>
+<!element demon - - (mblock)>
+<!attlist demon name cdata #required
+		title cdata #required >
+<!element mblock o o ((bc, lesser, description, talents, movement, stats, weapons, comments?)|(comments)) >
+<!element cdesc o o (comments)> 
+<!element itemize - - (item+)>
+<!element item - o (#pcdata)>
+<!element bc - o (#PCDATA) >
+<!element lesser - o (#PCDATA) >
+<!element description - o (%inline) >
+<!element talents - o ((%inline)*) >
+<!element movement - o (#PCDATA) >
+<!element weapons - o (%inline) >
+<!element comments - o (%inline) >
+<!element stats o o
+	((PS & MD & AG), MA, (EN & FT & WP), PC, (PB & TMR), NA) >
+<!element PS - o (#PCDATA) >
+<!element MD - o (#PCDATA) >
+<!element AG - o (#PCDATA) >
+<!element MA - o (#PCDATA) >
+<!element EN - o (#PCDATA) >
+<!element FT - o (#PCDATA) >
+<!element WP - o (#PCDATA) >
+<!element PC - o (#PCDATA) >
+<!element PB - o (#PCDATA) >
+<!element TMR - o (#PCDATA) >
+<!element NA - o (#PCDATA) >
+@

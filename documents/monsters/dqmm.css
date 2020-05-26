@@ -1,0 +1,39 @@
+div {
+  background: #80F080;
+  border: 1pt solid black;
+  padding: 4pt 10pt 4pt 10pt;
+  margin: 10pt 0pt 10pt 00pt;
+}
+
+div {
+  font-size: 10pt;
+}
+
+div h3 {
+  text-align: center;
+  font-family: helvetica, ariel;
+  font-size: 14pt;
+  background: white;
+  margin: 2pt;
+}
+
+div table {
+  background: white;
+  border: 1pt solid black;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+div table td {
+  border: 1pt solid black;
+}
+
+p {
+  background: yellow;
+  font-size: 10pt;
+}
+
+br {
+  display: block;
+  margin: 10pt;
+}

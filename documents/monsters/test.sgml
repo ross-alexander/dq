@@ -1,0 +1,43 @@
+<!doctype dqmm public "-//RDA//DTD DQMM//EN">
+<group name="Avians">
+<class name="Common Avians">
+
+<notes> Common avians include buzzards, eagles, goshawks, owls.
+
+  <monster name="Buzzard">
+<desclist>
+<habitat> Plains, waste
+<frequency> Common
+<number> 1-60 (10)
+
+<description> These birds have dark brown plummage and thin,
+unfeathered necks of a tannish color. Their beaks are black and
+snub-tipped. They prey on the dead and near-dead (espcially if
+unconscious).
+
+<talents> Buzzards can see each other miles away, and thus when one
+buzzard descends for a meal, others soon follow. Except for their keen
+eyesight, buzzards possess no special talents, skills or magic. They
+are not tool users.
+
+<weapons> A buzzard attacks in Close Combat with its claws and
+beak. The claws' Base Chance is 45&percnt, for [D - 5] Damage, while the
+bite's Base Chance is 40&percnt, for [D - 6] Damage. A buzzard cannot attack
+in Melee Combat.
+
+<movement>  Flying: 600
+
+<PS> 3-5
+<MD> 15-17
+<AG> 14-16
+<MA> None
+<EN> 6-7
+<FT> 9-11
+<WP> 8-10
+<PC> 17-20
+<PB> 8-10
+<TMR> 12
+<NA> Feathers absorb 1 DP
+</monster>
+</class>
+</group>

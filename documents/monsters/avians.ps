@@ -1,0 +1,3924 @@
+%!PS-Adobe-3.0
+%%Creator: FOP 0.20.5rc2
+%%Pages: (atend)
+%%DocumentProcessColors: Black
+%%DocumentSuppliedResources: procset FOPFonts
+%%EndComments
+%%BeginDefaults
+%%EndDefaults
+%%BeginProlog
+%%EndProlog
+%%BeginSetup
+%%BeginResource: procset FOPprocs
+%%Title: Utility procedures
+/FOPprocs 20 dict dup begin
+/bd{bind def}bind def
+/ld{load def}bd
+/M/moveto ld
+/RM/rmoveto ld
+/t/show ld
+/A/ashow ld
+/cp/closepath ld
+/re {4 2 roll M
+1 index 0 rlineto
+0 exch rlineto
+neg 0 rlineto
+cp } bd
+/ux 0.0 def
+/uy 0.0 def
+/F {
+  /Tp exch def
+  /Tf exch def
+  Tf findfont Tp scalefont setfont
+  /cf Tf def  /cs Tp def  /cw ( ) stringwidth pop def
+} bd
+/ULS {currentpoint /uy exch def /ux exch def} bd
+/ULE {
+  /Tcx currentpoint pop def
+  gsave
+  newpath
+  cf findfont cs scalefont dup
+  /FontMatrix get 0 get /Ts exch def /FontInfo get dup
+  /UnderlinePosition get Ts mul /To exch def
+  /UnderlineThickness get Ts mul /Tt exch def
+  ux uy To add moveto  Tcx uy To add lineto
+  Tt setlinewidth stroke
+  grestore
+} bd
+/OLE {
+  /Tcx currentpoint pop def
+  gsave
+  newpath
+  cf findfont cs scalefont dup
+  /FontMatrix get 0 get /Ts exch def /FontInfo get dup
+  /UnderlinePosition get Ts mul /To exch def
+  /UnderlineThickness get Ts mul /Tt exch def
+  ux uy To add cs add moveto Tcx uy To add cs add lineto
+  Tt setlinewidth stroke
+  grestore
+} bd
+/SOE {
+  /Tcx currentpoint pop def
+  gsave
+  newpath
+  cf findfont cs scalefont dup
+  /FontMatrix get 0 get /Ts exch def /FontInfo get dup
+  /UnderlinePosition get Ts mul /To exch def
+  /UnderlineThickness get Ts mul /Tt exch def
+  ux uy To add cs 10 mul 26 idiv add moveto Tcx uy To add cs 10 mul 26 idiv add lineto
+  Tt setlinewidth stroke
+  grestore
+} bd
+end def
+%%EndResource
+%%BeginResource: procset FOPFonts
+%%Title: Font setup (shortcuts) for this file
+/FOPFonts 100 dict dup begin
+/F3 /Helvetica-Bold def
+/F14 /ZapfDingbats def
+/F5 /Times-Roman def
+/F13 /Symbol def
+/F10 /Courier-Oblique def
+/F8 /Times-BoldItalic def
+/F6 /Times-Italic def
+/F1 /Helvetica def
+/F4 /Helvetica-BoldOblique def
+/F11 /Courier-Bold def
+/F9 /Courier def
+/F12 /Courier-BoldOblique def
+/F2 /Helvetica-Oblique def
+/F7 /Times-Bold def
+end def
+%%EndResource
+/Helvetica-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+end
+/Helvetica-Bold exch definefont pop
+/ZapfDingbats findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+end
+/ZapfDingbats exch definefont pop
+/Times-Roman findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+end
+/Times-Roman exch definefont pop
+/Symbol findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+end
+/Symbol exch definefont pop
+/Courier-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+end
+/Courier-Oblique exch definefont pop
+/Times-BoldItalic findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+end
+/Times-BoldItalic exch definefont pop
+/Times-Italic findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+end
+/Times-Italic exch definefont pop
+/Helvetica findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+end
+/Helvetica exch definefont pop
+/Helvetica-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+end
+/Helvetica-BoldOblique exch definefont pop
+/Courier-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+end
+/Courier-Bold exch definefont pop
+/Courier findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+end
+/Courier exch definefont pop
+/Courier-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+end
+/Courier-BoldOblique exch definefont pop
+/Helvetica-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+end
+/Helvetica-Oblique exch definefont pop
+/Times-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+end
+/Times-Bold exch definefont pop
+%%BeginResource: procset EPSprocs
+%%Title: EPS encapsulation procs
+/BeginEPSF { %def
+/b4_Inc_state save def         % Save state for cleanup
+/dict_count countdictstack def % Count objects on dict stack
+/op_count count 1 sub def      % Count objects on operand stack
+userdict begin                 % Push userdict on dict stack
+/showpage { } def              % Redefine showpage, { } = null proc
+0 setgray 0 setlinecap         % Prepare graphics state
+1 setlinewidth 0 setlinejoin
+10 setmiterlimit [ ] 0 setdash newpath
+/languagelevel where           % If level not equal to 1 then
+{pop languagelevel             % set strokeadjust and
+1 ne                           % overprint to their defaults.
+{false setstrokeadjust false setoverprint
+} if
+} if
+} bind def
+/EndEPSF { %def
+count op_count sub {pop} repeat            % Clean up stacks
+countdictstack dict_count sub {end} repeat
+b4_Inc_state restore
+} bind def
+%%EndResource
+%%EndSetup
+%%Page: 1 1
+%%PageBoundingBox: 0 0 576 792
+%%BeginPageSetup
+FOPprocs begin
+FOPFonts begin
+0.001 0.001 scale
+%%EndPageSetup
+112503 705906 M
+F5 18000 F
+(Avians) t
+90358 679238 M
+F5 14000 F
+(Common) t
+145980 679238 M
+(Avians) t
+72000 657438 M
+F1 9000 F
+1.0 0.0 0.0 setrgbcolor
+(Common) t
+111006 657438 M
+(avians) t
+139518 657438 M
+(include) t
+72000 647313 M
+(buzzards,) t
+113517 647313 M
+(eagles,) t
+145035 647313 M
+(goshawks,) t
+72000 637188 M
+(owls.) t
+newpath
+71000 624425 M
+134000 0 rlineto
+1000 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+71000 624425 M
+0 -16810 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+newpath
+205000 624425 M
+0 -16810 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+newpath
+71000 607615 M
+134000 0 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+119945 613665 M
+F7 10000 F
+0.0 0.0 0.0 setrgbcolor
+(Buzzard) t
+72000 596253 M
+F3 9000 F
+(Description:) t
+129662 596253 M
+F1 9000 F
+(These) t
+159829 596253 M
+(birds) t
+184488 596253 M
+(have) t
+72000 586128 M
+(dark) t
+93493 586128 M
+(brown) t
+121988 586128 M
+(plummage) t
+167988 586128 M
+(and) t
+186988 586128 M
+(thin,) t
+72000 576003 M
+(unfeathered) t
+124766 576003 M
+(necks) t
+153007 576003 M
+(of) t
+165246 576003 M
+(a) t
+174983 576003 M
+(tannish) t
+72000 565878 M
+(color.) t
+97296 565878 M
+(Their) t
+121089 565878 M
+(beaks) t
+148392 565878 M
+(are) t
+164688 565878 M
+(black) t
+188985 565878 M
+(and) t
+72000 555753 M
+(snub\255tipped.) t
+127137 555753 M
+(They) t
+152754 555753 M
+(prey) t
+175869 555753 M
+(on) t
+191487 555753 M
+(the) t
+72000 545628 M
+(dead) t
+95502 545628 M
+(and) t
+114000 545628 M
+(near\255dead) t
+158508 545628 M
+(\(espcially) t
+199497 545628 M
+(if) t
+72000 535503 M
+(unconscious\).) t
+72000 525378 M
+F3 9000 F
+(Talents:) t
+109369 525378 M
+F1 9000 F
+(Buzzards) t
+149744 525378 M
+(can) t
+167115 525378 M
+(see) t
+184486 525378 M
+(each) t
+72000 515253 M
+(other) t
+95201 515253 M
+(miles) t
+118888 515253 M
+(away,) t
+145086 515253 M
+(and) t
+162788 515253 M
+(thus) t
+182488 515253 M
+(when) t
+72000 505128 M
+(one) t
+94749 505128 M
+(buzzard) t
+134499 505128 M
+(descends) t
+180756 505128 M
+(for) t
+198996 505128 M
+(a) t
+72000 495003 M
+(meal,) t
+97118 495003 M
+(others) t
+125242 495003 M
+(soon) t
+147867 495003 M
+(follow.) t
+176486 495003 M
+(Except) t
+72000 484878 M
+(for) t
+85490 484878 M
+(their) t
+105982 484878 M
+(keen) t
+128481 484878 M
+(eyesight,) t
+167486 484878 M
+(buzzards) t
+72000 474753 M
+(possess) t
+108127 474753 M
+(no) t
+121250 474753 M
+(special) t
+152373 474753 M
+(talents,) t
+184504 474753 M
+(skills) t
+72000 464628 M
+(or) t
+87493 464628 M
+(magic.) t
+121490 464628 M
+(They) t
+148989 464628 M
+(are) t
+169486 464628 M
+(not) t
+189488 464628 M
+(tool) t
+72000 454503 M
+(users.) t
+newpath
+71800 447740 M
+125122 0 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+71800 447740 M
+0 -30775 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+196922 447740 M
+0 -30775 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+71800 416965 M
+125122 0 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+72000 440178 M
+F3 9000 F
+(PS) t
+100346 440178 M
+(3\2555) t
+134361 440178 M
+(MD) t
+162707 440178 M
+(15\25517) t
+72000 430053 M
+(AG) t
+100346 430053 M
+(14\25516) t
+134361 430053 M
+(MA) t
+162707 430053 M
+(None) t
+72000 419928 M
+(WP) t
+100346 419928 M
+(8\25510) t
+134361 419928 M
+(EN) t
+162707 419928 M
+(6\2557) t
+72000 405603 M
+(Weapons:) t
+118869 405603 M
+F1 9000 F
+(A) t
+128739 405603 M
+(buzzard) t
+164619 405603 M
+(attacks) t
+196998 405603 M
+(in) t
+72000 395478 M
+(Close) t
+97998 395478 M
+(Combat) t
+132501 395478 M
+(with) t
+151497 395478 M
+(its) t
+163491 395478 M
+(claws) t
+188985 395478 M
+(and) t
+72000 385353 M
+(beak.) t
+98697 385353 M
+(The) t
+118887 385353 M
+(claws') t
+147789 385353 M
+(Base) t
+172983 385353 M
+(Chance) t
+72000 375228 M
+(is) t
+81065 375228 M
+(45%,) t
+104143 375228 M
+(for) t
+117213 375228 M
+(\[D) t
+128780 375228 M
+(\255) t
+134344 375228 M
+(5\]) t
+144417 375228 M
+(Damage,) t
+183497 375228 M
+(while) t
+72000 365103 M
+(the) t
+88555 365103 M
+(bite's) t
+113327 365103 M
+(Base) t
+137883 365103 M
+(Chance) t
+172942 365103 M
+(is) t
+183485 365103 M
+(40%,) t
+72000 354978 M
+(for) t
+87080 354978 M
+(\[D) t
+100657 354978 M
+(\255) t
+108231 354978 M
+(6\]) t
+120314 354978 M
+(Damage.) t
+161404 354978 M
+(A) t
+171984 354978 M
+(buzzard) t
+72000 344853 M
+(cannot) t
+101520 344853 M
+(attack) t
+128034 344853 M
+(in) t
+137538 344853 M
+(Melee) t
+164547 344853 M
+(Combat.) t
+newpath
+71000 332090 M
+134000 0 rlineto
+1000 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+71000 332090 M
+0 -16810 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+newpath
+205000 332090 M
+0 -16810 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+newpath
+71000 315280 M
+134000 0 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+126055 321330 M
+F7 10000 F
+0.0 0.0 0.0 setrgbcolor
+(Eagle) t
+72000 303918 M
+F3 9000 F
+(Description:) t
+129995 303918 M
+F1 9000 F
+(Great) t
+157993 303918 M
+(Eagles) t
+190995 303918 M
+(are) t
+72000 293793 M
+(the) t
+88751 293793 M
+(largest) t
+120001 293793 M
+(of) t
+131748 293793 M
+(the) t
+148499 293793 M
+(birds) t
+172243 293793 M
+(of) t
+183990 293793 M
+(prey.) t
+72000 283668 M
+(They) t
+95663 283668 M
+(have) t
+118831 283668 M
+(a) t
+127491 283668 M
+(wingspan) t
+169163 283668 M
+(of) t
+180325 283668 M
+(7) t
+188985 283668 M
+(feet) t
+72000 273543 M
+(when) t
+98250 273543 M
+(full) t
+114492 273543 M
+(grown.) t
+146241 273543 M
+(Their) t
+171483 273543 M
+(feathers) t
+72000 263418 M
+(are) t
+87592 263418 M
+(gray) t
+107684 263418 M
+(except) t
+136785 263418 M
+(around) t
+167389 263418 M
+(neck) t
+188984 263418 M
+(and) t
+72000 253293 M
+(head) t
+94518 253293 M
+(\(which) t
+123021 253293 M
+(is) t
+132021 253293 M
+(white\).) t
+72000 243168 M
+F3 9000 F
+(Talents:) t
+109619 243168 M
+F1 9000 F
+(Eagles) t
+140245 243168 M
+(have) t
+162870 243168 M
+(no) t
+175991 243168 M
+(special) t
+72000 233043 M
+(talents) t
+104507 233043 M
+(or) t
+118501 233043 M
+(skills.) t
+146490 233043 M
+(They) t
+172490 233043 M
+(are) t
+191488 233043 M
+(not) t
+72000 222918 M
+(magic) t
+102793 222918 M
+(users) t
+131588 222918 M
+(and) t
+153390 222918 M
+(do) t
+170188 222918 M
+(not) t
+189488 222918 M
+(use) t
+72000 212793 M
+(tools.) t
+103872 212793 M
+(They) t
+134241 212793 M
+(do) t
+154611 212793 M
+(have) t
+184485 212793 M
+(keen) t
+72000 202668 M
+(eyesight.) t
+newpath
+71800 195905 M
+125122 0 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+71800 195905 M
+0 -30775 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+196922 195905 M
+0 -30775 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+71800 165130 M
+125122 0 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+72000 188343 M
+F3 9000 F
+(PS) t
+100346 188343 M
+(12\25516) t
+134361 188343 M
+(MD) t
+162707 188343 M
+(22\25524) t
+72000 178218 M
+(AG) t
+100346 178218 M
+(19\25523) t
+134361 178218 M
+(MA) t
+162707 178218 M
+(None) t
+72000 168093 M
+(WP) t
+100346 168093 M
+(11\25513) t
+134361 168093 M
+(EN) t
+162707 168093 M
+(9\25512) t
+72000 153768 M
+(Weapons:) t
+122657 153768 M
+F1 9000 F
+(Eagles) t
+157825 153768 M
+(can) t
+179988 153768 M
+(attack) t
+72000 143643 M
+(only) t
+91599 143643 M
+(in) t
+101694 143643 M
+(Close) t
+127791 143643 M
+(Combat) t
+162393 143643 M
+(with) t
+181488 143643 M
+(either) t
+72000 133518 M
+(beak) t
+96501 133518 M
+(\(Base) t
+124998 133518 M
+(Chance) t
+161001 133518 M
+(of) t
+173496 133518 M
+(50%) t
+196494 133518 M
+(of) t
+72000 123393 M
+(doing) t
+100759 123393 M
+(\[D) t
+116504 123393 M
+(\255) t
+126246 123393 M
+(1\]) t
+140497 123393 M
+(Damage\)) t
+184250 123393 M
+(or) t
+198996 123393 M
+(2) t
+72000 113268 M
+(talons) t
+100101 113268 M
+(\(Base) t
+127698 113268 M
+(Chance) t
+162801 113268 M
+(of) t
+174396 113268 M
+(70%) t
+196494 113268 M
+(of) t
+72000 103143 M
+(doing) t
+98554 103143 M
+(\[D) t
+112094 103143 M
+(+) t
+121890 103143 M
+(1\]) t
+133936 103143 M
+(Damage\)) t
+175484 103143 M
+(without) t
+72000 93018 M
+(penalty) t
+106105 93018 M
+(in) t
+118196 93018 M
+(the) t
+135795 93018 M
+(same) t
+162889 93018 M
+(Pulse.) t
+192989 93018 M
+(An) t
+72000 82893 M
+(eagle) t
+99879 82893 M
+(may) t
+122745 82893 M
+(achieve) t
+159624 82893 M
+(Ranks) t
+190995 82893 M
+(1\2553) t
+222000 712638 M
+(with) t
+240504 712638 M
+(beak) t
+262518 712638 M
+(and) t
+280032 712638 M
+(1\2552) t
+295539 712638 M
+(with) t
+314043 712638 M
+(talons.) t
+newpath
+221000 699875 M
+134000 0 rlineto
+1000 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+221000 699875 M
+0 -16810 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+newpath
+355000 699875 M
+0 -16810 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+newpath
+221000 683065 M
+134000 0 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+267995 689115 M
+F7 10000 F
+0.0 0.0 0.0 setrgbcolor
+(Goshawk) t
+222000 671703 M
+F3 9000 F
+(Description:) t
+278495 671703 M
+F1 9000 F
+(Goshawks) t
+324496 671703 M
+(are) t
+341490 671703 M
+(the) t
+222000 661578 M
+(largest) t
+253800 661578 M
+(of) t
+266097 661578 M
+(the) t
+283398 661578 M
+(hawks.) t
+316197 661578 M
+(They) t
+340995 661578 M
+(are) t
+222000 651453 M
+(almost) t
+254694 651453 M
+(20) t
+270891 651453 M
+(feet) t
+292092 651453 M
+(in) t
+305283 651453 M
+(length.) t
+338490 651453 M
+(The) t
+222000 641328 M
+(feathers) t
+264130 641328 M
+(of) t
+281249 641328 M
+(a) t
+295866 641328 M
+(goshawk) t
+340993 641328 M
+(are) t
+222000 631203 M
+(primarily) t
+263981 631203 M
+(brown,) t
+298978 631203 M
+(although) t
+341490 631203 M
+(the) t
+222000 621078 M
+(belly) t
+244414 621078 M
+(is) t
+254822 621078 M
+(pure) t
+276741 621078 M
+(white) t
+301657 621078 M
+(and) t
+320579 621078 M
+(some) t
+346494 621078 M
+(of) t
+222000 610953 M
+(the) t
+239200 610953 M
+(tail) t
+255392 610953 M
+(feathers) t
+292599 610953 M
+(are) t
+310294 610953 M
+(black.) t
+338492 610953 M
+(The) t
+222000 600828 M
+(sharp) t
+247011 600828 M
+(beak) t
+269025 600828 M
+(and) t
+286539 600828 M
+(claws) t
+311541 600828 M
+(are) t
+327048 600828 M
+(black.) t
+222000 590703 M
+F3 9000 F
+(Talents:) t
+269828 590703 M
+F1 9000 F
+(Other) t
+305659 590703 M
+(than) t
+336495 590703 M
+(their) t
+222000 580578 M
+(excellent) t
+267741 580578 M
+(eyesight,) t
+313986 580578 M
+(goshawks) t
+222000 570453 M
+(have) t
+244603 570453 M
+(no) t
+257702 570453 M
+(special) t
+288801 570453 M
+(talents,) t
+320908 570453 M
+(skills,) t
+345995 570453 M
+(or) t
+222000 560328 M
+(magical) t
+256195 560328 M
+(abilities) t
+289391 560328 M
+(and) t
+307593 560328 M
+(are) t
+323788 560328 M
+(not) t
+339488 560328 M
+(tool) t
+222000 550203 M
+(users.) t
+newpath
+221800 543440 M
+125122 0 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+221800 543440 M
+0 -30775 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+346922 543440 M
+0 -30775 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+221800 512665 M
+125122 0 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+222000 535878 M
+F3 9000 F
+(PS) t
+250346 535878 M
+(4\2556) t
+284361 535878 M
+(MD) t
+312707 535878 M
+(18\25520) t
+222000 525753 M
+(AG) t
+250346 525753 M
+(20\25522) t
+284361 525753 M
+(MA) t
+312707 525753 M
+(None) t
+222000 515628 M
+(WP) t
+250346 515628 M
+(8\25510) t
+284361 515628 M
+(EN) t
+312707 515628 M
+(6\2557) t
+222000 501303 M
+(Weapons:) t
+269870 501303 M
+F1 9000 F
+(In) t
+282244 501303 M
+(Close) t
+310116 501303 M
+(Combat,) t
+348995 501303 M
+(a) t
+222000 491178 M
+(Goshawk) t
+266002 491178 M
+(can) t
+287000 491178 M
+(attack) t
+317502 491178 M
+(with) t
+339994 491178 M
+(two) t
+222000 481053 M
+(claws) t
+248576 481053 M
+(and) t
+267664 481053 M
+(its) t
+280740 481053 M
+(beak) t
+304328 481053 M
+(in) t
+315406 481053 M
+(the) t
+331992 481053 M
+(same) t
+222000 470928 M
+(Pulse) t
+248497 470928 M
+(without) t
+280997 470928 M
+(penalty.) t
+316503 470928 M
+(The) t
+335998 470928 M
+(claw) t
+222000 460803 M
+(attacks) t
+254500 460803 M
+(have) t
+278000 460803 M
+(a) t
+286992 460803 M
+(Base) t
+311491 460803 M
+(Chance) t
+346493 460803 M
+(of) t
+222000 450678 M
+(80%) t
+245501 450678 M
+(and) t
+266005 450678 M
+(do) t
+281505 450678 M
+(\[D) t
+295997 450678 M
+(\255) t
+304486 450678 M
+(3\]) t
+317484 450678 M
+(Damage,) t
+222000 440553 M
+(while) t
+245075 440553 M
+(the) t
+260158 440553 M
+(beak) t
+282243 440553 M
+(attack) t
+308828 440553 M
+(has) t
+325909 440553 M
+(a) t
+333486 440553 M
+(Base) t
+222000 430428 M
+(Chance) t
+256077 430428 M
+(of) t
+266646 430428 M
+(65%) t
+287718 430428 M
+(and) t
+305793 430428 M
+(does) t
+328368 430428 M
+(\[D) t
+340431 430428 M
+(\255) t
+346491 430428 M
+(4\]) t
+222000 420303 M
+(Damage.) t
+264329 420303 M
+(The) t
+285652 420303 M
+(goshawk) t
+326982 420303 M
+(cannot) t
+222000 410178 M
+(attack) t
+248514 410178 M
+(in) t
+258018 410178 M
+(Melee) t
+285027 410178 M
+(Combat.) t
+newpath
+221000 397415 M
+134000 0 rlineto
+1000 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+221000 397415 M
+0 -16810 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+newpath
+355000 397415 M
+0 -16810 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+newpath
+221000 380605 M
+134000 0 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+279110 386655 M
+F7 10000 F
+0.0 0.0 0.0 setrgbcolor
+(Owl) t
+222000 369243 M
+F3 9000 F
+(Description:) t
+281374 369243 M
+F1 9000 F
+(Owls) t
+308240 369243 M
+(can) t
+329616 369243 M
+(be) t
+346492 369243 M
+(of) t
+222000 359118 M
+(several) t
+258370 359118 M
+(types,) t
+289745 359118 M
+(but) t
+309618 359118 M
+(in) t
+323983 359118 M
+(general) t
+222000 348993 M
+(they) t
+243797 348993 M
+(are) t
+261589 348993 M
+(between) t
+300396 348993 M
+(one) t
+320195 348993 M
+(and) t
+339994 348993 M
+(two) t
+222000 338868 M
+(feet) t
+242751 338868 M
+(in) t
+255492 338868 M
+(length.) t
+288249 338868 M
+(Coloring) t
+327495 338868 M
+(varies,) t
+222000 328743 M
+(but) t
+237247 328743 M
+(brown) t
+264491 328743 M
+(feathers) t
+299745 328743 M
+(speckled) t
+337996 328743 M
+(with) t
+222000 318618 M
+(grey) t
+246247 318618 M
+(is) t
+259487 318618 M
+(a) t
+271233 318618 M
+(common) t
+312481 318618 M
+(coloration.) t
+222000 308493 M
+(Owls') t
+247088 308493 M
+(eyes) t
+269467 308493 M
+(are) t
+285843 308493 M
+(both) t
+306728 308493 M
+(on) t
+320107 308493 M
+(the) t
+335988 308493 M
+(front) t
+222000 298368 M
+(of) t
+234495 298368 M
+(the) t
+251994 298368 M
+(head,) t
+279501 298368 M
+(unlike) t
+307998 298368 M
+(inost) t
+331995 298368 M
+(birds,) t
+222000 288243 M
+(and) t
+239584 288243 M
+(they) t
+259166 288243 M
+(tend) t
+279252 288243 M
+(to) t
+289330 288243 M
+(have) t
+311414 288243 M
+(large,) t
+336495 288243 M
+(dark) t
+222000 278118 M
+(rings) t
+244005 278118 M
+(around) t
+274524 278118 M
+(the) t
+289536 278118 M
+(eyes.) t
+222000 267993 M
+F3 9000 F
+(Talents:) t
+262101 267993 M
+F1 9000 F
+(Owls) t
+287694 267993 M
+(see) t
+307797 267993 M
+(well) t
+328890 267993 M
+(in) t
+341487 267993 M
+(the) t
+222000 257868 M
+(dark) t
+242490 257868 M
+(and) t
+260487 257868 M
+(have) t
+282984 257868 M
+(excellent) t
+321483 257868 M
+(hearing.) t
+222000 247743 M
+(They) t
+246747 247743 M
+(have) t
+270999 247743 M
+(no) t
+285747 247743 M
+(magical) t
+321492 247743 M
+(abilities,) t
+222000 237618 M
+(skills) t
+245320 237618 M
+(or) t
+257147 237618 M
+(talents) t
+287487 237618 M
+(and) t
+306325 237618 M
+(are) t
+323156 237618 M
+(not) t
+339492 237618 M
+(tool) t
+222000 227493 M
+(users.) t
+newpath
+221800 220730 M
+125122 0 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+221800 220730 M
+0 -30775 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+346922 220730 M
+0 -30775 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+221800 189955 M
+125122 0 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+222000 213168 M
+F3 9000 F
+(PS) t
+250346 213168 M
+(3\2554) t
+284361 213168 M
+(MD) t
+312707 213168 M
+(18\25520) t
+222000 203043 M
+(AG) t
+250346 203043 M
+(22\25524) t
+284361 203043 M
+(MA) t
+312707 203043 M
+(None) t
+222000 192918 M
+(WP) t
+250346 192918 M
+(7\2559) t
+284361 192918 M
+(EN) t
+312707 192918 M
+(3\2554) t
+222000 178593 M
+(Weapons:) t
+273161 178593 M
+F1 9000 F
+(In) t
+288826 178593 M
+(Close) t
+319989 178593 M
+(Combat,) t
+222000 168468 M
+(Owls) t
+247690 168468 M
+(can) t
+267890 168468 M
+(attack) t
+297594 168468 M
+(with) t
+319288 168468 M
+(onc) t
+339488 168468 M
+(bite) t
+222000 158343 M
+(\(Base) t
+254745 158343 M
+(Chance) t
+294996 158343 M
+(of) t
+311739 158343 M
+(55%) t
+338985 158343 M
+(and) t
+222000 148218 M
+(Damage) t
+260006 148218 M
+(\[D) t
+273001 148218 M
+(\255) t
+279993 148218 M
+(6\]\)) t
+294491 148218 M
+(and) t
+313498 148218 M
+(two) t
+331497 148218 M
+(claws) t
+222000 138093 M
+(\(Base) t
+249667 138093 M
+(Chance) t
+284840 138093 M
+(of) t
+296505 138093 M
+(50%) t
+318673 138093 M
+(and) t
+337844 138093 M
+(\[D) t
+351003 138093 M
+(\255) t
+222000 127968 M
+(7\]) t
+234198 127968 M
+(Damage\)) t
+275898 127968 M
+(in) t
+287592 127968 M
+(the) t
+304794 127968 M
+(same) t
+331491 127968 M
+(Pulse) t
+222000 117843 M
+(without) t
+258830 117843 M
+(penalty.) t
+298666 117843 M
+(Owls) t
+326982 117843 M
+(cannot) t
+222000 107718 M
+(attack) t
+248514 107718 M
+(in) t
+258018 107718 M
+(Melee) t
+285027 107718 M
+(Combat.) t
+236088 83993 M
+F5 14000 F
+(Fantastical) t
+300250 83993 M
+(Avians) t
+newpath
+371000 710000 M
+134000 0 rlineto
+1000 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+371000 710000 M
+0 -16810 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+newpath
+505000 710000 M
+0 -16810 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+newpath
+371000 693190 M
+134000 0 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+418280 699240 M
+F7 10000 F
+0.0 0.0 0.0 setrgbcolor
+(Gargoyle) t
+372000 681828 M
+F3 9000 F
+(Description:) t
+437244 681828 M
+F1 9000 F
+(Gargoyles) t
+490995 681828 M
+(are) t
+372000 671703 M
+(humanoid) t
+414708 671703 M
+(in) t
+424899 671703 M
+(form,) t
+448590 671703 M
+(but) t
+464289 671703 M
+(they) t
+484488 671703 M
+(have) t
+372000 661578 M
+(leathery) t
+409504 661578 M
+(wings,) t
+440501 661578 M
+(sharp) t
+468501 661578 M
+(claws,) t
+498994 661578 M
+(a) t
+372000 651453 M
+(hom,) t
+396798 651453 M
+(a) t
+406593 651453 M
+(tail,) t
+425388 651453 M
+(and) t
+445191 651453 M
+(spiked) t
+475992 651453 M
+(elbows) t
+372000 641328 M
+(and) t
+390172 641328 M
+(knees.) t
+419846 641328 M
+(Their) t
+443508 641328 M
+(skin) t
+462670 641328 M
+(is) t
+472328 641328 M
+(stony) t
+496998 641328 M
+(in) t
+372000 631203 M
+(appearance,) t
+425387 631203 M
+(and) t
+443755 631203 M
+(upon) t
+467127 631203 M
+(contact) t
+499499 631203 M
+(it) t
+372000 621078 M
+(feels) t
+400829 621078 M
+(very) t
+427651 621078 M
+(rough.) t
+462987 621078 M
+(Gargoyles) t
+372000 610953 M
+(have) t
+395496 610953 M
+(deep\255set) t
+434499 610953 M
+(eyes,) t
+459993 610953 M
+(and) t
+478989 610953 M
+(sharp,) t
+372000 600828 M
+(small) t
+395499 600828 M
+(teeth.) t
+372000 590703 M
+F3 9000 F
+(Talents:) t
+410993 590703 M
+F1 9000 F
+(Gargoyles) t
+456493 590703 M
+(possess) t
+493992 590703 M
+(no) t
+372000 580578 M
+(special) t
+406876 580578 M
+(skills) t
+433238 580578 M
+(or) t
+448107 580578 M
+(talents.) t
+483991 580578 M
+(They) t
+372000 570453 M
+(have) t
+404504 570453 M
+(only) t
+434002 570453 M
+(limited) t
+472995 570453 M
+(magical) t
+372000 560328 M
+(abilities) t
+406197 560328 M
+(in) t
+417390 560328 M
+(general) t
+451596 560328 M
+(but) t
+468297 560328 M
+(may) t
+489489 560328 M
+(use) t
+372000 550203 M
+(tools) t
+393510 550203 M
+(and) t
+411024 550203 M
+(even) t
+433038 550203 M
+(weapons.) t
+newpath
+371800 543440 M
+125122 0 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+371800 543440 M
+0 -30775 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+496922 543440 M
+0 -30775 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+371800 512665 M
+125122 0 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+372000 535878 M
+F3 9000 F
+(PS) t
+400346 535878 M
+(14\25520) t
+434361 535878 M
+(MD) t
+462707 535878 M
+(13\25518) t
+372000 525753 M
+(AG) t
+400346 525753 M
+(12\25516) t
+434361 525753 M
+(MA) t
+462707 525753 M
+(10\25512) t
+372000 515628 M
+(WP) t
+400346 515628 M
+(9\25513) t
+434361 515628 M
+(EN) t
+462707 515628 M
+(7\25510) t
+372000 501303 M
+(Weapons:) t
+419868 501303 M
+F1 9000 F
+(A) t
+430737 501303 M
+(gargoyle) t
+470118 501303 M
+(can) t
+489492 501303 M
+(use) t
+372000 491178 M
+(his) t
+387245 491178 M
+(horn,) t
+411499 491178 M
+(his) t
+426744 491178 M
+(claws,) t
+455489 491178 M
+(and) t
+474244 491178 M
+(his) t
+489489 491178 M
+(bite) t
+372000 481053 M
+(in) t
+383193 481053 M
+(Melee) t
+411891 481053 M
+(and) t
+431094 481053 M
+(Close) t
+458289 481053 M
+(Combat.) t
+496491 481053 M
+(In) t
+372000 470928 M
+(any) t
+389582 470928 M
+(one) t
+407668 470928 M
+(Pulse,) t
+435753 470928 M
+(he) t
+448835 470928 M
+(may) t
+468910 470928 M
+(make) t
+493989 470928 M
+(up) t
+372000 460803 M
+(to) t
+384298 460803 M
+(two) t
+403094 460803 M
+(strike) t
+429387 460803 M
+(attempts) t
+468694 460803 M
+(with) t
+489488 460803 M
+(any) t
+372000 450678 M
+(combinations) t
+428666 450678 M
+(of) t
+439819 450678 M
+(these) t
+465480 450678 M
+(weapons.) t
+372000 440553 M
+(Base) t
+395168 440553 M
+(Chance) t
+428839 440553 M
+(for) t
+441999 440553 M
+(the) t
+457166 440553 M
+(bite) t
+474331 440553 M
+(is) t
+483486 440553 M
+(45%,) t
+372000 430428 M
+(\[D) t
+385440 430428 M
+(+) t
+395136 430428 M
+(2\]) t
+407082 430428 M
+(Damage;) t
+448035 430428 M
+(Base) t
+472986 430428 M
+(Chance) t
+372000 420303 M
+(for) t
+388532 420303 M
+(the) t
+407071 420303 M
+(horn) t
+431109 420303 M
+(is) t
+443636 420303 M
+(35%,) t
+470176 420303 M
+(\[D) t
+485205 420303 M
+(+) t
+496490 420303 M
+(1\]) t
+372000 410178 M
+(Damage;) t
+413750 410178 M
+(Base) t
+439498 410178 M
+(Chance) t
+475749 410178 M
+(for) t
+491489 410178 M
+(the) t
+372000 400053 M
+(claws) t
+398912 400053 M
+(is) t
+409822 400053 M
+(50%,) t
+434745 400053 M
+(\[D) t
+448157 400053 M
+(\255) t
+455566 400053 M
+(3\]) t
+467484 400053 M
+(Damage.) t
+372000 389928 M
+(Gargoyles) t
+419501 389928 M
+(sometimes) t
+469495 389928 M
+(\(but) t
+491490 389928 M
+(not) t
+372000 379803 M
+(often\)) t
+398502 379803 M
+(will) t
+414483 379803 M
+(use) t
+432480 379803 M
+(weapons) t
+471987 379803 M
+(\(instead) t
+372000 369678 M
+(of) t
+382008 369678 M
+(claws\).) t
+newpath
+371000 356915 M
+134000 0 rlineto
+1000 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+371000 356915 M
+0 -16810 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+newpath
+505000 356915 M
+0 -16810 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+newpath
+371000 340105 M
+134000 0 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+418550 346155 M
+F7 10000 F
+0.0 0.0 0.0 setrgbcolor
+(Gryphon) t
+372000 328743 M
+F3 9000 F
+(Description:) t
+429498 328743 M
+F1 9000 F
+(The) t
+449997 328743 M
+(gryphon) t
+487506 328743 M
+(is) t
+498996 328743 M
+(a) t
+372000 318618 M
+(large) t
+396914 318618 M
+(beast) t
+423835 318618 M
+(with) t
+444744 318618 M
+(the) t
+462161 318618 M
+(body) t
+486580 318618 M
+(of) t
+498993 318618 M
+(a) t
+372000 308493 M
+(lion,) t
+393079 308493 M
+(the) t
+410162 308493 M
+(head) t
+434751 308493 M
+(and) t
+454336 308493 M
+(wings) t
+481913 308493 M
+(of) t
+493992 308493 M
+(an) t
+372000 298368 M
+(eagle) t
+401001 298368 M
+(and) t
+423000 298368 M
+(back) t
+448995 298368 M
+(covered) t
+487995 298368 M
+(with) t
+372000 288243 M
+(feathers.) t
+413765 288243 M
+(The) t
+436018 288243 M
+(gryphon's) t
+481500 288243 M
+(claws) t
+372000 278118 M
+(are) t
+390496 278118 M
+(so) t
+405491 278118 M
+(large) t
+430989 278118 M
+(that) t
+451492 278118 M
+(they) t
+473993 278118 M
+(can) t
+493992 278118 M
+(be) t
+372000 267993 M
+(made) t
+400496 267993 M
+(into) t
+420991 267993 M
+(serviceable) t
+472491 267993 M
+(drinking) t
+372000 257868 M
+(horns.) t
+402000 257868 M
+(The) t
+422496 257868 M
+(gryphon) t
+460002 257868 M
+(is) t
+471489 257868 M
+(about) t
+498996 257868 M
+(5) t
+372000 247743 M
+(feet) t
+392247 247743 M
+(long) t
+414492 247743 M
+(and) t
+434739 247743 M
+(stands) t
+466488 247743 M
+(man\255high) t
+372000 237618 M
+(when) t
+397998 237618 M
+(full) t
+413988 237618 M
+(grown.) t
+445485 237618 M
+(Gryphon) t
+484488 237618 M
+(eggs) t
+372000 227493 M
+(\(2\2555) t
+391695 227493 M
+(possible) t
+428400 227493 M
+(per) t
+445098 227493 M
+(nest\)) t
+468798 227493 M
+(are) t
+485496 227493 M
+(solid) t
+372000 217368 M
+(agate) t
+397604 217368 M
+(and) t
+415702 217368 M
+(quite) t
+438300 217368 M
+(valuable) t
+474902 217368 M
+(\(4000) t
+501001 217368 M
+(\255) t
+372000 207243 M
+(6000) t
+394518 207243 M
+(Silver) t
+419520 207243 M
+(Pennies) t
+454539 207243 M
+(apiece\).) t
+372000 197118 M
+F3 9000 F
+(Talents:) t
+416159 197118 M
+F1 9000 F
+(Gryphons) t
+464827 197118 M
+(have) t
+493992 197118 M
+(no) t
+372000 186993 M
+(special) t
+403254 186993 M
+(skills) t
+425994 186993 M
+(or) t
+437241 186993 M
+(magical) t
+471492 186993 M
+(abilities,) t
+372000 176868 M
+(but) t
+387400 176868 M
+(their) t
+407795 176868 M
+(special) t
+438693 176868 M
+(talent) t
+463597 176868 M
+(is) t
+472985 176868 M
+(locating) t
+372000 166743 M
+(buried) t
+403123 166743 M
+(treasure) t
+442247 166743 M
+(and) t
+463371 166743 M
+(their) t
+486988 166743 M
+(nest) t
+372000 156618 M
+(will) t
+387233 156618 M
+(quite) t
+409486 156618 M
+(often) t
+432243 156618 M
+(be) t
+444992 156618 M
+(built) t
+464239 156618 M
+(near) t
+484989 156618 M
+(such) t
+372000 146493 M
+(treasure) t
+409131 146493 M
+(which) t
+436254 146493 M
+(they) t
+457383 146493 M
+(will) t
+473994 146493 M
+(actively) t
+372000 136368 M
+(guard.) t
+416278 136368 M
+(A) t
+441044 136368 M
+(``domesticated'') t
+372000 126243 M
+(gryphon) t
+408705 126243 M
+(has) t
+427401 126243 M
+(a) t
+436593 126243 M
+(Base) t
+461292 126243 M
+(Chance) t
+496494 126243 M
+(of) t
+372000 116118 M
+(60%) t
+398997 116118 M
+(of) t
+415491 116118 M
+(locating) t
+455493 116118 M
+(any) t
+478989 116118 M
+(buried) t
+372000 105993 M
+(treasure) t
+409803 105993 M
+(within) t
+437598 105993 M
+(a) t
+447393 105993 M
+(radius) t
+476691 105993 M
+(of) t
+488988 105993 M
+(250) t
+372000 95868 M
+(feet) t
+397377 95868 M
+(of) t
+415248 95868 M
+(it.) t
+432615 95868 M
+(Gryphons) t
+481995 95868 M
+(make) t
+372000 85743 M
+(valuable) t
+408018 85743 M
+(steeds,) t
+439536 85743 M
+(once) t
+461550 85743 M
+(tamed.) t
+showpage
+%%PageTrailer
+%%EndPage
+%%Page: 2 2
+%%PageBoundingBox: 0 0 576 792
+%%BeginPageSetup
+FOPprocs begin
+FOPFonts begin
+0.001 0.001 scale
+%%EndPageSetup
+newpath
+71800 716000 M
+125122 0 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+71800 716000 M
+0 -30775 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+196922 716000 M
+0 -30775 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+71800 685225 M
+125122 0 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+72000 708438 M
+F3 9000 F
+(PS) t
+100346 708438 M
+(30\25536) t
+134361 708438 M
+(MD) t
+162707 708438 M
+(15\25520) t
+72000 698313 M
+(AG) t
+100346 698313 M
+(15\25520) t
+134361 698313 M
+(MA) t
+162707 698313 M
+(6\2559) t
+72000 688188 M
+(WP) t
+100346 688188 M
+(12\25516) t
+134361 688188 M
+(EN) t
+162707 688188 M
+(25\25530) t
+72000 673863 M
+(Weapons:) t
+118394 673863 M
+F1 9000 F
+(The) t
+137293 673863 M
+(gryphon) t
+173202 673863 M
+(is) t
+183092 673863 M
+(not) t
+198994 673863 M
+(a) t
+72000 663738 M
+(toot) t
+97624 663738 M
+(user,) t
+128243 663738 M
+(but) t
+151365 663738 M
+(has) t
+176485 663738 M
+(natural) t
+72000 653613 M
+(weapons) t
+114308 653613 M
+(in) t
+127600 653613 M
+(the) t
+146400 653613 M
+(form) t
+170690 653613 M
+(of) t
+184486 653613 M
+(beak) t
+72000 643488 M
+(\(useable) t
+113505 643488 M
+(in) t
+127497 643488 M
+(Melee) t
+158994 643488 M
+(and) t
+180996 643488 M
+(Close) t
+72000 633363 M
+(Combat) t
+107599 633363 M
+(with) t
+127691 633363 M
+(a) t
+136785 633363 M
+(Base) t
+161386 633363 M
+(Chance) t
+196490 633363 M
+(of) t
+72000 623238 M
+(65%,) t
+96551 623238 M
+(\[D) t
+109591 623238 M
+(+) t
+118887 623238 M
+(5\]) t
+130433 623238 M
+(Damage,) t
+170986 623238 M
+(possible) t
+72000 613113 M
+(Rank) t
+96097 613113 M
+(of) t
+106694 613113 M
+(1\2553\)) t
+125787 613113 M
+(and) t
+143890 613113 M
+(claws) t
+169481 613113 M
+(\(useable) t
+72000 602988 M
+(in) t
+81994 602988 M
+(Melee) t
+109493 602988 M
+(and) t
+127497 602988 M
+(Close) t
+153493 602988 M
+(Combat) t
+187994 602988 M
+(with) t
+72000 592863 M
+(a) t
+79692 592863 M
+(Base) t
+102891 592863 M
+(Chance) t
+136593 592863 M
+(of) t
+146787 592863 M
+(60%,) t
+169986 592863 M
+(Damage) t
+72000 582738 M
+(of) t
+82392 582738 M
+(\[D) t
+94278 582738 M
+(+) t
+102420 582738 M
+(5\],) t
+115314 582738 M
+(possible) t
+151212 582738 M
+(Rank) t
+175104 582738 M
+(of) t
+185496 582738 M
+(1\2554\).) t
+72000 572613 M
+(The) t
+93122 572613 M
+(gryphon) t
+131254 572613 M
+(may) t
+153870 572613 M
+(attack) t
+183497 572613 M
+(twice) t
+72000 562488 M
+(with) t
+90745 562488 M
+(claws) t
+115988 562488 M
+(and) t
+133743 562488 M
+(once) t
+155998 562488 M
+(with) t
+174743 562488 M
+(beak) t
+196998 562488 M
+(in) t
+72000 552363 M
+(the) t
+87012 552363 M
+(same) t
+111519 552363 M
+(pulse.) t
+newpath
+71000 539600 M
+134000 0 rlineto
+1000 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+71000 539600 M
+0 -16810 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+newpath
+205000 539600 M
+0 -16810 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+newpath
+71000 522790 M
+134000 0 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+124110 528840 M
+F7 10000 F
+0.0 0.0 0.0 setrgbcolor
+(Harpy) t
+72000 511428 M
+F3 9000 F
+(Description:) t
+142248 511428 M
+F1 9000 F
+(Harpies) t
+190995 511428 M
+(are) t
+72000 501303 M
+(buzzard\255like) t
+123625 501303 M
+(birds) t
+146243 501303 M
+(with) t
+165360 501303 M
+(the) t
+180985 501303 M
+(upper) t
+72000 491178 M
+(bodies) t
+105252 491178 M
+(of) t
+119496 491178 M
+(women.) t
+157743 491178 M
+(They) t
+184488 491178 M
+(have) t
+72000 481053 M
+(long) t
+92398 481053 M
+(claws,) t
+120788 481053 M
+(and) t
+139188 481053 M
+(pale,) t
+162088 481053 M
+(thin) t
+179984 481053 M
+(faces.) t
+72000 470928 M
+(They) t
+104495 470928 M
+(make) t
+138988 470928 M
+(a) t
+156480 470928 M
+(tremendous) t
+72000 460803 M
+(amount) t
+105002 460803 M
+(of) t
+115495 460803 M
+(noise) t
+139992 460803 M
+(flying,) t
+166487 460803 M
+(and) t
+184486 460803 M
+(have) t
+72000 450678 M
+(a) t
+79506 450678 M
+(horrible) t
+112014 450678 M
+(smell.) t
+72000 440553 M
+F3 9000 F
+(Talents:) t
+109745 440553 M
+F1 9000 F
+(Harpies) t
+143989 440553 M
+(can) t
+161736 440553 M
+(speak,) t
+191489 440553 M
+(but) t
+72000 430428 M
+(have) t
+94128 430428 M
+(limited) t
+122745 430428 M
+(magical) t
+156366 430428 M
+(abilities) t
+188988 430428 M
+(and) t
+72000 420303 M
+(no) t
+85501 420303 M
+(special) t
+117002 420303 M
+(skills) t
+139989 420303 M
+(or) t
+151483 420303 M
+(talents.) t
+183992 420303 M
+(They) t
+72000 410178 M
+(are) t
+100236 410178 M
+(occasionally) t
+164481 410178 M
+(prophetic,) t
+72000 400053 M
+(although) t
+111014 400053 M
+(they) t
+132514 400053 M
+(will) t
+149496 400053 M
+(only) t
+170492 400053 M
+(speak) t
+198994 400053 M
+(a) t
+72000 389928 M
+(prophecy) t
+114677 389928 M
+(if) t
+124837 389928 M
+(it) t
+134997 389928 M
+(is) t
+147155 389928 M
+(evil) t
+166315 389928 M
+(and) t
+186987 389928 M
+(they) t
+72000 379803 M
+(wish) t
+92502 379803 M
+(to) t
+102510 379803 M
+(torment) t
+135522 379803 M
+(the) t
+150534 379803 M
+(listener.) t
+newpath
+71800 373040 M
+125122 0 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+71800 373040 M
+0 -30775 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+196922 373040 M
+0 -30775 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+71800 342265 M
+125122 0 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+72000 365478 M
+F3 9000 F
+(PS) t
+100346 365478 M
+(14\25520) t
+134361 365478 M
+(MD) t
+162707 365478 M
+(22\25526) t
+72000 355353 M
+(AG) t
+100346 355353 M
+(26\25530) t
+134361 355353 M
+(MA) t
+162707 355353 M
+(13\25517) t
+72000 345228 M
+(WP) t
+100346 345228 M
+(17\25520) t
+134361 345228 M
+(EN) t
+162707 345228 M
+(8\25510) t
+72000 330903 M
+(Weapons:) t
+126741 330903 M
+F1 9000 F
+(Unless) t
+165984 330903 M
+(cornered,) t
+72000 320778 M
+(harpies) t
+105001 320778 M
+(do) t
+118499 320778 M
+(not) t
+134499 320778 M
+(fight) t
+154999 320778 M
+(man.) t
+178496 320778 M
+(If) t
+186990 320778 M
+(they) t
+72000 310653 M
+(do) t
+88296 310653 M
+(fight,) t
+114096 310653 M
+(they) t
+137394 310653 M
+(have) t
+163194 310653 M
+(their) t
+186987 310653 M
+(long) t
+72000 300528 M
+(talons) t
+99301 300528 M
+(\(Base) t
+126098 300528 M
+(Chance) t
+160401 300528 M
+(of) t
+171196 300528 M
+(70%,) t
+194996 300528 M
+(\[D) t
+72000 290403 M
+(+) t
+80123 290403 M
+(5\]) t
+90496 290403 M
+(Damage\)) t
+130371 290403 M
+(to) t
+140744 290403 M
+(strike) t
+165112 290403 M
+(with,) t
+186483 290403 M
+(both) t
+72000 280278 M
+(of) t
+87101 280278 M
+(which) t
+117700 280278 M
+(can) t
+139803 280278 M
+(strike) t
+168899 280278 M
+(twice) t
+196996 280278 M
+(in) t
+72000 270153 M
+(Melee) t
+101600 270153 M
+(or) t
+114694 270153 M
+(Close) t
+142791 270153 M
+(Combat) t
+179393 270153 M
+(in) t
+191488 270153 M
+(the) t
+72000 260028 M
+(same) t
+97661 260028 M
+(pulse) t
+122827 260028 M
+(at) t
+133989 260028 M
+(no) t
+147653 260028 M
+(penalty) t
+180325 260028 M
+(to) t
+191487 260028 M
+(the) t
+72000 249903 M
+(harpy.) t
+newpath
+71000 237140 M
+134000 0 rlineto
+1000 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+71000 237140 M
+0 -16810 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+newpath
+205000 237140 M
+0 -16810 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+newpath
+71000 220330 M
+134000 0 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+115220 226380 M
+F7 10000 F
+0.0 0.0 0.0 setrgbcolor
+(Hippogriff) t
+72000 208968 M
+F3 9000 F
+(Description:) t
+136245 208968 M
+F1 9000 F
+(Hippogriffs) t
+190995 208968 M
+(are) t
+72000 198843 M
+(similar) t
+101152 198843 M
+(to) t
+111818 198843 M
+(Pegasi) t
+142491 198843 M
+(in) t
+152653 198843 M
+(that) t
+170825 198843 M
+(they) t
+190995 198843 M
+(are) t
+72000 188718 M
+(basically) t
+115493 188718 M
+(winged) t
+152992 188718 M
+(horses,) t
+191490 188718 M
+(but) t
+72000 178593 M
+(their) t
+93329 178593 M
+(head) t
+117169 178593 M
+(is) t
+127491 178593 M
+(that) t
+146327 178593 M
+(of) t
+157657 178593 M
+(some) t
+183486 178593 M
+(great) t
+72000 168468 M
+(bird) t
+93196 168468 M
+(of) t
+106895 168468 M
+(prey,) t
+133095 168468 M
+(with) t
+155290 168468 M
+(a) t
+166487 168468 M
+(fearsome) t
+72000 158343 M
+(beak.) t
+97402 158343 M
+(The) t
+116297 158343 M
+(head) t
+139701 158343 M
+(differs) t
+167596 158343 M
+(from) t
+188984 158343 M
+(that) t
+72000 148218 M
+(of) t
+83640 148218 M
+(an) t
+97782 148218 M
+(eagle) t
+123930 148218 M
+(in) t
+135066 148218 M
+(that) t
+154212 148218 M
+(it) t
+162846 148218 M
+(has) t
+181488 148218 M
+(large,) t
+72000 138093 M
+(feathered) t
+121346 138093 M
+(ears,) t
+152674 138093 M
+(almost) t
+190500 138093 M
+(like) t
+72000 127968 M
+(wings,) t
+101662 127968 M
+(at) t
+113324 127968 M
+(the) t
+129990 127968 M
+(back) t
+153154 127968 M
+(of) t
+164816 127968 M
+(the) t
+181482 127968 M
+(head.) t
+72000 117843 M
+(The) t
+92496 117843 M
+(front) t
+115494 117843 M
+(legs) t
+136989 117843 M
+(of) t
+149484 117843 M
+(the) t
+166983 117843 M
+(hippogriff) t
+72000 107718 M
+(also) t
+92081 107718 M
+(resemble) t
+132664 107718 M
+(those) t
+158253 107718 M
+(of) t
+169334 107718 M
+(a) t
+177913 107718 M
+(bird) t
+196491 107718 M
+(of) t
+72000 97593 M
+(prey,) t
+101244 97593 M
+(with) t
+126483 97593 M
+(huge) t
+155736 97593 M
+(talons) t
+188985 97593 M
+(and) t
+72000 87468 M
+(feathers.) t
+72000 77343 M
+F3 9000 F
+(Talents:) t
+114827 77343 M
+F1 9000 F
+(Hippogriffs) t
+166159 77343 M
+(have) t
+193992 77343 M
+(no) t
+222000 712638 M
+(magical) t
+258662 712638 M
+(or) t
+272320 712638 M
+(other) t
+298488 712638 M
+(extra\255ordinary) t
+222000 702513 M
+(abilities,) t
+257500 702513 M
+(talents) t
+287006 702513 M
+(or) t
+297999 702513 M
+(skills,) t
+322987 702513 M
+(and) t
+340991 702513 M
+(are) t
+222000 692388 M
+(not) t
+237012 692388 M
+(tool) t
+254022 692388 M
+(users.) t
+newpath
+221800 685625 M
+125122 0 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+221800 685625 M
+0 -30775 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+346922 685625 M
+0 -30775 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+221800 654850 M
+125122 0 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+222000 678063 M
+F3 9000 F
+(PS) t
+250346 678063 M
+(18\25520) t
+284361 678063 M
+(MD) t
+312707 678063 M
+(19\25522) t
+222000 667938 M
+(AG) t
+250346 667938 M
+(16\25519) t
+284361 667938 M
+(MA) t
+312707 667938 M
+(None) t
+222000 657813 M
+(WP) t
+250346 657813 M
+(12\25517) t
+284361 657813 M
+(EN) t
+312707 657813 M
+(15\25518) t
+222000 643488 M
+(Weapons:) t
+267618 643488 M
+F1 9000 F
+(In) t
+277740 643488 M
+(Melee) t
+304863 643488 M
+(Combat,) t
+341490 643488 M
+(the) t
+222000 633363 M
+(hippogriff) t
+265631 633363 M
+(can) t
+286753 633363 M
+(attack) t
+317379 633363 M
+(with) t
+339995 633363 M
+(two) t
+222000 623238 M
+(claws) t
+248408 623238 M
+(and) t
+267328 623238 M
+(one) t
+286248 623238 M
+(bite) t
+304664 623238 M
+(in) t
+315574 623238 M
+(the) t
+331992 623238 M
+(same) t
+222000 613113 M
+(pulse) t
+248099 613113 M
+(with) t
+268690 613113 M
+(no) t
+283287 613113 M
+(penalty.) t
+319394 613113 M
+(The) t
+339490 613113 M
+(bite) t
+222000 602988 M
+(has) t
+239914 602988 M
+(a) t
+248324 602988 M
+(Base) t
+272241 602988 M
+(Chance) t
+306661 602988 M
+(of) t
+317573 602988 M
+(65%) t
+338988 602988 M
+(and) t
+222000 592863 M
+(does) t
+245045 592863 M
+(\[D) t
+257578 592863 M
+(+) t
+266367 592863 M
+(4\]) t
+277406 592863 M
+(Damage,) t
+317452 592863 M
+(while) t
+341487 592863 M
+(the) t
+222000 582738 M
+(claws) t
+249690 582738 M
+(have) t
+274392 582738 M
+(a) t
+284586 582738 M
+(Base) t
+310287 582738 M
+(Chance) t
+346491 582738 M
+(of) t
+222000 572613 M
+(55%) t
+243321 572613 M
+(and) t
+261645 572613 M
+(do) t
+274965 572613 M
+(\[D) t
+287277 572613 M
+(+) t
+295845 572613 M
+(2\]) t
+306663 572613 M
+(Damage.) t
+346488 572613 M
+(In) t
+222000 562488 M
+(Close) t
+247741 562488 M
+(Combat,) t
+284489 562488 M
+(the) t
+299736 562488 M
+(hippogriff) t
+339490 562488 M
+(can) t
+222000 552363 M
+(still) t
+246868 552363 M
+(attack) t
+282752 552363 M
+(with) t
+310626 552363 M
+(its) t
+331498 552363 M
+(claws) t
+222000 542238 M
+(normally,) t
+263241 542238 M
+(but) t
+280488 542238 M
+(the) t
+297735 542238 M
+(Base) t
+322983 542238 M
+(Chance) t
+222000 532113 M
+(on) t
+234510 532113 M
+(its) t
+246012 532113 M
+(bite) t
+263022 532113 M
+(is) t
+272022 532113 M
+(reduced) t
+307041 532113 M
+(to) t
+317049 532113 M
+(35%.) t
+newpath
+221000 519350 M
+134000 0 rlineto
+1000 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+221000 519350 M
+0 -16810 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+newpath
+355000 519350 M
+0 -16810 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+newpath
+221000 502540 M
+134000 0 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+271055 508590 M
+F7 10000 F
+0.0 0.0 0.0 setrgbcolor
+(Pegasus) t
+222000 491178 M
+F3 9000 F
+(Description:) t
+277994 491178 M
+F1 9000 F
+(Pegasi) t
+308995 491178 M
+(are) t
+325488 491178 M
+(winged) t
+222000 481053 M
+(horses) t
+256125 481053 M
+(with) t
+279243 481053 M
+(pure) t
+304368 481053 M
+(white) t
+332490 481053 M
+(coats) t
+222000 470928 M
+(tinged) t
+251505 470928 M
+(with) t
+272496 470928 M
+(silver) t
+298482 470928 M
+(around) t
+331488 470928 M
+(mane) t
+222000 460803 M
+(and) t
+247503 460803 M
+(flowing) t
+286002 460803 M
+(tail.) t
+310497 460803 M
+(They) t
+340995 460803 M
+(are) t
+222000 450678 M
+(intelligent) t
+265626 450678 M
+(for) t
+281739 450678 M
+(equines) t
+318867 450678 M
+(and) t
+339489 450678 M
+(can) t
+222000 440553 M
+(sometimes) t
+271328 440553 M
+(speak) t
+301162 440553 M
+(the) t
+319494 440553 M
+(common) t
+222000 430428 M
+(tongue.) t
+222000 420303 M
+F3 9000 F
+(Talents:) t
+259619 420303 M
+F1 9000 F
+(Pegasi) t
+290245 420303 M
+(have) t
+312870 420303 M
+(no) t
+325991 420303 M
+(special) t
+222000 410178 M
+(talents) t
+253207 410178 M
+(or) t
+265901 410178 M
+(skills) t
+290088 410178 M
+(except) t
+321295 410178 M
+(for) t
+336491 410178 M
+(their) t
+222000 400053 M
+(flying) t
+246198 400053 M
+(ability.) t
+274896 400053 M
+(They) t
+298095 400053 M
+(are) t
+314292 400053 M
+(not) t
+329994 400053 M
+(magic) t
+222000 389928 M
+(or) t
+232503 389928 M
+(tool) t
+249513 389928 M
+(users.) t
+newpath
+221800 383165 M
+125122 0 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+221800 383165 M
+0 -30775 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+346922 383165 M
+0 -30775 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+221800 352390 M
+125122 0 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+222000 375603 M
+F3 9000 F
+(PS) t
+250346 375603 M
+(55\25560) t
+284361 375603 M
+(MD) t
+312707 375603 M
+(15\25517) t
+222000 365478 M
+(AG) t
+250346 365478 M
+(15\25518) t
+284361 365478 M
+(MA) t
+312707 365478 M
+(None) t
+222000 355353 M
+(WP) t
+250346 355353 M
+(19\25523) t
+284361 355353 M
+(EN) t
+312707 355353 M
+(25\25530) t
+222000 341028 M
+(Weapons:) t
+269490 341028 M
+F1 9000 F
+(In) t
+281484 341028 M
+(battle,) t
+310488 341028 M
+(a) t
+319980 341028 M
+(pegasus) t
+222000 330903 M
+(attacks) t
+253014 330903 M
+(as) t
+265020 330903 M
+(a) t
+272526 330903 M
+(heavy) t
+299040 330903 M
+(warhorse.) t
+newpath
+221000 318140 M
+134000 0 rlineto
+1000 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+221000 318140 M
+0 -16810 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+newpath
+355000 318140 M
+0 -16810 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+newpath
+221000 301330 M
+134000 0 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+270775 307380 M
+F7 10000 F
+0.0 0.0 0.0 setrgbcolor
+(Phoenix) t
+222000 289968 M
+F3 9000 F
+(Description:) t
+290241 289968 M
+F1 9000 F
+(The) t
+321483 289968 M
+(Phoenix) t
+222000 279843 M
+(appears) t
+261808 279843 M
+(to) t
+276605 279843 M
+(be) t
+293904 279843 M
+(much) t
+323200 279843 M
+(like) t
+343991 279843 M
+(an) t
+222000 269718 M
+(eagle) t
+246923 269718 M
+(in) t
+256834 269718 M
+(profile) t
+284250 269718 M
+(but) t
+299669 269718 M
+(is) t
+309076 269718 M
+(three) t
+332496 269718 M
+(times) t
+222000 259593 M
+(the) t
+238631 259593 M
+(size) t
+258754 259593 M
+(of) t
+270381 259593 M
+(an) t
+284510 259593 M
+(eagle.) t
+313147 259593 M
+(The) t
+332775 259593 M
+(bird's) t
+222000 249468 M
+(plummage) t
+272379 249468 M
+(is) t
+287244 249468 M
+(partly) t
+317616 249468 M
+(red) t
+338988 249468 M
+(and) t
+222000 239343 M
+(partly) t
+251370 239343 M
+(gold,) t
+278247 239343 M
+(and) t
+300624 239343 M
+(is) t
+314487 239343 M
+(dazzlingly) t
+222000 229218 M
+(beautiful.) t
+267510 229218 M
+(The) t
+292005 229218 M
+(Phoenix) t
+333510 229218 M
+(is) t
+348996 229218 M
+(a) t
+222000 219093 M
+(four\255hex) t
+257514 219093 M
+(monster.) t
+222000 208968 M
+F3 9000 F
+(Talents:) t
+261372 208968 M
+F1 9000 F
+(The) t
+281745 208968 M
+(Phoenix) t
+319128 208968 M
+(is) t
+330492 208968 M
+(highly) t
+222000 198843 M
+(intelligent,) t
+270998 198843 M
+(although) t
+314002 198843 M
+(it) t
+326982 198843 M
+(cannot) t
+222000 188718 M
+(speak.) t
+255402 188718 M
+(It) t
+267294 188718 M
+(does) t
+293694 188718 M
+(not) t
+313092 188718 M
+(have) t
+339492 188718 M
+(any) t
+222000 178593 M
+(magical) t
+279495 178593 M
+(abilities.) t
+338493 178593 M
+(The) t
+222000 168468 M
+(distinguishing) t
+288008 168468 M
+(ability) t
+322498 168468 M
+(of) t
+341490 168468 M
+(the) t
+222000 158343 M
+(Phoenix) t
+257108 158343 M
+(is) t
+266197 158343 M
+(its) t
+277788 158343 M
+(ability) t
+303383 158343 M
+(to) t
+313480 158343 M
+(reproduce) t
+222000 148218 M
+(itself) t
+245519 148218 M
+(\(see) t
+268039 148218 M
+(``Comments''\).) t
+331491 148218 M
+(Other) t
+222000 138093 M
+(than) t
+242170 138093 M
+(that) t
+259838 138093 M
+(it) t
+266994 138093 M
+(has) t
+284158 138093 M
+(no) t
+296822 138093 M
+(special) t
+327486 138093 M
+(talents) t
+222000 127968 M
+(or) t
+232503 127968 M
+(skills.) t
+newpath
+221800 121205 M
+125122 0 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+221800 121205 M
+0 -30775 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+346922 121205 M
+0 -30775 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+221800 90430 M
+125122 0 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+222000 113643 M
+F3 9000 F
+(PS) t
+250346 113643 M
+(17\25520) t
+284361 113643 M
+(MD) t
+312707 113643 M
+(20\25524) t
+222000 103518 M
+(AG) t
+250346 103518 M
+(17\25520) t
+284361 103518 M
+(MA) t
+312707 103518 M
+(None) t
+222000 93393 M
+(WP) t
+250346 93393 M
+(20\25523) t
+284361 93393 M
+(EN) t
+312707 93393 M
+(18\25524) t
+222000 79068 M
+(Weapons:) t
+279733 79068 M
+F1 9000 F
+(Phoenix) t
+326981 79068 M
+(cannot) t
+372000 712638 M
+(attack) t
+401001 712638 M
+(except) t
+432504 712638 M
+(in) t
+444495 712638 M
+(Close) t
+472488 712638 M
+(Combat) t
+372000 702513 M
+(when) t
+402624 702513 M
+(they) t
+428748 702513 M
+(can) t
+452370 702513 M
+(make) t
+483489 702513 M
+(three) t
+372000 692388 M
+(attacks) t
+408125 692388 M
+(in) t
+422740 692388 M
+(one) t
+445365 692388 M
+(Pulse) t
+475487 692388 M
+(without) t
+372000 682263 M
+(penalty:) t
+410130 682263 M
+(one) t
+431754 682263 M
+(with) t
+454368 682263 M
+(beak) t
+480492 682263 M
+(\(Base) t
+372000 672138 M
+(Chance) t
+413255 672138 M
+(of) t
+431002 672138 M
+(60%,) t
+461754 672138 M
+(\[D) t
+480995 672138 M
+(+) t
+496492 672138 M
+(8\]) t
+372000 662013 M
+(Damage\)) t
+415498 662013 M
+(and) t
+437000 662013 M
+(two) t
+457494 662013 M
+(with) t
+479986 662013 M
+(talons) t
+372000 651888 M
+(\(Base) t
+400124 651888 M
+(Chance) t
+435754 651888 M
+(of) t
+447876 651888 M
+(65%,) t
+473003 651888 M
+(\[D) t
+486619 651888 M
+(+) t
+496491 651888 M
+(6\]) t
+372000 641763 M
+(Damage\).) t
+newpath
+371000 629000 M
+134000 0 rlineto
+1000 setlinewidth
+0 setlinecap
+0.0 0.0 1.0 setrgbcolor
+stroke
+newpath
+371000 629000 M
+0 -16810 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+newpath
+505000 629000 M
+0 -16810 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+newpath
+371000 612190 M
+134000 0 rlineto
+1000 setlinewidth
+0 setlinecap
+stroke
+429670 618240 M
+F7 10000 F
+0.0 0.0 0.0 setrgbcolor
+(Roc) t
+372000 600828 M
+F3 9000 F
+(Description:) t
+433163 600828 M
+F1 9000 F
+(Rocs) t
+462322 600828 M
+(are) t
+483984 600828 M
+(huge) t
+372000 590703 M
+(birds) t
+397294 590703 M
+(with) t
+419087 590703 M
+(wingspans) t
+467394 590703 M
+(of) t
+480691 590703 M
+(up) t
+496490 590703 M
+(to) t
+372000 580578 M
+(250) t
+392101 580578 M
+(feet.) t
+414704 580578 M
+(Except) t
+447306 580578 M
+(for) t
+462898 580578 M
+(their) t
+485492 580578 M
+(size,) t
+372000 570453 M
+(they) t
+397997 570453 M
+(much) t
+428989 570453 M
+(resemble) t
+474984 570453 M
+(eagles.) t
+372000 560328 M
+(Their) t
+396163 560328 M
+(body) t
+419336 560328 M
+(size) t
+438999 560328 M
+(is) t
+449158 560328 M
+(as) t
+462323 560328 M
+(a) t
+470988 560328 M
+(four\255hex) t
+372000 550203 M
+(monster.) t
+372000 540078 M
+F3 9000 F
+(Talents:) t
+411372 540078 M
+F1 9000 F
+(Rocs) t
+436740 540078 M
+(have) t
+461118 540078 M
+(no) t
+475992 540078 M
+(special) t
+372000 529953 M
+(talents,) t
+405209 529953 M
+(skills) t
+428896 529953 M
+(or) t
+441090 529953 M
+(magic,) t
+471788 529953 M
+(and) t
+490993 529953 M
+(are) t
+372000 519828 M
+(not) t
+387012 519828 M
+(tool) t
+404022 519828 M
+(users.) t
+newpath
+371800 513065 M
+125122 0 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+371800 513065 M
+0 -30775 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+496922 513065 M
+0 -30775 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+newpath
+371800 482290 M
+125122 0 rlineto
+200 setlinewidth
+0 setlinecap
+stroke
+372000 505503 M
+F3 9000 F
+(PS) t
+400346 505503 M
+(200\255300) t
+434361 505503 M
+(MD) t
+462707 505503 M
+(20\25525) t
+372000 495378 M
+(AG) t
+400346 495378 M
+(16\25520) t
+434361 495378 M
+(MA) t
+462707 495378 M
+(None) t
+372000 485253 M
+(WP) t
+400346 485253 M
+(16\25520) t
+434361 485253 M
+(EN) t
+462707 485253 M
+(150\255200) t
+372000 470928 M
+(Weapons:) t
+420995 470928 M
+F1 9000 F
+(Rocs) t
+447490 470928 M
+(are) t
+466488 470928 M
+(fearsome) t
+372000 460803 M
+(creatures) t
+416625 460803 M
+(in) t
+430740 460803 M
+(battle.) t
+462369 460803 M
+(They) t
+489489 460803 M
+(can) t
+372000 450678 M
+(engage) t
+405214 450678 M
+(in) t
+415406 450678 M
+(Melee) t
+443103 450678 M
+(Combat) t
+477802 450678 M
+(from) t
+498992 450678 M
+(a) t
+372000 440553 M
+(range) t
+398918 440553 M
+(of) t
+410329 440553 M
+(3) t
+419238 440553 M
+(hexes,) t
+449657 440553 M
+(and) t
+468574 440553 M
+(they) t
+489489 440553 M
+(can) t
+372000 430428 M
+(take) t
+393298 430428 M
+(three) t
+418097 430428 M
+(attacks) t
+450897 430428 M
+(in) t
+462187 430428 M
+(one) t
+481487 430428 M
+(Pulse) t
+372000 420303 M
+(without) t
+409829 420303 M
+(penalty.) t
+450664 420303 M
+(They) t
+479988 420303 M
+(attack) t
+372000 410178 M
+(once) t
+396002 410178 M
+(with) t
+416494 410178 M
+(a) t
+425988 410178 M
+(bite) t
+444986 410178 M
+(\(Base) t
+472984 410178 M
+(Chance) t
+372000 400053 M
+(of) t
+384545 400053 M
+(75%,\[D) t
+419095 400053 M
+(+) t
+429390 400053 M
+(20\]) t
+446939 400053 M
+(Damage\)) t
+488986 400053 M
+(and) t
+372000 389928 M
+(twice) t
+397120 389928 M
+(with) t
+417740 389928 M
+(claws) t
+444858 389928 M
+(\(Base) t
+472984 389928 M
+(Chance) t
+372000 379803 M
+(70%,) t
+395013 379803 M
+(\[D) t
+406515 379803 M
+(+) t
+414273 379803 M
+(25\]) t
+429285 379803 M
+(Damage\).) t
+showpage
+%%PageTrailer
+%%EndPage
+%%Trailer
+%%Pages: 2
+%%EOF

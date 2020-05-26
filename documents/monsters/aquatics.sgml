@@ -1,0 +1,535 @@
+<!doctype dqmm system>
+<group name="Aquatics">
+
+<notes>
+Acquatics include only species described in this Section, though other
+species may have the ability to swim or breathe water. All aquatics
+except Dolphins and Whales can breathe water indefinitely.  Dolphins
+and Whales can remain submerged for 5 to 20 minutes only before having
+to rise to the surface for air.  Fish must move at least once per
+minute or take [D - 3] damage to Fatigue due to suffocation.  All
+aquatics move within the water the same way that avians move through
+the air and the rules for range and combat applying to avians also
+apply to combat involving aquatics or others in an acquatic
+environment.
+
+<class name="Fish">
+
+<notes>
+Fish include barracuda, manta rays, pike, piranha and sharks. All fish
+except piranha are found in an oceanic environment.  Piranha tend to
+be found in streams, rivers, marshes and lakes. Fish must keep a
+steady flow of water over their gills in order to breathe. They are
+non-intelligent, but very hostile.
+
+<monster name="Barracuda">
+
+<details>
+<habitat> Ocean
+<frequency> Uncommon
+<number> 1-6 (1)
+<description> Barracuda are predatory fish about 6 feet long.
+
+<talents> Barracuda possess no magical abilities or other special
+skills or talents.
+
+<weapons> Barracuda attack with their bite (Base Chance of 50&percnt,
+[D + 1] Damage).
+
+<movement> Swimming: 350
+<PS> 12-14
+<MD> None
+<AG> 17-20
+<MA> None
+<EN> 6-8
+<FT> 11-14
+<WP> 8-10
+<PC> 14-16
+<PB> 4-7
+<TMR> 7
+<NA> Skin absorbs 4 DP
+
+<comments> Barracuda will not generally attack man unless threatened
+or particularly hungry. They might, however, mistake a person carrying
+jewelry or making quick movements for another fish and attack for that
+reason.
+
+</monster>
+
+<monster name="Manta ray">
+<details>
+<habitat>  Ocean
+<frequency> Uncommon
+<number> 1-100 (15)
+
+<description>
+Manta rays are large, flat ocean creatures. Their bellies are white,
+while the top is dark blue. They are triangular in shape, and reach
+sizes more than 20 feet across, weighing up to 3000 pounds. The eyes
+are set forward in front of the body on two foot long protrubcrances,
+between which rests the mouth. They have a long, very thin tail.
+
+<talents> Manta Rays possess no special talents, skills or magic.
+
+<weapons> Manta Rays can deliver killing blows with their massive fins
+in Melee Combat, crushing the ribcages of swimmers, and breaking in
+the sides of boats. Base Chance for the Manta: 65&percnt, [D + 14]
+Damage.
+
+<movement>  Swimming: 200
+<PS> 35-40
+<MD> None
+<AG> 13-15
+<MA> None
+<EN> 16-19
+<FT> 24-28
+<WP> 10-12
+<PC> 12-14
+<PB> 5-8
+<TMR> 4
+<NA> Skin abosrbs 4 DP
+
+</monster>
+
+<monster name="Pike">
+<details>
+<habitat> Ponds, Lakes, Rivers, Streams, Marsh
+<frequency> Common
+<number> 1-30 (1)
+
+<description> Pike are 2 to 4 foot long fish which specialize in the
+solitary hunting of other fish. They have needle-like teeth and spiky
+fins and are covered with tough scales. Though usually not a danger to
+humans, they can be called in large numbers by nixies and will attack
+at the nixie's command.
+
+<talents> Pike have no skills, magic, or talents.
+
+<weapons> Pike attack in Close Combat with a Base Chance of 30&percnt
+of doing [D - 4] Damage. In schools, each group of 5 attacks with a
+Base Chance of 70&percnt of doing [D + 2] Damage.
+
+<movement>  Swimming: 300
+
+<PS> 8-11
+<MD> None
+<AG> 20-25
+<MA> None
+<EN> 5-10
+<FT> 10-15
+<WP> 6-8
+<PC> 14-16
+<PB> 5-6
+<TMR> 6
+<NA> Scales absorb 1 DP 
+</monster>
+
+<monster name="Piranha">
+<details>
+<habitat> River
+<frequency> Rare
+<number> 1-200 (50)
+
+<description> Piranha are small rish with very sharp teeth and a
+vicious temper.
+
+<talents> Piranha have no magic abilities, talents or skills.
+
+<weapons> Piranha attack in schools. Every group of ten gets one
+attack (Base Chance of 80&percnt, [D + 4] Damage). They can only
+attack in Close Combat.
+
+<movement> Swimming: 300
+
+<PS> 1-2
+<MD> None
+<AG> 20-23
+<MA> None
+<EN> 1
+<FT> 1-2 
+<WP> 4-5
+<PC> 15-16
+<PB> 5-6
+<TMR> 6
+<NA> None
+
+<comments> Piranha are voracious. They can devour an elephant in
+minutes, and will immediately attack anything edible (primarily
+meat-bearing) which falls into the water with them.
+
+</monster>
+
+<monster name="Shark">
+<details>
+<habitat> Ocean
+<frequency> Uncommon
+<number>  1-50 (5)
+
+<description> Sharks are long fish with very sharp teeth and tough skin. A
+shark's colour varies from light blue to white to orange, depending on
+the waters that they are swimming in.  Sharks reach sizes in excess of
+40 feet, at which point they are threats to boats as well as to
+swimmers.  Sharks are normally two-hex monsters.
+
+<talents> Sharks can detect the presence of blood in the water from
+extremely long distances, and they will gather around the blood,
+working themselves up into a killing frenzy. They can also sense
+motion in water, especially in the form of the types of disturbances
+caused by swimmers.
+
+<weapons> Sharks attack via their bite (Base Chance of 40&percnt, [D +
+8] Damage).
+
+
+<movement>  Swimming: 350
+
+<PS> 35-45
+<MD> None
+<AG> 12-16
+<MA> None
+<EN> 25-30
+<WP> 8-10
+<FT> 40-50  
+<PC> 9-12
+<PB> 6-8
+<TMR> 7
+<NA> Skin absorbs 7 DP
+
+<comments> As soon as blood is drawn in waters containing sharks (most
+waters do) there is a 60&percnt chance that 10-60 sharks will be
+attracted. Sharks teeth are fairly valuable (a set might go for 100
+Silver Pennies) as charms.
+
+</monster>
+</class>
+
+<class name="Aquatic Mammals">
+
+<notes>
+Aquatic mammals include dolphins, great white whales killer whales,
+and merfolk.  They are generally moderately intelligent and neutral,
+or even friendly, to adventurers.  Except for merfolk, they cannot
+remain submerged indefinitely.  Merfolk must keep a steady flow of
+water over their gills in the same manner as fish.
+
+<monster name="Dolphin">
+<details>
+<habitat> Ocean
+<frequency> Common
+<number>  1-20 (4)
+
+<description> Dolphins are mammals of the sea. They grow to 12 feet in length
+and are basically fish-like in form (although their bodies are more
+cylindrical than most fish). They have long, thin snouts, and are
+generally greyish in color. Dolphins are two-hex monsters.
+
+<talents> Dolphins have no talents, skills or magic.
+
+<weapons> Dolphins attack in Melee Combat by ramming with their snouts
+with a Base Chance of 40&percnt and [D - 1] Damage.
+
+<movement>  Swimming: 400
+
+<PS> 25-30
+<MD> None
+<AG> 24-26
+<MA> None
+<EN> 12-15
+<FT> 20-25
+<WP> 15-17
+<PC> 14-17
+<PB> 12-15
+<TMR> 8
+<NA> Skin absorbs 4 DP
+
+<comments> Dolphins will sometimes aid humans in need, and will
+remember with a vengeance those humans who have harmed them in the
+past. They will never attack humans unless provoked.
+
+</monster>
+
+<monster name="Great white whale">
+<details>
+<habitat>Ocean
+<frequency> Very Rare
+<number> 1
+
+<description> These creatures are the largest mammals found on sea or
+on land. They reach lengths of 200-300 feet, and are a truly
+spectacular sight when they rise three-quarters of the way out of
+the water, sending spray hundreds of yards in all directions. These
+whales are pure white in color.
+
+<talents> Great white whales cannot use magic and have no special
+talents or skills.
+
+<weapons> Rather than doing actual damage to most creatures, the great
+white whale simply swallows them alive (Base Chance 50&percnt). If a
+creature is swallowed alive, it is presumed dead unless it is somehow
+magically saved. If a creature is large enough so that it cannot be
+swallowed by the creature's 30 foot wide gullet, then the whale does
+[D + 10] Damage. The great white whale can only attack in Melee
+Combat.
+
+
+<movement>  Swimming: 700
+<PS> 700-1000
+<MD> None
+<AG> 8-9
+<MA> None
+<EN> 300-400
+<FT> 500-600
+<WP> 8-10
+<PC> 12-15
+<PB> 4-6
+<TMR> 14
+<NA> Hide absorbs 8 DP
+
+</monster>
+
+<monster name="Killer whale">
+<details>
+<habitat> Ocean (generally arctic waters)
+<frequency> Rare
+<number> 1-25 (20)
+
+<description> Killer whales are black on top and white on their
+bellies. They have fins on either side of their body, as well as one
+fin which sticks up from their back much like the fin of a
+shark. Large males reach 30 feet in length. Killer whales are 14-hex
+monsters.
+
+<talents> Killer whales have no special talents, skills, or magic.
+
+<weapons> Killer whales can attack either in Melee or Close Combat
+with their bite (Base Chance of 50&percnt, [D + 10] Damage).
+
+<movement> Swimming: 400
+
+<PS> 40-45
+<MD> None
+<AG> 13-15
+<MA> None   
+<EN> 35-40
+<FT> 60-70  
+<WP> 12-13
+<PC> 15-17
+<PB> 10-12
+<TMR> 8
+<NA> Hide absorbs 3 DP
+</monster>
+
+<monster name="Merfolk (sea people)">
+<details>
+<habitat>  Ocean
+<frequency> Rare
+<number> 1-100 (1)
+
+<description> Merfolk are half human, half fish, the top half being
+the human half. Merfolk lose 3 points of Fatigue (and Endurance when
+Fatigue is exhausted) for each hour they remain out of water.
+
+<talents> Merfolk get along very well with the indiginous life of the
+sea, and they can summon fish of various types, although they will
+only rarely summon the larger predators. Some merfolk will have
+powerful magic, while others will be ignorant of magic. All breathe
+both air and water.
+
+<weapons> The merfolk ride seahorses and can use weapons underwater.
+They prefer pole-type weapons (especially tridents) and stabbing
+knives and swords. They will wear fish-skin armor (similar to leather
+armour) or laminated seashell armour (similar to lamillar armour) when
+going to war.
+
+<movement> Swimming: 350
+
+<PS> 10-25
+<MD> 14-25
+<AG> 16-21
+<MA> 13-23
+<EN> 12-14
+<FT> 20-24
+<WP> 13-18
+<PC> 14-20
+<PB> 18-30
+<TMR> 7
+<NA> Skin absorbs 2 DP
+
+<comments> Merfolk will often sit on a beach, waiting to ensnare a
+human of the opposite sex, whom they will then bring down into the
+deeps with them as lovers. They give the human a cap woven of gold
+which has magical properties which allow the human to live and breath
+under water. Down under the sea, the merfolk will have cities and
+societies much like those on the surface, with wars, diplomacy, trade,
+etc. Great treasure will often be found in the sea-peoples' underwater
+lairs, often including gold from sunken wrecks. The merfolk are not
+usually hostile to man, but they will occasionally force a boat to
+turn back if it is tresspassing on water they consider sacred or
+otherwise not appropriate for man.
+</monster>
+</class>
+
+<class name="Others">
+
+<notes>
+This section includes eels, kraken, octopi, and squids. These
+creatures are often intelligent and usually hostile to adventurers.
+
+<monster name="Eel">
+<details>
+<habitat> Ocean
+<frequency> Uncommon
+<number> 1-4 (1)
+<description> Eels are long, thin, grayish fish up to 7 feet in
+length.
+
+<talents> Eeels have no special talents, skills, or magic.
+
+<weapons> An eel attacks with its bite (Base Chance of 50&percnt, [D +
+2] Damage), which it can only use in Close Combat.
+
+
+<movement>  Swimming: 300
+
+<PS> 18-20
+<MD> None
+<AG> 14-17
+<MA> None
+<EN> 8-10
+<FT> 14-16  
+<WP> 10-11
+<PC> 17-20
+<PB> 6-8
+<TMR> 6
+<NA> Skin absorbs 3 DP
+
+</monster>
+
+<monster name="Kraken">
+<details>
+<habitat> Ocean
+<frequency> Very Rare
+<number> 1-2 (1)
+
+<description> Kraken are huge, black, fierce octupoids. They have a pointed
+beak and large, red eyes. A kraken's body is 30-40 feet long, and its
+8 tentacles are about as long as its body.  Their hide is thick and
+horny and they are 14-hex monsters.
+
+<talents> The kraken's most fearsome attribute is its ability to rip
+ships apart with its hideously strong tentacles. It can usually handle
+ships up to 40 feet in length, shredding and then entirely consuming
+them and their contents within (D + 2) minutes after it emerged from
+the depths. In addition, a kraken can use the maelstrom spell from the
+College of Water Magics at rank 8-10.
+
+<weapons> In any given Pulse a kraken can attack with up to 5 of its 8
+tentacles. It has two options as to what it can do with these
+tentacles: it can either try to damage a character with the tentacles
+themselves at a Base Chance of 70&percnt, and Damage of [D + 4], or it
+can attempt to draw the adversary towards its beak at a Base Chance of
+30&percnt, and [D + 15] Damage. Either option can be taken with any of
+the tentacles.
+
+
+<movement>  Swimming: 600
+<PS> 100-200
+<MD> 15-20
+<AG> 12-14
+<MA> 12-15
+<EN> 60-80
+<FT> 80-100
+<WP> 25-30
+<PC> 17-20
+<PB> 1-3
+<TMR> 12
+<NA> Hide absorbs 6 DP
+
+<comments> Krakens typically live by the shores of large, saltwater
+bodies, pulling swimmers and small vessels down to their demise. If a
+kraken's lair is found, it will frequently (80&percnt) have a large
+treasure (25,000-35,000 Silver Pennies in value) stockpiled. Krakens
+tend to be unintelligent, but grow larger and more intelligent in cold
+water.
+
+</monster>
+
+<monster name="Octopus">
+<details>
+<habitat> Ocean
+<frequency> Uncommon
+<number>  1-6 (1)
+
+<description> Octupi are small bags of flesh with eight long thin
+tentacles attached. They rarely grow to larger than 6 feet, from
+tentacle-tip to tentacle-tip. Their color shifts with their
+surroundings to provide the maximum camouflage. The body is highly
+maleable, and can usually fit into small cracks in coral beds. Rare
+species of giant octopi may grow to 3 times normal size.
+
+<talents> When frightened, octopi can squirt a jet of dark substance
+into the water, obscuring vision while they make their escape.
+
+<weapons> In Close Combat, an octopus can attack once using its
+tentacles (Base Chance of 80&percnt, - 2 Damage).
+
+<movement> Swimming: 150; Climbing on Rocks: 75
+
+<PS> 8-12
+<AG> 14-16
+<MD> 15-17
+<MA> None
+<EN> 5-6
+<WP> 6-8
+<FT> 10-11
+<PC> 17-19
+<PB> 5-7
+<TMR> 3/1
+<NA> Skin absorbs 2 DP
+
+</monster>
+
+<monster name="Squid">
+
+<details>
+<habitat> Ocean
+<frequency> Rare
+<number>1-10 (1)
+
+<description> These creatures are bullet-shaped, with 10 tentacles streaming
+from the base of the bullet. They grow to 50 feet in length, and their
+color changes according to the waters that they inhabit. The Squid
+also has a beak and large, round eyes. Squids are 14-hex monsters.
+
+<talents> The squid has no magic or special skills or talents.
+
+<weapons> Squids attack with their tentacles, drawing their prey in
+toward their beak. A squid can make up to 5 attacks each pulse using
+its tentacles, but the first time that it hits something, it must
+cease attacks for that pulse as it can only bite one thing at a
+time. The Base Chance for each attack is 25&percnt, with [D + 12]
+Damage. The squid can also choose not to attempt to bite and merely
+squeeze with its tentacles, in which case the Base Chance is
+50&percnt, and Damage [D - 1]. It can score up to 5 hits in this way.
+
+<movement>  Swimming: 600
+
+<PS> 60-70
+<MD> 25-30
+<AG> 10-13
+<MA> None
+<EN> 50-60
+<FT> 65-70
+<WP> 10-12
+<PC> 10-12
+<PB> 6-8
+<TMR> 12
+<NA> Hide absorbs 5 DP
+
+<comments> Large squid generally prefer very deep water, and will
+rarely be found at the shallower depths. Squid are carnivorous, and
+will eat almost any meat (including man) that they can find.
+
+</monster>
+</class>
+</group>

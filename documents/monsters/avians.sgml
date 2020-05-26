@@ -1,0 +1,464 @@
+<!doctype dqmm public "-//RDA//DTD DQMM//EN">
+<group name="Avians">
+<class name="Common Avians">
+
+<notes> Common avians include buzzards, eagles, goshawks, owls.
+
+<monster name="Buzzard">
+<details>    
+<habitat> Plains, waste
+<frequency> Common
+<number> 1-60 (10)
+
+<description> These birds have dark brown plummage and thin,
+unfeathered necks of a tannish color. Their beaks are black and
+snub-tipped. They prey on the dead and near-dead (espcially if
+unconscious).
+
+<talents> Buzzards can see each other miles away, and thus when one
+buzzard descends for a meal, others soon follow. Except for their keen
+eyesight, buzzards possess no special talents, skills or magic. They
+are not tool users.
+
+<weapons> A buzzard attacks in Close Combat with its claws and
+beak. The claws' Base Chance is 45&percnt, for [D - 5] Damage, while
+the bite's Base Chance is 40&percnt, for [D - 6] Damage. A buzzard
+cannot attack in Melee Combat.
+
+<movement>  Flying: 600
+
+<PS> 3-5
+<MD> 15-17
+<AG> 14-16
+<MA> None
+<EN> 6-7
+<FT> 9-11
+<WP> 8-10
+<PC> 17-20
+<PB> 8-10
+<TMR> 12
+<NA> Feathers absorb 1 DP
+</monster>
+
+<monster name="Eagle">
+<details>
+<habitat> Rough (usually mountainous)
+<frequency> uncommon
+<number> 1-20 (1)
+
+<description> Great Eagles are the largest of the birds of prey.  They
+have a wingspan of 7 feet when full grown. Their feathers are gray
+except around neck and head (which is white).
+
+<talents> Eagles have no special talents or skills. They are not magic
+users and do not use tools. They do have keen eyesight.
+
+<weapons> Eagles can attack only in Close Combat with either beak
+(Base Chance of 50&percnt of doing [D - 1] Damage) or 2 talons (Base
+Chance of 70&percnt of doing [D + 1] Damage) without penalty in the
+same Pulse. An eagle may achieve Ranks 1-3 with beak and 1-2 with
+talons.
+
+<movement>  Flying: 1200
+<PS> 12-16
+<MD> 22-24
+<AG> 19-23
+<MA> None
+<EN> 9-12   
+<FT> 17-20
+<WP> 11-13
+<PC> 20-24
+<PB> 10-12
+<TMR> 24
+<NA> Feathers absorb 2 DP
+
+<comments>  Eagles avoid humans except to occasionally steal
+goats or other small animals from human flocks. They will
+sometimes attack a party which ventures too near their nest.
+
+</monster>
+
+<monster name="Goshawk">
+<details>
+<habitat>  Woods
+<frequency> Rare
+<number> 1-2 (1)
+
+<description> Goshawks are the largest of the hawks. They are almost
+20 feet in length. The feathers of a goshawk are primarily brown,
+although the belly is pure white and some of the tail feathers are
+black. The sharp beak and claws are black.
+
+<talents> Other than their excellent eyesight, goshawks have no
+special talents, skills, or magical abilities and are not tool users.
+
+<weapons> In Close Combat, a Goshawk can attack with two claws and its
+beak in the same Pulse without penalty. The claw attacks have a Base
+Chance of 80&percnt and do [D - 3] Damage, while the beak attack has a Base
+Chance of 65&percnt and does [D - 4] Damage. The goshawk cannot attack in Melee
+Combat.
+
+<movement> Flying: 1100
+<PS> 4-6
+<MD> 18-20
+<AG> 20-22
+<MA> None
+<EN> 6-7
+<FT> 9-11
+<WP> 8-10
+<PC> 20-21
+<PB> 10-12
+<TMR> 22
+<NA> Feathers absorb 1 DP
+
+<comments> Like the other birds of prey, the goshawk can be trained to
+serve man in captivity. It will bring 700-1200 Silver Pennies as a
+Trained hunter. Other types of hunting birds (including boshawks and
+gyrfalcons) will have characteristics 1-2 less than the goshawk, will
+fly at speeds of 100-200 yards per minute less, and will have a value
+of 200-300 fewer Silver Pennies. They will otherwise be similar.
+
+</monster>
+
+<monster name="Owl">
+<details>
+<habitat> Woods
+<frequency> Uncommon
+<number>  1-6 (1)
+
+<description>  Owls can be of several types, but in general they
+are between one and two feet in length. Coloring varies, but
+brown feathers speckled with grey is a common coloration.
+Owls' eyes are both on the front of the head, unlike inost birds,
+and they tend to have large, dark rings around the eyes.
+
+<talents>  Owls see well in the dark and have
+excellent hearing. They have no magical abilities, skills or talents
+and are not tool users.
+
+<weapons> In Close Combat, Owls can attack with onc bite (Base Chance
+of 55&percnt and Damage [D - 6]) and two claws (Base Chance of
+50&percnt and [D - 7] Damage) in the same Pulse without penalty. Owls
+cannot attack in Melee Combat.
+
+<movement>  Flying: 600
+<PS> 3-4
+<MD> 18-20
+<AG> 22-24
+<MA> None
+<EN> 3-4
+<FT> 5-7 
+<WP> 7-9
+<PC> 20-22
+<PB> 9-11
+<TMR> 12
+<NA> Feathers absorb 1 DP
+
+<comments> Owls are primarily nocturnal predators, hunting small
+mammals as well as birds. They are said to understand human speech and
+to be friendly to man, often providing travellers with valuable
+information.
+
+</monster>
+</class>
+
+<class name="Fantastical Avians">
+
+<monster name="Gargoyle">
+<details>
+<habitat>  Ruins, Caverns, Crypts
+<frequency> Rare
+<number> Rare 1-10 (2)
+
+<description> Gargoyles are humanoid in form, but they have leathery
+wings, sharp claws, a hom, a tail, and spiked elbows and knees. Their
+skin is stony in appearance, and upon contact it feels very
+rough. Gargoyles have deep-set eyes, and sharp, small teeth.
+
+<talents> Gargoyles possess no special skills or talents. They have
+only limited magical abilities in general but may use tools and even
+weapons.
+
+<weapons> A gargoyle can use his horn, his claws, and his bite in
+Melee and Close Combat. In any one Pulse, he may make up to two strike
+attempts with any combinations of these weapons.  Base Chance for the
+bite is 45&percnt, [D + 2] Damage; Base Chance for the horn is
+35&percnt, [D + 1] Damage; Base Chance for the claws is 50&percnt, [D
+- 3] Damage. Gargoyles sometimes (but not often) will use weapons
+(instead of claws).
+
+<movement>  Flying:400; Running: 200
+<PS> 14-20
+<MD> 13-18
+<AG> 12-16
+<MA> 10-12
+<EN> 7-10
+<FT> 18-20
+<WP> 9-13 
+<PC> 12-16
+<PB> 2-5
+<TMR> 8
+<NA>  Hide absorbs 8 DP
+
+<comments> Gargoyles are hopelessly evil, and will attack immediately
+any party that they think they have a fair chance of handling. They
+can sometimes be found in the service of a highly evil character, in
+which case they will usually show more restraint.
+
+</monster>
+
+<monster name="Gryphon">
+<details>
+<habitat> Rough (especially mountainous)
+<frequency> Very Rare
+<number> 1-7 (1)
+
+<description> The gryphon is a large beast with the body of a lion, the head
+and wings of an eagle and back covered with feathers. The gryphon's
+claws are so large that they can be made into serviceable drinking
+horns. The gryphon is about 5 feet long and stands man-high when full
+grown. Gryphon eggs (2-5 possible per nest) are solid agate and quite
+valuable (4000 - 6000 Silver Pennies apiece).
+
+<talents> Gryphons have no special skills or magical abilities, but
+their special talent is locating buried treasure and their nest will
+quite often be built near such treasure which they will actively
+guard. A ``domesticated'' gryphon has a Base Chance of 60&percnt of
+locating any buried treasure within a radius of 250 feet of
+it. Gryphons make valuable steeds, once tamed.
+
+<weapons> The gryphon is not a toot user, but has natural weapons in
+the form of beak (useable in Melee and Close Combat with a Base Chance
+of 65&percnt, [D + 5] Damage, possible Rank of 1-3) and claws (useable
+in Melee and Close Combat with a Base Chance of 60&percnt, Damage of
+[D + 5], possible Rank of 1-4). The gryphon may attack twice with
+claws and once with beak in the same pulse.
+
+
+<movement> Running: 200; Flying: 500
+
+<PS> 30-36
+<MD> 15-20
+<AG> 15-20
+<MA> 6-9
+<EN> 25-30
+<WP> 12-16
+<FT> 30-35
+<PC> 16-22
+<PB> 0-5
+<TMR> 4/10
+<NA> Hide absorbs 6 DP
+
+<comments> Gryphons prefer solitude and will fly away when approached
+if possible, but will always chase and attack horses (whose flesh they
+prize). They are extremely valuable for use as mounts and cost
+accordingly (16,000-20,000 Silver Pennies).  They nest in cliffsides
+and build their nests of spun-gold (value 8,000-10,000 Silver
+Pennies).
+
+</monster>
+
+<monster name="Harpy">
+<details>
+<habitat> Rough (lair in caverns or cliffs near water)
+<frequency> Rare
+<number> 1-20 (6)
+
+<description> Harpies are buzzard-like birds with the upper bodies of
+women. They have long claws, and pale, thin faces.  They make a
+tremendous amount of noise flying, and have a horrible smell.
+
+<talents> Harpies can speak, but have limited magical abilities and no
+special skills or talents. They are occasionally prophetic, although
+they will only speak a prophecy if it is evil and they wish to torment
+  the listener.
+
+<weapons> Unless cornered, harpies do not fight man. If they do fight,
+they have their long talons (Base Chance of 70&percnt, [D + 5] Damage)
+to strike with, both of which can strike twice in Melee or Close
+Combat in the same pulse at no penalty to the harpy.
+
+
+<movement> Flying: 500; Running: 50
+<PS> 14-20
+<MD> 22-26
+<AG> 26-30
+<MA> 13-17
+<EN> 8-10
+<WP> 17-20
+<FT> 14-19
+<PC> 10-16
+<PB> 2-6
+<TMR> 10/1
+<NA> Feathers absorb 7 DP
+</monster>
+
+<monster name="Hippogriff">
+<details>
+<habitat> Rough (especially mountains)
+<frequency> Very Rare
+<number> 1-12 (2)
+
+<description> Hippogriffs are similar to Pegasi in that they are
+basically winged horses, but their head is that of some great bird of
+prey, with a fearsome beak. The head differs from that of an eagle in
+that it has large, feathered ears, almost like wings, at the back of
+the head. The front legs of the hippogriff also resemble those of a
+bird of prey, with huge talons and feathers.
+
+<talents> Hippogriffs have no magical or other extra-ordinary
+abilities, talents or skills, and are not tool users.
+
+<weapons> In Melee Combat, the hippogriff can attack with two claws
+and one bite in the same pulse with no penalty. The bite has a Base
+Chance of 65&percnt and does [D + 4] Damage, while the claws have a
+Base Chance of 55&percnt and do [D + 2] Damage. In Close Combat, the
+hippogriff can still attack with its claws normally, but the Base
+Chance on its bite is reduced to 35&percnt;.
+
+<movement>  Running: 200; Flying: 400
+
+<PS> 18-20
+<MD> 19-22
+<AG> 16-19
+<MA> None
+<EN> 15-18
+<WP> 12-17
+<FT> 25-30  
+<PC> 17-20
+<PB> 8-11
+<TMR> 4/8
+<NA> Hide absorbs 4 DP
+
+<comments> Hippogriff do not like people, and generally shun any area
+that is habitated. They are trainable with difficulty.  Their value is
+3,000-4,000 Silver Pennies untrained and 3 times that price
+trained. Hippogriff eggs are valuable (circa 800 Silve Pennies each)
+and very young hippogriffs are even more so (1400-2000 Silver
+Pennies).
+
+</monster>
+
+<monster name="Pegasus">
+<details>
+<habitat> Rough (primarily mountaintops)
+<frequency> Very Rare
+<number> 1-6 (1)
+
+<description> Pegasi are winged horses with pure white coats tinged
+with silver around mane and flowing tail. They are intelligent for
+equines and can sometimes speak the common tongue.
+
+<talents> Pegasi have no special talents or skills except for their
+flying ability. They are not magic or tool users.
+
+<weapons> In battle, a pegasus attacks as a heavy warhorse.
+
+<movement> Running: 300; Flying: 500
+
+<PS> 55-60
+<MD> 15-17
+<AG> 15-18
+<MA> None
+<EN> 25-30
+<WP> 19-23
+<FT> 50-60  
+<PC> 16-20
+<PB> 16-20
+<TMR> 6/10
+<NA>  Hide absorbs 3 DP
+
+<comments> Wild pegasi are tameable with difficulty. They will only
+allow themselves to be bridled with gold, however. They can carry up
+to 300 pounds flying. They are worth, 4,000 to 5,000 Silver Pennies
+untamed and 5 times that amount tamed.
+
+</monster>
+
+<monster name="Phoenix">
+<details>
+<habitat> Woods, Rough, Plains
+<frequency> Very Rare
+<number> 1
+
+<description> The Phoenix appears to be much like an eagle in profile but is
+three times the size of an eagle.  The bird's plummage is partly red
+and partly gold, and is dazzlingly beautiful. The Phoenix is a
+four-hex monster.
+
+<talents> The Phoenix is highly intelligent, although it cannot
+speak. It does not have any magical abilities.  The distinguishing
+ability of the Phoenix is its ability to reproduce itself (see
+``Comments''). Other than that it has no special talents or skills.
+
+<weapons> Phoenix cannot attack except in Close Combat when they can
+make three attacks in one Pulse without penalty: one with beak (Base
+Chance of 60&percnt, [D + 8] Damage) and two with talons (Base Chance
+of 65&percnt, [D + 6] Damage).
+
+
+<movement>  Flying: 2000
+<PS> 17-20
+<MD> 20-24
+<AG> 17-20
+<MA> None
+<EN> 18-24
+<FT> 30-35
+<WP> 20-23
+<PC> 16-20   
+<PB> 20-24
+<TMR> 40
+<NA> Feathers absorb 6 DP
+
+<comments> Phoenix are famed for their longevity and their method of
+reproduction. When an old bird is nearing the end of its days (500
+years) it builds a nest at the top of an oak or palm tree, and makes a
+pile of cinnamon and spikenard in the nest upon which it lays itself
+down to die. A worm springs out of the body of the dead phoenix, and
+after the worm has matured, it becomes a phoenix itself. It then bears
+the parent bird to the Altar of the Sun, where it is consumed in
+flames.
+
+</monster>
+
+<monster name="Roc">
+<details>
+<habitat> Mountain peaks
+<frequency> Rare
+<number>  1-2 (1)
+
+<description> Rocs are huge birds with wingspans of up to 250
+feet. Except for their size, they much resemble eagles. Their body
+size is as a four-hex monster.
+
+<talents> Rocs have no special talents, skills or magic, and are not
+tool users.
+
+<weapons> Rocs are fearsome creatures in battle. They can engage in
+Melee Combat from a range of 3 hexes, and they can take three attacks
+in one Pulse without penalty. They attack once with a bite (Base
+Chance of 75&percnt,[D + 20] Damage) and twice with claws (Base Chance
+70&percnt, [D + 25] Damage).
+
+
+<movement>  Flying: 2000
+<PS> 200-300
+<MD> 20-25
+<AG> 16-20
+<MA> None
+<EN> 150-200
+<FT> 250-300  
+<WP> 16-20
+<PC> 17-21
+<PB> 3-7
+<TMR> 40
+<NA> Feathers absorb 8 DP
+
+<comments> Rocs often swoop down from their nests to pick up
+elephants, etc.\ to take back to their lair and eat. A roc will
+sometimes attempt to steal a party's cart animals or riding animals,
+but will rarely carry off the people themselves.
+
+</monster>
+</class>
+</group>

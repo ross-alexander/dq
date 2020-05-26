@@ -1,0 +1,60 @@
+<dqmm>		+
+</dqmm>		+
+
+<group>		+ "\\begin{multicols}{2}\n\n"
+			"\\setlength\\columnseprule{0.2mm}\n"
+			 "\n\\section{[NAME]}" +
+</group>	+ "\\end{multicols}\n"
+
+<class>		+ "\n\\subsection{[NAME]}" +
+</class>	+
+
+<monster>	+ "\n\\subsubsection{[NAME]}" +
+</monster>	+
+
+<demon>		+ "\n\\subsubsection{[NAME] ([TITLE])}" +
+</demon>	+
+
+<details>	+ "\n\\begin{description}\n" +
+</details>	+ "\n\\end{description}\n" +
+
+<habitat>	+ "\\item\[Natural Habitat\]"
+<bc>		+ "\n\\item\[Base Chance\]"
+<lesser>	+ "\n\\item\[Lesser Spirits\]"
+<freq>		+ "\n\\item\[Frequency\]"
+<number>	+ "\n\\item\[Number\]"
+<desc>		+ "\n\\item\[Description\]"
+<talents>	+ "\n\\item\[Talents, Skills and Magic\]"
+<movement>	+ "\n\\item\[Movement Rates\]"
+<weapons>	+ "\n\\item\[Weapons\]"
+
+<stats>		+ "\\begin{tabularx}{\\linewidth}{\@{}X\@{\\hspace{0.5em}}X\@{\\hspace{0.5em}}X\@{\\hspace{0.5em}}X\@{}}\n"
+<ps>		+ "\\textbf{PS:} "
+</ps>		+ "\& "
+<md>		+ "\\textbf{MD:} "
+</md>		+ "\& "
+<ag>		+ "\\textbf{AG:} "
+</ag>		+ "\& "
+<ma>		+ "\\textbf{MA:} "
+</ma>		+ "\\\\\n"
+<en>		+ "\\textbf{EN:} "
+</en>		+ "\& "
+<ft>		+ "\\textbf{FT:} "
+</ft>		+ "\& "
+<wp>		+ "\\textbf{WP:} "
+</wp>		+ "\& "
+<pc>		+ "\\textbf{PC:} "
+</pc>		+ "\\\\\n"
+<ps>		+ "\\textbf{PC:} "
+</ps>		+ "\& "
+<pb>		+ "\\textbf{PB:} "
+</pb>		+ "\& "
+<tmr>		+ "\\textbf{TMR:} "
+</tmr>		+ "\& "
+<na>		+ "\\multicolumn{2}{@{}l@{}}{\\textbf{NA:} "
+</na>		+ "}\\\\\n"
+</stats>	+ "\\end{tabularx}\n" +
+<comments>	+ "\n\\begin{description}\n"
+		  "\\setlength\\itemsep{0pt}\n"
+		  "\n\\item\[Comments\]"
+</comments>	+ "\n\\end{description}\n" +

@@ -1,0 +1,12 @@
+#!/bin/sh
+
+SGMLS=nsgmls
+SGMLSASP='sgmlsasp'
+
+INPUT=$1
+OUTPUT=`echo $INPUT | sed 's/.sgml/.htm/'`
+
+# SGML_PATH=$PWD/%N.dtd:$PWD/%P.dtd:$PWD/htm/%N
+# export SGML_PATH
+
+$SGMLS -Dhtm $INPUT | $SGMLSASP htm/mapping > $OUTPUT
