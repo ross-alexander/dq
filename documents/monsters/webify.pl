@@ -269,7 +269,7 @@ my $parser = XML::LibXML->new();
 # Open the current directory and get a list of all .xml files.
 
 opendir(DIR, ".") || die "Cannot open current directory.";
-@files = grep(/.xml$/, readdir(DIR));
+@files = sort(grep(/.xml$/, readdir(DIR)));
 closedir(DIR);
 
 # Process all the files to create a list of hash references.

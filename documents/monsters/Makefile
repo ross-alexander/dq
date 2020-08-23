@@ -1,6 +1,8 @@
 LATEX	= latex
 XELATEX	= xelatex
 SX	= osx
+CFLAGS	= `pkg-config --cflags libxml-2.0 libxslt`
+LDLIBS	= `pkg-config --libs libxml-2.0 libxslt`
 
 %.pdf	: %.fo
 	fop $< $@
@@ -15,7 +17,7 @@ SX	= osx
 	./mm2htm $<
 
 %.xml : %.sgml dqmm.dtd
-	$(SX) -xno-nl-in-tag -xlower $< > $@
+	$(SX) -Dxml -xno-nl-in-tag -xno-expand-internal -xno-expand-external -xlower $< > $@
 
 SOURCE = avians.sgml \
 	aquatics.sgml \
@@ -34,7 +36,9 @@ HTML = $(SOURCE:.sgml=.htm)
 TEX = $(SOURCE:.sgml=.tex)
 XML = $(SOURCE:.sgml=.xml)
 
-all: index.htm avians.pdf
+all: dqmm.pdf xslt
+
+xslt.o : xslt.c
 
 index.htm: $(XML) webify.pl
 	./webify.pl

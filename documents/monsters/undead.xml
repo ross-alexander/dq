@@ -1,4 +1,8 @@
 <?xml version="1.0"?>
+<!DOCTYPE dqmm [
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+%internal-entities;
+]>
 <dqmm><group name="Undead"><notes>Undead are player characters or NPC's who are neither alive nor
 dead. They cannot be killed by normal means since they are not
 alive. Instead, they may be destroyed by magic and by silvered
@@ -74,7 +78,7 @@ Injuries.
 </talents><weapons> Ghouls may use their hands in Melee or Close Combat as
 unranked weapons. They may only Strike once per Pulse (i.e., no Double
 Strikes). Ghouls may Strike twice per Pulse in Close Combat (once with
-hands and once with teeth).  Their bite has a Base Chance of 40%,
+hands and once with teeth).  Their bite has a Base Chance of 40&percnt;,
 damage of [D - 4] (but with + 20 to Infection Checks in addition to
 any modification for bites) and is never Ranked.</weapons><movement>  Running: 150</movement></details><stats><ps> 14-18</ps><md> 8-12  </md><ag> 6-12</ag><ma> None</ma><en> 18-24</en><ft> 25-30  </ft><wp> 18-25</wp><pc> 10-14</pc><pb> 1-2</pb><tmr> 3</tmr><na> None
 </na></stats><comments> Ghouls, like Trolls hate fire and will immediately attack
@@ -187,7 +191,7 @@ in which he attempts to change shape. Vampires are hypnotically
 attractive to members of their own species (including other races).
 They possess most of the characteristics that they did during their
 life except that their Physical Strength and Willpower are both
-increased by 50% (round up). They gain the ability to summon control
+increased by 50&percnt; (round up). They gain the ability to summon control
 and communicate with all common land mammals and are especially adept
 at communicating with and summoning bats, rats and wolves. This
 ability operates automatically as a talent of the same type as G-1,
@@ -246,7 +250,7 @@ vampire that bit him if that vampire has any remaining capacity to
 control his victims. Otherwise, he becomes a vampire under no one's
 control. A vampire may control a number of his victims who have become
 vampires equal to half his Willpower (rounded down). A vampire's
-control over his undead victims is not total and the victim has a 10%Base Chance of successfully disobeying any order of the controlling
+control over his undead victims is not total and the victim has a 10&percnt;Base Chance of successfully disobeying any order of the controlling
 Vampire which would lead to his injury or destruction or which would
 prevent him from feeding. This Base Chance is increased by 5 for each
 additional victim under the vampire's control. Control requires no
@@ -264,7 +268,7 @@ example, be unable to travel during the day except while locked in his
 coffin. He would be prevented from entering certain dwellings,
 travelling over consecrated ground, etc. The character is always
 played by his original player, not by the GM.
-</comments></monster><monster name="Wight (barrow wight)"><details><habitat>  Crypts, Ruins, Graveyards, Fields \&amp; Moors</habitat><frequency> Rare</frequency><number> 1-6
+</comments></monster><monster name="Wight (barrow wight)"><details><habitat>  Crypts, Ruins, Graveyards, Fields &amp; Moors</habitat><frequency> Rare</frequency><number> 1-6
 </number><description> Wights are a form of ghost. They normally appear in
 their human form, but vary in substantiality in direct proportion to
 the time of day. Bright sunlight makes them fade into the spirit world

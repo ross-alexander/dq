@@ -470,8 +470,8 @@ damage would have been inflicted, the victim is poisoned, and suffers
 <FT> 15-20
 <WP> 14-18
 <PC> 12-17
-<TMR> 4
 <PB> 7-9
+<TMR> 4
 <NA> None
 
 </monster>
@@ -538,8 +538,8 @@ longer bite until it has squeezed its prey to death.
 <FT> 30-35
 <WP> 12-16
 <PC> 14-18
-<TMR> 3
 <PB> 6-9
+<TMR> 3
 <NA> Scales absorb 3 DP
 </monster>
 
@@ -613,9 +613,9 @@ poison does 3 DP/Pulse for D10 Pulses until an antidote is applied.
 <MD> None
 <AG> 18-20
 <MA> None
+<EN> 1
 <FT> None
 <WP> 4-6
-<EN> 1
 <PC> 10-12
 <PB> 3-5
 <TMR> 1
@@ -645,9 +645,9 @@ character takes 2 DP. Otherwise there is no effect.
 <MD> None
 <AG> 11-13
 <MA> None
-<WP> 5-7
 <EN> 1
 <FT> None 
+<WP> 5-7
 <PC> 10-12
 <PB> 2-4
 <TMR> 3
@@ -716,9 +716,9 @@ antidote is applied.
 <MD> None
 <AG> 18-20
 <MA> None
-<WP> 8-10
 <EN> 1
 <FT> 1
+<WP> 8-10
 <PC> 11-13
 <PB> 4-5
 <TMR> 3

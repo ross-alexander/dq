@@ -6,7 +6,7 @@ SGMLSASP='sgmlsasp'
 INPUT=$1
 OUTPUT=`echo $INPUT | sed 's/.sgml/.tex/'`
 
-SGML_PATH=$PWD/%N.dtd:$PWD/%P.dtd:$PWD/tex/%N
+SGML_PATH=$PWD/tex/%N:$PWD/%N.dtd:$PWD/%P.dtd
 export SGML_PATH
 
-$SGMLS dqmm.decl $INPUT | $SGMLSASP $PWD/tex/mapping > $OUTPUT
+$SGMLS -D $PWD/tex dqmm.decl $INPUT | $SGMLSASP $PWD/tex/mapping > $OUTPUT

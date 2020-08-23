@@ -35,7 +35,7 @@
 <!element movement - o (#PCDATA) >
 <!element weapons - o (%inline) >
 <!element comments - o (%inline) >
-<!element stats o o ((PS & MD & AG), MA, (EN & FT & WP), PC, (PB & TMR), NA) >
+<!element stats o o (PS, MD, AG, MA, EN, FT, WP, PC, PB, TMR, NA) >
 <!element PS - o (#PCDATA) >
 <!element MD - o (#PCDATA) >
 <!element AG - o (#PCDATA) >

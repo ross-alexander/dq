@@ -1,4 +1,8 @@
 <?xml version="1.0"?>
+<!DOCTYPE dqmm [
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+%internal-entities;
+]>
 <dqmm><group name="Summonables"><notes>This section includes those entities which normally do not appear on
 this plane, but are summonable from their own dimension.  These
 entities include: demons, devils, djinni, efreeti, elementals (earth,
@@ -52,21 +56,21 @@ twice normal size and weight. Improve the weapon's Base
 Chance by 10, and double any damage done. An efreet will have
 Rank 4 or higher with whatever weapon it uses. In Close
 Combat an efreet can immolate an opponent. Such an attack
-has a Base Chance of 65%, and does [D + 10] damage.
+has a Base Chance of 65&percnt;, and does [D + 10] damage.
 </weapons><movement>  Flying: 750; Running: 350
 </movement></details><stats><ps> 40-45</ps><md> 17-20</md><ag> 15-18</ag><ma> 12-18</ma><en> 28-32</en><ft> 45-50  </ft><wp> 23-29</wp><pc> 16-21</pc><pb> 8-10</pb><tmr> 15/7</tmr><na> Skin absorbs 6 DP
 </na></stats><comments> If discovered on this plane, an efreet will either be in
 the service of some character, or trapped in a sealable container,
 such as a bottle. If the latter is the case and the finder of the
-efreet releases it from its captivity, there is a 95% chance that the
-efreet will serve him willingly. The other 5% of the time the efreet
+efreet releases it from its captivity, there is a 95&percnt; chance that the
+efreet will serve him willingly. The other 5&percnt; of the time the efreet
 will attack. If the efreet decides to serve, it will either grant
 three wishes, or become the character's slave for a period of 1001
 days (at the liberator's option). If three wishes are chosen, they
 must be used by the end of the day on which the efreet was released.
 If service is chosen, the efreet will perform any task asked of it
 that is not obviously suicidal. If a request involves physical danger
-to the efreet is made of the efreet, there is a 10% chance (+10 for
+to the efreet is made of the efreet, there is a 10&percnt; chance (+10 for
 each additional request) that the efreet will rebel against its master
 and attack him.  Efreeti are creatures of fire, and thus they will not
 go to or be found in frigid climates or underwater.
@@ -81,7 +85,7 @@ base, doing D + 8 damage to all within Range. The cone will also
 ignite any inflammables. While on the Tactical Display it takes a
 Pulse for a Hellhound to breath fire.
 </talents><weapons> In Close Combat Hellhounds attack with their bite (Base
-Chance of 65%, [D + 6] damage). They cannot attack in Melee or
+Chance of 65&percnt;, [D + 6] damage). They cannot attack in Melee or
 Ranged Combat.
 </weapons><movement>  Running: 450
 </movement></details><stats><ps> 14-16</ps><md> 18-21</md><ag> 19-22</ag><ma> 12-20</ma><en> 10-11</en><ft> 20-22  </ft><wp> 17-19</wp><pc> 25-30</pc><pb> 4-6</pb><tmr> 9</tmr><na> Fur absorbs 6 DP
@@ -105,12 +109,12 @@ of Magic except the Entities as determined by the GM.  Imps can only
 be harmed by silvered weapons or magic. Cold iron does not affect
 them.  They have no skills.  They have Rank 5 with all magic.
 </talents><weapons>Imps may make a horn attack during Close Combat with a Base Chance of
-20% and possible damage of [D - 1].  Imp horns may have a Rank
+20&percnt; and possible damage of [D - 1].  Imp horns may have a Rank
 of between 1 and 10 (controlling Player should roll D10 to determine
 Rank).  Imps may also make an attack in either Melee or Close Combat
 with their long tail. Its tip contains a sting with a quick acting
 nerve poison (2--4 Damage Points per Pulse). The sting itself is
-treated like a dagger.  Base Chance with tail is 30%.  Imps may
+treated like a dagger.  Base Chance with tail is 30&percnt;.  Imps may
 use other weapons, but may not wear armour.
 
 </weapons><movement>Running: 350 --- Flying: 500</movement></details><stats><ps>15--20	</ps><md>13--17	</md><ag>16--22	</ag><ma>22--26</ma><en>14--16	</en><ft>22--28	</ft><wp>28--32	</wp><pc>16--25</pc><pb>3--5	</pb><tmr>7/10	</tmr><na>3 DP
@@ -126,7 +130,7 @@ behalf when it is demanded of them (though even here their sense of
 humour may have an effect) and will fight the master's enemies.  Imps
 may be called upon as needed and then returned to their own dimension.
 Given their warped personalities, the wise master will keep them in
-their own dimension as much as possible.  Imps have a 7% Base
+their own dimension as much as possible.  Imps have a 7&percnt; Base
 Chance of knowing past, present and future events, but will seldom
 speak truthfully of what they know.
 </comments></monster><monster name="Half-Devil"><details><habitat>Seventh Plane</habitat><frequency>Very Rare</frequency><number> 1
@@ -145,10 +149,10 @@ know all spells, rituals and talents of their college at rank 5.  Note
 that this does not include Ward, Investment, or other spells and
 rituals not intrinsic to their college.</talents><weapons>Half-Devils may make a Horn attack or a Bite as well as Sting with
 their tail in Close Combat.  They may use their Tail in Melee but at
--20%.  Their Bite has a Base Chance of 30% and does +1
-damage (A class Critical).  Their Horn has a Base Chance of 25%and does +1 damage (A class criticals and +20% if used in
+-20&percnt;.  Their Bite has a Base Chance of 30&percnt; and does +1
+damage (A class Critical).  Their Horn has a Base Chance of 25&percnt;and does +1 damage (A class criticals and +20&percnt; if used in
 Charge).  Both can be rank 1 to 5. Their Tail has a Base Chance of
-50% doing -2 damage. It has a quick-acting nerve poison in it
+50&percnt; doing -2 damage. It has a quick-acting nerve poison in it
 that does 2 damage points per pulse. (Poison effects are not
 cumulative.)  The victim can resist the effects of the poison by
 rolling under normal endurance when fatigue has been removed, or by
@@ -157,13 +161,12 @@ to 3 or less.  A Half-Devil's tail is always rank 4.  A Half-Devil may
 use weapons (unranked), but will never wear armour.
 
 </weapons><movement> Running : 200  Flying : 400</movement></details><stats><ps>12--16	</ps><md>7--11	</md><ag>9--13	</ag><ma>14--18</ma><en>12--16	</en><ft>17--21	</ft><wp>11--15	</wp><pc>10--14</pc><pb>4--6	</pb><tmr>4/8	</tmr><na>2 DP
-</na></stats><comments>Upon
-making a Lesser Pact with a Demon, that Demon assigns a familiar to
-the adept.  This familiar is a Half-Devil.  The GM should randomly
-roll the values of the above stats and then roll on the following
-table for the college. 
+</na></stats><comments>Upon making a Lesser Pact with a Demon, that Demon assigns a
+familiar to the adept.  This familiar is a Half-Devil.  The GM should
+randomly roll the values of the above stats and then roll on the
+following table for the college.
 
-1 E \&amp; E
+1 E &amp; E
 2 Mind
 3 Illusion
 4 Namer
@@ -202,15 +205,15 @@ Entities) as determined by the GM. Devils can only be harmed by
 silvered weapons or by magic.  Cold iron does not affect them.  They
 have no skills, but possess Rank 10 with all magic of their College.
 Devils know a little of the past, present, and future of things
-(7% chance of accuracy) and will speak truthfully to the best of
+(7&percnt; chance of accuracy) and will speak truthfully to the best of
 their knowledge in exchange for their freedom.  They may not be bound
 or subjected to a Ritual of True Speaking.
 </talents><weapons>Devils may make a horn attack or bite in Close Combat and may sting
 with their tail in Melee or Close Combat.  Their bite has a Base
-Chance of 30% and does [D + 2] damage.  Their horns have a Base
-Chance of 25% and do [D + 2] damage.  Both are Rank 1--10
+Chance of 30&percnt; and does [D + 2] damage.  Their horns have a Base
+Chance of 25&percnt; and do [D + 2] damage.  Both are Rank 1--10
 (controlling Player rolls D10 to determine exact Rank).  Their tail
-has a Base Chance of 30% in Melee and a Base Chance of 50%Close Combat and does [D - 1] damage.  It has a quick-acting nerve
+has a Base Chance of 30&percnt; in Melee and a Base Chance of 50&percnt;Close Combat and does [D - 1] damage.  It has a quick-acting nerve
 poison in it that does 3--5 Damage Points per Pulse.  A devil's tail
 is always Rank 8.  A Devil may use weapons, but will not wear armour.
 </weapons><movement> Running : 400  Flying : 500</movement></details><stats><ps>25--30	</ps><md>15--20	</md><ag>18--24	</ag><ma>28--34</ma><en>25--30	</en><ft>35--40	</ft><wp>24--28	</wp><pc>22--26</pc><pb>2--3	</pb><tmr>8/10	</tmr><na>5 DP
@@ -222,10 +225,10 @@ does not involve immediate danger of death or maiming of their master.
 They are required to assist the master only in situations of imminent
 danger and so will usually be able to bargain successfully early in
 their service.  Their power to see things past, present, and future is
-the same as that of imps (7%).  They will never use this talent
+the same as that of imps (7&percnt;).  They will never use this talent
 except in exchange for their release from service and return to their
 own plane.
-</comments></monster><monster name="Succubi \&amp; Incubi"><details><habitat>Seventh Plane</habitat><frequency>Very Rare</frequency><number> 1
+</comments></monster><monster name="Succubi &amp; Incubi"><details><habitat>Seventh Plane</habitat><frequency>Very Rare</frequency><number> 1
 </number><description>Succubi are lesser spirits of the seventh plane.  They always appear
 in the form of tall, beautiful women with flowing hair which hides
 their small horns.  They also possess membranous wings shaped like
@@ -237,7 +240,7 @@ the Mind.  In addition they possess the following skills: assassin,
 courtesan, spy, thief and troubadour. All skills of Succubi are Rank
 10.  Succubi possess the following characteristics:
 </talents><weapons>Succubi may attempt to bite during Close Combat with a Base Chance of
-40%.  Their bite does [D + 2] damage to Fatigue each Pulse.
+40&percnt;.  Their bite does [D + 2] damage to Fatigue each Pulse.
 This drain continues so long as they continue to bite (they need not
 make another Strike Check).  The Succubi will cease biting only when
 they have become stunned or unconscious or when their victim is dead.
@@ -290,7 +293,7 @@ the windstorm just by willing it.
 
 </talents><weapons> Air elementals can materialise their fists to strike at
 their opponents. They can take two attacks in the same Pulse without
-penalty. The attacks have a Base Chance of 65% and do D10 damage, +
+penalty. The attacks have a Base Chance of 65&percnt; and do D10 damage, +
 1 per Rank of their summoner.
 </weapons><movement> Flying: 500 + (50 x Summoner's Rank)
 </movement></details><stats><ps> Base 15   </ps><md> 25-30</md><ag> 32-37</ag><ma> None</ma><en> 5-50</en><ft> 10-85</ft><wp> 14-18</wp><pc> 19-23</pc><pb> 10-12</pb><tmr> 10 + (Adept's Rank)</tmr><na>  None
@@ -299,7 +302,7 @@ penalty. The attacks have a Base Chance of 65% and do D10 damage, +
 skin and gravelly eyes. They will be as tall, in feet, as their
 Endurance.
 </description><talents> Earth elementals can sink into any substance made of rock or
-dirt, and remain hidden with only 5% chance of detection. They have a
+dirt, and remain hidden with only 5&percnt; chance of detection. They have a
 chance equal to their Endurance of knowing the location of any
 intelligent creature standing on earth or rock. They can move through
 the earth (without creating a tunnel or disturbing it in any way)
@@ -331,7 +334,7 @@ as talents, without the necessity of preparing or casting a
 spell. Only one wall of each type can be maintained at any one time,
 however.
 </talents><weapons> Fire Elementals can attempt to immolate their adversaries.
-The Base Chance for such an attack is 70%, and if the attack
+The Base Chance for such an attack is 70&percnt;, and if the attack
 succeeds D + 2 damage is done, with an additional point added for each
 Rank of their summoner. If the attack is made in Close Combat, double
 the damage done.

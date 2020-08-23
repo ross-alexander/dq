@@ -1,4 +1,8 @@
 <?xml version="1.0"?>
+<!DOCTYPE dqmm [
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+%internal-entities;
+]>
 <dqmm><group name="Giants, Faries and Earth Dwellers"><class name="Giant Humanoids"><notes>This Section includes all larger than average size humanoid
 species. Included are 6 flavors of Giants (Cloud, Fire, Frost, Hill,
 Stone and Storm).  Other giant humanoids include Ogres, Trolls and
@@ -27,10 +31,10 @@ features will usually be uncommonly gnarled.  </description><talents> But note t
 a hill giant is not affiliated with any element in particular, and
 thus has expanded options as to his choice of College. His mastery of
 a College will usually be minimal (about Rank 3) if he does belong to
-a College (25% chance).</talents><weapons> Hill giants will use all weapons, although they generally
+a College (25&percnt; chance).</talents><weapons> Hill giants will use all weapons, although they generally
 prefer simple crushing weapons like the club or mace.  They will have
 rank 1-5 with these weapons. Hill giants rarely wear armor, although
-they will occasionally (2%) wear chainmail or leather.
+they will occasionally (2&percnt;) wear chainmail or leather.
 </weapons><movement> 350-400
 </movement></details><stats><ps> 12-30</ps><md> 4-22</md><ag> 3-21 </ag><ma> 4-22</ma><en> 13-31 </en><ft> 18-24</ft><wp> 4-22</wp><pc> 5-23</pc><pb> 5-23</pb><tmr> 7-8</tmr><na> Thick hide absorbs 1 DP
 </na></stats><comments></comments></monster><monster name="Frost Giant"><details><habitat> Rough (especially mountains)</habitat><frequency>Rare</frequency><number> 1-25 (6)</number><description> Frost giants are large humanoids between 15 and
@@ -53,7 +57,7 @@ the difference between the weather they are trying io create and the
 weather state at the time that they are doing so, it will be from one
 to three hours until the effects of their control become evident.
 Note that storm giants are not particularly affiliated with any of the
-Elementals.  There is a 50% chance that a storm giant will be a
+Elementals.  There is a 50&percnt; chance that a storm giant will be a
 member of a College.  If he is a member of a College, a storm giant
 will have rank 3-7 with General Knowledge spells, and Rank 2-5 with
 those Special Knowledge spells that he knows (GM's option).
@@ -69,15 +73,15 @@ giants.
 </comments></monster><monster name="Ogre"><details><habitat> Rough, Woods</habitat><frequency> Rare</frequency><number> 1-20 (4)</number><description> Ogres are large, ugly humanoids.  They are 8 feet tall,
 have flattened noses and large, sharp teeth.  They will usually be
 wearing rags.
-</description><talents> Ogres generally shun magic, although there is a 5% chance
+</description><talents> Ogres generally shun magic, although there is a 5&percnt; chance
 that an ogre will belong to the College of Earth Magics if he has an
-MA of 15.  The highest rank that an ogre will ever attain with any
+MA of 15.  The highest rank that an ogre will ever attain with any&null;
 spell is 5, and this only rarely.
 </talents><weapons> Ogres prefer to use large clubs over other weapons.  Ranged
 weapons are rare, but possible.  Ogres will also use shields and wear
-armor 80% of the time. If they do wear armor, it will usually be
+armor 80&percnt; of the time. If they do wear armor, it will usually be
 chainmail or lighter. In Close Combat or in the absence of a weapon
-ogres can also bite (Base Chance of 65%, + 4 Damage).
+ogres can also bite (Base Chance of 65&percnt;, + 4 Damage).
 
 </weapons><movement> Running: 450</movement></details><stats><ps> 25-30</ps><md>11-13 </md><ag> 8-10</ag><ma> 10-15</ma><en> 20-23 </en><ft> 28-30 </ft><wp> 18-20</wp><pc> 11-14</pc><pb> 6-9 </pb><tmr> 9 </tmr><na> Thick skin absorbs 4 DP</na></stats><comments> Ogres eat those travellers that they waylay and take their
 treasure.  They are intelligent enough so that they will not attack a
@@ -94,7 +98,7 @@ They are protected from physical attack by a magical aura which
 surrounds them.  This aura also adds 40 to their Magic Resistance.
 They will know General and Special Knowledge of their College at Rank
 10 and above.</talents><weapons> Titans use human-type weapons of 4-times normal size
-(improve Base Chance by 20%, multiply damage by 4 after
+(improve Base Chance by 20&percnt;, multiply damage by 4 after
 modification). They will sometimes wear armor (which functions in
 addition to their aura) if they are doing something which is
 pre-meditated, and they know will be very dangerous.
@@ -103,7 +107,7 @@ pre-meditated, and they know will be very dangerous.
 </na></stats><comments> Titans are basically good in nature, and they will help
 people on occasion.  They are often very touchy, however, and if they
 think a human is being insolent they will not hesitate to kill him,
-although sometimes (30%) they will just vanish.  If a titan is
+although sometimes (30&percnt;) they will just vanish.  If a titan is
 inhabiting this plane for some reason, it will have a large castle,
 very substantial treasure, and numerous storm giant guards.
 </comments></monster><monster name="Troll"><details><habitat> Rough, Caverns, Ruins, Fields, Marshes</habitat><frequency>Uncommon</frequency><number>-3 (1)
@@ -118,9 +122,9 @@ magic-users.  They may use simple weapons, but may never achieve any
 Rank with a weapon.  Trolls possess the ability to regenerate
 themselves at the rate of 1 Damage Point healed each Pulse.  Any
 damage inflicted by fire is, however, permanent and may not be healed
-by regeneration.  Trolls are not afraid of fire.</talents><weapons> A Troll may use its hands (Base Chance of 55%, Damage of +
+by regeneration.  Trolls are not afraid of fire.</talents><weapons> A Troll may use its hands (Base Chance of 55&percnt;, Damage of +
 6, no Rank) to Melee Attack or may use hands and teeth (Base Chance of
-35%, Damage of +4, no Rank) in Close Combat.  It may Strike twice with
+35&percnt;, Damage of +4, no Rank) in Close Combat.  It may Strike twice with
 hands and once with teeth each Pulse.
 </weapons><movement> Running: 300
 </movement></details><stats><ps> 30-50  </ps><md> 10-14</md><ag> 12-16</ag><ma> 5-8</ma><en> 30-40 </en><ft> 40-50 </ft><wp> 18-25 </wp><pc> 20-25</pc><pb> Always 0</pb><tmr> 6 </tmr><na> Skin absorbs  5 DP
@@ -171,7 +175,7 @@ in small colonies.
 </description><talents> Dryads tend to be Adepts of the College of Earth Magics,
 though some may be members of the Colleges of Illusion or the
 Sorceries of the Mind. They will not usually be very powerful in
-Colleges other than Earth, however.  They have the special ability of
+Colleges other than Earth, however.  They have the special ability of&null;
 being able to take refuge deep within their tree if threatened.
 </talents><weapons> Dryads use no weapons of any kind.
 </weapons><movement>  Running: 200
@@ -202,7 +206,7 @@ individual, causing him to swim into their lair (which will be in an
 underwater cave) and be drowned. This works like a talent. Victims
 must roll 2 x Willpower or less or succumb to the charm.
 </talents><weapons> Fossergrims attack with their teeth in Close Combat and have
-a Base Chance of 40% of doing [D - 2] Damage. They may also use
+a Base Chance of 40&percnt; of doing [D - 2] Damage. They may also use
 small simple non-missile weapons (knives, shon swords, and the like).
 </weapons><movement>  Running: 150; Swimming: 100
 </movement></details><stats><ps> 8-12</ps><md> 18-20  </md><ag> 15-17</ag><ma> 12-14</ma><en> 8-10</en><ft> 16-20  </ft><wp> 16-18</wp><pc> 15-17</pc><pb> 8-10</pb><tmr> 3/2</tmr><na> None
@@ -243,7 +247,7 @@ of the College of Water Magics. They will have no skills to speak of,
 but will have the talent of being able to automatically summon [D + 1]
 x Rank with their talent (1, if unranked) large Pike to their
 aid. Since these "water wolves", as they are called, have a special
-fondness for Nixies, there will always be Pike in the area.</talents><weapons> Nixies do [D - 2] Damage (Base Chance of 35%) in Close
+fondness for Nixies, there will always be Pike in the area.</talents><weapons> Nixies do [D - 2] Damage (Base Chance of 35&percnt;) in Close
 Combat with their bite. in addition, they will often carry fishbone
 weapons and shields and (rarely) wear fishskin armour (equal to
 leather armour).
@@ -269,7 +273,7 @@ exclusively on their beauty and magic for protection.
 </weapons><movement>  Running: 250
 </movement></details><stats><ps> 10-12   </ps><md> 14-18</md><ag> 14-22</ag><ma> 18-22</ma><en> 8-12</en><ft> 16-24</ft><wp> 18-24</wp><pc> 18-24</pc><pb> 25-33</pb><tmr> 5</tmr><na> None
 </na></stats><comments> Nymphs dislike the intrusion of humans, but will attempt to
-charm and seduce a particularly handsome man with their beauty (40%chance) if they do not first flee (50% chance) If they flee, they will
+charm and seduce a particularly handsome man with their beauty (40&percnt;chance) if they do not first flee (50&percnt; chance) If they flee, they will
 attempt to punish those who frightened them. Nymphs can move from
 place to place by entering the trunks of trees and then teleporting
 from one trunk to another.  It takes them 30 seconds to enter the
@@ -296,7 +300,7 @@ with great effect. They have three types of arrow: one which does [D -
 6] damage, one that puts their victims to sleep unless they roll 4 x
 Willpower or less, and one that removes all memory from the victim for
 [D - 4] days unless they roll 4 x Willpower or less. The bow has a
-Base Chance of 60%. They may wear leather armor.
+Base Chance of 60&percnt;. They may wear leather armor.
 </weapons><movement> Runing: 150; Flying: 250
 </movement></details><stats><ps> 3-4</ps><md> 18-21</md><ag> 17-20</ag><ma> 10-15   </ma><en> 3-4</en><ft> 8-10</ft><wp> 12-16</wp><pc> 10-14</pc><pb> 10-17</pb><tmr> 3/5</tmr><na> None
 </na></stats><comments> Pixies are very hard to hit in combat (+30 to their normal
@@ -310,7 +314,7 @@ skin is a deep mahogany in color.
 </description><talents> Satyrs are somewhat magical.  Their magical abilities are
 usually focused through a pipe which they play to charm, delight, or
 otherwise influence those around them. They are also 3 times as
-stealthy as humans, and can blend in with surrounding trees (90%chance they will be undetected if they remain still. Satyrs have
+stealthy as humans, and can blend in with surrounding trees (90&percnt;chance they will be undetected if they remain still. Satyrs have
 the same power over women that nymphs have over men.
 </talents><weapons> Satyrs use simple weapons like spears. Usually they will
 have Rank 1-5 with the weapons they use.
@@ -379,12 +383,12 @@ or the quality of a builder's job.</talents><weapons> Gnomes will use daggers, s
 weapons that they can carry easily.
 
 </weapons><movement>  Running: 150
-</movement></details><stats><ps> 10-14</ps><md> 10-13  </md><ag> 14-16</ag><ma> 13-17</ma><en> 8-10</en><ft> 16-20</ft><wp> 19-22</wp><pc> 14-18</pc><tmr> 3</tmr><pb> 10-13</pb><na> None</na></stats><comments> Gnomes have a strong dislike for goblins, and will always
+</movement></details><stats><ps> 10-14</ps><md> 10-13  </md><ag> 14-16</ag><ma> 13-17</ma><en> 8-10</en><ft> 16-20</ft><wp> 19-22</wp><pc> 14-18</pc><pb> 10-13</pb><tmr> 3</tmr><na> None</na></stats><comments> Gnomes have a strong dislike for goblins, and will always
 attempt to attack them. Gnomes are organized into bands, each of which
 is competitive with the others, although not actually hostile. They
 are usually friendly to man, and they are very friendly with the
 Dwarves, their cousins, although they have a mild dislike of
-Elves. Large bands of Gnomes will often (80%) have a fair amount
+Elves. Large bands of Gnomes will often (80&percnt;) have a fair amount
 (value: [D + 3] x 100 Silver Pennies per gnome) of treasure. Gnomes
 found in their lair will have more treasure (value [D + 3] x 300
 silver pennies per gnome) as Gnomes are fond of hoarding.
@@ -397,7 +401,7 @@ carrying shields. More powerful goblins will sometimes carry better
 armor. They are about 4 feet tall.
 </description><talents> Goblins are good at working with stone if forced into it,
 and so they are good at detecting facts having to do with stone
-(40% chance of detecting anything unusual or dangerous). They
+(40&percnt; chance of detecting anything unusual or dangerous). They
 can see in the dark. They are excellent at torture, which they delight
 in. A goblin will in rare instances be an Adept of one of the
 Entities.</talents><weapons> Goblins will use any sort of weapon that their strength
@@ -418,7 +422,7 @@ feet in height. They are inclined to be fat.
 </description><talents> See character generation.
 </talents><weapons> Halflings prefer small weapons, maces and slings being the
 most common, although short swords and daggers will also sometimes be
-used. There is a 50% chance that a halting will have Rank with at
+used. There is a 50&percnt; chance that a halting will have Rank with at
 least one of the weapons that he is carrying. Rank with a weapon will
 never be higher than Rank 4.  The listed characteristic ranges are for
 NPC halflings.
@@ -457,7 +461,7 @@ will perform many tasks relating to maintenance of property or
 animals. They have no special magical powers, and they are not as good
 at working with stone and at detecting unusual constructions as the
 dwarves. They can see in the dark.
-</talents><weapons> Kobolds carry Daggers and Hammers (Base Chance of 30%, [D -
+</talents><weapons> Kobolds carry Daggers and Hammers (Base Chance of 30&percnt;, [D -
 2] damage). They do not wear armour.
 </weapons><movement>  Running: 100
 </movement></details><stats><ps> 7-9</ps><md> 14-17</md><ag> 15-18</ag><ma> None</ma><en> 6-8</en><ft> 12-14  </ft><wp> 14-17</wp><pc> 12-16</pc><pb> 8-11</pb><tmr> 2</tmr><na> None
@@ -465,7 +469,7 @@ dwarves. They can see in the dark.
 all sorts of menial or semi-skilled tasks with great willingness and
 ability, where such is possible. They will work for only shelter and
 food. While travelling, they will most likely run away if they see a
-party at a distance, but there is a 25% chance that they will be
+party at a distance, but there is a 25&percnt; chance that they will be
 willing to trade information and befriend a character. In general,
 Kobolds get along with men better even than the Dwarves. Kobolds will
 almost never have treasure, although if they do it will usually be

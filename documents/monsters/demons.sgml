@@ -55,16 +55,16 @@ linguist and a masterful teacher of languages. He may also cause
 earthquakes at will.  He has the power to find those who hide
 themselves.
 
-<movement>Running: 50 yards per minute.
-
 <weapons>Agares has no natural weapons. He is treated as a human for
 purposes of unarmed combat. He may use weapons and wear armour.
-</details>
 
+<movement>Running: 50 yards per minute.
+</details>
 
 <ps>9	<md>12	<ag>11	<ma>33
 <en>14	<ft>26	<wp>35	<pc>36
 <pb>10	<tmr>1	<na>3 DP
+
 <comments>Agares has a 25&percnt; chance of locating any individual of
 the summoner's choice (regardless of how far away the individual may
 be). He cannot, however, locate individuals on other planes of
@@ -90,14 +90,15 @@ following Skills: Alchemist, Military Scientist.  He can set fire to
 any combustible object by touching it with the hand wherein resides
 his fireball.  The fireball may not be thrown.
 
-<movement> Running: 250 yards per minute.
-
 <weapons> Aim may bite in Close Combat with his non-human heads.  He
 has a BC of 45&percnt; with his serpent head and a BC of 30&percnt;
 with his calf head.  The serpent does + 2 damage (plus D-3 per Pulse
 additional damage for poison) and the calf head does + 3 damage.  The
 serpent's head is Rank 4 and the calf's head is Rank 2.  Aim may not
 wear armour.
+
+<movement> Running: 250 yards per minute.
+
 </details>
 
 <ps>22
@@ -133,11 +134,12 @@ and are blinded for D + 5 days afterward.
 Celestial Magics.  He possesses the following Skills: Assassin,
 Navigator, Spy, Thief, Military Scientist.
 
+<weapons> Alloces bite has a BC of 45&percnt; of doing + 3 damage in
+Close Combat.  It is Rank percent Alloces is also armed as a knight
+with broadsword and buckler and ax, mace and knife.
+
 <movement>Running: 350 yards per minute.
 
-<weapons> Alloces bite has a BC of 45&percnt; of doing + 3 damage in Close
-Combat.  It is Rank percent Alloces is also armed as a knight with
-broadsword and buckler and ax, mace and knife.
 </details>
 
 <ps>30 <md>28 <ag>32 <ma>29
@@ -169,10 +171,12 @@ bidding in the same manner as a member of the College of Naming
 Incantations.  He knows all Generic and Individual True Names, but
 will tell these only if his summoner is in dire need.
 
-<movement> Running: 250 yards per minute.
 <weapons> Amdusias has no natural weapons and is treated as a man for
 purposes of unarmed combat.  He will refuse to wear armor, but may
 employ all weapons.
+
+<movement> Running: 250 yards per minute.
+
 </details>
 
 <ps>23 <md>26 <ag>24 <ma>29
@@ -200,12 +204,14 @@ Generic and Individual True Names of all things, but will only tell
 these if it pleases him and he thinks that suffering may be increased
 thereby.  He knows men's secrets and will tell them.
 
-<movement> Running: 350 yards per minute.
 <weapons> Astaroth's breath is poisonous to the same degree as
 chlorine and extends outward from his mouth 24 inches in a cone 12
 inches wide at the base.  He has no other natural weapons, but will
 usually carry a heavy mace which he uses in shattering the bones of
 his victims so that they will be crippled and take a long time dying.
+
+<movement> Running: 350 yards per minute.
+
 </details>
 
 <ps>27 <md>26 <ag>28 <ma>32
@@ -238,10 +244,12 @@ and beasts as well as men.  He can break an enchantment used to seal
 a place or treasure with his touch. He knows the Generic and
 Individual True Names of all things on earth.
 
-<movement> Running: 350 yards per minute.
 <weapons> Barbatos has no natural weapons.  He is treated as a human
 for purposes of unarmed combat.  He refuses to wear armour, but can
 employ any weapons.
+
+<movement> Running: 350 yards per minute.
+
 </details>
 
 <ps>23 <md>27 <ag>29 <ma>32
@@ -271,10 +279,12 @@ the air and knows all of the virtues of herbs and stones. He is a
 patient teacher.  The EP cost to learn a skill is halved if the skill
 is learned with Bathin's aid.
 
-<movement> Running: 350yards per minute.
 <weapons> Bathin has no natural weapons.  He is treated as a human for
 purposes of unarmed combat.  He may wear armor and employ all types of
 weapons.
+
+<movement> Running: 350yards per minute.
+
 </details>
 
 <ps>23 <md>25 <ag>26 <ma>29
@@ -300,12 +310,14 @@ Merchant, Military Scientist, Spy, Thief.  He can turn all metals to
 gold by touch.  He also has knowledge of the past, present and future,
 but will only trade this knowledge for a life of man or woman.
 
-<movement> Running: 350 yards per minute.
 <weapons> Berith has no natural weapons. He is treated as a human
 for purposes of unarmed combat.  Berith often carries a rapier and a
 main-gauche, both of which he keeps envenomed with a nerve poison. He
 will refuse to wear armor since this would cover his beautiful
 clothes, of which he is inordinately proud.
+
+<movement> Running: 350 yards per minute.
+
 </details>
 
 <ps>28 <md>25 <ag>26 <ma>29
@@ -338,13 +350,15 @@ the Generic True Name of all things. He will often bring his summoner
 presents in the form of gems or silver in exchange for an early
 dismissal from this plane.
 
-<movement> (yards per minute): Run: 500; Fly: 800.
 <weapons> Bune may roll over one hex characters as described in the
 multi-hex character rules. In addition, he may use his gryphon head to
 peck and his dingo head to bite while in Close or Mclee Combat.  Both
 have a BC of 35&percnt; and do + 2 damage.  They are Rank 3.  Bune may
 use his talons in either Closc Combat or Melee Combat with a BC of
 50&percnt; and damage of + 6.  His talons are Rank 10.
+
+<movement> (yards per minute): Run: 500; Fly: 800.
+
 </details>
 
 <ps>180 <md>9 <ag>12 <ma>30
@@ -375,14 +389,15 @@ Healer, Merchant, Navigator, Spy, Troubadour.  Hc has the power to
 warm or cool waters.  He can discover water even in the desert and
 can create the illusion of waters to fool the unwary.
 
-<movement> (yards per minute): Run: 250; Fly: 500.
-
 <weapons> Crocell has no natural Aeapons.  Hc is treated as a human
 for purposes of unarmed combat.  He may, however, carry a sword
 whose blade is of infernal ice that can never melt and which inflicts
 burning wounds that later turn white and waxy and eventually turn
 black and rot unless cured by magic.  He may also use any other
 weapons.  He will not wear armor.
+
+<movement> (yards per minute): Run: 250; Fly: 500.
+
 </details>
 
 <ps>30 <md>28 <ag>26 <ma>30
@@ -410,12 +425,13 @@ things, the thoughts of all beings and all that has been or will be.
 He cannot speak of these thines, however, and any attempt at
 compelling him will lead to his return to his own plane.
 
-<movement>Running: 400 yards per minute.
-
 <weapons> Dantalion has no natural weapons and is treated as a human
 for purposes of unarmed combat. He may bear any weapons or wear
 armour, but prefers not to do so since this makes it harder for him to
 alter his shape at will.
+
+<movement>Running: 400 yards per minute.
+
 </details>
 
 <ps>20 <md>22 <ag>21 <ma>30
@@ -449,10 +465,13 @@ Spy. He has the ability to predict with 25&percnt; accuracy when and
 how wars will come and battles will be lost and won. he can discover
 all things hidden within 25 feet of him.
 
-<movement> Running: 350 yards per minute.
 <weapons> Eligos has no natural weapons.  He is armed with a lance,
 sword, mace, battle axe and poinard.  The poinard is envenomed.
+
+<movement> Running: 350 yards per minute.
+
 </details>
+
 <ps>28 <md>24 <ag>25 <ma>20
 <en>26 <ft>35 <wp>31 <pc>28
 <pb>13 <tmr>7 <na> 3 DP
@@ -479,12 +498,15 @@ Merchant, Navigator.  He has the power to command the beasts of the
 sea and to gather great storms at sea, but he has no power away from
 water. He breathes both water and air.
 
-<movement>Fly 600; Swim 200
 <weapons>
 Furcalor has no natural weapons.  He is treated as a human for the
 purposes of unarmed combat.  He may wear specially tailored armor (to
 fit around his wings) and may employ any weapon.
+
+<movement>Fly 600; Swim 200
+
 </details>
+
 <ps>27 <md>25 <ag>24 <ma>33
 <en>27 <ft>35 <wp>35 <pc>28
 <pb>11 <tmr>12/4 <na>4 DP
@@ -511,13 +533,14 @@ ever preceeded by a sound like the rattling of old bones.
 Conjurations.  He possesses the following Skills: Alchemist Assassin,
 Astrologer, Merchant, Military Scientist, Navigator, Spy.
 
-<movement> Running: 300 yards per minute.
-
 <weapons> Furcas has no natural weapons, but can call his scythe to
 him from other dimensions at will.  The Scythe has a BC of
 40&percnt;. It does + 8 damage and is Rank 10. It is a two-handed
 weapon.  Only Furcas can wield the Scythe.  He may use other weapons
 as well.
+
+<movement> Running: 300 yards per minute.
+
 </details>
 
 <ps>23 <md>25 <ag>24 <ma>29
@@ -542,17 +565,19 @@ discover the location of treasures that are hidden within 50 feet of
 him.  He knows the events of the past, present and future to a small
 degree and will prophesy for gain (15&percnt; accuracy).
 
-<movement> Running: 300 vards per minute.
 <weapons> Gremory has no natural weapons.  He is treated as a human
 for purposes of unarmed combat.  He always carries envenomed knives on
 his person and rings full of poison on his fingers. His poisons are
 extremely swift-acting (10 hits per pulse on the average). He will not
 wear armour, but may agree to carry gilded weapons.
+
+<movement> Running: 300 vards per minute.
+
 </details>
+
 <ps>20 <md>28 <ag>29 <ma>30
 <en>19 <ft>30 <wp>36 <pc>31
 <pb>28 <tmr>6 <na>2 DP
-
 
 <comments> Gremory is a lover of beautiful women and will prophesy,
 speak of the past, seek treasure or any other thing desired by the
@@ -579,10 +604,12 @@ sworn enemies.  He has knowledge of past events and can say what is
 happening at any moment in places that are far away.  He can also see
 dimly into the future.
 
-<movement> Running: 300 yards per minute.
 <weapons> Gusion has no natural weapons.  He is treated as a human
 for purposes of unarmed combat.  He will not wear armour, but will
 employ any weapons provided by the summoner.
+
+<movement> Running: 300 yards per minute.
+
 </details>
 
 <ps>23 <md>25 <ag>24 <ma>29
@@ -612,11 +639,12 @@ who believe them to be real, but will do no harm to those who
 successfully disbelieve them.  He knows something of the past, present
 and future and can see into places where there is/was/will be fire.
 
-<movement> Running: 400 yards per minute.
-
 <weapons> Havres has no natural weapons and is treated as a human for
 purposes of unarmed combat. He may carry weapons at the summoner's
 request.  He will not wear armour.
+
+<movement> Running: 400 yards per minute.
+
 </details>
 
 <ps>30 <md>25 <ag>32 <ma>30
@@ -647,10 +675,12 @@ Merchant, Military Scientist, Navigator.  He also possesses the power
 to make the dead appear before the summoner and speak to him of their
 lives and deaths and to answer the questions he may put to them.
 
-<movement> Running: 350 yards per minute.
 <weapons> Murmur has no natural weapons.  He is treated as a human
 for purposes of unarmed combat.  He usually carries a heavy war
 hammer, a shield and a brace of knives.
+
+<movement> Running: 350 yards per minute.
+
 </details>
 
 <ps>27 <md>23 <ag>25 <ma>29
@@ -673,9 +703,11 @@ Ensorcelments and Enchantments. He possesses the following Skills:
 Beast Master, Healer, Military Scientist, Ranger, Troubador.  He has
 the talent to inspire love between men and women.
 
-<movement> Running: 300yards per minute.
 <weapons> Sallos has no natural weapon.  He is armed with a sword
 and a main gauche.
+
+<movement> Running: 300yards per minute.
+
 </details>
 
 <ps>24 <md>25 <ag>25 <ma>29
@@ -705,12 +737,14 @@ Beast Master, Merchant, Ranger, Spy, Thief.  He has the power to
 procure for the summoner the love of women.  He also can cause others
 to love the summoner and become devoted to him.
 
-<movement> Running: 350 yards per minute.
 <weapons> Uvall has no natural weapons. He is treated as a human for
 purposes of unarmed combat. He usually comes armed with a scimitar,
 spear and a brace of sharp throwing knives which break when they enter
 the victim's body and leave splinters that must be removed or they
 will burrow their way to the heart and kill the victim in D10 + 3 days.
+
+<movement> Running: 350 yards per minute.
+
 </details>
 
 <ps>25 <md>26 <ag>27 <ma>30
@@ -738,12 +772,14 @@ Ranger, Spy and Thief. He sometimes represents himself as the god of
 thieves and the EP cost to learn the thief skill is halved if the
 skill is learned from Valefor.
 
-<movement> Running: 400 yards per minute.
 <weapons> Valfor may bite in Close Combat with a BC of 25&percnt; of
 doing D + 1 damage.  His bite is Rank 3.  He may also use his claws in
 Melee or Close Combat with a BC of 45&percnt;. He does + 2 damage with
 claws in Melee and + 4 in Close Combat.  His claws are Rank 5.  He may
 not wear armor or employ man-made weapons.
+
+<movement> Running: 400 yards per minute.
+
 </details>
 
 <ps>30 <md>4 <ag>32 <ma>33
@@ -770,12 +806,14 @@ wisdom and his voice is a quiet rumbling.
 <talents> Vapula is a member of the College of Earth Magics. He
 possesses the following Skills: Beast Master, Healer, Ranger.
 
-<movement> Running: 400 yards per minute.
 <weapons> Vapula may bite in Close Combat with a BC of 40&percnt; of
 doing + 4 damage.  His bite is Rank 5.  Vapula may also use claws in
 Melee and Close Combat.  He has a BC of 45&percnt with claws in Melee
 and a BC of 55&percnt with claws in Close Combat.  His claws do + 6
 damage and are Rank 8.  He mav not wear armour or employ weapons.
+
+<movement> Running: 400 yards per minute.
+
 </details>
 
 <ps>35 <md>4 <ag>30 <ma>32
@@ -802,9 +840,11 @@ the ability to cause horrible wounds by looking upon a man.  These
 will appear as gashes, but will putrefy and fill with worms and
 within three days the victim will die unless cured by magic.
 
-<movement> Swimming: 600 yards per minute.
 <weapons> Vephar has no natural weapons and is human for purposes of
 unarmed combat.  He may not wear armour, but may employ weapons.
+
+<movement> Swimming: 600 yards per minute.
+
 </details>
 
 <ps>12 <md>19 <ag>18 <ma>30
@@ -833,13 +873,15 @@ Merchant, Military Scientist, Spy and Troubador. He is able to cause
 women to fall in love with men and so allow themselves to be seduced.
 His touch, however, makes women barren.
 
-<movement> Running: 350 yards per minute.
 <weapons> Zepar has no natural weapons.  He is treated as a human for
 purposes of unarmed combat.  He may carry a variety of weapons, but
 all will be smeared with foul venom which inflicts horrible scarring
 injuries that may only be cured by magic.  Zepar's envenomed weapons
 do 2 points of damage per hour to Fatigue or Endurance as a result of
 their poisonous coating.
+
+<movement> Running: 350 yards per minute.
+
 </details>
 
 <ps>18 <md>29 <ag>28 <ma>30
@@ -876,11 +918,12 @@ has the power to break the ties between a magician and his familiar
 and to send the familiar back to where he came.  He can teleport
 beings within their plane by willing it.
 
-<movement> Running: 350 yards per minute.
-
 <weapons> Gasp has no natural weapons.  He is treated as human for
 purposes of unarmed combat.  However, see below.  Gasp may wear no
 armor.  He carries any weapons the summoner provides.
+
+<movement> Running: 350 yards per minute.
+
 </details>
 
 <ps>28		<md>26		<ag>27		<ma>31
@@ -911,10 +954,12 @@ occupies.  He has the talent of making men bold and will use this
 talent no matter how he is bound.  Those affected by the talent add 10
 to their Willpower in the presence of lpos.
 
-<movement> (yards per minute): Run: 200; Fly: 400
 <weapons>Ipos bites for +2 damage in close combat.  He has a BC of
 45&percnt with his bite.  It is Rank 4.  Ipos will not wear armour.
 He weill carry any weapoons provided by the summer.
+
+<movement> (yards per minute): Run: 200; Fly: 400
+
 </details>
 
 <ps>24		<md>21		<ag>18		<ma>34
@@ -946,7 +991,6 @@ Individual True Names of all things of this plane.  He will gladly
 permit the summoner to acquire these names, but will provide them to
 no one else.
 
-<movement> Running: 500 yards per minute.
 <weapons> Orobas may bite for + 2 damage in Close Combat.  His BC for
 biting is 30&percnt and his bite is Rank 2.  He may use his hooves to
 strike in Melee Combat or to trample in Close Combat.  They have a BC
@@ -954,6 +998,9 @@ of 40&percnt in Melee and do + 3 damage.  In Close Combat they have a
 BC of 55&percnt and do + 6 damage.  They are Rank 6.  Orobas will wear
 the barding of a warhorse if the summoner provides it. He uses no
 weapons.
+
+<movement> Running: 500 yards per minute.
+
 </details>
 
 <ps>45		<md>20		<ag>20		<ma>30
@@ -984,10 +1031,11 @@ sometimes tell where the loot is hidden.  He can pass over the entire
 earth at the winking of an eye and can carry others with him.  He
 brings abundance of things in his wake.
 
-<movement> Runninz: 350 yards per minute.
 <weapons> Seir has no natural weapons. He is treated as a human for
 purposes of unarmed combat.  Seir will not wear armour or carry any
 weapons except a quarterstaff.
+
+<movement> Running: 350 yards per minute.
 </details>
 
 <ps>25		<md>22		<ag>26		<ma>29
@@ -1018,12 +1066,13 @@ Troubadour.  Sitfi has the power to inflame men and women with the
 love of each other and to cause them to show themselves naked and
 frolic with one another in unseemly ways.
 
-<movement> (yards per minute): Run: 350; Fly: 400.
-
 <weapons> Sitri may bite during Close Combat with a BC of 45&percnt
 and +2 damage.  His bite is Rank 4.  Sitri will wear armour if the
 summoner has it specially made for him and will use any weapons
 provided.
+
+<movement> (yards per minute): Run: 350; Fly: 400.
+
 </details>
 
 <ps>30		<md>25		<ag>26		<ma>33
@@ -1051,12 +1100,13 @@ the following Skills: Assassin, Beast Master, Navigator, Spy, Thief.
 He knows the magical powers and virtues of all herbs and stones and
 will speak the truth about these when requested to do so.
 
-<movement> Flying: 500 yards per minute.
-
 <weapons> Stolas has a BC of 50&percnt of doing D - 1 damage in Close
 Combat with his beak. It is Rank 4. He has a BC of 45&percnt of doing
 D + 3 damaze in Close Combat with his talons.  They are Rank 6.
 Stolas cannot wear armor or use weapons.
+
+<movement> Flying: 500 yards per minute.
+
 </details>
 
 <ps>14		<md>6		<ag>12		<ma>29
@@ -1081,11 +1131,12 @@ lost if he is within 100 feet of them.  He also knows all Generic and
 Individual True Names, but is reluctant to tell these names except to
 save the life of the summoner.
 
-<movement> Running: 150 yards per minute.
-
 <weapons> Vassago has no natual weapons.  He is treated as a human for
 purposes of unarmed combat.  Vassago cannot wear armour or use
 weapons.
+
+<movement> Running: 150 yards per minute.
+
 </details>
 
 <ps>12		<md>13		<ag>13		<ma>35
@@ -1122,9 +1173,11 @@ following Skills: Alchemist, Astrologer, Healer, Mechanician,
 Merchant, Navigator.  Avnas can locate any treasure that is guarded
 by spirits, ghosts or other undead and that is within 500 feet of him.
 
-<movement> Running: 350 yards per minute.
 <weapons> Avnas has no natural weapons. He is treated as a human for
 purposes of unarmed combat.  He may not wear armour or use weapons.
+
+<movement> Running: 350 yards per minute.
+
 </details>
 
 <ps>14		<md>26		<ag>21		<ma>38
@@ -1153,12 +1206,13 @@ Buer's touch can heal all hurts and diseases, especially those which
 have been caused by magic.  He is a great teacher of languages and
 will freely pass on his knowledge to others.
 
-<movement> Running: 500 yards per minute.
-
 <weapons> Buer uses weapons as a man. In addition, his hooves do + 4
 damage in Close Combat due to trampling.  The BC for use of hooves is
 60&percnt;. They are Rank 8. Buer may use any weapons, but may not wear
 armor.
+
+<movement> Running: 500 yards per minute.
+
 </details>
 
 <ps>38		<md>25		<ag>28		<ma>30
@@ -1185,12 +1239,13 @@ a great linguist and will willingly teach his summoner the languages
 of birds and mammals and also teach him to understand what has passed
 in a place by reading the speech of running waters.
 
-<movement>   Running:   400   yards   per    minute.
-
 <weapons> Camio has no natural weapons.  He is treated as a human for
 purposes of unarmed combat.  Camio will wear any armor provided by the
 summoner and will carry other weapons, but will not use them unless
 his sword is damaged.
+
+<movement> Running: 400 yards per minute.
+
 </details>
 
 <ps>18		<md>23		<ag>26		<ma>35
@@ -1217,11 +1272,12 @@ invisible.  He is a linguist and a teacher of language.  He also has
 the ability to discover things hidden (especially treasure) if he is
 within 50 feet of them.
 
-<movement> Running: 350 yards per minute.
-
 <weapons> Foras has no natural weapons. He is treated as a human for
 purposes of unarmed combat.  Foras will wear any armor provided by the
 summoner and will carry and use weapons.
+
+<movement> Running: 350 yards per minute.
+
 </details>
 
 <ps>33		<md>28		<ag>28		<ma>32
@@ -1255,10 +1311,12 @@ of Haagenti is the equivalent of two months learning from a human.
 The EP cost to achieve Rank with this skill is halved (round down)
 when taught by Haagenti.
 
-<movement> Running: 350 yards per minute.
 <weapons> Hagenti has no natural weapons.  He is treated as a human
 for purposes of unarmed combat.  Haagenti will wear armour and use
 weapons provided by the summoner.
+
+<movement> Running: 350 yards per minute.
+
 </details>
 
 <ps>40		<md>25		<ag>23		<ma>35
@@ -1288,11 +1346,13 @@ possessed with an hour at no EP cost, but demands as his reward a
 life.  If the offering is not pleasing to him, he will take the life
 of the summoner instead.  He prefers human lives to all others.
 
-<movement> Running: 350 yards per minute; Flying: 500 yards per minute.
 <weapons> Labolas may bite in Close Combat with a BC of 50%.  He
 does + 2 damage and his bite is Rank 8.  The bite of Labolas always
 becomes infected.  Labolas may never wear armour or carry or use
 weapons.
+
+<movement> Running: 350 yards per minute; Flying: 500 yards per minute.
+
 </details>
 
 <ps>18		<md>3		<ag>15		<ma>32
@@ -1323,10 +1383,11 @@ written language.  He knows the art of magically raising houses and
 high towers.  He also knows the secret desires of the summoner's
 enemies and will reveal those thoughts upon request.
 
-<movement> Running: 350 yards per minu[e.
 <weapons> Malphas has no natural weapons.  He is treated as a human
 for purposes of unarmed combat.  Malphas will refuse to wear
 armor. However, he will use any weapons provided by the summoner.
+
+<movement> Running: 350 yards per minu[e.
 
 </details>
 
@@ -1357,11 +1418,12 @@ merest touch.  He also may change the shape of men by his touch so
 that they become as wolves or bears. He has knowledge of many of the
 secrets of the universe.
 
-<movement> Running: 350 yards per minute.
-
 <weapons> Marbas has no natural weapons.  He is treated as a human for
 purposes of unarmed combat.  Marbas will wear any armor and use any
 weapons provided by the summoner.
+
+<movement> Running: 350 yards per minute.
+
 </details>
 
 <ps>26		<md>29		<ag>24		<ma>29
@@ -1391,10 +1453,12 @@ within 25 feet of him.  Volac can also call serpents and cause them to
 obey him once they have arrived. Volac knows and will tell the Generic
 True Names of all things.
 
-<movement> (yards per minute): Run: 250; Fly: 500.
 <weapons> Volac has no natural weapons. He is treated as a human for
 pur-poses of unarmed combat.  He may use weapons, but will not wear
 armor.
+
+<movement> (yards per minute): Run: 250; Fly: 500.
+
 </details>
 
 <ps>11		<md>18		<ag>17		<ma>36
@@ -1421,14 +1485,14 @@ touch into another form so that his victim does not know that he has
 been ensorcelled and believes himself always to have had the form
 given him by Voso. He knows many secrets.
 
-<movement> Running: 500 yards per minute.
-
-
 <weapons> Voso's bite does + 2 damage in Close Combat. It has a BC of
 45&percnt and is Rank 6. Voso may use his claws in either Melee or
 Close Combat.  They have a BC of 40&percnt in Melee and of 60&percnt
 in Close Combat and do + 4 damage. They are Rank 8. Voso will not use
 weapons or wear armour.
+
+<movement> Running: 500 yards per minute.
+
 </details>
 
 <ps>35		<md>4		<ag>32		<ma>35
@@ -1460,11 +1524,11 @@ Astrologer, Beast Master, Healer, Mechanician, Merchant, Navigator,
 Ranger, Spy.  He also has the ability to discover any hidden treasure
 within 200 feet of where he is standing.
 
-<movement> Running: 300 yards per minute.
-
 <weapons> Andromalius has no natural weapons.  He is treated as a
 human for purposes of unarmed combat.  He will refuse to wear armour,
 but will use any weapons provided by the summoner.
+
+<movement> Running: 300 yards per minute.
 
 </details>
 
@@ -1497,11 +1561,12 @@ to a month spent learning the art elsewhere and costs no EP's.
 Whenever he passes a place of the dead at night candles will appear
 lit on the graves.
 
-<movement> Running: 350 yards per minute.
-
 <weapons> Bifrons has no natural weapons.  He is treated as a human
 for purposes of unarmed combat.  Bifrons will wear any armour and use
 any weapons provided by the summoner.  He prefers envenomed weapons.
+
+<movement> Running: 350 yards per minute.
+
 </details>
 
 <ps>23		<md>26		<ag>28		<ma>32
@@ -1532,14 +1597,15 @@ make all but bitter sworn enemies friendly to each other while in his
 presence.  He also has the ability to tell what has transpired in any
 place he occupies and part of what will (may) transpire there.
 
-<movement> Running: 350 yards per minute.
-
 <weapons> Botis may do D + 1 damage with his bite in Close Combat with a
 BC of 35&percnt of hitting his target. His bite is Rank 4. He may make a
 single horn attack in Close Combat with a BC of 30&percnt of doing + 3
 damage.  His horns are Rank 6. The venom of his sword does 6 damage
 points per Pulse. He will wear any armour provided and employ other
 weapons if the summoner desires, but will prefer to use his sword.
+
+<movement> Running: 350 yards per minute.
+
 </details>
 
 <ps>27		<md>24		<ag>25		<ma>30
@@ -1566,11 +1632,13 @@ Ranger, Spy.  Furfur can raise thunder and lightnings and cause great
 storms to form.  He also is able to influence men and women to make
 love and participate in perversions by the sound of his voice.
 
-<movement> Running: 400 yards per minute.
 <weapons> Furfur may use his horns in Melee or Close Combat and his
 hooves in Close Combat.  His horns have a BC of 45&percnt and do + 4
 damage.  His hooves have a BC of 50&percnt and do + 3 damage.  They
 are both Rank 8.  Furfur will not use weapons or wear armour.
+
+<movement> Running: 400 yards per minute.
+
 </details>
 
 <ps>32		<md>4		<ag>28		<ma>31
@@ -1600,11 +1668,13 @@ Thief.  He is a great general and can build strong forts and organize
 warriors to march and to slaughter and can keep them supplied by his
 arts when then are in far places.
 
-<movement> (yards per minute): Run: 100; Fly: 500.
 <weapons> Malthus may attack with beak and talons in Close Combat. The
 BC to Strike with either is 40%.  His beak does + 1 damage and
 his talons do + 3.  both are Rank 5.  Malthus may never wear armour
 or use weapons.
+
+<movement> (yards per minute): Run: 100; Fly: 500.
+
 </details>
 
 <ps>25		<md>10		<ag>14		<ma>32
@@ -1631,13 +1701,14 @@ possesses the following Skills: Alchemist, Beast Master, Healer,
 Merchant. Navigator, Ranger. He is especially learned in the use of
 herbs and stones to produce magic.
 
-<movement> Runnings: 400 yards per minute.
-
 <weapons> Marax may charge in the same manner as a multi-hex character
 in combat.  His horns have a BC of 50&percnt of doing + 6 damage in Close
 Combat and are Rank 5.  His hooves have a BC of 50&percnt of doing + 5
 damage in Close Combat and are Rank 4. Marax will not use weapons or
 wear armour.
+
+<movement> Runnings: 400 yards per minute.
+
 </details>
 
 <ps>60		<md>3		<ag>20		<ma>29
@@ -1663,11 +1734,12 @@ the earth to quake and to make fall the walls of cities.  He can make
 all but the summoner's sworn enemies love him and be willing to lay
 down their lives in the service of the summoner.
 
-<movement> Running: 300 yards per minute.
-
 <weapons> Raum has no natural weapons.  He is treated as a human for
 purposes of unarmed combat.  Raum will wear any armour and use any
 weapons the summoner provides.
+
+<movement> Running: 300 yards per minute.
+
 </details>
 
 <ps>21		<md>28		<ag>26		<ma>29
@@ -1696,10 +1768,12 @@ deep knowledge of rhetoric and is a master of spoken and written
 tongues.  He has the ability to reconcile all but the bitterest of
 enemies and is a great teacher of the young.
 
-<movement> Running: 300 yards per minute.
 <weapons> Renove has no natural weapons.  He is treated as a human for
 purposes of unarmed combat.  Renove will wear any armour and use any
 weapons the summoner provides.
+
+<movement> Running: 300 yards per minute.
+
 </details>
 
 <ps>13		<md>26		<ag>28		<ma>35
@@ -1736,13 +1810,15 @@ accurately at what is to come in that place.  He also has the power to
 cause all but sworn enemies to look upon each other as true friends
 and to desire each other's company above others.
 
-<movement> Running: 400 yards per minute.
 <weapons> When in wolf form, Amon may use his claws to rend in Close
 Combat with a BC of 50&percnt and damage of + 2.  Amon's claws are
 Rank 8.  In both wolf and man-raven form, Amon may bite or peck in
 Close Combat with a BC of 45&percnt of doing + 3 damage.  Amon's bite
 is Rank 8.  Amon's fireballs are useable in Ranped or Melee Combat,
 have a BC of 40&percnt do + 6 damage, and are Rank 9.
+
+<movement> Running: 400 yards per minute.
+
 </details>
 
 <ps>26		<md>5/20	<ag>29/23	<ma>30
@@ -1772,11 +1848,13 @@ Spy, Thief.  His presence in a party will be an automatic cause of
 disruption and discord since he delights in such things and may not be
 made to cease encouraging bad feelings even when bound.
 
-<movement> Run: 350yard per minute; Fly: 450  yards per minute.
 <weapons> Andras possesses no as a human in unarmed combat.  Andras
 may wear specially manufactured armour and carry weapons provided by
 the summoner.  He will always use his sword, however, in preference
 to other weapons unless it is broken.
+
+<movement> Run: 350yard per minute; Fly: 450  yards per minute.
+
 </details>
 
 <ps>28		<md>30		<ag>29		<ma>30
@@ -1806,11 +1884,13 @@ abilities in counting and measuring fourfold.  Any Skill dependent
 upon such talents will also be increased thereby and subsequent
 increase in Rank will cost only half EP's (round down).
 
-<movement> Running: 350 yards per minute.
 <weapons> Andrealphus has no natural weapons.  He is treated as a
 human in unarmed combat.  Andrealphus may wear armour and use weapons
 provided by the summoner, but only if they are silvered or gilded.  He
 will not use any other kind of armour or weapons.
+
+<movement> Running: 350 yards per minute.
+
 </details>
 
 <ps>26		<md>25		<ag>25		<ma>30
@@ -1841,11 +1921,13 @@ great linguist.  He also has the ability to find things that have
 been lost or hidden (especially treasure) anywhere within 100 feet of
 him.
 
-<movement> Running: 350 yards per minute.
 <weapons> Cimejes has no natural weapons.  He is treated as a human in
 unarmed combat.  He will wear any armour and any weapons provided by
 the summoner, but will first insist that anr armour be lacquered black
 to match his skin.
+
+<movement> Running: 350 yards per minute.
+
 </details>
 
 <ps>26		<md>24		<ag>24		<ma>29
@@ -1875,10 +1957,12 @@ Generic and Individual True Names in the same manner as a Namer,
 despite the fact that he is not a member of the College of Naming
 Incantations.
 
-<movement> Running: 350yards per minute.
 <weapons> Decarabia has no natural weapons.  He is treated as a human
 in unarmed combat.  He will wear any armour and use any weapons
 provided by the summoner.
+
+<movement> Running: 350 yards per minute.
+
 </details>
 
 <ps>24		<md>25		<ag>25		<ma>31
@@ -1903,13 +1987,15 @@ and Navigator. He also is a great linguist and may make men knowing in
 tongues.  An hour spent in his company in the learning of a language
 is equal to two menths of learning from any non-demonic teacher.
 
-<movement> Swimming: 600 yards per minute.
 <weapons> Forneus may roll over one hex characters, using his entire
 body as a weapon (but with no chance of falling) as described in the
 multi-hex character rules.  In addition, his bite may be used in Melee
 or Close Combat to do 2D + 5 damage (total possible damage of 25) with
 a BC of 50&percnt and a Rank of 10. Forneus may not wear armour. Since
 he has no gripping members, he may not use weapons.
+
+<movement> Swimming: 600 yards per minute.
+
 </details>
 
 <ps>150		<md>None	<ag>28		<ma>38
@@ -1933,18 +2019,20 @@ carnling a great bow and quiver.
 
 <talents> Leraje is a member of the College of Earth Magics.  He
 possesses the foliowing skills: Alchemist, Assassin, Beast Master,
-Miliiarv Scientist, NaN,igator, Ranger, Spy, Thief and Troubador,
-Hewlso possesses the power to make wounds that have been inflicted bN,
-arrows or quarrels putrify.  Add 60 to the Infection Chance \% henever
-Leraje or anyone assisted by him inflicts damage 'with arro\"s.
+Miliiarv Scientist, Navigator, Ranger, Spy, Thief and Troubador, He
+also possesses the power to make wounds that have been inflicted by
+arrows or quarrels putrify.  Add 60 to the Infection Chance \%
+whenever Leraje or anyone assisted by him inflicts damage with arrows.
 
-<movement> Running: 350 yards per minute.
 <weapons> Leraje possesses no natural weapons.  He is treated as
 manlike in that respect.  However, the Greatbow he carries may only
 be pulled by him.  It has a Range of 450 hexes (2250 feet) and a BC
 of 75%. It does + 6 damage.  He will not wear armor, but may carry
 other weapons.  Leraje will always use his bow in preference to all
 other weapons, however.
+
+<movement> Running: 350 yards per minute.
+
 </details>
 
 <ps>28		<md>30		<ag>27		<ma>28
@@ -1973,13 +2061,15 @@ man, but will be insubstantial and powerless in this form.
 possesses the following skills: Beast Master, Military Scientist and
 Ranger.
 
-<movement> (yards per minute): Run: 400; Fly: 300.
 <weapons> Marchosias may charge in the same manner as a multi-hex
 character in combat.  His horns have a BC of 40&percnt of doing + 4
 damage and are Rank 10.  His hooves have a BC of 45&percnt of doing +
 5 damage in Close Combat.  Marchosias breath has a BC of 70&percnt in
 Melee Combat, but may not be used in Close Combat. It does + 10 damage
 and is Rank 3.
+
+<movement> (yards per minute): Run: 400; Fly: 300.
+
 </details>
 
 <ps>65		<md>5		<ag>18		<ma>28
@@ -2010,11 +2100,13 @@ compan), learning a skill is equal to two weeks attempting to learn
 the skill with non-demonic aid and allows the student to progress at
 half the normal EP cost.
 
-<movement> (yards per minute): Run: 250; Fly: 350.
 <weapons> Naberius beak docs + 3 damaze in either Melee or Close
 Combatwith a 50% BC. It is Rank 8. Naberius claws may be used to grip
 weapons. In addition, they have a BC of 45&percnt of doing + 1 damage in
 Close Combat. They are Rank 6. Naberius may not wear armour.
+
+<movement> (yards per minute): Run: 250; Fly: 350.
+
 </details>
 
 <ps>20		<md>16		<ag>18		<ma>36
@@ -2043,11 +2135,13 @@ reconcile all but the most bitter enemies and any summoner who finds
 his favour will be subject to assistance in acquiring honors and
 dignities.
 
-<movement> Running: 500 yards per minute.
 <weapons> The demon's claws do +4 damage in Melee and Close Combat and
 have a BC of 40%. They are Rank 6. The demon's bite does + 3 damape in
 Close Combat and has a BC of 45%. It is Rank 4. Orias may not use
 weapons or wear armour.
+
+<movement> Running: 500 yards per minute.
+
 </details>
 
 <ps>35		<md>9		<ag>30		<ma>30
@@ -2072,11 +2166,13 @@ songs of Phenex will hypnotise his victims (including (he summoner)
 who will then willingly enter the demon's mouth to be devoured. Care
 must always be taken when dealing with him.
 
-<movement> (yards per minute): Run: 200; Fly: 400.
 <weapons> The demon's beak does + 6 damage in Melee or Close Combat
 and has a BC of 60%.  It is Rank 5.  The demon's claws do + 4 damage in
 Melee or Close Combat, have a BC of 35&percnt and are Rank 3. Phenex
 may not wear armour or use weapons.
+
+<movement> (yards per minute): Run: 200; Fly: 400.
+
 </details>
 
 <ps>75		<md>16		<ag>18		<ma>30
@@ -2102,13 +2198,15 @@ Mechanician, Merchant, Military Scientist, Navigator, Troubador.  He
 has the power to converse with the dead to give an account of all
 beings who have died except for servant of the Forces of Liehi.
 
-<movement> Running: 350 yards per minute.
 <weapons> When in the form of an ass, Samigina may bite in Close
 Combat with a BC of 50&percnt of doing + 2 with a Rank of 10.  He may
 also trample with his hooves in Close Combat with a BC of 50% or
 use his hooves in Melee Combat with a BC of 40%.  His hooves are Rank
 10 and do + 4 damage.  Samigina will never agree to use weapons or
 wear armour.
+
+<movement> Running: 350 yards per minute.
+
 </details>
 
 <ps>25/23	<md>5/20	<ag>20/25	<ma>30
@@ -2135,11 +2233,13 @@ castles, and cities from out of earth and stone and to shape for them
 furniture and armour. Any wounds he inflicts will automatically become
 infected and will not be cured except by magic.
 
-<movement> Running: 350 yards per minute.
 <weapons> Savnok's bite inflicts + 4 damage in Close Combat and has a
 BC of 50%. It is Rank 4.  Savnok may appear wearing any type of
 armour.  He prefers axes, spears, and daggers, but will use other
 weapons if the summoner provides them.
+
+<movement> Running: 350 yards per minute.
+
 </details>
 
 <ps>28		<md>30		<ag>29		<ma>30
@@ -2166,11 +2266,13 @@ comprehend the spoken word if the summoner so desires.  He is an
 accomplished thief and a hoarder of useful things (especially fine
 horses) which he keeps in his dimension.
 
-<movement> (yards per minute): Run: 150; Fly: 450.
 <weapons> Shaz's beak does + 2 damage in Melee or Close Combat, has a
 BC of 50&percnt, and is Rank 8.  His talons do + 1 damage and have a
 BC of 40%.  They are Rank 5 and may be used in Melee or Close
 Combat. Shaz may not use weapons or wear armour.
+
+<movement> (yards per minute): Run: 150; Fly: 450.
+
 </details>
 
 <ps>23		<md>18		<ag>26		<ma>30
@@ -2208,14 +2310,14 @@ Asmoday has the power to locate any treasure hidden within 50 feet of
 him.  He also has the power to turn those who see him into beasts for
 short periods if they so desire.
 
-<movement> Running: 350 yards per minute.
-
 <weapons> Asmoday may make two horn attacks in Close Combat in
 addition to any other attacks.  Each has a BC of 35% and does D + 2
 damage.  They are both Rank 10.  In addition, Asmoday's breath of fire
 has a BC of 50% in Melee and of 80% in Close Combat and does D + 4
 damage.  It is Rank 5.  He may not wear armour, but will accept other
 weapons for use in addition to his spear if they are gilded.
+
+<movement> Running: 350 yards per minute.
 
 </details>
 
@@ -2244,12 +2346,14 @@ toad-headed man-cat.  He may adopt a new form at will.
 Enchantments.  He has the power to make himself totally invisible at
 will.
 
-<movement> Running: 300 yards PeT minute.
 <weapons> Bite has a BC of 40&percnt, does D + 1 damage, and is always
 Rank 10.  Claw's have a BC of 45%, do D + 2 damage, and are always
 Rank 10.  Bite may only be used in Close Combat.  Claws may be used in
 either Melee or Close Combat.  Bael will not wear armour, but use
 gilded weapons if the summoner provides them.
+
+<movement> Running: 300 yards PeT minute.
+
 </details>
 
 <ps>25		<md>23		<ag>25		<ma>30
@@ -2277,13 +2381,16 @@ Balam counts as one month of training in the Troubadour Skill and no
 EP's are expended to advance in this skill as a result of his
 teaching.
 
-<movement> Running: 300 yards per minute.
 <weapons> Balam will make two horn attacks in Close Combat in addition
 to other attacks.  Each has a BC of 30% and does D + 2 damage.  They
 are both Rank 10.  Balam will refuse to wear armour, but will accept
 and use gilded weapons if the summoner provides them.  He will not
 always return these weapons.
+
+<movement> Running: 300 yards per minute.
+
 </details>
+
 <ps>25		<md>23		<ag>21		<ma>34
 <en>22		<ft>32		<wp>30		<pc>30
 <pb>3		<tmr>6		<na>3 DP
@@ -2306,12 +2413,14 @@ addition, he is possessed of the talent of causing any individuals of
 the summoner's choice (not necessarily humanoids) to submit to the
 sexual desires of the summoner until he (the summoner) is sated.
 
-<movement> Running: 300 yards per minute.
 <weapons> Beleth's breath has a BC of 50% in Melee Combat and 80% in
 Close Combat and does D + 4 damage.  It is Rank 3.  Beleth will wear
 silver or gilded armour (he much prefers the latter) if provided by
 the summoner and will use gilded weapons.  He will claim these as
 gifts before departing this plane.
+
+<movement> Running: 300 yards per minute.
+
 </details>
 
 <ps>22		<md>23		<ag>22		<ma>29
@@ -2333,11 +2442,13 @@ the following Skills: Merchant, Beast Master.  He will cause all but
 sworn enemies of the summoner to look upon the summoner as their true
 friend as described in E &amp; E Charm.
 
-<movement> (yards per minute): Run: 300; Fly: 400
 <weapons> Belial has no natural weapons.  Belial will demand gifts of
 gilded armour and weapons before he can be bound to service. He will
 never return these to the summoner. He is treated as a human for
 purposes of unarmed combat.
+
+<movement> (yards per minute): Run: 300; Fly: 400
+
 </details>
 
 <ps>28		<md>30		<ag>23		<ma>31
@@ -2368,10 +2479,12 @@ at first, but he can be compelled to speak understandably as a man.
 include: Alchemist, Astrologer, Beast Master, Healer, Mechanician,
 Merchant, Military Scientist, Navigator, Ranger, Troubadour.
 
-<movement> Running: 300 yards per minute.
 <weapons> Palmon has no natural weapons.  He is treated as a human
 for purposes of unarmed combat.  He wiil use weapons and armour that
 are gilded if these are provided by the summoner.
+
+<movement> Running: 300 yards per minute.
+
 </details>
 
 <ps>22		<md>24		<ag>24		<ma>34
@@ -2402,10 +2515,12 @@ chance of knowing the Individual True Name of any beinp he encounters.
 He possesses the following Skills: Alchemist, Astrologer, Healer,
 Mechanician, Merchant, Military Scientist, Navigator.
 
-<movement> (yards per minute): Run: 300; Fly: 500.
 <weapons> Purson's bite has a BC of 40% of doing + 2 damage in Close
 Combat and is Rank 6-8.  Purson will wear gilded armour and use
 gilded weapons if they are provided by the summoner.
+
+<movement> (yards per minute): Run: 300; Fly: 500.
+
 </details>
 
 <ps>21		<md>23		<ag>23		<ma>33
@@ -2428,10 +2543,12 @@ Scientist, Navigator, Mechanician. Vine has the ability to control
 weather, create earthquakes, detect the presence of magic, and
 transport and bind stone into magical dwellings.
 
-<movement> Running: 300yardsper minute.
 <weapons> Vine's bite has a BC of 40% of doing + 3 damage in Close
 Combat and is always Rank 10. Vine will wear gilded armour and use
 gilded weapons if these are provided by the summoner.
+
+<movement> Running: 300yards per minute.
+
 </details>
 
 <ps>23		<md>25		<ag>25		<ma>35
@@ -2456,19 +2573,20 @@ to 3 weeks experience in learning the Troubadour Skill.  Progress in
 this Skill costs only half the normal EP cost if the summoner is taught
 by Zagan. He makes fools wise (see Comments).
 
-<movement> (yards per minute): Run: 400; Fly: 300.
 <weapons> Zagan may charge in the same manner as a multi-hex
 character in combat. His horns have a BC of 40&percnt of doing D + 4
 damage and are Ranked at 10.  His hooves have a BC of 45&percnt of doing
 D + 5 damage in Close Combat and are Ranked 8.  Horns may be used in
 Melee or Close Combat.  Zagan wail agree to wear gilded armour while
 in his human form and will employ gilded weapons in that form.
+
+<movement> (yards per minute): Run: 400; Fly: 300.
+
 </details>
 
 <ps>65/30	<md>5/25	<ag>20/23	<ma>30
 <en>35		<ft>40		<wp>28		<pc>25
 <pb>6		<tmr>8/6	<na>6 DP
-
 
 <comments> Any character in the presence of Zagan may have his
 Willpower and Magical Aptitude increased by 10 and his Perception

@@ -46,7 +46,7 @@
 <!entity yacute sdata "\'{y}" >
 <!entity yuml sdata '\"{y}' >
 <!entity lt sdata "{$<$}" >
-<!entity amp sdata "\&" >
+<!entity amp cdata "\&" >
 <!entity ero sdata "&" >
 <!entity etago sdata "</" >
 <!entity dquot sdata '{\tt "}' >
@@ -103,4 +103,3 @@
 <!entity tm sdata "$ ^{\rm{TM}}$" >
 <!entity urlnam sdata "">
 <!entity refnam sdata "">
-<!entity percnt sdata "\%">

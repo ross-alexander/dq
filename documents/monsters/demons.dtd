@@ -22,7 +22,7 @@
 <!element demon - - ((details, stats, comments?)|(comments))>
 <!attlist demon name cdata #required
 		title cdata #required >
-<!element details o - (bc, lesser, description, talents, movement, weapons)>
+<!element details o - (bc, lesser, description, talents, weapons, movement)>
 <!element cdesc o o (comments)> 
 <!element itemize - - (item+)>
 <!element item - o (#pcdata)>
@@ -34,7 +34,7 @@
 <!element weapons - o (%inline) >
 <!element comments - o (%inline) >
 <!element stats o o
-	((PS & MD & AG), MA, (EN & FT & WP), PC, (PB & TMR), NA) >
+	(PS, MD, AG , MA, (EN & FT & WP), PC, (PB & TMR), NA) >
 <!element PS - o (#PCDATA) >
 <!element MD - o (#PCDATA) >
 <!element AG - o (#PCDATA) >

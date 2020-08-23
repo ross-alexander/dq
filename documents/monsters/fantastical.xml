@@ -1,4 +1,10 @@
 <?xml version="1.0"?>
+<!DOCTYPE dqmm [
+<!ENTITY % external-entities SYSTEM "./extEntities.dtf">
+%external-entities;
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+%internal-entities;
+]>
 <dqmm><group name="Fantastical monsters"><notes>Fantastical Masters include a number of beings of legend, not often
 seen by humans and related species.  They tend to make their homes in
 inaccessable areas where few men go.  These species include: centaurs,
@@ -11,7 +17,7 @@ to the hips, but they join the body of a horse where the neck would
 normally be. Their lower half has hide, just as a horse's, while their
 top half is that of a normal man.
 </description><talents> Centaurs can have all the abilities and skills of a human.
-Centaurs in general are good with bows and at hunting, and have an
+Centaurs in general are good with bows and at hunting, and have an&null;
 affinity for healing and the art of prophecy.
 </talents><weapons> Centaurs use weapons as do men. They will usually have Rank
 in one or more of their weapons.
@@ -32,13 +38,13 @@ Melee combat. The range of the cone of breath is 50 feet and at the
 base the cone is 20 feet in diameter. All within the cone suffer [D +
 15] damage. A chimera must execute a Fire action to breath in this
 fashion. In Melee Combat and Close Combat, the chimera has a bite like
-that of a huge lion (Base Chance of 75% + 8 damage).
+that of a huge lion (Base Chance of 75&percnt; + 8 damage).
 </weapons><movement>  Running: 500
 </movement></details><stats><ps> 28-32</ps><md> 25-28</md><ag> 15-20</ag><ma> None</ma><en> 20-22</en><ft> 30-34</ft><wp> 14-19</wp><pc> 13-20</pc><pb> 3-7</pb><tmr> 10</tmr><na> Hide absorbs 8 DP
 </na></stats><comments> Chimaera thrive on ruin, and the area surrounding one of
 their lairs will be a burned wasteland. In the area surrounding the
 lair, or occasionally in the lair itself, there may be victims with
-some treasure (25%, 1-6 bodies with 100-600 Silver Pennies, 25% each
+some treasure (25&percnt;, 1-6 bodies with 100-600 Silver Pennies, 25&percnt; each
 has something else of value), but otherwise chimaera do not hoard
 wealth as do dragons.
 </comments></monster><monster name="Giant amoeba"><details><habitat> Caverns, Ruins</habitat><frequency> Uncommon</frequency><number>   1-6 (1)
@@ -75,14 +81,14 @@ turning those that look directly into their eyes to stone. Any
 character facing a gorgon must roll four times Willpower or less each
 pulse that they face the beast or they succumb to her blandishments,
 looks into her eyes and is turned to stone.</talents><weapons> In addition to her eyes, the Gorgon may Melee Attack with
-claws (Base Chance of 50%, + 4 damage, Rank of 1-5) or Close Combat
-using claws, teeth and hair (Base Chance of 30%, [D + 0] damage, but
+claws (Base Chance of 50&percnt;, + 4 damage, Rank of 1-5) or Close Combat
+using claws, teeth and hair (Base Chance of 30&percnt;, [D + 0] damage, but
 possible poisoning as from an asp bite and no Rank). Gorgons may
 attack using hair, teeth and claws in the same pulse. The gorgon may
 attempt to turn a character to stone any time.
 
 </weapons><movement> Running: 250
-</movement></details><stats><ps> 10-13</ps><ag> 10-14</ag><md> 12-15  </md><ma> 15-18</ma><en> 10-14   </en><ft> 15-19</ft><wp> 16-20</wp><pc> 16-18</pc><tmr> 5</tmr><pb> Always 0</pb><na> None</na></stats><comments> The gorgon's eyes only become visible at a range of 100
+</movement></details><stats><ps> 10-13</ps><md> 12-15  </md><ag> 10-14</ag><ma> 15-18</ma><en> 10-14   </en><ft> 15-19</ft><wp> 16-20</wp><pc> 16-18</pc><pb> Always 0</pb><tmr> 5</tmr><na> None</na></stats><comments> The gorgon's eyes only become visible at a range of 100
 feet and she cannot turn a character to stone beyond that range. The
 attempt to turn a character to stone is automatic whenever a character
 faces the gorgon's front and requires no action.
@@ -97,7 +103,7 @@ abilities other than the ability to launch their tail spikes.
 they were heavy crossbows. They are able to launch up to 6 of the
 spikes at any one time as long as the spikes are all aimed at spots
 within 6 feet of each other. In Melee Combat, the manticore can attack
-with its two claws (Base Chance of 60%, [D + 5] damage). Once their
+with its two claws (Base Chance of 60&percnt;, [D + 5] damage). Once their
 tail spikes are exhausted (they regenerate in about a day) manticores
 try to enter Close Combat as soon as possible, where they can use
 their claws.
@@ -106,19 +112,19 @@ their claws.
 </na></stats><comments> Manticores like to hunt, and their favorite prey is
 man. They will lie in wait for a party, and then send their spikes
 whirling into it. If the manticores lair is found, there is a chance
-(30%) that it will have dragged bodies with treasure on them into its
+(30&percnt;) that it will have dragged bodies with treasure on them into its
 cave.
 </comments></monster><monster name="Minotaur"><details><habitat> Caverns, Woods, Rough.</habitat><frequency> Very Rare</frequency><number> 1-6 (1)
 </number><description> Minotaurs are humanoid, with the head of a bull and a
 very hairy hide. They have a tail, just like that of a bull.
 </description><talents> The minotaur has no special magical abilities or
 talents. They are tool users and will sometimes use simple weapons.</talents><weapons>  A minotaur can attack by butting with his horns,
-biting, or attacking A,ith a weapon. Butt: Base Chance of 40%,
-[D + 3] damage. Bite: Base Chance of 30%, [D - 1] damage. A
+biting, or attacking A,ith a weapon. Butt: Base Chance of 40&percnt;,
+[D + 3] damage. Bite: Base Chance of 30&percnt;, [D - 1] damage. A
 minotaur will hold Rank 1-5 with whatever weapon it uses. The
 minotaur can use any combination of two of these attacks in
 any one pulse A,ithout penalty. in Close Combat the minotaur
-can use only his bite, but the Base Chance goes up to 50%.
+can use only his bite, but the Base Chance goes up to 50&percnt;.
 
 </weapons><movement>  Running: 300
 </movement></details><stats><ps> 22-26</ps><md> 18-20</md><ag> 14-17</ag><ma> None</ma><en> 14-16</en><ft> 22-25  </ft><wp> 14-16</wp><pc> 18-20</pc><pb> 4-7</pb><tmr> 6</tmr><na> Hide absorbs 6 DP</na></stats><comments>  Minotaurs are particularly vicious, and will attack
@@ -129,17 +135,17 @@ the dark, and will only rarely be found in the open after sunup.
 the body of a serpent below. Male nagas have the upper half Of
 a man, while nagians (female nagas) have the upper half of a
 woman. Both types will usually be 10-12 feet long.
-</description><talents> Nagas are frequently (85%) members of one of the Colleges of
+</description><talents> Nagas are frequently (85&percnt;) members of one of the Colleges of
 Thaumaturgies. If a naga is a magic-user, it will have Rank 2-8 with
 each of the General Knowledge spells, talents, and rituals, and will
 have Rank 1-5 with those Special Knowledge spells and rituals that
 they know (Usually 5-10 will be known). Nagas can also read the minds
 of any that they can see, understanding both the thoughts and
-intentions of the subject. This talent cannot be resisted.</talents><weapons> Naga will use ordinary edged weapons 50% of the time, and if
+intentions of the subject. This talent cannot be resisted.</talents><weapons> Naga will use ordinary edged weapons 50&percnt; of the time, and if
 they do use a weapon, they will have Rank 4-6 with it. If they do not
 use a weapon, they can attack with a bite or a constriction
-attack. The bite has a Base Chance of 55% and does [D + 4] damage,
-while the constriction has a Base Chance of 40% and does [D + 8]
+attack. The bite has a Base Chance of 55&percnt; and does [D + 4] damage,
+while the constriction has a Base Chance of 40&percnt; and does [D + 8]
 damage. The bite can be used in either Close or Melee Combat, while
 the constriction can only be used in Close Combat. If a nagas bite
 penetrates an enemy's armor (i.e. does damage to the character's
@@ -147,7 +153,7 @@ Fatigue or Endurance), then the victim takes 2 additional DP per Pulse
 for D10 Pulses because of the nagas poison. Only an antidote
 specifically designed for naga venom will neutralize this poison. A
 naga can also spit this poison up to a range of 40 feet. The spittle
-has a Base Chance of 30% (modified for range as an ordinary hurled
+has a Base Chance of 30&percnt; (modified for range as an ordinary hurled
 weapon) and does [D + 4] damage.
 </weapons><movement>  Swimming: 400; Crawling: 300
 </movement></details><stats><ps> 20-25</ps><md> 17-21</md><ag> 12-16</ag><ma> 16-20</ma><en> 25-32</en><ft> 20-25  </ft><wp> 20-24</wp><pc> 19-23</pc><pb> 13-17</pb><tmr> 8/6</tmr><na> Scales absorb 5 DP
@@ -170,11 +176,11 @@ spells at Rank 3-6. In addition, a sphinx will know D10 counterspells
 from other Colleges. Sphinxes also have excellent senses of smell.
 They will be able track as if they had Rank 8 in the Ranger ability,
 and they will be able to detect the presence of hidden or invisible
-characters 75% of the time.
+characters 75&percnt; of the time.
 </talents><weapons> A sphinx can attack three times (once with a bite, and twice
 with its claws) in the same Pulse without penalty. The bite has a Base
-Chance of 75% and does [D + 8] damage. The claws have a Base
-Chance of 60% and do [D + 4] damage.
+Chance of 75&percnt; and does [D + 8] damage. The claws have a Base
+Chance of 60&percnt; and do [D + 4] damage.
 
 </weapons><movement>  Running: 500; Flying: 600
 </movement></details><stats><ps> 30-35</ps><md> 22-24</md><ag> 17-19</ag><ma> 12-22</ma><en> 40-50</en><ft> 60-75</ft><wp> 20-23</wp><pc> 17-19</pc><pb> 4-6</pb><tmr> 10/12</tmr><na> Hide absorbs 6 DP</na></stats><comments> Sphinxes are proverbial riddle-lovers. They love to learn
@@ -184,7 +190,7 @@ a riddle, it will state what will happen to a character who does not
 answer the riddle successfully, and what reward (usually just free
 passage) will be given to those who do.  A sphinx will always try to
 keep its word as to what it will do if the riddle is answered,
-although there is a 2% chance that it will simply kill itself if the
+although there is a 2&percnt; chance that it will simply kill itself if the
 riddle is answered correctly.
 </comments></monster><monster name="Unicorn"><details><habitat> Woods, Plains</habitat><frequency> Rare</frequency><number> 1-8 (2)
 </number><description> Unicorns are white equines with a single, long horn
@@ -196,11 +202,11 @@ trap as they are very intelligent and wary. They have 5 times the
 strength of an average human. They are unable to cast spells in the
 usual sense.
 </talents><weapons> In Melee Combat, a unicorn uses its horn (Base Chance of
-60%, [D + 7] damage). In Close Combat, it can attack with its hooves
+60&percnt;, [D + 7] damage). In Close Combat, it can attack with its hooves
 as a Warhorse.
 </weapons><movement> Running: 600
 </movement></details><stats><ps> 55-60</ps><md> None</md><ag> 16-19</ag><ma> None</ma><en> 25-30</en><ft> 50-60</ft><wp> 20-25</wp><pc> 25-30</pc><pb> 18-20</pb><tmr> 12</tmr><na> Hide absorbs 4 DP
 </na></stats><comments> Unicorns are virtually untameable by ordinary men, but a
-unicorn can occasionally be tamed by a virgin (40%) as unicorns love
+unicorn can occasionally be tamed by a virgin (40&percnt;) as unicorns love
 purity and innocence.
 </comments></monster></group></dqmm>

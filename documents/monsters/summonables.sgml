@@ -181,10 +181,10 @@ insubstantial forms. The imp cannot use his powers in this plane
 except in his natural and substantial form.
 
 <talents>
-Imps may be members of any Colleges
-of Magic except the Entities as determined by the GM.  Imps can only
-be harmed by silvered weapons or magic. Cold iron does not affect
-them.  They have no skills.  They have Rank 5 with all magic.
+Imps may be members of any Colleges of Magic except the Entities as
+determined by the GM.  Imps can only be harmed by silvered weapons or
+magic. Cold iron does not affect them.  They have no skills.  They
+have Rank 5 with all magic.
 
 <weapons>
 Imps may make a horn attack during Close Combat with a Base Chance of
@@ -264,13 +264,12 @@ use weapons (unranked), but will never wear armour.
 <en>12--16	<ft>17--21	<wp>11--15	<pc>10--14
 <pb>4--6	<tmr>4/8	<na>2 DP
 
-<comments>Upon
-making a Lesser Pact with a Demon, that Demon assigns a familiar to
-the adept.  This familiar is a Half-Devil.  The GM should randomly
-roll the values of the above stats and then roll on the following
-table for the college. 
+<comments>Upon making a Lesser Pact with a Demon, that Demon assigns a
+familiar to the adept.  This familiar is a Half-Devil.  The GM should
+randomly roll the values of the above stats and then roll on the
+following table for the college.
 
-1 E &amp E
+1 E &amp; E
 2 Mind
 3 Illusion
 4 Namer
@@ -352,7 +351,7 @@ own plane.
 
 </monster>
 
-<monster name="Succubi &amp Incubi">
+<monster name="Succubi &amp; Incubi">
 
 <details><habitat>Seventh Plane
 <frequency>Very Rare
@@ -382,7 +381,6 @@ They never inflict specific Grievous Injuries, but may do Endurance
 damage.  Their bite may be Rank 1--10 (roll D10 to determine its exact
 Rank).  Succubi do not wear armour and carry only small weapons that
 are easily concealed.  They prefer envenomed weapons to all others.
-
 
 <movement>Running 350 yards per minute; Flying 400 yards per minute
 

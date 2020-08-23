@@ -30,49 +30,13 @@
 \RequirePackage{ifthen}
 \RequirePackage[margin=10mm,top=20mm,bottom=15mm]{geometry}
 
-% \renewcommand{\encodingdefault}{T1}
-
-\DeclareOption{libertine}{
-  \newfontfamily\fslibertine[NFSSFamily=libertine]{Linux Libertine O}
-  \newfontfamily\fslibertinemono[NFSSFamily=libertinemono]{Linux Libertine Mono O}
-  \newfontfamily\fsbiolinum[NFSSFamily=biolinum]{Linux Biolinum O}
-
-  \renewcommand{\rmdefault}{libertine}
-  \renewcommand{\sfdefault}{biolinum}
-  \renewcommand{\ttdefault}{libertinemono}
-}
-
-\DeclareOption{times}{
-  \renewcommand{\rmdefault}{ptm}
-  \renewcommand{\sfdefault}{phv}
-  \renewcommand{\ttdefault}{pcr}
-}
-
-
 \ProcessOptions
 
 \ifxetex
-%%  \setmainfont{Raleway}
-%%  \setsansfont{TeX Gyre Heros}[Scale=MatchLowercase]
-%%  \setmonofont{Inconsolata}[Scale=MatchLowercase]
-
   \newfontfamily{\headingfont}{TeX Gyre Schola}
   \newfontfamily{\adventurefont}[Scale=2.4]{KellsFLF}
   \newfontfamily{\rankingsf}[Scale=0.9,Color=blue]{Raleway}
-  \newfontfamily{\rankingtt}[Scale=0.9,Color=red]{Courier Prime}
-
-%%  \newfontfamily{\myfamily}[NFSSFamily=kells]{KellsFLF}
-  
-%%  \renewcommand{\normalsize}{\fontfamily{kells}\fontsize{6pt}{10pt}\selectfont}
-%%  \renewcommand{\large}{\fontsize{10pt}{12pt}\selectfont}
-%%  \renewcommand{\Large}{\fontfamily{kells}\fontsize{16pt}{20pt}\selectfont}
-%%  \renewcommand{\huge}{\fontfamily{kells}\fontsize{16pt}{20pt}\selectfont}
-\else
-%%  \renewcommand{\small}{\fontfamily{\rmdefault}\fontsize{7}{8pt}\selectfont}
-%%  \renewcommand{\normalsize}{\fontfamily{\rmdefault}\fontsize{8}{9pt}\selectfont}
-%%  \renewcommand{\large}{\fontfamily{\rmdefault}\fontsize{9}{11pt}\selectfont}
-%%  \renewcommand{\Large}{\fontfamily{\sfdefault}\fontsize{14}{15pt}\selectfont}
-%%  \renewcommand{\huge}{\fontfamily{\sfdefault}\fontsize{18}{20pt}\selectfont}
+  \newfontfamily{\rankingtt}[Scale=0.9,Color=blue]{Courier Prime}
 \fi
 
 %%% GLOBAL LAYOUT THINGS
@@ -104,10 +68,18 @@
 	{\reset@font\headingfont\bfseries}}%
 
 
+\newenvironment{frontcover}[0]
+{
+  \rankingsf
+}
+{
+  \newpage
+}
+
 \newenvironment{adventure}[3]{
   \def\@tempa{#3}
   \def\@tempb{}
-  \newpage
+  \pagestyle{fancy}
   \section{#1}
   \ifx\@tempa\@tempb
       \subsection{Date of Adventure}#2
@@ -116,6 +88,7 @@
   \fi
 }
 {
+  \newpage
 }
 
 \newcommand{\GTN}{\textsc{gtn}}
@@ -219,8 +192,9 @@ Experience remaning		& \texttt{\textbf{#4}}
 \newcommand{\hand}[1]{\def\dq@hand{#1}}
 
 \newcommand{\chardesc}{
-\begin{center}
-\begin{tabular}{rl}
+  \pagestyle{empty}
+  \begin{center}
+    \begin{tabular}{rl}
 Name		& \emph{\dq@fullname} \\
 Race		& \emph{\dq@race} \\
 Date of birth	& \emph{\dq@dateofbirth} \\
@@ -228,20 +202,16 @@ Aspect		& \emph{\dq@aspect} \\
 Status		& \emph{\dq@status} \\
 Birth		& \emph{\dq@birth} \\
 College		& \emph{\dq@college} \\
-\end{tabular}
+    \end{tabular}
 \end{center}}
 
 \lhead{\fancyplain{}{\scshape\fontsize{8}{9pt}\selectfont\dq@charname}}
 \rhead{\fancyplain{}{\slshape\fontsize{8}{9pt}\selectfont\rightmark}}
 \cfoot{}
-\pagestyle{fancy}
 
 \renewcommand\headrulewidth{0.4pt}
 
 \renewcommand{\sectionmark}[1]{\markboth{#1}{#1}}
 \renewcommand{\subsectionmark}[1]{}
-
-\title{\fullname}
-\author{}
 
 \newcommand{\sref}[2]{}

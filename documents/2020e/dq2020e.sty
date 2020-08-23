@@ -8,16 +8,20 @@
 \ProvidesPackage{dq2020e}[2020/04/13 v1.1 DQ style file]
 
 \RequirePackage{ifpdf}
-\RequirePackage{ifthen}
 \RequirePackage{ifxetex}
+\RequirePackage{ifluatex}
+\RequirePackage{ifthen}
 \RequirePackage{multicol}
 \RequirePackage{tabularx}
+\RequirePackage{booktabs}
 \RequirePackage{array}
 \RequirePackage{fancyhdr}
 \RequirePackage{textcomp}
 \RequirePackage{float}
 \RequirePackage[top=20mm,left=10mm,right=10mm,bottom=10mm]{geometry}
+\RequirePackage{xcolor}
 \RequirePackage{hyperref}
+\RequirePackage{setspace}
 
 \hypersetup{colorlinks=true,allcolors=blue,
    bookmarksnumbered=true,     
@@ -30,16 +34,20 @@
 \ifxetex
   \RequirePackage{fontspec}
 \else
-  \RequirePackage[utf8]{inputenc}
+  \ifluatex
+    \RequirePackage{fontspec}
+  \else
+    \RequirePackage[utf8]{inputenc}
+  \fi
 \fi
-
+  
 \typeout{DQ Rules style sheet, version 0.5 <12 April 2020>}
 
 %% \RequirePackage{libertine}
 
 \DeclareOption{libertine}{
-  \newfontfamily\fslibertine[NFSSFamily=libertine]{Linux Libertine O}
-  \newfontfamily\fsbiolinum[NFSSFamily=biolinum]{Linux Biolinum O}
+  \newfontfamily\fslibertine[Ligatures=TeX,NFSSFamily=libertine]{Linux Libertine O}
+  \newfontfamily\fsbiolinum[Ligatures=TeX,NFSSFamily=biolinum]{Linux Biolinum O}
 
   \renewcommand{\rmdefault}{libertine}
   \renewcommand{\sfdefault}{biolinum}
@@ -74,8 +82,6 @@
 %%  \renewcommand{\Huge}{\fontfamily{\rmdefault}\fontsize{24}{24pt}\selectfont}
 }
 
-%% %%% FONT THINGS
-
 \DeclareOption{avant}{
   \renewcommand{\encodingdefault}{T1}
   \renewcommand{\rmdefault}{pnc}
@@ -96,13 +102,24 @@
   \fi
 \fi
 
-\renewcommand{\scriptsize}{\fontfamily{\rmdefault}\fontsize{6}{7pt}\selectfont}
-\renewcommand{\small}{\fontfamily{\rmdefault}\fontsize{7}{8pt}\selectfont}
-\renewcommand{\normalsize}{\fontfamily{\rmdefault}\fontsize{8}{9.5pt}\selectfont}
-\renewcommand{\large}{\fontfamily{\sfdefault}\fontsize{10}{11pt}\selectfont}
-\renewcommand{\Large}{\fontfamily{\sfdefault}\fontsize{12}{15pt}\selectfont}
-\renewcommand{\huge}{\fontfamily{\sfdefault}\fontsize{14}{20pt}\selectfont}
-\renewcommand{\Huge}{\fontfamily{\rmdefault}\fontsize{20}{24pt}\selectfont}
+%% \renewcommand{\scriptsize}{\fontfamily{\rmdefault}\fontsize{6}{7pt}\selectfont}
+%% \renewcommand{\small}{\fontfamily{\rmdefault}\fontsize{7}{8pt}\selectfont}
+%% \renewcommand{\normalsize}{\fontfamily{\rmdefault}\fontsize{8}{9.5pt}\selectfont}
+%% \renewcommand{\large}{\fontfamily{\sfdefault}\fontsize{10}{11pt}\selectfont}
+%% \renewcommand{\Large}{\fontfamily{\sfdefault}\fontsize{12}{15pt}\selectfont}
+%% \renewcommand{\huge}{\fontfamily{\sfdefault}\fontsize{14}{20pt}\selectfont}
+%% \renewcommand{\Huge}{\fontfamily{\rmdefault}\fontsize{20}{24pt}\selectfont}
+
+\setmainfont{C059}[
+  Scale=0.8,
+  Ligatures=TeX,
+]
+  
+\setsansfont{URW Gothic}[
+  Scale=0.7,Color=red,Ligatures=TeX
+]
+
+\setstretch{0.9}
 
 \ProcessOptions
 
@@ -150,7 +167,7 @@
 	{\z@}%
 	{6.0pt}
 	{0.2pt}
-	{\reset@font\Large\bfseries}}%
+	{\reset@font\large\sffamily\bfseries}}%
 
 \renewcommand{\subsection}{\@startsection
 	{subsection}%
@@ -158,7 +175,7 @@
 	{\z@}%
 	{1.0\parskip plus4pt}
  	{0.25\baselineskip}
-	{\reset@font\large\bfseries}}%
+	{\reset@font\sffamily\bfseries}}%
 
 \renewcommand{\subsubsection}{\@startsection
 	{subsubsection}%
@@ -166,7 +183,7 @@
 	{\z@}%
 	{4ptminus2pt}
  	{0.25\baselineskip}
-	{\reset@font\normalfont\bfseries}}%
+	{\reset@font\sffamily\bfseries}}%
 
 \@ifundefined{chapter}{}{
 \renewcommand\chapter{\if@openright\cleardoublepage\else\clearpage\fi
@@ -196,7 +213,7 @@
 \def\@zmakechapterhead#1{%
   {\parindent \z@ \raggedright \normalfont
     \interlinepenalty\@M
-    \Huge \bfseries \thechapter \hspace{1em} #1\par\nobreak
+    \Huge \sffamily \bfseries \thechapter \hspace{1em} #1\par\nobreak
     \vskip 20\p@
   }
 }
@@ -281,6 +298,7 @@
 \rhead[\fancyplain{}{\thisday}]{\fancyplain{}{\fontsize{8}{9pt}\selectfont\rightmark}}
 \cfoot{\fancyplain{}{\fontsize{8}{9pt}\selectfont\thepage}}
 
+\newcommand{\precis}[1]{{\reset@font\rmfamily\bfseries #1}}
 
 %% New environment stuff added to reduce formatting in actual file
 
@@ -316,6 +334,7 @@
 \newcommand{\materialcost}[1]{\sItem{Material Cost}{#1}}
 \newcommand{\basetime}[1]{\sItem{Base Construction Time}{#1}}
 \newcommand{\timetaken}[1]{\sItem{Time}{#1}}
+\newcommand{\rune}[1]{\sItem{Runes}{#1}}
 
 \newenvironment{effects}[0]{\emph{Effects: }}{}
 
@@ -335,10 +354,9 @@
 
 \newenvironment{inset}[2]{\def\inset@env{#2}\begin{\inset@env}#1}{\end{\inset@env}}
 
-\ifpdf
-  \RequirePackage[pdftex]{graphicx}
-  \newcommand{\coverpic}{\vspace{2em}\includegraphics[viewport=0 0 310 307,clip]{cover.pdf}}
-\else
-  \RequirePackage[dvips]{graphicx}
-  \newcommand{\coverpic}{\vspace{2em}\includegraphics[scale=1.0]{cover.pdf}}
-\fi
+\RequirePackage{graphicx}
+\newcommand{\coverpic}{\vspace{2em}\includegraphics[viewport=0 0 310 307,clip]{cover.pdf}}
+%%\else
+%%  \RequirePackage[dvips]{graphicx}
+%%  \newcommand{\coverpic}{\vspace{2em}\includegraphics[scale=1.0]{cover.pdf}}
+%%\fi

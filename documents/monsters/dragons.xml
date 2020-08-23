@@ -1,4 +1,8 @@
 <?xml version="1.0"?>
+<!DOCTYPE dqmm [
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+%internal-entities;
+]>
 <dqmm><group name="Dragons"><notes>Dragons are the most ferocious creatures in the DragonQuest worlds.
 They have a long, thin, tapering body (about 25 feet for mature
 males).  They are generally reptilian in form, with sharp claws, a
@@ -13,10 +17,10 @@ however, they accumulate and sleep on a hoard of gem stones that will
 become embedded in them, making them as nearly invulnerable from below
 as from above.  A dragon's Armor Protection Rating will be between 10
 and 12 from the top, and will be between 2 and 15 on the bottom,
-depending on the level of encrustation. There is a 50% chance that a
+depending on the level of encrustation. There is a 50&percnt; chance that a
 dragon will have one vulnerable spot along the underside, regardless
 of encrustation.  If a character knows the location of a weak spot, he
-has a 20% chance of hitting it on any successful Strike Check.  The
+has a 20&percnt; chance of hitting it on any successful Strike Check.  The
 Armor Protection Rating at this spot will be 1 or 2.
 <br></br>
 All dragons are highly intelligent. Most dragons will be able to speak
@@ -53,8 +57,8 @@ than to one who is insolent.  In general, dragons are very
 hot-tempered and quick to respond to insult.
 <br></br>
 Dragons have incredibly acute senses of hearing, smell and sight. They
-can see perfectly in the dark, and they have a 90% chance per pulse of
-detecting physically hidden characters.  They have a 75% chance per
+can see perfectly in the dark, and they have a 90&percnt; chance per pulse of
+detecting physically hidden characters.  They have a 75&percnt; chance per
 pulse of detecting the presence of invisible or otherwise magically
 hidden creatures.  They will not know the exact location of invisible
 creatures, although they will be able to guess well enough to hit the
@@ -85,13 +89,13 @@ they can crawl, although comparatively slowly.  They can also hover
 motionless in the air, their wings beating furiously, creating blasts
 of wind beneath them.
 <br></br>
-Dragons are usually encountered alone, although rarely (10%) a lair
-will be occupied by a female with [D - 6] young dragons (40%) or [D -
-2] eggs (60%).
+Dragons are usually encountered alone, although rarely (10&percnt;) a lair
+will be occupied by a female with [D - 6] young dragons (40&percnt;) or [D -
+2] eggs (60&percnt;).
 <br></br>
 Dragons' blood is highly corrosive; any time a weapon penetrates a
-dragon's armor and does damage to the creature itself there is a 30%chance that any weapon will be rendered useless, -10% per magical Rank
-inherent in the weapon.  In addition there is a 30% chance that some
+dragon's armor and does damage to the creature itself there is a 30&percnt;chance that any weapon will be rendered useless, -10&percnt; per magical Rank
+inherent in the weapon.  In addition there is a 30&percnt; chance that some
 of the blood will splatter onto the wielder of the weapon if the
 weapon was used in Melee or Close Combat, doing [D + 2] damage.  Armor
 will absorb this type of damage, but reduce the Armor's Protection
@@ -107,11 +111,11 @@ in panic, dropping weapons and packs in headlong flight.  Once a
 character has successfully resisted panic, he will never have to check
 again for the duration of the encounter.
 <br></br>
-There is an 80% chance that any dragon encountered in its lair will be
+There is an 80&percnt; chance that any dragon encountered in its lair will be
 sleeping, but dragons are very easily awakened.  If any character is
 wearing metallic armor or makes a noise exceeding a whisper they will
 awaken instantly.  Even if a party is completely silent, there is a
-50% chance that their scent will be enough to awaken the dragon.
+50&percnt; chance that their scent will be enough to awaken the dragon.
 <br></br>
 Dragons can occasionally be coerced into service if they see that
 there is otherwise a good chance that they will be killed.  They will
@@ -154,7 +158,7 @@ if breathed upon.  To breathe fire while on the Tactical Display a
 dragon must execute a Fire action.  Damage from a dragon's fire
 depends on the type of dragon, but all dragon's fire will ignite
 anything flammable within the cone.  Non-magical weapons or armor have
-a 10% chance of being rendered useless if caught by dragon's fire.  In
+a 10&percnt; chance of being rendered useless if caught by dragon's fire.  In
 any case damage caused by a dragon's flame cannot be absorbed by
 armor.
 <br></br>
@@ -196,9 +200,9 @@ of Ensorcelments and Enchantments or Illusions at Rank 20.  A black
 dragon's breath cone is 40 feet in length and 20 feet in width at the
 base, and does [D + 15]. A black dragon can breathe fire [D -6] times
 per day or a minimum of 1 time.  A black dragon uses all counterspells
-at Rank 20.</talents><weapons> The Base Chance for a black dragon's bite is 50%, with
-damage [D + 12]. The two claws have a Base Chance of 40%, with [D + 10
-damage, while the tail's Base Chance is 50%, with [D + 6] damage.
+at Rank 20.</talents><weapons> The Base Chance for a black dragon's bite is 50&percnt;, with
+damage [D + 12]. The two claws have a Base Chance of 40&percnt;, with [D + 10
+damage, while the tail's Base Chance is 50&percnt;, with [D + 6] damage.
 
 </weapons><movement>  Flying 850; Running: 300
 </movement></details><stats><ps> 220-240</ps><md> 20-22</md><ag> 20-22</ag><ma> 30-35</ma><en> 70-80</en><ft> 100-120  </ft><wp> 30-34</wp><pc> 28-32</pc><pb> 2-4</pb><tmr> 17/6</tmr><na> Top scales absorb 10 DP</na></stats><comments> Black dragons are questers for knowledge, and they will
@@ -211,9 +215,9 @@ against a clear sky.
 dragon can also use all talents, rituals, spells, etc., both general
 and special of the College of Illusions or of the Mind at Rank 18. A
 blue dragon cannot breathe fire.
-</talents><weapons> The Base Chance for a blue dragon's bite is 50%, with damage
-[D + 10]. The two claws have a Base Chance of 45%, with damage [D +
-8], while the tail's Base Chance is 55%, with [D + 6] damage.
+</talents><weapons> The Base Chance for a blue dragon's bite is 50&percnt;, with damage
+[D + 10]. The two claws have a Base Chance of 45&percnt;, with damage [D +
+8], while the tail's Base Chance is 55&percnt;, with [D + 6] damage.
 </weapons><movement>  Flying: 700; Running: 250
 </movement></details><stats><ps> 230-250</ps><md> 16-18</md><ag> 15-17</ag><ma> 30-35</ma><en> 75-85</en><ft> 100-120</ft><wp> 30-34</wp><pc> 28-32</pc><pb> 2-4</pb><tmr> 14/5</tmr><na> Top scales absorb 11 DP
 </na></stats><comments> Blue dragons are more cunning than some of their brethren
@@ -225,7 +229,7 @@ great.
 </comments></monster><monster name="Golden Dragon"><details><habitat>Caverns</habitat><frequency> Very Rare</frequency><number> 1
 </number><description> Golden dragons are bright gold in color, shining from a
 distance in a dazzling display. For one unfamiliar with dragons,
-however, there is a 50% chance that a golden dragon will be mistaken
+however, there is a 50&percnt; chance that a golden dragon will be mistaken
 for a yellow dragon. Note that golden dragons do not have the stench
 of other dragons.
 </description><talents> General abilities for all dragons as noted above. In
@@ -233,9 +237,9 @@ addition golden dragons can use all talents of the College of the Mind
 or the College of Illusions at Rank 18, and can use all rituals or
 spells, both special and general at Rank 20. Golden dragons cannot
 breathe fire. Knowledge of all counterspells is at Rank 20.
-</talents><weapons> The Base Chance for a golden dragon's bite is 65%, with
-damage [D + 11]. The two claws have a Base Chance of 50%, with damage
-[D + 7], while the tail has a Base Chance of 70%, with [D + 4] damage.
+</talents><weapons> The Base Chance for a golden dragon's bite is 65&percnt;, with
+damage [D + 11]. The two claws have a Base Chance of 50&percnt;, with damage
+[D + 7], while the tail has a Base Chance of 70&percnt;, with [D + 4] damage.
 </weapons><movement>  Flying: 850; Runnine: 300
 </movement></details><stats><ps> 300-320</ps><md> 20-24</md><ag> 18-20</ag><ma> 32-37</ma><en> 90-100</en><ft> 140-160</ft><wp> 32-37</wp><pc> 30-35</pc><pb> 5-7</pb><tmr> 17/6</tmr><na>  Top scales absorb 12 DP.
 </na></stats><comments> Golden dragons are the only draeons that can be described
@@ -251,9 +255,9 @@ College of the Mind or the College of Illusions at Rank 12. The cone
 of fire of their breath is 60 feet long and 30 feet wide, and does [D
 + 12] to all within the cone.  They can breathe fire D10 times on any
 given day.
-</talents><weapons> The Base Chance for a green dragon's bite is 60%, and
-damage is [D + 12]. The two claws have a Base Chance of 50%,
-with [D + 6] damage, while the tail's Base Chance is 70%, with
+</talents><weapons> The Base Chance for a green dragon's bite is 60&percnt;, and
+damage is [D + 12]. The two claws have a Base Chance of 50&percnt;,
+with [D + 6] damage, while the tail's Base Chance is 70&percnt;, with
 damage [D + 4].
 </weapons><movement>  Flying: 700; Running: 250
 </movement></details><stats><ps> 300-350</ps><md> 19-21</md><ag> 17-19</ag><ma> 22-25</ma><en> 85-95</en><ft> 120-150</ft><wp> 27-33</wp><pc> 27-30</pc><pb> 2-4</pb><tmr> 14/5
@@ -271,18 +275,18 @@ use all spells, talents, and rituals, both general and special, of the
 College of the Mind at Rank 17.  The  cone of fire of  a red dragon is
 80 feet long and  40 feet wide at  the base, and does [D  + 15] to any
 creature in the cone. The  breath weapon can be  used [D + 3] times in
-any given day.</talents><weapons> A red dragon's bite's Base Chance is 70%, and damage is [D +
-10]. The two claws have a Base Chance of 50%, with [D + 4] damage,
-while the tail's Base Chance is 60%, with damage [D + 2].
+any given day.</talents><weapons> A red dragon's bite's Base Chance is 70&percnt;, and damage is [D +
+10]. The two claws have a Base Chance of 50&percnt;, with [D + 4] damage,
+while the tail's Base Chance is 60&percnt;, with damage [D + 2].
 </weapons><movement>  Flying: 750;Running: 250
 </movement></details><stats><ps> 250-300</ps><md> 18-20</md><ag> 16-18</ag><ma> 25-30   </ma><en> 10-90</en><ft> 110-140  </ft><wp> 30-35</wp><pc> 21-30</pc><pb> 2-4</pb><tmr> 15/5</tmr><na> Top scales absorb 12 DP
 </na></stats><comments> Red dragons will play games with those they encounter until
 they tire of their pitiful struggles and then slowly kill them and
 take all their treasure. If a character somehow impresses a red
-dragon, there is a 40% chance they will be left alive.
+dragon, there is a 40&percnt; chance they will be left alive.
 </comments></monster><monster name="Yellow Dragon"><details><habitat>  Caverns</habitat><frequency> Very Rare</frequency><number> 1
 </number><description> Yellow dragons have yellowish scales. Note that when
-seen from distances of 100 feet or more there is a 50% chance that
+seen from distances of 100 feet or more there is a 50&percnt; chance that
 this dragon will be mistaken for a golden dragon, and vice-versa.
 </description><talents> General abilities for all dragons, as noted above. Yellow
 dragons also use all spells, talents, rituals, etc., of the College of
@@ -290,12 +294,12 @@ the Mind or the College of Illusions at Rank 15. Their breath's cone
 of flame is 60 feet long and 30 feet wide and does [D + 12]. They can
 breathe fire [D + 1] times on any given day. Yellow dragons use all
 counterspells at Rank 12.
-</talents><weapons> The Base Chance for a yellow dragon's bite is 60%, with
-damage [D + 10]. The two claws have a Base Chance of 45%, with [D + 5]
-damage, while the tail's Base Chance is 65%, with [D + 3] damage.
+</talents><weapons> The Base Chance for a yellow dragon's bite is 60&percnt;, with
+damage [D + 10]. The two claws have a Base Chance of 45&percnt;, with [D + 5]
+damage, while the tail's Base Chance is 65&percnt;, with [D + 3] damage.
 
 </weapons><movement>  Flying: 700, Running: 300
-</movement></details><stats><ps> 280-320</ps><md> 20-22</md><ag> 18-20 </ag><ma> 24-27</ma><en> 80-90</en><ft> 110-140</ft><wp> 26-32</wp><pc> 27-30</pc><tmr> 14/6</tmr><pb> 2-4</pb><na> Top scales absorb 11 DP
+</movement></details><stats><ps> 280-320</ps><md> 20-22</md><ag> 18-20 </ag><ma> 24-27</ma><en> 80-90</en><ft> 110-140</ft><wp> 26-32</wp><pc> 27-30</pc><pb> 2-4</pb><tmr> 14/6</tmr><na> Top scales absorb 11 DP
 </na></stats><comments> Yellow dragons have a particular fondness for gold over
 gems and other items of value.
 </comments></monster></group></dqmm>

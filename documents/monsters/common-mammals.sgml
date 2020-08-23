@@ -246,8 +246,8 @@ of 1-5) in either Close or Melee Combat.
 <AG> 30-34
 <MA> None
 <EN> 14-18
-<WP> 5-7
 <FT> 20-25  
+<WP> 5-7
 <PC> 18-23
 <PB> 6-9
 <TMR> 24
@@ -326,8 +326,8 @@ be Ranks 1-3.
 <AG> 28-32
 <MA> None
 <EN> 15-18
-<WP> 6-8
 <FT> 20-25  
+<WP> 6-8
 <PC> 18-23
 <PB> 7-10
 <TMR> 8/4
@@ -393,12 +393,12 @@ with possible Rank of 1-5.
 <movement> Running: 600
 
 <PS> 30-32
-<AG> 23-25
 <MD> 18-20  
+<AG> 23-25
 <MA> None
 <EN> 20-22
-<WP> 8-10
 <FT> 33-36  
+<WP> 8-10
 <PC> 21-25
 <PB> 7-10
 <TMR> 12
@@ -521,8 +521,8 @@ Chance of 60&percnt of doing [D + 8] Damage.
 <AG> 10-15
 <MA> None
 <EN> 30-35
-<WP> 8-10
 <FT> 35-40  
+<WP> 8-10
 <PC> 18-22
 <PB> 6-10
 <TMR> 6
@@ -645,8 +645,8 @@ per foot, total of 4).
 <AG> 10-12
 <MA> None
 <EN> 40-50
-<WP> 10-14
 <FT> 45-55
+<WP> 10-14
 <PC> 10-12
 <PB> 6-8
 <TMR> 9
@@ -722,8 +722,8 @@ damage.
 <AG> 22-26
 <MA> None
 <EN> 15-20
-<WP> 10-11
 <FT> 20-25  
+<WP> 10-11
 <PC> 20-25
 <PB> 12-13
 <TMR> 13
@@ -988,8 +988,8 @@ a Base Chance of 75&percnt of doing [D + 4] damage.
 <FT> 3-4
 <WP> 18-23
 <PC> 17-23
-<TMR> 5
 <PB> 10-13
+<TMR> 5
 <NA> Fur absorbs 1 DP
 
 <comments> Weasels are very curious, and they are thus fairly easy to

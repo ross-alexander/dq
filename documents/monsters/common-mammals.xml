@@ -1,4 +1,8 @@
 <?xml version="1.0"?>
+<!DOCTYPE dqmm [
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+%internal-entities;
+]>
 <dqmm><group name="Common land mammals"><class name="Apes and Prehumans"><notes>Apes and prehumans include baboons, gorillas, and orang-outangs in
 addition to two classes of prehumans: neanderthals and sasquatchs. All
 of these tend to be shy of humans and will usually dwell in high
@@ -13,11 +17,11 @@ faces and/or rumps (especially females).
 </description><talents> Baboons possess no special talents or skills. They are
 neither magic nor tool users and are only semi-intelligent.
 </talents><weapons> Baboons cannot attack except in Close Combat.  They will
-swarm over their victim, using their bite (Base Chance of 65%,
+swarm over their victim, using their bite (Base Chance of 65&percnt;,
 Damage of +4) to kill by increasing blood loss.  Comments: Baboons
 tend to be vicious and unpredictable, attacking without warning. They
 are tribal in nature and do not fear men when in company with the rest
-of the tribe.  They can sometimes (30% chance) be assuaged by
+of the tribe.  They can sometimes (30&percnt; chance) be assuaged by
 food (usually meat).
 
 </weapons><movement> Running: 350</movement></details><stats><ps> 12-18</ps><md> 16-20</md><ag> 18-22</ag><ma> None</ma><en> 6-10</en><ft> 10-15</ft><wp> 7-9</wp><pc> 17-21</pc><pb> 6-9</pb><tmr> 7</tmr><na> Fur absorbs 2 DP</na></stats></monster><monster name="Gorilla (Mountain Gorilla/Great Ape)"><details><habitat> Woods, Forest and Mountains</habitat><frequency> Rare</frequency><number> 1-40 (20)</number><description> Gorillas reach 650 pounds and 6+ feet in height.  They
@@ -35,8 +39,8 @@ and Physical Strength is half or less their own by grabbing the victim
 and pulling him into their hex.  This maneuver requires a Charge
 Action and is implemented in the same manner (except that the victim
 is pulled out of his hex into the gorilla's.  Gorillas may bite (Base
-Chance of 30%, [D - 2] Damage) or rend (Base Chance of
-50%, [D + 6] Damage) in Close Combat, but not in the same pulse.
+Chance of 30&percnt;, [D - 2] Damage) or rend (Base Chance of
+50&percnt;, [D + 6] Damage) in Close Combat, but not in the same pulse.
 </weapons><movement> Running: 350
 
 </movement></details><stats><ps> 30-40</ps><md> 20-23</md><ag> 14-17</ag><ma> None</ma><en> 28-33</en><ft> 33-38</ft><wp> 6-8 </wp><pc> 12-18</pc><pb> 3-7</pb><tmr> 7</tmr><na> Fur absorbs 3 DP
@@ -52,11 +56,11 @@ will have no talents and will not be magic users. Neanderthals will
 have only a limited tool using capacity and will generally not use
 weapons more complicated than stones and clubs.
 </talents><weapons> Neanderthals will use rocks and sticks and sometimes simple
-clubs and axes.  They will rarely (15%) pick up and use a dropped
+clubs and axes.  They will rarely (15&percnt;) pick up and use a dropped
 weapon of a more complex nature.  They will be at a total loss to
 figure out the workings of such complex weapons as bows.  They have
 prominent canines and will always attempt to enter Close Combat where
-they will bite (Base Chance of 30%, [D - 3] Damage) in addition to
+they will bite (Base Chance of 30&percnt;, [D - 3] Damage) in addition to
 striking.
 </weapons><movement> Running: 300
 </movement></details><stats><ps> 18-25</ps><md> 13-15</md><ag> 12-14</ag><ma> None</ma><en> 14-16</en><ft> 20-24</ft><wp> 8-10</wp><pc> 13-18</pc><pb> 8-10</pb><tmr> 6</tmr><na> Skin absorbs 1 DP</na></stats><comments> Neanderthals fear other humanoids and will flee them if
@@ -72,7 +76,7 @@ limbs to assist them in running and in climbing.
 tool users.
 </talents><weapons> orang-outangs attack in Melee Combat in the same manner as
 humans (striking with bare hands).  In Close Combat, they receive 1
-attack per Pulse at a Base Chance of 40% for [D - 1] Damage and
+attack per Pulse at a Base Chance of 40&percnt; for [D - 1] Damage and
 with a possible Rank of 1-3.
 </weapons><movement> Running: 300; Climbing: 100
 </movement></details><stats><ps> 15-15</ps><md> 16-22</md><ag> 18-23</ag><ma> None</ma><en> 10-12</en><ft> 15-17</ft><wp> 8-12</wp><pc> 17-21</pc><pb> 7-9</pb><tmr> 6/2</tmr><na> Fur absorbs 2 DP
@@ -104,10 +108,10 @@ hunting scream as it leaps upon its victim.
 </description><talents> Cheetahs have no talents or skills and are neither magic nor
 tool users.
 </talents><weapons> Bite does [D - 2] Damage in Close Combat (Base Chance of
-25%). Claws do [D - 3] Damage (Base Chance of 30%, possible Rank
+25&percnt;). Claws do [D - 3] Damage (Base Chance of 30&percnt;, possible Rank
 of 1-5) in either Close or Melee Combat.
 </weapons><movement>  Running: 1200
-</movement></details><stats><ps> 20-23</ps><md> 22-25</md><ag> 30-34</ag><ma> None</ma><en> 14-18</en><wp> 5-7</wp><ft> 20-25  </ft><pc> 18-23</pc><pb> 6-9</pb><tmr> 24</tmr><na> Fur absorbs 2 DP
+</movement></details><stats><ps> 20-23</ps><md> 22-25</md><ag> 30-34</ag><ma> None</ma><en> 14-18</en><ft> 20-25  </ft><wp> 5-7</wp><pc> 18-23</pc><pb> 6-9</pb><tmr> 24</tmr><na> Fur absorbs 2 DP
 </na></stats><comments> Cheetahs are extremely fast over short distances, but tire
 rapidly. Their Movement should be quartered after their rirst few
 minutes at a dead run. If captured young, cheetahs are especially
@@ -120,7 +124,7 @@ larger than the average house cat.
 </description><talents> House cats have no talents, skills, or magic. They are not
 tool users.
 </talents><weapons> House cats cannot Melee. They get one combined attack (teeth
-and claws) in Close Combat with a Base Chance of 20% and Damage
+and claws) in Close Combat with a Base Chance of 20&percnt; and Damage
 of [D - 7].
 </weapons><movement> Running: 450
 </movement></details><stats><ps> 3-4</ps><md> 19-21</md><ag> 22-24</ag><ma> None</ma><en> 4-5</en><ft> 8-10</ft><wp> 9-11</wp><pc> 18-20</pc><pb> 12-18</pb><tmr> 9</tmr><na> Fur absorbs 1 DP*
@@ -137,11 +141,11 @@ be encountered at night.
 tool nor magic users. They do have the ability to climb trees and move
 between branches with ease and will follow prey into the upper
 branches of trees if necessary.
-</talents><weapons> Bite has a Base Chance of 30% and Damage of [D- 2].
-Claws have a Base Chance of 30% and Damage of [D - 3]. Claws may
+</talents><weapons> Bite has a Base Chance of 30&percnt; and Damage of [D- 2].
+Claws have a Base Chance of 30&percnt; and Damage of [D - 3]. Claws may
 be Ranks 1-3.
 </weapons><movement> Running: 400; Climbing: 200
-</movement></details><stats><ps> 22-26</ps><md> 24-30</md><ag> 28-32</ag><ma> None</ma><en> 15-18</en><wp> 6-8</wp><ft> 20-25  </ft><pc> 18-23</pc><pb> 7-10</pb><tmr> 8/4</tmr><na> Fur absorbs 2 DP
+</movement></details><stats><ps> 22-26</ps><md> 24-30</md><ag> 28-32</ag><ma> None</ma><en> 15-18</en><ft> 20-25  </ft><wp> 6-8</wp><pc> 18-23</pc><pb> 7-10</pb><tmr> 8/4</tmr><na> Fur absorbs 2 DP
 </na></stats><comments> Leopards haunt game trails near rivers and streams (they
 sometimes eat fish). They are stealthier than most other felines and
 will seldom be seen except when they attack. The fur of adult leopards
@@ -153,8 +157,8 @@ direction of the females who are the better fighters and hunters.
 </description><talents> Lions possess no skills or talents and are neither tool nor
 magic users.
 </talents><weapons> Bite does [D + 1] Damage and has a Base Chance of
-35%. Claws do [D - 1] Damage and have a Base Chance of
-45%.  Males may have 1-3 Rank with claws.  Females will have
+35&percnt;. Claws do [D - 1] Damage and have a Base Chance of
+45&percnt;.  Males may have 1-3 Rank with claws.  Females will have
 twice that Rank.
 </weapons><movement> Running: 450
 </movement></details><stats><ps> 25-30</ps><md> 20-25</md><ag> 25-30</ag><ma> None</ma><en> 20-25</en><ft> 25-30</ft><wp> 12-16</wp><pc> 18-23</pc><pb> 5-10</pb><tmr> 9</tmr><na> Fur absorbs 3 DP
@@ -163,10 +167,10 @@ twice that Rank.
 hunting cats with disproportionate fangs.
 </description><talents> Sabretooth Tigers have no special talents or abilities and
 use neither tools nor magic.
-</talents><weapons> Bite has a Base Chance of 50% of doing [D + 4]
-Damage. Claws do [D + 3] Damage alid have a Base Chance of 60%with possible Rank of 1-5.
+</talents><weapons> Bite has a Base Chance of 50&percnt; of doing [D + 4]
+Damage. Claws do [D + 3] Damage alid have a Base Chance of 60&percnt;with possible Rank of 1-5.
 </weapons><movement> Running: 600
-</movement></details><stats><ps> 30-32</ps><ag> 23-25</ag><md> 18-20  </md><ma> None</ma><en> 20-22</en><wp> 8-10</wp><ft> 33-36  </ft><pc> 21-25</pc><pb> 7-10</pb><tmr> 12</tmr><na> Hide absorbs 5 DP
+</movement></details><stats><ps> 30-32</ps><md> 18-20  </md><ag> 23-25</ag><ma> None</ma><en> 20-22</en><ft> 33-36  </ft><wp> 8-10</wp><pc> 21-25</pc><pb> 7-10</pb><tmr> 12</tmr><na> Hide absorbs 5 DP
 </na></stats><comments> These cats have no fear of humanoids. If hungry, they will
 readily attack a party of adventurers.  They are valuable as
 curiosities, and live cubs fetch 400-500 Silver Pennies each, while
@@ -179,8 +183,8 @@ most tigers will be between 4 and 7 feet in length and weigh several
 hundred pounds.
 </description><talents> Tigers have no special talents or skills. They are not tool
 or magic users.
-</talents><weapons> Bite has a Base Chance of 45% of doing [D + 2] Damage.
-Claws have a Base Chance of 30% of doing [D - 1] Damage and may be
+</talents><weapons> Bite has a Base Chance of 45&percnt; of doing [D + 2] Damage.
+Claws have a Base Chance of 30&percnt; of doing [D - 1] Damage and may be
 Ranked 1-2.
 </weapons><movement>  Running: 450
 </movement></details><stats><ps> 24-28</ps><md> 22-26</md><ag> 25-30</ag><ma> None</ma><en> 20-24</en><ft> 25-29</ft><wp> 8-10</wp><pc> 18-23</pc><pb> 5-9</pb><tmr> 9</tmr><na> Fur absorbs 3 DP
@@ -195,14 +199,14 @@ weight. Most wild cats have blunt tails with black tips.  They often
 have tufted ears and are sometimes spotted.
 </description><talents> Wild cats have no special talents or skills. They are not
 tool or magic users.
-</talents><weapons> Bite has a Base Chance of 20% of doing [D - 5] Damage,
-Claws have a Base Chance of 25% of doing [D - 6] Damage and may
+</talents><weapons> Bite has a Base Chance of 20&percnt; of doing [D - 5] Damage,
+Claws have a Base Chance of 25&percnt; of doing [D - 6] Damage and may
 be Ranks 1-4.
 </weapons><movement>  Running: 300-400</movement></details><stats><ps> 12-17</ps><md> 14-20</md><ag> 18-24</ag><ma> None</ma><en> 10-13</en><ft> 5-18  </ft><wp> 8-10</wp><pc> 16-21</pc><pb> 8-11</pb><tmr> 6-8</tmr><na> Fur absorbs 2 DP
 </na></stats><comments> Wild cats will usually not stray far from their lair.  They
 may be captured and sold as exotic pets in some areas, but will
 usually not fetch more than 100-150 Silver Pennies.  There is a
-70% chance that there will be [D - 1] young in their lair.
+70&percnt; chance that there will be [D - 1] young in their lair.
 </comments></monster></class><class name="Great Land Mammals"><monster name="Bear"><details><habitat> Woods, Rough, Caverns</habitat><frequency> Uncommon</frequency><number>   1-4
 </number><description> Bears exist in any climate and have even been known to
 live in desert habitats. Arctic and mountain bears will be
@@ -214,12 +218,12 @@ on their hind legs to fight.
 magic or tool users. However, Shape Changers may use tools (and
 weapons) in their bear form.
 </talents><weapons> Bears may make two claw attacks in Melee with a Base Chance
-of 35% of doing [D + 2] Damage and may achieve Ranks 1-4 with
-claws. They may bite in Close Combat with a Base Chance of 20% of
+of 35&percnt; of doing [D + 2] Damage and may achieve Ranks 1-4 with
+claws. They may bite in Close Combat with a Base Chance of 20&percnt; of
 doing [D + 4] Damage. Bears may bite and claw during the same Pulse while
 in Close Combat or they can attempt to ``hug'' their victim with a Base
-Chance of 60% of doing [D + 8] Damage.
-</weapons><movement>  Running: 300</movement></details><stats><ps> 35-40</ps><md> 10-15</md><ag> 10-15</ag><ma> None</ma><en> 30-35</en><wp> 8-10</wp><ft> 35-40  </ft><pc> 18-22</pc><pb> 6-10</pb><tmr> 6</tmr><na> Fur absorbs 4 DP
+Chance of 60&percnt; of doing [D + 8] Damage.
+</weapons><movement>  Running: 300</movement></details><stats><ps> 35-40</ps><md> 10-15</md><ag> 10-15</ag><ma> None</ma><en> 30-35</en><ft> 35-40  </ft><wp> 8-10</wp><pc> 18-22</pc><pb> 6-10</pb><tmr> 6</tmr><na> Fur absorbs 4 DP
 </na></stats><comments> Bears are omniverous. They are also curious. They will,
 consequently, investigate and possibly attack a party of less than 6
 humanoids. Larger parties will less likely be bothered. In spring,
@@ -232,8 +236,8 @@ bristles and have long tusks. They tend to be both stupid and vicious.
 tools nor magic.
 </talents><weapons>Boars always attempt to charge their victims and either impale them on
 their tusks or knock them to the ground and trample them. Tusks do [D
-- 1] Damage with a Base Chance of 50% and Rank of 1-2. Feet do
-[D - 3] Damage with a Base Chance of 20%. A boar may only
+- 1] Damage with a Base Chance of 50&percnt; and Rank of 1-2. Feet do
+[D - 3] Damage with a Base Chance of 20&percnt;. A boar may only
 attack in Close Combat. He may not trample and tusk in the same Pulse.
 </weapons><movement>  Running: 350</movement></details><stats><ps> 22-27</ps><md> 14-18</md><ag> 20-25</ag><ma> None</ma><en> 20-25</en><ft> 25-30</ft><wp> 4-10</wp><pc> 12-16</pc><pb> 6-10</pb><tmr> 7</tmr><na> Bristles absorb 4 DP
 </na></stats><comments> Boars tend to be nocturnal and will seldom be encountered
@@ -250,9 +254,9 @@ days without water without suffering substantial ill effects. While
 valued for this trait, they are difficult to train and so will bring
 little money in an untrained state. Trained camels will bring 700-900
 Silver Pennies.
-</talents><weapons> Bite has a Base Chance of 30% of doing [D - 1] Damage in
+</talents><weapons> Bite has a Base Chance of 30&percnt; of doing [D - 1] Damage in
 Melee or Close Combat. Camels may kick instead of biting in Melee with
-a Base Chance of 25% of doing [D + 4] damage. Camels may only kick
+a Base Chance of 25&percnt; of doing [D + 4] damage. Camels may only kick
 into their rear hexes.
 </weapons><movement>  Running: 600
 </movement></details><stats><ps> 25-30</ps><md> 12-15</md><ag> 11-14</ag><ma> None</ma><en> 27-30</en><ft> 20-25</ft><wp> 10-12 </wp><pc> 14-18</pc><pb> 7-9</pb><tmr> 12</tmr><na> Hide absorbs 3 DP</na></stats></monster><monster name="Elephant"><details><habitat> Plains</habitat><frequency> Common</frequency><number> 1-50 (20)
@@ -268,18 +272,18 @@ to lift large burdens, shake trees, crush or throw objects (like
 people) without much accuracy.  They have a highly developed sense of
 smell and poor eyesight.
 </talents><weapons> The elephant's main weapons are his tusks, which can be used
-in Melee or Close Combat with a Base Chance of 15% of doing [D +
+in Melee or Close Combat with a Base Chance of 15&percnt; of doing [D +
 2] Damage. If the elephant is charging while making a tusk attack, the
-Base Chance is 60% and Damage is [D + 8]. The elephant can also
+Base Chance is 60&percnt; and Damage is [D + 8]. The elephant can also
 attack with his trunk during the same Pulse in A,hich he Melee Attacks
-with tusks and has a Base Chance of 80% of doing [D - 2]
+with tusks and has a Base Chance of 80&percnt; of doing [D - 2]
 Damage. If an elephant runs over an entity in Close Combat, he has a
-Base Chance of 50% of doing [D + 6] Damage (resolve one attack
+Base Chance of 50&percnt; of doing [D + 6] Damage (resolve one attack
 per foot, total of 4).
 </weapons><movement> Running: 450
-</movement></details><stats><ps> 60-75</ps><md> 15-18</md><ag> 10-12</ag><ma> None</ma><en> 40-50</en><wp> 10-14</wp><ft> 45-55</ft><pc> 10-12</pc><pb> 6-8</pb><tmr> 9</tmr><na> Hide absorbs 5 DP
+</movement></details><stats><ps> 60-75</ps><md> 15-18</md><ag> 10-12</ag><ma> None</ma><en> 40-50</en><ft> 45-55</ft><wp> 10-14</wp><pc> 10-12</pc><pb> 6-8</pb><tmr> 9</tmr><na> Hide absorbs 5 DP
 </na></stats><comments> Elephants will usually shy away from humanoids unless
-provoked (70% chance that provocation short of attack will be
+provoked (70&percnt; chance that provocation short of attack will be
 ignored). If one elephant is attacked, all nearby elephants will come
 to his assistance, especially if the elephant is a cow or
 calf. Elephant tusks are valuable ([D + 3] Silver Pennies per pound of
@@ -296,7 +300,7 @@ unless directly attacked.
 not magic users. They will almost always be trained to pull a plow or
 wagon.
 </talents><weapons> Oxen may attack in Melee with their horns for [D + 3] Damage
-(Base Chance of 20%). They may trample in Close Combat with a 40% Base
+(Base Chance of 20&percnt;). They may trample in Close Combat with a 40&percnt; Base
 Chance of doing [D + 5] Damage (4 attacks per pulse possible).
 </weapons><movement>  Running: 250
 </movement></details><stats><ps> 50-60   </ps><md> 7-9</md><ag> 8-10</ag><ma> None</ma><en> 25-30</en><ft> 32-40</ft><wp> 7-9</wp><pc> 12-15</pc><pb> 6-8</pb><tmr> 5</tmr><na> Hide absorbs 3 DP</na></stats></monster><monster name="Stag"><details><habitat> Woods (especially deep woods or forest)</habitat><frequency> Uncommon</frequency><number> 1-5 (1)</number><description> Stags are great male deer, boasting large racks of
@@ -304,12 +308,12 @@ antlers. They will sometimes be accompanied by female deer and fawns
 (1-2 per couple). They generally have a tawny coat, but rare specimens
 are black.</description><talents> Stags have no special talents or skills and use neither
 tools nor magic.
-</talents><weapons> Stags can attempt to horn with a Base Chance of 30% of doing
+</talents><weapons> Stags can attempt to horn with a Base Chance of 30&percnt; of doing
 [D + 5] Damage in Close or Melee Combat (possible Rank of 1-4). They
 can kick at a character occupying the hex opposite that they are
-facing in Melee Combat with a Base Chance of 50% of doing [D + 3]
+facing in Melee Combat with a Base Chance of 50&percnt; of doing [D + 3]
 damage.
-</weapons><movement>  Running: 750</movement></details><stats><ps> 20-26</ps><md> 19-24  </md><ag> 22-26</ag><ma> None</ma><en> 15-20</en><wp> 10-11</wp><ft> 20-25  </ft><pc> 20-25</pc><pb> 12-13</pb><tmr> 13</tmr><na> Hide absorbs 3 DP
+</weapons><movement>  Running: 750</movement></details><stats><ps> 20-26</ps><md> 19-24  </md><ag> 22-26</ag><ma> None</ma><en> 15-20</en><ft> 20-25  </ft><wp> 10-11</wp><pc> 20-25</pc><pb> 12-13</pb><tmr> 13</tmr><na> Hide absorbs 3 DP
 </na></stats><comments> Stags will be wary of humanoids, but will not flee
 them. Their racks are extremely valuable (worth D10 + 1 per point
 hundreds of Silver Pennies). In addition, their hide will fetch 300
@@ -337,7 +341,7 @@ restriction (since they do not have the savage nature of wild dogs).
 </description><talents> Dingoes have no special talents or skills and do not use
 magic or tools.
 </talents><weapons> Dingoes may bite in Close Combat with a Base Chance of
-65% of doing [D - 4] Damage. They may not otherwise attack.
+65&percnt; of doing [D - 4] Damage. They may not otherwise attack.
 </weapons><movement>  Running: 350
 </movement></details><stats><ps> 6-10</ps><md> 15-20</md><ag> 16-20</ag><ma> None</ma><en> 5-10</en><ft> 10-15  </ft><wp> 6-10</wp><pc> 18-22</pc><pb> 10-14</pb><tmr> 7</tmr><na> Fur absorbs 2 DP
 </na></stats><comments> Dingoes hunt in packs. They will usually refrain from
@@ -353,7 +357,7 @@ be recognized by their barking howl.
 </description><talents> Hyena have no special talents or skills. They do not use
 tools or magic.
 </talents><weapons> Hyenas can only attack in Close Combat and then they bite
-with a Base Chance of 60% of doing [D - 1] damage.
+with a Base Chance of 60&percnt; of doing [D - 1] damage.
 </weapons><movement> Running: 300
 </movement></details><stats><ps> 6-8</ps><md> 19-21</md><ag> 22-24</ag><ma> None</ma><en> 7-9</en><ft> 11-13  </ft><wp> 8-10</wp><pc> 19-23</pc><pb> 6-8</pb><tmr> 7</tmr><na> Hide absorbs 3 DP</na></stats><comments> Hyenas are mainly scavengers, preying on the remains of
 carcases left by the great cats and other hunters.
@@ -363,7 +367,7 @@ has a speckled grey and brown coat, and is about 3 feet long.
 </description><talents> A jackal has no special talents or skills and does not use
 tools or magic.
 </talents><weapons> Jackals can only attack in Close Combat. Their bite has a
-Base Chance of 60% of doing [D - 2] damage.
+Base Chance of 60&percnt; of doing [D - 2] damage.
 </weapons><movement>  Running: 300</movement></details><stats><ps> 5-7</ps><md> 18-20</md><ag> 22-24</ag><ma> None</ma><en> 6-8</en><ft> 9-12</ft><wp> 7-9</wp><pc> 20-23</pc><pb> 7-9</pb><tmr> 6</tmr><na> Fur absorbs 2 DP
 </na></stats><comments> Jackals, like hyenas, are scavengers, and are none too
 courageous. They are curious, and will occasionally raid a human camp
@@ -375,7 +379,7 @@ world, and are valued as snake-killers.
 </description><talents> Mongooses have no special skills or talents. They are not
 tool or magic users.
 </talents><weapons> Mongooses get one bite in Cloie Combat at a Base Chance of
-80% of doing [D - 6] Damage.
+80&percnt; of doing [D - 6] Damage.
 
 </weapons><movement> Running: 400
 </movement></details><stats><ps> 2-3</ps><md> 26-32</md><ag> 26-32</ag><ma> None</ma><en> 4-6</en><ft> 6-8  </ft><wp> 18-20</wp><pc> 20-24</pc><pb> 10-12</pb><tmr> 8</tmr><na> None</na></stats><comments> Mongooses are especially valued as house pets and a
@@ -389,7 +393,7 @@ strains of rats can grow to 18 inches (with corresponding increase in
 the damage they can do and their Base Chance of biting during Close
 Combat - see below).
 </description><talents> Rats have no special talents, skills, or magical abilities.
-</talents><weapons> Rats have a Base Chance of 75% of doing [D - 7] damage in
+</talents><weapons> Rats have a Base Chance of 75&percnt; of doing [D - 7] damage in
 Close Combat. They cannot attack in Melee Combat.
 </weapons><movement>  Running: 100</movement></details><stats><ps> 4-6</ps><md> 15-20</md><ag> 15-20</ag><ma> None</ma><en> 1-2  </en><ft> 2-3</ft><wp> 8-16</wp><pc> 17-20</pc><pb> 4-8</pb><tmr> 2</tmr><na> None
 </na></stats><comments> Rats are not tool-users, but they can dig holes and gnaw
@@ -397,7 +401,7 @@ through substances as hard as sandstone and lead, given enough
 time. When in combat they tend to head for the eyes and other
 unprotected areas, so the armor protection Rating of characters
 defending against rats should be reduced by three or four points. A
-character has a 10% chance of contracting a disease if he is in
+character has a 10&percnt; chance of contracting a disease if he is in
 contact with rats for any period of time. If a character is bitten by
 a rat, increase chance of infection by 20.
 </comments></monster><monster name="Weasel"><details><habitat> Woods</habitat><frequency> Uncommon</frequency><number> 1-2 (1)
@@ -413,13 +417,13 @@ killer is worth 4,000-6,000 Silver Pennies. Other than this special
 ability, weasels have no talents or skills. They use neither tools nor
 magic.
 </talents><weapons> Weasels may only attack in Close Combat by biting.  Bite has
-a Base Chance of 75% of doing [D + 4] damage.
-</weapons><movement> Running: 250</movement></details><stats><ps> 1-2</ps><md> 19-23</md><ag> 25-29</ag><ma> None</ma><en> 1-2</en><ft> 3-4</ft><wp> 18-23</wp><pc> 17-23</pc><tmr> 5</tmr><pb> 10-13</pb><na> Fur absorbs 1 DP
+a Base Chance of 75&percnt; of doing [D + 4] damage.
+</weapons><movement> Running: 250</movement></details><stats><ps> 1-2</ps><md> 19-23</md><ag> 25-29</ag><ma> None</ma><en> 1-2</en><ft> 3-4</ft><wp> 18-23</wp><pc> 17-23</pc><pb> 10-13</pb><tmr> 5</tmr><na> Fur absorbs 1 DP
 </na></stats><comments> Weasels are very curious, and they are thus fairly easy to
 trap. If a pair of weasels is found in spring, there is a
-80% chance they will be accompanied by 4-8 young. Weasels are
+80&percnt; chance they will be accompanied by 4-8 young. Weasels are
 bloodthirsty, and will gladly take on much larger creatures.
-</comments></monster><monster name="Wolf"><details><habitat> Woods</habitat><frequency> Uncommon</frequency><number> 2-24 (6)
+</comments></monster><monster name="Wolf">&null;<details><habitat> Woods</habitat><frequency> Uncommon</frequency><number> 2-24 (6)
 </number><description> The color of wolves' fur varies greatly with
 environment, but they will usually be colored so as to blend in with
 their surroundings. The thickness of the fur depends on the season.
@@ -427,7 +431,7 @@ their surroundings. The thickness of the fur depends on the season.
 not tool users. Wolves have incredible stamina, however, and can run
 for literally days at a time.
 </talents><weapons> Wolves Melee Attack with their bite. (Base Chance of
-60%, [D + 1] Damage). In Close Combat, damage from biting goes
+60&percnt;, [D + 1] Damage). In Close Combat, damage from biting goes
 up to [D + 3].
 </weapons><movement> All-out Run: 400; Steady Run: 250
 </movement></details><stats><ps> 10-12   </ps><md> 18-20</md><ag> 18-20</ag><ma> None</ma><en> 15-20</en><ft> 30-35  </ft><wp> 18-22</wp><pc> 20-24</pc><pb> 6-9</pb><tmr> 8</tmr><na> Fur absorbs 3 DP

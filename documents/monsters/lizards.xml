@@ -1,4 +1,8 @@
 <?xml version="1.0"?>
+<!DOCTYPE dqmm [
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+%internal-entities;
+]>
 <dqmm><group name="Lizards, snakes and insects"><class name="Lizards and Kindred"><notes>The following are included in this section: basilisks, crocodiles,
 giant land turtles, gila monsters, hydras, land iguanas, salamanders,
 suarime, and wyverns.  Except for wyverns and suarime, these species
@@ -15,10 +19,10 @@ but does possess the special talent of turning a target to stone with
 a glance.  Anyone who is within 50 feet of the basilisk may be
 attacked in this manner.  The basilisk expends a Fire Action and the
 figure against whom the action is directed undergoes an attack as if
-from a Thrown Weapon (BC of 60%). A basilisk breathes a cone of
+from a Thrown Weapon (BC of 60&percnt;). A basilisk breathes a cone of
 poison gas 5 feet by 3 feet wide as its base.
 </talents><weapons> The basilisk does not use weapons, but may bite (Base Chance
-of 40%, Damage + 3) during Close Combat and may use its gaze in
+of 40&percnt;, Damage + 3) during Close Combat and may use its gaze in
 Ranged, Melee and Close Combat and breath in Melee or Close Combat.
 Any hit scored with its breath does D + 10 Damage due to poisoning
 (not absorbed by armour or shields). If a basilisk's gaze is reflected
@@ -35,8 +39,8 @@ scales are a very dark greenish-brown that blends in well with the
 muddy water that they love to inhabit.
 </description><talents>Crocodiles have no special talents, skills or magic.
 </talents><weapons> Crocodiles cannot attack except in Close Combat and they
-attack with two claws (Base Chance of 50%, [D - 6] Damage) and
-their bite (Base Chance of 10%, [D + 1] Damage).
+attack with two claws (Base Chance of 50&percnt;, [D - 6] Damage) and
+their bite (Base Chance of 10&percnt;, [D + 1] Damage).
 
 </weapons><movement> Running: 50; Swimming: 150
 </movement></details><stats><ps> 17-19</ps><md> 5-8</md><ag> 7-9</ag><ma> None</ma><en> 7-9</en><ft> 15-18</ft><wp> 7-9</wp><pc> 8-10</pc><pb> 7-9</pb><tmr> 1/3</tmr><na> Scales absorb 6 DP
@@ -54,10 +58,10 @@ long, and weigh about 700 pounds.
 </description><talents> Giant Land Turtles can withdraw their head, tail, and limbs
 inside their shell in times of danger.  They have no magical or other
 special abilities.  If the Turtle is not withdrawn into its shell,
-there is a 80% chance that any blow will strike the shell anyway. If
+there is a 80&percnt; chance that any blow will strike the shell anyway. If
 the turtle is inside its shell, all strikes will be softened by the
 shell.</talents><weapons> The Land Turtle can only attack by biting in Close
-Combat. Its Base Chance is 25% and its Damage is [D - 2].
+Combat. Its Base Chance is 25&percnt; and its Damage is [D - 2].
 </weapons><movement> Running or Swimming: 100
 </movement></details><stats><ps> 20-25</ps><md> None</md><ag> 5-7</ag><ma> None</ma><en> 15-17</en><ft> 22-24</ft><wp> 10-11</wp><pc> 13-15</pc><pb> 7-9</pb><tmr> 2</tmr><na> Shell absorbs 8 DP
 </na></stats><comments> Despite their name, land turtles spend much of their time
@@ -70,7 +74,7 @@ limbs and a striped stubby tail.
 </description><talents> The gila monster has no special talents, skills, or magic.
 </talents><weapons> Gila monsters can bite in Close Combat, but they cannot
 attack in Ranged or Melee Combat.  The Base Chance for their bite is
-50%, and it does [D - 3] Damage.  If the bite penetrates any
+50&percnt;, and it does [D - 3] Damage.  If the bite penetrates any
 armour that might be worn to do actual damage to Fatigue or Endurance,
 the target takes 2 DP per pulse (not absorbed by armour) for the next
 D10 pulses, or until an antidote to the Gila monster's poison is
@@ -83,7 +87,7 @@ long, and have thick green scales.  Hydras also have a foul smell and
 venomous breath.  Hydras are four-hex creatures.
 </description><talents> If a hydra is hit in combat for four or more points of
 damage (after subtracting for the defensive benefits of the hydra's
-scales) there is a 70% chance that one of the hydra's heads has been
+scales) there is a 70&percnt; chance that one of the hydra's heads has been
 destroyed.  Two pulses after a head is destroyed, two more grow back,
 and on the beginning of the next pulse after that they can attack in
 combat. One of the hydra's original nine heads will be immortal.  This
@@ -99,7 +103,7 @@ points at the end of a battle than before). In any event, if a hydra's
 Endurance is ever reduced to zero or below, all of the heads die
 except the immortal one mentioned above.</talents><weapons> A hydra can attack once with each of its heads.  Up to six
 heads can attack without penalty in either Close or Melee Combat.  The
-Base Chance for one of a hydra's heads is 55%, and each bite
+Base Chance for one of a hydra's heads is 55&percnt;, and each bite
 does [D + 2] Damage.  In addition, if a bite penetrates target's
 armour to do damage to Fatigue or Endurance, the target takes 5 DP per
 pulse for the next D10 pulses due to the hydra's poison, which is
@@ -120,7 +124,7 @@ their neck.  Giant iguanas may up to 3 times normal size and have
 double or triple PS, EN, and FT.
 </description><talents> Iguanas have no magical abilities or special talents.
 </talents><weapons> Iguanas can only attack in Close Combat.  They get one
-attack with their bite, which has a Base Chance of 50%, and does
+attack with their bite, which has a Base Chance of 50&percnt;, and does
 [D + 4] Damage.
 </weapons><movement> Crawling: 250
 </movement></details><stats><ps> 9-11</ps><md> None</md><ag> 14-16</ag><ma> None</ma><en> 4-6</en><ft> 8-10</ft><wp> 6-8</wp><pc> 10-12</pc><pb> 6-8</pb><tmr> 5</tmr><na> Hide absorbs 3 DP
@@ -136,7 +140,7 @@ can be resisted, and only one creature can be stared at at any one
 time.  Treat the gaze as a Fire action on the Tactical Display.
 </talents><weapons> A salamander can use its gaze in Close, Ranged, and Melee
 Combat (range: 200 feet).  In addition, a salamander can make a bite
-attack in Close Combat with a Base Chance of 40%, doing [D + 2]
+attack in Close Combat with a Base Chance of 40&percnt;, doing [D + 2]
 Damage.
 
 </weapons><movement> Running: 350
@@ -152,13 +156,13 @@ are about 7 feet tall, and are greenish-yellow in colour.
 </description><talents> Suarime can fight normally under water, but they must come
 up for air eventually, although they can hold their breath for periods
 of more than 5 minutes.  They have their own language, but will rarely
-(5%) speak anything comprehensible to men. They do not normally
+(5&percnt;) speak anything comprehensible to men. They do not normally
 use magic, although intelligence varies widely.
 </talents><weapons> Lizard men generally use simple weapons like spears or
 clubs. The larger the weapon, the more the suarime prefer it as they
 greatly enjoy using their strength to the utmost.  Suarime will use
 shields if they find them or capture them.  Their claws have a Base
-Chance of 35% of doing [D + 1] Damage.
+Chance of 35&percnt; of doing [D + 1] Damage.
 
 </weapons><movement> Swimming: 300; Running: 100
 </movement></details><stats><ps> 23-26</ps><md> 8-11</md><ag> 8-12</ag><ma> 10-15</ma><en> 14-16</en><ft> 20-24</ft><wp> 14-18</wp><pc> 10-14</pc><pb> 8-11</pb><tmr> 6/2</tmr><na> Scales absorb 6 DP
@@ -178,9 +182,9 @@ sting which may be used to infect a target in the hex the wyvern is
 facing with poison (the sting is used in an over-the-head-attack). It
 may not be used to attack characters behind it.
 </talents><weapons> In addition to its tail which may be used in Melee (Base
-Chance of 45%, quick-acting poison instead of Damage, no Rank)
+Chance of 45&percnt;, quick-acting poison instead of Damage, no Rank)
 the wyvern may bite in Melee and Close Combat (Base Chance of
-40% Damage of [D + 4], no Rank).  A wyvern may not sting and
+40&percnt; Damage of [D + 4], no Rank).  A wyvern may not sting and
 bite in the same pulse.  A wyvern can attempt to knock down a
 character in his rear hex using his tail.  This type of attack is
 executed like a Shield Attack.
@@ -198,7 +202,7 @@ prey and will usually strike only from ambush or if startled.
 head, flattened towards the rear, and a short, thin tail.
 </description><talents> Asps have no talents, skills or magic.
 </talents><weapons> The asp can only attack in Close Combat (Base Chance of
-65%, [D - 3] Damage). If they do any effective damage, the
+65&percnt;, [D - 3] Damage). If they do any effective damage, the
 damage is not scored against their victim but rather they suffer 2 DP
 per pulse until they take an antidote to the venom.
 </weapons><movement>  Crawling: 150
@@ -213,10 +217,10 @@ its back. The king cobra is the mortal enemy of the mongoose.
 </description><talents> Cobras possess no talents, skills or magic.
 </talents><weapons> Despite its size, the king cobra cannot attack unless it is
 in Close Combat. In Close Combat it attacks via its bite (Base Chance
-of 75 %, + 4 Damage). Damage done does not count, but if any actual
+of 75 &percnt;, + 4 Damage). Damage done does not count, but if any actual
 damage would have been inflicted, the victim is poisoned, and suffers
 2 DP per Pulse, as per nerve venom.
-</weapons><movement>  Crawling: 200</movement></details><stats><ps> 20-25</ps><md> None</md><ag> 15-18</ag><ma> None</ma><en> 12-14</en><ft> 15-20</ft><wp> 14-18</wp><pc> 12-17</pc><tmr> 4</tmr><pb> 7-9</pb><na> None
+</weapons><movement>  Crawling: 200</movement></details><stats><ps> 20-25</ps><md> None</md><ag> 15-18</ag><ma> None</ma><en> 12-14</en><ft> 15-20</ft><wp> 14-18</wp><pc> 12-17</pc><pb> 7-9</pb><tmr> 4</tmr><na> None
 </na></stats></monster><monster name="Mamba"><details><habitat> Woods, Marsh</habitat><frequency> Rare</frequency><number> 1-4 (1)
 </number><description>  These snakes are not very large (less than 3 feet),
 but their poison fangs grow to great size. They come in either
@@ -224,7 +228,7 @@ green or black, with the former a forest species, and the latter a
 marsh snake.
 </description><talents> Mambas possess no talents, skills or magic.
 </talents><weapons> The mamba cannot attack in Melee Combat. In Close Combat it
-can bite (Base Chance 50%, - 2 Damage).  Damage is only used to
+can bite (Base Chance 50&percnt;, - 2 Damage).  Damage is only used to
 determine if the snake did in fact penetrate armour with its fangs for
 the purpose of injecting its poison. Mamba poison is among the most
 deadly found in nature: a victim takes 4 DP per Pulse until an
@@ -235,23 +239,23 @@ length of 33 feet.
 </description><talents> The Python can climb trees (large ones) although slowly. It
 has no magical abilities, skills or talents.
 </talents><weapons> Pythons may only attack in Close Combat. Pythons attack by
-biting (Base Chance of 65%, + 6 Damage). If the bite penetrates
+biting (Base Chance of 65&percnt;, + 6 Damage). If the bite penetrates
 armour, it hangs on, and at the next opportunity wraps it self around
-its adversary, crushing the life out of it.  Wrap: Base Chance of 80%,
+its adversary, crushing the life out of it.  Wrap: Base Chance of 80&percnt;,
 + 8 Damage per Pulse the snake squeezes, no roll needed to hit once
 initial squeeze has been made. Once the snake is squeezing, it can no
 longer bite until it has squeezed its prey to death.
 </weapons><movement>  Crawling: 150
-</movement></details><stats><ps> 45-50</ps><md> None</md><ag> 8-12</ag><ma> None</ma><en> 25-30</en><ft> 30-35</ft><wp> 12-16</wp><pc> 14-18</pc><tmr> 3</tmr><pb> 6-9</pb><na> Scales absorb 3 DP</na></stats></monster><monster name="Spitting naja"><details><habitat> Rough, Woods</habitat><frequency> Rare</frequency><number> 1-2 (1)
+</movement></details><stats><ps> 45-50</ps><md> None</md><ag> 8-12</ag><ma> None</ma><en> 25-30</en><ft> 30-35</ft><wp> 12-16</wp><pc> 14-18</pc><pb> 6-9</pb><tmr> 3</tmr><na> Scales absorb 3 DP</na></stats></monster><monster name="Spitting naja"><details><habitat> Rough, Woods</habitat><frequency> Rare</frequency><number> 1-2 (1)
 </number><description> The spitting naja is a form of Cobra, without the hood,
 but with the ability-to spit their venom. Their scales are usually
 dark brown in colour.
 </description><talents> The spitting naja possesses no talents, skills or magic.
 </talents><weapons> In Melee Combat, spitting najas can only spit (Base Chance
-of 40%), If they hit, (aiming at the eye) the person hit is blinded
+of 40&percnt;), If they hit, (aiming at the eye) the person hit is blinded
 until the eye is thoroughly washed. Unless the eye is washed
 promptly, the blindness becomes permanent. In Close Combat, the naja
-gets a bite (Base Chance of 65%, - 2 Damage for purposes of armour
+gets a bite (Base Chance of 65&percnt;, - 2 Damage for purposes of armour
 penetration). The bite's damage is not actually sustained, but is
 rather used to determine if the snake has penetrated armour so as to
 allow its venom to work. The venom does 1 DP per Pulse (in addition to
@@ -267,24 +271,24 @@ legs and a red hourglass marking on their backs. They are 2-3 inches
 long.
 </description><talents> Black widows have no special talents, skills or magical
 abilities. They are not tool users, but they do spin webs.</talents><weapons> A Black Widow spider can only attack in Close Combat, using
-its bite with a Base Chance of 30%. If a hit is indicated, do not
+its bite with a Base Chance of 30&percnt;. If a hit is indicated, do not
 check for damage, but instead follow this procedure: Roll D10; if the
 die roll is greater than the bitten creature's Armour Protection
 Rating, then the creature has been bitten and suffers the effects of
 the spider's poison: otherwise there is no effect. A black widow's
 poison does 3 DP/Pulse for D10 Pulses until an antidote is applied.
 </weapons><movement>  Running: 75
-</movement></details><stats><ps> 1</ps><md> None</md><ag> 18-20</ag><ma> None</ma><ft> None</ft><wp> 4-6</wp><en> 1</en><pc> 10-12</pc><pb> 3-5</pb><tmr> 1</tmr><na> None</na></stats></monster><monster name="Fire ant"><details><habitat> Plains</habitat><frequency> Uncommon</frequency><number>  500-5000 (500)
+</movement></details><stats><ps> 1</ps><md> None</md><ag> 18-20</ag><ma> None</ma><en> 1</en><ft> None</ft><wp> 4-6</wp><pc> 10-12</pc><pb> 3-5</pb><tmr> 1</tmr><na> None</na></stats></monster><monster name="Fire ant"><details><habitat> Plains</habitat><frequency> Uncommon</frequency><number>  500-5000 (500)
 </number><description> A Fire Ant is a bright red ant about 2 inches long.
 </description><talents> Fire Ants have no magic, skills, talents or other special
 abilities. They are not tool users, but they will use twigs and leaves
 to cross bodies of water.
 </talents><weapons>A Fire Ant can only attack in Close Combat. It bites with a Base
-Chance of 25%. If the bite hits, roll D10. If the number rolled
+Chance of 25&percnt;. If the bite hits, roll D10. If the number rolled
 is more than the bitten character's Armour Protection Rating, the
 character takes 2 DP. Otherwise there is no effect.
 </weapons><movement>  Running: 150
-</movement></details><stats><ps> 1  </ps><md> None</md><ag> 11-13</ag><ma> None</ma><wp> 5-7</wp><en> 1</en><ft> None </ft><pc> 10-12</pc><pb> 2-4</pb><tmr> 3</tmr><na> None
+</movement></details><stats><ps> 1  </ps><md> None</md><ag> 11-13</ag><ma> None</ma><en> 1</en><ft> None </ft><wp> 5-7</wp><pc> 10-12</pc><pb> 2-4</pb><tmr> 3</tmr><na> None
 </na></stats><comments> Fire Ants tend to form into columns that eat through
 anything in their way. These insects dislike the smell of oil, and if
 it is put in the ants' path, they will go around it if possible.
@@ -294,7 +298,7 @@ about an inch and a half long.
 </description><talents> Killer bees have no magic abilities or special talents or
 skills. They are not tool users, but do build hives.
 </talents><weapons>Killer bees can only attack in Close Combat in which they can sting
-with a Base Chance of 50%. If a bee succeeds in stinging roll
+with a Base Chance of 50&percnt;. If a bee succeeds in stinging roll
 D10. If the roll is more than the armour protection rating of the stung
 character, the character takes D-6 Damage (not absorbed by armour). As
 soon as a bee hits a character (not necessarily penetrating armour via
@@ -305,13 +309,13 @@ long. The most prominent feature of a scorpion is its tail, which
 stretches over its back.
 </description><talents> Scorpions have no special talents, skills or magic.
 </talents><weapons>A Scorpion can only attack in Close Combat, in which it uses its tail
-with a Base Chance of 65%. If the tail hits, roll D10. If the
+with a Base Chance of 65&percnt;. If the tail hits, roll D10. If the
 die roll is more than the Armour Protection Rating of the character
 stung, the character takes 4 DP / Pulse for D5 Pulses, or until an
 antidote is applied.
 
-</weapons><movement>  Crawling: 150</movement></details><stats><ps> 1</ps><md> None</md><ag> 18-20</ag><ma> None</ma><wp> 8-10</wp><en> 1</en><ft> 1</ft><pc> 11-13</pc><pb> 4-5</pb><tmr> 3</tmr><na> None
-</na></stats><comments> An alchemist can use a Scorpion's tail to distill poison,
+</weapons><movement>  Crawling: 150</movement></details><stats><ps> 1</ps><md> None</md><ag> 18-20</ag><ma> None</ma><en> 1</en><ft> 1</ft><wp> 8-10</wp><pc> 11-13</pc><pb> 4-5</pb><tmr> 3</tmr><na> None
+&null;</na></stats><comments> An alchemist can use a Scorpion's tail to distill poison,
 and so a scorpion can be sold for about 50 Silver Pennies in a major
 town.
 </comments></monster><monster name="Tarantula"><details><habitat> Waste</habitat><frequency> Rare</frequency><number>  1-6 (1)
@@ -320,7 +324,7 @@ across.
 </description><talents> Tarantulas have no special talents, skills, or magic
 abilities. They do not tool users and do not build webs.
 </talents><weapons>Tarantulas only attack in Close Combat, biting with a Base Chance of
-25%. If a creature is bitten, roll D10, and if the roll is
+25&percnt;. If a creature is bitten, roll D10, and if the roll is
 greater than or equal to the bitten creature's Armour Protection
 Rating, the creature suffers D-4 Damage due to the tarantula's poison.
 </weapons><movement>  Running: 75</movement></details><stats><ps> 1</ps><md> None</md><ag> 16-18</ag><ma> None</ma><en> 1 </en><ft> None</ft><wp> 4-6</wp><pc> 9-11</pc><pb> 2-4</pb><tmr> 1</tmr><na> None

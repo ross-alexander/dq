@@ -242,8 +242,8 @@ claws and once with beak in the same pulse.
 <AG> 15-20
 <MA> 6-9
 <EN> 25-30
-<WP> 12-16
 <FT> 30-35
+<WP> 12-16
 <PC> 16-22
 <PB> 0-5
 <TMR> 4/10
@@ -271,7 +271,7 @@ tremendous amount of noise flying, and have a horrible smell.
 <talents> Harpies can speak, but have limited magical abilities and no
 special skills or talents. They are occasionally prophetic, although
 they will only speak a prophecy if it is evil and they wish to torment
-  the listener.
+the listener.
 
 <weapons> Unless cornered, harpies do not fight man. If they do fight,
 they have their long talons (Base Chance of 70&percnt, [D + 5] Damage)
@@ -285,8 +285,8 @@ Combat in the same pulse at no penalty to the harpy.
 <AG> 26-30
 <MA> 13-17
 <EN> 8-10
-<WP> 17-20
 <FT> 14-19
+<WP> 17-20
 <PC> 10-16
 <PB> 2-6
 <TMR> 10/1
@@ -323,8 +323,8 @@ Chance on its bite is reduced to 35&percnt;.
 <AG> 16-19
 <MA> None
 <EN> 15-18
-<WP> 12-17
 <FT> 25-30  
+<WP> 12-17
 <PC> 17-20
 <PB> 8-11
 <TMR> 4/8
@@ -361,8 +361,8 @@ flying ability. They are not magic or tool users.
 <AG> 15-18
 <MA> None
 <EN> 25-30
-<WP> 19-23
 <FT> 50-60  
+<WP> 19-23
 <PC> 16-20
 <PB> 16-20
 <TMR> 6/10

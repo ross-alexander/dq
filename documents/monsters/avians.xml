@@ -1,4 +1,8 @@
 <?xml version="1.0"?>
+<!DOCTYPE dqmm [
+<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
+%internal-entities;
+]>
 <dqmm><group name="Avians"><class name="Common Avians"><notes> Common avians include buzzards, eagles, goshawks, owls.
 </notes><monster name="Buzzard"><details><habitat> Plains, waste</habitat><frequency> Common</frequency><number> 1-60 (10)
 </number><description> These birds have dark brown plummage and thin,
@@ -10,8 +14,8 @@ buzzard descends for a meal, others soon follow. Except for their keen
 eyesight, buzzards possess no special talents, skills or magic. They
 are not tool users.
 </talents><weapons> A buzzard attacks in Close Combat with its claws and
-beak. The claws' Base Chance is 45%, for [D - 5] Damage, while
-the bite's Base Chance is 40%, for [D - 6] Damage. A buzzard
+beak. The claws' Base Chance is 45&percnt;, for [D - 5] Damage, while
+the bite's Base Chance is 40&percnt;, for [D - 6] Damage. A buzzard
 cannot attack in Melee Combat.
 </weapons><movement>  Flying: 600
 </movement></details><stats><ps> 3-5</ps><md> 15-17</md><ag> 14-16</ag><ma> None</ma><en> 6-7</en><ft> 9-11</ft><wp> 8-10</wp><pc> 17-20</pc><pb> 8-10</pb><tmr> 12</tmr><na> Feathers absorb 1 DP</na></stats></monster><monster name="Eagle"><details><habitat> Rough (usually mountainous)</habitat><frequency> uncommon</frequency><number> 1-20 (1)
@@ -21,8 +25,8 @@ except around neck and head (which is white).
 </description><talents> Eagles have no special talents or skills. They are not magic
 users and do not use tools. They do have keen eyesight.
 </talents><weapons> Eagles can attack only in Close Combat with either beak
-(Base Chance of 50% of doing [D - 1] Damage) or 2 talons (Base
-Chance of 70% of doing [D + 1] Damage) without penalty in the
+(Base Chance of 50&percnt; of doing [D - 1] Damage) or 2 talons (Base
+Chance of 70&percnt; of doing [D + 1] Damage) without penalty in the
 same Pulse. An eagle may achieve Ranks 1-3 with beak and 1-2 with
 talons.
 </weapons><movement>  Flying: 1200</movement></details><stats><ps> 12-16</ps><md> 22-24</md><ag> 19-23</ag><ma> None</ma><en> 9-12   </en><ft> 17-20</ft><wp> 11-13</wp><pc> 20-24</pc><pb> 10-12</pb><tmr> 24</tmr><na> Feathers absorb 2 DP
@@ -38,8 +42,8 @@ black. The sharp beak and claws are black.
 special talents, skills, or magical abilities and are not tool users.
 </talents><weapons> In Close Combat, a Goshawk can attack with two claws and its
 beak in the same Pulse without penalty. The claw attacks have a Base
-Chance of 80% and do [D - 3] Damage, while the beak attack has a Base
-Chance of 65% and does [D - 4] Damage. The goshawk cannot attack in Melee
+Chance of 80&percnt; and do [D - 3] Damage, while the beak attack has a Base
+Chance of 65&percnt; and does [D - 4] Damage. The goshawk cannot attack in Melee
 Combat.
 </weapons><movement> Flying: 1100</movement></details><stats><ps> 4-6</ps><md> 18-20</md><ag> 20-22</ag><ma> None</ma><en> 6-7</en><ft> 9-11</ft><wp> 8-10</wp><pc> 20-21</pc><pb> 10-12</pb><tmr> 22</tmr><na> Feathers absorb 1 DP
 </na></stats><comments> Like the other birds of prey, the goshawk can be trained to
@@ -58,8 +62,8 @@ and they tend to have large, dark rings around the eyes.
 excellent hearing. They have no magical abilities, skills or talents
 and are not tool users.
 </talents><weapons> In Close Combat, Owls can attack with onc bite (Base Chance
-of 55% and Damage [D - 6]) and two claws (Base Chance of
-50% and [D - 7] Damage) in the same Pulse without penalty. Owls
+of 55&percnt; and Damage [D - 6]) and two claws (Base Chance of
+50&percnt; and [D - 7] Damage) in the same Pulse without penalty. Owls
 cannot attack in Melee Combat.
 </weapons><movement>  Flying: 600</movement></details><stats><ps> 3-4</ps><md> 18-20</md><ag> 22-24</ag><ma> None</ma><en> 3-4</en><ft> 5-7 </ft><wp> 7-9</wp><pc> 20-22</pc><pb> 9-11</pb><tmr> 12</tmr><na> Feathers absorb 1 DP
 </na></stats><comments> Owls are primarily nocturnal predators, hunting small
@@ -77,8 +81,8 @@ weapons.
 </talents><weapons> A gargoyle can use his horn, his claws, and his bite in
 Melee and Close Combat. In any one Pulse, he may make up to two strike
 attempts with any combinations of these weapons.  Base Chance for the
-bite is 45%, [D + 2] Damage; Base Chance for the horn is
-35%, [D + 1] Damage; Base Chance for the claws is 50%, [D
+bite is 45&percnt;, [D + 2] Damage; Base Chance for the horn is
+35&percnt;, [D + 1] Damage; Base Chance for the claws is 50&percnt;, [D
 - 3] Damage. Gargoyles sometimes (but not often) will use weapons
 (instead of claws).
 </weapons><movement>  Flying:400; Running: 200</movement></details><stats><ps> 14-20</ps><md> 13-18</md><ag> 12-16</ag><ma> 10-12</ma><en> 7-10</en><ft> 18-20</ft><wp> 9-13 </wp><pc> 12-16</pc><pb> 2-5</pb><tmr> 8</tmr><na>  Hide absorbs 8 DP
@@ -96,18 +100,18 @@ valuable (4000 - 6000 Silver Pennies apiece).
 </description><talents> Gryphons have no special skills or magical abilities, but
 their special talent is locating buried treasure and their nest will
 quite often be built near such treasure which they will actively
-guard. A ``domesticated'' gryphon has a Base Chance of 60% of
+guard. A ``domesticated'' gryphon has a Base Chance of 60&percnt; of
 locating any buried treasure within a radius of 250 feet of
 it. Gryphons make valuable steeds, once tamed.
 </talents><weapons> The gryphon is not a toot user, but has natural weapons in
 the form of beak (useable in Melee and Close Combat with a Base Chance
-of 65%, [D + 5] Damage, possible Rank of 1-3) and claws (useable
-in Melee and Close Combat with a Base Chance of 60%, Damage of
+of 65&percnt;, [D + 5] Damage, possible Rank of 1-3) and claws (useable
+in Melee and Close Combat with a Base Chance of 60&percnt;, Damage of
 [D + 5], possible Rank of 1-4). The gryphon may attack twice with
 claws and once with beak in the same pulse.
 
 </weapons><movement> Running: 200; Flying: 500
-</movement></details><stats><ps> 30-36</ps><md> 15-20</md><ag> 15-20</ag><ma> 6-9</ma><en> 25-30</en><wp> 12-16</wp><ft> 30-35</ft><pc> 16-22</pc><pb> 0-5</pb><tmr> 4/10</tmr><na> Hide absorbs 6 DP
+</movement></details><stats><ps> 30-36</ps><md> 15-20</md><ag> 15-20</ag><ma> 6-9</ma><en> 25-30</en><ft> 30-35</ft><wp> 12-16</wp><pc> 16-22</pc><pb> 0-5</pb><tmr> 4/10</tmr><na> Hide absorbs 6 DP
 </na></stats><comments> Gryphons prefer solitude and will fly away when approached
 if possible, but will always chase and attack horses (whose flesh they
 prize). They are extremely valuable for use as mounts and cost
@@ -123,11 +127,11 @@ special skills or talents. They are occasionally prophetic, although
 they will only speak a prophecy if it is evil and they wish to torment
 the listener.
 </talents><weapons> Unless cornered, harpies do not fight man. If they do fight,
-they have their long talons (Base Chance of 70%, [D + 5] Damage)
+they have their long talons (Base Chance of 70&percnt;, [D + 5] Damage)
 to strike with, both of which can strike twice in Melee or Close
 Combat in the same pulse at no penalty to the harpy.
 
-</weapons><movement> Flying: 500; Running: 50</movement></details><stats><ps> 14-20</ps><md> 22-26</md><ag> 26-30</ag><ma> 13-17</ma><en> 8-10</en><wp> 17-20</wp><ft> 14-19</ft><pc> 10-16</pc><pb> 2-6</pb><tmr> 10/1</tmr><na> Feathers absorb 7 DP</na></stats></monster><monster name="Hippogriff"><details><habitat> Rough (especially mountains)</habitat><frequency> Very Rare</frequency><number> 1-12 (2)
+</weapons><movement> Flying: 500; Running: 50</movement></details><stats><ps> 14-20</ps><md> 22-26</md><ag> 26-30</ag><ma> 13-17</ma><en> 8-10</en><ft> 14-19</ft><wp> 17-20</wp><pc> 10-16</pc><pb> 2-6</pb><tmr> 10/1</tmr><na> Feathers absorb 7 DP</na></stats></monster><monster name="Hippogriff"><details><habitat> Rough (especially mountains)</habitat><frequency> Very Rare</frequency><number> 1-12 (2)
 </number><description> Hippogriffs are similar to Pegasi in that they are
 basically winged horses, but their head is that of some great bird of
 prey, with a fearsome beak. The head differs from that of an eagle in
@@ -138,12 +142,12 @@ bird of prey, with huge talons and feathers.
 abilities, talents or skills, and are not tool users.
 </talents><weapons> In Melee Combat, the hippogriff can attack with two claws
 and one bite in the same pulse with no penalty. The bite has a Base
-Chance of 65% and does [D + 4] Damage, while the claws have a
-Base Chance of 55% and do [D + 2] Damage. In Close Combat, the
+Chance of 65&percnt; and does [D + 4] Damage, while the claws have a
+Base Chance of 55&percnt; and do [D + 2] Damage. In Close Combat, the
 hippogriff can still attack with its claws normally, but the Base
-Chance on its bite is reduced to 35%.
+Chance on its bite is reduced to 35&percnt;.
 </weapons><movement>  Running: 200; Flying: 400
-</movement></details><stats><ps> 18-20</ps><md> 19-22</md><ag> 16-19</ag><ma> None</ma><en> 15-18</en><wp> 12-17</wp><ft> 25-30  </ft><pc> 17-20</pc><pb> 8-11</pb><tmr> 4/8</tmr><na> Hide absorbs 4 DP
+</movement></details><stats><ps> 18-20</ps><md> 19-22</md><ag> 16-19</ag><ma> None</ma><en> 15-18</en><ft> 25-30  </ft><wp> 12-17</wp><pc> 17-20</pc><pb> 8-11</pb><tmr> 4/8</tmr><na> Hide absorbs 4 DP
 </na></stats><comments> Hippogriff do not like people, and generally shun any area
 that is habitated. They are trainable with difficulty.  Their value is
 3,000-4,000 Silver Pennies untrained and 3 times that price
@@ -158,7 +162,7 @@ equines and can sometimes speak the common tongue.
 flying ability. They are not magic or tool users.
 </talents><weapons> In battle, a pegasus attacks as a heavy warhorse.
 </weapons><movement> Running: 300; Flying: 500
-</movement></details><stats><ps> 55-60</ps><md> 15-17</md><ag> 15-18</ag><ma> None</ma><en> 25-30</en><wp> 19-23</wp><ft> 50-60  </ft><pc> 16-20</pc><pb> 16-20</pb><tmr> 6/10</tmr><na>  Hide absorbs 3 DP
+</movement></details><stats><ps> 55-60</ps><md> 15-17</md><ag> 15-18</ag><ma> None</ma><en> 25-30</en><ft> 50-60  </ft><wp> 19-23</wp><pc> 16-20</pc><pb> 16-20</pb><tmr> 6/10</tmr><na>  Hide absorbs 3 DP
 </na></stats><comments> Wild pegasi are tameable with difficulty. They will only
 allow themselves to be bridled with gold, however. They can carry up
 to 300 pounds flying. They are worth, 4,000 to 5,000 Silver Pennies
@@ -174,8 +178,8 @@ ability of the Phoenix is its ability to reproduce itself (see
 ``Comments''). Other than that it has no special talents or skills.
 </talents><weapons> Phoenix cannot attack except in Close Combat when they can
 make three attacks in one Pulse without penalty: one with beak (Base
-Chance of 60%, [D + 8] Damage) and two with talons (Base Chance
-of 65%, [D + 6] Damage).
+Chance of 60&percnt;, [D + 8] Damage) and two with talons (Base Chance
+of 65&percnt;, [D + 6] Damage).
 
 </weapons><movement>  Flying: 2000</movement></details><stats><ps> 17-20</ps><md> 20-24</md><ag> 17-20</ag><ma> None</ma><en> 18-24</en><ft> 30-35</ft><wp> 20-23</wp><pc> 16-20   </pc><pb> 20-24</pb><tmr> 40</tmr><na> Feathers absorb 6 DP
 </na></stats><comments> Phoenix are famed for their longevity and their method of
@@ -195,8 +199,8 @@ tool users.
 </talents><weapons> Rocs are fearsome creatures in battle. They can engage in
 Melee Combat from a range of 3 hexes, and they can take three attacks
 in one Pulse without penalty. They attack once with a bite (Base
-Chance of 75%,[D + 20] Damage) and twice with claws (Base Chance
-70%, [D + 25] Damage).
+Chance of 75&percnt;,[D + 20] Damage) and twice with claws (Base Chance
+70&percnt;, [D + 25] Damage).
 
 </weapons><movement>  Flying: 2000</movement></details><stats><ps> 200-300</ps><md> 20-25</md><ag> 16-20</ag><ma> None</ma><en> 150-200</en><ft> 250-300  </ft><wp> 16-20</wp><pc> 17-21</pc><pb> 3-7</pb><tmr> 40</tmr><na> Feathers absorb 8 DP
 </na></stats><comments> Rocs often swoop down from their nests to pick up
