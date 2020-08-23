@@ -5,11 +5,12 @@
 %% Leslie Lamport. 
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{dq}[2020/04/13 v1.1 DQ style file]
+\ProvidesPackage{dq}[2014/11/07 v0.4 DQ style file]
 
 % \RequirePackage{fixltx2e}
 \RequirePackage{ifpdf}
 % \RequirePackage[TU]{fontenc}
+\RequirePackage{fontspec}
 \RequirePackage{ifthen}
 %% \RequirePackage{mathptmx}
 \RequirePackage{multicol}
@@ -19,13 +20,8 @@
 \RequirePackage{textcomp}
 \RequirePackage{float}
 \RequirePackage{geometry}
-\RequirePackage{ifxetex}
 
-\ifxetex
-  \RequirePackage{fontspec}
-\fi
-
-\typeout{DQ Rules style sheet, version 0.5 <12 April 2020>}
+%% \typeout{DQ Rules style sheet, version 0.4 <7 Nov 2014>}
 
 %% \RequirePackage{libertine}
 
@@ -46,15 +42,10 @@
 }
 
 \DeclareOption{times}{
-  \ifxetex
-    \newfontfamily\fstimes[NFSSFamily=ptm]{Nimbus Roman No9}
-    \newfontfamily\fshelvetica[NFSSFamily=phv]{Nimbus Sans}
-  \else
-    \renewcommand{\encodingdefault}{T1}
-    \renewcommand{\rmdefault}{ptm}
-    \renewcommand{\sfdefault}{phv}
-  \fi
- 
+  \renewcommand{\encodingdefault}{T1}
+  \renewcommand{\rmdefault}{ptm}
+  \renewcommand{\sfdefault}{phv}
+
 %%  \renewcommand{\scriptsize}{\fontfamily{\rmdefault}\fontsize{6}{7pt}\selectfont}
 %%  \renewcommand{\small}{\fontfamily{\rmdefault}\fontsize{7}{8pt}\selectfont}
 %%  \renewcommand{\normalsize}{\fontfamily{\rmdefault}\fontsize{8}{9.0pt}\selectfont}
@@ -76,13 +67,13 @@
 \ProcessOptions
 
 
-\renewcommand{\scriptsize}{\fontfamily{\rmdefault}\fontsize{6}{7pt}\selectfont}
-\renewcommand{\small}{\fontfamily{\rmdefault}\fontsize{7}{8pt}\selectfont}
-\renewcommand{\normalsize}{\fontfamily{\rmdefault}\fontsize{8}{9.5pt}\selectfont}
-\renewcommand{\large}{\fontfamily{\sfdefault}\fontsize{10}{11pt}\selectfont}
-\renewcommand{\Large}{\fontfamily{\sfdefault}\fontsize{14}{15pt}\selectfont}
-\renewcommand{\huge}{\fontfamily{\sfdefault}\fontsize{18}{20pt}\selectfont}
-\renewcommand{\Huge}{\fontfamily{\rmdefault}\fontsize{24}{24pt}\selectfont}
+  \renewcommand{\scriptsize}{\fontfamily{\rmdefault}\fontsize{6}{7pt}\selectfont}
+  \renewcommand{\small}{\fontfamily{\rmdefault}\fontsize{7}{8pt}\selectfont}
+  \renewcommand{\normalsize}{\fontfamily{\rmdefault}\fontsize{8}{9.5pt}\selectfont}
+  \renewcommand{\large}{\fontfamily{\sfdefault}\fontsize{10}{11pt}\selectfont}
+  \renewcommand{\Large}{\fontfamily{\sfdefault}\fontsize{14}{15pt}\selectfont}
+  \renewcommand{\huge}{\fontfamily{\sfdefault}\fontsize{18}{20pt}\selectfont}
+  \renewcommand{\Huge}{\fontfamily{\rmdefault}\fontsize{24}{24pt}\selectfont}
 
 %% %%% GLOBAL LAYOUT THINGS
 
@@ -244,7 +235,6 @@
 \newenvironment{Itemize}[0]{\begin{itemize}\setlength\itemsep{0pt}}{\end{itemize}}
 \newenvironment{Enumerate}[0]{\begin{enumerate}\setlength\itemsep{0pt}}{\end{enumerate}}
 \newenvironment{Description}[0]{\setlength\leftmargini{0pt}\begin{description}\setlength\itemsep{0pt}}{\end{description}}
-\newenvironment{Chapter}[1]{\chapter{#1}\begin{multicols*}{3}}{\end{multicols*}}
 
 \ifpdf
   \typeout{Using PDF driver}

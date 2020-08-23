@@ -1,29 +1,41 @@
-\RequirePackage{tabularx}
+%% ranking.sty
+%%
+%% Style sheet for DQ ranking.
+%%
+%% Originally written for LaTeX2e with pdflatex it now expects to be run with xelatex or lualatex.
+%%
+%% 2020-06-20: Ross Alexander
+%%    Use geometry for margins
+%%    Set specific fonts for adventure, heading and ranking columns
+
+\usepackage{ifpdf,ifxetex,ifluatex}
+
+\ifxetex
+  \typeout{^^J *** XeTeX mode *** ^^J} 
+  \RequirePackage{fontspec}
+\else
+  \RequirePackage[utf8]{inputenc}
+  \ifpdf
+    \typeout{^^J *** PDF mode *** } 
+  \else
+    \typeout{^^J *** DVI \
+  \fi
+\fi
+
 \RequirePackage{array}
+\RequirePackage[svgnames]{xcolor}
+\RequirePackage{tabularx}
 \RequirePackage{multicol}
 \RequirePackage{fancyhdr}
 \RequirePackage{ifthen}
-
-\usepackage{ifpdf,ifxetex,ifluatex} 
-
-\ifxetex
-    \typeout{^^J *** XeTeX mode *** } 
-    \RequirePackage{fontspec}
-    \else\ifpdf
-        \RequirePackage[utf8]{inputenc}
-        \typeout{^^J *** PDF mode *** } 
-    \else
-        \typeout{^^J *** DVI mode ***} 
-    \fi
-\fi
-    
+\RequirePackage[margin=10mm,top=20mm,bottom=15mm]{geometry}
 
 % \renewcommand{\encodingdefault}{T1}
 
 \DeclareOption{libertine}{
-  \newfontfamily\fslibertine[NFSSFamily=libertine]{Liberation Serif}
-  \newfontfamily\fslibertinemono[NFSSFamily=libertinemono]{Liberation Mono}
-  \newfontfamily\fsbiolinum[NFSSFamily=biolinum]{Liberation Sans}
+  \newfontfamily\fslibertine[NFSSFamily=libertine]{Linux Libertine O}
+  \newfontfamily\fslibertinemono[NFSSFamily=libertinemono]{Linux Libertine Mono O}
+  \newfontfamily\fsbiolinum[NFSSFamily=biolinum]{Linux Biolinum O}
 
   \renewcommand{\rmdefault}{libertine}
   \renewcommand{\sfdefault}{biolinum}
@@ -39,21 +51,35 @@
 
 \ProcessOptions
 
-\renewcommand{\small}{\fontfamily{\rmdefault}\fontsize{7}{8pt}\selectfont}
-\renewcommand{\normalsize}{\fontfamily{\rmdefault}\fontsize{8}{9pt}\selectfont}
-\renewcommand{\large}{\fontfamily{\rmdefault}\fontsize{9}{11pt}\selectfont}
-\renewcommand{\Large}{\fontfamily{\sfdefault}\fontsize{14}{15pt}\selectfont}
-\renewcommand{\huge}{\fontfamily{\sfdefault}\fontsize{18}{20pt}\selectfont}
+\ifxetex
+%%  \setmainfont{Raleway}
+%%  \setsansfont{TeX Gyre Heros}[Scale=MatchLowercase]
+%%  \setmonofont{Inconsolata}[Scale=MatchLowercase]
 
+  \newfontfamily{\headingfont}{TeX Gyre Schola}
+  \newfontfamily{\adventurefont}[Scale=2.4]{KellsFLF}
+  \newfontfamily{\rankingsf}[Scale=0.9,Color=blue]{Raleway}
+  \newfontfamily{\rankingtt}[Scale=0.9,Color=red]{Courier Prime}
+
+%%  \newfontfamily{\myfamily}[NFSSFamily=kells]{KellsFLF}
+  
+%%  \renewcommand{\normalsize}{\fontfamily{kells}\fontsize{6pt}{10pt}\selectfont}
+%%  \renewcommand{\large}{\fontsize{10pt}{12pt}\selectfont}
+%%  \renewcommand{\Large}{\fontfamily{kells}\fontsize{16pt}{20pt}\selectfont}
+%%  \renewcommand{\huge}{\fontfamily{kells}\fontsize{16pt}{20pt}\selectfont}
+\else
+%%  \renewcommand{\small}{\fontfamily{\rmdefault}\fontsize{7}{8pt}\selectfont}
+%%  \renewcommand{\normalsize}{\fontfamily{\rmdefault}\fontsize{8}{9pt}\selectfont}
+%%  \renewcommand{\large}{\fontfamily{\rmdefault}\fontsize{9}{11pt}\selectfont}
+%%  \renewcommand{\Large}{\fontfamily{\sfdefault}\fontsize{14}{15pt}\selectfont}
+%%  \renewcommand{\huge}{\fontfamily{\sfdefault}\fontsize{18}{20pt}\selectfont}
+\fi
 
 %%% GLOBAL LAYOUT THINGS
 
-\setlength\marginparwidth{0.0 in}
-\setlength\parindent{0.0 in}
-\setlength\topmargin{-0.5 in}
-\setlength\textheight{10.25 in}
+\setlength\parindent{0.0 mm}
 
-\addtolength{\parskip}{0.3 em}
+\addtolength{\parskip}{2.0 mm}
 \setlength\headsep{5pt}
 
 \setlength\leftmargini{1.5em}
@@ -61,23 +87,13 @@
 
 \setcounter{tocdepth}{1}
 
-\if@twoside % ``book'' style was chosen
- \oddsidemargin -0.2 in
- \evensidemargin -0.5 in
- \textwidth 7.0 in
-\else % if not book style, then
- \oddsidemargin -0.30 in
- \evensidemargin\oddsidemargin
- \textwidth 7.0 in
-\fi
-
 \renewcommand{\section}{\@startsection
 	{section}%
 	{1}%
 	{\z@}%
 	{10.0pt}
 	{14.0pt}
-	{\reset@font\center\huge}}%
+	{\reset@font\center\adventurefont}}%
 
 \renewcommand{\subsection}{\@startsection
 	{subsection}%
@@ -85,7 +101,8 @@
 	{\z@}%
 	{1.0\parskip}
 	{0.25\baselineskip}
-	{\reset@font\large\bfseries}}%
+	{\reset@font\headingfont\bfseries}}%
+
 
 \newenvironment{adventure}[3]{
   \def\@tempa{#3}
@@ -104,9 +121,8 @@
 \newcommand{\GTN}{\textsc{gtn}}
 \newcommand{\ITN}{\textsc{itn}}
 
-
 \newenvironment{party}{\subsection*{Other Guild Members in the Party}%
-\begin{tabular}{p{4cm}p{2cm}l}}{\end{tabular}}
+\begin{tabular}{p{4cm}p{3cm}l}}{\end{tabular}}
 
 \newenvironment{items}[1]{\subsection{#1}%
 \begin{tabular}{l}}{\end{tabular}}
@@ -131,28 +147,54 @@ Amount remaining at \dq@mdate & & \dq@mout \\
 % Ranking and Ranking* are identical except ranking* doesn't obey the standard time rules
 % --------------------
 
+\newcolumntype{R}{
+  >{\rankingsf}p{60mm}
+  >{\rankingtt}p{15mm}
+  >{\rankingtt}r
+  >{\rankingtt}r
+  >{\rankingtt}r
+  >{\rankingtt}r
+  >{\rankingtt}l
+  >{\rankingsf}l
+}
+
 \newenvironment{ranking}[2]
 {
   \ifthenelse{\equal{#2}\empty}
              {\subsection{#1}}
              {\subsection{#1 \textsc{(#2)}}}
 
-  \begin{tabular}{p{7cm}>{\ttfamily}p{1cm}>{\ttfamily}r>{\ttfamily}r>{\ttfamily}r>{\ttfamily}r>{\ttfamily}ll}
+  \begin{tabular}{R}
 }
 {
   \end{tabular}
 }
 
-\newenvironment{ranking*}[2]{\subsection{#1}
-\begin{tabular}{p{7cm}>{\ttfamily}p{1cm}>{\ttfamily}r>{\ttfamily}r>{\ttfamily}r>{\ttfamily}r>{\ttfamily}ll}}{\end{tabular}}
+\newenvironment{ranking*}[2]
+{
+  \subsection{#1}
+  \begin{tabular}{R}
+}
+{
+  \end{tabular}
+}
 
-\newcommand{\experience}[5]{\begin{multicols}{2}\subsection{Experience remaining}\begin{tabular}{p{5cm}r}
+
+
+\newcommand{\experience}[5]{
+  \begin{multicols}{2}
+    \subsection{Experience remaining}
+    \begin{tabular}{p{5cm}r}
 Experience gained on adventure	& \texttt{\textbf{#1}} \\
 Experience brought forward	& \texttt{\textbf{#2}} \\
 Experience spent		& \texttt{#3} \\ \hline
 Experience remaning		& \texttt{\textbf{#4}}
-\end{tabular}
-\subsection*{Notes}#5\end{multicols}}
+    \end{tabular}
+    \columnbreak
+    \subsection*{Notes}
+    #5
+  \end{multicols}
+}
 
 \newcommand{\notes}[1]{\subsection*{Notes}\begin{multicols}{2}#1\end{multicols}}
 
@@ -163,7 +205,7 @@ Experience remaning		& \texttt{\textbf{#4}}
 
 \def\dq@charname{Character Name}
 
-\newcommand{\charname}[1]{\def\dq@name{#1}}
+\newcommand{\charname}[1]{\def\dq@charname{#1}}
 \newcommand{\fullname}[1]{\def\dq@fullname{#1}}
 \newcommand{\race}[1]{\def\dq@race{#1}}
 \newcommand{\sex}[1]{\def\dq@sex{#1}}
