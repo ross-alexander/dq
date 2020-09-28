@@ -62,8 +62,8 @@ whoever released it as a slave, provided that it is not asked to do
 anything suicidal. Having a djinn in a party can occasionally cause
 problems because other creatures, such as efreeti (who are deadly
 enemies of the djinni) will be attracted to the party.
-
 </monster>
+
 
 <monster name="Efreet">
 
@@ -133,7 +133,7 @@ with reddish-brown fur and bright red eyes.
 <talents> Hellhounds, will have some ability in the powers of either
 the College of Illusions or of the Sorceries of the Mind. They are
 able to breath fire in a cone 20 feet long by 10 feet wide at the
-base, doing D + 8 damage to all within Range. The cone will also
+base, doing D + 8 damage to all within Range.  The cone will also
 ignite any inflammables. While on the Tactical Display it takes a
 Pulse for a Hellhound to breath fire.
 
@@ -161,7 +161,6 @@ general capacity that hellhounds are normally found, although they are
 occasionally release to wander the world and cause misery as they
 may. Hellhounds are highly evil. They love to kill and maim, burn
 crops, and ruin buildings.
-
 </monster>
 
 <monster name="Imps">
