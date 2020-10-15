@@ -18,10 +18,11 @@
 \RequirePackage{fancyhdr}
 \RequirePackage{textcomp}
 \RequirePackage{float}
-\RequirePackage[top=20mm,left=10mm,right=10mm,bottom=10mm]{geometry}
 \RequirePackage{xcolor}
 \RequirePackage{hyperref}
 \RequirePackage{setspace}
+\RequirePackage{graphicx}
+\RequirePackage[top=20mm,left=10mm,right=10mm,bottom=10mm]{geometry}
 
 \hypersetup{colorlinks=true,allcolors=blue,
    bookmarksnumbered=true,     
@@ -354,8 +355,9 @@
 
 \newenvironment{inset}[2]{\def\inset@env{#2}\begin{\inset@env}#1}{\end{\inset@env}}
 
-\RequirePackage{graphicx}
-\newcommand{\coverpic}{\vspace{2em}\includegraphics[viewport=0 0 310 307,clip]{cover.pdf}}
+\newcommand{\coverpic}{\includegraphics[scale=1.0]{cover.pdf}}
+
+%% \newcommand{\coverpic}{\vspace{2em}\includegraphics[viewport=0 0 310 307,clip]{cover.pdf}}
 %%\else
 %%  \RequirePackage[dvips]{graphicx}
 %%  \newcommand{\coverpic}{\vspace{2em}\includegraphics[scale=1.0]{cover.pdf}}
