@@ -185,8 +185,8 @@ Characteristic.
 
 A character naturally recovers Fatigue points as follows:
 
-\begin{tabularx}{\columnwidth}{lX}
-Activity		& Fatigue points / Hour \\
+\begin{tabularx}{\columnwidth}{Xc}
+Activity		& FT / Hour \\
 Eat Hot Meal		& 2 \\
 Relaxation 		& 1 \\
 Nap			& 2 \\
@@ -346,7 +346,7 @@ infected or not.
 \subsection{Becoming Infected}
 
 The chance of becoming infected depends on the entity’s health, the
-type of injury, and the environ- ment the entity is in. Modifiers are
+type of injury, and the environment the entity is in.   Modifiers are
 cumulative one is applied from each category:
 
 There is a wound which is ... \\
@@ -373,22 +373,24 @@ Some specific grievous injuries also increase the chance of infection.
 
 \subsection{Effects of Infection}
 
-An entity with an infection will be slowly poisoned by the
-infection. The damage is [D - 5] Endurance per day, until the
-infection is cured.  An infected wound will not heal until the
-infection is cured.
+An entity with an infection will be slowly poisoned by the infection.
+The damage is [D - 5] Endurance per day, until the infection is cured.
+An infected wound will not heal until the infection is cured.
 
 \subsection{Curing Infection}
 
-There are two ways to recover from infection. The first is to tough it
-out.  The second is to be healed by a healer.
+There are two ways to recover from infection.  The first is to tough
+it out.  The second is to be healed by a healer.
 
-Toughing it out An infected character may make a 1 × Endurance check
-every day to recover naturally.
+\begin{Description}
+  \item[Toughing it out] An infected character may make a 1 ×
+    Endurance check every day to recover naturally.
 
-Healing An infected character may be cured by the arts of a Healer or
-by magic. The rank at which this is possible, and the chance of
-success can be found under the appropriate skill or spell.
+\item[Healing] An infected character may be cured by the arts of a
+  Healer or by magic. The rank at which this is possible, and the
+  chance of success can be found under the appropriate skill or spell.
+\end{Description}
+
 
 \section{Conception}
 
