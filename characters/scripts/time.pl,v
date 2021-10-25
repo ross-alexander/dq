@@ -1,0 +1,173 @@
+head	1.1;
+access;
+symbols;
+locks
+	ralexand:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2007.08.09.14.37.27;	author ralexand;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#!/usr/bin/perl
+
+
+sub Month {
+    my ($text, $year) = @@_;
+    my @@week;
+
+    $text->[0] =~ m:(Month)\t([0-9]+)\t([0-9]+)\t([0-9]+)\t([0-9]+):;
+
+    my $mon_mon = $2;
+    my $mon_start = $3;
+    my $mon_end = $4;
+    my $mon_wday = $5;
+    my $mon_days = $4 - $3 + 1;
+    my $mon_asize = $mon_days + $mon_wday;
+    $mon_asize += (7 - $mon_asize%7)%7;
+
+# --------------------
+# Create structure
+# --------------------
+
+    my @@month;
+    for my $i (0 .. $mon_asize - 1)
+    {
+	$month[$i] = "\\parbox[c]{35mm}{\\hfill \\vspace{2em}}";
+    }
+
+#    print STDERR "++ $1 $2 $3 $4 $5 $mon_asize\n";
+
+#    printf("\\noindent \\begin{tabularx}{\\linewidth}{|X|X|X|X|X|X|X|} \\hline\n");
+#    printf("\\noindent \\begin{tabular}{|l|l|l|l|l|l|l|} \\hline\n");
+#    printf("\\multicolumn{7}{|c|}{%d %d} \\\\ \\hline\n", $month + 1, $year + 770);
+    shift(@@$text);
+
+    my @@daylist;
+
+    while(scalar(@@$text) && ($text->[0] =~ /^Day/))
+    {
+	my $line = $text->[0];
+	chomp $line;
+	push(@@daylist, $line);
+	shift(@@$text);
+    }
+
+    for my $line (@@daylist)
+    {
+	my (@@bits) = split(/\t/, $line);
+
+#	    print @@bits, "\n";
+	
+	my ($segnam, $day, $wday, $title) = @@bits;
+
+#	print STDERR $day, " ++ ", $wday, " ++ ", $title, "\n";
+
+	my (@@boxbits) = ("\\vspace{1mm} $title");
+
+#	    print $boxbits[0], "\n";
+
+	my $i = 4;
+	while ($i < $#bits)
+	{
+	    my $tmp = sprintf("\$^%d\$ %s", $bits[$i], $bits[$i+1]);
+	    push(@@boxbits, $tmp);
+	    $i += 2;
+	}
+	push(@@boxbits);
+	my $cell = sprintf("\\parbox[c]{35mm}{%s \\vspace{1mm}}", join(" \\\\ ", @@boxbits));
+	$week[$wday] = $cell;
+
+# --------------------
+# Set month entry
+# --------------------
+
+#	printf(STDERR "%d\n", $day - $mon_start + $mon_wday);
+
+	$month[$day - $mon_start + $mon_wday] = $cell;
+	
+	if ($wday >= 6)
+	{
+	    my @@wt;
+	    map { push(@@wt, defined($_) ? $_ : "\\parbox[c]{35mm}{\\hfill}") } @@week;
+#	    print join(" &\n", @@wt), " \\\\ \\hline\n";
+	    delete @@week[0 .. @@week];
+	}
+    }
+    if (@@week)
+    {
+	for my $j (@@week .. 6)
+	{
+	    push(@@week, "\\parbox[c]{35mm}{\\hfill}");
+	}
+#	print join(" &\n", @@week), " \\\\ \\hline\n";
+    }
+#    printf("\\end{tabular}\n\n\\bigskip\n\n");
+
+# --------------------
+# Use month to check result
+# --------------------
+
+    printf("\\noindent \\begin{tabular}{|l|l|l|l|l|l|l|} \\hline\n");
+    printf("\\multicolumn{7}{|c|}{%d %d} \\\\ \\hline\n", $month + 1, $year + 770);
+    for my $j (0 .. $mon_asize - 1)
+    {
+	printf("%s %s\n", $month[$j], ($j+1) % 7 ? " &" : " \\\\ \\hline");
+    }
+    printf("\\end{tabular}\n\n\\bigskip\n\n");
+
+    return;
+}
+
+
+printf("\\documentclass[a4paper,landscape]{article}\n");
+printf("\\usepackage{tabularx}\n");
+printf("\\usepackage[dvips]{geometry}\n");
+printf("\\addtolength\\textwidth{80mm}\n");
+printf("\\addtolength\\oddsidemargin{-40mm}\n");
+printf("\\addtolength\\evensidemargin{-40mm}\n");
+printf("\\addtolength\\textheight{40mm}\n");
+printf("\\addtolength\\topmargin{-20mm}\n");
+
+printf("\\renewcommand{\\rmdefault}{ptm}\n");
+printf("\\renewcommand{\\sfdefault}{pag}\n");
+printf("\\renewcommand{\\scriptsize}{\\fontencoding{T1}\\fontfamily{\\rmdefault}\\fontsize{6}{7pt}\\selectfont}\n");
+printf("\\renewcommand{\\small}{\\fontencoding{T1}\\fontfamily{\\sfdefault}\\fontsize{7}{8pt}\\selectfont}\n");
+printf("\\renewcommand{\\normalsize}{\\fontencoding{T1}\\fontfamily{pag}\\fontsize{7}{9.0pt}\\selectfont}\n");
+
+printf("\\begin{document}\n\n");
+# printf("\\renewcommand{\\arraystretch}{2.0}\n");
+
+my @@text = <>;
+
+while(scalar(@@text))
+{
+    $_ = $text[0];
+    if (/^Year\t([0-9]+)/)
+    {
+	$year = $1;
+    }
+    if (/^Month/)
+    {
+	&Month(\@@text, $year);
+    }
+    else
+    {
+	shift(@@text);
+    }
+}
+
+printf("\\end{document}\n");
+@

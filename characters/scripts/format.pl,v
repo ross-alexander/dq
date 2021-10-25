@@ -1,0 +1,4217 @@
+head	1.12;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.12
+date	2020.06.20.17.51.43;	author ralexand;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2020.06.15.13.36.40;	author ralexand;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2020.06.13.19.20.44;	author ralexand;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2015.01.04.22.40.32;	author ralexand;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2014.11.17.18.14.36;	author ralexand;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2014.11.17.17.56.07;	author ralexand;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2008.11.25.13.48.10;	author ralexand;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2008.11.19.16.06.27;	author ralexand;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2007.08.08.16.12.05;	author ralexand;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2007.08.08.09.24.13;	author ralexand;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.05.20.14.18.48;	author ralexand;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.05.20.14.04.12;	author ralexand;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.12
+log
+@Summary: Fix to match ranking.sty changes.
+@
+text
+@#!/usr/bin/perl -I/home/ralexand/dq/characters/scripts
+
+# ----------------------------------------------------------------------
+#
+# update.pl
+#
+# Take XML version of character sheet and format back into LaTeX.
+#
+# 2020-06-13: Ross Alexander
+#   Force version to 5.30.2
+#
+# ----------------------------------------------------------------------
+   
+use 5.30.2;
+use IO::Handle;
+use XML::LibXML;
+use Encode;
+use POSIX qw(strftime);
+use Time::localtime;
+use Cairo;
+use Tick;
+use Getopt::Std;
+use Carp::Assert;
+use XML::Simple;
+use XML::LibXML::Simple;
+use Perl6::Slurp;
+use JSON;
+
+# ----------------------------------------------------------------------
+#
+# Cal_Character
+#
+# ----------------------------------------------------------------------
+sub Cal_Character {
+
+    my ($doc, $map, $file) = @@_;
+
+    my $cal_doc = XML::LibXML::Document->new("1.0", "utf8");
+    my $cal_root = $cal_doc->createElement("cal");
+    $cal_doc->setDocumentElement($cal_root);
+
+    my $out;
+    open($out, ">", $file);
+
+# --------------------
+# @@tl is track list, holds all the ranking track information
+# --------------------
+
+    my @@tl;
+
+    for my $a ($doc->findnodes("/character/adventure")->get_nodelist)
+    {
+	my $advtrack = {};
+
+	if (!(($a->hasAttribute("star")) && ($a->getAttribute("star") > 0)))
+	{
+	    my $t = {};
+	    $t->{'type'} = "a";
+	    $t->{'start'} = $a->getAttribute("start-tick");
+	    $t->{'end'} = $a->getAttribute("end-tick");
+	    $t->{'name'} = $a->getAttribute("name");
+	    $t->{'track'} = 0;
+	    push(@@tl, $t);
+	}
+	printf $out "# adventure %d %d %s\n", $a->getAttribute("start-tick"), $a->getAttribute("end-tick"), $a->getAttribute("name"), "\n";
+	for my $r ($a->findnodes("ranking")->get_nodelist)
+	{
+	    my $s = $r->getAttribute("start");
+	    my $e = $r->getAttribute("end");
+	    if ((!($a->hasAttribute("star")) || ($a->getAttribute("star") > 0)) &&
+		(($e - $s) > 0))
+	    {
+		printf $out "# ranking %d %d %s\n", $r->getAttribute("start"), $r->getAttribute("end"), $r->getAttribute("desc");
+		for my $b ($r->findnodes("block")->get_nodelist)
+		{
+		    my $s = $b->getAttribute("start");
+		    my @@s = ($s, $s, $s, $s);
+		    for my $i ($b->findnodes("*")->get_nodelist)
+		    {
+			if ($i->getAttribute("day-equiv"))
+			{
+			    my $t = {};
+			    my $tn;
+			    $t->{'type'} = "r";
+			    $t->{'track'} = $tn = $i->getAttribute("track");
+			    $t->{'start'} = $s[$tn];
+			    $t->{'end'} = $s[$tn] + $i->getAttribute("day-equiv") - 1;
+			    $t->{'name'} = $i->getAttribute("name");
+			    push(@@tl, $t);
+			    $s[$tn] += $i->getAttribute("day-equiv");
+			}
+			printf $out "# line %d %d %s\n", $i->getAttribute("day-equiv"), $i->getAttribute("track"), $i->getAttribute("name");
+		    }
+		}
+	    }
+	}
+    }
+
+# --------------------
+# Map over the track list
+# --------------------
+
+    my $ym = {};
+    my $om = {};
+    map {
+	printf $out "# track %s %d %d %d\n", $_->{'name'}, $_->{'track'}, $_->{'start'}, $_->{'end'};
+
+	my $i = 0;
+	do {
+	    if (!exists($om->{$i}))
+	    {
+		$om->{$i} = $_;
+		$_->{'ref'} = $i;
+	    }
+	    $i++;
+	} while (!exists($_->{'ref'}));
+
+	for $i ($_->{'start'} .. $_->{'end'})
+	{
+	
+# --------------------
+# TickToTM returns (d,m,y,wd,yd)
+# --------------------
+
+	    my @@bits = TickToTM($i);
+
+# --------------------
+# Create year (d,m,y,wd,yd)
+# --------------------
+
+	    $ym->{$bits[2]} = {} if (!exists($ym->{$bits[2]}));
+
+# --------------------
+# Create month (d,m,y,wd,yd)
+# --------------------
+
+	    if (!exists($ym->{$bits[2]}->{$bits[1]}))
+	    {
+		my $monthmap = {};
+		$ym->{$bits[2]}->{$bits[1]} = $monthmap;
+
+# --------------------
+# Get start of month date
+# --------------------
+
+		my @@monbits = TickToTM($i - $bits[0]);
+		@@monbits = TickToTM($i - $bits[0] + 1) if($monbits[0]);
+
+# --------------------
+# Get end of month
+# Add enough days to get next month then work backward
+# --------------------
+
+		my $j = $i + 31;
+		my @@mon2bits  = TickToTM($j);
+		$j -= $mon2bits[0];
+		@@mon2bits = TickToTM($j);
+		$j -= 1 if ($mon2bits[1] != $monbits[1]);
+		@@mon2bits = TickToTM($j);
+
+		$monthmap->{'_start_'} = $monbits[0];
+		$monthmap->{'_end_'} = $mon2bits[0];
+		$monthmap->{'_wday_'} = $monbits[3];
+		
+#		printf STDERR "Got month %d start %d end %d wday %d\n", $monbits[1], $monbits[0], $mon2bits[0], $monbits[3];
+	    }
+	    if (!exists($ym->{$bits[2]}->{$bits[1]}->{$bits[0]}))
+	    {
+		$ym->{$bits[2]}->{$bits[1]}->{$bits[0]} = {};
+	    }
+	    my $d = $ym->{$bits[2]}->{$bits[1]}->{$bits[0]};
+	    $d->{$_->{'track'}} = $_;
+	    $d->{'mday'} = $bits[3];
+	    $d->{'wk'} = TickToWK($i);
+	}
+    } @@tl;
+
+# --------------------
+# Add weeks
+# --------------------
+
+    while (my ($year, $ydata) = each(%$ym))
+    {
+	while (my ($month, $mdata) = each(%$ydata))
+	{
+	    my $wday = $mdata->{'_wday_'};
+	    my $wks = {};
+	    while (my ($day, $ddata) = each(%$mdata))
+	    {
+		next if (!($day =~ /\d+/));
+		my $wk = int(($wday + $day) / 7);
+		$wks->{$wk} = {} if (!exists($wks->{$wk}));
+		$wks->{$wk}->{$day} = $ddata;
+		delete $mdata->{$day};
+	    }
+	    while ((my ($k, $v) = each(%$wks)))
+	    {
+		$mdata->{$k} = $v;
+	    }
+	}
+    }
+
+# --------------------
+# Do output
+# --------------------
+
+    for my $y (sort({$a <=> $b} keys(%$ym)))
+    {
+	my $y_node = $cal_root->addNewChild("", "year");
+	$y_node->setAttribute("year", $y);
+	printf $out "Year\t%d\n", $y;
+	my $ykey = $ym->{$y};
+	for my $m (sort({$a <=> $b} keys(%$ykey)))
+	{
+	    my $mkey = $ykey->{$m};
+
+	    my $m_node = $y_node->addNewChild("", "month");
+	    $m_node->setAttribute("month", $m);
+	    $m_node->setAttribute("start", $mkey->{'_start_'});
+	    $m_node->setAttribute("end", $mkey->{'_end_'});
+	    $m_node->setAttribute("wday", $mkey->{'_wday_'});
+
+	    printf $out "Month\t%d\t%d\t%d\t%d\n", $m, $mkey->{'_start_'}, $mkey->{'_end_'}, $mkey->{'_wday_'};
+	    for my $w (sort({$a <=> $b} keys(%$mkey)))
+	    {
+		my $week = $mkey->{$w};
+		if ($w =~ m:^[0-9]+$:)
+		{
+		    my $w_node = $m_node->addNewChild("", "week");
+		    my $week = $mkey->{$w};
+		    for my $d (sort({$a <=> $b} keys(%$week)))
+		    {
+			my $day = $week->{$d};
+			my $d_node = $w_node->addNewChild("", "day");
+			$d_node->setAttribute("day", $d);
+			$d_node->setAttribute("date", $day->{'wk'});
+			printf $out "Day\t%d\t%d\t%s", $d, $day->{'mday'}, $day->{'wk'};
+			for my $t (0, 1, 2, 3)
+			{
+			    if (exists($day->{$t}))
+			    {
+				my $t_node = $d_node->addNewChild("", "track");
+				$t_node->setAttribute("track", $t);
+				$t_node->setAttribute("name", $day->{$t}->{'name'});
+
+				printf $out "\t%d\t%s", $t, $day->{$t}->{'name'};
+			    }
+			}
+			printf $out "\n";
+		    }
+		}
+	    }
+	}
+    }
+    close($out);
+    $cal_doc->toFile("$file".".xml", 1);
+}
+
+# ----------------------------------------------------------------------
+#
+# HTML_Adventure
+#
+# ----------------------------------------------------------------------
+
+sub HTML_Adventure {
+    my ($in, $out, $body, $adventure) = @@_;
+
+    my $h2 = $body->appendTextChild("h2", $adventure->getAttribute("name"));
+    my $ep_total = 0;
+    
+    for my $ranking ($adventure->findnodes("ranking")->get_nodelist)
+    {
+	my $h3 = $body->appendChild($out->createElement("h3"));
+	$h3->appendText($ranking->getAttribute("desc"));
+
+	my $blocks = $ranking->findnodes("block");
+	for my $block ($blocks->get_nodelist)
+	{
+	    my $table = $body->appendChild($out->createElement("table"));
+	    $table->setAttribute("class", "ranking");
+	    for my $node ($block->findnodes("*")->get_nodelist)
+	    {
+		my $type = $node->getName();
+		my $name = $node->getAttribute("name");
+		my $initial = $node->getAttribute("initial");
+
+		my $tr = $table->appendChild($out->createElement("tr"));
+		my $td_name = $tr->appendChild($out->createElement("td"));
+		$td_name->setAttribute("class", $type);
+		
+		if ($node->hasAttribute("final"))
+		{
+		    $td_name->appendText($name);
+		    my $final = $node->getAttribute("final");
+		    
+		    my $td_rank = $tr->appendChild($out->createElement("td"));
+		    my $cdata = $out->createCDATASection("$initial &hellip; $final");
+		    $td_rank->appendChild($cdata);
+		    $td_rank->setAttribute("class", "rank");
+
+		    my $sum = $node->getAttribute("sum");
+		    
+		    my $td_sum = $out->createElement("td");
+		    $td_sum->appendText($sum);
+		    $td_sum->setAttribute("class", "value");
+		    $tr->appendChild($td_sum);
+
+		    my $raw_ep = $node->getAttribute("raw-ep");
+		    $ep_total += $raw_ep;
+		    my $td_raw = $tr->appendChild($out->createElement("td"));
+		    $td_raw->setAttribute("class", "value");
+		    $td_raw->appendText($raw_ep);
+
+		    my $td_time = $out->createElement("td");
+		    if ((my $num = $node->getAttribute("day-equiv")) > 0)
+		    {
+			$td_time->appendText($num == 1 ? "1 day" : "$num days");
+		    }
+		    $td_time->setAttribute("class", "time");
+		    $tr->appendChild($td_time);
+
+		    my $td_track = $out->createElement("td");
+		    my $track = $node->getAttribute("track");
+		    if ($node->hasAttribute("partial") && $node->getAttribute("partial") > 0)
+		    {
+			$td_track->appendChild($out->createCDATASection("$track &delta;"));
+		    }
+		    else
+		    {
+			$td_track->appendText($track) if ($track);
+		    }
+		    $td_rank->appendChild($cdata);
+
+		    $td_track->setAttribute("class", "track");
+
+		    $tr->setAttribute("style", "background-color: #C0C0C0") if ($track == 1);
+		    $tr->setAttribute("style", "background-color: #A0A0A0") if ($track == 2);
+
+		    $tr->appendChild($td_track);
+		}
+# --------------------
+		else
+		{
+		    my $verb;
+		    $verb = "Initial" if ($type eq "stat");
+		    $verb = "Learn" if ($type eq "skill");
+
+		    $td_name->appendText(join(" ", ($verb, $name)));		    
+		    my $td_ini = $tr->appendChild($out->createElement("td"));
+		    $td_ini->appendText($initial);
+		    $td_ini->setAttribute("class", "value");
+		}
+	    }
+
+# --------------------
+# Add total line if necessary
+# --------------------
+
+	    if (($block->getAttribute("time") > 0) || ($block->getAttribute("ep") > 0))
+	    {
+		my $total_tr = $table->appendChild($out->createElement("tr"));
+		my $total_td = $total_tr->appendChild($out->createElement("th"));
+		$total_td->appendText("Total");
+		$total_td->setAttribute("colspan", 3);
+
+		my $ep_td = $total_tr->appendChild($out->createElement("td"));
+		$ep_td->setAttribute("class", "value");
+		$ep_td->appendText($block->getAttribute("ep")) if ($block->getAttribute("ep") > 0);
+
+		my $time_td = $total_tr->appendChild($out->createElement("td"));
+		$time_td->appendText($block->getAttribute("time") . ($block->getAttribute("time") == 0 ? " day" : " days")) if ($block->getAttribute("time") > 0);
+		$time_td->setAttribute("colspan", 2);
+	    }
+	}
+    }
+}
+
+# ----------------------------------------------------------------------
+#
+# HTML_Process
+#
+# ----------------------------------------------------------------------
+
+sub HTML_Character {
+    my ($in, $file) = @@_;
+
+    my $out = XML::LibXML::Document->new("1.0", "utf8");
+    my $html = $out->createElement("html");
+    $out->setDocumentElement($html);
+    $out->createInternalSubset("html", "-//W3C//DTD HTML 4.01//EN", "http://www.w3.org/TR/html4/strict.dtd");
+
+# Get document element (root elements)
+
+    my $character = $in->getDocumentElement();
+
+# Create HTML document elements
+    
+    my $head = $html->appendChild($out->createElement("head"));
+    my $body = $html->appendChild($out->createElement("body"));
+
+# Set HTML title
+
+    my $title = $head->appendTextChild("title", $character->find('basics/@@name'));
+
+# Add CSS link
+
+    my $link = $head->appendChild($out->createElement("link"));
+    $link->setAttribute("rel", "stylesheet");
+    $link->setAttribute("href", "dq.css");
+    $link->setAttribute("type", "text/css");
+
+# Add header
+
+    $body->appendTextChild("h1", $character->find('basics/@@name'));
+
+# Iterate over all adventures.
+
+    for my $adventure ($character->findnodes("adventure")->get_nodelist)
+    {
+	&HTML_Adventure($in, $out, $body, $adventure);
+    }
+    my $stream;
+    open($stream, ">$file");
+    $stream->print($out->toStringHTML());
+    close($stream);
+}
+
+
+# ----------------------------------------------------------------------
+#
+# Cairo_Character
+#
+# ----------------------------------------------------------------------
+
+sub Cairo_FrameLeftTopTextBox {
+    my ($conf, $cr, $x, $y, $w, $h, $label, $text) = @@_;
+    $cr->rectangle($x, $y, $w, $h);
+    $cr->stroke();
+    $cr->set_font_size(6);
+    $cr->select_font_face($conf->{'fonts'}->{'sans'}, 'normal', 'normal');
+    my $extents = $cr->text_extents($label);
+    $cr->move_to($x + 1, $y + 6);
+    $cr->show_text($label);
+    $cr->move_to($x + $extents->{'width'} + 1, $y + $h - 2);
+    $cr->set_font_size(10);
+    $cr->select_font_face($conf->{'fonts'}->{'sans'}, 'normal', 'normal');
+    $cr->show_text($text);
+}
+
+sub Cairo_Bits {
+    my ($conf, $cr, $list, $boxes)  = @@_;
+
+    my $len = scalar(@@$list);
+    return 0 if ($len == 0);
+    
+    my $height = 14;
+    my $maxx;
+
+    $cr->set_line_width(0.3);
+    $cr->set_font_size(8);
+
+    $cr->select_font_face($conf->{'fonts'}->{'sans'}, 'normal', 'bold');
+    my $x = 0;
+    for my $k (0 .. scalar(@@$boxes) - 1)
+    {
+	my $box = $boxes->[$k];
+	my $size = $box->{'len'};
+	my $title = $box->{'title'};
+	my $align = $box->{'align'};
+	$cr->rectangle($x, 0, $size, $height);
+	$cr->stroke();
+	my $extents = $cr->text_extents($title);
+	$cr->move_to($x + ($size - $extents->{'width'})/2, $height - 2);
+	$cr->show_text($title);
+	$x += $size;
+    }
+    $cr->select_font_face($conf->{'fonts'}->{'sans'}, 'normal', 'normal');
+
+    for my $i (0 .. $len-1)
+    {
+	my $j = $list->[$i];
+	my $x = 0;
+	for my $k (0 .. scalar(@@$boxes) - 1)
+	{
+	    my $box = $boxes->[$k];
+	    my $id = $box->{'id'};
+	    my $size = $box->{'len'};
+	    my $align = $box->{'align'};
+	    my $text = $j->{$id};
+
+	    $cr->rectangle($x, ($i+1) * $height, $size, $height);
+	    $cr->stroke();
+	    my $extents = $cr->text_extents($text);
+	    if ($align eq "r")
+	    {
+		$cr->move_to($x + $size - $extents->{'x_advance'} - 2, ($i+2) * $height - 2);
+	    }
+	    else
+	    {
+		$cr->move_to($x + 2, ($i+2) * $height - 2);
+	    }
+	    $cr->show_text($text);
+	    $x += $size;
+	}
+	$maxx = $x;
+    }
+    $len++;
+
+    $cr->set_line_width(1.0);
+    $cr->rectangle(0, 0, $maxx, $len * $height);
+    $cr->stroke();
+    return $len * $height;
+}
+
+sub Cairo_TopBoxes {
+    my ($conf, $cr, $y, $height, $boxes) = @@_;
+    my $x = 0;
+    map {
+	my $size = $_->[0];
+	my $label = $_->[1];
+	my $text = $_->[2];
+
+	$cr->rectangle($x, $y, $size, $height);
+	$cr->set_source_rgb(0.9, 0.9, 0.9);
+	$cr->fill_preserve();
+	$cr->set_source_rgb(0.0, 0.0, 0.0);
+	$cr->stroke();
+	$cr->set_font_size(6);
+	$cr->select_font_face($conf->{'fonts'}->{'sans'}, 'normal', 'bold');
+	my $extents = $cr->text_extents($label);
+	$cr->move_to($x + 1, $y + 6);
+	$cr->show_text($label);
+	$cr->move_to($x + $extents->{'width'} + 1, $y + $height - 3);
+	$cr->set_font_size(10);
+	$cr->select_font_face($conf->{'fonts'}->{'serif'}, 'normal', 'normal');
+	$cr->show_text($text);
+	$x += $size;
+    } @@$boxes;
+}
+
+# ----------------------------------------------------------------------
+#
+# Cairo_Character
+#
+# ----------------------------------------------------------------------
+
+sub Cairo_Character {
+    my ($conf, $map, $path) = @@_;
+
+    # --------------------
+    # Shortcut variables
+    # --------------------
+    
+    my $basics = $map->{basics};
+    my $current = $map->{current};
+    my $stats = $current->{stats};
+
+    # --------------------
+    # Create surface with A4 dimensions (in printer points ie 1/72 of an inch)
+    # --------------------
+    
+    my $surface = Cairo::PdfSurface->create($path, 595.28, 841.89);
+    my $cr = Cairo::Context->create($surface);
+
+    # --------------------
+    # Select default sans font
+    # --------------------
+    
+    $cr->select_font_face ($conf->{'fonts'}->{'sans'}, 'normal', 'normal');
+
+    # --------------------
+    # Offset page by (20,20)
+    # --------------------
+    
+    $cr->translate(40, 20);
+    $cr->save();
+
+    # --------------------
+    # Nice thin lines
+    # --------------------
+    
+    $cr->set_line_width(0.3);
+
+    Cairo_TopBoxes($conf, $cr, 0, 20, [
+		       [220, "Name", $basics->{'fullname'}],
+		       [50, "PS", $stats->{'PS'}],
+		       [50, "MD", $stats->{'MD'}],
+		       [50, "AG", $stats->{'AG'}],
+		       [50, "MA", $stats->{'MA'}],
+		       [50, "WP", $stats->{'WP'}],
+		       [50, "EN", $stats->{'EN'}],
+		   ]);
+
+    Cairo_TopBoxes($conf, $cr, 20, 20, [
+		       [220, "Race", $basics->{'race'}],
+		       [50, "Sex", $basics->{'sex'}],
+		       [50, "PB", $stats->{'PB'}],
+		       [50, "HT", $basics->{'height'}],
+		       [50, "WT", $basics->{'weight'}],
+		       [50, "PC", $stats->{'PC'}],
+		       [50, "FT", $stats->{'FT'}],
+		   ]);
+
+    Cairo_TopBoxes($conf, $cr, 40, 20, [
+		       [220, "Aspect", $basics->{"aspect"}],
+		       [100, "Birth",  $basics->{"birth"}],
+		       [200, "Date",   $basics->{'date'}." [".$map->{'now'}."]"],
+		   ]);
+    my $ep;
+    if ($basics->{"ep"})
+    {
+	$ep = sprintf("%d (%d)", $basics->{"ep-total"}, $basics->{"ep"});
+    }
+    else
+    {
+	$ep = sprintf("%d", $basics->{"ep"});
+    }
+
+    Cairo_TopBoxes($conf, $cr, 60, 20, [
+		       [220, "S.Status", $basics->{"status"}],
+		       [100, "Hand",     $basics->{"hand"}],
+ 		       [100, "College",  $basics->{"college"}],
+ 		       [100, "EP",       $ep],
+		   ]);
+
+    $cr->set_line_width(1.0);
+    $cr->rectangle(0, 0, 520, 80);
+    $cr->stroke();
+    $cr->restore();
+    $cr->save();
+    $cr->translate(0, 80);
+    $cr->translate(0, Cairo_Bits($conf, $cr,
+				 [sort({$a->{'rank'} <=> $b->{'rank'}} grep(!exists($map->{"ignore"}), @@{$current->{'weapons'}}))],
+				 [
+				  {'id' => 'rank', 'len' => 20, 'title' => 'RK', 'align' => 'r'},
+				  {'id' => 'name', 'len' => 100, 'title' => 'Weapon'},
+				  {'id' => 'iv', 'len' => 20, 'title' => 'IV'},
+				  {'id' => 'sc', 'len' => 20, 'title' => 'SC'},
+				  {'id' => 'dm', 'len' => 20, 'title' => 'DM'},
+				  {'id' => 'cl', 'len' => 20, 'title' => 'CL'},
+				  {'id' => 'rg', 'len' => 20, 'title' => 'RG'},
+				  {'id' => 'use', 'len' => 20, 'title' => 'USE'},
+				  {'id' => 'wt', 'len' => 20, 'title' => 'WT'},
+				 ]));
+    $cr->translate(0, Cairo_Bits($conf, $cr,
+				 [sort({$a->{'rank'} <=> $b->{'rank'}} grep(!exists($map->{"ignore"}), @@{$current->{'skills'}}))],
+				 [
+				  {'id' => 'rank', 'len' => 20, 'title' => 'RK', 'align' => 'r'},
+				  {'id' => 'name', 'len' => 240, 'title' => 'Skill'},
+				 ]));
+
+    $cr->translate(0, Cairo_Bits($conf, $cr,
+				 [sort({$a->{'rank'} <=> $b->{'rank'}} grep(!exists($map->{"ignore"}), @@{$current->{'languages'}}))],
+				 [
+				  {'id' => 'rank', 'len' => 20, 'title' => 'RK', 'align' => 'r'},
+				  {'id' => 'name', 'len' => 240, 'title' => 'Language'},
+				 ]));
+    $cr->restore();
+
+# --------------------
+# Talents, spells & rituals
+# --------------------
+
+    $cr->save();
+    $cr->translate(260, 80);
+    foreach ("talents", "spells", "rituals")
+    {
+	$cr->translate(0, Cairo_Bits($conf, $cr,
+				     [sort(
+					  {
+					      my ($ar, $an) = split(/\-/, $a->{'ref'});
+					      my ($br, $bn) = split(/\-/, $b->{'ref'});
+					      $ar cmp $br || $an <=> $bn;
+					  } grep(!exists($map->{"ignore"}), @@{$current->{$_}}))],
+				     [
+				      {'id' => 'rank', 'len' => 20, 'title' => 'RK', 'align' => 'r'},
+				      {'id' => 'ref', 'len' => 30, 'title' => 'Ref'},
+				      {'id' => 'name', 'len' => 190, 'title' => ucfirst($_)},
+				      {'id' => 'bc', 'len' => 20, 'title' => 'BC', 'align' => 'r'},
+				     ]));
+    }
+    $cr->restore();
+    $cr->show_page;
+}
+
+
+# ----------------------------------------------------------------------
+#
+# TeX_Ranking
+#
+# ----------------------------------------------------------------------
+sub TeX_Ranking {
+    my ($map, $ranking, $stream) = @@_;
+
+    my $desc = $ranking->{"desc"};
+    my $ep = 0;
+    my @@block;
+    my $rank_time;
+    my $cal = $map->{calandar};
+
+    for my $block (@@{$ranking->{blocks}})
+    {
+	my $res = [];
+	for my $line (@@{$block->{lines}})
+	{
+	    my @@res;
+
+	    push(@@res, $line->{"name"});
+	    push(@@res, $line->{"final"} ? $line->{"initial"} . "\\upto " .$line->{"final"} : $line->{"initial"});
+	    map {
+		push (@@res, $line->{$_} // "");
+	    } qw(sum em ep_raw ep time money);
+
+# --------------------
+# Process Time stuff
+# --------------------
+
+	    if ($line->{"time"} && ($line->{"time"} ne "No time"))
+	    {
+		my $time = $line->{"time"};
+		my $track = $line->{"track"};
+		if ($line->{"partial"} && $line->{"partial"} > 0)
+		{
+	     	    $res[6] .= "\$^{$track\\delta}\$";
+	     	}
+	     	else
+	     	{
+		    $res[6] .= "\$^{$track}\$";
+	     	}
+	    }
+	    push(@@$res, sprintf("%s %s", join("\t& ", @@res), "\\\\\n"));
+	    $ep += $line->{"ep"};
+	}
+	$rank_time += $block->{"time"};
+	push(@@block, join("", @@$res));
+    }
+
+    my $start = new Tick($ranking->{"start"});
+    my $end = new Tick($ranking->{"end"});
+
+    my $period = ($start == $end) ? $start->CDate() : sprintf("%s -- %s", $start->CDate(), $end->CDate());
+
+    my $weeks_text;
+    my $days_text;
+    if ($rank_time > 0)
+    {
+	my $weeks = int($rank_time / 7);
+	my $days = $rank_time - ($weeks * 7);
+	if ($weeks > 0)
+	{
+	    $weeks_text = ($weeks == 1) ? "1 week" : "$weeks weeks";
+	}
+	if ($days > 0)
+	{
+	    $days_text .= (($days == 1) ? "1 day" : "$days days");
+	}
+    }
+    else
+    {
+	$weeks_text = "No time";
+    }
+
+    my $text = join("\\\\\n", @@block);
+
+    $text =~ s/\&amp;/\\& /g;
+    $stream->print("\\begin{ranking}{$desc}{$period}\n");
+    $stream->print($text);
+    $stream->printf("\\hline\\textbf{Total} \& \& \& \& \& \\textbf{$ep} \& \\multicolumn{2}{l}{\\rankingtt \\textbf{$weeks_text $days_text}} \\\\\n") if ($ep);
+    $stream->print("\\end{ranking}\n");
+}
+
+
+# ----------------------------------------------------------------------
+#
+# TeX_Adventure
+#
+# ----------------------------------------------------------------------
+
+sub TeX_Adventure {
+    my ($map, $adventure, $stream) = @@_;
+
+    my $name = $adventure->{name};
+    my $start = $adventure->{start};
+    my $end = $adventure->{end};
+    
+    my $startTick = new Tick($start);
+    my $endTick = new Tick($end);
+
+    # --------------------
+    # Put calandar into map for TeX_Ranking to use
+    # --------------------
+
+    $map->{calandar} = $startTick->{calendar};
+    
+    $stream->printf("\\begin{adventure}{$name}{$start [%s]}{$end [%s]}\n", $startTick->CDate(), $endTick->CDate());
+
+# --------------------
+# Do party
+# --------------------
+
+    if (my $party = $adventure->{party})
+    {
+	$stream->printf("\\begin{party}\n");
+     	for my $m (@@$party)
+	{
+	    $stream->printf("%s & %s & %s \\\\\n",
+     			    $m->{'name'},
+     			    $m->{'college'},
+     			    $m->{'note'});
+     	}
+	$stream->printf("\\end{party}\n");
+    }
+
+    # --------------------
+    # Items
+    # --------------------
+
+    for my $items (@@{$adventure->{items} || []})
+    {
+	$stream->printf("\\begin{items}{%s}\n", $items->{"desc"});
+	for my $item (@@{$items->{lines}})
+  	{
+	    $stream->printf("%s \\\\\n", $item->{"desc"});
+	}
+	$stream->printf("\\end{items}\n\n");
+    }
+    
+# --------------------
+# Do monies
+# --------------------
+
+    for my $monies (@@{$adventure->{monies} || []})
+    {
+    
+    # my @@lines = $adventure->findnodes("monies/line")->get_nodelist();
+    # if (scalar(@@lines))
+    # {
+    # 	my $monies = $lines[0]->parentNode();
+	$stream->printf("\\begin{monies}%s{%d}{%d}{%s}\n",
+			$monies->{ledger} ? sprintf("[%s]", $monies->{ledger}) : "",
+			$monies->{in},
+			$monies->{out},
+			$monies->{date});
+	for my $line (@@{$monies->{lines}})
+	{
+ 	    $stream->printf("%s & %s & %s \\\\\n",
+			    $line->{desc},
+			    $line->{out},
+			    $line->{in});
+	}
+	$stream->printf("\\end{monies}\n");
+    }
+
+# --------------------
+# Define variable to sum spend EP
+# --------------------
+
+    my $ep_spend = 0;
+
+# --------------------
+# Iterate over ranking blocks
+# --------------------
+
+    for my $ranking (@@{$adventure->{ranking}})
+    {
+	&TeX_Ranking($map, $ranking, $stream);
+    }
+
+# --------------------
+# Do EP if necessary
+# --------------------
+
+    if (my $exp = $adventure->{"experience"})
+    {
+	$stream->printf("\\experience{%d}{%d}{%d}{%d}{%s}\n", $exp->{gained}, $exp->{in}, $exp->{spent}, $exp->{out}, $exp->{notes});
+    }
+    $stream->print("\\end{adventure}\n");
+}
+
+# ----------------------------------------------------------------------
+#
+# TeX_Character
+#
+# ----------------------------------------------------------------------
+sub TeX_Character {
+    my ($conf, $map, $file) = @@_;
+
+    my $stream;
+    open($stream, ">:encoding(utf-8)", "$file") || die;
+
+    # --------------------
+    # Shortcut variables
+    # --------------------
+    
+    my $basics = $map->{basics};
+    my $current = $map->{current};
+    my $stats = $current->{stats};
+
+# --------------------
+# Get the TeX headers over and done with
+# --------------------
+
+    $stream->print("\\documentclass[a4paper]{article}\n");
+    $stream->print("\\usepackage{ranking}\n");
+    $stream->print("\\begin{document}\n");
+
+# --------------------
+# Create TeX header
+# --------------------
+
+    $stream->printf("\\charname{%s}\n", $basics->{'charname'});
+    $stream->printf("\\fullname{%s}\n", $basics->{'fullname'});
+    $stream->printf("\\race{%s}\n", $basics->{'race'});
+    $stream->printf("\\dateofbirth{%s}\n", $basics->{'dateofbirth'});
+    $stream->printf("\\aspect{%s}\n", $basics->{'aspect'});
+    $stream->printf("\\birth{%s}\n", $basics->{'birth'});
+    $stream->printf("\\status{%s}\n", $basics->{'status'});
+    $stream->printf("\\college{%s}\n", $basics->{'college'});
+
+# --------------------
+# Do title
+# --------------------
+
+    $stream->print("\\chardesc\n");
+
+# --------------------
+# Create TeX table
+# --------------------
+
+    $stream->printf("\\begin{frontcover}\n");
+    
+    $stream->printf("\\begin{tabularx}{\\linewidth}{|l|X|X|X|X|X|X|} \\hline\n");
+    $stream->printf("\\makebox[4cm][l]{\\textsuperscript{Name}%s} \&\n", $basics->{'charname'});
+    $stream->printf("\\textsuperscript{PS} %s \&\n", $stats->{'PS'});
+    $stream->printf("\\textsuperscript{MD} %s \&\n", $stats->{'MD'});
+    $stream->printf("\\textsuperscript{AG} %s \&\n", $stats->{'AG'});
+    $stream->printf("\\textsuperscript{MA} %s \&\n", $stats->{'MA'});
+    $stream->printf("\\textsuperscript{WP} %s \&\n", $stats->{'WP'});
+    $stream->printf("\\textsuperscript{EN} %s \\\\\n", $stats->{'EN'});
+    $stream->printf("\\hline\n");
+
+    $stream->printf("\\textsuperscript{Race} %s \&\n", $basics->{'race'});
+    $stream->printf("\\textsuperscript{Sex} %s \&\n", $basics->{'sex'});
+    $stream->printf("\\textsuperscript{HT} %s \&\n", $basics->{'height'});
+    $stream->printf("\\textsuperscript{WT} %s \&\n", $basics->{'weight'});
+    $stream->printf("\\textsuperscript{PB} %s \&\n", $stats->{'PB'});
+    $stream->printf("\\textsuperscript{PC} %s \&\n", $stats->{'PC'});
+    $stream->printf("\\textsuperscript{FT} %s \\\\\n", $stats->{'FT'});
+    $stream->printf("\\hline\n");
+
+    $stream->printf("\\textsuperscript{Aspect}%s \&\n", $basics->{'aspect'});
+    $stream->printf("\\multicolumn{3}{l|}{\\textsuperscript{Birth} %s} \&\n", $basics->{'birth'});
+    $stream->printf("\\multicolumn{3}{l|}{\\textsuperscript{Date} %s} \\\\\n", $basics->{'date'});
+    $stream->printf("\\hline\n");
+    
+    $stream->printf("\\textsuperscript{S.Status} %s \&\n", $basics->{'status'});
+    $stream->printf("\\multicolumn{2}{l|}{\\textsuperscript{Hand} %s} \&\n", $basics->{'hand'});
+    $stream->printf("\\multicolumn{2}{l|}{\\textsuperscript{Coll.} %s} \& \n", $basics->{'college'});
+    $stream->printf("\\multicolumn{2}{l|}{\\textsuperscript{EP} %s [%s]} \\\\\n", $basics->{'ep-total'}, $basics->{'ep'});
+    $stream->printf("\\hline\n");
+
+    $stream->printf("\\end{tabularx}\n\n");
+
+# --------------------
+# Do the skills, weapons & spells
+# --------------------
+
+    $stream->printf("\\begin{tabular}[t]{\@@{}p{0.5\\linewidth}\@@{}p{0.5\\linewidth}\@@{}}\n");
+
+# Start skills table
+
+    $stream->printf("\\begin{tabularx}{0.49\\columnwidth}[t]{|r|X|} \\hline \n");
+    $stream->printf("\\textbf{Rk} & \\hfil \\textbf{Skill} \\hfil \\\\ \\hline\n");
+
+    for my $s (sort {$b->{"rank"} <=> $a->{"rank"}} @@{$current->{'skills'}})
+    {
+	
+	next if ($s->{'name'} =~ m/^__/);
+	my $t = sprintf "\\hbox to 2.0em{\\hfil %d} \& %s \\\\\n", $s->{"rank"}, $s->{'name'};
+	$t =~ s/\&amp;/\\& /;
+	$stream->print($t);
+    }
+    $stream->printf("\\hline\n");
+    $stream->printf("\\end{tabularx}\n");
+    $stream->printf("\n\n");
+
+# Start weapons table
+
+    $stream->printf("\\begin{tabularx}{0.49\\columnwidth}[t]{|r|X|} \\hline \n");
+    $stream->printf("\\textbf{Rk} & \\hfil \\textbf{Weapon} \\hfil \\\\ \\hline\n");
+    
+    for my $s (sort {$b->{"rank"} <=> $a->{"rank"}} @@{$current->{'weapons'}})
+    {
+	next if ($s->{'name'} =~ m/^__/);
+	my $t = sprintf "\\hbox to 2.0em{\\hfil %d} \& %s \\\\\n", $s->{"rank"}, $s->{'name'};
+	$t =~ s/\&amp;/\\& /;
+	$stream->print($t);
+    }
+    $stream->print("\\hline\n");
+    $stream->print("\\end{tabularx}\n");
+    $stream->print("\n");
+    
+# Insert the intercolumn break
+
+    $stream->printf("\&\n");
+
+# And now do spells
+
+    for my $t ("talents", "spells", "rituals")
+    {
+    
+	my @@list = sort {
+	    my $aref = $a->{"ref"};
+	    my $bref = $b->{"ref"};
+	    my ($atype, $aval) = split(/-/, $aref);
+	    my ($btype, $bval) = split(/-/, $bref);
+	    $b->{"college"} cmp $a->{"college"} || $atype cmp $btype || $aval <=> $bval
+	} @@{$current->{$t}};
+		 
+	if (scalar(@@list))
+	{
+	    $stream->printf("\\begin{tabularx}{0.50\\columnwidth}[t]{|r|X|} \\hline \n");
+	    $stream->printf("\\textbf{Rk} & \\hfil \\textbf{%s} \\hfil \\\\ \\hline\n", ucfirst($t));
+	    
+	    for my $s (@@list)
+	    {
+		next if ($s =~ m/^__/);
+		my $t = sprintf("%d \& %s (%s) \\\\\n",
+				$s->{"rank"},
+				$s->{"name"},
+				$s->{"ref"}
+		    );
+		$t =~ s/\&amp;/\\& /;
+		$stream->print($t);
+	    }
+	    $stream->printf("\\hline\n");
+	    $stream->printf("\\end{tabularx}\n");
+	}
+    }
+    $stream->printf("\\end{tabular}\n");
+		     
+# --------------------
+# Reset normal font back to serif
+# --------------------
+
+	$stream->printf("\\end{frontcover}\n\n");
+
+# --------------------
+# Iterate over the adventures
+# --------------------
+
+    map {
+	&TeX_Adventure($map, $_, $stream);
+    } @@{$map->{adventures}};
+    
+    $stream->print("\\end{document}\n");
+    close($stream);
+}
+
+
+# ----------------------------------------------------------------------
+#
+# Text_Character
+#
+# ----------------------------------------------------------------------
+
+sub Text_Character {
+    my ($conf, $map, $opts) = @@_;
+    for my $a (@@{$map->{adventures}})
+    {
+	printf("%s\n", $a->{name});
+	for my $r (@@{$a->{ranking}})
+	{
+	    printf(" - %s\n", $r->{desc});
+	    for my $block (@@{$r->{blocks}})
+	    {
+		printf("    - \n");
+		for my $line (@@$block)
+		{
+		    printf("      - %s\n", $line->{name});
+		}
+	    }
+	}
+    }
+}
+
+# ----------------------------------------------------------------------
+#
+# XML_Adventure
+#
+# ----------------------------------------------------------------------
+
+sub XML_Adventure {
+    my ($node) = @@_;
+    my $adventure = 
+	+{
+	    name => $node->{name},
+	    start => $node->{start},
+	    end => $node->{end},
+	    ranking => [
+		map {
+		    +{
+			desc => $_->{desc},
+			start => $_->{start},
+			end => $_->{end},
+			star => $_->{star},
+			blocks => [
+			    map {
+				+{
+				    lines => [
+					map {
+					    +{
+						type => $_->getName(),
+						name => $_->{name},
+						initial => $_->{initial},
+						final => $_->{final},
+						sum => $_->{sum} // undef,
+						em => $_->{em} // undef,
+						ep => $_->{ep},
+						ep_raw => $_->{ep_raw} // undef,
+						time => $_->{time},
+						track => $_->{track},
+						partial => $_->{partial} // undef,
+						money => $_->{money} // undef
+					    }
+					} $_->findnodes("*")
+					],
+				    time => $_->{time} // undef,
+				}
+			    } $_->findnodes("block")
+			    ],
+		    }
+		} $node->findnodes("ranking") ],
+    };
+
+    # --------------------
+    # Party members
+    # --------------------
+    $adventure->{party} = [
+	map {
+	    +{
+		name => $_->{name},
+		college => $_->{college},
+		note => $_->{note}
+	    }
+	} $node->findnodes("party/member")
+	];
+
+    delete $adventure->{party} if (scalar(@@{$adventure->{party}}) == 0);
+    
+    # --------------------
+    # Items
+    # --------------------
+
+    $adventure->{items} = [
+	map {
+	    +{
+		desc => $_->{desc},
+		lines => [
+		    map {
+			+{
+			    desc => $_->{desc}
+			}
+		    } $_->findnodes("line")
+		    ],
+	    }
+	} $node->findnodes("items")
+	];
+
+    # --------------------
+    # Monies
+    # --------------------
+
+    $adventure->{monies} = [
+	map {
+	    + {
+		in => $_->{in},
+		out => $_->{out},
+		date => $_->{date},
+		ledger => $_->{ledger} // undef,
+		lines => [
+		    map {
+			+{
+			    desc => $_->{desc},
+			    in => $_->{in} // undef,
+			    out => $_->{out} // undef
+			}
+		    } $_->findnodes("line")
+		    ],
+	    }
+	} $node->findnodes("monies")
+	];
+	
+    
+    # --------------------
+    # Experience
+    # --------------------
+    
+    map {
+	$adventure->{experience}->{gained} = $_->{gained};
+	$adventure->{experience}->{spent} = $_->{spent};
+	$adventure->{experience}->{in} = $_->{in};
+	$adventure->{experience}->{out} = $_->{out};
+	$adventure->{experience}->{notes} = $_->{notes};
+    } $node->findnodes("experience");
+    return $adventure;
+}
+    
+# ----------------------------------------------------------------------
+#
+# XML_File
+#
+# ----------------------------------------------------------------------
+
+sub XML_File {
+    my ($conf, $opts) = @@_;
+
+    # --------------------
+    # Sanity check input
+    # --------------------
+    
+    my $path = $opts->{i};
+    if (!-f $path)
+    {
+	printf(STDERR "$0: cannot find input file %s\n", $path);
+	exit(1);
+    }
+
+    my $xml_in = slurp($path);
+    
+# --------------------
+# Create map to hold state
+# --------------------
+
+    my $map = {};
+    
+# --------------------
+# Get basics
+# --------------------
+
+    my $doc = $conf->{'parser'}->parse_string($xml_in);
+    for my $i ($doc->findnodes("/character/basics")->[0]->getAttributes())
+    {
+	my $key = $i->getName();
+	my $data = $i->getValue();
+	$map->{basics}->{$key} = $data;
+    }
+    
+# --------------------
+# Get stats
+# --------------------
+
+    for my $s ($doc->findnodes("/character/current/stats/stat")->get_nodelist)
+    {
+	my $key = $s->getAttribute("name");
+	my $data = $s->getAttribute("value");
+	$map->{current}->{stats}->{$key} = $data;
+    }
+
+# --------------------
+# Get skills, languages & weapons
+# --------------------
+
+    for my $k ("/character/current/skills/skill", "/character/current/languages/language", "/character/current/weapons/weapon")
+    {
+	my @@bits = split(m:/:, $k);
+	$map->{current}->{$bits[3]} = [
+	    map {
+		+{
+		    name => $_->getAttribute('name'),
+		    rank => $_->getAttribute('rank'),
+		    type => $_->getName()
+		}
+	    } $doc->findnodes($k)->get_nodelist];
+    }
+
+# --------------------
+# Magic
+# --------------------
+
+    for my $k ("/character/current/talents/talent", "/character/current/spells/spell", "/character/current/rituals/ritual")
+    {
+	my @@bits = split(m:/:, $k);
+	$map->{current}->{$bits[3]} = [
+	    map {
+		+{
+		    name => $_->getAttribute('name'),
+		    rank => $_->getAttribute('rank'),
+		    ref => $_->getAttribute('ref'),
+		    college => $_->getAttribute('college')
+		};
+	    } $doc->findnodes($k)->get_nodelist];
+    }
+    $map->{'now'} = strftime("%d %b %Y", @@{localtime(time())});
+
+
+    # --------------------
+    # Adventures
+    # --------------------
+
+    $map->{adventures} = [
+	map
+	{
+	    &XML_Adventure($_);
+	} ($doc->findnodes("/character/adventure"))
+	];
+    
+# --------------------
+# Create output documents
+# --------------------
+
+    if (!exists($conf->{formats}->{$opts->{'f'}}->{function}))
+    {
+	printf STDERR "$0: Cannot find function for format %s\n", $opts->{f};
+	exit(1);
+    }
+    my $format_function = $conf->{formats}->{$opts->{f}}->{function};
+
+    $format_function->($conf, $map, $opts->{o});
+}
+
+# ----------------------------------------------------------------------
+#
+# Main
+#
+# ----------------------------------------------------------------------
+
+sub Main {
+    my $conf = {
+	fonts => {
+	    sans => 'Helvetica',
+	    serif => 'Times',
+	},
+	formats => {
+	    tex => {
+		function => \&TeX_Character,
+		description => 'LaTeX for XeLaTeX',
+	    },
+	    cairo => {
+		function => \&Cairo_Character,
+		description => 'PDF character sheet via cairo',
+	    },
+	    plain => {
+		function => \&Text_Character,
+		description => 'Text output for debugging',
+	    },
+	},
+    };
+
+    my $parser = XML::LibXML->new();
+    $conf->{'parser'} = $parser;
+    if (-f "spells.xml")
+    {
+	$conf->{"spells"} = $parser->parse_file("spells.xml");
+    }
+
+# --------------------
+# Process opts
+# --------------------
+
+    my $opts = {};
+    getopts("i:o:f:t:", $opts);
+
+# --------------------
+# Give useful errors
+# --------------------
+    
+    if (!exists($opts->{i}))
+    {
+	printf(stderr "$0: [-i input.xml]\n");
+	exit(1);
+    }
+
+    if (!exists($opts->{o}))
+    {
+	printf(stderr "$0: [-o output.FORMAT]\n");
+	exit(1);
+    }
+
+    if (!exists($opts->{f}))
+    {
+	printf(stderr "$0: [-f %s]\n", join("|", keys(%{$conf->{formats}})));
+	exit(1);
+    }
+
+    &XML_File($conf, $opts);
+}
+
+&Main();
+@
+
+
+1.11
+log
+@Summary: Move all XML parsing into the XML_ functions.
+@
+text
+@d743 2
+a744 1
+    my $total_time = "";
+d751 1
+a751 1
+	    $total_time = ($weeks == 1) ? "1 week" : "$weeks weeks";
+d755 1
+a755 2
+	    $total_time .= " ";
+	    $total_time .= (($days == 1) ? "1 day" : "$days days");
+d760 1
+a760 1
+	$total_time = "No time";
+d768 1
+a768 1
+    $stream->printf("\\hline\\textbf{Total} \& \& \& \& \& \\textbf{$ep} \& \\multicolumn{2}{l}{\\texttt{$total_time}}\n") if ($ep);
+d818 9
+a826 11
+    # my @@items = $adventure->findnodes("items/line")->get_nodelist();
+    # if (scalar(@@items))
+    # {
+    #  	my $items = $items[0]->parentNode();
+    #  	$stream->printf("\\begin{items}{%s}\n", $items->getAttribute("desc"));
+    # 	for my $item (@@items)
+    #  	{
+    #  	    $stream->printf("%s \\\\\n", $item->getAttribute("desc"));
+    #  	}
+    #  	$stream->printf("\\end{items}\n\n");
+    # }
+d832 3
+d839 14
+a852 15
+    # 	$stream->printf("\\begin{monies}{%d}{%d}{%s}\n",
+    # 	       $monies->getAttribute("in"),
+    # 	       $monies->getAttribute("out"),
+    # 	       $monies->getAttribute("date"));
+
+    # 	for my $m (@@lines)
+    # 	{
+    # 	    my $in = $m->hasAttribute("in") ? $m->getAttribute("in") : "";
+    # 	    my $out = $m->hasAttribute("out") ? $m->getAttribute("out") : "";
+    # 	    $stream->printf("%s & %s & %s \\\\\n",
+    # 		   $m->getAttribute('desc'),
+    # 		   $out, $in);
+    # 	}
+    # 	$stream->printf("\\end{monies}\n");
+    # }
+d873 1
+a873 1
+    if ($adventure->{"experience"})
+d875 1
+a875 9
+	my $exp = $adventure->{"experience"};
+     	my $ep_in = $exp->{"in"};
+     	my $ep_gained = $exp->{"gained"};
+     	my $ep_spent = $exp->{"spent"};
+     	my $ep_out = $exp->{"out"};
+
+     	my $notes = $adventure->{notes};
+	
+	$stream->printf("\\experience{$ep_gained}{$ep_in}{$ep_spent}{$ep_out}{$notes}\n");
+d904 1
+a904 1
+    $stream->print("\\usepackage[libertine]{ranking}\n");
+a910 2
+    $stream->printf("\\fontencoding{T1}\\fontfamily{phv}\\fontsize{8}{10.0pt}\\selectfont\n");
+    
+a917 1
+
+a918 1
+    $stream->printf("\\title{\\fontfamily{pzc}\\fontsize{40}{40pt}\\selectfont %s}\n", $basics->{'name'});
+a923 1
+    $stream->print("\\maketitle\n");
+d930 2
+a931 2
+    $stream->printf("{\\fontsize{10}{12pt}\\selectfont\n\n");
+
+a962 1
+    $stream->printf("}\n");
+d1046 1
+a1046 1
+	$stream->printf("\\normalsize\n");
+d1136 3
+d1149 50
+d1204 1
+@
+
+
+1.10
+log
+@Summary: Add function table for formatting
+@
+text
+@d24 4
+d31 1
+a31 1
+# TeX_Ranking
+d34 3
+a36 2
+sub TeX_Ranking {
+    my ($map, $ranking, $tex) = @@_;
+d38 3
+a40 12
+    my $desc = $ranking->getAttribute("desc");
+    my $ep = 0;
+    my @@block;
+    my $rank_time;
+    my $cal = $map->{calandar};
+    
+    for my $block ($ranking->findnodes("block")->get_nodelist)
+    {
+	my $line;
+	for my $node ($block->findnodes("*")->get_nodelist)
+	{
+	    my @@line;
+d42 2
+a43 8
+	    push(@@line, $node->getAttribute("name"));
+	    push(@@line, $node->hasAttribute("final") ?
+		 $node->getAttribute("initial") . "\\upto " .$node->getAttribute("final") :
+		 $node->getAttribute("initial"));
+	    map {
+		push (@@line, $node->hasAttribute($_) ?
+		      $node->getAttribute($_) : "");
+	    } qw(sum em raw-ep ep time money);
+d46 1
+a46 1
+# Process Time stuff
+d49 1
+a49 14
+	    if ($node->hasAttribute("time") && $node->getAttribute("time") ne "No time")
+	    {
+		my $time = $node->getAttribute("time");
+		my $track = $node->getAttribute("track");
+		$time =~ /([0-9]+) (day|days|week|weeks)/;
+		if ($node->hasAttribute("partial") && $node->getAttribute("partial") > 0)
+		{
+		    $line[6] .= "\$^{$track\\delta}\$";
+		}
+		else
+		{
+		    $line[6] .= "\$^{$track}\$";
+		}
+	    }
+d51 3
+a53 6
+	    $line .= sprintf("%s %s", join("\t& ", @@line), "\\\\\n");
+	    $ep += $node->getAttribute("ep");
+	}
+	$rank_time += $block->getAttribute("time");
+	push(@@block, $line);
+    }
+d55 1
+a55 15
+    my $start = new Tick($ranking->getAttribute("start"));
+    my $end = new Tick($ranking->getAttribute("end"));
+
+    my $period = ($start == $end) ? $start->CDate() : 
+	(($end - $start == 1) ? $start->CDate() :
+	 sprintf("%s -- %s", $start->CDate(), $end->CDate()));
+
+    say ($period);
+    
+    my $total_time = "";
+    if ($rank_time > 0)
+    {
+	my $weeks = int($rank_time / 7);
+	my $days = $rank_time - ($weeks * 7);
+	if ($weeks > 0)
+d57 7
+a63 1
+	    $total_time = ($weeks == 1) ? "1 week" : "$weeks weeks";
+d65 2
+a66 1
+	if ($days > 0)
+d68 28
+a95 2
+	    $total_time .= " ";
+	    $total_time .= (($days == 1) ? "1 day" : "$days days");
+a97 4
+    else
+    {
+	$total_time = "No time";
+    }
+a98 32
+    my $text = join("\\\\\n", @@block);
+    $text =~ s/\&amp;/\\& /g;
+    print $tex "\\begin{ranking}{$desc}{$period}\n";
+    print $tex join("\\\\\n", $text);
+    print $tex "\\hline\\textbf{Total} \& \& \& \& \& \\textbf{$ep} \& \\multicolumn{2}{l}{\\texttt{$total_time}}\n" if ($ep);
+    print $tex "\\end{ranking}\n";
+}
+
+
+# ----------------------------------------------------------------------
+#
+# TeX_Adventure
+#
+# ----------------------------------------------------------------------
+sub TeX_Adventure {
+    my ($map, $adventure, $tex) = @@_;
+
+    my $name = $adventure->getAttribute("name");
+    my $start = $adventure->getAttribute("start");
+    my $end = $adventure->getAttribute("end");
+
+    my $startTick = new Tick($adventure->getAttribute("start-tick"));
+    my $endTick = new Tick($adventure->getAttribute("end-tick"));
+
+    # --------------------
+    # Put calandar into map for TeX_Ranking to use
+    # --------------------
+
+    $map->{calandar} = $startTick->{calendar};
+    
+    $tex->printf("\\begin{adventure}{$name}{$start [%s]}{$end [%s]}\n", $startTick->CDate(), $endTick->CDate());
+    
+d100 1
+a100 1
+# Do party
+d103 4
+a106 13
+    my @@party = $adventure->findnodes("party/member")->get_nodelist();
+    if (scalar(@@party))
+    {
+	print $tex "\\begin{party}\n";
+	for my $m (@@party)
+	{
+	    printf($tex "%s & %s & %s \\\\\n",
+		   $m->getAttribute('name'),
+		   $m->getAttribute('college'),
+		   $m->getAttribute('note'));
+	}
+	print $tex "\\end{party}\n";
+    }
+d108 9
+a116 3
+    # --------------------
+    # Items
+    # --------------------
+d118 1
+a118 26
+    my @@items = $adventure->findnodes("items/line")->get_nodelist();
+    if (scalar(@@items))
+    {
+     	my $items = $items[0]->parentNode();
+     	printf($tex "\\begin{items}{%s}\n", $items->getAttribute("desc"));
+	for my $item (@@items)
+     	{
+     	    printf($tex "%s \\\\\n", $item->getAttribute("desc"));
+     	}
+     	printf($tex "\\end{items}\n\n");
+    }
+    
+# --------------------
+# Do monies
+# --------------------
+
+    my @@lines = $adventure->findnodes("monies/line")->get_nodelist();
+    if (scalar(@@lines))
+    {
+	my $monies = $lines[0]->parentNode();
+	printf($tex "\\begin{monies}{%d}{%d}{%s}\n",
+	       $monies->getAttribute("in"),
+	       $monies->getAttribute("out"),
+	       $monies->getAttribute("date"));
+
+	for my $m (@@lines)
+d120 1
+a120 9
+	    my $in = $m->hasAttribute("in") ? $m->getAttribute("in") : "";
+	    my $out = $m->hasAttribute("out") ? $m->getAttribute("out") : "";
+	    printf($tex "%s & %s & %s \\\\\n",
+		   $m->getAttribute('desc'),
+		   $out, $in);
+	}
+	print $tex "\\end{monies}\n";
+    }
+
+d122 1
+a122 1
+# Define variable to sum spend EP
+d125 1
+a125 1
+    my $ep_spend = 0;
+d128 1
+a128 1
+# Iterate over ranking blocks
+d131 1
+a131 4
+    for my $ranking ($adventure->findnodes("ranking")->get_nodelist)
+    {
+	&TeX_Ranking($map, $ranking, $tex);
+    }
+d134 1
+a134 1
+# Do EP if necessary
+d137 4
+a140 22
+    if ($adventure->findnodes("experience")->size)
+    {
+	my $exp = $adventure->findnodes("experience")->[0];
+	my $ep_in = $exp->getAttribute("in");
+	my $ep_gained = $exp->getAttribute("gained");
+	my $ep_spent = $exp->getAttribute("spent");
+	my $ep_out = $exp->getAttribute("out");
+
+	my $notes = $adventure->find("string(notes)");
+
+	print $tex "\\experience{$ep_gained}{$ep_in}{$ep_spent}{$ep_out}{$notes}\n";
+    }
+    $tex->print("\\end{adventure}\n");
+}
+
+# ----------------------------------------------------------------------
+#
+# TeX_Character
+#
+# ----------------------------------------------------------------------
+sub TeX_Character {
+    my ($conf, $doc, $map, $file) = @@_;
+a141 4
+    my $character = $doc->getDocumentElement();
+    my $tex;
+    open($tex, ">:encoding(utf-8)", "$file") || die;
+ 
+d143 1
+a143 1
+# Get the TeX headers over and done with
+d146 2
+a147 3
+    $tex->print("\\documentclass[a4paper]{article}\n");
+    $tex->print("\\usepackage{ranking}\n");
+    $tex->print("\\begin{document}\n");
+d150 2
+a151 1
+# Create TeX header
+d154 6
+a159 9
+    $tex->printf("\\fontencoding{T1}\\fontfamily{phv}\\fontsize{8}{10.0pt}\\selectfont\n");
+    
+    $tex->printf("\\charname{%s}\n", $map->{'name'});
+    $tex->printf("\\fullname{%s}\n", $map->{'fullname'});
+    $tex->printf("\\race{%s}\n", $map->{'race'});
+    $tex->printf("\\dateofbirth{%s}\n", $map->{'dateofbirth'});
+    $tex->printf("\\aspect{%s}\n", $map->{'aspect'});
+    $tex->printf("\\birth{%s}\n", $map->{'birth'});
+    $tex->printf("\\status{%s}\n", $map->{'status'});
+d161 16
+a176 2
+    $tex->printf("\\college{%s}\n", $map->{'college'});
+    $tex->printf("\\title{\\fontfamily{pzc}\\fontsize{40}{40pt}\\selectfont %s}\n", $map->{'name'});
+d179 1
+a179 1
+# Do title
+d182 1
+a182 54
+    $tex->print("\\maketitle\n");
+    $tex->print("\\chardesc\n");
+
+# --------------------
+# Create TeX table
+# --------------------
+
+    $tex->printf("{\\fontsize{10}{12pt}\\selectfont\n\n");
+
+    $tex->printf("\\begin{tabularx}{\\linewidth}{|l|X|X|X|X|X|X|} \\hline\n");
+    $tex->printf("\\makebox[4cm][l]{\\textsuperscript{Name}%s} \&\n", $map->{'short'});
+    $tex->printf("\\textsuperscript{PS} %s \&\n", $map->{'PS'});
+    $tex->printf("\\textsuperscript{MD} %s \&\n", $map->{'MD'});
+    $tex->printf("\\textsuperscript{AG} %s \&\n", $map->{'AG'});
+    $tex->printf("\\textsuperscript{MA} %s \&\n", $map->{'MA'});
+    $tex->printf("\\textsuperscript{WP} %s \&\n", $map->{'WP'});
+    $tex->printf("\\textsuperscript{EN} %s \\\\\n", $map->{'EN'});
+    $tex->printf("\\hline\n");
+
+    $tex->printf("\\textsuperscript{Race} %s \&\n", $map->{'race'});
+    $tex->printf("\\textsuperscript{Sex} %s \&\n", $map->{'sex'});
+    $tex->printf("\\textsuperscript{HT} %s \&\n", $map->{'height'});
+    $tex->printf("\\textsuperscript{WT} %s \&\n", $map->{'weight'});
+    $tex->printf("\\textsuperscript{PB} %s \&\n", $map->{'PB'});
+    $tex->printf("\\textsuperscript{PC} %s \&\n", $map->{'PC'});
+    $tex->printf("\\textsuperscript{FT} %s \\\\\n", $map->{'FT'});
+    $tex->printf("\\hline\n");
+
+    $tex->printf("\\textsuperscript{Aspect}%s \&\n", $map->{'aspect'});
+    $tex->printf("\\multicolumn{3}{l|}{\\textsuperscript{Birth} %s} \&\n", $map->{'birth'});
+    $tex->printf("\\multicolumn{3}{l|}{\\textsuperscript{Date} %s} \\\\\n", $map->{'date'});
+    $tex->printf("\\hline\n");
+    
+    $tex->printf("\\textsuperscript{S.Status} %s \&\n", $map->{'status'});
+    $tex->printf("\\multicolumn{2}{l|}{\\textsuperscript{Hand} %s} \&\n", $map->{'hand'});
+    $tex->printf("\\multicolumn{2}{l|}{\\textsuperscript{Coll.} %s} \& \n", $map->{'college'});
+    $tex->printf("\\multicolumn{2}{l|}{\\textsuperscript{EP} %s [%s]} \\\\\n", $map->{'ep-total'}, $map->{'ep'});
+    $tex->printf("\\hline\n");
+
+    $tex->printf("\\end{tabularx}\n\n");
+    $tex->printf("}\n");
+
+# --------------------
+# Do the skills, weapons & spells
+# --------------------
+
+    $tex->printf("\\begin{tabular}[t]{\@@{}p{0.5\\linewidth}\@@{}p{0.5\\linewidth}\@@{}}\n");
+
+# Start skills table
+
+    $tex->printf("\\begin{tabularx}{0.49\\columnwidth}[t]{|r|X|} \\hline \n");
+    $tex->printf("\\textbf{Rk} & \\hfil \\textbf{Skill} \\hfil \\\\ \\hline\n");
+
+    for my $s (sort {$b->{"rank"} <=> $a->{"rank"}} @@{$map->{'skills'}})
+d184 1
+a184 44
+	
+	next if ($s->{'name'} =~ m/^__/);
+	my $t = sprintf "\\hbox to 2.0em{\\hfil %d} \& %s \\\\\n", $s->{"rank"}, $s->{'name'};
+	$t =~ s/\&amp;/\\& /;
+	$tex->print($t);
+    }
+    $tex->printf("\\hline\n");
+    $tex->printf("\\end{tabularx}\n");
+    $tex->printf("\n\n");
+
+# Start weapons table
+
+    $tex->printf("\\begin{tabularx}{0.49\\columnwidth}[t]{|r|X|} \\hline \n");
+    $tex->printf("\\textbf{Rk} & \\hfil \\textbf{Weapon} \\hfil \\\\ \\hline\n");
+    
+    for my $s (sort {$b->{"rank"} <=> $a->{"rank"}} @@{$map->{'weapons'}})
+    {
+	next if ($s->{'name'} =~ m/^__/);
+	my $t = sprintf "\\hbox to 2.0em{\\hfil %d} \& %s \\\\\n", $s->{"rank"}, $s->{'name'};
+	$t =~ s/\&amp;/\\& /;
+	$tex->print($t);
+    }
+    $tex->print("\\hline\n");
+    $tex->print("\\end{tabularx}\n");
+    $tex->print("\n");
+    
+# Insert the intercolumn break
+
+    $tex->printf("\&\n");
+
+# And now do spells
+
+    for my $t ("talents", "spells", "rituals")
+    {
+    
+	my @@list = sort {
+	    my $aref = $a->{"ref"};
+	    my $bref = $b->{"ref"};
+	    my ($atype, $aval) = split(/-/, $aref);
+	    my ($btype, $bval) = split(/-/, $bref);
+	    $b->{"college"} cmp $a->{"college"} || $atype cmp $btype || $aval <=> $bval
+	} @@{$map->{$t}};
+		 
+	if (scalar(@@list))
+d186 11
+a196 4
+	    $tex->printf("\\begin{tabularx}{0.50\\columnwidth}[t]{|r|X|} \\hline \n");
+	    $tex->printf("\\textbf{Rk} & \\hfil \\textbf{%s} \\hfil \\\\ \\hline\n", ucfirst($t));
+	    
+	    for my $s (@@list)
+d198 1
+a198 8
+		next if ($s =~ m/^__/);
+		my $t = sprintf("%d \& %s (%s) \\\\\n",
+				$s->{"rank"},
+				$s->{"name"},
+				$s->{"ref"}
+		    );
+		$t =~ s/\&amp;/\\& /;
+		$tex->print($t);
+a199 2
+	    $tex->printf("\\hline\n");
+	    $tex->printf("\\end{tabularx}\n");
+d202 1
+a202 2
+    $tex->printf("\\end{tabular}\n");
+		     
+d204 1
+a204 1
+# Reset normal font back to serif
+d207 9
+a215 1
+	$tex->printf("\\normalsize\n");
+d217 5
+a221 3
+# --------------------
+# Iterate over the adventures
+# --------------------
+d223 22
+a244 3
+    map {
+	&TeX_Adventure($map, $_, $tex);
+    } $character->findnodes("adventure")->get_nodelist;
+d246 11
+a256 2
+    $tex->print("\\end{document}\n");
+    close($tex);
+d264 1
+d428 1
+d548 1
+a548 1
+    my ($conf, $doc, $map, $path) = @@_;
+d550 12
+a570 2
+    $cr->save();
+
+d575 2
+a576 1
+    $cr->translate(20, 20);
+d585 7
+a591 7
+		       [220, "Name", $map->{'fullname'}],
+		       [50, "PS", $map->{'PS'}],
+		       [50, "MD", $map->{'MD'}],
+		       [50, "AG", $map->{'AG'}],
+		       [50, "MA", $map->{'MA'}],
+		       [50, "WP", $map->{'WP'}],
+		       [50, "EN", $map->{'EN'}],
+d595 7
+a601 7
+		       [220, "Race", $map->{'race'}],
+		       [50, "Sex", $map->{'sex'}],
+		       [50, "PB", $map->{'PB'}],
+		       [50, "HT", $map->{'height'}],
+		       [50, "WT", $map->{'weight'}],
+		       [50, "PC", $map->{'PC'}],
+		       [50, "FT", $map->{'FT'}],
+d605 3
+a607 3
+		       [220, "Aspect", $map->{"aspect"}],
+		       [100, "Birth",  $map->{"birth"}],
+		       [200, "Date",   $map->{'date'}." [".$map->{'now'}."]"],
+d610 1
+a610 1
+    if ($map->{"ep"})
+d612 1
+a612 1
+	$ep = sprintf("%d (%d)", $map->{"ep-total"}, $map->{"ep"});
+d616 1
+a616 1
+	$ep = sprintf("%d", $map->{"ep"});
+d620 3
+a622 3
+		       [220, "S.Status", $map->{"status"}],
+		       [100, "Hand",     $map->{"hand"}],
+ 		       [100, "College",  $map->{"college"}],
+a629 1
+
+d631 1
+a631 2
+    $cr->translate(20, 100);
+
+d633 1
+a633 1
+				 [sort({$a->{'rank'} <=> $b->{'rank'}} grep(!exists($map->{"ignore"}), @@{$map->{'weapons'}}))],
+d646 1
+a646 1
+				 [sort({$a->{'rank'} <=> $b->{'rank'}} grep(!exists($map->{"ignore"}), @@{$map->{'skills'}}))],
+d653 1
+a653 1
+				 [sort({$a->{'rank'} <=> $b->{'rank'}} grep(!exists($map->{"ignore"}), @@{$map->{'languages'}}))],
+d665 1
+a665 1
+    $cr->translate(280, 100);
+d674 1
+a674 1
+					  } grep(!exists($map->{"ignore"}), @@{$map->{$_}}))],
+d689 1
+a689 1
+# Cal_Character
+d692 2
+a693 1
+sub Cal_Character {
+d695 5
+a699 1
+    my ($doc, $map, $file) = @@_;
+d701 6
+a706 3
+    my $cal_doc = XML::LibXML::Document->new("1.0", "utf8");
+    my $cal_root = $cal_doc->createElement("cal");
+    $cal_doc->setDocumentElement($cal_root);
+d708 5
+a712 2
+    my $out;
+    open($out, ">", $file);
+d715 1
+a715 1
+# @@tl is track list, holds all the ranking track information
+d718 24
+a741 1
+    my @@tl;
+d743 2
+a744 1
+    for my $a ($doc->findnodes("/character/adventure")->get_nodelist)
+d746 3
+a748 3
+	my $advtrack = {};
+
+	if (!(($a->hasAttribute("star")) && ($a->getAttribute("star") > 0)))
+d750 1
+a750 7
+	    my $t = {};
+	    $t->{'type'} = "a";
+	    $t->{'start'} = $a->getAttribute("start-tick");
+	    $t->{'end'} = $a->getAttribute("end-tick");
+	    $t->{'name'} = $a->getAttribute("name");
+	    $t->{'track'} = 0;
+	    push(@@tl, $t);
+d752 1
+a752 2
+	printf $out "# adventure %d %d %s\n", $a->getAttribute("start-tick"), $a->getAttribute("end-tick"), $a->getAttribute("name"), "\n";
+	for my $r ($a->findnodes("ranking")->get_nodelist)
+d754 2
+a755 28
+	    my $s = $r->getAttribute("start");
+	    my $e = $r->getAttribute("end");
+	    if ((!($a->hasAttribute("star")) || ($a->getAttribute("star") > 0)) &&
+		(($e - $s) > 0))
+	    {
+		printf $out "# ranking %d %d %s\n", $r->getAttribute("start"), $r->getAttribute("end"), $r->getAttribute("desc");
+		for my $b ($r->findnodes("block")->get_nodelist)
+		{
+		    my $s = $b->getAttribute("start");
+		    my @@s = ($s, $s, $s, $s);
+		    for my $i ($b->findnodes("*")->get_nodelist)
+		    {
+			if ($i->getAttribute("day-equiv"))
+			{
+			    my $t = {};
+			    my $tn;
+			    $t->{'type'} = "r";
+			    $t->{'track'} = $tn = $i->getAttribute("track");
+			    $t->{'start'} = $s[$tn];
+			    $t->{'end'} = $s[$tn] + $i->getAttribute("day-equiv") - 1;
+			    $t->{'name'} = $i->getAttribute("name");
+			    push(@@tl, $t);
+			    $s[$tn] += $i->getAttribute("day-equiv");
+			}
+			printf $out "# line %d %d %s\n", $i->getAttribute("day-equiv"), $i->getAttribute("track"), $i->getAttribute("name");
+		    }
+		}
+	    }
+d758 4
+d763 36
+d800 56
+a855 1
+# Map over the track list
+d858 5
+a862 4
+    my $ym = {};
+    my $om = {};
+    map {
+	printf $out "# track %s %d %d %d\n", $_->{'name'}, $_->{'track'}, $_->{'start'}, $_->{'end'};
+d864 4
+a867 9
+	my $i = 0;
+	do {
+	    if (!exists($om->{$i}))
+	    {
+		$om->{$i} = $_;
+		$_->{'ref'} = $i;
+	    }
+	    $i++;
+	} while (!exists($_->{'ref'}));
+a868 3
+	for $i ($_->{'start'} .. $_->{'end'})
+	{
+	
+d870 1
+a870 1
+# TickToTM returns (d,m,y,wd,yd)
+d873 33
+a905 1
+	    my @@bits = TickToTM($i);
+d908 1
+a908 1
+# Create year (d,m,y,wd,yd)
+d911 3
+a913 1
+	    $ym->{$bits[2]} = {} if (!exists($ym->{$bits[2]}));
+d916 1
+a916 1
+# Create month (d,m,y,wd,yd)
+d919 12
+a930 4
+	    if (!exists($ym->{$bits[2]}->{$bits[1]}))
+	    {
+		my $monthmap = {};
+		$ym->{$bits[2]}->{$bits[1]} = $monthmap;
+d933 1
+a933 1
+# Get start of month date
+d936 2
+a937 2
+		my @@monbits = TickToTM($i - $bits[0]);
+		@@monbits = TickToTM($i - $bits[0] + 1) if($monbits[0]);
+d940 1
+a940 2
+# Get end of month
+# Add enough days to get next month then work backward
+d943 31
+a973 6
+		my $j = $i + 31;
+		my @@mon2bits  = TickToTM($j);
+		$j -= $mon2bits[0];
+		@@mon2bits = TickToTM($j);
+		$j -= 1 if ($mon2bits[1] != $monbits[1]);
+		@@mon2bits = TickToTM($j);
+d975 2
+a976 16
+		$monthmap->{'_start_'} = $monbits[0];
+		$monthmap->{'_end_'} = $mon2bits[0];
+		$monthmap->{'_wday_'} = $monbits[3];
+		
+#		printf STDERR "Got month %d start %d end %d wday %d\n", $monbits[1], $monbits[0], $mon2bits[0], $monbits[3];
+	    }
+	    if (!exists($ym->{$bits[2]}->{$bits[1]}->{$bits[0]}))
+	    {
+		$ym->{$bits[2]}->{$bits[1]}->{$bits[0]} = {};
+	    }
+	    my $d = $ym->{$bits[2]}->{$bits[1]}->{$bits[0]};
+	    $d->{$_->{'track'}} = $_;
+	    $d->{'mday'} = $bits[3];
+	    $d->{'wk'} = TickToWK($i);
+	}
+    } @@tl;
+d979 1
+a979 1
+# Add weeks
+d982 42
+a1023 1
+    while (my ($year, $ydata) = each(%$ym))
+d1025 10
+a1034 1
+	while (my ($month, $mdata) = each(%$ydata))
+d1036 4
+a1039 3
+	    my $wday = $mdata->{'_wday_'};
+	    my $wks = {};
+	    while (my ($day, $ddata) = each(%$mdata))
+d1041 8
+a1048 9
+		next if (!($day =~ /\d+/));
+		my $wk = int(($wday + $day) / 7);
+		$wks->{$wk} = {} if (!exists($wks->{$wk}));
+		$wks->{$wk}->{$day} = $ddata;
+		delete $mdata->{$day};
+	    }
+	    while ((my ($k, $v) = each(%$wks)))
+	    {
+		$mdata->{$k} = $v;
+d1050 2
+d1054 7
+d1063 1
+a1063 1
+# Do output
+d1066 18
+a1083 1
+    for my $y (sort({$a <=> $b} keys(%$ym)))
+d1085 2
+a1086 5
+	my $y_node = $cal_root->addNewChild("", "year");
+	$y_node->setAttribute("year", $y);
+	printf $out "Year\t%d\n", $y;
+	my $ykey = $ym->{$y};
+	for my $m (sort({$a <=> $b} keys(%$ykey)))
+d1088 2
+a1089 10
+	    my $mkey = $ykey->{$m};
+
+	    my $m_node = $y_node->addNewChild("", "month");
+	    $m_node->setAttribute("month", $m);
+	    $m_node->setAttribute("start", $mkey->{'_start_'});
+	    $m_node->setAttribute("end", $mkey->{'_end_'});
+	    $m_node->setAttribute("wday", $mkey->{'_wday_'});
+
+	    printf $out "Month\t%d\t%d\t%d\t%d\n", $m, $mkey->{'_start_'}, $mkey->{'_end_'}, $mkey->{'_wday_'};
+	    for my $w (sort({$a <=> $b} keys(%$mkey)))
+d1091 2
+a1092 2
+		my $week = $mkey->{$w};
+		if ($w =~ m:^[0-9]+$:)
+d1094 1
+a1094 22
+		    my $w_node = $m_node->addNewChild("", "week");
+		    my $week = $mkey->{$w};
+		    for my $d (sort({$a <=> $b} keys(%$week)))
+		    {
+			my $day = $week->{$d};
+			my $d_node = $w_node->addNewChild("", "day");
+			$d_node->setAttribute("day", $d);
+			$d_node->setAttribute("date", $day->{'wk'});
+			printf $out "Day\t%d\t%d\t%s", $d, $day->{'mday'}, $day->{'wk'};
+			for my $t (0, 1, 2, 3)
+			{
+			    if (exists($day->{$t}))
+			    {
+				my $t_node = $d_node->addNewChild("", "track");
+				$t_node->setAttribute("track", $t);
+				$t_node->setAttribute("name", $day->{$t}->{'name'});
+
+				printf $out "\t%d\t%s", $t, $day->{$t}->{'name'};
+			    }
+			}
+			printf $out "\n";
+		    }
+a1098 2
+    close($out);
+    $cal_doc->toFile("$file".".xml", 1);
+d1103 68
+a1176 1
+    my $doc = $conf->{'parser'}->parse_file($opts->{'i'});
+d1178 10
+d1189 2
+d1201 2
+a1202 2
+    my $basics = $doc->findnodes("/character/basics")->[0];
+    for my $i ($basics->getAttributes())
+d1206 1
+a1206 1
+	$map->{$key} = $data;
+d1208 1
+a1208 1
+
+d1217 1
+a1217 1
+	$map->{$key} = $data;
+d1227 8
+a1234 11
+	my $sl = [];
+	$map->{$bits[3]} = $sl;
+	for my $i ($doc->findnodes($k)->get_nodelist)
+	{
+	    my $j = {};
+	    $j->{'name'} = $i->getAttribute('name');
+	    $j->{'rank'} = $i->getAttribute('rank');
+	    $j->{'type'} = $i->getName();
+	    push(@@{$sl}, $j);
+#	    printf "%s: %s -> %s\n", $j->{'type'}, $j->{'name'}, $j->{'rank'};
+	}
+d1244 9
+a1252 29
+	my $sl = [];
+	$map->{$bits[3]} = $sl;
+ 	for my $i ($doc->findnodes($k)->get_nodelist)
+	{
+	    my $j = {};
+	    $j->{'name'} = $i->getAttribute('name');
+	    $j->{'rank'} = $i->getAttribute('rank');
+	    $j->{'ref'} = $i->getAttribute('ref');
+	    $j->{'college'} = $i->getAttribute('college');
+	    $j->{'bc'} = '';
+
+	    if (defined($conf->{'spells'}))
+ 	    {
+		my $q = sprintf('//college[@@abbrev="%s"]/*/*[@@ref="%s"]', $j->{'college'}, $j->{'ref'});
+		my @@nl = $conf->{'spells'}->findnodes($q)->get_nodelist();
+		if (scalar(@@nl) && $nl[0]->hasAttribute("bc"))
+		{
+		    my $bc = $nl[0]->getAttribute("bc");
+		    map {
+			my $d = $map->{$_};
+			$bc =~ s:$_:$d:;
+		    } ("MA", "PC", "WP");
+		    my $r = $j->{'rank'};
+		    $bc =~ s:Rank:$r:;
+		    $j->{'bc'} = eval($bc);
+		}
+	    }
+	    push(@@{$sl}, $j);
+	}
+d1254 2
+d1257 3
+a1259 1
+    $map->{'now'} = strftime("%d %b %Y", @@{localtime(time())});
+d1261 7
+d1279 1
+a1279 12
+    $format_funciton->($conf, $doc, $map, $opts->{o});
+    
+#    &HTML_Character($doc, $file =~ /(.*)(\.xml)$/ ? "$1.htm" : "$file.htm");
+#    &TeX_Character($doc, $map, $file =~ /(.*)(\.xml)$/ ? "$1.ltx" : "$file.ltx");
+#    &Cal_Character($doc, $map, $file =~ /(.*)(\.xml)$/ ? "$1.cal" : "$file.cal");
+    
+    &TeX_Character($conf, $doc, $map, $opts->{'o'}) if ($opts->{'f'} eq "tex");
+    if ($opts->{f} eq "cairo")
+    {
+	my $t = $opts->{t} // "pdf";
+	&Cairo_Character($conf, $doc, $map,  if ($t eq "pdf");
+    }
+d1296 1
+a1296 1
+		function => \&TeX_Format,
+d1299 2
+a1300 2
+	    pdf => {
+		function => \&Cairo_Format,
+d1303 4
+a1344 2
+
+    exists($opts->{'f'}) || die;
+@
+
+
+1.9
+log
+@Summary: Add CM calandar.
+@
+text
+@d1 1
+a1 1
+#!/usr/bin/perl
+d3 12
+d21 1
+a21 1
+use dq;
+d31 1
+a31 1
+    my ($in, $map, $ranking, $tex) = @@_;
+d81 2
+a82 5
+    my $start = $ranking->getAttribute("start");
+    my $end = $ranking->getAttribute("end");
+    my $period = ($start == $end) ? "" : 
+	(($end - $start == 1) ? TickToCDate($start, $cal) :
+	 sprintf("%s -- %s",TickToCDate($start, $cal), TickToCDate($end, $cal)));
+d84 6
+d125 1
+a125 1
+    my ($in, $map, $advent, $tex) = @@_;
+d127 3
+a129 3
+    my $name = $advent->getAttribute("name");
+    my $start = $advent->getAttribute("start");
+    my $end = $advent->getAttribute("end");
+d131 2
+a132 2
+    my $startTick = $advent->getAttribute("start-tick");
+    my $endTick = $advent->getAttribute("end-tick");
+d138 1
+a138 3
+    my $cal = $advent->getAttribute("calandar");
+    assert($cal);
+    $map->{calandar} = $cal;
+d140 1
+a140 1
+    $tex->printf("\\begin{adventure}{$name}{$start [%s]}{$end [%s]}\n", TickToCDate($startTick, $cal), TickToCDate($endTick, $cal));
+d146 1
+a146 1
+    my @@party = $advent->findnodes("party/member")->get_nodelist();
+d160 16
+d180 1
+a180 1
+    my @@lines = $advent->findnodes("monies/line")->get_nodelist();
+d210 1
+a210 1
+    for my $ranking ($advent->findnodes("ranking")->get_nodelist)
+d212 1
+a212 1
+	&TeX_Ranking($in, $map, $ranking, $tex);
+d219 1
+a219 1
+    if ($advent->findnodes("experience")->size)
+d221 1
+a221 1
+	my $exp = $advent->findnodes("experience")->[0];
+d227 1
+a227 1
+	my $note = $advent->find("string(note)");
+d229 1
+a229 1
+	print $tex "\\experience{$ep_gained}{$ep_in}{$ep_spent}{$ep_out}{$note}\n";
+d260 2
+a261 2
+    $tex->printf("\\charname{%s}\n", $map->{'short'});
+    $tex->printf("\\fullname{%s}\n", $map->{'name'});
+d406 1
+a406 1
+	&TeX_Adventure($in, $map, $_, $tex);
+d422 1
+d439 1
+a439 1
+		
+d454 3
+a456 1
+		    $td_sum = $out->createElement("td");
+d463 1
+a463 1
+		    $td_raw = $tr->appendChild($out->createElement("td"));
+d467 1
+a467 1
+		    $td_time = $out->createElement("td");
+d515 1
+a515 1
+		$total_td = $total_tr->appendChild($out->createElement("th"));
+d519 1
+a519 1
+		$ep_td = $total_tr->appendChild($out->createElement("td"));
+d523 1
+a523 1
+		$time_td = $total_tr->appendChild($out->createElement("td"));
+d586 1
+d616 1
+a616 1
+    for $k (0 .. scalar(@@$boxes) - 1)
+d631 1
+a631 1
+    for $i (0 .. $len-1)
+d700 1
+a700 1
+    my ($conf, $doc, $map, $surface) = @@_;
+d702 1
+d726 1
+a726 1
+		       [220, "Name", $map->{'name'}],
+d776 1
+a776 1
+				 [sort({$a->{'rank'} <=> $b->{'rank'}} grep(!exists($j->{"ignore"}), @@{$map->{'weapons'}}))],
+d789 1
+a789 1
+				 [sort({$a->{'rank'} <=> $b->{'rank'}} grep(!exists($j->{"ignore"}), @@{$map->{'skills'}}))],
+d796 1
+a796 1
+				 [sort({$a->{'rank'} <=> $b->{'rank'}} grep(!exists($j->{"ignore"}), @@{$map->{'languages'}}))],
+d817 1
+a817 1
+					  } grep(!exists($j->{"ignore"}), @@{$map->{$_}}))],
+d1065 1
+d1070 7
+d1164 9
+d1178 5
+a1182 1
+    &Cairo_Character($conf, $doc, $map, Cairo::PdfSurface->create($opts->{'o'}, 595.28, 841.89)) if ($opts->{'f'} eq "eps");
+d1193 13
+a1205 3
+	'fonts' => {
+	    'sans' => 'Helvetica',
+	    'serif' => 'Times'
+d1221 23
+a1243 1
+    getopts("i:o:f:", $opts);
+a1244 2
+    exists($opts->{'i'}) || die;
+    exists($opts->{'o'}) || die;
+@
+
+
+1.8
+log
+@Summary: Add support for multiple caladars.
+@
+text
+@d713 2
+a714 2
+		       [150, "Birth",  $map->{"birth"}],
+		       [150, "Date",   $map->{'date'}." [".$map->{'now'}."]"],
+@
+
+
+1.7
+log
+@Summary: Clear out old postscript code.
+@
+text
+@d11 1
+d25 2
+a26 1
+
+d72 2
+a73 2
+	(($end - $start == 1) ? TickToWK($start) :
+	 sprintf("%s -- %s",TickToWK($start), TickToWK($end)));
+d119 10
+a128 2
+    $tex->printf("\\begin{adventure}{$name}{$start [%s]}{$end [%s]}\n", TickToWK($startTick), TickToWK($endTick));
+
+a548 153
+
+# ----------------------------------------------------------------------
+#
+# EPS_Character
+#
+# ----------------------------------------------------------------------
+
+sub EPS_Spells {
+    my ($hash, $top, $out) = @@_;
+
+    my @@list = sort
+    {
+	my ($ar, $an) = split(/\-/, $a->{'ref'});
+	my ($br, $bn) = split(/\-/, $b->{'ref'});
+	$ar cmp $br || $an <=> $bn;
+    } @@{$hash->{'spells'}};
+
+    my $len = scalar(@@list);
+    my $height = 14 * ($len + 1);
+	
+    print $out "gsave\n";
+    print $out "0 ", $top - $height, " translate\n";
+    print $out "gsave\n";
+    
+    for $j (reverse @@list)
+    {
+	printf($out "(%d) (%s %s) (%s) () () SpellRow 0 14 translate\n",
+	       $j->{'rank'}, $j->{'ref'}, $j->{'name'},
+	       $j->{'bc'});
+    }
+    
+    print $out "SpellHeader\n";
+    print $out "grestore\n";
+    print $out "260 ",14 * ($len + 1)," 0 0 1 FrameBox\n";
+    print $out "grestore\n";
+    return $height;
+}
+
+sub EPS_Bits {
+    my ($map, $top, $out, $ref, $header, $line) = @@_;
+
+    if ($map->{$ref})
+    {
+	my @@list = sort {$a->{'rank'} <=> $b->{'rank'}} @@{$map->{$ref}};
+
+	my $len = 0;
+	for $j (@@list)
+	{
+	    $len += 1 if (! exists $j->{"ignore"});
+	}
+	my $height = 14 * ($len + 1);
+
+	print $out "gsave\n";
+	print $out "0 ", $top - $height," translate\n";
+	printf $out "260 %d 0 0 1.0 0.9 FillBox\n", $height;
+	print $out "gsave\n";
+
+	for $j (@@list)
+	{
+	    printf($out $line, $j->{"rank"}, $j->{"name"}) if (! exists $j->{"ignore"});
+	    printf($out " 0 14 translate\n");
+	}
+	printf $out "%s\n", $header;
+	printf $out "grestore\n";
+	printf $out "grestore\n";
+	return $height;
+    }
+    return 0;
+}
+
+sub EPS_Skills {
+    my ($character, $top, $out) = @@_;
+
+    $top -= &EPS_Bits($character, $top, $out, "weapons", "WeaponHeader", "(%s) (%s) () () () () () () () WeaponRow");
+    $top -= &EPS_Bits($character, $top, $out, "skills", "SkillHeader", "(%s) (%s) () SkillRow");
+    $top -= &EPS_Bits($character, $top, $out, "languages", "LangHeader", "(%s) (%s) LangRow");
+}
+
+sub EPS_Header {
+    my ($hash, $top, $out) = @@_;
+    my $height = 100;
+
+    print $out "gsave\n";
+    print $out "0.3 setlinewidth\n";
+    print $out "0 ", $top, " translate\n";
+    print $out "(",$hash->{"name"},") (Name) 220 20 0 60 FrameLeftTopTextBox\n";
+    print $out "(",$hash->{"PS"},") (PS) 50 20 220 60 FrameLeftTopTextBox\n";
+    print $out "(",$hash->{"MD"},") (MD) 50 20 270 60 FrameLeftTopTextBox\n";
+    print $out "(",$hash->{"AG"},") (AG) 50 20 320 60 FrameLeftTopTextBox\n";
+    print $out "(",$hash->{"MA"},") (MA) 50 20 370 60 FrameLeftTopTextBox\n";
+    print $out "(",$hash->{"WP"},") (WP) 50 20 420 60 FrameLeftTopTextBox\n";
+    print $out "(",$hash->{"EN"},") (EN) 50 20 470 60 FrameLeftTopTextBox\n";
+    print $out "(",$hash->{"race"},") (Race) 220 20 0 40 FrameLeftTopTextBox\n";
+    print $out "(",$hash->{"sex"},") (Sex) 50 20 220 40 FrameLeftTopTextBox\n";
+    print $out "(",$hash->{"PB"},") (PB) 50 20 370 40 FrameLeftTopTextBox\n";
+    print $out "(",$hash->{"height"},") (HT) 50 20 270 40 FrameLeftTopTextBox\n";
+    print $out "(",$hash->{"weight"},") (WT) 50 20 320 40 FrameLeftTopTextBox\n";
+    print $out "(",$hash->{"PC"},") (PC) 50 20 420 40 FrameLeftTopTextBox\n";
+    print $out "(",$hash->{"FT"},") (FT) 50 20 470 40 FrameLeftTopTextBox\n";
+    print $out "(",$hash->{"aspect"},") (Aspect) 220 20 0 20 FrameLeftTopTextBox\n";
+    print $out "(",$hash->{"birth"},") (Birth) 150 20 220 20 FrameLeftTopTextBox\n";
+    print $out "($date [$now]) (Date) 150 20 370 20 FrameLeftTopTextBox\n";
+    print $out "(",$hash->{"status"},") (S. Status) 220 20 0 0 FrameLeftTopTextBox\n";
+    print $out "(",$hash->{"hand"},") (Hand) 100 20 220 0 FrameLeftTopTextBox\n";
+    print $out "(",$hash->{"college"},") (College) 200 20 320 0 FrameLeftTopTextBox\n";
+    print $out "520 80 0 0 1.0 FrameBox\n";
+    print $out "grestore\n";
+    return $height;
+}
+
+
+# ----------------------------------------------------------------------
+#
+# EPS_Character
+#
+# ----------------------------------------------------------------------
+
+sub EPS_Character {
+    my ($conf, $doc, $map, $out) = @@_;
+
+    open(INSTREAM, "prolog.ps");
+    while (<INSTREAM>)
+    {
+	print $out $_;
+    }
+    close(INSTREAM);
+
+
+# --------------------
+# Produce output
+# --------------------
+
+    my $top = 700;
+
+    print $out "%%Page: 1 1\n";
+    print $out "gsave\n";
+    print $out "40 40 translate\n";
+
+    &EPS_Header($map, $top, $out);
+    $top = $top - &EPS_Skills($map, $top, $out);
+
+    print $out "260 0 translate\n";
+
+    $top = 700;
+    $top = $top - &EPS_Spells($map, $top, $out);
+
+    print $out "grestore\n";
+    print $out "showpage\n";
+    print $out "%%Trailer\n";
+    print $out "%%EOF\n";
+    return;
+}
+
+d660 6
+d671 4
+d678 5
+d685 4
+a1032 2
+
+
+@
+
+
+1.6
+log
+@Save before renaming to format.pl.
+@
+text
+@a4 1
+use encoding 'utf8';
+d117 1
+a117 1
+    $tex->printf("\\adventure{$name}{$start [%s]}{$end [%s]}\n", TickToWK($startTick), TickToWK($endTick));
+d192 1
+d870 7
+a876 7
+				  {'id' => 'iv', 'len' => 20},
+				  {'id' => 'sc', 'len' => 20},
+				  {'id' => 'dm', 'len' => 20},
+				  {'id' => 'cl', 'len' => 20},
+				  {'id' => 'rg', 'len' => 20},
+				  {'id' => 'use', 'len' => 20},
+				  {'id' => 'wt', 'len' => 20},
+d892 5
+d899 16
+a914 13
+    $cr->translate(0, Cairo_Bits($conf, $cr,
+				 [sort(
+				      {
+					  my ($ar, $an) = split(/\-/, $a->{'ref'});
+					  my ($br, $bn) = split(/\-/, $b->{'ref'});
+					  $ar cmp $br || $an <=> $bn;
+				      } grep(!exists($j->{"ignore"}), @@{$map->{'spells'}}))],
+				 [
+				  {'id' => 'rank', 'len' => 20, 'title' => 'RK', 'align' => 'r'},
+				  {'id' => 'ref', 'len' => 30, 'title' => 'Ref'},
+				  {'id' => 'name', 'len' => 190, 'title' => 'Spell'},
+				  {'id' => 'bc', 'len' => 20, 'title' => 'BC', 'align' => 'r'},
+				 ]));
+a915 1
+    
+a1238 1
+#	    printf "[%s %s] %s -> %s (%s)\n", $j->{'college'}, $j->{'ref'}, $j->{'name'}, $j->{'rank'}, $j->{'bc'};
+a1241 1
+    $map->{'date'} = TickToWK($map->{'state'}->{'tick'});
+d1253 1
+a1253 1
+    &Cairo_Character($conf, $doc, $map, Cairo::PsSurface->create($opts->{'o'}, 576, 828)) if ($opts->{'f'} eq "eps");
+@
+
+
+1.5
+log
+@Add cairo support for EPS/SVG.
+@
+text
+@d3 1
+d10 2
+a11 49
+
+# ----------------------------------------------------------------------
+#
+# TickToWK
+#
+# ----------------------------------------------------------------------
+sub TickToWK {
+    my ($tick) = @@_;
+    my ($ny, $nq, $nm, $nd);
+    $ny = int($tick/364);
+    $tick = $tick - $ny * 364;
+    $nq = int($tick/91);
+    $tick = $tick - $nq * 91;
+    $nm = $nq * 3 + int(($tick-1)/30);
+    $nd = $tick - ($nm%3)*30;
+    my $res;
+    if ($nd == 0)
+    {
+	my @@t = ('Beltane', 'Lugnaad', 'Samhain', 'Candlemansa');
+	$res = sprintf("%s %d WK", $t[$nq], $ny + 770);
+    }
+    else
+    {
+	my @@t = ('Meadow', 'Heat', 'Breeze', 'Fruit', 'Harvest', 'Vintage', 'Frost', 'Snow', 'Ice', 'Thaw', 'Seedtime', 'Blossom');
+#	$res = sprintf("%s %d, %d WK", $t[$nm] ,$nd, $ny + 770);
+	$res = sprintf("%d.%d.%d WK", $nd, $nm+1, $ny + 770);
+    }
+    return $res;
+}
+
+# ----------------------------------------------------------------------
+#
+# TickToTM
+#
+# ----------------------------------------------------------------------
+sub TickToTM {
+    my ($tick) = @@_;
+    my ($ny, $nq, $nm, $nmd, $nyd, $nwd);
+    $ny = int($tick/364);
+    $tick = $tick - $ny * 364;
+    $nyd = $tick;
+    $nq = int($tick/91);
+    $tick = $tick - $nq * 91;
+    $nm = $nq * 3 + int(($tick-1)/30);
+    $nd = $tick - ($nm%3)*30;
+    $nwd = $nyd%7;
+    my @@res = ($nd, $nm, $ny, $nwd, $nyd);
+    return @@res;
+}
+d32 1
+a32 1
+# --------------------
+a33 1
+# --------------------
+a35 1
+
+a36 1
+# --------------------
+d41 1
+d45 1
+d60 1
+a60 1
+# --------------------
+d68 6
+d118 1
+a118 3
+    printf TEX "\\adventure{$name}{$start [%s]}{$end [%s]}\n", TickToWK($startTick), TickToWK($endTick);
+
+#    printf "%s %s\n", $start, TickToWK($startTick);
+d201 1
+a201 1
+    my ($doc, $map, $file) = @@_;
+d205 1
+a205 1
+    open($tex, ">:encoding(utf-8)", "$file");
+d211 3
+a213 3
+    print $tex "\\documentclass[a4paper]{article}\n";
+    print $tex "\\usepackage{ranking}\n";
+    print $tex "\\begin{document}\n";
+a217 1
+    printf $tex "\\fontencoding{T1}\\fontfamily{phv}\\fontsize{8}{10.0pt}\\selectfont\n";
+d219 9
+a227 7
+    printf $tex "\\charname{%s}\n", $character->find('string(basics/@@short)');
+    printf $tex "\\fullname{%s}\n", $character->find('string(basics/@@name)');
+    printf $tex "\\race{%s}\n", $character->find('string(basics/@@race)');
+    printf $tex "\\dateofbirth{%s}\n", $character->find('string(basics/@@dateofbirth)');
+    printf $tex "\\aspect{%s}\n", $character->find('string(basics/@@aspect)');
+    printf $tex "\\birth{%s}\n", $character->find('string(basics/@@birth)');
+    printf $tex "\\status{%s}\n", $character->find('string(basics/@@status)');
+d229 2
+a230 2
+    printf $tex "\\college{%s}\n", $character->find('string(basics/@@college)');
+    printf $tex "\\title{\\fontfamily{pzc}\\fontsize{40}{40pt}\\selectfont %s}\n", $character->find('string(basics/@@name)');
+d236 2
+a237 2
+    print $tex "\\maketitle\n";
+    print $tex "\\chardesc\n";
+d243 1
+a243 1
+    printf $tex "{\\fontsize{10}{12pt}\\selectfont\n\n";
+d245 23
+a267 23
+    printf $tex "\\begin{tabularx}{\\linewidth}{|l|X|X|X|X|X|X|} \\hline\n";
+    printf $tex "\\makebox[4cm][l]{\\textsuperscript{Name}%s} \&\n", $character->find('string(basics/@@short)');
+    printf $tex "\\textsuperscript{PS} %s \&\n", $map->{'stat'}->{'Physical Strength'}->{"rank"};
+    printf $tex "\\textsuperscript{MD} %s \&\n", $map->{'stat'}->{'Manual Dexturity'}->{"rank"};
+    printf $tex "\\textsuperscript{AG} %s \&\n", $map->{'stat'}->{'Agility'}->{"rank"};
+    printf $tex "\\textsuperscript{MA} %s \&\n", $map->{'stat'}->{'Magical Aptitude'}->{"rank"};
+    printf $tex "\\textsuperscript{WP} %s \&\n", $map->{'stat'}->{'Willpower'}->{"rank"};
+    printf $tex "\\textsuperscript{EN} %s \\\\\n", $map->{'stat'}->{'Endurance'}->{"rank"};
+    printf $tex "\\hline\n";
+
+    printf $tex "\\textsuperscript{Race} %s \&\n", $character->find('string(basics/@@race)');
+    printf $tex "\\textsuperscript{Sex} %s \&\n", $character->find('string(basics/@@sex)');
+    printf $tex "\\textsuperscript{HT} %s \&\n", $character->find('string(basics/@@height)');
+    printf $tex "\\textsuperscript{WT} %s \&\n", $character->find('string(basics/@@weight)');
+    printf $tex "\\textsuperscript{PB} %s \&\n", $map->{'stat'}->{'Physical Beauty'}->{"rank"};
+    printf $tex "\\textsuperscript{PC} %s \&\n", $map->{'stat'}->{'Perception'}->{"rank"};
+    printf $tex "\\textsuperscript{FT} %s \\\\\n", $map->{'stat'}->{'Fatigue'}->{"rank"};
+    printf $tex "\\hline\n";
+
+    printf $tex "\\textsuperscript{Aspect}%s \&\n", $character->find('string(basics/@@aspect)');
+    printf $tex "\\multicolumn{3}{l|}{\\textsuperscript{Birth} %s} \&\n", $character->find('string(basics/@@birth)');
+    printf $tex "\\multicolumn{3}{l|}{\\textsuperscript{Date} %s} \\\\\n", $character->find('string(basics/@@date)');
+    printf $tex "\\hline\n";
+d269 5
+a273 5
+    printf $tex "\\textsuperscript{S.Status} %s \&\n", $character->find('string(basics/@@status)');
+    printf $tex "\\multicolumn{2}{l|}{\\textsuperscript{Hand} %s} \&\n", $character->find('string(basics/@@hand)');
+    printf $tex "\\multicolumn{2}{l|}{\\textsuperscript{Coll.} %s} \& \n", $character->find('string(basics/@@college)');
+    printf $tex "\\multicolumn{2}{l|}{\\textsuperscript{EP} %s [%s]} \\\\\n", $character->find('string(basics/@@ep-total)'), $character->find('string(basics/@@ep)');
+    printf $tex "\\hline\n";
+d275 2
+a276 2
+    printf $tex "\\end{tabularx}\n\n";
+    printf $tex "}\n";
+d282 1
+a282 1
+    printf $tex "\\begin{tabular}[t]{\@@{}p{0.5\\linewidth}\@@{}p{0.5\\linewidth}\@@{}}\n";
+d286 2
+a287 2
+    printf $tex "\\begin{tabularx}{0.49\\columnwidth}[t]{|r|X|} \\hline \n";
+    printf $tex "\\textbf{Rk} & \\hfil \\textbf{Skill} \\hfil \\\\ \\hline\n";
+d289 1
+a289 4
+    my $tmap = $map->{'skill'};
+    my @@skills = sort { $tmap->{$b}->{"rank"} <=> $tmap->{$a}->{"rank"} }  keys %{$tmap};
+    
+    for my $s (@@skills)
+d291 3
+a293 2
+	next if ($s =~ m/^__/);
+	my $t = sprintf "\\hbox to 2.0em{\\hfil %d} \& %s \\\\\n", $tmap->{$s}->{"rank"}, $s;
+d295 1
+a295 1
+	printf $tex $t;
+d297 3
+a299 3
+    printf $tex "\\hline\n";
+    printf $tex "\\end{tabularx}\n";
+    printf $tex "\n\n";
+d303 4
+a306 7
+    printf $tex "\\begin{tabularx}{0.49\\columnwidth}[t]{|r|X|} \\hline \n";
+    printf $tex "\\textbf{Rk} & \\hfil \\textbf{Weapon} \\hfil \\\\ \\hline\n";
+
+    $tmap = $map->{'weapon'};
+    my @@weapons = sort { $tmap->{$b}->{"rank"} <=> $tmap->{$a}->{"rank"} }  keys %{$tmap};
+
+    for my $s (@@weapons)
+d308 2
+a309 2
+	next if ($s =~ m/^__/);
+	my $t = sprintf "\\hbox to 2.0em{\\hfil %d} \& %s \\\\\n", $tmap->{$s}->{"rank"}, $s;
+d311 1
+a311 1
+	printf $tex $t;
+d313 4
+a316 4
+    printf $tex "\\hline\n";
+    printf $tex "\\end{tabularx}\n";
+    printf $tex "\n";
+
+d319 1
+a319 1
+    printf $tex "\&\n";
+d323 1
+a323 11
+
+    $tmap = $map->{'talent'};
+    my @@talents = sort {
+	my $aref = $tmap->{$a}->{"ref"};
+	my $bref = $tmap->{$b}->{"ref"};
+	my ($atype, $aval) = split(/-/, $aref);
+	my ($btype, $bval) = split(/-/, $bref);
+	$tmap->{$b}->{"college"} cmp $tmap->{$a}->{"college"} || $atype cmp $btype || $aval <=> $bval
+    } keys %{$tmap};
+
+    if (scalar(@@talents))
+a324 17
+	printf $tex "\\begin{tabularx}{0.50\\columnwidth}[t]{|r|X|} \\hline \n";
+	printf $tex "\\textbf{Rk} & \\hfil \\textbf{Talents} \\hfil \\\\ \\hline\n";
+	
+	for my $s (@@talents)
+	{
+	    next if ($s =~ m/^__/);
+	    my $t = sprintf("%d \& %s (%s) \\\\\n",
+			    $tmap->{$s}->{"rank"},
+			    $tmap->{$s}->{"name"},
+				$tmap->{$s}->{"ref"}
+			    );
+	    $t =~ s/\&amp;/\\& /;
+	    printf $tex $t;
+	}
+	printf $tex "\\hline\n";
+	printf $tex "\\end{tabularx}\n";
+    }
+d326 9
+a334 14
+    $tmap = $map->{'spell'};
+    my @@spells = sort {
+	my $aref = $tmap->{$a}->{"ref"};
+	my $bref = $tmap->{$b}->{"ref"};
+	my ($atype, $aval) = split(/-/, $aref);
+	my ($btype, $bval) = split(/-/, $bref);
+	$tmap->{$b}->{"college"} cmp $tmap->{$a}->{"college"} || $atype cmp $btype || $aval <=> $bval
+    } keys %{$tmap};
+
+    if (scalar(@@spells))
+    {
+	printf $tex "\\begin{tabularx}{0.50\\columnwidth}[t]{|r|X|} \\hline \n";
+	printf $tex "\\textbf{Rk} & \\hfil \\textbf{Spells} \\hfil \\\\ \\hline\n";
+	for my $s (@@spells)
+d336 16
+a351 36
+	    next if ($s =~ m/^__/);
+	    my $t = sprintf("%d \& %s (%s) \\\\\n",
+			    $tmap->{$s}->{"rank"},
+			    $tmap->{$s}->{"name"},
+			    $tmap->{$s}->{"ref"}
+			    );
+	    $t =~ s/\&amp;/\\& /;
+	    printf $tex $t;
+	}
+	printf $tex "\\hline\n";
+	printf $tex "\\end{tabularx}\n";
+    }
+
+    $tmap = $map->{'ritual'};
+    my @@spells = sort {
+	my $aref = $tmap->{$a}->{"ref"};
+	my $bref = $tmap->{$b}->{"ref"};
+	my ($atype, $aval) = split(/-/, $aref);
+	my ($btype, $bval) = split(/-/, $bref);
+	$tmap->{$b}->{"college"} cmp $tmap->{$a}->{"college"} || $atype cmp $btype || $aval <=> $bval
+    } keys %{$tmap};
+
+    if (scalar(@@spells))
+    {
+	printf $tex "\\begin{tabularx}{0.50\\columnwidth}[t]{|r|X|} \\hline \n";
+	printf $tex "\\textbf{Rk} & \\hfil \\textbf{Rituals} \\hfil \\\\ \\hline\n";
+	for my $s (@@spells)
+	{
+	    next if ($s =~ m/^__/);
+	    my $t = sprintf("%d \& %s (%s) \\\\\n",
+			    $tmap->{$s}->{"rank"},
+			    $tmap->{$s}->{"name"},
+			    $tmap->{$s}->{"ref"}
+			    );
+	    $t =~ s/\&amp;/\\& /;
+	    printf $tex $t;
+a352 2
+	printf $tex "\\hline\n";
+	printf $tex "\\end{tabularx}\n";
+d354 2
+a355 3
+
+    printf $tex "\\end{tabular}\n";
+
+d360 1
+a360 1
+    printf $tex "\\normalsize\n";
+d370 1
+a370 1
+    print $tex "\\end{document}\n";
+a538 260
+# ----------------------------------------------------------------------
+#
+# XML_Adventure
+#
+# ----------------------------------------------------------------------
+
+sub XML_Adventure {
+
+    my ($map, $state, $adventure) = @@_;
+
+# Print out adventure name
+
+    my $tick = $state->{'tick'};
+    my $start = $adventure->getAttribute("start-tick");
+    my $end = $adventure->getAttribute("end-tick");
+
+    printf("\n** %s [%s - %s] **\n\n", $adventure->getAttribute("name"), &TickToWK($start), &TickToWK($end));
+
+# Process Money
+    
+    for my $m ($adventure->findnodes("monies")->get_nodelist)
+    {
+	next if $m->hasAttribute("desc");
+	my $in = $m->getAttribute("in");
+	my $out = 0;
+
+# Check "in" is correct.
+
+	if ($state->{"money"} != $in)
+	{
+	    print "Money computed value different from stored value (", $state->{"money"}, " vs $in).\n";
+	    exit(1);
+	}
+
+	for my $l ($m->findnodes("line")->get_nodelist)
+	{
+	    $in += $l->getAttribute("in") if ($l->hasAttribute("in"));
+	    $out += $l->getAttribute("out") if ($l->hasAttribute("out"));
+	}
+
+	my $total = $in - $out;
+	my $amount = $m->getAttribute("out");
+
+	if ($amount != $total)
+	{
+	    print STDERR "Error in money dated ", $m->getAttribute("date"), " ($amount vs $total).\n";
+	    exit(1);
+	}
+	$state->{"money"} = $amount;
+    }
+
+# --------------------
+# Check Dates
+# --------------------
+
+    if ($tick > $start)
+    {
+	printf STDERR "Serious start date issue (Current %s Start %s)!\n", &TickToWK($tick), &TickToWK($start);
+	exit 1;
+    }
+    if ($start > $end)
+    {
+	printf STDERR "Serious date issue!\n";
+	exit 1;
+    }
+    $tick = $end + 1;
+
+# --------------------
+# Iterate over all the ranking nodes
+# --------------------
+
+    for my $ranking ($adventure->findnodes("ranking")->get_nodelist)
+    {
+	$ranking->setAttribute("start", $tick);
+	for my $block ($ranking->findnodes("block")->get_nodelist)
+	{
+
+# Set block level ep and time counters to zero.
+
+	    my $ep = 0;
+	    my @@time = (0, 0, 0);
+
+# Iterate over every ranking line in the block.
+
+	    for my $node ($block->findnodes("child::*")->get_nodelist)
+	    {
+
+# Get the type ie skill, spell, ritual, etc.
+
+		my $type = $node->getName();
+
+# Make sure valid entry.
+
+		if (!exists $map->{$type})
+		{
+		    print STDERR "Type $type unknown -- exiting.\n";
+		    exit 1;
+		}
+
+		my $name = $node->getAttribute("name");
+
+		if ((!$node->hasAttribute("initial") || !length($node->getAttribute("initial"))) && $map->{"type"}->{"__rankable__"}) 
+		{
+		    print STDERR "$type $name does not have initial value.\n";
+		    exit 1;
+		}
+
+# Create hash entry if it don't already exist.
+
+		$map->{$type}->{$name} = {} if (!exists $map->{$type}->{$name});
+		$map->{$type}->{$name}->{'name'} = $name;
+
+		$map->{$type}->{$name}->{'college'} = $node->getAttribute("college") if ($node->hasAttribute("college"));
+		$map->{$type}->{$name}->{'ref'} =  $node->getAttribute("ref") if ($node->hasAttribute("ref"));
+
+		my $initial = $node->getAttribute("initial");
+		my $rank = $map->{$type}->{$name}->{'rank'};
+		my $partial = $node->getAttribute("partial");
+
+		if (exists($map->{$type}->{$name}->{'rank'}) && !$partial && ($rank ne $initial))
+		{
+		    printf "$type $name initial [%s] not same as current rank [%s]\n", $initial, $rank;
+		    exit(1);
+		}
+
+# Having got the initial ranking value its now time to get the final.
+
+		if ($node->hasAttribute("final") && !$partial)
+		{
+		    my $final = $node->getAttribute("final");
+		    my $old = $map->{$type}->{$name}->{"rank"};
+		    $map->{$type}->{$name}->{"rank"} = $final;
+		}
+		else
+		{
+		    $map->{$type}->{$name}->{"rank"} = $initial;
+		}
+
+# --------------------
+# Check values
+# --------------------
+
+		if ($node->hasAttribute("initial") && $node->hasAttribute("final"))
+		{
+		    my $initial = $node->getAttribute("initial");
+		    my $final = $node->getAttribute("final");
+
+		    $initial = 0 if ($initial eq "U" && ($final > 0));
+		    if ($initial ne "U")
+		    {
+			my $sum = $node->getAttribute("sum");
+			$csum = ($node->getName() eq "stat") ?
+			    $final - $initial :
+			    (($final * ($final + 1)) - ($initial * ($initial +1))) / 2;
+		    
+			if ($csum != $sum)
+			{
+			    print "Initial = $initial  Final = $final  sum = $csum (sum = $sum).\n";
+			    print $node->toString(1), "\n";
+			    exit(1);
+			}
+			if ($node->hasAttribute("em"))
+			{
+			    my $em = $node->getAttribute("em");
+			    my $cep = $sum * $em;
+			    my $ep = $node->hasAttribute("raw-ep") ?
+				$node->getAttribute("raw-ep") :
+				$node->getAttribute("ep");
+			    if ($cep != $ep)
+			    {
+				print "EP = $ep -- computed EP $sum * $em = $cep\n";
+				print $node->toString(1), "\n";
+				exit(1);
+			    }
+			}
+			if ($node->hasAttribute("ep") && $node->hasAttribute("raw-ep"))
+			{
+			    my $ep = $node->getAttribute("ep");
+			    my $rep = $node->getAttribute("raw-ep");
+			    my $diff = ($rep >= $ep) ? $ep / $rep : $ep / $rep;
+			}
+		    }
+		}
+
+# --------------------
+# Process time and EP
+# --------------------
+
+		my $time_str = $node->getAttribute("time");
+		$time_str =~ /([0-9]+) (day|days|week|weeks)/;
+		my $time = $1;
+		$time *= 7 if (($2 eq "week") || ($2 eq "weeks"));
+		my $track = $node->getAttribute("track");
+		$node->setAttribute("day-equiv", $time);
+		$time[$track] += $time;
+		$ep += $node->getAttribute("ep");
+		print $node->getAttribute("name"), "\t", "Raw EP = $rep :: EP = $ep :: Diff = $diff :: Time = $time\n";
+	    }
+	    $block->setAttribute("ep", $ep);
+
+# --------------------
+# sort the time tracks to get maximum
+# --------------------
+
+	    print "Track times = ", join(" : ", @@time), "\n";
+	    my @@tsort = sort { $a <=> $b } @@time;
+	    $block->setAttribute("start", $tick);
+	    $block->setAttribute("time", $tsort[$#tsort]);
+
+	    if (!($ranking->hasAttribute("star") && ($ranking->getAttribute("star") > 0)))
+	    {
+		$tick += $tsort[$#tsort];
+	    }
+	}
+	$ranking->setAttribute("end", $tick);
+	printf("--\n");
+    }
+
+# --------------------
+# Process total Experience
+# --------------------
+
+    my $exp = $adventure->findnodes("experience")->[0];
+    if (defined $exp)
+    {
+	my $ep_in = $exp->getAttribute("in");
+	my $ep_gained = $exp->getAttribute("gained");
+	my $ep_spent = $exp->getAttribute("spent");
+	my $ep_out = $exp->getAttribute("out");
+
+	$state->{"ep-total"} += $ep_gained;
+	my $in = $state->{"ep"};
+
+	if ($in != $ep_in)
+	{
+	    print STDERR "Recorded transferred EP ($ep_in) is different from computed value ($in).\n";
+	    exit(1);
+	}
+
+	my $spent = $adventure->find('sum(ranking/block/@@ep)');
+	my $out = $in + $ep_gained - eval($spent);
+	if ($spent != $ep_spent)
+	{
+	    print STDERR "Recorded spent EP ($ep_spent) is different from computed value ($spent) [remaining $ep_out vs $out].\n";
+	    exit(1);
+	}
+	if ($out != $ep_out)
+	{
+	    print STDERR "Recorded remaining EP ($ep_out) is different from computed value ($out).\n";
+	    exit(1);
+	}
+	$state->{"ep"} = $out;
+	$state->{"tick"} = $tick;
+
+	printf("\n");
+	printf("EP:in %d gained %d spent %d out %d\n", $ep_in, $ep_gained, $ep_spent, $ep_out);
+	printf("Time: start %s - end %s - current %s [%d]\n", TickToWK($start), TickToWK($end), TickToWK($tick), $tick - $end);
+    }
+}
+
+d698 1
+a698 1
+    my ($cr, $x, $y, $w, $h, $label, $text) = @@_;
+d702 1
+a702 1
+    $cr->select_font_face('Helvetica', 'normal', 'normal');
+d708 1
+a708 1
+    $cr->select_font_face('Times', 'normal', 'normal');
+d713 1
+a713 1
+    my ($cr, $list, $boxes)  = @@_;
+d724 1
+a724 1
+    $cr->select_font_face('Helvetica', 'normal', 'bold');
+d731 1
+d734 2
+a735 1
+	$cr->move_to($x + 1, $height - 2);
+d739 1
+a739 1
+    $cr->select_font_face('Helvetica', 'normal', 'normal');
+d750 2
+d755 10
+a764 2
+	    $cr->move_to($x + 1, ($i+2) * $height - 2);
+	    $cr->show_text($j->{$id});
+d778 1
+a778 1
+    my ($cr, $y, $height, $boxes) = @@_;
+d791 1
+a791 1
+	$cr->select_font_face('Helvetica', 'normal', 'bold');
+d797 1
+a797 1
+	$cr->select_font_face('Times', 'normal', 'normal');
+d804 1
+a804 1
+    my ($doc, $map, $surface) = @@_;
+d808 1
+a808 1
+    $cr->select_font_face ('sans', 'normal', 'normal');
+d815 1
+a815 1
+    Cairo_TopBoxes($cr, 0, 20, [
+d825 1
+a825 1
+    Cairo_TopBoxes($cr, 20, 20, [
+d829 1
+a829 1
+		       [50, "HT", $map->{'hieght'}],
+d835 1
+a835 1
+    Cairo_TopBoxes($cr, 40, 20, [
+d840 11
+a850 1
+    Cairo_TopBoxes($cr, 60, 20, [
+d853 2
+a854 1
+		       [200, "College",  $map->{"college"}],
+d865 1
+a865 1
+    $cr->translate(0, Cairo_Bits($cr,
+d868 1
+a868 1
+				  {'id' => 'rank', 'len' => 20, 'title' => 'RK'},
+d878 1
+a878 1
+    $cr->translate(0, Cairo_Bits($cr,
+d881 1
+a881 1
+				  {'id' => 'rank', 'len' => 20, 'title' => 'RK'},
+d885 1
+a885 1
+    $cr->translate(0, Cairo_Bits($cr,
+d888 1
+a888 1
+				  {'id' => 'rank', 'len' => 20, 'title' => 'RK'},
+d894 1
+a894 1
+    $cr->translate(0, Cairo_Bits($cr,
+d902 1
+a902 1
+				  {'id' => 'rank', 'len' => 20, 'title' => 'RK'},
+d905 1
+a905 1
+				  {'id' => 'bc', 'len' => 20, 'title' => 'BC'},
+d919 2
+a920 1
+    my ($doc, $map, $out) = @@_;
+d926 3
+d1062 29
+d1093 2
+d1100 7
+d1108 1
+a1108 3
+#	    my $month_start = $m % 3 ? 1 : 0;
+#	    my $month_end = 30;
+	    for my $d (sort({$a <=> $b} keys(%$mkey)))
+d1110 2
+a1111 2
+		my $day = $mkey->{$d};
+		if ($d =~ m:^[0-9]+$:)
+d1113 3
+a1115 2
+		    printf $out "Day\t%d\t%d\t%s", $d, $day->{'mday'}, $day->{'wk'};
+		    for my $t (0, 1, 2, 3)
+d1117 6
+a1122 1
+			if (exists($day->{$t}))
+d1124 8
+a1131 1
+			    printf $out "\t%d\t%s", $t, $day->{$t}->{'name'};
+d1133 1
+a1134 1
+		    printf $out "\n";
+d1139 2
+a1147 1
+
+d1149 1
+a1150 166
+    my ($conf, $file) = @@_;
+
+# Parse the file into a DOM object (document object model).
+
+    my $doc = $conf->{'parser'}->parse_file($file);
+
+# Get root element (<character>).
+
+    my $root = $doc->getDocumentElement();
+
+# Create reference to a hash which hold ranking values.
+
+    my $map = {
+	'college' => {
+	    '__rankable__' => 0,
+	},
+	'stat' => {
+	    '__rankable__' => 1,
+	},
+	'weapon' => {
+	    '__rankable__' => 1,
+	},
+	'skill' => {
+	    '__rankable__' => 1,
+	},
+	'language' => {
+	    '__rankable__' => 1,
+	},
+	'talent' => {
+	    '__rankable__' => 1,
+	},
+	'spell' => {
+	    '__rankable__' => 1,
+	},
+	'ritual' => {
+	    '__rankable__' => 1,
+	},
+	'itn' => {
+	    '__rankable__' => 1,
+	},
+	'gtn' => {
+	    '__rankable__' => 1,
+	},
+    };
+
+# Create refernece to a hash which holds state and values to pass
+# between adventures.
+
+    my $state = {};
+    $state->{"money"} = 0;
+    $state->{"ep"} = 0;
+    $state->{"ep-total"} = 0;
+    $state->{"tick"} = 0;
+
+# Iterate over every adventure and process sequentially.
+
+    map {
+	&XML_Adventure($map, $state, $_);
+    } ($root->findnodes("adventure")->get_nodelist);
+
+    $map->{'state'} = $state;
+
+# --------------------
+# Get the basics node
+# --------------------
+
+    my $basics = $root->findnodes("basics")->[0];
+
+# --------------------
+# Start updating the current values
+# --------------------
+    
+    $basics->setAttribute("ep-total", $state->{"ep-total"});
+    $basics->setAttribute("ep", $state->{"ep"});
+    my @@clist = $root->findnodes("current")->get_nodelist();
+    if (scalar(@@clist))
+    {
+	$clist[0]->unbindNode();
+    }
+    my $current = $doc->createElement("current");
+    if ($current)
+    {
+	$root->insertAfter($current, $basics);
+	my $stats = $current->addChild($doc->createElement("stats"));
+	my $statmap = {
+	    'PS'	=> 'Physical Strength',
+	    'MD'	=> 'Manual Dexturity',
+	    'AG'	=> 'Agility',
+	    'MA'	=> 'Magical Aptitude',
+	    'WP'	=> 'Willpower',
+	    'EN'	=> 'Endurance',
+	    'FT'	=> 'Fatigue',
+	    'PB'	=> 'Physical Beauty',
+	    'PC'	=> 'Perception',
+	};
+	for my $i ('PS', 'MD', 'AG', 'MA', 'WP', 'EN', 'FT', 'PB', 'PC')
+	{
+	    my $s = $stats->addChild($doc->createElement("stat"));
+	    $s->setAttribute("name", $i);
+	    $s->setAttribute("value", $map->{'stat'}->{$statmap->{$i}}->{"rank"});
+	}
+    }
+
+# --------------------
+# Do skills, languages and weapons
+# --------------------
+
+    my $slw = {
+	'skill' => {
+	    'parent'	=> 'skills',
+	    'child'	=> 'skill',
+	},
+	'language' => {
+	    'parent'	=> 'languages',
+	    'child'	=> 'language',
+	},
+	'weapon' => {
+	    'parent'	=> 'weapons',
+	    'child'	=> 'weapon',
+	},
+	'talent' => {
+	    'parent'	=> 'talents',
+	    'child'	=> 'talent',
+	},
+	'spell' => {
+	    'parent'	=> 'spells',
+	    'child'	=> 'spell',
+	},
+	'ritual' => {
+	    'parent'	=> 'rituals',
+	    'child'	=> 'ritual',
+	},
+    };
+
+    for my $i (keys(%{$slw}))
+    {
+	my $xmap = $map->{$i};
+	my @@list = sort { $xmap->{$b}->{"rank"} <=> $xmap->{$a}->{"rank"} }  keys %{$xmap};
+	
+	if (scalar(@@list))
+	{
+	    my $parent = $current->addChild($doc->createElement($slw->{$i}->{'parent'}));
+	    for my $j (@@list)
+	    {
+		next if ($j =~ m/^__/);
+		my $child = $doc->createElement($slw->{$i}->{'child'});
+		$child->setAttribute("name", $j);
+		$child->setAttribute("rank", $xmap->{$j}->{'rank'});
+		$child->setAttribute("ref", $xmap->{$j}->{'ref'}) if (exists $xmap->{$j}->{'ref'});
+		$child->setAttribute("college", $xmap->{$j}->{'college'}) if (exists $xmap->{$j}->{'college'});
+		$parent->appendChild($child);
+
+		printf "%s -> %s\n", $j, join("^", keys(%{$xmap->{$j}}));
+	    }
+ 	}
+    }
+
+# --------------------
+# Update xml file
+# --------------------
+
+    $doc->toFile($_, 0);
+
+# --------------------
+# Create HTML document
+# --------------------
+d1152 1
+a1162 3
+
+	printf "%s -> %s\n", $key, $data;
+
+d1193 1
+a1193 1
+	    printf "%s: %s -> %s\n", $j->{'type'}, $j->{'name'}, $j->{'rank'};
+a1200 2
+    my $sl = [];
+    $map->{'spells'} = $sl;
+d1203 4
+a1206 1
+	for my $i ($doc->findnodes($k)->get_nodelist)
+d1216 1
+a1216 1
+	    {
+a1230 1
+
+d1232 1
+a1232 1
+	    printf "[%s %s] %s -> %s (%s)\n", $j->{'college'}, $j->{'ref'}, $j->{'name'}, $j->{'rank'}, $j->{'bc'};
+d1240 1
+a1240 1
+# Create HTML document
+d1243 6
+a1248 35
+    my $html_file = $file =~ /(.*)(\.xml)$/ ? "$1.htm" : "$file.htm";
+    &HTML_Character($doc, $html_file);
+
+# --------------------
+# Create TeX document
+# --------------------
+
+    my $tex_file = $file =~ /(.*)(\.xml)$/ ? "$1.ltx" : "$file.ltx";
+    &TeX_Character($doc, $map, $tex);
+
+# --------------------
+# Create EPS file
+# --------------------
+
+    my $eps_file = $file =~ /(.*)(\.xml)$/ ? "$1.eps" : "$file.eps";
+#    open(EPS, ">$eps_file");
+#    &EPS_Character($conf, $doc, $map, \*EPS);
+#    close(EPS);
+
+# --------------------
+# Create CAL file
+# --------------------
+
+#    my $cal_file = $file =~ /(.*)(\.xml)$/ ? "$1.cal" : "$file.cal";
+#    open(CAL, ">$cal_file");
+#    &Cal_Character($doc, $map, \*CAL);
+#    close(CAL);
+
+# --------------------
+# Create SVG file
+# --------------------
+
+    my $svg_file = $file =~ /(.*)(\.xml)$/ ? "$1.svg" : "$file.svg";
+    &Cairo_Character($doc, $map, Cairo::SvgSurface->create($svg_file, 576, 828));
+    &Cairo_Character($doc, $map, Cairo::PsSurface->create($eps_file, 576, 828));
+d1258 6
+a1263 3
+    my $conf = {};
+
+    # Create new parser object.
+a1265 1
+
+a1266 1
+
+d1272 12
+a1283 3
+    map {
+	&XML_File($conf, $_);
+    } @@ARGV;
+@
+
+
+1.4
+log
+@Fix end of adventure tick and watch things break.
+@
+text
+@d5 4
+a35 1
+
+d137 1
+a137 1
+    print $tex "\\begin{ranking}{$desc}\n";
+d244 1
+a244 1
+    my ($doc, $map, $tex) = @@_;
+d247 3
+a249 1
+
+d278 2
+a279 2
+    print TEX "\\maketitle\n";
+    print TEX "\\chardesc\n";
+d285 1
+a285 1
+    printf TEX "{\\fontsize{10}{12pt}\\selectfont\n\n";
+d287 23
+a309 23
+    printf TEX "\\begin{tabularx}{\\linewidth}{|l|X|X|X|X|X|X|} \\hline\n";
+    printf TEX "\\makebox[4cm][l]{\\textsuperscript{Name}%s} \&\n", $character->find('string(basics/@@short)');
+    printf TEX "\\textsuperscript{PS} %s \&\n", $map->{'stat'}->{'Physical Strength'}->{"rank"};
+    printf TEX "\\textsuperscript{MD} %s \&\n", $map->{'stat'}->{'Manual Dexturity'}->{"rank"};
+    printf TEX "\\textsuperscript{AG} %s \&\n", $map->{'stat'}->{'Agility'}->{"rank"};
+    printf TEX "\\textsuperscript{MA} %s \&\n", $map->{'stat'}->{'Magical Aptitude'}->{"rank"};
+    printf TEX "\\textsuperscript{WP} %s \&\n", $map->{'stat'}->{'Willpower'}->{"rank"};
+    printf TEX "\\textsuperscript{EN} %s \\\\\n", $map->{'stat'}->{'Endurance'}->{"rank"};
+    printf TEX "\\hline\n";
+
+    printf TEX "\\textsuperscript{Race} %s \&\n", $character->find('string(basics/@@race)');
+    printf TEX "\\textsuperscript{Sex} %s \&\n", $character->find('string(basics/@@sex)');
+    printf TEX "\\textsuperscript{HT} %s \&\n", $character->find('string(basics/@@height)');
+    printf TEX "\\textsuperscript{WT} %s \&\n", $character->find('string(basics/@@weight)');
+    printf TEX "\\textsuperscript{PB} %s \&\n", $map->{'stat'}->{'Physical Beauty'}->{"rank"};
+    printf TEX "\\textsuperscript{PC} %s \&\n", $map->{'stat'}->{'Perception'}->{"rank"};
+    printf TEX "\\textsuperscript{FT} %s \\\\\n", $map->{'stat'}->{'Fatigue'}->{"rank"};
+    printf TEX "\\hline\n";
+
+    printf TEX "\\textsuperscript{Aspect}%s \&\n", $character->find('string(basics/@@aspect)');
+    printf TEX "\\multicolumn{3}{l|}{\\textsuperscript{Birth} %s} \&\n", $character->find('string(basics/@@birth)');
+    printf TEX "\\multicolumn{3}{l|}{\\textsuperscript{Date} %s} \\\\\n", $character->find('string(basics/@@date)');
+    printf TEX "\\hline\n";
+d311 5
+a315 5
+    printf TEX "\\textsuperscript{S.Status} %s \&\n", $character->find('string(basics/@@status)');
+    printf TEX "\\textsuperscript{Hand} %s \&\n", $character->find('string(basics/@@hand)');
+    printf TEX "\\multicolumn{3}{l|}{\\textsuperscript{Coll.} %s} \& \n", $character->find('string(basics/@@college)');
+    printf TEX "\\multicolumn{2}{l|}{\\textsuperscript{EP} %s} \\\\\n", $character->find('string(basics/@@ep)');
+    printf TEX "\\hline\n";
+d317 2
+a318 2
+    printf TEX "\\end{tabularx}\n\n";
+    printf TEX "}\n";
+d324 1
+a324 1
+    printf TEX "\\begin{tabular}[t]{\@@{}p{0.5\\linewidth}\@@{}p{0.5\\linewidth}\@@{}}\n";
+d328 2
+a329 2
+    printf TEX "\\begin{tabularx}{0.49\\columnwidth}[t]{|r|X|} \\hline \n";
+    printf TEX "\\textbf{Rk} & \\hfil \\textbf{Skill} \\hfil \\\\ \\hline\n";
+d339 1
+a339 1
+	printf TEX $t;
+d341 3
+a343 3
+    printf TEX "\\hline\n";
+    printf TEX "\\end{tabularx}\n";
+    printf TEX "\n\n";
+d347 2
+a348 2
+    printf TEX "\\begin{tabularx}{0.49\\columnwidth}[t]{|r|X|} \\hline \n";
+    printf TEX "\\textbf{Rk} & \\hfil \\textbf{Weapon} \\hfil \\\\ \\hline\n";
+d358 1
+a358 1
+	printf TEX $t;
+d360 3
+a362 3
+    printf TEX "\\hline\n";
+    printf TEX "\\end{tabularx}\n";
+    printf TEX "\n";
+d366 1
+a366 1
+    printf TEX "\&\n";
+d382 2
+a383 2
+	printf TEX "\\begin{tabularx}{0.50\\columnwidth}[t]{|r|X|} \\hline \n";
+	printf TEX "\\textbf{Rk} & \\hfil \\textbf{Talents} \\hfil \\\\ \\hline\n";
+d394 1
+a394 1
+	    printf TEX $t;
+d396 2
+a397 2
+	printf TEX "\\hline\n";
+	printf TEX "\\end{tabularx}\n";
+d411 2
+a412 2
+	printf TEX "\\begin{tabularx}{0.50\\columnwidth}[t]{|r|X|} \\hline \n";
+	printf TEX "\\textbf{Rk} & \\hfil \\textbf{Spells} \\hfil \\\\ \\hline\n";
+d422 1
+a422 1
+	    printf TEX $t;
+d424 2
+a425 2
+	printf TEX "\\hline\n";
+	printf TEX "\\end{tabularx}\n";
+d439 2
+a440 2
+	printf TEX "\\begin{tabularx}{0.50\\columnwidth}[t]{|r|X|} \\hline \n";
+	printf TEX "\\textbf{Rk} & \\hfil \\textbf{Rituals} \\hfil \\\\ \\hline\n";
+d450 1
+a450 1
+	    printf TEX $t;
+d452 2
+a453 2
+	printf TEX "\\hline\n";
+	printf TEX "\\end{tabularx}\n";
+d456 1
+a456 1
+    printf TEX "\\end{tabular}\n";
+d462 1
+a462 1
+    printf TEX "\\normalsize\n";
+d472 2
+a473 1
+    print TEX "\\end{document}\n";
+d597 7
+a603 2
+sub HTML_Process {
+    my ($in, $out) = @@_;
+a607 1
+    my $html = $out->getDocumentElement();
+d635 4
+d698 1
+a698 1
+	printf STDERR "Serious start date issue (passed %s vs new %s)!\n", &TickToWK($tick), &TickToWK($start);
+d757 8
+d768 1
+a768 1
+		if ($node->hasAttribute("final"))
+a820 6
+			    if ($diff == 1.0)
+			    {
+				"Raw EP == EP\n";
+				print $node->toString(1), "\n";
+				exit(1);
+			    }
+d901 1
+d927 3
+a929 2
+	printf($out "(%d) (%s %s) () () () SpellRow 0 14 translate\n",
+	       $j->{'rank'}, $j->{'ref'}, $j->{'name'});
+d1002 1
+a1002 1
+    print $out "(",$hash->{"date"},") (Date) 150 20 370 20 FrameLeftTopTextBox\n";
+d1011 1
+d1019 1
+a1019 1
+    my ($doc, $map, $out) = @@_;
+a1027 64
+# --------------------
+# Get basics
+# --------------------
+
+    my $basics = $doc->findnodes("/character/basics")->[0];
+    for my $i ($basics->getAttributes())
+    {
+	my $key = $i->getName();
+	my $data = $i->getValue();
+
+	printf "%s -> %s\n", $key, $data;
+
+	$map->{$key} = $data;
+    }
+
+# --------------------
+# Get stats
+# --------------------
+
+    for my $s ($doc->findnodes("/character/current/stats/stat")->get_nodelist)
+    {
+	my $key = $s->getAttribute("name");
+	my $data = $s->getAttribute("value");
+	$map->{$key} = $data;
+    }
+
+# --------------------
+# Get skills, languages & weapons
+# --------------------
+
+    for my $k ("/character/current/skills/skill", "/character/current/languages/language", "/character/current/weapons/weapon")
+    {
+	my @@bits = split(m:/:, $k);
+	my $sl = [];
+	$map->{$bits[3]} = $sl;
+	for my $i ($doc->findnodes($k)->get_nodelist)
+	{
+	    my $j = {};
+	    $j->{'name'} = $i->getAttribute('name');
+	    $j->{'rank'} = $i->getAttribute('rank');
+	    $j->{'type'} = $i->getName();
+	    push(@@{$sl}, $j);
+	    printf "%s: %s -> %s\n", $j->{'type'}, $j->{'name'}, $j->{'rank'};
+	}
+    }
+
+# --------------------
+# Magic
+# --------------------
+
+    my $sl = [];
+    $map->{'spells'} = $sl;
+    for my $k ("/character/current/talents/talent", "/character/current/spells/spell", "/character/current/rituals/ritual")
+    {
+	for my $i ($doc->findnodes($k)->get_nodelist)
+	{
+	    my $j = {};
+	    $j->{'name'} = $i->getAttribute('name');
+	    $j->{'rank'} = $i->getAttribute('rank');
+	    $j->{'ref'} = $i->getAttribute('ref');
+	    push(@@{$sl}, $j);
+	    printf "%s -> %s\n", $j->{'name'}, $j->{'rank'};
+	}
+    }
+d1056 198
+d1339 5
+d1345 5
+d1351 35
+a1385 1
+	    $ym->{$bits[2]}->{$bits[1]} = {} if (!exists($ym->{$bits[2]}->{$bits[1]}));
+d1399 1
+a1399 1
+	printf $out "Year %d\n", $y;
+a1402 1
+	    printf $out "  Month %d\n", $m;
+d1404 3
+d1410 1
+a1410 2
+		printf $out "    Day %d\t%d\t%s", $d, $day->{'mday'}, $day->{'wk'};
+		for my $t (0, 1, 2, 3)
+d1412 2
+a1413 1
+		    if (exists($day->{$t}))
+d1415 4
+a1418 1
+			printf $out "\t%d\t%s", $t, $day->{$t}->{'name'};
+d1420 1
+a1421 1
+		printf $out "\n";
+d1432 1
+d1435 1
+a1435 5
+    my ($file) = @@_;
+
+# Create new parser object.
+
+    my $parser = XML::LibXML->new();
+d1439 1
+a1439 1
+    my $doc = $parser->parse_file($file);
+d1495 2
+d1507 2
+a1508 1
+    $basics->setAttribute("ep", $state->{"ep-total"});
+d1584 1
+d1596 1
+a1596 1
+    $doc->toFile($_, 1);
+d1602 95
+a1696 11
+    my $html_doc = XML::LibXML::Document->new("1.0", "utf8");
+    my $html_root = $html_doc->createElement("html");
+    $html_doc->setDocumentElement($html_root);
+    $html_doc->createInternalSubset("html", "-//W3C//DTD HTML 4.01//EN", "http://www.w3.org/TR/html4/strict.dtd");
+    &HTML_Process($doc, $html_doc);
+
+    my $html_file;
+    $html_file = $file =~ /(.*)(\.xml)$/ ? "$1.htm" : "$file.htm";
+    open(HTML, ">$html_file");
+    print HTML $html_doc->toStringHTML();
+    close(HTML);
+d1703 1
+a1703 3
+    open(TEX, ">$tex_file");
+    &TeX_Character($doc, $map, \*TEX);
+    close(TEX);
+d1710 3
+a1712 3
+    open(EPS, ">$eps_file");
+    &EPS_Character($doc, $map, \*EPS);
+    close(EPS);
+d1718 8
+a1725 4
+    my $cal_file = $file =~ /(.*)(\.xml)$/ ? "$1.cal" : "$file.cal";
+    open(CAL, ">$cal_file");
+    &Cal_Character($doc, $map, \*CAL);
+    close(CAL);
+d1727 3
+d1732 6
+d1739 13
+d1753 1
+a1753 1
+	&XML_File($_);
+@
+
+
+1.3
+log
+@Check in before looking at calander code.
+@
+text
+@d692 1
+a692 1
+    $tick = $end;
+d890 1
+d1107 8
+d1119 2
+d1131 1
+a1131 1
+#	printf $out "%d %d %s\n", $a->getAttribute("start-tick"), $a->getAttribute("end-tick"), $a->getAttribute("name"), "\n";
+d1139 1
+a1139 1
+#		printf $out "..%d %d %s\n", $r->getAttribute("start"), $r->getAttribute("end"), $r->getAttribute("desc");
+d1158 1
+a1158 1
+			printf $out "        %d %d %s\n", $i->getAttribute("day-equiv"), $i->getAttribute("track"), $i->getAttribute("name");
+d1172 1
+a1172 1
+	printf $out "%s %d\n", $_->{'name'}, $_->{'track'};
+d1195 2
+d1211 1
+d1216 1
+a1216 1
+			printf $out "    Day %d - %s [%d]\n", $d, $day->{$t}->{'name'}, $t;
+d1219 1
+@
+
+
+1.2
+log
+@Add very basics HTML output support.
+@
+text
+@d4 1
+d6 463
+d515 5
+a519 12
+		    my $mod_ep = $node->getAttribute("mod-ep");
+		    $ep_total += $mod_ep;
+		    $td_mod = $tr->appendChild($out->createElement("td"));
+		    $td_mod->setAttribute("class", "value");
+		    $td_mod->appendText($mod_ep);
+
+		    my $time_str = $node->getAttribute("time");
+		    $time_str =~ /([0-9]+) (day|days|week|weeks)/;
+		    my $time = $1;
+		    $time *= 7 if (($2 eq "week") || ($2 eq "weeks"));
+
+		    my $num = $node->getAttribute("track");
+d522 4
+a525 1
+		    $td_time->appendText($node->getAttribute("time"));
+d530 1
+d533 1
+a533 1
+			$td_track->appendChild($out->createCDATASection("$num &delta;"));
+d537 1
+a537 1
+			$td_track->appendText($num) if ($num);
+d542 4
+a545 2
+		    $td_track->setAttribute("style", "background-color: green") if ($num == 1);
+		    $td_track->setAttribute("style", "background-color: blue") if ($num == 2);
+d561 20
+d639 5
+a643 1
+    print $adventure->getAttribute("name"), "\n";
+d657 1
+a657 1
+	    print "Computed value different from stored value (", $state->{"money"}, " vs $in).\n";
+a669 3
+	print STDERR "In = $in\tOut = $out\tTotal = $total\n";
+
+
+d678 17
+d696 1
+d700 1
+d703 8
+d722 2
+a723 2
+		    print STDERR "Type $type unknown -- ignoring.\n";
+		    next;
+d728 1
+a728 1
+		if (!$node->hasAttribute("initial") || !length($node->getAttribute("initial")))
+d730 2
+a731 2
+		    print STDERR "$type $name does not have initial value.";
+		    next;
+d734 8
+d749 2
+a750 2
+		    my $old = $map->{$type}->{$name};
+		    $map->{$type}->{$name} = $final;
+d754 53
+a806 1
+		    $map->{$type}->{$name} = $initial;
+d808 29
+d839 232
+d1072 24
+d1098 111
+d1271 3
+d1290 87
+d1378 1
+a1378 2
+    my $current = $doc->createElement("current");
+    $root->insertAfter($current, $basics);
+d1384 1
+a1384 1
+    my $html_doc = XML::LibXML::Document->new("1.0", "iso-8859-1");
+d1395 28
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 139
+a241 91
+# ----------------------------------------------------------------------
+#
+# XML_New_Adventure
+#
+# ----------------------------------------------------------------------
+sub XML_New_Adventure {
+    my ($doc, $root, $adventure) = @@_;
+
+    my $new_adventure = $root->appendChild($doc->createElement("adventure"));
+    $new_adventure->appendTextChild("name", $adventure->getAttribute("name"));
+    $new_adventure->appendTextChild("date", $adventure->getAttribute("date"));
+
+# Do items first and then monies
+
+    for my $items ($adventure->findnodes("items")->get_nodelist)
+    {
+	my $new_items = $new_adventure->appendChild($doc->createElement("items"));
+	$new_items->appendText($items->getAttribute("desc"));
+	for my $line ($items->findnodes("line"))
+	{
+	    $new_items->appendTextChild("line", $line->getAttribute("desc"));
+	}
+    }
+
+    for my $monies ($adventure->findnodes("monies")->get_nodelist)
+    {
+	my $new_monies = $new_adventure->appendChild($doc->createElement("monies"));
+	$new_monies->appendText($monies->getAttribute("desc")) if ($monies->hasAttribute("desc"));
+	$new_monies->appendTextChild("in", $monies->getAttribute("in"));
+	$new_monies->appendTextChild("out", $monies->getAttribute("out"));
+	for my $line ($monies->findnodes("line"))
+	{
+	    my $new_line = $new_monies->appendChild($doc->createElement("line"));
+	    $new_line->appendTextChild("desc",$line->getAttribute("desc"));
+	    $new_line->appendTextChild("in", $line->getAttribute("in"));
+	    $new_line->appendTextChild("out", $line->getAttribute("out"));
+	}
+    }
+
+# Processing all the ranking information.
+
+    for my $ranking ($adventure->findnodes("ranking")->get_nodelist)
+    {
+	my $new_ranking = $new_adventure->appendChild($doc->createElement("ranking"));
+	$new_ranking->appendTextChild("desc", $ranking->getAttribute("desc"));
+    }
+}
+
+# ----------------------------------------------------------------------
+#
+# XML_New_File
+#
+# This function converts the attribute style XML document into a
+# child tag style so make it easier to process with XSL and CSS.
+#
+# ----------------------------------------------------------------------
+sub XML_New_File {
+    my ($doc) = @@_;
+
+# Get root element
+
+    my $root = $doc->getDocumentElement();
+
+# Create new document and set the root element.
+
+    my $new = XML::LibXML::Document->new("1.0", "iso-8859-1");
+    my $new_root = $new->createElement("character");
+    $new->setDocumentElement($new_root);
+
+# Add stylesheet process instruction.
+
+    my $pi = $new->createPI("xml-stylesheet", "href=\"direct.css\" type=\"text/css\"");
+    $new->insertBefore($pi, "");
+
+# Create new exploded basics node
+
+    my $basics = $root->findnodes("basics")->[0];
+    my $new_basics = $new_root->appendChild($new->createElement("basics"));
+
+    map {
+	$new_basics->appendTextChild($_, $basics->getAttribute($_)) if ($basics->hasAttribute($_));
+    } qw(name race);
+
+# Return new document.
+
+    for my $adventure ($root->findnodes("adventure")->get_nodelist)
+    {
+	&XML_New_Adventure($new, $new_root, $adventure);
+    }
+    return $new;
+}
+d310 29
+@
