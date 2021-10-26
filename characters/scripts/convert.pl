@@ -9,7 +9,7 @@
 #
 # ----------------------------------------------------------------------
 
-use 5.26.1;
+use 5.34.0;
 use XML::LibXML;
 use Getopt::Long;
 use Carp::Assert;
@@ -899,31 +899,25 @@ sub XML_Character {
     $basics->setAttribute("ep-total", $state->{"ep_total"});
     $basics->setAttribute("ep", $state->{"ep"});
 
-    my $tick = new Tick($basics->getAttribute('date'));
+    my $tick = new Tick($character->{basics}->{date});
     
     $basics->setAttribute("date", $state->{'tick'}->CDate());
     $basics->setAttribute("tick", $state->{'tick'}->{tick});
     $basics->setAttribute("calendar", $tick->{calendar});
     
-    # my @clist = $root->findnodes("current")->get_nodelist();
-    # if (scalar(@clist))
-    # {
-    # 	$clist[0]->unbindNode();
-    # }
-
     my $current = $root->addNewChild('', 'current');
 
     my $stats = $current->addNewChild('', 'stats');
     my $statmap = {
-	'PS'	 => 'Physical Strength',
-	    'MD'	=> 'Manual Dexturity',
-	    'AG'	=> 'Agility',
-	    'MA'	=> 'Magical Aptitude',
-	    'WP'	=> 'Willpower',
-	    'EN'	=> 'Endurance',
-	    'FT'	=> 'Fatigue',
-	    'PB'	=> 'Physical Beauty',
-	    'PC'	=> 'Perception',
+	PS	=> 'Physical Strength',
+	MD	=> 'Manual Dexturity',
+	AG	=> 'Agility',
+	MA	=> 'Magical Aptitude',
+	WP	=> 'Willpower',
+	EN	=> 'Endurance',
+	FT	=> 'Fatigue',
+	PB	=> 'Physical Beauty',
+	PC	=> 'Perception',
     };
     for my $i ('PS', 'MD', 'AG', 'MA', 'WP', 'EN', 'FT', 'PB', 'PC')
     {
@@ -932,10 +926,9 @@ sub XML_Character {
 	$s->setAttribute("value", $map->{'stat'}->{$statmap->{$i}}->{"rank"});
     }
 
-
-# --------------------
-# Do skills, languages and weapons
-# --------------------
+    # --------------------
+    # Do skills, languages and weapons
+    # --------------------
 
     my $slw = {
 	'skill' => {
@@ -1014,6 +1007,33 @@ sub XML_Character {
 
 # ----------------------------------------------------------------------
 #
+# jSON_Adventure
+#
+# ----------------------------------------------------------------------
+
+sub JSON_Adventure {
+    my ($adventure) = @_;
+
+    my $a = {};
+
+    # --------------------
+    # adventure header
+    # --------------------
+    
+    for my $k ('name', 'start', 'end', 'star', 'start_tick', 'end_tick')
+    {
+	if (exists($adventure->{$k}))
+	{
+	    my $xk = $k;
+	    $xk =~ s:_:-:g;
+	    $a->{$xk} = $adventure->{$k};
+	}
+    }
+    return $a;
+}
+
+# ----------------------------------------------------------------------
+#
 # JSON_Character
 #
 # ----------------------------------------------------------------------
@@ -1021,6 +1041,132 @@ sub XML_Character {
 sub JSON_Character {
     my ($opts, $character) = @_;
 
+    my $state = $character->{_state_};
+    my $map = $character->{_map_};
+
+    my $res = {};
+
+    # --------------------
+    # Create basic details
+    # --------------------
+    
+    my $basics = $res->{basics} = {};
+
+    # --------------------
+    # Copy over static details
+    # --------------------
+    
+    for my $k ('charname', 'fullname', 'race', 'college', 'status', 'sex', 'height', 'weight', 'aspect', 'hand', 'birth', 'date', 'dateofbirth')
+    {
+	$basics->{$k} = $character->{basics}->{$k} if ($character->{basics}->{$k});
+    }
+
+    # --------------------
+    # Start updating the current values
+    # --------------------
+    
+    $basics->{"ep-total"} = $state->{"ep_total"};
+    $basics->{"ep"} = $state->{"ep"};
+
+    my $tick = new Tick($character->{basics}->{date});
+    
+    $basics->{"date"} = $state->{'tick'}->CDate();
+    $basics->{"tick"} = $state->{'tick'}->{tick};
+    $basics->{"calendar"} =  $tick->{calendar};
+    
+    # --------------------
+    # Create current
+    # --------------------
+
+    my $current = $res->{current} = {};
+
+    # --------------------
+    # Copy current stats
+    # --------------------
+    
+    my $stats = $current->{stats} = {};
+    my $statmap = {
+	PS	=> 'Physical Strength',
+	MD	=> 'Manual Dexturity',
+	AG	=> 'Agility',
+	MA	=> 'Magical Aptitude',
+	WP	=> 'Willpower',
+	EN	=> 'Endurance',
+	FT	=> 'Fatigue',
+	PB	=> 'Physical Beauty',
+	PC	=> 'Perception',
+    };
+    for my $i ('PS', 'MD', 'AG', 'MA', 'WP', 'EN', 'FT', 'PB', 'PC')
+    {
+	$stats->{$i} = $map->{'stat'}->{$statmap->{$i}}->{"rank"};
+    }
+
+    my $slw = {
+	'skill' => {
+	    'parent'	=> 'skills',
+	    'child'	=> 'skill',
+	},
+	'language' => {
+	    'parent'	=> 'languages',
+	    'child'	=> 'language',
+	},
+	'weapon' => {
+	    'parent'	=> 'weapons',
+	    'child'	=> 'weapon',
+	},
+	'talent' => {
+	    'parent'	=> 'talents',
+	    'child'	=> 'talent',
+	},
+	'spell' => {
+	    'parent'	=> 'spells',
+	    'child'	=> 'spell',
+	},
+	'ritual' => {
+	    'parent'	=> 'rituals',
+	    'child'	=> 'ritual',
+	},
+    };
+
+# --------------------
+# Add current values
+# --------------------
+
+    for my $i (keys(%{$slw}))
+    {
+	my $xmap = $map->{$i};
+	my @list = sort({$xmap->{$b}->{"rank"} <=> $xmap->{$a}->{"rank"}} grep(!m:^_:, keys(%$xmap)));
+	if (scalar(@list))
+	{
+	    my $key = $current->{$slw->{$i}->{parent}} = [];
+	    for my $j (@list)
+	    {
+		next if ($j =~ m/^_/);
+		my $v = {};
+		push(@$key, $v);
+		$v->{"type"} = $slw->{$i}->{child};
+		$v->{"name"} = $j;
+		$v->{"rank"} = $xmap->{$j}->{'rank'};
+		$v->{"ref"} = $xmap->{$j}->{'ref'} if (exists $xmap->{$j}->{'ref'});
+		$v->{"college"} = $xmap->{$j}->{'college'} if (exists $xmap->{$j}->{'college'});
+	    }
+ 	}
+    }
+
+    # --------------------
+    # Adventure
+    # --------------------
+
+    for my $adventure (@{$character->{adventures}})
+    {
+	my $a = {};
+	push(@{$res->{adventures}}, JSON_Adventure($adventure));
+    }
+    
+    # --------------------
+    # Write out result
+    # --------------------
+    
     my $stream;
     if ($opts->{outfile})
     {
@@ -1030,7 +1176,7 @@ sub JSON_Character {
     {
 	$stream = \*STDOUT;
     }
-    print $stream to_json($character, {pretty=>1, convert_blessed=>1});
+    print $stream to_json($res, {pretty=>1, convert_blessed=>1});
 }
 
 # ----------------------------------------------------------------------
@@ -1040,12 +1186,35 @@ sub JSON_Character {
 # ----------------------------------------------------------------------
 
 sub Main {
-    my $opts = {};
 
-    croak if (! -f 'convert.js');
+    my $opts = {
+	codepage => 'utf8',
+	mapfile => '/home/ralexand/dq/characters/convert.js',
+    };
+
+    # --------------------
+    # Get CLI options
+    # --------------------
     
-    $opts->{_map_} = decode_json(slurp('convert.js'));
-
+    GetOptions(
+	'encoding=s' => \$opts->{'codepage'},
+	'in=s' => \$opts->{'infile'},
+	'out=s' => \$opts->{'outfile'},
+	'format=s' => \$opts->{'format'},
+	'map=s' => \$opts->{'mapfile'},
+	);
+    
+    # --------------------
+    # Load mapping configuration
+    # --------------------
+    
+    if (!-f $opts->{mapfile})
+    {
+	print(STDERR "$0: cannot find mapfile %s\n", $opts->{mapfile});
+	exit(1);
+    }
+    $opts->{_map_} = decode_json(slurp($opts->{mapfile}));
+    
     while(my ($type, $v) = each(%{$opts->{_map_}}))
     {
 	for my $name (keys(%{$v->{_keys_} || {}}))
@@ -1053,18 +1222,13 @@ sub Main {
 	    $opts->{_type_}->{lc($name)} = $type;
 	}
     }
-    
-    my ($in, $out);
 
-    my %opts;
-    GetOptions(
-	'encoding=s' => \$opts->{'codepage'},
-	'in=s' => \$opts->{'infile'},
-	'out=s' => \$opts->{'outfile'},
-	'format=s' => \$opts->{'format'}
-	);
+    # --------------------
+    # load input file
+    # --------------------
     
-    my $codepage = $opts->{'codepage'} // 'utf8';
+    my $codepage = $opts->{'codepage'};
+    my ($in, $out);
     if ($opts->{"infile"})
     {
 	open(IN, "<:encoding($codepage)", $opts->{"infile"}) || die "Cannot open file.";
