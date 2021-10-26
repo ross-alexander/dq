@@ -4,6 +4,9 @@
 #
 # DQ ranking (LaTeX) to JSON or XML
 #
+# 2021-10-26: Ross Alexander
+#   Add JSON export.
+#
 # 2018-03-22: Ross Alexander
 #   Apply fixes for perl-5.26.1
 #
@@ -117,7 +120,7 @@ sub Update_Adventure {
     
     for my $ranking (@{$adventure->{ranking}})
     {
-	$ranking->{start} = $tick;
+	$ranking->{start} = new Tick($tick);
 	for my $block (@{$ranking->{blocks}})
 	{
 	    # --------------------
@@ -1029,6 +1032,70 @@ sub JSON_Adventure {
 	    $a->{$xk} = $adventure->{$k};
 	}
     }
+
+    # --------------------
+    # Party
+    # --------------------
+    
+    if (my $p = $adventure->{party})
+    {	
+	for my $m (@{$p->{members}})
+	{
+	    my $t = {};
+	    for my $k ('name', 'college', 'note')
+	    {
+		$t->{$k} = $m->{$k} if (exists($m->{$k}));
+	    }
+	    push(@{$a->{party}}, $t);
+	}
+    }
+
+    # --------------------
+    # Ranking
+    # --------------------
+
+    for my $r (@{$adventure->{ranking} || []})
+    {
+	my $ranking = {};
+	push(@{$a->{ranking}}, $ranking);
+	
+	$ranking->{"desc"} = $r->{desc};
+	$ranking->{"star"} = 1 if ($r->{star});
+	$ranking->{"start"} = $r->{start}->CDate() if ($r->{start});
+	$ranking->{"end"} = $r->{end}->CDate() if ($r->{end});
+	
+	for my $b (@{$r->{blocks}})
+	{
+	    my $block = {};
+	    push(@{$ranking->{blocks}}, $block);
+	    $block->{"time"} = $b->{time} if ($b->{time});
+	    
+	    for my $l (@{$b->{lines} || []})
+	    {
+		my $line = {};
+		push(@{$block->{lines}}, $line);
+
+		for my $k ('name', 'college', 'ref', 'initial', 'final', 'sum', 'em', 'ep_raw', 'ep', 'time', 'money', 'track', 'partial')
+		{
+		    $line->{$k} = $l->{$k} if (exists($l->{$k}));
+		}
+	    }
+	}  
+    }
+
+    # --------------------
+    # Experience
+    # --------------------
+    
+    if (my $e = $adventure->{experience})
+    {
+     	my $exp = $a->{experience} = {};
+	for my $k ('gained', 'in', 'spent', 'out', 'notes')
+	{
+	    $exp->{$k} = $e->{$k} if (exists($e->{$k}));
+	}
+    }
+
     return $a;
 }
 
