@@ -6,12 +6,15 @@
 #
 # Take XML version of character sheet and format back into LaTeX.
 #
+# 2021-10-25: Ross Alexander
+#   Change to Getopts::Long
+#
 # 2020-06-13: Ross Alexander
 #   Force version to 5.30.2
 #
 # ----------------------------------------------------------------------
-   
-use 5.30.2;
+
+use 5.34.0;
 use IO::Handle;
 use XML::LibXML;
 use Encode;
@@ -19,7 +22,7 @@ use POSIX qw(strftime);
 use Time::localtime;
 use Cairo;
 use Tick;
-use Getopt::Std;
+use Getopt::Long;
 use Carp::Assert;
 use XML::Simple;
 use XML::LibXML::Simple;
@@ -551,9 +554,9 @@ sub Cairo_Character {
     # Shortcut variables
     # --------------------
     
-    my $basics = $map->{basics};
-    my $current = $map->{current};
-    my $stats = $current->{stats};
+    my $basics = $map->{basics} || die;
+    my $current = $map->{current} || die;
+    my $stats = $current->{stats} || die;
 
     # --------------------
     # Create surface with A4 dimensions (in printer points ie 1/72 of an inch)
@@ -961,13 +964,13 @@ sub TeX_Character {
 
     $stream->printf("\\end{tabularx}\n\n");
 
-# --------------------
-# Do the skills, weapons & spells
-# --------------------
+    # --------------------
+    # Do the skills, weapons & spells
+    # --------------------
 
     $stream->printf("\\begin{tabular}[t]{\@{}p{0.5\\linewidth}\@{}p{0.5\\linewidth}\@{}}\n");
 
-# Start skills table
+    # Start skills table
 
     $stream->printf("\\begin{tabularx}{0.49\\columnwidth}[t]{|r|X|} \\hline \n");
     $stream->printf("\\textbf{Rk} & \\hfil \\textbf{Skill} \\hfil \\\\ \\hline\n");
@@ -984,7 +987,24 @@ sub TeX_Character {
     $stream->printf("\\end{tabularx}\n");
     $stream->printf("\n\n");
 
-# Start weapons table
+    # Languages
+
+    $stream->printf("\\begin{tabularx}{0.49\\columnwidth}[t]{|r|X|} \\hline \n");
+    $stream->printf("\\textbf{Rk} & \\hfil \\textbf{Language} \\hfil \\\\ \\hline\n");
+
+    for my $s (sort {$b->{"rank"} <=> $a->{"rank"}} @{$current->{'languages'}})
+    {
+	
+	next if ($s->{'name'} =~ m/^__/);
+	my $t = sprintf "\\hbox to 2.0em{\\hfil %d} \& %s \\\\\n", $s->{"rank"}, $s->{'name'};
+	$t =~ s/\&amp;/\\& /;
+	$stream->print($t);
+    }
+    $stream->printf("\\hline\n");
+    $stream->printf("\\end{tabularx}\n");
+    $stream->printf("\n\n");
+
+    # Start weapons table
 
     $stream->printf("\\begin{tabularx}{0.49\\columnwidth}[t]{|r|X|} \\hline \n");
     $stream->printf("\\textbf{Rk} & \\hfil \\textbf{Weapon} \\hfil \\\\ \\hline\n");
@@ -1000,11 +1020,11 @@ sub TeX_Character {
     $stream->print("\\end{tabularx}\n");
     $stream->print("\n");
     
-# Insert the intercolumn break
+    # Insert the intercolumn break
 
     $stream->printf("\&\n");
 
-# And now do spells
+    # And now do spells
 
     for my $t ("talents", "spells", "rituals")
     {
@@ -1274,9 +1294,9 @@ sub XML_File {
 	    } $doc->findnodes($k)->get_nodelist];
     }
 
-# --------------------
-# Magic
-# --------------------
+    # --------------------
+    # Magic
+    # --------------------
 
     for my $k ("/character/current/talents/talent", "/character/current/spells/spell", "/character/current/rituals/ritual")
     {
@@ -1291,8 +1311,6 @@ sub XML_File {
 		};
 	    } $doc->findnodes($k)->get_nodelist];
     }
-    $map->{'now'} = strftime("%d %b %Y", @{localtime(time())});
-
 
     # --------------------
     # Adventures
@@ -1304,20 +1322,22 @@ sub XML_File {
 	    &XML_Adventure($_);
 	} ($doc->findnodes("/character/adventure"))
 	];
-    
-# --------------------
-# Create output documents
-# --------------------
 
-    if (!exists($conf->{formats}->{$opts->{'f'}}->{function}))
-    {
-	printf STDERR "$0: Cannot find function for format %s\n", $opts->{f};
-	exit(1);
-    }
-    my $format_function = $conf->{formats}->{$opts->{f}}->{function};
-
-    $format_function->($conf, $map, $opts->{o});
+    return $map;
 }
+
+# ----------------------------------------------------------------------
+#
+# JSON_File
+#
+# ----------------------------------------------------------------------
+
+sub JSON_File {
+    my ($conf, $opts) = @_;
+
+    return decode_json(slurp($opts->{i}));
+}
+
 
 # ----------------------------------------------------------------------
 #
@@ -1326,6 +1346,11 @@ sub XML_File {
 # ----------------------------------------------------------------------
 
 sub Main {
+
+    # --------------------
+    # Configuration
+    # --------------------
+
     my $conf = {
 	fonts => {
 	    sans => 'Helvetica',
@@ -1347,6 +1372,10 @@ sub Main {
 	},
     };
 
+    # --------------------
+    # Get spells (not really implemented currently [25.10.2021]
+    # --------------------
+    
     my $parser = XML::LibXML->new();
     $conf->{'parser'} = $parser;
     if (-f "spells.xml")
@@ -1354,16 +1383,22 @@ sub Main {
 	$conf->{"spells"} = $parser->parse_file("spells.xml");
     }
 
-# --------------------
-# Process opts
-# --------------------
-
+    # --------------------
+    # Process opts
+    # --------------------
+    
     my $opts = {};
-    getopts("i:o:f:t:", $opts);
-
-# --------------------
-# Give useful errors
-# --------------------
+    GetOptions(
+	'i=s' => \$opts->{i},
+	'o=s' => \$opts->{o},
+	'f=s' => \$opts->{f},
+	't=s' => \$opts->{t},
+	'j' => \$opts->{json},
+	);
+    
+    # --------------------
+    # Give useful errors
+    # --------------------
     
     if (!exists($opts->{i}))
     {
@@ -1383,7 +1418,37 @@ sub Main {
 	exit(1);
     }
 
-    &XML_File($conf, $opts);
+    # --------------------
+    # Load file
+    # --------------------
+
+    my $character;
+    if ($opts->{json})
+    {
+	$character = &JSON_File($conf, $opts);
+    }
+    else
+    {
+	$character = &XML_File($conf, $opts);
+    }
+
+    # --------------------
+    # Add now
+    # --------------------
+    
+    $character->{'now'} = strftime("%d %b %Y", @{localtime(time())});
+
+    # --------------------
+    # Create output documents
+    # --------------------
+
+    if (!exists($conf->{formats}->{$opts->{'f'}}->{function}))
+    {
+	printf STDERR "$0: Cannot find function for format %s\n", $opts->{f};
+	exit(1);
+    }
+    my $format_function = $conf->{formats}->{$opts->{f}}->{function};
+    $format_function->($conf, $character, $opts->{o});
 }
 
 &Main();
