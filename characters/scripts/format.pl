@@ -2,10 +2,14 @@
 
 # ----------------------------------------------------------------------
 #
-# update.pl
+# format.pl
 #
 # Take XML version of character sheet and format back into LaTeX.
 #
+# 2021-10-26: Ross Alexander
+#   Add languages to TeX output.
+#   Add support for JSON import.
+
 # 2021-10-25: Ross Alexander
 #   Change to Getopts::Long
 #
@@ -633,7 +637,7 @@ sub Cairo_Character {
     $cr->save();
     $cr->translate(0, 80);
     $cr->translate(0, Cairo_Bits($conf, $cr,
-				 [sort({$a->{'rank'} <=> $b->{'rank'}} grep(!exists($map->{"ignore"}), @{$current->{'weapons'}}))],
+				 [sort({$b->{'rank'} <=> $a->{'rank'}} grep(!exists($map->{"ignore"}), @{$current->{'weapons'}}))],
 				 [
 				  {'id' => 'rank', 'len' => 20, 'title' => 'RK', 'align' => 'r'},
 				  {'id' => 'name', 'len' => 100, 'title' => 'Weapon'},
@@ -646,14 +650,14 @@ sub Cairo_Character {
 				  {'id' => 'wt', 'len' => 20, 'title' => 'WT'},
 				 ]));
     $cr->translate(0, Cairo_Bits($conf, $cr,
-				 [sort({$a->{'rank'} <=> $b->{'rank'}} grep(!exists($map->{"ignore"}), @{$current->{'skills'}}))],
+				 [sort({$b->{'rank'} <=> $a->{'rank'}} grep(!exists($map->{"ignore"}), @{$current->{'skills'}}))],
 				 [
 				  {'id' => 'rank', 'len' => 20, 'title' => 'RK', 'align' => 'r'},
 				  {'id' => 'name', 'len' => 240, 'title' => 'Skill'},
 				 ]));
 
     $cr->translate(0, Cairo_Bits($conf, $cr,
-				 [sort({$a->{'rank'} <=> $b->{'rank'}} grep(!exists($map->{"ignore"}), @{$current->{'languages'}}))],
+				 [sort({$b->{'rank'} <=> $a->{'rank'}} grep(!exists($map->{"ignore"}), @{$current->{'languages'}}))],
 				 [
 				  {'id' => 'rank', 'len' => 20, 'title' => 'RK', 'align' => 'r'},
 				  {'id' => 'name', 'len' => 240, 'title' => 'Language'},
