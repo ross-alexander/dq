@@ -345,6 +345,17 @@ sub calendar {
     return $self->{calendar};
 }
 
+sub yaml_dump {
+    my ($self) = shift;
+    my $ret = {
+	tick => $self->{tick},
+	calendar => $self->{calendar},
+	date => $self->{date},
+	cdate => $self->CDate(),
+    };
+    return $ret;
+}
+
 use overload failback => 1,
     '""' => sub {
 	my ($self) = shift;
