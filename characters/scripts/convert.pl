@@ -24,6 +24,7 @@ use JSON::XS;
 use Perl6::Slurp;
 use Data::Dumper;
 use Carp;
+use YAML;
 
 # ----------------------------------------------------------------------
 #
@@ -170,7 +171,7 @@ sub Update_Adventure {
 		my $initial = $line->{initial};
 		my $final = $line->{final};
 		my $rank = $map->{$type}->{$name}->{rank};
-		my $partial = $line->{partial};
+		my $partial = int($line->{partial});
 
 		if (exists($map->{$type}->{$name}->{rank}) && !$partial && ($rank ne $initial))
 		{
@@ -281,10 +282,10 @@ sub Update_Adventure {
     my $exp = $adventure->{experience};
     if (defined $exp)
     {
-	my $ep_in = $exp->{in};
-	my $ep_gained = $exp->{gained};
-	my $ep_spent = $exp->{spent};
-	my $ep_out = $exp->{out};
+	my $ep_in = int($exp->{in});
+	my $ep_gained = int($exp->{gained});
+	my $ep_spent = int($exp->{spent});
+	my $ep_out = int($exp->{out});
 
 	$state->{ep_total} += $ep_gained;
 	my $in = $state->{"ep"};
@@ -651,6 +652,7 @@ sub Convert_Party {
 	return $party if (m:^\\end\{party\}:);
 	s/[ ]?\\\\$//;
 	my ($name, $college, $note) = split(/[ \t]+?\&[ ]?/, $_);
+	$name =~ s:^[ \t]+::;
 	my $member = {
 	    name => $name,
 	    college => $college
@@ -768,6 +770,7 @@ sub XML_Adventure {
 	    $member->setAttribute('note', $m->{note}) if ($m->{note});
 	}
     }
+
     # --------------------
     # Items
     # --------------------
@@ -1051,6 +1054,48 @@ sub JSON_Adventure {
     }
 
     # --------------------
+    # Items
+    # --------------------
+    
+    for my $i (@{$adventure->{items} || []})
+    {
+	my $items = {
+	    desc => $i->{desc}
+	};
+	push(@{$a->{items}}, $items);
+	for my $line (@{$i->{item} || []})
+	{
+	    push(@{$items->{lines}}, {
+		desc => $line,
+		 });
+	}
+    }
+
+    # --------------------
+    # Monies
+    # --------------------
+
+    for my $m (@{$adventure->{monies} || []})
+    {
+	my $monies = {};
+	push(@{$a->{monies}}, $monies);
+	$monies->{in} = $m->{in};
+	$monies->{out} = $m->{out};
+	$monies->{date} = $m->{date};
+	$monies->{tick} = $m->{tick}->{tick};
+	$monies->{calendar} = $m->{tick}->{calendar};
+	$monies->{ledger} = $m->{ledger} if (exists($monies->{ledger}));
+	for my $l (@{$m->{lines} || []})
+	{
+	    my $line = {};
+	    push(@{$monies->{lines}}, $line);
+	    $line->{desc} = $l->{desc};
+	    $line->{in} = $l->{in} if (exists($l->{in}));
+	    $line->{in} = $l->{out} if (exists($l->{out}));
+	}
+    }
+   
+    # --------------------
     # Ranking
     # --------------------
 
@@ -1243,7 +1288,15 @@ sub JSON_Character {
     {
 	$stream = \*STDOUT;
     }
-    print $stream to_json($res, {pretty=>1, convert_blessed=>1});
+    if ($opts->{format} eq "yaml")
+    {
+	print $stream Dump($res);
+    }
+    else
+    {
+	print $stream to_json($res, {pretty=>1, convert_blessed=>1});
+    }
+    close($stream);
 }
 
 # ----------------------------------------------------------------------
@@ -1345,6 +1398,7 @@ sub Main {
     my $f_map = {
 	xml => \&XML_Character,
 	json => \&JSON_Character,
+	yaml => \&JSON_Character,
 	plain =>\&Plain_Chacter,
     };
 
