@@ -124,8 +124,8 @@ even when bound.  He must be watched carefully for this reason.
 <bc>74%
 <lesser> 36%
 
-<description> Alloces appears as a man with a lion's face and eves made of
-hot coals.  He wears burnished armour and rides a great war
+<description> Alloces appears as a man with a lion's face and eves
+made of hot coals.  He wears burnished armour and rides a great war
 horse. Alloces' flesh is like red gold.  His voice is harsh and
 booming.  Those who look directly into his eyes see their own death
 and are blinded for D + 5 days afterward.
@@ -191,7 +191,7 @@ employ all weapons.
 <bc> 66&percnt;
 <lesser> 40&percnt;
 
-<description> Astaroth appears in the form of a dark aneel all black
+<description> Astaroth appears in the form of a dark angel all black
 and with a bloody mouth.  He carries a viper coiled about his right
 hand and he rides an infernal dragon.  He speaks gaily of horrible
 things and laughs readily at pain and disease.  He is exceedingly
@@ -268,7 +268,7 @@ urgent.
 <bc> 62&percnt;
 <lesser> 30&percnt;
 
-<description> Bathin appears as a pale and cadavertus man riding a
+<description> Bathin appears as a pale and cadaverous man riding a
 pale horse.  His voice is soft and sad and can compel others to love
 him.
 
@@ -299,7 +299,7 @@ weapons.
 <lesser> 26%
 
 <description> Berith appears as a soldier dressed in red and riding a
-red horse. His face is seamed with what appear to be old scars and he
+red horse.  His face is seamed with what appear to be old scars and he
 has a black, bushy beard.  His voice is subtle except when he is
 enraged.  On his head is a crown of gold which appears to flame when
 the demon is aroused.
@@ -310,9 +310,9 @@ Merchant, Military Scientist, Spy, Thief.  He can turn all metals to
 gold by touch.  He also has knowledge of the past, present and future,
 but will only trade this knowledge for a life of man or woman.
 
-<weapons> Berith has no natural weapons. He is treated as a human
-for purposes of unarmed combat.  Berith often carries a rapier and a
-main-gauche, both of which he keeps envenomed with a nerve poison. He
+<weapons> Berith has no natural weapons.  He is treated as a human for
+purposes of unarmed combat.  Berith often carries a rapier and a
+main-gauche, both of which he keeps envenomed with a nerve poison.  He
 will refuse to wear armor since this would cover his beautiful
 clothes, of which he is inordinately proud.
 
@@ -326,7 +326,7 @@ clothes, of which he is inordinately proud.
 
 <comments> Berith delights in torture and will usually agree to serve
 only upon being guaranteed that he can torture any prisoners the party
-may take. These he will transport to another plane once they are
+may take.  These he will transport to another plane once they are
 captured and bound over to him.  There, he will torture them at his
 leisure.  If anvone attempts to deny him this boon (including the
 summoner), he will attack them. He may not be bound.
@@ -385,13 +385,13 @@ all-prevading and he ever speaks of things mystical and hidden.
 
 <talents> Crocell is a member of the College of Water Magics.  He
 possesses the following Skills: Alchemist, Assassin, Astrologer,
-Healer, Merchant, Navigator, Spy, Troubadour.  Hc has the power to
-warm or cool waters.  He can discover water even in the desert and
-can create the illusion of waters to fool the unwary.
+Healer, Merchant, Navigator, Spy, Troubadour.  He has the power to
+warm or cool waters.  He can discover water even in the desert and can
+create the illusion of waters to fool the unwary.
 
-<weapons> Crocell has no natural Aeapons.  Hc is treated as a human
-for purposes of unarmed combat.  He may, however, carry a sword
-whose blade is of infernal ice that can never melt and which inflicts
+<weapons> Crocell has no natural weapons.  He is treated as a human
+for purposes of unarmed combat.  He may, however, carry a sword whose
+blade is of infernal ice that can never melt and which inflicts
 burning wounds that later turn white and waxy and eventually turn
 black and rot unless cured by magic.  He may also use any other
 weapons.  He will not wear armor.
@@ -558,7 +558,7 @@ hair riding on a camel. He wears a fillet of white gold and robes of
 black velvet trimmed in threads of white gold.  His voice is rich and
 melodic.
 
-<talents> Grcmory is a master of the College of Illusions. He
+<talents> Gremory is a master of the College of Illusions. He
 possesses the following Skills: Assassin, Assayer, Courtesan, Healer,
 Spy, Thief, Troubadour.  He can procure the love of women and can
 discover the location of treasures that are hidden within 50 feet of
@@ -810,7 +810,7 @@ possesses the following Skills: Beast Master, Healer, Ranger.
 doing + 4 damage.  His bite is Rank 5.  Vapula may also use claws in
 Melee and Close Combat.  He has a BC of 45&percnt with claws in Melee
 and a BC of 55&percnt with claws in Close Combat.  His claws do + 6
-damage and are Rank 8.  He mav not wear armour or employ weapons.
+damage and are Rank 8.  He may not wear armour or employ weapons.
 
 <movement> Running: 400 yards per minute.
 
@@ -864,7 +864,7 @@ and stars) and will always do so at the summoner's request.
 <lesser> 26&percnt;
 
 <description> Zepar appears as a slight warrior with a clubfoot
-dressed all iri red armor.  He is of a dark mcin and speaks in a
+dressed all in red armor.  He is of a dark mein and speaks in a
 grating voice filled with contempt for all who inhabit this plane.
 
 <talents> Zepar is a practitioner of the arts of the College of
@@ -911,7 +911,7 @@ accoutered for war.  He is bronzed (as if by the sun) and looks to be a
 man of the wilderness.  Behind him come the insubstantial shades of
 four princes whom he appears always to serve and guide.
 
-<talents> Gasp is a master of the COllege Of Ensorcelments and
+<talents> Gasp is a master of the College Of Ensorcelments and
 Enchantments.  He possesses the following Skills: Alchemist, Assassin,
 Beas, Master, Healer, Mechanician, Navigator, Ranger, Spy, Thief.  He
 has the power to break the ties between a magician and his familiar
@@ -1124,8 +1124,8 @@ Stolas cannot wear armor or use weapons.
 carrying on his right wrist a Goshawk.  His eyes are hollow and see
 into other dimensions, but he is blind in this dimension.
 
-<talents> N@Vassago is a mage of the College of Naming Incantations.
-He possesses the following Skills: Alchemist, Healer, Troubadour.
+<talents> Vassago is a mage of the College of Naming Incantations.  He
+possesses the following Skills: Alchemist, Healer, Troubadour.
 Vassago has the ability to locate things which have been hidden or
 lost if he is within 100 feet of them.  He also knows all Generic and
 Individual True Names, but is reluctant to tell these names except to
@@ -1196,7 +1196,7 @@ dead and those who touch it will see their own death.
 <bc> 37&percnt
 <lesser> 50&percnt
 
-<description> Buer appears always as a Centaur, armed with a great
+<description> Buer appears always as a xentaur, armed with a great
 bow.  His skin is silver and shimmers like starlight.  His hair is all
 white and his eyes are the color of Mars.
 
@@ -1335,9 +1335,9 @@ been lax and will turn on him and rend him with his powerful hands.
 <lesser> 36&percnt
 
 <description> Labolas always appears in the form of a winged mastiff.
-His wings are always those of a Griffon and bear him at great
-speeds. His mouth is covered in froth from his slavering and gnashing
-of teeth.
+His wings are always those of a griffon and bear him at great speeds.
+His mouth is covered in froth from his slavering and gnashing of
+teeth.
 
 <talents> Labolas is a member of the College of Illusions.  He
 possesses the following Skills: Assassin, Beast Master, Military
@@ -1361,8 +1361,8 @@ weapons.
 
 <comments> Labolas is capable of reconciling enemies when he so
 desires, but prefers strife and bloodshed.  His psychic life requires
-manslaughter and he will seek to promote it at every opportunitv,
-even among the summoner's family and companions.
+manslaughter and he will seek to promote it at every opportunitv, even
+among the summoner's family and companions.
 </demon>
 
 <demon name="MALPHAS" title="President of Deceivers">
@@ -2053,7 +2053,7 @@ present and this should be taken into account by the GM.
 <lesser> 30&percnt
 
 <description> Marchosias appears as a great Ox with the wings of a
-Gryphon, the tail of a serpent and a breath of fire shaped like a cone
+gryphon, the tail of a serpent and a breath of fire shaped like a cone
 6 feet long and 4 feet wide at the base.  He may take the shape of a
 man, but will be insubstantial and powerless in this form.
 
@@ -2471,7 +2471,7 @@ may not be bound.
 
 <description> Palmon appears as a man with a crown of light on his's
 head and is often seen riding a dromedary.  His appearance will always
-be accompanied by ,he sound of trumpets and symbals played by an
+be accompanied by the sound of trumpets and symbals played by an
 invisible band of demonic musicians.  His voice is heard as a roaring
 at first, but he can be compelled to speak understandably as a man.
 
