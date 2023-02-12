@@ -1,0 +1,35 @@
+<!ENTITY % inline "#PCDATA|itemize|br">
+<!ENTITY % p "(#PCDATA)">
+<!ELEMENT dqmm (group)>
+<!ELEMENT group (notes?, ((class|monster)+))>
+<!ATTLIST group name CDATA #REQUIRED>
+<!ELEMENT class (notes?, (monster+))>
+<!ATTLIST class name CDATA #REQUIRED>
+<!ELEMENT monster ((details, stats, comments?) |(comments))>
+<!ATTLIST monster name CDATA #REQUIRED>
+<!ELEMENT details (habitat, frequency, number, description, talents, weapons, movement)>
+<!ELEMENT cdesc (comments)> 
+<!ELEMENT item %p;>
+<!ELEMENT itemize (item+)>
+<!ELEMENT habitat %p;>
+<!ELEMENT frequency %p;>
+<!ELEMENT number %p;>
+<!ELEMENT description (#PCDATA|itemize|br)*>
+<!ELEMENT talents (%inline;)* >
+<!ELEMENT movement (#PCDATA) >
+<!ELEMENT weapons (%inline;)* >
+<!ELEMENT comments (%inline;)* >
+<!ELEMENT stats (ps, md, ag, ma, en, ft, wp, pc, pb, tmr, na) >
+<!ELEMENT ps (#PCDATA) >
+<!ELEMENT md (#PCDATA) >
+<!ELEMENT ag (#PCDATA) >
+<!ELEMENT ma (#PCDATA) >
+<!ELEMENT en (#PCDATA) >
+<!ELEMENT ft (#PCDATA) >
+<!ELEMENT wp (#PCDATA) >
+<!ELEMENT pc (#PCDATA) >
+<!ELEMENT pb (#PCDATA) >
+<!ELEMENT tmr (#PCDATA) >
+<!ELEMENT na (#PCDATA) >
+<!ELEMENT br EMPTY >
+<!ELEMENT notes (%inline;)*>

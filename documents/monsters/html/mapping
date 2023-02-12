@@ -1,0 +1,72 @@
+<dqmm>		+ 
+</dqmm>		+
+
+<group>		+ "<html><head><title></title></head><body>" +
+</group>	+ "</body></html>" +
+
+<ghead>		+ "<h1>" +
+</ghead>	+ "</h1>" +
+
+<class>		+
+</class>	+
+<chead>		+ "<h2>" +
+</chead>	+ "</h2>" +
+
+<monster>	+ "<hr>"
+</monster>	+
+
+<mhead>		+ "<h3>"
+</mhead>	+ "</h3>" +
+
+<heading>	+
+</heading>	+ "<p>" +
+
+<mblock>	+ "<dl>" +
+</mblock>	+ "</dl>" +
+<bc>		+ "<dt><strong>Summoning base chance</strong><dd>"
+<lesser>	+ "<dt><strong>Chance of minions</strong><dd>"
+<habitat>	+ "<dt><strong>Natural Habitat</strong><dd>"
+<frequency>	+ "<dt><strong>Frequency</strong><dd>"
+<number>	+ "<dt><strong>Number</strong><dd>"
+<description>	+ "<dt><strong>Description</strong><dd>"
+<talents>	+ "<dt><strong>Talents, Skills and Magic</strong><dd>"
+<movement>	+ "<dt><strong>Movement Rates</strong><dd>"
+<weapons>	+ "<dt><strong>Weapons</strong><dd>"
+<comments>	+ "<dt><strong>Comments</strong><dd>"
+<stats>		+ "</dl><table border=1>" +
+
+<ps>		+ "<tr><td><strong>PS</strong> " +
+</ps>		+ "</td>" +
+
+<md>		+ "<td><strong>MD</strong> " +
+</md>		+ "</td>" +
+
+
+<ag>		+ "<td><strong>AG</strong> " +
+</ag>		+ "</td>" +
+
+<ma>		+ "<td><strong>MA</strong> " +
+</ma>		+ "</td></tr>" +
+
+<en>		+ "<tr><td><strong>EN</strong> " +
+</en>		+ "</td>" +
+
+<ft>		+ "<td><strong>FT</strong> " +
+</ft>		+ "</td>" +
+
+<wp>		+ "<td><strong>WP</strong> " +
+</wp>		+ "</td>" +
+
+<pc>		+ "<td><strong>PC</strong> " +
+</pc>		+ "</td></tr>" +
+
+<pb>		+ "<tr><td><strong>PB</strong> " +
+</pb>		+ "</td>" +
+
+<tmr>		+ "<td><strong>TMR</strong> " +
+</tmr>		+ "</td>" +
+
+<na>		+ "<td Colspan=\"2\"><strong>NA</strong> " +
+</na>		+ "</td></tr>" +
+
+</stats>	+ "</table>\n<dl>" +

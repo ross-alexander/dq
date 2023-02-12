@@ -24,6 +24,7 @@
 <freq>		+ "\n\\item\[Frequency\]"
 <number>	+ "\n\\item\[Number\]"
 <desc>		+ "\n\\item\[Description\]"
+<description>	+ "\n\\item\[Description\]"
 <talents>	+ "\n\\item\[Talents, Skills and Magic\]"
 <movement>	+ "\n\\item\[Movement Rates\]"
 <weapons>	+ "\n\\item\[Weapons\]"
