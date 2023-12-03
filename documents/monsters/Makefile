@@ -13,8 +13,8 @@ LDLIBS	= `pkg-config --libs libxml-2.0 libxslt`
 %.tex : %.sgml tex/mapping
 	./mm2tex $<
 
-%.htm : %.sgml
-	./mm2htm $<
+%.html : %.sgml
+	./mm2html $<
 
 %.xml : %.sgml dqmm.dtd
 	$(SX) -Dxml -xno-nl-in-tag -xno-expand-internal -xno-expand-external -xlower $< > $@
@@ -32,7 +32,7 @@ SOURCE = avians.sgml \
 	undead.sgml \
 	demons.sgml
 
-HTML = $(SOURCE:.sgml=.htm)
+HTML = $(SOURCE:.sgml=.html)
 TEX = $(SOURCE:.sgml=.tex)
 XML = $(SOURCE:.sgml=.xml)
 
@@ -40,10 +40,10 @@ all: dqmm.pdf xslt
 
 xslt.o : xslt.c
 
-index.htm: $(XML) webify.pl
+index.html: $(XML) webify.pl
 	./webify.pl
 
-dqmm.htm: $(HTML)
+dqmm.html: $(HTML)
 
 dqmm.pdf: dqmm.tex dqmm.sty $(TEX)
 	$(XELATEX) dqmm.tex

@@ -1,12 +1,21 @@
 #!/bin/sh
 
-SGMLS=nsgmls
-SGMLSASP='sgmlsasp'
+# ----------------------------------------------------------------------
+#
+# 2023-02-12: Update with OpenSP
+#
+# ----------------------------------------------------------------------
+
+
+SGMLS=onsgmls
+SGMLSASP=sgmlsasp
 
 INPUT=$1
-OUTPUT=`echo $INPUT | sed 's/.sgml/.htm/'`
+OUTPUT=`echo $INPUT | sed 's/.sgml/.html/'`
 
 # SGML_PATH=$PWD/%N.dtd:$PWD/%P.dtd:$PWD/htm/%N
-# export SGML_PATH
 
-$SGMLS -Dhtm $INPUT | $SGMLSASP htm/mapping > $OUTPUT
+SGML_PATH=$PWD/html/%N:$PWD/%N.dtd:$PWD/%P.dtd
+export SGML_PATH
+
+$SGMLS -D $PRD/html dqmm.decl $INPUT | $SGMLSASP $PWD/html/mapping > $OUTPUT

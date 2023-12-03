@@ -1,10 +1,10 @@
 <dqmm>		+
 </dqmm>		+
 
-<group>		+ "\\begin{multicols}{2}\n\n"
+<group>		+ "\\begin{multicols*}{2}\n\n"
 			"\\setlength\\columnseprule{0.2mm}\n"
 			 "\n\\section{[NAME]}" +
-</group>	+ "\\end{multicols}\n"
+</group>	+ "\\end{multicols*}\n"
 
 <class>		+ "\n\\subsection{[NAME]}" +
 </class>	+

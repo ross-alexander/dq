@@ -37,7 +37,6 @@ Any hit scored with its breath does D + 10 Damage due to poisoning
 (not absorbed by armour or shields). If a basilisk's gaze is reflected
 back at itself, it is killed.
 
-
 <movement> Running: 125
 
 <PS> 6-12
@@ -75,7 +74,6 @@ Crocodiles have no special talents, skills or magic.
 <weapons> Crocodiles cannot attack except in Close Combat and they
 attack with two claws (Base Chance of 50&percnt, [D - 6] Damage) and
 their bite (Base Chance of 10&percnt, [D + 1] Damage).
-
 
 <movement> Running: 50; Swimming: 150
 
@@ -212,7 +210,6 @@ pulse for the next D10 pulses due to the hydra's poison, which is
 deadly.  Only antidotes specifically designed for hydra poison will be
 effective against their venom.
 
-
 <movement> Crawling: 200
 
 <PS> 18-22
@@ -287,7 +284,6 @@ time.  Treat the gaze as a Fire action on the Tactical Display.
 Combat (range: 200 feet).  In addition, a salamander can make a bite
 attack in Close Combat with a Base Chance of 40&percnt, doing [D + 2]
 Damage.
-
 
 <movement> Running: 350
 
@@ -710,7 +706,6 @@ die roll is more than the Armour Protection Rating of the character
 stung, the character takes 4 DP / Pulse for D5 Pulses, or until an
 antidote is applied.
 
-
 <movement>  Crawling: 150
 <PS> 1
 <MD> None
@@ -724,7 +719,7 @@ antidote is applied.
 <TMR> 3
 <NA> None
 
-  <comments> An alchemist can use a Scorpion's tail to distill poison,
+<comments> An alchemist can use a Scorpion's tail to distill poison,
 and so a scorpion can be sold for about 50 Silver Pennies in a major
 town.
 

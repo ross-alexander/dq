@@ -81,7 +81,7 @@ sub BuildIndex {
     {
 	my $name = $tmp->getAttribute("name");
 
-	my $file = lc($name) . ".htm";
+	my $file = lc($name) . ".html";
 	$file =~ tr/[ ,]/_/;
 
 	my $li = $ol->appendChild(XML::LibXML::Element->new("li"));
@@ -199,7 +199,7 @@ sub BuildIndexFiles {
     for my $group (@group)
     {
 	my $name = $group->getAttribute("name");
-	my $file = lc($name) . ".htm";
+	my $file = lc($name) . ".html";
 	$file =~ tr/[ ,]/_/;
 
 	my $htmldoc = $parser->parse_html_string("<html/>");
@@ -251,7 +251,7 @@ sub CreateIndexFile {
     
     map { &BuildIndex($_, $ol) } @{$list};
     
-    open(OUT, ">index.htm");
+    open(OUT, ">index.html");
     print OUT $htmldoc->toString(1);
     close(OUT);
 }

@@ -1,7 +1,13 @@
 #!/bin/sh
 
+# ----------------------------------------------------------------------
+#
+# 2023-02-12: Add comment
+#
+# ----------------------------------------------------------------------
+
 SGMLS=onsgmls
-SGMLSASP='sgmlsasp'
+SGMLSASP=sgmlsasp
 
 INPUT=$1
 OUTPUT=`echo $INPUT | sed 's/.sgml/.tex/'`

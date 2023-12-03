@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE dqmm [
+<!ENTITY % external-entities SYSTEM "./extEntities.dtf">
+%external-entities;
 <!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
 %internal-entities;
 ]>

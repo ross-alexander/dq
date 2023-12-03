@@ -1,11 +1,24 @@
-%% This is linuxdoc-qwertz.sty, for use with SGML-generated LaTeX
+%% ----------------------------------------------------------------------
+%%
+%% 2023-04-21: Updated with changes from dq2020e
+%%
+%% ----------------------------------------------------------------------
 
-\setlength\leftmargini{0.0mm}
-\setlength\leftmarginii{1.0em}
+\usepackage{tabularx}
+\usepackage{multicol}
+\usepackage[margin=10mm,bottom=15mm]{geometry}
+\usepackage[llscale=0.8]{libertine}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage[dvipsnames]{xcolor}
+\RequirePackage[skip=2pt plus1pt, indent=0mm]{parskip}
+
+\setlist[description]{leftmargin=2mm,nosep}
+
+\setmainfont{TeX Gyre Termes}[Scale=0.8,Ligatures=TeX]
+\setsansfont{TeX Gyre Adventor}[Scale=0.7,Color=red,Ligatures=TeX]
+
 \marginparwidth 0.0 in
-\parindent 0.0 in
-\setlength{\parskip}{1mm}
-\setcounter{collectmore}{5}
 
 \renewcommand{\subsubsection}{\@startsection
 	{subsubsection}%
