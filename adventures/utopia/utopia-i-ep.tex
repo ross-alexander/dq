@@ -1,0 +1,64 @@
+%% ----------------------------------------------------------------------
+%%
+%% 2024-01-14: Removed centering on graphics and added intextsep to
+%% reduce space at top of image
+%%
+%% https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions
+%%
+%% ----------------------------------------------------------------------
+
+\documentclass[a4paper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=15mm]{geometry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{graphicx}
+\usepackage{wrapfig2}
+\usepackage{fbox}
+
+\newcommand{\signature}{
+\tcblower\centering{Grave Reckonings  --- Candlemansa 823WK -- 10 Seedtime 823WK --- Ross Alexander}
+}
+
+\setmainfont{Linux Biolinum O}
+
+\newtcolorbox{ep-box}[1]{colback=red!5!white,colframe=red!75!black,title={#1},center title,parbox=false,nobeforeafter}
+
+\setlength{\parskip}{4mm}
+\setlength{\parindent}{0mm}
+
+\begin{document}
+
+%% \newtcolorbox{item-box}[1]{colframe=blue!50!black,colback=white,colupper=red!50!black,fonttitle=\bfseries,parbox=false,nobeforeafter,center title,title={#1}}
+
+
+
+%% ----------------------------------------------------------------------
+%%
+%% Uzi
+%%
+%% ----------------------------------------------------------------------
+
+\begin{ep-box}{Uzi EP}
+  \setlength\intextsep{0pt}
+  \begin{wraptext}{r}{0.56\textwidth}
+    \includegraphics[width=0.58\textwidth]{raptor-forest}
+%%    \fbox[boxsep=0.1mm,lcolor=red,rcolor=red,tcolor=red,bcolor=red]{\includegraphics[width=0.58\textwidth]{raptor-forest}}
+  \end{wraptext}
+Uzi was employed by Marlinspike of Seagate and paid 5,000 silver
+pennies to create a graveyard by killing creatures and ritually
+burying them.
+
+Additional Uzi may learn one talent, spell or ritual from the the
+colleges of Rune, Witchcraft or Necromancy.
+
+The adventure was medium level running for seven sessions.  Uzi died
+once during the adventure and gained 15,000 EP.  The adventure duration
+was seven weeks.
+
+\signature
+\end{ep-box}
+
+
+\end{document}
