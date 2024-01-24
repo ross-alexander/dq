@@ -13,19 +13,20 @@
 \RequirePackage{ifxetex}
 \RequirePackage{ifluatex}
 \RequirePackage{ifthen}
+\RequirePackage[dvipsnames]{xcolor}
 \RequirePackage{multicol}
+\RequirePackage{tabularray}
 \RequirePackage{tabularx}
-\RequirePackage{booktabs}
 \RequirePackage{array}
+\RequirePackage{colortbl}
 \RequirePackage{fancyhdr}
+\RequirePackage{booktabs}
 \RequirePackage{textcomp}
 \RequirePackage{float}
-\RequirePackage[dvipsnames]{xcolor}
 \RequirePackage{hyperref}
 \RequirePackage{setspace}
 \RequirePackage{graphicx}
 \RequirePackage[top=20mm,left=10mm,right=10mm,bottom=10mm]{geometry}
-\RequirePackage{colortbl}
 \RequirePackage{enumitem}
 \RequirePackage{etoolbox}
 \RequirePackage[skip=2pt plus1pt, indent=0mm]{parskip}
@@ -99,6 +100,13 @@
 \newcommand{\ie}{i.e.\ }
 \newcommand{\half}{\textonehalf{}}
 \newcommand{\fourth}{\textonequarter{}}
+
+
+%% Add tabularray standard tabular
+
+\NewTblrEnviron{dqtblr}
+\SetTblrInner[dqtblr]{hlines={green7},rowsep=0.1mm,width=\linewidth}
+
 
 % ----------------------------------------------------------------------
 
