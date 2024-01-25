@@ -1,4 +1,4 @@
-\begin{Chapter}{The College of Witchcraft (Ver 1.1)}
+\begin{College}[1.1]{witchcraft}{Witchcraft}{WI}
 
 The College of Witchcraft is concerned with natural magics, the
 rhythms of the world, and espe- cially with blessings and curses.
@@ -91,17 +91,17 @@ The Base Chance of performing any talent, spell or
 ritual of this College is modified by the addition of 
 the following numbers: 
 
-\begin{tabularx}{\columnwidth}{rX}
--5	& From sunrise to sunset \\
-+5	& From sunset to sunrise \\
--5	& In large town or city (pop. greater than 2000) \\
-0	& In small town or village (pop. 500 to 2000) \\
-+5	& In hamlet or rural (pop. less than 500)   \\
--5	& Mana poor day \\
-+5	& Mana rich (Faerie) day \\
-+5 	& In a high mana area \\
--5	& In a low mana area \\
-\end{tabularx}
+\begin{dqtblr}{colspec={Xr}}
+From sunrise to sunset				& -5 \\
+From sunset to sunrise				& +5 \\
+In large town or city (pop. greater than 2000)	& -5 \\
+In small town or village (pop. 500 to 2000)	& 0  \\
+In hamlet or rural (pop. less than 500)		& +5 \\
+Mana poor day					& -5 \\
+Mana rich (Faerie) day				& +5 \\
+In a high mana area				& +5 \\
+In a low mana area				& -5 \\
+\end{dqtblr}
 
 All modifiers are cumulative.  Those modifiers pertaining to sunrise
 and sunset are applied depending on the hour of day, and not on
@@ -398,14 +398,14 @@ concentration is broken and must subtract 10 (+ 3 / Rank) from their
 Strike Chances whilst suffering the pain.  The difficulty multiplier
 for the Concentration Check is dependent on the Rank of the spell:
 
-\begin{tabularx}{\columnwidth}{lr}
+\begin{dqtblr}{colspec={m{4em}X}}
 Rank	& Multiplier \\
 0--5	& 3.0 \\
 6--10	& 2.5 \\
 11--15	& 2.0 \\
 16--19	& 1.0 \\
 20	& 0.5 \\
-\end{tabularx}
+\end{dqtblr}
 
 No actual damage is inflicted as a result of this spell.  Note that
 Mind Mages will be somewhat unaffected by this spell, and may halve
@@ -580,7 +580,7 @@ again the distance. The wind will build up over [D - 2] minutes and
 the Adept must choose before that time which direction the wind will
 blow.  The speed of the wind is determined by a D100 roll as follows:
 
-\begin{tabularx}{\columnwidth}{lr}
+\begin{dqtblr}{colspec={m{4em}X}}
 Dice	& Velocity \\
 01--10	& 35 mph \\
 11--25	& 15 mph \\
@@ -588,7 +588,8 @@ Dice	& Velocity \\
 51–75	& 25 mph \\
 76–90	& 35 mph \\
 91–100	& 45 mph \\
-\end{tabularx}
+\end{dqtblr}
+
 The Adept may add or subtract a number equal to the Rank of the spell
 from the dice roll used to determine velocity.  This need not be done
 until after the dice have been rolled and the result ascertained.  If
@@ -872,14 +873,14 @@ bird, or aquatic.
 The spell infects any one target with any of 
 the following diseases: 
 
-\begin{tabularx}{\columnwidth}{rX}
+\begin{dqtblr}{colspec={m{4em}X}}
 Rank	& Disease \\
-0–5	& Measles \\
-6–10	& Consumption \\
-11–15	& Typhoid \\
-16–18	& Bubonic Plague \\
-19–20	& Pneumonic Plague \\
-\end{tabularx}
+0--5	& Measles \\
+6--10	& Consumption \\
+11--15	& Typhoid \\
+16--18	& Bubonic Plague \\
+19--20	& Pneumonic Plague \\
+\end{dqtblr}
 
 The target will not die of the disease, but will become habitually ill
 and all who come in contact with them (except the Adept who cast the
@@ -1133,13 +1134,13 @@ mind and memories.  The spell is, in effect, stored in the pelt or
 skin, and may be re- tained unused for an length of time dependent
 upon the Rank of the spell:
 
-\begin{tabularx}{\columnwidth}{lr}
+\begin{dqtblr}{colspec={m{4em}X}}
 Rank	& Duration \\
 0--6	& 1 week (+ 1 / Rank) \\
 7--12	& 2 weeks (+ 2 / Rank) \\
 13–19	& 1 month (+ 1 / Rank) \\
 20	& permanent until used \\
-\end{tabularx}
+\end{dqtblr}
 
 The wearer of the pelt may only resume their own form by having the
 Special Knowledge Counterspell of the College of Witchcraft cast over
@@ -1257,14 +1258,14 @@ make a Resistance Check, the Base Chance for which is composed of the
 victim’s Endurance multiplied by the Difficulty Multiplier of the
 resistance. The Difficulty Ratings are:
 
-\begin{tabularx}{\columnwidth}{lr}
+\begin{dqtblr}{colspec={m{4em}X}}
 Rank	& Multiplier \\
 0--5	& 4.0 \\
 6--10	& 3.0 \\
 11--15	& 2.5 \\
 16-–18	& 2.0 \\
 19-–20	& 1.5 \\
-\end{tabularx}
+\end{dqtblr}
 
 If the victim fails to resist, they suffer a wasting disease and lose
 [D - 4] Endurance for purposes of future resistance (only).  If they
@@ -1347,4 +1348,4 @@ any way when they arrive.
 \end{effects}
 \end{ritual}
 
-\end{Chapter}
+\end{College}
