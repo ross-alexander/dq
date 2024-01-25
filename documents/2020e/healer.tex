@@ -1,4 +1,4 @@
-\begin{Chapter}{Healer (Ver 1.4)}
+\begin{Skill}[1.4]{healer}{Healer}
 
 The healer skill is pseudo-magical and healers are able to cure all
 physical ills and perform miracles.  It is a highly skilled profession
@@ -38,7 +38,7 @@ beginning.
 
 An entity cannot drink a healing potion when they are unconscious or
 below zero endurance but one can be massaged down their throat. The
-chance of doing this is equal to the Manual Dexterity + Per- ception
+chance of doing this is equal to the Manual Dexterity + Perception
 of the person administering the potion, or if a healer, 90 + Healer
 Rank. If successful then D10 per 10 points of the healing potion’s
 curing (round down) will be received. If the person fails the roll,
@@ -81,17 +81,17 @@ chances:
 
 \subsubsection{Tactile Empathy (only):}
 
-\begin{tabularx}{\columnwidth}{ll}
+\begin{dqtblr}{colspec={lX}}
 -1 / 2 Ranks	& Close Combat strike chance \\
 -1 / 5 Ranks	& Melee Combat strike chance \\
-\end{tabularx}
+\end{dqtblr}
 
 \subsubsection{Ranged Empathy:}
 
-\begin{tabularx}{\columnwidth}{ll}
+\begin{dqtblr}{colspec={lX}}
 -1 / Rank	& Close Combat strike chance \\
 -1 / 2 Ranks	& Melee Combat strike chance \\
-\end{tabularx}
+\end{dqtblr}
 
 \section{Ability Descriptions}
 
@@ -231,7 +231,7 @@ provided it was severed for no more than Rank hours.
 
 Base Chance Modifiers: 
 
-\begin{tabularx}{\columnwidth}{Xr}
+\begin{dqtblr}{colspec={Xr}}
 Healer is life aspected			& +5 \\
 Patient is life aspected		& +5 \\
 Healer is death aspected		& -5 \\
@@ -240,7 +240,7 @@ Per year (or fraction) the patient’s life has been prolonged & -1 \\
 Per day of regeneration it would normally require to make the body whole & -1 \\
 Body is whole but has suffered Damage points equal to or greater than twice its Endurance (including after death damage) & -10 \\
 Per unsuccessful resurrection attempt since patient died  & -10 \\
-\end{tabularx}
+\end{dqtblr}
 
 A resurrection will cure the body of all ills and damage done to it
 provided that Rank 8 healing or below would have been sufficient had
@@ -292,7 +292,7 @@ netherworld.
 
 \item The healer need not know what the patient looked like since the
   healing of the body is governed by its own characteristics.  Hence
-  any changes that had been made to the body (for exam- ple facial
+  any changes that had been made to the body (for example facial
   changes or embedding of items) will be gone after the resurrection.
 
 \item A player may take no action with their character’s dead body.
@@ -342,8 +342,10 @@ alchemist.  See Alchemist (§30.2) for more details.
 
 \medskip
 
-\begin{tabularx}{\linewidth}{|X|X|X|} \hline
-Ability						& Base Chance			& Time \\ \hline
+\begin{dqtblr}{colspec={|X|X|X|},%
+    vlines={green7},%
+    hline{1-2,16}={1.2pt}}
+Ability						& Base Chance			& Time \\
 Empathy						& Automatic			& 5 seconds \\
 Ranged Empathy					& PC + 10 / Rank		& 5 seconds \\
 Cure Infection, Disease, Headaches \& Fever	& (15 × Rank) + Patient’s EN	& 30 minutes - 2 / Rank \\
@@ -357,9 +359,9 @@ Repair Muscle, Bones, Tissues and Organs	& 90 + Rank			& 50 hours - 3 / Rank \\
 Preserve Dead					& 90 + Rank			& 60 minutes - 5 / Rank \\
 Reattach Body Parts				& 90 + Rank 			& 30 minutes - 2 / Rank \\
 Resurrection					& special			& 60 minutes - 5 / Rank \\
-Regeneration					& 90 + Rank			& 1 week \\ \hline
-\end{tabularx}
+Regeneration					& 90 + Rank			& 1 week \\
+\end{dqtblr}
 
 \end{table*}
 
-\end{Chapter}
+\end{Skill}

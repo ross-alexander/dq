@@ -1,21 +1,29 @@
 \begin{Tables}{Combat Tables}
 
-\begin{multicols}{3}
+\begin{multicols*}{2}
 
 %% \raggedcolumns
   
 \section{Strike Chance Modifiers Summary}
 
-\fontsize{8}{10pt}\selectfont
+\smallskip
 
-\begin{tabularx}{\columnwidth}{rX} \hline
-\multicolumn{2}{l}{Close Combat Modifiers} \\ \hline
+\begin{tblr}{
+    rowsep=0.0pt,
+%%    stretch=0.9,
+    rows={font=\fontsize{10}{10pt}\selectfont},
+    colspec={rX},
+    cell{1,7,19,25,38}{1}={c=2}{l,font=\bfseries},
+    hlines={green7},
+    hline{1-2,7-8,19-20,25-26,38-39}={1.2pt,green7}
+    }
+Close Combat Modifiers \\
 +1 	& each point attacker’s PS is greater than target’s PS \\
 +20	& target has no Fatigue \\
 +20	& target is stunned \\
 -1	& each point target’s PS is greater than attacker’s PS \\
--20	& attacker has no Fatigue \\ \hline
-\multicolumn{2}{l}{Melee Combat Modifiers} \\ \hline
+-20	& attacker has no Fatigue \\
+Melee Combat Modifiers \\
 +10	& target has no Fatigue \\
 +10	& target is being attacked though a flank hex \\
 +15	& target is stunned \\
@@ -26,14 +34,14 @@
 -10	& target is evading \\
 -10	& attacker has no Fatigue \\
 -15	& attacker is charging with non-pole weapon \\
--20	& attack is Melee attacking while withdrawing \\ \hline
-\multicolumn{2}{l}{Visibility Condition Modifiers} \\ \hline
+-20	& attack is Melee attacking while withdrawing \\
+Visibility Condition Modifiers \\
 -10	& starry night or shadowy interior \\
 -20	& cloudy night \\
 -30	& cave or unlit interior \\
 -40	& pitch blackness \\
--50	& target is invisible or undetectable \\ \hline
-\multicolumn{2}{l}{Ranged Combat Modifiers} \\ \hline
+-50	& target is invisible or undetectable \\
+Ranged Combat Modifiers \\
 +10	& target being attacked through a flank hex \\
 +10	& target is stunned \\
 +10	& attacker is kneeling \\
@@ -45,8 +53,8 @@
 -5	& target is currently moving \\
 -10	& target is kneeling or prone \\
 -20	& target is evading \\
--20	& target occupies a sheltered hex \\ \hline
-\multicolumn{2}{l}{Miscellaneous Modifiers} \\ \hline
+-20	& target occupies a sheltered hex \\
+Miscellaneous Modifiers \\
 -20	& striking weapon held in attacker’s secondary hand \\
 -10	& multiple strike; attack with weapon in primary hand \\
 -30	& multiple strike; attack with weapon in secondary hand \\
@@ -55,7 +63,8 @@
 -20	& attacking an airborne figure \\
 -15	& airborne figure attacking ground figure \\
 -10	& airborne figure attacking another avian \\
-\end{tabularx}
+\end{tblr}
+\smallskip
 
 Each modifier is added to the Strike Chance of the attacker in each
 instance where it applies; all modifications are cumulative.
@@ -64,30 +73,39 @@ instance where it applies; all modifications are cumulative.
 
 \section{Combat Equation Summary}
 
-\begin{tabularx}{\columnwidth}{>{\hsize=.5\hsize\linewidth=\hsize}X>{\hsize=1.5\hsize\linewidth=\hsize}X}
-Engaged Initiative			& PC + modified AG + weapon Rank + warrior Rank. \\ \hline
-Unengaged Initiative			& D10 + (PC + 2 × Military Scientist). \\ \hline
-Strike Chance with ranked weapon	& Weapon Base Chance + attacker’s modified Manual Dexterity + (4 × Rank with weapon) + Magic. \\ \hline
-Modified Strike Chance			& Strike Chance + Modifiers (§57.1) - opponent’s Defence. \\ \hline
-Defence					& Modified AG + Shield defence + Modifiers (§57.1) + Magic. \\ \hline
-Repulse a charge attack			& D10 ≥ prepared weapon Rank.\\ \hline
-Withdraw from close combat		& (D10 + total friendly Physical Strength - total hostile Physical Strength) ≥ 10. \\ \hline
-Strike chance to trip			& 40\% + attacker’s modified Manual Dexterity + (4 × Rank with weapon) - opponent’s Defence (Damage: D10). \\ \hline
-Restrain				& 3 × ((PS+AG of attacker) - (PS+AG of defender)). \\ \hline
-Shield Rush				& 40\% + attacker’s modified MD + (4 × Rank with shield) - opponent’s Defence (Damage: [D - 2]). \\ \hline
-Disarm					& -20 to strike chance. \\ \hline
-Entangle				& Same as normal strike chance with weapon (Damage: [D - 4]). \\ \hline
-Knockout				& Must roll under (15\% × Modified Strike Chance). \\ \hline
-Fumble					& Reduce Initiative by 10. Roll under Initiative on D100 or roll on the Fumble Table (§52.4). \\ \hline
-Avoid Disarm				& MD + Rank on D100. Chance doubled if two handed.\\ \hline
-Stun recovery				& (2 × WP) + current Fatigue. \\ \hline
+\smallskip
+
+\begin{tblr}{
+    rowsep=0.0pt,
+%%    stretch=0.9,
+    rows={font=\fontsize{10}{10pt}\selectfont},
+    colspec={m{8em}X},
+    hlines={green7},
+    }
+Engaged Initiative			& PC + modified AG + weapon Rank + warrior Rank. \\
+Unengaged Initiative			& D10 + (PC + 2 × Military Scientist). \\
+Strike Chance with ranked weapon	& Weapon Base Chance + attacker’s modified Manual Dexterity + (4 × Rank with weapon) + Magic. \\
+Modified Strike Chance			& Strike Chance + Modifiers (§57.1) - opponent’s Defence. \\
+Defence					& Modified AG + Shield defence + Modifiers (§57.1) + Magic. \\
+Repulse a charge attack			& D10 ≥ prepared weapon Rank.\\
+Withdraw from close combat		& (D10 + total friendly Physical Strength - total hostile Physical Strength) ≥ 10. \\
+Strike chance to trip			& 40\% + attacker’s modified Manual Dexterity + (4 × Rank with weapon) - opponent’s Defence (Damage: D10). \\
+Restrain				& 3 × ((PS+AG of attacker) - (PS+AG of defender)). \\
+Shield Rush				& 40\% + attacker’s modified MD + (4 × Rank with shield) - opponent’s Defence (Damage: [D - 2]). \\
+Disarm					& -20 to strike chance. \\
+Entangle				& Same as normal strike chance with weapon (Damage: [D - 4]). \\
+Knockout				& Must roll under (15\% × Modified Strike Chance). \\
+Fumble					& Reduce Initiative by 10. Roll under Initiative on D100 or roll on the Fumble Table (§52.4). \\
+Avoid Disarm				& MD + Rank on D100. Chance doubled if two handed.\\
+Stun recovery				& (2 × WP) + current Fatigue. \\
 Parry result				& D10 + evader’s Rank - attacker’s Rank. \\
 					& 3 or less: Successful parry; evader must pass next action. \\
 					& 4–7: Disarm, 1 EN damage. \\
 					& 8 or greater: Disarm plus a riposte; evader may melee attack, 1 EN damage. \\
-\end{tabularx}
+\end{tblr}
+\end{multicols*}
 
-\vfill
+\begin{multicols}{3}
 
 \section{Action Summary}
 
@@ -129,11 +147,13 @@ Parry result				& D10 + evader’s Rank - attacker’s Rank. \\
 \item Throw  
 \item Fire  
 \item Recover from Stun 
- \end{Itemize}
+\end{Itemize}
+
+\raggedcolumns
 
 \section{Special Damage Chart}
 
-\begin{tabularx}{\columnwidth}{XXX}
+\begin{dqtblr}{colspec={XXX}}
 Success		& Triple	& Double \\
 01 - 09		& -		& 01 \\
 10 - 16		& 01		& 01 - 02 \\
@@ -155,7 +175,7 @@ Success		& Triple	& Double \\
 117 - 123	& 01 - 06	& 01 - 18 \\
 124 - 129	& 01 - 06	& 01 - 19 \\
 130+		& 01 - 07	& 01 - 20 \\
-\end{tabularx}
+\end{dqtblr}
 
 \end{multicols}
 \end{Tables}

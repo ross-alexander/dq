@@ -31,84 +31,8 @@
 \RequirePackage{etoolbox}
 \RequirePackage[skip=2pt plus1pt, indent=0mm]{parskip}
 
-%% New lists with enumitem
 
-\newlist{Itemize}{itemize}{3}
-\setlist[Itemize]{label=\textbullet}
-
-\newlist{Enumerate}{enumerate}{3}
-\setlist[Enumerate]{label=\arabic*}
-
-\newlist{Description}{description}{3}
-
-%% Additional commands and environments
-
-\newcommand{\coverpic}{\includegraphics[scale=1.0]{cover.pdf}}
-\newenvironment{Contributors}[0]%
-{\begin{center}{\Large \textbf{Contributors}}\end{center}\begin{multicols}{6}}%
-{\end{multicols}}
-
-\newenvironment{Copyright}[0]%
-{\begin{center}{\Large \textbf{Copyright}}\end{center}\begin{center}}%
-{\end{center}}
-
-\newenvironment{Chapter}[1]{\chapter{#1}\begin{multicols}{3}}{\end{multicols}}
-\newenvironment{inline}{\smallskip\setlength\parskip{0pt}}{\smallskip}
-\newenvironment{example}[0]{\small \emph{Example}\hspace{1.2em}}{}
-
-\newenvironment{talent}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{talents!#2}}{}
-\newenvironment{talent*}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{talents!#2}}{}
-
-\newenvironment{spell}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{spells!#2}}{}
-\newenvironment{spell*}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{spells!#2}}{}
-
-\newenvironment{ritual}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{rituals!#2}}{}
-\newenvironment{ritual*}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{rituals!#2}}{}
-
-\newenvironment{effects}[0]{\emph{Effects: }}{}
-
-\newenvironment{College}[4][1.0]%
-{\chapter{The College of #3 (Ver #1)}\label{college:#2}\def\dq@college{#3} \index{colleges!\dq@college|(} \begin{multicols*}{3}}%
-{\index{colleges!\dq@college|)}\end{multicols*}}
-
-\newenvironment{Tables}[1]{\chapter{#1}}{}
-
-\newcommand{\sItem}[2]{\emph{#1}: #2 \\}
-\newcommand{\range}[1]{\sItem{Range}{#1}}
-\newcommand{\area}[1]{\sItem{Area}{#1}}
-\newcommand{\multiple}[1]{\sItem{Experience Multiple}{#1}}
-\newcommand{\basechance}[1]{\sItem{Base Chance}{#1}}
-\newcommand{\duration}[1]{\sItem{Duration}{#1}}
-\newcommand{\resist}[1]{\sItem{Resist}{#1}}
-\newcommand{\target}[1]{\sItem{Target}{#1}}
-\newcommand{\storage}[1]{\sItem{Storage}{#1}}
-\newcommand{\material}[1]{\sItem{Material}{#1}}
-\newcommand{\casttime}[1]{\sItem{Cast Time}{#1}}
-\newcommand{\actions}[1]{\sItem{Actions}{#1}}
-\newcommand{\concentration}[1]{\sItem{Concentration Check}{#1}}
-\newcommand{\materialcost}[1]{\sItem{Material Cost}{#1}}
-\newcommand{\basetime}[1]{\sItem{Base Construction Time}{#1}}
-\newcommand{\timetaken}[1]{\sItem{Time}{#1}}
-\newcommand{\rune}[1]{\sItem{Runes}{#1}}
-
-\newcommand{\precis}[1]{{\reset@font\rmfamily\bfseries #1}}
-
-%% Special characters or phrases
-
-\newcommand{\x}{$\times$\ }
-\newcommand{\eg}{e.g.\ }
-\newcommand{\ie}{i.e.\ }
-\newcommand{\half}{\textonehalf{}}
-\newcommand{\fourth}{\textonequarter{}}
-
-
-%% Add tabularray standard tabular
-
-\NewTblrEnviron{dqtblr}
-\SetTblrInner[dqtblr]{hlines={green7},rowsep=0.1mm,width=\linewidth}
-
-
-% ----------------------------------------------------------------------
+%% ----------------------------------------------------------------------
 
 %% Select font handling
 
@@ -121,9 +45,16 @@
      \RequirePackage[utf8]{inputenc}
    \fi
 \fi
-   
-%% %% \RequirePackage{libertine}
 
+%% --------------------
+%%
+%% Set default fonts
+%%
+%% --------------------
+
+\setmainfont{TeX Gyre Termes}[Scale=0.8,Ligatures=TeX]
+\setsansfont{TeX Gyre Adventor}[Scale=0.7,Color=red,Ligatures=TeX]
+   
 \DeclareOption{libertine}{
 %%   \newfontfamily\fslibertine[Ligatures=TeX,NFSSFamily=libertine]{Linux Libertine O}
 %%   \newfontfamily\fsbiolinum[Ligatures=TeX,NFSSFamily=biolinum]{Linux Biolinum O}
@@ -195,6 +126,91 @@
 
 
 \ProcessOptions
+
+%% ----------------------------------------------------------------------
+
+
+%% New lists with enumitem
+
+\newlist{Itemize}{itemize}{3}
+\setlist[Itemize]{label=\textbullet}
+
+\newlist{Enumerate}{enumerate}{3}
+\setlist[Enumerate]{label=\arabic*}
+
+\newlist{Description}{description}{3}
+
+%% Additional commands and environments
+
+\newcommand{\coverpic}{\includegraphics[scale=1.0]{cover.pdf}}
+\newenvironment{Contributors}[0]%
+{\begin{center}{\Large \textbf{Contributors}}\end{center}\begin{multicols}{6}}%
+{\end{multicols}}
+
+\newenvironment{Copyright}[0]%
+{\begin{center}{\Large \textbf{Copyright}}\end{center}\begin{center}}%
+{\end{center}}
+
+\newenvironment{Chapter}[1]{\chapter{#1}\begin{multicols}{3}}{\end{multicols}}
+\newenvironment{inline}{\smallskip\setlength\parskip{0pt}}{\smallskip}
+\newenvironment{example}[0]{\small \emph{Example}\hspace{1.2em}}{}
+
+\newenvironment{talent}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{talents!#2}}{}
+\newenvironment{talent*}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{talents!#2}}{}
+
+\newenvironment{spell}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{spells!#2}}{}
+\newenvironment{spell*}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{spells!#2}}{}
+
+\newenvironment{ritual}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{rituals!#2}}{}
+\newenvironment{ritual*}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{rituals!#2}}{}
+
+\newenvironment{effects}[0]{\emph{Effects: }}{}
+
+\newenvironment{College}[4][1.0]%
+{\chapter{The College of #3 (Ver #1)}\label{college:#2}\def\dq@college{#3} \index{colleges!\dq@college|(} \begin{multicols*}{3}}%
+{\index{colleges!\dq@college|)}\end{multicols*}}
+
+\newenvironment{Skill}[3][1.0]%
+{\chapter{#3 (Ver #1)}\label{skill:#2}\def\dq@skill{#3} \index{skills!\dq@skill||} %%
+\begin{multicols*}{3}}%
+{\end{multicols*}}
+
+\newenvironment{Tables}[1]{\chapter{#1}}{}
+
+\newcommand{\sItem}[2]{\emph{#1}: #2 \\}
+\newcommand{\range}[1]{\sItem{Range}{#1}}
+\newcommand{\area}[1]{\sItem{Area}{#1}}
+\newcommand{\multiple}[1]{\sItem{Experience Multiple}{#1}}
+\newcommand{\basechance}[1]{\sItem{Base Chance}{#1}}
+\newcommand{\duration}[1]{\sItem{Duration}{#1}}
+\newcommand{\resist}[1]{\sItem{Resist}{#1}}
+\newcommand{\target}[1]{\sItem{Target}{#1}}
+\newcommand{\storage}[1]{\sItem{Storage}{#1}}
+\newcommand{\material}[1]{\sItem{Material}{#1}}
+\newcommand{\casttime}[1]{\sItem{Cast Time}{#1}}
+\newcommand{\actions}[1]{\sItem{Actions}{#1}}
+\newcommand{\concentration}[1]{\sItem{Concentration Check}{#1}}
+\newcommand{\materialcost}[1]{\sItem{Material Cost}{#1}}
+\newcommand{\basetime}[1]{\sItem{Base Construction Time}{#1}}
+\newcommand{\timetaken}[1]{\sItem{Time}{#1}}
+\newcommand{\rune}[1]{\sItem{Runes}{#1}}
+
+\newcommand{\precis}[1]{{\reset@font\rmfamily\bfseries #1}}
+
+%% Special characters or phrases
+
+\newcommand{\x}{$\times$\ }
+\newcommand{\eg}{e.g.\ }
+\newcommand{\ie}{i.e.\ }
+\newcommand{\half}{\textonehalf{}}
+\newcommand{\fourth}{\textonequarter{}}
+
+
+%% Add tabularray standard tabular
+
+\NewTblrEnviron{dqtblr}
+\SetTblrInner[dqtblr]{hlines={green7},rowsep=0.1mm,width=\linewidth}
+\UseTblrLibrary{varwidth}
 
 %% Add new lists with enumitem
 
@@ -305,8 +321,6 @@
   	{0.25\baselineskip}
  	{\reset@font\sffamily\bfseries}}
 
-\setmainfont{TeX Gyre Termes}[Scale=0.8,Ligatures=TeX]
-\setsansfont{TeX Gyre Adventor}[Scale=0.7,Color=red,Ligatures=TeX]
 
 % Configure hyperref
 
