@@ -1,4 +1,4 @@
-\begin{Chapter}{The College of Ice Magics (Ver 1.5)}
+\begin{College}[1.5]{ice}{Ice Magics}{IC}
 
 The College of Ice Magics is concerned with the shaping of ice and
 snow, freezing and the manipulation of cold.
@@ -62,14 +62,14 @@ All base chances of Ice Mages are affected by temperature. Only one of
 the temperature modifiers may be applied at one time.  Consult the
 Weather Scale Table for Weather Gauge details.
 
-\begin{tabularx}{\columnwidth}{XXXX} 
+\begin{dqtblr}{colspec={XXXX}}
 Temp		& Gauge		& Temp °C	& Mod. \\
 Very Cold	& 0--3		& ≤ -5		& +10 \\
 Cold 		& 4--5		& ≤ 5		& +5 \\
 Average		& 6--8		& 6--24		& 0 \\
 Hot		& 9--10		& ≥ 25		& -5 \\
 Very Hot	& 11+		& ≥ 35		& - 10 \\
-\end{tabularx}
+\end{dqtblr}
 
 If the Adept is standing on Ice or Snow in an area where it is in
 abundance they gain an additional +5\%.
@@ -788,33 +788,33 @@ Ice Elementals have the following characteristics:
   per strike.
 \end{Description}
 
-\begin{tabularx}{\linewidth}{XX}
+\begin{dqtblr}{colspec={XX},
+    cell{5-7}{1}={c=2}{l}}
 PS: 20 + 5 / Rank	& WP: 14 - 18 \\
 MD: 20 - 25		& EN: 5 - 50 \\
 AG: 15 - 20		& FT: 10 - 85 \\
 MA: None		& PC: 15 - 20 \\
-PB: 8 - 10		& \\
-TMR: 4 + 1 / 5 Ranks	& \\
-NA: Skin absorbs 5 DP	& \\
-\end{tabularx}
+PB: 8 - 10		\\
+TMR: 4 + 1 / 5 Ranks	\\
+NA: Skin absorbs 5 DP	\\
+\end{dqtblr}
 \end{effects}
 \end{ritual}
 
 \begin{ritual}[R-3]{Ritual of Winter}
 
-\duration{ Concentration:  Maximum  1  hour  +  1  / Rank}
+\duration{Concentration: Maximum 1 hour + 1 / Rank}
 \multiple{350}
 \basechance{MA + 3\% / Rank}
 \begin{effects}
 The Adept may change one or more of the three components which make up
 the weather by performing a ritual dance. The three components of
 weather are:
-
-1. Precipitation, Degree 
-
-2. Temperature, Gauge 
-
-3. Wind, Force 
+\begin{enumerate}
+\item Precipitation, Degree 
+\item Temperature, Gauge 
+\item Wind, Force 
+\end{enumerate}
 
 The GM should consult the weather table and advise the player of the
 current level of these three components before the Adept starts
@@ -883,4 +883,4 @@ items such as snow shoes; a suggestion is a straight halving of TMR
 but the entity does not sink into the snow.  Note that such items are
 not known or common in warmer climes!
 
-\end{Chapter}
+\end{College}
