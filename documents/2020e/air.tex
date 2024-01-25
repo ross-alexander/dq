@@ -55,7 +55,7 @@ The following modifiers are added to the Base Chance of performing any
 talent, spell or ritual of the College of Air Magics. Only one
 modifier may be applied:
 
-\begin{tabularx}{\columnwidth}{Xr}
+\begin{dqtblr}{colspec={Xr}}
 Caster is underground or totally enclosed 		& -15 \\
 Caster is only partially enclosed 			& -5 \\
 Caster is flying, or otherwise not in contact with any liquid or solid surface & +5 \\
@@ -63,7 +63,7 @@ Caster is standing in natural winds of 40 mph or greater & +10 \\
 Caster is more than 100’ above ground (flying or falling etc.) & +10 \\
 Caster is above all landmarks within 10 miles and at least 500’ above the ground (flying or falling etc.) & +20 \\
 Caster is on top of a mountain & +20 \\
-\end{tabularx}
+\end{dqtblr}
 
 \section{Talents}
 
@@ -132,11 +132,11 @@ predicting weather in the season they are familiar with. If they have
 lived in the area for over one year they will receive a bonus in any
 season.
 
-\begin{tabularx}{\columnwidth}{XXX}
-Time 	& Familiarity & Bonus \\
-1 month & Current season  + 5\% † \\
-1 year  &Complete & +10\% † \\
-\end{tabularx}
+\begin{dqtblr}{colspec={lXr}}
+Time 	& Familiarity		& Bonus \\
+1 month & Current season	& + 5\% † \\
+1 year  & Complete		& +10\% † \\
+\end{dqtblr}
 †only one modifier applies.
 \end{effects}
 \end{talent}
@@ -326,7 +326,7 @@ minimum 1) and the Mage must choose at the time of casting which
 direction the wind will blow.  The speed of the wind is determined by
 rolling a D100 roll as follows:
 
-\begin{tabularx}{\columnwidth}{XXX}
+\begin{dqtblr}{colspec={m{3em}lX}}
 Dice	& Force	& Speed (mph) \\
 01–05	& 5	& 19–24 \\
 06–15	& 4	& 13–18 \\
@@ -336,7 +336,7 @@ Dice	& Force	& Speed (mph) \\
 71–85	& 4	& 13–18	\\
 86–95	& 5	& 19–24	\\
 96–100	& 6	& 25–31	\\
-\end{tabularx}
+\end{dqtblr}
 
 The Adept can choose to modify the dice roll up or down by up to 2 ×
 Rank points to determine the actual wind speed once the dice have been
@@ -930,7 +930,9 @@ move.
 
 \begin{table*}
 \section{Weather Scale Table}
-\begin{tabularx}{\linewidth}{llXl}
+\begin{dqtblr}{colspec={lm{7em}Xm{8em}},%
+    hline{1-2,16-17,31-32}={1.2pt},%%
+    row{1,16,31}={font=\bfseries}}
 Force 		& Wind 			& Specification 							& Speed (mph) \\
 0 		& Calm 			& Smoke rises vertically 						& < 1 \\
 1 		& Light air 		& Direction indicated by smoke only 					& 1–3 \\
@@ -975,8 +977,9 @@ Degree 		& Cloud 		& Precipitation								& mm / Hour \\
 10 		& Oppressive 		& Torrential rain, river rise, large fires doused			& 20 \\
 11 		& Oppressive 		& Flood warning, rivers burst their banks				& 25 \\
 12+		& Oppressive		& Flash floods								& 35 \\
-\end{tabularx}
+\end{dqtblr}
 
+\begin{multicols}{2}
 \begin{Description}
 \item[T-1 Aerial Affinity (Air Mage Talent)] Due to their close
   association with the environment the Adept can modify the Force
@@ -997,5 +1000,6 @@ At rank 12, the Adept can change a Force 3 wind into a Force 10 wind
 or Force 3 into Force 7 and Degree 5 into Degree 2 cloud cover. Each
 of the changes may be in any direction on the table.
 \end{example}
+\end{multicols}
 \end{table*}
 \end{Chapter}
