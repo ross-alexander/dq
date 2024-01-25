@@ -1,4 +1,4 @@
-\begin{Chapter}{The College of Fire Magics (Ver 2.0)}
+\begin{College}[2.0]{fire}{Fire Magics}{FI}
 
 The College of Fire Magics is concerned exclusively with manipulating
 the element of fire.  Adepts of this College are referred to as Fire
@@ -33,13 +33,13 @@ notable exception of those of the College of Water Magics.
 Unless otherwise specified, Magical Fire will automatically ignite
 flammables.
 
-Traditional colours 
+\subsection{Traditional colours}
 
 Fire mages generally prefer to wear red, the colour of their element,
 often trimmed with black, yellow or orange.  For jewellery the fire
 mage most frequently chooses garnets or rubies, set in gold.
 
-Traditional symbols 
+\subsection{Traditional symbols}
 
 The symbol of the Fire College is the flame, usually depicted in red
 or gold.
@@ -58,7 +58,7 @@ The Base Chance of performing any talent, spell or ritual of the
 College of Fire Magics is modified by addition of the following
 numbers:
 
-\begin{tabularx}{\linewidth}{Xr}
+\begin{dqtblr}{colspec={Xr}}
 Adept is in light mist, fog, or rain, or is soaking wet & -5 \\
 Adept is in heavy fog, or rain, or is partially immersed in water & -10 \\
 Adept is almost totally immersed in water & -15 \\
@@ -68,7 +68,7 @@ Adept is in contact with small campfire & +5 \\
 Adept is in contact with large campfire  & +10 \\
 Adept is in contact with bonfire  & +15 \\
 Adept is in a hot, dry region (e.g. desert) & +5 \\
-\end{tabularx}
+\end{dqtblr}
 
 Only one modifier from each group may be applied together. These
 bonuses only apply to normal fire.  Magical fire may only be used to
@@ -118,7 +118,8 @@ target.
 \range{Sight}
 \duration{Immediate}
 \multiple{75}
-\basechance{MA + 5 / Rank - 1 / 5 feet separating the Adept from the target (after the first 5 feet)}
+\basechance{MA + 5 / Rank - 1 / 5 feet separating the Adept from the
+  target (after the first 5 feet)}
 \resist{Passive}
 \begin{effects}
 The Adept may cause to burst into flame a single mass of dry,
@@ -240,10 +241,7 @@ The Adept must remain in contact with the target for heating to
 occur. When the spell ends the target will cool normally.
 
 Solids 
-
-
 \duration{5 minutes + 5 / Rank}
-
 The Adept may heat 1 lb (+ 1 / Rank) of solid material up to 50 (+ 50
 / Rank) degrees C.  The Adept may choose any combination of
 temperature increase increment and mass increment to a total of the
@@ -253,9 +251,7 @@ Adept can be reduced to molten slag in as little as 10 seconds
 (resistance roll is applicable).
 
 Liquids 
-
 \duration{5 minutes + 5 / Rank}
-
 The Adept may heat 1 (+ 1 / Rank) pints of liquid up to 20 (+ 20 /
 Rank) degrees C.  They may choose any combination of temperature
 increase increment and mass increment to a total of the Adept’s rank.
@@ -264,9 +260,7 @@ volume of material that may be affected is increased by 6 times at
 Rank 20.
 
 Gases 
-
 \duration{1 hour + 1 / Rank}
-
 The Adept may cause the temperature of a closed contiguous volume of
 gas (such as air) to increase.  The volume affected is equal to 125 (+
 125 / Rank) cubic feet. The temperature can be increased by up to 2(C
@@ -276,8 +270,8 @@ Temperature is doubled
 \end{effects}
 \end{spell}
 
-\begin{spell}[G-7]{Slow Fire}
 
+\begin{spell}[G-7]{Slow Fire}
 \range{5 feet + 5 / Rank}
 \duration{1 hour + 1 / Rank}
 \multiple{100}
@@ -294,8 +288,8 @@ fire lasts for a considerable period of time.
 \end{effects}
 \end{spell}
 
-\begin{spell}[G-8]{Smoke Creation}
 
+\begin{spell}[G-8]{Smoke Creation}
 \range{10 feet + 10 / Rank}
 \duration{30 minutes + 30 / Rank}
 \multiple{75}
@@ -317,10 +311,10 @@ by this spell is completely transparent to infravision.
 \end{effects}
 \end{spell}
 
+
 \section{General Knowledge Rituals}
 
 \begin{ritual}[Q-1]{Binding Fire}
-
 \range{10 feet + 10 / Rank}
 \duration{1 hour + 1 / Rank}
 \multiple{500}
@@ -363,7 +357,6 @@ give the entity thus created simple commands.
 \section{Special Knowledge Spells}
 
 \begin{spell}[S-1]{Cleansing Flame}
-
 \range{10 feet + 10 / Rank above 10}
 \duration{125 seconds - 5 / Rank}
 \multiple{300}
@@ -387,8 +380,8 @@ degree burns but scar- ring from burns are not affected.
 \end{effects}
 \end{spell}
 
-\begin{spell}[S-2]{Dragon Flames}
 
+\begin{spell}[S-2]{Dragon Flames}
 \range{Special}
 \duration{Immediate}
 \multiple{500}
@@ -750,64 +743,59 @@ version of the ritual can only be performed on flammable objects.
 \material{none}
 Concentration Check: Standard 
 \begin{effects}
- The  Adept  may  summon  a  Lesser  Efreeti 
-to act as a steed for themselves. The Lesser Efreeti 
-will  obey  all  its  rider’s  commands  while  it  is 
-mounted. If the rider is not mounted or is out of its 
-presence  then  it  will  only  follow  simple  passive 
-commands (e.g. wait here, go there). At Rank 14 or 
-higher it will obey commands which move it away 
-from the rider (e.g. go attack people behind the hill, 
-go and pick up Bob). 
+The Adept may summon a Lesser Efreeti to act as a steed for
+themselves. The Lesser Efreeti will obey all its rider’s commands
+while it is mounted. If the rider is not mounted or is out of its
+presence then it will only follow simple passive commands (e.g. wait
+here, go there). At Rank 14 or higher it will obey commands which move
+it away from the rider (e.g. go attack people behind the hill, go and
+pick up Bob).
 
 Its characteristics and statistics are based on either 
 the Adept or their rank in the ritual. 
 
-PS = 30 (+ 2 / Rank)  MD = Adept 
-EN = 30 (+ 1 / Rank)  AG = Adept 
-FT = 30 (+ 2 / Rank)  WP = Adept 
-PC = Adept 
-MA = Adept 
-Natural Armour WP / 4 (+ 1 / 3 or fraction 
-Ranks) 
-DEF WP + Ritual BC / 2 
-TMR Walking = 5 (+ Rank / 4); Flying 8 (+ Rank / 
-3) 
-Movement Rate = 20 (+ 2 / Rank) miles per hour 
-Size 1 (+ 1 / 10 Ranks) hexes 
-Weapons  The  Lesser  Efreeti  has  three  physical 
-attacks,  two  claws  and  a  bite.  These  have  a  base 
-chance of 40\% and do D + 4 (+ 1 / 2 Ranks) dam-
-age.  It  also  has  a  65\%  chance  of  igniting  in  battle 
-with  flames  extending  in  a  5  foot  radius.  Entities 
-within  the  radius,  except  for  the  rider,  must  resist 
-or  suffer  D  (+  1  /  2  Ranks)  damage.  Entities  that 
-resist suffer half damage. 
-
-Abilities  The  Lesser  Efreeti  is immune  to  damage 
-from  fire  but  takes  double  damage  from  ice  or 
-water  and  magic  resistance  to  these  attacks  is  re-
-duced  by  10\%.  It  cannot  be  banished  while  the 
-rider is mounted. 
+\begin{dqtblr}{colspec={XX}}
+PS = 30 (+ 2 / Rank)  & MD = Adept \\
+EN = 30 (+ 1 / Rank)  & AG = Adept \\
+FT = 30 (+ 2 / Rank)  & WP = Adept \\
+PC = Adept            & MA = Adept \\
+\end{dqtblr}
+\begin{description}
+\item[Natural Armour] WP / 4 (+ 1 / 3 or fraction Ranks)
+\item[DEF] WP + Ritual BC / 2]
+\item[TMR] Walking = 5 (+ Rank / 4); Flying 8 (+ Rank / 3)
+\item[Movement Rate] 20 (+ 2 / Rank) miles per hour
+\item[Size] 1 (+ 1 / 10 Ranks) hexes
+\item[Weapons]
+The Lesser Efreeti has three physical attacks, two claws and a bite.
+These have a base chance of 40\% and do D + 4 (+ 1 / 2 Ranks) damage.
+It also has a 65\% chance of igniting in battle with flames extending
+in a 5 foot radius.  Entities within the radius, except for the rider,
+must resist or suffer D (+ 1 / 2 Ranks) damage.  Entities that resist
+suffer half damage.
+\item[Abilities]
+The Lesser Efreeti is immune to damage from fire but takes double
+damage from ice or water and magic resistance to these attacks is
+reduced by 10\%.  It cannot be banished while the rider is mounted.
+\end{description}
 
 At Rank 20 the ritual has extra benefits:  
 
-•  the  adept  may  nominate  another  entity  as  the 
-rider.  
+\begin{itemize}
+\item the adept may nominate another entity as the rider.
 
-• the Lesser Efreeti has Strength and Fatigue of 80 
-and Endurance of 60.  
+\item the Lesser Efreeti has Strength and Fatigue of 80 and Endurance
+  of 60.
 
-• NA is 8 (+ WP / 4).  
+\item NA is 8 (+ WP / 4).
 
-• damage from claws and bite is [D + 16].  
+\item damage from claws and bite is [D + 16].  
 
-• the ritual’s duration is 24 hours. 
+\item the ritual’s duration is 24 hours. 
+\end{itemize}
 
-This  ritual  may  double  or  triple  duration  and  may 
-backfire. It may be invested with a material cost of 
-50,000 silver pieces per charge. 
-
+This ritual may double or triple duration and may backfire. It may be
+invested with a material cost of 50,000 silver pieces per charge.
 \end{effects}
 \end{ritual}
 
@@ -837,7 +825,8 @@ Special Counterspell.
 \end{effects}
 \end{ritual}
 
-
+\raggedcolumns
+\columnbreak
 
 \section{Damage by Burning}
 
@@ -856,51 +845,36 @@ a character but simply jumping through one might not. This table
 should be used as a guide to how much damage exposure to a particular
 fire source might cause.
 
-Clothing alight after passage through 
-a fire 
-Standing in campfire 
-Standing in a one Hex bonfire 
-Very large bonfire, house fire 
-Raging forest fire 
-Immersion in boiling water 
-Immersion in boiling oil 
-Immersion in molten metal or lava 
-Sauron’s forge 
-
-D + 3 
-
-D + 5 
-D + 10 
-D + 15 
-D + 25 
-D + 35 
-D + 50 
-D + 100 
-D + 150 
+\begin{dqtblr}{colspec={Xl}}
+Clothing alight after passage through a fire	& D + 3 \\
+Standing in campfire 				& D + 5 \\
+Standing in a one Hex bonfire 			& D + 10 \\
+Very large bonfire, house fire 			& D + 15 \\
+Raging forest fire 				& D + 25 \\
+Immersion in boiling water 			& D + 35 \\
+Immersion in boiling oil 			& D + 50 \\
+Immersion in molten metal or lava 		& D + 100 \\
+Sauron’s forge 					& D + 150 \\
+\end{dqtblr}
 
 \section{Some Useful Temperatures}
 
-Boiling Water 
+\begin{dqtblr}{colspec={lX}}
+100°C	& Boiling Water \\
+113°C	& Molten Sulphur \\
+200°C	& Burning paper and meths \\
+232°C	& Tin melts \\
+300°C	& Boiling oil \\
+327°C	& Lead melts \\
+419°C	& Molten zinc \\
+800°C	& Molten salt \\
+1000°C	& Silver melts \\
+1053°C	& Gold melts \\
+1083°C	& Bronze and copper armour and weapons melt \\
+1600°C	& Molten iron \\
+1800°C	& Sand melts \\
+4000°C	& Molten graphite \\
+>4000°C	& Sauron’s jewellery \\
+\end{dqtblr}
 
-100°C 
-113°C  Molten Sulphur 
-Burning paper and meths 
-200°C 
-Tin melts 
-232°C 
-Boiling oil 
-300°C 
-327°C 
-Lead melts 
-419°C  Molten zinc 
-800°C  Molten salt 
-1000°C  Silver melts 
-1053°C  Gold melts 
-1083°C  Bronze and copper armour and weapons melt 
-
-1600°C  Molten iron 
-1800°C  Sand melts 
-4000°C  Molten graphite 
->4000°C  Sauron’s jewellery 
-
-\end{Chapter}
+\end{College}
