@@ -1,4 +1,4 @@
-\begin{Chapter}{The College of Rune Magics (Ver 2.2)}
+\begin{College}[2.2]{rune}{Rune Magics}{RU}
 
 \textbf{College in Playtest}
 
@@ -46,7 +46,7 @@ quarterstaff in terms of weight, length and damage.
 
 \subsection{Materials}
 
-\begin{tabularx}{\columnwidth}{llX}
+\begin{dqtblr}{colspec={llX}}
 Material	& Area		& Bonus (+5\% to) \\
 Willow		& Healing	& healing spells  \\
 Poplar		& Divination	& runes of sight \\
@@ -58,7 +58,7 @@ Oak		& Strength	& stores extra Ft \\
 Ash		& Destruction	& elemental \\
 Blackthorn	& Curse		& curses \\
 Redwood		& Travelling	& sending, visitation etc. \\
-\end{tabularx}
+\end{dqtblr}
 
 \section{Restrictions}
 
@@ -88,13 +88,13 @@ as they would if the spell was cast normally.
 The Base Chance of performing a talent, spell, or ritual of the
 College of Rune Magics is modified by the addition of the following
 numbers:
-\begin{tabularx}{\columnwidth}{Xl}
+\begin{dqtblr}{colspec={Xm{3.5em}}}
 Adept takes a minute to inscribe a Rune on a surface & +5 \\
 Adept uses their own blood to inscribe a Rune on a surface (1 pt tiredness FT, minimum 1 minute) & +5 \\
 Adept employs Ritual Spell Preparation or Casting (maximum 10 hours) & +5  + (5 / hr) \\
 Adept uses fresh Dragon’s blood to inscribe a Rune  & +50 \\
 Adept uses a wand or staff  & as material table \\
-\end{tabularx}
+\end{dqtblr}
 
 All modifiers are cumulative. 
 
@@ -114,8 +114,8 @@ a double effect is rolled, the adept may ask 1 question about the
 information. If a triple effect is rolled, the adept may ask 2
 questions.
 
-If the symbol is magical then Adept will discern its general
-effect. If a double effect is rolled, the adept can ask for 1 of the
+If the symbol is magical then Adept will discern its general effect.
+If a double effect is rolled, the adept can ask for 1 of the
 attributes of the spell (e.g.  Rank, specific name, etc.).  If a
 triple effect is rolled, 2 attributes may be discovered.
 \end{effects}
@@ -129,11 +129,11 @@ triple effect is rolled, 2 attributes may be discovered.
 The Adept may attempt to see into the spirit world. They can see
 spirits, such as the souls of the dead (which normally remain close to
 their bodies for 3 days before travelling to the lands of the dead),
-those travelling outside their bodies (e.g.  via the Spell of
+those travelling outside their bodies (e.g. via the Spell of
 Visitation or the Herbalist Potion), incorporeal or insubstantial
-undead etc.  (e.g.  a vampire in the form of a cloud of mist as an
+undead etc. (e.g. a vampire in the form of a cloud of mist as an
 undead spirit), insubstantial Fae (e.g. dryads, sylphs), summoned
-spirits (e.g.  whispering wind, speak with dead), as though they were
+spirits (e.g. whispering wind, speak with dead), as though they were
 normally visible.
 
 Although the Adept cannot normally see the spirit of a living being
@@ -595,13 +595,13 @@ for this spell to work at range, otherwise they can carve the Curse
 Rune into the victim (taking a minute).  The duration of the curse is
 based on the cast time.
 
-\begin{tabularx}{\columnwidth}{ll}
+\begin{dqtblr}{colspec={XX}}
 Cast time	& Duration  \\
 Pulse		& Rank minutes  \\
 Minute		& Rank hours \\
 Hour		& Rank days \\
 Day		& Permanent \\
-\end{tabularx}
+\end{dqtblr}
 
 The Adept curses any one target with a particular unpleasantness as
 listed below. If the effects of the curse are doubled or tripled, the
@@ -792,14 +792,14 @@ In addition, if the Adept then spends a hour making a meal of their
 victim they can temporarily increase their following characteristics
 to up to (5 / Rank) \% of that the victim.
 
-\begin{tabularx}{\columnwidth}{Xl}
+\begin{dqtblr}{colspec={Xl}}
 Organ / Body part	& Stat  \\
 Brain			& WP \\
 Heart			& EN \\
 Arms			& PS \\
 Legs			& AG \\ 
 Hands			& MD \\
-\end{tabularx}
+\end{dqtblr}
 
 Eating the genitals will give a Rank\% increase to the Adept’s
 virility.  See Conception (§4.8) for conception chances.
@@ -855,14 +855,14 @@ Each pulse that the Adept continues to point the Runestaff at the
 entity (requiring a pass action) it suffers [Rank / 4] point of damage
 and may not attempt to recover from the spell.
 
-\begin{tabularx}{\columnwidth}{lX}
+\begin{dqtblr}{colspec={m{4em}X}}
 Rank	& Difficulty \\
 0--4	& 4 × WP \\
 5--9	& 3 × WP \\
 10--14	& 2 × WP \\
 15–19	& 1 × WP \\
 20	& 0.5 × WP \\
-\end{tabularx}
+\end{dqtblr}
 \end{effects}
 \end{spell}
 
@@ -1026,14 +1026,14 @@ This ritual requires the expenditure of one point of Endurance
 named creature will immediately turn up and attempt to kill the Adept,
 but will not return once destroyed.
 
-\begin{tabularx}{\columnwidth}{lX}
+\begin{dqtblr}{colspec={m{4em}X}}
 Rank	& Creature \\
 0--4	& Imp \\
 5--9	& Half devil \\
 10--14	& Devil \\
 15--19	& Succubus or Incubus \\
 20	& Named Demon \\
-\end{tabularx}
+\end{dqtblr}
 \end{effects}
 \end{ritual}
 
@@ -1055,14 +1055,14 @@ must make a Resistance Check, the Base Chance for which is composed of
 the victim’s Endurance multiplied by the Difficulty Rating of the
 resistance.
 
-\begin{tabularx}{\columnwidth}{lX}
+\begin{dqtblr}{colspec={m{4em}X}}
 Rank	& Difficulty \\
 0--5	& 4 × EN \\
 6--10	& 3 × EN \\
 11--15	& 2.5 × EN \\
 16--18	& 2 × EN \\
 19--20	& 1.5 × EN \\
-\end{tabularx}
+\end{dqtblr}
 
 If the victim fails to resist, they suffer a wasting disease and lose
 [D-3] Endurance points for the purposes of future resistance (only).
@@ -1191,4 +1191,4 @@ sentient it will retain both heads.
 \end{effects}
 \end{ritual}
 
-\end{Chapter}
+\end{College}
