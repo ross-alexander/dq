@@ -1,23 +1,24 @@
 \begin{Chapter}{Magic}
 
 There are thirteen sections in Magic: 
-
-7.1 Introduction to Magic \\
-7.2 How Magic Works \\
-7.3 How to Cast Spells \\
-7.4 Cast Check Modifiers \\
-7.5 Spell Effects \\
-7.6 Restrictions on Magic \\
-7.7 Backfires \\
-7.8 Magic Resistance \\
-7.9 Incorporating Magic into Combat \\
-7.10 The Colleges of Magic \\
-7.11 Magic Descriptions \\
-7.12 Spell Descriptions \\
-7.13 Storage and Entrapment of Magic \\
-
+\begin{description}
+\item[\ref{magic:introduction}] Introduction to Magic
+\item[\ref{magic:howmagicworks}] How Magic Works
+\item[\ref{magic:howtocast}] How to Cast Spells
+\item[\ref{magic:modifiers}] Cast Check Modifiers
+\item[\ref{magic:effects}] Spell Effects
+\item[\ref{magic:restrictions}] Restrictions on Magic
+\item[\ref{magic:backfires}] Backfires
+\item[\ref{magic:resistance}] Magic Resistance
+\item[\ref{magic:combat}] Incorporating Magic into Combat
+\item[\ref{magic:colleges}] The Colleges of Magic
+\item[\ref{magic:descriptions}] Magic Descriptions
+\item[\ref{magic:spells}] Spell Descriptions
+\item[\ref{magic:storage}] Storage and Entrapment of Magic
+\end{description}
 
 \section{Introduction to Magic}
+\label{magic:introduction}
 
 Magic represents the effects of the unknown forces that shape and
 control the worlds. Those who have talent and knowledge can tap these
@@ -180,6 +181,7 @@ detailed within these rules is College magic.
 \end{Description}
 
 \section{How Magic Works}
+\label{magic:howmagicworks}
 
 There are three types of Magic: Talent, Spell and Ritual Magic.
 
@@ -244,6 +246,7 @@ During the extended ritual the Adept can utilise only stored magic,
 and that inherent in the ritual.
 
 \section{How to Cast Spells}
+\label{magic:howtocast}
 
 Casting a Spell is a complex process. 
 
@@ -324,19 +327,21 @@ Casting a Spell is a complex process.
 
 
 \section{Cast Check Modifiers}
+\label{magic:modifiers}
 
 In addition to the individual College modifiers, all Mages receive the
 following modifiers whenever engaging in Spell casting:
 
 \begin{dqtblr}{colspec={Xr}}
-Each point the Mage’s MA is greater than 15		& +1 \\
-Each point the Mage’s MA is less than 15		& -1 \\
-Each Rank the Mage has with the spell they are casting	& +3 \\ 
-Each hour the Mage engages in Ritual Spell preparation	& +3 \\
+Each point the Mage’s MA is greater than 15		& \pl 1 \\
+Each point the Mage’s MA is less than 15		& \mi 1 \\
+Each Rank the Mage has with the spell they are casting	& \pl 3 \\ 
+Each hour the Mage engages in Ritual Spell preparation	& \pl 3 \\
 \end{dqtblr}
 
 
 \section{Spell Effects}
+\label{magic:effects}
 
 Spells which are successfully cast on valid targets immediately take
 effect on those targets (unless explicitly stated within the spell
@@ -383,6 +388,7 @@ range in the hope of achieving a double or triple effect.
 
 
 \section{Restrictions on Magic}
+\label{magic:restrictions}
 
 Mages are restricted as to where and when they can employ
 magic. General restrictions that apply to all Mages are covered in
@@ -482,6 +488,7 @@ but it only takes effect when the first spell wears off.
 
 
 \section{Backfires}
+\label{magic:backfires}
 
 Particularly inept Spell casts or Ritual performances may cause
 backfires.  If the Mage’s Cast Check fails by more than 30 for a 5
@@ -509,6 +516,7 @@ curse description.
 
 
 \section{Magic Resistance}
+\label{magic:resistance}
 
 An entity who is the target of a spell may resist the spell if it is
 resistible. There are two types of resistance: Active Resistance
@@ -517,13 +525,13 @@ reduces the effects of a spell. Magic Resistance is used for both
 Active and Passive Resistance.  It is equal to an entity’s Willpower,
 modified as follows:
 
-\begin{dqtblr}{colspec={Xm{3em}}}
-Target and caster are of the same Branch of Magic			& -5 \\
-Target and caster are of opposed Branches of Magic			& +5 \\
-Target is sentient but not a Mage					& +20 \\
-Target is in a consecrated area						& +50 \\
-Target has on, or is in the area of, the appropriate counterspell	& +30 +3/Rank \\
-Spell had triple effect and the caster chose to affect Magic Resistance	& -20 \\
+\begin{dqtblr}{colspec={X[h,l]Q[t,r,3.5em]}}
+Target and caster are of the same Branch of Magic			& \mi 5 \\
+Target and caster are of opposed Branches of Magic			& \pl 5 \\
+Target is sentient but not a Mage					& \pl 20 \\
+Target is in a consecrated area						& \pl 50 \\
+Target has on, or is in the area of, the appropriate counterspell	& + 30 +3/Rank \\
+Spell had triple effect and the caster chose to affect Magic Resistance	& \mi 20 \\
 \end{dqtblr}
 
 Branches of Magic are covered in §7.10.  Sentient entities are those
@@ -576,6 +584,7 @@ spell which is not targeted at the entity, has no effect.
 
 
 \section{Incorporating Magic into Combat}
+\label{magic:combat}
 
 Spell Magic may be employed, usually with 5 second preparation. A Mage
 must perform a magical pass action to prepare and a cast action to
@@ -596,6 +605,7 @@ concentration check (as per §7.6).
 
 
 \section{The Colleges of Magic}
+\label{magic:colleges}
 
 Most Magic is divided into 16 Colleges representing specific types of
 magic.  A Mage may only employ the powers and spells of one College.
@@ -702,6 +712,7 @@ still remain Adepts of their College, while sentient.
 
 
 \section{Magic Descriptions}
+\label{magic:descriptions}
 
 The description of all the College Magics work under certain
 conventions.  The more important of them follow:
@@ -732,6 +743,7 @@ Each College description is broken up into
 
 
 \section{Spell Descriptions}
+\label{magic:spells}
 
 The description of each spell lists its specific effects, range,
 duration, and other attributes.  Each spell is fully described under
@@ -807,6 +819,7 @@ their game and the atmosphere that they are trying to promote.
 
 
 \section{Storage and Entrapment of Magic}
+\label{magic:storage}
 
 There are various methods of storing magical effects.  Each has
 different properties and can store different types of spells.
