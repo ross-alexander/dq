@@ -1,26 +1,27 @@
 \begin{Chapter}{Combat (Ver 1.1)}
 
 There are nineteen sections in Combat: 
-
-6.1   Definitions \\
-6.2   Preparation for Combat \\
-6.3   Combat Sequence \\
-6.4   Engaged Actions \\
-6.5   Close Combat Actions \\
-6.6   Unengaged Actions 
-6.7   Free Acts \\
-6.8   Action Restrictions \\
-6.9   Attacking \\
-6.10   Resolving Attempted Attacks \\
-6.11   Damage \\
-6.12   Effects of Damage \\
-6.13   Weapons \\
-6.14   Unarmed Combat \\
-6.15   Multi-hex Figures \\
-6.16   Mounted Combat \\
-6.17   Aerial Combat \\
-6.18   Aquatic Combat \\
-6.19   Magical Combat
+\begin{description}
+\item[\ref{combat:definitions}] Definitions
+\item[\ref{combat:preparation}] Preparation for Combat
+\item[\ref{combat:sequence}] Combat Sequence
+\item[\ref{combat:engaged}] Engaged Actions
+\item[\ref{combat:close}] Close Combat Actions
+\item[\ref{combat:unengaged}] Unengaged Actions
+\item[\ref{combat:freeacts}] Free Acts
+\item[\ref{combat:restrictions}] Action Restrictions
+\item[\ref{combat:attacking}] Attacking
+\item[\ref{combat:resolving}] Resolving Attempted Attacks
+\item[\ref{combat:damage}] Damage
+\item[\ref{combat:effects}] Effects of Damage
+\item[\ref{combat:weapons}] Weapons
+\item[\ref{combat:unarmed}] Unarmed Combat
+\item[\ref{combat:multihex}] Multi-hex Figures
+\item[\ref{combat:mounted}] Mounted Combat
+\item[\ref{combat:aerial}] Aerial Combat
+\item[\ref{combat:aquatic}] Aquatic Combat
+\item[\ref{combat:magical}] Magical Combat
+\end{description}
 
 Individual Combat is an inevitable and sometimes necessary occurrence,
 and characters should be aware of its dangers.  Fighting is a deadly
@@ -49,6 +50,7 @@ situation; returning to normal interactive roleplaying will speed
 overall play.
 
 \section{Definitions}
+\label{combat:definitions}
 
 \begin{Description}
 \item[Action] The movement and combat activity a figure may attempt
@@ -185,6 +187,7 @@ overall play.
 \end{Description}
   
 \section{Preparation for Combat}
+\label{combat:preparation}
 
 \subsection{Paperwork}
 
@@ -234,6 +237,7 @@ quick estimate relating all presumed activity they may have undertaken
 up to the start of combat.
 
 \section{Combat Sequence}
+\label{combat:sequence}
 
 The order in which all actions are attempted in a pulse is called the
 Combat Sequence.  This sequence should be adhered to at all times as
@@ -368,6 +372,7 @@ suit their own style.
 \end{Description}
 
 \section{Engaged Actions}
+\label{combat:engaged}
 
 Being engaged imposes certain limitations on the actions that a figure
 may attempt.  The primary restriction is that an engaged figure may
@@ -443,6 +448,7 @@ the figure in their Melee Zones.  Other Actions may never take the
 figure out of any hostile Melee Zone.
 
 \section{Close Combat Actions}
+\label{combat:close}
 
 All figures in Close Combat are treated as engaged.  However, while in
 Close, only close-rated weapons may be employed. All other weapons or
@@ -482,6 +488,7 @@ executing a Withdraw from Close, or (ii) by stunning or otherwise
 incapacitating all opponents who are in Close with the figure.
 
 \section{Unengaged Actions}
+\label{combat:unengaged}
 
 An unengaged figure is one that is not engaged. 
 
@@ -557,12 +564,14 @@ An unengaged figure is one that is not engaged.
 \end{Description}
 
 \section{Free Acts}
+\label{combat:freeacts}
 
 In addition to their normal Action, a figure may always drop whatever
 they have in their hands and, if not performing a Magical Action, they
 may say a short phrase during their Action.
 
 \section{Action Restrictions}
+\label{combat:restrictions}
 
 Movement may be restricted by terrain or other conditions. Figures
 with a modified Agility of 8 or less may have their movement reduced
@@ -638,31 +647,39 @@ perform.  Note that some Actions that figures in combat wish to
 attempt will take far more than one pulse.
 
 \begin{inline}
-\begin{dqtblr}{colspec={Xp{5em}}}
+\begin{dqtblr}{colspec={Xp{5em}},hline{Z}={black,0mm}}
 Search for trap in specific place		& 2 \\
 Attempt to remove trap				& see §47.2 \\
 Quick search of 10’ × 10’ for disguised objects	& 3 \\
 Sound Wall					& 1 \\
 Pick Lock					& see §47.2 \\
+\begin{dqtblr}{colspec={Xp{5em}},hline{Z}={black,0mm}}
+\end{dqtblr}
 Force Lock					& 3 \\
 Spike Door					& 2 \\
 Light Torch					& 3 \\
 Light Lantern					& 5 \\
 \end{dqtblr}
 
-\begin{dqtblr}{colspec={Xp{5em}},hline{1-2,7-8}={1.2pt}}
+\begin{dqtblr}{colspec={Xp{5em}},hline{1-2}={0.8pt},hline{Z}={black,0mm}}
 Changing Armour:				& \\ 
 Helm						& 1 \\
 Leather						& 6 \\
 Scale						& 24 \\
 Chain						& 12 \\
 Plate						& 60 \\
+\end{dqtblr}
+
+\begin{dqtblr}{colspec={Xp{5em}},hline{1-2}={0.8pt},hline{Z}={black,0mm}}
 Using a backpack:				& \\
 Put on / Take off				& 1 \\
 Remove item					& 2 \\
 Store item					& 1 \\
 Dismount / Mount Horse				& 1 \\
 Drink 1/2 pint flask				& 1 \\
+\end{dqtblr}
+
+\begin{dqtblr}{colspec={Xp{5em}},hline{1-2}={0.8pt}}
 Load missile weapon:				& \\
 Crossbow					& 2 \\
 Crossbow using cranequin			& 3 \\
@@ -735,6 +752,7 @@ The Action Summary (§57.3) lists all valid Actions and their
 Restrictions.
 
 \section{Attacking}
+\label{combat:attacking}
 
 The order of all attacking Actions is determined by the Initiative
 procedure as detailed in §6.3. Combat involving engaged figures is
@@ -889,6 +907,7 @@ attacks.
 \end{Description}
 
 \section{Resolving Attempted Attacks}
+\label{combat:resolving}
 
 Every weapon and attack form has a Base Chance.  The Base Chance with
 all modifiers applied is the Modified Strike Chance.  The attacker
@@ -990,6 +1009,7 @@ Initiative Value, apply the corresponding result from §52.3 or §52.4
 (the Fumble tables).
 
 \section{Damage}
+\label{combat:damage}
 
 A successful Strike Check usually results in a Damage Check being
 performed. Each attack has a damage modifier that is applied to a D10
@@ -1055,6 +1075,7 @@ inflict an additional point of damage for every full 4 Ranks they have
 in the weapon.  This affects Close, Melee Thrown, and Missile weapons.
 
 \section{Effects of Damage}
+\label{combat:effects}
 
 \subsection{Missile Lodgement}
 
@@ -1135,6 +1156,7 @@ environmental conditions and poor treatment may further increase the
 chance. See §4.7 for more information.
 
 \section{Weapons}
+\label{combat:weapons}
 
 Any instrument used to inflict damage on a figure is called a weapon.
 Weapons may include the figure’s hands, feet, teeth, etc. All normal
@@ -1206,6 +1228,7 @@ hours or until at least one point of effective damage has been
 inflicted.
 
 \section{Unarmed Combat}
+\label{combat:unarmed}
 
 Any figure may attempt to attack a hostile figure by using their
 natural weapons.  For many creatures, this is the only way they may
@@ -1226,6 +1249,7 @@ damage apply.  They may also use a kick as their secondary weapon for
 a Multiple Strike Attack.
 
 \section{Multi-hex Figures}
+\label{combat:multihex}
 
 Many figures will occupy more than one hex on the tactical display.
 Their size necessitates alterations in the resolution of movement and
@@ -1253,6 +1277,7 @@ Trample Base Chance and damage in the Bestiary.  A multi-hex figure in
 close with smaller figures does not automatically fall prone.
 
 \section{Mounted Combat}
+\label{combat:mounted}
 
 In mounted combat, the TMR of the figure (mount and rider combined) is
 that of the mount; the rider may not move at all.  A rider and mount
@@ -1305,6 +1330,7 @@ that movement is terminated.  A failed check will result in the mount
 continuing on its way.
 
 \section{Aerial Combat}
+\label{combat:aerial}
 
 Whenever an avian (or any other flying entity) is airborne, the
 figure’s height above the ground may have to be noted.
@@ -1341,18 +1367,19 @@ spell prior to, during or after their movement.  This also applies to
 all flying magic-using monsters and Adepts with flying mounts.
 
 \section{Aquatic Combat}
+\label{combat:aquatic}
 
 Aquatic Combat may take place between figures at different
 depths. Refer to the aerial combat section for guidelines.
 
-\subsection{Defence }
+\subsection{Defence}
 
 \begin{Itemize}
 \item Defence caused by natural agility is halved for non-aquatics.
 
 \item Non-magical defence is always halved.  
 
-\item  Magical defences are unaffected. 
+\item Magical defences are unaffected. 
 
 \end{Itemize}
 
@@ -1396,6 +1423,7 @@ Evading defence bonuses are 10\% + 2\% / Rank for prepared B \& C
 class weapons.  A class weapons are unaffected.
 
 \section{Magical Combat}
+\label{combat:magical}
 
 See §7.9 Incorporating Magic into Combat for a summary.
 
