@@ -26,11 +26,24 @@
 \RequirePackage{hyperref}
 \RequirePackage{setspace}
 \RequirePackage{graphicx}
-\RequirePackage[top=20mm,left=10mm,right=10mm,bottom=10mm]{geometry}
+\RequirePackage{geometry}
 \RequirePackage{enumitem}
 \RequirePackage{etoolbox}
-\RequirePackage[skip=2pt plus1pt, indent=0mm]{parskip}
+\RequirePackage[skip=2pt plus 2pt, indent=0mm]{parskip}
 
+%% --------------------
+%%
+%% Reduce space between header and body
+%%
+%% --------------------
+
+\geometry{top=10mm,headsep=2mm,left=10mm,right=10mm,bottom=6mm,footskip=3mm}
+
+%% \setlength\headsep{5pt}
+
+\setlength\leftmargini{1.5em}
+\setlength\leftmarginii{2.0em}
+\setstretch{0.9}
 
 %% ----------------------------------------------------------------------
 
@@ -52,19 +65,18 @@
 %%
 %% --------------------
 
-\setmainfont{TeX Gyre Termes}[Scale=0.8,Ligatures=TeX]
+\setmainfont{TeX Gyre Pagella}[Scale=0.75,Ligatures=TeX]
 \setsansfont{TeX Gyre Adventor}[Scale=0.7,Color=red,Ligatures=TeX]
-   
-\DeclareOption{libertine}{
-%%   \newfontfamily\fslibertine[Ligatures=TeX,NFSSFamily=libertine]{Linux Libertine O}
-%%   \newfontfamily\fsbiolinum[Ligatures=TeX,NFSSFamily=biolinum]{Linux Biolinum O}
 
+\DeclareOption{libertine}{
 \setmainfont{Linux Libertine O}[Scale=0.8,Ligatures=TeX]
 \setsansfont{Linux Biolinum O}[Scale=0.7,Color=red,Ligatures=TeX]
-  
+
 %% %%  \renewcommand{\rmdefault}{libertine}
 %% %%  \renewcommand{\sfdefault}{biolinum}
 
+%%   \newfontfamily\fslibertine[Ligatures=TeX,NFSSFamily=libertine]{Linux Libertine O}
+%%   \newfontfamily\fsbiolinum[Ligatures=TeX,NFSSFamily=biolinum]{Linux Biolinum O}
   
 %% %% \renewcommand{\scriptsize}{\sffamily\fontsize{4}{4pt}\selectfont}
 %% %% \renewcommand{\small}{\sffamily\fontsize{7}{8pt}\selectfont}
@@ -204,7 +216,8 @@
 \newcommand{\ie}{i.e.\ }
 \newcommand{\half}{\textonehalf{}}
 \newcommand{\fourth}{\textonequarter{}}
-
+\newcommand{\mi}{\textminus{}}
+\newcommand{\inch}{\textinch{}}
 
 %% Add tabularray standard tabular
 
@@ -234,15 +247,6 @@
 \renewcommand\headrulewidth{0.0pt}
 \renewcommand\footrulewidth{0.0pt}
 \renewcommand\footruleskip{0.0pt}
-
-\setstretch{0.9}
-
-%% Reduce space between header and body
-\setlength\headsep{5pt}
-
-
-\setlength\leftmargini{1.5em}
-\setlength\leftmarginii{2.0em}
 
 %% secnumdepth is set to 1 as we are using chapters so number is
 %% chapter.section only.  subsections and below are not numbered
@@ -331,38 +335,9 @@
     pdfstartview=Fit,pdfpagemode=UseOutlines
 }
 
-%% \let\ps@plain\ps@empty
-
-%% %% %%% GLOBAL LAYOUT THINGS
-
-%% \setlength\marginparwidth{0.0 mm}
-%% \setlength\parindent{0.0 mm}
-
-%% %\setlength\topmargin{-0.75 in}
-%% %\setlength\textheight{10.65 in}
-
-%% %% %%% ONE-SIDED/TWO-SIDED DEPENDENCIES
-
-%% %\if@twoside % ``book'' style was chosen
-%% %  \oddsidemargin -15.0 mm
-%% %  \evensidemargin -15.0 mm
-%% %  \textwidth 188mm
-%% %\else % if not book style, then
-%% %  \oddsidemargin -6.3mm
-%% %  \evensidemargin\oddsidemargin
-%% %  \textwidth 182mm
-%% %\fi
-
-%% \addtolength{\parskip}{0.3 em}
-
-
-
 %% \setcounter{columnbadness}{1000}
 %% \setcounter{finalcolumnbadness}{1000}
 %% \setcounter{collectmore}{20}
-
-
-%% %% %\pagestyle{headings}
 
 
 %% %% %%% USEFUL MACROS
