@@ -24,7 +24,7 @@ use JSON::XS;
 use Perl6::Slurp;
 use Data::Dumper;
 use Carp;
-use YAML;
+use YAML::PP qw(DumpFile);
 
 # ----------------------------------------------------------------------
 #
@@ -1278,25 +1278,29 @@ sub JSON_Character {
     # --------------------
     # Write out result
     # --------------------
-    
-    my $stream;
-    if ($opts->{outfile})
-    {
-	open($stream, ">", $opts->{outfile});
-    }
-    else
-    {
-	$stream = \*STDOUT;
-    }
+
     if ($opts->{format} eq "yaml")
     {
-	print $stream Dump($res);
+	DumpFile($opts->{outfile}, $res);
     }
     else
     {
+	my $stream;
+	if ($opts->{outfile})
+	{
+	    if (!open($stream, ">", $opts->{outfile}))
+	    {
+		printf(STDERR "Cannot open %s fo writing.\n", $opts->{outfile});
+		exit(1);
+	    }
+	}
+	else
+	{
+	    $stream = \*STDOUT;
+	}
 	print $stream to_json($res, {pretty=>1, convert_blessed=>1});
+	close($stream);
     }
-    close($stream);
 }
 
 # ----------------------------------------------------------------------
