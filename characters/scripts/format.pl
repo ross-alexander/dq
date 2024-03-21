@@ -32,6 +32,7 @@ use XML::Simple;
 use XML::LibXML::Simple;
 use Perl6::Slurp;
 use JSON;
+use YAML;
 
 # ----------------------------------------------------------------------
 #
@@ -1342,6 +1343,18 @@ sub JSON_File {
     return decode_json(slurp($opts->{i}));
 }
 
+# ----------------------------------------------------------------------
+#
+# YAML_File
+#
+# ----------------------------------------------------------------------
+
+sub YAML_File {
+    my ($conf, $opts) = @_;
+
+    return YAML::LoadFile($opts->{i});
+}
+
 
 # ----------------------------------------------------------------------
 #
@@ -1391,32 +1404,34 @@ sub Main {
     # Process opts
     # --------------------
     
-    my $opts = {};
+    my $opts = {
+	parser => 'xml',
+    };
     GetOptions(
 	'i=s' => \$opts->{i},
 	'o=s' => \$opts->{o},
 	'f=s' => \$opts->{f},
 	't=s' => \$opts->{t},
-	'j' => \$opts->{json},
+	'p=s' => \$opts->{parser},
 	);
     
     # --------------------
     # Give useful errors
     # --------------------
     
-    if (!exists($opts->{i}))
+    if (!exists($opts->{i}) || !$opts->{i})
     {
-	printf(stderr "$0: [-i input.xml]\n");
+	printf(stderr "$0: [-i input.PARSER]\n");
 	exit(1);
     }
 
-    if (!exists($opts->{o}))
+    if (!exists($opts->{o}) || !$opts->{o})
     {
 	printf(stderr "$0: [-o output.FORMAT]\n");
 	exit(1);
     }
 
-    if (!exists($opts->{f}))
+    if (!exists($opts->{f}) || !$opts->{f})
     {
 	printf(stderr "$0: [-f %s]\n", join("|", keys(%{$conf->{formats}})));
 	exit(1);
@@ -1426,15 +1441,20 @@ sub Main {
     # Load file
     # --------------------
 
-    my $character;
-    if ($opts->{json})
+    my $parser_dispatch = {
+	json => \&JSON_File,
+	yaml => \&YAML_File,
+	xml => \&XML_Fuile,
+    };
+    
+    if (!exists($parser_dispatch->{$opts->{parser}}))
     {
-	$character = &JSON_File($conf, $opts);
+	printf("%s: input parser %s not implemented\n", basename($0), $opts->{parser});
+	exit(1);
     }
-    else
-    {
-	$character = &XML_File($conf, $opts);
-    }
+
+    my $parser = $parser_dispatch->{$opts->{parser}};
+    my $character = $parser->($conf, $opts);
 
     # --------------------
     # Add now
