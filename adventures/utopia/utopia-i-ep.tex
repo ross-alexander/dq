@@ -9,24 +9,11 @@
 
 \documentclass[a4paper]{article}
 
-\usepackage{fontspec}
-\usepackage[margin=15mm]{geometry}
-\usepackage[dvipsnames]{xcolor}
-\usepackage{tcolorbox}
-\usepackage{graphicx}
-\usepackage{wrapfig2}
-\usepackage{fbox}
+\usepackage{ep}
 
 \newcommand{\signature}{
 \tcblower\centering{Grave Reckonings  --- Candlemansa 823WK -- 10 Seedtime 823WK --- Ross Alexander}
 }
-
-\setmainfont{Linux Biolinum O}
-
-\newtcolorbox{ep-box}[1]{colback=red!5!white,colframe=red!75!black,title={#1},center title,parbox=false,nobeforeafter}
-
-\setlength{\parskip}{4mm}
-\setlength{\parindent}{0mm}
 
 \begin{document}
 
@@ -41,10 +28,10 @@
 %% ----------------------------------------------------------------------
 
 \begin{ep-box}{Uzi EP}
+\begin{minipage}{\linewidth}
   \setlength\intextsep{0pt}
   \begin{wraptext}{r}{0.56\textwidth}
     \includegraphics[width=0.58\textwidth]{raptor-forest}
-%%    \fbox[boxsep=0.1mm,lcolor=red,rcolor=red,tcolor=red,bcolor=red]{\includegraphics[width=0.58\textwidth]{raptor-forest}}
   \end{wraptext}
 Uzi was employed by Marlinspike of Seagate and paid 5,000 silver
 pennies to create a graveyard by killing creatures and ritually
@@ -56,7 +43,107 @@ colleges of Rune, Witchcraft or Necromancy.
 The adventure was medium level running for seven sessions.  Uzi died
 once during the adventure and gained 15,000 EP.  The adventure duration
 was seven weeks.
+\end{minipage}
 
+\vspace{5mm}
+
+\begin{minipage}{\linewidth}
+\begin{multicols}{2}
+\begin{spell*}[S-12]{Spectral Warrior}
+
+\range{Sight}
+\duration{Concentration: No maximum}
+\multiple{400}
+\basechance{5\%}
+\resist{None}
+\storage{Investment}
+\target{Entity}
+\begin{effects}
+The Adept conjures to this plane a spectral warrior, and directs the
+warrior to hunt down and slay one target, who must be within sight
+when the spell is cast.  The warrior is completely insubstantial and
+invisible except to its intended victim.  It may be seen by others
+with Witchsight.  It appears as a glowing spectre of Ankh, with
+piercing red eyes.  The warrior will continue with its mission until
+the Adept’s concentration is broken, its intended victim dies, or it
+is dissipated or slain.  The warrior can unerringly locate its
+intended victim and will always move towards them at its full movement
+rate, and engage them in melee combat.
+
+The warrior has a single, combined, Endurance and Fatigue
+Characteristic with a value of 20 (+ 5 per 3 full Ranks).  The
+spectral warrior automatically hits every Pulse for [D - 4] (+ 1 /
+Rank) damage. Its Initiative is 30 (+ 2 / Rank). The warrior has no
+defence or armour value. It may not be Stunned.  The warrior’s
+movement rate is 650 yards per minute, and its TMR is 13.  The warrior
+may move in any direction without restriction, including through the
+air, walls, water, etc., except through the area of a Necromantic
+Special Counterspell. The warrior may be dissipated by having a
+Necromantic Special Counterspell cast on the area it occupies.
+
+If the warrior kills its victim then Ankh is aware that it has
+happened and will gain a small amount of knowledge and influence where
+victim died.
+
+\end{effects}
+\end{spell*}
+\end{multicols}
+\end{minipage}
+
+\signature
+\end{ep-box}
+
+\newpage
+
+%% ----------------------------------------------------------------------
+%%
+%% Mayhem
+%%
+%% ----------------------------------------------------------------------
+
+\begin{ep-box}{Mayhem EP}
+\begin{minipage}{\linewidth}
+  \setlength\intextsep{0pt}
+  \begin{wraptext}{r}{0.56\textwidth}
+    \includegraphics[width=0.58\textwidth]{raptor-forest}
+  \end{wraptext}
+Mayhem was employed by Marlinspike of Seagate and paid 5,000 silver
+pennies to create a graveyard by killing creatures and ritually
+burying them.
+
+Additional Mayhem may learn one talent, spell or ritual from the the
+colleges of Rune, Witchcraft or Necromancy.
+
+The adventure was medium level running for seven sessions.  Uzi died
+once during the adventure and gained 15,000 EP.  The adventure duration
+was seven weeks.
+\end{minipage}
+
+\vspace{5mm}
+
+\begin{minipage}{\linewidth}
+\begin{multicols}{2}
+\begin{spell}[S-7]{Converse With Animals}
+
+\range{Self}
+\duration{1 hour + 3 / Rank}
+\multiple{50}
+\basechance{60\%}
+\resist{None}
+\storage{Investment, Potion}
+\target{Self}
+\begin{effects}
+The Adept may communicate with any natural and unenchanted, animal,
+bird, or aquatic.  Whether this communication is verbal or symbolic,
+and to what extent the communication may be carried is left up to the
+GM’s discretion. The Adept must specify at the time of casting what
+particular type of animal, bird or aquatic is to be conversed
+with. The spell must be re-cast to speak to another type of animal,
+bird, or aquatic.
+\end{effects}
+\end{spell}
+\end{multicols}
+\end{minipage}
 \signature
 \end{ep-box}
 

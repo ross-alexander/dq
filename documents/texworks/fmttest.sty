@@ -1,0 +1,83 @@
+%% ----------------------------------------------------------------------
+%%
+%% 2023-04-19
+%%
+%% Add multicols for Chapter
+%% Add tabularx
+%% Add example environment
+%% Add geometry
+%% Add xcolor and fontspec
+%%
+%% ----------------------------------------------------------------------
+
+\RequirePackage{geometry}
+\RequirePackage{fontspec}
+\RequirePackage{multicol}
+\RequirePackage{tabularx}
+\RequirePackage[dvipsnames]{xcolor}
+\RequirePackage{fancyhdr}
+\RequirePackage{enumitem}
+\RequirePackage{tabularray}
+\RequirePackage{setspace}
+\RequirePackage[skip=2pt plus 1pt, indent=0mm]{parskip}
+
+%% Need lots of space on the page for 3 columns, no margin notes
+
+\geometry{top=20mm,left=10mm,right=10mm,bottom=10mm,showframe}
+\setlength\headsep{5pt}
+
+%% Additional environments
+
+\newenvironment{Chapter}[1]{\chapter{#1}\begin{multicols}{3}}{\end{multicols}}
+\newenvironment{example}[0]{\small \emph{Example}\hspace{1.2em}}{}
+
+%% Add wrapper around inline tabular
+
+\newenvironment{inline}{\smallskip\setlength\parskip{0pt}}{\smallskip}
+
+%% Select typeface via fontspec
+
+%% \setmainfont{Linux Libertine O}[Scale=0.8,Color=violet,Ligatures=TeX]
+%% \setsansfont{Linux Biolinum O}[Scale=0.7,Color=red,Ligatures=TeX]
+
+\setmainfont{Latin Modern Roman}[Scale=0.8,Color=violet,Ligatures=TeX]
+\setsansfont{Latin Modern Sans}[Scale=0.7,Color=red,Ligatures=TeX]
+\newfontfamily\itemfont{Latin Modern Roman}[Scale=0.8,Color=red,Ligatures=TeX]
+
+%% header and footer
+
+\newcommand{\thisday}{\slshape\fontsize{8}{9pt}\selectfont{\MakeUppercase{\today}}}
+\pagestyle{fancyplain}
+\lhead[\fancyplain{}{\slshape\fontsize{8}{9pt}\selectfont\rightmark}]{\fancyplain{}{\thisday}}
+\rhead[\fancyplain{}{\thisday}]{\fancyplain{}{\slshape\fontsize{8}{9pt}\selectfont\rightmark}}
+\cfoot{\fancyplain{}{\fontsize{8}{9pt}\selectfont\thepage}}
+\renewcommand\headrulewidth{0.0pt}
+\renewcommand\footrulewidth{0.0pt}
+\renewcommand\footruleskip{0.0pt}
+
+%% Reduce spacing between lines (using setspace package)
+
+\setstretch{0.9}
+
+%% use enumitem to reduce space (from enumitem)
+
+\setlist[enumerate]{leftmargin=*,nosep}
+\setlist[itemize]{leftmargin=*,nosep}
+\setlist[description]{nosep,leftmargin=0pt,font=\itemfont\bfseries}
+
+%% Limit section numbering to chapter.section
+
+\setcounter{secnumdepth}{1}
+\setcounter{tocdepth}{1}
+
+%% Add new tblr environment from tabularray
+
+\NewTblrEnviron{dqtblr}
+\SetTblrInner[dqtblr]{hlines={green7},rowsep=0.1mm,width=\linewidth}
+\UseTblrLibrary{varwidth}
+
+%% Set whitspace control
+
+\setcounter{columnbadness}{1000}
+\setcounter{finalcolumnbadness}{1000}
+\setcounter{collectmore}{50}

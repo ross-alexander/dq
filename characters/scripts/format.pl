@@ -1,4 +1,4 @@
-#!/usr/bin/perl -I/home/ralexand/dq/characters/scripts
+#!/usr/bin/perl -I/locker/gaming/dq/characters/scripts
 
 # ----------------------------------------------------------------------
 #

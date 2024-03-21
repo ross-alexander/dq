@@ -1,3 +1,9 @@
+# 2024e
+
+Complete reformatting of tabular material.
+
+# 2020e
+
 This is a reconversion of the DQ 2014 rules back into LaTeX.  There
 are a number of formatting issues because it was taken from the
 PDF rather than original source.

@@ -1,4 +1,4 @@
-#!/usr/bin/perl -I/home/ralexand/dq/characters/scripts
+#!/usr/bin/perl -I/locker/gaming/dq/characters/scripts
 
 # ----------------------------------------------------------------------
 #
@@ -1309,7 +1309,7 @@ sub Main {
 
     my $opts = {
 	codepage => 'utf8',
-	mapfile => '/home/ralexand/dq/characters/convert.js',
+	mapfile => '/locker/gaming/dq/characters/convert.js',
     };
 
     # --------------------
