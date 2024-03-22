@@ -180,17 +180,17 @@ Game level
 : Medium
 
 Time
-:(3 sessions ≈3hrs)
+: (3 sessions ≈3hrs)
 
 
 # Experience estimate
 
 ## Costs
 
-|                            |
-| -------------------------  |  -------
-| accommodation              |  175sp
-| Total Costs                |
+|                            |          |
+| -------------------------  |  ------- |
+| accommodation              |  175sp   |
+| Total Costs                |          |
 
 ## Goods and Loot Received
 
