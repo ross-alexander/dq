@@ -182,10 +182,10 @@ Time
 
 ## Costs
 
-|                          |
--------------------------  |  -------
-accommodation              |  175sp
-Total Costs                |
+|                            |
+| -------------------------  |  -------
+| accommodation              |  175sp
+| Total Costs                |
 
 ## Goods and Loot Received
 
