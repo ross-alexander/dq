@@ -63,17 +63,12 @@ would had recently returned to Ambra from Alusia. From him we received
 some useful information.
 
 -   The Ruler is called Sivley.
-
 -   His son, the Prince of Kaloria (who has the item), is the crown
     prince.
-
 -   Currently visiting the court where three groups.
-
     -   Two elves from Alusia but not from Elfheim.
-
     -   A noble of sorts from Alusia, which two female assissants and
         two hillgiant guards.
-
     -   A group of nobles from the north of Ambra.
 
 Manam gives each of us a sash made from silk which disguises their aura.
