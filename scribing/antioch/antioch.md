@@ -9,27 +9,21 @@ date: September 30, 1992 AP
 ## Guild members on the Adventure
 
 Brother Rowan
-
 :   A wicker professing to a priest of Chaunter.
 
 Dillenger
-
 :   First half of the twin pack, a shadow celestial mage.
 
 Sinn Fein
-
 :   Known as SF, the second half of the twin pack. One mean mind mage.
 
 Callas
-
 :   A good looking earth mage and party scribe.
 
 Kesha
-
 :   An elf, a rune mage under all the ceramic armour.
 
 Shoka
-
 :   The party's battle orc.
 
 # Diary of Events
