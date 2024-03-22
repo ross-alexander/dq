@@ -936,16 +936,17 @@ sub TeX_Character {
 # --------------------
 
     $stream->printf("\\begin{frontcover}\n");
-    
-    $stream->printf("\\begin{tabularx}{\\linewidth}{|l|X|X|X|X|X|X|} \\hline\n");
-    $stream->printf("\\makebox[4cm][l]{\\textsuperscript{Name}%s} \&\n", $basics->{'charname'});
+
+    $stream->printf("\\begin{dqtblr}{colspec={Q[l,t,40mm]XXXXXX},");
+    $stream->printf("cell{3}{2}={c=3}{l},cell{3}{5}={c=3}{l},");
+    $stream->printf("cell{4}{2,4,6}={c=2}{l}}");
+    $stream->printf("\\textsuperscript{Name}%s \&\n", $basics->{'charname'});
     $stream->printf("\\textsuperscript{PS} %s \&\n", $stats->{'PS'});
     $stream->printf("\\textsuperscript{MD} %s \&\n", $stats->{'MD'});
     $stream->printf("\\textsuperscript{AG} %s \&\n", $stats->{'AG'});
     $stream->printf("\\textsuperscript{MA} %s \&\n", $stats->{'MA'});
     $stream->printf("\\textsuperscript{WP} %s \&\n", $stats->{'WP'});
     $stream->printf("\\textsuperscript{EN} %s \\\\\n", $stats->{'EN'});
-    $stream->printf("\\hline\n");
 
     $stream->printf("\\textsuperscript{Race} %s \&\n", $basics->{'race'});
     $stream->printf("\\textsuperscript{Sex} %s \&\n", $basics->{'sex'});
@@ -954,32 +955,66 @@ sub TeX_Character {
     $stream->printf("\\textsuperscript{PB} %s \&\n", $stats->{'PB'});
     $stream->printf("\\textsuperscript{PC} %s \&\n", $stats->{'PC'});
     $stream->printf("\\textsuperscript{FT} %s \\\\\n", $stats->{'FT'});
-    $stream->printf("\\hline\n");
 
     $stream->printf("\\textsuperscript{Aspect}%s \&\n", $basics->{'aspect'});
-    $stream->printf("\\multicolumn{3}{l|}{\\textsuperscript{Birth} %s} \&\n", $basics->{'birth'});
-    $stream->printf("\\multicolumn{3}{l|}{\\textsuperscript{Date} %s} \\\\\n", $basics->{'date'});
-    $stream->printf("\\hline\n");
-    
-    $stream->printf("\\textsuperscript{S.Status} %s \&\n", $basics->{'status'});
-    $stream->printf("\\multicolumn{2}{l|}{\\textsuperscript{Hand} %s} \&\n", $basics->{'hand'});
-    $stream->printf("\\multicolumn{2}{l|}{\\textsuperscript{Coll.} %s} \& \n", $basics->{'college'});
-    $stream->printf("\\multicolumn{2}{l|}{\\textsuperscript{EP} %s [%s]} \\\\\n", $basics->{'ep-total'}, $basics->{'ep'});
-    $stream->printf("\\hline\n");
+    $stream->printf("\\textsuperscript{Birth} %s \& \& \& \n", $basics->{'birth'});
+    $stream->printf("\\textsuperscript{Date} %s  \& \& \\\\\n", $basics->{'date'});
 
-    $stream->printf("\\end{tabularx}\n\n");
+    $stream->printf("\\textsuperscript{S.Status} %s \&\n", $basics->{'status'});
+    $stream->printf("\\textsuperscript{Hand} %s \& \&\n", $basics->{'hand'});
+    $stream->printf("\\textsuperscript{Coll.} %s \& \& \n", $basics->{'college'});
+    $stream->printf("\\textsuperscript{EP} %s [%s] \& \\\\\n", $basics->{'ep-total'}, $basics->{'ep'});    
+    $stream->printf("\\end{dqtblr}\n\n");
+    
+    # $stream->printf("\\begin{tabularx}{\\linewidth}{|l|X|X|X|X|X|X|} \\hline\n");
+    # $stream->printf("\\makebox[4cm][l]{\\textsuperscript{Name}%s} \&\n", $basics->{'charname'});
+    # $stream->printf("\\textsuperscript{PS} %s \&\n", $stats->{'PS'});
+    # $stream->printf("\\textsuperscript{MD} %s \&\n", $stats->{'MD'});
+    # $stream->printf("\\textsuperscript{AG} %s \&\n", $stats->{'AG'});
+    # $stream->printf("\\textsuperscript{MA} %s \&\n", $stats->{'MA'});
+    # $stream->printf("\\textsuperscript{WP} %s \&\n", $stats->{'WP'});
+    # $stream->printf("\\textsuperscript{EN} %s \\\\\n", $stats->{'EN'});
+    # $stream->printf("\\hline\n");
+
+    # $stream->printf("\\textsuperscript{Race} %s \&\n", $basics->{'race'});
+    # $stream->printf("\\textsuperscript{Sex} %s \&\n", $basics->{'sex'});
+    # $stream->printf("\\textsuperscript{HT} %s \&\n", $basics->{'height'});
+    # $stream->printf("\\textsuperscript{WT} %s \&\n", $basics->{'weight'});
+    # $stream->printf("\\textsuperscript{PB} %s \&\n", $stats->{'PB'});
+    # $stream->printf("\\textsuperscript{PC} %s \&\n", $stats->{'PC'});
+    # $stream->printf("\\textsuperscript{FT} %s \\\\\n", $stats->{'FT'});
+    # $stream->printf("\\hline\n");
+
+    # $stream->printf("\\textsuperscript{Aspect}%s \&\n", $basics->{'aspect'});
+    # $stream->printf("\\multicolumn{3}{l|}{\\textsuperscript{Birth} %s} \&\n", $basics->{'birth'});
+    # $stream->printf("\\multicolumn{3}{l|}{\\textsuperscript{Date} %s} \\\\\n", $basics->{'date'});
+    # $stream->printf("\\hline\n");
+    
+    # $stream->printf("\\textsuperscript{S.Status} %s \&\n", $basics->{'status'});
+    # $stream->printf("\\multicolumn{2}{l|}{\\textsuperscript{Hand} %s} \&\n", $basics->{'hand'});
+    # $stream->printf("\\multicolumn{2}{l|}{\\textsuperscript{Coll.} %s} \& \n", $basics->{'college'});
+    # $stream->printf("\\multicolumn{2}{l|}{\\textsuperscript{EP} %s [%s]} \\\\\n", $basics->{'ep-total'}, $basics->{'ep'});
+    # $stream->printf("\\hline\n");
+
+    # $stream->printf("\\end{tabularx}\n\n");
 
     # --------------------
     # Do the skills, weapons & spells
     # --------------------
 
-    $stream->printf("\\begin{tabular}[t]{\@{}p{0.5\\linewidth}\@{}p{0.5\\linewidth}\@{}}\n");
+    #    $stream->printf("\\begin{tabular}[t]{\@{}p{0.5\\linewidth}\@{}p{0.5\\linewidth}\@{}}\n");
+
+    $stream->printf("\\begin{multicols}{2}\n\\raggedcolumns\n\n");
 
     # Start skills table
 
-    $stream->printf("\\begin{tabularx}{0.49\\columnwidth}[t]{|r|X|} \\hline \n");
-    $stream->printf("\\textbf{Rk} & \\hfil \\textbf{Skill} \\hfil \\\\ \\hline\n");
+#    $stream->printf("\\begin{tabularx}{0.49\\columnwidth}[t]{|r|X|} \\hline \n");
+#    $stream->printf("\\textbf{Rk} & \\hfil \\textbf{Skill} \\hfil \\\\ \\hline\n");
 
+    $stream->printf("\\begin{ranktblr}{colspec={rX}}\n");
+    
+    $stream->printf("Rk &Skill \\\\\n");
+    
     for my $s (sort {$b->{"rank"} <=> $a->{"rank"}} @{$current->{'skills'}})
     {
 	
@@ -988,14 +1023,15 @@ sub TeX_Character {
 	$t =~ s/\&amp;/\\& /;
 	$stream->print($t);
     }
-    $stream->printf("\\hline\n");
-    $stream->printf("\\end{tabularx}\n");
+#    $stream->printf("\\hline\n");
+#    $stream->printf("\\end{tabularx}\n");
+    $stream->printf("\\end{ranktblr}\n");
     $stream->printf("\n\n");
 
     # Languages
 
-    $stream->printf("\\begin{tabularx}{0.49\\columnwidth}[t]{|r|X|} \\hline \n");
-    $stream->printf("\\textbf{Rk} & \\hfil \\textbf{Language} \\hfil \\\\ \\hline\n");
+    $stream->printf("\\begin{ranktblr}{colspec={rX}}\n");
+    $stream->printf("Rk & Language \\\\\n");
 
     for my $s (sort {$b->{"rank"} <=> $a->{"rank"}} @{$current->{'languages'}})
     {
@@ -1005,14 +1041,13 @@ sub TeX_Character {
 	$t =~ s/\&amp;/\\& /;
 	$stream->print($t);
     }
-    $stream->printf("\\hline\n");
-    $stream->printf("\\end{tabularx}\n");
+    $stream->printf("\\end{ranktblr}\n");
     $stream->printf("\n\n");
 
     # Start weapons table
 
-    $stream->printf("\\begin{tabularx}{0.49\\columnwidth}[t]{|r|X|} \\hline \n");
-    $stream->printf("\\textbf{Rk} & \\hfil \\textbf{Weapon} \\hfil \\\\ \\hline\n");
+    $stream->printf("\\begin{ranktblr}{colspec={rX}}\n");
+    $stream->printf("Rk & Weapon\\\\\n");
     
     for my $s (sort {$b->{"rank"} <=> $a->{"rank"}} @{$current->{'weapons'}})
     {
@@ -1021,13 +1056,12 @@ sub TeX_Character {
 	$t =~ s/\&amp;/\\& /;
 	$stream->print($t);
     }
-    $stream->print("\\hline\n");
-    $stream->print("\\end{tabularx}\n");
+    $stream->print("\\end{ranktblr}\n");
     $stream->print("\n");
     
     # Insert the intercolumn break
 
-    $stream->printf("\&\n");
+#    $stream->printf("\&\n");
 
     # And now do spells
 
@@ -1044,8 +1078,8 @@ sub TeX_Character {
 		 
 	if (scalar(@list))
 	{
-	    $stream->printf("\\begin{tabularx}{0.50\\columnwidth}[t]{|r|X|} \\hline \n");
-	    $stream->printf("\\textbf{Rk} & \\hfil \\textbf{%s} \\hfil \\\\ \\hline\n", ucfirst($t));
+	    $stream->printf("\\begin{ranktblr}{colspec={rX}} \n");
+	    $stream->printf("\\textbf{Rk} & \\hfil \\textbf{%s} \\hfil \\\\ \n", ucfirst($t));
 	    
 	    for my $s (@list)
 	    {
@@ -1058,11 +1092,11 @@ sub TeX_Character {
 		$t =~ s/\&amp;/\\& /;
 		$stream->print($t);
 	    }
-	    $stream->printf("\\hline\n");
-	    $stream->printf("\\end{tabularx}\n");
+	    $stream->printf("\\end{ranktblr}\n\n");
 	}
     }
-    $stream->printf("\\end{tabular}\n");
+    $stream->printf("\\end{multicols}\n\n");
+#    $stream->printf("\\end{tabular}\n");
 		     
 # --------------------
 # Reset normal font back to serif
@@ -1444,7 +1478,7 @@ sub Main {
     my $parser_dispatch = {
 	json => \&JSON_File,
 	yaml => \&YAML_File,
-	xml => \&XML_Fuile,
+	xml => \&XML_File,
     };
     
     if (!exists($parser_dispatch->{$opts->{parser}}))

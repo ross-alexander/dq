@@ -3,13 +3,21 @@
 %
 % 0.1  11-Nov-2003  Ross Alexander
 
-\ifx\pdfpageheight\@undefined
-   \RequirePackage[dvips]{graphicx}
-\else
-  \RequirePackage[pdftex]{graphicx}
-\fi
-\RequirePackage[T1]{fontenc}
+\RequirePackage{ifpdf}
+\RequirePackage{ifxetex}
+\RequirePackage{ifluatex}
+\RequirePackage{graphicx}
 
+
+%% \ifx\pdfpageheight\@undefined
+%%    \RequirePackage[dvips]{graphicx}
+%% \else
+%%   \RequirePackage[pdftex]{graphicx}
+%% \fi
+\ifpdf
+  \RequirePackage[T1]{fontenc}
+\fi
+  
 \setlength{\parskip}{2mm}
 \setlength{\parindent}{0mm}
 \oddsidemargin -10mm
