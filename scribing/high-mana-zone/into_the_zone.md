@@ -424,23 +424,20 @@ Seagate.
 We arrive at the Guild and the party spends the day getting curses
 removed. The loot list up to this point is the following.
 
-::: center
-  -------------------------------------- --------
-  **Items**                                **SP**
-  Short sword                                 800
-  Greate Clan Battle Axes (1,570 each)      4,710
-  Vengence Battle Axes                      2,000
-  Plate Mail Armour                         3,200
-  Chain Mail Armour                         4,400
-  Ring of the Flame                         1,000
-  Gold coins                                8,316
-  Silver coins                                 77
-  General equipment                         1,790
-  Map                                         500
-  Three normal rings                           20
-  Silver and copper secured Tome            1,400
-  -------------------------------------- --------
-:::
+|  **Items**                              |   **SP** |
+|  -------------------------------------- | -------- |
+|  Short sword                            |      800 |
+|  Greate Clan Battle Axes (1,570 each)   |    4,710 |
+|  Vengence Battle Axes                   |    2,000 |
+|  Plate Mail Armour                      |    3,200 |
+|  Chain Mail Armour                      |    4,400 |
+|  Ring of the Flame                      |    1,000 |
+|  Gold coins                             |    8,316 |
+|  Silver coins                           |       77 |
+|  General equipment                      |    1,790 |
+|  Map                                    |      500 |
+|  Three normal rings                     |       20 |
+|  Silver and copper secured Tome         |    1,400 |
 
 ## July 16 1994 AP
 
