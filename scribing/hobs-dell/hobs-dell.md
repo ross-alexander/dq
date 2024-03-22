@@ -5,7 +5,7 @@ date: November 11, 1994 AP
 ---
 
 > A group of Guild Adventurers spend the evening of November 11, 1994
-> AP rescuing an other party from a white and its minions at Hob's
+> AP rescuing an other party from a wight and its minions at Hob's
 > Dell.
 
 
