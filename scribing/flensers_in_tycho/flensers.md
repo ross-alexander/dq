@@ -183,30 +183,24 @@ Time
 : (3 sessions ≈3hrs)
 
 
-# Experience estimate
+## Experience estimate
 
-## Costs
-
-|                            |          |
+| Costs                      |          |
 | -------------------------  |  ------- |
 | accommodation              |  175sp   |
 | Total Costs                |          |
 
-## Goods and Loot Received
 
--------------------------    -------
-Payment                      80,000
-No DA goo                    ???
-Total Goods Received
--------------------------    -------
+| Goods and Loot Received    |          |
+| -------------------------  |  ------- |
+| Payment                    |  80,000  |
+| No DA goo                  |  ???     |
+| Total Goods Received       |          |
 
-
-## Totals
-
--------------------------    -------
-Costs                        175
-Goods Received               80,000
-Guild Tax (10%)
-Total
-Total per person
--------------------------    -------
+| Totals                    |         |
+| ------------------------- | ------- |
+| Costs                     |  175    |
+| Goods Received            |  80,000 |
+| Guild Tax (10%)           |         |
+| Total                     |         |
+| Total per person          |         |
