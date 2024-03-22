@@ -160,8 +160,10 @@ Receive full payment (80,000) We return to the guild. Provide for Cerawak and hi
 
 Start
 : 01/03/906
+
 Finish
 : 08/03/906
+
 Time
 : 8 days
 
@@ -170,10 +172,13 @@ Time
 
 Start
 : Saturday 05/03/06 11am
+
 Finish
 : Saturday 05/03/06 10.30 pm with breaks for lunch and dinner
+
 Game level
 : Medium
+
 Time
 :(3 sessions ≈3hrs)
 
