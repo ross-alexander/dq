@@ -511,20 +511,17 @@ cliff edge. That night attack by vultures and I get badly injured. Then
 attacked by a necro but "rescued" by the harpies. They have Mordrin's
 sword. They force us the cut of Scab's hand.
 
-::: center
-  --------------------------------------
-  **Items**
-  Amulet of Elderflowers
-  Amulet of luck
-  Amulet of Diamonds
-  Four Hellfire rings from the harpies
-  Two sets of chainmail
-  One set of leather armour
-  Two battle axes
-  Two kite shields
-  Six rings from various bodies
-  --------------------------------------
-:::
+|  **Items** |
+|  -------------------------------------- |
+|  Amulet of Elderflowers |
+|  Amulet of luck |
+|  Amulet of Diamonds |
+|  Four Hellfire rings from the harpies |
+|  Two sets of chainmail |
+|  One set of leather armour |
+|  Two battle axes |
+|  Two kite shields |
+|  Six rings from various bodies |
 
 We spent the remainder of the night sheltered in a nearby cave, which
 was otherwise unoccupied.
