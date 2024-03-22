@@ -157,15 +157,17 @@ equipment was found, also "fluxes", an illegal drug that is the pure distilled e
 Receive full payment (80,000) We return to the guild. Provide for Cerawak and his people.
 
 # Game time:
+
 Start
-:01/03/906
+: 01/03/906
 Finish
-:08/03/906
+: 08/03/906
 Time
-:8 days
+: 8 days
 
 
 # Playing time:
+
 Start
 : Saturday 05/03/06 11am
 Finish
