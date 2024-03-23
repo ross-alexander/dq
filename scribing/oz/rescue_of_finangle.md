@@ -102,15 +102,15 @@ while.  Help is suppose to be available Wobblebug College, which is
 south of the Emerald City.  The person there is Professor H M
 Wobblebug TE.
 
-![](agreement.pdf "A copy of the Guild agreement")
+![](agreement.jpg "A copy of the Guild agreement")
 
 # Maps
 
-![](map-1.pdf "Map of the Land of Oz")
+![](map-1.jpg "Map of the Land of Oz")
 
 ## Map of the Lands surrouding Oz
 
-![](map-2.pdf "Map of the lands surrounding Oz")
+![](map-2.jpg "Map of the lands surrounding Oz")
 
 # Diary of events
 
