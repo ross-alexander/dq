@@ -1,0 +1,176 @@
+games:
+  - name: Academic Pursuits
+    start_date: January 6, 1995 AP
+    end_date: January 17, 1995 AP
+    scribe_notes: tuscana/academic_pursuits.md
+
+  - name: A Country Fear
+    start_date: 1/3/1996 AP
+    end_start: 6/2/1996 AP
+    
+  - name: Adventures on Aquerius (Part I)
+    start_date: 15/5/799 WK
+    end_date: 25/8/799 WK
+    ep_doc: aquarius/visit-1.pdf
+    characters:
+      - name: Vapour
+        ep: 9000
+      - name: ty
+        ep: 9000
+      - name: Tulip
+        ep: 9000
+      - name: Scab
+        ep: 9000
+
+  - name: Foul Play in Forest Mill
+    start_date: 13/11/799 WK
+    end_date: 26/11/799 WK
+    scribe_notes: forest-mill/foul_play_in_forest_mill.md
+    characters:
+      - name: Ty
+        ep: 13700
+      - name: Tulip
+        ep: 12800
+
+  - name: Adventures on Aquerius (Part II) - Sun Sword I
+    start_date: 5/5/800 WK
+    end_date: 12/6/800 WK
+    gm_notes: aquarius/visit-2.pdf
+    scribe_notes: aquarius/sunsword_i.md
+    characters:
+      - name: Ty
+        ep: 3500
+      - name: Tulip
+        ep: 3500
+      - name: Christopher
+        ep: 3500
+
+  - name: Goblins in Distress!
+    start_date: 17 Harvest 800 WK
+    end_date: 5 Vintage 800 WK
+    characters:
+      - name: Uzi
+        ep: 3500
+      - name: Belladona
+        ep: 3150
+      - name: Jose
+        ep: 3200
+
+  - name: Adventures on Aquerius (Part III) - A Switch in Time
+    start_date: 1/1/801 WK
+    end_date: 1/1/801 WK
+    scribe_notes: aquarius/stitch_in_time.md
+    gm_notes: aquarius/visit-3.pdf
+    characters:
+      - name: Turf
+        ep: 2500
+      - name: Tulip
+        ep: 3000
+      - name: Ty
+        ep: 2500
+      - name: Vapour
+        ep: 2500
+
+  - name: Adventures on Aquerius (Part IV) - Navilis Ho
+    start_date: 3/3/802 WK
+    end_date: 16/3/802 WK
+    gm_notes: aquarius/visit-4.pdf
+    characters:
+      - name: Sebastian
+        ep: 6000
+      - name: Tulip
+        ep: 6000
+      - name: Ty
+        ep: 6000
+
+  - name: Lost of Eyrth
+    start_date: 22/2/803 WK
+    end_date: 30/03/803 WK
+    scribe_notes: eyrth/lost-on-euyrf.md
+    characters:
+      - name: Uzi
+        ep: 11100
+      - name: Sabastian
+        ep: 11100
+      - name: Tulip
+        ep: 10100
+
+  - name: Delivery from Mordeaux
+    start_date: 22/4/803 WK
+    end_date: 5/5/803 WK
+    scribe_notes: morleaux/delivery_from_mordeaux.md
+    characters:
+      - name: Belladona
+        ep: 6500
+      - name: Uzi
+        ep: 6000
+      - name: Kel
+        ep: 6000
+
+  - name: Adventures on Aquerius (Part V) - The rescue of Buzz
+    start_date: 1/10/803 WK
+    end_date: 27/10/803 WK
+    scribe_notes: aquarius/rescue_of_buzz.md
+    characters:
+      - name: Ty
+        ep: 5405
+      - name: Tulip
+        ep: 5900
+      - name: Kel
+        ep: 2900
+      - name: Everan
+        ep: 4500
+
+ - name: Five Woks of Fury (Wok of Clay)
+   start_date: 1/11/803
+   end_date: 24/10/803
+   scribe_notes: fivewoks-clay/fivewoks-clay.pdf
+   characters:
+     - name: Ty
+       ep: 16000
+    - name: Turf
+      ep: 16000
+    - name: Belladonna
+      ep: 16000
+    - name: Everan
+      ep: 16000
+  loot:
+    - name: Airwalk of Hippyness
+      pc: Turf
+    - name: Backflip of Polical Expendency
+      pc: Belladonna
+    - name: Stance of the Mountain
+      pc: Ty
+    - name: Nimbleness of Yes-Way
+      pc: Everan
+
+ - name: The Hunting of the Omnicognitron
+   start_date: 01/04/805 WK
+   end_date: 05/04/805 WK
+   characters:
+     - name: Sabrina
+       ep: 16000
+    - name: Tulip
+       ep: 16000
+    - name: Blitzkrieg
+       ep: 16000
+    - name: Ty
+       ep: 16000
+    - name: Turf
+       ep: 16000
+    - name: Ular Rah Shan
+       ep: 16000
+
+ - name: A Plague Upon Thee (Part 1)
+   start_date: 1/10/805 WK
+   end_date: 21/10/805 WK
+   scribe_notes: tuscana/plague_upon_thee_i.md
+
+ - name: A Plague Upon Thee (Part 2)
+   start_date: 1/11/805 WK
+   end_date: 1/11/805 WK
+   scribe_notes: tuscana/plague_upon_thee_ii.md
+
+  - name: Barbarian Bash
+    notes: tuscana/barbarian_bash.md
+    date: May 807 WK

@@ -1,0 +1,43 @@
+div.game {
+  border: 1pt solid blue;
+  background-color: #F0F0F0;
+}
+
+div.game + div.game {
+  margin-top: 10pt;
+}
+
+div.game h1 {
+  font-family: Helvetica;
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+table.pc {
+  margin: 10pt;
+  border: 1pt solid gray;
+  background: white;
+}
+
+table.pc td {
+  width: 30%;
+}
+
+table.pc td.r {
+  text-align: right;
+}
+
+table.games {
+    padding: 10pt;
+    margin: 10pt;
+    border-collapse: collapse;
+}
+
+table.games td {
+    border: 0.2mm solid blue;
+    padding-left: 2.0mm;
+    padding-right: 2.0mm;
+    padding-top: 0.3mm;
+    padding-bottom: 0.3mm;
+}

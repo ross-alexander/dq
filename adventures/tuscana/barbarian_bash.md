@@ -9,7 +9,6 @@ date: May 807 WK
 8/4/07 1000 - 2200
 19/5/07 1000 - 2030
 
-
 # Party
 
 | Member                | Description                      |
