@@ -23,14 +23,14 @@ to those under seige. 5000sp each to pick up and deliver package (nature
 undisclosed) and another 1000sp for material the proving the
 interference of outside parties.
 
-# Diary {#diary .unnumbered}
+# Diary
 
-## Date: 22/04/803 {#date-2204803 .unnumbered}
+## Date: 22/04/803
 
 Party is recruited, at night we fly along the coast and then inland up
 river. Stop for a rest and are attacked by local bandits.
 
-## Date: 23/04/803 {#date-2304803 .unnumbered}
+## Date: 23/04/803
 
 Fly on the next night but go in the wrong direction, return to starting
 point, but both Kel and Belladonna land badly, both with grevious
@@ -39,19 +39,19 @@ a goat. Figure out that Sir Ty (of Ormond) lives fairly close to here
 and could complete the healing. We and hire a cart to carry the injured
 and go to visit him.
 
-## Date: 24-29/04/803 {#date-24-2904803 .unnumbered}
+## Date: 24-29/04/803
 
 Travel to Ty's, get healed, borrow horses and Sir Ty provides an escort
 until the border with Mordeaux.
 
-## Date: 30/04/803 {#date-3004803 .unnumbered}
+## Date: 30/04/803
 
 Arrive at Thockmorton which is just before the border bridge, the inn is
 very unwelcoming and we move on. We avoid the bridge/boundary and its
 attendant guards and cross upstream. Make camp, Uzi falls asleep on
 watch.
 
-## Date: 1/05/803 {#date-105803 .unnumbered}
+## Date: 1/05/803
 
 Reconnoitre, watching sweeping patrols and work out layout of siege. Kel
 calls and binds a pack of wolves. Check out the village. Michaeline
@@ -59,7 +59,7 @@ knights are presant in some numbers. Sneak up to gates of the Baronial
 house, declare ourselves and are informed the package is the preserved
 body of the Baron, ie large and heavy.
 
-## Date: 2/05/803 {#date-205803 .unnumbered}
+## Date: 2/05/803
 
 Sneak out in early hours with body. Patrol catches our trail, but we
 manage to create and cross a bridge which we dispel after us, and leave
@@ -70,7 +70,7 @@ try to cross at established ferry site. The villagers are suspicious and
 we don't think we will get through without a search, at which point the
 body would be rather incriminating. Stay the night in the local inn.
 
-## Date: 3/05/803 {#date-305803 .unnumbered}
+## Date: 3/05/803
 
 We decide to abandon the merchant disguise and hire a boy to take it
 back to Sir Ty. Uzi takes coffin out unseen in early morning. Kel and
@@ -79,12 +79,12 @@ surrounded by Michaeline troops. Kel buries coffin and we sneak out. We
 come back when the soldiers have gone, collect coffin and fly towards
 Kiel. Rest on a mountain top when wings run out.
 
-## Date: 4/05/803 {#date-405803 .unnumbered}
+## Date: 4/05/803
 
 Fly on to Kiel. Deliver item to a representative of Goodrich Fairwright
 McKellum. Stay in the inn for a night
 
-## Date: 5/05/803 {#date-505803 .unnumbered}
+## Date: 5/05/803
 
 Brief the Victorian man on our reconnaissance, he decides its not enough
 for the extra money and are given notes for 5000sp each for the basic
@@ -99,6 +99,7 @@ delivery, we then return to Seagate.
                  Belladona -- 6500
   Time Playing   4 sessions
   -------------- -------------------
+
 
   --------------------------- --------------------
   **Income**                    **Silver Pennies**
