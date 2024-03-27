@@ -82,14 +82,14 @@ sub GameProcess {
     my $start = $in->{"start_date"};
     if (!$start)
     {
-	print STDERR "<game> must have a <start-date>.\n";
+	printf(STDERR "<game '%s'> must have a <start-date>.\n", $name);
 	return undef;
     }
 
     my $end = $in->{"end_date"};
     if (!$end)
     {
-	print STDERR "<game> must have a <end-date>.\n";
+	printf(STDERR "<game '%s'> must have a <end-date>.\n", $name);
 	return undef;
     }
 
@@ -101,7 +101,15 @@ sub GameProcess {
     $game->{name} = $name;
     $game->{'start'} = new Tick($start);
     $game->{'end'} =  new Tick($end);
+
     
+    
+    if ($in->{scribe_notes} && (ref($in->{scribe_notes}) eq "HASH") && $in->{scribe_notes}->{pdf})
+    {
+	my $pdf = $in->{scribe_notes}->{pdf};
+	say $pdf;
+	$game->{scribe_notes_pdf} = $pdf if (-f $pdf);
+    }
 
     my $div = $game->{'html'} = $out->createElement("div");
     $div->setAttribute("class", "game");
@@ -216,9 +224,14 @@ sub Main {
 	my $td_name = $tr->appendTextChild("td", $_->{name});
 	my $td_start = $tr->appendTextChild("td", $_->{start}->CDate());
 	my $td_end = $tr->appendTextChild("td", $_->{end}->CDate());
-	
-	
-	$body->appendChild($_->{"html"});
+	my $td_pdf = $tr->addNewChild("", "td");
+	if ($_->{scribe_notes_pdf})
+	{
+	    my $a = $td_pdf->addNewChild("", "a");
+	    $a->appendText("Scribe Notes");
+	    $a->setAttribute("href", $_->{scribe_notes_pdf});
+	}
+#	$body->appendChild($_->{"html"});
     } sort {$a->{'start'}->tick() <=> $b->{'start'}->tick()} @games;
 
     $html_doc->toFile("games.htm", 1);
