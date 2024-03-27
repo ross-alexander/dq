@@ -6,7 +6,8 @@ date: 7/10/806 WK
 
 # Party
 
-Game Master :Ross Alexander  
+Game Master
+: Ross Alexander
 
 - [Ty Trident](Ty_Trident "wikilink") Party Leader
 - [Tulip](Tulip "wikilink") Party Scribe
