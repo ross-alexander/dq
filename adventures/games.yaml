@@ -363,3 +363,13 @@ games:
       - name: Sabastian
       - name: Vladimir
 
+  - name: Polite Enquiries
+    start_date: 1.12.821 WK
+    end_date: 17.4.822 WK
+    scribe_notes:
+      pdf: grave_mentor/polite_enquiries.pdf
+    characters:
+      - name: Marcus
+      - name: Mirage
+      - name: Remel
+        
