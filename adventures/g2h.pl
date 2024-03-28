@@ -14,53 +14,6 @@ use XML::LibXML;
 use YAML qw(LoadFile);
 use 5.34.0;
 
-sub EpochDiff {
-    my ($s, $e) = @_;
-    my $d = $e - $s + 1;
-    return sprintf("%d %s", $d, $d == 1 ? "day" : "days");
-}
-
-sub Date2Epoch {
-    my ($in) = @_;
-    my ($mday, $mon, $year) = split(m:/:, $in);
-    my $date = $year * 364;
-
-    $date += ($mon-1) * 30 + int(($mon-1) / 3) + $mday;
-    return $date;
-}
-
-sub Epoch2Date {
-    my ($epoch) = @_;
-
-    my $year = int($epoch / 364);
-    $epoch -= 364 * $year;
-    my $q = int($epoch / 91);
-    $epoch -= 91*$q;
-    my $mon = int(($epoch-2)/30);
-    $epoch -= $mon * 30;
-    my $mday = $epoch;
-
-    my $mmap = {
-	0 => 'Meadow',
-	1 => 'Heat',
-	2 => 'Breeze',
-	3 => 'Fruit',
-	4 => 'Harvest',
-	5 => 'Vintage',
-	6 => 'Frost',
-	7 => 'Snow',
-	8 => 'Ice',
-	9 => 'Thaw',
-	10 => 'Seedtime',
-	11 => 'Blossom' };
-
-    $mon = $q*3+$mon;
-    
-    return sprintf("%s %d, %d WK (%02d/%02d/%03d)",
-		   $mmap->{$mon}, $mday, $year,
-		   $mday, $mon+1, $year);
-}
-
 # ----------------------------------------------------------------------
 #
 # GameProcess
@@ -69,7 +22,7 @@ sub Epoch2Date {
 #
 # ----------------------------------------------------------------------
 
-sub GameProcess {
+sub game_check_valid {
     my ($in, $out) = @_;
 
     my $name = $in->{"name"};
@@ -108,16 +61,17 @@ sub GameProcess {
 	$game->{scribe_notes_pdf} = $pdf if (-f $pdf);
     }
 
-    my $div = $game->{'html'} = $out->createElement("div");
-    $div->setAttribute("class", "game");
-    $div->appendTextChild("h1", $name);
+    return $game;
+
 
 # --------------------
 # Create game details table
 # --------------------
 
-    return $game;
-    
+    my $div = $game->{'html'} = $out->createElement("div");
+    $div->setAttribute("class", "game");
+    $div->appendTextChild("h1", $name);
+
     my $t1 = $div->appendChild($out->createElement("table"));
     my $t1_r1 = $t1->appendChild($out->createElement("tr"));
     $t1_r1->appendTextChild("th", "Start Date:");
@@ -167,21 +121,14 @@ sub GameProcess {
 
 # ----------------------------------------------------------------------
 #
-# Main
+# html_table_create
 #
 # ----------------------------------------------------------------------
 
-sub Main {
-
-# --------------------
-# Define input and output docs
-# --------------------
+sub html_table_create {
+    my ($games) = @_;
 
     my $html_doc = XML::LibXML::Document->new("1.0", "utf8");
-    
-    my $yaml = LoadFile("games.yaml");
-    
-    print "HTML: <head>\n";
 
 # --------------------
 # Construct HTML headers and body container
@@ -194,6 +141,7 @@ sub Main {
 # Create head and children
 # --------------------
 
+    print "HTML: <head>\n";
     my $head = $html_root->appendChild($html_doc->createElement("head"));
     $head->appendTextChild("title", "Recent DQ Games");
     my $link = $head->appendChild($html_doc->createElement("link"));
@@ -202,13 +150,6 @@ sub Main {
     $link->setAttribute("href", "games.css");
 
     print "HTML: <body>\n";
-    my @games;
-
-    for my $game (@{$yaml->{games}})
-    {
-	my $ref = &GameProcess($game, $html_doc);
-	push(@games, $ref) if (defined $ref);
-    }
 
     my $body = $html_root->appendChild($html_doc->createElement("body"));
     my $table = $body->addNewChild("", "table");
@@ -231,10 +172,34 @@ sub Main {
 	}
 	printf("\n");
 #	$body->appendChild($_->{"html"});
-    } sort {$a->{'start'}->tick() <=> $b->{'start'}->tick()} @games;
+    } sort {$a->{'start'}->tick() <=> $b->{'start'}->tick()} @$games;
 
     print "HTML: </html>\n";
-    $html_doc->toFile("games.htm", 1);
+    $html_doc->toFile("games.html", 1);
+}
+    
+
+# ----------------------------------------------------------------------
+#
+# Main
+#
+# ----------------------------------------------------------------------
+
+sub Main {
+
+# --------------------
+# Define input and output docs
+# --------------------
+
+    
+    my $yaml = LoadFile("games.yaml");
+    my @games;
+    for my $game (@{$yaml->{games}})
+    {
+	my $ref = &game_check_valid($game);
+	push(@games, $ref) if (defined $ref);
+    }
+    html_table_create(\@games);
 }
 
 &Main();
