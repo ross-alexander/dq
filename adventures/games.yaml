@@ -322,6 +322,12 @@ games:
       - name: Arkham
       - name: Sabastian
 
+  - name: The Prodigal Sun
+    start_date: 1.4.808 WK
+    end_date: 1.4.808 WK
+    scribe_notes:
+      pdf: kanlaoise/prodigal_sun.pdf
+        
   - name: An Inside Job
     start_date: 8.8.810 WK
     end_date: 15.8.810 WK
@@ -338,4 +344,22 @@ games:
     characters:
       - name: Sabastian
       - name: Villa
+
+  - name: Kanlaoise Part Deux
+    start_date: 14.6.820 WK
+    end_date: 20.9.820 WK
+    scribe_notes:
+      pdf: kanlaoise/kanlaoise_part_deux.pdf
+    characters:
+      - name: Sabastian
+      - name: Villa
+
+  - name: Kanlaoise Soul Men
+    start_date: 1.4.821 WK
+    end_date: 14.4.821 WK
+    scribe_notes:
+      pdf: kanlaoise/kanlaoise_soul_men.pdf
+    characters:
+      - name: Sabastian
+      - name: Vladimir
 

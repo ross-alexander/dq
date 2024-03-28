@@ -101,21 +101,16 @@ sub GameProcess {
     $game->{name} = $name;
     $game->{'start'} = new Tick($start);
     $game->{'end'} =  new Tick($end);
-
-    
     
     if ($in->{scribe_notes} && (ref($in->{scribe_notes}) eq "HASH") && $in->{scribe_notes}->{pdf})
     {
 	my $pdf = $in->{scribe_notes}->{pdf};
-	say $pdf;
 	$game->{scribe_notes_pdf} = $pdf if (-f $pdf);
     }
 
     my $div = $game->{'html'} = $out->createElement("div");
     $div->setAttribute("class", "game");
     $div->appendTextChild("h1", $name);
-    
-    printf "Game: %s\n", $name;
 
 # --------------------
 # Create game details table
@@ -220,6 +215,8 @@ sub Main {
     $table->setAttribute("class", "games");
     
     map {
+	printf "Game: %s", $_->{name};
+
 	my $tr = $table->addNewChild("", "tr");
 	my $td_name = $tr->appendTextChild("td", $_->{name});
 	my $td_start = $tr->appendTextChild("td", $_->{start}->CDate());
@@ -230,12 +227,14 @@ sub Main {
 	    my $a = $td_pdf->addNewChild("", "a");
 	    $a->appendText("Scribe Notes");
 	    $a->setAttribute("href", $_->{scribe_notes_pdf});
+	    printf(" [%s]", $_->{scribe_notes_pdf});	    
 	}
+	printf("\n");
 #	$body->appendChild($_->{"html"});
     } sort {$a->{'start'}->tick() <=> $b->{'start'}->tick()} @games;
 
-    $html_doc->toFile("games.htm", 1);
-
     print "HTML: </html>\n";
+    $html_doc->toFile("games.htm", 1);
 }
+
 &Main();
