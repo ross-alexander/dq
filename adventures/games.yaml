@@ -76,6 +76,8 @@ games:
   - name: Goblins in Distress!
     start_date: 17 Harvest 800 WK
     end_date: 5 Vintage 800 WK
+    ep_notes:
+      pdf: forest_mill/goblins_in_distress_ep.pdf
     characters:
       - name: Uzi
         ep: 3500
@@ -89,6 +91,7 @@ games:
     end_date: 1/1/801 WK
     scribe_notes:
       md: aquarius/stitch_in_time.md
+      pdf: aquarius/stitch_in_time.pdf
     gm_notes:
       pdf: aquarius/visit-3.pdf
     characters:
@@ -104,7 +107,8 @@ games:
   - name: Adventures on Aquerius (Part IV) - Navilis Ho
     start_date: 3/3/802 WK
     end_date: 16/3/802 WK
-    gm_notes: aquarius/visit-4.pdf
+    gm_notes:
+      pdf: aquarius/visit-4.pdf
     characters:
       - name: Sebastian
         ep: 6000
@@ -113,10 +117,11 @@ games:
       - name: Ty
         ep: 6000
 
-  - name: Lost of Eyrth
+  - name: Lost on Eyrth
     start_date: 22/2/803 WK
     end_date: 30/03/803 WK
-    scribe_notes: eyrth/lost-on-euyrf.md
+    scribe_notes:
+      pdf: eyrth/lost_on_eyrth.pdf
     characters:
       - name: Uzi
         ep: 11100
@@ -128,7 +133,8 @@ games:
   - name: Delivery from Mordeaux
     start_date: 22/4/803 WK
     end_date: 5/5/803 WK
-    scribe_notes: morleaux/delivery_from_mordeaux.md
+    scribe_notes:
+      pdf: mordeaux/delivery_from_mordeaux.pdf
     characters:
       - name: Belladona
         ep: 6500
@@ -140,7 +146,8 @@ games:
   - name: Adventures on Aquerius (Part V) - The rescue of Buzz
     start_date: 1/10/803 WK
     end_date: 27/10/803 WK
-    scribe_notes: aquarius/rescue_of_buzz.md
+    scribe_notes:
+      pdf: aquarius/rescue_of_buzz.pdf
     characters:
       - name: Ty
         ep: 5405
@@ -154,7 +161,8 @@ games:
   - name: Five Woks of Fury (Wok of Clay)
     start_date: 1/11/803 WK
     end_date: 24/10/803 WK
-    scribe_notes: fivewoks-clay/fivewoks-clay.pdf
+    scribe_notes:
+      pdf: woks/fivewoks_clay.pdf
     characters:
       - name: Ty
         ep: 16000
@@ -177,6 +185,8 @@ games:
   - name: The Hunting of the Omnicognitron
     start_date: 01/04/805 WK
     end_date: 05/04/805 WK
+    scribe_notes:
+      pdf: endless_desert/hunting_the_omnicognitron.pdf
     characters:
       - name: Sabrina
         ep: 16000
@@ -194,17 +204,21 @@ games:
   - name: A Plague Upon Thee (Part 1)
     start_date: 1/10/805 WK
     end_date: 21/10/805 WK
-    scribe_notes: tuscana/plague_upon_thee_i.md
+    scribe_notes:
+      pdf: tuscana/plague_upon_thee_i.pdf
 
   - name: A Plague Upon Thee (Part 2)
     start_date: 1/11/805 WK
     end_date: 1/11/805 WK
-    scribe_notes: tuscana/plague_upon_thee_ii.md
+    scribe_notes:
+      pdf: tuscana/plague_upon_thee_ii.pdf
 
   - name: A Manor of Fate
     start_date: 5/6/806 WK
     end_date: 5/8/806 WK
-    scribe_notes: kanlaoise/manor_of_fate.md
+    scribe_notes:
+      md: kanlaoise/manor_of_fate.md
+      pdf: kanlaoise/manor_of_fate.pdf
     characters:
       - name: Ty
       - name: Tulip
@@ -226,7 +240,9 @@ games:
   - name: Barbarian Bash
     start_date: 8/4/807 WK
     end_date: 18/4/807 WK
-    scribe_notes: tuscana/barbarian_bash.md
+    scribe_notes:
+      md: tuscana/barbarian_bash.md
+      pdf: tuscana/barbarian_bash.pdf
 
   - name: Wok is going on? (Part 1)
     start_date: 1/7/807 WK
@@ -329,9 +345,11 @@ games:
       md: kanlaoise/coronation_invitations.md
       pdf: kanlaoise/coronation_invitations.pdf
 
-  - name: Missing Monarchs
+  - name: Missing Monkys
     start_date: 14.5.809 WK
     end_date: 24.5.809 WK
+    ep_notes:
+      pdf: kanlaoise/missing_monkys_ep.pdf
     characters:
       - name: Uzi
       - name: Belladona
@@ -347,6 +365,8 @@ games:
   - name: An Inside Job
     start_date: 8.8.810 WK
     end_date: 15.8.810 WK
+    ep_notes:
+      pdf: kanlaoise/inside_job.pdf
     characters:
       - name: Sabastian
       - name: Fizzgig
@@ -354,6 +374,8 @@ games:
   - name: Return to Kanlaoise
     start_date: 1.7.818 WK
     end_date: 30.10.818 WK
+    gm_notes:
+      pdf: kanlaoise/missing_monarchs.pdf
     scribe_notes:
       md: kanlaoise/return_to_kanlaoise.md
       pdf: kanlaoise/return_to_kanlaoise.pdf
