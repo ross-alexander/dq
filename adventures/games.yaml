@@ -5,15 +5,26 @@ games:
     scribe_notes:
       md: tuscana/academic_pursuits.md
       pdf: tuscana/academic_pursuits.pdf
-        
+    ep_notes:
+      pdf: tuscana/academic_pursuits_ep.pdf
+    item_notes:
+      pdf: tuscana/academic_pursuits_items.pdf
+
   - name: A Country Fear
     start_date: 1/3/1996 AP
     end_date: 6/2/1996 AP
+    ep_notes:
+      tex: tuscana/a_country_fear_ep.tex
+      pdf: tuscana/a_country_fear_ep.pdf
+    item_notes:
+      tex: tuscana/a_country_fear_items.tex
+      pdf: tuscana/a_country_fear_items.pdf
     
   - name: Adventures on Aquerius (Part I)
     start_date: 15/5/799 WK
     end_date: 25/8/799 WK
-    ep_doc: aquarius/visit-1.pdf
+    ep_notes:
+      pdf: aquarius/visit-1.pdf
     characters:
       - name: Vapour
         ep: 9000
@@ -28,8 +39,8 @@ games:
     start_date: 13/11/799 WK
     end_date: 26/11/799 WK
     scribe_notes:
-      md: forest-mill/foul_play_in_forest_mill.md
-      pdf: forest-mill/foul_play_in_forest_mill.pdf
+      md: forest_mill/foul_play_in_forest_mill.md
+      pdf: forest_mill/foul_play_in_forest_mill.pdf
     characters:
       - name: Ty
         ep: 13700
@@ -43,11 +54,14 @@ games:
       - name : Kan
       - name: Ebonhand
       - name: Rockbottom
+    ep_notes:
+      pdf: republica/piggies.pdf
     
   - name: Adventures on Aquerius (Part II) - Sun Sword I
     start_date: 5/5/800 WK
     end_date: 12/6/800 WK
-    gm_notes: aquarius/visit-2.pdf
+    ep_notes:
+      pdf: aquarius/visit-2.pdf
     scribe_notes:
       md: aquarius/sunsword_i.md
       pdf: aquarius/sunsword_i.pdf
@@ -73,8 +87,10 @@ games:
   - name: Adventures on Aquerius (Part III) - A Switch in Time
     start_date: 1/1/801 WK
     end_date: 1/1/801 WK
-    scribe_notes: aquarius/stitch_in_time.md
-    gm_notes: aquarius/visit-3.pdf
+    scribe_notes:
+      md: aquarius/stitch_in_time.md
+    gm_notes:
+      pdf: aquarius/visit-3.pdf
     characters:
       - name: Turf
         ep: 2500
