@@ -50,24 +50,17 @@ sub game_check_valid {
 # Create hash reference
 # --------------------
 
-    my $game = {};
-    $game->{name} = $name;
-    $game->{'start'} = new Tick($start);
-    $game->{'end'} =  new Tick($end);
-    
-    if ($in->{scribe_notes} && (ref($in->{scribe_notes}) eq "HASH") && $in->{scribe_notes}->{pdf})
-    {
-	my $pdf = $in->{scribe_notes}->{pdf};
-	$game->{scribe_notes_pdf} = $pdf if (-f $pdf);
-    }
+    $in->{'start_tick'} = new Tick($start);
+    $in->{'end_tick'} =  new Tick($end);
 
-    return $game;
-
+    $in->{'valid'} = 1;
+    return $in;
 
 # --------------------
 # Create game details table
 # --------------------
 
+    my $game = {};
     my $div = $game->{'html'} = $out->createElement("div");
     $div->setAttribute("class", "game");
     $div->appendTextChild("h1", $name);
@@ -141,7 +134,6 @@ sub html_table_create {
 # Create head and children
 # --------------------
 
-    print "HTML: <head>\n";
     my $head = $html_root->appendChild($html_doc->createElement("head"));
     $head->appendTextChild("title", "Recent DQ Games");
     my $link = $head->appendChild($html_doc->createElement("link"));
@@ -149,32 +141,52 @@ sub html_table_create {
     $link->setAttribute("type", "text/css");
     $link->setAttribute("href", "games.css");
 
-    print "HTML: <body>\n";
-
     my $body = $html_root->appendChild($html_doc->createElement("body"));
     my $table = $body->addNewChild("", "table");
     $table->setAttribute("class", "games");
     
+    my $tr_h1 = $table->addNewChild("", "tr");
+    $tr_h1->appendTextChild("th", "Game");
+    $tr_h1->appendTextChild("th", "Start");
+    $tr_h1->appendTextChild("th", "Finish");
+    $tr_h1->appendTextChild("th", "Scribe Notes");
+    $tr_h1->appendTextChild("th", "EP");
+    $tr_h1->appendTextChild("th", "Items");
+    $tr_h1->appendTextChild("th", "GM Notes");
+        
     map {
 	printf "Game: %s", $_->{name};
 
 	my $tr = $table->addNewChild("", "tr");
 	my $td_name = $tr->appendTextChild("td", $_->{name});
-	my $td_start = $tr->appendTextChild("td", $_->{start}->CDate());
-	my $td_end = $tr->appendTextChild("td", $_->{end}->CDate());
-	my $td_pdf = $tr->addNewChild("", "td");
-	if ($_->{scribe_notes_pdf})
+	my $td_start = $tr->appendTextChild("td", $_->{start_tick}->CDate());
+	my $td_end = $tr->appendTextChild("td", $_->{end_tick}->CDate());
+
+	for my $t ("scribe_notes", "ep_notes", "item_notes", "gm_notes")
 	{
-	    my $a = $td_pdf->addNewChild("", "a");
-	    $a->appendText("Scribe Notes");
-	    $a->setAttribute("href", $_->{scribe_notes_pdf});
-	    printf(" [%s]", $_->{scribe_notes_pdf});	    
+	    my $td = $tr->addNewChild("", "td");
+	    my $break = 0;
+	    for my $f ("md", "tex", "pdf")
+	    {
+		if (exists($_->{$t}) && (ref($_->{$t}) eq "HASH") && exists($_->{$t}->{$f}))
+		{
+		    my $path = $_->{$t}->{$f};
+		    if (-f $path)
+		    {
+			$td->appendText(" | ") if ($break);
+			my $a = $td->addNewChild("", "a");
+			$a->appendText(uc($f));
+			$a->setAttribute("href", $path);
+			$break = 1;
+			printf(" [%s]", $path);
+		    }
+		}
+	    }
 	}
 	printf("\n");
 #	$body->appendChild($_->{"html"});
-    } sort {$a->{'start'}->tick() <=> $b->{'start'}->tick()} @$games;
+    } sort {$a->{'start_tick'}->tick() <=> $b->{'start_tick'}->tick()} @$games;
 
-    print "HTML: </html>\n";
     $html_doc->toFile("games.html", 1);
 }
     
