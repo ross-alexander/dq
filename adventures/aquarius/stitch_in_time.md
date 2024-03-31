@@ -6,7 +6,7 @@ date: 1/1/801 WK
 
 # Party
 
----------------- ------------------------------
+  ---------------- ------------------------------
   Game Master:     Ross Alexander
   Party Leader:    Turf (Terry Spencer)
   Party Scribe:    Tulip and Buzz (Tricia Hunt)

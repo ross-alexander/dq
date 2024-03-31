@@ -180,6 +180,10 @@ sub html_table_create {
 			$break = 1;
 			printf(" [%s]", $path);
 		    }
+		    else
+		    {
+			printf(" [! %s]", $path);
+		    }
 		}
 	    }
 	}

@@ -402,12 +402,35 @@ games:
       - name: Vladimir
 
   - name: Polite Enquiries
-    start_date: 1.12.821 WK
-    end_date: 17.4.822 WK
+    start_date: 1.7.821 WK
+    end_date: 16.8.822 WK
     scribe_notes:
       pdf: grave_mentor/polite_enquiries.pdf
     characters:
       - name: Marcus
       - name: Mirage
       - name: Remel
+        
+  - name: Grave Reckonings
+    start_date: 1.12.821 WK
+    end_date: 17.4.822 WK
+    ep_notes:
+      pdf: grave_mentor/prequal.pdf
+    characters:
+      - name: Kel
+      - name: Mirage
+        
+  - name: Utopia I: Reptile House
+    start_date: Candlemansa, 823 WK
+    end_date: 10.11.823 WK
+    scribe_notes: 
+      pdf: utopia/utopia-i_notes.pdf
+    ep_notes: 
+      pdf: utopia/utopia-i_ep.pdf
+    gm_notes: 
+      pdf: utopia/utopia-i_gm.pdf
+    characters:
+      - name: Turf
+      - name: Uzi
+      - name: Mayhem
         
