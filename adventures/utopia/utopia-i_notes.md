@@ -6,6 +6,12 @@ date: Winter 823 WK
 
 # Details
 
+Game Master
+: Ross Alexander
+
+Game Dates
+: 1.8.823 WK - 31.8.823 WK
+
 ## Party
 
 - Turf
