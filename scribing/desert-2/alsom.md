@@ -1,6 +1,10 @@
-# Second Desert Spring Quest
+---
+title: Second Desert Spring Quest
+author: Ishamael
+date: Summer 803 WK
+---
 
-## Party
+# Party
 
 Tulip
 :   Female elven druid and party leader.
@@ -11,38 +15,38 @@ Uzi Urksome
 Ishamael
 :   Human Dark Celestial and party scribe.
 
-## Diary
+# Diary
 
-### 1/01/803 WK
+## 1/01/803 WK
 
 I run into Alsom, a well known alchemist of Seagate, who ask if I can
 get together a small party to collect a flower from a desert oasis.
 
-### 2/01/803 WK
+## 2/01/803 WK
 
 Meet Alsom in the morning and sort out paper work at the Guild before
 leaving for Bale on Alsom\'s magic carpet.
 
-### 3/1/803 WK
+## 3/1/803 WK
 
 Arrival in Bale. Hired camels for 6sp / day. Head off the Elbar Oasis in
 the afternoon. That evening attacked by plant golem but defeat it.
 
-### 8/1/803 WK
+## 8/1/803 WK
 
 Meet Beloc at oasis and escorted to Malac.
 
-### 21/1/803 WK
+## 21/1/803 WK
 
 Reach Malac\'s tribe, the Kaltap, and talk to the chief, Malac\'s
 brother. The chief is a bit of an old windbag. Told that the well found
 by a previous party has dried up and we are asked to find out why.
 
-### 3/2/803 WK
+## 3/2/803 WK
 
 Reach well in the evening.
 
-### 4/2/803 WK
+## 4/2/803 WK
 
 Go down well. Find at bottom there is a small crawlway with runs about
 20 feet to a corridor. The corridor is about 10 feet to a door and then
@@ -59,29 +63,29 @@ gate to somewhere else in the desert. The room had an additional exit to
 the surface but the actual exit was hidden within a dune. We locate the
 doorway but do not uncover it.
 
-### 12/02/803 WK
+## 12/02/803 WK
 
 We return back to the camp. Malac tells us the chief was said we cannot
 go to the oasis as that time and reminds us that a previous party had
 already got the same flower from the oasis previously.
 
-### 21/2/803 WK
+## 21/2/803 WK
 
 I loose Uzi and Tulip in desert storm. After waiting for three days I
 travel with our guild back to Bale.
 
-### 29/2/803 WK
+## 29/2/803 WK
 
 Travel back to Alusia after night sky said they were no longer on the
 desert plane.
 
-## EP & Loot
+# EP & Loot
 
-### XP
+## XP
 
 About 6000xp each.
 
-### From the chest in the feather room
+## From the chest in the feather room
 
 1.  Healing potion: heals 4d10 damage.
 2.  Armor of earth potion: rank 20 effect.
