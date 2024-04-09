@@ -5,14 +5,16 @@
 %% Leslie Lamport. 
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{dq}[2014/11/07 v0.4 DQ style file]
+
+\ProvidesPackage{dq}[2024/04/09 v1.0 DQ style file]
 
 % \RequirePackage{fixltx2e}
-\RequirePackage{ifpdf}
-\RequirePackage{fontspec}
-\RequirePackage{ifthen}
 % \RequirePackage[TU]{fontenc}
 %% \RequirePackage{mathptmx}
+
+\RequirePackage{ifthen}
+\RequirePackage{ifpdf}
+\RequirePackage{ifxetex}
 \RequirePackage{multicol}
 \RequirePackage{tabularx}
 \RequirePackage{array}
@@ -21,14 +23,23 @@
 \RequirePackage{float}
 \RequirePackage{geometry}
 
-%% \typeout{DQ Rules style sheet, version 0.4 <7 Nov 2014>}
+\ifxetex
+  \RequirePackage{fontspec}
+\fi
+
+\typeout{DQ Rules style sheet, version 1.0 <9 Apr 2024>}
 
 %% \RequirePackage{libertine}
 
 \DeclareOption{libertine}{
+
+  \typeout{Using libertine fonts}
+
+%  \setmainfont{Linux Libertine O}[Scale=0.8,Ligatures=TeX]
+%  \setsansfont{Linux Biolinum O}[Scale=0.7,Color=red,Ligatures=TeX]
+  
   \newfontfamily\fslibertine[NFSSFamily=libertine]{Linux Libertine O}
   \newfontfamily\fsbiolinum[NFSSFamily=biolinum]{Linux Biolinum O}
-
   \renewcommand{\rmdefault}{libertine}
   \renewcommand{\sfdefault}{biolinum}
 
@@ -67,13 +78,13 @@
 \ProcessOptions
 
 
-  \renewcommand{\scriptsize}{\fontfamily{\rmdefault}\fontsize{6}{7pt}\selectfont}
-  \renewcommand{\small}{\fontfamily{\rmdefault}\fontsize{7}{8pt}\selectfont}
-  \renewcommand{\normalsize}{\fontfamily{\rmdefault}\fontsize{8}{9.5pt}\selectfont}
-  \renewcommand{\large}{\fontfamily{\sfdefault}\fontsize{10}{11pt}\selectfont}
-  \renewcommand{\Large}{\fontfamily{\sfdefault}\fontsize{14}{15pt}\selectfont}
-  \renewcommand{\huge}{\fontfamily{\sfdefault}\fontsize{18}{20pt}\selectfont}
-  \renewcommand{\Huge}{\fontfamily{\rmdefault}\fontsize{24}{24pt}\selectfont}
+\renewcommand{\scriptsize}{\fontfamily{\rmdefault}\fontsize{6}{7pt}\selectfont}
+\renewcommand{\small}{\fontfamily{\rmdefault}\fontsize{7}{8pt}\selectfont}
+\renewcommand{\normalsize}{\fontfamily{\rmdefault}\fontsize{8}{9.5pt}\selectfont}
+\renewcommand{\large}{\fontfamily{\sfdefault}\fontsize{10}{11pt}\selectfont}
+\renewcommand{\Large}{\fontfamily{\sfdefault}\fontsize{14}{15pt}\selectfont}
+\renewcommand{\huge}{\fontfamily{\sfdefault}\fontsize{18}{20pt}\selectfont}
+\renewcommand{\Huge}{\fontfamily{\rmdefault}\fontsize{24}{24pt}\selectfont}
 
 %% %%% GLOBAL LAYOUT THINGS
 
@@ -236,15 +247,19 @@
 \newenvironment{Enumerate}[0]{\begin{enumerate}\setlength\itemsep{0pt}}{\end{enumerate}}
 \newenvironment{Description}[0]{\setlength\leftmargini{0pt}\begin{description}\setlength\itemsep{0pt}}{\end{description}}
 
-\ifpdf
-  \typeout{Using PDF driver}
-  \renewcommand{\rmdefault}{ptm}
-  \renewcommand{\sfdefault}{phv}
-  \renewcommand{\ttdefault}{pcr}
+\ifxetex
+  \typeout{Using XeTeX}
 \else
-   \typeout{Using DVI driver}
+  \ifpdf
+    \typeout{Using PDF driver}
+    \renewcommand{\rmdefault}{ptm}
+    \renewcommand{\sfdefault}{phv}
+    \renewcommand{\ttdefault}{pcr}
+  \else
+     \typeout{Using DVI driver}
+  \fi
 \fi
-
+  
 \renewcommand{\thisday}{\fontsize{8}{9pt}\selectfont{\MakeUppercase{\today}}}
 \lhead[\fancyplain{}{\fontsize{8}{9pt}\selectfont\rightmark}]{\fancyplain{}{\thisday}}
 \rhead[\fancyplain{}{\thisday}]{\fancyplain{}{\fontsize{8}{9pt}\selectfont\rightmark}}
