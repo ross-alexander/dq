@@ -21,7 +21,7 @@
 \RequirePackage{fancyhdr}
 \RequirePackage{textcomp}
 \RequirePackage{float}
-\RequirePackage{geometry}
+\RequirePackage[margin=15mm]{geometry}
 
 \ifxetex
   \RequirePackage{fontspec}
@@ -55,8 +55,8 @@
 \DeclareOption{gyre}
 {
   \typeout{Using TeX Gyre fonts}
-  \setmainfont{TeX Gyre Pagella}[Scale=0.75,Ligatures=TeX]
-  \setsansfont{TeX Gyre Adventor}[Scale=0.7,Color=red,Ligatures=TeX]
+  \setmainfont{TeX Gyre Pagella}[Scale=1.0,Ligatures=TeX]
+  \setsansfont{TeX Gyre Adventor}[Scale=1.0,Color=red,Ligatures=TeX]
 }
 
 \DeclareOption{times}{
@@ -95,10 +95,11 @@
 
 %% %%% GLOBAL LAYOUT THINGS
 
-\setlength\marginparwidth{0.0 in}
 \setlength\parindent{0.0 in}
+
+\setlength\marginparwidth{0.0 in}
 \setlength\topmargin{-0.75 in}
-\setlength\textheight{10.65 in}
+\setlength\textheight{10.0 in}
 
 %% %%% ONE-SIDED/TWO-SIDED DEPENDENCIES
 
