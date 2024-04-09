@@ -1,0 +1,1224 @@
+\chapter{Combat (Version 1.1)}
+\label{combat}
+
+\begin{multicols*}{3}
+
+Individual Combat is an inevitable and sometimes necessary occurrence,
+and characters should be aware of its dangers. Fighting is a deadly
+process and should be avoided if at all possible. Heroes are made by
+defeating the dragon, but more graves are dug than heroes made. The
+DragonQuest combat system reflects these dangers and emphasises skills
+and smarts over brawn and brutality.
+
+When combat has begun, the players should place the figures
+representing their characters on the Tactical Display, with the GM
+determining their final position. The hostile figures are placed by
+the GM, and the Combat Sequence begins.
+
+Combat time on the Tactical Display is divided into five second Pulses
+during which all figures may attempt to take an action, depending on
+their position relative to hostile figures. The order in which these
+actions take place is determined by the figures' engaged or unengaged
+Initiative values. Attacks are resolved by comparing the attacker's
+Modified Strike Chance with a percentile roll. A successful hit does
+D10 damage, plus any bonus for weapon type and skill.
+
+When all figures on the Tactical Display are dead, unconscious,
+incapacitated, or friendly to each other, the combat is
+finished. Combat should never last longer than necessary to resolve
+the situation; returning to normal interactive role-playing will speed
+overall play.
+
+\subsection{Definitions}
+
+\begin{Description}
+\item[Action] The movement and combat activity a figure may attempt during
+one pulse.
+
+\item[Attacker] The figure performing the Action currently being resolved.
+
+\item[Attack Zone] Any hex into which a figure may attack in Melee or at
+Range.
+
+\item[Base Chance] The base percentage chance of hitting with a weapon, as
+listed in the Weapon Chart (\S\ref{tables:weapons}).
+
+\item[Blocked Hex] A hex which contains enough solid material to block any
+attack. A Blocked Hex is never part of an Attack Zone.
+
+\item[in Close] A figure in the same hex as a hostile figure is in Close
+with the opponent.
+
+\item[Damage Check] A roll on a D10 to determine the amount of damage
+done after a successful hit. This roll is modified by the weapon, the
+Rank or Physical Strength of the wielder, circumstances and magic.
+
+\item[Damage Points] The number of points of damage done as a result of a
+damage check.
+
+\item[Defence] The amount that a target may subtract from an Attacker's
+Strike Chance, determined by Modified Agility, a shield, magic and
+conditions.
+
+\item[Effective Damage] Any Damage Points (to either Fatigue or Endurance)
+that are actually inflicted on the figure hit after allowing for
+absorption due to armour or magic.
+
+\item[Engaged] A figure who is in the Melee Zone of an opponent, or is in
+Close, is engaged.
+
+\item[Engagement] A group of adjacent figures, all of who are engaged with
+each other.
+
+\item[Facing] A figure must be unambiguously oriented towards one hex
+side. This determines their Front and Rear Hexes, and Attack
+Zone. They may change facing during any Action unless specifically
+prohibited.
+
+\item[Figure] Any entity or combatant occupying the Tactical Display.
+
+\item[Grapple] An attack in Close Combat.
+
+\item[Grievous Injury] An injury that results in specific damage to a body
+part.
+
+\item[Hex] A 5 foot diameter hexagonal area, with sufficient room for a figure
+to fight in Melee.
+
+\item[Initiative] Initiative determines the order of individual
+actions within an Engagement.
+
+\item[Line of Fire] A straight line drawn from the centre of an Attacker's
+hex to a target's hex that is in the Attacker's Ranged Zone.
+
+\item[Melee Zone] The hexes into which a figure may make a melee
+strike.
+
+\item[Modified Agility] A figure's Agility after it has been modified
+due to weight carried (see \S \ref{tables:encumbrance}), armour worn (see
+\S \ref{tables:armour}) and circumstance.
+
+\item[Modified Manual Dexterity] A figure's Manual Dexterity after it
+has been modified due to the type of shield carried (see \S
+\ref{tables:shields}) and circumstance.
+
+\item[Modified Strike Chance] The percentile chance to successfully
+hit a target after the target's Defence and all Strike Chance
+Modifiers (see \S \ref{tables:modifiers}) have been taken into
+account.
+
+\item[Obscured Hex] A hex which a figure cannot see into, but through which
+objects may pass.
+
+\item[Pass Action] Any Action that does not directly affect another
+figure and is not otherwise covered by specific Actions.
+
+\item[Prepared Item] Any item (weapon, shield, flask, etc.) that a figure
+has in their hands and may immediately use.
+
+\item[Pulse] A five second period of game time that regulates Actions on the
+Tactical Display.
+
+\item[Ranged Zone] The hexes radiating out from a figure's front hexes into
+which that figure may see and fire a missile weapon.
+
+\item[Sheltered Hex] A hex which contains enough solid material for a target
+to shelter behind such that approximately half of their body is
+protected from any attack.
+
+\item[Strike] Any Action that attempts to hit a figure.
+
+\item[Strike Chance] The standard percentage chance of hitting with a
+weapon; it is a combination of Base Chance, Manual Dexterity, Rank and
+magic.
+
+\item[Strike Check] The percentile roll against an Attacker's Modified
+Strike Chance to see if a Strike was successful.
+
+\item[Stun] A figure who takes sufficient Effective Damage in a single blow
+is Stunned, and may not attempt to perform any acton except Recover
+from Stun (see \S\ref{combat:stun}).
+
+\item[Tactical Display] The area to which a combat is confined; assumed to
+be covered with a grid of hexes.
+
+\item[Tactical Movement Rate (TMR)] The maximum num\-ber of hexes that a
+figure may move in a single action, determined by Modified Agility and
+Race.
+
+\item[Target] The figure on the receiving end of any Attacker's action.
+
+\item[Unengaged] A figure who is not adjacent to an opponent, or who is not
+in an opponent's melee zone and chooses to be unengaged.
+
+\item[Weapon] Any item used to Strike a figure.
+
+\end{Description}
+
+\subsection{Preparation for Combat}
+
+\subsubsection{Paperwork}
+
+Character Sheets for all combatants should be prepared before the
+combat. These contain information that will be used continuously
+during combat, such as Strike Chances, Initiatives, Movement Rates,
+etc. A player is responsible for ensuring the completeness and
+accuracy of the information on their Character Sheet, while the GM
+should prepare this information for all NPCs in advance. Any damage or
+other losses in combat should be recorded as the combat
+proceeds. Percentile dice and copies of all charts and tables should
+be available for ready usage. Lead figures or counters for all
+combatants should also be available, as these add to the clarity and
+excitement of a combat.
+
+\subsubsection{Surprise}
+
+One side in a combat may gain a free pulse of activity if it surprises
+the other. If one side in a combat is unaware of either the
+opposition's intent or their location, they are surprised unless the
+figure with the highest effective Perception succeeds in making a
+Perception Check. This Perception check is modified by both Ranger
+Detect Ambush and the Sense Danger Talent.
+
+Prior to placing any figures on the Tactical Display, the GM should
+determine whether surprise exists. If one side is surprised, they
+should place their figures in a way that represents their lack of
+readiness. If no surprise exists, the players may place their figures
+as they choose, then the GM places the opposing figures, with the GM
+having the final say on all placements. As a guideline, if there is
+surprise, the distance between the two parties should not exceed 8
+hexes, while if there is no surprise, the distance should not be less
+than 8 hexes.
+
+If surprise exists, the party with the advantage may have a free pulse
+of activity without the surprised party being able to respond;
+otherwise, the normal Combat Sequence starts.
+
+\subsubsection{Fatigue}
+
+After placing all the figures on the Tactical Display the GM must
+assign any Fatigue losses the figures may have incurred as a result of
+their actions prior to combat. For player characters, this should have
+been recorded as they slept, rested, travelled, cast magic or
+attempted other fatiguing actions. For all NPCs, the GM should make a
+quick estimate relating all presumed activity they may have undertaken
+up to the start of combat.
+
+\subsection{Combat Sequence}
+
+The order in which all actions are attempted in a pulse is called the
+Combat Sequence. This sequence should be adhered to at all times as
+this will greatly speed play. Each pulse, events occur in the
+following order:
+
+\begin{Enumerate}
+\item Military Scientist time out may occur at this time.
+
+\item All figures act on their initial initiative.
+
+\item
+End of pulse activity occurs. This may include an additional
+housekeeping.
+
+\end{Enumerate}
+
+\subsubsection{Initiative}
+\label{combat:initiative}
+
+A figure's Initiative value is their modified Agility + Perception +
+their maximum weapon Rank + Warrior bonus + Military Scientist bonus
+(see \S\ref{skills:militaryscientist}).
+
+\subsubsection{Action Timing}
+
+When a figure chooses an Action, they are assumed to be performing
+that Action until they start a new action or are stunned. However, any
+Action which requires a dice roll to resolve is completed when that
+dice roll is made; the figure is assumed to be engaged in follow-up
+manoeuvres until their next action.  After successfully recovering
+from Stun, a figure is assumed to have just finished a Pass Action
+until their next Action, for all purposes, and any previously prepared
+shield or weapons are once again prepared.
+
+\subsubsection{GM Conventions}
+
+These are only conventions; the GM may modify these conventions to
+suit their own style.
+\begin{Description}
+\item[Announcements of Intent] When combat occurs on the Tactical
+Display, there should be no lapses of time between player
+announcements of character intentions and resolution of them. When it
+is a character's turn to take action, the player must announce within
+5 seconds what their character will do, or the character will take a
+Pass Action. The GM should restrict themselves to a similar guideline
+for their NPCs. A player may change the action they announced for
+their character to a Pass Action (only) up to five seconds after they
+announce it.
+
+\item[Discussions during Combat] If the players wish to discuss
+tactics amongst themselves, they must do so quietly while the GM is
+determining the result of a particular action. Anything said by one
+character to another during combat may be overheard. A Military
+Scientist character may allow a party a Time-out during which they
+will not be overheard.
+
+\item[Rule Clarification] Any player may, at the GM's discretion,
+suspend the passage of time by requesting a clarification of a
+relevant point by the GM. They may also appeal a decision made by the
+GM that they feel to be arbitrarily or improperly resolved. The player
+has as much time as the GM may grant. The GM may modify or reverse
+their decision, or stand behind it. The GM's word is always law.
+\end{Description}
+
+\subsection{Engaged Actions}
+\label{combat:engaged}
+
+Being engaged imposes certain limitations on the actions that a figure
+may attempt.  If an engaged figure is in Close Combat, their range of
+Actions is further restricted.  A figure may change face at will
+unless stunned and may move one hex at any time during their action
+(they still may not move more than their TMR except when their TMR is
+zero).
+
+\subsubsection{Melee Attack}
+
+An engaged figure may move one hex and change facing, and then attempt
+a Melee Attack.
+
+\subsubsection{Close \& Grapple}
+
+An engaged figure may attempt to Close \& Grapple. If the Attacker is
+within the Melee Zone of the target, they may try to Repulse the
+Attacker's attempt to Close by making a successful Strike
+roll. Multi-hex figures may not be Repulsed, but the defending figure
+may avoid the attack by succeeding in a 1 \x AG check.
+
+A successful Repulse means that the target has interposed their weapon
+between themselves and the Attacker, and the action has failed.  An
+attacker may ignore a successful repulse but will receive an specific
+grevious injury as a result.  If the Repulse is unsuccessful, the
+Attacker may go into Close and make a normal Grapple attack.
+
+\subsubsection{Evade}
+
+An engaged figure may move one hex and change facing while executing
+an Evade. If a Melee Attack is attempted on a figure who is Evading
+with a Ranked weapon, they may be able to Parry the attack. An Evading
+figure receives a bonus to Defence versus Melee and Ranged Attacks.
+
+\subsubsection{Offensive Withdraw}
+
+An engaged figure may make a Melee Attack with a -20 penalty to their
+Strike Chance. They may then move half their TMR and change facing.
+
+\subsubsection{Defensive Withdraw}
+
+An engaged figure may solely defend, increasing their defence by
+20. They may move up to half their TMR and change facing.
+
+\subsubsection{Flee}
+
+An engaged figure may do a full move but will attract an attack of
+oppotunity.
+
+\subsubsection{Cast}
+
+An engaged figure may change facing but not move while attempting to
+Cast a Spell.  Casting while engaged attracts an attack of oppotunity.
+
+\subsubsection{Throw}
+
+They may only Throw into their Ranged Zone where they have a Line of
+Fire.  They will attract an attack of oppotunity.
+
+\subsubsection{Recover from Stun}
+
+An engaged figure who is stunned may attempt to recover from Stun.
+They may not make any movement or change facing.
+
+\subsubsection{Pass equivilent action}
+
+A figure move one hex and execute a pass equivilent action.
+
+\subsubsection{Leaving Melee Combat}
+
+A figure engaged in Melee Combat may leave Melee Combat by stepping
+back one hex and will not attract an attack of oppotunity.
+
+\subsection{Close Combat Actions}
+\label{combat:close}
+
+All figures in Close Combat are treated as engaged.  Figures in Close
+Combat are treated as prone, and thus have no Melee Zone or facing.
+Weapons not rated for close combat cannot be over strengthed and have
+a -30 penalty to their Strike Chance.
+
+If an engaged figure is in Close Combat, their Action is limited to
+one of the following:
+
+\subsubsection{Grapple}
+
+A figure engaged in Close Combat may neither move nor change facing
+while attempting a Grapple. A Grapple is an attack with any
+close-rated weapon (including Unarmed).
+
+\subsubsection{Withdraw from Close}
+
+A figure may attempt to Withdraw from Close Combat. If they are
+successful, they may move one hex, but are still treated as prone. A
+figure may Withdraw from Close if a D10 roll plus any positive
+difference in total Physical Strength between the friendly and hostile
+figures in the hex is at least 10.
+
+\subsubsection{Pass}
+
+A figure engaged in Close Combat may neither move nor change facing
+while taking a Pass Action. They may not attempt a Magical Pass Action
+or Multi-Pulse Action. Some other Pass Actions will be impossible, as
+they are effectively prone.
+
+\subsubsection{Recover from Stun}
+
+A figure engaged in Close Combat who is stunned may attempt to recover
+from Stun as their Close Combat Action.
+
+\subsubsection{Leaving Close Combat}
+
+A figure engaged in Close Combat may leave Close Combat by (i)
+executing a Withdraw from Close; or (ii) by stunning or otherwise
+incapacitating all opponents who are in Close with the figure.
+
+\subsection{Unengaged Actions}
+\label{combat:unengaged}
+
+An unengaged figure is one that is not engaged.  Unless specified
+an unengaged may change facing when ever they want.
+
+\subsubsection{Move}
+
+An unengaged figure may move any number of hexes up to their
+TMR.
+
+\subsubsection{Step \& Melee Attack}
+
+An unengaged figure may move one hex and change facing, and then
+attempt a full Melee Attack.  They may move up to half TMR and do a
+standard Melee Attack.
+
+\subsubsection{Charge}
+
+An unengaged figure may move up to 1/2 TMR and attempt to Melee Attack
+with a non-pole weapon. At the end of the figure's movement, if there
+is a hostile figure in the Attacker's Melee Zone, they may make a
+Melee Attack with a -15 penalty to Strike Chance.
+
+\subsubsection{Charge with Pole Weapon or Shield}
+
+An unengaged figure may move up to TMR and attempt to Melee Attack
+with a pole weapon or Shield. At the end of the figure's movement, if
+there is a hostile figure in the Attacker's Melee Zone, they may make
+a Melee Attack with a +20 bonus to Strike Chance. The figure must move
+at least 2 hexes.  This action may not be attempted with a Tower
+Shield or a Main Gauche.
+
+\subsubsection{Charge \& Close}
+
+An unengaged figure may move up to 1/2 TMR and attempt to Close. If
+the figure passes through the Melee Zone of the target, the target may
+try to Repulse the figure in the same way as for a Close \& Grapple.
+If the Repulse is unsuccessful, the Attacker may go into Close, and
+may attempt a normal Grapple action or a Trample attack.
+
+\subsubsection{Evade}
+
+An evading figure may move up to 1/2 TMR.  If a Melee attack is
+attempted on a figure who is Evading with a Ranked weapon, they may be
+able to Parry the attack. An Evading figure receives a bonus to
+Defence versus Melee and Ranged Attacks.
+
+\subsubsection{Pass equvilent action}
+
+There are no specific restrictions on pass actions.
+
+\subsubsection{Cast}
+
+An unengaged figure may not move while attempting to Cast a Spell, but
+may change facing.  Casting is a Magical Action.
+
+\subsubsection{Throw}
+
+They may only Throw into their Ranged Zone where they have a Line of
+Fire.
+
+\subsubsection{Fire}
+
+All missile weapons need to be Loaded before they may be Fired. The
+figure may only Fire into their Ranged Zone where they have a Line of
+Fire.
+
+\subsubsection{Recover from Stun}
+
+An unengaged figure who is stunned may attempt to recover from Stun.
+They may not make any movement or change facing.
+
+\subsection{Free Acts}
+\label{combat:free}
+
+In addition to their normal Action, a figure may always drop whatever
+they have in their hands and, if not performing a Magical Action, they
+may say a short phrase during their Action.
+
+\subsection{Action Restrictions}
+\label{combat:restrictions}
+Movement may be restricted by terrain or other conditions.  Figures
+who become stunned or otherwise incapacitated may not attempt normal
+Actions, except that stunned figures may attempt to recover from Stun
+as their Action.  The type of Action a figure may attempt is
+restricted by their position on the Tactical Display, and their
+visibility. The use of magic in combat is subject to restrictions, and
+may in some cases be impossible.
+
+\subsubsection{Movement}
+
+Any complicated turning manoeuvre may result in a reduction in the
+figure's movement allowance for that pulse.  At the end of the Action,
+the figure must be unambiguously oriented towards one hex side.  Single
+hex figures may change facing without any movement penalty but multihex
+creatures take a one hex penalty for every half circle of movement.
+
+A figure's movement allowance assumes a flat surface with little or no
+hindrance to movement. Some terrain is not conductive to quick
+traversal, and the figure should suffer a reduction to movement in
+such conditions. A figure should normally be able to move at least one
+hex per pulse, no matter what the terrain.
+
+If a figure passes through an opponent's melee zone 
+
+If the figure is performing a Charge \& Close, they may attempt to
+enter Close, but the opponent's hex counts as a hex of movement.
+
+If a figure wishes to jump during their movement, they should have
+their movement allowance reduced, and the figure must make an Agility
+Check to land cleanly.
+
+Often two or more friendly figures will wish to pass through a hex at
+the same time, or need to squeeze past each other in the same hex. The
+GM should judge whether circumstances permit this, and if so, whether
+the figures are hindered. If neither figure is endeavouring to do more
+than move through the hex, there will usually be little problem, but
+more dangerous manoeuvres may reduce movement or require Agility
+Checks.
+
+A figure may move backwards at half their movement rate, and crawl at
+1/4 rate.
+
+\subsubsection{Move equivilent actions}
+
+Certain actions may be taking instead of movement.  These actions
+may be cumulative.
+
+\begin{tabularx}{\linewidth}{Xr}
+Prepare weapon and/or shield		& 1 \\
+Prepare potion if handy			& 2 \\
+Stand up from prone			& 1 \\
+Kneel					& 1 \\
+Aim					& 2 \\
+\end{tabularx}
+
+\subsubsection{Pass Actions}
+
+A Pass Action is any generic non-attacking action a figure may attempt
+which is not otherwise covered by specific Actions. Typical Pass
+Actions include: preparing an item or weapon; putting an item away;
+picking up a dropped item; mounting or dismounting a steed; loading a
+missile weapon; drinking from a flask; dropping to one knee or prone;
+rising up, etc.
+
+Pass Actions also include Multi-Pulse Actions and the following
+Magical Pass Actions: Prepare Spell; Actively Resist; Concentrate (see
+\S \ref{magic:concentration}).
+
+Typical Actions: The following list is intended as a guide for the GM
+to be able to judge how many pulses an attempted Action will take to
+perform.  Note that some Actions that figures in combat wish to
+attempt will take far more than one pulse.
+
+\begin{tabularx}{\linewidth}{Xr}
+Search for trap in specific place	& 2 \\
+Attempt to remove trap (see \S\ref{thief:removetraps})	&  \\
+Quick search of 10' \x 10' for disguised objects & 3 \\
+Sound Wall				& 1 \\
+Pick Lock (see \S\ref{thief:picklocks})	&  \\
+Force Lock				& 3 \\
+Spike Door				& 2 \\
+Light Torch				& 3 \\
+Light Lantern				& 5 \\
+Putting on / Removing Armour		& \\
+\hspace{1em}helm			& 1 \\
+\hspace{1em}leather			& 6 \\
+\hspace{1em}scale			& 24 \\
+\hspace{1em}chain			& 12 \\
+\hspace{1em}plate			& 60 \\
+Using a backpack			& \\
+\hspace{1em}Put on / Take off 		& 1 \\
+\hspace{1em}Remove item			& 2 \\
+\hspace{1em}Store item			& 1 \\
+Dismount / Mount Horse			& 1 \\
+Drink 1/2 pint flask			& 1 \\
+Load missile weapon			& \\
+\hspace{1em}Crossbow			& 2 \\
+\hspace{1em}Crossbow using cranequin	& 3 \\
+\hspace{1em}Other (see note L \S\ref{tables:weapons}) &  \\
+\end{tabularx}
+
+\subsubsection{Stunned Figures}
+\label{combat:stun}
+
+A figure who becomes Stunned may only take Recover from Stun as their
+Action.  They may still take free Acts.  The Base Chance of Recovering
+from Stun is 2 \x WP + current FT.  A stunned figure has no Melee
+Zone.
+
+\subsubsection{Position of Opposing Figures}
+
+The type of Action a figure may attempt is restricted by the position
+of the nearest opposing figure. If a figure is in the same hex as a
+hostile figure, they are in Close, and may only select an Action from
+\S \ref{combat:close}. If a figure is in a hostile figure's Melee Zone
+and is not in Close, they are engaged, and may only select an Action
+from \S \ref{combat:engaged}. If a figure is not in a hostile figure's
+Melee Zone, but has a target in their Melee Zone, they may select an
+Action from either \S \ref{combat:engaged} or \S
+\ref{combat:unengaged}, depending on how they wish to be
+treated. Otherwise, a figure is unengaged, and must select an Action
+from \S \ref{combat:unengaged}.
+
+\subsubsection{Visibility}
+
+If a figure is attempting to perform a Melee or Ranged Attack on a
+hostile figure who occupies a hex that is obscured (due to smoke,
+magic, etc.), they may be affected by visibility modifiers (see \S
+\ref{tables:modifiers}). If they are attempting to cast a spell that
+requires targeting, they must make a Perception Check. If the figure
+is totally obscured, they are treated as invisible for Strike Chances,
+and may not normally be targeted by a target: Entity spell. The GM
+must determine if a figure is affected by an Area or Line of Fire
+spell, or Ranged Attack.
+
+\subsubsection{Disturbing Magical Actions}
+
+If an Adept is performing a Magical Action, and is attacked, they must
+make a Concentration Check (see \S \ref{magic:concentration}) or their
+Action will fail.  An Adept may not cast while prone.
+
+\subsubsection{Action Summary}
+
+The Action Summary (\S \ref{tables:actions}) lists all valid Actions
+and their Restrictions.
+
+\subsection{Attacking}
+\label{combat:attacking}
+
+A hostile figure may be attacked by Ranged, Melee or Close combat
+while on the Tactical Display. Special types of attacks are allowed,
+and these include Multi-hex Strikes, Multiple Weapon Strikes, and
+attempting to Trip, Entangle, Restrain, Knockout, Shield Rush or
+Disarm.
+
+\subsubsection{Ranged Attacks}
+
+A figure may attempt to attack a hostile figure in their Ranged Zone
+via ranged combat by executing a Fire or Throw Action. The figure
+declares their target, determines and applies any Ranged Combat
+modifiers (see \S \ref{tables:modifiers}), and executes a Strike
+Check.
+
+To Fire a missile weapon, the figure must be armed with a prepared and
+loaded missile weapon. To Throw a weapon, the figure must be armed
+with a prepared weapon rated for ranged combat. The figure must have a
+Line of Fire to the target. If the Line of Fire contains an obscured
+hex, the figure may not Aim, and treats the target as if invisible.
+
+Whenever the weapon enters a hex occupies by a figure or object (other
+than a solid obstacle that the missile must hit), there is a chance
+(as determined by the GM) that the weapon will hit the figure or
+object instead of continuing its flight. This must be resolved for
+each figure occupying any hex along the Line of Fire until the weapon
+hits something or loses momentum and falls to the ground.
+
+A figure cannot check a Line of Fire without executing an Aim, Fire or
+Throw action, whether or not the weapon is actually loosed.
+
+\begin{Description}
+\item[Snapshooting] A figure with a prepared Short Bow, Long Bow,
+Composite Bow, Giant Bow or Sling, with which they are at least Rank
+3, may prepare an arrow or bullet and Fire in the same Action. The
+Strike Chance is reduced by -15. Snapshooting is a Fire Action.
+
+\item[Aiming] A figure with a prepared and loaded missile weapon may
+choose to take a Pass Action to Aim the missile weapon at a particular
+target. If the figure then Fires at that target in their next Action,
+their Strike Chance is increased by +20, and in addition, the chances
+of causing Endurance or Specific Grievous damage are increased to 20\%
+and 10\% of the modified Strike Chance, respectively.
+\end{Description}
+
+\subsubsection{Melee Attacks}
+
+A figure may attempt to Melee Attack any hostile figure who occupies
+at least one hex of their Melee Zone. The figure declares their
+target, determines and applies any Melee Combat modifiers (see \S
+\ref{tables:modifiers}), and executes a Strike Check with a prepared
+melee-rated weapon. The attacker may move adjacent to the target
+during that pulse.
+
+The normal Melee attack is intended to do as much damage to the target
+as possible, but other forms of specialised attack exist.
+
+\subsubsection{Close Combat Attacks}
+
+A figure may attempt to attack any figure who occupies the same hex
+via Close Combat by executing a Grapple Action. The figure declares
+their target, determines and applies any Close Combat modifiers (see
+\S \ref{tables:modifiers}), and executes a Strike Check with a
+prepared close-rated weapon. The attacker may move into the target's
+hex during the pulse; this is known as closing.
+
+\subsubsection{Attacking into Combat}
+
+A Ranged attack on a figure in Melee combat is resolved normally,
+bearing in mind the Line of Sight restrictions. A Ranged or Melee
+attack on a figure in Close combat suffers a penalty of -10. If the
+attack misses, an additional attack with the same penalty must be
+resolved against each remaining figure in that hex (in a random
+order). If a multi-hex creature is in close with single-hex creatures,
+it may be targeted normally.
+
+\subsubsection{Special Attacks}
+
+A figure may attempt to attack using any one of the following special
+attacks.
+
+\begin{Description}
+
+\item[Trip] A figure with a prepared Quarterstaff, Spear, Halberd,
+Poleaxe or Glaive may attempt to trip an opponent in their Melee
+Zone. The Base Chance is reduced to 40\%, and the damage to D10. If
+the attack is successful, the target must make a 3 \x AG Check or fall
+prone. This attack may not be attempted on a target significantly
+larger than the attacker. A figure may not move before attempting a
+Trip.
+
+\item[Entangle] A figure with a prepared Net, Whip or Bola may attempt
+to Entangle their opponent during any attack. If the attack is
+successful, the target must make a 3 \x AG Check or fall prone. The
+target must disentangle themselves before rising, requiring 2 Pass
+Actions.
+
+\item[Restrain] A figure may attempt to restrain an opponent by
+pinning them to the ground. The Base Chance is three times the
+difference in total PS \& AG between the attacker(s) and their
+opponent. No damage is done. A restrained figure is treated as
+incapacitated, and remains restrained until the restraint is broken by
+an attack from outside the hex that does effective damage to a
+restrainer. A Restrain may only be attempted in Close Combat.
+
+\item[Knockout] A figure with any prepared Melee rated weapon
+excluding entangling weapons, Lances and Pikes, may attempt to knock
+out their opponent. The attack is successful if the Strike Check would
+normally result in an Endurance blow (see \S \ref{combat:damage}). No
+damage is done, but the target is unconscious for [D + 5] minutes.
+This attack may not be attempted on a target significantly larger than
+the attacker. A figure may not move while attempting a Knockout.
+
+\item[Shield Rush] A figure with a prepared shield (other than a Main
+Gauche or Tower Shield) may attempt to Shield Rush their opponent. If
+the attack is successful, the target must make a 3 \x AG Check or fall
+prone. This attack may not be attempted on a target significantly
+larger than the attacker. A figure must move at least one hex before
+attempting a Shield Rush.
+
+\item[Disarm] A figure may attempt to Disarm an opponent with any
+prepared Melee or Close rated weapon. The Strike Chance of the attack
+is reduced by -20. If the attack is successful, one point of EN is
+inflicted, and the target must roll under (MD + Rank) or drop a weapon
+or item of the attacker's choice. If the item is being held in two
+hands, the check is (2 \x MD + Rank). A figure may not move while
+attempting a Disarm.
+
+\end{Description}
+
+\subsection{Resolving Attempted Attacks}
+
+Every weapon and attack form has a Base Chance. The Base Chance with
+all modifiers applied is the Modified Strike Chance. The attacker
+performs a Strike Check by rolling D100; if the result is less than or
+equal to the Modified Strike Chance, the attack has been successful;
+above and the attack has missed. Particularly poor rolls may result in
+the weapon being broken or dropped. Once a successful hit has been
+made, a Damage Check occurs.
+
+If the target is Evading, the attacker has a reduced strike chance
+and, if they miss, they may be Disarmed or Riposted.
+
+\subsubsection{Strike Chance}
+
+When attacking with any Ranked weapon, the Strike Chance is (Weapon
+Base Chance) + (Mod. Manual Dexterity) + (4 \x Rank). When attacking with
+an unranked weapon, the Strike Chance is equal to the Base
+Chance. Wild creatures using natural attack forms such as teeth,
+claws, etc., always add their Manual Dexterity + (4 \x Rank).
+
+\subsubsection{Modified Strike Chance}
+
+An attacker's Modified Strike Chance is equal to their Strike Chance
+plus any modifications for attack type and conditions, minus the
+target's current defence. If the attacker rolls less than or equal to
+the Modified Strike Chance, a successful hit has occurred, and a
+Damage Check is made (see \S \ref{combat:damage}).
+
+Attack condition modifiers are detailed in (\S \ref{tables:modifiers}
+Strike Chance Modifiers).
+
+\subsubsection{Evading}
+
+If a figure evades, their Defence against Melee attacks increases by
+10 + 4 / Rank of their prepared Melee weapon, and their Defence
+against Missile attacks increases by 20.
+
+If a figure is Evading, and an opponent in their Melee Zone misses an
+attack at them by 30 or more, they may choose to try to Parry the
+attack.
+
+The target rolls D10, adds the Rank of the prepared weapon they are
+Evading with, and subtracts the Rank of the attacker's weapon. If this
+result is 3 or less, the attack has been successfully Parried, but the
+target has been thrown off balance, and their next action must be a
+pass action. If the modified result is 4 through 7, the target may
+Disarm the attacker (see Disarm). If the modified result is 8
+or above, the attack has been Parried and the target may execute a
+free Melee Attack on their attacker as well as a Disarm. This is
+called a Riposte.
+
+A Riposte cannot itself be Parried, and may occur as many times in the
+pulse as the evading target was Melee Attacked. An unarmed figure may
+Parry if they are ranked in Unarmed Combat.
+
+\subsubsection{Defence}
+
+A figure's defence is subtracted from an attacker's Strike
+Chance. Defence is equal to modified Agility, plus defence afforded by
+a prepared shield, defensive manoeuvres and magic. Defensive
+advantages due to terrain conditions and visibility modifiers are
+covered in \S \ref{tables:modifiers} Strike Chance Modifiers. A figure
+has no defence except for that provided by magic if they are stunned
+or incapacitated.
+
+A prepared shield provides defence against all Melee and Ranged
+attacks that pass through a figure's front hexes, if they have the
+Shield skill. At Rank 0 and each additional Rank, the defence bonus
+(2\% to 6\%, see \S \ref{tables:shields} Shield Chart) is added to
+defence. No bonus is given for an unranked shield. A figure may not
+attack with their shield or count their shield as a prepared weapon
+for Evading while retaining the shield defence bonus. A prepared Main
+Gauche also provides some defence; however defence is only applied
+against Melee attacks, and no defence is gained at Rank 0.
+
+\subsubsection{Fumbles}
+\label{combat:fumbles}
+
+An unmodified Strike Check of 00 indicates that the attacker has
+fumbled. If the weapon is not Magical, or made of cold iron, or a
+Bow, or a Crossbow, increase this chance of fumbling by
+\begin{Description}
+\item[1\%] any silver or true silver alloy of iron.
+\item[2\%] any other hard metal alloy (\eg bronze).
+\item[3\%] (or more) viable weapons made of other materials ---
+the actual figure should be specified by the GM at the time of the
+weapon's creation.
+\end{Description}
+When an attacker fumbles, they make a 3 x MD check and apply the
+corresponding result from \S\ref{tables:fumble1} or
+\S\ref{tables:fumble2} (the Fumble tables).
+
+\subsection{Damage}
+\label{combat:damage}
+
+A successful Strike Check usually results in a Damage Check being
+performed. Each attack has a damage modifier that is applied to a D10
+roll, and the result is the number of damage points inflicted by the
+attack (minimum damage 1). There are three types of physical damage
+possible from a successful strike, depending on how successful the
+Strike Check was: Fatigue Damage, Endurance Damage, and Specific
+Grievous Injuries.
+
+\subsubsection{Fatigue Damage}
+
+Physical Damage affecting Fatigue may be absorbed by armour. Each type
+of armour has a Protection Rating (as listed in \S \ref{tables:armour}
+Armour Chart), which is subtracted from the Fatigue damage
+inflicted. When a figure's Fatigue reaches 0, any subsequent attacks
+affecting Fatigue are subtracted from Endurance instead. A figure
+normally cannot lose both Fatigue and Endurance from one Strike Check.
+
+\subsubsection{Endurance Damage}
+
+A Strike Check of 15\% or less of the Modified Strike Chance results
+in damage directly affecting Endurance.
+
+\subsubsection{Specific Grievous Injuries}
+
+In addition to Endurance damage, a Specific Grievous Injury may occur
+if the Strike Check is 5\% or less of the Modified Strike Chance. If a
+potential Specific Grievous Injury occurs, the attacker rolls D100 and
+consults the Grievous Injury Table (\S \ref{tables:grievous}). If the
+roll falls within the range specified for the weapon class, a Specific
+Grievous Injury has occurred, and the effects of the resulting injury
+are applied in combination with any Endurance damage inflicted.
+
+A figure who suffers a Grievous Injury while wearing armour has the
+Protection Rating of their armour reduced by two until
+repaired. Optionally, a figure who is also carrying a shield may
+choose to have the shield cloven instead. A cloven shield is useless.
+
+\subsubsection{Magical Damage}
+
+All magical damage affects Fatigue unless otherwise states in the
+spell description. Spell damage is assumed to be non-physical, and
+thus unaffected by armour, unless the spell explicitly states that it
+is affected by armour. Magical damage that is not affected by armour
+never stuns. Breath weapons are treated as magical damage, but are
+Passively Resistible for half damage.
+
+\subsubsection{Additional Damage}
+
+The damage inflicted with a particular weapon may be increased due to
+exceptional Physical Strength or Rank. Only one of these two modifiers
+may be applied at any time.
+
+If a figure chooses to over-strength a weapon, they may inflict an
+additional point of damage for every 5 full points of Physical
+Strength they have over the minimum required to use the weapon.  Thown
+or Missile weapons may not be over strengthed.  See
+\S\{\ref{combat:unarmed} for Unarmed Combat.
+
+If a figure chooses to apply skill to inflict extra damage, they may
+inflict an additional point of damage for every full 4 Ranks they have
+in the weapon. This affects Close, Melee Thrown, and Missile weapons.
+
+\subsection{Effects of Damage}
+
+\subsubsection{Missile Lodgement}
+
+When a figure takes effective Endurance Damage from an A-class Missile
+or Thrown weapon, the weapon has lodged itself in their body, and
+reduces the figure's Agility by 3 (5 if a pole weapon). The Agility
+loss for multi-hex creatures will be reduced in proportion to their
+size. The weapon remains lodged until a Pass Action is taken to remove
+it. A barbed arrow lodges if it inflicts any effective damage, and the
+figure will take D-4 Fatigue damage when the barbed arrow is removed
+unless it is removed by a Healer. Barbed arrows have a Strike Chance
+penalty of -25.
+
+\subsubsection{Stunning}
+
+Whenever a figure suffers effective damage greater than one-third
+their full Endurance, they become may become stunned unless their
+recover immediately.
+\begin{Itemize}
+
+\item They stop performing any existing Action.
+
+\item They have no Melee Zone, but remain Engaged as long as they are
+in the Melee Zone of an opponent.
+
+\item They have no defence except that provided by magic.
+
+\item Any shield or weapon (including unarmed) becomes unprepared. 
+
+\item Their only Action which they may attempt is recover from Stun.
+
+\item The Base Chance to recover from Stun in 2 \x WP + current Fatigue.
+
+\item They may not move on the Tactical Display, or change facing. They
+may still perform Free Acts(see \S\ref{combat:free}).
+\end{Itemize}
+
+\subsubsection{Massive Damage}
+
+If a figure with positive Fatigue suffers effective Fatigue damage
+greater than their combined full Fatigue and Endurance, they lose all
+their Fatigue and are reduced to -1 Endurance. If they suffer more
+than their combined full Fatigue and 1.5  \x  Endurance, they are dead.
+
+\subsubsection{Unconsciousness}
+
+When a figure's Endurance reaches 3 or less, they must make a (current
+EN)  \x  WP check or fall unconscious; this WP check is repeated every
+minute. A figure on 0 Endurance is unconscious, but stable. A figure
+on negative Endurance will lose one point of Fatigue (Endurance when
+no Fatigue remains) until the bleeding is stanched by a Healer, or
+until dead. A creature with a full Endurance of 5 or less does not
+make consciousness checks. They remain conscious until they fall to 0
+or less Endurance.
+
+\subsubsection{Death}
+
+When a figure's Endurance falls below negative one-half their full
+Endurance, the figure is dead. Once dead, further damage may be
+inflicted, but no more damage will be inflicted from poison or
+bleeding.
+
+\subsubsection{Infection}
+
+Whenever a figure has had Physical Damage inflicted (or some
+particularly nasty form of magical attack), they may have become
+Infected. There is normally a 10\% chance of any wound becoming
+infected. This is increased by (20 + Endurance Damage)\% if any
+Endurance damage was inflicted. Bite, claw and talon attacks, hostile
+environmental conditions and poor treatment may further increase the
+chance.  See \S\ref{adventure:infection} for more information.
+
+\subsection{Weapons}
+
+Any instrument used to inflict damage on a figure is called a weapon.
+Weapons may include the figure's hands, feet, teeth, etc.  All normal
+weapons are listed on the Weapons Chart along with their
+characteristics. The only limits to the number of weapons a character
+may have in their possession are the weight and bulk of those weapons;
+the GM should disallow any odd or unlikely method of carrying weapons.
+
+\subsubsection{Normal Weapons}
+
+The Weapons Chart (\S \ref{tables:weapons}) lists all the normal
+weapons and their characteristics.
+
+\begin{Description}
+
+\item[Weight] The weight of the weapon in pounds (excluding scabbards,
+etc.).
+
+\item[Physical Strength] The minimum Physical Strength a figure needs
+to wield the weapon properly; a figure without the required PS does 1
+less point of damage for each point of PS they are below the
+minimum. A figure may never achieve Rank in a weapon they do not have
+the PS to wield.
+
+\item[Manual Dexterity] The minimum modified Manual Dexterity a figure
+needs to manipulate the weapon properly; a figure without the required
+MD has the Base Chance of the weapon lowered by 5 for every point they
+are below the minimum. A figure may never achieve Rank in a weapon
+they do not have the MD to manipulate.
+
+\item[Range] The distance (in hexes) which the weapon may be Fired or
+Thrown.
+
+\item[Class] The type of damage done by the weapon - A-class for
+thrusting damage, B-class for slashing damage, and C-class for
+crushing damage. This is used for determining Specific Grievous
+Injuries.
+
+\item[Use] The range(s) of attack the weapon may be used at: R for
+ranged combat, M for Melee combat, C for Close combat. A weapon may
+not be used at an inappropriate range.
+
+\item[Cost] The standard cost (in Silver Pennies) to buy a typical
+example of the weapon.
+
+\item[Maximum Rank] The highest Rank attainable with the weapon.
+
+\end{Description}
+
+\subsubsection{Unusual Weapons}
+
+A figure may attempt to strike bare-handed (see Unarmed Combat), but
+only if one hand is free. A figure may attempt to use an item not
+normally used as a weapon at the GM's discretion, who assigns Base
+Chances, damage modifiers, and so forth. Makeshift weapons will
+generally be no better than a Crude Club.
+
+\subsubsection{Envenomed Weapons}
+
+If the GM permits, figures may carry and use A-class \& B-class
+weapons coated with poison. At least one point of effective damage
+must be done for the poison to affect the target.
+
+When anyone except an Assassin handles an envenomed weapon, they must
+make a 3 \x MD check every time they handle the weapon. This includes
+coating the weapon, preparing or unpreparing the weapon, and
+attacking. An envenomed weapon will usually remain effective for 6
+hours or until at least one point of effective damage has been
+inflicted.
+
+\subsection{Unarmed Combat}
+\label{combat:unarmed}
+
+Any figure may attempt to attack a hostile figure by using their
+natural weapons. For many creatures, this is the only way they may
+attack. Unless otherwise specified, all figures receive one Unarmed
+attack per pulse without penalty. Some creatures may be able to attack
+more than once (see Bestiary). A figure may achieve Rank with natural
+weapons just as they may with any weapon.
+
+The Base Chance for a humanoid to strike with their primary hand is
+their modified Agility \x 2 plus Physical Strength over 15. The damage
+modifier is [D - 4] (+ [PS - 15] / 3).
+
+\subsection{Multi-hex Figures}
+
+Many figures will occupy more than one hex on the tactical
+display. Their size necessitates alterations in the resolution of
+movement and combat.
+
+Multi-hex figures have three types of hexes surrounding them: Front,
+Rear and Flank. The exact configuration of Front, Rear and Flank hexes
+varies with the size of the figure. Front and Rear hexes function in
+the same way for them as for any other figure. Figures in Flank hexes
+gain a bonus to strike (see \S \ref{tables:modifiers}), and are not in
+the Multi-hex figure's Melee Zone, but do not gain the advantages of a
+Rear attack.
+
+A multi-hex figure may move in any way so that its head enters any
+Front hex, and may move up to its full TMR in this fashion. At the end
+of its move, the figure must be unambiguously oriented towards one hex
+vertex.
+
+A multi-hex figure may freely pivot or move into any hex occupied by a
+1-hex figure. This is treated as a Close action.  If the figure fails
+to avoid getting out of the way they are knocked prone and the figure
+may then attempt to trample with a Base Chance of 40\%, doing (D10 +
+size of the monster in hexes) damage. Trampling is C-class
+damage. Subsequent attacks on the prone figure use the Trample Base
+Chance and damage in the Bestiary. A multi-hex figure in close with
+smaller figures does not automatically fall prone.
+
+\subsection{Mounted Combat}
+
+In mounted combat, the TMR of the figure (mount and rider combined) is
+that of the mount; the rider may not move at all. A rider and mount
+will occupy the hexes that the mount would normally occupy (as
+specified in the Bestiary).
+
+Controlling a mount during combat is dependant on the rider's
+Horsemanship skill. An inexperienced horseman will have an incredibly
+difficult time even controlling their mount in a chaotic melee; it
+would be better for them to dismount and fight on foot.
+
+\subsubsection{Action Restrictions}
+
+Almost any action the figure is capable of while standing on the
+ground may be performed while mounted. They may not (1) use a
+two-handed weapon; (2) fire a missile weapon or throw a weapon while
+moving; (3) use more than one weapon at a time. These restrictions are
+lifted depending on the Horsemanship Rank on the Rider (see \S
+\ref{skills:horsemanship} Horsemanship). A figure may always use a shield and
+a one-handed weapon while mounted.
+
+On a normal mount, the rider will not be able to attack figures
+directly in front of them except with a spear (or similar long hafted
+weapon) or any Ranged weapon. A mounted figure may not attempt a
+Shield Bash (except against other mounted figures). However, they may
+attempt a Mounted Charge. A rider may freely mount or dismount when
+the mount is stationary, by taking a Pass Action; the difficulty of
+dismounting when moving is determined by the GM.
+
+\subsubsection{Charge}
+
+A Charge on a mount is executed in the same manner as a Charge on foot
+except the amount of movement prior to the attack may be greater and
+the Charge must be in a straight line (no facing changes allowed).
+
+In addition to the normal charging options, an unengaged mounted
+figure may attempt a Mounted Charge. This requires the mount to move
+at least 1/2 TMR without changing facing. At the end of the figure's
+movement, they may make a Melee Attack with a +20 bonus to Strike
+Chance. If the figure over-strengths the weapon, the Mount's TMR may
+be added to the rider's Physical Strength. If using a Lance, the
+Mount's Physical Strength may be used for the purposes of
+over-strengthing (\S\ref{combat:damage} Additional Damage).
+
+Any act of turning the mount or stopping it after the Charge will
+require a Horsemanship Check (see \S \ref{skills:horsemanship}). The
+pulse following any mounted Charge, the momentum will take the mount
+past the target to its full TMR. Any attempt to turn or stop the mount
+will occur after that movement is terminated. A failed check will
+result in the mount continuing on its way.
+
+\subsection{Aerial Combat}
+
+Whenever an avian (or any other flying entity) is airborne, the
+figure's height above the ground may have to be noted.
+
+\subsubsection{Combat Ranges}
+
+Hostile figures are regarded as being in adjacent hexes if the Range
+between them is less than 10 feet. Hostile figures are in Close Combat
+if they are in the same hex and the height difference is 3 feet or
+less. For Ranged \& Magical Combat, the range of weapons \& spells may
+be calculated using the following formula:
+
+$A^2 + B^2 = C^2$ (Pythagorean)
+
+Where A is the horizontal distance between the two characters, B is
+the difference in their altitude, and C is the range between the
+figures.
+
+\subsubsection{Close Combat}
+
+An airborne figure will be pulled from the air and become prone if
+their combined PS + AG is less than that of their ground-based
+opponent. Otherwise the airborne figure will remain in flight. The
+ground-based figure may be lifted from the ground if the airborne
+figure has sufficient Physical Strength and leverage.
+
+An airborne figure may benefit from making a charge attack by diving
+on the target.
+
+\subsubsection{Casting}
+
+If an Adept is flying and the Adept is in all other ways eligible to
+cast a spell (has their hands free, is not out of Fatigue, etc.) they
+may move up to 1/2 (rounded down) of their TMR and attempt to cast the
+spell prior to, during or after their movement. This also applies to
+all flying magic-using monsters and Adepts with flying mounts.
+
+\subsection{Aquatic Combat}
+Aquatic Combat may take place between figures at different depths. Refer to
+the aerial combat section for guidelines. 
+
+\subsubsection{Defence}
+\begin{Itemize}
+\item Defence caused by natural agility is halved for non-aquatics.
+\item Non-magical defence is always halved.
+\item Magical defences are unaffected.
+\end{Itemize}
+
+\subsubsection{Weapons}
+If the character is on a solid surface then the following applies:
+\begin{Itemize}
+\item A class weapons are unaffected
+\item B \& C class weapons have their non-magical base chances and damage halved.
+\end{Itemize}
+
+If the character is floating:
+\begin{Itemize}
+\item A class weapons have their non-magical base chances and damage halved.
+Exceptions are tridents, javelins, spears.
+\item B \& C class weapons cannot be used  Exceptions are nets and garrotes.
+\end{Itemize}
+
+Magical bonuses are unaffected.
+
+Close combat is unaffected but the GM can rule that certain actions
+are impossible.
+
+Bows and crossbows must be waterproofed. The effective range of a thrown or
+missile weapon is divided by 10.
+
+No shield rushes are possible with a standard shield because of water
+resistance.
+
+Evading defence bonuses are 10\% + 2\% / Rank for prepared B \& C
+class weapons. A class weapons are unaffected.
+
+\end{multicols*}

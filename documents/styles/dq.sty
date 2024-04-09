@@ -52,6 +52,13 @@
 %%  \renewcommand{\Huge}{\fontfamily{\rmdefault}\fontsize{24}{24pt}\selectfont} 
 }
 
+\DeclareOption{gyre}
+{
+  \typeout{Using TeX Gyre fonts}
+  \setmainfont{TeX Gyre Pagella}[Scale=0.75,Ligatures=TeX]
+  \setsansfont{TeX Gyre Adventor}[Scale=0.7,Color=red,Ligatures=TeX]
+}
+
 \DeclareOption{times}{
   \renewcommand{\encodingdefault}{T1}
   \renewcommand{\rmdefault}{ptm}
