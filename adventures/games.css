@@ -1,3 +1,32 @@
+body {
+    background: #F0F0F0;
+    font-family: sans-serif;
+    font-size: 12pt;
+}
+
+table.games {
+    padding: 10pt;
+    margin: 10pt;
+    border-collapse: collapse;
+    background: white;
+}
+
+table.games td {
+    border: 0.2mm solid blue;
+    padding-left: 2.0mm;
+    padding-right: 2.0mm;
+    padding-top: 0.3mm;
+    padding-bottom: 0.3mm;
+}
+
+table.games th {
+    border: 0.2mm solid blue;
+    padding-left: 4.0mm;
+    padding-right: 4.0mm;
+    padding-top: 0.5mm;
+    padding-bottom: 0.5mm;
+}
+
 div.game {
   border: 1pt solid blue;
   background-color: #F0F0F0;
@@ -26,26 +55,4 @@ table.pc td {
 
 table.pc td.r {
   text-align: right;
-}
-
-table.games {
-    padding: 10pt;
-    margin: 10pt;
-    border-collapse: collapse;
-}
-
-table.games td {
-    border: 0.2mm solid blue;
-    padding-left: 2.0mm;
-    padding-right: 2.0mm;
-    padding-top: 0.3mm;
-    padding-bottom: 0.3mm;
-}
-
-table.games th {
-    border: 0.2mm solid blue;
-    padding-left: 4.0mm;
-    padding-right: 4.0mm;
-    padding-top: 0.5mm;
-    padding-bottom: 0.5mm;
 }
