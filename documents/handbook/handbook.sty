@@ -1,0 +1,77 @@
+\RequirePackage{tabularx}
+\RequirePackage{multicol}
+%% \usepackage{epsfig}
+\RequirePackage{fontspec}
+\RequirePackage{graphicx}
+\RequirePackage[margin=15mm]{geometry}
+\RequirePackage[skip=2pt plus 4pt, indent=0mm]{parskip}
+\RequirePackage[dvipsnames]{xcolor}
+\RequirePackage{tabularray}
+\RequirePackage{setspace}
+
+\NewTblrEnviron{dqtblr}
+\SetTblrInner[dqtblr]{hlines={green7},rowsep=0.1mm,width=\linewidth}
+\UseTblrLibrary{varwidth}
+
+%% \renewcommand{\rmdefault}{pnc}
+%% \renewcommand{\small}{\fontfamily{pnc}\fontsize{6}{7pt}\selectfont}
+%% \renewcommand{\scriptsize}{\fontfamily{pnc}\fontsize{7}{8pt}\selectfont}
+%% \renewcommand{\normalsize}{\fontfamily{pnc}\fontsize{8}{9.5pt}\selectfont}
+%% \renewcommand{\large}{\fontfamily{pag}\fontsize{10}{11pt}\selectfont}
+%% \renewcommand{\Large}{\fontfamily{pag}\fontsize{14}{15pt}\selectfont}
+%% \renewcommand{\huge}{\fontfamily{pag}\fontsize{18}{20pt}\selectfont}
+
+\setmainfont{TeX Gyre Pagella}[Scale=0.85,Ligatures=TeX]
+\setsansfont{TeX Gyre Adventor}[Scale=0.7,Color=red,Ligatures=TeX]
+
+\newcommand{\idesclab}[1]{\hspace{\labelsep}\emph{#1:}}
+
+\newenvironment{idesc}
+{
+  \renewcommand{\descriptionlabel}{\idesclab}
+  \setlength\leftmargini{0pt}
+  \begin{description}
+    \setlength\itemsep{0pt}
+}
+{
+  \end{description}
+}
+
+\newcommand{\clearemptydoublepage}{\newpage{\pagestyle{empty}\cleardoublepage}}
+
+\newcommand{\x}{$\times$ }
+
+% \setlength{\parindent}{0.0in}
+% \setlength{\topmargin}{-0.8in}
+% \setlength{\textheight}{10.0in}
+% \setlength{\parskip}{2.0mm}
+% \setlength{\oddsidemargin}{-0.25in}
+% \setlength{\evensidemargin}{-0.25in}
+% \setlength{\textwidth}{6.5in}
+
+\setcounter{columnbadness}{1000}
+\setcounter{finalcolumnbadness}{1000}
+
+\renewcommand{\section}{\@startsection
+	{section}%
+	{1}%
+	{\z@}%
+	{10.0pt}
+	{0.2pt}
+	{\reset@font\Large\bfseries}}%
+
+\renewcommand{\subsection}{\@startsection
+	{subsection}%
+	{2}%
+	{\z@}%
+	{1.0\parskip}
+	{0.25\baselineskip}
+	{\reset@font\large\bfseries}}%
+
+\renewcommand{\subsubsection}{\@startsection
+	{subsubsection}%
+	{3}%
+	{\z@}%
+	{4pt}
+	{0.25\baselineskip}
+	{\reset@font\normalfont\bfseries}}%
