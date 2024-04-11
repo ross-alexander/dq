@@ -1,10 +1,8 @@
 <dqmm>		+
 </dqmm>		+
 
-<group>		+ "\\begin{multicols*}{2}\n\n"
-			"\\setlength\\columnseprule{0.2mm}\n"
-			 "\n\\section{[NAME]}" +
-</group>	+ "\\end{multicols*}\n"
+<group>		+ "\\begin{mmgroup}{[NAME]}\n\n" +
+</group>	+ "\\end{mmgroup}\n\n"
 
 <class>		+ "\n\\subsection{[NAME]}" +
 </class>	+
@@ -29,7 +27,7 @@
 <movement>	+ "\n\\item\[Movement Rates\]"
 <weapons>	+ "\n\\item\[Weapons\]"
 
-<stats>		+ "\\begin{tabularx}{\\linewidth}{\@{}X\@{\\hspace{0.5em}}X\@{\\hspace{0.5em}}X\@{\\hspace{0.5em}}X\@{}}\n"
+<stats>		+ "\\begin{mmstats}{}\n"
 <ps>		+ "\\textbf{PS:} "
 </ps>		+ "\& "
 <md>		+ "\\textbf{MD:} "
@@ -52,9 +50,9 @@
 </pb>		+ "\& "
 <tmr>		+ "\\textbf{TMR:} "
 </tmr>		+ "\& "
-<na>		+ "\\multicolumn{2}{@{}l@{}}{\\textbf{NA:} "
-</na>		+ "}\\\\\n"
-</stats>	+ "\\end{tabularx}\n" +
+<na>		+ "\\textbf{NA:} "
+</na>		+ "\\\\\n"
+</stats>	+ "\\end{mmstats}\n" +
 <comments>	+ "\n\\begin{description}\n"
 		  "\\setlength\\itemsep{0pt}\n"
 		  "\n\\item\[Comments\]"
