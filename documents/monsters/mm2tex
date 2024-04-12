@@ -2,6 +2,8 @@
 
 # ----------------------------------------------------------------------
 #
+# 2024-04-12: Add CHARSET environment variables to allow UTF-8 input
+#
 # 2023-02-12: Add comment
 #
 # ----------------------------------------------------------------------
@@ -15,4 +17,4 @@ OUTPUT=`echo $INPUT | sed 's/.sgml/.tex/'`
 SGML_PATH=$PWD/tex/%N:$PWD/%N.dtd:$PWD/%P.dtd
 export SGML_PATH
 
-$SGMLS -D $PWD/tex dqmm.decl $INPUT | $SGMLSASP $PWD/tex/mapping > $OUTPUT
+SP_CHARSET_FIXED=1 SP_ENCODING=UTF-8 $SGMLS -D $PWD/tex dqmm.decl $INPUT | $SGMLSASP $PWD/tex/mapping > $OUTPUT
