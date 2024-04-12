@@ -16,6 +16,7 @@
 
 \setlist[description]{leftmargin=2mm,nosep}
 
+
 \setmainfont{TeX Gyre Termes}[Scale=0.8,Ligatures=TeX]
 \setsansfont{TeX Gyre Adventor}[Scale=0.7,Color=red,Ligatures=TeX]
 
@@ -24,20 +25,34 @@
   cell{3}{3}={c=2}{l},
     hlines={green7},rowsep=0.1mm,width=\linewidth}
 
+% --------------------
+
+\hypersetup{colorlinks=true,allcolors=red,
+    bookmarksnumbered=true,     
+    bookmarksopen=true,         
+    bookmarksopenlevel=1,
+    pdfstartview=Fit,pdfpagemode=UseOutlines
+}
+
+% --------------------
 
 \newenvironment{mmgroup}[1]{
-\begin{multicols*}{2}
-\setlength\columnseprule{0.2mm}
-\section{#1}
+\begin{multicols*}{2}\setlength\columnseprule{0.2mm}\section{#1}}
+{\end{multicols*}}
+
+\newenvironment{mmcomment}{
+  \begin{description}
+  \item Comment
 }
-{
-\end{multicols*}
-}
+{\end{description}}
+               
+
+% --------------------
 
 \renewcommand{\subsubsection}{\@startsection
 	{subsubsection}%
 	{3}%
 	{\z@}%
-	{4ptminus2pt}
+	{4pt minus 2pt}
 	{0.25\baselineskip}
 	{\reset@font\large\bfseries\sffamily\selectfont}}%
