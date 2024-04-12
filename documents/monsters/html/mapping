@@ -1,28 +1,25 @@
 <dqmm>		+ 
 </dqmm>		+
 
-<group>		+ "<html><head><title></title></head><body>" +
-</group>	+ "</body></html>" +
+<group>		+ "<html charset=\"UTF-8\">"
+		"<head>"
+		"<title>[NAME]</title>"
+		"<link rel=\"stylesheet\" href=\"dqmm.css\">"
+		"</head>\n\n<body><h1>[NAME]</h1>\n" +
+</group>	+ "</body>"
+		"</html>" +
 
-<ghead>		+ "<h1>" +
-</ghead>	+ "</h1>" +
+<class>		+ "<h2>[NAME]</h2>" +
 
-<class>		+
-</class>	+
-<chead>		+ "<h2>" +
-</chead>	+ "</h2>" +
-
-<monster>	+ "<hr>"
+<monster>	+ "<h3>[NAME]</h3>" +
 </monster>	+
-
-<mhead>		+ "<h3>"
-</mhead>	+ "</h3>" +
 
 <heading>	+
 </heading>	+ "<p>" +
 
-<mblock>	+ "<dl>" +
-</mblock>	+ "</dl>" +
+<details>	+ "<dl>" +
+</details>	+ "</dl>" +
+
 <bc>		+ "<dt><strong>Summoning base chance</strong><dd>"
 <lesser>	+ "<dt><strong>Chance of minions</strong><dd>"
 <habitat>	+ "<dt><strong>Natural Habitat</strong><dd>"
@@ -32,8 +29,11 @@
 <talents>	+ "<dt><strong>Talents, Skills and Magic</strong><dd>"
 <movement>	+ "<dt><strong>Movement Rates</strong><dd>"
 <weapons>	+ "<dt><strong>Weapons</strong><dd>"
-<comments>	+ "<dt><strong>Comments</strong><dd>"
-<stats>		+ "</dl><table border=1>" +
+
+<comments>	+ "<dl><dt><strong>Comments</strong><dd>" +
+</comments>     + "</dl>" +
+
+<stats>		+ "<table class=\"stats\">" +
 
 <ps>		+ "<tr><td><strong>PS</strong> " +
 </ps>		+ "</td>" +
@@ -69,4 +69,4 @@
 <na>		+ "<td Colspan=\"2\"><strong>NA</strong> " +
 </na>		+ "</td></tr>" +
 
-</stats>	+ "</table>\n<dl>" +
+</stats>	+ "</table>" +
