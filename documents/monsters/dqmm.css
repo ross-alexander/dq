@@ -1,17 +1,31 @@
-div {
-  background: #80F080;
-  border: 1pt solid black;
-  padding: 4pt 10pt 4pt 10pt;
-  margin: 10pt 0pt 10pt 00pt;
+body {
+  padding: 10pt 50pt 10pt 50pt;
+}
+
+h1 {
+    font-family: arial;
+    background: blue;
 }
 
 div {
-  font-size: 10pt;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    font-size: 10pt;
+    border: 1pt solid black;
+    background: white;
+}
+
+div + div {
+    margin-top: 10mm;
 }
 
 div h3 {
   text-align: center;
-  font-family: helvetica, ariel;
+#  font-family: sans-serif, helvetica, ariel;
   font-size: 14pt;
   background: white;
   margin: 2pt;
@@ -19,13 +33,11 @@ div h3 {
 
 div table {
   background: white;
-  border: 1pt solid black;
   width: 100%;
   border-collapse: collapse;
 }
 
 div table td {
-  border: 1pt solid black;
 }
 
 p {

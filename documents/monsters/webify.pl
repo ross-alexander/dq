@@ -1,6 +1,8 @@
 #!/usr/bin/perl
 
 use XML::LibXML;
+use 5.34.0;
+use File::Spec::Functions;
 
 # ----------------------------------------------------------------------
 #
@@ -81,7 +83,7 @@ sub BuildIndex {
     {
 	my $name = $tmp->getAttribute("name");
 
-	my $file = lc($name) . ".html";
+	my $file = "webify/" . lc($name) . ".html";
 	$file =~ tr/[ ,]/_/;
 
 	my $li = $ol->appendChild(XML::LibXML::Element->new("li"));
@@ -202,13 +204,14 @@ sub BuildIndexFiles {
 	my $file = lc($name) . ".html";
 	$file =~ tr/[ ,]/_/;
 
-	my $htmldoc = $parser->parse_html_string("<html/>");
-	my $htmlroot = $htmldoc->getDocumentElement();
+	my $htmldoc = XML::LibXML::Document->new("1.0", "UTF-8");
+	my $htmlroot = $htmldoc->createElement("html");
+	$htmldoc->setDocumentElement($htmlroot);
 	my $head = $htmlroot->appendChild(XML::LibXML::Element->new("head"));
 
 	$head->appendTextChild("title", $name);
 	my $link = $head->appendChild(XML::LibXML::Element->new("link"));
-	$link->setAttribute("href", "dqmm.css");
+	$link->setAttribute("href", "../dqmm.css");
 	$link->setAttribute("type", "text/css");
 	$link->setAttribute("rel", "stylesheet");
 	
@@ -219,8 +222,9 @@ sub BuildIndexFiles {
 	{
 	    &ProcessNode($parser, $body, $node);
 	}
-	open(OUT, ">$file");
-	print OUT $htmldoc->toString(1);
+	my $path = catfile("webify", $file);
+	open(OUT, ">:utf8", $path);
+	print OUT $htmldoc->toStringHTML();
 	close(OUT);
     }
 }
@@ -236,10 +240,13 @@ sub BuildIndexFiles {
 sub CreateIndexFile {
     my ($parser, $list) = @_;
 
-    my $htmldoc = $parser->parse_html_string("<html/>");
-    my $htmlroot = $htmldoc->getDocumentElement();
-    my $head = $htmlroot->appendChild(XML::LibXML::Element->new("head"));
+#    my $htmldoc = $parser->parse_string("<html/>");
     
+    my $htmldoc = XML::LibXML::Document->new("1.0", "UTF-8");
+    my $htmlroot = $htmldoc->createElement("html");
+    $htmldoc->setDocumentElement($htmlroot);
+    
+    my $head = $htmlroot->appendChild(XML::LibXML::Element->new("head"));
     $head->appendTextChild("title", "DragonQuest Monster Manual");
     my $link = $head->appendChild(XML::LibXML::Element->new("link"));
     $link->setAttribute("href", "dqmm.css");
@@ -265,11 +272,12 @@ sub CreateIndexFile {
 # Create new XML::LibXML parser object.
 
 my $parser = XML::LibXML->new();
+$parser->load_ext_dtd(1);
 
 # Open the current directory and get a list of all .xml files.
 
 opendir(DIR, ".") || die "Cannot open current directory.";
-@files = sort(grep(/.xml$/, readdir(DIR)));
+my @files = sort(grep(/.xml$/, readdir(DIR)));
 closedir(DIR);
 
 # Process all the files to create a list of hash references.
@@ -282,4 +290,5 @@ for $_ (@files)
 }
 
 &CreateIndexFile($parser, \@manual);
+
 map { &BuildIndexFiles($parser, $_) } @manual;

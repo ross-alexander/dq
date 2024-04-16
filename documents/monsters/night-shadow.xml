@@ -1,8 +1,4 @@
 <?xml version="1.0"?>
-<!DOCTYPE dqmm [
-<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
-%internal-entities;
-]>
 <dqmm><group name="Creatures of night and shadow"><notes>The species protrayed herein include those primarily connected with
 night and shadow and the Powers of Darkness.  They include Weres,
 Dopplegangers, Bats, and Dire Wolves.  Other species which may be
@@ -10,7 +6,7 @@ nocturnal hunters or may be at their most powerful at night are not
 included in this heading and are not af- fected by magic designed to
 call, communicate with, or control Creatures of Night and Shadow.
 Only the species listed herein are affected by these types of magic.
-</notes><monster name="Bat"><details><habitat> Caverns</habitat><frequency> Uncommon</frequency><number>  1-400 (100)
+</notes><monster name="Bat"><details><habitat> Caverns</habitat><frequency> Uncommon</frequency><number>  1–400 (100)
 </number><description> Bats are rodents with leathery wings. They are
 greyish-black in color. They are found, in dark places only as they
 are afraid of light and fire.
@@ -19,11 +15,11 @@ high-freq "pips" which reflect off of the surrounding walls. They
 have no magical abilities or other special talents and are not tool
 users.
 </talents><weapons> Bats can only attack in Close Combat, where their bite has a
-Base Chance of 40&percnt; and does [D - 7] damage. A character bitten by a
-bat has a 10&percnt; chance of contracting rabies or some other loathsome
+Base Chance of 40% and does [D − 7] damage. A character bitten by a
+bat has a 10% chance of contracting rabies or some other loathsome
 disease in addition to the possibility of infection.
 </weapons><movement>  Flying: 500
-</movement></details><stats><ps> 2-3</ps><md> None</md><ag> 18-21</ag><ma> None</ma><en> 1-2</en><ft> 2-3  </ft><wp> 6-8</wp><pc> 14-17</pc><pb> 7-9</pb><tmr> 10</tmr><na> None</na></stats></monster><monster name="Dire wolf"><details><habitat> Woods, Rough, Plains, Field, Caverns</habitat><frequency> Rare</frequency><number> 1-10 (3)
+</movement></details><stats><ps> 2–3</ps><md> None</md><ag> 18–21</ag><ma> None</ma><en> 1–2</en><ft> 2–3  </ft><wp> 6–8</wp><pc> 14–17</pc><pb> 7–9</pb><tmr> 10</tmr><na> None</na></stats></monster><monster name="Dire wolf"><details><habitat> Woods, Rough, Plains, Field, Caverns</habitat><frequency> Rare</frequency><number> 1–10 (3)
 </number><description> Dire wolves are wolves the size of ponies. Dire wolves
 will be in league with the powers of darkness and will have almost
 human intelligence. Their corpses disappear back into hell (from which
@@ -34,28 +30,28 @@ knowledge of a limited number of spells of the College of
 Ensorcelments and Enchantments or the College of the Sorceries of the
 Mind.
 </talents><weapons> Dire wolves can attack, either in Melee Combat or in Close
-Combat with their huge teeth (Base Chance of 65&percnt; [D + 6] damage).
+Combat with their huge teeth (Base Chance of 65% [D + 6] damage).
 </weapons><movement>  Running: 400
-</movement></details><stats><ps> 22-25</ps><md> 24-26</md><ag> 18-22</ag><ma> 8-12</ma><en> 20-23</en><ft> 25-30</ft><wp> 8-12</wp><pc> 19-23</pc><pb> 4-8</pb><tmr> 8</tmr><na> Fur absorbs 5 DP</na></stats></monster><monster name="Doppelganger"><details><habitat> Caverns, Rough, Crypts, Woods</habitat><frequency> Very Rare</frequency><number> 1-8 (1)
+</movement></details><stats><ps> 22–25</ps><md> 24–26</md><ag> 18–22</ag><ma> 8–12</ma><en> 20–23</en><ft> 25–30</ft><wp> 8–12</wp><pc> 19–23</pc><pb> 4–8</pb><tmr> 8</tmr><na> Fur absorbs 5 DP</na></stats></monster><monster name="Doppelganger"><details><habitat> Caverns, Rough, Crypts, Woods</habitat><frequency> Very Rare</frequency><number> 1–8 (1)
 </number><description> In their natural form, doppelgangers appear humanoid,
 with thin arms, and sharp teeth and claws. They have thick, rubbery,
 grey skin, and glowing eyes.
 </description><talents> Doppelgangers have the ability to form themselves to look
 and act like any humanoid creature that is approximately their size
-and body weight (100-250 lbs.).  Even the clothes and equipment of a
+and body weight (100–250 lbs.).  Even the clothes and equipment of a
 person can be imitated, although magical properties will not, of
 course, adhere to the duplicates. Doppelgangers read the minds of the
 people they will later imitate so as to learn things they will need to
-know to duplicate the person properly. There is a 10&percnt; chance that a
+know to duplicate the person properly. There is a 10% chance that a
 doppelganger's imitation will be detectable. See the rules governing
 multi-sense illusions in the College of Illusions.
 </talents><weapons> In their natural form, doppelgangers can make one attack
-with their bite (Base Chance of 50&percnt; [D + 3] damage). Once having
+with their bite (Base Chance of 50% [D + 3] damage). Once having
 imitated something, they right as it does / did, using the same
 weapons at a Rank two less than that achieved by the character being
 imitated.
 </weapons><movement> Running: 250
-</movement></details><stats><ps> 12-16</ps><md> 14-17</md><ag> 16-18</ag><ma> 20-25</ma><en> 8-10</en><ft> 15-20</ft><wp> 22-25</wp><pc> 15-17</pc><pb> 4-8</pb><tmr> 5</tmr><na> Skin absorbs 4 DP</na></stats><comments> Once a doppelganger has imitated someone, they will try to
+</movement></details><stats><ps> 12–16</ps><md> 14–17</md><ag> 16–18</ag><ma> 20–25</ma><en> 8–10</en><ft> 15–20</ft><wp> 22–25</wp><pc> 15–17</pc><pb> 4–8</pb><tmr> 5</tmr><na> Skin absorbs 4 DP</na></stats><comments> Once a doppelganger has imitated someone, they will try to
 kill that individual, attacking by surprise. They will then replace
 that individual until they try the same maneuver with another member
 of the party.

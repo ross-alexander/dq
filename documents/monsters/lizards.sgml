@@ -13,7 +13,7 @@ will be unintelligent.
 
 <details><habitat> All habitats except Plains and Oceans
 <frequency> Uncommon
-<number> 1-2 (1)
+<number> 1–2 (1)
 
 <description> The Basilisk is a fat reptilian creature about 5 feet
 long and 2 feet in height. These are slow, heavily-armoured lizards
@@ -39,15 +39,15 @@ back at itself, it is killed.
 
 <movement> Running: 125
 
-<PS> 6-12
+<PS> 6–12
 <MD> None
-<AG> 7-11
+<AG> 7–11
 <MA> None
-<EN> 12-14
-<FT> 15-20
-<WP> 12-16
-<PC> 15-20
-<PB> 5-7
+<EN> 12–14
+<FT> 15–20
+<WP> 12–16
+<PC> 15–20
+<PB> 5–7
 <TMR> 2
 <NA> Skin absorbs 6 DP
 
@@ -60,7 +60,7 @@ more per day).
 
 <details><habitat> Marsh, Lakes, Rivers
 <frequency> Common
-<number> 1-50 (20)
+<number> 1–50 (20)
 
 <description>
 Crocodiles are heavily scaled lizards with small sharp teeth.  They
@@ -72,20 +72,20 @@ muddy water that they love to inhabit.
 Crocodiles have no special talents, skills or magic.
 
 <weapons> Crocodiles cannot attack except in Close Combat and they
-attack with two claws (Base Chance of 50&percnt, [D - 6] Damage) and
+attack with two claws (Base Chance of 50&percnt, [D − 6] Damage) and
 their bite (Base Chance of 10&percnt, [D + 1] Damage).
 
 <movement> Running: 50; Swimming: 150
 
-<PS> 17-19
-<MD> 5-8
-<AG> 7-9
+<PS> 17–19
+<MD> 5–8
+<AG> 7–9
 <MA> None
-<EN> 7-9
-<FT> 15-18
-<WP> 7-9
-<PC> 8-10
-<PB> 7-9
+<EN> 7–9
+<FT> 15–18
+<WP> 7–9
+<PC> 8–10
+<PB> 7–9
 <TMR> 1/3
 <NA> Scales absorb 6 DP
 
@@ -103,7 +103,7 @@ is used to make primitive armour (equal to leather) and the teeth
 
 <details><habitat> Marsh (or beach)
 <frequency> Rare
-<number> 1-30 (6)
+<number> 1–30 (6)
 
 <description>
 Giant Land Turtles have the form of an ordinary turtle, with a thick
@@ -117,19 +117,19 @@ there is a 80&percnt chance that any blow will strike the shell anyway. If
 the turtle is inside its shell, all strikes will be softened by the
 shell.
 <weapons> The Land Turtle can only attack by biting in Close
-Combat. Its Base Chance is 25&percnt and its Damage is [D - 2].
+Combat. Its Base Chance is 25&percnt and its Damage is [D − 2].
 
 <movement> Running or Swimming: 100
 
-<PS> 20-25
+<PS> 20–25
 <MD> None
-<AG> 5-7
+<AG> 5–7
 <MA> None
-<EN> 15-17
-<FT> 22-24
-<WP> 10-11
-<PC> 13-15
-<PB> 7-9
+<EN> 15–17
+<FT> 22–24
+<WP> 10–11
+<PC> 13–15
+<PB> 7–9
 <TMR> 2
 <NA> Shell absorbs 8 DP
 
@@ -144,7 +144,7 @@ to keep a pace that the turtle can follow.
 
 <details><habitat> Waste
 <frequency> Rare
-<number> 1-8 (1)
+<number> 1–8 (1)
 
 <description> Gila Monsters are black and yellow lizards with short, thin
 limbs and a striped stubby tail.
@@ -153,7 +153,7 @@ limbs and a striped stubby tail.
 
 <weapons> Gila monsters can bite in Close Combat, but they cannot
 attack in Ranged or Melee Combat.  The Base Chance for their bite is
-50&percnt, and it does [D - 3] Damage.  If the bite penetrates any
+50&percnt, and it does [D − 3] Damage.  If the bite penetrates any
 armour that might be worn to do actual damage to Fatigue or Endurance,
 the target takes 2 DP per pulse (not absorbed by armour) for the next
 D10 pulses, or until an antidote to the Gila monster's poison is
@@ -161,15 +161,15 @@ administered.
 
 <movement> Running: 100
 
-<PS> 3-4
-<MD> 8-10
-<AG> 7-8
+<PS> 3–4
+<MD> 8–10
+<AG> 7–8
 <MA> None
-<EN> 4-5
-<FT> 8-10
-<WP> 7-9
-<PC> 15-17
-<PB> 7-9
+<EN> 4–5
+<FT> 8–10
+<WP> 7–9
+<PC> 15–17
+<PB> 7–9
 <TMR> 2
 <NA> Hide absorbs 2 DP
 
@@ -178,7 +178,7 @@ administered.
 
 <details><habitat> Marsh, Caverns
 <frequency> Very Rare
-<number> 1-3 (1)
+<number> 1–3 (1)
 
 <description> A Hydra is a nine-headed snake.  They are 12 to 15 feet
 long, and have thick green scales.  Hydras also have a foul smell and
@@ -212,15 +212,15 @@ effective against their venom.
 
 <movement> Crawling: 200
 
-<PS> 18-22
-<MD> 19-24
-<AG> 14-16
+<PS> 18–22
+<MD> 19–24
+<AG> 14–16
 <MA> None
-<EN> 30-35
-<FT> 40-45
-<WP> 18-23
-<PC> 14-17
-<PB> 4-6
+<EN> 30–35
+<FT> 40–45
+<WP> 18–23
+<PC> 14–17
+<PB> 4–6
 <TMR> 4
 <NA> Scales  absorb 7 DP
 
@@ -234,7 +234,7 @@ the skin without a puncture.
 
 <details><habitat> Woods and Waste
 <frequency> Uncommon
-<number> 1-4 (2)
+<number> 1–4 (2)
 
 <description> Iguanas are large lizards, sometimes reaching more than 3 feet
 in length.  They are sandy to brown in colour, and have ridges along
@@ -250,15 +250,15 @@ attack with their bite, which has a Base Chance of 50&percnt, and does
 
 <movement> Crawling: 250
 
-<PS> 9-11
+<PS> 9–11
 <MD> None
-<AG> 14-16
+<AG> 14–16
 <MA> None
-<EN> 4-6
-<FT> 8-10
-<WP> 6-8
-<PC> 10-12
-<PB> 6-8
+<EN> 4–6
+<FT> 8–10
+<WP> 6–8
+<PC> 10–12
+<PB> 6–8
 <TMR> 5
 <NA> Hide absorbs 3 DP
 
@@ -267,7 +267,7 @@ attack with their bite, which has a Base Chance of 50&percnt, and does
 <monster name="Salamander">
 <details><habitat> Waste (particularly deserts)
 <frequency> Rare
-<number> 1-2 (1)
+<number> 1–2 (1)
 
 <description> A salamander is a three foot long lizard, reddish brown in
 colour, with fiery red eyes.
@@ -287,15 +287,15 @@ Damage.
 
 <movement> Running: 350
 
-<PS> 14-17
-<MD> 8-10
-<AG> 17-20
+<PS> 14–17
+<MD> 8–10
+<AG> 17–20
 <MA> None
-<EN> 12-14
-<FT> 15-20
-<WP> 21-24
-<PC> 18-21
-<PB> 5-7
+<EN> 12–14
+<FT> 15–20
+<WP> 21–24
+<PC> 18–21
+<PB> 5–7
 <TMR> 7
 <NA> Scales absorb 4 DP
 
@@ -308,7 +308,7 @@ random fashion.
 
 <details><habitat> Marsh, Caverns (near water)
 <frequency> Rare
-<number>   1-50   (8)
+<number>   1–50   (8)
 
 <description> Suarime are basically humanoid, but they are reptilian in
 outward appearance.  They have heavy scales along the entire body, and
@@ -331,15 +331,15 @@ Chance of 35&percnt of doing [D + 1] Damage.
 
 <movement> Swimming: 300; Running: 100
 
-<PS> 23-26
-<MD> 8-11
-<AG> 8-12
-<MA> 10-15
-<EN> 14-16
-<FT> 20-24
-<WP> 14-18
-<PC> 10-14
-<PB> 8-11
+<PS> 23–26
+<MD> 8–11
+<AG> 8–12
+<MA> 10–15
+<EN> 14–16
+<FT> 20–24
+<WP> 14–18
+<PC> 10–14
+<PB> 8–11
 <TMR> 6/2
 <NA> Scales absorb 6 DP
 
@@ -351,7 +351,7 @@ underwater creatures, but they have a fondness for human flesh.
 <monster name="Wyvern (Mere Dragon)">
 <details><habitat> Rough (hills mostly), Woods, Marsh
 <frequency> Uncommon
-<number> 1-5 (2)
+<number> 1–5 (2)
 
 <description> Wyverns are distant cousins of dragons, but are smaller and not
 blessed with the intelligence of dragons.  Usually, 6 to 10 feet tall,
@@ -377,15 +377,15 @@ executed like a Shield Attack.
 
 <movement> Running: 75; Flying: 150
 
-<PS> 20-30
-<MD> 10-12
-<AG> 12-16
-<MA> 8-10
-<EN> 25-35
-<FT> 30-40
-<WP> 10-16
-<PC> 18-25
-<PB> 3-5
+<PS> 20–30
+<MD> 10–12
+<AG> 12–16
+<MA> 8–10
+<EN> 25–35
+<FT> 30–40
+<WP> 10–16
+<PC> 18–25
+<PB> 3–5
 <TMR> 1/3
 <NA> Hide absorbs 8 DP
 
@@ -408,7 +408,7 @@ prey and will usually strike only from ambush or if startled.
 
 <details><habitat>  Rough, Plains
 <frequency> Rare
-<number>  1-7 (1)
+<number>  1–7 (1)
 
 <description> The asp measures up to 20 feet in length. It has a triangular
 head, flattened towards the rear, and a short, thin tail.
@@ -416,21 +416,21 @@ head, flattened towards the rear, and a short, thin tail.
 <talents> Asps have no talents, skills or magic.
 
 <weapons> The asp can only attack in Close Combat (Base Chance of
-65&percnt, [D - 3] Damage). If they do any effective damage, the
+65&percnt, [D − 3] Damage). If they do any effective damage, the
 damage is not scored against their victim but rather they suffer 2 DP
 per pulse until they take an antidote to the venom.
 
 <movement>  Crawling: 150
 
-<PS> 2-3
+<PS> 2–3
 <MD> None
-<AG> 16-19 
+<AG> 16–19 
 <MA> None
-<EN> 1-2
-<FT> 3-4
-<WP> 14-18
-<PC> 14-17
-<PB> 8-10
+<EN> 1–2
+<FT> 3–4
+<WP> 14–18
+<PC> 14–17
+<PB> 8–10
 <TMR> 3
 <NA> None
 
@@ -442,7 +442,7 @@ very large groups may be found during hibernation.
 <monster name="King cobra">
 <details><habitat> Plains, Woods, Marsh, Rough
 <frequency> Rare
-<number> 1-8 (1)
+<number> 1–8 (1)
 
 <description> Growing to 20 feet, the king cobra is the largest of all
 poisonous snakes. It is usually dark brown in colour, With a
@@ -458,15 +458,15 @@ damage would have been inflicted, the victim is poisoned, and suffers
 2 DP per Pulse, as per nerve venom.
 
 <movement>  Crawling: 200
-<PS> 20-25
+<PS> 20–25
 <MD> None
-<AG> 15-18
+<AG> 15–18
 <MA> None
-<EN> 12-14
-<FT> 15-20
-<WP> 14-18
-<PC> 12-17
-<PB> 7-9
+<EN> 12–14
+<FT> 15–20
+<WP> 14–18
+<PC> 12–17
+<PB> 7–9
 <TMR> 4
 <NA> None
 
@@ -475,7 +475,7 @@ damage would have been inflicted, the victim is poisoned, and suffers
 <monster name="Mamba">
 <details><habitat> Woods, Marsh
 <frequency> Rare
-<number> 1-4 (1)
+<number> 1–4 (1)
 
 <description>  These snakes are not very large (less than 3 feet),
 but their poison fangs grow to great size. They come in either
@@ -492,15 +492,15 @@ deadly found in nature: a victim takes 4 DP per Pulse until an
 antidote is taken.
 
 <movement>  Crawling: 100
-<PS> 2-3
+<PS> 2–3
 <MD> None
-<AG> 12-15
+<AG> 12–15
 <MA> None
-<EN> 4-5
-<FT> 6-8
-<WP> 14-18
-<PC> 12-16
-<PB> 8-11
+<EN> 4–5
+<FT> 6–8
+<WP> 14–18
+<PC> 12–16
+<PB> 8–11
 <TMR> 2
 <NA>    None
 </monster>
@@ -508,7 +508,7 @@ antidote is taken.
 <monster name="Python">
 <details><habitat> Woods, Marsh
 <frequency> Rare
-<number>  1-2 (1)
+<number>  1–2 (1)
 
 <description> The python is green and black, and sometimes reaches a
 length of 33 feet.
@@ -526,15 +526,15 @@ longer bite until it has squeezed its prey to death.
 
 <movement>  Crawling: 150
 
-<PS> 45-50
+<PS> 45–50
 <MD> None
-<AG> 8-12
+<AG> 8–12
 <MA> None
-<EN> 25-30
-<FT> 30-35
-<WP> 12-16
-<PC> 14-18
-<PB> 6-9
+<EN> 25–30
+<FT> 30–35
+<WP> 12–16
+<PC> 14–18
+<PB> 6–9
 <TMR> 3
 <NA> Scales absorb 3 DP
 </monster>
@@ -542,7 +542,7 @@ longer bite until it has squeezed its prey to death.
 <monster name="Spitting naja">
 <details><habitat> Rough, Woods
 <frequency> Rare
-<number> 1-2 (1)
+<number> 1–2 (1)
 
 <description> The spitting naja is a form of Cobra, without the hood,
 but with the ability-to spit their venom. Their scales are usually
@@ -562,15 +562,15 @@ blinding the victim) until an antidote is administered.
 
 <movement>  Crawling: 150
 
-<PS> 10-12
+<PS> 10–12
 <MD> None
-<AG> 16-18
+<AG> 16–18
 <MA> None
-<EN> 8-10
-<FT> 12-17
-<WP> 12-16
-<PC> 11-16
-<PB> 8-11
+<EN> 8–10
+<FT> 12–17
+<WP> 12–16
+<PC> 11–16
+<PB> 8–11
 <TMR> 3
 <NA> Scales absorb 1 DP
 </monster>
@@ -587,10 +587,10 @@ Killer Bee, scorpions and tarantulas.
 <monster name="Black widow spider">
 <details><habitat> Waste, Rough
 <frequency> Very Rare
-<number> 1-4 (1)
+<number> 1–4 (1)
 
 <description> Black widows are small, black spiders with thin hairless
-legs and a red hourglass marking on their backs. They are 2-3 inches
+legs and a red hourglass marking on their backs. They are 2–3 inches
 long.
 
 <talents> Black widows have no special talents, skills or magical
@@ -607,13 +607,13 @@ poison does 3 DP/Pulse for D10 Pulses until an antidote is applied.
 
 <PS> 1
 <MD> None
-<AG> 18-20
+<AG> 18–20
 <MA> None
 <EN> 1
 <FT> None
-<WP> 4-6
-<PC> 10-12
-<PB> 3-5
+<WP> 4–6
+<PC> 10–12
+<PB> 3–5
 <TMR> 1
 <NA> None
 </monster>
@@ -621,7 +621,7 @@ poison does 3 DP/Pulse for D10 Pulses until an antidote is applied.
 <monster name="Fire ant">
 <details><habitat> Plains
 <frequency> Uncommon
-<number>  500-5000 (500)
+<number>  500–5000 (500)
 
 <description> A Fire Ant is a bright red ant about 2 inches long.
 
@@ -639,13 +639,13 @@ character takes 2 DP. Otherwise there is no effect.
 
 <PS> 1  
 <MD> None
-<AG> 11-13
+<AG> 11–13
 <MA> None
 <EN> 1
 <FT> None 
-<WP> 5-7
-<PC> 10-12
-<PB> 2-4
+<WP> 5–7
+<PC> 10–12
+<PB> 2–4
 <TMR> 3
 <NA> None
 
@@ -658,7 +658,7 @@ it is put in the ants' path, they will go around it if possible.
 <monster name="Killer bee">
 <details><habitat> Woods, Plains
 <frequency> Uncommon
-<number> 1-300 (200)
+<number> 1–300 (200)
 
 <description> A killer bee looks like a normal bee except that it is
 about an inch and a half long.
@@ -677,13 +677,13 @@ the die roll above) it dies.
 <movement>  Flying: 500
 <PS> 1
 <MD> None
-<AG> 20-22
+<AG> 20–22
 <MA> None
 <EN> 1
 <FT> None
-<WP> 7-9
-<PC> 15-17
-<PB> 6-8
+<WP> 7–9
+<PC> 15–17
+<PB> 6–8
 <TMR> 10
 <NA>  None
 </monster>
@@ -691,7 +691,7 @@ the die roll above) it dies.
 <monster name="Scorpion">
 <details><habitat> Waste, Rough
 <frequency> Rare
-<number>  1-20 (1)
+<number>  1–20 (1)
 
 <description> A scorpion is a black-coloured insect about 4 inches
 long. The most prominent feature of a scorpion is its tail, which
@@ -709,13 +709,13 @@ antidote is applied.
 <movement>  Crawling: 150
 <PS> 1
 <MD> None
-<AG> 18-20
+<AG> 18–20
 <MA> None
 <EN> 1
 <FT> 1
-<WP> 8-10
-<PC> 11-13
-<PB> 4-5
+<WP> 8–10
+<PC> 11–13
+<PB> 4–5
 <TMR> 3
 <NA> None
 
@@ -729,7 +729,7 @@ town.
 <details
 ><habitat> Waste
 <frequency> Rare
-<number>  1-6 (1)
+<number>  1–6 (1)
 
 <description> Tarantulas are large, very hairy spiders about 4 inches
 across.
@@ -746,13 +746,13 @@ Rating, the creature suffers D-4 Damage due to the tarantula's poison.
 <movement>  Running: 75
 <PS> 1
 <MD> None
-<AG> 16-18
+<AG> 16–18
 <MA> None
 <EN> 1 
 <FT> None
-<WP> 4-6
-<PC> 9-11
-<PB> 2-4
+<WP> 4–6
+<PC> 9–11
+<PB> 2–4
 <TMR> 1
 <NA> None
 

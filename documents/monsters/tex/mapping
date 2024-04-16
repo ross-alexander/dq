@@ -53,7 +53,5 @@
 <na>		+ "\\textbf{NA:} "
 </na>		+ "\\\\\n"
 </stats>	+ "\\end{mmstats}\n" +
-<comments>	+ "\n\\begin{description}\n"
-		  "\\setlength\\itemsep{0pt}\n"
-		  "\n\\item\[Comments\]"
-</comments>	+ "\n\\end{description}\n" +
+<comments>	+ "\n\\begin{mmcomment}\n"
+</comments>	+ "\n\\end{mmcomment}\n" +

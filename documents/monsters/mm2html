@@ -18,4 +18,4 @@ OUTPUT=`echo $INPUT | sed 's/.sgml/.html/'`
 SGML_PATH=$PWD/html/%N:$PWD/%N.dtd:$PWD/%P.dtd
 export SGML_PATH
 
-$SGMLS -D $PRD/html dqmm.decl $INPUT | $SGMLSASP $PWD/html/mapping > $OUTPUT
+SP_CHARSET_FIXED=1 SP_ENCODING=UTF-8 $SGMLS -D $PWD/html dqmm.decl $INPUT | $SGMLSASP $PWD/html/mapping > $OUTPUT

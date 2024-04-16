@@ -1,3 +1,5 @@
+.suffix: .pdf .fo .tex .html .xml
+
 LATEX	= latex
 XELATEX	= xelatex
 SX	= osx
@@ -10,14 +12,14 @@ LDLIBS	= `pkg-config --libs libxml-2.0 libxslt`
 %.fo	: %.xml xml2fo.xsl
 	xsltproc -o $@ xml2fo.xsl $<
 
-%.tex : %.sgml tex/mapping
-	./mm2tex $<
+%.tex : %.sgml dqmm.dtd tex/mapping
+	./sgmlcvt --format tex $< $@
 
-%.html : %.sgml
-	./mm2html $<
+%.html : %.sgml dqmm.dtd html/mapping
+	./sgmlcvt --format html $< $@
 
-%.xml : %.sgml dqmm.dtd
-	$(SX) -Dxml -xno-nl-in-tag -xno-expand-internal -xno-expand-external -xlower $< > $@
+%.xml : %.sgml dqmm.dtd xml/general
+	./sgmlcvt --format xml $< $@
 
 SOURCE = avians.sgml \
 	aquatics.sgml \
@@ -36,7 +38,7 @@ HTML = $(SOURCE:.sgml=.html)
 TEX = $(SOURCE:.sgml=.tex)
 XML = $(SOURCE:.sgml=.xml)
 
-all: dqmm.pdf xslt
+all: $(HTML) $(XML) $(TEX)
 
 xslt.o : xslt.c
 

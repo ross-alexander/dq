@@ -2,20 +2,17 @@
 </dqmm>		+
 
 <group>		+ "<html charset=\"UTF-8\">"
-		"<head>"
-		"<title>[NAME]</title>"
-		"<link rel=\"stylesheet\" href=\"dqmm.css\">"
+		"<head>\n"
+		"<title>[NAME]</title>\n"
+		"<link rel=\"stylesheet\" href=\"dqmm.css\">\n"
 		"</head>\n\n<body><h1>[NAME]</h1>\n" +
 </group>	+ "</body>"
 		"</html>" +
 
 <class>		+ "<h2>[NAME]</h2>" +
 
-<monster>	+ "<h3>[NAME]</h3>" +
-</monster>	+
-
-<heading>	+
-</heading>	+ "<p>" +
+<monster>	+ "<div class=\"monster\"><h3>[NAME]</h3>" +
+</monster>	+ "</div>" +
 
 <details>	+ "<dl>" +
 </details>	+ "</dl>" +
@@ -34,6 +31,7 @@
 </comments>     + "</dl>" +
 
 <stats>		+ "<table class=\"stats\">" +
+</stats>	+ "</table>" +
 
 <ps>		+ "<tr><td><strong>PS</strong> " +
 </ps>		+ "</td>" +
@@ -68,5 +66,3 @@
 
 <na>		+ "<td Colspan=\"2\"><strong>NA</strong> " +
 </na>		+ "</td></tr>" +
-
-</stats>	+ "</table>" +

@@ -35,19 +35,19 @@ very large ears and reach about four feet at the shoulders.
 <talents> No special talents, magic, or other abilities. They are not
 tool users.
 
-<weapons> Kick: BC = 40&percnt, [D + 3] damage. Bite: BC = 25%, [D - 3] damage.
+<weapons> Kick: BC = 40&percnt, [D + 3] damage. Bite: BC = 25%, [D − 3] damage.
 
 <movement>  Running: 500
 
-<PS> 40-45
+<PS> 40–45
 <MD> None
-<AG> 16-19
+<AG> 16–19
 <MA> None
-<EN> 18-22
-<FT> 33-38
-<WP> 10-12 
-<PC> 19-21
-<PB> 9-11
+<EN> 18–22
+<FT> 33–38
+<WP> 10–12 
+<PC> 19–21
+<PB> 9–11
 <TMR> 10
 <NA> Hide absorbs 3 DP
 
@@ -75,15 +75,15 @@ magic. They are not tool users.
 
 <movement>  Running: 500
 
-<PS> 60-65
+<PS> 60–65
 <MD> None
-<AG> 13-15
+<AG> 13–15
 <MA> None
-<EN> 26-32
-<FT> 55-63
-<WP> 8-10
-<PC> 14-18
-<PB> 8-10
+<EN> 26–32
+<FT> 55–63
+<WP> 8–10
+<PC> 14–18
+<PB> 8–10
 <TMR> 10
 <NA> Hide absorbs 3 DP
 
@@ -109,19 +109,19 @@ feet high at the shoulders.
 <talents> Mules possess no special talents, magic, or other
 abilities. They are not tool users.
 
-<weapons>  Kick: BC 40&percnt, [D + 4] damage. Bite: BC 20%, [D - 2] damage.
+<weapons>  Kick: BC 40&percnt, [D + 4] damage. Bite: BC 20%, [D − 2] damage.
 
 <movement>  Running: 450
 
-<PS> 40-50
+<PS> 40–50
 <MD> None
-<AG> 17-20
+<AG> 17–20
 <MA> None
-<EN> 20-25
-<FT> 40-45
-<WP> 10-12
-<PC> 18-20
-<PB> 9-11
+<EN> 20–25
+<FT> 40–45
+<WP> 10–12
+<PC> 18–20
+<PB> 9–11
 <TMR> 9
 <NA> Hide 3 DP
 
@@ -138,7 +138,7 @@ mistreated, in which rase they become stubborn and vicious.
 <details>
 <habitat>  Plains
 <frequency> Rare 
-<number> 1-50 (30)
+<number> 1–50 (30)
 
 <description> Mustangs are wild horses. They are smaller than most
 domestic animals, usually about four and a half feet at the shoulder.
@@ -150,15 +150,15 @@ are not tool users.
 <weapons> Kick: BC = 45&percnt, [D + 4] damage. Bite: BC = 25%, [D + 0]
 damage.
 <movement>  Running: 600
-<PS> 40-50
+<PS> 40–50
 <MD> None
-<AG> 18-21
+<AG> 18–21
 <MA> None
-<EN> 18-23
-<FT> 36-42
-<WP> 11-13
-<PC> 20-22
-<PB> 9-11
+<EN> 18–23
+<FT> 36–42
+<WP> 11–13
+<PC> 20–22
+<PB> 9–11
 <TMR> 12
 <NA> Hide absorbs 3 DP
 
@@ -183,19 +183,19 @@ pounds.
 <talents> Palfries possess no special talents, skills, or magic. They
 are not toot users.
 
-<weapons> Kick: BC = 40&percnt, [D + 3] damage.  Bite: BC = 2O%, [D - 2]
+<weapons> Kick: BC = 40&percnt, [D + 3] damage.  Bite: BC = 2O%, [D − 2]
 damage.
 <movement>  Running: 650
 
-<PS> 38-43
+<PS> 38–43
 <MD> None
-<AG> 16-19
+<AG> 16–19
 <MA> None
-<EN> 18-21
-<FT> 30-35
-<WP> 8-10
-<PC> 16-18
-<PB> 11-13
+<EN> 18–21
+<FT> 30–35
+<WP> 8–10
+<PC> 16–18
+<PB> 11–13
 <TMR> 13
 <NA> Hide absorbs 3 DP
 
@@ -218,20 +218,20 @@ are between three and four feet high at the shoulder.
 <talents> Ponies possess no special talents, magic, or other
 abilities. They are not tool users.
 
-<weapons> Kick: BC = 20&percnt, [D - 1] damage.  Bite: BC = 15%, [D - 4]
+<weapons> Kick: BC = 20&percnt, [D − 1] damage.  Bite: BC = 15%, [D - 4]
 damage.
 
 <movement>  Running: 350
 
-<PS> 19-24
+<PS> 19–24
 <MD> None
-<AG> 13-15
+<AG> 13–15
 <MA> None
-<EN> 12-14
-<FT> 20-22  
-<WP> 9-11
-<PC> 16-19
-<PB> 10-12 
+<EN> 12–14
+<FT> 20–22  
+<WP> 9–11
+<PC> 16–19
+<PB> 10–12 
 <TMR> 7
 <NA>  Hide absorbs 3 DP
 
@@ -253,19 +253,19 @@ weigh about half a ton.
 <talents> Quarterhorses possess no special talents, skills, or
 magic. They are not tool users.
 
-<weapons> Kick: BC = 45&percnt, [D + 5] damage.  Bite: BC = 20%, [D - 1]
+<weapons> Kick: BC = 45&percnt, [D + 5] damage.  Bite: BC = 20%, [D − 1]
 damage.
 <movement>  Running: 600
 
-<PS> 40-45
+<PS> 40–45
 <MD> None
-<AG> 17-20
+<AG> 17–20
 <MA> None
-<EN> 18-23
-<FT> 35-40
-<WP> 9-10
-<PC> 17-19
-<PB> 10-12
+<EN> 18–23
+<FT> 35–40
+<WP> 9–10
+<PC> 17–19
+<PB> 10–12
 <TMR> 12
 <NA> Hide absorbs 3 DP
 
@@ -308,15 +308,15 @@ willingly enter Close Combat if their rider directs them to do so.
 
 <movement>  Running: 500
 
-<PS> 55-60
+<PS> 55–60
 <MD> None
-<AG> 16-19
+<AG> 16–19
 <MA> None
-<EN> 25-30
-<FT> 50-60
-<WP> 9-11
-<PC> 16-18
-<PB> 9-11
+<EN> 25–30
+<FT> 50–60
+<WP> 9–11
+<PC> 16–18
+<PB> 9–11
 <TMR> 10
 <NA> Hide absorbs 3 DP
 

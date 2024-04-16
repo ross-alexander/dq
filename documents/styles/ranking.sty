@@ -1,12 +1,16 @@
-%% ranking.sty
-%%
-%% Style sheet for DQ ranking.
-%%
-%% Originally written for LaTeX2e with pdflatex it now expects to be run with xelatex or lualatex.
-%%
-%% 2020-06-20: Ross Alexander
-%%    Use geometry for margins
-%%    Set specific fonts for adventure, heading and ranking columns
+% ----------------------------------------------------------------------
+%
+% ranking.sty
+%
+% Style sheet for DQ ranking.
+%
+% Originally written for LaTeX2e with pdflatex it now expects to be run with xelatex or lualatex.
+%
+% 2020-06-20: Ross Alexander
+%    Use geometry for margins
+%    Set specific fonts for adventure, heading and ranking columns
+%
+% ----------------------------------------------------------------------
 
 \usepackage{ifpdf,ifxetex,ifluatex}
 
@@ -29,7 +33,7 @@
 \RequirePackage{fancyhdr}
 \RequirePackage{ifthen}
 \RequirePackage[margin=10mm,top=20mm,bottom=15mm]{geometry}
-\RequirePackage[skip=2pt plus 2pt, indent=0mm]{parskip}
+\RequirePackage[skip=2pt plus 4pt, indent=0mm]{parskip}
 
 \NewTblrEnviron{dqtblr}
 \SetTblrInner[dqtblr]{rowsep=0.0mm,stretch=0.9,width=\linewidth,hlines={0.2mm,magenta2},vlines={0.2mm,magenta2}}
@@ -43,16 +47,17 @@ row{1}={c,font=\bfseries}}
 \ProcessOptions
 
 \ifxetex
-  \newfontfamily{\headingfont}{TeX Gyre Schola}
-  \newfontfamily{\adventurefont}[Scale=2.4]{KellsFLF}
-  \newfontfamily{\rankingsf}[Scale=0.9,Color=blue]{Raleway}
-  \newfontfamily{\rankingtt}[Scale=0.9,Color=blue]{Courier Prime}
+  \newfontfamily{\headingfont}[Ligatures=TeX]{TeX Gyre Schola}
+  \newfontfamily{\adventurefont}[Scale=2.4,Ligatures=TeX]{KellsFLF}
+%  \newfontfamily{\rankingsf}[Scale=0.9,Color=blue,Ligatures=TeX]{Raleway}
+  \newfontfamily{\rankingsf}[Scale=0.9,Color=blue,Ligatures=TeX]{TeX Gyre Heros}
+  \newfontfamily{\rankingtt}[Scale=0.9,Color=blue,Ligatures=TeX]{Courier Prime}
 \fi
 
 %%% GLOBAL LAYOUT THINGS
 
-\setlength\parindent{0.0 mm}
-\addtolength{\parskip}{2.0 mm}
+% \setlength\parindent{0.0 mm}
+% \addtolength{\parskip}{2.0 mm}
 
 \setlength\headsep{5pt}
 

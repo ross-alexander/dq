@@ -23,8 +23,8 @@ has a 20&percnt chance of hitting it on any successful Strike Check.  The
 Armor Protection Rating at this spot will be 1 or 2.
 <br>
 All dragons are highly intelligent. Most dragons will be able to speak
-1-5 human tongues at Rank 10, and 10-15 other human and humanoid
-languages at Rank 6-8.  The least intelligent of dragons will be as
+1–5 human tongues at Rank 10, and 10-15 other human and humanoid
+languages at Rank 6–8.  The least intelligent of dragons will be as
 bright as the average human, and most will be ultra-intelligent by
 human standards.
 <br>
@@ -89,7 +89,7 @@ motionless in the air, their wings beating furiously, creating blasts
 of wind beneath them.
 <br>
 Dragons are usually encountered alone, although rarely (10&percnt) a lair
-will be occupied by a female with [D - 6] young dragons (40&percnt) or [D -
+will be occupied by a female with [D − 6] young dragons (40&percnt) or [D -
 2] eggs (60&percnt).
 <br>
 Dragons' blood is highly corrosive; any time a weapon penetrates a
@@ -205,7 +205,7 @@ color.
 dragon can also use all the talents, spell and rituals of the College
 of Ensorcelments and Enchantments or Illusions at Rank 20.  A black
 dragon's breath cone is 40 feet in length and 20 feet in width at the
-base, and does [D + 15]. A black dragon can breathe fire [D -6] times
+base, and does [D + 15]. A black dragon can breathe fire [D − 6] times
 per day or a minimum of 1 time.  A black dragon uses all counterspells
 at Rank 20.
 <weapons> The Base Chance for a black dragon's bite is 50&percnt, with
@@ -215,15 +215,15 @@ damage, while the tail's Base Chance is 50&percnt, with [D + 6] damage.
 
 <movement>  Flying 850; Running: 300
 
-<PS> 220-240
-<MD> 20-22
-<AG> 20-22
-<MA> 30-35
-<EN> 70-80
-<FT> 100-120  
-<WP> 30-34
-<PC> 28-32
-<PB> 2-4
+<PS> 220–240
+<MD> 20–22
+<AG> 20–22
+<MA> 30–35
+<EN> 70–80
+<FT> 100–120  
+<WP> 30–34
+<PC> 28–32
+<PB> 2–4
 <TMR> 17/6
 <NA> Top scales absorb 10 DP
 <comments> Black dragons are questers for knowledge, and they will
@@ -252,15 +252,15 @@ blue dragon cannot breathe fire.
 
 <movement>  Flying: 700; Running: 250
 
-<PS> 230-250
-<MD> 16-18
-<AG> 15-17
-<MA> 30-35
-<EN> 75-85
-<FT> 100-120
-<WP> 30-34
-<PC> 28-32
-<PB> 2-4
+<PS> 230–250
+<MD> 16–18
+<AG> 15–17
+<MA> 30–35
+<EN> 75–85
+<FT> 100–120
+<WP> 30–34
+<PC> 28–32
+<PB> 2–4
 <TMR> 14/5
 <NA> Top scales absorb 11 DP
 
@@ -297,15 +297,15 @@ damage [D + 11]. The two claws have a Base Chance of 50&percnt, with damage
 
 <movement>  Flying: 850; Runnine: 300
 
-<PS> 300-320
-<MD> 20-24
-<AG> 18-20
-<MA> 32-37
-<EN> 90-100
-<FT> 140-160
-<WP> 32-37
-<PC> 30-35
-<PB> 5-7
+<PS> 300–320
+<MD> 20–24
+<AG> 18–20
+<MA> 32–37
+<EN> 90–100
+<FT> 140–160
+<WP> 32–37
+<PC> 30–35
+<PB> 5–7
 <TMR> 17/6
 <NA>  Top scales absorb 12 DP.
 
@@ -339,15 +339,15 @@ damage [D + 4].
 
 <movement>  Flying: 700; Running: 250
 
-<PS> 300-350
-<MD> 19-21
-<AG> 17-19
-<MA> 22-25
-<EN> 85-95
-<FT> 120-150
-<WP> 27-33
-<PC> 27-30
-<PB> 2-4
+<PS> 300–350
+<MD> 19–21
+<AG> 17–19
+<MA> 22–25
+<EN> 85–95
+<FT> 120–150
+<WP> 27–33
+<PC> 27–30
+<PB> 2–4
 <TMR> 14/5
 
 <NA> Top scales absorb 12 DP
@@ -381,15 +381,15 @@ while the tail's Base Chance is 60&percnt, with damage [D + 2].
 
 <movement>  Flying: 750;Running: 250
 
-<PS> 250-300
-<MD> 18-20
-<AG> 16-18
-<MA> 25-30   
-<EN> 10-90
-<FT> 110-140  
-<WP> 30-35
-<PC> 21-30
-<PB> 2-4
+<PS> 250–300
+<MD> 18–20
+<AG> 16–18
+<MA> 25–30   
+<EN> 10–90
+<FT> 110–140  
+<WP> 30–35
+<PC> 21–30
+<PB> 2–4
 <TMR> 15/5
 <NA> Top scales absorb 12 DP
 
@@ -424,15 +424,15 @@ damage, while the tail's Base Chance is 65&percnt, with [D + 3] damage.
 
 <movement>  Flying: 700, Running: 300
 
-<PS> 280-320
-<MD> 20-22
-<AG> 18-20 
-<MA> 24-27
-<EN> 80-90
-<FT> 110-140
-<WP> 26-32
-<PC> 27-30
-<PB> 2-4
+<PS> 280–320
+<MD> 20–22
+<AG> 18–20 
+<MA> 24–27
+<EN> 80–90
+<FT> 110–140
+<WP> 26–32
+<PC> 27–30
+<PB> 2–4
 <TMR> 14/6
 <NA> Top scales absorb 11 DP
 

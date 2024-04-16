@@ -8,7 +8,7 @@
 <desclist>
 <habitat> Plains, waste
 <frequency> Common
-<number> 1-60 (10)
+<number> 1–60 (10)
 
 <description> These birds have dark brown plummage and thin,
 unfeathered necks of a tannish color. Their beaks are black and
@@ -21,21 +21,21 @@ eyesight, buzzards possess no special talents, skills or magic. They
 are not tool users.
 
 <weapons> A buzzard attacks in Close Combat with its claws and
-beak. The claws' Base Chance is 45&percnt, for [D - 5] Damage, while the
-bite's Base Chance is 40&percnt, for [D - 6] Damage. A buzzard cannot attack
+beak. The claws' Base Chance is 45&percnt, for [D − 5] Damage, while the
+bite's Base Chance is 40&percnt, for [D − 6] Damage. A buzzard cannot attack
 in Melee Combat.
 
 <movement>  Flying: 600
 
-<PS> 3-5
-<MD> 15-17
-<AG> 14-16
+<PS> 3–5
+<MD> 15–17
+<AG> 14–16
 <MA> None
-<EN> 6-7
-<FT> 9-11
-<WP> 8-10
-<PC> 17-20
-<PB> 8-10
+<EN> 6–7
+<FT> 9–11
+<WP> 8–10
+<PC> 17–20
+<PB> 8–10
 <TMR> 12
 <NA> Feathers absorb 1 DP
 </monster>

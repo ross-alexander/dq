@@ -13,7 +13,7 @@ usually of great value in the marketplace.
 
 <details><habitat> Woods, Marsh, Rough, Caverns, Plains
 <frequency> Uncommon
-<number> 2-20 (4)
+<number> 2–20 (4)
 
 <description> Centaurs are half-man, half-horse. They are human down
 to the hips, but they join the body of a horse where the neck would
@@ -22,37 +22,36 @@ top half is that of a normal man.
 
 <talents> Centaurs can have all the abilities and skills of a human.
 Centaurs in general are good with bows and at hunting, and have an
-  affinity for healing and the art of prophecy.
+affinity for healing and the art of prophecy.
 
 <weapons> Centaurs use weapons as do men. They will usually have Rank
 in one or more of their weapons.
 
 <movement> Running: 600
 
-<PS> 10-30   
-<MD> 5-20
-<AG> 10-23
-<MA> 5-23
-<EN> 12-20
-<FT> 20-30
-<WP> 7-26
-<PC> 10-30
-<PB> 12-17
+<PS> 10–30   
+<MD> 5–20
+<AG> 10–23
+<MA> 5–23
+<EN> 12–20
+<FT> 20–30
+<WP> 7–26
+<PC> 10–30
+<PB> 12–17
 <TMR> 12
 <NA> Hide absorbs 3 DP
 
 <comments> Centaurs cannot resist alcohol and become violent when
-drunk. Centaurs will only rarely let a human ride them, and only then
-at pressing need. They eat raw flesh (including human flesh), and will
-often abduct young maidens for food and other purposes.
-
+drunk.  Centaurs will only rarely let a human ride them, and only then
+at pressing need.  They eat raw flesh (including human flesh), and
+will often abduct young maidens for food and other purposes.
 </monster>
 
 <monster name="Chimaera">
 
 <details><habitat> Woods, Rough, Caverns, Ruins
 <frequency> Very Rare
-<number> 1-3 (1)
+<number> 1–3 (1)
 
 <description> The chimaera has tHe head of a goat, the foreparts of a
 lion, and the rear section of a dragon.  Chimaeras are large (up to 12
@@ -70,22 +69,22 @@ that of a huge lion (Base Chance of 75&percnt + 8 damage).
 
 <movement>  Running: 500
 
-<PS> 28-32
-<MD> 25-28
-<AG> 15-20
+<PS> 28–32
+<MD> 25–28
+<AG> 15–20
 <MA> None
-<EN> 20-22
-<FT> 30-34
-<WP> 14-19
-<PC> 13-20
-<PB> 3-7
+<EN> 20–22
+<FT> 30–34
+<WP> 14–19
+<PC> 13–20
+<PB> 3–7
 <TMR> 10
 <NA> Hide absorbs 8 DP
 
 <comments> Chimaera thrive on ruin, and the area surrounding one of
 their lairs will be a burned wasteland. In the area surrounding the
 lair, or occasionally in the lair itself, there may be victims with
-some treasure (25&percnt, 1-6 bodies with 100-600 Silver Pennies, 25% each
+some treasure (25&percnt, 1–6 bodies with 100-600 Silver Pennies, 25% each
 has something else of value), but otherwise chimaera do not hoard
 wealth as do dragons.
 
@@ -95,7 +94,7 @@ wealth as do dragons.
 
 <details><habitat> Caverns, Ruins
 <frequency> Uncommon
-<number>   1-6 (1)
+<number>   1–6 (1)
 
 
 <description> A giant amoeba is a shapeless, flowing creature between
@@ -117,13 +116,13 @@ will be consumed.
 <movement>  Crawling: 50
 <PS> None
 <MD> None
-<AG> 3-4
+<AG> 3–4
 <MA> None
-<EN> 10-12  
-<FT> 20-24
-<WP> 6-8
-<PC> 6-8
-<PB> 3-5
+<EN> 10–12  
+<FT> 20–24
+<WP> 6–8
+<PC> 6–8
+<PB> 3–5
 <TMR> 1
 <NA> None
 
@@ -139,7 +138,7 @@ amoeba normally.
 
 <details><habitat> Woods and Wilderness (lairs in caverns)
 <frequency> Very rare 
-<number>  1-3 (1)
+<number>  1–3 (1)
 
 <description> Gorgons are physically humanoid, but boast a headful of
 writhing green snakes of a venomous nature. They also have hypnotic,
@@ -155,7 +154,7 @@ character facing a gorgon must roll four times Willpower or less each
 pulse that they face the beast or they succumb to her blandishments,
 looks into her eyes and is turned to stone.
 <weapons> In addition to her eyes, the Gorgon may Melee Attack with
-claws (Base Chance of 50&percnt, + 4 damage, Rank of 1-5) or Close Combat
+claws (Base Chance of 50&percnt, + 4 damage, Rank of 1–5) or Close Combat
 using claws, teeth and hair (Base Chance of 30&percnt, [D + 0] damage, but
 possible poisoning as from an asp bite and no Rank). Gorgons may
 attack using hair, teeth and claws in the same pulse. The gorgon may
@@ -164,14 +163,14 @@ attempt to turn a character to stone any time.
 
 <movement> Running: 250
 
-<PS> 10-13
-<MD> 12-15  
-<AG> 10-14
-<MA> 15-18
-<EN> 10-14   
-<FT> 15-19
-<WP> 16-20
-<PC> 16-18
+<PS> 10–13
+<MD> 12–15  
+<AG> 10–14
+<MA> 15–18
+<EN> 10–14   
+<FT> 15–19
+<WP> 16–20
+<PC> 16–18
 <PB> Always 0
 <TMR> 5
 <NA> None
@@ -186,7 +185,7 @@ faces the gorgon's front and requires no action.
 
 <details><habitat> Rough, Caverns
 <frequency> Rare
-<number> 1-6 (1)
+<number> 1–6 (1)
 
 <description> Manticores have the body of a lion, bat-like wings, and
 the head of a human, although larger to fit their bodies. At the tip
@@ -207,15 +206,15 @@ their claws.
 
 <movement> Flying: 500; Running: 350
 
-<PS> 28-32
-<MD> 20-25
-<AG> 26-30
+<PS> 28–32
+<MD> 20–25
+<AG> 26–30
 <MA> None
-<EN> 12-14
-<FT> 20-25
-<WP> 12-18
-<PC> 12-18
-<PB> 3-6
+<EN> 12–14
+<FT> 20–25
+<WP> 12–18
+<PC> 12–18
+<PB> 3–6
 <TMR> 10/7
 <NA> Fur absorbs 8 DP
 
@@ -231,7 +230,7 @@ cave.
 
 <details><habitat> Caverns, Woods, Rough.
 <frequency> Very Rare
-<number> 1-6 (1)
+<number> 1–6 (1)
 
 <description> Minotaurs are humanoid, with the head of a bull and a
 very hairy hide. They have a tail, just like that of a bull.
@@ -240,8 +239,8 @@ very hairy hide. They have a tail, just like that of a bull.
 talents. They are tool users and will sometimes use simple weapons.
 <weapons>  A minotaur can attack by butting with his horns,
 biting, or attacking A,ith a weapon. Butt: Base Chance of 40&percnt,
-[D + 3] damage. Bite: Base Chance of 30&percnt, [D - 1] damage. A
-minotaur will hold Rank 1-5 with whatever weapon it uses. The
+[D + 3] damage. Bite: Base Chance of 30&percnt, [D − 1] damage. A
+minotaur will hold Rank 1–5 with whatever weapon it uses. The
 minotaur can use any combination of two of these attacks in
 any one pulse A,ithout penalty. in Close Combat the minotaur
 can use only his bite, but the Base Chance goes up to 50&percnt;.
@@ -249,15 +248,15 @@ can use only his bite, but the Base Chance goes up to 50&percnt;.
 
 <movement>  Running: 300
 
-<PS> 22-26
-<MD> 18-20
-<AG> 14-17
+<PS> 22–26
+<MD> 18–20
+<AG> 14–17
 <MA> None
-<EN> 14-16
-<FT> 22-25  
-<WP> 14-16
-<PC> 18-20
-<PB> 4-7
+<EN> 14–16
+<FT> 22–25  
+<WP> 14–16
+<PC> 18–20
+<PB> 4–7
 <TMR> 6
 <NA> Hide absorbs 6 DP
 <comments>  Minotaurs are particularly vicious, and will attack
@@ -271,21 +270,21 @@ the dark, and will only rarely be found in the open after sunup.
 
 <details><habitat> Crypts, Marsh 
 <frequency> Very Rare
-<number> 1-6 (1)
+<number> 1–6 (1)
 <description>  Nagas are humanoid above the waist, and have
 the body of a serpent below. Male nagas have the upper half Of
 a man, while nagians (female nagas) have the upper half of a
-woman. Both types will usually be 10-12 feet long.
+woman. Both types will usually be 10–12 feet long.
 
 <talents> Nagas are frequently (85&percnt) members of one of the Colleges of
-Thaumaturgies. If a naga is a magic-user, it will have Rank 2-8 with
+Thaumaturgies. If a naga is a magic-user, it will have Rank 2–8 with
 each of the General Knowledge spells, talents, and rituals, and will
-have Rank 1-5 with those Special Knowledge spells and rituals that
-they know (Usually 5-10 will be known). Nagas can also read the minds
+have Rank 1–5 with those Special Knowledge spells and rituals that
+they know (Usually 5–10 will be known). Nagas can also read the minds
 of any that they can see, understanding both the thoughts and
 intentions of the subject. This talent cannot be resisted.
 <weapons> Naga will use ordinary edged weapons 50&percnt of the time, and if
-they do use a weapon, they will have Rank 4-6 with it. If they do not
+they do use a weapon, they will have Rank 4–6 with it. If they do not
 use a weapon, they can attack with a bite or a constriction
 attack. The bite has a Base Chance of 55&percnt and does [D + 4] damage,
 while the constriction has a Base Chance of 40&percnt and does [D + 8]
@@ -301,15 +300,15 @@ weapon) and does [D + 4] damage.
 
 <movement>  Swimming: 400; Crawling: 300
 
-<PS> 20-25
-<MD> 17-21
-<AG> 12-16
-<MA> 16-20
-<EN> 25-32
-<FT> 20-25  
-<WP> 20-24
-<PC> 19-23
-<PB> 13-17
+<PS> 20–25
+<MD> 17–21
+<AG> 12–16
+<MA> 16–20
+<EN> 25–32
+<FT> 20–25  
+<WP> 20–24
+<PC> 19–23
+<PB> 13–17
 <TMR> 8/6
 <NA> Scales absorb 5 DP
 
@@ -336,8 +335,8 @@ sphinx has large, sharp teeth, and is a two-hex monster.
 
 <talents> Most sphinxes are accomplished members of a College of
 Magic, usually one of the Thaumaturgies. They will know all General
-Knowledge spells at Rank 6-9, and will know all Special KnoA,Iedge
-spells at Rank 3-6. In addition, a sphinx will know D10 counterspells
+Knowledge spells at Rank 6–9, and will know all Special KnoA,Iedge
+spells at Rank 3–6. In addition, a sphinx will know D10 counterspells
 from other Colleges. Sphinxes also have excellent senses of smell.
 They will be able track as if they had Rank 8 in the Ranger ability,
 and they will be able to detect the presence of hidden or invisible
@@ -351,15 +350,15 @@ Chance of 60&percnt and do [D + 4] damage.
 
 <movement>  Running: 500; Flying: 600
 
-<PS> 30-35
-<MD> 22-24
-<AG> 17-19
-<MA> 12-22
-<EN> 40-50
-<FT> 60-75
-<WP> 20-23
-<PC> 17-19
-<PB> 4-6
+<PS> 30–35
+<MD> 22–24
+<AG> 17–19
+<MA> 12–22
+<EN> 40–50
+<FT> 60–75
+<WP> 20–23
+<PC> 17–19
+<PB> 4–6
 <TMR> 10/12
 <NA> Hide absorbs 6 DP
 <comments> Sphinxes are proverbial riddle-lovers. They love to learn
@@ -378,7 +377,7 @@ riddle is answered correctly.
 
 <details><habitat> Woods, Plains
 <frequency> Rare
-<number> 1-8 (2)
+<number> 1–8 (2)
 
 <description> Unicorns are white equines with a single, long horn
 coming out of their forehead. They have a singic black, 2 foot long
@@ -396,15 +395,15 @@ as a Warhorse.
 
 <movement> Running: 600
 
-<PS> 55-60
+<PS> 55–60
 <MD> None
-<AG> 16-19
+<AG> 16–19
 <MA> None
-<EN> 25-30
-<FT> 50-60
-<WP> 20-25
-<PC> 25-30
-<PB> 18-20
+<EN> 25–30
+<FT> 50–60
+<WP> 20–25
+<PC> 25–30
+<PB> 18–20
 <TMR> 12
 <NA> Hide absorbs 4 DP
 

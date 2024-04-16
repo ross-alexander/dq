@@ -44,15 +44,15 @@ its size. A djinn will have Rank 4 or better with a scimitar.
 
 <movement>  Flying: 700; Running: 350
 
-<PS> 35-40
-<MD> 20-24
-<AG> 17-21
-<MA> 12-18
-<EN> 20-25
-<FT> 30-38
-<WP> 20-25
-<PC> 16-21
-<PB> 11-14
+<PS> 35–40
+<MD> 20–24
+<AG> 17–21
+<MA> 12–18
+<EN> 20–25
+<FT> 30–38
+<WP> 20–25
+<PC> 16–21
+<PB> 11–14
 <TMR> 14/7
 <NA> Skin absorbs 6 DP
 <comments> Like efreet, if a djinn is discovered on this plane it will
@@ -90,15 +90,15 @@ has a Base Chance of 65&percnt, and does [D + 10] damage.
 
 <movement>  Flying: 750; Running: 350
 
-<PS> 40-45
-<MD> 17-20
-<AG> 15-18
-<MA> 12-18
-<EN> 28-32
-<FT> 45-50  
-<WP> 23-29
-<PC> 16-21
-<PB> 8-10
+<PS> 40–45
+<MD> 17–20
+<AG> 15–18
+<MA> 12–18
+<EN> 28–32
+<FT> 45–50  
+<WP> 23–29
+<PC> 16–21
+<PB> 8–10
 <TMR> 15/7
 <NA> Skin absorbs 6 DP
 
@@ -124,7 +124,7 @@ go to or be found in frigid climates or underwater.
 
 <details><habitat>  (See Below)
 <frequency> Very Rare
-<number>  1-10 (5)
+<number>  1–10 (5)
 
 <description> Hellhounds have the outward appearance of a Dire Wolf
 with reddish-brown fur and bright red eyes.
@@ -143,15 +143,15 @@ Ranged Combat.
 
 <movement>  Running: 450
 
-<PS> 14-16
-<MD> 18-21
-<AG> 19-22
-<MA> 12-20
-<EN> 10-11
-<FT> 20-22  
-<WP> 17-19
-<PC> 25-30
-<PB> 4-6
+<PS> 14–16
+<MD> 18–21
+<AG> 19–22
+<MA> 12–20
+<EN> 10–11
+<FT> 20–22  
+<WP> 17–19
+<PC> 25–30
+<PB> 4–6
 <TMR> 9
 <NA> Fur absorbs 6 DP
 
@@ -187,7 +187,7 @@ have Rank 5 with all magic.
 
 <weapons>
 Imps may make a horn attack during Close Combat with a Base Chance of
-20&percnt and possible damage of [D - 1].  Imp horns may have a Rank
+20&percnt and possible damage of [D − 1].  Imp horns may have a Rank
 of between 1 and 10 (controlling Player should roll D10 to determine
 Rank).  Imps may also make an attack in either Melee or Close Combat
 with their long tail. Its tip contains a sting with a quick acting
@@ -327,7 +327,7 @@ Chance of 30&percnt and does [D + 2] damage.  Their horns have a Base
 Chance of 25&percnt and do [D + 2] damage.  Both are Rank 1--10
 (controlling Player rolls D10 to determine exact Rank).  Their tail
 has a Base Chance of 30&percnt in Melee and a Base Chance of 50&percnt
-Close Combat and does [D - 1] damage.  It has a quick-acting nerve
+Close Combat and does [D − 1] damage.  It has a quick-acting nerve
 poison in it that does 3--5 Damage Points per Pulse.  A devil's tail
 is always Rank 8.  A Devil may use weapons, but will not wear armour.
 
@@ -450,14 +450,14 @@ penalty. The attacks have a Base Chance of 65&percnt and do D10 damage, +
 <movement> Flying: 500 + (50 x Summoner's Rank)
 
 <PS> Base 15   
-<MD> 25-30
-<AG> 32-37
+<MD> 25–30
+<AG> 32–37
 <MA> None
-<EN> 5-50
-<FT> 10-85
-<WP> 14-18
-<PC> 19-23
-<PB> 10-12
+<EN> 5–50
+<FT> 10–85
+<WP> 14–18
+<PC> 19–23
+<PB> 10–12
 <TMR> 10 + (Adept's Rank)
 <NA>  None
 
@@ -491,14 +491,14 @@ their summoner.
 <movement> Running: 200; Tunnelling: 100
 
 <PS> Base 30
-<MD> 10-15  
-<AG> 12-17
+<MD> 10–15  
+<AG> 12–17
 <MA> None
-<EN> 5-50
-<FT> 10-85
-<WP> 14-18 
-<PC> 16-20
-<PB> 5-8
+<EN> 5–50
+<FT> 10–85
+<WP> 14–18 
+<PC> 16–20
+<PB> 5–8
 <TMR> 4/2
 <NA> 8 DP
 
@@ -537,14 +537,14 @@ the damage done.
 <movement> Running: 400 + 10 x Summoner's Rank
 
 <PS> Base 20  
-<MD> 20-25
-<AG> 25-30
+<MD> 20–25
+<AG> 25–30
 <MA> None
-<EN> 5-50
-<FT> 10-85 
-<WP> 14-18
-<PC> 14-17
-<PB> 5-7
+<EN> 5–50
+<FT> 10–85 
+<WP> 14–18
+<PC> 14–17
+<PB> 5–7
 <TMR> 8 + (Adept's Rank/5)
 <NA> 3 DP
 
@@ -574,14 +574,14 @@ additional point of damage for each Rank of their summoner.
 
 <movement>  Swimming: 500 + (25 x Summoner's Rank)
 <PS> Base 25  
-<MD> 17-23
-<AG> 16-20
+<MD> 17–23
+<AG> 16–20
 <MA> None
-<EN> 5-50
-<FT> 10-85
-<WP> 14-18
-<PC> 14-17
-<PB> 6-8
+<EN> 5–50
+<FT> 10–85
+<WP> 14–18
+<PC> 14–17
+<PB> 6–8
 <TMR> 10 + (Adept's Rank/2)
 <NA> 4 DP
 </monster>

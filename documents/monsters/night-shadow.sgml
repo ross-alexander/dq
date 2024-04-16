@@ -14,7 +14,7 @@ Only the species listed herein are affected by these types of magic.
 <details>
 <habitat> Caverns
 <frequency> Uncommon
-<number>  1-400 (100)
+<number>  1–400 (100)
 
 <description> Bats are rodents with leathery wings. They are
 greyish-black in color. They are found, in dark places only as they
@@ -26,21 +26,21 @@ have no magical abilities or other special talents and are not tool
 users.
 
 <weapons> Bats can only attack in Close Combat, where their bite has a
-Base Chance of 40&percnt and does [D - 7] damage. A character bitten by a
+Base Chance of 40&percnt and does [D − 7] damage. A character bitten by a
 bat has a 10&percnt chance of contracting rabies or some other loathsome
 disease in addition to the possibility of infection.
 
 <movement>  Flying: 500
 
-<PS> 2-3
+<PS> 2–3
 <MD> None
-<AG> 18-21
+<AG> 18–21
 <MA> None
-<EN> 1-2
-<FT> 2-3  
-<WP> 6-8
-<PC> 14-17
-<PB> 7-9
+<EN> 1–2
+<FT> 2–3  
+<WP> 6–8
+<PC> 14–17
+<PB> 7–9
 <TMR> 10
 <NA> None
 </monster>
@@ -49,7 +49,7 @@ disease in addition to the possibility of infection.
 <details>
 <habitat> Woods, Rough, Plains, Field, Caverns
 <frequency> Rare
-<number> 1-10 (3)
+<number> 1–10 (3)
 
 <description> Dire wolves are wolves the size of ponies. Dire wolves
 will be in league with the powers of darkness and will have almost
@@ -67,15 +67,15 @@ Combat with their huge teeth (Base Chance of 65&percnt [D + 6] damage).
 
 <movement>  Running: 400
 
-<PS> 22-25
-<MD> 24-26
-<AG> 18-22
-<MA> 8-12
-<EN> 20-23
-<FT> 25-30
-<WP> 8-12
-<PC> 19-23
-<PB> 4-8
+<PS> 22–25
+<MD> 24–26
+<AG> 18–22
+<MA> 8–12
+<EN> 20–23
+<FT> 25–30
+<WP> 8–12
+<PC> 19–23
+<PB> 4–8
 <TMR> 8
 <NA> Fur absorbs 5 DP
 </monster>
@@ -84,7 +84,7 @@ Combat with their huge teeth (Base Chance of 65&percnt [D + 6] damage).
 <details>
 <habitat> Caverns, Rough, Crypts, Woods
 <frequency> Very Rare
-<number> 1-8 (1)
+<number> 1–8 (1)
 
 <description> In their natural form, doppelgangers appear humanoid,
 with thin arms, and sharp teeth and claws. They have thick, rubbery,
@@ -92,7 +92,7 @@ grey skin, and glowing eyes.
 
 <talents> Doppelgangers have the ability to form themselves to look
 and act like any humanoid creature that is approximately their size
-and body weight (100-250 lbs.).  Even the clothes and equipment of a
+and body weight (100–250 lbs.).  Even the clothes and equipment of a
 person can be imitated, although magical properties will not, of
 course, adhere to the duplicates. Doppelgangers read the minds of the
 people they will later imitate so as to learn things they will need to
@@ -108,15 +108,15 @@ imitated.
 
 <movement> Running: 250
 
-<PS> 12-16
-<MD> 14-17
-<AG> 16-18
-<MA> 20-25
-<EN> 8-10
-<FT> 15-20
-<WP> 22-25
-<PC> 15-17
-<PB> 4-8
+<PS> 12–16
+<MD> 14–17
+<AG> 16–18
+<MA> 20–25
+<EN> 8–10
+<FT> 15–20
+<WP> 22–25
+<PC> 15–17
+<PB> 4–8
 <TMR> 5
 <NA> Skin absorbs 4 DP
 <comments> Once a doppelganger has imitated someone, they will try to

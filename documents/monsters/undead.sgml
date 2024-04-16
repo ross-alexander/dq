@@ -37,7 +37,7 @@ life force from the living of this plane.
 
 <details><habitat> Where human beings may be found.
 <frequency> Uncommon
-<number> 1-36 (1)
+<number> 1–36 (1)
 
 <description> A ghost is the insubstantial form taken by the spirit of
 a recently deceased individual. It may appear in exactly the form the
@@ -61,13 +61,13 @@ harmed by physical means.
 <PS> None
 <MD> None
 <AG> None
-<MA> 5-23
+<MA> 5–23
 <EN> None
 <FT> None
-<WP> 5-23
-<PC> 5-23
-<PB> 5-23
-<TMR> 5-7
+<WP> 5–23
+<PC> 5–23
+<PB> 5–23
+<TMR> 5–7
 <NA> None
 <comments> Ghosts can be sources of information which may be wholly or
 partially false. They may aid characters who are willing to assist
@@ -93,7 +93,7 @@ been soln,ed, they are laid to rest and immediately dissipate.
 
 <details><habitat> Crypts, Ruins, Fields
 <frequency> Uncommon
-<number>   3-30 (6)
+<number>   3–30 (6)
 
 <description> Ghouls are a form of undead who specialize in devouring
 the flesh of the living or of recently dead characters.  They are
@@ -113,18 +113,18 @@ Injuries.
 unranked weapons. They may only Strike once per Pulse (i.e., no Double
 Strikes). Ghouls may Strike twice per Pulse in Close Combat (once with
 hands and once with teeth).  Their bite has a Base Chance of 40&percnt;,
-damage of [D - 4] (but with + 20 to Infection Checks in addition to
+damage of [D − 4] (but with + 20 to Infection Checks in addition to
 any modification for bites) and is never Ranked.
 <movement>  Running: 150
-<PS> 14-18
-<MD> 8-12  
-<AG> 6-12
+<PS> 14–18
+<MD> 8–12  
+<AG> 6–12
 <MA> None
-<EN> 18-24
-<FT> 25-30  
-<WP> 18-25
-<PC> 10-14
-<PB> 1-2
+<EN> 18–24
+<FT> 25–30  
+<WP> 18–25
+<PC> 10–14
+<PB> 1–2
 <TMR> 3
 <NA> None
 
@@ -148,7 +148,7 @@ be returned to life.
 
 <details><habitat>Any habitat where humans are found.
 <frequency>Rare
-<number>3-12 (6)
+<number>3–12 (6)
 
 <description> Skeletons are animated figures formed magically from the
 bones of the dead. They are controlled and animated by the will of an
@@ -165,15 +165,15 @@ armor.
 <weapons> Skeletons may attack using the unarmed combat rules, but
 will probably be armed with a weapon of some sort.
 <movement>Running: 150
-<PS> 10-16
-<MD> 14-18  
-<AG> 12-16
+<PS> 10–16
+<MD> 14–18  
+<AG> 12–16
 <MA> None
-<EN> 8-12
-<FT> 5-10
-<WP> 20-25
-<PC> 14-18
-<PB> 1-2
+<EN> 8–12
+<FT> 5–10
+<WP> 20–25
+<PC> 14–18
+<PB> 1–2
 <TMR> 3
 <NA> None
 
@@ -189,7 +189,7 @@ skeletons are used since they are more easily animated.
 
 <details><habitat> Any habitat where humans are found.
 <frequency> Rare
-<number> 6-24 (6)
+<number> 6–24 (6)
 
 <description> Zombies are another variety of living dead. In this
 case, the dead are animated by a spell cast by a member of the College
@@ -206,15 +206,15 @@ center must be destroyed before they cease to be animated.
 the bare-handed attack rules. Their hands are never Ranked.
 
 <movement>Running: 150
-<PS> 10-16   
-<MD> 6-10
-<AG> 4-8
+<PS> 10–16   
+<MD> 6–10
+<AG> 4–8
 <MA> None
-<EN> 16-22
-<FT> 20-25
-<WP> 18-25
-<PC> 8-12
-<PB> 1-2
+<EN> 16–22
+<FT> 20–25
+<WP> 18–25
+<PC> 8–12
+<PB> 1–2
 <TMR> 3
 <NA> None
 
@@ -235,7 +235,7 @@ life force from the living of this plane.
 
 <details><habitat> Ruin, Cavern, Crypt (usually enclosed area)
 <frequency> Very rare
-<number> 1-3
+<number> 1–3
 
 <description> Spectres are undead beings half of this world and half
 of another plane. They enter this world most fully at night and may
@@ -256,21 +256,21 @@ touch. They also are not weapon users even in their most substantial
 state. Damage from contact with spectres is never absorbed by armor.
 
 <movement>  Running: 300
-<PS> 3-30
-<MD> 3-25
-<AG> 10-20
-<MA> 17-30
-<EN> 20-30
-<FT> 25-35
-<WP> 20-30
-<PC> 20-30
-<PB> 3-20
+<PS> 3–30
+<MD> 3–25
+<AG> 10–20
+<MA> 17–30
+<EN> 20–30
+<FT> 25–35
+<WP> 20–30
+<PC> 20–30
+<PB> 3–20
 <TMR> 6
 <NA> None
 
 <comments> The characteristics and power of spectres varies in direct
 proportion to their substantiality. The same spectre which has a PS of
-3 at noon would have a PS of 25-30 at midnight. A spectre cannot
+3 at noon would have a PS of 25–30 at midnight. A spectre cannot
 physically harm a character while insubstantial.  He can perform
 magic. Except for the few hours when the sun is highest, the spectre
 may choose to be either in noncorporeal (insubstantial) or corporeal
@@ -287,7 +287,7 @@ noncorporeal form.
 Ruins and Crypts, however, and are most likely to be found there.
 
 <frequency> Very Rare
-<number> 1-6
+<number> 1–6
 
 <description>  Vampires are human (or humanoid) beings who
 have entered the netherworld of "life-drinkers." They support
@@ -370,7 +370,7 @@ destroyed in the following manner:
 
 </itemize>
 
-Vampires suffer [D - 5] damage from the touch of consecrated objects,
+Vampires suffer [D − 5] damage from the touch of consecrated objects,
 but will become infuriated by their touch so that they attack the
 wielder of such objects instead of fleeing their presence.
 
@@ -386,15 +386,15 @@ can reach his neck.
 other forms (bat, rat and wolf) are as per the creatures of the same
 name.
 
-<PS> 15-30
-<MD> 15-25
-<AG> 15-25
-<MA> 15-25
-<EN> 15-25
-<FT> 20-30
-<WP> 25-30
-<PC> 20-30
-<PB> 12-25
+<PS> 15–30
+<MD> 15–25
+<AG> 15–25
+<MA> 15–25
+<EN> 15–25
+<FT> 20–30
+<WP> 25–30
+<PC> 20–30
+<PB> 12–25
 <TMR> 6
 <NA> None
 <comments> Vampires are not harmed by weapons other than silvered
@@ -430,7 +430,7 @@ played by his original player, not by the GM.
 
 <details><habitat>  Crypts, Ruins, Graveyards, Fields &amp Moors
 <frequency> Rare
-<number> 1-6
+<number> 1–6
 
 <description> Wights are a form of ghost. They normally appear in
 their human form, but vary in substantiality in direct proportion to
@@ -457,15 +457,15 @@ absorbed by normal armor.
 
 <movement>  Running: 250
 
-<PS> 15-30
-<MD> 15-25
-<AG> 10-20
-<MA> 15-30
-<EN> 10-25
-<FT> 15-30
-<WP> 20-30
-<PC> 20-30
-<PB> 3-7
+<PS> 15–30
+<MD> 15–25
+<AG> 10–20
+<MA> 15–30
+<EN> 10–25
+<FT> 15–30
+<WP> 20–30
+<PC> 20–30
+<PB> 3–7
 <TMR> 5
 <NA> None
 
@@ -489,7 +489,7 @@ night gaunts under the wight's control are also destroyed.
 <details>
 <habitat> Fields, Crypts, Graveyards, Ruins, Caverns
 <frequency> Uncommon
-<number> 1-10 (l)
+<number> 1–10 (l)
 
 
 <description> A wraith is much like a wight in that he appears human
@@ -511,15 +511,15 @@ objects. They can use magic.
 
 <movement>  Running: 250
 
-<PS> 2-5
-<MD> 2-5
-<AG> 25-35
-<MA> 15-30
-<EN> 15-30
-<FT> 20-35  
-<WP> 20-30
-<PC> 20-30
-<PB> 5-20
+<PS> 2–5
+<MD> 2–5
+<AG> 25–35
+<MA> 15–30
+<EN> 15–30
+<FT> 20–35  
+<WP> 20–30
+<PC> 20–30
+<PB> 5–20
 <TMR> 5
 <NA> None
 

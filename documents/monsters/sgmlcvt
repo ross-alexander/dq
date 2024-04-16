@@ -1,0 +1,108 @@
+#!/usr/bin/perl
+
+# ----------------------------------------------------------------------
+#
+# 2024-04-13
+#
+# Put all the conversion function into a single utility
+#
+# ----------------------------------------------------------------------
+
+use Getopt::Long;
+use 5.34.0;
+use Cwd;
+
+# ----------------------------------------------------------------------
+#
+# format_xml
+#
+# ----------------------------------------------------------------------
+
+sub format_xml {
+    my ($in, $out) = @_;
+
+    my $no_expand = "-xno-expand-internal -xno-expand-external";
+    my $cmd = sprintf("SP_CHARSET_FIXED=1 SP_ENCODING=UTF-8 osx -Dxml -xno-nl-in-tag  -xlower $in > $out");
+    my $res = qx($cmd);
+    my $rc = $!;
+}
+
+# ----------------------------------------------------------------------
+#
+# format_tex
+#
+# ----------------------------------------------------------------------
+
+sub format_tex {
+    my ($in, $out) = @_;
+
+    my $pwd = getcwd();
+    my $sgml_path = "$pwd/tex/%N:$pwd/%N.dtd:$pwd/%P.dtd";
+    
+    my $cmd = sprintf("SGML_PATH=%s SP_CHARSET_FIXED=1 SP_ENCODING=UTF-8 onsgmls -D $pwd/tex dqmm.decl %s | sgmlsasp $pwd/tex/mapping > %s", $sgml_path, $in, $out);
+    my $res = qx($cmd);
+    my $rc = $!;
+}
+
+# ----------------------------------------------------------------------
+#
+# format_html
+#
+# ----------------------------------------------------------------------
+
+sub format_html {
+    my ($in, $out) = @_;
+
+    my $pwd = getcwd();
+    my $sgml_path = "$pwd/html/%N:$pwd/%N.dtd:$pwd/%P.dtd";
+    
+    my $cmd = sprintf("SGML_PATH=%s SP_CHARSET_FIXED=1 SP_ENCODING=UTF-8 onsgmls -D $pwd/html dqmm.decl %s | sgmlsasp $pwd/html/mapping > %s", $sgml_path, $in, $out);
+    my $res = qx($cmd);
+    my $rc = $!;
+}
+
+
+# ----------------------------------------------------------------------
+#
+# M A I N
+#
+# ----------------------------------------------------------------------
+
+my $opts = {};
+
+GetOptions(
+    'format=s' => \$opts->{format}
+    );
+
+if (!defined($opts->{format}))
+{
+    print(STDERR "$0: --format required.\n");
+    exit(1);
+}
+
+if (scalar(@ARGV) < 2)
+{
+    printf(STDERR "$0: --format <format> <in file> <out file>\n");
+    exit(1);
+}
+
+my $in = $ARGV[0];
+my $out =$ARGV[1];
+
+my $format_map = {
+    xml => \&format_xml,
+    tex => \&format_tex,
+    html => \&format_html
+};
+
+if (!exists($format_map->{$opts->{format}}))
+{
+    printf(STDERR "$0: format %s not supported.\n", $opts->{format});
+    exit(1);
+}
+
+my $format_function = $format_map->{$opts->{format}};
+
+$format_function->($in, $out);
+
+

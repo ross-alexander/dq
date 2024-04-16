@@ -1,13 +1,9 @@
 <?xml version="1.0"?>
-<!DOCTYPE dqmm [
-<!ENTITY % internal-entities SYSTEM "./intEntities.dtf">
-%internal-entities;
-]>
 <dqmm><group name="Giants, Faries and Earth Dwellers"><class name="Giant Humanoids"><notes>This Section includes all larger than average size humanoid
 species. Included are 6 flavors of Giants (Cloud, Fire, Frost, Hill,
 Stone and Storm).  Other giant humanoids include Ogres, Trolls and
 Titans.
-</notes><monster name="Cloud Giant"><details><habitat> Rough</habitat><frequency> Very Rare</frequency><number>1-4 (1)
+</notes><monster name="Cloud Giant"><details><habitat> Rough</habitat><frequency> Very Rare</frequency><number>1–4 (1)
 </number><description> Cloud giants are huge humanoids between 15 and 20 feet
 tall. Cloud Giants will often build sky-castles on mountain
 tops. These will seem to float on pillars of cloud and can only be
@@ -17,37 +13,37 @@ substantial (capable of bearing weight), though they will appear to be
 clouds.  Cloud Giants are 3-hex figures.
 </description><talents>See Character generation.
 </talents><weapons> Cloud Giants favor the club and the sword, and will have
-Rank 2-4 with these weapons. They will sometimes wear armor, although
+Rank 2–4 with these weapons. They will sometimes wear armor, although
 it is rare to see a Giant clothed in anything heavier than leather.
-</weapons><movement> Running: 600-700
-</movement></details><stats><ps> 24-42</ps><md> 4-22</md><ag> 3-21</ag><ma> 4-22</ma><en> 30-48</en><ft> 18-24</ft><wp> 4-22</wp><pc> 5-23</pc><pb> 5-23</pb><tmr> 12-14</tmr><na> None
-</na></stats><comments></comments></monster><monster name="Fire Giant"><details><habitat> Rough, Caverns</habitat><frequency>Rare</frequency><number>1-4 (1)</number><description>Fire giants are large humanoids about 12 feet tall.</description><talents> See Character generation.</talents><weapons>Fire giants prefer the club and sword, and will have Rank 1-3
+</weapons><movement> Running: 600–700
+</movement></details><stats><ps> 24–42</ps><md> 4–22</md><ag> 3–21</ag><ma> 4–22</ma><en> 30–48</en><ft> 18–24</ft><wp> 4–22</wp><pc> 5–23</pc><pb> 5–23</pb><tmr> 12–14</tmr><na> None
+</na></stats><comments></comments></monster><monster name="Fire Giant"><details><habitat> Rough, Caverns</habitat><frequency>Rare</frequency><number>1–4 (1)</number><description>Fire giants are large humanoids about 12 feet tall.</description><talents> See Character generation.</talents><weapons>Fire giants prefer the club and sword, and will have Rank 1–3
 with these weapons. Armor heavier than leather is rare, although it
 does occur.
-</weapons><movement> Running: 400-500</movement></details><stats><ps> 15-33</ps><md> 4-22</md><ag> 3-21</ag><ma>4-22</ma><en> 20-38 </en><ft> 18-24 </ft><wp>  4-22 </wp><pc>   5-23</pc><pb>5-23</pb><tmr> 8-10</tmr><na>  None
-</na></stats><comments></comments></monster><monster name="Hill Giant"><details><habitat>Rough</habitat><frequency> Rare</frequency><number> 1-10 (5)
+</weapons><movement> Running: 400–500</movement></details><stats><ps> 15–33</ps><md> 4–22</md><ag> 3–21</ag><ma>4–22</ma><en> 20–38 </en><ft> 18–24 </ft><wp>  4–22 </wp><pc>   5–23</pc><pb>5–23</pb><tmr> 8–10</tmr><na>  None
+</na></stats><comments></comments></monster><monster name="Hill Giant"><details><habitat>Rough</habitat><frequency> Rare</frequency><number> 1–10 (5)
 </number><description> Hill Giants are humanoids about nine feet tall.  Their
 features will usually be uncommonly gnarled.  </description><talents> But note that
 a hill giant is not affiliated with any element in particular, and
 thus has expanded options as to his choice of College. His mastery of
 a College will usually be minimal (about Rank 3) if he does belong to
-a College (25&percnt; chance).</talents><weapons> Hill giants will use all weapons, although they generally
+a College (25% chance).</talents><weapons> Hill giants will use all weapons, although they generally
 prefer simple crushing weapons like the club or mace.  They will have
-rank 1-5 with these weapons. Hill giants rarely wear armor, although
-they will occasionally (2&percnt;) wear chainmail or leather.
-</weapons><movement> 350-400
-</movement></details><stats><ps> 12-30</ps><md> 4-22</md><ag> 3-21 </ag><ma> 4-22</ma><en> 13-31 </en><ft> 18-24</ft><wp> 4-22</wp><pc> 5-23</pc><pb> 5-23</pb><tmr> 7-8</tmr><na> Thick hide absorbs 1 DP
-</na></stats><comments></comments></monster><monster name="Frost Giant"><details><habitat> Rough (especially mountains)</habitat><frequency>Rare</frequency><number> 1-25 (6)</number><description> Frost giants are large humanoids between 15 and
+rank 1–5 with these weapons. Hill giants rarely wear armor, although
+they will occasionally (2%) wear chainmail or leather.
+</weapons><movement> 350–400
+</movement></details><stats><ps> 12–30</ps><md> 4–22</md><ag> 3–21 </ag><ma> 4–22</ma><en> 13–31 </en><ft> 18–24</ft><wp> 4–22</wp><pc> 5–23</pc><pb> 5–23</pb><tmr> 7–8</tmr><na> Thick hide absorbs 1 DP
+</na></stats><comments></comments></monster><monster name="Frost Giant"><details><habitat> Rough (especially mountains)</habitat><frequency>Rare</frequency><number> 1–25 (6)</number><description> Frost giants are large humanoids between 15 and
 20 feet in height. Frost Giants are 3-hex figures.</description><talents>See Character generation.</talents><weapons>Frost giants generally use swords and axes, and will
 frequently achieve rank 4 or higher with these weapons. Frost giants
 will wear any type of armor, with metallic armor being common.
-</weapons><movement> Running: 600-700</movement></details><stats><ps> 24-42</ps><md> 4-22 </md><ag> 3-21 </ag><ma> 4-22</ma><en> 25-43</en><ft> 18-24</ft><wp> 4-22</wp><pc>5-23</pc><pb>5-23</pb><tmr> 12-14 </tmr><na> None
-</na></stats><comments></comments></monster><monster name="Stone Giant"><details><habitat> Rough, Caverns</habitat><frequency>Rare</frequency><number>1-6 (3)
+</weapons><movement> Running: 600–700</movement></details><stats><ps> 24–42</ps><md> 4–22 </md><ag> 3–21 </ag><ma> 4–22</ma><en> 25–43</en><ft> 18–24</ft><wp> 4–22</wp><pc>5–23</pc><pb>5–23</pb><tmr> 12–14 </tmr><na> None
+</na></stats><comments></comments></monster><monster name="Stone Giant"><details><habitat> Rough, Caverns</habitat><frequency>Rare</frequency><number>1–6 (3)
 </number><description>: Stone giants are humanoids about 10 feet tall.
 </description><talents>See Character Generation.</talents><weapons> Stone Giants prefer heavy weapons like hammers and clubs.
-They will have rank 3-5 with these weapons.  Stone giants frequently
+They will have rank 3–5 with these weapons.  Stone giants frequently
 wear leather armor and carry shields.
-</weapons><movement> Running: 400-500</movement></details><stats><ps> 13-31</ps><md> 4-22</md><ag> 3-21 </ag><ma> 4-22</ma><en> 15-25</en><ft> 18-24</ft><wp> 4-22 </wp><pc> 5-23</pc><pb> 5-23</pb><tmr>8-10</tmr><na> None</na></stats></monster><monster name="Storm Giant"><details><habitat> Rough (especially mountaintops)</habitat><frequency>Very Rare</frequency><number>1-3 (1)
+</weapons><movement> Running: 400–500</movement></details><stats><ps> 13–31</ps><md> 4–22</md><ag> 3–21 </ag><ma> 4–22</ma><en> 15–25</en><ft> 18–24</ft><wp> 4–22 </wp><pc> 5–23</pc><pb> 5–23</pb><tmr>8–10</tmr><na> None</na></stats></monster><monster name="Storm Giant"><details><habitat> Rough (especially mountaintops)</habitat><frequency>Very Rare</frequency><number>1–3 (1)
 </number><description>Storm giants are huge humanoids about 20 feet tall. Storm
 Giants are 3-hex figures.
 </description><talents> Storm giants have all the talents, skills, magic, and other
@@ -57,37 +53,36 @@ the difference between the weather they are trying io create and the
 weather state at the time that they are doing so, it will be from one
 to three hours until the effects of their control become evident.
 Note that storm giants are not particularly affiliated with any of the
-Elementals.  There is a 50&percnt; chance that a storm giant will be a
+Elementals.  There is a 50% chance that a storm giant will be a
 member of a College.  If he is a member of a College, a storm giant
-will have rank 3-7 with General Knowledge spells, and Rank 2-5 with
+will have rank 3–7 with General Knowledge spells, and Rank 2-5 with
 those Special Knowledge spells that he knows (GM's option).
 </talents><weapons> Storm giants prefer edged weapons, with axes being the
 weapons they most commonly use.  They will have Rank four or better
 with the type of weapon that they use most frequently.  Storm giants
 can be found in any sort of armor, although chainmail is the norm.
-</weapons><movement> Running: 700-750
-</movement></details><stats><ps> 27-45</ps><md> 4-22 </md><ag>3-21</ag><ma> 4-22</ma><en> 30-48</en><ft> 18-24</ft><wp> 4-22</wp><pc> 5-23</pc><pb> 5-23</pb><tmr> 14-15</tmr><na> None</na></stats><comments> True to their name, Storm Giants enjoy turbulent weather,
+</weapons><movement> Running: 700–750
+</movement></details><stats><ps> 27–45</ps><md> 4–22 </md><ag>3–21</ag><ma> 4–22</ma><en> 30–48</en><ft> 18–24</ft><wp> 4–22</wp><pc> 5–23</pc><pb> 5–23</pb><tmr> 14–15</tmr><na> None</na></stats><comments> True to their name, Storm Giants enjoy turbulent weather,
 and there will frequently be a thunderstorm about their mountainous
 home.  Those traits mentioned in 6.6 are also applicable to storm
 giants.
-</comments></monster><monster name="Ogre"><details><habitat> Rough, Woods</habitat><frequency> Rare</frequency><number> 1-20 (4)</number><description> Ogres are large, ugly humanoids.  They are 8 feet tall,
+</comments></monster><monster name="Ogre"><details><habitat> Rough, Woods</habitat><frequency> Rare</frequency><number> 1–20 (4)</number><description> Ogres are large, ugly humanoids.  They are 8 feet tall,
 have flattened noses and large, sharp teeth.  They will usually be
 wearing rags.
-</description><talents> Ogres generally shun magic, although there is a 5&percnt; chance
-that an ogre will belong to the College of Earth Magics if he has an
-MA of 15.  The highest rank that an ogre will ever attain with any&null;
-spell is 5, and this only rarely.
+</description><talents> Ogres generally shun magic, although there is a 5%chance that an ogre will belong to the College of Earth Magics if he
+has an MA of 15.  The highest rank that an ogre will ever attain with
+any spell is 5, and this only rarely.
 </talents><weapons> Ogres prefer to use large clubs over other weapons.  Ranged
 weapons are rare, but possible.  Ogres will also use shields and wear
-armor 80&percnt; of the time. If they do wear armor, it will usually be
+armor 80% of the time. If they do wear armor, it will usually be
 chainmail or lighter. In Close Combat or in the absence of a weapon
-ogres can also bite (Base Chance of 65&percnt;, + 4 Damage).
+ogres can also bite (Base Chance of 65%, + 4 Damage).
 
-</weapons><movement> Running: 450</movement></details><stats><ps> 25-30</ps><md>11-13 </md><ag> 8-10</ag><ma> 10-15</ma><en> 20-23 </en><ft> 28-30 </ft><wp> 18-20</wp><pc> 11-14</pc><pb> 6-9 </pb><tmr> 9 </tmr><na> Thick skin absorbs 4 DP</na></stats><comments> Ogres eat those travellers that they waylay and take their
+</weapons><movement> Running: 450</movement></details><stats><ps> 25–30</ps><md>11–13 </md><ag> 8–10</ag><ma> 10–15</ma><en> 20–23 </en><ft> 28–30 </ft><wp> 18–20</wp><pc> 11–14</pc><pb> 6–9 </pb><tmr> 9 </tmr><na> Thick skin absorbs 4 DP</na></stats><comments> Ogres eat those travellers that they waylay and take their
 treasure.  They are intelligent enough so that they will not attack a
 party if they are hopelessly outclassed, but they are stupid enough so
 that they can also be easily outwitted.  Ogres will usually have
-treasure in the form of gold and gems.</comments></monster><monster name="Titan"><details><habitat> See below</habitat><frequency> Very Rare </frequency><number> 1-2 (1)</number><description> Titans are basically human, but they are between 20 feet
+treasure in the form of gold and gems.</comments></monster><monster name="Titan"><details><habitat> See below</habitat><frequency> Very Rare </frequency><number> 1–2 (1)</number><description> Titans are basically human, but they are between 20 feet
 and 24 feet tall.  They are also unusually muscular, and appear
 strikingly handsome or beautiful.  They can be of either sex. Titans
 are 3-hex figures.
@@ -98,16 +93,16 @@ They are protected from physical attack by a magical aura which
 surrounds them.  This aura also adds 40 to their Magic Resistance.
 They will know General and Special Knowledge of their College at Rank
 10 and above.</talents><weapons> Titans use human-type weapons of 4-times normal size
-(improve Base Chance by 20&percnt;, multiply damage by 4 after
+(improve Base Chance by 20%, multiply damage by 4 after
 modification). They will sometimes wear armor (which functions in
 addition to their aura) if they are doing something which is
 pre-meditated, and they know will be very dangerous.
 </weapons><movement> Running: 600; Flying: 300
-</movement></details><stats><ps> 60-70</ps><md> 12-16</md><ag> 13-17</ag><ma> 19-26</ma><en> 30-40</en><ft> 50-60</ft><wp> 17-20 </wp><pc> 16-18</pc><pb> 19-21</pb><tmr> 12/6</tmr><na>Aura absorbs 12 DP
+</movement></details><stats><ps> 60–70</ps><md> 12–16</md><ag> 13–17</ag><ma> 19–26</ma><en> 30–40</en><ft> 50–60</ft><wp> 17–20 </wp><pc> 16–18</pc><pb> 19–21</pb><tmr> 12/6</tmr><na>Aura absorbs 12 DP
 </na></stats><comments> Titans are basically good in nature, and they will help
 people on occasion.  They are often very touchy, however, and if they
 think a human is being insolent they will not hesitate to kill him,
-although sometimes (30&percnt;) they will just vanish.  If a titan is
+although sometimes (30%) they will just vanish.  If a titan is
 inhabiting this plane for some reason, it will have a large castle,
 very substantial treasure, and numerous storm giant guards.
 </comments></monster><monster name="Troll"><details><habitat> Rough, Caverns, Ruins, Fields, Marshes</habitat><frequency>Uncommon</frequency><number>-3 (1)
@@ -122,12 +117,12 @@ magic-users.  They may use simple weapons, but may never achieve any
 Rank with a weapon.  Trolls possess the ability to regenerate
 themselves at the rate of 1 Damage Point healed each Pulse.  Any
 damage inflicted by fire is, however, permanent and may not be healed
-by regeneration.  Trolls are not afraid of fire.</talents><weapons> A Troll may use its hands (Base Chance of 55&percnt;, Damage of +
+by regeneration.  Trolls are not afraid of fire.</talents><weapons> A Troll may use its hands (Base Chance of 55%, Damage of +
 6, no Rank) to Melee Attack or may use hands and teeth (Base Chance of
-35&percnt;, Damage of +4, no Rank) in Close Combat.  It may Strike twice with
+35%, Damage of +4, no Rank) in Close Combat.  It may Strike twice with
 hands and once with teeth each Pulse.
 </weapons><movement> Running: 300
-</movement></details><stats><ps> 30-50  </ps><md> 10-14</md><ag> 12-16</ag><ma> 5-8</ma><en> 30-40 </en><ft> 40-50 </ft><wp> 18-25 </wp><pc> 20-25</pc><pb> Always 0</pb><tmr> 6 </tmr><na> Skin absorbs  5 DP
+</movement></details><stats><ps> 30–50  </ps><md> 10–14</md><ag> 12–16</ag><ma> 5–8</ma><en> 30–40 </en><ft> 40–50 </ft><wp> 18–25 </wp><pc> 20–25</pc><pb> Always 0</pb><tmr> 6 </tmr><na> Skin absorbs  5 DP
 </na></stats><comments> Trolls become enraged by the presence of fire and will kill
 anyone who uses it if possible. Trolls can reproduce themselves but
 loosing a limb, which regenerates into a new troll, but only once per
@@ -141,14 +136,14 @@ pennies, but could equal 1,000 in rare instances.
 nixons, nymphs, pixies, satyrs, and sylphs.  They are all roughly
 related, though their natures have diverged since the time when they
 could claim a common ancester, Brownies, Leprechauns, Nixons, Pixies
-and Sylphs all take [D - 2] damage from physical contact with cold
+and Sylphs all take [D − 2] damage from physical contact with cold
 iron in addition to any other damage that may be inflicted by a weapon
 made of that substance.  This damage is due to burning. Other fairy
 folk do not suffer this effect, but prefer to use substances other
 than cold iron for tools and artifacts. Only the Elves have overcome
 their fear of the substance to the extent of habitually forging and
 using fine iron and steel weapons.
-</notes><monster name="Brownie (house spirit)"><details><habitat> Fields (usually around man or his dwellings)</habitat><frequency> Uncommon</frequency><number> 1-30 (6)
+</notes><monster name="Brownie (house spirit)"><details><habitat> Fields (usually around man or his dwellings)</habitat><frequency> Uncommon</frequency><number> 1–30 (6)
 </number><description> Brownies are "little people" similar to Leprechauns, but
 more sociable. They tend to be benevolent toward those who are not of
 Facrie (unlike their wilder kindred who despise humans).
@@ -163,11 +158,11 @@ which will have the same characteristics as the Small Bow (see Weapons
 Table).
 
 </weapons><movement> Running: 150
-</movement></details><stats><ps> 7-8</ps><md> 20-25</md><ag> 20-25</ag><ma> 17-19</ma><en> 4-5</en><ft> 10-11  </ft><wp> 17-19</wp><pc> 16-19</pc><pb> 12-16</pb><tmr> 3</tmr><na> None</na></stats><comments> Brownies will aid the human inhabitants of an area in
+</movement></details><stats><ps> 7–8</ps><md> 20–25</md><ag> 20–25</ag><ma> 17–19</ma><en> 4–5</en><ft> 10–11  </ft><wp> 17–19</wp><pc> 16–19</pc><pb> 12–16</pb><tmr> 3</tmr><na> None</na></stats><comments> Brownies will aid the human inhabitants of an area in
 exchange for food (a dish of milk left out each night). If
 disaffected, they will seek out and give information to the
 hosuehold's enemies.
-</comments></monster><monster name="Dryad"><details><habitat>  Woods</habitat><frequency> Common</frequency><number>  1-30 (10)
+</comments></monster><monster name="Dryad"><details><habitat>  Woods</habitat><frequency> Common</frequency><number>  1–30 (10)
 </number><description> Dryads are insubstantial spirits living within the wood
 of a specific tree. They can leave their tree and wander about, but
 may never stray more than a mile from the tree.  They usually appear
@@ -175,25 +170,25 @@ in small colonies.
 </description><talents> Dryads tend to be Adepts of the College of Earth Magics,
 though some may be members of the Colleges of Illusion or the
 Sorceries of the Mind. They will not usually be very powerful in
-Colleges other than Earth, however.  They have the special ability of&null;
+Colleges other than Earth, however.  They have the special ability of
 being able to take refuge deep within their tree if threatened.
 </talents><weapons> Dryads use no weapons of any kind.
 </weapons><movement>  Running: 200
-</movement></details><stats><ps> None</ps><md> None</md><ag> None</ag><ma> 8-20</ma><en> None</en><ft> None  </ft><wp> 12-16</wp><pc> 12-15</pc><pb> 16-24</pb><tmr> 4</tmr><na> None, but see below</na></stats><comments> Dryads can only be harmed if their tree is killed by
+</movement></details><stats><ps> None</ps><md> None</md><ag> None</ag><ma> 8–20</ma><en> None</en><ft> None  </ft><wp> 12–16</wp><pc> 12–15</pc><pb> 16–24</pb><tmr> 4</tmr><na> None, but see below</na></stats><comments> Dryads can only be harmed if their tree is killed by
 chopping or burning it down. They are not usually inimical to man,
 though "Black Dryads" do exist who practice Druidic rites (including
 blood sacrifice). They will usually aid travellers, but are mainly
 concerned with the well being of their trees.
 
-</comments></monster><monster name="Elf"><details><habitat>  Woods</habitat><frequency> Uncommon</frequency><number> 1-200 (20)</number><description> An elf is a lithe humanoid. They are unusually fair in
+</comments></monster><monster name="Elf"><details><habitat>  Woods</habitat><frequency> Uncommon</frequency><number> 1–200 (20)</number><description> An elf is a lithe humanoid. They are unusually fair in
 appearance.
 </description><talents> See Character generation
-</talents><weapons> Elves prefer bow weapons, and will have rank 4-6 with
+</talents><weapons> Elves prefer bow weapons, and will have rank 4–6 with
 them. Spears are also commonly used. Elves will not generally wear
 metallic armour, although they may do so in unusual cases. The listed
 characteristic ranges are for NPC elves only.
 </weapons><movement>  Running: 275
-</movement></details><stats><ps> 4-22</ps><md> 5-23</md><ag> 6-24</ag><ma> 4-22</ma><en> 4-22</en><ft> 19-25</ft><wp> 6-24</wp><pc> 6-24</pc><pb> 8-26</pb><tmr> 6</tmr><na> None</na></stats></monster><monster name="Fossergrim"><details><habitat> Streams, Rivers (especially near white water)</habitat><frequency> Very Rare</frequency><number> 6-12 (8)
+</movement></details><stats><ps> 4–22</ps><md> 5–23</md><ag> 6–24</ag><ma> 4–22</ma><en> 4–22</en><ft> 19–25</ft><wp> 6–24</wp><pc> 6–24</pc><pb> 8–26</pb><tmr> 6</tmr><na> None</na></stats></monster><monster name="Fossergrim"><details><habitat> Streams, Rivers (especially near white water)</habitat><frequency> Very Rare</frequency><number> 6–12 (8)
 </number><description> Fossergrims look much like Gnomes and are about the same
 size. However, they are water dwellers and have a water-breathing
 capacity in addition to their air-breathing capacity. They will always
@@ -206,16 +201,16 @@ individual, causing him to swim into their lair (which will be in an
 underwater cave) and be drowned. This works like a talent. Victims
 must roll 2 x Willpower or less or succumb to the charm.
 </talents><weapons> Fossergrims attack with their teeth in Close Combat and have
-a Base Chance of 40&percnt; of doing [D - 2] Damage. They may also use
+a Base Chance of 40% of doing [D − 2] Damage. They may also use
 small simple non-missile weapons (knives, shon swords, and the like).
 </weapons><movement>  Running: 150; Swimming: 100
-</movement></details><stats><ps> 8-12</ps><md> 18-20  </md><ag> 15-17</ag><ma> 12-14</ma><en> 8-10</en><ft> 16-20  </ft><wp> 16-18</wp><pc> 15-17</pc><pb> 8-10</pb><tmr> 3/2</tmr><na> None
+</movement></details><stats><ps> 8–12</ps><md> 18–20  </md><ag> 15–17</ag><ma> 12–14</ma><en> 8–10</en><ft> 16–20  </ft><wp> 16–18</wp><pc> 15–17</pc><pb> 8–10</pb><tmr> 3/2</tmr><na> None
 </na></stats><comments> Fossergrims are carnivores and especially delight in
 feasting on "the bigs" as they call humans, elves, and their
 kindred. Except for their special magical abilities which they use to
 lure the unwary into their halls, they possess little magic and few
 skills or talents. What other magic they possess will be Water Magic.
-</comments></monster><monster name="Leprechaun"><details><habitat> Plains, Woods, Fields</habitat><frequency> Very Rare</frequency><number> 1-30 (8)
+</comments></monster><monster name="Leprechaun"><details><habitat> Plains, Woods, Fields</habitat><frequency> Very Rare</frequency><number> 1–30 (8)
 </number><description> Leprechauns are similar in almost all ways to Brownies,
 but wilder and shyer of man. They tend to dress in muted shades of
 brown and green and to seek out the deep woods where they are most at
@@ -230,12 +225,12 @@ Sleeping (regardless of their College) and add 10 to the Base Chance
 for the spell.</talents><weapons> Leprechauns have no natural weapons. They will usually have
 Short Swords (similar to Daggers) and will use Small Bows.
 </weapons><movement> Running: 200
-</movement></details><stats><ps> 7-8</ps><md> 19-22</md><ag> 25-28</ag><ma> 19-21</ma><en> 5-6</en><ft> 10-12  </ft><wp> 15-18</wp><pc> 14-17</pc><pb> 9-14</pb><tmr> 4</tmr><na> None</na></stats><comments> If a Leprechaun is captured and cannot escape, he will buy
-his freedom either by revealing the location of his treasure (300-400
+</movement></details><stats><ps> 7–8</ps><md> 19–22</md><ag> 25–28</ag><ma> 19–21</ma><en> 5–6</en><ft> 10–12  </ft><wp> 15–18</wp><pc> 14–17</pc><pb> 9–14</pb><tmr> 4</tmr><na> None</na></stats><comments> If a Leprechaun is captured and cannot escape, he will buy
+his freedom either by revealing the location of his treasure (300–400
 Gold Pieces) or by granting the warder three wishes which the
 leprechaun will attempt to grant in such away that they turn to the
 disadvantage of the recepient (usually in some really grisly way).
-</comments></monster><monster name="Nixie"><details><habitat> Marsh</habitat><frequency> Rare</frequency><number> 1-40 (20)
+</comments></monster><monster name="Nixie"><details><habitat> Marsh</habitat><frequency> Rare</frequency><number> 1–40 (20)
 </number><description> Nixies are water-dwellers with pale skin (through which
 can often be seen green veins), golden hair, webbed fingers and toes,
 and gills. They have a limited air breathing capacity similar to
@@ -247,19 +242,19 @@ of the College of Water Magics. They will have no skills to speak of,
 but will have the talent of being able to automatically summon [D + 1]
 x Rank with their talent (1, if unranked) large Pike to their
 aid. Since these "water wolves", as they are called, have a special
-fondness for Nixies, there will always be Pike in the area.</talents><weapons> Nixies do [D - 2] Damage (Base Chance of 35&percnt;) in Close
+fondness for Nixies, there will always be Pike in the area.</talents><weapons> Nixies do [D − 2] Damage (Base Chance of 35%) in Close
 Combat with their bite. in addition, they will often carry fishbone
 weapons and shields and (rarely) wear fishskin armour (equal to
 leather armour).
 </weapons><movement> Swimming: 350
-</movement></details><stats><ps> 13-23</ps><md> 10-20</md><ag> 14-21</ag><ma> 10-18</ma><en> 10-18</en><ft> 12-24</ft><wp> 14-20</wp><pc> 14-22</pc><pb> 8-18</pb><tmr> 7</tmr><na> None
+</movement></details><stats><ps> 13–23</ps><md> 10–20</md><ag> 14–21</ag><ma> 10–18</ma><en> 10–18</en><ft> 12–24</ft><wp> 14–20</wp><pc> 14–22</pc><pb> 8–18</pb><tmr> 7</tmr><na> None
 </na></stats><comments> Nixies are fond of human flesh, though they will sometimes
 refrain from eating a particularly beautiful humanoid member of the
 opposite sex in order to enjoy their company longer. They are
 capricious and cowardly and prefer to destroy their prey by guile
 whenever possible. An invitation to a Nixie feast is usually a prelude
 to treachery.
-</comments></monster><monster name="Nymph"><details><habitat> Woods, Fields (usually found with Satyrs)</habitat><frequency> Rare</frequency><number> 1-30 (6)
+</comments></monster><monster name="Nymph"><details><habitat> Woods, Fields (usually found with Satyrs)</habitat><frequency> Rare</frequency><number> 1–30 (6)
 </number><description> Nymphs are beautiful humanoids with goat-like lower
 limbs covered in soft curly hair. They generally prefer to go about
 naked, but will wear light robes in cold weather.
@@ -271,9 +266,9 @@ desire only to spend his days frolicking with the Nymph (or her
 sisters).</talents><weapons> Nymphs do not use weapons or fight in any way.  They rely
 exclusively on their beauty and magic for protection.
 </weapons><movement>  Running: 250
-</movement></details><stats><ps> 10-12   </ps><md> 14-18</md><ag> 14-22</ag><ma> 18-22</ma><en> 8-12</en><ft> 16-24</ft><wp> 18-24</wp><pc> 18-24</pc><pb> 25-33</pb><tmr> 5</tmr><na> None
+</movement></details><stats><ps> 10–12   </ps><md> 14–18</md><ag> 14–22</ag><ma> 18–22</ma><en> 8–12</en><ft> 16–24</ft><wp> 18–24</wp><pc> 18–24</pc><pb> 25–33</pb><tmr> 5</tmr><na> None
 </na></stats><comments> Nymphs dislike the intrusion of humans, but will attempt to
-charm and seduce a particularly handsome man with their beauty (40&percnt;chance) if they do not first flee (50&percnt; chance) If they flee, they will
+charm and seduce a particularly handsome man with their beauty (40%chance) if they do not first flee (50% chance) If they flee, they will
 attempt to punish those who frightened them. Nymphs can move from
 place to place by entering the trunks of trees and then teleporting
 from one trunk to another.  It takes them 30 seconds to enter the
@@ -287,7 +282,7 @@ per week until the lover dies or escapes. The lover may make a check
 against 2 times his Willpower at the end of each week to see if he
 runs away from his sweet captors (leaving behind most of his weapons,
 armour, and other possessions in his state of befuddlement).
-</comments></monster><monster name="Pixie"><details><habitat> Woods</habitat><frequency> Very Rare</frequency><number> 1-100 (10)
+</comments></monster><monster name="Pixie"><details><habitat> Woods</habitat><frequency> Very Rare</frequency><number> 1–100 (10)
 </number><description> Pixies are small people about 2 feet in height, A,ith
 transparent wings, pointed ears, and almond-shaped eyes.
 </description><talents> Pixies are naturally invisible, but can become visible at
@@ -299,31 +294,31 @@ inability to think clearly in the victims of their pranks.
 with great effect. They have three types of arrow: one which does [D -
 6] damage, one that puts their victims to sleep unless they roll 4 x
 Willpower or less, and one that removes all memory from the victim for
-[D - 4] days unless they roll 4 x Willpower or less. The bow has a
-Base Chance of 60&percnt;. They may wear leather armor.
+[D − 4] days unless they roll 4 x Willpower or less. The bow has a
+Base Chance of 60%. They may wear leather armor.
 </weapons><movement> Runing: 150; Flying: 250
-</movement></details><stats><ps> 3-4</ps><md> 18-21</md><ag> 17-20</ag><ma> 10-15   </ma><en> 3-4</en><ft> 8-10</ft><wp> 12-16</wp><pc> 10-14</pc><pb> 10-17</pb><tmr> 3/5</tmr><na> None
+</movement></details><stats><ps> 3–4</ps><md> 18–21</md><ag> 17–20</ag><ma> 10–15   </ma><en> 3–4</en><ft> 8–10</ft><wp> 12–16</wp><pc> 10–14</pc><pb> 10–17</pb><tmr> 3/5</tmr><na> None
 </na></stats><comments> Pixies are very hard to hit in combat (+30 to their normal
 defense). They are highly mischievous, and thev will often play pranks
 to annoy the foolish traveler who enters a forest where pixies are
 said to dwell.
-</comments></monster><monster name="Satyr (faun)"><details><habitat>  Woods, Plains</habitat><frequency> Uncommon</frequency><number>   1-10 (6)
+</comments></monster><monster name="Satyr (faun)"><details><habitat>  Woods, Plains</habitat><frequency> Uncommon</frequency><number>   1–10 (6)
 </number><description> Satyrs have the upper halves of a man and the legs of a
 goat or horse. They have bristly hair, and short, black horns. Their
 skin is a deep mahogany in color.
 </description><talents> Satyrs are somewhat magical.  Their magical abilities are
 usually focused through a pipe which they play to charm, delight, or
 otherwise influence those around them. They are also 3 times as
-stealthy as humans, and can blend in with surrounding trees (90&percnt;chance they will be undetected if they remain still. Satyrs have
+stealthy as humans, and can blend in with surrounding trees (90%chance they will be undetected if they remain still. Satyrs have
 the same power over women that nymphs have over men.
 </talents><weapons> Satyrs use simple weapons like spears. Usually they will
-have Rank 1-5 with the weapons they use.
+have Rank 1–5 with the weapons they use.
 </weapons><movement>  Running: 400
-</movement></details><stats><ps> 12-22</ps><md> 19-22</md><ag> 18-20</ag><ma> 15-18</ma><en> 10-18</en><ft> 18-28</ft><wp> 15-18</wp><pc> 18-20</pc><pb> 9-12</pb><tmr> 8</tmr><na> Skin absorbs 2 DP.</na></stats><comments> Satyrs are much like centaurs in mentality: they enjoy
+</movement></details><stats><ps> 12–22</ps><md> 19–22</md><ag> 18–20</ag><ma> 15–18</ma><en> 10–18</en><ft> 18–28</ft><wp> 15–18</wp><pc> 18–20</pc><pb> 9–12</pb><tmr> 8</tmr><na> Skin absorbs 2 DP.</na></stats><comments> Satyrs are much like centaurs in mentality: they enjoy
 drinking, dancing, and generally making merry. In general they dislike
 men, although they will occasionally attempt to seduce human
 females. They will usually be accompanied by nymphs.
-</comments></monster><monster name="Sylph"><details><habitat> Rough (especially mountain tops).</habitat><frequency> Very Rare</frequency><number> 1-2 (1)
+</comments></monster><monster name="Sylph"><details><habitat> Rough (especially mountain tops).</habitat><frequency> Very Rare</frequency><number> 1–2 (1)
 </number><description> Sylphs appear as human females, but have large, almost
 transparent wings. They are usually very beautiful.
 </description><talents> Sylphs can turn themselves invisible, and they are usually
@@ -332,7 +327,7 @@ harm. Sylphs are also able magicians, specializing in the powers of
 the College of Air Magics.</talents><weapons> Sylphs do not use weapons or attack. They use only their
 magic to defend themselves.
 </weapons><movement>  Flying: 700; Running: 250
-</movement></details><stats><ps> 10-13</ps><md> 18-22  </md><ag> 20-24</ag><ma> 18-20</ma><en> 9-12</en><ft> 18-20</ft><wp> 14-18</wp><pc> 18-20</pc><pb> 21-25</pb><tmr> 14/5</tmr><na> None
+</movement></details><stats><ps> 10–13</ps><md> 18–22  </md><ag> 20–24</ag><ma> 18–20</ma><en> 9–12</en><ft> 18–20</ft><wp> 14–18</wp><pc> 18–20</pc><pb> 21–25</pb><tmr> 14/5</tmr><na> None
 </na></stats><comments> Sylphs will aid a humanoid in need or befriend one to whom
 they take a fancy. If somehow coerced they will have a large treasure
 with which they may buy their freedom but it will usually be hidden on
@@ -343,15 +338,15 @@ They include: Dwarves, Gnolls, Gnomes, Goblins, Halflings, Hobgoblins,
 Kobolds, and Orcs.  These beings all tend to prefer cool shadows to
 bright sunlight, and all except Dwarves and Halflings positively
 dislike sunlight and will not willingly venture into it.
-</notes><monster name="Dwarf"><details><habitat>  Rough, Caverns</habitat><frequency> Uncommon</frequency><number> 1-500 (10)</number><description> Dwarves are short, stout humanoids. They usually have
+</notes><monster name="Dwarf"><details><habitat>  Rough, Caverns</habitat><frequency> Uncommon</frequency><number> 1–500 (10)</number><description> Dwarves are short, stout humanoids. They usually have
 long beards.
 </description><talents>  See character generation</talents><weapons> Dwarves delight in axes and hammers and they will have Rank
-2-4 with these weapons. They also commonly wear heavy armor, with
+2–4 with these weapons. They also commonly wear heavy armor, with
 chainmail being the type most frequently worn, although platc is also
 occasionally used. The listed characteristic ranges are for NPC
 dwarves only.
-</weapons><movement> Running: 225</movement></details><stats><ps> 6-24</ps><md> 5-23</md><ag> 4-22</ag><ma> 3-21</ma><en> 6-24</en><ft> 17-23  </ft><wp> 7-25</wp><pc> 6-24</pc><pb> 4-22</pb><tmr> 4</tmr><na> None
-</na></stats></monster><monster name="Gnoll"><details><habitat> All but Waste and Ocean (Usually Caverns)</habitat><frequency> Uncommon</frequency><number>   1-300 (40)
+</weapons><movement> Running: 225</movement></details><stats><ps> 6–24</ps><md> 5–23</md><ag> 4–22</ag><ma> 3–21</ma><en> 6–24</en><ft> 17–23  </ft><wp> 7–25</wp><pc> 6–24</pc><pb> 4–22</pb><tmr> 4</tmr><na> None
+</na></stats></monster><monster name="Gnoll"><details><habitat> All but Waste and Ocean (Usually Caverns)</habitat><frequency> Uncommon</frequency><number>   1–300 (40)
 </number><description> Gnolls are dog-faced humanoids about 7 feet tall.  They
 are very strong, and usually wear armour. Their skin is fuzzy, and
 yellowish-brown in color.
@@ -363,13 +358,13 @@ will use ranged weapons, however, and any large contingent will have a
 fair number of archers. They usually wear light armor (leather or
 cloth) but strong members of a group will sometimes have better armour.
 </weapons><movement>  Running: 250
-</movement></details><stats><ps> 20-23</ps><md> 13-15</md><ag> 12-14</ag><ma> None   </ma><en> 12-14</en><ft> 20-24</ft><wp> 10-12 </wp><pc> 12-16</pc><pb> 6-9</pb><tmr> 5</tmr><na> Hide absorbes 2 DP
+</movement></details><stats><ps> 20–23</ps><md> 13–15</md><ag> 12–14</ag><ma> None   </ma><en> 12–14</en><ft> 20–24</ft><wp> 10–12 </wp><pc> 12–16</pc><pb> 6–9</pb><tmr> 5</tmr><na> Hide absorbes 2 DP
 </na></stats><comments> Gnolls are very disorganized and travel in loose
 bands. They like to raid towns and travellers to gain plunder as they
 disdain to work themselves. Large bands will often have (value: [D +
 5] x 100 Silver Pennies per Gnoll) treasure that has been previously
 looted.
-</comments></monster><monster name="Gnome"><details><habitat> Rough, Caverns.</habitat><frequency> Rare</frequency><number> 1-200 (50)
+</comments></monster><monster name="Gnome"><details><habitat> Rough, Caverns.</habitat><frequency> Rare</frequency><number> 1–200 (50)
 
 </number><description> Gnomes are short, stocky humanoids, much fike Dwarves,
 but even shorter (3 feet). Tvpically they will be dressed in chainmail
@@ -383,16 +378,16 @@ or the quality of a builder's job.</talents><weapons> Gnomes will use daggers, s
 weapons that they can carry easily.
 
 </weapons><movement>  Running: 150
-</movement></details><stats><ps> 10-14</ps><md> 10-13  </md><ag> 14-16</ag><ma> 13-17</ma><en> 8-10</en><ft> 16-20</ft><wp> 19-22</wp><pc> 14-18</pc><pb> 10-13</pb><tmr> 3</tmr><na> None</na></stats><comments> Gnomes have a strong dislike for goblins, and will always
+</movement></details><stats><ps> 10–14</ps><md> 10–13  </md><ag> 14–16</ag><ma> 13–17</ma><en> 8–10</en><ft> 16–20</ft><wp> 19–22</wp><pc> 14–18</pc><pb> 10–13</pb><tmr> 3</tmr><na> None</na></stats><comments> Gnomes have a strong dislike for goblins, and will always
 attempt to attack them. Gnomes are organized into bands, each of which
 is competitive with the others, although not actually hostile. They
 are usually friendly to man, and they are very friendly with the
 Dwarves, their cousins, although they have a mild dislike of
-Elves. Large bands of Gnomes will often (80&percnt;) have a fair amount
+Elves. Large bands of Gnomes will often (80%) have a fair amount
 (value: [D + 3] x 100 Silver Pennies per gnome) of treasure. Gnomes
 found in their lair will have more treasure (value [D + 3] x 300
 silver pennies per gnome) as Gnomes are fond of hoarding.
-</comments></monster><monster name="Goblin"><details><habitat>  Caverns</habitat><frequency> Uncommon</frequency><number>  4-1000 (20)
+</comments></monster><monster name="Goblin"><details><habitat>  Caverns</habitat><frequency> Uncommon</frequency><number>  4–1000 (20)
 </number><description> Goblins are humanoid in form, but have large fangs,
 pointed ears, and skin ranging from brown to pallid grey.  They are
 usually very ugly, have foul breath, and an unpleasant odor. They wear
@@ -401,33 +396,33 @@ carrying shields. More powerful goblins will sometimes carry better
 armor. They are about 4 feet tall.
 </description><talents> Goblins are good at working with stone if forced into it,
 and so they are good at detecting facts having to do with stone
-(40&percnt; chance of detecting anything unusual or dangerous). They
+(40% chance of detecting anything unusual or dangerous). They
 can see in the dark. They are excellent at torture, which they delight
 in. A goblin will in rare instances be an Adept of one of the
 Entities.</talents><weapons> Goblins will use any sort of weapon that their strength
 allows, although they generally prefer simple swords or clubs. They
-will also often use crossbows and slings. They may have Rank 1-3 with
+will also often use crossbows and slings. They may have Rank 1–3 with
 these weapons.
 
 </weapons><movement>  Running: 150
-</movement></details><stats><ps> 9-13</ps><md> 8-12  </md><ag> 7-12</ag><ma> 10-18</ma><en> 6-8</en><ft> 10-13  </ft><wp> 8-11</wp><pc> 7-12</pc><pb> 8-10</pb><tmr> 3</tmr><na> Skin absorbs 1 DP</na></stats><comments> Goblins are highly evil, and will often waylay a party,
+</movement></details><stats><ps> 9–13</ps><md> 8–12  </md><ag> 7–12</ag><ma> 10–18</ma><en> 6–8</en><ft> 10–13  </ft><wp> 8–11</wp><pc> 7–12</pc><pb> 8–10</pb><tmr> 3</tmr><na> Skin absorbs 1 DP</na></stats><comments> Goblins are highly evil, and will often waylay a party,
 killing and looting. They love to cause discord, and will be deceitful
 where violence will not work. Their lair (and treasure) will be well
 guarded. Goblins dislike sunlight, and fight at a reduction in the
 Base Chance of 10 when under a bright sun.  They hate Dwarves and
 Gnomes, and will attack them whenever possible. Goblins will usually
 be in league with dire wolves if there are any in the neighborhood.
-</comments></monster><monster name="Halfling"><details><habitat> Caverns (Burrows), Fields.</habitat><frequency> Uncommon</frequency><number> 1-50 (6)</number><description> Halflings are small humanoids, usually less than three
+</comments></monster><monster name="Halfling"><details><habitat> Caverns (Burrows), Fields.</habitat><frequency> Uncommon</frequency><number> 1–50 (6)</number><description> Halflings are small humanoids, usually less than three
 feet in height. They are inclined to be fat.
 </description><talents> See character generation.
 </talents><weapons> Halflings prefer small weapons, maces and slings being the
 most common, although short swords and daggers will also sometimes be
-used. There is a 50&percnt; chance that a halting will have Rank with at
+used. There is a 50% chance that a halting will have Rank with at
 least one of the weapons that he is carrying. Rank with a weapon will
 never be higher than Rank 4.  The listed characteristic ranges are for
 NPC halflings.
 </weapons><movement>  Running: 200
-</movement></details><stats><ps> 3-21</ps><md> 7-25</md><ag> 6-24</ag><ma> 4-22</ma><en> 3-21</en><ft> 17-23</ft><wp> 6-24</wp><pc> 5-23</pc><pb> 5-23</pb><tmr> 4</tmr><na> None</na></stats></monster><monster name="Hobgoblin"><details><habitat> Anywhere</habitat><frequency> Rare</frequency><number> 1-500 (30)
+</movement></details><stats><ps> 3–21</ps><md> 7–25</md><ag> 6–24</ag><ma> 4–22</ma><en> 3–21</en><ft> 17–23</ft><wp> 6–24</wp><pc> 5–23</pc><pb> 5–23</pb><tmr> 4</tmr><na> None</na></stats></monster><monster name="Hobgoblin"><details><habitat> Anywhere</habitat><frequency> Rare</frequency><number> 1–500 (30)
 </number><description>  Hobgoblins are particularly large and vicious
 creatures of basically the same strain as Goblins. They have the
 same fangs and pointed ears as Goblins, but they grow to larger
@@ -443,16 +438,16 @@ abilities as Goblins.</talents><weapons> Hobgoblins use all weapons, and will us
 weapon their strength allows. They like whips and spears with long,
 barbed points that break off in the wound.  Hobgoblins rarely use
 bows, although they will use slings and javelins. Hobgoblins will have
-Ranks 1-3 with their favored weapons.
+Ranks 1–3 with their favored weapons.
 </weapons><movement>  Running: 250
-</movement></details><stats><ps> 17-21</ps><md> 14-16</md><ag> 13-15</ag><ma> 12-20</ma><en> 14-16</en><ft> 20-23</ft><wp> 10-12 </wp><pc> 14-16</pc><pb> 6-9</pb><tmr> 5</tmr><na> Hide absorbs 2 DP
+</movement></details><stats><ps> 17–21</ps><md> 14–16</md><ag> 13–15</ag><ma> 12–20</ma><en> 14–16</en><ft> 20–23</ft><wp> 10–12 </wp><pc> 14–16</pc><pb> 6–9</pb><tmr> 5</tmr><na> Hide absorbs 2 DP
 </na></stats><comments> Hobgoblins are organized into Clans which are highly
 competitive with each other and with their relatives, the Goblins and
 Orcs. The Clans are headed by the strongest member of the group, and
 fights for leader of the Clan are common. Hobgoblins are often hired
 to lead bands of Goblins and Orcs, as their strength and size ensures
 that discipline will be maintained.
-</comments></monster><monster name="Kobold"><details><habitat> Fields, Caverns.</habitat><frequency> Rare</frequency><number> Rare 1-10 (5)
+</comments></monster><monster name="Kobold"><details><habitat> Fields, Caverns.</habitat><frequency> Rare</frequency><number> Rare 1–10 (5)
 </number><description> Kobolds are small, elderly-appearing dwarvish types who
 wear hoods of bright colors. They are about 2 1/2 feet tall, and have
 highly gnarled faces.
@@ -461,25 +456,25 @@ will perform many tasks relating to maintenance of property or
 animals. They have no special magical powers, and they are not as good
 at working with stone and at detecting unusual constructions as the
 dwarves. They can see in the dark.
-</talents><weapons> Kobolds carry Daggers and Hammers (Base Chance of 30&percnt;, [D -
+</talents><weapons> Kobolds carry Daggers and Hammers (Base Chance of 30%, [D -
 2] damage). They do not wear armour.
 </weapons><movement>  Running: 100
-</movement></details><stats><ps> 7-9</ps><md> 14-17</md><ag> 15-18</ag><ma> None</ma><en> 6-8</en><ft> 12-14  </ft><wp> 14-17</wp><pc> 12-16</pc><pb> 8-11</pb><tmr> 2</tmr><na> None
+</movement></details><stats><ps> 7–9</ps><md> 14–17</md><ag> 15–18</ag><ma> None</ma><en> 6–8</en><ft> 12–14  </ft><wp> 14–17</wp><pc> 12–16</pc><pb> 8–11</pb><tmr> 2</tmr><na> None
 </na></stats><comments> A Kobold in the house is a blessing, for they will perform
 all sorts of menial or semi-skilled tasks with great willingness and
 ability, where such is possible. They will work for only shelter and
 food. While travelling, they will most likely run away if they see a
-party at a distance, but there is a 25&percnt; chance that they will be
+party at a distance, but there is a 25% chance that they will be
 willing to trade information and befriend a character. In general,
 Kobolds get along with men better even than the Dwarves. Kobolds will
 almost never have treasure, although if they do it will usually be
 something of value only to them.
-</comments></monster><monster name="Orc"><details><habitat> Caverns, Rough</habitat><frequency> Common</frequency><number>  Common  1-1000 (25)
+</comments></monster><monster name="Orc"><details><habitat> Caverns, Rough</habitat><frequency> Common</frequency><number>  Common  1–1000 (25)
 </number><description> An Orc is an ugly, stoop shouldered humanoid, much like
 a goblin or hobgoblin (to whom they are related).
-</description><talents> See character generation.</talents><weapons> The scimitar is the favorite weapon of the orcs (Rank 1-4
+</description><talents> See character generation.</talents><weapons> The scimitar is the favorite weapon of the orcs (Rank 1–4
 with the weapon is typical) although other weapons will occasionally
 be used. Short bows are the most common form of missile weapon. Orcs
 will wear armor, with leather being the prevalent type. Orcs mill
 also commonly carry shields.
-</weapons><movement>  250</movement></details><stats><ps> 6-24</ps><md> 5-23</md><ag> 5-23</ag><ma> 3-21</ma><en> 6-24</en><ft> 17-23</ft><wp> 3-21 </wp><pc> 5-23</pc><pb> 2-20</pb><tmr> 5</tmr><na> None</na></stats></monster></class></group></dqmm>
+</weapons><movement>  250</movement></details><stats><ps> 6–24</ps><md> 5–23</md><ag> 5–23</ag><ma> 3–21</ma><en> 6–24</en><ft> 17–23</ft><wp> 3–21 </wp><pc> 5–23</pc><pb> 2–20</pb><tmr> 5</tmr><na> None</na></stats></monster></class></group></dqmm>
