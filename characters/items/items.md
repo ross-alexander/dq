@@ -127,7 +127,198 @@ Base value      22,500 sp
 The armour has worm's teath edged gauntlets, which can be used as
 cestii.
 
+## Prowess
+
+Prowess is a special Adventuring Skill that may only be advanced once
+per adventure or season, whichever is least. It increases the Strike
+Chance of a Melee or Close Attack by 5 per Rank.
+
+The Experience Multiple of this special Skill is 500.
+
+## Claw of the Nephilim
+
+This claw and forearm has been preserved so that it may be worked on
+by a Weaponsmith who knows how to make hafted and experimental
+weapons.
+
+## Shield of Chaos
+
+This octagonal shield weighs 5 lbs and is made of some iridescent,
+shell like material. It penalises MD by 2 but provides 5 Defence (+5
+per Rank).
+
+If it can be presented against an attack (i.e. a visible attack that
+approaches through the bearer's front hexes), then a D20 is rolled. If
+the result is a prime, then this amount is deducted from the damage.
+Note: 1 is not a prime.
+
+
+## Winged Helm 
+
+This helmet has wide, wing-like flanges on either side, and the face
+is open. It weighs 2 lbs, and allows the wearer to roll 2 × MD
+percentile chance to avoid a specific grievous injury to the skull
+(but not the eyes).
+
+The "wings" can store 3 points of the wearer's TMR to be used at a
+later time. Increasing the TMR reservoir costs 1,000 Experience each
+and takes the morning half of a week of Skill Training Time.
+ 
+The reservoir may be replenished one at a time by reducing the
+wearer's TMR by one for ten minutes, once per day.  The TMR stored can
+be transferred directly to the wearer,. For so long as TMR remains in
+the reservoir, the wearer can increase their own by one or more, once
+per Pulse.
+
+The helmet must be worn under the open sky for at least eight
+consecutive days to attune it.
+
+## Spell of Name Change
+
+Range: Self
+Duration: Conc. Max 30 minutes + 30 minutes per Rank
+Experience Multiple: 275
+Base Chance: 1%
+Resist: None
+Storage: Potion
+Target: Sentient Entity
+Effects: The Adept assumes the form or seeming of something whose Name they have Ranked.
+
+If they wish to assume a physical form, then they must have at least
+Rank 10 in its GTN.  When they transform they acquire the lowest value
+of the creature's physical stats: PS, MD, AG, PB and EN.  They retain
+their own MA, WP, FT and PC. For every 2 Ranks in the GTN in excess of
+10 they may add 1 to the form's physical stats.  The Adept may not
+transform into a fantastical or sentient creature, nor one that weighs
+less than a few ounces (about the size of a mouse) nor more than
+1000lbs (up to a large bull, but not a fully grown ox).
+
+The cost to transform themselves is 12 FT - 1 per 2 Ranks in the spell.
+
+They may assume the seeming of anything whose GTN they know.  This
+will engage all of the usual senses.  The size of the seeming can be
+no more than 1 hex per 3 or fraction Ranks in the Name.  It is much
+harder to make a seeming that is smaller, however.  If the Adept has
+Rank 10 in a Name, they can take the seeming of something half their
+size, one quarter their size at Rank 20.  The limits on a seeming are
+much less constrained than for a transformation.  However, the
+appearance of a particular entity can be assumed only if their
+Individual True Name is known.  In addition, the spell can only be
+sustained for either 30 minutes + 30 minutes per Rank of the spell or
+10 minutes + 10 minutes per Rank of the ITN, whichever is lowest.
+
+Each time an observer has reason to question the seeming, then they
+are allowed a Magic Resistance versus Namer Special Knowlege magic.
+The roll is penalised by the Rank of the Name used, but the observers
+gain a bonus to MR of their PC. If they fail this roll, but
+subsequently have reason to doubt the seeming again, they may make
+another roll.  If they resist, they are undeceived.  Seemings never
+inflict any damage.  Indeed, physical contact sharp enough to require a
+Strike Check will cause the seeming to dissipate.
+
+The cost to change their appearance is 6 FT - 1 per 4 Ranks in the
+spell.
+
+This spell is not teachable to others.
+
+
 # Callas
+
+## Ivory Wand
+
+This wand will add 5% to the base chance of casting the Earth mage
+spell of Detect Poison.
+
+## Amulet of Luck
+
+Made from tiger's or alligator's teeth.  It increases the wearer's
+Magical Resistance by 3 and subtracts 2 from any Strike Check made
+against the wearer. Cost: 2400 SP.
+
+## Elder Flowers
+
+Makes the wearer proof against the Evil Eye. Cost: 400 SP.
+
+## Hypericum
+
+Increases the wearer's Magical Resistance by 10 to any magical act
+performed by a Demon or Daemonic being.  Cost: 800 SP.
+
+## Shield of Disruption
+
+This magical Small round Shield is of Dwarvern origin and bears a Rune
+of Disruption.  Furthermore it is crafted by a Rank 10 Armourer and
+its exuisite balance provides the wielder with 5% per Rank of Shield
+to their Defence (ie 5--25%).
+
+Every pulse the wielder is engaged in Melee Combat, any weapon spells
+of the opponent's within the wilder's front 3 hexes have a chance of
+being Disrupted and removed.  Furthermore any _Magical_ bonus to Base
+Chance and Damage of a Shaped Magic has a chance of being Disrupted
+and will be nullified for as long as the opponent remains in the
+wielder's font 3 hexes.  The chance of this Disruption occurring is
+10% (+5% per Rank in Shield).
+
+Weapon spells include Enchanting Weapon, Phantasm, Weapon of Cold,
+Weapon of Flames, Self-immolation, Diamond Weapon, Light Sword, Shadow
+Sword, Dark Sword, Spectral Weapon, Minor Creation, Mending, Spectral
+Warrior, Runeweapon, Unbreakability and other spells the GM sees fit.
+
+A Giant would treat it as a Buckler and would receive 4% per Rank of
+Shield to their Defence (ie 4--20%).
+
+## Short Sword
+
+Rank 10 Weaponsmithed, +5% +1Dm, Silvered.
+
+## Castle
+
+Callas has gained a small keep in the Duchy of Verbobnoc.  The keep
+has a central tower 60ft high and four small towers forty feet high,
+two of which flank a gate house 20 feet broad.  The gate towers occupy
+one corner of the keep and the main tower is in the corner farthest
+from the gates.  The keep is grarrisoned by twenty regular soldiers
+who are longbow specialists armoured in leather, four sergeants
+(chain, longsword) and a captain (plate and longsword).  All have a
+light war-horses and remount.  The staff of the keep number thirty
+five, the walls are 70 feet between towers.  A 5 foot dry moat
+surrounds the keep.  The area commands a radius of 12 miles and
+services a population of 4,000.  The area is rich in fruit trees and
+grains, a little iron ore and a stand of hardwoods, an oak forest
+around two miles in diameter.  The keep fronts the main trade road in
+Verbobnoc.
+
+Income per sea after taxes, tithes and costs is 600 silver pennies.
+The keep is sub-fifed from Duke James of Verbobnoc, a tolerent and
+well meaning half-elven ruler.  Around 1,200 of the population are
+gnomes an 800 dwarves.  The inhabintants are happy with their lot and
+are trained to form a militia of unusual strengh and morale.
+
+## Val Estate
+
+- Count of Borderlay Manor
+- Val Estate Ruins
+
+Given your recent gift (of 100,000 SP) to the Count, the Count of
+Borderlay has invested Lady Callas Verdicini and Verdicini family of
+her line with the ruin estates of Val a 4,600 acres holdings outside
+the small Valyere town in northeast Borderlay close to County of
+Borovia border, about 5 miles away from the edge of the local forts.
+
+As of Blossom 817 WK - your estates have 135 families living there at
+this time.  Rumours of missing locals, underground ruins and dungeon,
+persist to this day. Retaining staff members is said to be hard
+because of the ghosts.
+
+The house comes with; four stories being basement, ground, first
+floor, & attic. The six staff members have bedrooms in the attic
+level. All of the stable hands and groundsmen and woodcutter have a
+small cottage in the lower garden.
+
+The manor house is large but old with two ruined mills and six bridges
+which have been knocked out since the Drow took Borovia.  The area is
+rich in food and has a copper mine in the hills to the north and same
+rumours of Faye living in a wood that locals call the Enchanted Woods.
 
 ## The Oerth Stone
 
@@ -295,7 +486,7 @@ then they are subject to the whim of the new owner and must obey their
 commands without hesitation.  A body not currently posssessed of a soul
 makes all checks vs possesion or domination at +30%.  If the Oerth
 Stone is used by a mage as part of this ritual, resistance is based on
-a subtraction for raw Willpoer alone.  The target must be personally
+a subtraction for raw Willpower alone.  The target must be personally
 known (ie met in person) for this ritual to work.
 
 
@@ -316,15 +507,15 @@ missile attack directed at its owner and manifests this as catching a
 juggling ball.  The attack may now be tossed back atthe ttacker
 (grenado roll required) or the ball may be kept by the Fool.  The Fool
 Plaque may be used up to four times and may store up to four balls.  A
-fifth use ofthe Fool released all theremianing balls and the Fool
+fifth use ofthe Fool released all the remianing balls and the Fool
 disappears in a flourish of entertaining waves and bows.
 
 The Artist.  This plaue is blank but when drawn conjures a collection
 of tiny paint pots, inks and pens.  The plaque then folds out as a
 paint board with holders for the above.  The owner of  the plague may
 then paint or draw into existane nay simple non livign non metal
-object e.g. a door, window, stairwell, lap etc. no larger than 10 x 10
-x 10 feet in size.  The plaque contains enough paints for a dozen
+object e.g. a door, window, stairwell, lap etc. no larger than 10 × 10
+× 10 feet in size.  The plaque contains enough paints for a dozen
 drawings [now 11].
 
 Gorgeous Companion.  When drawn a companion of the appropriate sex and
@@ -345,7 +536,7 @@ infomration on Lorefakir. [Gone].
 Deferring Butler.  A Butler complete with tails steps forth and from
 the card to intercept anyone approaching the plaque's owner.  The
 Butler has an 10ft _Aura of Calm Disposition_, which calrms those
-hostile to their master (save vs 2x Willpower or become non-hostile).
+hostile to their master (save vs 2× Willpower or become non-hostile).
 The Deferring Butler may then produce an acceptable explanation to the
 Carlmed character as to why their master cannot be disturbed at this
 moment.  This deferral may last up to twenty minutes.  This effect is
@@ -360,7 +551,7 @@ temporarily increases Willpower by 3 for the duration of the
 encounter.  [Used twice].
 
 Monologue.  A character using this cad can stay action (including
-combat) for as long as they can effectively speak (save vs 1x
+combat) for as long as they can effectively speak (save vs 1 ×
 Willpower).  Villains and enemies will listen as long as the player
 can describe why they, the character, are important, why the enemy is
 (or isn't) and why they are destined to win (or not) etc.  The
@@ -585,10 +776,10 @@ additional Rank in Unarmed Combat (ie she may Rank Unarmed to Rank 11
 These members are now very respected and well liked in the eyes of the
 Guild.  They are exempt from all Guild taxes.  The guild is in many
 ways indebted tothem and its employees and representatives will always
-be nice to them.  Guild employees may find themselves peeling
-potatioes iftheir service to them is substandard.  Generally the guild
-will extend services tothem when thees services costthe guild nothing
-to itself, i.e. translation, the odd Shadow Wings, maybe an atrology
+be nice to them.  Guild employees may find themselves peeling potatoes
+if their service to them is substandard.  Generally the guild will
+extend services tothem when thees services cost the guild nothing to
+itself, i.e. translation, the odd Shadow Wings, maybe an astrology
 reading now and then, etc.
 
 ## Changes of Trollskin Spell
@@ -820,6 +1011,7 @@ Properties
   
   If they marry their one true love the character and their partner
   gain the following abilities.
+
   1. They have limited empathy with their partner which is cross
      planar and infinite in range, this in practice allow each other
      when concentrating to know how their partner is feeling at the
@@ -931,7 +1123,7 @@ all her primary and secondary by one, to racial minimum.
 
 Callas has gained a talent similar to the Witchsight talent of Elves.
 To see invisible creatures or entities, Callas must roll under her
-PC + 5 * Rank in this talent.
+PC + 5 × Rank in this talent.
 
 Callas can se at night as clearly as if it were a bright day out to a
 distance of 35 feet.  Each rank that she achieves with this talent
@@ -988,7 +1180,7 @@ Effects
 
 This spell changes the target's flesh to stone, cuasing the target to
 take damage and lose Agility.  This damge is [D-2] + 2/Rank and the
-loss to Agilisys is 1 + 1 / 3 or fractions Ranks.  If the target
+loss to Agility is 1 + 1 / 3 or fractions Ranks.  If the target
 resists then they take half damage, rounding up, and half the Agility
 loss, rounding up [Multihex creatures to a minimum of 10 AG].
 
@@ -1020,7 +1212,7 @@ It bestows on the wielder one rank in the Healer skill.
 
 Callas has gained the ability to cast spells in close and/or for less
 Fatigue than is normal.  This ability may be used a limited number of
-times per day.  Callas must make a "Close Casting/sligh Fatigue" check
+times per day.  Callas must make a "Close Casting/Slough Fatigue" check
 before she can use this ability.  A normal cast check for the spell is
 also required.  This roll is a simple check and does not require an
 action.  A failure counts as a usage of this skill.  Only one check
@@ -1068,10 +1260,10 @@ opponent, whichever is greater.
 
 They never miss.  Roll to ttack as normal counting all misses as a
 normal FT hit as long as hitting the target would be possible.  If a
-drop or break fumble is rolled and the 3xMD check is not passwd the
+drop or break fumble is rolled and the 3×MD check is not passwd the
 blades will disappear, unwilling to be wielded by such an incompetent.
 
-While evalid, if an opponent missed and the wielder scores a riposte,
+While evading, if an opponent missed and the wielder scores a riposte,
 they will catch the opponents weapon with the Mains Gauche and break
 it (assuming the opponent's weapon is of a reasonable size, i.e. not a
 giatn weapon and it can actually be broken).
@@ -1105,7 +1297,7 @@ most amaxing experience they have ever had, which will last up to 3
 hours.  This exertion will cost both parties all of the FT (and then
 some!).  If the user shows them to an unwilling or reluctant
 prospetive (NPC) partner and makes an appropriate suggestion, the
-target must make a 2xWP check or succumb to the wiles of the user.
+target must make a 2 × WP check or succumb to the wiles of the user.
 This will not remove all inhibitions from the target and they will
 still have their usual morals.
 
@@ -1145,7 +1337,7 @@ functioning immediately (this means they will not lose the point of
 Endurance from dying).  They will also be fully cured of all curses
 include death curses. [Not used].
 
-## Sabre of the Silient Depths
+## Sabre of the Silent Depths
 
 This sabre has a pitch-black blade that seems to absorb light.  It is
 a reforge of several magical swords into one, created by the Granite
@@ -1947,7 +2139,7 @@ Rank 10 (D+4) with Rank 20 Spectral Weapon (4,000 sp)
 
 ## Mass Fear Invented
 
-3 x 1 Mass Fear Invested Rk 8 BC 85                      8,000
+3 × 1 Mass Fear Invested Rk 8 BC 85                      8,000
 
 ## Damnum Minatum Dust
 
