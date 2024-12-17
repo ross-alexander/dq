@@ -1,0 +1,166 @@
+#!/usr/bin/perl
+# -*- mode: perl -*-
+
+# ----------------------------------------------------------------------
+#
+# npc-format
+
+# 2024-07-01: Ross Alexander
+#   Add "section" headers
+
+# 2023-10-09: Ross Alexander
+
+#
+# 2021-11-05: Ross Alexander
+#
+# ----------------------------------------------------------------------
+
+use 5.40.0;
+use YAML;
+use Getopt::Long;
+use utf8;
+use JSON;
+
+# ----------------------------------------------------------------------
+#
+# npc_tex
+#
+# ----------------------------------------------------------------------
+
+sub npc_tex {
+    my ($npc) = @_;
+    if (!exists($npc->{name}))
+    {
+	print "$0: NPC missing name.\n";
+	return;
+    }
+
+    # --------------------
+    # Build format header
+    # --------------------
+    
+    my @format = ("vlines={green7}", "hlines={1pt,teal7}", "hline{1,Z}={2pt,green7}");
+    push(@format, "columns={6mm,c}");
+    push(@format, "cell{1}{1} = {c=9}{c,font=\\LARGE\\bfseries}");
+    push(@format, "cell{2}{1} = {c=9}{c,font=\\itshape}");
+
+    # --------------------
+    # Build body
+    # --------------------
+    
+    my @body;
+
+    push(@body, $npc->{name});
+    push(@body, $npc->{description} // "No description given");
+
+    my $index = 3;
+    if ($npc->{image})
+    {
+	push(@body, sprintf("\\includegraphics[width=40mm]{%s}", $npc->{image}));
+	push(@format, "cell{3}{1} = {c=9}{c}");
+	$index++;
+    }
+
+    
+    # --------------------
+    # Push stat block
+    # --------------------
+    my $stats = $npc->{stats} // {};
+
+    my @k = ('PS', 'MD', 'AG', 'MA', 'WP', 'EN', 'FT', 'PC', 'PB');
+    push(@body, join(" & ", @k));
+    push(@body, join(" & ", map { $stats->{$_} } @k ));
+    push(@format, sprintf("hline{%d,%d}={2pt,green7}", $index++, ++$index));
+    push(@format, sprintf("cell{%d-Z}{1}={c=9}{l}", $index));
+    
+    for my $k ('notes', 'skills', 'weapons', 'armour', 'abilities', 'items')
+    {
+	if (exists($npc->{$k}))
+	{
+	    push(@format, sprintf("row{%d}={c,bg=green9,font=\\sc}", $index));
+	    $index += 1 + scalar(@{$npc->{$k}});
+	    push(@body, ucfirst($k));
+	    push(@body, map { $_ =~ s:\%:\\%:g; $_ =~ s:\&:\\&:g; $_; } @{$npc->{$k}});
+	}
+    }
+    my @res;
+    push(@res, sprintf("\\begin{tblr}{%s}", join(",", @format)));
+    push(@res, join(" \\\\\n", @body));
+    push(@res, "\\end{tblr}", "");
+#    say to_json(\@res, {pretty=>1});
+    return @res;
+}
+
+# ----------------------------------------------------------------------
+#
+# M A I N
+#
+# ----------------------------------------------------------------------
+
+binmode(STDOUT, ":utf8");
+
+my $opt = {};
+
+GetOptions(
+    '--input=s' => \$opt->{in},
+    '--output=s' => \$opt->{out}
+    );
+
+# --------------------
+# Load file
+# --------------------
+
+if (!$opt->{in})
+{
+    printf(STDERR "$0: --in missing\n");
+    exit(1);
+}
+
+if (!-f $opt->{in})
+{
+    printf(STDERR "$0: --in %s: file not found\n", $opt->{in});
+    exit(1);
+}
+
+
+my $yaml = YAML::LoadFile($opt->{in});
+
+# --------------------
+# Check primary key, should really check it is an array
+# --------------------
+
+if (!exists($yaml->{npc}))
+{
+    print STDERR "$0: missing npc key\n";
+    exit(1);
+}
+
+my @res;
+
+push(@res, "\\documentclass[a4paper]{article}");
+push(@res, "\\usepackage[a4paper,margin=8mm]{geometry}");
+push(@res, "\\usepackage{xcolor,tabularray,libertine,multicol}");
+push(@res, "\\usepackage{graphicx}");
+push(@res, "\\setlength{\\parskip}{3mm}", "\\setlength{\\parindent}{0mm}");
+push(@res, "\\begin{document}");
+push(@res, "\\sffamily");
+push(@res, "\\begin{multicols}{2}");
+
+for my $npc (@{$yaml->{npc}})
+{
+    push(@res, &npc_tex($npc));
+}
+
+push(@res, "\\end{multicols}", "\\end{document}");
+
+# --------------------
+# output
+# --------------------
+
+if ($opt->{out})
+{
+    my $stream;
+    open($stream, ">:utf8", $opt->{out});
+    print($stream join("\n", @res, ""));
+    close($stream);
+}

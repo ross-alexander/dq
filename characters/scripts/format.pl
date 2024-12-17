@@ -1051,7 +1051,7 @@ sub TeX_Character {
 	if (scalar(@list))
 	{
 	    $stream->printf("\\begin{ranktblr}{colspec={rX}} \n");
-	    $stream->printf("\\textbf{Rk} & \\hfil \\textbf{%s} \\hfil \\\\ \n", ucfirst($t));
+	    $stream->printf("\\textbf{Rk} & \\textbf{%s} \\\\ \n", ucfirst($t));
 	    
 	    for my $s (@list)
 	    {

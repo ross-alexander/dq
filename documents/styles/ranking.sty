@@ -1,11 +1,11 @@
 % ----------------------------------------------------------------------
 %
 % ranking.sty
-%
+
 % Style sheet for DQ ranking.
 %
 % Originally written for LaTeX2e with pdflatex it now expects to be run with xelatex or lualatex.
-%
+
 % 2020-06-20: Ross Alexander
 %    Use geometry for margins
 %    Set specific fonts for adventure, heading and ranking columns
@@ -20,9 +20,9 @@
 \else
   \RequirePackage[utf8]{inputenc}
   \ifpdf
-    \typeout{^^J *** PDF mode *** } 
+    \typeout{^^J *** PDF mode *** ^^J} 
   \else
-    \typeout{^^J *** DVI \
+    \typeout{^^J *** DVI mode *** ^^J}
   \fi
 \fi
 
@@ -32,21 +32,24 @@
 \RequirePackage{multicol}
 \RequirePackage{fancyhdr}
 \RequirePackage{ifthen}
+\RequirePackage{graphicx}
+\RequirePackage{tabularray}
 \RequirePackage[margin=10mm,top=20mm,bottom=15mm]{geometry}
-\RequirePackage[skip=2pt plus 4pt, indent=0mm]{parskip}
+\RequirePackage[skip=4pt plus 4pt minus 2pt, indent=0mm]{parskip}
 
 \NewTblrEnviron{dqtblr}
-\SetTblrInner[dqtblr]{rowsep=0.0mm,stretch=0.9,width=\linewidth,hlines={0.2mm,magenta2},vlines={0.2mm,magenta2}}
+\SetTblrInner[dqtblr]{rowsep=0.0mm,stretch=1.1,width=\linewidth,hlines={0.2mm,magenta2},vlines={0.2mm,magenta2}}
 \UseTblrLibrary{varwidth}
 
 \NewTblrEnviron{ranktblr}
 \SetTblrInner[ranktblr]{rowsep=0.0mm,stretch=0.9,width=\linewidth,hline{1-2,Z}={0.2mm,magenta2},vlines={0.2mm,magenta2},%
 row{1}={c,font=\bfseries}}
 
-
 \ProcessOptions
 
 \ifxetex
+  \setmainfont{TeX Gyre Pagella}[Scale=0.95,Ligatures=TeX]
+
   \newfontfamily{\headingfont}[Ligatures=TeX]{TeX Gyre Schola}
   \newfontfamily{\adventurefont}[Scale=2.4,Ligatures=TeX]{KellsFLF}
 %  \newfontfamily{\rankingsf}[Scale=0.9,Color=blue,Ligatures=TeX]{Raleway}
@@ -65,6 +68,7 @@ row{1}={c,font=\bfseries}}
 \setlength\leftmarginii{2.0em}
 
 \setcounter{tocdepth}{1}
+\setcounter{secnumdepth}{0}
 
 \renewcommand{\section}{\@startsection
 	{section}%
@@ -189,12 +193,11 @@ Experience remaning		& \texttt{\textbf{#4}}
 \newcommand{\upto}{$\ldots$}
 \newcommand{\x}{$\times$}
 
-\setcounter{secnumdepth}{0}
 
 \def\dq@charname{Character Name}
 
 \newcommand{\charname}[1]{\def\dq@charname{#1}}
-\newcommand{\fullname}[1]{\def\dq@fullname{#1}}
+\newcommand{\fullname}[1]{\def\dq@fullname{#1} \title{Character Ranking} \author{#1}}
 \newcommand{\race}[1]{\def\dq@race{#1}}
 \newcommand{\sex}[1]{\def\dq@sex{#1}}
 \newcommand{\dateofbirth}[1]{\def\dq@dateofbirth{#1}}
@@ -205,6 +208,7 @@ Experience remaning		& \texttt{\textbf{#4}}
 \newcommand{\height}[1]{\def\dq@height{#1}}
 \newcommand{\weight}[1]{\def\dq@weight{#1}}
 \newcommand{\hand}[1]{\def\dq@hand{#1}}
+\newcommand{\charpic}[1]{\def\dq@charpic{#1}}
 
 \newcommand{\chardesc}{
   \pagestyle{empty}
@@ -218,7 +222,17 @@ Status		& \emph{\dq@status} \\
 Birth		& \emph{\dq@birth} \\
 College		& \emph{\dq@college} \\
     \end{tabular}
-\end{center}}
+
+    \ifdef{\dq@charpic}
+          {
+            \typeout{Character picture \dq@charpic}
+            \includegraphics[scale=0.5]{\dq@charpic}
+          }
+          {
+            \typeout{No character picture defined}
+          }
+  \end{center}
+}
 
 \lhead{\fancyplain{}{\scshape\fontsize{8}{9pt}\selectfont\dq@charname}}
 \rhead{\fancyplain{}{\slshape\fontsize{8}{9pt}\selectfont\rightmark}}

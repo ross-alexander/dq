@@ -38,7 +38,7 @@ HTML = $(SOURCE:.sgml=.html)
 TEX = $(SOURCE:.sgml=.tex)
 XML = $(SOURCE:.sgml=.xml)
 
-all: $(HTML) $(XML) $(TEX)
+all: dqmm.pdf $(HTML) $(XML) $(TEX)
 
 xslt.o : xslt.c
 

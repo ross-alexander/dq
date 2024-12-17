@@ -175,14 +175,29 @@ consecutive days to attune it.
 
 ## Spell of Name Change
 
-Range: Self
-Duration: Conc. Max 30 minutes + 30 minutes per Rank
-Experience Multiple: 275
-Base Chance: 1%
-Resist: None
-Storage: Potion
-Target: Sentient Entity
-Effects: The Adept assumes the form or seeming of something whose Name they have Ranked.
+Range
+: Self
+
+Duration
+: Conc. Max 30 minutes + 30 minutes per Rank
+
+Experience Multiple
+: 275
+
+Base Chance
+: 1%
+
+Resist
+: None
+
+Storage
+: Potion
+
+Target
+: Sentient Entity
+
+Effects
+: The Adept assumes the form or seeming of something whose Name they have Ranked.
 
 If they wish to assume a physical form, then they must have at least
 Rank 10 in its GTN.  When they transform they acquire the lowest value
