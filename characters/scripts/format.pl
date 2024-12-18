@@ -775,10 +775,11 @@ sub TeX_Ranking {
     my $text = join("\\\\\n", @block);
 
     $text =~ s/\&amp;/\\& /g;
-    $stream->print("\\begin{ranking}{$desc}{$period}\n");
+    my $environment = $ranking->{star} ? "ranking*" : "ranking";
+    $stream->print("\\begin{$environment}{$desc}{$period}\n");
     $stream->print($text);
     $stream->printf("\\hline\\textbf{Total} \& \& \& \& \& \\textbf{$ep} \& \\multicolumn{2}{l}{\\rankingtt \\textbf{$weeks_text $days_text}} \\\\\n") if ($ep);
-    $stream->print("\\end{ranking}\n");
+    $stream->print("\\end{$environment}\n");
 }
 
 
@@ -928,6 +929,7 @@ sub TeX_Character {
     $stream->printf("\\birth{%s}\n", $basics->{'birth'});
     $stream->printf("\\status{%s}\n", $basics->{'status'});
     $stream->printf("\\college{%s}\n", $basics->{'college'});
+    $stream->printf("\\charpic{%s}\n", $basics->{'charpic'}) if (exists($basics->{'charpic'}));
 
 # --------------------
 # Do title
