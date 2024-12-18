@@ -6,6 +6,10 @@
 %
 % Originally written for LaTeX2e with pdflatex it now expects to be run with xelatex or lualatex.
 
+% 2024-12-18: Ross Alexander
+%   Add support for character picture
+%   Change font to allow table on first page
+
 % 2020-06-20: Ross Alexander
 %    Use geometry for margins
 %    Set specific fonts for adventure, heading and ranking columns
@@ -42,8 +46,8 @@
 \UseTblrLibrary{varwidth}
 
 \NewTblrEnviron{ranktblr}
-\SetTblrInner[ranktblr]{rowsep=0.0mm,stretch=0.9,width=\linewidth,hline{1-2,Z}={0.2mm,magenta2},vlines={0.2mm,magenta2},%
-row{1}={c,font=\bfseries}}
+\SetTblrInner[ranktblr]{rowsep=0.0mm,stretch=0.8,width=\linewidth,hline{1-2,Z}={0.2mm,magenta2},vlines={0.2mm,magenta2},%
+rows={font=\tablesf},row{1}={c,font=\bfseries}}
 
 \ProcessOptions
 
@@ -54,6 +58,7 @@ row{1}={c,font=\bfseries}}
   \newfontfamily{\adventurefont}[Scale=2.4,Ligatures=TeX]{KellsFLF}
 %  \newfontfamily{\rankingsf}[Scale=0.9,Color=blue,Ligatures=TeX]{Raleway}
   \newfontfamily{\rankingsf}[Scale=0.9,Color=blue,Ligatures=TeX]{TeX Gyre Heros}
+  \newfontfamily{\tablesf}[Scale=0.8,Color=black,Ligatures=TeX]{TeX Gyre Heros}
   \newfontfamily{\rankingtt}[Scale=0.9,Color=blue,Ligatures=TeX]{Courier Prime}
 \fi
 
