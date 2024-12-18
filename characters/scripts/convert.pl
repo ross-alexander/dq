@@ -299,7 +299,7 @@ sub Update_Adventure {
 	
 	if (!$ranking->{star})
 	{
-	    $tick = $ranking->{end};
+	    $tick = new Tick($ranking->{end});
 	}
     }
 
