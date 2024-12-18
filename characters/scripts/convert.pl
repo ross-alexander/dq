@@ -25,6 +25,7 @@ use Perl6::Slurp;
 use Data::Dumper;
 use Carp;
 use YAML::PP qw(DumpFile);
+use File::Spec::Functions qw(rel2abs splitpath file_name_is_absolute catdir);
 
 # ----------------------------------------------------------------------
 #
@@ -121,7 +122,26 @@ sub Update_Adventure {
     
     for my $ranking (@{$adventure->{ranking}})
     {
-	$ranking->{start} = new Tick($tick);
+	say "!!", $tick;
+	if ($ranking->{date})
+	{
+	    my $s = new Tick($ranking->{date});
+	    if (!$ranking->{star} && ($s < $tick))
+	    {
+		printf("Ranking for %s starts before end of the adventure\n", $ranking->{desc});
+		exit(1);
+	    }
+	    $ranking->{start} = new Tick($s);
+	}
+	else
+	{
+	    $ranking->{start} = new Tick($tick);
+	}
+	
+	printf("-- %s : %s%s\n\n", $ranking->{desc}, $ranking->{start}, $ranking->{star} ? "*" : "");
+
+	my $days = 0;
+	
 	for my $block (@{$ranking->{blocks}})
 	{
 	    # --------------------
@@ -266,13 +286,21 @@ sub Update_Adventure {
 	    my @tsort = sort { $a <=> $b } @time;
 	    $block->{start} = $tick;
 	    $block->{time} =  $tsort[$#tsort];
-	    
-	    if (!($ranking->{star} > 0))
-	    {
-		$tick += $tsort[$#tsort];
-	    }
+
+	    $days += $tsort[$#tsort];
 	}
-	$ranking->{end} = Tick->new($tick);
+	
+	# Tick + integer doesn't work so work around it
+	
+	$ranking->{end} = Tick->new($ranking->{start});
+	$ranking->{end} += $days;
+	
+	printf("-- %s : %s (%d)\n\n", $ranking->{desc}, $ranking->{end}, $days);
+	
+	if (!$ranking->{star})
+	{
+	    $tick = $ranking->{end};
+	}
     }
 
     # --------------------
@@ -893,7 +921,7 @@ sub XML_Character {
 
     my $basics = XML::LibXML::Element->new("basics"); $root->appendChild($basics);
 
-    for my $k ('charname', 'fullname', 'race', 'college', 'status', 'sex', 'height', 'weight', 'aspect', 'hand', 'birth', 'date', 'dateofbirth')
+    for my $k ('charname', 'fullname', 'race', 'college', 'status', 'sex', 'height', 'weight', 'aspect', 'hand', 'birth', 'date', 'dateofbirth', 'charpic')
     {
 	$basics->setAttribute($k, $character->{basics}->{$k}) if ($character->{basics}->{$k});
     }
@@ -1168,7 +1196,7 @@ sub JSON_Character {
     # Copy over static details
     # --------------------
     
-    for my $k ('charname', 'fullname', 'race', 'college', 'status', 'sex', 'height', 'weight', 'aspect', 'hand', 'birth', 'date', 'dateofbirth')
+    for my $k ('charname', 'fullname', 'race', 'college', 'status', 'sex', 'height', 'weight', 'aspect', 'hand', 'birth', 'date', 'dateofbirth', 'charpic')
     {
 	$basics->{$k} = $character->{basics}->{$k} if ($character->{basics}->{$k});
     }
@@ -1391,6 +1419,20 @@ sub Main {
 	$basics->{birth} = $1 if (m:^\\birth\{(.*)\}:);
 	$basics->{date} = $1 if (m:^\\date\{(.*)\}:);
 	$basics->{dateofbirth} = $1 if (m:^\\dateofbirth\{(.*)\}:);
+	$basics->{charpic} = $1 if (m:^\\charpic\{(.*)\}:);
+
+	if (exists($basics->{charpic}))
+	{
+	    my $path = $basics->{charpic};
+	    my $in = $opts->{infile};
+	    if (!file_name_is_absolute($path))
+	    {
+		my ($vol, $dirs, $file) = splitpath($in);
+		$path = rel2abs(catdir($dirs, $path));
+#		say $vol, $dirs, " -- ", $file, " ++ ", $path;
+		$basics->{charpic} = $path;
+	    }
+	}
 
 	if (m:^\\begin\{adventure\*?\}:)
 	{
