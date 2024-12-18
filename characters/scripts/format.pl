@@ -36,6 +36,7 @@ use XML::LibXML::Simple;
 use Perl6::Slurp;
 use JSON;
 use YAML;
+use File::Basename;
 
 # ----------------------------------------------------------------------
 #
@@ -778,7 +779,8 @@ sub TeX_Ranking {
     my $environment = $ranking->{star} ? "ranking*" : "ranking";
     $stream->print("\\begin{$environment}{$desc}{$period}\n");
     $stream->print($text);
-    $stream->printf("\\hline\\textbf{Total} \& \& \& \& \& \\textbf{$ep} \& \\multicolumn{2}{l}{\\rankingtt \\textbf{$weeks_text $days_text}} \\\\\n") if ($ep);
+    $stream->printf("\\hline\n");
+    $stream->printf("Total \& \& \& \& \& $ep \& \\multicolumn{2}{l}{\\rankingtt $weeks_text $days_text} \\\\\n") if ($ep);
     $stream->print("\\end{$environment}\n");
 }
 
@@ -1101,10 +1103,10 @@ sub Text_Character {
     for my $a (@{$map->{adventures}})
     {
 	printf("%s\n", $a->{name});
-	for my $r (@{$a->{ranking}})
+	for my $ranking (@{$a->{ranking}})
 	{
-	    printf(" - %s\n", $r->{desc});
-	    for my $block (@{$r->{blocks}})
+	    printf(" - %s\n", $ranking->{desc});
+	    for my $block (@{$ranking->{block}})
 	    {
 		printf("    - \n");
 		for my $line (@$block)
@@ -1377,8 +1379,10 @@ sub Main {
 
     my $conf = {
 	fonts => {
-	    sans => 'Helvetica',
-	    serif => 'Times',
+#	    sans => 'Helvetica',
+#	    serif => 'Times',
+	    serif => 'TeX Gyre Termes',
+	    sans => 'TeX Gyre Heros',
 	},
 	formats => {
 	    tex => {
@@ -1408,18 +1412,28 @@ sub Main {
     }
 
     # --------------------
+    # Load file
+    # --------------------
+
+    my $parser_dispatch = {
+	json => \&JSON_File,
+	yaml => \&YAML_File,
+	xml => \&XML_File,
+    };
+    
+
+    # --------------------
     # Process opts
     # --------------------
     
     my $opts = {
-	parser => 'xml',
     };
     GetOptions(
 	'i=s' => \$opts->{i},
 	'o=s' => \$opts->{o},
 	'f=s' => \$opts->{f},
 	't=s' => \$opts->{t},
-	'p=s' => \$opts->{parser},
+	'p=s' => \$opts->{p},
 	);
     
     # --------------------
@@ -1443,24 +1457,19 @@ sub Main {
 	printf(stderr "$0: [-f %s]\n", join("|", keys(%{$conf->{formats}})));
 	exit(1);
     }
-
-    # --------------------
-    # Load file
-    # --------------------
-
-    my $parser_dispatch = {
-	json => \&JSON_File,
-	yaml => \&YAML_File,
-	xml => \&XML_File,
-    };
-    
-    if (!exists($parser_dispatch->{$opts->{parser}}))
+    if (!exists($opts->{p}) || !$opts->{p})
     {
-	printf("%s: input parser %s not implemented\n", basename($0), $opts->{parser});
+	printf(stderr "$0: [-p %s]\n", join("|", keys(%{$parser_dispatch})));
+	exit(1);
+    }
+    
+    if (!exists($parser_dispatch->{$opts->{p}}))
+    {
+	printf("%s: input parser %s not implemented\n", basename($0), $opts->{p});
 	exit(1);
     }
 
-    my $parser = $parser_dispatch->{$opts->{parser}};
+    my $parser = $parser_dispatch->{$opts->{p}};
     my $character = $parser->($conf, $opts);
 
     # --------------------
