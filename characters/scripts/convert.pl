@@ -1119,7 +1119,7 @@ sub JSON_Adventure {
 	    push(@{$monies->{lines}}, $line);
 	    $line->{desc} = $l->{desc};
 	    $line->{in} = $l->{in} if (exists($l->{in}));
-	    $line->{in} = $l->{out} if (exists($l->{out}));
+	    $line->{out} = $l->{out} if (exists($l->{out}));
 	}
     }
    
