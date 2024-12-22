@@ -239,6 +239,53 @@ This spell is not teachable to others.
 
 # Callas
 
+## Callas' Arresting Gaze
+Range
+: 10 feet (+5 feet / Rank)
+
+Duration
+: Special
+
+Experience Multiple
+: 300
+Base Chance
+:  Automatic
+
+Cast Time
+: Magical Fire Action
+
+Effects
+: This magic does not normally miss, and neither can it
+generate Double or Triple Effects. Callas has a gaze that she can fix
+on an entity or an object that can fit inside a volume of one hex (+
+one hex for every ten Ranks). Objects or entities of greater size
+cannot normally be affected.
+
+The effects of the gaze are Avoided or Opposed, not Resisted, and if
+this is done, then nothing happens to them. For a target that
+succumbs, however, the current Pulse does not end for them . They do
+not lose Actions directly, however, abilities that reset at the end of
+the current Pulse or the beginning of the next will not be renewed as
+the Future is warded away from them. Similarly, entities afflicted
+with continuous damage like bleeding wounds, Greek Fire, poison, the
+End of Pulse Stun Recovery check, etc. will no longer experience them
+until She lifts her gaze, and provided she maintains the cost each
+Pulse. She cannot maintain the effect on multiple targets since she
+can only gaze at one thing at a time but she can lift it at any time
+without using any kind of Action at all.
+
+Her gaze is Avoided if the target Breaks 100 and adds AG to the
+result, or WP if the effect is to be Opposed. This halves the Stat
+involved or reduces it by ten, whichever is the least, and lasts until
+the end of the next Pulse.
+
+This magic draws one from a special reserve in her 'heart' . This
+starts at five, and may be raised by one at the end of an Adventure or
+Season, whichever is least, at a cost of two thousand five hundred
+Experience. It recovers as if it were normal FT, but only after all
+normal FT has been restored.
+
+
 ## Ivory Wand
 
 This wand will add 5% to the base chance of casting the Earth mage
