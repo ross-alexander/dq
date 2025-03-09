@@ -9,9 +9,7 @@
 
 \NeedsTeXFormat{LaTeX2e}
 
-\RequirePackage{ifpdf}
-\RequirePackage{ifxetex}
-\RequirePackage{ifluatex}
+\RequirePackage{etoolbox,ifpdf,ifxetex,ifluatex}
 \RequirePackage{ifthen}
 \RequirePackage[dvipsnames]{xcolor}
 \RequirePackage{multicol}
@@ -50,11 +48,14 @@
 
 %% Select font handling
 
+\newbool{hasfontspec}\boolfalse{hasfontspec}
 \ifxetex
   \RequirePackage{fontspec}
+  \booltrue{hasfontspec}
 \else
    \ifluatex
      \RequirePackage{fontspec}
+     \booltrue{hasfontspec}
    \else
      \RequirePackage[utf8]{inputenc}
    \fi
