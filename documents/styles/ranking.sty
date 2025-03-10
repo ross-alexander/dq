@@ -6,6 +6,9 @@
 %
 % Originally written for LaTeX2e with pdflatex it now expects to be run with xelatex or lualatex.
 
+% 2024-12-19: Ross Alexander
+%   Convert monies to tabularray as test
+
 % 2024-12-18: Ross Alexander
 %   Add support for character picture
 %   Change font to allow table on first page
@@ -16,17 +19,26 @@
 %
 % ----------------------------------------------------------------------
 
-\usepackage{ifpdf,ifxetex,ifluatex}
+\usepackage{etoolbox,ifpdf,ifxetex,ifluatex}
+
+\newbool{hasfontspec}\boolfalse{hasfontspec}
 
 \ifxetex
   \typeout{^^J *** XeTeX mode *** ^^J} 
   \RequirePackage{fontspec}
-\else
-  \RequirePackage[utf8]{inputenc}
-  \ifpdf
-    \typeout{^^J *** PDF mode *** ^^J} 
+  \booltrue{hasfontspec}
   \else
-    \typeout{^^J *** DVI mode *** ^^J}
+  \ifluatex
+    \typeout{^^J *** LuaTeX mode *** ^^J} 
+    \RequirePackage{fontspec}
+    \booltrue{hasfontspec}
+  \else
+    \RequirePackage[utf8]{inputenc}
+    \ifpdf
+      \typeout{^^J *** PDF mode *** ^^J} 
+    \else
+      \typeout{^^J *** DVI mode *** ^^J}
+    \fi
   \fi
 \fi
 
@@ -49,18 +61,22 @@
 \SetTblrInner[ranktblr]{rowsep=0.0mm,stretch=0.8,width=\linewidth,hline{1-2,Z}={0.2mm,magenta2},vlines={0.2mm,magenta2},%
 rows={font=\tablesf},row{1}={c,font=\bfseries}}
 
+
 \ProcessOptions
 
-\ifxetex
-  \setmainfont{TeX Gyre Pagella}[Scale=0.95,Ligatures=TeX]
+\ifbool{hasfontspec}
+{
+  \setmainfont{TeX Gyre Termes}[Scale=0.90,Ligatures=TeX]
+  \setmonofont{Courier Prime}[Scale=0.85]
+  
+  \newfontfamily{\headingfont}{TeX Gyre Termes}[Ligatures=TeX,Scale=0.85]
+  \newfontfamily{\adventurefont}{KellsFLF}[Scale=2.4,Ligatures=TeX]
 
-  \newfontfamily{\headingfont}[Ligatures=TeX]{TeX Gyre Schola}
-  \newfontfamily{\adventurefont}[Scale=2.4,Ligatures=TeX]{KellsFLF}
-%  \newfontfamily{\rankingsf}[Scale=0.9,Color=blue,Ligatures=TeX]{Raleway}
-  \newfontfamily{\rankingsf}[Scale=0.9,Color=blue,Ligatures=TeX]{TeX Gyre Heros}
   \newfontfamily{\tablesf}[Scale=0.8,Color=black,Ligatures=TeX]{TeX Gyre Heros}
+  
+  \newfontfamily{\rankingsf}[Scale=0.9,Color=blue,Ligatures=TeX]{TeX Gyre Heros}
   \newfontfamily{\rankingtt}[Scale=0.9,Color=blue,Ligatures=TeX]{Courier Prime}
-\fi
+}{}
 
 %%% GLOBAL LAYOUT THINGS
 
@@ -124,21 +140,51 @@ rows={font=\tablesf},row{1}={c,font=\bfseries}}
 \newenvironment{items}[1]{\subsection{#1}%
 \begin{tabular}{l}}{\end{tabular}}
 
-\newenvironment{monies}[4][Income and Expenditure (sp)]
+
+%% ----------------------------------------------------------------------
+%%
+%% New monies using tabularray
+%%
+%% ----------------------------------------------------------------------
+
+\NewDocumentEnvironment{monies}{O{Income and Expenditure (sp)} m m m +b}
 {
-  \def\dq@min{#2}
-  \def\dq@mout{#3}
-  \def\dq@mdate{#4}
-  \subsection{#1}%
-  \begin{tabular}{p{10cm}>{\ttfamily}r>{\ttfamily\bfseries}r}
-  \ifnum\dq@min>0
-    Surplus amount brought forward & & \dq@min \\
-  \fi
+\def\dq@min{#2}
+\def\dq@mout{#3}
+\def\dq@mdate{#4}
+\NewExpandableDocumentCommand{\dq@moniesstart}{m}{
+\ifnum\dq@min>0
+Surplus amount brought forward & & \dq@min \\
+\fi
+}
+\NewExpandableDocumentCommand{\dq@moniesend}{m}{
+Amount remaining at \dq@mdate & & \dq@mout \\
+}
+\subsection{#1}
+\begin{tblr}[expand=\expanded]{colspec={Q[wd=100mm,l]Q[r]Q[r]},hline{Y}={0.4pt,black},stretch=0.9,rowsep=0.0mm}
+\expanded{\dq@moniesstart{}}
+#5
+\expanded{\dq@moniesend{}}
 }
 {
-\hline
-Amount remaining at \dq@mdate & & \dq@mout \\
-\end{tabular}}
+\end{tblr}
+}
+
+%% \newenvironment{monies}[4][Income and Expenditure (sp)]
+%% {
+%%   \def\dq@min{#2}
+%%   \def\dq@mout{#3}
+%%   \def\dq@mdate{#4}
+%%   \subsection{#1}%
+%%   \begin{tabular}{p{10cm}>{\ttfamily}r>{\ttfamily\bfseries}r}
+%%   \ifnum\dq@min>0
+%%     Surplus amount brought forward & & \dq@min \\
+%%   \fi
+%% }
+%% {
+%% \hline
+%% Amount remaining at \dq@mdate & & \dq@mout \\
+%% \end{tabular}}
 
 % --------------------
 % Ranking and Ranking* are identical except ranking* doesn't obey the standard time rules
@@ -181,6 +227,7 @@ Amount remaining at \dq@mdate & & \dq@mout \\
 \newcommand{\experience}[5]{
   \begin{multicols}{2}
     \subsection{Experience remaining}
+    \tablesf
     \begin{tabular}{p{5cm}r}
 Experience gained on adventure	& \texttt{\textbf{#1}} \\
 Experience brought forward	& \texttt{\textbf{#2}} \\

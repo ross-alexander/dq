@@ -260,15 +260,15 @@ Casting a Spell is a complex process.
     to prepare the spell is proportional to the resulting safety of
     the Mage.  The length of time spent preparing a spell must be
     decided upon in advance.  Preparing a spell is subject to the
-    restrictions mentioned in §7.6.
+    restrictions mentioned in \S\ref{magic:restrictions}.
 
 \item[Casting] Once prepared, the spell is Cast by an expenditure of
   Energy in the form of tiredness Fatigue, used to shape and direct
   the magic.  This takes 5 seconds.  Once cast, a spell will either
   impact upon its target or fail.  If the spell impacts on its target,
   it may be partially or wholly resisted.  If the spell fails, it may
-  backfire (see §7.7).  If the spell is cast particularly competently,
-  it may be especially effective.
+  backfire (see \S\ref{magic:backfires}).  If the spell is cast
+  particularly competently, it may be especially effective.
 \end{Description}
 
 \subsection{Casting Mechanics}
@@ -298,7 +298,7 @@ Casting a Spell is a complex process.
   effect”.  If the die roll is more than 30 higher than the Cast
   Chance (with 5 second preparation), or 40 higher than the Cast
   Chance (with longer preparation), the spell has not only failed, but
-  Backfired, as per §7.7.
+  Backfired, as per \S\ref{magic:backfires}.
 
 \item[Fatigue] A Mage may not cast a spell unless they have sufficient
   Fatigue to pay the expected Fatigue cost.  At the end of the
@@ -315,13 +315,13 @@ Casting a Spell is a complex process.
   element to be doubled or tripled must be decided before anything
   else is resolved.  If the Cast Check is a success or better, the
   target(s) may resist the spell, if it is passively resistible (see
-  §7.8 for details).  This will reduce or nullify the effects of the
-  spell, as defined in the individual spell description. See §7.5 to
-  resolve the spell effects. Note that some backfires will result in
-  partial success.
+  \S\ref{magic:resistance} for details).  This will reduce or nullify
+  the effects of the spell, as defined in the individual spell
+  description. See \S\ref{magic:effects} to resolve the spell
+  effects. Note that some backfires will result in partial success.
 
 \item[Failure] Nothing occurs (except Fatigue loss).  If the result is
-  a backfire, consult the Backfire Table §53.
+  a backfire, consult the Backfire Table \S\ref{table:backfire}.
 
 \end{Description}
 
@@ -417,8 +417,9 @@ iron:
   metallic (e.g. quarterstaff, leather armour).  Weapons that are
   normally metallic can be made out of wood, bone or stone, but their
   Base Chance is reduced by 10, their Damage reduced by 2 and their
-  Fumble chance increases (see §6.10). A similar loss of effectiveness
-  will be experienced with other tools that are normally iron.
+  Fumble chance increases (see \S\ref{combat:resolving}).  A similar
+  loss of effectiveness will be experienced with other tools that are
+  normally iron.
 
 \item The Mage may use metallic items that have no iron content, such
   as copper, tin and bronze.  Such items cost the same as equivalent
@@ -434,7 +435,6 @@ iron:
   Iron does not protect from the effects of magic.
 
 \end{Enumerate}
-
 
 \subsection{Confinement}
 
@@ -495,9 +495,10 @@ backfires.  If the Mage’s Cast Check fails by more than 30 for a 5
 second Spell preparation or Ritual performance, or 40 for a longer
 Spell preparation, the Magic backfires. The Magic will always backfire
 on a natural roll of 100, unless the Cast Chance is over 100\%, in
-which case the Magic fails. The GM rolls on the Backfire Table (§53)
-and applies the result.  Effects include extra Fatigue loss, partial
-or awry magical effects, and curses and afflictions on the caster.
+which case the Magic fails. The GM rolls on the Backfire Table
+(\S\ref{table:backfire}) and applies the result.  Effects include
+extra Fatigue loss, partial or awry magical effects, and curses and
+afflictions on the caster.
 
 \subsection{Backfire Interpretation}
 
@@ -534,10 +535,10 @@ Target has on, or is in the area of, the appropriate counterspell	& + 30 +3/Rank
 Spell had triple effect and the caster chose to affect Magic Resistance	& \mi 20 \\
 \end{dqtblr}
 
-Branches of Magic are covered in §7.10.  Sentient entities are those
-with an MA of 0 or greater.  Counterspells are covered in §10.2.
-Triple Effects are covered in §7.5. Consecration is not covered in
-these rules.
+Branches of Magic are covered in \S\ref{magic:colleges}.  Sentient
+entities are those with an MA of 0 or greater.  Counterspells are
+covered in \S\ref{college:counterspells}.  Triple Effects are covered
+in \S\ref{magic:effects}.  Consecration is not covered in these rules.
 
 Purification, certain other spells, and many items also affect Magic
 Resistance.
@@ -588,8 +589,8 @@ spell which is not targeted at the entity, has no effect.
 
 Spell Magic may be employed, usually with 5 second preparation. A Mage
 must perform a magical pass action to prepare and a cast action to
-cast a spell. See §6.4 and §6.6 for what can be done during pass and
-cast actions in combat.
+cast a spell. See \S\ref{combat:engaged} and \S\ref{combat:unengaged}
+for what can be done during pass and cast actions in combat.
 
 Talent Magic may be used during combat. Passive talents operate
 normally and do not require any actions to employ. Active talents
@@ -601,7 +602,7 @@ actions that can be performed.
 
 Ritual Magic is difficult to employ during combat.  During each pulse
 that noisy or dangerous events take place, the Mage may need to make a
-concentration check (as per §7.6).
+concentration check (as per \S\ref{magic:restrictions}).
 
 
 \section{The Colleges of Magic}
@@ -655,12 +656,12 @@ Entity		& Opposed	& Neutral	& Same \\
 Each College of Magic has its own individual minimum Magical Aptitude
 requirement.  This must be met at the time any entity becomes an Adept
 of the college.  Many Colleges have restrictions on casting magic
-further to those in §7.6.  These are specified in the first
-sub-section of each College.
+further to those in \S\ref{magic:restrictions}.  These are specified
+in the first sub-section of each College.
 
 Most Colleges are subject to certain modifications to Cast Chances in
-addition to §7.4.  These are specified in the second sub-section of
-each College.
+addition to \S\ref{magic:modifiers}.  These are specified in the
+second sub-section of each College.
 
 \subsection{Learning College Magic}
 
@@ -829,15 +830,15 @@ different properties and can store different types of spells.
 \item[Potion] Spells, Talents and some quasi-magical skills (e.g.
   Healer) can be potioned by an Alchemist.  For Talents, the imbiber
   receives the usage of the talent for a duration dependent on the
-  Rank (see §30).  For skills, see the skill involved.  For spells,
-  imbibing a potioned spell is equivalent to being the Adept and
-  casting the spell on oneself.  This is normally the only way for
-  self-only spells to be stored.  Target area and target object spells
-  cannot be potioned, but spells that affect entities may (possibly)
-  be potionable, for example, Necrosis could be potioned, but drinking
-  the potion would only cause the imbiber to have their internal
-  organs ruptured.  Potions always work, but they cannot double or
-  triple effect.
+  Rank (see \S\ref{alchemist}).  For skills, see the skill involved.
+  For spells, imbibing a potioned spell is equivalent to being the
+  Adept and casting the spell on oneself.  This is normally the only
+  way for self-only spells to be stored.  Target area and target
+  object spells cannot be potioned, but spells that affect entities
+  may (possibly) be potionable, for example, Necrosis could be
+  potioned, but drinking the potion would only cause the imbiber to
+  have their internal organs ruptured.  Potions always work, but they
+  cannot double or triple effect.
 
 \item[Investment] Spells effects can often be stored in items and at a
   later stage, be triggered.  When a spell is triggered, it is as if

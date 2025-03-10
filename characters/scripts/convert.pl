@@ -1148,7 +1148,7 @@ sub JSON_Adventure {
 		my $line = {};
 		push(@{$block->{lines}}, $line);
 
-		for my $k ('name', 'college', 'ref', 'initial', 'final', 'sum', 'em', 'ep_raw', 'ep', 'time', 'money', 'track', 'partial')
+		for my $k ('name', 'college', 'ref', 'initial', 'final', 'sum', 'em', 'ep_raw', 'ep', 'time', 'money', 'track', 'partial', 'type')
 		{
 		    $line->{$k} = $l->{$k} if (exists($l->{$k}));
 		}
@@ -1242,29 +1242,33 @@ sub JSON_Character {
     }
 
     my $slw = {
-	'skill' => {
-	    'parent'	=> 'skills',
-	    'child'	=> 'skill',
+	skill => {
+	    parent	=> 'skills',
+	    child	=> 'skill',
 	},
-	'language' => {
-	    'parent'	=> 'languages',
-	    'child'	=> 'language',
+	language => {
+	    parent	=> 'languages',
+	    child	=> 'language',
 	},
-	'weapon' => {
-	    'parent'	=> 'weapons',
-	    'child'	=> 'weapon',
+	weapon => {
+	    parent	=> 'weapons',
+	    child	=> 'weapon',
 	},
-	'talent' => {
-	    'parent'	=> 'talents',
-	    'child'	=> 'talent',
+	talent => {
+	    parent	=> 'talents',
+	    child	=> 'talent',
 	},
-	'spell' => {
-	    'parent'	=> 'spells',
-	    'child'	=> 'spell',
+	spell => {
+	    parent	=> 'spells',
+	    child	=> 'spell',
 	},
-	'ritual' => {
-	    'parent'	=> 'rituals',
-	    'child'	=> 'ritual',
+	ritual => {
+	    parent	=> 'rituals',
+	    child	=> 'ritual',
+	},
+	power => {
+	    parent	=> 'powers',
+	    child	=> 'power'
 	},
     };
 

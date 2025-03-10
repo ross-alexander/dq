@@ -63,7 +63,7 @@ overall play.
   at Range.
 
 \item[Base Chance] The base percentage chance of hitting with a
-  weapon, as listed in the Weapon Chart (§56.1).
+  weapon, as listed in the Weapon Chart (\S\ref{table:weapons}).
 
 \item[Blocked Hex] A hex which contains enough solid material to block
   any attack.  A Blocked Hex is never part of an Attack Zone.
@@ -133,16 +133,17 @@ overall play.
   Melee combat.
 
 \item[Modified Agility] A figure’s Agility after it has been modified
-  due to weight carried (see §58.1), armour worn (see §56.3) and
-  circumstance.
+  due to weight carried (see \S\ref{table:fatigue}, armour worn (see
+  \S\ref{table:armour}) and circumstance.
 
 \item[Modified Manual Dexterity] A figure’s Manual Dexterity after it
-  has been modified due to the type of shield carried (see §56.2) and
-  circumstance.
+  has been modified due to the type of shield carried (see
+  \S\ref{table:shields}) and circumstance.
 
 \item[Modified Strike Chance] The percentile chance to successfully
   hit a target after the target’s Defence and all Strike Chance
-  Modifiers (see §57.1) have been taken into account.
+  Modifiers (see \S\ref{table:strikechance}) have been taken into
+  account.
 
 \item[Obscured Hex] A hex which a figure cannot see into, but through
   which objects may pass.
@@ -153,7 +154,7 @@ overall play.
 
 \item[Preparing a Spell] A type of Magical Pass Action.
 
-\item[Prepared Item] Any item (weapon, shield, flask, etc.)  that a
+\item[Prepared Item] Any item (weapon, shield, flask, etc.) that a
   figure has in their hands and may immediately use.
 
 \item[Pulse] A five second period of game time that regulates Actions
@@ -177,7 +178,7 @@ overall play.
 
 \item[Stun] A figure who takes sufficient Effective Damage in a single
   blow is Stunned, and may not attempt to perform any action except
-  Recover from Stun (see §6.8).
+  Recover from Stun (see \S\ref{combat:restrictions}).
 
 \item[Unengaged] A figure who is not adjacent to an opponent, or who
   is not in an opponent’s melee zone and chooses to be unengaged.
@@ -288,7 +289,8 @@ following order:
 
 \item[Extraordinarily Agile Figures] A figure who has a modified
   Agility of 26 or more may perform two Actions on their
-  initiative. Their choice of Actions is restricted. See §6.8.
+  initiative. Their choice of Actions is restricted. See
+  \S\ref{combat:restrictions}.
 
 \item[Stunned Figures] If a figure is Stunned before their Action,
   they may attempt to Recover from Stun as their Action.  This takes
@@ -631,11 +633,11 @@ Magical Pass Actions:
 
 \begin{Itemize}
   
-\item Prepare Spell (see §7.3).
+\item Prepare Spell (see \S\ref{magic:howtocast}).
 
-\item Actively Resist (see §7.8).  
+\item Actively Resist (see \S\ref{magic:resistance}).
 
-\item Concentrate (see §7.6). 
+\item Concentrate (see \S\ref{magic:restrictions}).
 
 \end{Itemize}
 
@@ -649,10 +651,10 @@ attempt will take far more than one pulse.
 \begin{inline}
 \begin{dqtblr}{colspec={Xp{5em}},hline{Z}={black,0mm}}
 Search for trap in specific place		& 2 \\
-Attempt to remove trap				& see §47.2 \\
+Attempt to remove trap				& see \S\ref{thief:benefits} \\
 Quick search of 10’ × 10’ for disguised objects	& 3 \\
 Sound Wall					& 1 \\
-Pick Lock					& see §47.2 \\
+Pick Lock					& see \S\ref{thief:benefits} \\
 \begin{dqtblr}{colspec={Xp{5em}},hline{Z}={black,0mm}}
 \end{dqtblr}
 Force Lock					& 3 \\
@@ -683,7 +685,7 @@ Drink 1/2 pint flask				& 1 \\
 Load missile weapon:				& \\
 Crossbow					& 2 \\
 Crossbow using cranequin			& 3 \\
-Other						& note L §56.1 \\
+Other						& note L \S\ref{table:weapons} \\
 \end{dqtblr}
 \end{inline}
 
@@ -719,47 +721,48 @@ current FT.  A stunned figure has no Melee Zone.
 The type of Action a figure may attempt is restricted by the position
 of the nearest opposing figure.  If a figure is in the same hex as a
 hostile figure, they are in Close, and may only select an Action from
-§6.5. If a figure is in a hostile figure’s Melee Zone and is not in
-Close, they are engaged, and may only select an Action from §6.4.  If
-a figure is not in a hostile figure’s Melee Zone, but has a target in
-their Melee Zone, they may select an Action from either §6.4 or §6.6,
+\S\ref{combat:close}.  If a figure is in a hostile figure’s Melee Zone
+and is not in Close, they are engaged, and may only select an Action
+from \S\ref{combat:engaged}.  If a figure is not in a hostile figure’s
+Melee Zone, but has a target in their Melee Zone, they may select an
+Action from either \S\ref{combat:engaged} or \S\ref{combat:unengaged},
 depending on how they wish to be treated.  Otherwise, a figure is
-unengaged, and must select an Action from §6.6.
+unengaged, and must select an Action from \S\ref{combat:unengaged}.
 
 \subsection{Visibility}
 
 If a figure is attempting to perform a Melee or Ranged Attack on a
 hostile figure who occupies a hex that is obscured (due to smoke,
 magic, etc.), they may be affected by visibility modifiers (see
-§57.1).  If they are attempting to cast a spell that requires
-targeting, they must make a Perception Check.  If the figure is
-totally obscured, they are treated as invisible for Strike Chances,
-and may not normally be targeted by a target: Entity spell.  The GM
-must determine if a figure is affected by an Area or Line of Fire
-spell, or Ranged Attack.
+\S\ref{table:strikechance}).  If they are attempting to cast a spell
+that requires targeting, they must make a Perception Check.  If the
+figure is totally obscured, they are treated as invisible for Strike
+Chances, and may not normally be targeted by a target: Entity spell.
+The GM must determine if a figure is affected by an Area or Line of
+Fire spell, or Ranged Attack.
 
 \subsection{Disturbing Magical Actions}
 
 If an Adept is performing a Magical Action, and is attacked, they must
-make a Concentration Check (see §7.6) or their Action will fail.  If
-the Adept is stunned or has sufficient cold iron lodged within them,
-their Action will automatically fail.  An Adept may not cast while
-prone.
+make a Concentration Check (see \S\ref{magic:restrictions}) or their
+Action will fail.  If the Adept is stunned or has sufficient cold iron
+lodged within them, their Action will automatically fail.  An Adept
+may not cast while prone.
 
 \subsection{Action Summary}
 
-The Action Summary (§57.3) lists all valid Actions and their
-Restrictions.
+The Action Summary (\S\ref{table:actionsummary}) lists all valid
+Actions and their Restrictions.
 
 \section{Attacking}
 \label{combat:attacking}
 
 The order of all attacking Actions is determined by the Initiative
-procedure as detailed in §6.3. Combat involving engaged figures is
-always resolved before any combat involving unengaged figures.  An
-attacker’s weapon is always assumed to be held in their primary hand
-unless stated otherwise.  Empty bare hands are always considered a
-prepared weapon.
+procedure as detailed in \S\ref{combat:sequence}.  Combat involving
+engaged figures is always resolved before any combat involving
+unengaged figures.  An attacker’s weapon is always assumed to be held
+in their primary hand unless stated otherwise.  Empty bare hands are
+always considered a prepared weapon.
 
 A hostile figure may be attacked by Ranged, Melee or Close combat
 while on the Tactical Display.  Special types of attacks are allowed,
@@ -772,7 +775,8 @@ Disarm.
 A figure may attempt to attack a hostile figure in their Ranged Zone
 via ranged combat by executing a Fire or Throw Action.  The figure
 declares their target, determines and applies any Ranged Combat
-modifiers (see §57.1), and executes a Strike Check.
+modifiers (see \S\ref{table:strikechance}), and executes a Strike
+Check.
 
 To Fire a missile weapon, the figure must be armed with a prepared and
 loaded missile weapon.  To Throw a weapon, the figure must be armed
@@ -795,7 +799,7 @@ Throw action, whether or not the weapon is actually loosed.
 \item[Snapshooting] A figure with a prepared Short Bow, Long Bow,
   Composite Bow, Giant Bow or Sling, with which they are at least Rank
   3, may prepare an arrow or bullet and Fire in the same Action. The
-  Strike Chance is reduced by -15. Snapshooting is a Fire Action.
+  Strike Chance is reduced by −15.  Snapshooting is a Fire Action.
 
 \item[Aiming] A figure with a prepared and loaded missile weapon may
   choose to take a Pass Action to Aim the missile weapon at a
@@ -811,9 +815,10 @@ Throw action, whether or not the weapon is actually loosed.
 
 A figure may attempt to Melee Attack any hostile figure who occupies
 at least one hex of their Melee Zone.  The figure declares their
-target, determines and applies any Melee Combat modifiers (see §57.1),
-and executes a Strike Check with a prepared melee-rated weapon. The
-attacker may move adjacent to the target during that pulse.
+target, determines and applies any Melee Combat modifiers (see
+\S\ref{table:strikechance}), and executes a Strike Check with a
+prepared melee-rated weapon.  The attacker may move adjacent to the
+target during that pulse.
 
 The normal Melee attack is intended to do as much damage to the target
 as possible, but other forms of specialised attack exist.
@@ -823,15 +828,15 @@ as possible, but other forms of specialised attack exist.
 A figure may attempt to attack any figure who occupies the same hex
 via Close Combat by exe cuting a Grapple Action.  The figure declares
 their target, determines and applies any Close Combat modifiers (see
-§57.1), and executes a Strike Check with a prepared close-rated
-weapon.  The attacker may move into the target’s hex during the pulse;
-this is known as closing.
+\S\ref{table:strikechance}), and executes a Strike Check with a
+prepared close-rated weapon.  The attacker may move into the target’s
+hex during the pulse; this is known as closing.
 
 \subsection{Attacking into Combat}
 
 A Ranged attack on a figure in Melee combat is resolved normally,
 bearing in mind the Line of Sight restrictions.  A Ranged or Melee
-attack on a figure in Close combat suffers a penalty of -10.  If the
+attack on a figure in Close combat suffers a penalty of −10.  If the
 attack misses, an additional attack with the same penalty must be
 resolved against each remaining figure in that hex (in a random
 order). If a multi-hex creature is in close with single-hex creatures,
@@ -884,10 +889,11 @@ attacks.
 \item[Knockout] A figure with any prepared Melee rated weapon
   excluding entangling weapons, Lances and Pikes, may attempt to knock
   out their opponent.  The attack is successful if the Strike Check
-  would normally result in an Endurance blow (see §6.11).  No damage
-  is done, but the target is unconscious for [D + 5] minutes.  This
-  attack may not be attempted on a target significantly larger than
-  the attacker.  A figure may not move while attempting a Knockout.
+  would normally result in an Endurance blow (see
+  \S\ref{combat:damage}).  No damage is done, but the target is
+  unconscious for [D + 5] minutes.  This attack may not be attempted
+  on a target significantly larger than the attacker.  A figure may
+  not move while attempting a Knockout.
 
 \item[Shield Rush] A figure with a prepared shield (other than a Main
   Gauche or Tower Shield) may attempt to Shield Rush their
@@ -934,10 +940,10 @@ An attacker’s Modified Strike Chance is equal to their Strike Chance
 plus any modifications for attack type and conditions, minus the
 target’s current defence. If the attacker rolls less than or equal to
 the Modified Strike Chance, a successful hit has occurred, and a
-Damage Check is made (see §6.11).
+Damage Check is made (see \S\ref{combat:damage}).
 
-Attack condition modifiers are detailed in (§57.1 Strike Chance
-Modifiers).
+Attack condition modifiers are detailed in (\S\ref{table:strikechance}
+Strike Chance Modifiers).
 
 \subsection{Evading}
 
@@ -970,19 +976,19 @@ Defence is equal to modified Agility, plus defence afforded by a
 prepared shield, defensive manoeuvres and magic.
 
 Defensive advantages due to terrain conditions and visibility
-modifiers are covered in §57.1 Strike Chance Modifiers. A figure has
-no defence except for that provided by magic if they are stunned or
-incapacitated.
+modifiers are covered in \S\ref{table:strikechance} Strike Chance
+Modifiers.  A figure has no defence except for that provided by magic
+if they are stunned or incapacitated.
 
 A prepared shield provides defence against all Melee and Ranged
 attacks that pass through a figure’s front hexes, if they have the
 Shield skill.  At Rank 0 and each additional Rank, the defence bonus
-(2\% to 6\%, see §56.2 Shields) is added to defence. No bonus is given
-for an unranked shield.  A figure may not attack with their shield or
-count their shield as a prepared weapon for Evading while retaining
-the shield defence bonus.  A prepared Main Gauche also provides some
-defence; however defence is only applied against Melee attacks, and no
-defence is gained at Rank 0.
+(2\% to 6\%, see \S\ref{table:shields} Shields) is added to defence.
+No bonus is given for an unranked shield.  A figure may not attack
+with their shield or count their shield as a prepared weapon for
+Evading while retaining the shield defence bonus.  A prepared Main
+Gauche also provides some defence; however defence is only applied
+against Melee attacks, and no defence is gained at Rank 0.
 
 \subsection{Fumbles}
 
@@ -1005,8 +1011,8 @@ weapon’s creation.
 When an attacker fumbles, they make a totally unmodified D100 roll.
 If that roll is under their current Initiative Value, they suffer no
 further penalty for their slight fumble; if it not under their current
-Initiative Value, apply the corresponding result from §52.3 or §52.4
-(the Fumble tables).
+Initiative Value, apply the corresponding result from
+\S\ref{fumble:bows} or \S\ref{fumble:others} (the Fumble tables).
 
 \section{Damage}
 \label{combat:damage}
@@ -1022,11 +1028,12 @@ Grievous Injuries.
 \subsection{Fatigue Damage}
 
 Physical Damage affecting Fatigue may be absorbed by armour.  Each
-type of armour has a Protection Rating (as listed in §56.3 Armour
-Chart), which is subtracted from the Fatigue damage inflicted.  When
-a figure’s Fatigue reaches 0, any subsequent attacks affecting Fatigue
-are subtracted from Endurance instead. A figure normally cannot lose
-both Fatigue and Endurance from one Strike Check.
+type of armour has a Protection Rating (as listed in
+\S\ref{table:armour} Armour Chart), which is subtracted from the
+Fatigue damage inflicted.  When a figure’s Fatigue reaches 0, any
+subsequent attacks affecting Fatigue are subtracted from Endurance
+instead.  A figure normally cannot lose both Fatigue and Endurance from
+one Strike Check.
 
 \subsection{Endurance Damage}
 
@@ -1039,10 +1046,11 @@ armour.
 In addition to Endurance damage, a Specific Grievous Injury may occur
 if the Strike Check is 5\% or less of the Modified Strike Chance.  If
 a potential Specific Grievous Injury occurs, the attacker rolls D100
-and consults the Grievous Injury Table (§51). If the roll falls within
-the range specified for the weapon class, a Specific Grievous Injury
-has occurred, and the effects of the resulting injury are applied in
-combination with any Endurance damage inflicted.
+and consults the Grievous Injury Table (\S\ref{table:grievous}).  If
+the roll falls within the range specified for the weapon class, a
+Specific Grievous Injury has occurred, and the effects of the
+resulting injury are applied in combination with any Endurance damage
+inflicted.
 
 A figure who suffers a Grievous Injury while wearing armour has the
 Protection Rating of their armour reduced by two until repaired.
@@ -1067,8 +1075,8 @@ modifiers may be applied at any time.
 If a figure chooses to over-strength a weapon, they may inflict an
 additional point of damage for every 5 full points of Physical
 Strength they have over the minimum required to use the weapon.
-Thrown or Missile weapons may not be over-strengthed.  See §6.14 for
-Unarmed Combat.
+Thrown or Missile weapons may not be over-strengthed.  See
+\S\ref{combat:unarmed} for Unarmed Combat.
 
 If a figure chooses to apply skill to inflict extra damage, they may
 inflict an additional point of damage for every full 4 Ranks they have
@@ -1101,7 +1109,7 @@ their full Endurance, they become stunned.
 \item They have no Melee Zone, but remain Engaged as long as they are
   in the Melee Zone of an opponent.
 
-\item Their Initiative changes (see §6.3)  
+\item Their Initiative changes (see \S\ref{combat:sequence}).
 
 \item They have no defence except that provided by magic.
 
@@ -1116,7 +1124,7 @@ their full Endurance, they become stunned.
   Fatigue.
 
 \item They may not move on the Tactical Display, or change facing.
-  They may still perform Free Acts(see §6.7).
+  They may still perform Free Acts(see \ref{combat:freeacts}).
 
 \end{Itemize}
 
@@ -1153,7 +1161,7 @@ Infected.  There is normally a 10\% chance of any wound becoming
 infected.  This is increased by (20 + Endurance Damage)\% if any
 Endurance damage was inflicted.  Bite, claw and talon attacks, hostile
 environmental conditions and poor treatment may further increase the
-chance. See §4.7 for more information.
+chance. See \S\ref{health:infection} for more information.
 
 \section{Weapons}
 \label{combat:weapons}
@@ -1167,8 +1175,8 @@ the GM should disallow any odd or unlikely method of carrying weapons.
 
 \subsection{Normal Weapons}
 
-The Weapons Chart (§56.1) lists all the normal weapons and their
-characteristics.
+The Weapons Chart (\S\ref{table:weapons}) lists all the normal weapons
+and their characteristics.
 
 Weight The weight of the weapon in pounds (excluding scabbards,
 etc.).
@@ -1220,12 +1228,12 @@ If the GM permits, figures may carry and use A-class \& B-class
 weapons coated with poison.  At least one point of effective damage
 must be done for the poison to affect the target.
 
-When anyone except an Assassin handles an envenomed weapon (§33.2),
-they must make a 3 × MD check every time they handle the weapon.  This
-includes coating the weapon, preparing or unpreparing the weapon, and
-attacking. An envenomed weapon will usually remain effective for 6
-hours or until at least one point of effective damage has been
-inflicted.
+When anyone except an Assassin handles an envenomed weapon
+(\S\ref{assassin:benefits}), they must make a 3 × MD check every time
+they handle the weapon.  This includes coating the weapon, preparing
+or unpreparing the weapon, and attacking. An envenomed weapon will
+usually remain effective for 6 hours or until at least one point of
+effective damage has been inflicted.
 
 \section{Unarmed Combat}
 \label{combat:unarmed}
@@ -1259,9 +1267,9 @@ Multi-hex figures have three types of hexes surrounding them: Front,
 Rear and Flank.  The exact configuration of Front, Rear and Flank
 hexes varies with the size of the figure.  Front and Rear hexes
 function in the same way for them as for any other figure.  Figures in
-Flank hexes gain a bonus to strike (see §57.1), and are not in the
-Multi-hex figure’s Melee Zone, but do not gain the advantages of a
-Rear attack.
+Flank hexes gain a bonus to strike (see \S\ref{table:strikechance}),
+and are not in the Multi-hex figure’s Melee Zone, but do not gain the
+advantages of a Rear attack.
 
 A multi-hex figure may move in any way so that its head enters any
 Front hex, and may move up to its full TMR in this fashion.  At the
@@ -1295,9 +1303,9 @@ Almost any action the figure is capable of while standing on the
 ground may be performed while mounted.  They may not (1) use a
 two-handed weapon, (2) fire a missile weapon or throw a weapon while
 moving, (3) use more than one weapon at a time.  These restrictions
-are lifted depending on the Horsemanship Rank on the Rider (see §29.2
-Horsemanship).  A figure may always use a shield and a one-handed
-weapon while mounted.
+are lifted depending on the Horsemanship Rank on the Rider (see
+\S\ref{horsemanship} Horsemanship).  A figure may always use a shield
+and a one-handed weapon while mounted.
 
 On a normal mount, the rider will not be able to attack figures
 directly in front of them except with a spear (or similar long hafted
@@ -1320,14 +1328,14 @@ movement, they may make a Melee Attack with a +20 bonus to Strike
 Chance.  If the figure overstrengths the weapon, the Mount’s TMR may
 be added to the rider’s Physical Strength.  If using a Lance, the
 Mount’s Physical Strength may be used for the purposes of
-over-strengthing (§6.11 Additional Damage).
+over-strengthing (\S\ref{combat:damage} Additional Damage).
 
 Any act of turning the mount or stopping it after the Charge will
-require a Horsemanship Check (see §29.2).  The pulse following any
-mounted Charge, the momentum will take the mount past the target to
-its full TMR.  Any attempt to turn or stop the mount will occur after
-that movement is terminated.  A failed check will result in the mount
-continuing on its way.
+require a Horsemanship Check (see \S\ref{horsemanship}).  The pulse
+following any mounted Charge, the momentum will take the mount past
+the target to its full TMR.  Any attempt to turn or stop the mount
+will occur after that movement is terminated.  A failed check will
+result in the mount continuing on its way.
 
 \section{Aerial Combat}
 \label{combat:aerial}
@@ -1425,6 +1433,6 @@ class weapons.  A class weapons are unaffected.
 \section{Magical Combat}
 \label{combat:magical}
 
-See §7.9 Incorporating Magic into Combat for a summary.
+See \S\ref{magic:combat} Incorporating Magic into Combat for a summary.
 
 \end{Chapter}

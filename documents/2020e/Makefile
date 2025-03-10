@@ -10,7 +10,7 @@ fmttest.pdf: fmttest.tex chargen.tex fmttest.sty
 	xelatex fmttest.tex
 
 dq2020e.pdf : $(RULES) dq2020e.sty
-	latexmk -xelatex $<
+	latexmk -lualatex $<
 
 clean:
 	rm -f *.fls *.out *.aux *.log *~

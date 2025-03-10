@@ -26,9 +26,9 @@ Magics will often only affect entities of the opposed aspect.
 Entities’ fear of their opposing element gives this College special
 power.  Whether an entity is Light aspected, Dark aspected, or has
 neither aspect, is determined per the rules given in Light and Dark
-Aspect (§19.8).
+Aspect (\S\ref{celestial:aspect}).
 
-\subsection{Restrictions}
+\section{Restrictions}
 
 Adepts of the College of Celestial Magics may not practise their arts
 in an area where their element is not present.
@@ -37,13 +37,13 @@ A Magical Aptitude of 14 is required to learn this College. Note also
 that certain spells of this college may only be learnt by specific
 divisions (as listed after the Spell Number).
 
-\subsection{Base Chance Modifiers}
+\section{Base Chance Modifiers}
 
 The Base Chance of performing any talent, spell, or ritual of the
 College of Celestial Magics is modified by the following numbers,
 based on the division to which the adept belongs.
 
-\subsubsection{Aspect Modifiers}
+\subsection{Aspect Modifiers}
 
 \begin{dqtblr}{colspec={Xr}}
 Solar Mage with a Solar Aspect	& +1\% \\
@@ -52,7 +52,7 @@ Dark Mage with a Solar Aspect	& −1\% \\
 Dark Mage with a Lunar Aspect	& +1\% \\
 \end{dqtblr}
 
-\subsubsection{Lighting Condition Modifiers}
+\section{Lighting Condition Modifiers}
 
 An Adept of Celestial Magics is affected greatly by the lighting
 conditions in their vicinity.  The bonuses and penalties gained in
@@ -70,7 +70,7 @@ must be in direct light from point sources (eg. casting a shadow),
 otherwise the lighting condition modifier is -25\\%.
 
 The lighting modifiers are in the Celestial Lighting Modifiers table
-(§19.9).
+(\S\ref{celestial:lightmodifiers}).
 
 
 \section{Talents}
@@ -119,7 +119,7 @@ amount of light must be present before any sort of vision is possible.
 \basechance{Perception + 5\% / Rank}
 \resist{Active}
 \begin{effects}
- The effects of this talent are described in §9.1.
+ The effects of this talent are described in \S\ref{talent:detectaura}.
 \end{effects}
 \end{talent}
 
@@ -888,7 +888,7 @@ such an event).
 
 
 \section{Light and Dark Aspect}
-
+\label{celestial:aspect}
 Most creatures are either Light or Dark aspected, depending on whether
 they are nocturnal or diurnal (active during the day). There is no
 direct connection between the possession of a Light or Dark aspect and
@@ -896,33 +896,36 @@ the self-styled “Powers of Light and Darkness”.  Entities of Light
 aspect are not necessarily “good” nor entities of Dark aspect “evil”.
 The aspect refers only to the Entity’s position with regard to the
 Elements of Light and Dark. It is also differs from an entity’s
-astrological Aspect (see §1.4), but may be influenced by it.
+astrological Aspect (see \S\ref{aspects}), but may be influenced by
+it.
 
 To determine if an Entity is aspected with either of the elements of
 Light or Dark, follow these rules:
+\begin{Itemize}
+\item If the entity is a Celestial Mage then this determines their
+  aspect: Solar and Star Mages are Light aspected; Shadow and Dark
+  Mages are Dark aspected.
 
-• If the entity is a Celestial Mage then this determines their
-aspect: Solar and Star Mages are Light aspected; Shadow and Dark Mages
-are Dark aspected.
+\item If the entity is not a Celestial Mage, and is Lunar aspected,
+  then they are Dark aspected.  Note that Shapechangers are Lunar
+  aspected.
 
-• If the entity is not a Celestial Mage, and is Lunar aspected, then
-they are Dark aspected.  Note that Shapechangers are Lunar aspected.
+\item If the entity is not a Celestial Mage, and is Solar aspected,
+  they are Light aspected.
 
-• If the entity is not a Celestial Mage, and is Solar aspected, they
-are Light aspected.
-
-• If none of the above applies, then an entity’s race or type may mean
-that they are aspected with either Light or Dark.  Races or creatures
-that are nocturnal, crepuscular (active at twilight) or live
-predominantly underground are Dark aspected (Alusian examples:
-Dwarves, Orcs, most cats, bats, wolves).  Races and creatures that are
-diurnal, and who do not live underground are Light aspected.  Golems,
-Elementals, and Beings of Mana or Spirit (or their manifestations) are
-neither Light nor Dark aspected.
+\item If none of the above applies, then an entity’s race or type may
+  mean that they are aspected with either Light or Dark.  Races or
+  creatures that are nocturnal, crepuscular (active at twilight) or
+  live predominantly underground are Dark aspected (Alusian examples:
+  Dwarves, Orcs, most cats, bats, wolves).  Races and creatures that
+  are diurnal, and who do not live underground are Light aspected.
+  Golems, Elementals, and Beings of Mana or Spirit (or their
+  manifestations) are neither Light nor Dark aspected.
+\end{Itemize}
 
 \begin{table*}
 \section{Celestial Lighting Modifier Table}
-
+\label{celestial:lightmodifiers}
 \begin{dqtblr}{colspec={llllllXX}}
 Light	& Darkness	& Solar	& Dark	& Shadow	& Star	& Natural Lighting		& Artificial Lighting \\
 0\%	& 100\%		& -	& +25	& -		& -	& Pitch Blackness		& Magical Effect – no vision works \\

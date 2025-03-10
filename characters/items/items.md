@@ -239,6 +239,83 @@ This spell is not teachable to others.
 
 # Callas
 
+## Enhancing Enchantment
+
+Callas has been granted the spell of Enhancing Enchantment (S7 of the
+College of Ensorcelments and Enchantments) as an out of College,
+unteachable, Special Knowledge spell.  As such it does not gain any bonuses
+from Earth College modifiers (e.g. Place of Power) but nor is it subject to
+the College restrictions (i.e. it can be cast even if Callas is not in
+contact with the earth).  Because it's therugic nature is slightly at odds
+with elemental magic, Callas will find it a little harder to learn and cast
+than normal. (EM slightly higher and BC slightly lower). Otherwise it
+operates in exactly the same fashion as the E&E spell:
+
+Range
+: 15 feet + 15 / Rank
+
+Duration
+: 10 seconds + 5 / Rank
+
+Experience Multiple
+: 350
+
+Base Chance
+: 20%
+
+Resist
+: None
+
+Storage
+: Investment, Ward
+
+Target
+: Area
+
+Effects
+: The Rank of this spell is added to the Rank of one characteristic of
+any spell being cast within the area of effect. Note that the actual
+Rank of the affected spell is unchanged — only the effect of one
+characteristic is enhanced (as per double and triple effects).  While
+casting the Spell of Enhancing Enchantment, the adept specifies the
+spell characteristic to be affected. Only Range, Duration, Base
+Chance, or where appropriate) Damage, may be affected by this spell.
+
+A spell may never have a characteristic enhanced by Ranks greater than its
+own rank by the use of this spell (e.g. a Rank 6 spell that is cast within
+a Rank Spell of Enhancing Enchantment will only gain the effects of 6 extra
+ranks in the affected characteristic). Only spells that are cast are
+affected, not spells being released from any form of storage.
+
+The caster of the subject spell will be aware that their spell is being
+affected by enhancement during the pulse that they are preparing (as per
+high or low Mana). They will not know which characteristic is being
+affected nor the amount of enhancement. They may not restrict the effect of
+the enhancement, but may reduce the spell effects in the normal manner. If
+an attempt is made to cast a Spell of Enhancing Enchantment on an area that
+has some part of it under the effects of another Spell of Enhancing
+Enchantment, then the second spell will fail.
+
+Special Duration, Range, or Damage effects may be caused by the use of this
+spell (e.g. Duration of Lesser Enchantment at Rank 20).
+
+## Return to True Form
+
+Once a quarter -- at exactly noon on each of the four high holidays of the
+year -- Callas's True Form will be restored as though a Rank 20 Ritual of
+True Form (R6 of the College of Naming Incantation) had just been
+successfully completed upon her.  As a reference for the GM the effects of
+this Ritual are:
+
+Effects
+: By means of this ritual the Adept may force a target that has been
+magically altered, cursed, or rearranged into a form other than their
+natural one to assume their true form and nature. It will not remove
+effects that could occur naturally. For example, the ritual would restore
+the form of a human that had been cursed into the shape of a toad, and
+would return to flesh a human turned to stone but would do nothing to
+remove a curse of weeping sores or restore a lost limb.
+
 ## Callas' Arresting Gaze
 Range
 : 10 feet (+5 feet / Rank)
@@ -248,6 +325,7 @@ Duration
 
 Experience Multiple
 : 300
+
 Base Chance
 :  Automatic
 
@@ -781,7 +859,7 @@ Callas.  The spell has been changed so that the Ranks can be
 distributed over Strength and/or Endurance at the discretion of the
 receiver of the spell at the time of casting.  So, if Callas has Rank
 15 in SoS, the the receiver of the a casting can chose to have 15
-Strength, 15 Endurance, or a combiatin, such as 5 Strength and 10
+Strength, 15 Endurance, or a combination, such as 5 Strength and 10
 Endurance, which totals to the full Rank.
 
 In addition, Gayalette, Good Witch of the South, has added her own
@@ -855,8 +933,8 @@ not include the modified range.
 
 ## Blending
 
-Callas may cst her Blending Spell on objects as well as Entities.  The
-object becomes concealed in the environment, not invisible,
+Callas may cast her Blending Spell on objects as well as Entities.
+The object becomes concealed in the environment, not invisible,
 e.g. Callas casts Blending on a Wall of Stone that she has created.
 The wall fades into the background and appear to be a natural part of
 the envrionment, an outcrop of rocks.  The spell has *camouflaged* the
@@ -1196,8 +1274,7 @@ The Experience Multiple for this talent is 200.
 ## Kausia of Fate
 
 Felt cap made by the 3 Fates (Moirai).  When worn on the head may be
-sacrificed to avoid any fate as a free action.
-
+sacrificed to avoid any fate as a free action [Used 3.2.2025].
 
 ## Hot Stone
 
@@ -1209,6 +1286,18 @@ Additionally it will negate ONE failed save against a Light Sphere,
 but is destroyed in the process.  When swallowed there is a straight
 35% chance of the stone being passed naturally per day.  Does not
 stack with other Hot or Cold Stones.
+
+## Cold Stone
+
+This small pebble is placed in the mouth or swallowed.  It helps
+protect againt cold effect and shifts the Rate of Exercise one row or
+column in the character's favour.  Reduce damage from cold sources
+(e.g. darkness, dark, black-fire, void, ice, frost, freezing etc.)
+by 3.  Additionally it will negate ONE failed save against a Dark
+Sphere, but is destroyed in the process.  When swallowed there is a
+straight 35% chance of the stone being passed naturally per day.  Does
+not stack with other Hot or Cold Stones.
+
 
 ## Acorns of the Eternal Oak
 

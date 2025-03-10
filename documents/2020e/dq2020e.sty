@@ -77,6 +77,15 @@
 
 \ProcessOptions
 
+%% ----------------------------------------------------------------------
+%%
+%% Set length between label in contents
+
+\usepackage{tocloft}% to configure the ToC <<<<<
+\setlength{\cftsecnumwidth}{2.8em}% set the width to the section number in the ToC <<<<<
+\setlength{\cftbeforetoctitleskip}{0.0em}
+\setlength{\cftaftertoctitleskip}{2.0mm}
+
 %% --------------------
 %%
 %% New lists with enumitem
@@ -118,11 +127,11 @@
 \newenvironment{effects}[0]{\emph{Effects: }}{}
 
 \newenvironment{College}[4][1.0]%
-{\chapter{The College of #3 (Ver #1)}\label{college:#2}\def\dq@college{#3} \index{colleges!\dq@college|(} \begin{multicols*}{3}}%
+{\chapter{The College of #3 (Ver #1)}\label{#2}\label{college:#2}\def\dq@college{#3} \index{colleges!\dq@college|(} \begin{multicols*}{3}}%
 {\index{colleges!\dq@college|)}\end{multicols*}}
 
 \newenvironment{Skill}[3][1.0]%
-{\chapter{#3 (Ver #1)}\label{skill:#2}\def\dq@skill{#3} \index{skills!\dq@skill||} %%
+{\chapter{#3 (Ver #1)}\label{#2}\label{skill:#2}\def\dq@skill{#3} \index{skills!\dq@skill||} %%
 \begin{multicols*}{3}}%
 {\end{multicols*}}
 

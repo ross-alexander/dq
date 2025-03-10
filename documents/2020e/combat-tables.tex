@@ -5,7 +5,7 @@
 %% \raggedcolumns
   
 \section{Strike Chance Modifiers Summary}
-
+\label{table:strikechance}
 \smallskip
 
 \begin{tblr}{
@@ -46,7 +46,7 @@ Ranged Combat Modifiers \\
 +10	& target is stunned \\
 +10	& attacker is kneeling \\
 +20	& target is being attacked through rear hex \\
-+20	& aim (also chances of Endurance or Specific Grievous damage are increased to 10\% and 20\%, see §6.9) \\
++20	& aim (also chances of Endurance or Specific Grievous damage are increased to 10\% and 20\%, see \S\ref{combat:attacking}) \\
 -3	& every hex through which a thrown weapon travels \\
 -3	& each 5 hexes (or fraction) after the first 5 through which a missile travels \\
 -15	& snapshoot \\
@@ -85,22 +85,22 @@ instance where it applies; all modifications are cumulative.
 Engaged Initiative			& PC + modified AG + weapon Rank + warrior Rank. \\
 Unengaged Initiative			& D10 + (PC + 2 × Military Scientist). \\
 Strike Chance with ranked weapon	& Weapon Base Chance + attacker’s modified Manual Dexterity + (4 × Rank with weapon) + Magic. \\
-Modified Strike Chance			& Strike Chance + Modifiers (§57.1) - opponent’s Defence. \\
-Defence					& Modified AG + Shield defence + Modifiers (§57.1) + Magic. \\
+Modified Strike Chance			& Strike Chance + Modifiers (\S\ref{table:strikechance}) \mi opponent’s Defence. \\
+Defence					& Modified AG + Shield defence + Modifiers (\S\ref{table:strikechance}) + Magic. \\
 Repulse a charge attack			& D10 ≥ prepared weapon Rank.\\
-Withdraw from close combat		& (D10 + total friendly Physical Strength - total hostile Physical Strength) ≥ 10. \\
-Strike chance to trip			& 40\% + attacker’s modified Manual Dexterity + (4 × Rank with weapon) - opponent’s Defence (Damage: D10). \\
+Withdraw from close combat		& (D10 + total friendly Physical Strength \mi total hostile Physical Strength) ≥ 10. \\
+Strike chance to trip			& 40\% + attacker’s modified Manual Dexterity + (4 × Rank with weapon) \mi opponent’s Defence (Damage: D10). \\
 Restrain				& 3 × ((PS+AG of attacker) - (PS+AG of defender)). \\
 Shield Rush				& 40\% + attacker’s modified MD + (4 × Rank with shield) - opponent’s Defence (Damage: [D - 2]). \\
 Disarm					& -20 to strike chance. \\
-Entangle				& Same as normal strike chance with weapon (Damage: [D - 4]). \\
+Entangle				& Same as normal strike chance with weapon (Damage: [D \mi 4]). \\
 Knockout				& Must roll under (15\% × Modified Strike Chance). \\
-Fumble					& Reduce Initiative by 10. Roll under Initiative on D100 or roll on the Fumble Table (§52.4). \\
+Fumble					& Reduce Initiative by 10. Roll under Initiative on D100 or roll on the Fumble Table (\S\ref{table:fumble}). \\
 Avoid Disarm				& MD + Rank on D100. Chance doubled if two handed.\\
 Stun recovery				& (2 × WP) + current Fatigue. \\
 Parry result				& D10 + evader’s Rank - attacker’s Rank. \\
 					& 3 or less: Successful parry; evader must pass next action. \\
-					& 4–7: Disarm, 1 EN damage. \\
+					& 4--7: Disarm, 1 EN damage. \\
 					& 8 or greater: Disarm plus a riposte; evader may melee attack, 1 EN damage. \\
 \end{tblr}
 \end{multicols*}
@@ -108,7 +108,7 @@ Parry result				& D10 + evader’s Rank - attacker’s Rank. \\
 \begin{multicols}{3}
 
 \section{Action Summary}
-
+\label{table:actionsummary}
 \subsubsection{Engaged figures}
 \begin{Itemize}
 \item Melee Attack  

@@ -360,7 +360,7 @@ use overload failback => 1,
     '""' => sub {
 	my ($self) = shift;
 	$self->CDate();
-#	sprintf("%d %s", $self->tick(), $self->calendar());
+	#	sprintf("%d %s", $self->tick(), $self->calendar());
 },
     '-' => sub {
 	my ($self, $other) = @_;
@@ -389,7 +389,7 @@ use overload failback => 1,
 },
     '=' => sub {
 	my ($self) = @_;
-
+	
 	my $new = {
 	    tick => $self->{tick},
 	    calendar => $self->{calendar}
@@ -399,7 +399,7 @@ use overload failback => 1,
 },
     '+=' => sub {
 	my ($self, $other) = @_;
-
+	
 	my $tick = $self->{tick};
 	if (ref($other) eq 'Tick')
 	{
@@ -414,6 +414,10 @@ use overload failback => 1,
     '==' => sub {
 	my ($self, $other) = @_;
 	($self->{calendar} eq $other->{calendar}) && ($self->{tick} == $other->{tick});
+},
+    '<' => sub {
+	my ($self, $other) = @_;
+	($self->{calendar} eq $other->{calendar}) && ($self->{tick} < $other->{tick});
 };
 
 1;
