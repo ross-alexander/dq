@@ -12,7 +12,7 @@
 #
 # ----------------------------------------------------------------------
 
-use 5.34.0;
+use 5.40.0;
 use XML::LibXML;
 use Getopt::Long;
 use Carp::Assert;
@@ -39,8 +39,8 @@ sub Update_Adventure {
 
     my $tick = $state->{'tick'};
 
-    my $start = new Tick($adventure->{start_tick});
-    my $end = new Tick($adventure->{end_tick});
+    my $start = Tick->new($adventure->{start_tick});
+    my $end = Tick->new($adventure->{end_tick});
 
     # --------------------
     # Print out adventure name
@@ -94,7 +94,7 @@ sub Update_Adventure {
     
     if (!defined($tick))
     {
-	$tick = new Tick($start);
+	$tick = Tick->new($start);
     }
 
     if ($tick > $start)
@@ -125,20 +125,20 @@ sub Update_Adventure {
 	say "!!", $tick;
 	if ($ranking->{date})
 	{
-	    my $s = new Tick($ranking->{date});
+	    my $s = Tick->new($ranking->{date});
 	    if (!$ranking->{star} && ($s < $tick))
 	    {
-		printf("Ranking for %s starts before end of the adventure\n", $ranking->{desc});
+		printf("Ranking for %s starts before end of the adventure\n", $ranking->{description});
 		exit(1);
 	    }
-	    $ranking->{start} = new Tick($s);
+	    $ranking->{start} = Tick->new($s);
 	}
 	else
 	{
-	    $ranking->{start} = new Tick($tick);
+	    $ranking->{start} = Tick->new($tick);
 	}
 	
-	printf("-- %s : %s%s\n\n", $ranking->{desc}, $ranking->{start}, $ranking->{star} ? "*" : "");
+	printf("-- %s : %s%s\n\n", $ranking->{description}, $ranking->{start}, $ranking->{star} ? "*" : "");
 
 	my $days = 0;
 	
@@ -295,11 +295,11 @@ sub Update_Adventure {
 	$ranking->{end} = Tick->new($ranking->{start});
 	$ranking->{end} += $days;
 	
-	printf("-- %s : %s (%d)\n\n", $ranking->{desc}, $ranking->{end}, $days);
+	printf("-- %s : %s (%d)\n\n", $ranking->{description}, $ranking->{end}, $days);
 	
 	if (!$ranking->{star})
 	{
-	    $tick = new Tick($ranking->{end});
+	    $tick = Tick->new($ranking->{end});
 	}
     }
 
@@ -370,7 +370,7 @@ sub Update_Character {
     my $state = {
 	'money' => 0,
 	'ep' => 0,
-	'ep-total' => 0,
+	'ep_total' => 0,
 	'tick' => undef,
     };
 
@@ -408,7 +408,7 @@ sub Convert_Items {
     
     if (m/^\\begin\{items\}\{([A-Za-z0-9, ]+)\}/)
     {
-	$items->{desc} = $1;
+	$items->{description} = $1;
     }
 
     while (<$in>)
@@ -449,7 +449,7 @@ sub Convert_Monies {
 	$monies->{date} = $3;
 	$date = $3;
     }
-    $monies->{tick} = new Tick($date);
+    $monies->{tick} = Tick->new($date);
 
     while (<$in>)
     {
@@ -458,7 +458,7 @@ sub Convert_Monies {
 	s/[ ]?\\\\([ ]?(\\hline)?)$//;
 	my ($desc, $out, $in) = split(/[ \t]+?\&[ ]?/, $_);
 	my $line = {};
-	$line->{desc} = $desc;
+	$line->{description} = $desc;
 	$line->{out} = $out if (length($out));
 	$line->{in} = $in if (length($in) && !length($out));
 	push(@{$monies->{lines}}, $line);
@@ -478,13 +478,13 @@ sub Convert_Ranking {
     
     if (m:\\begin\{(ranking\*?)\}\{(.*)\}\{(.*)\}:)
     {
-	$ranking->{desc} =  $2;
+	$ranking->{description} =  $2;
 	$ranking->{star} = 1 if ($1 eq "ranking*");
 	$ranking->{date} = $3 if (length($3));
     }
     elsif (m:\\begin\{(ranking\*?)\}\{(.*)\}:)
     {
-	$ranking->{desc} =  $2;
+	$ranking->{description} =  $2;
 	$ranking->{star} = 1 if ($1 eq "ranking*");
     }
     else
@@ -531,6 +531,11 @@ sub Convert_Ranking {
 	    $type = "talent" if ($sref =~ /T-[0-9]+/);
 	    $type = "spell" if ($sref =~ /[GS]-([0-9]+|([GS]C))/);
 	    $type = "ritual" if ($sref =~ /[QR]-[0-9]+/);
+	}
+	elsif ($name =~ /^\\rt\{([a-z]+)\}(.*)/)
+	{
+	    $type = $1;
+	    $name = $2;
 	}
 	elsif ($type = $opts->{_type_}->{lc($name)})
 	{
@@ -715,10 +720,10 @@ sub Convert_Adventure {
     my $start = $adventure->{"start"};
     my $end = $adventure->{"end"};
 
-    my $start_tick = new Tick($start);
+    my $start_tick = Tick->new($start);
     
     $adventure->{start_tick} = $start_tick;
-    $adventure->{end_tick} = length($end) ? new Tick($end) : new Tick($start);
+    $adventure->{end_tick} = length($end) ? Tick->new($end) : Tick->new($start);
     
     while(<$in>)
     {
@@ -830,7 +835,7 @@ sub XML_Adventure {
 	for my $line (@{$monies->{lines} || []})
 	{
 	    my $line_node = $monies_node->addNewChild('', 'line');
-	    $line_node->setAttribute('desc', $line->{desc});
+	    $line_node->setAttribute('description', $line->{description});
 	    $line_node->setAttribute('in', $line->{in}) if ($line->{in});
 	    $line_node->setAttribute('out', $line->{out}) if ($line->{out});
 	}
@@ -845,7 +850,7 @@ sub XML_Adventure {
     {
 	my $ranking = $node->addNewChild('', 'ranking');
 
-	$ranking->setAttribute("desc", $r->{desc});
+	$ranking->setAttribute("description", $r->{description});
 	$ranking->setAttribute("star", "1") if ($r->{star});
 	$ranking->setAttribute("start", $r->{start}->CDate()) if ($r->{start});
 	$ranking->setAttribute("end", $r->{end}->CDate()) if ($r->{end});
@@ -930,10 +935,10 @@ sub XML_Character {
     # Start updating the current values
     # --------------------
     
-    $basics->setAttribute("ep-total", $state->{"ep_total"});
+    $basics->setAttribute("ep_total", $state->{"ep_total"});
     $basics->setAttribute("ep", $state->{"ep"});
 
-    my $tick = new Tick($character->{basics}->{date});
+    my $tick = Tick->new($character->{basics}->{date});
     
     $basics->setAttribute("date", $state->{'tick'}->CDate());
     $basics->setAttribute("tick", $state->{'tick'}->{tick});
@@ -1088,13 +1093,13 @@ sub JSON_Adventure {
     for my $i (@{$adventure->{items} || []})
     {
 	my $items = {
-	    desc => $i->{desc}
+	    description => $i->{description}
 	};
 	push(@{$a->{items}}, $items);
 	for my $line (@{$i->{item} || []})
 	{
 	    push(@{$items->{lines}}, {
-		desc => $line,
+		description => $line,
 		 });
 	}
     }
@@ -1117,7 +1122,7 @@ sub JSON_Adventure {
 	{
 	    my $line = {};
 	    push(@{$monies->{lines}}, $line);
-	    $line->{desc} = $l->{desc};
+	    $line->{description} = $l->{description};
 	    $line->{in} = $l->{in} if (exists($l->{in}));
 	    $line->{out} = $l->{out} if (exists($l->{out}));
 	}
@@ -1132,16 +1137,18 @@ sub JSON_Adventure {
 	my $ranking = {};
 	push(@{$a->{ranking}}, $ranking);
 	
-	$ranking->{"desc"} = $r->{desc};
-	$ranking->{"star"} = 1 if ($r->{star});
-	$ranking->{"start"} = $r->{start}->CDate() if ($r->{start});
-	$ranking->{"end"} = $r->{end}->CDate() if ($r->{end});
+	$ranking->{description} = $r->{description};
+	$ranking->{star} = 1 if ($r->{star});
+	$ranking->{start_tick} = $r->{start} if ($r->{start});
+	$ranking->{start_end} = $r->{start} if ($r->{start});
+	$ranking->{start} = $r->{start}->CDate() if ($r->{start});
+	$ranking->{end} = $r->{end}->CDate() if ($r->{end});
 	
 	for my $b (@{$r->{blocks}})
 	{
 	    my $block = {};
 	    push(@{$ranking->{blocks}}, $block);
-	    $block->{"time"} = $b->{time} if ($b->{time});
+	    $block->{time} = $b->{time} if ($b->{time});
 	    
 	    for my $l (@{$b->{lines} || []})
 	    {
@@ -1205,10 +1212,10 @@ sub JSON_Character {
     # Start updating the current values
     # --------------------
     
-    $basics->{"ep-total"} = $state->{"ep_total"};
+    $basics->{"ep_total"} = $state->{"ep_total"};
     $basics->{"ep"} = $state->{"ep"};
 
-    my $tick = new Tick($character->{basics}->{date});
+    my $tick = Tick->new($character->{basics}->{date});
     
     $basics->{"date"} = $state->{'tick'}->CDate();
     $basics->{"tick"} = $state->{'tick'}->{tick};
@@ -1387,8 +1394,7 @@ sub Main {
     my ($in, $out);
     if ($opts->{"infile"})
     {
-	open(IN, "<:encoding($codepage)", $opts->{"infile"}) || die "Cannot open file.";
-	$in = \*IN;
+	open($in, "<:encoding($codepage)", $opts->{"infile"}) || die "Cannot open file.";
     }
     else
     {
