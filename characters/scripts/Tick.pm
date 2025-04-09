@@ -102,6 +102,7 @@ sub new {
 	    calendar => $date->{calendar},
 	    date => $date->{date},
 	};
+#	$self->{original} = $date->{original} if (exists($date->{original}));
 	bless($self, $class);
 	return $self;
     }
@@ -244,7 +245,7 @@ sub new {
 	{
 	    $year += 1900 if ($year < 100);
 	    
-	    my @md = (0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334);
+	    my @md = (0, 31, 59, 89, 120, 151, 181, 212, 243, 273, 304, 334);
 	    $tick += ($year - 1970) * 364;
 	    $tick += $md[$month];
 	    $tick += $day - 1;
@@ -278,10 +279,10 @@ sub CDate {
 
     my $cal = $self->{calendar};
     my $tick = $self->{tick};
-    
+
     my $res;
 
-    if ($cal eq "WK" || $cal eq "AP")
+    if ($cal eq "WK")
     {
 	my ($ny, $nq, $nm, $nd);
 	$ny = int($tick/364);
@@ -298,9 +299,28 @@ sub CDate {
 	else
 	{
 	    my @t = ('Meadow', 'Heat', 'Breeze', 'Fruit', 'Harvest', 'Vintage', 'Frost', 'Snow', 'Ice', 'Thaw', 'Seedtime', 'Blossom');
-	    #	$res = sprintf("%s %d, %d WK", $t[$nm] ,$nd, $ny + 770);
-	    $res = sprintf("%d.%d.%d WK", $nd, $nm+1, $ny + 770);
+	    $res = sprintf("%s %d, %d WK", $t[$nm] ,$nd, $ny + 770);
+#	    $res = sprintf("%d.%d.%d WK", $nd, $nm+1, $ny + 770);
 	}
+    }
+    elsif ($cal eq 'AP')
+    {
+	$tick = $tick - 273;
+	$year = int($tick/364);
+	$tick = $tick - $year*364;
+	my  @month_day = (0, 31, 59, 89, 120, 151, 181, 212, 243, 273, 304, 334);
+	for my $m (0 .. 11)
+	{
+	    croak;
+	    if ($tick >= $month_day[$m])
+	    {
+		$month = $m;
+		break;
+	    }
+	}
+	$day = $tick - $month_day[$month];
+	my @month_name = ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
+	$res = sprintf("%s %d, %d AP", $month_name[$month], $day+1, $year + 1970);
     }
     elsif ($cal eq "CM")
     {
