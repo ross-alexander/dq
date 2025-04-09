@@ -112,7 +112,8 @@ sub Update_Adventure {
     # Set current time to end of adventure + 1 day
     # --------------------
     
-    $tick->{tick} = $end->{tick} + 1;
+    $tick = Tick->new($end);
+    $tick += 1;
     
     # --------------------
     # Iterate over all the ranking nodes
@@ -122,7 +123,6 @@ sub Update_Adventure {
     
     for my $ranking (@{$adventure->{ranking}})
     {
-	say "!!", $tick;
 	if ($ranking->{date})
 	{
 	    my $s = Tick->new($ranking->{date});
@@ -135,7 +135,7 @@ sub Update_Adventure {
 	}
 	else
 	{
-	    $ranking->{start} = Tick->new($tick);
+	    $ranking->{start} = $ranking->{star} ? Tick->new($start) : Tick->new($tick);
 	}
 	
 	printf("-- %s : %s%s\n\n", $ranking->{description}, $ranking->{start}, $ranking->{star} ? "*" : "");
@@ -262,15 +262,19 @@ sub Update_Adventure {
 		# Process time
 		# --------------------
 
-		my $time_str = $line->{time};
+		my $time_str = $line->{time} // '';
 		$time_str =~ /([0-9]+) (day|days|week|weeks)/;
-		my $time = $1;
-		$time *= 7 if (($2 eq "week") || ($2 eq "weeks"));
+		my $time = $1 // 0;
+		$time *= 7 if (defined($2) && (($2 eq "week") || ($2 eq "weeks")));
 		my $track = $line->{track};
 		$line->{day_equiv} = $time;
 		$time[$track] += $time;
-		$block_ep += $line->{ep};
-
+		$block_ep += $line->{ep} if (exists($line->{ep}));
+		$ep = $ep // 0;
+		$ep_raw = $ep_raw // 0;
+		$final = $final // 0;
+		$diff = $diff // 0.0;
+		
 		printf("%-30s (%3s..%3s) Raw EP = %d EP = %d Diff = %4.2f : Time = %s\n",
 		       $name, $initial, $final,
 		       $ep_raw, $ep, $diff, $time);
@@ -310,6 +314,7 @@ sub Update_Adventure {
     my $exp = $adventure->{experience};
     if (defined $exp)
     {
+	croak if (!defined($exp->{in}));
 	my $ep_in = int($exp->{in});
 	my $ep_gained = int($exp->{gained});
 	my $ep_spent = int($exp->{spent});
@@ -578,14 +583,14 @@ sub Convert_Ranking {
 
 	my $track;
 	my $partial = 0;
-	if ($time =~ /(.*)\$\^\{?([0-9]+)(\\delta)?\}?\$/)
+	if (defined($time) && ($time =~ /(.*)\$\^\{?([0-9]+)(\\delta)?\}?\$/))
 	{
 	    $time = $1;
 	    $track = $2;
-	    $partial = 1 if ($3 eq "\\delta");
+	    $partial = 1 if (defined($3) && ($3 eq "\\delta"));
 
 	}
-	elsif ($time =~ /(.*)\$\^\{?(\\delta)\}?\$/)
+	elsif (defined($time) && ($time =~ /(.*)\$\^\{?(\\delta)\}?\$/))
 	{
 	    $time = $1;
 	    $track = 0;
@@ -596,7 +601,7 @@ sub Convert_Ranking {
 	    $track = 0;
 	}
 
-	$time = undef if ($time =~ m:no time:i);
+	$time = undef if (defined($time) && ($time =~ m:no time:i));
 
 	$line->{type} = $type;
 	$line->{sum} = $sum if (length($sum));
@@ -654,9 +659,9 @@ sub Convert_Experience {
     if (length($items[0]))
     {
 	$exp->{gained} = $items[0] if ($items[0]);
-	$exp->{in} = $items[1] if($items[1]);
+	$exp->{in} = length($items[1]) ? int($items[1]) : 0;
 	$exp->{spent} = $items[2] if ($items[2]);
-	$exp->{out} =  $items[3] if (length($items[3]));
+	$exp->{out} =  length($items[3]) ? int($items[3]) : 0;
     }
     
     if (length($items[4]))
@@ -722,7 +727,7 @@ sub Convert_Adventure {
 
     my $start_tick = Tick->new($start);
     
-    $adventure->{start_tick} = $start_tick;
+    $adventure->{start_tick} = Tick->new($start_tick);
     $adventure->{end_tick} = length($end) ? Tick->new($end) : Tick->new($start);
     
     while(<$in>)
@@ -1058,14 +1063,12 @@ sub JSON_Adventure {
     # --------------------
     # adventure header
     # --------------------
-    
+
     for my $k ('name', 'start', 'end', 'star', 'start_tick', 'end_tick')
     {
 	if (exists($adventure->{$k}))
 	{
-	    my $xk = $k;
-	    $xk =~ s:_:-:g;
-	    $a->{$xk} = $adventure->{$k};
+	    $a->{$k} = $adventure->{$k};
 	}
     }
 
@@ -1136,11 +1139,13 @@ sub JSON_Adventure {
     {
 	my $ranking = {};
 	push(@{$a->{ranking}}, $ranking);
+
+	printf("^^^ %s %s\n", $r->{start}, to_json($r->{start}, {convert_blessed => 1}));
 	
 	$ranking->{description} = $r->{description};
 	$ranking->{star} = 1 if ($r->{star});
 	$ranking->{start_tick} = $r->{start} if ($r->{start});
-	$ranking->{start_end} = $r->{start} if ($r->{start});
+	$ranking->{end_tick} = $r->{end} if ($r->{end});
 	$ranking->{start} = $r->{start}->CDate() if ($r->{start});
 	$ranking->{end} = $r->{end}->CDate() if ($r->{end});
 	
@@ -1310,7 +1315,6 @@ sub JSON_Character {
 
     for my $adventure (@{$character->{adventures}})
     {
-	my $a = {};
 	push(@{$res->{adventures}}, JSON_Adventure($adventure));
     }
     
@@ -1459,8 +1463,8 @@ sub Main {
     };
 
     &Update_Character($opts, $character);
-
-    if ($f_map->{$opts->{'format'}})
+    
+    if (defined($opts->{format}) && $f_map->{$opts->{'format'}})
     {
 	$f_map->{$opts->{'format'}}->($opts, $character);
     }
