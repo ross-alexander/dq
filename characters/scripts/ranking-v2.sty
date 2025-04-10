@@ -1,0 +1,191 @@
+% ----------------------------------------------------------------------
+%
+% ranking.sty
+
+% ----------------------------------------------------------------------
+%
+% Style sheet for DQ ranking (V2)
+%
+% 2025-04-08: Ross Alexander
+%    Start clean style sheet with assumption it will be run under lualatex
+%
+% ----------------------------------------------------------------------
+
+\RequirePackage{tabularray, ifthen, fontspec, titlesec, fancyhdr, multicol, graphicx}
+\RequirePackage[svgnames]{xcolor}
+
+% Set geometry
+
+\RequirePackage[margin=10mm,top=10mm,bottom=15mm,headsep=2mm,head=12mm]{geometry}
+
+% Set paragraph spacing
+
+\RequirePackage[skip=4pt plus 4pt minus 2pt, indent=0mm]{parskip}
+
+% Use Gyre fonts
+
+\setmainfont{TeX Gyre Termes}[Scale=0.90,Ligatures=TeX]
+\setmonofont{TeX Gyre Cursor}[Scale=0.80,Liagatures=TeX]
+
+%  \newfontfamily{\headingfont}{TeX Gyre Termes}[Ligatures=TeX,Scale=0.85]
+
+\newfontfamily{\adventurefont}{KellsFLF}[Scale=2.4,Ligatures=TeX]
+\newfontfamily{\titlefont}{TeX Gyre Chorus}[Color=red,Scale=3.0,Ligatures=TeX]
+
+%  \newfontfamily{\tablesf}[Scale=0.8,Color=black,Ligatures=TeX]{TeX Gyre Heros}
+
+\newfontfamily{\rankingsf}[Scale=0.9,Color=black,Ligatures=TeX]{TeX Gyre Heros}
+\newfontfamily{\rankingtt}[Scale=0.8,Color=black,Ligatures=TeX]{TeX Gyre Cursor}
+
+% ----------------------------------------------------------------------
+%
+% Change section and subsection
+%
+% \titleformat{⟨command ⟩}[⟨shape⟩]{⟨format⟩}{⟨label ⟩}{⟨sep⟩}{⟨before-code⟩}[⟨after-code⟩]
+%
+% ----------------------------------------------------------------------
+\titleformat{\section}[block]
+{\filcenter\adventurefont}
+{}
+{0mm}
+{}
+
+\titleformat{\subsection}[hang]{\normalfont\large\bfseries}{}{0mm}{}
+
+% ----------------------------------------------------------------------
+%
+% character creates title page and sets up fancy headers
+%
+% ----------------------------------------------------------------------
+
+\ExplSyntaxOn
+
+\NewDocumentCommand{\character}{O{}}{
+  \group_begin:
+  \keys_set:nn{character}{#1}
+  \group_end:
+  \typeout{\character_name}
+  \typeout{\character_fullname}
+  \typeout{\character_date}
+  \typeout{\character_picture}
+  
+  \fancyhead{}
+  \fancyhead[L]{\scshape\fontsize{8}{9pt}\selectfont\character_name}
+  \fancyhead[R]{\slshape\fontsize{8}{9pt}\selectfont\rightmark}
+  \fancyhead[C]{\character_date}
+  \fancyfoot{}
+}
+
+% --------------------
+% frontcover page
+% --------------------
+
+\NewDocumentEnvironment{frontcover}{}{
+  \pagestyle{empty}
+  
+  \begin{center}
+    \titlefont \character_fullname
+    \bigskip
+  \end{center}
+  \begin{center}
+    \ifdef{\character_picture}
+          {
+            \typeout{Character picture \character_picture}
+            \includegraphics[scale=0.5]{\character_picture}
+          }
+          {
+            \typeout{No character picture defined}
+          }
+  \end{center}
+  \rankingsf
+}
+{
+  \newpage
+}
+
+\NewTblrEnviron{covertblr}
+\SetTblrInner[covertblr]{rowsep=0.0mm,stretch=1.1,width=\linewidth,hlines={0.2mm,magenta2},vlines={0.2mm,magenta2}}
+\UseTblrLibrary{varwidth}
+
+
+\renewcommand{\sectionmark}[1]{\markboth{#1}{#1}}
+
+\keys_define:nn{character}
+{
+     name.tl_gset:N = \character_name,
+     fullname.tl_gset:N = \character_fullname,
+     date.tl_gset:N = \character_date,
+     picture.tl_gset:N = \character_picture,
+}
+
+\ExplSyntaxOff
+
+% ----------------------------------------------------------------------
+%
+% adventure is section
+%
+% ----------------------------------------------------------------------
+
+\NewDocumentEnvironment{adventure}{m m m}{
+  \def\@tempa{#3}
+  \def\@tempb{}
+  \section{#1}
+  \pagestyle{fancy}
+  \ifx\@tempa\@tempb
+      \subsection{Date of Adventure}#2
+  \else
+      \subsection{Date of Adventure}#2 -- #3
+  \fi
+}{
+  \newpage
+}
+
+% ----------------------------------------------------------------------
+%
+% ranking is subsection header followed by a tblr
+%
+% ----------------------------------------------------------------------
+
+\NewTblrEnviron{blocktblr}
+\SetTblrInner[blocktblr]{colspec={llrrrr},%
+  rowsep=0.0mm,%
+  stretch=0.9,%
+  hlines={0.04mm,GreenYellow},%
+  vlines={0.04mm,GreenYellow},%
+  column{1}={60mm,l,font=\rankingsf},%
+  column{2}={15mm,l,font=\rankingtt\bfseries},%
+  column{3-4}={7mm,r,font=\rankingtt\bfseries},%
+  column{5-6}={9mm,r,font=\rankingtt\bfseries},%
+  column{7-8}={15mm,l,font=\rankingsf}}
+
+\NewDocumentEnvironment{ranking}{m m}
+{
+  \ifthenelse{\equal{#2}\empty}
+             {\subsection{#1}}
+             {\subsection{#1 \textsc{(#2)}}}
+
+}
+{
+}
+
+
+% ----------------------------------------------------------------------
+%
+% experience command
+%
+% ----------------------------------------------------------------------
+
+\NewDocumentCommand{\experience}{m m m m m}{
+\begin{multicols}{2}
+\subsection{Experience remaining}
+\begin{tblr}{colspec={lr},rowsep=0mm,column{1}={font=\rankingsf,wd=50mm},column{2}={font=\rankingtt\bfseries},hline{4}={0.4mm,black}}
+Experience gained on adventure	& #1 \\
+Experience brought forward	& #2 \\
+Experience spent		& #3 \\
+Experience remaning		& #4 \\
+ \end{tblr}
+\columnbreak
+\subsection*{Notes}
+#5
+\end{multicols}
+}
