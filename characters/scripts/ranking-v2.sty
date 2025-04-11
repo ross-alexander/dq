@@ -12,7 +12,7 @@
 % ----------------------------------------------------------------------
 
 \RequirePackage{tabularray, ifthen, fontspec, titlesec, fancyhdr, multicol, graphicx}
-\RequirePackage[svgnames]{xcolor}
+\RequirePackage[dvipsnames,svgnames]{xcolor}
 
 % Set geometry
 
@@ -20,22 +20,23 @@
 
 % Set paragraph spacing
 
-\RequirePackage[skip=4pt plus 4pt minus 2pt, indent=0mm]{parskip}
+\RequirePackage[skip=3pt plus 2pt minus 1pt, indent=0mm]{parskip}
 
 % Use Gyre fonts
 
 \setmainfont{TeX Gyre Termes}[Scale=0.90,Ligatures=TeX]
 \setmonofont{TeX Gyre Cursor}[Scale=0.80,Liagatures=TeX]
 
-%  \newfontfamily{\headingfont}{TeX Gyre Termes}[Ligatures=TeX,Scale=0.85]
+\newfontfamily{\headingfont}{TeX Gyre Termes}[Color=blue,Ligatures=TeX,Scale=0.90]
 
 \newfontfamily{\adventurefont}{KellsFLF}[Scale=2.4,Ligatures=TeX]
 \newfontfamily{\titlefont}{TeX Gyre Chorus}[Color=red,Scale=3.0,Ligatures=TeX]
 
 %  \newfontfamily{\tablesf}[Scale=0.8,Color=black,Ligatures=TeX]{TeX Gyre Heros}
 
-\newfontfamily{\rankingsf}[Scale=0.9,Color=black,Ligatures=TeX]{TeX Gyre Heros}
-\newfontfamily{\rankingtt}[Scale=0.8,Color=black,Ligatures=TeX]{TeX Gyre Cursor}
+\newfontfamily{\coversf}[Scale=0.8,Color=black,Ligatures=TeX]{TeX Gyre Heros}
+\newfontfamily{\rankingsf}[Scale=0.80,Color=black,Ligatures=TeX]{TeX Gyre Heros}
+\newfontfamily{\rankingtt}[Scale=0.75,Color=black,Ligatures=TeX]{TeX Gyre Cursor}
 
 % ----------------------------------------------------------------------
 %
@@ -50,7 +51,8 @@
 {0mm}
 {}
 
-\titleformat{\subsection}[hang]{\normalfont\large\bfseries}{}{0mm}{}
+\titleformat{\subsection}[hang]{\headingfont\bfseries}{}{0mm}{}[\titleline{\color{CornflowerBlue}\titlerule[0.1mm]}]
+\titlespacing*{\subsection}{0pt}{3mm plus 1mm minus .2mm}{2mm plus .2mm}
 
 % ----------------------------------------------------------------------
 %
@@ -97,18 +99,23 @@
             \typeout{No character picture defined}
           }
   \end{center}
-  \rankingsf
+  \coversf
 }
 {
   \newpage
 }
 
-\NewTblrEnviron{covertblr}
-\SetTblrInner[covertblr]{rowsep=0.0mm,stretch=1.1,width=\linewidth,hlines={0.2mm,magenta2},vlines={0.2mm,magenta2}}
+% --------------------
+% tabular for cover tables
+% --------------------
+
+\NewTblrEnviron{stattblr}
+\SetTblrInner[stattblr]{rowsep=0.0mm,stretch=1.1,width=\linewidth,hlines={0.2mm,Plum},vlines={0.2mm,Plum}}
 \UseTblrLibrary{varwidth}
 
-
-\renewcommand{\sectionmark}[1]{\markboth{#1}{#1}}
+\NewTblrEnviron{covertblr}
+\SetTblrInner[covertblr]{rowsep=0.0mm,stretch=0.9,width=\linewidth,hlines={0.2mm,Plum},vlines={0.2mm,Plum},row{1}={c,font=\coversf\bfseries}}
+\UseTblrLibrary{varwidth}
 
 \keys_define:nn{character}
 {
@@ -142,21 +149,35 @@
 
 % ----------------------------------------------------------------------
 %
+% party
+%
+% ----------------------------------------------------------------------
+
+\NewTblrEnviron{partytblr}
+\SetTblrInner[partytblr]{colspec={XXX},rowsep=0.0mm,stretch=0.9}
+
+\NewDocumentEnvironment{party}{}
+{\subsection*{Other Guild Members in the Party}}
+{}
+
+% ----------------------------------------------------------------------
+%
 % ranking is subsection header followed by a tblr
 %
 % ----------------------------------------------------------------------
+
 
 \NewTblrEnviron{blocktblr}
 \SetTblrInner[blocktblr]{colspec={llrrrr},%
   rowsep=0.0mm,%
   stretch=0.9,%
-  hlines={0.04mm,GreenYellow},%
-  vlines={0.04mm,GreenYellow},%
+%  hlines={0.04mm,Plum},%
+%  vlines={0.04mm,Plum},%
   column{1}={60mm,l,font=\rankingsf},%
   column{2}={15mm,l,font=\rankingtt\bfseries},%
   column{3-4}={7mm,r,font=\rankingtt\bfseries},%
-  column{5-6}={9mm,r,font=\rankingtt\bfseries},%
-  column{7-8}={15mm,l,font=\rankingsf}}
+  column{5-6}={10mm,r,font=\rankingtt\bfseries},%
+  column{7-8}={25mm,l,font=\rankingsf}}
 
 \NewDocumentEnvironment{ranking}{m m}
 {
@@ -177,8 +198,9 @@
 
 \NewDocumentCommand{\experience}{m m m m m}{
 \begin{multicols}{2}
+\raggedcolumns
 \subsection{Experience remaining}
-\begin{tblr}{colspec={lr},rowsep=0mm,column{1}={font=\rankingsf,wd=50mm},column{2}={font=\rankingtt\bfseries},hline{4}={0.4mm,black}}
+\begin{tblr}{colspec={lr},rowsep=0mm,column{1}={font=\rankingsf,wd=50mm},column{2}={font=\rankingtt\bfseries},hline{4}={0.2mm,black}}
 Experience gained on adventure	& #1 \\
 Experience brought forward	& #2 \\
 Experience spent		& #3 \\
@@ -189,3 +211,71 @@ Experience remaning		& #4 \\
 #5
 \end{multicols}
 }
+
+% ----------------------------------------------------------------------
+%
+% monies
+%
+% ----------------------------------------------------------------------
+
+\NewDocumentEnvironment{monies}{O{Income and Expenditure (sp)} m m m +b}
+{
+\def\dq@min{#2}
+\def\dq@mout{#3}
+\def\dq@mdate{#4}
+\NewExpandableDocumentCommand{\dq@moniesstart}{m}{
+\ifnum\dq@min>0
+Surplus amount brought forward & & \dq@min \\
+\fi
+}
+\NewExpandableDocumentCommand{\dq@moniesend}{m}{
+Amount remaining at \dq@mdate & & \dq@mout \\
+}
+\subsection{#1}
+\begin{tblr}[expand=\expanded]{colspec={Q[wd=65mm,l]Q[r]Q[r]},hline{Y}={0.1mm,black},stretch=0.9,rowsep=0.0mm}
+\expanded{\dq@moniesstart{}}
+#5
+\expanded{\dq@moniesend{}}
+}
+{
+\end{tblr}
+}
+
+% ----------------------------------------------------------------------
+%
+% items
+%
+% ----------------------------------------------------------------------
+
+\NewDocumentEnvironment{items}{m +b}{
+\subsection{#1}%
+\begin{tblr}{colspec={l},rowsep=0.0mm,stretch=0.9}
+#2
+}
+{
+  \end{tblr}
+}
+
+% ----------------------------------------------------------------------
+%
+% Collect party, items & monies into environment
+%
+% ----------------------------------------------------------------------
+
+\NewDocumentEnvironment{miscellaneous}{}{
+  \begin{multicols}{2}
+  \raggedcolumns
+}
+{
+  \end{multicols}
+}
+
+% ----------------------------------------------------------------------
+%
+% Extra bits
+%
+% ----------------------------------------------------------------------
+
+\renewcommand{\sectionmark}[1]{\markboth{#1}{#1}}
+\newcommand{\sref}[2]{}
+
