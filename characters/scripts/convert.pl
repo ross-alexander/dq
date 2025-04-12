@@ -29,6 +29,37 @@ use File::Spec::Functions qw(rel2abs splitpath file_name_is_absolute catdir);
 
 # ----------------------------------------------------------------------
 #
+# days2weeks
+#
+# ----------------------------------------------------------------------
+
+sub days2weeks {
+    my ($time) = @_;
+    my $weeks_text;
+    my $days_text;
+    if ($time > 0)
+    {
+	my $weeks = int($time / 7);
+	my $days = $time - ($weeks * 7);
+	if ($weeks > 0)
+	{
+	    $weeks_text = ($weeks == 1) ? "1 week" : "$weeks weeks";
+	}
+	if ($days > 0)
+	{
+	    $days_text .= (($days == 1) ? "1 day" : "$days days");
+	}
+	$weeks_text .= " ".$days_text if length($days_text);
+    }
+    else
+    {
+	$weeks_text = "No time";
+    }
+    return $weeks_text;
+}
+
+# ----------------------------------------------------------------------
+#
 # Update_Adventure
 #
 # ----------------------------------------------------------------------
@@ -123,6 +154,7 @@ sub Update_Adventure {
     
     for my $ranking (@{$adventure->{ranking}})
     {
+	my $ranking_ep_total = 0;
 	if ($ranking->{date})
 	{
 	    my $s = Tick->new($ranking->{date});
@@ -131,14 +163,14 @@ sub Update_Adventure {
 		printf("Ranking for %s starts before end of the adventure\n", $ranking->{description});
 		exit(1);
 	    }
-	    $ranking->{start} = Tick->new($s);
+	    $ranking->{start_tick} = Tick->new($s);
 	}
 	else
 	{
-	    $ranking->{start} = $ranking->{star} ? Tick->new($start) : Tick->new($tick);
+	    $ranking->{start_tick} = $ranking->{star} ? Tick->new($start) : Tick->new($tick);
 	}
 	
-	printf("-- %s : %s%s\n\n", $ranking->{description}, $ranking->{start}, $ranking->{star} ? "*" : "");
+	printf("-- %s : %s%s\n\n", $ranking->{description}, $ranking->{start_tick}, $ranking->{star} ? "*" : "");
 
 	my $days = 0;
 	
@@ -199,7 +231,7 @@ sub Update_Adventure {
 		    exit(1);
 		}
 
-# Having got the initial ranking value its now time to get the final.
+		# Having got the initial ranking value its now time to get the final.
 
 		if (exists($line->{final}) && !$partial)
 		{
@@ -274,13 +306,14 @@ sub Update_Adventure {
 		$ep_raw = $ep_raw // 0;
 		$final = $final // 0;
 		$diff = $diff // 0.0;
-		
+		$line->{days} = $time;
 		printf("%-30s (%3s..%3s) Raw EP = %d EP = %d Diff = %4.2f : Time = %s\n",
 		       $name, $initial, $final,
 		       $ep_raw, $ep, $diff, $time);
 	    }
 	    $block->{ep} = $block_ep;
 	    $ep_total += $block_ep;
+	    $ranking_ep_total += $block_ep;
 
 	    # --------------------
 	    # sort the time tracks to get maximum
@@ -289,21 +322,29 @@ sub Update_Adventure {
 	    print "Track times = ", join(" : ", @time), "\n\n";
 	    my @tsort = sort { $a <=> $b } @time;
 	    $block->{start} = $tick;
-	    $block->{time} =  $tsort[$#tsort];
+	    $block->{days} = $tsort[$#tsort];
+	    $block->{time} = days2weeks($block->{days});
 
 	    $days += $tsort[$#tsort];
 	}
 	
 	# Tick + integer doesn't work so work around it
-	
-	$ranking->{end} = Tick->new($ranking->{start});
-	$ranking->{end} += $days;
-	
-	printf("-- %s : %s (%d)\n\n", $ranking->{description}, $ranking->{end}, $days);
-	
+
+	$ranking->{days} = $days;
+	$ranking->{time} = days2weeks($days);
+	$ranking->{end_tick} = Tick->new($ranking->{start_tick});
+	$ranking->{end_tick} += $days;
+
+	$ranking->{start} = $ranking->{start_tick}->CDate();
+	$ranking->{end} = $ranking->{end_tick}->CDate();
+
+	$ranking->{ep} = $ranking_ep_total;
+
+	printf("-- %s : %s → %s (%d)\n\n", $ranking->{description}, $ranking->{start_tick}, $ranking->{end_tick}, $days);
+
 	if (!$ranking->{star})
 	{
-	    $tick = Tick->new($ranking->{end});
+	    $tick = Tick->new($ranking->{end_tick});
 	}
     }
 
@@ -345,6 +386,11 @@ sub Update_Adventure {
 
 	printf("EP: in %d gained %d spent %d out %d\n", $ep_in, $ep_gained, $ep_spent, $ep_out);
     }
+    if ($adventure->{notes})
+    {
+	say($adventure->{notes});
+    }
+    
     $state->{"tick"} = $tick;
     printf("Time: start %s - end %s - current %s (%s) [%d]\n", $start->CDate(), $end->CDate(), $tick->CDate(), $tick, $tick - $end);
     printf("\n");
@@ -388,9 +434,6 @@ sub Update_Character {
     for my $a (@{$character->{adventures}})
     {
 	&Update_Adventure($map, $state, $a);
-#	say to_json($a, {convert_blessed=>1, pretty=>1});
-#	say to_json($map, {convert_blessed=>1, pretty=>1});
-#	say to_json($state, {convert_blessed=>1, pretty=>1});
     }
 
 #    say "----------------------------------------------------------------------";
@@ -518,7 +561,7 @@ sub Convert_Ranking {
 	next if (m:^[ \t]+$:);
 	next if (m:^Total:);
 	s/[ \t]*\\\\([ ]*\\hline)?$//;
-	my ($name, $init, $sum, $em, $ep_raw, $ep, $time, $money) = split(/[ \t]*&[ \t]*/, $_);
+	my ($name, $init, $sum, $em, $ep_raw, $ep, $time, $cost) = split(/[ \t]*&[ \t]*/, $_);
 	$name =~ s/ +$//;
 	next if (!length($name));
 	next if ($name =~ /\\hline/);
@@ -609,7 +652,7 @@ sub Convert_Ranking {
 	$line->{ep_raw} = $ep_raw if (length($ep_raw));
 	$line->{ep} = $ep if (length($ep));
 	$line->{time} = $time if (length($time));
-	$line->{money} = $money if (length($money));
+	$line->{cost} = $cost if (length($cost));
 	$line->{track} = $track if (length($track));
 	$line->{partial} = $partial if (length($partial));
 	push(@{$block->{lines}}, $line);
@@ -626,51 +669,39 @@ sub Convert_Ranking {
 
 sub Convert_Experience {
     my ($in) = @_;
-    my @items;
-    my $count = 0;
-    my $lcount = 0;
-
-    do
-    {
-	for my $i (0 .. length($_) - 1)
-	{
-	    my $c = substr($_, $i, 1);
-	    if ($c eq "{")
-	    {
-		$items[$count] .= $c if ($lcount);
-		$lcount ++;
-	    }
-	    elsif ($c eq "}")
-	    {
-		$lcount--;
-		$items[$count] .= $c if ($lcount);
-		$count++ if ($lcount == 0);
-	    }
-	    elsif ($lcount > 0)
-	    {
-		$items[$count] .= $c;
-	    }
-	}
-	$_ = <$in> if ($count < 5);
-    } while($count < 5);
-
-    my $exp = {};
-
-    if (length($items[0]))
-    {
-	$exp->{gained} = $items[0] if ($items[0]);
-	$exp->{in} = length($items[1]) ? int($items[1]) : 0;
-	$exp->{spent} = $items[2] if ($items[2]);
-	$exp->{out} =  length($items[3]) ? int($items[3]) : 0;
-    }
     
-    if (length($items[4]))
+    if ($_ =~ m:\\experience\{(-?[0-9]+)\}\{(-?[0-9]+)\}\{([0-9]+)\}\{(-?[0-9]+)\}:)
     {
-	my $text = $items[4];
-	$text =~ s/^\n//;
-	$exp->{notes} = $text;
+	my $exp = {};
+	$exp->{gained} = length($1) ? int($1) : 0;
+	$exp->{in} = length($2) ? int($2) : 0;
+	$exp->{spent} = length($3) ? int($3) : 0;
+	$exp->{out} =  length($4) ? int($4) : 0;
+	return $exp;
     }
-    return $exp;
+    else
+    {
+	printf("Experience match failing on $_\n");
+	exit(1);
+    }
+}
+
+# ----------------------------------------------------------------------
+#
+# Convert_Experience
+#
+# ----------------------------------------------------------------------
+
+sub Convert_Notes {
+    my ($in) = @_;
+    my @lines;
+
+    while(<$in>)
+    {
+	last if $_ =~ m:^\\end\{notes\}:;
+	push(@lines, $_);
+    }
+    return join('', @lines);
 }
 
 # ----------------------------------------------------------------------
@@ -762,6 +793,10 @@ sub Convert_Adventure {
 	if (m:^\\begin\{items\}:)
 	{
 	    push(@{$adventure->{items}}, &Convert_Items($in));
+	}
+	if (m:^\\begin\{notes\}:)
+	{
+	    $adventure->{notes} = &Convert_Notes($in);
 	}
     }
     return undef;
@@ -931,7 +966,7 @@ sub XML_Character {
 
     my $basics = XML::LibXML::Element->new("basics"); $root->appendChild($basics);
 
-    for my $k ('charname', 'fullname', 'race', 'college', 'status', 'sex', 'height', 'weight', 'aspect', 'hand', 'birth', 'date', 'dateofbirth', 'charpic')
+    for my $k ('charname', 'fullname', 'race', 'college', 'status', 'sex', 'height', 'weight', 'aspect', 'hand', 'birth', 'date', 'dateofbirth', 'picture')
     {
 	$basics->setAttribute($k, $character->{basics}->{$k}) if ($character->{basics}->{$k});
     }
@@ -1140,30 +1175,18 @@ sub JSON_Adventure {
 	my $ranking = {};
 	push(@{$a->{ranking}}, $ranking);
 
-	printf("^^^ %s %s\n", $r->{start}, to_json($r->{start}, {convert_blessed => 1}));
-	
-	$ranking->{description} = $r->{description};
-	$ranking->{star} = 1 if ($r->{star});
-	$ranking->{start_tick} = $r->{start} if ($r->{start});
-	$ranking->{end_tick} = $r->{end} if ($r->{end});
-	$ranking->{start} = $r->{start}->CDate() if ($r->{start});
-	$ranking->{end} = $r->{end}->CDate() if ($r->{end});
-	
+	map { $ranking->{$_} = $r->{$_} if exists($r->{$_}) } ('description', 'start_tick', 'end_tick', 'start', 'end', 'time', 'days', 'ep');
+	      
 	for my $b (@{$r->{blocks}})
 	{
 	    my $block = {};
 	    push(@{$ranking->{blocks}}, $block);
-	    $block->{time} = $b->{time} if ($b->{time});
-	    
+	    map {$block->{$_} = $b->{$_} if (exists($b->{$_}))} ('time', 'days', 'ep');
 	    for my $l (@{$b->{lines} || []})
 	    {
 		my $line = {};
 		push(@{$block->{lines}}, $line);
-
-		for my $k ('name', 'college', 'ref', 'initial', 'final', 'sum', 'em', 'ep_raw', 'ep', 'time', 'money', 'track', 'partial', 'type')
-		{
-		    $line->{$k} = $l->{$k} if (exists($l->{$k}));
-		}
+		map {$line->{$_} = $l->{$_} if (exists($l->{$_}))} ('name', 'college', 'ref', 'initial', 'final', 'sum', 'em', 'ep_raw', 'ep', 'time', 'days', 'cost', 'track', 'partial', 'type');
 	    }
 	}  
     }
@@ -1175,10 +1198,16 @@ sub JSON_Adventure {
     if (my $e = $adventure->{experience})
     {
      	my $exp = $a->{experience} = {};
-	for my $k ('gained', 'in', 'spent', 'out', 'notes')
-	{
-	    $exp->{$k} = $e->{$k} if (exists($e->{$k}));
-	}
+	map { $exp->{$_} = $e->{$_} if (exists($e->{$_})); } ('gained', 'in', 'spent', 'out')
+    }
+
+    # --------------------
+    # Notes
+    # --------------------
+
+    if (my $notes = $adventure->{notes})
+    {
+	$a->{notes} = $notes;
     }
 
     return $a;
@@ -1189,6 +1218,40 @@ sub JSON_Adventure {
 # JSON_Character
 #
 # ----------------------------------------------------------------------
+
+sub sort_rank {
+    my ($a, $b) = @_;
+    return $b->{rank} <=> $a->{rank};
+}
+
+sub sort_ref {
+    my ($a, $b) = @_;
+    my $ref_a = $a->{ref};
+    my $ref_b = $b->{ref};
+    my $ref_map = {
+	T => 0,
+	G => 1,
+	Q => 2,
+	S => 3,
+	R => 4,
+    };
+    my $val_map = {
+	GC => 98,
+	SC => 99
+    };
+    
+    $ref_a =~ m:([A-Z]+)-([A-Z0-9]+):;
+    my $key_a = $ref_map->{$1};
+    my $val_a = $val_map->{$2} // $2;
+
+    $ref_b =~ m:([A-Z]+)-([0-9]+):;
+    my $key_b = $ref_map->{$1};
+    my $val_b = $val_map->{$2} // $2;
+
+    return $a->{college} && $b->{college} ?
+	($a->{college} cmp $b->{college} || $key_a <=> $key_b || $val_a <=> $val_b) :
+	($key_a <=> $key_b || $val_a <=> $val_b);
+}
 
 sub JSON_Character {
     my ($opts, $character) = @_;
@@ -1208,7 +1271,7 @@ sub JSON_Character {
     # Copy over static details
     # --------------------
     
-    for my $k ('charname', 'fullname', 'race', 'college', 'status', 'sex', 'height', 'weight', 'aspect', 'hand', 'birth', 'date', 'dateofbirth', 'charpic')
+    for my $k ('charname', 'fullname', 'race', 'college', 'status', 'sex', 'height', 'weight', 'aspect', 'hand', 'birth', 'date', 'dateofbirth', 'picture')
     {
 	$basics->{$k} = $character->{basics}->{$k} if ($character->{basics}->{$k});
     }
@@ -1220,11 +1283,12 @@ sub JSON_Character {
     $basics->{"ep_total"} = $state->{"ep_total"};
     $basics->{"ep"} = $state->{"ep"};
 
-    my $tick = Tick->new($character->{basics}->{date});
+    my $tick = Tick->new($state->{tick}); # character->{basics}->{date});
+    $basics->{tick} = $tick;
     
-    $basics->{"date"} = $state->{'tick'}->CDate();
-    $basics->{"tick"} = $state->{'tick'}->{tick};
-    $basics->{"calendar"} =  $tick->{calendar};
+#    $basics->{"date"} = $state->{'tick'}->CDate();
+#    $basics->{"tick"} = $state->{'tick'}->{tick};
+#    $basics->{"calendar"} =  $tick->{calendar};
     
     # --------------------
     # Create current
@@ -1269,14 +1333,17 @@ sub JSON_Character {
 	talent => {
 	    parent	=> 'talents',
 	    child	=> 'talent',
+	    sort	=> \&sort_ref,
 	},
 	spell => {
 	    parent	=> 'spells',
 	    child	=> 'spell',
+	    sort	=> \&sort_ref,
 	},
 	ritual => {
 	    parent	=> 'rituals',
 	    child	=> 'ritual',
+	    sort	=> \&sort_ref,
 	},
 	power => {
 	    parent	=> 'powers',
@@ -1291,7 +1358,8 @@ sub JSON_Character {
     for my $i (keys(%{$slw}))
     {
 	my $xmap = $map->{$i};
-	my @list = sort({$xmap->{$b}->{"rank"} <=> $xmap->{$a}->{"rank"}} grep(!m:^_:, keys(%$xmap)));
+	my $sort = $slw->{$i}->{sort} // \&sort_rank;
+	my @list = sort({$sort->($xmap->{$a}, $xmap->{$b})} grep(!m:^_:, keys(%$xmap)));
 	if (scalar(@list))
 	{
 	    my $key = $current->{$slw->{$i}->{parent}} = [];
@@ -1433,18 +1501,18 @@ sub Main {
 	$basics->{birth} = $1 if (m:^\\birth\{(.*)\}:);
 	$basics->{date} = $1 if (m:^\\date\{(.*)\}:);
 	$basics->{dateofbirth} = $1 if (m:^\\dateofbirth\{(.*)\}:);
-	$basics->{charpic} = $1 if (m:^\\charpic\{(.*)\}:);
+	$basics->{picture} = $1 if (m:^\\charpic\{(.*)\}:);
 
-	if (exists($basics->{charpic}))
+	if (exists($basics->{picture}))
 	{
-	    my $path = $basics->{charpic};
+	    my $path = $basics->{picture};
 	    my $in = $opts->{infile};
 	    if (!file_name_is_absolute($path))
 	    {
 		my ($vol, $dirs, $file) = splitpath($in);
 		$path = rel2abs(catdir($dirs, $path));
 #		say $vol, $dirs, " -- ", $file, " ++ ", $path;
-		$basics->{charpic} = $path;
+		$basics->{picture} = $path;
 	    }
 	}
 

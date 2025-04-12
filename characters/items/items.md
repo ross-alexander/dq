@@ -1313,6 +1313,9 @@ Range
 Duration
 : Special
 
+Base Chance
+: 5%
+
 Exp. Mult
 : 550
 
@@ -1330,8 +1333,8 @@ Effects
   from the Adept to the target along the ground.
 
 This spell changes the target's flesh to stone, cuasing the target to
-take damage and lose Agility.  This damge is [D-2] + 2/Rank and the
-loss to Agility is 1 + 1 / 3 or fractions Ranks.  If the target
+take damage and lose Agility.  This damge is [D − 2] + 2 / Rank and
+the loss to Agility is 1 + 1 / 3 or fractions Ranks.  If the target
 resists then they take half damage, rounding up, and half the Agility
 loss, rounding up [Multihex creatures to a minimum of 10 AG].
 
@@ -1470,7 +1473,7 @@ next blow their dice roll is reduced by 1 (up to five points).  BC:
 This fragile orb carries the power of a storm.  When trigger electial
 storm will appear for a pulse in a mega hex centered at any point
 within 50ft of the caster.  All within the area suffer 2D damage
-(resist for half, Air College). [5 charges].
+(resist for half, Air College). [4 charges].
 
 ## Death Mask
 
@@ -1492,7 +1495,7 @@ include death curses. [Not used].
 
 This sabre has a pitch-black blade that seems to absorb light.  It is
 a reforge of several magical swords into one, created by the Granite
-Peak dwarf hold weaponsmiths.  It has also been infused with blkack
+Peak dwarf hold weaponsmiths.  It has also been infused with black
 mushroom essence, further enhancing the anti-magic properties of the
 original weapons.
 
@@ -2374,3 +2377,24 @@ located in the dark.  Range 100 feet
 ## Raw Mana Points [used]
 
 2 Raw Mana Points                                20,000
+
+# 2025-04-06
+
+- Kill demilich
+- Get two baltic amber eyes
+- 21 brothers and 3 mind flayers in the teeth
+- Use charge of storm orb
+- Lost 24 FT permanently but restored from destroyed teeth
+- Find scrolls from monks and mind flayers
+- +5 sanity
+
+>Gilded in flame, he coils through the night,  
+>Lurking where shadow devours the light.  
+>A whisper of doom in a dreamer’s breath,  
+>Unwinds the sweet thread that leads into death.  
+>Rising in silence, unseen by the eyes,  
+>Under the skin, he spins whispered lies.  
+>Neither sword nor strong will can break his spell,  
+>Ghosts heed his call from where secrets dwell
+
+GLAURUNG

@@ -621,7 +621,7 @@ sub Cairo_Character {
     my $ep;
     if ($basics->{"ep"})
     {
-	$ep = sprintf("%d (%d)", $basics->{"ep-total"}, $basics->{"ep"});
+	$ep = sprintf("%d (%d)", $basics->{"ep_total"}, $basics->{"ep"});
     }
     else
     {
@@ -705,7 +705,7 @@ sub Cairo_Character {
 sub TeX_Ranking {
     my ($map, $ranking, $stream) = @_;
 
-    my $desc = $ranking->{"desc"};
+    my $desc = $ranking->{"description"};
     my $ep = 0;
     my @block;
     my $rank_time;
@@ -718,11 +718,11 @@ sub TeX_Ranking {
 	{
 	    my @res;
 
-	    push(@res, $line->{"name"});
-	    push(@res, $line->{"final"} ? $line->{"initial"} . "\\upto " .$line->{"final"} : $line->{"initial"});
+	    push(@res, $line->{name});
+	    push(@res, $line->{final} ? $line->{initial} . "\\upto " .$line->{final} : $line->{initial});
 	    map {
 		push (@res, $line->{$_} // "");
-	    } qw(sum em ep_raw ep time money);
+	    } qw(sum em ep_raw ep time cost);
 
 # --------------------
 # Process Time stuff
@@ -744,7 +744,7 @@ sub TeX_Ranking {
 	    push(@$res, sprintf("%s %s", join("\t& ", @res), "\\\\\n"));
 	    $ep += $line->{"ep"};
 	}
-	$rank_time += $block->{"time"};
+	$rank_time += $block->{"days"};
 	push(@block, join("", @$res));
     }
 
@@ -753,26 +753,7 @@ sub TeX_Ranking {
 
     my $period = ($start == $end) ? $start->CDate() : sprintf("%s -- %s", $start->CDate(), $end->CDate());
 
-    my $weeks_text;
-    my $days_text;
-    if ($rank_time > 0)
-    {
-	my $weeks = int($rank_time / 7);
-	my $days = $rank_time - ($weeks * 7);
-	if ($weeks > 0)
-	{
-	    $weeks_text = ($weeks == 1) ? "1 week" : "$weeks weeks";
-	}
-	if ($days > 0)
-	{
-	    $days_text .= (($days == 1) ? "1 day" : "$days days");
-	}
-    }
-    else
-    {
-	$weeks_text = "No time";
-    }
-
+    my $duration = $ranking->{time};
     my $text = join("\\\\\n", @block);
 
     $text =~ s/\&amp;/\\& /g;
@@ -780,7 +761,7 @@ sub TeX_Ranking {
     $stream->print("\\begin{$environment}{$desc}{$period}\n");
     $stream->print($text);
     $stream->printf("\\hline\n");
-    $stream->printf("Total \& \& \& \& \& $ep \& \\multicolumn{2}{l}{\\rankingtt $weeks_text $days_text} \\\\\n") if ($ep);
+    $stream->printf("Total \& \& \& \& \& $ep \& \\multicolumn{2}{l}{\\rankingtt $duration} \\\\\n") if ($ep);
     $stream->print("\\end{$environment}\n");
 }
 
@@ -832,10 +813,10 @@ sub TeX_Adventure {
 
     for my $items (@{$adventure->{items} || []})
     {
-	$stream->printf("\\begin{items}{%s}\n", $items->{"desc"});
+	$stream->printf("\\begin{items}{%s}\n", $items->{"description"});
 	for my $item (@{$items->{lines}})
   	{
-	    $stream->printf("%s \\\\\n", $item->{"desc"});
+	    $stream->printf("%s \\\\\n", $item->{"description"});
 	}
 	$stream->printf("\\end{items}\n\n");
     }
@@ -859,7 +840,7 @@ sub TeX_Adventure {
 	for my $line (@{$monies->{lines}})
 	{
  	    $stream->printf("%s & %s & %s \\\\\n",
-			    $line->{desc},
+			    $line->{description},
 			    $line->{out},
 			    $line->{in});
 	}
@@ -931,7 +912,7 @@ sub TeX_Character {
     $stream->printf("\\birth{%s}\n", $basics->{'birth'});
     $stream->printf("\\status{%s}\n", $basics->{'status'});
     $stream->printf("\\college{%s}\n", $basics->{'college'});
-    $stream->printf("\\charpic{%s}\n", $basics->{'charpic'}) if (exists($basics->{'charpic'}));
+    $stream->printf("\\charpic{%s}\n", $basics->{'picture'}) if (exists($basics->{'picture'}));
 
 # --------------------
 # Do title
@@ -971,7 +952,7 @@ sub TeX_Character {
     $stream->printf("\\textsuperscript{S.Status} %s \&\n", $basics->{'status'});
     $stream->printf("\\textsuperscript{Hand} %s \& \&\n", $basics->{'hand'});
     $stream->printf("\\textsuperscript{Coll.} %s \& \& \n", $basics->{'college'});
-    $stream->printf("\\textsuperscript{EP} %s [%s] \& \\\\\n", $basics->{'ep-total'}, $basics->{'ep'});    
+    $stream->printf("\\textsuperscript{EP} %s [%s] \& \\\\\n", $basics->{'ep_total'}, $basics->{'ep'});    
     $stream->printf("\\end{dqtblr}\n\n");
     
     # --------------------

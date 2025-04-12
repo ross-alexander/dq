@@ -1,8 +1,9 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import os
 import sys
 from yaml import load, CLoader as Loader
+import argparse
 
 # ----------------------------------------------------------------------
 #
@@ -94,6 +95,60 @@ def format_adventure(opts, adventure):
            '']
 
     # --------------------
+    # print adventure name
+    # --------------------
+    print('%s: %s [%s] -- %s [%s]' % (adventure['name'],
+                                      cal_cdate(adventure['start_tick']),
+                                      cal_mdate(adventure['start_tick']),
+                                      cal_cdate(adventure['end_tick']),
+                                      cal_mdate(adventure['end_tick'])))
+          
+    # --------------------
+    # Put stuff in multicols
+    # --------------------
+
+    res.extend(['\\begin{miscellaneous}'])
+    
+    # --------------------
+    # Do party
+    # --------------------
+
+    if 'party' in adventure:
+        res.append('\\begin{party}')
+        res.append('\\begin{partytblr}{}')
+        for member in adventure['party']:
+            note = member['note'] if 'note' in member else ''
+            res.append("%s & %s & %s \\\\" % (member['name'], member['college'], note))
+        res.append('\\end{partytblr}%')
+        res.extend(['\\end{party}', ''])
+
+    # --------------------
+    # Items
+    # --------------------
+    
+    for items in (adventure['items'] if 'items' in adventure else []):
+        res.append('\\begin{items}{%s}' % items['description'])
+        for item in items['lines']:
+            res.append("%s \\\\" % item['description'])
+        res.extend(['\\end{items}', ''])
+
+    # --------------------
+    # Do monies
+    # --------------------
+
+    for monies in (adventure['monies'] if 'monies' in adventure else []):
+        ledger = "[%s]" % monies['ledger'] if 'ledger' in monies else ""
+        res.append("\\begin{monies}%s{%s}{%s}{%s}" % (ledger, monies['in'], monies['out'], monies['date']))
+        for line in monies['lines']:
+            mon_desc = line['description'] if 'description' in line else ''
+            mon_in = line['in'] if 'in' in line else ''
+            mon_out = line['out'] if 'out' in line else ''
+            res.append("%s & %s & %s \\\\" % (mon_desc, mon_out, mon_in))
+        res.extend(["\\end{monies}", ''])
+
+    res.extend(['\\end{miscellaneous}', ''])
+        
+    # --------------------
     # Loop over ranking
     # --------------------
     
@@ -124,7 +179,6 @@ def format_adventure(opts, adventure):
                 time = "%s$^%s$" % (line['time'], line['track']) if 'time' in line else ''
                 cost = line['cost'] if 'cost' in line else ''
                 res.append(f"{name}\t& {rank_range}\t& {sum}\t& {em}\t& {raw}\t& {ep}\t& {time}\t& {cost} \\\\")
-                print(line)
             res.extend(['\\end{blocktblr}', ''])
         # --------------------
         # Add total line if required
@@ -138,11 +192,17 @@ def format_adventure(opts, adventure):
     # --------------------
     # Add experience block if necessary
     # --------------------
-        
+
+    res.append('\\begin{miscellaneous}')
+    
     if 'experience' in adventure:
         exp = adventure['experience']
-        res.append("\\experience{%d}{%d}{%d}{%d}{%s}" % (exp['gained'], exp['in'], exp['spent'], exp['out'], exp['notes']))
+        res.append("\\experience{%d}{%d}{%d}{%d}" % (exp['gained'], exp['in'], exp['spent'], exp['out']))
+
+    if 'notes' in adventure:
+        res.extend(['', '\\begin{notes}', adventure['notes'], '\\end{notes}'])
         
+    res.append('\\end{miscellaneous}')
     res.extend(['\\end{adventure}', ''])
     return res
 
@@ -290,6 +350,18 @@ def format_yaml(opts, src_path, dst_path):
     with open(dst_path, "w") as stream:
         stream.write(res)
 
+
+# ----------------------------------------------------------------------
+#
+# M A I N
+#
+# ----------------------------------------------------------------------
+
 opts = {}
-format_yaml(opts, "../ranking/thinknottle.yaml", "thinknottle.ltx")
-format_yaml(opts, "../ranking/callas.yaml", "callas.ltx")
+
+parser = argparse.ArgumentParser(description='Format character YAML file to LuaLaTeX')
+parser.add_argument("-i", "--in", action='store', type=str, required=True, help="Input file", dest="inpath")
+parser.add_argument("-o", "--out", action='store', type=str, required=True, help="Output file", dest="outpath")
+args = parser.parse_args()
+
+format_yaml(opts, args.inpath, args.outpath)

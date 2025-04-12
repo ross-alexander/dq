@@ -102,8 +102,19 @@ sub new {
 	    calendar => $date->{calendar},
 	    date => $date->{date},
 	};
-#	$self->{original} = $date->{original} if (exists($date->{original}));
 	bless($self, $class);
+	return $self;
+    }
+    if (ref($date) eq "HASH")
+    {
+	croak if !exists($date->{calendar});
+	croak if !exists($date->{tick});
+	$self = {
+	    tick => $date->{tick},
+	    calendar => $date->{calendar}
+	};
+	bless($self, $class);
+	$self->{date} = $self->CDate();
 	return $self;
     }
 

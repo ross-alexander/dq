@@ -61,7 +61,6 @@
 \SetTblrInner[ranktblr]{rowsep=0.0mm,stretch=0.8,width=\linewidth,hline{1-2,Z}={0.2mm,magenta2},vlines={0.2mm,magenta2},%
 rows={font=\tablesf},row{1}={c,font=\bfseries}}
 
-
 \ProcessOptions
 
 \ifbool{hasfontspec}
@@ -201,13 +200,32 @@ Amount remaining at \dq@mdate & & \dq@mout \\
   >{\rankingsf}l
 }
 
+\NewTblrEnviron{blocktblr}
+\SetTblrInner[blocktblr]{colspec={llrrrrll},column{1}={60mm,l,font=\rankingsf}}
+
+%%\SetTblrInner[ranktblr]{rowsep=0.0mm,stretch=0.8,width=\linewidth,hline{1-2,Z}={0.2mm,magenta2},vlines={0.2mm,magenta2},%
+%%rows={font=\tablesf},row{1}={c,font=\bfseries}}
+
+\NewDocumentEnvironment{tbranking}{m m +b}
+{
+  \ifthenelse{\equal{#2}\empty}
+             {\subsection{#1}}
+             {\subsection{#1 \textsc{(#2)}}}
+
+  \begin{blocktblr}{}
+    #3
+}
+{
+  \end{blocktblr}
+}
+
 \newenvironment{ranking}[2]
 {
   \ifthenelse{\equal{#2}\empty}
              {\subsection{#1}}
              {\subsection{#1 \textsc{(#2)}}}
 
-  \begin{tabular}{R}
+             \begin{tabular}{R}
 }
 {
   \end{tabular}

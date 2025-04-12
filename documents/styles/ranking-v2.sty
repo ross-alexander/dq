@@ -196,20 +196,14 @@
 %
 % ----------------------------------------------------------------------
 
-\NewDocumentCommand{\experience}{m m m m m}{
-\begin{multicols}{2}
-\raggedcolumns
+\NewDocumentCommand{\experience}{m m m m}{
 \subsection{Experience remaining}
 \begin{tblr}{colspec={lr},rowsep=0mm,column{1}={font=\rankingsf,wd=50mm},column{2}={font=\rankingtt\bfseries},hline{4}={0.2mm,black}}
 Experience gained on adventure	& #1 \\
 Experience brought forward	& #2 \\
 Experience spent		& #3 \\
 Experience remaning		& #4 \\
- \end{tblr}
-\columnbreak
-\subsection*{Notes}
-#5
-\end{multicols}
+\end{tblr}
 }
 
 % ----------------------------------------------------------------------
@@ -255,6 +249,17 @@ Amount remaining at \dq@mdate & & \dq@mout \\
 {
   \end{tblr}
 }
+
+% ----------------------------------------------------------------------
+%
+% notes environment
+%
+% ----------------------------------------------------------------------
+\NewDocumentEnvironment{notes}{}
+{
+\subsection{Notes}
+}
+{}
 
 % ----------------------------------------------------------------------
 %

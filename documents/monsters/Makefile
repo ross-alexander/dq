@@ -1,7 +1,6 @@
 .suffix: .pdf .fo .tex .html .xml
 
-LATEX	= latex
-XELATEX	= xelatex
+LATEX	= lualatex
 SX	= osx
 CFLAGS	= `pkg-config --cflags libxml-2.0 libxslt`
 LDLIBS	= `pkg-config --libs libxml-2.0 libxslt`
@@ -48,7 +47,4 @@ index.html: $(XML) webify.pl
 dqmm.html: $(HTML)
 
 dqmm.pdf: dqmm.tex dqmm.sty $(TEX)
-	$(XELATEX) dqmm.tex
-
-dqmm.dvi: dqmm.tex dqmm.sty $(TEX)
 	$(LATEX) dqmm.tex
