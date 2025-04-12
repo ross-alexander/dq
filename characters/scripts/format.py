@@ -184,7 +184,7 @@ def format_adventure(opts, adventure):
         # Add total line if required
         # --------------------
         if (ranking['ep'] or ranking['days']):
-            res.extend(['\\begin{blocktblr}{cell{1}{7}{c=2}{l,font=\\rankingsf\\bfseries},cell{1}{1}={font=\\rankingsf\\bfseries}}',
+            res.extend(['\\begin{blocktblr}{cell{1}{7}{c=2}{l,font=\\rankingsf},cell{1}{1}={font=\\rankingsf},hline{1-2}={0.1mm,gray}}',
                        '%s & & & & & %d & %s & ' % ('Total', ranking['ep'], ranking['time']),
                        '\\end{blocktblr}'])
         res.extend(['\\end{ranking}', ''])
