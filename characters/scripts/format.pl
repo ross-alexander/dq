@@ -1362,8 +1362,8 @@ sub Main {
 	fonts => {
 #	    sans => 'Helvetica',
 #	    serif => 'Times',
-	    serif => 'TeX Gyre Termes',
-	    sans => 'TeX Gyre Heros',
+	    serif => 'Nimbus Roman',
+	    sans => 'Nimbus Sans',
 	},
 	formats => {
 	    tex => {
