@@ -172,7 +172,6 @@ sub Update_Adventure {
 	printf("-- %s : %s%s\n\n", $ranking->{description}, $ranking->{start_tick}, $ranking->{star} ? "*" : "");
 
 	my $days = 0;
-	
 	for my $block (@{$ranking->{blocks}})
 	{
 	    # --------------------
@@ -320,10 +319,11 @@ sub Update_Adventure {
 
 	    print "Track times = ", join(" : ", @time), "\n\n";
 	    my @tsort = sort { $a <=> $b } @time;
-	    $block->{start} = $tick;
+	    $block->{start_tick} = $tick;
 	    $block->{days} = $tsort[$#tsort];
 	    $block->{time} = days2weeks($block->{days});
-
+	    $block->{end_tick} = Tick->new($block->{start_tick});
+	    $block->{end_tick} += $block->{days};
 	    $days += $tsort[$#tsort];
 	}
 	
@@ -889,7 +889,7 @@ sub JSON_Adventure {
 	{
 	    my $block = {};
 	    push(@{$ranking->{blocks}}, $block);
-	    map {$block->{$_} = $b->{$_} if (exists($b->{$_}))} ('time', 'days', 'ep');
+	    map {$block->{$_} = $b->{$_} if (exists($b->{$_}))} ('time', 'days', 'ep', 'start_tick', 'end_tick');
 	    for my $l (@{$b->{lines} || []})
 	    {
 		my $line = {};
