@@ -444,21 +444,6 @@ sub HTML_Character {
 #
 # ----------------------------------------------------------------------
 
-sub Cairo_FrameLeftTopTextBox {
-    my ($conf, $cr, $x, $y, $w, $h, $label, $text) = @_;
-    $cr->rectangle($x, $y, $w, $h);
-    $cr->stroke();
-    $cr->set_font_size(6);
-    $cr->select_font_face($conf->{'fonts'}->{'sans'}, 'normal', 'normal');
-    my $extents = $cr->text_extents($label);
-    $cr->move_to($x + 1, $y + 6);
-    $cr->show_text($label);
-    $cr->move_to($x + $extents->{'width'} + 1, $y + $h - 2);
-    $cr->set_font_size(10);
-    $cr->select_font_face($conf->{'fonts'}->{'sans'}, 'normal', 'normal');
-    $cr->show_text($text);
-}
-
 sub Cairo_Bits {
     my ($conf, $cr, $list, $boxes)  = @_;
 
@@ -480,10 +465,14 @@ sub Cairo_Bits {
 	my $title = $box->{'title'};
 	my $align = $box->{'align'};
 	$cr->rectangle($x, 0, $size, $height);
+	$cr->set_source_rgb(@{$conf->{colours}->{rank_bg}});
+	$cr->fill_preserve();
+	$cr->set_source_rgb(@{$conf->{colours}->{line}});
 	$cr->stroke();
 	my $extents = $cr->text_extents($title);
 	$cr->move_to($x + ($size - $extents->{'width'})/2, $height - 2);
-	$cr->show_text($title);
+	$cr->set_source_rgb(@{$conf->{colours}->{font}});
+ 	$cr->show_text($title);
 	$x += $size;
     }
     $cr->select_font_face($conf->{'fonts'}->{'sans'}, 'normal', 'normal');
@@ -501,6 +490,9 @@ sub Cairo_Bits {
 	    my $text = $j->{$id};
 
 	    $cr->rectangle($x, ($i+1) * $height, $size, $height);
+	    $cr->set_source_rgb(@{$conf->{colours}->{rank_bg}});
+	    $cr->fill_preserve();
+	    $cr->set_source_rgb(@{$conf->{colours}->{line}});
 	    $cr->stroke();
 	    my $extents = $cr->text_extents($text);
 	    if ($align eq "r")
@@ -511,6 +503,7 @@ sub Cairo_Bits {
 	    {
 		$cr->move_to($x + 2, ($i+2) * $height - 2);
 	    }
+	    $cr->set_source_rgb(@{$conf->{colours}->{font}});
 	    $cr->show_text($text);
 	    $x += $size;
 	}
@@ -519,10 +512,17 @@ sub Cairo_Bits {
     $len++;
 
     $cr->set_line_width(1.0);
+    $cr->set_source_rgb(@{$conf->{colours}->{line}});
     $cr->rectangle(0, 0, $maxx, $len * $height);
     $cr->stroke();
     return $len * $height;
 }
+
+# ----------------------------------------------------------------------
+#
+# Cairo_TopBoxes
+#
+# ----------------------------------------------------------------------
 
 sub Cairo_TopBoxes {
     my ($conf, $cr, $y, $height, $boxes) = @_;
@@ -533,12 +533,13 @@ sub Cairo_TopBoxes {
 	my $text = $_->[2];
 
 	$cr->rectangle($x, $y, $size, $height);
-	$cr->set_source_rgb(0.9, 0.9, 0.9);
+	$cr->set_source_rgb(@{$conf->{colours}->{stats_bg}});
 	$cr->fill_preserve();
-	$cr->set_source_rgb(0.0, 0.0, 0.0);
+	$cr->set_source_rgb(@{$conf->{colours}->{line}});
 	$cr->stroke();
 	$cr->set_font_size(6);
 	$cr->select_font_face($conf->{'fonts'}->{'sans'}, 'normal', 'bold');
+	$cr->set_source_rgb(@{$conf->{colours}->{font}});
 	my $extents = $cr->text_extents($label);
 	$cr->move_to($x + 1, $y + 6);
 	$cr->show_text($label);
@@ -593,6 +594,10 @@ sub Cairo_Character {
     
     $cr->set_line_width(0.3);
 
+    # --------------------
+    # Four stats boxes stacked
+    # --------------------
+    
     Cairo_TopBoxes($conf, $cr, 0, 20, [
 		       [220, "Name", $basics->{'fullname'}],
 		       [50, "PS", $stats->{'PS'}],
@@ -618,15 +623,8 @@ sub Cairo_Character {
 		       [100, "Birth",  $basics->{"birth"}],
 		       [200, "Date",   $basics->{'date'}." [".$map->{'now'}."]"],
 		   ]);
-    my $ep;
-    if ($basics->{"ep"})
-    {
-	$ep = sprintf("%d (%d)", $basics->{"ep_total"}, $basics->{"ep"});
-    }
-    else
-    {
-	$ep = sprintf("%d", $basics->{"ep"});
-    }
+    
+    my $ep = $basics->{ep_total} ? sprintf("%d (%d)", $basics->{"ep_total"}, $basics->{"ep"}) : sprintf("%d", $basics->{"ep"});
 
     Cairo_TopBoxes($conf, $cr, 60, 20, [
 		       [220, "S.Status", $basics->{"status"}],
@@ -635,10 +633,20 @@ sub Cairo_Character {
  		       [100, "EP",       $ep],
 		   ]);
 
+    # --------------------
+    # Frame stats boxes
+    # --------------------
+    
     $cr->set_line_width(1.0);
+    $cr->set_source_rgb(@{$conf->{colours}->{line}});
     $cr->rectangle(0, 0, 520, 80);
     $cr->stroke();
     $cr->restore();
+
+    # --------------------
+    # Skill boxes
+    # --------------------
+    
     $cr->save();
     $cr->translate(0, 80);
     $cr->translate(0, Cairo_Bits($conf, $cr,
@@ -1359,9 +1367,13 @@ sub Main {
     # --------------------
 
     my $conf = {
+	colours => {
+	    font => [0.0, 0.0, 0.0],
+	    line => [0.0, 0.0, 1.0],
+	    stats_bg => [0.9, 0.9, 0.9],
+	    rank_bg => [1.0, 1.0, 1.0],
+	},
 	fonts => {
-#	    sans => 'Helvetica',
-#	    serif => 'Times',
 	    serif => 'Nimbus Roman',
 	    sans => 'Nimbus Sans',
 	},
