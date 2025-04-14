@@ -395,7 +395,13 @@ use overload failback => 1,
 },
     '-' => sub {
 	my ($self, $other) = @_;
-	$self->tick() - $other->tick();
+
+	$tick -= ref($other) eq 'Tick' ? $other->{tick} : $other;
+	my $new = {
+	    tick => $tick,
+	    calendar => $self->{calendar}
+	};
+	bless($new);
 },
     '>' => sub {
 	my ($self, $other) = @_;
@@ -403,15 +409,9 @@ use overload failback => 1,
 },
     '+' => sub {
 	my ($self, $other) = @_;
-	my $tick = $self->{$tick};
-	if (ref($other) eq 'Tick')
-	{
-	    $tick += $other->{tick};
-	}
-	else
-	{
-	    $tick += $other;
-	}
+	my $tick = $self->{tick};
+	
+	$tick += ref($other) eq 'Tick' ? $other->{tick} : $other;
 	my $new = {
 	    tick => $tick,
 	    calendar => $self->{calendar}
