@@ -13,19 +13,18 @@
 # ----------------------------------------------------------------------
 
 use 5.40.0;
-use XML::LibXML;
 use Getopt::Long;
 use Carp::Assert;
 use Encode;
 use dq;
 use Tick;
-use JSON;
-use JSON::XS;
 use Perl6::Slurp;
 use Data::Dumper;
 use Carp;
-use YAML::PP qw(DumpFile);
 use File::Spec::Functions qw(rel2abs splitpath file_name_is_absolute catdir);
+use YAML::PP qw(DumpFile);
+use JSON;
+use JSON::XS;
 
 # ----------------------------------------------------------------------
 #
@@ -804,288 +803,6 @@ sub Convert_Adventure {
 
 # ----------------------------------------------------------------------
 #
-# XML_Adventure
-#
-# Create XML from internal format
-#
-# ----------------------------------------------------------------------
-
-sub XML_Adventure {
-    my ($root, $adventure) = @_;
-    
-    my $node = $root->addNewChild('', 'adventure');
-
-    for my $k ('name', 'start', 'end', 'star', 'start_tick', 'end_tick')
-    {
-	if (exists($adventure->{$k}))
-	{
-	    my $xk = $k;
-	    $xk =~ s:_:-:g;
-	    $node->setAttribute($xk, $adventure->{$k});
-	}
-    }
-
-    # --------------------
-    # Party
-    # --------------------
-    
-    if (my $p = $adventure->{party})
-    {
-	my $party = $node->addNewChild('', 'party');
-	for my $m (@{$p->{members}})
-	{
-	    assert($m->{name});
-	    assert($m->{college});
-
-	    my $member = $party->addNewChild('', 'member');
-	    $member->setAttribute('name', $m->{name});
-	    $member->setAttribute('college', $m->{college});
-	    $member->setAttribute('note', $m->{note}) if ($m->{note});
-	}
-    }
-
-    # --------------------
-    # Items
-    # --------------------
-    
-    for my $items (@{$adventure->{items} || []})
-    {
-	my $items_node = $node->addNewChild('', 'items');
-	$items_node->setAttribute('desc', $items->{desc});
-	for my $line (@{$items->{item} || []})
-	{
-	    my $line_node = $items_node->addNewChild('', 'line');
-	    $line_node->setAttribute('desc', $line);
-	}
-    }
-
-    # --------------------
-    # Monies
-    # --------------------
-
-    for my $monies (@{$adventure->{monies} || []})
-    {
-	my $monies_node = $node->addNewChild('', 'monies');
-	$monies_node->setAttribute('in', $monies->{in});
-	$monies_node->setAttribute('out', $monies->{out});
-	$monies_node->setAttribute('date', $monies->{date});
-	$monies_node->setAttribute('tick', $monies->{tick}->{tick});
-	$monies_node->setAttribute('calendar', $monies->{tick}->{calendar});
-	$monies_node->setAttribute('ledger', $monies->{ledger}) if ($monies->{ledger});
-	for my $line (@{$monies->{lines} || []})
-	{
-	    my $line_node = $monies_node->addNewChild('', 'line');
-	    $line_node->setAttribute('description', $line->{description});
-	    $line_node->setAttribute('in', $line->{in}) if ($line->{in});
-	    $line_node->setAttribute('out', $line->{out}) if ($line->{out});
-	}
-    }
-
-    
-    # --------------------
-    # Ranking
-    # --------------------
-	
-    for my $r (@{$adventure->{ranking} || []})
-    {
-	my $ranking = $node->addNewChild('', 'ranking');
-
-	$ranking->setAttribute("description", $r->{description});
-	$ranking->setAttribute("star", "1") if ($r->{star});
-	$ranking->setAttribute("start", $r->{start}->CDate()) if ($r->{start});
-	$ranking->setAttribute("end", $r->{end}->CDate()) if ($r->{end});
-	
-	for my $b (@{$r->{blocks}})
-	{
-	    
-	    my $block = $ranking->addNewChild('', 'block');
-	    $block->setAttribute("time", $b->{time}) if ($b->{time});
-
-# --------------------
-# Create XML Node
-# --------------------
-
-	    for my $l (@{$b->{lines} || []})
-	    {
-		my $skill = $block->addNewChild('', $l->{type});
-		$skill->setAttribute("name", $l->{name});
-
-		$skill->setAttribute("college", $l->{college}) if ($l->{college});
-		$skill->setAttribute("ref", $l->{sref}) if ($l->{sref});
-
-		$skill->setAttribute("initial", $l->{initial});
-		$skill->setAttribute("final", $l->{final}) if ($l->{final});
-
-		$skill->setAttribute("sum", $l->{sum}) if ($l->{sum});
-		$skill->setAttribute("em", $l->{em}) if ($l->{em});
-		$skill->setAttribute("ep_raw", $l->{ep_raw}) if ($l->{ep_raw});
-		$skill->setAttribute("ep", $l->{ep}) if ($l->{ep});
-		$skill->setAttribute("time", $l->{time}) if ($l->{time});
-		$skill->setAttribute("money", $l->{money}) if ($l->{money});
-		$skill->setAttribute("track", $l->{track}) if ($l->{time}); # length($time) && !($time =~ /no time/i));
-		$skill->setAttribute("partial", 1) if ($l->{partial});
-	    }
-	}  
-    }
-
-    if (my $e = $adventure->{experience})
-    {
-	my $exp = $node->addNewChild('', 'experience');
-	$exp->setAttribute("gained", $e->{gained}) if ($e->{gained});
-	$exp->setAttribute("in", $e->{in}) if ($e->{in});
-	$exp->setAttribute("spent", $e->{spent}) if ($e->{spent});
-	$exp->setAttribute("out", $e->{out}) if ($e->{out});
-	$exp->setAttribute("notes", $e->{notes}) if ($e->{notes});
-    }
-}
-
-# ----------------------------------------------------------------------
-#
-# XML_Character
-#
-# ----------------------------------------------------------------------
-
-sub XML_Character {
-    my ($conf, $character) = @_;
-
-    my $state = $character->{_state_};
-    my $map = $character->{_map_};
-    
-    # --------------------
-    # Create XML document
-    # --------------------
-    
-    my $doc = XML::LibXML::Document->new("1.0", "UTF-8");
-    my $root = $doc->createElement("character");
-    $doc->setDocumentElement($root);
-    $root->setAttribute("system", "dq");
-
-    # --------------------
-    # Add basic details
-    # --------------------
-
-    my $basics = XML::LibXML::Element->new("basics"); $root->appendChild($basics);
-
-    for my $k ('charname', 'fullname', 'race', 'college', 'status', 'sex', 'height', 'weight', 'aspect', 'hand', 'birth', 'date', 'dateofbirth', 'picture')
-    {
-	$basics->setAttribute($k, $character->{basics}->{$k}) if ($character->{basics}->{$k});
-    }
-
-    # --------------------
-    # Start updating the current values
-    # --------------------
-    
-    $basics->setAttribute("ep_total", $state->{"ep_total"});
-    $basics->setAttribute("ep", $state->{"ep"});
-
-    my $tick = Tick->new($character->{basics}->{date});
-    
-    $basics->setAttribute("date", $state->{'tick'}->CDate());
-    $basics->setAttribute("tick", $state->{'tick'}->{tick});
-    $basics->setAttribute("calendar", $tick->{calendar});
-    
-    my $current = $root->addNewChild('', 'current');
-
-    my $stats = $current->addNewChild('', 'stats');
-    my $statmap = {
-	PS	=> 'Physical Strength',
-	MD	=> 'Manual Dexturity',
-	AG	=> 'Agility',
-	MA	=> 'Magical Aptitude',
-	WP	=> 'Willpower',
-	EN	=> 'Endurance',
-	FT	=> 'Fatigue',
-	PB	=> 'Physical Beauty',
-	PC	=> 'Perception',
-    };
-    for my $i ('PS', 'MD', 'AG', 'MA', 'WP', 'EN', 'FT', 'PB', 'PC')
-    {
-	my $s = $stats->addNewChild('', 'stat');
-	$s->setAttribute("name", $i);
-	$s->setAttribute("value", $map->{'stat'}->{$statmap->{$i}}->{"rank"});
-    }
-
-    # --------------------
-    # Do skills, languages and weapons
-    # --------------------
-
-    my $slw = {
-	'skill' => {
-	    'parent'	=> 'skills',
-	    'child'	=> 'skill',
-	},
-	'language' => {
-	    'parent'	=> 'languages',
-	    'child'	=> 'language',
-	},
-	'weapon' => {
-	    'parent'	=> 'weapons',
-	    'child'	=> 'weapon',
-	},
-	'talent' => {
-	    'parent'	=> 'talents',
-	    'child'	=> 'talent',
-	},
-	'spell' => {
-	    'parent'	=> 'spells',
-	    'child'	=> 'spell',
-	},
-	'ritual' => {
-	    'parent'	=> 'rituals',
-	    'child'	=> 'ritual',
-	},
-    };
-
-# --------------------
-# Add current values
-# --------------------
-
-    for my $i (keys(%{$slw}))
-    {
-	my $xmap = $map->{$i};
-
-	my @list = sort({$xmap->{$b}->{"rank"} <=> $xmap->{$a}->{"rank"}} grep(!m:^_:, keys(%$xmap)));
-
-	if (scalar(@list))
-	{
-	    my $parent = $current->addNewChild('', $slw->{$i}->{'parent'});
-	    for my $j (@list)
-	    {
-		next if ($j =~ m/^_/);
-		my $child = $parent->addNewChild('', $slw->{$i}->{'child'});
-		$child->setAttribute("name", $j);
-		$child->setAttribute("rank", $xmap->{$j}->{'rank'});
-		$child->setAttribute("ref", $xmap->{$j}->{'ref'}) if (exists $xmap->{$j}->{'ref'});
-		$child->setAttribute("college", $xmap->{$j}->{'college'}) if (exists $xmap->{$j}->{'college'});
-	    }
- 	}
-    }
-
-    # --------------------
-    # Iterate over adventures
-    # --------------------
-
-    for my $a (@{$character->{adventures}})
-    {
-	&XML_Adventure($root, $a);
-    }
-    
-    # --------------------
-    # Output XML
-    # --------------------
-    
-    if ($conf->{outfile})
-    {
-	$doc->toFile($conf->{outfile}, 1);
-    }
-    else
-    {
-	print $doc->toString(1);
-    }
-}
-
-# ----------------------------------------------------------------------
-#
 # jSON_Adventure
 #
 # ----------------------------------------------------------------------
@@ -1099,13 +816,7 @@ sub JSON_Adventure {
     # adventure header
     # --------------------
 
-    for my $k ('name', 'start', 'end', 'star', 'start_tick', 'end_tick')
-    {
-	if (exists($adventure->{$k}))
-	{
-	    $a->{$k} = $adventure->{$k};
-	}
-    }
+    map {$a->{$_} = $adventure->{$_} if (exists($adventure->{$_}))} ('name', 'start', 'end', 'star', 'start_tick', 'end_tick');
 
     # --------------------
     # Party
@@ -1116,11 +827,8 @@ sub JSON_Adventure {
 	for my $m (@{$p->{members}})
 	{
 	    my $t = {};
-	    for my $k ('name', 'college', 'note')
-	    {
-		$t->{$k} = $m->{$k} if (exists($m->{$k}));
-	    }
-	    push(@{$a->{party}}, $t);
+	    map {$t->{$_} = $m->{$_} if (exists($m->{$_}))} ('name', 'college', 'note');
+ 	    push(@{$a->{party}}, $t);
 	}
     }
 
@@ -1253,6 +961,12 @@ sub sort_ref {
 	($key_a <=> $key_b || $val_a <=> $val_b);
 }
 
+# ----------------------------------------------------------------------
+#
+# JSON_Character
+#
+# ----------------------------------------------------------------------
+
 sub JSON_Character {
     my ($opts, $character) = @_;
 
@@ -1283,13 +997,9 @@ sub JSON_Character {
     $basics->{"ep_total"} = $state->{"ep_total"};
     $basics->{"ep"} = $state->{"ep"};
 
-    my $tick = Tick->new($state->{tick}); # character->{basics}->{date});
+    my $tick = Tick->new($state->{tick});
     $basics->{tick} = $tick;
-    
-#    $basics->{"date"} = $state->{'tick'}->CDate();
-#    $basics->{"tick"} = $state->{'tick'}->{tick};
-#    $basics->{"calendar"} =  $tick->{calendar};
-    
+        
     # --------------------
     # Create current
     # --------------------
@@ -1381,10 +1091,7 @@ sub JSON_Character {
     # Adventure
     # --------------------
 
-    for my $adventure (@{$character->{adventures}})
-    {
-	push(@{$res->{adventures}}, JSON_Adventure($adventure));
-    }
+    $res->{adventures} = [map{JSON_Adventure($_)} @{$character->{adventures}}];
     
     # --------------------
     # Write out result
@@ -1511,7 +1218,6 @@ sub Main {
 	    {
 		my ($vol, $dirs, $file) = splitpath($in);
 		$path = rel2abs(catdir($dirs, $path));
-#		say $vol, $dirs, " -- ", $file, " ++ ", $path;
 		$basics->{picture} = $path;
 	    }
 	}
@@ -1524,10 +1230,8 @@ sub Main {
     }
 
     my $f_map = {
-	xml => \&XML_Character,
 	json => \&JSON_Character,
 	yaml => \&JSON_Character,
-	plain =>\&Plain_Chacter,
     };
 
     &Update_Character($opts, $character);
