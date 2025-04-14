@@ -21,7 +21,7 @@
 #
 # ----------------------------------------------------------------------
 
-use 5.34.0;
+use 5.40.0;
 use IO::Handle;
 use XML::LibXML;
 use Encode;
@@ -45,14 +45,14 @@ use File::Basename;
 # ----------------------------------------------------------------------
 sub Cal_Character {
 
-    my ($doc, $map, $file) = @_;
+    my ($doc, $map, $path) = @_;
 
     my $cal_doc = XML::LibXML::Document->new("1.0", "utf8");
     my $cal_root = $cal_doc->createElement("cal");
     $cal_doc->setDocumentElement($cal_root);
 
     my $out;
-    open($out, ">", $file);
+    $out = \*STDERR;
 
 # --------------------
 # @tl is track list, holds all the ranking track information
@@ -60,51 +60,53 @@ sub Cal_Character {
 
     my @tl;
 
-    for my $a ($doc->findnodes("/character/adventure")->get_nodelist)
+    for my $a (@{$map->{adventures}})
     {
 	my $advtrack = {};
 
-	if (!(($a->hasAttribute("star")) && ($a->getAttribute("star") > 0)))
+	if (!(($a->{"star"}//0) > 0))
 	{
 	    my $t = {};
 	    $t->{'type'} = "a";
-	    $t->{'start'} = $a->getAttribute("start-tick");
-	    $t->{'end'} = $a->getAttribute("end-tick");
-	    $t->{'name'} = $a->getAttribute("name");
+	    $t->{'start'} = $a->{"start_tick"};
+	    $t->{'end'} = $a->{"end_tick"};
+	    $t->{'name'} = $a->{"name"};
 	    $t->{'track'} = 0;
 	    push(@tl, $t);
 	}
-	printf $out "# adventure %d %d %s\n", $a->getAttribute("start-tick"), $a->getAttribute("end-tick"), $a->getAttribute("name"), "\n";
-	for my $r ($a->findnodes("ranking")->get_nodelist)
+	printf($out "# adventure %s %s %s\n", $a->{"start_tick"}->{date}, $a->{"end_tick"}->{date}, $a->{"name"});
+
+	for my $r (@{$a->{"ranking"}})
 	{
-	    my $s = $r->getAttribute("start");
-	    my $e = $r->getAttribute("end");
-	    if ((!($a->hasAttribute("star")) || ($a->getAttribute("star") > 0)) &&
-		(($e - $s) > 0))
-	    {
-		printf $out "# ranking %d %d %s\n", $r->getAttribute("start"), $r->getAttribute("end"), $r->getAttribute("desc");
-		for my $b ($r->findnodes("block")->get_nodelist)
-		{
-		    my $s = $b->getAttribute("start");
-		    my @s = ($s, $s, $s, $s);
-		    for my $i ($b->findnodes("*")->get_nodelist)
-		    {
-			if ($i->getAttribute("day-equiv"))
-			{
-			    my $t = {};
-			    my $tn;
-			    $t->{'type'} = "r";
-			    $t->{'track'} = $tn = $i->getAttribute("track");
-			    $t->{'start'} = $s[$tn];
-			    $t->{'end'} = $s[$tn] + $i->getAttribute("day-equiv") - 1;
-			    $t->{'name'} = $i->getAttribute("name");
-			    push(@tl, $t);
-			    $s[$tn] += $i->getAttribute("day-equiv");
-			}
-			printf $out "# line %d %d %s\n", $i->getAttribute("day-equiv"), $i->getAttribute("track"), $i->getAttribute("name");
-		    }
-		}
-	    }
+	     my $s = $r->{start_tick};
+	     my $e = $r->{end_tick};
+	     if ((!($a->{star}//0) > 0) && (($e->{tick} - $s->{tick}) > 0))
+	     {
+		 printf($out "## ranking %d %d %s\n", $s->{tick}, $e->{tick}, $r->{description});
+		 for my $b (@{$r->{blocks}})
+		 {
+		     my $s = $b->{start_tick};
+		     say $s;
+		     my @s = (Tick->new($s), Tick->new($s), Tick->new($s), Tick->new($s));
+
+		     for my $line (@{$b->{lines}})
+		     {
+			 if ($line->{days})
+			 {
+			     my $t = {};
+			     my $tn;
+			     $t->{type} = "r";
+			     $t->{track} = $tn = $line->{track};
+			     $t->{start} = Tick->new($s[$tn]);
+			     $t->{end} = Tick->new($s[$tn]) + ($line->{days} - 1);
+			     $t->{name} = $line->{name};
+			     push(@tl, $t);
+			     $s[$tn] += $line->{days};
+			 }
+			 printf($out "### line %3d %d %s\n", $line->{days}, $line->{track}, $line->{name});
+		     }
+		 }
+	     }
 	}
     }
 
@@ -122,12 +124,12 @@ sub Cal_Character {
 	    if (!exists($om->{$i}))
 	    {
 		$om->{$i} = $_;
-		$_->{'ref'} = $i;
+		$_->{ref} = $i;
 	    }
 	    $i++;
-	} while (!exists($_->{'ref'}));
+	} while (!exists($_->{ref}));
 
-	for $i ($_->{'start'} .. $_->{'end'})
+	for $i ($_->{start} .. $_->{end})
 	{
 	
 # --------------------
@@ -265,7 +267,7 @@ sub Cal_Character {
 	}
     }
     close($out);
-    $cal_doc->toFile("$file".".xml", 1);
+    $cal_doc->toFile("$path".".xml", 1);
 }
 
 # ----------------------------------------------------------------------
@@ -463,7 +465,7 @@ sub Cairo_Bits {
 	my $box = $boxes->[$k];
 	my $size = $box->{'len'};
 	my $title = $box->{'title'};
-	my $align = $box->{'align'};
+	my $align = $box->{'align'} // 'l';
 	$cr->rectangle($x, 0, $size, $height);
 	$cr->set_source_rgb(@{$conf->{colours}->{rank_bg}});
 	$cr->fill_preserve();
@@ -486,8 +488,8 @@ sub Cairo_Bits {
 	    my $box = $boxes->[$k];
 	    my $id = $box->{'id'};
 	    my $size = $box->{'len'};
-	    my $align = $box->{'align'};
-	    my $text = $j->{$id};
+	    my $align = $box->{'align'} // 'l';
+	    my $text = $j->{$id} // '';
 
 	    $cr->rectangle($x, ($i+1) * $height, $size, $height);
 	    $cr->set_source_rgb(@{$conf->{colours}->{rank_bg}});
@@ -690,6 +692,10 @@ sub Cairo_Character {
 					  {
 					      my ($ar, $an) = split(/\-/, $a->{'ref'});
 					      my ($br, $bn) = split(/\-/, $b->{'ref'});
+					      $an = 98 if ($an eq "GC");
+					      $an = 99 if ($an eq "SC");
+					      $bn = 98 if ($bn eq "GC");
+					      $bn = 99 if ($bn eq "SC");
 					      $ar cmp $br || $an <=> $bn;
 					  } grep(!exists($map->{"ignore"}), @{$current->{$_}}))],
 				     [
@@ -756,8 +762,8 @@ sub TeX_Ranking {
 	push(@block, join("", @$res));
     }
 
-    my $start = new Tick($ranking->{"start"});
-    my $end = new Tick($ranking->{"end"});
+    my $start = Tick->new($ranking->{"start"});
+    my $end = Tick->new($ranking->{"end"});
 
     my $period = ($start == $end) ? $start->CDate() : sprintf("%s -- %s", $start->CDate(), $end->CDate());
 
@@ -787,8 +793,8 @@ sub TeX_Adventure {
     my $start = $adventure->{start};
     my $end = $adventure->{end};
     
-    my $startTick = new Tick($start);
-    my $endTick = new Tick($end);
+    my $startTick = Tick->new($start);
+    my $endTick = Tick->new($end);
 
     # --------------------
     # Put calandar into map for TeX_Ranking to use
@@ -1168,19 +1174,12 @@ sub Main {
 		function => \&Text_Character,
 		description => 'Text output for debugging',
 	    },
+	    cal => {
+		function => \&Cal_Character,
+		description => 'Create calendar',
+	    },
 	},
     };
-
-    # --------------------
-    # Get spells (not really implemented currently [25.10.2021]
-    # --------------------
-    
-    my $parser = XML::LibXML->new();
-    $conf->{'parser'} = $parser;
-    if (-f "spells.xml")
-    {
-	$conf->{"spells"} = $parser->parse_file("spells.xml");
-    }
 
     # --------------------
     # Load file
@@ -1212,24 +1211,24 @@ sub Main {
     
     if (!exists($opts->{i}) || !$opts->{i})
     {
-	printf(stderr "$0: [-i input.PARSER]\n");
+	printf(STDERR "$0: [-i input.PARSER]\n");
 	exit(1);
     }
 
     if (!exists($opts->{o}) || !$opts->{o})
     {
-	printf(stderr "$0: [-o output.FORMAT]\n");
+	printf(STDERR "$0: [-o output.FORMAT]\n");
 	exit(1);
     }
 
     if (!exists($opts->{f}) || !$opts->{f})
     {
-	printf(stderr "$0: [-f %s]\n", join("|", keys(%{$conf->{formats}})));
+	printf(STDERR "$0: [-f %s]\n", join("|", keys(%{$conf->{formats}})));
 	exit(1);
     }
     if (!exists($opts->{p}) || !$opts->{p})
     {
-	printf(stderr "$0: [-p %s]\n", join("|", keys(%{$parser_dispatch})));
+	printf(STDERR "$0: [-p %s]\n", join("|", keys(%{$parser_dispatch})));
 	exit(1);
     }
     
