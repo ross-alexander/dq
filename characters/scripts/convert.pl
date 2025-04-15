@@ -16,7 +16,6 @@ use 5.40.0;
 use Getopt::Long;
 use Carp::Assert;
 use Encode;
-use dq;
 use Tick;
 use Perl6::Slurp;
 use Data::Dumper;
