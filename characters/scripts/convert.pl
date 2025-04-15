@@ -247,6 +247,9 @@ sub Update_Adventure {
 		
 		my ($em, $ep_calc, $ep, $ep_raw, $sum, $diff, $csum);
 
+		$ep = $line->{ep};
+		$ep_raw = $line->{ep_raw};
+		
 		if ($line->{initial} && $line->{final})
 		{
 		    $initial = 0 if ($initial eq "U" && ($final > 0));
@@ -324,7 +327,7 @@ sub Update_Adventure {
 	    $block->{end_tick} = Tick->new($block->{start_tick});
 	    $block->{end_tick} += ($block->{days} > 0 ? $block->{days}-1 : 0);
 	    $days += $tsort[$#tsort];
-	    printf("Track times = %s [%d %d]\n\n", join(" : ", @time), $block->{start_tick}->{tick}, $block->{end_tick}->{tick});
+	    printf("EP: %d -- Track times = %s [%d %d]\n\n", $block->{ep}, join(" : ", @time), $block->{start_tick}->{tick}, $block->{end_tick}->{tick});
 	}
 	
 	# Tick + integer doesn't work so work around it
@@ -763,7 +766,7 @@ sub Convert_Adventure {
     while(<$in>)
     {
 	chomp $_;
-	if (m:^\\end\{adventure\}:)
+	if (m:^\\end\{adventure(\*?)\}:)
 	{
  	    return $adventure;
 	}
