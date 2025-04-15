@@ -2,6 +2,12 @@ package Tick;
 
 use Carp::Assert;
 
+# ----------------------------------------------------------------------
+#
+# new
+#
+# ----------------------------------------------------------------------
+
 sub new {
     my $invocant = shift;
     my $class = ref($invocant) || $invocant;
@@ -285,6 +291,103 @@ sub new {
 #
 # ----------------------------------------------------------------------
 
+sub TM {
+    my $self = shift(@_);
+
+    my $cal = $self->{calendar};
+    my $tick = $self->{tick};
+
+    my $res = undef;
+    my ($year, $quarter, $month, $day, $week_day, $year_day);
+
+    if ($cal eq "WK")
+    {
+	$year = int($tick/364);
+	$tick -= $year * 364;
+	$year_day = $tick;
+	$quarter = int($tick/91);
+	$tick -= $quarter * 91;
+	$month = $quarter * 3 + int(($tick-1)/30);
+	$day = $tick - ($day%3)*30;
+	$week_day = $year_day%7;
+
+	$res = {
+	    year => $year + 770,
+	    month => $month,
+	    day => $day,
+	    week_day => $week_day,
+	    year_day => $year_day,
+	    calendar => 'WK',
+	};
+	
+	if ($day == 0)
+	{
+	    my @t = ('Beltane', 'Lugnasad', 'Samhain', 'Candlemansa');
+	    $res->{day_name} = $t[$quarter];
+	}
+	else
+	{
+	    my @day_names = ('Moonday', 'Duesday', 'Wotansday', 'Thunorsday', 'Freyasdar', 'Reapsday', 'Sunday');
+	    my @month_names = ('Meadow', 'Heat', 'Breeze', 'Fruit', 'Harvest', 'Vintage', 'Frost', 'Snow', 'Ice', 'Thaw', 'Seedtime', 'Blossom');
+	    $res->{month_name} = $month_names[$month];
+	    $res->{day_name} = $day_names[$week_day];
+	}
+    }
+    elsif ($cal eq 'AP')
+    {
+	$tick = $tick - 273;
+	$year = int($tick/364);
+	$tick = $tick - $year*364;
+	$year_day = $tick;
+	    
+	my  @month_day = (0, 31, 59, 89, 120, 151, 181, 212, 243, 273, 304, 334);
+	for my $m (0 .. 11)
+	{
+	    if ($tick >= $month_day[$m])
+	    {
+		$month = $m;
+		break;
+	    }
+	}
+	$day = $tick - $month_day[$month];
+	my @month_name = ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
+	$res = {
+	    year => $year + 1970,
+	    month => $month,
+	    day => $day + 1,
+	    month_name => $month_name[$month],
+	    calendar => 'AP',
+	}
+    }
+    elsif ($cal eq "CM")
+    {
+	$year = int($tick / 400);
+	$tick -= 400*$y;
+
+	$month = int($tick / 20);
+	$day = $tick - $month*20;
+	my $up = $month % 2;
+	$month = int($month / 2);
+
+	my @month_names = ('Lebh', 'Khomets', 'Porehk', 'Ov', 'Toyt', 'Vint', 'Kindheyt', 'Shakhres', 'Brenen', 'Mablen');
+	$res = {
+	    year => $year,
+	    month => $month,
+	    upper => $up,
+	    lower => 1 - $up,
+	    day => $day,
+	    month_name => sprintf("%s %s", $up ? "Ariber":"Aroplezn", $month_names[$m]),
+	    calendar => 'CM',
+	};
+    }
+    else
+    {
+	print STDERR "Unknown calandar $cal for tick $tick\n";
+	exit 1;
+    }
+    return $res;
+}
+
 sub CDate {
     my $self = shift(@_);
 
@@ -297,9 +400,9 @@ sub CDate {
     {
 	my ($ny, $nq, $nm, $nd);
 	$ny = int($tick/364);
-	$tick = $tick - $ny * 364;
+	$tick -= $ny * 364;
 	$nq = int($tick/91);
-	$tick = $tick - $nq * 91;
+	$tick -= $nq * 91;
 	$nm = $nq * 3 + int(($tick-1)/30);
 	$nd = $tick - ($nm%3)*30;
 	if ($nd == 0)
@@ -353,6 +456,12 @@ sub CDate {
     }
     return $res;
 }
+
+# ----------------------------------------------------------------------
+#
+# TO_JSON
+#
+# ----------------------------------------------------------------------
 
 sub TO_JSON {
     my ($self) = shift;
