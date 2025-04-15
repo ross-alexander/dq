@@ -37,6 +37,7 @@ use Perl6::Slurp;
 use JSON;
 use YAML;
 use File::Basename;
+use dq;
 
 # ----------------------------------------------------------------------
 #
@@ -52,13 +53,13 @@ sub Cal_Character {
     $cal_doc->setDocumentElement($cal_root);
 
     my $out;
-    $out = \*STDERR;
+    $out = \*STDOUT;
 
 # --------------------
-# @tl is track list, holds all the ranking track information
+# @track_list is track list, holds all the ranking track information
 # --------------------
 
-    my @tl;
+    my @track_list;
 
     for my $a (@{$map->{adventures}})
     {
@@ -67,12 +68,12 @@ sub Cal_Character {
 	if (!(($a->{"star"}//0) > 0))
 	{
 	    my $t = {};
-	    $t->{'type'} = "a";
-	    $t->{'start'} = $a->{"start_tick"};
-	    $t->{'end'} = $a->{"end_tick"};
-	    $t->{'name'} = $a->{"name"};
-	    $t->{'track'} = 0;
-	    push(@tl, $t);
+	    $t->{type} = "a";
+	    $t->{start_tick} = $a->{"start_tick"};
+	    $t->{end_tick} = $a->{"end_tick"};
+	    $t->{name} = $a->{"name"};
+	    $t->{track} = 0;
+	    push(@track_list, $t);
 	}
 	printf($out "# adventure %s %s %s\n", $a->{"start_tick"}->{date}, $a->{"end_tick"}->{date}, $a->{"name"});
 
@@ -86,22 +87,21 @@ sub Cal_Character {
 		 for my $b (@{$r->{blocks}})
 		 {
 		     my $s = $b->{start_tick};
-		     say $s;
 		     my @s = (Tick->new($s), Tick->new($s), Tick->new($s), Tick->new($s));
 
 		     for my $line (@{$b->{lines}})
 		     {
 			 if ($line->{days})
 			 {
-			     my $t = {};
-			     my $tn;
-			     $t->{type} = "r";
-			     $t->{track} = $tn = $line->{track};
-			     $t->{start} = Tick->new($s[$tn]);
-			     $t->{end} = Tick->new($s[$tn]) + ($line->{days} - 1);
+			     my $t = {
+				 type => 'r'
+			     };
+			     my $track = $t->{track} = $line->{track};
+			     $t->{start_tick} = Tick->new($s[$track]);
+			     $t->{end_tick} = Tick->new($s[$track]) + ($line->{days} - 1);
 			     $t->{name} = $line->{name};
-			     push(@tl, $t);
-			     $s[$tn] += $line->{days};
+			     push(@track_list, $t);
+			     $s[$track] += $line->{days};
 			 }
 			 printf($out "### line %3d %d %s\n", $line->{days}, $line->{track}, $line->{name});
 		     }
@@ -109,91 +109,106 @@ sub Cal_Character {
 	     }
 	}
     }
-
+    
 # --------------------
 # Map over the track list
 # --------------------
 
-    my $ym = {};
-    my $om = {};
+    my $year_map = {};
+#    my $om = {};
     map {
-	printf $out "# track %s %d %d %d\n", $_->{'name'}, $_->{'track'}, $_->{'start'}, $_->{'end'};
+	printf($out "# track %2d %5d %5d %s\n", $_->{'track'}, $_->{'start_tick'}->{tick}, $_->{'end_tick'}->{tick}, $_->{'name'});
 
-	my $i = 0;
-	do {
-	    if (!exists($om->{$i}))
-	    {
-		$om->{$i} = $_;
-		$_->{ref} = $i;
-	    }
-	    $i++;
-	} while (!exists($_->{ref}));
-
-	for $i ($_->{start} .. $_->{end})
+	# my $i = 0;
+	# do {
+	#     if (!exists($om->{$i}))
+	#     {
+	# 	$om->{$i} = $_;
+	# 	$_->{ref} = $i;
+	#     }
+	#     $i++;
+	# } while (!exists($_->{ref}));
+	
+	for my $i ($_->{start_tick}->{tick} .. $_->{end_tick}->{tick})
 	{
 	
 # --------------------
 # TickToTM returns (d,m,y,wd,yd)
 # --------------------
 
-	    my @bits = TickToTM($i);
+	    my ($day, $month, $year, $week_day, $year_day);
+	    ($day, $month, $year, $week_day, $year_day) = TickToTM($i);
 
+	    
 # --------------------
 # Create year (d,m,y,wd,yd)
 # --------------------
 
-	    $ym->{$bits[2]} = {} if (!exists($ym->{$bits[2]}));
+#	    printf("year: %d\n", $year) if (!exists($year_map->{$year}));
+	    $year_map->{$year} = {} if (!exists($year_map->{$year}));
+	    my $year_ref = $year_map->{$year};
 
 # --------------------
 # Create month (d,m,y,wd,yd)
 # --------------------
 
-	    if (!exists($ym->{$bits[2]}->{$bits[1]}))
+	    if (!exists($year_ref->{$month}))
 	    {
-		my $monthmap = {};
-		$ym->{$bits[2]}->{$bits[1]} = $monthmap;
+		my $month_ref = $year_ref->{$month} = {};
+#		printf("month: %d\n", $month);
 
 # --------------------
 # Get start of month date
 # --------------------
 
-		my @monbits = TickToTM($i - $bits[0]);
-		@monbits = TickToTM($i - $bits[0] + 1) if($monbits[0]);
+		# If day != 0 then add 1 to get first of the month
+		
+		my @monbits = TickToTM($i - $day + ($day ? 1:0));
 
 # --------------------
 # Get end of month
 # Add enough days to get next month then work backward
 # --------------------
 
-		my $j = $i + 31;
-		my @mon2bits  = TickToTM($j);
-		$j -= $mon2bits[0];
-		@mon2bits = TickToTM($j);
-		$j -= 1 if ($mon2bits[1] != $monbits[1]);
-		@mon2bits = TickToTM($j);
+		my $j = $i + (30 - $day);
+		my @mon2bits = TickToTM($j);
+#		$j -= $day;
+#		@mon2bits = TickToTM($j);
+#		$j -= 1 if ($mon2bits[1] != $monbits[1]);
+#		@mon2bits = TickToTM($j);
 
-		$monthmap->{'_start_'} = $monbits[0];
-		$monthmap->{'_end_'} = $mon2bits[0];
-		$monthmap->{'_wday_'} = $monbits[3];
+		$month_ref->{'_start_'} = $monbits[0];
+		$month_ref->{'_end_'} = $mon2bits[0];
+		$month_ref->{'_wday_'} = $monbits[3];
 		
-#		printf STDERR "Got month %d start %d end %d wday %d\n", $monbits[1], $monbits[0], $mon2bits[0], $monbits[3];
+		# printf($out "Got month %d start %d end %d wday %d\n", $month,
+		#        $month_ref->{_start_},
+		#        $month_ref->{_end_},
+		#        $month_ref->{_wday_});
 	    }
-	    if (!exists($ym->{$bits[2]}->{$bits[1]}->{$bits[0]}))
-	    {
-		$ym->{$bits[2]}->{$bits[1]}->{$bits[0]} = {};
-	    }
-	    my $d = $ym->{$bits[2]}->{$bits[1]}->{$bits[0]};
-	    $d->{$_->{'track'}} = $_;
-	    $d->{'mday'} = $bits[3];
-	    $d->{'wk'} = TickToWK($i);
-	}
-    } @tl;
+	    my $month_ref = $year_ref->{$month};
+	    $month_ref->{$day} = {} if (!exists($month_ref->{$day}));
 
+	    my $day_ref = $month_ref->{$day};
+	    $day_ref->{$_->{track}} = $_;
+	    $day_ref->{week_day} = $week_day;
+	    $day_ref->{wk} = TickToWK($i);
+	}
+    } @track_list;
+
+    
+    # for my $year (sort(keys(%$year_map)))
+    # {
+    # 	my $year_ref = $year_map->{$year};
+    # 	say("year $year", to_json($year_ref, {pretty=>1,convert_blessed=>1}));
+    # }
+    # exit 1;
+    
 # --------------------
 # Add weeks
 # --------------------
 
-    while (my ($year, $ydata) = each(%$ym))
+    while (my ($year, $ydata) = each(%$year_map))
     {
 	while (my ($month, $mdata) = each(%$ydata))
 	{
@@ -218,37 +233,39 @@ sub Cal_Character {
 # Do output
 # --------------------
 
-    for my $y (sort({$a <=> $b} keys(%$ym)))
+    for my $y (sort({$a <=> $b} keys(%$year_map)))
     {
 	my $y_node = $cal_root->addNewChild("", "year");
 	$y_node->setAttribute("year", $y);
-	printf $out "Year\t%d\n", $y;
-	my $ykey = $ym->{$y};
-	for my $m (sort({$a <=> $b} keys(%$ykey)))
+	printf($out "\nYear\t%d\n", $y);
+	my $year_ref = $year_map->{$y};
+	for my $m (sort({$a <=> $b} keys(%$year_ref)))
 	{
-	    my $mkey = $ykey->{$m};
+	    my $month_ref = $year_ref->{$m};
 
 	    my $m_node = $y_node->addNewChild("", "month");
 	    $m_node->setAttribute("month", $m);
-	    $m_node->setAttribute("start", $mkey->{'_start_'});
-	    $m_node->setAttribute("end", $mkey->{'_end_'});
-	    $m_node->setAttribute("wday", $mkey->{'_wday_'});
+	    $m_node->setAttribute("start", $month_ref->{'_start_'});
+	    $m_node->setAttribute("end", $month_ref->{'_end_'});
+	    $m_node->setAttribute("wday", $month_ref->{'_wday_'});
 
-	    printf $out "Month\t%d\t%d\t%d\t%d\n", $m, $mkey->{'_start_'}, $mkey->{'_end_'}, $mkey->{'_wday_'};
-	    for my $w (sort({$a <=> $b} keys(%$mkey)))
+	    printf $out "Month\t%d\tstart:%d\tend:%d\tweek_day:%d\n", $m,
+		$month_ref->{'_start_'}, $month_ref->{'_end_'}, $month_ref->{'_wday_'};
+	    
+	    for my $w (sort({$a <=> $b} grep(!m:^_:, keys(%$month_ref))))
 	    {
-		my $week = $mkey->{$w};
+		my $week = $month_ref->{$w};
 		if ($w =~ m:^[0-9]+$:)
 		{
 		    my $w_node = $m_node->addNewChild("", "week");
-		    my $week = $mkey->{$w};
+		    my $week = $month_ref->{$w};
 		    for my $d (sort({$a <=> $b} keys(%$week)))
 		    {
 			my $day = $week->{$d};
 			my $d_node = $w_node->addNewChild("", "day");
 			$d_node->setAttribute("day", $d);
 			$d_node->setAttribute("date", $day->{'wk'});
-			printf $out "Day\t%d\t%d\t%s", $d, $day->{'mday'}, $day->{'wk'};
+			printf $out "Day\t%d\t%d\t%-20s", $d, $day->{week_day}, $day->{'wk'};
 			for my $t (0, 1, 2, 3)
 			{
 			    if (exists($day->{$t}))
