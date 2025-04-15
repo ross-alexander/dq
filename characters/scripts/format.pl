@@ -37,7 +37,6 @@ use Perl6::Slurp;
 use JSON;
 use YAML;
 use File::Basename;
-use dq;
 
 # ----------------------------------------------------------------------
 #
@@ -47,10 +46,6 @@ use dq;
 sub Cal_Character {
 
     my ($doc, $map, $path) = @_;
-
-    my $cal_doc = XML::LibXML::Document->new("1.0", "utf8");
-    my $cal_root = $cal_doc->createElement("cal");
-    $cal_doc->setDocumentElement($cal_root);
 
     my $out;
     $out = \*STDOUT;
@@ -75,7 +70,7 @@ sub Cal_Character {
 	    $t->{track} = 0;
 	    push(@track_list, $t);
 	}
-	printf($out "# adventure %s %s %s\n", $a->{"start_tick"}->{date}, $a->{"end_tick"}->{date}, $a->{"name"});
+	printf($out "\n# adventure %s %s %s\n", $a->{"start_tick"}->{date}, $a->{"end_tick"}->{date}, $a->{"name"});
 
 	for my $r (@{$a->{"ranking"}})
 	{
@@ -83,9 +78,10 @@ sub Cal_Character {
 	     my $e = $r->{end_tick};
 	     if ((!($a->{star}//0) > 0) && (($e->{tick} - $s->{tick}) > 0))
 	     {
-		 printf($out "## ranking %d %d %s\n", $s->{tick}, $e->{tick}, $r->{description});
+		 printf($out "\n## ranking %d %d %s\n", $s->{tick}, $e->{tick}, $r->{description});
 		 for my $b (@{$r->{blocks}})
 		 {
+		     printf($out "\n");
 		     my $s = $b->{start_tick};
 		     my @s = (Tick->new($s), Tick->new($s), Tick->new($s), Tick->new($s));
 
@@ -115,19 +111,8 @@ sub Cal_Character {
 # --------------------
 
     my $year_map = {};
-#    my $om = {};
     map {
 	printf($out "# track %2d %5d %5d %s\n", $_->{'track'}, $_->{'start_tick'}->{tick}, $_->{'end_tick'}->{tick}, $_->{'name'});
-
-	# my $i = 0;
-	# do {
-	#     if (!exists($om->{$i}))
-	#     {
-	# 	$om->{$i} = $_;
-	# 	$_->{ref} = $i;
-	#     }
-	#     $i++;
-	# } while (!exists($_->{ref}));
 	
 	for my $i ($_->{start_tick}->{tick} .. $_->{end_tick}->{tick})
 	{
@@ -135,16 +120,14 @@ sub Cal_Character {
 # --------------------
 # TickToTM returns (d,m,y,wd,yd)
 # --------------------
-
+	    my $tick = Tick->new({tick => $i, calendar => 'WK'});
 	    my ($day, $month, $year, $week_day, $year_day);
-	    ($day, $month, $year, $week_day, $year_day) = TickToTM($i);
-
+	    ($day, $month, $year, $week_day, $year_day) = Tick::TickToTM($tick);
 	    
 # --------------------
 # Create year (d,m,y,wd,yd)
 # --------------------
 
-#	    printf("year: %d\n", $year) if (!exists($year_map->{$year}));
 	    $year_map->{$year} = {} if (!exists($year_map->{$year}));
 	    my $year_ref = $year_map->{$year};
 
@@ -155,36 +138,22 @@ sub Cal_Character {
 	    if (!exists($year_ref->{$month}))
 	    {
 		my $month_ref = $year_ref->{$month} = {};
-#		printf("month: %d\n", $month);
 
 # --------------------
-# Get start of month date
+# Get start of month date, if day != 0 then add 1 to get first of the month
 # --------------------
-
-		# If day != 0 then add 1 to get first of the month
-		
-		my @monbits = TickToTM($i - $day + ($day ? 1:0));
+		my @monbits = Tick::TickToTM($tick - ($day - ($day ? 1:0)));
 
 # --------------------
-# Get end of month
-# Add enough days to get next month then work backward
+# Get end of month, which will day 30
 # --------------------
 
-		my $j = $i + (30 - $day);
-		my @mon2bits = TickToTM($j);
-#		$j -= $day;
-#		@mon2bits = TickToTM($j);
-#		$j -= 1 if ($mon2bits[1] != $monbits[1]);
-#		@mon2bits = TickToTM($j);
+		my $j = $tick + (30 - $day);
+		my @mon2bits = Tick::TickToTM($j);
 
 		$month_ref->{'_start_'} = $monbits[0];
 		$month_ref->{'_end_'} = $mon2bits[0];
 		$month_ref->{'_wday_'} = $monbits[3];
-		
-		# printf($out "Got month %d start %d end %d wday %d\n", $month,
-		#        $month_ref->{_start_},
-		#        $month_ref->{_end_},
-		#        $month_ref->{_wday_});
 	    }
 	    my $month_ref = $year_ref->{$month};
 	    $month_ref->{$day} = {} if (!exists($month_ref->{$day}));
@@ -192,17 +161,10 @@ sub Cal_Character {
 	    my $day_ref = $month_ref->{$day};
 	    $day_ref->{$_->{track}} = $_;
 	    $day_ref->{week_day} = $week_day;
-	    $day_ref->{wk} = TickToWK($i);
+	    $day_ref->{wk} = Tick->new({tick => $1, calendar => 'WK'});
 	}
     } @track_list;
 
-    
-    # for my $year (sort(keys(%$year_map)))
-    # {
-    # 	my $year_ref = $year_map->{$year};
-    # 	say("year $year", to_json($year_ref, {pretty=>1,convert_blessed=>1}));
-    # }
-    # exit 1;
     
 # --------------------
 # Add weeks
@@ -233,24 +195,39 @@ sub Cal_Character {
 # Do output
 # --------------------
 
-    for my $y (sort({$a <=> $b} keys(%$year_map)))
+    my $cal_doc = XML::LibXML::Document->new("1.0", "utf8");
+    my $cal_root = $cal_doc->createElement("cal");
+    $cal_doc->setDocumentElement($cal_root);
+
+    my $js_cal = [];
+
+    for my $year (sort({$a <=> $b} keys(%$year_map)))
     {
-	my $y_node = $cal_root->addNewChild("", "year");
-	$y_node->setAttribute("year", $y);
-	printf($out "\nYear\t%d\n", $y);
-	my $year_ref = $year_map->{$y};
+	printf($out "\nYear\t%d\n", $year);
+
+	my $year_node = $cal_root->addNewChild("", "year");
+	$year_node->setAttribute("year", $year);
+
+	my $js_year = {
+	    year => {
+		year => sprintf("%d WK", $year),
+	    }
+	};
+	push(@$js_cal, $js_year);
+	
+	my $year_ref = $year_map->{$year};
 	for my $m (sort({$a <=> $b} keys(%$year_ref)))
 	{
 	    my $month_ref = $year_ref->{$m};
 
-	    my $m_node = $y_node->addNewChild("", "month");
+	    my $m_node = $year_node->addNewChild("", "month");
 	    $m_node->setAttribute("month", $m);
 	    $m_node->setAttribute("start", $month_ref->{'_start_'});
 	    $m_node->setAttribute("end", $month_ref->{'_end_'});
 	    $m_node->setAttribute("wday", $month_ref->{'_wday_'});
 
-	    printf $out "Month\t%d\tstart:%d\tend:%d\tweek_day:%d\n", $m,
-		$month_ref->{'_start_'}, $month_ref->{'_end_'}, $month_ref->{'_wday_'};
+	    printf($out "Month\t%d\tstart:%d\tend:%d\tweek_day:%d\n", $m,
+		$month_ref->{'_start_'}, $month_ref->{'_end_'}, $month_ref->{'_wday_'});
 	    
 	    for my $w (sort({$a <=> $b} grep(!m:^_:, keys(%$month_ref))))
 	    {
@@ -265,7 +242,7 @@ sub Cal_Character {
 			my $d_node = $w_node->addNewChild("", "day");
 			$d_node->setAttribute("day", $d);
 			$d_node->setAttribute("date", $day->{'wk'});
-			printf $out "Day\t%d\t%d\t%-20s", $d, $day->{week_day}, $day->{'wk'};
+			printf($out "Day\t%d\t%d\t%-20s", $d, $day->{week_day}, $day->{'wk'});
 			for my $t (0, 1, 2, 3)
 			{
 			    if (exists($day->{$t}))
@@ -274,15 +251,16 @@ sub Cal_Character {
 				$t_node->setAttribute("track", $t);
 				$t_node->setAttribute("name", $day->{$t}->{'name'});
 
-				printf $out "\t%d\t%s", $t, $day->{$t}->{'name'};
+				printf($out "\t%d\t%s", $t, $day->{$t}->{'name'});
 			    }
 			}
-			printf $out "\n";
+			printf($out "\n");
 		    }
 		}
 	    }
 	}
     }
+    say to_json($js_cal, {pretty=>1});
     close($out);
     $cal_doc->toFile("$path".".xml", 1);
 }
