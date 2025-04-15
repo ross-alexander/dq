@@ -320,7 +320,7 @@ sub Update_Adventure {
 	    # --------------------
 
 	    my @tsort = sort { $a <=> $b } @time;
-	    $block->{start_tick} = Tick->new($tick) + $days;
+	    $block->{start_tick} = $ranking->{start_tick} + $days;
 	    $block->{days} = $tsort[$#tsort];
 	    $block->{time} = days2weeks($block->{days});
 	    $block->{end_tick} = Tick->new($block->{start_tick});
