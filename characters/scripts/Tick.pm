@@ -308,7 +308,7 @@ sub TM {
 	$quarter = int($tick/91);
 	$tick -= $quarter * 91;
 	$month = $quarter * 3 + int(($tick-1)/30);
-	$day = $tick - ($day%3)*30;
+	$day = $tick - ($month % 3) * 30;
 	$week_day = $year_day%7;
 
 	$res = {
@@ -394,60 +394,27 @@ sub CDate {
     my $cal = $self->{calendar};
     my $tick = $self->{tick};
 
+    my $tm = $self->TM();
     my $res;
-
+    
     if ($cal eq "WK")
     {
-	my ($ny, $nq, $nm, $nd);
-	$ny = int($tick/364);
-	$tick -= $ny * 364;
-	$nq = int($tick/91);
-	$tick -= $nq * 91;
-	$nm = $nq * 3 + int(($tick-1)/30);
-	$nd = $tick - ($nm%3)*30;
-	if ($nd == 0)
+	if ($tm->{day} == 0)
 	{
-	    my @t = ('Beltane', 'Lugnasad', 'Samhain', 'Candlemansa');
-	    $res = sprintf("%s %d WK", $t[$nq], $ny + 770);
+	    $res = sprintf("%s %d WK", $tm->{day_name}, $tm->{year});
 	}
 	else
 	{
-	    my @t = ('Meadow', 'Heat', 'Breeze', 'Fruit', 'Harvest', 'Vintage', 'Frost', 'Snow', 'Ice', 'Thaw', 'Seedtime', 'Blossom');
-	    $res = sprintf("%s %d, %d WK", $t[$nm] ,$nd, $ny + 770);
-#	    $res = sprintf("%d.%d.%d WK", $nd, $nm+1, $ny + 770);
+	    $res = sprintf("%s %d, %d WK", $tm->{month_name} ,$tm->{day}, $tm->{year});
 	}
     }
     elsif ($cal eq 'AP')
     {
-	$tick = $tick - 273;
-	$year = int($tick/364);
-	$tick = $tick - $year*364;
-	my  @month_day = (0, 31, 59, 89, 120, 151, 181, 212, 243, 273, 304, 334);
-	for my $m (0 .. 11)
-	{
-	    croak;
-	    if ($tick >= $month_day[$m])
-	    {
-		$month = $m;
-		break;
-	    }
-	}
-	$day = $tick - $month_day[$month];
-	my @month_name = ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
-	$res = sprintf("%s %d, %d AP", $month_name[$month], $day+1, $year + 1970);
+	$res = sprintf("%s %d, %d AP", $tm->{month_name}, $tm->{day}, $tm->{year});
     }
     elsif ($cal eq "CM")
     {
-	my $y = int($tick / 400);
-	$tick -= 400*$y;
-
-	my $m = int($tick / 20);
-	my $d = $tick - $m*20;
-	my $up = $m % 2;
-	$m = int($m / 2);
-
-	my @t = ('Lebh', 'Khomets', 'Porehk', 'Ov', 'Toyt', 'Vint', 'Kindheyt', 'Shakhres', 'Brenen', 'Mablen');
-	$res = sprintf("%d %s %s %d CM", $d, $up ? "Ariber":"Aroplezn", $t[$m], $y);
+	$res = sprintf("%d %s %s %d CM", $tm->{day}, $tm->{month}, $tm->{year});
     }
     else
     {
@@ -505,6 +472,7 @@ use overload failback => 1,
     '-' => sub {
 	my ($self, $other) = @_;
 
+	my $tick = $self->{tick};
 	$tick -= ref($other) eq 'Tick' ? $other->{tick} : $other;
 	my $new = {
 	    tick => $tick,
@@ -558,6 +526,12 @@ use overload failback => 1,
     '<' => sub {
 	my ($self, $other) = @_;
 	($self->{calendar} eq $other->{calendar}) && ($self->{tick} < $other->{tick});
+};
+
+sub TickToTM {
+    my ($self) = @_;
+    my $tm = $self->TM();
+    return ($tm->{day}, $tm->{month}, $tm->{year}, $tm->{week_day}, $tm->{year_day});
 };
 
 1;
