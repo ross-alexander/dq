@@ -317,14 +317,14 @@ sub Update_Adventure {
 	    # sort the time tracks to get maximum
 	    # --------------------
 
-	    print "Track times = ", join(" : ", @time), "\n\n";
 	    my @tsort = sort { $a <=> $b } @time;
-	    $block->{start_tick} = $tick;
+	    $block->{start_tick} = Tick->new($tick) + $days;
 	    $block->{days} = $tsort[$#tsort];
 	    $block->{time} = days2weeks($block->{days});
 	    $block->{end_tick} = Tick->new($block->{start_tick});
-	    $block->{end_tick} += $block->{days};
+	    $block->{end_tick} += ($block->{days} > 0 ? $block->{days}-1 : 0);
 	    $days += $tsort[$#tsort];
+	    printf("Track times = %s [%d %d]\n\n", join(" : ", @time), $block->{start_tick}->{tick}, $block->{end_tick}->{tick});
 	}
 	
 	# Tick + integer doesn't work so work around it
@@ -391,7 +391,7 @@ sub Update_Adventure {
     }
     
     $state->{"tick"} = $tick;
-    printf("Time: start %s - end %s - current %s (%s) [%d]\n", $start->CDate(), $end->CDate(), $tick->CDate(), $tick, $tick - $end);
+    printf("Time: start %s - end %s - current %s (%s) [%d]\n", $start->CDate(), $end->CDate(), $tick->CDate(), $tick->{tick}, $tick->{tick} - $end->{tick});
     printf("\n");
 }
 
