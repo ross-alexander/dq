@@ -76,7 +76,8 @@ sub Cal_Character {
 	{
 	     my $s = $r->{start_tick};
 	     my $e = $r->{end_tick};
-	     if ((!($a->{star}//0) > 0) && (($e->{tick} - $s->{tick}) > 0))
+
+	     if (($e->{tick} - $s->{tick}) > 0)
 	     {
 		 printf($out "\n## ranking %d %d %s\n", $s->{tick}, $e->{tick}, $r->{description});
 		 for my $b (@{$r->{blocks}})
@@ -111,6 +112,7 @@ sub Cal_Character {
 # --------------------
 
     my $year_map = {};
+    printf($out "\n");
     map {
 	printf($out "# track %2d %5d %5d %s\n", $_->{'track'}, $_->{'start_tick'}->{tick}, $_->{'end_tick'}->{tick}, $_->{'name'});
 	
@@ -128,16 +130,16 @@ sub Cal_Character {
 # Create year (d,m,y,wd,yd)
 # --------------------
 
-	    $year_map->{$year} = {} if (!exists($year_map->{$year}));
-	    my $year_ref = $year_map->{$year};
+	    $year_map->{years}->{$year} = {} if (!exists($year_map->{years}->{$year}));
+	    my $year_ref = $year_map->{years}->{$year};
 
 # --------------------
 # Create month (d,m,y,wd,yd)
 # --------------------
 
-	    if (!exists($year_ref->{$month}))
+	    if (!exists($year_ref->{months}->{$month}))
 	    {
-		my $month_ref = $year_ref->{$month} = {};
+		my $month_ref = $year_ref->{months}->{$month} = {};
 
 # --------------------
 # Get start of month date, if day != 0 then add 1 to get first of the month
@@ -155,13 +157,17 @@ sub Cal_Character {
 		$month_ref->{'_end_'} = $mon2bits[0];
 		$month_ref->{'_wday_'} = $monbits[3];
 	    }
-	    my $month_ref = $year_ref->{$month};
-	    $month_ref->{$day} = {} if (!exists($month_ref->{$day}));
+	    my $month_ref = $year_ref->{months}->{$month};
+	    $month_ref->{days}->{$day} = {} if (!exists($month_ref->{days}->{$day}));
 
-	    my $day_ref = $month_ref->{$day};
-	    $day_ref->{$_->{track}} = $_;
+	    # --------------------
+	    # Add day to month
+	    # --------------------
+	    
+	    my $day_ref = $month_ref->{days}->{$day};
+	    $day_ref->{tracks}->{$_->{track}} = $_;
 	    $day_ref->{week_day} = $week_day;
-	    $day_ref->{wk} = Tick->new({tick => $1, calendar => 'WK'});
+	    $day_ref->{wk} = Tick->new({tick => $i, calendar => 'WK'});
 	}
     } @track_list;
 
@@ -170,99 +176,100 @@ sub Cal_Character {
 # Add weeks
 # --------------------
 
-    while (my ($year, $ydata) = each(%$year_map))
+    for my $year (sort({$a <=> $b} keys(%{$year_map->{years}})))
     {
-	while (my ($month, $mdata) = each(%$ydata))
+	my $months_ref = $year_map->{years}->{$year}->{months};
+	for my $month (sort({$a <=> $b} keys(%$months_ref)))
 	{
-	    my $wday = $mdata->{'_wday_'};
-	    my $wks = {};
-	    while (my ($day, $ddata) = each(%$mdata))
+	    my $month_ref = $months_ref->{$month};
+	    my $wday = $month_ref->{_wday_};
+	    my $weeks = {};
+	    for my $day (sort({$a <=> $b} keys(%{$month_ref->{days}})))
 	    {
-		next if (!($day =~ /\d+/));
-		my $wk = int(($wday + $day) / 7);
-		$wks->{$wk} = {} if (!exists($wks->{$wk}));
-		$wks->{$wk}->{$day} = $ddata;
-		delete $mdata->{$day};
+		my $week = int(($wday + $day) / 7);	    
+		$weeks->{$week} = {} if (!exists($weeks->{$week}));
+		$weeks->{$week}->{$day} = $month_ref->{days}->{$day};
 	    }
-	    while ((my ($k, $v) = each(%$wks)))
+	    while ((my ($k, $v) = each(%$weeks)))
 	    {
-		$mdata->{$k} = $v;
+		$month_ref->{weeks}->{$k} = $v;
 	    }
 	}
     }
-
+    
 # --------------------
 # Do output
 # --------------------
 
-    my $cal_doc = XML::LibXML::Document->new("1.0", "utf8");
-    my $cal_root = $cal_doc->createElement("cal");
-    $cal_doc->setDocumentElement($cal_root);
+    my $cal_js = [];
 
-    my $js_cal = [];
-
-    for my $year (sort({$a <=> $b} keys(%$year_map)))
+    for my $year (sort({$a <=> $b} keys(%{$year_map->{years}})))
     {
 	printf($out "\nYear\t%d\n", $year);
 
-	my $year_node = $cal_root->addNewChild("", "year");
-	$year_node->setAttribute("year", $year);
-
-	my $js_year = {
+	my $year_js = {
 	    year => {
 		year => sprintf("%d WK", $year),
 	    }
 	};
-	push(@$js_cal, $js_year);
+	push(@$cal_js, $year_js);
 	
-	my $year_ref = $year_map->{$year};
-	for my $m (sort({$a <=> $b} keys(%$year_ref)))
+	my $months = $year_map->{years}->{$year}->{months};
+	for my $month (sort({$a <=> $b} keys(%$months)))
 	{
-	    my $month_ref = $year_ref->{$m};
+	    my $month_ref = $months->{$month};
 
-	    my $m_node = $year_node->addNewChild("", "month");
-	    $m_node->setAttribute("month", $m);
-	    $m_node->setAttribute("start", $month_ref->{'_start_'});
-	    $m_node->setAttribute("end", $month_ref->{'_end_'});
-	    $m_node->setAttribute("wday", $month_ref->{'_wday_'});
-
-	    printf($out "Month\t%d\tstart:%d\tend:%d\tweek_day:%d\n", $m,
+	    my $month_js = {
+		month => {
+		    month => $month,
+		    start => $month_ref->{_start_},
+		    end => $month_ref->{_end_},
+		    week_day => $month_ref->{_wday_}
+		}
+	    };
+	    push(@{$year_js->{year}->{months}}, $month_js);
+	    
+	    printf($out "Month\t%d\tstart:%d\tend:%d\tweek_day:%d\n", $month,
 		$month_ref->{'_start_'}, $month_ref->{'_end_'}, $month_ref->{'_wday_'});
 	    
-	    for my $w (sort({$a <=> $b} grep(!m:^_:, keys(%$month_ref))))
+	    for my $week (sort({$a <=> $b} keys(%{$month_ref->{weeks}})))
 	    {
-		my $week = $month_ref->{$w};
-		if ($w =~ m:^[0-9]+$:)
-		{
-		    my $w_node = $m_node->addNewChild("", "week");
-		    my $week = $month_ref->{$w};
-		    for my $d (sort({$a <=> $b} keys(%$week)))
-		    {
-			my $day = $week->{$d};
-			my $d_node = $w_node->addNewChild("", "day");
-			$d_node->setAttribute("day", $d);
-			$d_node->setAttribute("date", $day->{'wk'});
-			printf($out "Day\t%d\t%d\t%-20s", $d, $day->{week_day}, $day->{'wk'});
-			for my $t (0, 1, 2, 3)
-			{
-			    if (exists($day->{$t}))
-			    {
-				my $t_node = $d_node->addNewChild("", "track");
-				$t_node->setAttribute("track", $t);
-				$t_node->setAttribute("name", $day->{$t}->{'name'});
+		my $week_ref = $month_ref->{weeks}->{$week};
+		
+		my $week_js = {};
+		push(@{$month_js->{month}->{weeks}}, $week_js);
+		for my $day (sort({$a <=> $b} keys(%$week_ref)))
+		{			
+		    my $day_ref = $week_ref->{$day};
+#		    say to_json($day_ref, {pretty=>1, convert_blessed=>1});
 
-				printf($out "\t%d\t%s", $t, $day->{$t}->{'name'});
-			    }
-			}
-			printf($out "\n");
+		    my $day_js = {
+			day => $day,
+			date => $day_ref->{wk},
+		    };
+		    push(@{$week_js->{days}}, $day_js);
+		    printf($out "Day\t%d\t%d\t%-20s", $day, $day_ref->{week_day}, $day_ref->{'wk'});
+		    for my $t (0, 1, 2, 3)
+		    {
+			    # if (exists($day_ref->{$t}))
+			# {
+			    # 	$day_js->{track}->{$t} = {
+			    # 	    track => $t,
+			    # 	    name => $day_ref->{$t}->{name},
+			    # 	};
+			    # 	printf($out "\t%d\t%s", $t, $day->{$t}->{'name'});
+			    # }
 		    }
+		    printf($out "\n");
 		}
 	    }
 	}
     }
-    say to_json($js_cal, {pretty=>1});
     close($out);
-    $cal_doc->toFile("$path".".xml", 1);
+
+    open($out, ">", $path) || die;
+    print($out to_json($cal_js, {pretty=>1, convert_blessed=>1}));
+    close($out);
 }
 
 # ----------------------------------------------------------------------
