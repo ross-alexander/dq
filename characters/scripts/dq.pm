@@ -57,17 +57,16 @@ sub TickToCDate {
 
 sub TickToTM {
     my ($tick) = @_;
-    my ($ny, $nq, $nm, $nmd, $nyd, $nwd);
-    $ny = int($tick/364);
-    $tick = $tick - $ny * 364;
-    $nyd = $tick;
-    $nq = int($tick/91);
-    $tick = $tick - $nq * 91;
-    $nm = $nq * 3 + int(($tick-1)/30);
-    $nd = $tick - ($nm%3)*30;
-    $nwd = $nyd%7;
-    my @res = ($nd, $nm, $ny, $nwd, $nyd);
-    return @res;
+    my ($year, $quarter, $month, $day, $year_day, $week_day);
+    $year = int($tick/364);
+    $tick -=  $year * 364;
+    $year_day = $tick;
+    $quarter = int($tick/91);
+    $tick -= $quarter * 91;
+    $month = $quarter * 3 + int(($tick-1)/30);
+    $day = $tick - ($month%3)*30;
+    $week_day = $year_day%7;
+    return ($day, $month, $year, $week_day, $year_day);
 }
 
 # ----------------------------------------------------------------------
