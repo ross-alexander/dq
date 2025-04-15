@@ -144,18 +144,21 @@ sub Cal_Character {
 # --------------------
 # Get start of month date, if day != 0 then add 1 to get first of the month
 # --------------------
-		my @monbits = Tick::TickToTM($tick - ($day - ($day ? 1:0)));
+
+		my $month_start = $tick - ($day - (($month%3 != 0) ? 1:0));
+#		say "^^^ ", $month_start;
+		my @month_start_bits = Tick::TickToTM($month_start);
 
 # --------------------
 # Get end of month, which will day 30
 # --------------------
 
 		my $j = $tick + (30 - $day);
-		my @mon2bits = Tick::TickToTM($j);
+		my @month_end_bits = Tick::TickToTM($j);
 
-		$month_ref->{'_start_'} = $monbits[0];
-		$month_ref->{'_end_'} = $mon2bits[0];
-		$month_ref->{'_wday_'} = $monbits[3];
+		$month_ref->{'_start_'} = $month_start_bits[0];
+		$month_ref->{'_end_'} = $month_end_bits[0];
+		$month_ref->{'_wday_'} = $month_start_bits[3];
 	    }
 	    my $month_ref = $year_ref->{months}->{$month};
 	    $month_ref->{days}->{$day} = {} if (!exists($month_ref->{days}->{$day}));
@@ -208,9 +211,7 @@ sub Cal_Character {
 	printf($out "\nYear\t%d\n", $year);
 
 	my $year_js = {
-	    year => {
-		year => sprintf("%d WK", $year),
-	    }
+	    year => sprintf("%d WK", $year),
 	};
 	push(@$cal_js, $year_js);
 	
@@ -220,14 +221,12 @@ sub Cal_Character {
 	    my $month_ref = $months->{$month};
 
 	    my $month_js = {
-		month => {
-		    month => $month,
-		    start => $month_ref->{_start_},
-		    end => $month_ref->{_end_},
-		    week_day => $month_ref->{_wday_}
-		}
+		month => $month,
+		start => $month_ref->{_start_},
+		end => $month_ref->{_end_},
+		week_day => $month_ref->{_wday_}
 	    };
-	    push(@{$year_js->{year}->{months}}, $month_js);
+	    push(@{$year_js->{months}}, $month_js);
 	    
 	    printf($out "Month\t%d\tstart:%d\tend:%d\tweek_day:%d\n", $month,
 		$month_ref->{'_start_'}, $month_ref->{'_end_'}, $month_ref->{'_wday_'});
@@ -237,12 +236,10 @@ sub Cal_Character {
 		my $week_ref = $month_ref->{weeks}->{$week};
 		
 		my $week_js = {};
-		push(@{$month_js->{month}->{weeks}}, $week_js);
+		push(@{$month_js->{weeks}}, $week_js);
 		for my $day (sort({$a <=> $b} keys(%$week_ref)))
 		{			
 		    my $day_ref = $week_ref->{$day};
-#		    say to_json($day_ref, {pretty=>1, convert_blessed=>1});
-
 		    my $day_js = {
 			day => $day,
 			date => $day_ref->{wk},
