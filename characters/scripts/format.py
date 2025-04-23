@@ -4,6 +4,7 @@ import os
 import sys
 from yaml import load, CLoader as Loader
 import argparse
+from dqtick import Tick
 
 # ----------------------------------------------------------------------
 #
@@ -13,65 +14,12 @@ import argparse
 #
 # ----------------------------------------------------------------------
 
-def cal_struct(c):
-    tick = c['tick']
-    if c['calendar'] == 'WK':
-        year = int(tick/364)
-        tick = tick - year * 364
-        quarter = int(tick/91)
-        tick = tick - quarter * 91
-        month = quarter*3 + int((tick-1)/30)
-        day = tick - (month%3)*30
-        res = {
-            'calendar': c['calendar'],
-            'year': year + 770,
-            'month': month+1,
-            'day': day,
-        }
-    if c['calendar'] == 'AP':
-        tick = tick - 273
-        year = int(tick/364)
-        tick = tick - year*364
-        month_day = (0, 31, 59, 89, 120, 151, 181, 212, 243, 273, 304, 334)
-        for m in range(0, 12):
-            if tick >= month_day[11 - m]:
-                month = 11 - m
-                break
-        day = tick - month_day[month]
-        res = {
-            'calendar': c['calendar'],
-            'year': year + 1970,
-            'month': month+1,
-            'day': day+1
-        }
-    return res
-
 def cal_mdate(c):
-    sep = "."
-    struct = cal_struct(c)
-    return "%s%s%s%s%s %s" % (struct['day'], sep, struct['month'], sep, struct['year'], struct['calendar'])
-            
+    return Tick(c).mdate()
+
 def cal_cdate(c):
-    tick = c['tick']
-    struct = cal_struct(c)
-    if c['calendar'] == 'WK':
-        year = struct['year']
-        month = struct['month'] - 1
-        day = struct['day']
-        if struct['day'] == 0:
-            quarter = int(month/4)
-            inter_cal_days = ('Beltane', 'Lugnasad', 'Samhain', 'Candlemansa')
-            res = "%s %d WK" % (inter_cal_days[quarter], year)
-        else:
-            months = ('Meadow', 'Heat', 'Breeze', 'Fruit', 'Harvest', 'Vintage', 'Frost', 'Snow', 'Ice', 'Thaw', 'Seedtime', 'Blossom');
-            res = "%s %d, %d WK" % (months[month], day, year);
-    if c['calendar'] == 'AP':
-        year = struct['year']
-        month = struct['month'] - 1
-        day = struct['day']
-        month_name = ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December')
-        res = "%s %d, %d AP" % (month_name[month], day, year)
-    return res
+    tick = Tick(c)
+    return tick.cdate()
 
 # ----------------------------------------------------------------------
 #
