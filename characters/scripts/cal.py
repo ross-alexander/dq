@@ -9,6 +9,8 @@
 import os
 import sys
 import json
+import argparse
+from dqtick import Tick
 
 def day_content(day):
     if day['empty']:
@@ -21,7 +23,7 @@ def day_content(day):
     return " & ".join(parts)
 
 
-def cal_tex(src, dst):
+def cal_tex(opts, src, dst):
 
     with open(src, "r") as stream:
         result = json.load(stream)
@@ -36,8 +38,10 @@ def cal_tex(src, dst):
     for year in result:
         for month in year['months']:
             res.append('\\begin{caltblr}{}')
-            res.append(f"month: {month['month']}  start: {month['start']}  end: {month['end']} week\\_day: {month['week_day']}\\\\")
             day_map = {}
+            tick = Tick(month['tick'])
+            s = tick.struct()
+            res.append(f"{s['month_name']} {s['year']}\\\\")
             table = []
             for week in range(0, 5):
                 table.insert(week, [])
@@ -62,8 +66,7 @@ def cal_tex(src, dst):
             res.append('')
             res.append('\\bigskip')
             res.append('')
-            break
-        break
+
     res.append('\\end{document}')
     with open(dst, "w") as stream:
         print("\n".join(res), file=stream)
@@ -74,7 +77,12 @@ def cal_tex(src, dst):
 # M A I N
 #
 # ----------------------------------------------------------------------
-    
-cal_tex("ranking/thinknottle.cal", "cal.tex")
 
+opts = {}
 
+parser = argparse.ArgumentParser(description='Format character calendar file to LuaLaTeX')
+parser.add_argument("-i", "--in", action='store', type=str, required=True, help="Input file", dest="inpath")
+parser.add_argument("-o", "--out", action='store', type=str, required=True, help="Output file", dest="outpath")
+args = parser.parse_args()
+
+cal_tex(opts, args.inpath, args.output)
