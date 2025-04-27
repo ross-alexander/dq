@@ -40,6 +40,15 @@
 
 % ----------------------------------------------------------------------
 %
+% custom colours
+%
+% ----------------------------------------------------------------------
+
+\colorlet{dqcolor}{Plum}
+\colorlet{totalcolor}{LimeGreen}
+
+% ----------------------------------------------------------------------
+%
 % Change section and subsection
 %
 % \titleformat{⟨command ⟩}[⟨shape⟩]{⟨format⟩}{⟨label ⟩}{⟨sep⟩}{⟨before-code⟩}[⟨after-code⟩]
@@ -51,7 +60,7 @@
 {0mm}
 {}
 
-\titleformat{\subsection}[hang]{\headingfont\bfseries}{}{0mm}{}[\titleline{\color{CornflowerBlue}\titlerule[0.1mm]}]
+\titleformat{\subsection}[hang]{\headingfont\bfseries}{}{0mm}{}[\titleline{\color{dqcolor}\titlerule[0.1mm]}]
 \titlespacing*{\subsection}{0pt}{3mm plus 1mm minus .2mm}{2mm plus .2mm}
 
 % ----------------------------------------------------------------------
@@ -110,11 +119,11 @@
 % --------------------
 
 \NewTblrEnviron{stattblr}
-\SetTblrInner[stattblr]{rowsep=0.0mm,stretch=1.1,width=\linewidth,hlines={0.2mm,CornflowerBlue},vlines={0.2mm,CornflowerBlue}}
+\SetTblrInner[stattblr]{rowsep=0.0mm,stretch=1.1,width=\linewidth,hlines={0.2mm,dqcolor},vlines={0.2mm,dqcolor}}
 \UseTblrLibrary{varwidth}
 
 \NewTblrEnviron{covertblr}
-\SetTblrInner[covertblr]{rowsep=0.0mm,stretch=0.9,width=\linewidth,hlines={0.2mm,CornflowerBlue},vlines={0.2mm,CornflowerBlue},row{1}={c,font=\coversf\bfseries}}
+\SetTblrInner[covertblr]{rowsep=0.0mm,stretch=0.9,width=\linewidth,hlines={0.2mm,dqcolor},vlines={0.2mm,dqcolor},row{1}={c,font=\coversf\bfseries}}
 \UseTblrLibrary{varwidth}
 
 \keys_define:nn{character}
@@ -198,7 +207,7 @@
 
 \NewDocumentCommand{\experience}{m m m m}{
 \subsection{Experience remaining}
-\begin{tblr}{colspec={lr},rowsep=0mm,column{1}={font=\rankingsf,wd=50mm},column{2}={font=\rankingtt\bfseries},hline{4}={0.2mm,black}}
+\begin{tblr}{colspec={lr},rowsep=0mm,column{1}={font=\rankingsf,wd=50mm},column{2}={font=\rankingtt\bfseries},hline{4}={0.1mm,totalcolor}}
 Experience gained on adventure	& #1 \\
 Experience brought forward	& #2 \\
 Experience spent		& #3 \\
@@ -226,7 +235,7 @@ Surplus amount brought forward & & \dq@min \\
 Amount remaining at \dq@mdate & & \dq@mout \\
 }
 \subsection{#1}
-\begin{tblr}[expand=\expanded]{colspec={Q[wd=65mm,l]Q[r]Q[r]},hline{Y}={0.1mm,black},stretch=0.9,rowsep=0.0mm}
+\begin{tblr}[expand=\expanded]{colspec={Q[wd=65mm,l]Q[r]Q[r]},hline{Y}={0.1mm,totalcolor},stretch=0.9,rowsep=0.0mm}
 \expanded{\dq@moniesstart{}}
 #5
 \expanded{\dq@moniesend{}}

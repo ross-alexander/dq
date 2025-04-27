@@ -1,12 +1,13 @@
 .SUFFIXES: .dvi .ps .pdf .ltx .xml .tex .eps .js .yaml .cal
 
 CONVERT		= scripts/convert.pl
+FORMAT		= scripts/format.pl
 FORMAT_CAIRO	= scripts/format.pl -p yaml -f cairo
 FORMAT_TEX	= scripts/format.py
 FORMAT_CAL	= scripts/format.pl -p yaml -f cal
 LATEX		= lualatex
 
-%_cover.pdf	: %.yaml $(FORMAT_CAIRO)
+%_cover.pdf	: %.yaml $(FORMAT)
 	$(FORMAT_CAIRO)  -i $< -o $@
 
 %.ltx	: %.yaml $(FORMAT_TEX)
@@ -15,7 +16,7 @@ LATEX		= lualatex
 %.pdf	: %.ltx ../documents/styles/ranking-v2.sty
 	$(LATEX) -output-directory $(dir $<) $<
 
-%.cal	: %.yaml 
+%.cal	: %.yaml $(FORMAT)
 	$(FORMAT_CAL) -i $< -o $@
 
 VPATH	= ranking

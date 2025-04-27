@@ -4,6 +4,7 @@
 \RequirePackage{fontspec}
 \RequirePackage{xcolor}
 \RequirePackage{tabularray}
+\RequirePackage{multicol}
 
 %% Use parskip to set indent to zero and add space between paragraphs
 
@@ -50,13 +51,66 @@
 
 %% \UseTblrLibrary{varwidth}
 
+%% --------------------
+%% Set fonts
+%% --------------------
+
+\setmainfont{TeX Gyre Pagella}[Scale=0.75,Ligatures=TeX]
+\setsansfont{TeX Gyre Adventor}[Scale=0.7,Color=red,Ligatures=TeX]
 
 %% structure enironments
 
 
-\NewDocumentEnvironment{College}{m}%
-                       {
-                         \chapter{#1}
-                       }
-                       {
-                       }
+\NewDocumentEnvironment{College}{m}{
+  \chapter{#1}
+  \begin{multicols}{2}
+}{
+  \end{multicols}
+}
+
+%% ----------------------------------------------------------------------
+%%
+%% talents, spells and rituals
+%%
+%% ----------------------------------------------------------------------
+
+%% \newenvironment{talent}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{talents!#2}}{}
+
+\NewDocumentEnvironment{talent}{o m}{
+  \IfNoValueTF{#1}{
+    \subsubsection{#2}
+  }{
+    \subsection{#1 #2}
+  }
+  \index{talents!#1}
+}{}
+
+\NewDocumentEnvironment{spell}{o m}{
+  \IfNoValueTF{#1}{
+    \subsubsection{#2}
+  }{
+    \subsection{#1 #2}
+  }
+  \index{spells!#1}
+}{}
+
+\NewDocumentCommand{\sItem}{m m}{\emph{#1}: #2\\}
+\NewDocumentCommand{\multiple}{m}{\sItem{Multiple}{#1}}
+\NewDocumentCommand{\range}{m}{\sItem{Range}{#1}}
+\NewDocumentCommand{\basechance}{m}{\sItem{Base Chance}{#1}}
+\NewDocumentCommand{\duration}{m}{\sItem{Duration}{#1}}
+\NewDocumentCommand{\resist}{m}{\sItem{Resist}{#1}}
+\NewDocumentCommand{\storage}{m}{\sItem{Storage}{#1}}
+\NewDocumentCommand{\target}{m}{\sItem{Target}{#1}}
+
+%% \newcommand{\area}[1]{\sItem{Area}{#1}}
+%% \newcommand{\material}[1]{\sItem{Material}{#1}}
+%% \newcommand{\casttime}[1]{\sItem{Cast Time}{#1}}
+%% \newcommand{\actions}[1]{\sItem{Actions}{#1}}
+%% \newcommand{\concentration}[1]{\sItem{Concentration Check}{#1}}
+%% \newcommand{\materialcost}[1]{\sItem{Material Cost}{#1}}
+%% \newcommand{\basetime}[1]{\sItem{Base Construction Time}{#1}}
+%% \newcommand{\timetaken}[1]{\sItem{Time}{#1}}
+%% \newcommand{\rune}[1]{\sItem{Runes}{#1}}
+
+\NewDocumentEnvironment{effects}{}{\emph{Effects: }}{}

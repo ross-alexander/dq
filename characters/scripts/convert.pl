@@ -21,6 +21,7 @@ use Perl6::Slurp;
 use Data::Dumper;
 use Carp;
 use File::Spec::Functions qw(rel2abs splitpath file_name_is_absolute catdir);
+use File::Basename;
 use YAML::PP qw(DumpFile);
 use JSON;
 use JSON::XS;
@@ -285,7 +286,6 @@ sub Update_Adventure {
 			{
 			    $ep_raw = $line->{ep_raw};
 			    $diff = ($ep_raw >= $ep) ? $ep / $ep_raw : $ep / $ep_raw;
-			    say "!!!!! $ep";
 			}
 		    }
 		}
@@ -294,10 +294,12 @@ sub Update_Adventure {
 		# Process time
 		# --------------------
 
-		my $time_str = $line->{time} // '';
-		$time_str =~ /([0-9]+) (day|days|week|weeks)/;
-		my $time = $1 // 0;
-		$time *= 7 if (defined($2) && (($2 eq "week") || ($2 eq "weeks")));
+		my $time = 0;
+		if (exists($line->{time}) && ($line->{time} =~ /([0-9]+) (day|days|week|weeks)/))
+		{
+		    $time = $1;
+		    $time *= 7 if (defined($2) && (($2 eq "week") || ($2 eq "weeks")));
+		}
 		my $track = $line->{track};
 		$line->{day_equiv} = $time;
 		$time[$track] += $time;
@@ -326,6 +328,7 @@ sub Update_Adventure {
 	    $block->{end_tick} = Tick->new($block->{start_tick});
 	    $block->{end_tick} += ($block->{days} > 0 ? $block->{days}-1 : 0);
 	    $days += $tsort[$#tsort];
+	    printf("\n");
 	    printf("EP: %d -- Track times = %s [%d %d]\n\n", $block->{ep}, join(" : ", @time), $block->{start_tick}->{tick}, $block->{end_tick}->{tick});
 	}
 	
@@ -1168,19 +1171,22 @@ sub Main {
     }
 
     # --------------------
+    # make sure input and output files are specified
+    # --------------------
+
+    if (!($opts->{infile} && $opts->{outfile}))
+    {
+	printf(STDERR "%s: [-i infile] [-o outfile]\n", basename($0));
+	exit(1);
+    }
+        
+    # --------------------
     # load input file
     # --------------------
     
     my $codepage = $opts->{'codepage'};
     my ($in, $out);
-    if ($opts->{"infile"})
-    {
-	open($in, "<:encoding($codepage)", $opts->{"infile"}) || die "Cannot open file.";
-    }
-    else
-    {
-	$in = \*STDIN;
-    }
+    open($in, "<:encoding($codepage)", $opts->{"infile"}) || die "Cannot open file.";
 
     # --------------------
     # Base JS object

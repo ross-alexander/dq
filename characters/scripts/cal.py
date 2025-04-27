@@ -85,4 +85,4 @@ parser.add_argument("-i", "--in", action='store', type=str, required=True, help=
 parser.add_argument("-o", "--out", action='store', type=str, required=True, help="Output file", dest="outpath")
 args = parser.parse_args()
 
-cal_tex(opts, args.inpath, args.output)
+cal_tex(opts, args.inpath, args.outpath)

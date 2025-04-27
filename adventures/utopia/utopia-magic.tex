@@ -33,17 +33,120 @@ hinterland.
 
 \subsection{Aborea}
 
-
-
-\College{Cardinals}
-
+\begin{College}{Cardinals}
 
 \section{Restrictions}
 
 This magic is restricted to members of the Secretariat and can
 be cast anywhere.
 
-\College{Elements}
+\section{Talents}
+
+\begin{talent}[T-1]{Concealed Casting}
+\multiple{150}
+\begin{effects}
+This Talent allows the Adept to cast without any apparent movement or
+noise.  The Adept may not speak or make meaningful or extravagant
+actions. They may not cast without a hand free or if mute.  If an
+observer is intent on the Adept (e.g. in conversation with), the
+observer may make a (2 × PC) - Rank check to notice. All aspects of
+the Spell (including Base Chance) must be cast at the lower of the
+Talent’s and Spell’s ranks, and the Base Chance is further reduced by
+20\%. The Talent only functions with spells of the College of
+Illusions.
+\end{effects}
+\end{talent}
+
+\begin{talent}[T-2]{Detect Enchantment}
+
+\range{30 feet (+ 5 / Rank)}
+\multiple{50}
+\basechance{PC + 3\% / Rank}
+\begin{effects}
+This talent determines whether an item, person, or area in
+line-of-sight and within range is currently under an enchantment or
+magical effect.  The Adept can tell whether the enchantment is a
+current spell or ritual, a warded, invested, or permanent effect, is
+contained in a trap or is a curse.  A double effect will reveal the
+general nature of the spell (eg. defensive, summoning, damaging) and
+the effective Rank or remaining duration of the enchantment.  In
+addition, a triple effect will tell the Adept the exact name of the
+magic (eg. Wall of Bones, Hellfire), or the College of the spell.
+
+Once the initial, most recent, magical effect has been successfully
+detected, older enchantments on a target with multiple layers of magic
+may also be detected.  This may be continued while the Adept continues
+to succeed in detecting Enchantments.  However, only one attempt per
+quarter may be made to detect any given enchantment.  If a new
+enchantment occurs, the Adept may attempt to detect it, though this in
+no way affects the status of the old layer.  If an old, unsuccessfully
+detected enchantment expires, the Adept may attempt to detect any
+newly revealed magic beneath it.
+
+If the Adept is in contact with the target then the base chance of
+this talent is improved to PC + 5\% / Rank.
+\end{effects}
+\end{talent}
+
+\section{General Knowledge Spells}
+
+\begin{spell}[G-1]{Evil Eye}
+
+\range{Self}
+\duration{5 minutes + 5 / Rank}
+\multiple{300}
+\basechance{30\%}
+\resist{None}
+\storage{Potion, Magical Trap, Investment}
+\target{Entity }
+\begin{effects}
+When the adept casts Evil Eye on themself, a third eye appears in
+their forehead, which is normally invisible but is able to be seen by
+Witchsight and similar effects.  When the adept is under the effect of
+the Evil Eye all spells they cast on others are resisted at a penalty
+of Rank unless the target is wearing an Amulet of Elder Flowers.
+\end{effects}
+\end{spell}
+
+
+\begin{spell}[G-2]{Telekinesis}
+\range{15 feet + 15 / Rank}
+\duration{10 seconds + 10 / Rank}
+\multiple{300}
+\basechance{20\%}
+\resist{None}
+\storage{Investment, Ward}
+\target{Entity or object}
+\begin{effects}
+Allows the Adept to lift a target of weight up to 2 pounds and move it
+at the rate of 2 TMR.
+\end{effects}
+\end{spell}
+
+\begin{spell}[G-3]{ESP}
+
+\range{30 feet + 15 / Rank}
+\duration{30 seconds + 10 / Rank}
+\multiple{100}
+\basechance{40\%}
+\resist{None}
+\storage{Potion}
+\target{Self}
+\begin{effects}
+The Adept can sense the presence and general mood (but not the exact
+nature) of all entities within range of the spell.  The Adept has a
+general idea of where each entity is, say to within 90 or 60 degrees,
+the accuracy of which may increase with rank.  ESP will detect the
+presence of an entity even if that entity is mind cloaked. Spells
+cannot be targeted through ESP.
+\end{effects}
+\end{spell}
+
+
+\end{College}
+
+
+\begin{College}{Elements}
 
 The world consists of various elements which together form the
 physical world.  In some instances their negative counterparts
@@ -70,9 +173,12 @@ Earth		& Fire		& Magma \\
 Water		& Fire		& Steam \\
 Water		& Cold		& Ice \\
 \end{uttblr}
+\end{College}
 
-\College{Atavists}
+\begin{College}{Atavists}
+\end{College}
 
 \chapter{Skills}
+
 
 \end{document}

@@ -159,6 +159,7 @@ sub Cal_Character {
 		$month_ref->{'_start_'} = $month_start_bits[0];
 		$month_ref->{'_end_'} = $month_end_bits[0];
 		$month_ref->{'_wday_'} = $month_start_bits[3];
+		$month_ref->{_tick_} = Tick->new($tick);
 	    }
 	    my $month_ref = $year_ref->{months}->{$month};
 	    $month_ref->{days}->{$day} = {} if (!exists($month_ref->{days}->{$day}));
@@ -208,7 +209,9 @@ sub Cal_Character {
 
     for my $year (sort({$a <=> $b} keys(%{$year_map->{years}})))
     {
-	printf($out "\nYear\t%d\n", $year);
+	printf($out "\n----------------------------------------------------------------------\n");
+	printf($out "Year\t%d\n", $year);
+	printf($out "----------------------------------------------------------------------\n");
 
 	my $year_js = {
 	    year => sprintf("%d WK", $year),
@@ -224,11 +227,12 @@ sub Cal_Character {
 		month => $month,
 		start => $month_ref->{_start_},
 		end => $month_ref->{_end_},
-		week_day => $month_ref->{_wday_}
+		week_day => $month_ref->{_wday_},
+		tick => $month_ref->{_tick_},
 	    };
 	    push(@{$year_js->{months}}, $month_js);
 	    
-	    printf($out "Month\t%d\tstart:%d\tend:%d\tweek_day:%d\n", $month,
+	    printf($out "\n--- Month\t%d\tstart:%d\tend:%d\tweek_day:%d\n\n", $month,
 		$month_ref->{'_start_'}, $month_ref->{'_end_'}, $month_ref->{'_wday_'});
 	    
 	    for my $week (sort({$a <=> $b} keys(%{$month_ref->{weeks}})))
@@ -248,14 +252,14 @@ sub Cal_Character {
 		    printf($out "Day\t%d\t%d\t%-20s", $day, $day_ref->{week_day}, $day_ref->{'wk'});
 		    for my $t (0, 1, 2, 3)
 		    {
-			    # if (exists($day_ref->{$t}))
-			# {
-			    # 	$day_js->{track}->{$t} = {
-			    # 	    track => $t,
-			    # 	    name => $day_ref->{$t}->{name},
-			    # 	};
-			    # 	printf($out "\t%d\t%s", $t, $day->{$t}->{'name'});
-			    # }
+		     	if (exists($day_ref->{tracks}->{$t}))
+		     	{
+		     	    $day_js->{track}->{$t} = {
+		     		track => $t,
+		     		name => $day_ref->{tracks}->{$t}->{name},
+		     	    };
+		    	    printf($out "\t%d\t%s", $t, $day_ref->{tracks}->{$t}->{'name'});
+		     	}
 		    }
 		    printf($out "\n");
 		}
