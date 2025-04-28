@@ -1,43 +1,80 @@
 <!doctype dqmm public "-//RDA//DTD DQMM//EN">
+
 <group name="Avians">
 <class name="Common Avians">
 
-<notes> Common avians include buzzards, eagles, goshawks, owls.
+<notes>Common avians include buzzards, eagles, goshawks, owls.
 
-  <monster name="Buzzard">
-<desclist>
-<habitat> Plains, waste
-<frequency> Common
-<number> 1–60 (10)
+<monster name="Büzzard">
+<details>    
+<habitat>Plains, waste
+<frequency>Common
+<number>1–60 (10)
 
-<description> These birds have dark brown plummage and thin,
+<description>These birds have dark brown plummage and thin,
 unfeathered necks of a tannish color. Their beaks are black and
 snub-tipped. They prey on the dead and near-dead (espcially if
 unconscious).
 
-<talents> Buzzards can see each other miles away, and thus when one
+<talents>Buzzards can see each other miles away, and thus when one
 buzzard descends for a meal, others soon follow. Except for their keen
-eyesight, buzzards possess no special talents, skills or magic. They
+eyesight, buzzards possess no special talents, skills or magic.  They
 are not tool users.
 
-<weapons> A buzzard attacks in Close Combat with its claws and
-beak. The claws' Base Chance is 45&percnt, for [D − 5] Damage, while the
-bite's Base Chance is 40&percnt, for [D − 6] Damage. A buzzard cannot attack
-in Melee Combat.
+<weapons>A buzzard attacks in Close Combat with its claws and beak.
+The claws' Base Chance is 45&percnt, for [D − 5] Damage, while the
+bite's Base Chance is 40&percnt, for [D − 6] Damage.  A buzzard cannot
+attack in Melee Combat.
 
-<movement>  Flying: 600
+<movement>Flying: 600
+<PS>3–5
+<MD>15–17
+<AG>14–16
+<MA>None
+<EN>6–7
+<FT>9–11
+<WP>8–10
+<PC>17–20
+<PB>8–10
+<TMR>12
+<NA>Feathers absorb 1 DP
+</monster>
 
-<PS> 3–5
-<MD> 15–17
-<AG> 14–16
+<monster name="Eagle">
+<details>
+<habitat> Rough (usually mountainous)
+<frequency> uncommon
+<number> 1–20 (1)
+
+<description> Great Eagles are the largest of the birds of prey.  They
+have a wingspan of 7 feet when full grown.  Their feathers are gray
+except around neck and head (which is white).
+
+<talents> Eagles have no special talents or skills.  They are not
+magic users and do not use tools.  They do have keen eyesight.
+
+<weapons> Eagles can attack only in Close Combat with either beak
+(Base Chance of 50&percnt of doing [D − 1] damage) or 2 talons (Base
+Chance of 70&percnt of doing [D + 1] damage) without penalty in the
+same Pulse.  An eagle may achieve Ranks 1–3 with beak and 1-2 with
+talons.
+
+<movement>  Flying: 1200
+<PS> 12–16
+<MD> 22–24
+<AG> 19–23
 <MA> None
-<EN> 6–7
-<FT> 9–11
-<WP> 8–10
-<PC> 17–20
-<PB> 8–10
-<TMR> 12
-<NA> Feathers absorb 1 DP
+<EN> 9–12   
+<FT> 17–20
+<WP> 11–13
+<PC> 20–24
+<PB> 10–12
+<TMR> 24
+<NA> Feathers absorb 2 DP
+
+<comments> Eagles avoid humans except to occasionally steal goats or
+other small animals from human flocks.  They will sometimes attack a
+party which ventures too near their nest.
 </monster>
 </class>
 </group>

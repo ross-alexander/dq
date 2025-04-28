@@ -1471,11 +1471,20 @@ their WP is greater than the target, they further increase the Cast
 Chance by the difference. If it is lower, then the Cast Chance is
 penalised by twice the difference.
 
-Cast Chance: 38%
-Range: 105 feet
-Duration: Conc. Max. 70 minutes
-Resistance: Active & Passive
-Target: Living entity
+Cast Chance
+: 38%
+
+Range
+: 105 feet
+
+Duration
+: Conc. Max. 70 minutes
+
+Resistance
+: Active & Passive
+
+Target
+: Living entity
 
 Effects
 : The Adept may Trigger this effect by pointing the wand at a target
@@ -1491,19 +1500,28 @@ Defence, nor may they see through their own eyes.
 This crystal wand is 31 cms long, tapering to a three faced point at
 the tip, and weighs eleven ounces.
 
-Charges:
-8    7    6    5    4    3    2    1
+Charges
+: 8    7    6    5    4    3    2    1
 
 The wielder adds their MA Bonus and Enchantment to the Cast Chance. If
 their WP is greater than the target, they further increase the Cast
 Chance by the difference. If it is lower, then the Cast Chance is
 penalised by twice the difference.
 
-Cast Chance: 38%
-Range: Touch
-Duration: Immediate, during Pulse
-Resistance: None
-Target: Entity
+Cast Chance
+: 38%
+
+Range
+: Touch
+
+Duration
+: Immediate, during Pulse
+
+Resistance
+: None
+
+Target
+: Entity
 
 Effects
 : The Adept may Trigger this effect by touching their patient with the
@@ -1527,8 +1545,8 @@ and so on.
 
 This dull, faceted stone is grey and opaque, and weighs one lb. 
 
-Charges:
-3    2    1
+Charges
+: 3    2    1
 
 The stone must be carried on the Adept's body, and if it is not then
 the magic ends.
@@ -1546,8 +1564,8 @@ it. When it is obvious, the wearer's PB increases by 1 to their racial
 maximum and reduces the die roll result of any Courtier/Courtesan
 Skill Check by 7.
 
-It holds three charges:
-3    2    1
+It holds three charges
+: 3    2    1
 
 If the wearer is subjected to a mental venom, then a charge is drawn
 off and they are given a second chance to avoid the effects. If there
@@ -1746,12 +1764,16 @@ weight (less 7 ounces) indicates how many points it heals.
 
 Range
 : 10 feet (+5 feet / Rank)
+
 Experience Multiple
 : 300
+
 Base Chance
 : 75% + 1% / Rank
+
 Cast Time
 : 1 hour
+
 Effects
 : Callas can enchant a crystal into a Crystal of Vision of equal Rank.
 
@@ -1829,8 +1851,8 @@ Rk    Effect
 This crystal wand is 31 cms long, tapering to a five faced point at
 the tip, and weighs eleven ounces.
 
-Charges:
-6    5    4    3    2    1
+Charges
+: 6    5    4    3    2    1
 
 The wielder adds their MA Bonus and Enchantment to the Cast Chance. If
 their WP is greater than the target, they further increase the Cast
@@ -1839,14 +1861,19 @@ penalised by twice the difference.
 
 Cast Chance
 : 38%
+
 Range
 : 105 feet
+
 Duration
 : Conc. Max. 70 minutes
+
 Resistance
 : Active & Passive
+
 Target
 : Living entity
+
 Effects
 : The Adept may Trigger this effect by pointing the wand at a target
 within range that they can see and requires but a Fire Action. If the
@@ -1868,21 +1895,26 @@ penalised by twice the difference.
 
 Cast Chance
 : 38%
+
 Range
 : 45 feet
+
 Duration
 : Conc. No max
+
 Resistance
 : None
+
 Target
 : Object
+
 Effects
 : The Adept may Trigger this effect by pointing the wand at a lock or
   trap within range and that they can see, requiring but a Fire
   Action. If the spell succeeds, they may attempt to Remove Trap or
   Open Lock without getting any closer.
 
-## Ear Serum x 2
+## Ear Serum × 2
 
 This brass ball is four centimetres across with a screw on cap, and
 weighs four ounces. It contains a bluish, soupy liquid which, when
@@ -1928,25 +1960,27 @@ of them may be worn at one time, and although they can be swapped out,
 the magic of new ones take a week before they start working. When a
 shoe is removed, it immediately stops working.
 
-## Shoe of the Horn
+### Shoe of the Horn
 
 Grants the ability to project a yard long illusory horn of shadows; 
 The mount can:
 - make a Presence attack with a base bonus of 15% and cause Fear
 - dispel an illusion by touch once per day.
 
-## Shoe of Robust Health
+### Shoe of Robust Health
+
 Improves reslience and resistance to disase
 - +10 to Resist Disease
 -  multiplies the amount of EN recovered from Natural Healing by 5
 
-## Shoe of the Transformation
+### Shoe of the Transformation
+
 Improves the duration of a shape change
 
 - multiplies the duration of a shape change by 12
 -  provides one extra shape change per day
 
-## Shoe of the Dark Flames
+### Shoe of the Dark Flames
 
 Leaves a trail of hoof prints that burn with dark flames where the mount has passed
 
@@ -1954,7 +1988,7 @@ Leaves a trail of hoof prints that burn with dark flames where the mount has pas
   it started in the previous Pulse so long as they traveled overland
   and by their own means.
 
-## Shoe of the Thunderer
+### Shoe of the Thunderer
 
 Increases the amount of damage of any kick or trample by 1 D10 and all are rollup dice.
 
@@ -1968,7 +2002,7 @@ Increases the amount of damage of any kick or trample by 1 D10 and all are rollu
   creature, this is resolved as an attack rated for Close but carries
   a 20 point penalty to Strike Chance.
 
-## Shoe of the Herd
+### Shoe of the Herd
 
 Creates multiple images of the mount and rider. This can only be used
 once a week, and resets on a Friday at dawn. Either
@@ -1983,7 +2017,7 @@ or
   directed to travel up to seven leagues away. It cannot fight or
   perform magic but it can speak simple messages.
 
-## Shoe of Nightfall
+### Shoe of Nightfall
 
 This shoe can only be used once a month, resetting on the third night
 of the Dark of the Moon.
@@ -2032,7 +2066,7 @@ If the wielder Purifies with the wand in the hour before true Dawn,
 then they roll a D10. If the result is a prime, then a charge is
 restored.
 
-## Copper Nails x 6
+## Copper Nails × 6
 
 If this copper nail is driven into the foot print of a witch, Wiccan
 or hag, then they will lose 1 TMR. They will also leave bleeding
@@ -2121,3 +2155,48 @@ bonus and Enchantment to the Cast Chance, not the investors.
 
 Both processes are noisome, and require a laboratorium that is remote
 from decent folk, lest they take up arms for the remedy.
+
+# 2025-04-27
+
+- Go to area where middlemarches are converging
+
+>When flame and smoke breathe thrice upon the shore,  
+>And mortal dreams bleed gold into the deep,  
+>The shrouded oath shall open up the door,  
+>And waken that which even void would keep.
+
+>A cry of broken earth, a blade unstrung,  
+>Shall call the eater forth from starless den;  
+>When ancient breath meets songs yet left unsung,  
+>The weaver's jaws shall stretch to feast again.
+
+>Three times the fire must scour the sacred field,  
+>Three times the stolen thoughts must knot the way;  
+>Then shall the gate, by hidden blood, be sealed,  
+>And she shall climb where once no light could stay.
+
+>The world's own sigh shall loosen lock and chain,  
+>And hunger rise, unfettered, crowned by pain.
+
+- Convert 12 Sanity into 4 Clarity then spend 1 curing Black
+- Use waybread
+
+>In secret looms the blade of woven shade,  
+>Whose edges slip through time’s unraveling seam;  
+>A hand of dark on lightless forge was laid,  
+>To stitch the night in folds no sun may dream.
+
+>No metal sings within its formless frame,  
+>No hammer rang to forge its hollow breath;  
+>It thirsts for earth to cry aloud its name,  
+>It drinks the world and sows the seed of death.
+
+>When driven deep where hidden marches meet,  
+>The wound it carves shall bleed the weft of skies;  
+>Through broken soil shall hunger spill and fleet,  
+>And ancient black shall weave her million eyes.
+
+>One blade, one cry, one sundered living thread,  
+>And lo, the spider wakes the tangled dead.
+
+- Gain 5 Sanity points
