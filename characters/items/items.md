@@ -1068,7 +1068,7 @@ The Ritual of Drawing Down the Moon requires the vial, a full moon in
 the night sky and fifteen minutes of prayer and quiet contemplation.
 
 NB: Were-creatures will hesitate to attack the bearer of the vial - 3
-x Willpoer check required.
+× Willpower check required.
 
 ## Lunar Aspect
 
