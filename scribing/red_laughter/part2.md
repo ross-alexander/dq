@@ -1327,7 +1327,7 @@ Effects
   Since the Prepare Actions have already been stored into the Spell
   Magazine, the Adept simply makes a Cast Action to Fire a Magma Bolt
   which inflicts 1 roll-up D10 + Rank fire damage, Resist for
-  half. The FT cost is paid for each bolt, however.
+  half.  The FT cost is paid for each bolt, however.
 
 The magazine lasts for 10 seconds (+10 seconds per Rank) or until all
 Cast Actions have been used.
@@ -2200,3 +2200,26 @@ from decent folk, lest they take up arms for the remedy.
 >And lo, the spider wakes the tangled dead.
 
 - Gain 5 Sanity points
+
+# 2025-05-04
+
+- Return to Novaya
+- Hear stories about magical white bulls and a magestic white bird
+  that watches over their activities, has silver eyes and was a
+  seraph
+- Head to St Petersburg the following midday
+- The town gates are fortified as people have gone missing
+- Head out and camp out over night
+- Find patrol's campsite in the afternoon and continue on for another few hours
+- Camp overnight
+- Reach camp of patrol
+- Sven, swedish and has worked in Byzantium
+- Travel all day and reach a forest about 3pm, following the tracks
+- The tracks we are scouting are going around the forest
+- Camp overnight, the area is briny marsh
+- Area smells of witch salt
+
+- Attacked by a witch's hut
+- +3 Sanity
+
+

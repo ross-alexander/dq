@@ -1,0 +1,46 @@
+\documentclass[a4paper]{article}
+
+\usepackage{dqmm}
+
+\begin{document}
+
+\begin{mmgroup}{\VAR{dqmm.group['@name']}}
+
+\BLOCK{for class in dqmm.group.class}
+\subsection{\VAR{class['@name']}}
+\VAR{class.notes}
+\BLOCK{for monster in class.monster}
+\subsubsection{\VAR{monster['@name']}}
+\begin{description}
+\item[Natual Habitat] \VAR{monster.details.habitat}
+\item[Number] \VAR{monster.details.number}
+\item[Description] \VAR{monster.details.description|replace("%", "\\%")}
+\item[Talents, Skills and Magic] \VAR{monster.details.talents|replace("%", "\\%")}
+\item[Weapons] \VAR{monster.details.weapons|replace("%", "\\%")}
+\item[Movement Rate] \VAR{monster.details.movement}
+\end{description}
+\begin{mmstats}{}
+\textbf{PS:} \VAR{monster.stats.ps} &
+\textbf{MD:} \VAR{monster.stats.md} &
+\textbf{AG:} \VAR{monster.stats.ag} &
+\textbf{MA:} \VAR{monster.stats.ma} \\
+
+\textbf{EN:} \VAR{monster.stats.en} &
+\textbf{FT:} \VAR{monster.stats.ft} &
+\textbf{WP:} \VAR{monster.stats.wp} &
+\textbf{PC:} \VAR{monster.stats.pc} \\
+
+\textbf{PB:} \VAR{monster.stats.pb} &
+\textbf{TMR:} \VAR{monster.stats.tmr} &
+\textbf{NA:} \VAR{monster.stats.na} \\
+\end{mmstats}
+\BLOCK{if monster.comments}
+\begin{mmcomment}
+\VAR{monster.comments}
+\end{mmcomment}
+\BLOCK{endif}
+\BLOCK{endfor}
+\BLOCK{endfor}
+\end{mmgroup}
+
+\end{document}

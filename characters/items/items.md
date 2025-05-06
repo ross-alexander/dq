@@ -239,6 +239,71 @@ This spell is not teachable to others.
 
 # Callas
 
+## Voidsilk Robe
+
+This robe is made from voidsilk, and is the colour of migraines. It
+will conform in fit to anyone of size 6 or less.  The wearer must
+sacrifice a point of EN to bind the robes to them.  Once bound, it has
+the following properties:
+
+- +1 WP
+- 6 points of Protection and 8 points of Spell Armour which will stack
+  with Natural Armour or that made from plant or animal fibres but not
+  leather, wooden, ceramic or metal armour.
+- Reduces damage by 1 point except versus Disruption, Putrid Wound,
+  Necrosis, Torment, venom or similar.
+- If the wearer is the target of a Defence spell, it increases that
+  Defence by another 7
+- The calculation for bonus to Magical Aptitude from Purification
+  becomes 1 per four Ranks not 1 per five and 1 extra Magic Resistance
+  for every four Ranks.
+- The wearer may buy a point of spell casting FT for the robe at a
+  cost of 1,999 Experience, which may be used (only) for the casting
+  of spells or rituals. The maximum FT that can be stored is 10, and
+  only one such point may be bought per season or adventure, whichever
+  is least.
+- If the robes are damaged, 1 point of Protection is restored at a
+  cost of 3 EN which can only be recovered by Natural Healing.
+
+
+## Incantation of Spell Magazine
+
+Spell
+: Smoking Magma
+
+Range
+: 25 feet + 5 / Rank
+
+Duration
+: Special
+
+Base Chance
+: 7%
+
+Resist
+: Passive
+
+Target
+: Object/Entity
+
+Effects
+: This incantation of Smoking Magma gains a number of Prepare Actions
+  equal to 1 (+1 for every three Ranks) so that they may Cast a Magma
+  Bolt, which will fly from their hand to hit an object or entity.
+  Since the Prepare Actions have already been stored into the Spell
+  Magazine, the Adept simply makes a Cast Action to Fire a Magma Bolt
+  which inflicts 1 roll-up D10 + Rank fire damage, Resist for
+  half.  The FT cost is paid for each bolt, however.
+
+The magazine lasts for 10 seconds (+10 seconds per Rank) or until all
+Cast Actions have been used.
+
+Cost
+: 3000
+
+Constraints
+: Unracks the spell, reduces FT value by 3.
+
 ## Enhancing Enchantment
 
 Callas has been granted the spell of Enhancing Enchantment (S7 of the
