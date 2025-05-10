@@ -5,6 +5,7 @@ import sys
 from yaml import load, CLoader as Loader
 import argparse
 from dqtick import Tick
+import jinja2
 
 # ----------------------------------------------------------------------
 #
@@ -283,6 +284,36 @@ def format_document(opts, ranking):
 
 # ----------------------------------------------------------------------
 #
+# format_jinja
+#
+# ----------------------------------------------------------------------
+
+
+def format_jinja(opts, ranking):
+
+    latex_jinja_env = jinja2.Environment(
+        block_start_string = '\\BLOCK{',
+        block_end_string = '}',
+        variable_start_string = '\\VAR{',
+        variable_end_string = '}',
+        comment_start_string = '\\#{',
+        comment_end_string = '}',
+        line_statement_prefix = '%%',
+        line_comment_prefix = '%#',
+        trim_blocks = True,
+        autoescape = False,
+        loader = jinja2.FileSystemLoader(os.path.abspath('.'))
+    )
+
+    latex_jinja_env.filters['cdate'] = cal_cdate
+    latex_jinja_env.filters['mdate'] = cal_mdate
+    template = latex_jinja_env.get_template('ranking.j2')
+
+    res = template.render(character = ranking, standalone = False)
+    return res
+
+# ----------------------------------------------------------------------
+#
 # format_yaml
 #
 # ----------------------------------------------------------------------
@@ -294,7 +325,8 @@ def format_yaml(opts, src_path, dst_path):
         print(f"Key 'adventures' missing from {path}", file=sys.stderr)
         exit(1)
 
-    res = format_document(opts, ranking)
+#    res = format_document(opts, ranking)
+    res = format_jinja(opts, ranking)
     with open(dst_path, "w") as stream:
         stream.write(res)
 
