@@ -1,0 +1,181 @@
+\documentclass{article}
+
+\RequirePackage{ranking-v2}
+
+\begin{document}
+%% set basics = character.basics
+%% set current = character.current
+%% set stats = current.stats
+
+\character[name=\VAR{basics.charname},fullname={\VAR{basics.fullname}},date={\VAR{basics.date}},picture={\VAR{basics.picture}}]
+
+\begin{frontcover}
+
+\begin{stattblr}{colspec={Q[l,t,40mm]XXXXXX},
+cell{3}{1}={c=2}{l},cell{3}{3}={c=3}{l},cell{3}{6}={c=2}{l},
+cell{4}{2,4,6}={c=2}{l}}
+\textsuperscript{Name} \VAR{basics.charname} &
+\textsuperscript{PS} \VAR{stats.PS} &
+\textsuperscript{MD} \VAR{stats.MD} &
+\textsuperscript{AG} \VAR{stats.AG} &
+\textsuperscript{MA} \VAR{stats.MA} &
+\textsuperscript{WP} \VAR{stats.WP} &
+\textsuperscript{EN} \VAR{stats.EN} \\
+
+\textsuperscript{Race} \VAR{basics.race} &
+\textsuperscript{Sex} \VAR{basics.sex} &
+\textsuperscript{HT} \VAR{basics.height} &
+\textsuperscript{WT} \VAR{basics.weight} &
+\textsuperscript{PB} \VAR{stats.PB} &
+\textsuperscript{PC} \VAR{stats.PC} &
+\textsuperscript{FT} \VAR{stats.FT} \\
+
+\textsuperscript{Aspect} \VAR{basics.aspect} & &
+\textsuperscript{Birth} \VAR{basics.birth} & & &
+\textsuperscript{Date} \VAR{basics.tick|cdate} & \\
+
+\textsuperscript{S.Status} \VAR{basics.status} &
+\textsuperscript{Hand} \VAR{basics.hand} & &
+\textsuperscript{Coll.} \VAR{basics.college} & &
+\textsuperscript{EP} \VAR{basics.ep_total} [\VAR{basics.ep}] & \\
+\end{stattblr}
+
+\begin{multicols}{2}
+\raggedcolumns
+
+\begin{covertblr}{colspec={rX}}
+Rk & Skill \\
+\BLOCK{for skill in current.skills}
+\VAR{skill.rank} & \VAR{skill.name} \\
+\BLOCK{endfor}
+\end{covertblr}
+
+\begin{covertblr}{colspec={rX}}
+Rk & Language \\
+\BLOCK{for language in current.languages}
+\VAR{language.rank} & \VAR{language.name} \\
+\BLOCK{endfor}
+\end{covertblr}
+
+\begin{covertblr}{colspec={rX}}
+Rk & Weapon \\
+\BLOCK{for weapon in current.weapons}
+\VAR{weapon.rank} & \VAR{weapon.name} \\
+\BLOCK{endfor}
+\end{covertblr}
+
+\BLOCK{for magic in ("talents", "spells", "rituals")}
+%% set items = current[magic]
+\BLOCK{if items}
+\begin{covertblr}{colspec={rXl},column{1}={wd=4mm},column{3}={wd=8mm}}
+Rk & \VAR{magic|title()} & Ref \\
+\BLOCK{for item in items}
+\VAR{item.rank} & \VAR{item.name} & \VAR{item.ref} \\
+\BLOCK{endfor}
+\end{covertblr}
+\BLOCK{endif}
+
+\BLOCK{endfor}
+
+\end{multicols}
+\end{frontcover}
+
+\BLOCK{for adventure in character.adventures}
+\begin{adventure}{\VAR{adventure.name}}{\VAR{adventure.start_tick|cdate} [\VAR{adventure.start_tick|mdate}]}{\VAR{adventure.end_tick|cdate} [\VAR{adventure.end_tick|mdate}]}
+\#{
+----------------------------------------------------------------------
+
+Party, Monies and Items
+
+----------------------------------------------------------------------
+}
+\begin{miscellaneous}
+\BLOCK{if 'party' in adventure}
+\begin{party}
+\begin{partytblr}{}
+\BLOCK{for member in adventure.party}
+\VAR{member.name} & \VAR{member.college} & \VAR{member.note} \\
+\BLOCK{endfor}
+\end{partytblr}
+\end{party}
+\BLOCK{endif}
+\BLOCK{if 'items' in adventure}
+\BLOCK{for iblock in adventure['items']}
+\begin{items}{\VAR{iblock.description}}
+\BLOCK{for i in iblock.lines}
+\VAR{i.description} \\
+\BLOCK{endfor}
+\end{items}
+\BLOCK{endfor}
+\BLOCK{endif}
+
+\BLOCK{if 'monies' in adventure}
+\BLOCK{for monies in adventure.monies}
+\BLOCK{if monies.ledger}
+\begin{monies}[\VAR{monies.ledger}]{\VAR{monies.in}}{\VAR{monies.out}}{\VAR{monies.date}}
+\BLOCK{else}
+\begin{monies}{\VAR{monies.in}}{\VAR{monies.out}}{\VAR{monies.date}}
+\BLOCK{endif}
+\BLOCK{for line in monies.lines}
+\VAR{line.description} & \VAR{line.in} & \VAR{line.out} \\
+\BLOCK{endfor}
+\end{monies}
+\BLOCK{endfor}
+\BLOCK{endif}
+\end{miscellaneous}
+
+\#{
+----------------------------------------------------------------------
+
+Ranking
+
+----------------------------------------------------------------------
+}
+
+\BLOCK{for ranking in adventure.ranking}
+\begin{ranking}{\VAR{ranking.description}}{\VAR{ranking.start_tick|cdate} -- \VAR{ranking.end_tick|cdate}}
+\BLOCK{for block in ranking.blocks}
+\begin{blocktblr}{}
+\BLOCK{for line in block.lines}
+\VAR{line.name} &
+\BLOCK{if 'initial' in line} \BLOCK{if 'final' in line} \VAR{line.initial}\upto \VAR{line.final} & \BLOCK{else} \VAR{line.initial} & \BLOCK{endif} \BLOCK{endif}
+\VAR{line.sum} & \VAR{line.em} & \VAR{line.raw} & \VAR{line.ep} &
+\BLOCK{if 'time' in line} \VAR{line.time}$^\VAR{line.track}$ \BLOCK{endif} &
+\VAR{line.cost} \\
+\BLOCK{endfor}
+\end{blocktblr}
+
+\BLOCK{endfor}
+\BLOCK{if ranking.ep or ranking.days}
+\begin{blocktblr}{cell{1}{7}{c=2}{l,font=\rankingsf},cell{1}{1}={font=\rankingsf},hline{1-2}={0.1mm,totalcolor}}
+Total & & & & & \VAR{ranking.ep} & \VAR{ranking.time} & \\
+\end{blocktblr}
+
+\BLOCK{endif}
+\end{ranking}
+\BLOCK{endfor}
+
+\#{
+----------------------------------------------------------------------
+
+Experience & Notes
+
+----------------------------------------------------------------------
+}
+
+\begin{miscellaneous}
+\BLOCK{if 'experience' in adventure}
+%% set exp = adventure.experience
+\experience{\VAR{exp.gained}}{\VAR{exp.in}}{\VAR{exp.spent}}{\VAR{exp.out}}
+\BLOCK{endif}
+\BLOCK{if 'notes' in adventure}
+\begin{notes}
+\VAR{adventure.notes}
+\end{notes}
+\BLOCK{endif}
+\end{miscellaneous}
+\end{adventure}
+
+\BLOCK{endfor}
+
+\end{document}
