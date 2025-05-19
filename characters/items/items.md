@@ -239,6 +239,123 @@ This spell is not teachable to others.
 
 # Callas
 
+## Ring of Invested Wind Walking
+
+This is a small brass rings, inscribed with Ty Trident's mark, and
+invested with the Air spell Wind Walking (S-17) at rank 6.
+
+Plane of Origin
+: Alusia
+
+Weight
+: 0.02lbs
+
+BC
+: 87%
+
+Speed
+: 80mph
+
+Duration
+: 210s
+
+Range
+: 70 feet
+
+Aura
+: Magics
+
+Charges
+:
+4 3 2 1
+
+
+## Ring of Invested Wind Walking
+
+This is a small brass rings, inscribed with Ty Trident's mark, and
+invested with the Air spell Wind Walking (S-17) at rank 6.
+
+Plane of Origin
+: Alusia
+
+Weight
+: 0.02lbs
+
+BC
+: 87%
+
+Speed
+: 80mph
+
+Duration
+: 210s
+
+Range
+: 70 feet
+
+Aura
+: Magics
+
+Charges
+:
+4 3 2 1
+
+## Ring of Invested Wind Walking
+
+This is a small brass rings, inscribed with Ty Trident's mark, and
+invested with the Air spell Wind Walking (S-17) at rank 1.
+
+Plane of Origin
+: Alusia
+
+Weight
+: 0.02lbs
+
+BC
+: 70%
+
+Speed
+: 55mph
+
+Duration
+: 60s
+
+Range
+: 20 feet
+
+Aura
+: Magic
+
+Charges
+:
+2 1
+
+## Extinguish Invested
+
+Invested item with Rank 10 invested Extinguish Fire Spell.
+
+BC
+: 100%
+
+Range
+: 165 feet
+
+Effect
+: Extinguish all fies within 110 feet
+
+Charges
+: 1 2
+
+Guild Valuation
+: 250sp each
+
+Game
+: 5 Go Mad In Delphi
+
+GM
+: Michael Young
+
+
 ## Voidsilk Robe
 
 This robe is made from voidsilk, and is the colour of migraines. It
@@ -2443,23 +2560,3 @@ located in the dark.  Range 100 feet
 
 2 Raw Mana Points                                20,000
 
-# 2025-04-06
-
-- Kill demilich
-- Get two baltic amber eyes
-- 21 brothers and 3 mind flayers in the teeth
-- Use charge of storm orb
-- Lost 24 FT permanently but restored from destroyed teeth
-- Find scrolls from monks and mind flayers
-- +5 sanity
-
->Gilded in flame, he coils through the night,  
->Lurking where shadow devours the light.  
->A whisper of doom in a dreamer’s breath,  
->Unwinds the sweet thread that leads into death.  
->Rising in silence, unseen by the eyes,  
->Under the skin, he spins whispered lies.  
->Neither sword nor strong will can break his spell,  
->Ghosts heed his call from where secrets dwell
-
-GLAURUNG
