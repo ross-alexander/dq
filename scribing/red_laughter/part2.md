@@ -4,74 +4,283 @@ author: Callas
 date: March 28, 2025
 ---
 
-# 2024-08-09: Start game
+# Writeups
 
-- 20 × 20 Point Healing Potions (3 given out)
-- 20 × Rank 10 Restoritives [D−2]+10 (4 used)
-- 10 × Rank 12 Waters of Strength (1 used)
-- 11 Wafers (use 4)
+## Doom Pool
 
->In the shadowed realm where mortal woe and spectral might entwine,  
->A tale of dark and light unfolds in the world’s bleakest design.  
->Where ruthless fiends and holy men in fate’s grand stage do play,  
->The next three moons will spin their threads in destiny’s display.
+Black Archibald has a pool that contains Doom. Every time the DM
+believes he has performed an act or decision that leads to the
+utterance "Aye, they werre doomt!" in a dour Scots accent or that
+points out the inexorable march toward some final destiny, they may
+award him one or more Doom points at the end of each session of play.
 
->A wraith of dread with burning eyes, in torment’s guise arrayed,  
->By darkened lord’s command doth seek the hearts of men betrayed.  
->In lands where sorrow’s seeds are sown, where fear doth reign supreme,  
->The fiend with cruel intent shall weave a harrowing dream.
+### Spending Doom
 
->In the murky depths of witchcraft’s art, a matron wise and bold,  
->Foretold by agents three of yore, the tale of terror told.  
->She sent forth those with secret aims, where fiendish shadows creep,  
->To pierce the veil of devil’s schemes, where mortal souls do weep.
+Doom points may be spent to channel the dark inevitability of his
+destiny, resist opposition, or for specific uses as listed below:
 
->Yet far within the twilight’s grasp, a noble count remains,  
->Whose life, though freed from serpent’s mark, bears past’s enduring chains.  
->This count, with quest of balance bound, through hidden paths shall tread,  
->May thwart the devil’s ruthless hand while soul debt he does shed.
+Doom-laden Blow (Free Act)
+: As a Free Act, Archibald may spend one Doom to make his melee attack
+harder to avoid. If he misses, then he gets another attack at half his
+Initiative Value, if this misses, then he gets another attempt at half
+that value, and so on until the value falls below ten. He may use
+Doom-laden Blow before, during or immediately after his first attack.
 
->A seer, veiled in mystic shroud, with visions deep and true,  
->Hath seen an urgent embassy, a path of fate to view.  
->This mission bears a humble quest to seek the noble’s aid,  
->To glean what truths the count might hold, in the murk where shadows played.
+Imposing Presence (Reaction)
+: By spending five Doom, Archibald may impose an aura of inevitability
+and dread upon enemies within his front hexes.  Effect: This effect
+last until the end of the Pulse, but for the duration, those who are
+affected add fifteen to the die roll results of their percentile
+checks.
 
->In distant coasts where merchants plot, and schemes of power weave,  
->An enterprising schemer stands, with papal ties to cleave.  
->His cunning gaze on shifting tides, with alliances entwined,  
->May steer the course of coming trials, with threads of fate aligned.
+Doom-Fueled Strength (Free Act)
+:  Archibald can spend Doom to enhance his prowess for his next
+attack.  Spending Doom increases the damage of his next attack by
+three. This must be declared before the attack roll.
 
->Thus, as the lunar cycles turn and shadows deepen still,  
->The forces of the dark and light will clash with potent will.  
->With every stride and hidden move, their fates entwine and twist,  
->In the grand design of cosmic dance where none may long resist.
+Curse Avoidance (Free Action)
+: By channeling Doom, Archibald may resist effects that attack his
+destiny, so can improve his resistance to Curses at a rate of 5% per
+point spent. In the event of a Death Curse, he may spend Doom to Break
+100 + WP to successfully Resist.
 
->And so shall fate unroll its scroll, with twists both sharp and sly,  
->Till ends are met and truths are known beneath the cosmic eye.  
->In this tumultuous sphere of war, where mortal and divine,  
->Will weave the strands of destiny, by cunning or design.
 
-- Lady Cerise
-- Lady Suneth
+### Doom Pool Mechanics
 
-- Give three healing potions for Magic Timer from Henry The Toymaker
+Restoration
+: All Doom is fully restored after Purification at dawn but is lost at
+midnight during the end-of-season festival.
 
-- Take route which includes Garden which found a herb once in lifetime
+## Certainty
 
-- Go to Jiroth
-  * Temple of the Singing Bees
+Three points of Doom may be converted to one Certainty during
+Purification. Certainty is a finite resource that persists beyond the
+end-of-season festival but cannot be restored once spent.
 
-- Head to Sura
-  * High priest can send messages
+### Spending Certainty
 
-- Head NE out of Sura
-- Find tracks of creature with bipedal with claws (Blue Devil)
+Certainty points represent Archibald’s absolute conviction and control
+over the forces of inevitiblilty. They may be spent in the following
+ways:
 
-- Find alter dedicated the Beautiful Marquess
-- Ritual causes devil to become Chtonic (becomes part of the
-plane so cannot be banished).
+Supreme Resolve (Free Action)
+: Certainty may be spent to completely negate the effects of Fear,
+Terror, or Horror without the need for a roll.
 
-- Head to farm, find tracks of four people.
+Weaving Reality
+: By spending Certainty, Archibald may alter events to align with his
+goals (e.g., finding a hidden escape route, encountering an ally in
+dire circumstances).
+
+The cost of this depends on the significance of the effect, with minor
+influences costing 1 Certainty and major narrative changes costing up
+to 5. In addition, he adds that amount to all of his percentile die
+rolls until he finds a way to remove this penalty.
+
+## Coruscade - Stained Glass Plate
+
+Range
+: Self
+
+Duration
+: 30 minutes + 30 / Rank
+
+Base Chance
+: 10%
+
+Resist
+: None
+
+Target
+: Sentient Entity
+
+Effects
+: Planes of Stained Glass appear around the Adept in the form of plate
+armour. Their Defence is increased by 2% (+ 3 per two full Ranks), and
+if they are struck by a weapon that is not magical or silvered, 1
+point per three full Ranks is subtracted from the damage.  This
+applies to blows directly to EN or Specific Grievous inujuries, but
+not the special damage of that injury. However, a Specific Grievous
+injury will cause the armour to shatter, ending the incantation but
+anyone adjacent to them must Resist vs Backfire or lose their next
+Strike Action, as the armour splinters into a kaleidoscopic explosion
+of colours.
+
+Cost
+: 750 Experience.
+
+Constraints
+: Unracks the spell.
+
+## Slowness - Inertial Field
+
+Range
+: Self
+
+Duration
+: 30 minutes +  30 / Rank, or while distortions last
+
+Base Chance
+: 20%
+
+Resist
+: None
+
+Target
+: Sentient Entity
+
+Effects
+: One transparent, vaguely sperhical distortion in the air (+ 1 per
+three Ranks) orbit the Adept for the duration of the spell. Whenever
+the Adept would be struck by a FT blow by a physical wweapon in Melee
+or at Range, then the damage is halved as the distortion absorbs part
+of the impact.  This dooes not apply to blows directly to EN or
+Specific Grievous injuries.
+
+Cost
+: 750 Experience.
+
+Constraints
+: Unracks the spell.
+
+## Chasm Toad
+
+Natural Habitat
+: Abysmal pits, the Void
+
+Frequency
+:  Rare
+
+Number
+:  1 (256)
+
+Description
+: Chasm toads are found near the border of the Abyss and the Void.
+They are said to be the consequence of a night hag mating with an
+abysmal demon who fell into a chaos reactor at the onset of labour.
+They stand somewhere between thirty and forty five centimetres tall,
+and weigh between fourteen ounces and four pounds. They have dark
+green, leathery skin covered in lighter coloured warts.
+
+There is a theory that from time to time, an adult toad will “seethe”
+and excrete a greenish slime. Some time later, they divide into a
+swarm of chasm toadlets which is always an exponent of two in number.
+
+Abilities
+:  Chasm toads are enchanted creatures whose intelligence grows to be
+near that of the entities it associates with. They are capable of
+storing as much as one cubic foot of material by swallowing it, but
+the maximum dimension is no more than half of its height. Dimensions
+less that one foot are considered to be one foot for the purposes of
+calculating storage capacity.
+
+As they advance, some of these toads are able to manifest small
+patches which are similar to the Deep Pockets spell, except that empty
+ones may be thrown by the toad to capture something that will fit
+inside, or that will inflict 1 D10! (+ 1 per Rank) on contact if it is
+too big to fit. Targets are entitled to a Magic Resistance check
+versus Dark Celestial Special Knowledge magic, taking half damage if
+they succeed.
+
+Movement Rates
+: Hopping: 250, Climbing 150
+
+
+-------  -------  -------  -------  --------  -------
+PS       MD       AG       MA       EN        FT
+
+4 - 6    20 - 26  8 - 12   12 - 16  12 - 18   10 - 18
+
+WP       PC       PB       TMR      NA
+
+10 - 25  10 - 20  0        5 / 3    Warts: 5
+-------  -------  -------  -------  --------  -------
+
+
+Weapons
+: Bite BC 50% [D10! + 2], 3 hexes, RMC, Maximum Rank 6, advances as a
+Lasso.
+
+Note
+: The toad can target something that is less than a quarter of its
+mass with its tongue and draw it in to deliver a bite
+
+Storage
+: If the toad is fed something that it can digest, it will consume it.
+This can include friends. If the toad is fed a poison, it will absorb
+it and may deliver it with a bite. A record of toxins should be
+kept. Anything stored in the toad (except poison) will experience one
+tenth of the normal rate of time. It will be as if only one day was
+experienced over the passage of ten.
+
+## Hoardling
+
+Hoardling is a chasm toad. He stands thirty centimetres tall, and
+weighs fourteen ounces, but has hopes of acquiring greater mass. He
+identifies as a toad and his pronouns are he, him, and occasionally
+they/them. The maximum Rank he can know any language is six, which is
+his current Rank in Thari.
+
+He is convinced that on the occasion of his warts turning yellow, he
+will experience a great “change” and advance to the next level of his
+progression.
+
+He would like to become a monk. Or a fireman.
+
+-------  -------  -------  -------  --------  -------
+PS       MD       AG       MA       EN        FT
+
+4        21       12       16       18        13
+
+WP       PC       PB       TMR      NA
+
+16       10       0        5 / 3    Warts: 5
+-------  -------  -------  -------  --------  -------
+
+
+Weapons
+: Bite BC 50% [D10! + 2], 3 hexes, RMC, Rank 0
+
+Note
+: Hoardling can target something that is less than three ounces with
+his tongue and draw it in to deliver a bite
+
+Storage
+: If Hoardling is fed something that he can digest, he will consume
+it.  This can include friends. If he is fed a poison, he will absorb
+it and may deliver it with a bite. A record of such toxins should be
+kept. Anything stored (except poison) will experience one tenth of the
+normal rate of time. It will be as if only one day was experienced
+over the passage of ten.
+
+## Second Head of Abzazu
+
+Range
+: Self
+
+Duration
+: 10 minutes (+ 10 minutes per Rank)
+
+Base Chance
+: 30%
+Cast Time
+: 10 minutes
+
+Effects
+: This spell manifests as a second head that appears on the caster’s
+shoulders, wearing a great helm and resembling an intimidating,
+ancient visage. The second head provides a bonus of 10 (+1 per Rank)
+to notice hidden details, subtle sounds, or movements. Black Archibald
+may sing in intervals, improving their skill at Singing by three
+Ranks.
+
+If he is the victim of a blow to the head, then he has a 50% chance
+that it has affected the Second Head, which will be destroyed by it,
+and thus dissipate the spell. Only the Specific Grievous damage will
+be voided by this means, the rest being applied to Archibald.
+
+The second head also allows him to maintain concentration on one
+additional effect.
 
 ## Talisman of Water
 
@@ -92,7 +301,7 @@ Magic.  It is also a [Spell Rack](https://dq-nz.org/dqwiki/index.php/).
 ## The Sandglass of Polycarpus
 
 This small sandglass will measure the passage of three minutes in tiny
-grains of jade whenever it is turned over. It weighs thirteen oz and
+grains of jade whenever it is turned over.  It weighs thirteen oz and
 is made from turned quartz and an extremely hard, marbled, dark blue
 metal. It is unusually heavy.
 
@@ -102,9 +311,9 @@ at dawn.
 
 If one Magical Pass Action is to be stored, then the bearer's FT value
 is reduced by one. If two Magical Pass Actions, then their FT value is
-reduced by an additional two, if three, then an additional
-four. Obviously, the amount FT value is reduced doubles for each
-Magical Pass Action stored.
+reduced by an additional two, if three, then an additional four.
+Obviously, the amount FT value is reduced doubles for each Magical
+Pass Action stored.
 
 Only one Stored Magical Pass Action may be used in a Pulse, but it may
 be combined with any other Action the bearer has available.
@@ -127,175 +336,6 @@ stored therein.  Once in any twenty four hour period, the mount may be
 released from it. Storing or releasing the mount requires a Pass
 Action.
 
-- 6 Copper Nail (+3 targets for Sinking Doom)
-- 7 Omega horseshoes - Gem creation
-
-- 3 × 3D10! Healing potions
-- Wand - Can make an illusion real
-- Sedan chair with balista
-- Size 7 armour (cloth, quilted canvas) [5 points / 15 lbs if sized for human]
-
-- Staff from orge mage, can store a ray of cold which can be cast as a cone, can store gaseous form
-
-# 22-09-2024
-
-- Spend four days in Sura
-- Head down from Sura to the river plain
-- Stay in village, plenty of plums and nuts
-
-- Two days to Jesurea
-- City walls curve to follow the lie of the land, to follow the same vertical elevation
-- The gates are hinged
-- Spend time healing locals and purify at the alter
-- Learn "Wash wound" cantrip, currently at -30 penalty
-
-- Spend day travelling to Carchemish
-- There is some sort magic which alerts on scrying
-- There is a local garrison, originally a local militia but now have has a mercenery company
-- Mercenaries all wearing black metal scale mail
-- See a few people with banded metal armour
-- The three men are junior officers, on the rise, one of them is
-  caster, probably a Mind Mage
-- Increased monster presence on the roads
-- Roads that are well travelled pull in the Astral and many creatures avoid this (gorgons)
-- Gorgons have a bronze like metal on their bodies which can be worked but hard as steel
-- Creatures that have ITNs are to be avoided all at costs
-- Lamini can destroy willpower, target woman who can reproduce, then
-  children, can take form of snakes and can appear as an attractive
-  young women
-- Chimerae also along the road
-- Gain Sanity Pool with 1 point
-
-Road from Carchemish to Hurrian is 450 miles over rough terrain.
-
-- Travel ~300 miles and camp on the road
-- Encounter a Strix over night while camping
-- Hearing a tolling of a great bell at midnight
-- Find Speedwell, small blue flower, which is enchanced
-
-- Make a detour to Mount Ararat
-- Could Earthdoor to Mount Ararat within the Land of Nod
-
-- Head to Hurrian
-- Stay night in Hurrian
-- Cross the Mightnight sea to Al Mar'Heba and onto Aeaea.
-
-- Aeaea is a city is not walled (for Callas)
-- Lots of dyes and colourful cloth
-- Loom is 6 feet wide
-- The Crimson Sisterhood have a complex in the NE corner of the city
-- Speak to Lady Cencise
-
-- Comte de Versillac, using heart blood of a holy man and that
-abjured the Mark of Serpent from this brow
-
-- Get letter from Lady Cirese made out of satin for Jade Rain
-
-- Travel to Hurrian and via the Astral to Jeroth
-- Improve Rank of route though Lands of Chaos by 1
-- Reach House Kerberoth and then enter the Abyss
-
-- Travel though the Abyss and avoid an encounter with a shaggoth
-
-- Travel though the Abyss again to reach Jade Rain
-
-- Gain 4 points to Sanity pool
-
-- Returned to House Kerberoth
-
-- Lord of Demons turns up
-
-- Giovani Crecentia (servent of Eye of Discord)
-
-- Pope Sergius III
-
-- The Compte is looking for Sweet Regret and a chalise
-
-- Get an ivory plaque (15cm × 8cm) from Moonlight Sleeping on a Midnight Lake, which can be call him.
-
-- Only come on nights of the Full Moon, the Vineyard of the White Moon.
-
-- Give waybread to Sir Andrew
-
-- Meet Guiseppe Biati
-
-- Get Beauty Pool and add 2 point
-
-# 16.11.2024
-
-- Given wine that has captured some time so extends the period of enjoyment
-
-- Sea of White northern Siberia
-
-- Travel for 7 days heading towards Archangel
-
-- Enter middlemarch known as the 3rd Heaven
-
-- People in Archangel have had some contact with drow
-
-- There are five bays to east and three to the west
-
-- Winter pine, needles store summer
-
-- Memory of Tiamat that apposes things that belong here
-
-# 24.11.2024
-
-- Retrieve a Silmaril 
-
-- Return to Versilliac
-
-- Head to Venice
-
-- Sail to Alexandria
-
-# 1.12.2024
-
-- Gain 4 Sanity points
-
-- 3 points of Sanity convert to 1 point of Clarity
-
-- Use Waybread
-
-- WP: 22 → 23 (5000)
-- FT: 50 → 51 (2500)
-- Resist pain: 15 → 16 (4800)
-- Ranger: 6 → 7 (1 week)
-
-## Green Cloak
-
-Green Cloak: Mottled green cloak of spider silk. Protection D+5 to EN
-and FT physical damage (stacks with any non-magical armour). +15
-stealth in green areas.
-
-- Gain 1 Sanity
-- Encounter a group of Poor Clares
-
-- Use Waters of Strength (+15)
-
-# 2024-12-08
-
-- +1 Sanity
-- −1 Sanity (sacrificed)
-
-# 2024-12-15
-
-- Black Libraries are connected to White Towers
-- There is a White Tower in London
-- Black Libraries have an Astral presence
-- Head to the Library
-- Building blocky
-- Learn Gem Creation Spell [S-6]
-- Learn Creation of Crystal of Vision Ritual
-- Get additional FT (starting at 5) track in the Heart for Light and Soul
-
-# 2025-01-05
-
-- Gain 5 sanity points
-
-# 2025-01-12
-
-
 ## Callas' Arresting Gaze
 
 Range
@@ -314,11 +354,11 @@ Cast Time
 : Magical Fire Action
 
 Effects
-: This magic does not normally miss, and neither can it
-generate Double or Triple Effects. Callas has a gaze that she can fix
-on an entity or an object that can fit inside a volume of one hex (+
-one hex for every ten Ranks). Objects or entities of greater size
-cannot normally be affected.
+: This magic does not normally miss, and neither can it generate
+Double or Triple Effects. Callas has a gaze that she can fix on an
+entity or an object that can fit inside a volume of one hex (+ one hex
+for every ten Ranks). Objects or entities of greater size cannot
+normally be affected.
 
 The effects of the gaze are Avoided or Opposed, not Resisted, and if
 this is done, then nothing happens to them. For a target that
@@ -341,58 +381,6 @@ reserve in her 'heart'.  This starts at five, and may be raised by one
 at the end of an Adventure or Season, whichever is least, at a cost of
 two thousand five hundred Experience. It recovers as if it were normal
 FT, but only after all normal FT has been restored.
-
-- Use restoritive
-- Get quill
-
-# 2025-01-19
-
-- Sybil is in Campagnia
-- A great curse and a worm passed through the catacombs
-- Serpent escaped and could take the shape of swarm of eels
-- Nephilm don't know if the Vatic Oracle is there
-- Catacombs a kind of middlemarch
-- Spent four days exploring catacombs
-- Find the Cave of the Sibyl in Cumae
-- Place occupied by Dominicans (black robes with white sleaves)
-- Up to 12 monks in place
-- Group of women doing cleaning
-
-- Return to cave and 5 of the monks armoured up
-
-- Kill 5 martial monks and send 7 to Alusia
-
-- Require a Mirror of Cyprian (on Cyprus)
-- Needs the Face of Janus in it
-- Get the Oracle's reflection in the catacombs
-- Get 5 sets of Black Bronze chainmail
-
-- Travel by boat to Palemo (1 day)
-- Travel overland to Catania
-- Travel by boat to Paphos (10 days)
-
-- Gain +2 Sanity
-
-# 2025-01-26
-
-- Local lord is Federick Plantagenat
-- Travel to Mount Olympus
-- Find monastary
-- Was a possible sorceror called Cyprian here, seven years ago, said to gone to Constantapole
-- Alter is an astral gate, stronger than construct, less than sentient, colour is agriculture, dedicated to Terodicus
-- Gain 10% chance of reducing FT cost of spell by 1
-- Asterism associated is associated with corudum
-- Learn ritual of Blessing of Crops & Livestock, cost 250 EP
-- Learn of form of Diamond Weapon, peneration reduces armour, can add PS if swinging weapon, cost 1000 EP
-- Learn Spell of Dearform, travel spell, cost 250 EP
-- Hyena sent against us by the Great Beast Dog
-
-- Spend another night at monastary
-
-- Return to Temple
-
-- Gain +4 Sanity
-
 
 ## Benediction of Land and Beast (R-B)
 
@@ -760,14 +748,6 @@ will provide a bonus equal to Rank to the attempt to Break 100.  Once
 the attempt has failed or dosages are exhausted, the effect wears off
 and the process must start again.
 
-# 2025-02-02
-
-- Find alter to Eros, associated with Will
-- Head to Saint Andrew via the Astral
-- Travel overland to Ravenna
-- Find space in the city where something is missing, an octagonal space
-- Locate astral gate nearby
-
 ## Draught of Clarity
 
 
@@ -942,11 +922,6 @@ Vengeance toxin would inflict (D10 - 1) poison damage, minimum 1.
 - Draught of the Phantom Shade
 - Draught of the Shadowed Glen
 
->The twisted sister of Arachne lies in wait,  
->beyond the golden serpent attends it on the shores of the whites sea,  
->beware its burning eyes and breath of flame for he knoweth the lay of your mind and can bend it by hs song,  
->he is hiding in the memories of the people that live there and can be called forth by his name
-
 ## Hart/Hind (S-H/H)
 
 Range
@@ -990,29 +965,6 @@ While in this form, they can run overland at their TMR (+1 per 5
 Ranks) and, over the course of a minute, enter a spectral trail where
 their movement rate is 30 miles per hour (+1 mile per hour per Rank).
 
-## 2025-02-09
-
-- Get two extra moths of January
-- Thief: 1 → 2 (2 weeks, 1050 EP)
-- Ranger: 6 → 7 (2 weeks)
-- Stealth: 2 → 5 (no time, 6000 EP)
-- Hind: 0 → 9 (11250 EP, 45 days)
-- Gaze: 0 → 6 (6300 EP, no time)
-- AG: 19 → 20 (5000 EP, no time)
-- Tracking: 7 → 12 (5000 EP, 50 days)
-
-- Tunnel under the janusite passages
-- Find a ossuary with corpses (skeletons), undead because there spirits have been ripped out but they are still connected to their soul
-- Use healer to "resurrect" the corpses to release them
-- Can advance to Rank 8 Healer
-
-- Find Astral gate into the Underworld
-- Reseal the chamber
-- Can see into the Underworld
-- Find a couple of copper scroll (have incantations) and some stone
-
-- Find toad hole: EP 125
-
 ## Dominican Chainmail
 
 This mail shirt covers a humanoid of size 6 from the shoulders to the
@@ -1043,82 +995,6 @@ their Defence is improved by seven.  In addition, they may increase
 their half move TMR by one.  For example, if their TMR is five, then
 their half move TMR would normally be three, but wearing the tabard
 would make it four.
-
-- The mirror is a kind of wine cup
-
-- Head to Rome
-- Name is recorded and we are scryed
-- Earthdoor into catacombes
-- Call forth Janus
-- Give him a waybread
-
-- Use Waybread
-- Use Waybread
-
-- Inside a Teal coloured Shiffon, Foxhair
-- +3 sanity points
-
-# 2025-02-23
-
-- Return to the half nephil
-- Call forth the Vatic Oracle (call Mario)
-
-- The Compte might be able to return the Red Laughter to Hell
-- Niccolo Machiavelli is the name of the Eye of Discord
-- Has control over Fate (which guides mortals) rather than Destiny (whihc guides immortals)
-- Middlemarch east of 3rd Heaven to Lyonese
-- Dragon in the south of France
-- Be'armolomandt on the White Sea
-- End of Great Amber Road
-
-- End day 2 in Vienna
-- End day 3 in Poland
-
-- 6 Frost giants
-- 24 polar bears
-- 2 ice elementals
-- 12 pale dwarfs
-
-# 2025-03-02
-
-- Got kicked by giants
-
-# 2025-03-09
-
-- Heal up 5 miles away
-- Earthdoor another 10 miles away
-- Use Waybread
-- Ride around Antanai
-- Reach St Petersburg
-- Reach Archangelsk
-- Find middlemarch that deflects divination, tied to an ITN
-- Find middlemarch that have been piled up
-- Gain +4 Sanity
-
-# 2025-03-16
-
-- No polarbear or wolve attacks this winter
-- Head week east then three days south to reach a ghost forest
-- Find two incantations, one of Smoking Magma, Summon and Control Earth Element and Earthdoor
-- Turf finds an ITN of a beast (Zmey Gorynych)
-
-- Spend 3 days learning Incantation
-- Sacrifice 1 PC (25 → 24) near Novaya
-- PC: 24 → 25 (750 EP)
-- Attacked by polarbear, three pale dwarfs and a single frost giant
-- Three war picks (ranks as a pick but can be used in close)
-- Three sets of chitenous armour
-- A bear worth of food
-- Pipe & pouch of tobaco
-- Fidget thingy made of 11 balls of ice
-- Giant axe (3D10 + step 37)
-- Use waybeard
-
-- Travel 4 days
-- Follow stream eastward then south
-- Forest is in a deep valley that is warmer
-- Place is an impact crater
-- Gain +2 Sanity
 
 
 ## The Discord Serpent
@@ -1338,15 +1214,6 @@ Cost
 Constraints
 : Unracks the spell, reduces FT value by 3.
 
-# 2025-03-23
-
-- Take Waters of Strength (+13)
-- Trigger Enhance
-- Use restorative
-- +5 Sanity points
-- Use 4 sanity
-- See via Crystal of Vision a demilich
-
 ##  Spell Matrix
 
 A Spell Matrix takes 7 half days of magical training to create.  They
@@ -1401,44 +1268,6 @@ If the wearer spends 1 FT, this belt reduces their weight down to
 1/3rd, 90 lbs becomes 30 lbs, etc, and Encumbrance will have to be
 recalculated.  This effect lasts for 10 minutes, and can be renewed as
 long as the wearer pays the FT cost.
-
-# 2025-03-28
-
->From hollow sockets, midnight tendrils blaze,  
->Black beams that feast on light’s forsaken breath.  
->Each photon turned to force, a dire malaise,  
->That drags the living toward their clutching death.
-
->No shield deflects the weight of ceaseless dark,  
->No armor bends the spectral fingers back.  
->Momentum steals the step, the limbs grow stark,  
->As flesh and fate dissolve in onyx wrack.
-
->Yet deathless lords have secrets bound in bone,  
->A whispered name upon a phylact’ry sealed.  
->Destroy the soul within—by fire or stone—  
->And watch the eldritch horror’s power yield.
-
->So strike the heart it keeps in crypts unseen,  
->Lest shadow’s grasp make dust of what has been.
-
-## 2025-04-06
-
-- Travel back to Archangel
-- Sacrifice 1 PC (25 → 24)
-- PC: 24 → 25 (750 EP)
-
-- Stone wall is Bound Earth
-- Use Waters of Strength +18 PS
-
->Gilded in flame, he coils through the night,  
->Lurking where shadow devours the light.  
->A whisper of doom in a dreamer’s breath,  
->Unwinds the sweet thread that leads into death.  
->Rising in silence, unseen by the eyes,  
->Under the skin, he spins whispered lies.  
->Neither sword nor strong will can break his spell,  
->Ghosts heed his call from where secrets dwell
 
 ## Storage Crystal x 2
 
@@ -1760,6 +1589,330 @@ healing costs 1 EN, the next costs 2 EN, the third costing 3 EN, and
 so on. This EN loss may only be recovered by natural healing. The
 weight (less 7 ounces) indicates how many points it heals.
 
+## Alchemical Formula
+
+A Phylactery of Flesh and Bone, Bound in Shadow and Thought (Alchemy Rank 9)
+
+Materials Required:
+- Bone of the Forsaken – Ivory from a beast that has never known a grave
+- Fibres of the Starved Mind – Thought Eater spinal filaments,
+  preserved in void-salt and spun together with the tendons of night
+  gaunts
+- Ectoplasm of the Lost 
+- Blood of the Maker – One drop, freely given
+- Ash of a Broken Hourglass 
+- Wax of the Nameless Candle – Taken from a shrine where no god is worshipped 
+
+The Process of Creation:
+
+Crafting the Skeletal Vessel
+: Shape ivory into a hollow reliquary in the shape of a
+skeleton. Engrave glyphs on the bone that preserve against rot and
+deny rest. The ivory must be soaked in grave-essence, the leavings of
+a corpse exhumed before it was forgotten.
+
+Spinning the Fibres of the Starved Mind
+: Weave the Fibres of the Starved Mind into a lattice within the
+reliquary, threading them through channels of bone like creeping
+veins. Let them drink from an infusion of whispered ink, made of
+ravens' tongues and monk-sealed secrets, to grant the vessel stolen
+voices.
+
+Crafting Fateless Life
+: Lay the Ash of a Broken Hourglass in a vessel of amber and set in
+inside the skull, ensuring the vessel is anchored in time yet outside
+of fate.
+
+Binding the Spirit’s Flesh
+: Slowly fold Ectoplasm of the Lost into the frame, letting it take the
+shape of withered flesh. The specters within will scream but will not
+escape. Let it harden under thirteen full moons, one of which must be
+blue.
+
+Sealing with Blood and Breath
+: Drip a single drop of your own blood into the phylactery’s heart,
+binding its will to your own. Speak this phrase: "Ut mortem fallam, ut
+vita taceat."
+
+The phylactery will awaken, hollow-eyed and knowing. It will move,
+breathe, and whisper, but it will not live.
+
+
+## Sienna
+
+Natural Habitat 
+: Arctic, Plains, Rural, Waste, Woods 
+
+Frequency 
+: Unique
+
+Number 
+: 1-2 (1) 
+
+Description 
+: Sienna is a Midsummer Fox about ten inches high at the shoulder, and
+  is Summer/Fire aspected. She weighs six pounds, and can vary the
+  colour of her fur black with fine silver traces that are only
+  visible under moonlight, to brown, orange or brownish red to
+  white. She gains +10 to Stealth, and a further +10 if in a natural
+  environment that supports her colouration.  She has an acute sense
+  of smell.
+
+Comments 
+: Sienna was born of a fox of Lyonesse and a vixen of Nualis. Her
+  plane of origin is always the same as the person she bonds to.
+
+Abilities 
+: Sienna may Cast Petit Mort upon herself at Rank 11, and this counts
+  as Racial Magic.  While under the influence of this magic, she is
+  dimly aware of her environment.
+
+She can Cast the Firelight spell by touching her target with her
+brush, and this will manifest as blue-green flames.  In addition to
+their normal effects, this fire will set fire to illusory objects
+which are supposed to be capable of burning.
+
+Movement Rates 
+: Running: 300
+
+----- ----  ------ ---  -----  ---  ---- ----   -----   ----------------
+PS: 	5 	MD: 	19 	AG: 	24 	MA: 	8 	EN: 7 	FT: 12 
+
+WP: 	18 	PC: 	12 	PB: 	14 	TMR: 	6 	NA: 	Fur absorbs 1 DP 
+----- ----  ------ ---  -----  ---  ---- ----   ----    ----------------
+
+
+Weapons 
+: Bite: BC 50%, [D - 2], Close, A Class damage, Rank 9, advances as a
+  dagger but can only deliver Specific Grievous injuries to creatures
+  that weigh less than three pounds.
+
+Brush
+: Sienna can Cast the Pyrotechnics spell from her brush which will
+  have the usual effects except that any entities in the volume of
+  effect will be dazzled until they take 1 Pass Action (+ l per 3
+  Ranks) to clear their vision. If they succeed, they need only take 1
+  Pass Action. She can move half her TMR while Preparing this spell
+  and half before, during or after Casting. This counts as Racial
+  magic but Special Knowledge Counterspells of the College of Fire
+  Magic apply to Resistance (only) and cannot prevent Casting.
+
+## Ritual of Binding a Midsummer Vixen
+
+Range
+: Touch
+
+Duration
+: Immediate
+
+Experience Multiple
+: 250
+
+Target
+: Entity
+
+Cast Time
+: 1 hour
+
+Material
+: 101 flies or similar
+
+Concentration Check
+: Standard
+
+Effects
+: The Adept may attempt to bind a midsummer vixen that will serve them
+  as a familiar. If the binding is successful, the Adept promises to
+  feed and protect the vixen.
+
+The Ritual confers no particular ability to communicate with
+it. however, these vixens are noted for their ability to swiftly pick
+up the language of those they associate with. If the Adept has a means
+of speaking with foxes, then they can instruct the vixen while if
+they’re within range.
+
+If the Adept fails to feed and look after it on a regular basis, or
+mistreats it in any way, it may run away. Otherwise, it will serve the
+Adept to the best of its ability, warning them of danger, and so
+forth. If it is killed, the Adept suffers [D + 5] points of damage in
+the form of a magical backlash. This damage may not be resisted.
+
+As the ritual is Ranked, the Adept and vixen gain abilities according
+to the following schedule:
+
+
+-----   ------------------------------------------------------------
+Rank	Effects
+
+0       The Adept acquires the vixen’s ability to sprint to safety, and so gains a Dash pool. For every Rank, including this, the Adept adds one to this pool. They may add 1/3rd of their pool, minimum 1, to their full TMR in a Pulse as a Free Act. The pool is fully restored at dusk.
+
+1       While it is bound to the Adept, the vixen is a legal target for the Raise Dead ability of a practitioner of the Healing art
+2	    The Adept may cast spells that target themselves on the vixen
+
+3       When worn as a fur, the vixen will improve the Adept’s effective PB by 1 for every three Ranks. This is a function of fashion and  style, not an actual change to their appearance, and is limited to their racial maximum
+
+4       The Adept may share the vixen's senses once a day. At this Rank, they may see through their eyes
+
+5       Uncanny Dodge - The Adept gains the ability to avoid a physical blow by Breaking 100 + the unmodified damage of the attack, adding the vixen’s AG + their own to the result. This is a Reflex Action but cannot be used when surprised. This ability resets at dusk.
+
+6       The Adept may draw upon the FT of the vixen to pay the FT cost of a spell or ritual. In addition, they can restore the vixen's FT at a rate of 2:1
+
+7       The Adept sense of smell increases which improves their ability to forage, identify and find plants and animals, track, locate and identify herbs. The Adept adds the vixen’s PC to these Base Chances.
+
+8       The Adept adds the vixen’s PC to the Detect Trap ability, if the Adept has the Thief Skill, and Detect Hidden if they have the Ranger Skill.
+
+9       The Adept shares the vixen's senses twice a day. At this Rank, they may see and hear what the vixen sees and hears
+
+10      The vixen can hold 1 spell matrix. This will not unrack unless the spell or incantation specifies that it will. The Adept must be in contact with the vixen to use the matrix
+
+11      While the vixen is worn as a fur, the Adept acquires a sense for danger, by Breaking 100 + PC + Rank of this ritual, causing the hair on the back of their neck to rise. No further information is provided
+
+12      The Adept may draw from their Dash pool to add up to 1/3rd to their half TMR movement in a Pulse as a Free Act
+
+13      The Adept gains a second Uncanny Dodge
+
+14      The Adept may share the vixen's senses three times a day, being able to smell as well as see and hear
+
+15      The Adept may draw from their Dash pool and use up to 1/3rd of it to move and attack without attracting a penalty to Strike Chance
+
+16      The Adept may, if they Break 100 and add the vixen’s PC to the result, find the nearest exit from an enclosed space
+
+17      While the vixen is worn as a fur, the Adept’s social status is increased  by one
+
+18      The Adept may draw from their Dash pool and use up to 1/3rd of it to move while executing a Defensive Withdrawal
+
+19      The Adept gains a third Uncanny Dodge
+
+20      The spell matrix becomes a spell lock, which the vixen can Cast on the Adept's behalf. This will not unrack unless specified by the spell or incantation
+-----   ------------------------------------------------------------
+
+## Herbs
+
+### Root of the Terpsichorean Angelica
+
+This purple root is vaguely carrot-shaped, crisp and very sweet. It
+grows in sunny prospects and requires regular watering, but is
+otherwise a generous companion and shares the space well with
+marigolds and beans. It requires the skills of a Herbalist of Rank 4
+to gather, and requires 10 hours of care a season, divided by the
+Herbalist's Rank. The least amount of time that must be spent
+cultivating it is 1 hour and if this maintenance time is not met or
+exceeded, it will wither and die.
+
+The root may be steeped in a bath of clear fig brandy and laid down by
+the autumnal equinox, and drawn no earlier than the next which will
+produce a number of tinctures equal to three + Herbalist Rank.
+
+If added to a meal or tisane, then whoever partakes increases their
+chance to perform a feat of dance by the Herbalist's Rank.
+
+### Phoenician Lavender
+
+This shrub has a bright purple flower is hardy, prefers arid, sandy
+soil and a sunny prospect. It needs a firm hand, else it will quickly
+overwhelm the garden. It requires the skills of a Herbalist of Rank 4
+to gather, and requires 18 hours of care a season, divided by the
+Herbalist's Rank. The least amount of time that must be spent
+cultivating it is 6 hours and if this maintenance time is not met or
+exceeded, it will spread like a weed and outcompete more delicate
+plants.
+
+### Phoenician Incense
+
+Into the cupped hands of a child of ten, pour enough lavender petals
+to fill completely. Leave to dry under eleven sunny days from an hour
+after dawn to an hour before dusk. Take sandalwood the size of a
+fuller's thumb and grind together with the petals in a malachite
+mortar with a diorite pestle until a fine powder is achieved. Stir in
+as much gum arabic to form a paste, and pour into molds in the shape
+of cones which is as deep as the least finger of a child of ten and
+perhaps half that wide. Set aside near a baker's oven from one Monday
+to the next. This is enough to make six cones.
+
+Upon lighting, the cone will burn for an hour and sweeten the air of a
+room as wide and as long as six strides of a lady of grace for another
+three. Any who rests in this environ will restore one FT additional
+per hour.
+
+### Variegated Thyme
+
+This ground covering, small-leafed herb has different coloured edges
+depending on the season - pale green for spring, blue green for
+summer, red for autumn and white for winer. It enjoys a sunny
+prospect, prefers dry soil and sparse watering. It is very delicate
+and spreads very slowly. It does not suffer companions and needs a
+stone border.It requires the skills of a Herbalist of Rank 4 to
+gather, and requires 24 hours of care a season, divided by the
+Herbalist's Rank. The least amount of time that must be spent
+cultivating it is 8 hours and if this maintenance time is not met or
+exceeded, it will wither and die.
+
+### Thyme of the Season
+
+Collect as many leaves and stems of the thyme that will fill the
+cupped hands of a child of ten at midnight of a solstice or
+equinox. On the next Wednesday, wash and dry them at dawn and leave to
+stand in a warm dark place until Thursday noon. Wrap in muslin with
+the skin of a lemon and three flowers of rosemary and direct a child
+of ten to roll gently for as long as a Herbalist can abide their
+complaints. Add to a round-bottomed flask of glass and pour over
+enough farigoule or white brandy to immerse the contents and seal
+it. Leave it in a cool, dark place for fifteen days from Friday,
+shaking it for fifteen minutes each day. On a Saturday, distil and
+capture the vapours in as many glass phials sealed in beeswax as the
+Herbalist has Ranks. Each phial must be kept in darkness for two
+seasonal festivals before it becomes effective.
+
+When a phial is broken it will release a transparent mist over the
+megahex, which will provide a seasonal bonus or penalty of 10 to the
+die roll depending on the aspect of those in the area and which will
+last for twelve Pulses.
+
+### Claret Sage
+
+This perennial has furred, dark red, aromatic leaves and thrives in
+warm, dry environments. They prefer mildly acidic or neutral soil of a
+sandy or loamy character. The soil must be well-drained and requires
+mulching with sand or gravel every season to keep the roots dry. It
+prefers deep shade and will suffer if exposed to direct sunlight. It
+requires the skills of a Herbalist of Rank 4 to gather, and requires 8
+hours of care a season, divided by the Herbalist's Rank. The least
+amount of time that must be spent cultivating it is 4 hours a season
+and if this maintenance time is not met or exceeded, it will wither
+and die.
+
+### Sachet of Claret Sage
+
+The flowers and leaves of this plant must be collected before the
+onset of winter and after the autumnal equinox, then bound into as
+many parchment sachets as the Herbalist has Ranks. These must be
+stored in a dark, cool place for at least a year.  When used as the
+material component for the spell of Healing (G-6) of the College of
+Earth Magic, there is no onset time and the healing effect is
+increased by the Herbalist's Rank.
+
+### Love Lies Bleeding
+
+This creeper has dark green vines and leaves, red petals with white
+stamens. It needs a sun-facing trellis, careful watering and a
+slightly acidic soil. It must be pruned with caution to avoid
+legginess. It requires the skills of a Herbalist of Rank 4 to gather,
+and requires 8 hours of care a season, divided by the Herbalist's
+Rank. The least amount of time that must be spent cultivating it is 4
+hours a season and if this maintenance time is not met or exceeded, it
+will wither and die.
+
+### Twinned Blooms
+
+Two cuttings must be taken from a single plant. The cuttings must be
+raised near two sentient entities who dwell in different
+locations. Each must bleed directly into the other's bloom, which will
+inflict three points of FT damage.
+
+Each bloom will survive without care unless one or the other entity
+dies, in which case both blooms will wither and die by the next
+occasion of noon.
+
 ## Ritual of Enchanting Crystals
 
 Range
@@ -1827,24 +1980,6 @@ Rk    Effect
 8     periodic catatonia, grand mal epilepsy
 9     permanent catatonic state, coma
 10    vegetative state
-
-## Loot
-
-- Storage Crystal
-- Crystal of Linking Senses
-- Wand of Mental Restoration
-
-## 2025-04-13
-
-- Void cruiser crashed and created the crater
-- Cresenti visited with abbey
-- Ended up in a fight
-- Eye of Discord was on the ship and betrayed Crescenti and escaped and released the demilich
-- Helen fien death (plain of origin is Isencare, permanent rank 60 trollskin)
-- Person is Dr Wormwood, says 'Look out for the mandikyte'
-- Search void cruiser
-- Break phalactery
-- Get +3 Sanity
 
 ## Crystal Wand of Linking Sense
 
@@ -2142,7 +2277,10 @@ that it is 15 feet long (+15 for every two Ranks) and 5 feet wide (+5
 feet per Rank)
 
 The trident can hold eight charges.
-8    7    6    5    4    3    2    1 
+
+--- --- --- --- --- --- --- ---
+8   7   6   5   4   3   2   1 
+--- --- --- --- --- --- --- ---
 
 If a spell of Gaseous Form is ritually cast into the trident, which
 will require the Adept add natrium to lamprey oil and stand well
@@ -2151,12 +2289,719 @@ as if the spell were Invested into a scroll.  The trident can hold
 three charges of this spell.  The user adds their MA bonus, any Aspect
 bonus and Enchantment to the Cast Chance, not the investors.
 
-3 2 1
+--- --- ---
+3   2   1
+--- --- ---
 
 Both processes are noisome, and require a laboratorium that is remote
 from decent folk, lest they take up arms for the remedy.
 
-# 2025-04-27
+## Green Pool
+
+Tulip has a pool that reflects her access to the Green, a wellspring
+of the mystic power of plants and creatures of the natural world. The
+DM may award her Green points for defending creatures and plants of
+the wild, the environment the passage of the seasons or when she
+undergoes a change that reflects the cycles of natural forces.
+
+* She may spend these points to override her normal physical limits or
+to manifest connections to beasts and plants.
+
+* She can spend Green to boost any of stats except FT and MA at a rate
+of one for one, but this will last only for a Pulse and is executed as
+a Reflex Action.
+
+* By taking a Free Act and spending 5 Green, she may employ a Feral
+Strike and subtract 10 from her Strike Chances, her Melee or Close
+damage being doubled for the rest of the Pulse.
+
+* She may make one (only) extra opportunity when attempting to escape
+from being held or grasped at a cost of one Green.
+
+* She may take a Pass Action and spend one Green to improve or worsen
+the reaction of a natural creature by ten, but this cannot modify a
+value lower than 05 or higher than 95. This also applies to results on
+the Fright Table.
+
+* She may take a Pass Action and spend three Green so that she is able
+to move at 1/3rd (truncating all fractions) of her TMR or movement
+rate when she casts Blending on herself.
+
+* All Green are are restored after Purifying on the next Dawn, however
+all unused Green are lost at midnight of the Equinox or Solstice end
+of season festivals.
+
+## Wild Pool
+
+Three Green may be converted into one Wild after Purifying.
+
+Wild represents untamed, primal power—deep instinct, animal cunning,
+or natural ferocity that lies beneath conscious action.
+
+* While her Wild pool is not empty, she subtracts 5 from the result of
+  any Herbalist or Ranger Check made in a natural environment.
+
+* At a cost of one Wild, Tulip may make one (only) additional attempt
+  to resist magic or Skill use that Fears, Calms, Controls, Compels,
+  Binds or Hypnotises her.
+
+* At a cost of one Wild, Tulip may invoke Cobra Strike and win
+  Initiative.  However, she can only use this when her opponent is
+  within her Melee or Close range and she is using natural weapons.
+  Cobra Strike is faster than any "automatically win initiative"
+  ability, except when executed by someone who also has it and has
+  more (MD + PC) as well.
+
+* Tulip may heal herself of damage, excluding the special damage of
+  Specific Grievous injuries, Drain and burns by spending up to three
+  Wild from dawn to dawn. If she spends one Wild, she may use it three
+  times over that period, each use restoring 1 rollup D8. If she uses
+  two Wild in one of her uses, she restores one rollup D8 + one rollup
+  D10. If she uses three Wild in one use for that period, she restores
+  one rollup D8 + one rollup D10 + one rollup D12. This is executed as
+  a Free Action.
+
+* Wild persists beyond the end of season festival, but is never
+  restored once spent.
+
+## Rod of the Void
+
+This slender rod weighs 2 lbs, and may be wielded as a mace.  It
+requires PS 12, MD 9 and has a base Strike Chance of 61%.  It inflicts
+2 rollup D10 and may be thrown ten hexes.  When not wielded as a
+weapon, it has the appearance of a decorative cane and its weapon
+characteristics will not be revealed by Detect Aura.
+
+* It inflicts one point of damage over five seconds to anyone holding
+  it as a consequence of contact with the Void. Creatures that are
+  older than the universe do not take this damage.
+
+* The Void is considered to be dimensionally proximate to the entity
+  wielding it.
+
+* It incrases the wielder's PB by 1 to racial maximum, but if they
+  have the distinctive appearance feature, it increases this by
+  fifteen.
+
+* Rank in Courtier is improved by one.
+
+
+## Baba Yaga's Pestle
+
+This heavy mace weighs 7 lbs, requires PS 22, MD 9 and has a base
+Strike Chance of 53%. It inflicts one rollup D10 + 5 C Class damage in
+melee.
+
+When it is thrown, the mass increases for every hex it passes through.
+Thus, for each hex it travels to its target, the damage increases by
+one rollup D10 to a maximum of 5 rollup D10.  Four more damage may be
+added for every 5 PS greater than 22, but bonuses from Warrior or
+Assassin do not apply.
+
+Once the Pestle has completed its movement, it returns to the wielder
+in an unreadied state.  The wielder rolls a D10 at the end of each
+Pulse, a 9 or 0 meaning it has become readied.
+
+## Baba Yaga's Mortar
+
+This marble mortar is seven inches in diameter and weighs 55 oz. Once
+a day, resetting at noon, and requiring the uttering of a Word of
+Power is uttered (Pass Action), it will grow to be five feet in
+diameter but with no appreciable increase in weight.
+ 
+It is a legal target for the Instilling Flight spell, improving the
+Base Chance by 10, and changing the duration to 30 minutes (+30
+minutes per Rank). So long as they maintain at least one hex of
+movement per Pulse, they may choose to move at their Tactical Movement
+Rate.
+
+Defence versus ranged or melee attacks from below is increased by 20,
+and Protection against these attacks is increased by 10.
+
+## Critical Key
+
+This bronze key is chased in silver and weighs 4 oz. If the wielder
+rolls fifteen per cent or less of their modified percentage chance to
+pick a lock, then it opens in a Pulse.
+
+## Potion of Longevity
+
+This transparent crystal phial contains a teal potion with swirls of
+pearl and weighs 3 oz. Drinking the potion reduces the imbiber's age
+by 1 rollup D12 years, to a minimum age of thirteen.  Taking a one of
+these potions subsequently requires a Break 100 + EN roll to avoid
+being poisoned. If they avoid being poisoned, then they may make
+another age reduction roll as described above.  Otherwise, they lose
+half their EN, which can only be recovered by Natural Healing, and no
+other Potions of Longevity will work for them.
+
+
+## Potion of Enhanced Restoration
+
+This transparent glass vial contains a grey-green potion with dark
+sparkles and weighs 2 oz. Drinking the potion terminattes the effects
+of any potion and restores sixteen FT lost from any cause. It does not
+cure poison beyond, perhaps, restoring lost FT.
+
+## Staff of the Woodland
+
+This oaken quarterstaff weighs 3 lbs, is shod with horn and living
+mistiletoe winds around its shaft. It has a base Strike Chance of 67%
+and base damage inflicts one rollup D10 + 5 C Class melee damage.
+
+* If the wielder has Rank 5 with this weapon, they may wield it one-handed.
+
+* If the wielder can advance this weapon to Rank 10, then the base damage inflicts two rollup D10 + 5. 
+
+* If it is wielded by a Druidic spell caster, then the Base Chance of Spells and Rituals they know are incresed by 10.
+
+###  Once a day
+
+* The wielder may take advantage of a woodland environment to conceal
+  their passage and as many others as they have Ranks in Ranger.  This
+  costs 1 FT per entity so concealed, and lasts for as many hours as
+  their Rank in Ranger, but does not reduce their overland movement
+  rate.
+
+* The wielder may assume the form of a sheltering rowan tree thirty
+  feet tall and with a canopy thirty feet across.  This will allow the
+  wielder to conceal those beneath their leaves by making a Stealth
+  roll.  Detect Aura will reveal that the wielder is not a tree.
+
+* The wielder may increase the Rank of a spell by two, which will
+  affect range, base chance and damage, only.  This requires a Free
+  Act.
+
+The staff is a legal target for the Investment Ritual when storing
+these spells:
+
+- Converse with Animals
+- Converse with Plants
+- Armour of Earth
+- Enchanting Plants
+- Wall of Thorns
+
+The total number of spells that can be stored in the staff is twelve
+and they cost as much as if they were invested in a scroll. In
+addition, they are triggered as a Magical Cast Action on their
+Unengaged Initiative. In addition, anyone who has the Investment
+Ritual and who has these spells may add store them in the staff.
+
+
+## Staff of the Python
+
+This redwood quarterstaff weighs 3 lbs and is shod with bronze. It has
+a base Strike Chance of 61% and base damage inflicts one rollup D10 +
+4 C Class melee damage.
+
+If the wielder has Rank 5 with this weapon, they may wield it
+one-handed.
+
+If the wielder rolls in the range of an A Class Specific Grievous
+injury then this is legal, as is a C Class Specifici Grievous injury.
+
+Once a day as a Pass Action, the wielder may throw the staff to the
+ground and it will become a massive python eleven yards long and under
+their control, which will act on its own Initiative Value.  It may be
+directed by the wielder as a Free Act, even return it to its staff
+form. If the snake dies, then the staff is shattered. Otherwise, it
+will be restored to full health the next time it is summoned,
+generally speaking.
+
+Movement Rate
+: Slithering 450, Climbing 200
+
+----- -------- ----- -------- ---------  ---------
+PS 50 MD None  AG 12 MA None  EN 30      FT 35
+
+WP 16 PC 18    PB 3  TMR 9/4  NA Scales  absorb 3
+----- -------- ----- -------- ---------  ---------
+
+Bite
+: BC 115%, D + 6, A Class, Max Rank 6, advances as Unarmed Combat
+
+Constrict
+: BC    140%, D + 8, C Class, Max Rank 6, advances as Lasso
+
+# Diary of Events
+
+## 2024-08-09: Start game
+
+- 20 × 20 Point Healing Potions (3 given out)
+- 20 × Rank 10 Restoritives [D−2]+10 (4 used)
+- 10 × Rank 12 Waters of Strength (1 used)
+- 11 Wafers (use 4)
+
+>In the shadowed realm where mortal woe and spectral might entwine,  
+>A tale of dark and light unfolds in the world’s bleakest design.  
+>Where ruthless fiends and holy men in fate’s grand stage do play,  
+>The next three moons will spin their threads in destiny’s display.
+
+>A wraith of dread with burning eyes, in torment’s guise arrayed,  
+>By darkened lord’s command doth seek the hearts of men betrayed.  
+>In lands where sorrow’s seeds are sown, where fear doth reign supreme,  
+>The fiend with cruel intent shall weave a harrowing dream.
+
+>In the murky depths of witchcraft’s art, a matron wise and bold,  
+>Foretold by agents three of yore, the tale of terror told.  
+>She sent forth those with secret aims, where fiendish shadows creep,  
+>To pierce the veil of devil’s schemes, where mortal souls do weep.
+
+>Yet far within the twilight’s grasp, a noble count remains,  
+>Whose life, though freed from serpent’s mark, bears past’s enduring chains.  
+>This count, with quest of balance bound, through hidden paths shall tread,  
+>May thwart the devil’s ruthless hand while soul debt he does shed.
+
+>A seer, veiled in mystic shroud, with visions deep and true,  
+>Hath seen an urgent embassy, a path of fate to view.  
+>This mission bears a humble quest to seek the noble’s aid,  
+>To glean what truths the count might hold, in the murk where shadows played.
+
+>In distant coasts where merchants plot, and schemes of power weave,  
+>An enterprising schemer stands, with papal ties to cleave.  
+>His cunning gaze on shifting tides, with alliances entwined,  
+>May steer the course of coming trials, with threads of fate aligned.
+
+>Thus, as the lunar cycles turn and shadows deepen still,  
+>The forces of the dark and light will clash with potent will.  
+>With every stride and hidden move, their fates entwine and twist,  
+>In the grand design of cosmic dance where none may long resist.
+
+>And so shall fate unroll its scroll, with twists both sharp and sly,  
+>Till ends are met and truths are known beneath the cosmic eye.  
+>In this tumultuous sphere of war, where mortal and divine,  
+>Will weave the strands of destiny, by cunning or design.
+
+- Lady Cerise
+- Lady Suneth
+
+- Give three healing potions for Magic Timer from Henry The Toymaker
+
+- Take route which includes Garden which found a herb once in lifetime
+
+- Go to Jiroth
+  * Temple of the Singing Bees
+
+- Head to Sura
+  * High priest can send messages
+
+- Head NE out of Sura
+- Find tracks of creature with bipedal with claws (Blue Devil)
+
+- Find alter dedicated the Beautiful Marquess
+- Ritual causes devil to become Chtonic (becomes part of the
+plane so cannot be banished).
+
+- Head to farm, find tracks of four people.
+
+- Get Taisman of Water
+
+- 6 Copper Nail (+3 targets for Sinking Doom)
+- 7 Omega horseshoes - Gem creation
+
+- 3 × 3D10! Healing potions
+- Wand - Can make an illusion real
+- Sedan chair with balista
+- Size 7 armour (cloth, quilted canvas) [5 points / 15 lbs if sized for human]
+
+- Staff from orge mage, can store a ray of cold which can be cast as a cone, can store gaseous form
+
+## 2024-09-22
+
+- Spend four days in Sura
+- Head down from Sura to the river plain
+- Stay in village, plenty of plums and nuts
+
+- Two days to Jesurea
+- City walls curve to follow the lie of the land, to follow the same vertical elevation
+- The gates are hinged
+- Spend time healing locals and purify at the alter
+- Learn "Wash wound" cantrip, currently at -30 penalty
+
+- Spend day travelling to Carchemish
+- There is some sort magic which alerts on scrying
+- There is a local garrison, originally a local militia but now have has a mercenery company
+- Mercenaries all wearing black metal scale mail
+- See a few people with banded metal armour
+- The three men are junior officers, on the rise, one of them is
+  caster, probably a Mind Mage
+- Increased monster presence on the roads
+- Roads that are well travelled pull in the Astral and many creatures avoid this (gorgons)
+- Gorgons have a bronze like metal on their bodies which can be worked but hard as steel
+- Creatures that have ITNs are to be avoided all at costs
+- Lamini can destroy willpower, target woman who can reproduce, then
+  children, can take form of snakes and can appear as an attractive
+  young women
+- Chimerae also along the road
+- Gain Sanity Pool with 1 point
+
+Road from Carchemish to Hurrian is 450 miles over rough terrain.
+
+- Travel ~300 miles and camp on the road
+- Encounter a Strix over night while camping
+- Hearing a tolling of a great bell at midnight
+- Find Speedwell, small blue flower, which is enchanced
+
+- Make a detour to Mount Ararat
+- Could Earthdoor to Mount Ararat within the Land of Nod
+
+- Head to Hurrian
+- Stay night in Hurrian
+- Cross the Mightnight sea to Al Mar'Heba and onto Aeaea.
+
+- Aeaea is a city is not walled (for Callas)
+- Lots of dyes and colourful cloth
+- Loom is 6 feet wide
+- The Crimson Sisterhood have a complex in the NE corner of the city
+- Speak to Lady Cencise
+
+- Comte de Versillac, using heart blood of a holy man and that
+abjured the Mark of Serpent from this brow
+
+- Get letter from Lady Cirese made out of satin for Jade Rain
+
+- Travel to Hurrian and via the Astral to Jeroth
+- Improve Rank of route though Lands of Chaos by 1
+- Reach House Kerberoth and then enter the Abyss
+
+- Travel though the Abyss and avoid an encounter with a shaggoth
+
+- Travel though the Abyss again to reach Jade Rain
+
+- Gain 4 points to Sanity pool
+
+- Returned to House Kerberoth
+
+- Lord of Demons turns up
+
+- Giovani Crecentia (servent of Eye of Discord)
+
+- Pope Sergius III
+
+- The Compte is looking for Sweet Regret and a chalise
+
+- Get an ivory plaque (15cm × 8cm) from Moonlight Sleeping on a Midnight Lake, which can be call him.
+
+- Only come on nights of the Full Moon, the Vineyard of the White Moon.
+
+- Give waybread to Sir Andrew
+
+- Meet Guiseppe Biati
+
+- Get Beauty Pool and add 2 point
+
+## 2024-11-16
+
+- Given wine that has captured some time so extends the period of enjoyment
+
+- Sea of White northern Siberia
+
+- Travel for 7 days heading towards Archangel
+
+- Enter middlemarch known as the 3rd Heaven
+
+- People in Archangel have had some contact with drow
+
+- There are five bays to east and three to the west
+
+- Winter pine, needles store summer
+
+- Memory of Tiamat that apposes things that belong here
+
+## 2024-11-24
+
+- Retrieve a Silmaril 
+
+- Return to Versilliac
+
+- Head to Venice
+
+- Sail to Alexandria
+
+## 2024-12-01
+
+- Gain 4 Sanity points
+
+- 3 points of Sanity convert to 1 point of Clarity
+
+- Use Waybread
+
+- WP: 22 → 23 (5000)
+- FT: 50 → 51 (2500)
+- Resist pain: 15 → 16 (4800)
+- Ranger: 6 → 7 (1 week)
+
+### Green Cloak
+
+Green Cloak: Mottled green cloak of spider silk. Protection D+5 to EN
+and FT physical damage (stacks with any non-magical armour). +15
+stealth in green areas.
+
+- Gain 1 Sanity
+- Encounter a group of Poor Clares
+
+- Use Waters of Strength (+15)
+
+## 2024-12-08
+
+- +1 Sanity
+- −1 Sanity (sacrificed)
+
+## 2024-12-15
+
+- Black Libraries are connected to White Towers
+- There is a White Tower in London
+- Black Libraries have an Astral presence
+- Head to the Library
+- Building blocky
+- Learn Gem Creation Spell [S-6]
+- Learn Creation of Crystal of Vision Ritual
+- Get additional FT (starting at 5) track in the Heart for Light and Soul
+
+## 2025-01-05
+
+- Gain 5 sanity points
+
+## 2025-01-12
+
+- Use restoritive
+- Get quill
+
+## 2025-01-19
+
+- Sybil is in Campagnia
+- A great curse and a worm passed through the catacombs
+- Serpent escaped and could take the shape of swarm of eels
+- Nephilm don't know if the Vatic Oracle is there
+- Catacombs a kind of middlemarch
+- Spent four days exploring catacombs
+- Find the Cave of the Sibyl in Cumae
+- Place occupied by Dominicans (black robes with white sleaves)
+- Up to 12 monks in place
+- Group of women doing cleaning
+
+- Return to cave and 5 of the monks armoured up
+
+- Kill 5 martial monks and send 7 to Alusia
+
+- Require a Mirror of Cyprian (on Cyprus)
+- Needs the Face of Janus in it
+- Get the Oracle's reflection in the catacombs
+- Get 5 sets of Black Bronze chainmail
+
+- Travel by boat to Palemo (1 day)
+- Travel overland to Catania
+- Travel by boat to Paphos (10 days)
+
+- Gain +2 Sanity
+
+## 2025-01-26
+
+- Local lord is Federick Plantagenat
+- Travel to Mount Olympus
+- Find monastary
+- Was a possible sorceror called Cyprian here, seven years ago, said to gone to Constantapole
+- Alter is an astral gate, stronger than construct, less than sentient, colour is agriculture, dedicated to Terodicus
+- Gain 10% chance of reducing FT cost of spell by 1
+- Asterism associated is associated with corudum
+- Learn ritual of Blessing of Crops & Livestock, cost 250 EP
+- Learn of form of Diamond Weapon, peneration reduces armour, can add PS if swinging weapon, cost 1000 EP
+- Learn Spell of Dearform, travel spell, cost 250 EP
+- Hyena sent against us by the Great Beast Dog
+
+- Spend another night at monastary
+
+- Return to Temple
+
+- Gain +4 Sanity
+
+## 2025-02-02
+
+- Find alter to Eros, associated with Will
+- Head to Saint Andrew via the Astral
+- Travel overland to Ravenna
+- Find space in the city where something is missing, an octagonal space
+- Locate astral gate nearby
+
+>The twisted sister of Arachne lies in wait,  
+>beyond the golden serpent attends it on the shores of the whites sea,  
+>beware its burning eyes and breath of flame for he knoweth the lay of your mind and can bend it by hs song,  
+>he is hiding in the memories of the people that live there and can be called forth by his name
+
+## 2025-02-09
+
+- Get two extra moths of January
+- Thief: 1 → 2 (2 weeks, 1050 EP)
+- Ranger: 6 → 7 (2 weeks)
+- Stealth: 2 → 5 (no time, 6000 EP)
+- Hind: 0 → 9 (11250 EP, 45 days)
+- Gaze: 0 → 6 (6300 EP, no time)
+- AG: 19 → 20 (5000 EP, no time)
+- Tracking: 7 → 12 (5000 EP, 50 days)
+
+- Tunnel under the janusite passages
+- Find a ossuary with corpses (skeletons), undead because there spirits have been ripped out but they are still connected to their soul
+- Use healer to "resurrect" the corpses to release them
+- Can advance to Rank 8 Healer
+
+- Find Astral gate into the Underworld
+- Reseal the chamber
+- Can see into the Underworld
+- Find a couple of copper scroll (have incantations) and some stone
+
+- Find toad hole: EP 125
+
+
+- The mirror is a kind of wine cup
+
+- Head to Rome
+- Name is recorded and we are scryed
+- Earthdoor into catacombes
+- Call forth Janus
+- Give him a waybread
+
+- Use Waybread
+- Use Waybread
+
+- Inside a Teal coloured Shiffon, Foxhair
+- +3 sanity points
+
+## 2025-02-23
+
+- Return to the half nephil
+- Call forth the Vatic Oracle (call Mario)
+
+- The Compte might be able to return the Red Laughter to Hell
+- Niccolo Machiavelli is the name of the Eye of Discord
+- Has control over Fate (which guides mortals) rather than Destiny (whihc guides immortals)
+- Middlemarch east of 3rd Heaven to Lyonese
+- Dragon in the south of France
+- Be'armolomandt on the White Sea
+- End of Great Amber Road
+
+- End day 2 in Vienna
+- End day 3 in Poland
+
+- 6 Frost giants
+- 24 polar bears
+- 2 ice elementals
+- 12 pale dwarfs
+
+## 2025-03-02
+
+- Got kicked by giants
+
+## 2025-03-09
+
+- Heal up 5 miles away
+- Earthdoor another 10 miles away
+- Use Waybread
+- Ride around Antanai
+- Reach St Petersburg
+- Reach Archangelsk
+- Find middlemarch that deflects divination, tied to an ITN
+- Find middlemarch that have been piled up
+- Gain +4 Sanity
+
+## 2025-03-16
+
+- No polarbear or wolve attacks this winter
+- Head week east then three days south to reach a ghost forest
+- Find two incantations, one of Smoking Magma, Summon and Control Earth Element and Earthdoor
+- Turf finds an ITN of a beast (Zmey Gorynych)
+
+- Spend 3 days learning Incantation
+- Sacrifice 1 PC (25 → 24) near Novaya
+- PC: 24 → 25 (750 EP)
+- Attacked by polarbear, three pale dwarfs and a single frost giant
+- Three war picks (ranks as a pick but can be used in close)
+- Three sets of chitenous armour
+- A bear worth of food
+- Pipe & pouch of tobaco
+- Fidget thingy made of 11 balls of ice
+- Giant axe (3D10 + step 37)
+- Use waybeard
+
+- Travel 4 days
+- Follow stream eastward then south
+- Forest is in a deep valley that is warmer
+- Place is an impact crater
+- Gain +2 Sanity
+
+## 2025-03-23
+
+- Take Waters of Strength (+13)
+- Trigger Enhance
+- Use restorative
+- +5 Sanity points
+- Use 4 sanity
+- See via Crystal of Vision a demilich
+
+## 2025-03-28
+
+>From hollow sockets, midnight tendrils blaze,  
+>Black beams that feast on light’s forsaken breath.  
+>Each photon turned to force, a dire malaise,  
+>That drags the living toward their clutching death.
+
+>No shield deflects the weight of ceaseless dark,  
+>No armor bends the spectral fingers back.  
+>Momentum steals the step, the limbs grow stark,  
+>As flesh and fate dissolve in onyx wrack.
+
+>Yet deathless lords have secrets bound in bone,  
+>A whispered name upon a phylact’ry sealed.  
+>Destroy the soul within—by fire or stone—  
+>And watch the eldritch horror’s power yield.
+
+>So strike the heart it keeps in crypts unseen,  
+>Lest shadow’s grasp make dust of what has been.
+
+## 2025-04-06
+
+# 2025-04-06
+
+- Kill demilich
+- Get two baltic amber eyes
+- 21 brothers and 3 mind flayers in the teeth
+- Use charge of storm orb
+- Lost 24 FT permanently but restored from destroyed teeth
+- Find scrolls from monks and mind flayers
+- +5 sanity
+
+- Travel back to Archangel
+- Sacrifice 1 PC (25 → 24)
+- PC: 24 → 25 (750 EP)
+
+- Stone wall is Bound Earth
+- Use Waters of Strength +18 PS
+
+>Gilded in flame, he coils through the night,  
+>Lurking where shadow devours the light.  
+>A whisper of doom in a dreamer’s breath,  
+>Unwinds the sweet thread that leads into death.  
+>Rising in silence, unseen by the eyes,  
+>Under the skin, he spins whispered lies.  
+>Neither sword nor strong will can break his spell,  
+>Ghosts heed his call from where secrets dwell
+
+- Storage Crystal
+- Crystal of Linking Senses
+- Wand of Mental Restoration
+
+## 2025-04-13
+
+- Void cruiser crashed and created the crater
+- Cresenti visited with abbey
+- Ended up in a fight
+- Eye of Discord was on the ship and betrayed Crescenti and escaped and released the demilich
+- Helen fien death (plain of origin is Isencare, permanent rank 60 trollskin)
+- Person is Dr Wormwood, says 'Look out for the mandikyte'
+- Search void cruiser
+- Break phalactery
+- Get +3 Sanity
+
+## 2025-04-27
 
 - Go to area where middlemarches are converging
 
@@ -2201,7 +3046,7 @@ from decent folk, lest they take up arms for the remedy.
 
 - Gain 5 Sanity points
 
-# 2025-05-04
+## 2025-05-04
 
 - Return to Novaya
 - Hear stories about magical white bulls and a magestic white bird
@@ -2222,4 +3067,73 @@ from decent folk, lest they take up arms for the remedy.
 - Attacked by a witch's hut
 - +3 Sanity
 
+## 2025-05-11
 
+- Use Wild Hunt to chase the Hut
+- Capture Hut, long lived sentient
+- Staff of the Woodlands
+- Staff of the Python
+- Rod that opens into the void
+- Candle of the Deep
+- Blue gem (Great Sapphire shard)
+- Yellow gem (Topacious Stone)
+- Cloak of Many Fashions
+- Spent PC by where the hut was killed
+- Use waybread
+- Get to witch
+- Her bones are black bronze
+- Potion (×3) [3d10!+8 healing, potion of longevity [1d6+6 years], enchanced potion of restorative and also stopped poison, restores 16 fatigue]
+- Key with a question mark worked into the head, can open any lock in a pulse (5% chance)
+- Find two rings, an amulet and blue pearl (lets you immediately recast the last spell, costs 36000sp to make into a pin)
+- Amulet has a figure of a raven, can be used one every two days
+- Ring of Wound Closure (doubles around of natual healing, stops bleeding out if below 0 EN)
+- Ring of Water Walking
+- Mortar is a target to Install Flight spell with 10% bonus and control the speed, 12 points of protection from attacks from below
+- The pestle can be thrown as a mace
+
+- Travel another 3 days and reach a basement
+- Find a black sapphire 
+- Find another gem
+- Find universal solvent (a two part potion)
+- Find seedling trays
+
+- +2 Sanity
+
+## 2025-05-18
+
+- Get Staff of the Woodlands
+- Get Great Sapphire
+- Earth Door back to Novoya
+- Ride back along the road towards the forest
+- Find merchants, who were attacked by three packs of wolves
+- Return to St Petersburg
+- Return to Arkangel and everything has been destroyed
+- Spend 1 Clarity point
+- Go to point of where middlemarches are intersecting and the plane is unweaving
+- Call Mandos
+- Currently Monday, the big U will turn up by Friday
+- Balrog is Big G's breath weapon
+- There is an Eye related ally of the big G
+- The Great Bear is near
+- Head three hours away
+- +3 Sanity
+
+## 2025-05-25
+
+- FT: 51 -> 52
+- MA: 22 -> 23
+- Create two investments (Wall of Stone, Rank 12)
+
+## 2025-06-01
+
+- Use restorative
+- Play Butler
+
+## 2025-06-08
+
+- Use Foxglove
+- Special crystal
+- Great Axe
+- Sword
+- Sword
+- Rod

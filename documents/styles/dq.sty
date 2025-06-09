@@ -27,6 +27,10 @@
   \RequirePackage{fontspec}
 \fi
 
+\ifluatex
+  \RequirePackage{fontspec}
+\fi
+
 \typeout{DQ Rules style sheet, version 1.0 <9 Apr 2024>}
 
 %% \RequirePackage{libertine}
@@ -83,7 +87,6 @@
 }
 
 \ProcessOptions
-
 
 \renewcommand{\scriptsize}{\fontfamily{\rmdefault}\fontsize{6}{7pt}\selectfont}
 \renewcommand{\small}{\fontfamily{\rmdefault}\fontsize{7}{8pt}\selectfont}
@@ -257,17 +260,19 @@
 
 \ifxetex
   \typeout{Using XeTeX}
-\else
-  \ifpdf
+\else\ifluatex
+  \typeout{Using LuaTeX}
+\else\ifpdf
     \typeout{Using PDF driver}
     \renewcommand{\rmdefault}{ptm}
     \renewcommand{\sfdefault}{phv}
     \renewcommand{\ttdefault}{pcr}
-  \else
+\else
      \typeout{Using DVI driver}
   \fi
 \fi
-  
+\fi
+
 \renewcommand{\thisday}{\fontsize{8}{9pt}\selectfont{\MakeUppercase{\today}}}
 \lhead[\fancyplain{}{\fontsize{8}{9pt}\selectfont\rightmark}]{\fancyplain{}{\thisday}}
 \rhead[\fancyplain{}{\thisday}]{\fancyplain{}{\fontsize{8}{9pt}\selectfont\rightmark}}
@@ -321,7 +326,7 @@
 \newenvironment{inset}[2]{\def\inset@env{#2}\begin{\inset@env}#1}{\end{\inset@env}}
 
 \ifpdf
-  \RequirePackage[pdftex]{graphicx}
+  \RequirePackage{graphicx}
   \newcommand{\coverpic}{\vspace{2em}\includegraphics[viewport=0 0 310 307,clip]{pics/cover.pdf}}
 \else
   \RequirePackage[dvips]{graphicx}

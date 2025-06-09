@@ -35,7 +35,8 @@ life force from the living of this plane.
 
 <monster name="Ghost">
 
-<details><habitat> Where human beings may be found.
+<details>
+<habitat> Where human beings may be found.
 <frequency> Uncommon
 <number> 1–36 (1)
 
@@ -91,7 +92,8 @@ been soln,ed, they are laid to rest and immediately dissipate.
 
 <monster name="Ghoul">
 
-<details><habitat> Crypts, Ruins, Fields
+<details>
+<habitat> Crypts, Ruins, Fields
 <frequency> Uncommon
 <number>   3–30 (6)
 
@@ -146,7 +148,8 @@ be returned to life.
 
 <monster name="Skeleton">
 
-<details><habitat>Any habitat where humans are found.
+<details>
+<habitat>Any habitat where humans are found.
 <frequency>Rare
 <number>3–12 (6)
 
@@ -283,7 +286,8 @@ noncorporeal form.
 
 <monster name="Vampire">
 
-<details><habitat> Wherever men are found. They make their homc in Caverns,
+<details>
+<habitat> Wherever men are found. They make their homc in Caverns,
 Ruins and Crypts, however, and are most likely to be found there.
 
 <frequency> Very Rare
@@ -490,7 +494,6 @@ night gaunts under the wight's control are also destroyed.
 <habitat> Fields, Crypts, Graveyards, Ruins, Caverns
 <frequency> Uncommon
 <number> 1–10 (l)
-
 
 <description> A wraith is much like a wight in that he appears human
 and tends to wax and wane insubstantial. However, a wraith dissipates

@@ -100,6 +100,9 @@
   	    "Glassblower" : {
 		"_artisan_" : 1
 	    },
+	    "Lapidary" : {
+		"_artisan_": 1
+	    },
   	    "Vinter" : {
 		"_artisan_" : 1
 	    },

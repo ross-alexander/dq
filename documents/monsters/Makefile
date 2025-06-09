@@ -1,4 +1,4 @@
-.suffix: .pdf .fo .tex .html .xml
+.suffix: .pdf .fo .tex .html .xml .ltx
 
 LATEX	= lualatex
 SX	= osx
@@ -20,6 +20,9 @@ LDLIBS	= `pkg-config --libs libxml-2.0 libxslt`
 %.xml : %.sgml dqmm.dtd xml/general
 	./sgmlcvt --format xml $< $@
 
+#%.tex : %.xml xml2j2.py dqmm.j2
+#	./xml2j2.py -i $< -o $@
+
 SOURCE = avians.sgml \
 	aquatics.sgml \
 	common-mammals.sgml \
@@ -36,8 +39,14 @@ SOURCE = avians.sgml \
 HTML = $(SOURCE:.sgml=.html)
 TEX = $(SOURCE:.sgml=.tex)
 XML = $(SOURCE:.sgml=.xml)
+LTX = $(XML:.xml=.ltx)
 
-all: dqmm.pdf $(HTML) $(XML) $(TEX)
+all: dqmm.pdf $(HTML) $(XML) $(TEX) $(LTX)
+
+print:
+	@echo $(LTX)
+	@echo $(HTML)
+	@echo $(XML)
 
 xslt.o : xslt.c
 

@@ -1,10 +1,10 @@
-<dqmm>		+
-</dqmm>		+
+<dqmm>		
+</dqmm>		
 
-<group>		+ "\\begin{mmgroup}{[NAME]}\n\n" +
-</group>	+ "\\end{mmgroup}\n\n"
+<group>		+ "\\begin{mmgroup}{[NAME]}" +
+</group>	+ "\\end{mmgroup}" +
 
-<class>		+ "\n\\subsection{[NAME]}" +
+<class>		+ "\\subsection{[NAME]}" +
 </class>	+
 
 <monster>	+ "\n\\subsubsection{[NAME]}" +
@@ -53,5 +53,9 @@
 <na>		+ "\\textbf{NA:} "
 </na>		+ "\\\\\n"
 </stats>	+ "\\end{mmstats}\n" +
-<comments>	+ "\n\\begin{mmcomment}\n"
-</comments>	+ "\n\\end{mmcomment}\n" +
+<comments>	+ "\n\\begin{mmcomment}\n" +
+</comments>	+ "\\end{mmcomment}\n" +
+
+<itemize>       + "\\begin{itemize}" +
+</itemize>      + "\\end{itemize}" +
+<item>          + "\\item" +

@@ -1,16 +1,20 @@
+\BLOCK{if standalone}
 \documentclass[a4paper]{article}
 
-\usepackage{dqmm}
+\usepackage{dqmm}  %# Use custom stylesheet
 
 \begin{document}
+\BLOCK{endif}
+\BLOCK{if 'dqmm' in monster}
+%% set dqmm = monster.dqmm
+\begin{mmgroup}{\VAR{dqmm.group['@name']}} %# Use mmqgroup environment for multicols
 
-\begin{mmgroup}{\VAR{dqmm.group['@name']}}
-
-\BLOCK{for class in dqmm.group.class}
+\BLOCK{for class in dqmm.group.class} %# Loop over list of class elements
 \subsection{\VAR{class['@name']}}
 \VAR{class.notes}
 \BLOCK{for monster in class.monster}
 \subsubsection{\VAR{monster['@name']}}
+\BLOCK{if 'details' in monster}
 \begin{description}
 \item[Natual Habitat] \VAR{monster.details.habitat}
 \item[Number] \VAR{monster.details.number}
@@ -19,6 +23,8 @@
 \item[Weapons] \VAR{monster.details.weapons|replace("%", "\\%")}
 \item[Movement Rate] \VAR{monster.details.movement}
 \end{description}
+\BLOCK{endif}
+\BLOCK{if 'stats' in monster}
 \begin{mmstats}{}
 \textbf{PS:} \VAR{monster.stats.ps} &
 \textbf{MD:} \VAR{monster.stats.md} &
@@ -34,6 +40,7 @@
 \textbf{TMR:} \VAR{monster.stats.tmr} &
 \textbf{NA:} \VAR{monster.stats.na} \\
 \end{mmstats}
+\BLOCK{endif}
 \BLOCK{if monster.comments}
 \begin{mmcomment}
 \VAR{monster.comments}
@@ -42,5 +49,60 @@
 \BLOCK{endfor}
 \BLOCK{endfor}
 \end{mmgroup}
+\BLOCK{endif}
 
+\BLOCK{if 'demons' in monster}
+%% set demons = monster.demons
+\begin{mmgroup}{\VAR{demons.group['@name']}} %# Use mmqgroup environment for multicols
+
+\BLOCK{for class in demons.group.class} %# Loop over list of class elements
+\subsection{\VAR{class['@name']}}
+\VAR{class.notes}
+
+\BLOCK{for demon in class.demon}
+\subsubsection{\VAR{demon['@name']} (\VAR{demon['@title']})}
+\BLOCK{if 'details' in demon}
+%% set details = demon.details
+\begin{description}
+\item[Base Chance] \VAR{details.bc|replace("%", "\\%")}
+\item[Lesser Spirits] \VAR{details.lesser|replace("%", "\\%")}
+\item[Natual Habitat] \VAR{details.habitat}
+\item[Number] \VAR{details.number}
+\item[Description] \VAR{details.description|replace("%", "\\%")}
+\item[Talents, Skills and Magic] \VAR{details.talents|replace("%", "\\%")}
+\item[Weapons] \VAR{details.weapons|replace("%", "\\%")}
+\item[Movement Rate] \VAR{details.movement}
+\end{description}
+
+\BLOCK{if 'stats' in demon}
+%% set stats = demon.stats
+\begin{mmstats}{}
+\textbf{PS:} \VAR{stats.ps} &
+\textbf{MD:} \VAR{stats.md} &
+\textbf{AG:} \VAR{stats.ag} &
+\textbf{MA:} \VAR{stats.ma} \\
+
+\textbf{EN:} \VAR{stats.en} &
+\textbf{FT:} \VAR{stats.ft} &
+\textbf{WP:} \VAR{stats.wp} &
+\textbf{PC:} \VAR{stats.pc} \\
+
+\textbf{PB:} \VAR{stats.pb} &
+\textbf{TMR:} \VAR{stats.tmr} &
+\textbf{NA:} \VAR{stats.na} \\
+\end{mmstats}
+\BLOCK{endif}
+\BLOCK{if demon.comments}
+\begin{mmcomment}
+\VAR{demon.comments}
+\end{mmcomment}
+\BLOCK{endif}
+
+\BLOCK{endif}
+\BLOCK{endfor}
+\BLOCK{endfor}
+\end{mmgroup}
+\BLOCK{endif}
+\BLOCK{if standalone}
 \end{document}
+\BLOCK{endif}
