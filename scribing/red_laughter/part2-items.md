@@ -1591,7 +1591,7 @@ the following properties:
 - Reduces damage by 1 point except versus Disruption, Putrid Wound,
   Necrosis, Torment, venom or similar.
 - If the wearer is the target of a Defence spell, it increases that
-  Defence by another 7
+  Defence by another 7.
 - The calculation for bonus to Magical Aptitude from Purification
   becomes 1 per four Ranks not 1 per five and 1 extra Magic Resistance
   for every four Ranks.
@@ -1847,7 +1847,7 @@ forcing them into the target's heart, which will bring them back to
 life. The injection must be administered within 24 hours after death
 or it does not function at all. Further, for each hour that elapses
 after death(minimum one), the patient suffers 1 point of drain from
-each Primary Characteristic and Fatigue. This loss can only be
+each Primary Characteristic and Fatigue.  This loss can only be
 restored by Natural Recovery (one point every three days of rest).
 
 Further, the injection does not heal wounds, neutralize poisons, or
@@ -2799,6 +2799,41 @@ the Moon, but it will only hold 1. If they sacrifice 2,500 Experience
 to the cartum, they may increase it to 2, but this can only be done
 once per season or adventure, whichever is the least, and the cost
 doubles each time.  Incantations
+
+## Smoking Magma - Pyrotechnics
+
+Range
+: 60 feet + 10 / Rank
+
+Duration
+: Immediate
+
+Resist
+: Passive
+
+Target
+: Volume
+
+Effects
+: This spell may be mistaken for a Fireball. The Adept conjures a ball
+  of lava 1 foot in diameter which rushes to a point in line of sight
+  of the Adept, and bursts in a radius of 5 foot (+ 5 / 5 or fraction
+  Ranks) with an enormous flash of light and fireworks. Any entity in
+  this radius who can see is dazzled by the flash for 1 Pass
+  Action. If an entity fails to Resist, + 1 / 5 Ranks more Pass
+  Actions are required. Dazzled entities have their strike chances,
+  cast chances and perception checks reduced by 1 (+ 2 /
+  Rank). Entities without normal vision (e.g. Undead) are unaffected
+  by Pyrotechnics.
+
+Cost
+: 2,000
+
+Constraints
+: Unracks the spell, reduces FT value by 2.
+
+This incantation is not teachable.
+
 
 ## Smoking Magma - Pyroclastic Spray
 

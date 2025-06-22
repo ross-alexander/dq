@@ -611,3 +611,15 @@ abjured the Mark of Serpent from this brow
 - Sword
 - Rod
 - +7 Sanity
+
+## 2025-06-22
+
+- Barette of Naphil Threads
+- 4500sp in gems
+- Dragon's Teeth (31)
+- Balrog Eye
+- The Plague of Midnight
+- Scale of Glaurung (5)
+- Knitted Mithril Chain
+- 90 weeks
+
