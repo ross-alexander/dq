@@ -1,6 +1,6 @@
 ---
 title: Callas items
-date: March 21, 2024
+date: June 23, 2025
 table-of-contents: true
 numbersections: true
 ---
@@ -39,14 +39,6 @@ next blow their dice roll is reduced by 1 (up to five points).  BC:
 50% DM +4
 
 
-## Master-crafted Shield
-
-This Large Round Shield has been superbly crafted by a Rank 14
-Weaponsmith from Granite Peak dwarven hold so that it has no negative
-modifier to MD when prepared.  It has been customized for Callas and
-in anyone else's hands it will incur a penalty of -2 MD.  The shield
-boss has been fashioned in the likeness of a stylised Dwarven face.
-
 ## Master-crafted Sabre
 
 This trusilver Sabre has been superbly crafted by a Rank 15
@@ -58,6 +50,14 @@ Hold" inlaid in mithril runes on the blade.
 ## Short Sword
 
 Rank 10 Weaponsmithed, +5% +1Dm, Silvered.
+
+## Master-crafted Shield
+
+This Large Round Shield has been superbly crafted by a Rank 14
+Weaponsmith from Granite Peak dwarven hold so that it has no negative
+modifier to MD when prepared.  It has been customized for Callas and
+in anyone else's hands it will incur a penalty of -2 MD.  The shield
+boss has been fashioned in the likeness of a stylised Dwarven face.
 
 ## Shield of Disruption
 
@@ -213,15 +213,14 @@ Weapon Resistance
 : Reduces damage from Sword-category weapons by 3
 
 Limitations
-:
-- Offers no protection against damage that propagates over a volume or Gaze attacks.
-- Has no beneficial effect when worn beneath leather or metal armour.
+ ~ Offers no protection against damage that propagates over a volume or Gaze attacks.
+ ~ Has no beneficial effect when worn beneath leather or metal armour.
 
 Layering Rules
-:
-The magic of the Shirt of Mithil Chain may stack with:
-- Either a cloak or coat (not both),
-- And a jacket.
+: The magic of the Shirt of Mithil Chain may stack with:
+
+ - Either a cloak or coat (not both),
+ - And a jacket.
 
 In other words
 : it may be worn with a jacket and either a cloak or a coat — but not
@@ -235,6 +234,7 @@ Additionally, if the wearer has not already reached or exceeded their
 racial Agility maximum, they may increase their Agility by 1 point (a
 total of 6 more than they started with) and no more than 1 greater
 than their racial maximum. They must fulfill the following:
+
 - Spend 10,000 Experience
 - Wear the Shirt
 
@@ -705,7 +705,7 @@ employment with this master for as many encounters as twice the
 character's combined ranks of Courtier and Social Status.  The Butler
 then seeks employment elsewhere.  Encourgement by the Butler
 temporarily increases Willpower by 3 for the duration of the
-encounter.  [Used twice].
+encounter.  [Used 3].
 
 Monologue.  A character using this cad can stay action (including
 combat) for as long as they can effectively speak (save vs 1 ×
