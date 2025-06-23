@@ -38,6 +38,14 @@ endurance damage to the wielder.
 Changes:
 1
 
+## Tarsik Bone Rapier
+
+Rank 10 (D+6) with Rank 20 Spectral Weapon (7,000 sp)
+
+## Tarsik Bone Main Gauche
+
+Rank 10 (D+4) with Rank 20 Spectral Weapon (4,000 sp)
+
 
 ## Main Gauche
 
@@ -101,6 +109,59 @@ take a Rank 10 armour-smith 4 hours (and cost 55sp) to adjust the fit.
 
 # Standard Items
 
+## Mass Fear Invented
+
+3 × 1 Mass Fear Invested Rk 8 BC 85                      8,000
+
+## Damnum Minatum Dust
+
+3 Damnum Minatum Dust - Deafness, Cowardness (-3 WP & +5 Fright/Awe
+rolls) and Wasting Disease (Wasting disease causes -1 Strength and -1
+Endurance per day until stopped by Cure Disease.  The Strength and
+Endurance lost will be recovered at 1 point per day, or treated by
+Repair Muscles.  5,000
+
+## Walk Unseen Potion
+
+4 Walk Unseen Potion Rank 10                          4,000
+
+## Restorative
+
+10 Gut Busters Rank 10 (-12EN and 24FT)                    10,000
+
+## Sleep Dust
+
+1 Sleep Dust Rank 10 Can't be woken                      5,000
+
+## Oil of Enchant Weapon
+
+7 Oil of Enchant Weapon Rk 10 (+11% +4 Dm)                  7,000
+
+## Oil of Enchant Armour
+
+1 Oil of Enchant Armour Rk 10 (+22 DEF)                      1,000
+
+## Mass Fear Trap
+
+1 Rank 1 Mass Fear Trap Rg 25                          1,000
+
+## Waters of Healing
+
+4 Waters of Healing  15 Points                          4,000
+
+## Healing Potion
+
+6 Healing 10 Point                                  5,500
+
+## Healing Potion
+
+3 Healing 20 Point                                  6,000
+
+## Healing Potion
+
+1 Healing 40 Point                                  4,000
+
+
 ## Wiccan Amulet of aquilegius
 
 Powers
@@ -128,6 +189,38 @@ GM
 ## Crystal of Vision
 
 This is a standard Rank 6 Crystal of Vision.
+
+## Potions
+- 5 × R9 Creating Restorative (S-9) potions
+- 5 × R12 Waters of Healing (S-11)
+
+Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff
+Catnappering Caper – Summer 820
+
+## Wind walk (×5)
+
+This is a rank 1 Wind Walking (S-17) with a BC of 65%.
+
+Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff
+Catnappering Caper – Summer 820
+
+## Boom stick (×3)
+
+This 1 inch rod has a button flush to the top, when the button is
+pressed it triggers a R1 lightning bolt in the direction it is
+pointed.  A dial on the base of the rod may be tuned to delay the
+triggering of the spell, from 0 – 7 pulses.  Manufactured by a rank
+R10 Mechanician.
+
+Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff
+Catnappering Caper – Summer 820
+
+## Invisibility Scroll (×3)
+
+This is a scroll of Invisibility (G-8) with a BC of 80%.
+
+Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff
+Catnappering Caper – Summer 820
 
 
 # Special Items
@@ -315,38 +408,6 @@ grant a bonus of +20% to all social rolls for the duration of an hour.
 Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff
 Catnappering Caper – Summer 820
 
-## Potions
-- 5 × R9 Creating Restorative (S-9) potions
-- 5 × R12 Waters of Healing (S-11)
-
-Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff
-Catnappering Caper – Summer 820
-
-## Wind walk (×5)
-
-This is a rank 1 Wind Walking (S-17) with a BC of 65%.
-
-Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff
-Catnappering Caper – Summer 820
-
-## Boom stick (×3)
-
-This 1 inch rod has a button flush to the top, when the button is
-pressed it triggers a R1 lightning bolt in the direction it is
-pointed.  A dial on the base of the rod may be tuned to delay the
-triggering of the spell, from 0 – 7 pulses.  Manufactured by a rank
-R10 Mechanician.
-
-Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff
-Catnappering Caper – Summer 820
-
-## Invisibility Scroll (×3)
-
-This is a scroll of Invisibility (G-8) with a BC of 80%.
-
-Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff
-Catnappering Caper – Summer 820
-
 ## Blade Venom – Antimagic (×2) [1 used]
 
 This robust phial weighs 3 oz. It contains an orange viscus substance
@@ -455,69 +516,9 @@ Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff Catnappering Caper 
 
 +2 MR +3 DEF, stacks with amulet of luck (12,000 sp)
 
-## Tarsik Bone Rapier
-
-Rank 10 (D+6) with Rank 20 Spectral Weapon (7,000 sp)
-
-## Tarsik Bone Main Gauche
-
-Rank 10 (D+4) with Rank 20 Spectral Weapon (4,000 sp)
-
-## Mass Fear Invented
-
-3 × 1 Mass Fear Invested Rk 8 BC 85                      8,000
-
-## Damnum Minatum Dust
-
-3 Damnum Minatum Dust - Deafness, Cowardness (-3 WP & +5 Fright/Awe
-rolls) and Wasting Disease (Wasting disease causes -1 Strength and -1
-Endurance per day until stopped by Cure Disease.  The Strength and
-Endurance lost will be recovered at 1 point per day, or treated by
-Repair Muscles.  5,000
-
 ## Hemlock Potion
 
 3 Hemlock Potion - Subtract 6 EN per hour for 48 Hours              9,000
-
-## Walk Unseen
-
-4 Walk Unseen Potion Rank 10                          4,000
-
-## Restorative
-
-10 Gut Busters Rank 10 (-12EN and 24FT)                    10,000
-
-## Sleep Dust
-
-1 Sleep Dust Rank 10 Can't be woken                      5,000
-
-## Oil of Enchant Weapon
-
-7 Oil of Enchant Weapon Rk 10 (+11% +4 Dm)                  7,000
-
-## Oil of Enchant Armour
-
-1 Oil of Enchant Armour Rk 10 (+22 DEF)                      1,000
-
-## Mass Fear Trap
-
-1 Rank 1 Mass Fear Trap Rg 25                          1,000
-
-## Waters of Healing
-
-4 Waters of Healing  15 Points                          4,000
-
-## Healing Potion
-
-6 Healing 10 Point                                  5,500
-
-## Healing Potion
-
-3 Healing 20 Point                                  6,000
-
-## Healing Potion
-
-1 Healing 40 Point                                  4,000
 
 ## Poison
 
@@ -557,11 +558,12 @@ Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff Catnappering Caper 
 In recognition of their valuable field work, the #1 Hobbit Detective
 Agency has assigned Marco and Ishmael the rank of Special Junior
 Detective. While they hold this rank they receive;
+
 - Free training for all normal skills, up to rank 4.
-- Access to R7 weaponsmiths, armouers and mechinicians 
-- General assistance (GM discretion) from the Agencies and detectives when in Brastor
+- Access to R7 weaponsmiths, armourers and mechinicians.
+- General assistance (GM discretion) from the Agencies and detectives when in Brastor.
 - 5,000sp of guild services, per session, for the next two year.
-- Free lodging in a detective agency in Brastor 
+- Free lodging in a detective agency in Brastor.
 
 If the Agency hears of them acting against honest hobbits, they will
 lose their rank in the agency and this benefit.
@@ -628,11 +630,12 @@ Thunor on 15 Fruit 798.
 
 3 Darkness Points                                30,000
 
+# Used or not applicable
+
 ## Raw Mana Points [used]
 
 2 Raw Mana Points                                20,000
 
-# Used or not applicable
 
 ## Mana Potion [Used]
 
