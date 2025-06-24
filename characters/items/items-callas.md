@@ -6,6 +6,58 @@ numbersections: true
 ---
 # Weapons & Shields
 
+## Staff of the Woodland
+
+This oaken quarterstaff weighs 3 lbs.  It is shod with horn, and living
+mistletoe winds around its shaft.  It has a base Strike Chance of 67%,
+and inflicts base damage of 1 rollup d10 + 5, dealing C-Class melee
+damage.
+
+- If the wielder has Rank 5 with this weapon, they may wield it
+  one-handed.
+
+- If the wielder attains Rank 10, the base damage increases to 2
+  rollup d10 + 5.
+
+- If the staff is wielded by a Druidic spellcaster, the Base Chance of
+  all Spells and Rituals they know is increased by 10.
+
+Once per day, the wielder may choose one of the following effects:
+
+Woodland Concealment
+: The wielder may use the surrounding woodland to Hide the Tracks of a
+  number of entities equal to their Rank in Ranger. This costs 1 FT
+  per concealed entity and lasts for a number of hours equal to their
+  Rank in Ranger. This concealment requires but a Pass Action.
+
+Tree Form
+: The wielder may assume the form of a sheltering rowan tree, 30 feet
+  tall with a 30-foot wide canopy. While in this form, they may
+  attempt to conceal others beneath their leaves with a Stealth
+  roll. Detect Aura will reveal that the wielder is not an actual
+  tree.
+
+Spell Surge
+: The wielder may increase the Rank of a spell by two. This affects
+  its Range, Base Chance, and Damage. This requires a Free Act.
+
+### Investment Properties
+
+The staff is a valid target for the Investment Ritual when storing the following spells:
+
+- Converse with Animals
+- Converse with Plants
+- Armour of Earth
+- Enchanting Plants
+- Wall of Thorns
+
+A total of up to twelve spells may be stored in the staff. They cost
+the same as if invested in a scroll but are triggered as a Magical
+Cast Action on their wielder’s Unengaged Initiative.
+
+Anyone who knows the Investment Ritual and any of the listed spells
+may store them in the staff.
+
 ## Sabre of the Silent Depths
 
 This sabre has a pitch-black blade that seems to absorb light.  It is
@@ -387,58 +439,6 @@ Restores 3D10! damage.
 
 ## Gem Shard - Sapphire
 
-
-## Staff of the Woodland
-
-This oaken quarterstaff weighs 3 lbs. It is shod with horn, and living
-mistletoe winds around its shaft. It has a base Strike Chance of 67%,
-and inflicts base damage of 1 rollup d10 + 5, dealing C-Class melee
-damage.
-
-- If the wielder has Rank 5 with this weapon, they may wield it
-  one-handed.
-
-- If the wielder attains Rank 10, the base damage increases to 2
-  rollup d10 + 5.
-
-- If the staff is wielded by a Druidic spellcaster, the Base Chance of
-  all Spells and Rituals they know is increased by 10.
-
-Once per day, the wielder may choose one of the following effects:
-
-Woodland Concealment
-: The wielder may use the surrounding woodland to Hide the Tracks of a
-  number of entities equal to their Rank in Ranger. This costs 1 FT
-  per concealed entity and lasts for a number of hours equal to their
-  Rank in Ranger. This concealment requires but a Pass Action.
-
-Tree Form
-: The wielder may assume the form of a sheltering rowan tree, 30 feet
-  tall with a 30-foot wide canopy. While in this form, they may
-  attempt to conceal others beneath their leaves with a Stealth
-  roll. Detect Aura will reveal that the wielder is not an actual
-  tree.
-
-Spell Surge
-: The wielder may increase the Rank of a spell by two. This affects
-  its Range, Base Chance, and Damage. This requires a Free Act.
-
-### Investment Properties
-
-The staff is a valid target for the Investment Ritual when storing the following spells:
-
-- Converse with Animals
-- Converse with Plants
-- Armour of Earth
-- Enchanting Plants
-- Wall of Thorns
-
-A total of up to twelve spells may be stored in the staff. They cost
-the same as if invested in a scroll but are triggered as a Magical
-Cast Action on their wielder’s Unengaged Initiative.
-
-Anyone who knows the Investment Ritual and any of the listed spells
-may store them in the staff.
 
 ## Dragon's Teeth × 33
 

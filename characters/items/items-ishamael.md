@@ -1,6 +1,6 @@
 ---
 title: Items for Ishamael
-date: March 21, 2024
+date: June 23, 2025
 table-of-contents: true
 numbersections: true
 ---

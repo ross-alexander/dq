@@ -97,8 +97,10 @@ Party, Monies and Items
 \VAR{member.name} & \VAR{member.college} & \VAR{member.note} \\
 \BLOCK{endfor}
 \end{partytblr}
+
 \end{party}
 \BLOCK{endif}
+
 \BLOCK{if 'items' in adventure}
 \BLOCK{for iblock in adventure['items']}
 \begin{items}{\VAR{iblock.description}}
@@ -112,6 +114,7 @@ Party, Monies and Items
 \BLOCK{if 'monies' in adventure}
 \BLOCK{for monies in adventure.monies}
 \BLOCK{if monies.ledger}
+
 \begin{monies}[\VAR{monies.ledger}]{\VAR{monies.in}}{\VAR{monies.out}}{\VAR{monies.date}}
 \BLOCK{else}
 \begin{monies}{\VAR{monies.in}}{\VAR{monies.out}}{\VAR{monies.date}}
@@ -120,6 +123,7 @@ Party, Monies and Items
 \VAR{line.description} & \VAR{line.in} & \VAR{line.out} \\
 \BLOCK{endfor}
 \end{monies}
+
 \BLOCK{endfor}
 \BLOCK{endif}
 \end{miscellaneous}
