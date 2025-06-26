@@ -322,15 +322,14 @@ def proc_character(name, character):
 
 
     char_block['agility'] = ag_table
-    char_block['defence'] = [
-        { 'name': 'Agility', 'value': 20, 'sum': 20, },
-        { 'name': 'Amulet of Luck', 'value': 2, 'sum': 22, },
-        { 'name': 'Shield', 'value': 25, 'sum': 47, },
-        { 'name': 'Warrior', 'value': 10, 'sum': 57, },
-        { 'name': 'Armour of Earth', 'value': 42, 'sum': 99, },
-        { 'name': 'Voidsilk Cloth', 'value': 7, 'sum': 106, },
-    ]
-    
+
+    if 'defence' in character:
+        char_block['defence'] = character['defence']
+        def_sum = 0
+        for l in char_block['defence']:
+            def_sum += l['value']
+            l['sum'] = def_sum
+   
     return char_block
         
 

@@ -172,5 +172,8 @@
     },
     "incantation" : {
 	"_rankable_": 0
+    },
+    "ability" : {
+	"_rankable_": 0
     }
 }

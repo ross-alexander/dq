@@ -1,0 +1,145 @@
+\documentclass{article}
+
+\RequirePackage[svgnames,x11names]{xcolor}
+\RequirePackage{tabularray}
+\RequirePackage[skip=4mm plus 1mm, indent=0mm]{parskip}
+\UseTblrLibrary{varwidth}
+\RequirePackage{titlesec}
+\RequirePackage{fontspec}
+
+\setmainfont[Scale=0.8]{TeX Gyre Heros}
+
+\colorlet{dqcolor}{ForestGreen}
+
+\NewTblrEnviron{itemtbl}
+\SetTblrInner[itemtbl]{
+  row{1}={font=\bfseries},
+  rowsep=0.0mm,
+  stretch=1.1,
+  width=\linewidth,
+  hlines={0.2mm,dqcolor},
+  hline{1-2}={0.5mm},
+}
+
+\NewTblrEnviron{pstbl}
+\SetTblrInner[pstbl]{
+  row{1,12,17}={font=\bfseries},
+  rowsep=0.0mm,
+  stretch=1.1,
+  width=\linewidth,
+  hlines={0.2mm,dqcolor},
+  hline{1-2,12-13,17-18}={0.5mm},
+  colspec={Xlllllllll},
+  cell{1,12,17}{2}={c=8}{c}
+}
+
+\NewTblrEnviron{agtbl}
+\SetTblrInner[agtbl]{
+  colspec={Xr},
+  rowsep=0.0mm,
+  stretch=1.1,
+  width=\linewidth,
+  hlines={0.2mm,dqcolor},
+  hline{1,X,Y}={0.5mm},
+  row{Y}={font=\bfseries},
+}
+
+\NewTblrEnviron{deftbl}
+\SetTblrInner[deftbl]{
+  colspec={Xrr},
+  rowsep=0.0mm,
+  stretch=1.1,
+  width=\linewidth,
+  hlines={0.2mm,dqcolor},
+  hline{1,2}={0.5mm},
+  row{1}={font=\bfseries},
+}
+
+
+\definecolor{tcblue}{RGB}{25,64,122}
+\definecolor{tcgreen}{RGB}{19,142,61}
+
+\titleformat{\section}%{command}
+[block]%[shape]
+{\Huge\bfseries\scshape\color{tcblue}}%{format}
+{\setlength\fboxsep{0pt}%
+\colorbox{tcblue}{\parbox[c][2cm][c]{2cm}{%
+\centering\color{white}\fontsize{60}{80}\selectfont\thesection}%
+}%
+}%{label}
+{1cm}%{sep}
+{\raggedleft\hfill}%{before}
+[]%[after]
+
+\titleformat{\subsection}%{command}
+[block]%[shape]
+{\centering\bfseries\scshape\color{tcblue}}%{format}
+{}%{label}
+{1mm}%{sep}
+{}%{before}
+[\hfill]%[after]
+
+\titlespacing{\subsection}{0pt}{\parskip}{-\parskip}
+%# \titlespacing{\subsection}{0pt}{3mm plus 1mm minus .2mm}{2mm plus .2mm}
+
+
+\begin{document}
+
+\BLOCK{for character in characters}
+\section{\VAR{character.name}}
+\BLOCK{if character.locations}
+\BLOCK{for location in character.locations}
+\begin{itemtbl}{colspec={Xl}}
+\VAR{location._name|capitalize} & \VAR{location._weight.lb} lb, \VAR{location._weight.oz} oz \\
+\BLOCK{for item in location._items}
+\VAR{item._name} & \VAR{item._weight.lb} lb, \VAR{item._weight.oz} oz \\
+\BLOCK{endfor}
+\end{itemtbl}
+
+\BLOCK{endfor}
+\BLOCK{endif}
+
+\subsection{Encumbrance}
+
+\BLOCK{if character.encumbrance}
+%% set encumbrance = character.encumbrance
+\begin{pstbl}{row{\VAR{encumbrance.index}}={bg=PaleGreen},cell{2-11,13-16,18}{\VAR{encumbrance.category}}={bg=PaleGreen}}
+PS & Weight of Load (lbs)	& & & & & & & & Max \\
+\BLOCK{for e in encumbrance.ps}
+\VAR{e.lower}--\VAR{e.upper} \BLOCK{for f in e.lb} & \VAR{f} \BLOCK{endfor} \\
+\BLOCK{endfor}
+ & Fatigue loss from Exercise \\
+\BLOCK{for e in encumbrance.ft}
+\VAR{e.rate|capitalize} \BLOCK{for f in e.loss} & \VAR{f} \BLOCK{endfor} \\
+\BLOCK{endfor}
+ & Agility Loss in Combat \\
+Loss \BLOCK{for f in encumbrance.ag} & \VAR{f} \BLOCK{endfor} \\
+\end{pstbl}
+\BLOCK{endif}
+
+\subsection{Agility}
+
+\BLOCK{if character.agility}
+\begin{agtbl}{}
+\BLOCK{for e in character.agility}
+\BLOCK{for k,v in e.items()}
+\VAR{k} & \VAR{v} \\
+\BLOCK{endfor}
+\BLOCK{endfor}
+\end{agtbl}
+\BLOCK{endif}
+
+\BLOCK{if character.defence}
+\subsection{Defence}
+\begin{deftbl}{}
+Source & DEF & SUM \\
+\BLOCK{for e in character.defence}
+\VAR{e.name} & \VAR{e.value} & \VAR{e.sum} \\
+\BLOCK{endfor}
+\end{deftbl}
+\BLOCK{endif}
+
+\BLOCK{endfor}
+
+\end{document}
+

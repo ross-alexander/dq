@@ -146,7 +146,7 @@ human], 0 AG, +5 Stealth.
 ## Snake Armour
 
 An image of a single red serpent is wrapped around the breatplate of
-this learth armour.  Weight: 3, Protect 7, AG, -1.
+this leather armour.  Weight: 3, Protect 7, AG, -1.
 
 The wearer receives a bonus of +20% to resist any control/charm (or
 similar) spells.  In additon their PB is boosted by 4 (not above
@@ -974,11 +974,6 @@ number of charges is increased by 1 (maximum 4).  No materials are
 required.  The Base Chance of triggering is always 121% (2× 18%, 3×
 6%).  Duration 100 seconds.  Range 30 feet.
 
-## Kausia of Fate
-
-Felt cap made by the 3 Fates (Moirai).  When worn on the head may be
-sacrificed to avoid any fate as a free action [Used 3.2.2025].
-
 ## Hot Stone
 
 This small pebble is placed in the mouth or swallowed.  It helps
@@ -1148,6 +1143,11 @@ FT once all of the Magical Pass Actions have been exhausted.
 Subsequent Magical Pass Actions cannot be added to the sandglass until
 it is empty.  It is also
 a [Spell Rack](https://dq-nz.org/dqwiki/index.php/Spell_Rack).
+
+## Kerykeion of Hermes
+
+This simple darved wooden staff has two snakes entwined at the top.
+It bestows on the wielder one rank in the Healer skill.
 
 # Points and Pools
 
@@ -2272,11 +2272,6 @@ Callas may increase her Fatigue stat by one point per season, provided
 she adventured in that season, at the cost of 2500EP.  They may exceed
 racial maximums.
 
-## Kerykeion of Hermes
-
-This simple darved wooden staff has two snakes entwined at the top.
-It bestows on the wielder one rank in the Healer skill.
-
 ## Immunity to Fear
 
 Callas is immune to fear effects from any source, including spells.
@@ -2465,3 +2460,8 @@ causing 1EN damage and 1 point bleeder thereafter, they will become
 immune to all poisons, venoms or other blood toxins.  They will stop
 bleeding and the effects will cease once The Rose is removed, they
 have bleed out all their FT and EN to 0 or dawn rises.
+
+## Kausia of Fate
+
+Felt cap made by the 3 Fates (Moirai).  When worn on the head may be
+sacrificed to avoid any fate as a free action [Used 3.2.2025].

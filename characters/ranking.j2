@@ -50,6 +50,15 @@ Rk & Skill \\
 \BLOCK{endfor}
 \end{covertblr}
 
+\BLOCK{if current.abilities}
+\begin{covertblr}{colspec={X}}
+Ability \\
+\BLOCK{for ability in current.abilities}
+\VAR{ability.name} \\
+\BLOCK{endfor}
+\end{covertblr}
+\BLOCK{endif}
+
 \begin{covertblr}{colspec={rX}}
 Rk & Language \\
 \BLOCK{for language in current.languages}

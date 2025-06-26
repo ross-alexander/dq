@@ -222,7 +222,7 @@ sub Update_Adventure {
 		my $final = $line->{final};
 		my $rank = $map->{$type}->{$name}->{rank};
 		my $partial = int($line->{partial});
-
+		
 		if (exists($map->{$type}->{$name}->{rank}) && !$partial && ($rank ne $initial))
 		{
 		    printf "$type $name initial [%s] not same as current rank [%s]\n", $initial, $rank;
@@ -308,10 +308,9 @@ sub Update_Adventure {
 		$ep_raw = $ep_raw // 0;
 		$final = $final // 0;
 		$diff = $diff // 0.0;
+		$initial = $initial // "U";
 		$line->{days} = $time;
-		printf("%-30s (%3s..%3s) Raw EP = %d EP = %d Diff = %4.2f : Time = %s\n",
-		       $name, $initial, $final,
-		       $ep_raw, $ep, $diff, $time);
+		printf("%-30s (%3s..%3s) Raw EP = %d EP = %d Diff = %4.2f : Time = %s\n", $name, $initial, $final, $ep_raw, $ep, $diff, $time);
 	    }
 	    $block->{ep} = $block_ep;
 	    $ep_total += $block_ep;
@@ -617,7 +616,7 @@ sub Convert_Ranking {
 	$line->{college} = $cref if (length($cref));
 	$line->{ref} = $sref if (length($sref));
 
-	if ($init =~ /upto/)
+	if (defined($init) && $init =~ /upto/)
 	{
 	    my ($initial, $final) = split(/ ?\\upto ?/, $init);
 	    $line->{initial} = $initial;
@@ -899,7 +898,7 @@ sub JSON_Adventure {
 	    {
 		my $line = {};
 		push(@{$block->{lines}}, $line);
-		map {$line->{$_} = $l->{$_} if (exists($l->{$_}))} ('name', 'college', 'ref', 'initial', 'final', 'sum', 'em', 'ep_raw', 'ep', 'time', 'days', 'cost', 'track', 'partial', 'type');
+		map {$line->{$_} = $l->{$_} if (exists($l->{$_}) && defined($l->{$_}))} ('name', 'college', 'ref', 'initial', 'final', 'sum', 'em', 'ep_raw', 'ep', 'time', 'days', 'cost', 'track', 'partial', 'type');
 	    }
 	}  
     }
@@ -931,6 +930,11 @@ sub JSON_Adventure {
 # JSON_Character
 #
 # ----------------------------------------------------------------------
+
+sub sort_name {
+    my ($a, $b) = @_;
+    return $a->{name} cmp $b->{name};
+}
 
 sub sort_rank {
     my ($a, $b) = @_;
@@ -1064,8 +1068,13 @@ sub JSON_Character {
 	    parent	=> 'powers',
 	    child	=> 'power'
 	},
+	ability => {
+	    parent	=> 'abilities',
+	    child	=> 'ability',
+	    sort	=> \&sort_name,
+	},
     };
-
+    
 # --------------------
 # Add current values
 # --------------------
@@ -1074,6 +1083,7 @@ sub JSON_Character {
     {
 	my $xmap = $map->{$i};
 	my $sort = $slw->{$i}->{sort} // \&sort_rank;
+
 	my @list = sort({$sort->($xmap->{$a}, $xmap->{$b})} grep(!m:^_:, keys(%$xmap)));
 	if (scalar(@list))
 	{
