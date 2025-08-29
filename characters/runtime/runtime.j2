@@ -130,13 +130,51 @@ Loss \BLOCK{for f in encumbrance.ag} & \VAR{f} \BLOCK{endfor} \\
 \BLOCK{endif}
 
 \BLOCK{if character.defence}
-\subsection{Defence}
+\BLOCK{for defence in character.defence}
+\subsection{Defence (\VAR{defence.description})}
 \begin{deftbl}{}
-Source & DEF & SUM \\
-\BLOCK{for e in character.defence}
-\VAR{e.name} & \VAR{e.value} & \VAR{e.sum} \\
+Source & DEF & Σ\\
+\BLOCK{for e in defence['items']}
+\VAR{e.name} & \VAR{e.def} & \VAR{e.def_sum} \\
 \BLOCK{endfor}
 \end{deftbl}
+\BLOCK{endfor}
+\BLOCK{endif}
+
+\BLOCK{if character.attack}
+\BLOCK{for attack in character.attack}
+\subsection{Attack (\VAR{attack.description})}
+\begin{deftbl}{}
+Source & SC & Σ & DM & Σ & IV & Σ \\
+\BLOCK{for e in attack['items']}
+\VAR{e.name} & \VAR{e.sc} & \VAR{e.sc_sum} & \VAR{e.dm} & \VAR{e.dm_sum} & \VAR{e.iv} & \VAR{e.iv_sum} \\
+\BLOCK{endfor}
+\end{deftbl}
+\BLOCK{endfor}
+\BLOCK{endif}
+
+\BLOCK{if character.magic_resistance}
+\BLOCK{for mr in character.magic_resistance}
+\subsection{Magic Resistance (\VAR{mr.description})}
+\begin{deftbl}{}
+Source & MR & Σ \\
+\BLOCK{for e in mr['items']}
+\VAR{e.name} & \VAR{e.mr} & \VAR{e.mr_sum} \\
+\BLOCK{endfor}
+\end{deftbl}
+\BLOCK{endfor}
+\BLOCK{endif}
+
+\BLOCK{if character.cast_chance}
+\BLOCK{for mr in character.cast_chance}
+\subsection{Cast Chance (\VAR{mr.description})}
+\begin{deftbl}{}
+Source & +\% & Σ \\
+\BLOCK{for e in mr['items']}
+\VAR{e.name} & \VAR{e.cc} & \VAR{e.cc_sum} \\
+\BLOCK{endfor}
+\end{deftbl}
+\BLOCK{endfor}
 \BLOCK{endif}
 
 \BLOCK{endfor}

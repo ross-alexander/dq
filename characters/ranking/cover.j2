@@ -1,0 +1,113 @@
+\documentclass{article}
+
+\RequirePackage{ranking-v2}
+
+\renewfontfamily{\coversf}[Scale=0.80,Color=Black,Ligatures=TeX]{Linux Biolinum O}
+
+\begin{document}
+%% set basics = character.basics
+%% set current = character.current
+%% set stats = current.stats
+
+\pagestyle{empty}
+
+\character[name=\VAR{basics.charname},fullname={\VAR{basics.fullname}},date={\VAR{basics.date}},picture={\VAR{basics.picture}}]
+
+
+\begin{stattblr}{colspec={Q[l,t,40mm]XXXXXX},
+cell{3}{1}={c=2}{l},cell{3}{3}={c=3}{l},cell{3}{6}={c=2}{l},
+cell{4}{2,4,6}={c=2}{l}}
+\textsuperscript{Name} \VAR{basics.charname} &
+\textsuperscript{PS} \VAR{stats.PS} &
+\textsuperscript{MD} \VAR{stats.MD} &
+\textsuperscript{AG} \VAR{stats.AG} &
+\textsuperscript{MA} \VAR{stats.MA} &
+\textsuperscript{WP} \VAR{stats.WP} &
+\textsuperscript{EN} \VAR{stats.EN} \\
+
+\textsuperscript{Race} \VAR{basics.race} &
+\textsuperscript{Sex} \VAR{basics.sex} &
+\textsuperscript{HT} \VAR{basics.height} &
+\textsuperscript{WT} \VAR{basics.weight} &
+\textsuperscript{PB} \VAR{stats.PB} &
+\textsuperscript{PC} \VAR{stats.PC} &
+\textsuperscript{FT} \VAR{stats.FT} \\
+
+\textsuperscript{Aspect} \VAR{basics.aspect} & &
+\textsuperscript{Birth} \VAR{basics.birth} & & &
+\textsuperscript{Date} \VAR{basics.tick|cdate} & \\
+
+\textsuperscript{S.Status} \VAR{basics.status} &
+\textsuperscript{Hand} \VAR{basics.hand} & &
+\textsuperscript{Coll.} \VAR{basics.college} & &
+\textsuperscript{EP} \VAR{basics.ep_total} [\VAR{basics.ep}] & \\
+\end{stattblr}
+
+\setlength{\columnsep}{1mm}
+\setlength{\parskip}{1mm}
+\begin{multicols}{3}
+\raggedcolumns
+
+\BLOCK{if current.powers}
+\begin{covertblr}{colspec={rX}}
+Lvl & Power / Stat \\
+\BLOCK{for power in current.powers}
+\VAR{power.rank} & \VAR{power.name} \\
+\BLOCK{endfor}
+\end{covertblr}
+\BLOCK{endif}
+
+\begin{covertblr}{colspec={rX}}
+Rk & Skill \\
+\BLOCK{for skill in current.skills}
+\VAR{skill.rank} & \VAR{skill.name} \\
+\BLOCK{endfor}
+\end{covertblr}
+
+\BLOCK{if current.abilities}
+\begin{covertblr}{colspec={X}}
+Ability \\
+\BLOCK{for ability in current.abilities}
+\VAR{ability.name} \\
+\BLOCK{endfor}
+\end{covertblr}
+\BLOCK{endif}
+
+\begin{covertblr}{colspec={rX}}
+Rk & Language \\
+\BLOCK{for language in current.languages}
+\VAR{language.rank} & \VAR{language.name} \\
+\BLOCK{endfor}
+\end{covertblr}
+
+\begin{covertblr}{colspec={rX}}
+Rk & Weapon \\
+\BLOCK{for weapon in current.weapons}
+\VAR{weapon.rank} & \VAR{weapon.name} \\
+\BLOCK{endfor}
+\end{covertblr}
+
+\BLOCK{for magic in ("talents", "spells", "rituals")}
+%% set items = current[magic]
+\BLOCK{if items}
+\begin{covertblr}{colspec={rXl},column{1}={wd=4mm},column{3}={wd=8mm}}
+Rk & \VAR{magic|title()} & Ref \\
+\BLOCK{for item in items}
+\VAR{item.rank} & \VAR{item.name} & \VAR{item.ref} \\
+\BLOCK{endfor}
+\end{covertblr}
+\BLOCK{endif}
+
+\BLOCK{endfor}
+
+\BLOCK{if current.incantations}
+\begin{covertblr}{colspec={X}}
+Incantation \\
+\BLOCK{for incantation in current.incantations}
+\VAR{incantation.name} \\
+\BLOCK{endfor}
+\end{covertblr}
+\BLOCK{endif}
+
+\end{multicols}
+\end{document}

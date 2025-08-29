@@ -1073,6 +1073,11 @@ sub JSON_Character {
 	    child	=> 'ability',
 	    sort	=> \&sort_name,
 	},
+	incantation => {
+	    parent	=> 'incantations',
+	    child	=> 'incantation',
+	    sort	=> \&sort_name,
+	},
     };
     
 # --------------------
@@ -1146,7 +1151,7 @@ sub Main {
 
     my $opts = {
 	codepage => 'utf8',
-	mapfile => '/locker/gaming/dq/characters/convert.js',
+	mapfile => '/locker/gaming/dq/characters/ranking/convert.js',
     };
 
     # --------------------
@@ -1167,7 +1172,7 @@ sub Main {
     
     if (!-f $opts->{mapfile})
     {
-	print(STDERR "$0: cannot find mapfile %s\n", $opts->{mapfile});
+	printf(STDERR "$0: cannot find mapfile %s\n", $opts->{mapfile});
 	exit(1);
     }
     $opts->{_map_} = decode_json(slurp($opts->{mapfile}));

@@ -305,9 +305,15 @@ def format_jinja(opts, ranking):
         loader = jinja2.FileSystemLoader(os.path.abspath('.'))
     )
 
+    template_path = opts['template']
+
+    if not (os.path.exists(template_path) and os.path.isfile(template_path)):
+        print("Template %s either does not exist or is not a file" % template_path, file=sys.stderr)
+        exit(1)
+
     latex_jinja_env.filters['cdate'] = cal_cdate
     latex_jinja_env.filters['mdate'] = cal_mdate
-    template = latex_jinja_env.get_template('ranking.j2')
+    template = latex_jinja_env.get_template(template_path)
 
     res = template.render(character = ranking, standalone = False)
     return res
@@ -325,7 +331,6 @@ def format_yaml(opts, src_path, dst_path):
         print(f"Key 'adventures' missing from {path}", file=sys.stderr)
         exit(1)
 
-#    res = format_document(opts, ranking)
     res = format_jinja(opts, ranking)
     with open(dst_path, "w") as stream:
         stream.write(res)
@@ -340,8 +345,11 @@ def format_yaml(opts, src_path, dst_path):
 opts = {}
 
 parser = argparse.ArgumentParser(description='Format character YAML file to LuaLaTeX')
+parser.add_argument("-t", "--template", action='store', type=str, required=True, help="Input file", dest="template")
 parser.add_argument("-i", "--in", action='store', type=str, required=True, help="Input file", dest="inpath")
 parser.add_argument("-o", "--out", action='store', type=str, required=True, help="Output file", dest="outpath")
 args = parser.parse_args()
+
+opts['template'] = args.template
 
 format_yaml(opts, args.inpath, args.outpath)

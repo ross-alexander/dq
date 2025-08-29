@@ -10,6 +10,7 @@ except ImportError:
 
 import re
 import jinja2
+import argparse
 
 # ----------------------------------------------------------------------
 #
@@ -323,12 +324,36 @@ def proc_character(name, character):
 
     char_block['agility'] = ag_table
 
-    if 'defence' in character:
-        char_block['defence'] = character['defence']
-        def_sum = 0
-        for l in char_block['defence']:
-            def_sum += l['value']
-            l['sum'] = def_sum
+    features = {
+        'defence': {
+            'keys': ['def']
+        },
+        'attack': {
+            'keys': ['sc', 'dm', 'iv']
+        },
+        'magic_resistance': {
+            'keys': ['mr'],
+        },
+        'cast_chance': {
+            'keys': ['cc'],
+        }
+    }
+
+    
+    for feature in features.keys():
+        if feature in character:
+            char_block[feature] = character[feature]
+            feature_keys = features[feature]['keys']
+            print(feature_keys)
+            key_sum = { k:0 for k in feature_keys }
+            for spec in character[feature]:
+                for i in spec['items']:
+                    for k in feature_keys:
+                        if k in i:
+                            key_sum[k] += i[k]
+                        sum_key = '%s_sum' % k
+                        i[sum_key] = key_sum[k]
+                        print("%s: %s %d" % (i['name'], k, i[sum_key]))
    
     return char_block
         
@@ -340,9 +365,13 @@ def proc_character(name, character):
 #
 # ----------------------------------------------------------------------
 
-# [ proc_character(k, v) for k,v in runtime.items() ]
 
-with open("runtime.yaml", "r") as stream:
+parser = argparse.ArgumentParser(description='Format runtime YAML file to LuaLaTeX')
+parser.add_argument("-i", "--in", action='store', type=str, required=True, help="Input file", dest="inpath")
+parser.add_argument("-o", "--out", action='store', type=str, required=True, help="Output file", dest="outpath")
+args = parser.parse_args()
+
+with open(args.inpath, "r") as stream:
     runtime = load(stream, Loader=Loader)
 
 
@@ -372,5 +401,5 @@ text = template.render(characters = blocks)
 
 # text.append(template.render(trailer = True))
 
-with open("runtime.tex", "w") as stream:
+with open(args.outpath, "w") as stream:
     print(text, file=stream)

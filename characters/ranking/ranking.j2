@@ -2,6 +2,8 @@
 
 \RequirePackage{ranking-v2}
 
+\renewfontfamily{\coversf}[Scale=0.75,Color=Black,Ligatures=TeX]{TeX Gyre Heros}
+
 \begin{document}
 %% set basics = character.basics
 %% set current = character.current
@@ -40,8 +42,18 @@ cell{4}{2,4,6}={c=2}{l}}
 \textsuperscript{EP} \VAR{basics.ep_total} [\VAR{basics.ep}] & \\
 \end{stattblr}
 
-\begin{multicols}{2}
+\setlength{\columnsep}{2mm}
+\begin{multicols}{3}
 \raggedcolumns
+
+\BLOCK{if current.powers}
+\begin{covertblr}{colspec={rX}}
+Lvl & Power / Stat \\
+\BLOCK{for power in current.powers}
+\VAR{power.rank} & \VAR{power.name} \\
+\BLOCK{endfor}
+\end{covertblr}
+\BLOCK{endif}
 
 \begin{covertblr}{colspec={rX}}
 Rk & Skill \\
@@ -85,6 +97,15 @@ Rk & \VAR{magic|title()} & Ref \\
 \BLOCK{endif}
 
 \BLOCK{endfor}
+
+\BLOCK{if current.incantations}
+\begin{covertblr}{colspec={X}}
+Incantation \\
+\BLOCK{for incantation in current.incantations}
+\VAR{incantation.name} \\
+\BLOCK{endfor}
+\end{covertblr}
+\BLOCK{endif}
 
 \end{multicols}
 \end{frontcover}

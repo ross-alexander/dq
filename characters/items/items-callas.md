@@ -930,7 +930,7 @@ all of the same spell.  Each charge is "stored" in one face of the
 gem.
 
 : All the requiremetns for the Inveestment Ritual must be met, except
-that a psell can be invested in this item regardless of what is
+that a spell can be invested in this item regardless of what is
 already invested in the item.
 
 Investing a spell in a face requires sucessful cast of the Investment
@@ -1091,7 +1091,7 @@ within 50ft of the caster.  All within the area suffer 2D damage
 This is a golden death mask from Pharos.  Whil worn by a corpse it
 preserves the body as the Healer ability of the same name with no
 limit.  While a corpse wears the mask the body and its soul are immune
-to all necromatntic magic and influence.  The mask weighs pounds and
+to all necromatntic magic and influence.  The mask weighs 5 pounds and
 is solid gold.
 
 The mask also has a once only ability.  If the mask remains on a body

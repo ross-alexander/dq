@@ -13,6 +13,7 @@
 
 \RequirePackage{tabularray, ifthen, fontspec, titlesec, fancyhdr, multicol, graphicx}
 \RequirePackage[dvipsnames,svgnames]{xcolor}
+\UseTblrLibrary{varwidth}
 
 % Set geometry
 
@@ -119,12 +120,20 @@
 % --------------------
 
 \NewTblrEnviron{stattblr}
-\SetTblrInner[stattblr]{rowsep=0.0mm,stretch=1.1,width=\linewidth,hlines={0.2mm,dqcolor},vlines={0.2mm,dqcolor}}
+\SetTblrInner[stattblr]{rowsep=0.0mm,stretch=1.1,
+  rows={font=\coversf},
+  width=\linewidth,
+  hlines={0.2mm,dqcolor},
+  vlines={0.2mm,dqcolor}}
 \UseTblrLibrary{varwidth}
 
 \NewTblrEnviron{covertblr}
-\SetTblrInner[covertblr]{rowsep=0.0mm,stretch=0.9,width=\linewidth,hlines={0.2mm,dqcolor},vlines={0.2mm,dqcolor},row{1}={c,font=\coversf\bfseries}}
-\UseTblrLibrary{varwidth}
+\SetTblrInner[covertblr]{rowsep=0.0mm,stretch=0.9,
+  width=\linewidth,
+  hlines={0.2mm,dqcolor},
+  vlines={0.2mm,dqcolor},
+  rows={font=\coversf},
+  row{1}={c,font=\coversf\bfseries}}
 
 \keys_define:nn{character}
 {
