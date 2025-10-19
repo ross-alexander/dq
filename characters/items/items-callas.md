@@ -523,7 +523,7 @@ The card holder may gather 1 Midnight on the last night of the Dark of
 the Moon, but it will only hold 1. If they sacrifice 2,500 Experience
 to the cartum, they may increase it to 2, but this can only be done
 once per season or adventure, whichever is the least, and the cost
-doubles each time.  Incantations
+doubles each time.
 
 
 ## Storage Crystal
@@ -705,7 +705,7 @@ employment with this master for as many encounters as twice the
 character's combined ranks of Courtier and Social Status.  The Butler
 then seeks employment elsewhere.  Encourgement by the Butler
 temporarily increases Willpower by 3 for the duration of the
-encounter.  [Used 3].
+encounter.  [Used 4].
 
 Monologue.  A character using this cad can stay action (including
 combat) for as long as they can effectively speak (save vs 1 ×
@@ -984,18 +984,6 @@ Additionally it will negate ONE failed save against a Light Sphere,
 but is destroyed in the process.  When swallowed there is a straight
 35% chance of the stone being passed naturally per day.  Does not
 stack with other Hot or Cold Stones.
-
-## Cold Stone
-
-This small pebble is placed in the mouth or swallowed.  It helps
-protect againt cold effect and shifts the Rate of Exercise one row or
-column in the character's favour.  Reduce damage from cold sources
-(e.g. darkness, dark, black-fire, void, ice, frost, freezing etc.)
-by 3.  Additionally it will negate ONE failed save against a Dark
-Sphere, but is destroyed in the process.  When swallowed there is a
-straight 35% chance of the stone being passed naturally per day.  Does
-not stack with other Hot or Cold Stones.
-
 
 ## Acorns of the Eternal Oak
 
@@ -2130,18 +2118,18 @@ Cast Time
 : Magical Fire Action
 
 Effects
-: This magic does not normally miss, and neither can it
-generate Double or Triple Effects. Callas has a gaze that she can fix
-on an entity or an object that can fit inside a volume of one hex (+
-one hex for every ten Ranks). Objects or entities of greater size
-cannot normally be affected.
+: This magic does not normally miss, and neither can it generate
+Double or Triple Effects.  Callas has a gaze that she can fix on an
+entity or an object that can fit inside a volume of one hex (+ one hex
+for every ten Ranks).  Objects or entities of greater size cannot
+normally be affected.
 
 The effects of the gaze are Avoided or Opposed, not Resisted, and if
 this is done, then nothing happens to them. For a target that
-succumbs, however, the current Pulse does not end for them . They do
+succumbs, however, the current Pulse does not end for them.  They do
 not lose Actions directly, however, abilities that reset at the end of
 the current Pulse or the beginning of the next will not be renewed as
-the Future is warded away from them. Similarly, entities afflicted
+the Future is warded away from them.  Similarly, entities afflicted
 with continuous damage like bleeding wounds, Greek Fire, poison, the
 End of Pulse Stun Recovery check, etc. will no longer experience them
 until She lifts her gaze, and provided she maintains the cost each
@@ -2465,3 +2453,14 @@ have bleed out all their FT and EN to 0 or dawn rises.
 
 Felt cap made by the 3 Fates (Moirai).  When worn on the head may be
 sacrificed to avoid any fate as a free action [Used 3.2.2025].
+
+## Cold Stone
+
+This small pebble is placed in the mouth or swallowed.  It helps
+protect againt cold effect and shifts the Rate of Exercise one row or
+column in the character's favour.  Reduce damage from cold sources
+(e.g. darkness, dark, black-fire, void, ice, frost, freezing etc.)
+by 3.  Additionally it will negate ONE failed save against a Dark
+Sphere, but is destroyed in the process.  When swallowed there is a
+straight 35% chance of the stone being passed naturally per day.  Does
+not stack with other Hot or Cold Stones [Used 31.8.2025].
