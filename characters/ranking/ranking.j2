@@ -9,7 +9,7 @@
 %% set current = character.current
 %% set stats = current.stats
 
-\character[name=\VAR{basics.charname},fullname={\VAR{basics.fullname}},date={\VAR{basics.date}},picture={\VAR{basics.picture}}]
+\character[name=\VAR{basics.charname},fullname={\VAR{basics.fullname}},date={\VAR{basics.rundate}},picture={\VAR{basics.picture}}]
 
 \begin{frontcover}
 
@@ -40,7 +40,7 @@ cell{4}{2,4,6}={c=2}{l}}
 \textsuperscript{Hand} \VAR{basics.hand} & &
 \textsuperscript{Coll.} \VAR{basics.college} & &
 \textsuperscript{EP} \VAR{basics.ep_total} [\VAR{basics.ep}] & \\
-\end{stattblr}
+ \end{stattblr}
 
 \setlength{\columnsep}{2mm}
 \begin{multicols}{3}
@@ -51,6 +51,33 @@ cell{4}{2,4,6}={c=2}{l}}
 Lvl & Power / Stat \\
 \BLOCK{for power in current.powers}
 \VAR{power.rank} & \VAR{power.name} \\
+\BLOCK{endfor}
+\end{covertblr}
+\BLOCK{endif}
+
+\BLOCK{if current.leymemories}
+\begin{covertblr}{colspec={X}}
+Ley Memory \\
+\BLOCK{for lm in current.leymemories}
+\VAR{lm.name} \\
+\BLOCK{endfor}
+\end{covertblr}
+\BLOCK{endif}
+
+\BLOCK{if current.individual_names}
+\begin{covertblr}{colspec={rX}}
+Rank & Individual Name \\
+\BLOCK{for name in current.individual_names}
+\VAR{name.rank} & \VAR{name.name} \\
+\BLOCK{endfor}
+\end{covertblr}
+\BLOCK{endif}
+
+\BLOCK{if current.generic_names}
+\begin{covertblr}{colspec={rX}}
+Rank & Generic Name \\
+\BLOCK{for name in current.generic_names}
+\VAR{name.rank} & \VAR{name.name} \\
 \BLOCK{endfor}
 \end{covertblr}
 \BLOCK{endif}
