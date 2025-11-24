@@ -338,8 +338,8 @@ Powers
   Children of the Traveller, if the item is visible.
 
 : The wearer has increased taste and spell.  All perception rolls
-  involving taste or smell are one step easier (e.g. a 3xPC check is
-  modified to a 4xPC check).
+  involving taste or smell are one step easier (e.g. a 3 × PC check is
+  modified to a 4 × PC check).
 
 : The increased sense of smell and taste grants greater tracking
   ability.  The wearer tracks as if their rank in the Ranger skill is
