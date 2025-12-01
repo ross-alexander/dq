@@ -167,7 +167,7 @@ the following properties:
 - Reduces damage by 1 point except versus Disruption, Putrid Wound,
   Necrosis, Torment, venom or similar.
 - If the wearer is the target of a Defence spell, it increases that
-  Defence by another 7
+  Defence by another 7.
 - The calculation for bonus to Magical Aptitude from Purification
   becomes 1 per four Ranks not 1 per five and 1 extra Magic Resistance
   for every four Ranks.
@@ -245,7 +245,7 @@ Specific Grievous injuries and poisons. The wearers Defence is
 improved by one point of Defence for every three points of Agility.
 
 Once a day, they may exchange their MA for a value of 37, which will
-last for 12 Pulses. This ability resets when the wearer next Purifies
+last for 12 Pulses.  This ability resets when the wearer next Purifies
 at midnight.  For the purposes of determining how long it will take to
 repair, the shawl has ten EN which it recovers at a rate of one point
 every three days.
@@ -486,6 +486,8 @@ chance of 83%, which may double, triple, or backfire. The following
 Pulse, a Rank 20 Wall of Fire will spring up centred on the crushed
 tooth, but having the proportions that the user wishes as outlined by
 the spell (Section 21.6 S-13).
+
+Three given to Muse (9 left).
 
 ## Tinture of Sloe Plum
 
@@ -1434,15 +1436,15 @@ Agility is regained at 1 point per hour after the next dawn.
 Half the value of armour, rounding down, is subtracted from the damage
 of the spell, but the full value of Natural Armour applies.
 
-In addition, damage from this spell will only reudce the target to 0
-Endurance, but should the targetr fail to resist, and their EN was or
+In addition, damage from this spell will only reduce the target to 0
+Endurance, but should the target fail to resist, and their EN was or
 becomes 0 or less, they are immediately petrified.  That is, their
 body tissue and all their posessions are turned to a stone-like
 substance.
 
 Petrified entities are not dead, and they do not lose any magic
 currently in effect, but run out when the duration expires.
-concentration spells and effects will be lost.
+Concentration spells and effects will be lost.
 
 Petrification may be removed in three ways: The Specical Knowledge
 Counterspell of the Petrification Spell, Curse Removal or Stone to
@@ -1759,6 +1761,63 @@ Constraints
 : Unracks the spell, reduces FT value by 2.
 
 This incantation is not teachable.
+
+## Trollskin - Cannibalise
+
+Spell
+: Trollskin
+
+Effects
+: This incantation of the Trollskin spell can only be cast on the
+  Adept. It will immediately inflict 1 Damage Point directly to EN
+  (which cannot be avoided). If they are Quickened, then they lose the
+  point of EN on their Initiative, and the next one at half that
+  value. They receive 2 FT (which will restore FT lost to spell
+  casting before that lost to damage) whenever they lose EN.
+
+Since the Adept is under the effects of Trollskin, they cannot benefit
+from another casting of the spell (even a normal one).  The
+incantation cannot be made into a potion.  It will remain in effect
+until the duration expires or it is Counterspelled.
+
+Cost
+: 500 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 2.
+
+## Wall of Stone - Stoneskin
+
+Range
+: Self
+
+Duration
+: Special
+
+Resist
+: None
+
+Target
+: Sentient entity
+
+Effects
+: This spell effect is transformed and absorbed into the body of the
+  Adept. They may call upon Stoneskin to avoid any damage from a
+  single attack, although environmental effects like an avalanche or
+  explosive decompression are at the discretion of the DM.
+
+Calling upon Stoneskin is a Free Action and may even be used before
+the Adept's initiative, although it requires their next Pass
+Action. The effects of the Stoneskin last for the duration of the
+spell or for 1 attack per 4 Ranks, whichever comes first.
+
+Cost
+:2000 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 2.  This incantation cannot
+be taught.
+
 
 ## Benediction of Land and Beast (R-B)
 

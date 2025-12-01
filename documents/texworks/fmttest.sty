@@ -19,12 +19,18 @@
 \RequirePackage{enumitem}
 \RequirePackage{tabularray}
 \RequirePackage{setspace}
+\RequirePackage{titlesec}
 \RequirePackage[skip=2pt plus 1pt, indent=0mm]{parskip}
 
 %% Need lots of space on the page for 3 columns, no margin notes
 
 \geometry{top=20mm,left=10mm,right=10mm,bottom=10mm,showframe}
 \setlength\headsep{5pt}
+
+%% Extra commands for tables
+
+\newcommand{\mi}{\textminus{} }
+\newcommand{\pl}{+ }
 
 %% Additional environments
 
@@ -40,8 +46,11 @@
 %% \setmainfont{Linux Libertine O}[Scale=0.8,Color=violet,Ligatures=TeX]
 %% \setsansfont{Linux Biolinum O}[Scale=0.7,Color=red,Ligatures=TeX]
 
-\setmainfont{Latin Modern Roman}[Scale=0.8,Color=violet,Ligatures=TeX]
-\setsansfont{Latin Modern Sans}[Scale=0.7,Color=red,Ligatures=TeX]
+\setmainfont{TeX Gyre Pagella}[Scale=0.75,Ligatures=TeX]
+\setsansfont{TeX Gyre Adventor}[Scale=0.7,Color=red,Ligatures=TeX]
+
+%% \setmainfont{Latin Modern Roman}[Scale=0.8,Color=violet,Ligatures=TeX]
+%% \setsansfont{Latin Modern Sans}[Scale=0.7,Color=red,Ligatures=TeX]
 \newfontfamily\itemfont{Latin Modern Roman}[Scale=0.8,Color=red,Ligatures=TeX]
 
 %% header and footer
@@ -65,12 +74,42 @@
 \setlist[itemize]{leftmargin=*,nosep}
 \setlist[description]{nosep,leftmargin=0pt,font=\itemfont\bfseries}
 
+%% --------------------
+%%
+%% New lists with enumitem
+%%
+%% --------------------
+
+\newlist{Itemize}{itemize}{3}
+\setlist[Itemize]{label=\textbullet}
+
+\newlist{Enumerate}{enumerate}{3}
+\setlist[Enumerate]{label=\arabic*}
+
+\newlist{Description}{description}{3}
+
 %% Limit section numbering to chapter.section
 
 \setcounter{secnumdepth}{1}
 \setcounter{tocdepth}{1}
 
-%% Add new tblr environment from tabularray
+%% Use titlesec
+
+\titleformat{\chapter}[hang]
+{\Huge\sffamily\bfseries}            
+{\MakeUppercase{\thechapter}}
+{1pc}
+{}
+
+\titlespacing*{\chapter}{0pt}{-2mm}{-2mm}
+
+\titleformat{\section}{\reset@font\large\sffamily\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{6.0pt plus 2.0pt minus 4.0pt}{0.2pt}
+
+\titleformat{\subsection}{\sffamily\bfseries}{}{0pt}{}
+\titlespacing*{\subsection} {0pt}{3mm}{0.25\baselineskip}
+
+  %% Add new tblr environment from tabularray
 
 \NewTblrEnviron{dqtblr}
 \SetTblrInner[dqtblr]{hlines={green7},rowsep=0.1mm,width=\linewidth}

@@ -9,7 +9,7 @@ Date: March 28, 2025
 ## 2024-08-09: Start game
 
 - 20 × 20 Point Healing Potions (3 given out)
-- 20 × Rank 10 Restoritives [D−2]+10 (6 used)
+- 20 × Rank 10 Restoritives +24 FT -12 EN (6 used)
 - 10 × Rank 12 Waters of Strength (3 used)
 - 11 Wafers (use 4)
 

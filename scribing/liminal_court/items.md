@@ -6,6 +6,22 @@ date: October 19, 2025
 
 # Items
 
+## Nightmare Robes
+These robes are the colour of migraines and nausea. 
+
+They weigh 2 lbs, provide 3 points of Protection, 7 Spell Armour but
+these protections do not stack with those provided from cloth, leather
+or metal armour.
+
+They automatically halve damage from Telekinetic Rage, and their
+weight is divided by 3 when they are the target of Telekinesis.  The
+wearer triples the weight they can lift when they are the target of
+their own Telekinesis spell and in that case they spend 1 less FT, to
+a minimum of 1.
+
+Sleeping in these robes opens the wearer's mind to strange, twisted
+visitations, preventing any recovery of FT for the first four hours
+
 ## Avant-Bras of Shielding
 
 This vambrace is made from the iridescently blue, partially metallic

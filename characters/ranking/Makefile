@@ -23,7 +23,7 @@ TODAY	= $(shell date +%Y%m%d)
 	$(FORMAT_TEX) -t ranking.j2 -i $< -o $@
 
 %.pdf	: %.ltx $(STY_FILE)
-	$(LATEX) -output-directory $(dir $<) $<
+	texfot $(LATEX) -output-directory $(dir $<) $<
 
 %.cal	: %.yaml $(FORMAT)
 	$(FORMAT_CAL) -i $< -o $@

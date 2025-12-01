@@ -10,23 +10,23 @@
 \NeedsTeXFormat{LaTeX2e}
 
 \RequirePackage{etoolbox,ifpdf,ifxetex,ifluatex}
+\RequirePackage{geometry}
 \RequirePackage{ifthen}
 \RequirePackage[dvipsnames]{xcolor}
 \RequirePackage{multicol}
+\RequirePackage{tocloft}
 \RequirePackage{tabularray}
-\RequirePackage{tabularx}
-\RequirePackage{array}
-\RequirePackage{colortbl}
+%% \RequirePackage{tabularx}
+%% \RequirePackage{array}
+%% \RequirePackage{colortbl}
 \RequirePackage{fancyhdr}
 \RequirePackage{booktabs}
 \RequirePackage{textcomp}
-\RequirePackage{float}
+%% \RequirePackage{float}
 \RequirePackage{hyperref}
 \RequirePackage{setspace}
 \RequirePackage{graphicx}
-\RequirePackage{geometry}
 \RequirePackage{enumitem}
-\RequirePackage{etoolbox}
 \RequirePackage{unicode-math}
 \RequirePackage[skip=2pt plus 2pt, indent=0mm]{parskip}
 
@@ -285,11 +285,6 @@
     pdfstartview=Fit,pdfpagemode=UseOutlines
 }
 
-%% \setcounter{columnbadness}{1000}
-%% \setcounter{finalcolumnbadness}{1000}
-%% \setcounter{collectmore}{20}
-
-
 %% %% %%% USEFUL MACROS
 
 
@@ -354,3 +349,9 @@
 %% %%  \RequirePackage[dvips]{graphicx}
 %% %%  \newcommand{\coverpic}{\vspace{2em}\includegraphics[scale=1.0]{cover.pdf}}
 %% %%\fi
+
+\setcounter{columnbadness}{1000}
+\setcounter{finalcolumnbadness}{1000}
+\setcounter{collectmore}{20}
+
+\renewcommand{\cfttoctitlefont}{\Huge \sffamily \bfseries}

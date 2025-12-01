@@ -1,0 +1,253 @@
+Callas :
+  ranking: '../ranking/callas.yaml'
+  weapon:
+    - name: Sabre of Silent Depths
+      weight: 3lb
+      location: worn
+    - name: Staff of the Woodlands
+      weight: 3lb
+      location: worn
+    - name: Snake Dagger
+      weight: 10oz
+      location: worn
+  shield:
+    - name: Shield of Disruption
+      weight: 3lb
+      location: worn
+    - name: Master-crafted Shield
+      weight: 10lb
+  armour:
+    - name: Quilted Cloth
+      weight: 7lb
+      location: worn
+    - name: Voidsilk Robe
+      weight: 0lb
+      location: worn
+    - name: Shirt of Knitted Mithil Chain
+      weight: 11oz
+      location: worn
+    - name: Skin of the fallen Maia
+      weight: 11oz
+  item:
+    - name: The Sandglass of Polycarpus
+      weight: 13oz
+      location: worn
+    - name: 3D10! Healing potion
+      weight: 4oz
+      location: worn
+    - name: Guild 20pt healing potion
+      weight: 4oz
+      quantity: 1
+      location: worn
+    - name: Guild 20pt healing potion
+      weight: 4oz
+      quantity: 12
+    - name: Rank 12 Waters of Strength
+      weight: 12oz
+      quantity: 7
+    - name: Rank 10 Restoratives
+      weight: 4oz
+      quantity: 17
+    - name: Ring of Invested Wind Walking
+      weight: 1oz
+      location: worn
+    - name: Ring of Invested Wind Walking
+      weight: 1oz
+    - name: Ring of Invested Wind Walking
+      weight: 1oz
+    - name: Extenguish Invested
+      weight: 1oz
+    - name: Amulet of Luck
+      weight: 1oz
+      location: worn
+    - name: Amulet of Elder Flowers
+      weight: 1oz
+      location: worn
+    - name: Amulet of Hypericum
+      weight: 1oz
+      location: worn
+    - name: Tinture of Sloe Plum
+      weight: 17oz
+    - name: Plaque of Midnight
+      weight: 4oz
+    - name: Crystal Wand of Linking Sense
+      weight: 11oz
+    - name: Crystal Wand of Mental Restoration
+      weight: 11oz
+    - name: Invested Crystal
+      weight: 8oz
+    - name: Kerykeion of Hermes
+      weight: 3lb
+
+  defence:
+    - description: Shield and Sabre
+      items:
+        - { 'name': 'Modified Agility', 'def': 20 }
+        - { 'name': 'Amulet of Luck', 'def': 2 }
+        - { 'name': 'Shield of Disruption', 'def': 25 }
+        - { 'name': 'Warrior', 'def': 12 }
+        - { 'name': 'Armour of Earth', 'def': 42 }
+        - { 'name': 'Voidsilk Cloth', 'def': 7 }
+        - { 'name': 'Evading with Sabre', 'def': 43 }
+  attack:
+    - description: Sabre of the Silent Depths
+      items:
+        - name: Sabre of the Slient Depths
+          sc: 70
+          dm: 5
+          iv: 10
+        - name: Agility
+          iv: 18
+        - name: Perception
+          iv: 25
+        - name: Manual Dexterity
+          sc: 16
+        - name: Warrior (Rank 5)
+          sc: 12
+          dm: 1
+          iv: 5
+        - name: Rank 11 Sabre
+          sc: 44
+          dm: 2
+          iv: 11
+        - name: Enchantment
+          sc: 21
+        - name: Weapon of Flames (Rank 12)
+          sc: 12
+          dm: 6
+  magic_resistance:
+    - description: With purification
+      items:
+        - name: Base Willpower
+          mr: 23
+        - name: Voidsilk WP bonus
+          mr: 1
+        - name: Purification
+          mr: 20
+        - name: Voidsilk purification bonus
+          mr: 5
+        - name: Amulet of Luck
+          mr: 3
+        - name: Enchantment
+          mr: 21
+  cast_chance:
+    - description: With purification
+      items:
+        - name: MA over 15 (23)
+          cc: 8
+        - name: Purification MA
+          cc: 5
+        - name: Earth Aspect
+          cc: 1
+        - name: Staff of the Woodlands
+          cc: 10
+        - name: Enchantment
+          cc: 21
+  incantations:
+    - Incantation of Ley Line Traversal
+    - Smoking Magma - Projectile of Lava
+    - Tunneling - Temblor of Antaeus
+    - Wall of Stone - Column of Ascension
+    - Wall of Stone - Stoneskin
+
+Jedburgh :
+  ranking: '../ranking/jedburgh.yaml'
+  weapon:
+    - name: Spectral glaive
+      weight: 7 lb
+      location: worn
+    - name: Spectral hand and a half
+      weight: 6 lb
+      location: worn
+    - name: Spectral dagger
+      weight: 10 oz
+      location: worn
+  shield:
+    - name: Shield of Chaos
+      weight: 5 lb
+      location: carried
+  armour:
+    - name: Wormskin armour
+      weight: 24 lb
+      location: worn
+      modifiers:
+        AG: -2
+  defence:
+    - description: Shield and Hand \& a Half
+      items:
+        - { 'name': 'Modified Agility', 'def': 22 }
+        - { 'name': 'Amulet of Luck', 'def': 2 }
+        - { 'name': 'Shield of Chaos', 'def': 25 }
+        - { 'name': 'Warrior', 'def': 16 }
+        - { 'name': 'Evading with Sword', 'def': 31 }
+    - description: Glaive
+      items:
+        - { 'name': 'Modified Agility', 'def': 22 }
+        - { 'name': 'Amulet of Luck', 'def': 2 }
+        - { 'name': 'Warrior', 'def': 16 }
+        - { 'name': 'Evading with Glaive', 'def': 37 }
+  attack:
+    - description: Glaive SC
+      items:
+        - name: 'Base SC (Rank 5 weaponsmith)'
+          sc: 60
+          dm: 5
+        - name: 'Rank 19 Spectral Weapon'
+          sc: 19
+          dm: 7
+        - name: 'Agility'
+          iv: 22
+        - name: 'Perception'
+          iv: 22
+        - name: 'Manual Dexterity'
+          sc: 20
+        - name: 'Warrior Rank 7'
+          sc: 16
+          dm: 1
+          iv: 7
+        - name: 'Glaive Rank 9'
+          sc: 36
+          dm: 2
+          iv: 9
+          
+Ishamael:
+  ranking: '../ranking/ishamael.yaml'
+  weapon:
+    - name: Tarsik Bone Rapier
+      weight: 2 lb
+      location: worn
+    - name: Tarsik Bone Main Gauche
+      weight: 1 lb
+      location: worn
+  armour:
+    - name: Leather armour
+      weight: 18 lb
+      location: worn
+  defence:
+    - description: Rapier \& Main Gauche
+      items:
+        - { 'name': 'Modified Agility', 'def': 19 }
+        - { 'name': 'Amulet of Luck', 'def': 2 }
+        - { 'name': 'Twin Human Amulet of Luck', 'def': 3 }
+        - { 'name': 'Main Gauche', 'def': 20 }
+        - { 'name': 'Shadowform', 'def': 38 }
+        - { 'name': 'Evading with Rapier', 'def': 34 }
+  attack:
+    - description: Tarsik Bone Rapier
+      items:
+        - name: Tarsik Bone Rapier
+          sc: 45
+          dm: 6
+        - name: Rank 20 Spectral Weapon
+          sc: 20
+          dm: 7
+        - name: Agility
+          iv: 19
+        - name: Perception
+          iv: 21
+        - name: Manual Dexterity
+          sc: 22
+        - name: Rank 8 Rapier
+          sc: 32
+          iv: 8
+          dm: 2

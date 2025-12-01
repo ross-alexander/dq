@@ -6,9 +6,6 @@ ALL = dq2020e.pdf
 
 all: $(ALL)
 
-fmttest.pdf: fmttest.tex chargen.tex fmttest.sty
-	xelatex fmttest.tex
-
 dq2020e.pdf : $(RULES) dq2020e.sty
 	latexmk -lualatex $<
 

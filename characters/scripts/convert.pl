@@ -13,6 +13,7 @@
 # ----------------------------------------------------------------------
 
 use 5.40.0;
+use Time::Piece;
 use Getopt::Long;
 use Carp::Assert;
 use Encode;
@@ -25,6 +26,51 @@ use File::Basename;
 use YAML::PP qw(DumpFile);
 use JSON;
 use JSON::XS;
+
+# ----------------------------------------------------------------------
+#
+# sorting functions
+#
+# ----------------------------------------------------------------------
+
+sub sort_name {
+    my ($a, $b) = @_;
+    return $a->{name} cmp $b->{name};
+}
+
+sub sort_rank {
+    my ($a, $b) = @_;
+    return $b->{rank} <=> $a->{rank};
+}
+
+sub sort_ref {
+    my ($a, $b) = @_;
+    my $ref_a = $a->{ref};
+    my $ref_b = $b->{ref};
+    my $ref_map = {
+	T => 0,
+	G => 1,
+	Q => 2,
+	S => 3,
+	R => 4,
+    };
+    my $val_map = {
+	GC => 98,
+	SC => 99
+    };
+    
+    $ref_a =~ m:([A-Z]+)-([A-Z0-9]+):;
+    my $key_a = $ref_map->{$1};
+    my $val_a = $val_map->{$2} // $2;
+
+    $ref_b =~ m:([A-Z]+)-([0-9]+):;
+    my $key_b = $ref_map->{$1};
+    my $val_b = $val_map->{$2} // $2;
+
+    return $a->{college} && $b->{college} ?
+	($a->{college} cmp $b->{college} || $key_a <=> $key_b || $val_a <=> $val_b) :
+	($key_a <=> $key_b || $val_a <=> $val_b);
+}
 
 # ----------------------------------------------------------------------
 #
@@ -220,33 +266,36 @@ sub Update_Adventure {
 
 		my $initial = $line->{initial};
 		my $final = $line->{final};
-		my $rank = $map->{$type}->{$name}->{rank};
+		my $rank = $map->{$type}->{$name}->{rank} // undef;
 		my $partial = int($line->{partial});
 		
-		if (exists($map->{$type}->{$name}->{rank}) && !$partial && ($rank ne $initial))
+		if (defined($map->{$type}->{$name}->{rank}) && !$partial && ($rank ne $initial))
 		{
 		    printf "$type $name initial [%s] not same as current rank [%s]\n", $initial, $rank;
 		    exit(1);
 		}
-
+		    
 		# Having got the initial ranking value its now time to get the final.
 
-		if (exists($line->{final}) && !$partial)
+		if ($map->{$type}->{_rankable_})
 		{
-		    my $old = $map->{$type}->{$name}->{"rank"};
-		    $map->{$type}->{$name}->{"rank"} = $final;
+		    if (exists($line->{final}) && !$partial)
+		    {
+			my $old = $map->{$type}->{$name}->{"rank"};
+			$map->{$type}->{$name}->{"rank"} = $final;
+		    }
+		    else
+		    {
+			$map->{$type}->{$name}->{"rank"} = $initial;
+		    }
 		}
-		else
-		{
-		    $map->{$type}->{$name}->{"rank"} = $initial;
-		}
-
+		
 		# --------------------
 		# Check values
 		# --------------------
 		
 		my ($em, $ep_calc, $ep, $ep_raw, $sum, $diff, $csum);
-
+		
 		$ep = $line->{ep};
 		$ep_raw = $line->{ep_raw};
 		
@@ -259,7 +308,7 @@ sub Update_Adventure {
 			$csum = ($type eq "stat") ?
 			    $final - $initial :
 			    (($final * ($final + 1)) - ($initial * ($initial +1))) / 2;
-		    
+			
 			if ($csum != $sum)
 			{
 			    print "Initial = $initial  Final = $final  sum = $csum (sum = $sum).\n";
@@ -931,44 +980,6 @@ sub JSON_Adventure {
 #
 # ----------------------------------------------------------------------
 
-sub sort_name {
-    my ($a, $b) = @_;
-    return $a->{name} cmp $b->{name};
-}
-
-sub sort_rank {
-    my ($a, $b) = @_;
-    return $b->{rank} <=> $a->{rank};
-}
-
-sub sort_ref {
-    my ($a, $b) = @_;
-    my $ref_a = $a->{ref};
-    my $ref_b = $b->{ref};
-    my $ref_map = {
-	T => 0,
-	G => 1,
-	Q => 2,
-	S => 3,
-	R => 4,
-    };
-    my $val_map = {
-	GC => 98,
-	SC => 99
-    };
-    
-    $ref_a =~ m:([A-Z]+)-([A-Z0-9]+):;
-    my $key_a = $ref_map->{$1};
-    my $val_a = $val_map->{$2} // $2;
-
-    $ref_b =~ m:([A-Z]+)-([0-9]+):;
-    my $key_b = $ref_map->{$1};
-    my $val_b = $val_map->{$2} // $2;
-
-    return $a->{college} && $b->{college} ?
-	($a->{college} cmp $b->{college} || $key_a <=> $key_b || $val_a <=> $val_b) :
-	($key_a <=> $key_b || $val_a <=> $val_b);
-}
 
 # ----------------------------------------------------------------------
 #
@@ -1008,7 +1019,11 @@ sub JSON_Character {
 
     my $tick = Tick->new($state->{tick});
     $basics->{tick} = $tick;
-        
+    $basics->{date} = $tick->CDate();
+
+    my $now = Time::Piece->new();
+    $basics->{rundate} = $now->strftime("%B %d, %Y");
+    
     # --------------------
     # Create current
     # --------------------
@@ -1036,49 +1051,51 @@ sub JSON_Character {
 	$stats->{$i} = $map->{'stat'}->{$statmap->{$i}}->{"rank"};
     }
 
-    my $slw = {
-	skill => {
-	    parent	=> 'skills',
-	    child	=> 'skill',
-	},
-	language => {
-	    parent	=> 'languages',
-	    child	=> 'language',
-	},
-	weapon => {
-	    parent	=> 'weapons',
-	    child	=> 'weapon',
-	},
-	talent => {
-	    parent	=> 'talents',
-	    child	=> 'talent',
-	    sort	=> \&sort_ref,
-	},
-	spell => {
-	    parent	=> 'spells',
-	    child	=> 'spell',
-	    sort	=> \&sort_ref,
-	},
-	ritual => {
-	    parent	=> 'rituals',
-	    child	=> 'ritual',
-	    sort	=> \&sort_ref,
-	},
-	power => {
-	    parent	=> 'powers',
-	    child	=> 'power'
-	},
-	ability => {
-	    parent	=> 'abilities',
-	    child	=> 'ability',
-	    sort	=> \&sort_name,
-	},
-	incantation => {
-	    parent	=> 'incantations',
-	    child	=> 'incantation',
-	    sort	=> \&sort_name,
-	},
+    # --------------------
+    # sorting map
+    # --------------------
+
+    my $sort_map = {
+	name => \&sort_name,
+	rank => \&sort_rank,
+	ref => \&sort_ref,
     };
+
+    my $slw = {};
+    
+    while (my ($k,$v) = each(%{$opts->{_map_}}))
+    {
+	if (exists($v->{_parent_}))
+	{
+	    $slw->{$k} = {
+		parent => $v->{_parent_},
+		child => $k
+	    };
+	    $slw->{$k}->{sort} = $v->{_sort_} if (exists($v->{_sort_}));
+	}
+    }
+    
+    # my $slw = {
+    # 	power => {
+    # 	    parent	=> 'powers',
+    # 	    child	=> 'power'
+    # 	},
+    # 	ability => {
+    # 	    parent	=> 'abilities',
+    # 	    child	=> 'ability',
+    # 	    sort	=> 'name',
+    # 	},
+    # 	leymemory => {
+    # 	    parent	=> 'leymemories',
+    # 	    child	=> 'leymemory',
+    # 	    sort	=> 'name',
+    # 	},
+    # 	incantation => {
+    # 	    parent	=> 'incantations',
+    # 	    child	=> 'incantation',
+    # 	    sort	=> 'name',
+    # 	},
+    # };
     
 # --------------------
 # Add current values
@@ -1087,7 +1104,13 @@ sub JSON_Character {
     for my $i (keys(%{$slw}))
     {
 	my $xmap = $map->{$i};
-	my $sort = $slw->{$i}->{sort} // \&sort_rank;
+	my $sort = $slw->{$i}->{sort} // 'rank';
+	if (!exists($sort_map->{$sort}))
+	{
+	    printf(STDERR "Sort %s not defined.\n", $sort);
+	    exit(1);
+	}
+	$sort = $sort_map->{$sort};
 
 	my @list = sort({$sort->($xmap->{$a}, $xmap->{$b})} grep(!m:^_:, keys(%$xmap)));
 	if (scalar(@list))
@@ -1100,9 +1123,9 @@ sub JSON_Character {
 		push(@$key, $v);
 		$v->{"type"} = $slw->{$i}->{child};
 		$v->{"name"} = $j;
-		$v->{"rank"} = $xmap->{$j}->{'rank'};
-		$v->{"ref"} = $xmap->{$j}->{'ref'} if (exists $xmap->{$j}->{'ref'});
-		$v->{"college"} = $xmap->{$j}->{'college'} if (exists $xmap->{$j}->{'college'});
+		$v->{"rank"} = $xmap->{$j}->{'rank'} if (defined($xmap->{$j}->{'rank'}));
+		$v->{"ref"} = $xmap->{$j}->{'ref'} if (exists($xmap->{$j}->{'ref'}));
+		$v->{"college"} = $xmap->{$j}->{'college'} if (exists($xmap->{$j}->{'college'}));
 	    }
  	}
     }
