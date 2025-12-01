@@ -25,6 +25,10 @@ Land of Nod a possibility.
 
 # Activity
 
+## Fruit 24, 826 WK
+
+Hired by Callas at the Guild.
+
 Wait a day for bad weather then fly down to Novadom.  The portal is a
 ravine to the NW of Novadom city, area very good for lightning.
 
@@ -32,7 +36,7 @@ ravine to the NW of Novadom city, area very good for lightning.
 
 Pass through crack into the Astral and travel though the Abyss and
 safely make it over the water.  Head to Tanuel and head up to House
-Kerberoth.
+Kerberoth.  This takes two weeks.
 
 Going to be 18 days before the next caravan.
 
@@ -90,3 +94,31 @@ fall, if they are flying by means of wings.
 If the wearer is also Aspected for Air, then they may advance the
 Aerial Affinity Talent. If the cloak is subsequently lost, no further
 advancement is possible but they keep the Ranks they have learnt.
+
+## Knap of the Earth
+Slaydar has learnt a high speed Flying Manoeuvre that lets him fly at
+25 feet above the ground - 1 per Rank in Flying.  It applies only to
+methods of flight that involve wings or similar.
+
+Their chance to perform this manoeuvre is 3 × AG + 12 × Rank.  A
+penalty of thirty is applied to their Flying Skill in addition to
+their speed in miles per hour, less one for every foot above the
+ground. It assumes that they are travelling at full speed or faster as
+a consequence of diving and, hopefully, pulling out before making
+contact with the ground.  Speeds in excess of that granted by the
+method of flight bleed off each Pulse.  However, at such speeds,
+control is compromised and speed can only be reduced by half the
+excess speed each Pulse or their Rank in mph, whichever is greater.
+
+> Example: Slaydar has Rank 3 with the Flying Skill and is diving on
+> Rank 10 Shadow Wings.  His speed has climbed to 70 mph, 30 mph
+> faster than the wings can normally travel.  After pulling out of the
+> dive, Slaydar can slow his speed by half the excess (15 mph) down to
+> 55 mph, then half that (7 mph) down to 47 mph, then half that (3
+> mph) to 43 mph, and finally down to the Shadow Wing's standard
+> flight speed.
+
+This only applies to the Knap of the Earth manoeuvre, and assumes he
+is spending his attention on avoiding obstacles and terrain features.
+An ability to decelerate to a stop in a second or two requires a high
+deceleration Flight Manoeuvre.  Which is not this one.

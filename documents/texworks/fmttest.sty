@@ -12,36 +12,33 @@
 
 \RequirePackage{geometry}
 \RequirePackage{fontspec}
+\RequirePackage{ifthen}
 \RequirePackage{multicol}
-\RequirePackage{tabularx}
 \RequirePackage[dvipsnames]{xcolor}
+\RequirePackage{graphicx}
 \RequirePackage{fancyhdr}
 \RequirePackage{enumitem}
 \RequirePackage{tabularray}
 \RequirePackage{setspace}
 \RequirePackage{titlesec}
-\RequirePackage[skip=2pt plus 1pt, indent=0mm]{parskip}
+\RequirePackage{hyperref}
+\RequirePackage[skip=2pt plus 2pt minus 1pt, indent=0mm]{parskip}
 
 %% Need lots of space on the page for 3 columns, no margin notes
 
-\geometry{top=20mm,left=10mm,right=10mm,bottom=10mm,showframe}
-\setlength\headsep{5pt}
+\geometry{paper=a4paper,top=10mm,headsep=2mm,left=9mm,right=9mm,bottom=6mm,footskip=3mm}
+
 
 %% Extra commands for tables
 
 \newcommand{\mi}{\textminus{} }
 \newcommand{\pl}{+ }
 
-%% Additional environments
-
-\newenvironment{Chapter}[1]{\chapter{#1}\begin{multicols}{3}}{\end{multicols}}
-\newenvironment{example}[0]{\small \emph{Example}\hspace{1.2em}}{}
-
-%% Add wrapper around inline tabular
-
-\newenvironment{inline}{\smallskip\setlength\parskip{0pt}}{\smallskip}
-
+%% ----------------------------------------------------------------------
+%%
 %% Select typeface via fontspec
+%%
+%% ----------------------------------------------------------------------
 
 %% \setmainfont{Linux Libertine O}[Scale=0.8,Color=violet,Ligatures=TeX]
 %% \setsansfont{Linux Biolinum O}[Scale=0.7,Color=red,Ligatures=TeX]
@@ -53,7 +50,85 @@
 %% \setsansfont{Latin Modern Sans}[Scale=0.7,Color=red,Ligatures=TeX]
 \newfontfamily\itemfont{Latin Modern Roman}[Scale=0.8,Color=red,Ligatures=TeX]
 
+%% ----------------------------------------------------------------------
+%%
+%% Front page stuff
+%%
+%% ----------------------------------------------------------------------
+
+\newcommand{\coverpic}{\includegraphics[scale=1.0]{cover.pdf}}
+
+\newenvironment{Contributors}[0]%
+{\begin{center}{\Large \textbf{Contributors}}\end{center}\begin{multicols}{6}}%
+{\end{multicols}}
+
+\newenvironment{Copyright}[0]%
+{\begin{center}{\Large \textbf{Copyright}}\end{center}\begin{center}}%
+{\end{center}}
+
+
+%% ----------------------------------------------------------------------
+%%
+%% Additional environments
+%%
+%%
+%% ----------------------------------------------------------------------
+
+\newenvironment{Chapter}[1]{\chapter{#1}\begin{multicols}{3}}{\end{multicols}}
+\newenvironment{example}[0]{\small \emph{Example}\hspace{1.2em}}{}
+
+\newenvironment{talent}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{talents!#2}}{}
+\newenvironment{talent*}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{talents!#2}}{}
+
+\newenvironment{spell}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{spells!#2}}{}
+\newenvironment{spell*}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{spells!#2}}{}
+
+\newenvironment{ritual}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{rituals!#2}}{}
+\newenvironment{ritual*}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{rituals!#2}}{}
+
+\newenvironment{effects}[0]{\emph{Effects: }}{}
+
+\newenvironment{College}[4][1.0]%
+{\chapter{The College of #3 (Ver #1)}\label{#2}\label{college:#2}\def\dq@college{#3} \index{colleges!\dq@college|(} \begin{multicols*}{3}}%
+{\index{colleges!\dq@college|)}\end{multicols*}}
+
+\newenvironment{Skill}[3][1.0]%
+{\chapter{#3 (Ver #1)}\label{#2}\label{skill:#2}\def\dq@skill{#3} \index{skills!\dq@skill||} %%
+\begin{multicols*}{3}}%
+{\end{multicols*}}
+
+\newenvironment{Tables}[1]{\chapter{#1}}{}
+
+\newcommand{\sItem}[2]{\emph{#1}: #2 \\}
+\newcommand{\range}[1]{\sItem{Range}{#1}}
+\newcommand{\area}[1]{\sItem{Area}{#1}}
+\newcommand{\multiple}[1]{\sItem{Experience Multiple}{#1}}
+\newcommand{\basechance}[1]{\sItem{Base Chance}{#1}}
+\newcommand{\duration}[1]{\sItem{Duration}{#1}}
+\newcommand{\resist}[1]{\sItem{Resist}{#1}}
+\newcommand{\target}[1]{\sItem{Target}{#1}}
+\newcommand{\storage}[1]{\sItem{Storage}{#1}}
+\newcommand{\material}[1]{\sItem{Material}{#1}}
+\newcommand{\casttime}[1]{\sItem{Cast Time}{#1}}
+\newcommand{\actions}[1]{\sItem{Actions}{#1}}
+\newcommand{\concentration}[1]{\sItem{Concentration Check}{#1}}
+\newcommand{\materialcost}[1]{\sItem{Material Cost}{#1}}
+\newcommand{\basetime}[1]{\sItem{Base Construction Time}{#1}}
+\newcommand{\timetaken}[1]{\sItem{Time}{#1}}
+\newcommand{\rune}[1]{\sItem{Runes}{#1}}
+
+\newcommand{\precis}[1]{{\reset@font\rmfamily\bfseries #1}}
+
+
+%% Add wrapper around inline tabular
+
+\newenvironment{inline}{\smallskip\setlength\parskip{0pt}}{\smallskip}
+
+%% ----------------------------------------------------------------------
+%%
 %% header and footer
+%%
+%% ----------------------------------------------------------------------
 
 \newcommand{\thisday}{\slshape\fontsize{8}{9pt}\selectfont{\MakeUppercase{\today}}}
 \pagestyle{fancyplain}
@@ -68,52 +143,88 @@
 
 \setstretch{0.9}
 
-%% use enumitem to reduce space (from enumitem)
-
-\setlist[enumerate]{leftmargin=*,nosep}
-\setlist[itemize]{leftmargin=*,nosep}
-\setlist[description]{nosep,leftmargin=0pt,font=\itemfont\bfseries}
-
-%% --------------------
-%%
-%% New lists with enumitem
-%%
-%% --------------------
-
-\newlist{Itemize}{itemize}{3}
-\setlist[Itemize]{label=\textbullet}
-
-\newlist{Enumerate}{enumerate}{3}
-\setlist[Enumerate]{label=\arabic*}
-
-\newlist{Description}{description}{3}
-
 %% Limit section numbering to chapter.section
 
 \setcounter{secnumdepth}{1}
 \setcounter{tocdepth}{1}
 
+%% ----------------------------------------------------------------------
+%%
+%% New lists with enumitem
+%%
+%% ----------------------------------------------------------------------
+
+%% use enumitem to reduce space (from enumitem)
+
+\setlist[enumerate]{leftmargin=*,nosep}
+\setlist[itemize]{leftmargin=*,nosep}
+\setlist[description]{nosep,leftmargin=0pt,font=\bfseries}
+
+\newlist{Itemize}{itemize}{3}
+\setlist[Itemize]{label=\textbullet,leftmargin=*,nosep}
+
+\newlist{Enumerate}{enumerate}{3}
+\setlist[Enumerate]{label=\arabic*,labelindent=4pt,labelwidth=2em,leftmargin=*,nosep}
+
+\newlist{Description}{description}{3}
+\setlist[Description]{nosep,leftmargin=0pt,font=\bfseries}
+
+%% ----------------------------------------------------------------------
+%%
 %% Use titlesec
+%%
+%% ----------------------------------------------------------------------
 
-\titleformat{\chapter}[hang]
-{\Huge\sffamily\bfseries}            
-{\MakeUppercase{\thechapter}}
-{1pc}
-{}
+\titleformat{\chapter}[block]
+{\Huge\sffamily\bfseries}          % Format of label & text
+{\MakeUppercase{\thechapter}}      % Label
+{1pc}                              % Sep
+{}                                 % Before
 
-\titlespacing*{\chapter}{0pt}{-2mm}{-2mm}
+\titlespacing*{\chapter}{0pt}{-6mm}{-2mm} % left, before sep, after sep
 
 \titleformat{\section}{\reset@font\large\sffamily\bfseries}{\thesection}{1em}{}
-\titlespacing*{\section}{0pt}{6.0pt plus 2.0pt minus 4.0pt}{0.2pt}
+\titlespacing*{\section}{0pt}{6pt plus 4pt minus 4pt}{0.2pt}
 
 \titleformat{\subsection}{\sffamily\bfseries}{}{0pt}{}
-\titlespacing*{\subsection} {0pt}{3mm}{0.25\baselineskip}
+\titlespacing*{\subsection} {0pt}{6pt plus 4pt minus 4pt}{0.25\baselineskip}
 
-  %% Add new tblr environment from tabularray
+\titleformat{\subsubsection}{\sffamily\bfseries}{}{0pt}{}
+\titlespacing*{\subsubsection} {0pt}{4pt minus 2pt}{0.25\baselineskip}
+
+%% ----------------------------------------------------------------------
+%%
+%% Add new tblr environment from tabularray
+%%
+%% ----------------------------------------------------------------------
 
 \NewTblrEnviron{dqtblr}
 \SetTblrInner[dqtblr]{hlines={green7},rowsep=0.1mm,width=\linewidth}
 \UseTblrLibrary{varwidth}
+
+%% ----------------------------------------------------------------------
+%%
+%% Set length between label in contents
+%%
+%% ----------------------------------------------------------------------
+
+\usepackage{tocloft}% to configure the ToC <<<<<
+\setlength{\cftsecnumwidth}{2.8em}% set the width to the section number in the ToC <<<<<
+\setlength{\cftbeforetoctitleskip}{0.0em}
+\setlength{\cftaftertoctitleskip}{2.0mm}
+
+%% ----------------------------------------------------------------------
+%%
+%% hyperref
+%%
+%% ----------------------------------------------------------------------
+
+\hypersetup{colorlinks=true,allcolors=BrickRed,
+    bookmarksnumbered=true,     
+    bookmarksopen=true,         
+    bookmarksopenlevel=1,
+    pdfstartview=Fit,pdfpagemode=UseOutlines
+}
 
 %% Set whitspace control
 
