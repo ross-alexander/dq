@@ -6,6 +6,57 @@ date: October 19, 2025
 
 # Items
 
+## Blotte the Blot
+
+Blotte is a small, vaguely aware amoeba of darkest sepia that would
+like a properly decorated ink well to lie around in. It is big enough
+to fill a sherry glass and weighs a single fluid ounce.
+
+It can drink most liquids, but any attempt to bud generates an 'offspring' fluid incapable of reproduction. This sterile offspring is ephemeral and will not last longer than an hour. It may, however, be used as ink which will have the properties associated with whatever Blotte last drank. 
+
+>Example: If Blotte has drunk a poison, then a poisonous ink may be
+>    budded, and a single page of an enchiridion (about A5 in size),
+>    may be written.  Whoever reads the page is affected by the poison
+>    but may avoid the effects by rolling under 1 × their EN.  The
+>    effect of the poison is calculated at 1/10th the level of
+>    toxicity of the original poison, multiplied by the author's Skill
+>    in Calligraphy or Illumination, but never greater than the
+>    original.  Once read, the poison is stripped from the message and
+>    can only be detected by Divining Enchantment if that Adept is
+>    also a Calligrapher, Alchemist or Illuminator of at least equal
+>    Rank.
+
+If the appointments of Blotte's inkwell do not meet with its approval,
+it may decline to bud at all and may well sulk. And spit. This does
+little harm but will reduce the target's PB for a week. It always
+hits.
+
+In any case, Blotte's nature is corrosive given its diet, and the
+appointment's must be regularly replaced, which will cost 11 tsg a
+year.
+
+## The Sarcophagus of Endless Night
+
+This sarcophagus is made of a light, dry wood that feels spongy to the
+touch, and weighs barely 31 lbs.  It is cedarwood, though very
+dessicated.
+
+If a mummy is placed within it for 2,500 years, then once a century,
+it will produce enough Dust of Ages to fill the palm of a child one
+does not especially like.  If the dust is carefully collected by
+someone else for whom one holds no special affection, then there is
+enough to fill the palm of three children one does not especially
+like.
+
+## The Remains of Hat-Kharten, Scribe-Priestess of Seshat
+
+This mummy weighs 23 lbs, most of which is the finery of her robes.
+Divination reveals that she served the goddess of writing and
+measurement and her role was to record the pharaoh's Sed festivals.
+Her name was lost and she is only known as 'the Wife of Kharten', but
+no other record of him survives.
+
+
 ## Nightmare Robes
 These robes are the colour of migraines and nausea. 
 
