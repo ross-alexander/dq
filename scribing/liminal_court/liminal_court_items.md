@@ -6,6 +6,147 @@ date: October 19, 2025
 
 # Items
 
+## Liquor of Elemental Bronze
+
+This test tube is 5 cms long and 1 cm wide, weighing an oz. The
+contents are a dull bronze colour which behaves like mercury.
+
+It must be sublimated and passed into an active chakram, whereupon it
+will convert the bone at that site to elemental bronze without causing
+any harm.
+
+## Tincture of the Epicure's Vapours
+
+This test tube is 5 cms long and 1 cm wide, weighing an oz. The
+contents are a thick, roiling cloud of teal and red.
+
+It must be sublimated and passed into an active throat chakram,
+whereupon the consumer will be able to extend their sense of taste up
+to a metre distant.
+
+## Decoction of the Iris of Kenos
+
+This test tube is 5 cms long and 1 cm wide, weighing an oz. It
+contains a faint, violet glow.
+
+It must be sublimated and passed into an active third eye chakram,
+whereupon the eye may be opened to peer upon the Void.
+
+## Cuneiform Keys and the Ring of Aglarond
+
+This set of six keys are made from orichalcum.  They are bound to the
+Ring of Aglarond, a thick ring made of an alloy of gold and mithril
+the colour of sunlight reflected off ice.  It will shine flaxen if the
+restless dead are within 15 hexes.  The ring is 10 cms in diameter,
+and is a cm thick. The ring and keys weigh 2 lbs 7 oz and penalise
+Stealth by 15.
+
+A key may be bound to a gate or portal so that it may be locked or
+unlocked by writing the connected locations on the bitting in
+cuneiform.  This is permanent and cannot be changed subsequently.
+
+While it is locked, the gate or portal cannot be used unless the key
+is presented and used, which will take 4 Pass Actions.
+
+## The Tripartite Spear
+
+This black wooden rod is a 90 cms long and weighs 2 lbs 5 oz and looks
+like a cane with a blue glass ferrule.  It can be separated into three
+30 cm sections, whereupon the ferrule will form a leaf-shaped blade.
+The length from the tip of the blade to the butt is 2 metres, although
+it can only be held by the sections of black wood. It may be wielded
+one or two handed.
+
+It requires a PS of 13 and an MD of 15 to wield, inflicts D10+3 A
+Class damage by default, although, if specified, the wielder may
+strike with the butt to inflict C Class damage. The base Strike Chance
+is 57%. If it is wielded one-handed in their right, the base Strike
+Chance rises to 67%.
+
+It is advanced as a spear, although it cannot be thrown and damage
+increases by 1 on each Rank that is a Prime (2, 3 & 5). Damage from PS
+in excess of 13 is ignored, although it will accept weapon spells it
+is a legal target for.  It is considered a sword with respect to
+Celestial weapon spells.
+
+
+## Revification Injection
+
+This hypodermic syrinx is made from surgical brass. It weighs fifteen
+oz, the ampoule being twelve cms long by three cms across, with the
+syrinx an extra ten cms long. The aperture of the syrinx is five mm
+across and is in the shape of a cuboid cylinder with rounded vertices.
+Instead of a plunger, a brass gear and crank mechanism is attached.
+Some people believe they hear woeful moaning coming from it.
+
+The action of delivery is to drive the syrinx into the breast of the
+dead entity, and then to turn the handle, crushing the contents and
+forcing them into the target’s heart, which will bring them back to
+life. The injection must be administered within 24 hours after death
+or it does not function at all. Further, for each hour that elapses
+after death(minimum one), the patient suffers 1 point of drain from
+each Primary Characteristic and Fatigue.  This loss can only be
+restored by Natural Recovery (one point every three days of rest).
+
+Further, the injection does not heal wounds, neutralize poisons, or
+cure diseases, so if proper healing is not administered immediately
+(or beforehand), the patient may simply die upon being revivified.
+
+The subject need not be willing and does not normally get any
+opportunity to Resist.
+
+## Julska Kriza
+
+This small pistol weighs 1 lb 5 oz. The PS requirement to wield this
+weapon is 8 and the MD requirement is 18.  It has a base Strike Chance
+of 40%, has a maximum Rank of 5.  When the wielder has advanced to
+Rank 3, they may shoot twice in the Pulse, and at Rank 5, three times.
+
+If the wielder rolls greater than 70+MD, then they miss. However, if
+they roll less than this but miss, they hit, and roll for a possible A
+Class Specific Grievous injury.  If they roll in the range of a blow
+directly to EN, they make two rolls for a possible A Class Specific
+Grievous injury, and apply all that succeed. If the check falls in the
+range of a Possible Specific Grievous injury, then they make three
+such rolls.
+
+The magazine holds 7 rounds. 
+
+It is somewhat inaccurate and is treated as a thrown weapon. Howewver,
+if the target is German or Austrian, then the wielder will know and
+may subtract 5 from the result of the Strike Check. If the target is a
+Nazi, they roll twice and take the best result.
+
+Julska Kriza never starts the reloading process until the magazine is
+empty.  One bullet is added to the magaine on the last night of the
+next Full Moon.  While left undisturbed, this will continue until the
+magazine is full.
+
+Experience
+:
+Rank 0    Rank 1    Rank 2    Rank 3    Rank 4    Rank 5
+---       ---       ---       ---       ---       ---
+100       100       200       400       800       1000 
+
+## The Atashdan of Ormuz
+
+This bronze rounded and hinged rectangle is 5 cms long by 3 cms wide
+by 1/2 cm thick and weighs 3 oz.
+
+If it is placed within a hex of a bonfire, it will absorb it over the
+passage of an hour, leaving nothing but ash.  This can only be done
+once in any given day, but will fully charge the device, which will
+then hold three flames.
+
+Laying the device on the ground, using three flames and a Pass Action,
+a bonfire can be released which will spread to cover a megahex in a
+Pulse.  By using two flames they may use a Free Act to Prepare a Fire
+College Spell.
+
+By using a flame and a Pass Action, they may recover up to 5 FT lost
+to Spell Casting alone.
+
+
 ## Blotte the Blot
 
 Blotte is a small, vaguely aware amoeba of darkest sepia that would
