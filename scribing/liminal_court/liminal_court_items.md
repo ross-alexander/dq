@@ -2,9 +2,122 @@
 title: The Liminal Court
 author: Jim Arona
 date: October 19, 2025
+geometry:
+ - left=30mm
+ - right=30mm
+tableofcontents:
 ---
 
 # Items
+
+## The Archaeological Axe
+
+This hand axe is a one-handed weapon, the haft of which is made from
+woven lianas that have been steeped in Shadow Wine and dried so that
+it knows only the touch of darkness or moonlight.
+
+If the haft has been exposed to the light of six different Full Moons,
+terminating by the Autumnal Equinox, then it will be strong and
+resilient.  In particular, it will not break unless the wielder's PS
+value is greater than 38.  The head is made of black bronze, will hold
+an edge indefinitely and the entire weapon weighs but two lbs.
+
+It requires a PS of 8 and MD of 11 to wield, and inflicts D10 + 1 B
+Class damage.  The base Strike Chance is 61 and it is Ranked as a Hand
+Axe, although it is not balanced for throwing.
+
+The bearer may Detect Secret or Hidden Apertures, Detect Traps and
+Remove them as if their Rank in Thief was the same as their Rank in
+Hand Axe.  Similarly, they increase their Resistance against Minor or
+Major Curses by their Rank in this weapon.  In the event they are the
+target of a Death Curse, a result equal to or less than their Rank,
+means they have Resisted it.
+
+
+## Psychedelic Waterpipe of Ninevah
+
+This oriental waterpipe is made from orichalcum, and it is the only
+known way to consume Dust of Ages safely.  For certain values of
+safety.
+
+Dust of ages is placed in the fuming chamber, and mixed with
+Assassin's oil in roughly equal values.  Then, the chamber is closed
+and coals laid over it so that the mixture takes light.
+
+The fumes should be breathed in over the ensuing 15 minutes, and if
+successful (30 or less on %iles), the smoker will be taken back to a
+time of their preference that is within 3 × their lifespan.  They may
+only see what has taken place where they are, no movement or remote
+viewing is possible.  Failure indicates that they spend half an hour
+in pleasant dreams of the distant past.
+
+## Bullets of Vril Crystal × 9
+
+These crystal cylinders are 1 & 1/6th of an inch long and 2/5ths of an
+inch in diameter.  Each weighs 2/7ths of an oz.  They may be fired
+from a Walther P8 semi-automatic pistol.
+
+The bullet may be charged with up to four points of Vril, at a cost of
+2 FT for each Vril, and will begin to shed faint blue light.  If the
+bullet hits, the crystal shatters inflicting 1 D10 A Class damage,
+against which Protection applies.  The impact will destroy it,
+releasing the payload.  For every point of Vril the bullet has been
+charged by, base Astral damage of 2 is inflicted, which is reduced by
+Spell Armour.  A D10 is rolled for every 2 points of Astral damage,
+and a number returned according to the following schedule:
+
+A roll of 
+- 1 results in a Power of 1.
+- 2 or 3 results in a Power of 2.
+- 4, 5 or 6 results in a Power of 3.
+- 7, 8, 9 or 10 results in a Power of 4.
+
+This is the value that the base Astral damage is raised to. 
+
+## Walther P8
+This semi-automatic pistol is made of aluminium and non-ferrous
+metal. It weighs 2 lbs, 4 & 1/8th oz. It uses 9x19 Parabellum
+ammunition, and it can hold 8 rounds.
+
+The PS requirement to wield this weapon is 12 and the MD requirement
+is 18. It has a base Strike Chance of 40%, and a maximum Rank
+of 5. When the wielder has advanced to Rank 3, they may shoot twice in
+the Pulse, and at Rank 5, three times.
+
+### Experience
+
+Rank 0  Rank 1  Rank 2  Rank 3  Rank 4  Rank 5 
+---     ---     ---     ---     ---     ---
+100     100     200     400     800     1000
+
+## Illithid Ichor × 6
+
+These phials are as long a spinster's middle finger and as wide.  They
+contain a black and grey soupy fluid.  They do not appear to weigh
+anything, but whoever carries one feels depressed and sad, losing 1
+point of WP per phial.  When unencumbered of the phials, WP recovers
+at a rate of 1 every 3 days.
+
+## Illithid Hearts
+
+- 3 Dark
+- 4 Cold
+- 2 Malice
+
+## Stovepipe Hat and Lenses
+
+This stovepipe hat is made from particularly hardy dark green felt,
+with a navy blue leather ribbon to which are attached a pair of
+lenses. It weighs 11 oz.
+
+If it is worn by a Mechanician with the Hydro-mechanics specialty,
+then they will also know how to maintain and run steam engines.  If
+they have the Metalworking specialty, they may build them.
+
+When the lenses are worn, they allow the wearer to make out heat
+sources, even through mist or steam, as if they had Infravision to a
+range of 12 hexes.  The lenses cause some strain to use, so that after
+12 Pulses, the wearer loses one FT to tiredness.
 
 ## Liquor of Elemental Bronze
 
@@ -122,8 +235,8 @@ empty.  One bullet is added to the magaine on the last night of the
 next Full Moon.  While left undisturbed, this will continue until the
 magazine is full.
 
-Experience
-:
+### Experience
+
 Rank 0    Rank 1    Rank 2    Rank 3    Rank 4    Rank 5
 ---       ---       ---       ---       ---       ---
 100       100       200       400       800       1000 
@@ -153,7 +266,11 @@ Blotte is a small, vaguely aware amoeba of darkest sepia that would
 like a properly decorated ink well to lie around in. It is big enough
 to fill a sherry glass and weighs a single fluid ounce.
 
-It can drink most liquids, but any attempt to bud generates an 'offspring' fluid incapable of reproduction. This sterile offspring is ephemeral and will not last longer than an hour. It may, however, be used as ink which will have the properties associated with whatever Blotte last drank. 
+It can drink most liquids, but any attempt to bud generates an
+'offspring' fluid incapable of reproduction. This sterile offspring is
+ephemeral and will not last longer than an hour. It may, however, be
+used as ink which will have the properties associated with whatever
+Blotte last drank.
 
 >Example: If Blotte has drunk a poison, then a poisonous ink may be
 >    budded, and a single page of an enchiridion (about A5 in size),
@@ -420,13 +537,12 @@ Weapon.
 | TMR: 12     | NA: Metallic body reduces damage by 10  |
 +-------------+-----------------------------------------+ 
 
-It
- ~ automatically Resists any fire or cold damage
- ~ reduces physical, fire and cold damage by 10
- ~ cannot be Stunned or Feared
- ~ has a Defence of 42 on the ground, 62 in the air
- ~ doubles range penalties
- ~ is treated as a creature of the element that animates it
+ * automatically Resists any fire or cold damage
+ * reduces physical, fire and cold damage by 10
+ * cannot be Stunned or Feared
+ * has a Defence of 42 on the ground, 62 in the air
+ * doubles range penalties
+ * is treated as a creature of the element that animates it
 
 The wasp may be directed to attack a target by the Animator if they
 are able to maintain communication with it. This does not require a
