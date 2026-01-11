@@ -21,11 +21,11 @@ date: November 30, 2025
 Land of Nod a possibility.
 
 - Skills, Resistance, Magic - 4400 sp (12%)
-- 3 Waybread each (except Ishamael)
+- 2 Waybread each (except Ishamael)
 
 # Activity
 
-## Fruit 24, 826 WK
+## Game 1 - Fruit 24, 826 WK
 
 Hired by Callas at the Guild.
 
@@ -51,7 +51,183 @@ Going to be 18 days before the next caravan.
 
 - Rank Thari (U -> 0)
 
+## Game 2
+
+- Spent extra week at House Kerberoth
+- Caravan route: Ruins of the Sphinx, Crumbling Pass, Thorns of Heloth, Tintagel
+
+- Travel a day to the Scented Jungle, takes 16 hours
+- Attacked by a T-Rex
+- Use 3 Darkness Points
+- Use wand x3
+- Kill T-Rex and collect scales, teeth
+- 12 soft sizes (6 to ranger): 5 pt base
+- 18 hard sizes: 7pt base
+- One set given to ranger
+- Bone is very light
+- Teeth can be made into daggers
+
+## Game 3
+
+- Find 6 uncommon herbs, use while casting Earth Mage Healing spell
+  reduces time by 5 minutes
+
+- Rest for a day
+
+- Travel for 10 hours to a place that is a river of sand to an adandoned caravanserai
+
+- There are Trackless Wastes in the River
+
+- Beatles [Flesh Beetle] eat all of the flesh off the T-Rex, and then head east along the river of sand
+
+- Travel 16 hours along a wadi and reach a ruined walled complex, inside are a collection of temples,
+three on either side of the avenue, square in the middle of the avenue, wooden but made of
+stone pillars
+
+ - Road is a site of death, the temple is a mortuary temple
+
+ - Stay extra day to the north
+
+ - Travel 16 hours to a place with decayed aquaducts, from the north
+east, heading south west, in a big S curve, terrain is low rolling
+hills, green but no large mammals, the road always goes east west, called
+the Crumbling Path
+
+- Pick up a small ammonite fossil from the crumbling path, travelled on wind
+
+- Travel 8 hours but feels like only 3 hours, arrive in a vast orchard of massive
+tree with fruit the size of water melon
+
+- Cloud Tree of Sindereth, fruit is filling but doesn't provide any calories
+
+- Travel 8 hours but feels like only 3, travelling on grassy plain, appears to be blue
+under a certain light (Siroth)
+
+- Travel 5 hours, into a cold place (Cold Stream)
+
+- Come a stream, build fire and collect water
+
+- The caravan makers have bright blankets of very high quality, hard wearing and warm
+
+- Very cold overnight so late start the next day
+
+- Short travel day
+
+- Arrive at a city made of crimson tents, each with a spire in the
+  center 15 metres, of metalic, the tent also metallic, some sort of
+  transition metal, hard as bronze, magical, remembrance
+
+- Short day, travel to a lake of lava, construct a bone bridge
+
+- Long day of hard travel to arrive into a plantation of thorns, plants
+are dark green with lemon yellow barbs, GTN Thornbush of Havegoth
+
+- After a few hours reach Tintagel, castle with empty moat, with
+terranced farms on a hill behind it with a water source
+
+- The hills are U shaped that rise up high
+
+- Man in chain & helm drops from the sky
+
+## Game 4 - 2026-01-04
+
+- Get armour make up
+- Spent 1000sp
+- Get 104 true silver guineas (26208 sp) for the T-rex but traded for incantations instead
+- Get latern for T-Rex
+- There is a God called Sin and is based in the city of Ur (in the
+  land of Nod) and is associated with a bull and the number 30.
+- Trade Oils + Hemlock for armour
+- Sell Walking Unseen Potions for quilted canvas & robes
+- Find entrance to the Valley of Death
+- There is a group of seek asylum in the Underworld, in the Cthonic
+  region of in the Land of Nod (associated with Mazzakin and Lilin)
+- Fate of Ishamael - Gates of Death swing both way
+- Need to find Simyaza as as he needs the Embassy, need to get to the
+  elemental center of Tanuel
+- Head to Morca, head eastward on a cavaran
+- Need to go over or through a mountain range to get to the Land of Nod
+- There is a canyon along the river (germangeous)
+- Come to the waterfall, going from 6000ft to 4000ft
+- Should look of map
+
+## Game 5 - 2026-01-11
+
+- To get to Land of Nod head almost due north.
+
+- Find person taking a tall story, came out of the mountains on a
+  coracal, which comes onto a small lake.  Follow the river to
+  an upland above Muktu, but it very uncertain how he got from
+  Muktu to the uplands.  The stone is very dark, similar to
+  obsidion, but this does not make sense.
+
+- Use Social Potion
+
+- Get map of Muktu, has a temple to Shehem (god of covanance) and a
+  palace (manufactury), and is walled and gate
+
+- Rank Aerial Affinity 0 upto 5
+
+- Road goes east, north then west to get to Muktu
+
+- Lake is 300 km NE of Tintagel, then along the river, then 300 km north
+then 315 km to Muktu
+
+- Get some standard cold weather (wool) and cheap alchemy heating
+  elements [10sp each, size of orange, dark red clay], make from metal
+  [cesium] and water, which make contact when smashed
+
+- Buy 3sp per ration, buy 20.
+
+- Walk out of Tintagel before dawn and fly north and find the lake
+after around three hours, which is a couple of miles long and half a
+mile wide.
+
+- Cirumnavigate the lake and find the cascades.  Find the rapids above
+the lake.  Cliff made from a white stone, making finding features
+difficult.  Inside the ravine is stone is also white, with the
+eastern side of there is some moss.
+
+- Fly along cascade, climbing around 30 degrees to reach to 5000 feet
+above sea level, flying another two hours.
+
+- Slaydar crashes into the water
+
+- Spent two charges of Windwalk
+
+- Find a split in the river, with a hill between 70 feet about the
+river level
+
+- Walls of ravine have orange streaks
+
+- Use crystal to try to determine with tributary to take, and
+determine the eastern river is the right one to take
+
+- Slaydar and Artephius both injure themselves flying
+
+- Take off and head north, reach high plain with plenty
+of plants
+
+- After a couple hours see hills in the distance that
+are covered in darkness
+
+- Artephius, Ishamael, Sin & Slaydar watch order
+
+- Slaydar was infected with Plague Locust
+
+
+
 # Items
+
+## Vermilion Fan of the Orient
+
+This pleated fan has black, pointed spines that are 23 cms long,
+linked to 13 red jade panels and weighs 13 oz. It is a spell rack.
+
+It may be wielded as a buckler, and, as a Reflex Action, it may be
+used to increase the wielder's Defence by their MD until their next
+Action in the next Pulse.  Once used, it cannot be used for 4 Pulses.
+
 
 ## Spirit Net of the Necromanteion
 
@@ -95,7 +271,59 @@ If the wearer is also Aspected for Air, then they may advance the
 Aerial Affinity Talent. If the cloak is subsequently lost, no further
 advancement is possible but they keep the Ranks they have learnt.
 
+## Thinga - It's pronounced 'Tina'
+
+Thinga is a revenant who is possessing the metre-long right forelimb
+of a tyrannosaur. This has three talons, one of which is opposable.
+When it is the target of a spell of Animating Bodily Parts, Thinga
+manifests as an indistinct but clearly feminine spectral form attached
+to this forelimb but can only interact with the material world through
+that arm.
+
+* PS is 20 (+2 × the Rank of the spell)
+* MD is 10
+* MA is 3
+* WP is 13
+* Combined EN & FT is 10 (+2 × the Rank of the spell)
+
+* if she takes more damage than this, she will be forced to abandon
+  the forelimb for the Underworld, and may not return until a Rite of
+  Calling is performed on a night of the Dark of the Moon.
+
+* All her other stats are 0.
+
+While manifest:
+
+* Slaydar increases the Cast Chance of his magic by his MD if the
+range is Touch or if the word Hand appears in its name may see the
+spirits of the dead, restless or otherwise, but not totem spirits. The
+range is 50 feet (+10 feet per Rank of the Animating Bodily Parts
+spell). It does not penetrate visual and physical obscurements and
+cannot see into or on Consecrated ground
+
+* Thinga will not travel far from Slaydar except under the most dire
+of circumstances, whereupon she loses her spectral form, her TMR is 2
+and her movement rate is 20 yards per minute once a Pulse, if she is
+adjacent to Slaydar, may deliver an Unarmed Combat attack either in
+Melee or Close using Slaydar's Rank (but her own stats), in addition
+to any of Slaydar's Actions. The base damage is one rollup D10, may
+deliver B or C Class Specific Grievous injuries, but no amputations
+unless it might remove a hand.
+
+* Thinga is an adolescent female of a race closely related to orcs, if
+  not precisely one. She is working on developing two more fingers,
+  particularly the middle one, which, given her personlity, she
+  expects to get the most use out of. Each fingers will raise her MD
+  by 4.
+
+* Thinga has a way of standing to indicate that she is rolling her
+  eyes. This is a racial talent.
+
+
+# Abilities
+
 ## Knap of the Earth
+
 Slaydar has learnt a high speed Flying Manoeuvre that lets him fly at
 25 feet above the ground - 1 per Rank in Flying.  It applies only to
 methods of flight that involve wings or similar.
@@ -122,3 +350,631 @@ This only applies to the Knap of the Earth manoeuvre, and assumes he
 is spending his attention on avoiding obstacles and terrain features.
 An ability to decelerate to a stop in a second or two requires a high
 deceleration Flight Manoeuvre.  Which is not this one.
+
+# Incantations
+
+## Enchiridion of Bolt of Energy
+
+This small, A5 sized booklet is made from cream coloured vellum bound
+with brass rings and weighs 11 oz. It contains instructions which will
+teach the Bolt of Energy spell, and incantations of the Bolt of Energy
+spell.  Once an incantation is learnt, the ink will fade leaving a
+blank page.
+
+It is a Spell Rack for Incantations of the Bolt of Energy spell, and
+is advanced separately.
+
+## Bolt of Energy - Levin Bolt
+Resist
+: Passive, for half damage
+
+Effects
+: A bolt of lightning about the length and shape of a javelin flies
+  from the Adept's outstretched hand, damaging the first object or
+  entity that it impacts for 1 rollup D10 (+1 per Rank) and are Dazed
+  unless they Resist, in which case they take half damage.  Dazed
+  victims can take no other Action except a Pass Action to recover.
+
+Cost
+: 1000 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 1
+
+## Bolt of Energy - Lightning Bolt
+
+Range
+: 60 feet
+
+Resist
+: Active, Passive
+
+Target
+: Entity, Object
+
+Effects
+: A single bolt of lightning 60 feet long flies from the Adept's
+  fingertips.  The bolt must extend the entire 60 feet and will
+  deflect off stone until it reaches its full extent.  All targets
+  that are in the path of the bolt must resist or suffer [D + 5] (+ 1
+  / 3 Ranks) damage (save for half damage).
+
+In addition, any target who fails to resist is automatically stunned.
+
+Cost
+: 2500 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 2
+
+## Bolt of Energy - Bolt of Fire
+
+Range
+: 25 feet (+25 feet per Rank)
+
+Resist
+: Passive
+
+Effects
+: A bolt of fire flies from the Adept's outstretched hand, damaging
+  the first object or entity that it impacts for 1 rollup D10 (+1 per
+  Rank) of magical fire damage unless they Resist.  If flammable, the
+  target's clothing will ignite 70% of the time if they did not
+  Resist.
+
+Cost
+: 1000 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 1 
+
+## Bolt of Energy - Ray of Cold
+
+Resist
+: Passive
+
+Effects
+: This incantation of the spell projects a blast of intense magical
+  cold at the target. The ray of cold will impact either on the target
+  or on the first obstruction blocking the path from the Adept to the
+  target.  Anything struck by the ray must either resist or suffer D10
+  (+ 1 / Rank) cold damage (resist for half).
+
+Cost
+: 1000 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 1
+
+## Bolt of Energy - Razor Orb
+
+Resist
+: None
+
+Effects
+: If the Cast is successful, the Adept imbues a mass of tangled glass
+  wire about 10 cms across with sufficient energy to fly at at a
+  target and inflict B Class damage.  The glass wire will require the
+  services of a Rank 8+ artisan glass blower who is also an abstract
+  stained glass glazier. They will charge 10 tsg for each mass of
+  glass wire and can only produce one every three days.
+
+The chance to hit is the same as the Cast Chance less the target's
+Defence and Missile Range penalties.  However, the Razor Orb inflicts
+damage directly to EN on 20% or less of the modified Strike Chance,
+and a Possible Specific Grievous injury on 10%.  Damage is calculated
+at 1 rollup D10 (+1 rollup D10 for every ten Ranks) (+1 B Class Damage
+per Rank). Enhancing damage will increase the number of rollup D10s
+AND the damage per Rank.
+
+Damage is affected by the Protection value of armour and Damage
+Reduction, if appropriate.
+
+Cost
+: 3000 Experience.
+
+Constraints
+: Unracks the spell, requires a mass of glass wire, reduces FT value by 2
+
+## Bolt of Energy - Burst of Energy
+
+Resist
+: None
+
+Range
+: Self
+
+Target
+: Sentient Entity
+
+Effects
+: The Adept may recover an amount of lost FT equal to the total number
+  of non-Prime Ranks in the spell and it does not cost FT to Cast.
+
+The Adept may only benefit from this incantation once per dawn, unless
+a duplicate is known.
+
+Cost
+: 3000 Experience.
+
+Constraints
+: Unracks the spell 
+
+## Bolt of Energy - Orb of Flight
+
+Range
+: Self
+
+Duration
+: 20 minutes (+20 minutes per Rank)
+
+Target
+: Sentient Entity
+
+Effects
+: The Adept transforms into a reflective yellow orb about 30 cms
+  across. In this form, they may move in three dimensions at their TMR
+  (+1 per five full Ranks).  Upon climbing to a height of 15 metres or
+  more, they may accelerate up to a movement rate of 30 miles per hour
+  (+1 mph per Rank), directing their travel by means of a Torrent of
+  Energy.  While the orb does not shed light, it is extremely
+  eye-catching even in regions of low light, unless Invisible or
+  Unseen.
+
+As an orb, the Adept's base Defence is improved by 20 because of their
+small size, but they do not benefit from a shield or main-gauche. They
+may Evade, but gain no benefit from weapon Ranks.
+
+They have no EN, PS, MD or PB in this form. They keep their AG, MA, WP
+and FT values. Once FT is exhausted, they are forced back to their
+normal form, whereupon they, routinely, plummet.
+
+They may Prepare or Cast Spells and Rituals, use Talents, speak or
+understand a language, sing or use any Skill that does not require a
+physical form.
+
+Cost
+: 2500 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 2
+
+
+
+## Ancient Cantrip Gift of Moon-bright Silver
+
+Range
+: Touch
+
+Duration
+: MA minutes
+
+Effects
+: The Adept covers a single object in moon-bright silver for the
+  duration of the cantrip. Were-creatures and lycanthropes who are
+  damaged by this silver do not benefit from racial Damage Reduction
+  and protections.
+
+## Bolt of Starfire - Torrent of Radiance
+
+Range
+: 1 hex (+ 1 hex for every 10 Ranks)
+
+Duration
+: Immediate (during Pulse)
+
+Target
+: Volume of Effect
+
+Effects
+: The Adept Casts a devastating cascade that effects the three hexes
+  in front of them. This extends a hex further for every 10 Ranks. Any
+  entity or object caught in the volume of efect must Resist or suffer
+  1 rollup D10 (+1 Radiant damage per Rank) (+1 rollup D10 for every
+  ten Ranks).
+
+For the total count of non-prime numbers less than or equal to the
+damage inflicted, targets are thrown away from the Adept as many feet,
+and must Break 100, adding their Agility to the result, or fall Prone.
+
+E.g., if the spell inflicts 23 damage then targets will be thrown 14
+feet further away from the Adept, since 22 is the 14th non-prime.
+
+1    4    6    8    9    10   12   14   15    16  18   20   21   22   24   25   26 
+---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---
+1    2    3    4    5    6    7    8    9    10   11   12   13   14   15   16   17
+
+27   28   30   32   33   34   35   36   38   39   40   42   44   45   46
+---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---
+18   19   20   21   22   24   25   26   27   28   29   30   31   32   33
+
+Because the damage is Radiant in nature, undead must roll under half
+their Magic Resistance to escape its effects.
+
+Additionally, if the Cast Check falls in the range of a Double Effect,
+the Rank of the spell is increased by five. If it falls in the range
+of a Triple Effect, then the Rank is increased by fifteen.
+
+Cost
+: 2500 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 2 
+
+## Bolt of Starfire - Bolt of Phlegethon
+
+Duration
+: 1 Pulse (+1 per 4 Ranks)
+
+Resist
+: None
+
+Effects
+: The target of this spell takes 1 rollup D10 + 1 soul damage per
+  Pulse until duration expires. If the Adept rolls in the range of a
+  Double Effect, the Rank is increased by 5, or by 15 if the roll is
+  in the range of a Triple Effect.
+
+Cost
+: 3000 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 2 
+
+## Blackfire - Call the Entropy Locusts
+
+Effects
+: The Adept calls forth the Entropy Locusts which inflict 1 rollup D10
+  (+1 rollup D10 for every 10 Ranks) (+1 per Rank) on everything in
+  the volume of effect. Damage from the dice cannot be Resisted, and
+  damage inflicted to EN cannot be Healed, unless it is performed by a
+  Healer who can Regenerate (Rank 9 or higher). EN damage suppresses
+  Regeneration that arises out of Racial magic by 3 points per Pulse
+  until EN is completely restored. If this prevents any Regeneration,
+  then the effects of the suppression will end at dusk on he next
+  Friday.
+
+If applied against a defensive wall or structure, then only the damage
+generated from the rollup dice are applied, but this is considered
+siege damage.
+
+This incantation requires the remains of a locust, which will be
+consumed when the spell is Cast.
+
+Cost
+: 5000 Experience.
+
+Constraints
+: Unracks the spell, consumes the remains of a locust, reduces FT value by 3
+
+## Blackfire - Carrion's Ivory Grin
+
+Range
+: Sight
+
+Duration
+: Conc. Max of 1 Pulse (+1 per 4 Ranks)
+
+Target
+: Entity
+
+Resistance
+: Active, only
+
+Effects
+: The Adept calls forth 1 (+1 per Rank) horrors from the Astral in the
+  form of jackals with flashing white teeth and bodies of darkness. No
+  more than six of these jackals may attack a single one hex
+  entity. Their TMR is equal to the Rank of the spell. They will move
+  to their targets and inflict D10 (+1 per three Ranks) Dark Celestial
+  damage at the end of each Pulse until the duration is
+  exhausted. Each Jackal is immune to mundane damage but can only
+  withstand 10 magical damage (+2 per Rank) which will dissipate it.
+
+They have no Defence or Magic Resistance.
+
+Cost
+: 3500 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 3
+
+## Blackfire - Torrent of the Styx
+
+Effects
+: The Adept fills the spell's volume with a torrent of the Styx, which
+  inflicts D10 (+2 per Rank) soul damage unless they Resist and
+  Break 100. If they fail, they add their AG value to the result, if
+  they succeed, they add 2 x their AG value. Failing the AG roll
+  indicates that they lose lose 1 (+1 for every 4 Ranks) from their
+  TMR to a minimum of 0.
+
+Cost
+: 3500 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 3
+
+## Whitefire - Charon's Gaze
+
+Effects
+: If the target of this Incantation is a single hex creature and fails
+  to Resist, then their EN and FT are both reduced to 0 or, if they
+  Resist, they take D5 (+1 / Rank) soul damage. A multi-hex creature
+  that fails to Resist takes D10 (+2 / Rank) soul damage, half that if
+  they Resist.
+
+
+This incantation requires a copper coin taken from the eye of a
+corpse, which will be consumed when the spell is Cast.
+
+Cost
+: 4000 Experience.
+
+Constraints
+: Unracks the spell, copper coin, reduces FT value by 2
+
+## Increased Gravity - The Gathering of Acheron
+
+Resist
+: None
+
+Duration
+: Until dawn
+
+Effects
+: The target of this Incantation gathers woe so that whenever they
+  make a percentile check, each d10 is read for the highest possible
+  value unless the preferred result would be high. This is a minor
+  curse.
+
+## Blending - Walking in Darkness
+
+Target
+: Self
+
+Duration
+: 5 minutes (+5 minutes per Rank)
+
+Effects
+: The Adept becomes Invisible so long as they do not move faster than
+  one half of their TMR or make a Strike Check in melee or close
+  (whether successful or not). Witchsight (or similar magic) that is
+  of equal or higher Rank to the spell will penetrate the effects of
+  the Incantation.
+
+If the Rank of the spell is 16, and they become visible as a
+consequence of making a Strike Check, they become Invisible at the end
+of the Pulse.
+
+The target may choose to end the spell at any time. 
+
+Cost
+: 2500 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 2
+
+## Witchsight - Minor AoE
+
+Effects
+: All legal targets that share the megahex of the caster's megahex at
+  the time of casting benefit from the Witchsight spell for the
+  duration of the spell.
+
+Cost
+: 500 Experience
+
+Constraints
+: Unracks the spell
+
+## Strength of Darkness - Enhanced Duration
+
+Duration
+: 30 minutes (+30 minutes per Rank)
+
+Target
+: Self
+
+Effects
+: The Adept’s Physical Strength is increased by 1 (+ 1 for every 2 (or
+  fraction) Ranks) for the duration of the spell.
+
+Cost
+: 500 Experience
+
+Constraints
+: Unracks the spell
+
+## Spectral Warrior - The Thirtieth Reckoning
+
+Duration
+: 10 minutes (+1 minute per Rank)
+
+Target
+: Self 
+
+Effects
+: The Adept is surrounded by the spectral form of a massive scimitar
+  cat called the Thirtieth Reckoning, a servant of the Moon God Sin,
+  which provides ablative Protection of 10 (+ 5 / 2 Ranks). The spell
+  ends when Counterspelled by the Adept, the Protection is exhausted
+  or duration expires.
+
+The spectral form has a PS of 25 (+1 per five Ranks), MD of 20 (+1 per
+five Ranks), AG of 20 (+1 per five Ranks) TMR of 12 and a movement
+rate of 600 yards per minute (20.5 mph). The Adept may benefit from 3
+points of Protection from the form's hide, unless their own armour is
+better.
+
+### Combat Mechanics
+
+The form has two Claw and a Bite attack routine which may be delivered
+in Melee or Close. If two of these three attacks are successful, then
+a free Rake attack is allowed.
+
+The maximum Rank of each attack is determined by the Rank of the spell:
+
+-----   ------  ------------------- --------  ---- -----------------------------------------
+Bite    SC 45         DM +7         A Class   MC   Max Rk: Rank / 4
+Claw    SC 50         DM +5         B Class   MC   Max Rk: Rank / 3, 7 @ Rk 19, 8 @ Rk 20
+Rake    SC 55   2 rollup D10 + 3    B Class   C    Max Rk: Rank / 5 
+-----   ------  ------------------- --------  ---- -----------------------------------------
+
+### Experience & Advancement
+
+This does not require a trainer, although the Adept must commune with
+the Reckoning as if it were Weapon Ranking, although it counts as
+Magic Training.
+
+Experience Cost per Rank
+:
+
+Attack    Rk 0    Rk 1    Rk 2  Rk 3   Rk 4   Rk 5    Rk 6    Rk 7    Rk 8
+---       ---     ---     ---   ---    ---    ---     ---     ---     ---
+Bite      75     75      150    200    500    1000    —       —       —
+Claw      100    100     200    400    700    1500    3000    3000    3000
+Rake      100    100     200    500    1500   —       —        —       — 
+
+### The Bite: Specific Grievous Injury Table
+
+01 – 05
+: Congratulations! It’s a bleeder in your primary arm! Take 1 Damage
+  Point from Endurance immediately and 1 per pulse thereafter until
+  the flow is staunched by a Healer of Rank 0 or above or you die.
+
+06 – 07
+: Oh no! Your opponent’s weapon has entered your secondary arm’s elbow
+  joint. Take 2 Damage Points immediately from Endurance and that arm
+  is useless until the sliver has been treated by a Healer of Rank 3
+  or above. Also, increase the chance of infection by 30.
+
+08 - 12
+: You have been stabbed in your secondary arm. Drop whatever you were
+  holding in it and take 2 Damage Points immediately from
+  Endurance. It will take a full week for the arm to be of any use to
+  you whatsoever.
+
+13
+: Your opponent’s weapon has entered your eye. Roll D10. On a roll of
+  1, the weapon has entered your brain and you are dead. On a roll of
+  2–5, your left eye is blinded. On a roll of 6–10, your right eye is
+  blinded. If you are lucky enough to be blinded instead of killed,
+  you have suffered 2 Damage Points to Endurance.  In addition, a
+  figure who is blind in one eye suffers the following subtractions:
+  -1 from MD, -2 from PB, -4 from Perception. A figure blinded in one
+  eye reduces their base chance with any missile or thrown weapon by
+  30.
+
+14 – 18
+: Tsk, tsk. A wound of the solid viscera. Usually fatal. Take 3 Damage
+  Points to Endurance immediately and 1 per pulse thereafter until the
+  bleeding is stopped by a Healer of Rank 2 or above or you die. Add
+  30 to the chance of infection.
+
+19 – 20
+: Take a stab in the leg (your choice as to which one) resulting in a
+  deep puncture of the thigh muscle. Suffer 1 Damage Point to
+  Endurance immediately and reduce your TMR by 1 until you heal, which
+  will take 4 weeks.
+
+21 – 24
+: A nasty puncture in the region of the shoulder and neck. Your
+  secondary collar bone is crushed. Drop anything held in that hand
+  and take 4 Damage Points to Endurance.
+
+25 – 27
+: A nasty puncture in the region of the shoulder and neck. Your
+  primary collar bone is crushed. Drop anything held in that hand and
+  take 4 Damage Points to Endurance.
+
+28 – 30
+: Long fangs have punctured your skull inflicting 7 Damage Points to
+  Endurance. This can only be Healed naturally (1 point of EN every
+  three days), unless the Healer can Repair Vital Organs or
+  Regenerate.
+
+
+### The Rake: Specific Grievous Injury Table
+
+21 – 25
+: A chest wound. Take 2 Damage Points to Endurance immediately and
+  reduce your TMR by 1 until recovered (about 2 months).
+
+26 – 28
+: Bad luck! Your secondary hand has been severed at the wrist. Take 2
+  Damage Points immediately from Endurance and 1 point per pulse from
+  Fatigue thereafter (Endurance when Fatigue is exhausted) until you
+  are dead or the bleeding is staunched by a Healer of Rank 0 or
+  above. If you live, reduce your MD by 2.
+
+29 – 31
+: Worst luck! Your primary hand has been severed. See result 26–27 for
+  effects.
+
+33 – 35
+: Your secondary arm is sliced off at the shoulder. Take 5 Damage
+  Points immediately from Endurance and 1 per pulse thereafter from
+  Fatigue (Endurance when Fatigue is exhausted) until you are dead or
+  the bleeding is staunched by a Healer of Rank 1 or above. Reduce
+  your MD by 2 and your AG by 1.
+
+36
+: Your primary arm is sliced off at the shoulder. Take 5 Damage Points
+  immediately from Endurance and 1 per pulse thereafter from Fatigue
+  (Endurance when Fatigue is exhausted) until you are dead or the
+  bleeding is staunched by a Healer of Rank 1 or above. Reduce your MD
+  by 2 and your AG by 1.
+
+37 – 42
+: You have been eviscerated! Take 4 Damage Points immediately from
+  Endurance and 1 point per pulse from Fatigue thereafter (Endurance
+  when Fatigue is exhausted) until you are unconscious. Increase your
+  chance of infection by 40.
+
+43 – 48
+: A slash along one arm, and it’s a bleeder! Take 2 Damage Points
+  immediately from Endurance and lose 1 point from Fatigue (Endurance
+  when Fatigue is exhausted) each pulse until the bleeding is stopped
+  by a Healer of Rank 1 or above or you die.
+
+51 – 52
+: Hamstrung! Roll D10. On a roll of 1–4, it is your left leg. On a
+  roll of 5–10 it is your right. Take 4 Damage Points immediately from
+  Endurance and fall prone. You may not stand unassisted until the
+  wound is healed (which should take three months). Reduce your AG by
+  3 permanently.
+
+53 – 60
+: Your primary arm is crippled by a wicked slash! Take 2 damage Points
+  immediately to Endurance and drop anything you have in your primary
+  hand. The arm is unusable until healed, which should take 2 months.
+
+61 – 67
+: Your secondary arm is crippled; see 53–60 for details.
+
+68 – 69
+: A nasty slash in the region of the shoulder and neck. Roll D10. On a
+  roll of 1–3, your head is severed and your corpse tumbles to the
+  ground. On a roll of 4–6, your secondary collar bone is crushed; on
+  a roll of 7–10 your primary collar bone is crushed. If your collar
+  bone is crushed, the results are identical to 53–60, except you
+  suffer 4 Damage Points to Endurance.
+
+70 – 74
+: A crushing blow smashes your torso. Take 3 Damage Points from
+  Endurance and suffer a reduction of 4 in both PS and MD lasting for
+  3 days.
+
+75 – 80
+: A massive chest wound accompanied by broken ribs and crushed
+  tissues. Very ugly, this. Take 5 Damage Points immediately from
+  Endurance. Reduce your MD and AG by 3 each until this wound heals
+  (which should take about 4 months). Increase your chance of
+  infection by 10.
+
+Cost
+: 5000 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 3 
