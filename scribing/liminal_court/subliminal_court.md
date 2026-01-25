@@ -215,6 +215,69 @@ are covered in darkness
 
 - Slaydar was infected with Plague Locust
 
+## Game 6 - 2026-01-25
+
+- Survive overnight
+
+- Continue flying along the river
+
+- River disappears into a bluff
+
+- Arid high plain that is remarkable dark
+
+- To the north and 15 degrees to the east an area of darkness, notice
+  it is shifting attention away of it, of an area two to three square
+  miles
+
+- Fly over plains for another two hours, stones becomes black
+
+- See a couple of big towers, over six stories high, vaguely step
+pryamid, presence to the east pressing against my mind
+
+- Terrain smashed by hammer
+
+- Land from 15 miles from Muktu
+
+- Small climb and then an escarpment 900 feet, in a single place it is
+300 feet
+
+- Travel on foot for the remainder of day
+
+- Three figures behind us, grey in colour, black eyes, no nose,
+  hairless, wearing belts
+
+- Use boomstick Lightning Bolt
+
+- Get 2 × obol
+
+- I hear the word Pomegranate
+
+- GTN Ghulk, kind of jinn, no intrinic resistance to magic
+
+- Use two Gut Buster Rank 10
+
+- The two structures, one a ziggat and palace, walled with a garden
+  inside
+
+- Down the road to the dark place
+
+- Spent 5gs on a Pomegranate
+
+- Use charge of Funeral Mask
+
+- Resurrect Artephius, now bound to Hades
+
+- Temple in Mukta, Shechem, Sin, Marduk
+
+- City has many more gods than expected
+
+- Keep of Faces is the darkness to the east
+
+- Obol is magical, nature is recogning
+
+- Ghulk take half physical damage, ordinary damage must be greater than 10
+
+- Get Ghulk hearts and blood, kind of Elemental with Death and Dark Earth
 
 
 # Items
