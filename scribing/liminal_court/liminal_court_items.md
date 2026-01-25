@@ -10,6 +10,21 @@ tableofcontents:
 
 # Items
 
+## A Limoges Shepherdess
+
+This delicate figure in porcelain is of a shepherdess with a crook and
+a hand to her brow in a gesture of search and weighs 11 oz.
+
+While she has a searching aspect, she is the legal target for the
+Ritual of Summoning Animals. If the Ritual is successful, the
+shepherdess will lie down and sleep.
+
+An hour later, a number of sheep equal to 1 for every 3 full Ranks
+will mysteriously appear, regardless of the current location.  The
+shepherdess will return to a searching aspect when the last sheep is
+gone.
+
+
 ## The Archaeological Axe
 
 This hand axe is a one-handed weapon, the haft of which is made from
@@ -316,6 +331,7 @@ no other record of him survives.
 
 
 ## Nightmare Robes
+
 These robes are the colour of migraines and nausea. 
 
 They weigh 2 lbs, provide 3 points of Protection, 7 Spell Armour but
@@ -329,7 +345,7 @@ their own Telekinesis spell and in that case they spend 1 less FT, to
 a minimum of 1.
 
 Sleeping in these robes opens the wearer's mind to strange, twisted
-visitations, preventing any recovery of FT for the first four hours
+visitations, preventing any recovery of FT for the first four hours.
 
 ## Avant-Bras of Shielding
 
@@ -1128,4 +1144,9 @@ Constraints
 
 This incantation is not teachable.
 
-﻿
+﻿# Split
+
+- Avant-Bras of Shielding
+- Yellow Potion of Health
+- A Limoges Shepherdess
+- Illithid Hearts: Dark × 3
