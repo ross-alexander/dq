@@ -46,7 +46,6 @@ Rank 10 (D+6) with Rank 20 Spectral Weapon (7,000 sp)
 
 Rank 10 (D+4) with Rank 20 Spectral Weapon (4,000 sp)
 
-
 ## Main Gauche
 
 This Rank 4 Weaponsmith Main Gauche has +1 damage.
@@ -121,25 +120,13 @@ Endurance per day until stopped by Cure Disease.  The Strength and
 Endurance lost will be recovered at 1 point per day, or treated by
 Repair Muscles.  5,000
 
-## Walk Unseen Potion
-
-4 Walk Unseen Potion Rank 10                          4,000
-
 ## Restorative
 
-10 Gut Busters Rank 10 (-12EN and 24FT)                    10,000
+10 Gut Busters Rank 10 (-12EN and 24FT) 10,000 [×2 used]
 
 ## Sleep Dust
 
 1 Sleep Dust Rank 10 Can't be woken                      5,000
-
-## Oil of Enchant Weapon
-
-7 Oil of Enchant Weapon Rk 10 (+11% +4 Dm)                  7,000
-
-## Oil of Enchant Armour
-
-1 Oil of Enchant Armour Rk 10 (+22 DEF)                      1,000
 
 ## Mass Fear Trap
 
@@ -191,6 +178,7 @@ GM
 This is a standard Rank 6 Crystal of Vision.
 
 ## Potions
+
 - 5 × R9 Creating Restorative (S-9) potions
 - 5 × R12 Waters of Healing (S-11)
 
@@ -400,7 +388,7 @@ Currently [Spring 821WK] it has 13 charges with 90% BC.
 Value = 4000sp 19/6/98 JP Smith 2765069
 
 
-## Social potion ×3
+## Social potion ×3 [1 Used]
 
 This delicate pot contains a sweet blue liquid. When drunk it will
 grant a bonus of +20% to all social rolls for the duration of an hour.
@@ -446,7 +434,7 @@ is cured.
 
 Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff Catnappering Caper – Summer 820
 
-## Pot of beauty Flesh (×2)
+## Pot of beauty Flesh (×2) [1 used]
 
 This pot contains a pinkish, oozing mass and weighs 6 oz. When it's
 contents are applied it will increase the PB of the target by 8 (may
@@ -476,7 +464,7 @@ Charges 8 7 6 5 4 3 2 1 [5 used]
 
 Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff Catnappering Caper – Summer 820
 
-## Funeral Mask
+## Funeral Mask [×1 Used]
 
 This finely painted paper mask may be placed on a corpse, it will add
 20% to any resurrection attempt on the body.
@@ -626,15 +614,15 @@ summarily, even at the risk of the character's own life.
 Ishmael willingly entered into this pact in the City of Kersoon on
 Thunor on 15 Fruit 798.
 
-## Darkness Points
-
-3 Darkness Points                                30,000
-
 # Used or not applicable
+
+## Darkness Points [used]
+
+3 Darkness Points [30,000 sp]
 
 ## Raw Mana Points [used]
 
-2 Raw Mana Points                                20,000
+2 Raw Mana Points [20,000 sp]
 
 
 ## Mana Potion [Used]
@@ -696,3 +684,16 @@ This green emerald must be ground in dust and drunk with milk to take
 effect. For the next quarter, the drinker will add 2 to PC.
 
 Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff Catnappering Caper – Summer 820
+
+## Walk Unseen Potion [Used]
+
+4 Walk Unseen Potion Rank 10                          4,000
+
+## Oil of Enchant Weapon [Used]
+
+7 Oil of Enchant Weapon Rk 10 (+11% +4 Dm)                  7,000
+
+## Oil of Enchant Armour [Used]
+
+1 Oil of Enchant Armour Rk 10 (+22 DEF)                      1,000
+
