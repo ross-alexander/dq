@@ -138,11 +138,11 @@ Repair Muscles.  5,000
 
 ## Healing Potion
 
-6 Healing 10 Point                                  5,500
+6 Healing 10 Point 5,500 [×2 used]
 
 ## Healing Potion
 
-3 Healing 20 Point                                  6,000
+3 Healing 20 Point 6,000
 
 ## Healing Potion
 
@@ -185,14 +185,14 @@ This is a standard Rank 6 Crystal of Vision.
 Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff
 Catnappering Caper – Summer 820
 
-## Wind walk (×5)
+## Wind walk (×5 [4 used])
 
 This is a rank 1 Wind Walking (S-17) with a BC of 65%.
 
 Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff
 Catnappering Caper – Summer 820
 
-## Boom stick (×3)
+## Boom stick (×3) [1 used]
 
 This 1 inch rod has a button flush to the top, when the button is
 pressed it triggers a R1 lightning bolt in the direction it is
@@ -203,9 +203,9 @@ R10 Mechanician.
 Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff
 Catnappering Caper – Summer 820
 
-## Invisibility Scroll (×3)
+## Invisibility Scroll (×3) [2 used]
 
-This is a scroll of Invisibility (G-8) with a BC of 80%.
+This is a scroll of Rank 10 Invisibility (G-8) with a BC of 80%.
 
 Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff
 Catnappering Caper – Summer 820
@@ -484,7 +484,7 @@ heard by the target. There is a noticeable but minor effect of
 swirling air when the message is sent and received. The time taken for
 the message to reach the entity is 1 min per 10 mile.
 
-Charges 8 7 6 5 4 3 2 1 [3 used]
+Charges 8 7 6 5 4 3 2 1 [4 used]
 
 Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff Catnappering Caper – Summer 820
 
@@ -520,7 +520,7 @@ Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff Catnappering Caper 
 
 3 No Healing Venom (Save vs EN for no effect) Duration D+2 minutes    12,000
 
-## Venom [2 used]
+## Venom [4 used]
 
 6 Refined Basilisk Venom D + 10 Damage                      3,000
 (No Save, reduced by Amulets etc.) One off effect.

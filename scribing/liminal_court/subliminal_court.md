@@ -279,6 +279,49 @@ pryamid, presence to the east pressing against my mind
 
 - Get Ghulk hearts and blood, kind of Elemental with Death and Dark Earth
 
+## Game 7 - 2026-02-01
+
+- Maktu is about a mile west of the Keep of Five Faces
+
+- Maktu is about 1000' above sea level
+
+- Empire of the East is a collection of Kingdoms and Principalities
+(Kingdoms are collection of cities under a single ruler, a
+principality is a single city)
+
+- Most common devils are blue devils.
+
+- Imps are fire imps, weak in combat.
+
+- Groups of succubi lead by an Ur-Incubus (who normally duel wield).
+
+- Succubi are normally dark reddish brown colour.
+
+- Ur-Incubus are pale green.
+
+- The ridge line east-west so there are deep ravines which can be used
+to sneak along and can be used to bypass the Keep.  There is some
+areas out in the open.
+
+- To the north is an alpine forest, which contains wolves and yeti and
+possibly nephilm.
+
+- Even further north is a sea that will require a boat.
+
+- Rank Rune Portal to 4 (1600)
+- Rank Blackfire to 11 (3850)
+- Rank Purification
+
+- Use charge of invisibility x2
+- Use wind walk
+- Use 20 point healing potion
+- Use 2x Basalisk venom
+- Use message
+
+- Portal through and back
+
+- Get to sample two interested wines, one yellow, dry & nutty
+
 
 # Items
 
