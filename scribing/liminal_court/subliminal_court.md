@@ -426,6 +426,50 @@ unless it might remove a hand.
   eyes. This is a racial talent.
 
 
+## T-Rex Leather Armour
+
+Wgt
+: 18 lbs
+
+Prot
+: 8
+
+AG Mod
+: −1
+
+Stealth Mod
+: 0
+
+Value
+: 350 sp
+
+This suite of finely crafted hard leather armour has been
+armour-smithed by a Rank 6 Armourer to provide an additional point of
+protection.  It is sized to fix a 5'10" to 6'2" human male.
+
+## Quilted Canvas
+
+Wgt
+: 6 lbs
+
+Prot
+: 3
+
+AG Mod
+: 0
+
+Stealth Mod
+: +5
+
+With a base protection of three points, it gains additional protection
+at ranks 10, 15, and 20 of armor spells, plus ablative magical
+protection equal to non-prime ranks.
+
+------ --- --- --- --- --- --- --- --- --- --- --- ---
+Rank     1   4   6   8   9  10  12  14  15  16  18  20 
+Bonus    1   2   3   4   5   6   7   8   9  10  11  12
+------ --- --- --- --- --- --- --- --- --- --- --- ---
+
 # Abilities
 
 ## Knap of the Earth
