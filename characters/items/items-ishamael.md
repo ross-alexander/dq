@@ -192,17 +192,6 @@ This is a rank 1 Wind Walking (S-17) with a BC of 65%.
 Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff
 Catnappering Caper – Summer 820
 
-## Boom stick (×3) [1 used]
-
-This 1 inch rod has a button flush to the top, when the button is
-pressed it triggers a R1 lightning bolt in the direction it is
-pointed.  A dial on the base of the rod may be tuned to delay the
-triggering of the spell, from 0 – 7 pulses.  Manufactured by a rank
-R10 Mechanician.
-
-Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff
-Catnappering Caper – Summer 820
-
 ## Invisibility Scroll (×3) [2 used]
 
 This is a scroll of Rank 10 Invisibility (G-8) with a BC of 80%.
@@ -504,7 +493,7 @@ Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff Catnappering Caper 
 
 +2 MR +3 DEF, stacks with amulet of luck (12,000 sp)
 
-## Hemlock Potion
+## Hemlock Potion [1 used]
 
 3 Hemlock Potion - Subtract 6 EN per hour for 48 Hours              9,000
 
@@ -512,7 +501,7 @@ Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff Catnappering Caper 
 
 5 Poison Rk 10 Slow (Save vs EN for no effect) for 3 minutes        10,000
 
-## Poison [2 used]
+## Poison [4 used]
 
 10 Necrotic Poison D10 / pulse (Save vs EN for half effect) for 1 minute    10,000
 
@@ -697,3 +686,13 @@ Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff Catnappering Caper 
 
 1 Oil of Enchant Armour Rk 10 (+22 DEF)                      1,000
 
+## Boom stick (×3) [3 used]
+
+This 1 inch rod has a button flush to the top, when the button is
+pressed it triggers a R1 lightning bolt in the direction it is
+pointed.  A dial on the base of the rod may be tuned to delay the
+triggering of the spell, from 0 – 7 pulses.  Manufactured by a rank
+R10 Mechanician.
+
+Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff
+Catnappering Caper – Summer 820

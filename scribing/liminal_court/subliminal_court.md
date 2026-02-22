@@ -322,6 +322,89 @@ possibly nephilm.
 
 - Get to sample two interested wines, one yellow, dry & nutty
 
+## Session 8 -- 2026-02-15
+
+- At caravanseria
+- Seasilk in depand
+- Place to buy spices
+- Incenses are from wood
+- Silk from the east
+- Buy 500sp of mace (1.5 lb, 5 packets)
+- Spend 5 days at caravanseria
+- 22 wagons, 18 camels
+- Keep up Shadowform & Witchsight
+- Shadowwings in the shape of a screech owl
+
+- Forested area north of the road, Slaydar sees movement five or six
+  miles away
+- Caravan leader is a decent ranger, suggests it could be wolves
+
+- Found pack of wolves, large, 18 or 19
+
+- Quiet for the next few hours
+
+- Use one hemlock potion
+
+- Give necrotic potion to Sin
+
+- Wolves have managed pull shadows around them to increase their stealth
+
+- Wolves come and take poisoned meat, lost 6 and 6 not well
+
+- Reach small town, farming based on a small buffalo, cheese similar
+  to mozzarella.  If consumes for three consecutive days then increases
+  effective EN by 5 with respect to healing
+  
+- Spent 20 cheese (100sp)
+
+- Summon two wolves, group sentient, short lived, they have high
+fatigue and strength
+
+- In the skull of one is a flat stone 1cm long and 5mm, like a
+small horn, made of jet, magical, warding
+
+- Damage reduction is 9, except where divisble by 5
+
+- Get turquiose and bloodstone
+
+- Collect pelts, could be turned into a cape for stealth (5% / rank
+for ranger), or armour for damagae reduction (5 but only if not
+divisable by 5)
+
+- Skin the wolves, could make cloak with skull and skin, would
+count as a helm, does not break any law of sumpturary
+
+## Session 9 -- 2026-02-22
+
+- Use restorative [x4]
+
+- Use 2x necrotic poisons
+
+- Wolves calling upon the Nightmother
+
+- Use boomstick [x2]
+
+- Kill two more wolves
+
+- Earn 100sp for the fight
+
+- Beryl, hypericum, pyrites, wolf's tooth
+
+- Find wreath of cyprus leaves, three remain, chaplet, kind of living,
+  devotional magic
+
+- Skin the two wolves
+
+- Travel two days enter a defile
+
+- Traval along the defile around day and half
+
+- North is an eye shaped depressions, at the bottom is a town, Kharminthe
+
+- Area is still alpine, above the tree line
+
+- Followed by the wolves but they don't press
+
 
 # Items
 
@@ -426,6 +509,39 @@ unless it might remove a hand.
   eyes. This is a racial talent.
 
 
+## Enchanted Gems 
+
+The se gems are legal targets of the Ritual of Enchantment and last
+until the end of the season. Each Ritual costs 1 oz black myrrh and 1
+oz of white sandalwood which will cost 300 sp (sandalwood trees take
+around three decades to mature and are scarce).
+
+### Eye of the Snow Tiger
+
+This milky white stone is lenticular and about 1 cm wide. It has an
+amber stripe about 2 mms wide. Once set into a bezel, Enchanted and
+worn on the wrist, it adds 1 to MR and 2 to Def which stacks with any
+Amulet of Luck and reduces the count of the number of Amulets of Luck
+by 1.
+
+### Jade Disc
+
+This 1 cm wide, disc-shaped green jade, once set into a bezel,
+Enchanted and worn on the wrist, increases the wearer's Initiative by
+8 and allows any Cast or Strike check vs the undead that ends in an 8
+to be treated as ending with a 1 and any damage roll of 1 on a D10
+becomes 8.
+ 
+### Jacinth Lozenge
+
+This 1 cm, lozenge-shaped dark blue jacinth, once set in a bezel,
+Enchanted and worn on the wrist, adds 2 to the wearer’s MD. This bonus
+only applies to the hand on the wrist where the gem is worn. If a
+shield is used on that hand, the gem reduces the MD penalty, only, but
+means that the shield is not destroyed unless it is cloven against two
+Specific Grievous injuries to preserve the wearer's armour.
+
+
 ## T-Rex Leather Armour
 
 Wgt
@@ -461,16 +577,28 @@ AG Mod
 Stealth Mod
 : +5
 
-With a base protection of three points, it gains additional protection
-at ranks 10, 15, and 20 of armor spells, plus ablative magical
-protection equal to non-prime ranks.
+These canvas robes are similar to martial arts clothing, have a size
+factor of 1 and provide 3 points of Protection. If the wearer casts
+their Armour spell on it.  Protection is increased by 1 point for
+every 5 Ranks and absorbs 1 point of Spell Damage for every Rank that
+is not a Prime each Pulse, resetting at the end of the Pulse.  This is
+additional to any other benefit of the spell.
 
------- --- --- --- --- --- --- --- --- --- --- --- ---
-Rank     1   4   6   8   9  10  12  14  15  16  18  20 
-Bonus    1   2   3   4   5   6   7   8   9  10  11  12
------- --- --- --- --- --- --- --- --- --- --- --- ---
+It may be repaired by an Artisan Seamstress or Tailor who is Rank 8 or
+higher, requiring 10 tsg and 3 days per point of Protection repaired.
+
+------ --- --- --- --- --- --- --- --- --- --- --- --- ---
+Rank     0   1   4   6   8   9  10  12  14  15  16  18  20 
+Bonus    1   2   3   4   5   6   7   8   9  10  11  12  13
+------ --- --- --- --- --- --- --- --- --- --- --- --- ---
 
 # Abilities
+
+## Sin's Wraithcloak
+
+Sin's Wraithcloak Spell has been modified by an ancient Moon God so
+that it protects against damage from silvered weapons in addition to
+mundane weapons.
 
 ## Knap of the Earth
 
@@ -689,8 +817,6 @@ Cost
 Constraints
 : Unracks the spell, reduces FT value by 2
 
-
-
 ## Ancient Cantrip Gift of Moon-bright Silver
 
 Range
@@ -761,7 +887,7 @@ Resist
 
 Effects
 : The target of this spell takes 1 rollup D10 + 1 soul damage per
-  Pulse until duration expires. If the Adept rolls in the range of a
+  Pulse until duration expires.  If the Adept rolls in the range of a
   Double Effect, the Rank is increased by 5, or by 15 if the roll is
   in the range of a Triple Effect.
 
@@ -1128,3 +1254,75 @@ Cost
 
 Constraints
 : Unracks the spell, reduces FT value by 3 
+
+## Bone Construction - Bridge of the Grave
+
+Duration
+: Special
+
+Range
+: Self
+
+Effects
+: This Incantation creates a reserve from which a path can be built
+that the Adept can travel on. The reserve is equal to 5 hexes her Rank
+and requires a Free Act to lay path, which can be no longer than their
+TMR per Pulse. Path used that is less than a hex is considered to have
+used a hex. Movement up or down is at a 45 degree angle, and uses one
+hex up for every horizontal hex. When the reserve is used up, the
+entire path dissipates. If it hasn't dissipated, it will fade away
+when the sun rises.
+
+Cost
+: 1500 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 1
+
+## Life Draining - Blood Draw
+
+Duration
+: 1 hour + 1 / Rank
+
+Resist
+: Passive
+
+Target
+: Self
+
+Effects
+: When the Adept casts this spell on themselves, the next 1 (+ 1 / 5
+Ranks) successful Strikes in Melee or Close force the target to Resist
+or they are drained of 1 (+ 1 / Rank) Fatigue.The Fatigue may be used
+to repair the Adept’s own Fatigue and/or Endurance. If the target has
+no Fatigue remaining the Adept may drain from Endurance instead. The
+Adept may not drain from both Fatigue and Endurance with one
+successful Strike.
+
+Note that only living entities will be affected by this spell and the Adept may not drain themselves.
+
+Cost
+: 3500 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 3
+
+## Petit Mort - Breathless
+
+Duration
+: 2 hours (+30 minutes / Rank)
+
+Target
+: Self
+
+Effects
+: The Adept no longer needs to breathe and can ignore the effects of
+either a vaccuum or high pressure conditions (for example, deep under
+water). They may Cast spells in these conditions and it does not
+affect their ability to operate on the surface.
+
+Cost
+: 2500 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 2
