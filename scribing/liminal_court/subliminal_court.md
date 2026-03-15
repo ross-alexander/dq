@@ -399,11 +399,124 @@ count as a helm, does not break any law of sumpturary
 
 - Traval along the defile around day and half
 
-- North is an eye shaped depressions, at the bottom is a town, Kharminthe
+- North is an eye shaped depression, at the bottom is a town, Kharminthe
 
 - Area is still alpine, above the tree line
 
 - Followed by the wolves but they don't press
+
+- Gain Obol
+
+## Session 10 -- 2026-03-08
+
+- Enter town called Koubar, a major cavaran stop
+
+- Buy salt for trade
+
+- The Nightmother is a big glowing figure in the night, known to have a gang of yeti
+
+- Spend two days in the town
+
+- After this head SE downhill to a semi arid plain
+
+- Have scroll with a picture of a magician in a reed boat, Horus &
+Thoth is standing on the Daughter of Mesitet (Barque of Night).  Use
+the Folding Incantation to create the Barque.
+
+- Stay an extra day, the caravan can recruit an archer and a slinger
+
+- Head out of Koubar
+
+- Buy Hamsa
+
+- See eight wolves several miles behind us
+
+- Attacked by jackels of twilight and a yeti
+
+## Session 11 -- 2026-03-15
+
+- Finish off the jackels
+
+- Yeti is PB 2 with strange lines down her face.  Wearing a too small
+cloak as a stoll, it has spotted fur, Nature of Magic is Calling,
+target is Snow Leopard and sort of cursed, but not dangerous.
+
+- Formerly long lived sentient, GTN is part Nephil / part Human,
+probably undying.
+
+- Find box made from rose wood inlaid with brass, 20cm x 8cm x 5cm.
+  It is trapped.
+
+- Got a few gems, a very small black pearl, maybe 2mm in diameter,
+worth 400sp.  A second pearl worth 110sp.  Four pieces of black amber,
+worth 80sp each.  Two polished but unshaped chrysoprase, worth 40sp.
+
+- Has a pair of large boots, made of plates of chaitin with heavy
+  leather soles.  Some sort of magical enhancement.
+
+- Slaydar drinks her blood.
+
+- There are tracks, follow for 1 1/2 hours.  Find a cave with some
+snow and icicles.  Entry is low and wide.  The cave is furnished with
+silks, carpets, wall hangings.  Cave is 4m high and 5m wide.  Silk
+painting of a bird with elk horns.  Brightly coloured, more so than
+expected.
+
+- Water pipe (hooka) next to some cushions and next to that a stack
+30-40 balls of hashish.
+
+- Find three potions and ingraved gem, plate made of porcelein,
+painted with silver showing an oriental phoenix.  A pile of silver
+coins, 7700sp worth.  One potion worth 2500sp, other two worth 4000sp
+each, magically sealed.
+
+- I don't think it worth much.  Return to the caravan with everything
+except the cushions.
+
+- Use restorative and heal up.
+
+- Expect to arrive in Tabarash in 3-4 days.
+
+- Travel in the day, around 2pm 8 wolves start following.
+
+- Summon two wolves, get obol
+
+- Get container of wolf ash
+
+- Find 12000sp emerald, can be enchanted to create amulet to increase
+  WP +2, PC +3
+
+- Use Waters of Healing (Rank 9)
+
+- Get bounty (100sp)
+
+- Plenty of fields surrounding the city, which has a low (14' high)
+wall, and is gated by sliding door.  Tabarash is large city.  The
+city with the temple of Fire is Ardavale.
+
+- Sell salt and make 105sp
+
+- Sell carpet and wallhanging for 2860sp
+
+- Caravan staying for a couple of days, they are buying wine
+
+- Wine can be used to collect energy, used in a preperation of a
+concoption that is used to store yellow energy
+
+- Slaydar finds a half-orc restless spirit in the graveyard and asks
+Slaydar to take this people to the promised land, a land of milk and
+honey.  The spirit is called Toothgrinder.
+
+- Sabzevar is 4 days out of Neshaphar, which is four or five days
+out of Mashahara
+
+- Next place is Sharam, 4-5 days NE of here
+
+- Unlocked potion increased stealth by 20% for two hours
+
+- Open box and inside is a map, tattooed into the belly of a petit
+morted snake, which the avatar of Anak
+
 
 
 # Items
@@ -1326,3 +1439,124 @@ Cost
 
 Constraints
 : Unracks the spell, reduces FT value by 2
+
+## Warping - Folding x 2
+
+Duration
+: 1 day (+1 day / Rank)
+
+Effects
+: One object is transformed into a representative figurine of
+  itself. This spell will fail if the target is not freestanding or if
+  the target does not fit within a 5 foot (+ 1 / Rank) cube.  The
+  figurine will look like the original item but have the structural
+  strength of soft wood and will have no moving parts.
+
+The figurine will be 1/12th of the size (min 1 inch in its longest
+dimension) and 1/100th the weight of the original.  Any items
+contained within the target will not be affected, and may destroy the
+item as it shrinks.
+
+The figurine will revert to normal when the spell expires or the
+figurine is broken.
+
+Cost
+: 900 Experience
+
+Constraints
+: Unracks the spell 
+
+## Chaplet of the Underworld
+
+This set of beads holds nodes for 6 crimson carbuncles, each the shape
+and size of a pomegranate seed, strung on a green gold chain,
+separated by 7 beads of red jasper (so a total of 42).
+
+Three of the carbuncles have been woken
+
+### The Boon of Hades
+
+Range
+: 6 hexes
+
+Target
+: Willing sentient entity
+
+Duration
+: Cenconetration max 1 minute
+
+This carbuncle requires a Free Act and can be discharged on up to
+three targets within range. There are 3 Gifts and a target may only
+benefit from one.
+
+- The Gift of the Dog Skin 
+
+The target may move and benefit from the Blending spell, so long as
+they do not exceed their TMR. If they successfully attack, this boon
+ends.
+
+- The Gift of Mortality
+
+A willing target is considered a mortal and their life may be
+ended.  If they are already mortal, then, without actually dying, they
+are considered to have died. This can affect those who are Death or
+Life Aspected.
+
+- The Gift of the Grave
+
+The target is inured to the excesses of emotion and cannot be feared
+or Charmed while duration persists.
+
+This carbuncle resets at Midnight.
+
+### Hecate's Talon
+
+Target
+: Self
+
+Duration
+: Cenconetration max 1 minute
+
+This carbuncle requires the use of a Free Act. While duration
+persists, the next time the Adept succeeds in a Melee or Close Strike
+Check, they add 2 rollup D10 soul damage to any other damage they
+inflict and reduce their target's Magic Resistance by 20.
+
+This carbuncle resets at Midnight on Saturday
+
+### Hound of the Underworld
+
+Range
+: Sight
+
+Target
+: Entity
+
+Duration
+: Concentration max 1 minute
+
+This carbuncle requires the use of a Magical Fire Action, and summons
+a Spectral Three-Headed Hound which will hunt down and slay one
+target, who must be within sight when the boon is released.  The hound
+is completely insubstantial and invisible except to its intended
+victim. It may be seen by others with Witchsight.
+
+The hound will continue with its mission until concentration is
+broken, its intended victim dies, it is dissipated or duration
+expires.  The hound can unerringly locate its intended victim and will
+always move towards them at its full movement rate, and engage them in
+melee combat.
+
+The hound has a single, combined, Endurance and Fatigue Characteristic
+with a value of 50.  It automatically hits every Pulse for [D - 4] +
+18 damage. Its Initiative is 66.  The hound has no defence or armour
+value. It may not be Stunned, its movement rate is 55 yards per Pulse,
+and its TMR is 13.  The hound may move in any direction without
+restriction, including through the air, walls, water, etc.
+
+This carbuncle resets at Midnight on Saturday
+
+The metal of the chaplet is toxic, so care must be used in handling
+it. Unless the wearer has the Assassin ability to handle poisons
+without risking harm, they must make a 3 × MD check each time they use
+a carbuncle, failure indicating that they have become infected.
