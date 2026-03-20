@@ -23,6 +23,67 @@ Land of Nod a possibility.
 - Skills, Resistance, Magic - 4400 sp (12%)
 - 2 Waybread each (except Ishamael)
 
+# Route through the Land of Nod
+
+There aren't any distances, but there is an approximate number of days
+of travel.
+
+Maktu
+: West of the Keep of Five Faces (2-3 days)
+
+Kharminthe
+: midalpine lowland, about 25 km wide, at least 80 km north/south,
+heavily wooded, 750 m lower than surrounding land. Often bypassed when
+heading east (1-2 days).
+
+Khuvar
+: A major caravan stop (5-6 days).
+
+Abarash
+: Great commercial centre (4-5 days -> Across Northern Aryana).
+
+Sharav
+: Agricultural and caravan rest point. (3-4 days).
+
+Ardavel
+: Important religious and trade centre (9 days).
+
+Zanagun
+: Key staging city before entering central plateau routes (6 days).
+
+Qazbin
+: Major city and caravan junction (5 days -> Across the Central–Eastern Plateau).
+
+Terahun
+: smaller town, often bypassed (7-8 days).
+
+Semenath
+: Desert-edge caravan town, often bypassed (4 days).
+
+Damkhar
+: Ancient city, Hecatompylos region (2-3 days).
+
+Sharudan
+: Oasis settlement before the great deserts (12-13 days).
+
+Sabzevar
+: The Green Plain City (4 days).
+
+Neshaphar
+: Jewel market, city of scholars, lapis and carnelian (4-5 days).
+
+Mashahara
+: City of the Witness Stone, priesthood of the flame (7-8 days Entering Western Ghanesia).
+
+Teyabaddun
+: Border region staging area. A fortified oasis town (3 days).
+
+Qalathun
+: Border crossing zone, desert gate to the fertile lands in the east, occasionally bypassed (4 days).
+
+Hoffutt
+: Major Silk Road metropolis.
+
 # Activity
 
 ## Game 1 - Fruit 24, 826 WK
@@ -337,6 +398,7 @@ possibly nephilm.
 
 - Forested area north of the road, Slaydar sees movement five or six
   miles away
+
 - Caravan leader is a decent ranger, suggests it could be wolves
 
 - Found pack of wolves, large, 18 or 19
@@ -409,7 +471,7 @@ count as a helm, does not break any law of sumpturary
 
 ## Session 10 -- 2026-03-08
 
-- Enter town called Koubar, a major cavaran stop
+- Enter town called Khuvar, a major cavaran stop
 
 - Buy salt for trade
 
@@ -491,8 +553,8 @@ except the cushions.
 - Get bounty (100sp)
 
 - Plenty of fields surrounding the city, which has a low (14' high)
-wall, and is gated by sliding door.  Tabarash is large city.  The
-city with the temple of Fire is Ardavale.
+wall, and is gated by sliding door.  Abarash is large city.  The city
+with the temple of Fire is Ardavale.
 
 - Sell salt and make 105sp
 
@@ -1560,3 +1622,162 @@ The metal of the chaplet is toxic, so care must be used in handling
 it. Unless the wearer has the Assassin ability to handle poisons
 without risking harm, they must make a 3 × MD check each time they use
 a carbuncle, failure indicating that they have become infected.
+
+## The Lamp of Hades
+
+This lamp is made from bronze and is small enough to fit in the palm
+of a maiden, weighing but 8 oz.  Once a day, it may be filled with 1
+oz of Oil of Narcissus (requiring four Pass Actions) and lit
+(requiring a Pass Action and 5 FT), whereupon it will shed a faint
+light for 4 hours that is unseeable except to the bearer.
+
+While the Lamp is alight, the bearer's Light spell becomes The Gloom
+of Asphodels, their Wall of Darkness becomes Underworld Threshold,
+Shadowform becomes Cap of Hades and Web of Darkness becomes Web of
+Fate.
+
+If it is not carried in the hand, the lamp may be attached to the
+bearer's foot by an ankle strap (requiring two Pass Actions) but in
+any Pulse they exceed their TMR, must succeed on a 3 x AG roll,
+otherwise the oil will be spilt, extinguishing its light and ending
+its effects.
+
+Oil of Narcissus may be processed by an Alchemist over three days and
+requires 1 truesilver guineas worth of reagents to produce an
+ounce. An Alchemist who can make Poisons must spend 2,650 Experience
+and three weeks to learn how to make this oil.
+
+## The Gloom of Asphodels
+
+Range
+: 15 feet + 15 / Rank
+
+Duration
+: 10 seconds + 5 seconds for every 5 Ranks
+
+Resist
+: None
+
+Target
+: Surface
+
+Effects
+: Creates a hemisphere of gloom in which shades of the restless dead
+  wander hopelessly among asphodels.  It is 15' wide and must be
+  anchored to a surface.  The diameter increases by a further 10' at
+  Rank 10 and at Rank 20.
+
+Within the volume, any entity whose aura strength is less than long
+living sentient halves their Regeneration or the Healing they receive
+to a minimum of 1.  In addition, any target within the volume has
+their Defence versus thrown or missile attacks improved by the Rank of
+the Gloom.
+
+## Underworld Threshold
+
+Range
+: 15 feet + 15 / Rank
+
+Duration
+: 1 minute + 1 minute for every 5 Ranks
+
+Base Chance
+: 15%
+
+Resist
+: Passive
+
+Target
+: Surface
+
+Effects
+: Creates a 10’ high, 5' wide volume that is anchored to a surface and
+  which is adjacent to the Underworld.  The diameter increases by 10'
+  at Rank 10 and Rank 20.  In this volume, undead or undying entities
+  lose that property and they or any mortal entities that are
+  dark-aspected must passively Resist or suffer [D-5] + 1 / soul
+  damage per Rank each time they enter it (not per pulse).
+
+Any entity that suffers soul damage from this spell must roll on the
+Fright Table.
+
+## Web of Fate
+
+Range
+: 30 feet + 15 / Rank
+
+Duration
+: Concentration (Maximum of 15 minute + 15 / Rank)
+
+Experience Multiple
+: 250
+
+Base Chance
+: 25%
+
+Resist
+: Passive
+
+Storage
+: Investment, Ward, Magical Trap
+
+Target
+: Area
+
+Effects
+: A five foot wide web of the Graae is projected from the Adept's
+  finger tips to a target hex, object or entity. Any entity or object
+  in the area will be ensnared by the web.  The web may only ensnare
+  six sizes of entities per Rank, or one man-sized object per Rank,
+  stopping at the hex where this limit is reached (or at maximum
+  range).
+
+Entities ensnared in the web suffer 1 drain (+1 per 3 or fraction
+Ranks) (halved if they successfully resist) each Pulse.  PS is drained
+first, then FT, then EN.  This is applied at the moment of contact
+with the web, and at the beginning of each Pulse, thereafter.
+
+Necrogeny protects against this drain, Damage Reduction may, but
+Protection and Spell Armour do not. Constructs, undead, objects and
+creatures of mana may be ensnared by the web but are never drained by
+it.  Undead and creatures of mana are rendered mortal while they are
+within the precincts of the web, even if they Resist it, and in any
+case, their Magic Resistance is reduced by the Rank of the web.
+
+Any ensnared entity must roll 1 × Physical Strength (2 × if they
+successfully Resisted) in order to move themselves to an adjacent hex
+(which may be free of the web), or to perform an action within the
+web. A similar check is required for any entity attempting to remove
+an object from the web.  If an entity receives aid in removing
+themselves from the web, the PS of the aiding character may be
+combined with their own. Rank or more points damage from a single blow
+from a B-class weapon will destroy the entire web. Treat the web's
+defence as being equal to its Rank.
+
+## Cap of Hades
+
+Range
+: Self
+
+Duration
+: 30 minutes + 30 / Rank
+
+Base Chance
+: 15%
+
+Resist
+: None
+
+Target
+: Self
+
+Effects
+: Darkness covers the Adept's head, then spreading down their body
+  over two Pulses, becoming increasingly ethereal with Rank.  Defence
+  versus physical Melee or Ranged attacks increases by 2 (+ 2 / Rank).
+  In Close combat only 1 (+ 1 / Rank) Defence is gained.  However, if
+  they are struck by weapon that is not magical or silvered, 1 point
+  per three full Ranks is subtracted from the damage.  In addition,
+  the Adept gains a 1 (+ 1 / Rank) bonus to their Stealth.
+
+
