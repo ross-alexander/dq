@@ -583,6 +583,266 @@ morted snake, which the avatar of Anak
 
 # Items
 
+## Boots of the Tiger Beetle
+
+These boots are made from curved, chitinous plates which may be adjusted for size by verdigrised buckles and that encumber as if they weigh 3 lbs. The plates are bronze in colour but the edges are emerald green, so are quite eye-catching. While they provide excellent traction, they are not waterproof.
+
+Because of the traction, the wearer adds +10 to their Climbing check. 
+
+If the wearer spends 3 FT on their Initiative, they may increase their full TMR by 2 or half their TMR by 1. If the wearer spends 1 FT on their Initiative, they may increase their full TMR by 1.
+
+Finally, they always have a chance to come to a complete stop however fast they are running. They must, in such cases, Break 100 adding 3 x their AG to the result.
+
+## Beetles of Flesh Devouring x 4
+
+These beetles have dark red carapaces and are as large as a lady's palm, weighing 5 grams. While they are kept in an enclosed space where they cannot run around, they will go into torpor. 
+
+There are two male beetles. The females, when fertilised, produce 30 eggs, each of which will become adult over the period of a month and each will require 100 grams of flesh.
+
+Twenty five of these beetles will strip the flesh from the bones of a creature the size of an adult human male within an hour. 
+Their waste is particularly sought after by those who grow roses, camellias, pansies and leafy green vegetables, who will pay 10 sp per pound. 
+
+## Cloudfruit x 50
+
+This melon-like fruit is about the size of a man's head but only
+weighs 7oz. It satiates as if it were a filling meal but has no
+caloric value at all, so will not recover FT.
+
+An unopened cloudfruit lasts for a year.
+
+## Ghul Hearts x 2
+
+14 Darkness 
+14 Death
+
+## Pint of Ghul's Blood x 12
+
+### Blood Temper
+
+One of these pints may be used to make a blood temper which
+permanently increases the sharpness of a B Class weapon by three. This
+does not increase the weapon's damage, instead, reducing the value of
+target's Protection by three.
+
+The temper requires a pint of the blood and the arts of an Alchemist
+who can make potions. They must spend 2,650 Experience and three weeks
+to learn how to make the temper and it will cost 10 x the cost of the
+weapon. The temper cannot be applied to a weapon that has already been
+forged.
+
+### Resistance to Cut & Thrust Potion
+
+Once a pint of this blood is mixed with hemlock, the alchemical cure
+for hemlock poisoning and then distilled to 4oz which will fit into a
+crystal phial the size of a boy of twelve's index finger, then this
+potion will be created.
+
+Whoever takes it will be resistant to A & B Class damage for five
+minutes so that they only take half (round down). This applies after
+Protection, Endurance Armour or the appropriate Damage Reduction.
+
+## Slaydar's Consoling Hand
+
+Slaydar's Spectral Hand has known the despair of abandonment having
+spent sixteeen days alone in a Trackless Waste. Once a day, he can
+direct an active Spectral Hand to console someone suffering emotional
+turmoil by patting them on the shoulder. If such a thing is possible,
+it will give them an opportunity to recover.
+
+## Bloodstone Square
+
+This 1 cm, square of bloodstone, once set in a bezel, Enchanted and
+worn on the wrist, increases the wearer's Natural Healing by +1 every
+three days. In addition, the wearer improves their chance to recover
+from infection by 10.
+
+## Slaydar's Hide
+
+Slaydar's attachment to his race and ancestors has been enriched so that his Natural Armour has increased by 1. 
+
+## Slaydar's Third Eye
+
+Slaydar has a crescent shaped mark in the centre of his forehead. This
+is a closed eye. An observer within two hexes must make a 1 x PC check
+to realise what it is, unless the eye is open, in which case it's
+obvious. It allows him to advance the talent of Soul Sight.
+
+He has a PC (+5 per Rank)%, less 1 for every hex distant after the
+first. If successful, its aura strength and something of the target's
+spiritual state is revealed.  He can ask if an entity, object or
+hex-sized surface is
+
+- attended by an ancestral spirit or otherwise haunted, and  the reason for it.
+- if the target has a burden on their soul (cursed or operating under a geas).
+- the journey of their soul upon death.
+
+If a double effect is rolled, then two of these questions may be
+asked, all three if the roll is a triple effect.
+
+The Experience Multiple is 50. 
+
+## Balls of Yak Cheese x 20
+
+Each of these balls of cheese are four inches across and weigh half a
+pound. Once the cheese cut, it will last for three days before it
+becomes dry and inedible. Once the cheese has been eaten for three
+consecutive days, then for every day that it continues to be eaten
+improves EN by +5 effective only for determining Natural Healing an
+recovering from infection.
+
+## Wolf Pelt Armour
+
+This wolf pelt can be made into hard leather armour which has a
+penalty of 1 AG, a weight factor of 2 and provides 9 points of Damage
+Reduction versus A, B or C Class damage, unless the amount ends in 0
+or 5, in which case, none of it is avoided.
+
+## Wolf's Head Cloak
+
+This wolf pelt can be made into a hooded leather cloak that weighs 3
+lbs.
+
+The wearer loses 1 less point of FT loss per hour as a consequence of
+cold weather.
+
+It provides 1 point of Damage Reduction versus A, B or C Class damage
+if the amount generated does not end in 0 or 5. This will stack with
+other forms of Protection and Damage Reduction which are appropriate.
+
+The cloak improves the wearer's Stealth calculation arising from the
+Ranger skill by 2 per Rank when in woods, forests or plains.
+
+## Cloak of the Spotted Cat
+
+This cloak is made from the pelt of a snow leopard and weighs 3
+lbs. The wearer loses 1 less point of FT loss per hour as a
+consequence of cold weather. A number of cats will emerge from the
+folds of the cloak when Called by name, requiring a Pass Action,
+according to the following schedule:
+
+### Min the Snow Leopard
+
+Min is a large, long-tailed spotted cat whose coat gives her a bonus
+to Stealth in a snowy, mountainous environment of 20.  She has no
+special skills or talents, does not use tools or magic, but she can
+leap 3 metres vertically and 10 metres horizontally, has a movement
+rate of 400 yards per minute and 200 yards per minute when she is
+climbing.
+
+PS: 26 MD: 30 AG: 32 MA: None EN: 18 FT: 25
+WP: 12 PC: 23 PB: 12 TMR 8/4  NA: Fur absorbs 4 DP
+
+Weapons:
+
+Min may use one bite and two claws in Melee Combat or one bite and four claws in Close Combat. Min will attempt to Close
+
+Bite: BC: 40%, [D + 4], Melee & Close, Rank 4
+Claw: BC: 40%, [D + 2], Melee & Close, Rank 6
+
+### Sein, Sha & Sachab the Cloud Leopards
+
+Cloud Leopards are spotted, long-tailed cats the size of lynxes. They
+have no special skills or talents, do not use tools or magic. Aside
+from a vertical leap of 3 metres, they are capable of prodigious
+horizontal leaps of up to 13 metres, have a movement rate of 450 yards
+per minute and 250 yards per minute when they are climbing.
+
+PS: 13 MD: 20 AG: 22 MA: None EN: 18 FT: 25
+WP: 20 PC: 23 PB: 12 TMR 9/5  NA: Fur absorbs 3 DP
+
+Weapons:
+
+They may use one bite and two claws in Melee Combat or Close Combat. 
+
+Bite: BC: 30%, [D10 + 1], Melee & Close, Rank 2
+Claw: BC: 30%, [D10 - 1], Melee & Close, Rank 4 
+
+### 1 through 9, the Marbled Cats
+
+1 through 9 are long-tailed spotted cats that are about 18 inches
+long. They have no special skills or talents, do not use tools or
+magic, but can leap 3 metres vertically and 10 metres horizontally.
+They have a movement rate of 450 yards per minute and 300 yards per
+minute when they are climbing. As a group, 1 through 9 can enter a
+target's hex without provoking an attempt to keep them out of
+Close. The attack does no damage, but forces the target to Break 100
+adding 2 x AG to the percentile dice. If they fail, they fall prone,
+which usually requires a Pass Action to recover from.
+
+PS:  8 MD: 21 AG: 24 MA: None EN: 10 FT: 15
+WP: 15 PC: 20 PB: 18 TMR 9/6  NA: Fur absorbs 2 DP
+
+Weapons:
+
+They cannot Melee. They get one combined attack in Close.
+
+Teeth & Claws: BC: 20%, [ D10+1 ], Close, Rank 4
+
+Each of the entries can be Called once a week, which requires a Pass
+Action. This resets just before midnight on Monday. If any of them
+have died in the Caller's service, they will not be available until
+the following Monday.
+
+Each may be directed with a Pass Action unless the wearer can speak
+with animals, in which case it requires either a Free Act or a Pass
+Action.
+
+The cloak is cursed so that its magic will not work for a wearer who
+is not size 6.
+
+## Enchanted Gems
+
+### Tourmaline Teardrop
+
+This 1 cm, teardrop-shaped blue tourmaline, once set in a bezel,
+Enchanted and worn on the wrist, empowers the wearer's Ventriloquism
+spell. Once a day, it allows them to hear something as quiet as a
+whisper at the target of the Ventriloquism spell once a day, while
+within range and while duration persists. This property resets at
+dawn.
+
+### Purple Corundum Pentagram
+
+This 1 cm, faceted purple corundum in the shape of a pentagram, once
+set in a bezel, Enchanted and worn on the wrist, improves the wearer's
+WP by 1 and their PC by 2. It is expensive with an obvious value of 48
+truesilver guineas. If it is concealed, it does nothing.
+
+### Jet Triangle
+
+This 1 cm, single piece of jet is carved into a triangle, and, once
+set in a bezel, Enchanted and worn on the wrist, increases the
+wearer's Initiative by 8 and allows any Cast or Strike check that ends
+in an 8 to be treated as ending with a 1 and any damage roll of 1 on a
+D10 becomes 8 if their opponent is from the Seventh Plane or demonic.
+
+If the wearer is the target of a spell that inflicts fire damage, then
+the wearer can sacrifice the jet, which will be consumed in a brief
+flash. After the Resistance cvheck, the consequent fire damage is
+divided by 5, rounding up, and then applied over the next 5 Pulses.
+
+### Oval Pyrites of Iron
+
+This 1 cm, oval shaped piece of Pyrites of Iron looks like gold. Once
+set in a bezel, Enchanted and worn on the wrist, increases the
+wearer's Magic Resistance to harmful magic by 10 if is illusory or has
+the word Illusion in the name of the magic.
+
+### Bloodstone Square
+
+This 1 cm, square of bloodstone, once set in a bezel, Enchanted and
+worn on the wrist, increases the wearer's Natural Healing by +1 every
+three days. In addition, the wearer improves their chance to recover
+from infection by 10.
+
+### Painite Kite
+
+This 1 cm, faceted gem of painite is in the shape of a kite, and, once
+set in a bezel, Enchanted and worn on the wrist, increases the
+wearer's MD by 2.
+
+
+
 ## Vermilion Fan of the Orient
 
 This pleated fan has black, pointed spines that are 23 cms long,
@@ -803,6 +1063,25 @@ This only applies to the Knap of the Earth manoeuvre, and assumes he
 is spending his attention on avoiding obstacles and terrain features.
 An ability to decelerate to a stop in a second or two requires a high
 deceleration Flight Manoeuvre.  Which is not this one.
+
+## Boots of the Tiger Beetle
+
+These boots are made from curved, chitinous plates which may be
+adjusted for size by verdigrised buckles and that encumber as if they
+weigh 3 lbs. The plates are bronze in colour but the edges are emerald
+green, so are quite eye-catching.  While they provide excellent
+traction, they are not waterproof.
+
+Because of the traction, the wearer adds +10 to their Climbing check. 
+
+If the wearer spends 3 FT on their Initiative, they may increase their
+full TMR by 2 or half their TMR by 1. If the wearer spends 1 FT on
+their Initiative, they may increase their full TMR by 1.
+
+Finally, they always have a chance to come to a complete stop however
+fast they are running. They must, in such cases, Break 100 adding 3 ×
+their AG to the result.
+
 
 # Incantations
 
