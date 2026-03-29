@@ -201,7 +201,7 @@ Ranking
 \VAR{line.name} &
 \BLOCK{if 'initial' in line} \BLOCK{if 'final' in line} \VAR{line.initial}\upto \VAR{line.final} & \BLOCK{else} \VAR{line.initial} & \BLOCK{endif} \BLOCK{endif}
 \VAR{line.sum} & \VAR{line.em} & \VAR{line.ep_raw} & \VAR{line.ep} &
-\BLOCK{if 'time' in line} \VAR{line.time}$^\VAR{line.track}\BLOCK{if line.partial}\delta\BLOCK{endif}$ \BLOCK{endif} &
+\BLOCK{if 'time' in line} \VAR{line.time}$^{\VAR{line.track}\BLOCK{if line.partial}\Delta\BLOCK{endif}}$ \BLOCK{endif} &
 \VAR{line.cost} \\
 \BLOCK{endfor}
 \end{blocktblr}
