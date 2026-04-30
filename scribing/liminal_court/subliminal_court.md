@@ -39,7 +39,7 @@ heading east (1-2 days).
 Khuvar
 : A major caravan stop (5-6 days).
 
-Abarash
+Tabarash
 : Great commercial centre (4-5 days -> Across Northern Aryana).
 
 Sharav
@@ -55,7 +55,7 @@ Qazbin
 : Major city and caravan junction (5 days -> Across the Central–Eastern Plateau).
 
 Terahun
-: smaller town, often bypassed (7-8 days).
+: smaller town, often bypassed (7-8 days), port town on the inland sea.
 
 Semenath
 : Desert-edge caravan town, often bypassed (4 days).
@@ -115,6 +115,7 @@ Going to be 18 days before the next caravan.
 ## Game 2
 
 - Spent extra week at House Kerberoth
+
 - Caravan route: Ruins of the Sphinx, Crumbling Pass, Thorns of Heloth, Tintagel
 
 - Travel a day to the Scented Jungle, takes 16 hours
@@ -135,40 +136,44 @@ Going to be 18 days before the next caravan.
 
 - Rest for a day
 
-- Travel for 10 hours to a place that is a river of sand to an adandoned caravanserai
+- Travel for 10 hours to a place that is a river of sand to an
+  adandoned caravanserai
 
 - There are Trackless Wastes in the River
 
-- Beatles [Flesh Beetle] eat all of the flesh off the T-Rex, and then head east along the river of sand
+- Beatles [Flesh Beetle] eat all of the flesh off the T-Rex, and then
+  head east along the river of sand
 
-- Travel 16 hours along a wadi and reach a ruined walled complex, inside are a collection of temples,
-three on either side of the avenue, square in the middle of the avenue, wooden but made of
-stone pillars
+- Travel 16 hours along a wadi and reach a ruined walled complex,
+  inside are a collection of temples, three on either side of the
+  avenue, square in the middle of the avenue, wooden but made of stone
+  pillars
 
- - Road is a site of death, the temple is a mortuary temple
+- Road is a site of death, the temple is a mortuary temple
 
- - Stay extra day to the north
+- Stay extra day to the north
 
- - Travel 16 hours to a place with decayed aquaducts, from the north
-east, heading south west, in a big S curve, terrain is low rolling
-hills, green but no large mammals, the road always goes east west, called
-the Crumbling Path
+- Travel 16 hours to a place with decayed aquaducts, from the north
+  east, heading south west, in a big S curve, terrain is low rolling
+  hills, green but no large mammals, the road always goes east west,
+  called the Crumbling Path
 
 - Pick up a small ammonite fossil from the crumbling path, travelled on wind
 
-- Travel 8 hours but feels like only 3 hours, arrive in a vast orchard of massive
-tree with fruit the size of water melon
+- Travel 8 hours but feels like only 3 hours, arrive in a vast orchard
+  of massive tree with fruit the size of water melon
 
 - Cloud Tree of Sindereth, fruit is filling but doesn't provide any calories
 
-- Travel 8 hours but feels like only 3, travelling on grassy plain, appears to be blue
-under a certain light (Siroth)
+- Travel 8 hours but feels like only 3, travelling on grassy plain,
+  appears to be blue under a certain light (Siroth)
 
 - Travel 5 hours, into a cold place (Cold Stream)
 
 - Come a stream, build fire and collect water
 
-- The caravan makers have bright blankets of very high quality, hard wearing and warm
+- The caravan makers have bright blankets of very high quality, hard
+  wearing and warm
 
 - Very cold overnight so late start the next day
 
@@ -180,11 +185,12 @@ under a certain light (Siroth)
 
 - Short day, travel to a lake of lava, construct a bone bridge
 
-- Long day of hard travel to arrive into a plantation of thorns, plants
-are dark green with lemon yellow barbs, GTN Thornbush of Havegoth
+- Long day of hard travel to arrive into a plantation of thorns,
+  plants are dark green with lemon yellow barbs, GTN Thornbush of
+  Havegoth
 
 - After a few hours reach Tintagel, castle with empty moat, with
-terranced farms on a hill behind it with a water source
+  terranced farms on a hill behind it with a water source
 
 - The hills are U shaped that rise up high
 
@@ -194,22 +200,37 @@ terranced farms on a hill behind it with a water source
 
 - Get armour make up
 - Spent 1000sp
-- Get 104 true silver guineas (26208 sp) for the T-rex but traded for incantations instead
+
+- Get 104 true silver guineas (26208 sp) for the T-rex but traded for
+  incantations instead
+
 - Get latern for T-Rex
+
 - There is a God called Sin and is based in the city of Ur (in the
   land of Nod) and is associated with a bull and the number 30.
+
 - Trade Oils + Hemlock for armour
+
 - Sell Walking Unseen Potions for quilted canvas & robes
+
 - Find entrance to the Valley of Death
-- There is a group of seek asylum in the Underworld, in the Cthonic
+
+- There is a group seeking asylum in the Underworld, in the Cthonic
   region of in the Land of Nod (associated with Mazzakin and Lilin)
+
 - Fate of Ishamael - Gates of Death swing both way
-- Need to find Simyaza as as he needs the Embassy, need to get to the
-  elemental center of Tanuel
+
+- Need to find Shemyaza (Samyaza) as as he needs the Embassy, need to
+  get to the elemental center of Tanuel
+  
 - Head to Morca, head eastward on a cavaran
+
 - Need to go over or through a mountain range to get to the Land of Nod
+
 - There is a canyon along the river (germangeous)
+
 - Come to the waterfall, going from 6000ft to 4000ft
+
 - Should look of map
 
 ## Game 5 - 2026-01-11
@@ -231,8 +252,8 @@ terranced farms on a hill behind it with a water source
 
 - Road goes east, north then west to get to Muktu
 
-- Lake is 300 km NE of Tintagel, then along the river, then 300 km north
-then 315 km to Muktu
+- Lake is 300 km NE of Tintagel, then along the river, then 300 km
+  north then 315 km to Muktu
 
 - Get some standard cold weather (wool) and cheap alchemy heating
   elements [10sp each, size of orange, dark red clay], make from metal
@@ -241,36 +262,36 @@ then 315 km to Muktu
 - Buy 3sp per ration, buy 20.
 
 - Walk out of Tintagel before dawn and fly north and find the lake
-after around three hours, which is a couple of miles long and half a
-mile wide.
+  after around three hours, which is a couple of miles long and half a
+  mile wide.
 
 - Cirumnavigate the lake and find the cascades.  Find the rapids above
-the lake.  Cliff made from a white stone, making finding features
-difficult.  Inside the ravine is stone is also white, with the
-eastern side of there is some moss.
+  the lake.  Cliff made from a white stone, making finding features
+  difficult.  Inside the ravine is stone is also white, with the
+  eastern side of there is some moss.
 
 - Fly along cascade, climbing around 30 degrees to reach to 5000 feet
-above sea level, flying another two hours.
+  above sea level, flying another two hours.
 
 - Slaydar crashes into the water
 
 - Spent two charges of Windwalk
 
 - Find a split in the river, with a hill between 70 feet about the
-river level
+  river level
 
 - Walls of ravine have orange streaks
 
 - Use crystal to try to determine with tributary to take, and
-determine the eastern river is the right one to take
+  determine the eastern river is the right one to take
 
 - Slaydar and Artephius both injure themselves flying
 
 - Take off and head north, reach high plain with plenty
-of plants
+  of plants
 
-- After a couple hours see hills in the distance that
-are covered in darkness
+- After a couple hours see hills in the distance that are covered in
+  darkness
 
 - Artephius, Ishamael, Sin & Slaydar watch order
 
@@ -300,7 +321,7 @@ pryamid, presence to the east pressing against my mind
 - Land from 15 miles from Muktu
 
 - Small climb and then an escarpment 900 feet, in a single place it is
-300 feet
+  300 feet
 
 - Travel on foot for the remainder of day
 
@@ -336,9 +357,10 @@ pryamid, presence to the east pressing against my mind
 
 - Obol is magical, nature is recogning
 
-- Ghulk take half physical damage, ordinary damage must be greater than 10
+- Ghul take half physical damage, ordinary damage must be greater
+  than 10
 
-- Get Ghulk hearts and blood, kind of Elemental with Death and Dark Earth
+- Get Ghul hearts and blood, kind of Elemental with Death and Dark Earth
 
 ## Game 7 - 2026-02-01
 
@@ -347,8 +369,8 @@ pryamid, presence to the east pressing against my mind
 - Maktu is about 1000' above sea level
 
 - Empire of the East is a collection of Kingdoms and Principalities
-(Kingdoms are collection of cities under a single ruler, a
-principality is a single city)
+  (Kingdoms are collection of cities under a single ruler, a
+  principality is a single city)
 
 - Most common devils are blue devils.
 
@@ -361,11 +383,11 @@ principality is a single city)
 - Ur-Incubus are pale green.
 
 - The ridge line east-west so there are deep ravines which can be used
-to sneak along and can be used to bypass the Keep.  There is some
-areas out in the open.
+  to sneak along and can be used to bypass the Keep.  There is some
+  areas out in the open.
 
 - To the north is an alpine forest, which contains wolves and yeti and
-possibly nephilm.
+  possibly nephilm.
 
 - Even further north is a sea that will require a boat.
 
@@ -409,32 +431,33 @@ possibly nephilm.
 
 - Give necrotic potion to Sin
 
-- Wolves have managed pull shadows around them to increase their stealth
+- Wolves have managed pull shadows around them to increase their
+  stealth
 
 - Wolves come and take poisoned meat, lost 6 and 6 not well
 
 - Reach small town, farming based on a small buffalo, cheese similar
-  to mozzarella.  If consumes for three consecutive days then increases
-  effective EN by 5 with respect to healing
+  to mozzarella.  If consumes for three consecutive days then
+  increases effective EN by 5 with respect to healing
   
-- Spent 20 cheese (100sp)
+- Bought 20 cheese (100sp)
 
 - Summon two wolves, group sentient, short lived, they have high
-fatigue and strength
+  fatigue and strength
 
-- In the skull of one is a flat stone 1cm long and 5mm, like a
-small horn, made of jet, magical, warding
+- In the skull of one is a flat stone 1cm long and 5mm, like a small
+  horn, made of jet, magical, warding
 
 - Damage reduction is 9, except where divisble by 5
 
 - Get turquiose and bloodstone
 
 - Collect pelts, could be turned into a cape for stealth (5% / rank
-for ranger), or armour for damagae reduction (5 but only if not
-divisable by 5)
+  for ranger), or armour for damagae reduction (5 but only if not
+  divisable by 5)
 
-- Skin the wolves, could make cloak with skull and skin, would
-count as a helm, does not break any law of sumpturary
+- Skin the wolves, could make cloak with skull and skin, would count
+  as a helm, does not break any law of sumpturary
 
 ## Session 9 -- 2026-02-22
 
@@ -461,7 +484,8 @@ count as a helm, does not break any law of sumpturary
 
 - Traval along the defile around day and half
 
-- North is an eye shaped depression, at the bottom is a town, Kharminthe
+- North is an eye shaped depression, at the bottom is a town,
+  Kharminthe
 
 - Area is still alpine, above the tree line
 
@@ -475,21 +499,22 @@ count as a helm, does not break any law of sumpturary
 
 - Buy salt for trade
 
-- The Nightmother is a big glowing figure in the night, known to have a gang of yeti
+- The Nightmother is a big glowing figure in the night, known to have
+  a gang of yeti
 
 - Spend two days in the town
 
 - After this head SE downhill to a semi arid plain
 
 - Have scroll with a picture of a magician in a reed boat, Horus &
-Thoth is standing on the Daughter of Mesitet (Barque of Night).  Use
-the Folding Incantation to create the Barque.
+  Thoth is standing on the Daughter of Mesitet (Barque of Night).  Use
+  the Folding Incantation to create the Barque.
 
 - Stay an extra day, the caravan can recruit an archer and a slinger
 
-- Head out of Koubar
+- Head out of Khuvar
 
-- Buy Hamsa
+- Didn't buy Hamsa
 
 - See eight wolves several miles behind us
 
@@ -500,18 +525,19 @@ the Folding Incantation to create the Barque.
 - Finish off the jackels
 
 - Yeti is PB 2 with strange lines down her face.  Wearing a too small
-cloak as a stoll, it has spotted fur, Nature of Magic is Calling,
-target is Snow Leopard and sort of cursed, but not dangerous.
+  cloak as a stoll, it has spotted fur, Nature of Magic is Calling,
+  target is Snow Leopard and sort of cursed, but not dangerous.
 
 - Formerly long lived sentient, GTN is part Nephil / part Human,
-probably undying.
+  probably undying.
 
 - Find box made from rose wood inlaid with brass, 20cm x 8cm x 5cm.
   It is trapped.
 
 - Got a few gems, a very small black pearl, maybe 2mm in diameter,
-worth 400sp.  A second pearl worth 110sp.  Four pieces of black amber,
-worth 80sp each.  Two polished but unshaped chrysoprase, worth 40sp.
+  worth 400sp.  A second pearl worth 110sp.  Four pieces of black
+  amber, worth 80sp each.  Two polished but unshaped chrysoprase,
+  worth 40sp.
 
 - Has a pair of large boots, made of plates of chaitin with heavy
   leather soles.  Some sort of magical enhancement.
@@ -519,21 +545,21 @@ worth 80sp each.  Two polished but unshaped chrysoprase, worth 40sp.
 - Slaydar drinks her blood.
 
 - There are tracks, follow for 1 1/2 hours.  Find a cave with some
-snow and icicles.  Entry is low and wide.  The cave is furnished with
-silks, carpets, wall hangings.  Cave is 4m high and 5m wide.  Silk
-painting of a bird with elk horns.  Brightly coloured, more so than
-expected.
+  snow and icicles.  Entry is low and wide.  The cave is furnished
+  with silks, carpets, wall hangings.  Cave is 4m high and 5m wide.
+  Silk painting of a bird with elk horns.  Brightly coloured, more so
+  than expected.
 
 - Water pipe (hooka) next to some cushions and next to that a stack
-30-40 balls of hashish.
+  30-40 balls of hashish.
 
 - Find three potions and ingraved gem, plate made of porcelein,
-painted with silver showing an oriental phoenix.  A pile of silver
-coins, 7700sp worth.  One potion worth 2500sp, other two worth 4000sp
-each, magically sealed.
+  painted with silver showing an oriental phoenix.  A pile of silver
+  coins, 7700sp worth.  One potion worth 2500sp, other two worth
+  4000sp each, magically sealed.
 
 - I don't think it worth much.  Return to the caravan with everything
-except the cushions.
+  except the cushions.
 
 - Use restorative and heal up.
 
@@ -553,8 +579,8 @@ except the cushions.
 - Get bounty (100sp)
 
 - Plenty of fields surrounding the city, which has a low (14' high)
-wall, and is gated by sliding door.  Abarash is large city.  The city
-with the temple of Fire is Ardavale.
+  wall, and is gated by sliding door.  Tabarash is large city.  The
+  city with the temple of Fire is Ardavale.
 
 - Sell salt and make 105sp
 
@@ -563,46 +589,380 @@ with the temple of Fire is Ardavale.
 - Caravan staying for a couple of days, they are buying wine
 
 - Wine can be used to collect energy, used in a preperation of a
-concoption that is used to store yellow energy
+  concoption that is used to store yellow energy
 
 - Slaydar finds a half-orc restless spirit in the graveyard and asks
-Slaydar to take this people to the promised land, a land of milk and
-honey.  The spirit is called Toothgrinder.
+  Slaydar to take this people to the promised land, a land of milk and
+  honey.  The spirit is called Toothgrinder.
 
-- Sabzevar is 4 days out of Neshaphar, which is four or five days
-out of Mashahara
+- Sabzevar is 4 days out of Neshaphar, which is four or five days out
+  of Mashahara
 
-- Next place is Sharam, 4-5 days NE of here
+- Next place is Sharav, 4-5 days NE of here
 
 - Unlocked potion increased stealth by 20% for two hours
 
-- Open box and inside is a map, tattooed into the belly of a petit
-morted snake, which the avatar of Anak
+- Healing potion 8 FT + 3D10+5 EN
 
+- Healing potion, heals all EN + 2D10 FT on next IV
+
+- Open box and inside is a map, tattooed into the belly of a petit
+  morted snake, short and stubby, which the avatar of Anak, 45cm long,
+  4cm diameter
+
+- Copy map onto paper but snake moves so the terrain moves
+
+## Session 12 -- 2026-03-22
+
+- Spend 3 ts (756sp) for a dose of Oil of Narcissus
+
+- Party spend 6000sp on divinations
+
+- Head north up to the Arcanian sea
+
+- See high up four figures circling above the cavaran, vulture like
+  with with scorpion tails with spikes, with humanoid faces, and ten
+  pairs of scorpion legs, possibly nephilim
+
+- Rest in woods over night
+
+- Retreat back some distance to hold up for the night in woods
+
+- The creatures dropped stuff around 8 hexes away
+
+- Spend 9 darkdess, 1 death
+
+- 35 doses of blade venom from the scorpions
+
+## Session 13 -- 2026-03-29
+
+- House of Jade is beyond the Eastern Empire
+
+- Have a rest day after the scorpion attack
+
+- Travel for two days to each Sharav
+
+- Sharav is lush and on a river, with plenty of surrounding fields,
+  with lots of walled precincts and the town is spread out
+
+- There is occasional flooding and walls are for wild animals
+
+- Grow brassica around the area
+
+- It is colder, may 450 feet above sea level
+
+- Heading south along the edge of a butte onto a high plain
+
+- Buy pickled vegetables, mostly cabbage & carrots
+
+- Stay a day
+
+- Leave and head along road parallelling a wide stream
+
+- Notice waves on the surface of the water
+
+- There are trout in the stream, use blackfire to get two fish
+
+- Next day get 9 trout
+
+- Follow day get to Ardavale
+
+- 250m above sea level
+
+- There are a number of religious communities that produce worked
+materials, such as wooden carvings and bronze mirrors, sun dials,
+carpets, wall hangings and tapestries.
+
+- There are some mountains and there are structures on them
+
+- There is a prince with a palace
+
+- Port is a day's travel east, down hill
+
+- The island sea is lightly salted sea
+
+- Some carpets occupy a border astral realm, could be dreams
+
+- They increase the FT recovery
+
+- Get offer of 17,000sp on the silk painting, take 18,000sp
+
+- Find hamsa offered at 12,000sp, primary function is ring bearing
+
+- Takes three hours to get to the House of Fire, told that the
+  Prince is a dick and a bandit
+  
+- The first monastry provide herbal remedies and something made from
+  crimson thistle heads honey.  Add to herbalist tea adds 3 additional
+  FT.  Each serving costs 1 gs.  Trade blood meal for 3 servings.
+
+- Buy 600sp for 10 doses of joint ointment
+
+- Next monastry is very martial, help dealing with monsters, work very
+  well as a team, but takes many years to learn
+
+- Get pair of throwing blades, throw as daggers, long slender
+daggers, two can be thrown in a single attack.  It is the monastry
+of the green armour.
+
+- Get to the House of Fire with a large brazel bowl, which is
+suppose to always be lit.  It is a large building
+
+- High Priest is Esfandiar and has a big mostache, wearing very white
+robes
+
+- 25 monks, 250 people otherwise
+
+- The choir master here is a mage
+
+- Shimyaza is the Head of the Gregorio, doesn't have a title and
+normally don't use their name
+
+- House of Fire in Mashahara
+
+- There is a lost House of Fire in the far north, near the Library of
+  Leng
+
+- The desolate plain by the Library is a middlemarch
+
+- Have crimson thistle, have walking bees, make very high sugar
+content in the honey
+
+- End of three days the curse is finally removed
+
+- Tell cavaran we are heading off
+
+- Spend additional 4 days for ranking
+
+## Session 14 -- 2026-04-19
+
+- The lost house of fire in the Black Sands Desert
+
+- The wind of 120 days just finished
+
+- The sand isn't iron but on a substrate of shale
+
+- Can get up to 80 deg C
+
+- There are a couple of surface rivers so there are oases
+
+- To the east are salt marshes
+
+- There are towns around the marshes
+
+- Lost house of fire is near Mary
+
+- Teleport to Maharara
+
+- Travel NE over a range of mountains, or follow the road, 230 miles as the crow flows
+
+- There is a pass through the mountains but it not well known, which has a spring
+feed oasis
+
+- Terahun SE of Ardavale, 240 miles, city is on a high plain
+
+- Fly for seven hours to Terahun
+
+- Find Tollfeather
+
+- Terahun is an administrative center, not much trade
+
+- Buy dried foods in Terahun
+
+- Buy linen robes
+
+- Hire a working girl to convince the young shop keeper to sell three
+incantation
+
+- Pay 150sp for working girls
+
+- Add PB to MR for three days
+
+- Pay 4250sp for three incantations
+
+- Fly back to Ardavale after a day of rest
+
+- Go through portal to Mashahara
+
+- People can be pulled up in front of ecliciastical courts
+
+- There is a witness stone, a big black monolith, can see stars, and
+is 4x denser then it should be
+
+- Priests wear a sarpec
+
+- Five libraries in Mashahara, religion, craft (technology), arcane,
+  history and warshall
+
+- Gonur Depe is where the missing temple is, 65 miles from Mary.  Has
+a temple of fire and a temple of water, and a royal necropolis.
+
+- No Witness Stone when orc
+
+- Kappelmeister buried in Gonur Depe
+
+- There is a process for colouring glass and the preminante artisan
+in the area (Husroy Oster)
+
+- Find text for increasing Agility which Sin gets after dice off
+
+- River south of Mary is a river that runs to Hoffat
+
+- Very high sloping walls, protecting against sand
+
+- Mary is a thriving metropolis, very good apricots and dates, which
+are less sweet (more savory and filling), with a Lunar temple Ayato
+
+- Cotten is a product here and is particularly fine textiles (high
+thread count)
+
+- Graveyard but no necropolis, looks like plots have been reused, has
+a clay and brick wall then fired
+
+- Consecrated to a Lunar deity
+
+- Temple has an alter made of white stone and a white cloth covering
+and is the husband of the Sun, protection over the night, and a
+measurer of time and order, knows when the best time to do something
+is
+
+- There is an offering of a very large moth (lunar moth)
+
+- They don't have the priest needed to expand the graveyard, just
+have a desert hermit who wanders in now and then
+
+- Choir sings in whispers at Vespers
+
+- Find guesthouse called the "Hand in Glove"
+
+- A spirit says there is a special set of daggers somewhere in Mary.
+The person who is said to have them is a thief (Ali Katran) who was
+executed and his body burnt.
+
+## Session 15 -- 2026-04-26
+
+- Head back to the inn and rest
+
+- Give Artephius Rank 9 Restorative
+
+- Head to the Hall of Justice
+
+- Give three hooka's worth of hashish
+
+- Don't turn left when first get in, then bumble around
+
+- Get two keys, go down steps and DON'T TURN LEFT
+
+- Once apon a palace, now mostly derelict
+
+- Made of marble, and is particlarly cool
+
+- Box with the snake starts move
+
+- Go north and east (not left)
+
+- First door is trapped
+
+- First door in #5
+
+- Second door is #7
+
+- Third door is #10
+
+- Arch way is #12
+
+- Stuck wooden door is #3
+
+- Attacked by some diabolical
+
+- Use death point
+
+- Use Hound
+
+- Hound kills the devil
+
+- Get 3 obals
+
+- Get broadsword, +1 magical damage
+
+- Get crossbow 3d10+2 + d5 fire damage
+
+- Get potion Strength of Stone Rank 10
+
+- Healing potion 3d10+3 + 8 FT
+
+- Rope incases SAP attack
+
+- Potion gives 8 FT until next dusk or dawn
+
+- GTN is umenidy, hunts down those who sin against family
+
+- Carrying 6000sp
+
+- Plane of origin is Hades
+
+- College is something about curses
+
+- Not a low mana zone, due to being a middlemarch
+
+- Give Sin a Rank 12 waters of healing
+
+- Two trolls hanging from the roof
+
+- Box on the floor, cubical, top section is a pentagram in cross
+  section with hinges and a lock, 1m x 0.5m x 0.5
+
+- Most harmful magic is alarm
+
+- Spend 1h for divination with an alarm rune
+
+- Open hole in the side of the box with warping
+
+- It contains 15cm of folded linnen and a box containing an
+alexaderite, worth 500gs, and an azurite gem, 10gs, 900gs in coin,
+wand, an engraved gem and a touch
+
+- Spell in wand is Force Bolt
+
+- Engraved gem has enchancement magic
 
 
 # Items
 
 ## Boots of the Tiger Beetle
 
-These boots are made from curved, chitinous plates which may be adjusted for size by verdigrised buckles and that encumber as if they weigh 3 lbs. The plates are bronze in colour but the edges are emerald green, so are quite eye-catching. While they provide excellent traction, they are not waterproof.
+These boots are made from curved, chitinous plates which may be
+adjusted for size by verdigrised buckles and that encumber as if they
+weigh 3 lbs. The plates are bronze in colour but the edges are emerald
+green, so are quite eye-catching.  While they provide excellent
+traction, they are not waterproof.
 
-Because of the traction, the wearer adds +10 to their Climbing check. 
+Because of the traction, the wearer adds +10 to their Climbing check.
 
-If the wearer spends 3 FT on their Initiative, they may increase their full TMR by 2 or half their TMR by 1. If the wearer spends 1 FT on their Initiative, they may increase their full TMR by 1.
+If the wearer spends 3 FT on their Initiative, they may increase their
+full TMR by 2 or half their TMR by 1. If the wearer spends 1 FT on
+their Initiative, they may increase their full TMR by 1.
 
-Finally, they always have a chance to come to a complete stop however fast they are running. They must, in such cases, Break 100 adding 3 x their AG to the result.
+Finally, they always have a chance to come to a complete stop however
+fast they are running. They must, in such cases, Break 100 adding 3 x
+their AG to the result.
 
-## Beetles of Flesh Devouring x 4
+## Beetles of Flesh Devouring × 4
 
-These beetles have dark red carapaces and are as large as a lady's palm, weighing 5 grams. While they are kept in an enclosed space where they cannot run around, they will go into torpor. 
+These beetles have dark red carapaces and are as large as a lady's
+palm, weighing 5 grams.  While they are kept in an enclosed space
+where they cannot run around, they will go into torpor.
 
-There are two male beetles. The females, when fertilised, produce 30 eggs, each of which will become adult over the period of a month and each will require 100 grams of flesh.
+There are two male beetles. The females, when fertilised, produce 30
+eggs, each of which will become adult over the period of a month and
+each will require 100 grams of flesh.
 
-Twenty five of these beetles will strip the flesh from the bones of a creature the size of an adult human male within an hour. 
-Their waste is particularly sought after by those who grow roses, camellias, pansies and leafy green vegetables, who will pay 10 sp per pound. 
+Twenty five of these beetles will strip the flesh from the bones of a
+creature the size of an adult human male within an hour.  Their waste
+is particularly sought after by those who grow roses, camellias,
+pansies and leafy green vegetables, who will pay 10 sp per pound.
 
-## Cloudfruit x 50
+## Cloudfruit × 50
 
 This melon-like fruit is about the size of a man's head but only
 weighs 7oz. It satiates as if it were a filling meal but has no
@@ -610,23 +970,23 @@ caloric value at all, so will not recover FT.
 
 An unopened cloudfruit lasts for a year.
 
-## Ghul Hearts x 2
+## Ghul Hearts × 2
 
 14 Darkness 
 14 Death
 
-## Pint of Ghul's Blood x 12
+## Pint of Ghul's Blood × 12
 
 ### Blood Temper
 
 One of these pints may be used to make a blood temper which
-permanently increases the sharpness of a B Class weapon by three. This
-does not increase the weapon's damage, instead, reducing the value of
-target's Protection by three.
+permanently increases the sharpness of a B Class weapon by three.
+This does not increase the weapon's damage, instead, reducing the
+value of target's Protection by three.
 
 The temper requires a pint of the blood and the arts of an Alchemist
 who can make potions. They must spend 2,650 Experience and three weeks
-to learn how to make the temper and it will cost 10 x the cost of the
+to learn how to make the temper and it will cost 10× the cost of the
 weapon. The temper cannot be applied to a weapon that has already been
 forged.
 
@@ -658,12 +1018,13 @@ from infection by 10.
 
 ## Slaydar's Hide
 
-Slaydar's attachment to his race and ancestors has been enriched so that his Natural Armour has increased by 1. 
+Slaydar's attachment to his race and ancestors has been enriched so
+that his Natural Armour has increased by 1.
 
 ## Slaydar's Third Eye
 
 Slaydar has a crescent shaped mark in the centre of his forehead. This
-is a closed eye. An observer within two hexes must make a 1 x PC check
+is a closed eye. An observer within two hexes must make a 1 × PC check
 to realise what it is, unless the eye is open, in which case it's
 obvious. It allows him to advance the talent of Soul Sight.
 
@@ -672,8 +1033,10 @@ first. If successful, its aura strength and something of the target's
 spiritual state is revealed.  He can ask if an entity, object or
 hex-sized surface is
 
-- attended by an ancestral spirit or otherwise haunted, and  the reason for it.
-- if the target has a burden on their soul (cursed or operating under a geas).
+- attended by an ancestral spirit or otherwise haunted, and the reason
+  for it.
+- if the target has a burden on their soul (cursed or operating under
+  a geas).
 - the journey of their soul upon death.
 
 If a double effect is rolled, then two of these questions may be
@@ -681,11 +1044,11 @@ asked, all three if the roll is a triple effect.
 
 The Experience Multiple is 50. 
 
-## Balls of Yak Cheese x 20
+## Balls of Yak Cheese × 20
 
 Each of these balls of cheese are four inches across and weigh half a
 pound. Once the cheese cut, it will last for three days before it
-becomes dry and inedible. Once the cheese has been eaten for three
+becomes dry and inedible.  Once the cheese has been eaten for three
 consecutive days, then for every day that it continues to be eaten
 improves EN by +5 effective only for determining Natural Healing an
 recovering from infection.
@@ -706,7 +1069,7 @@ The wearer loses 1 less point of FT loss per hour as a consequence of
 cold weather.
 
 It provides 1 point of Damage Reduction versus A, B or C Class damage
-if the amount generated does not end in 0 or 5. This will stack with
+if the amount generated does not end in 0 or 5.  This will stack with
 other forms of Protection and Damage Reduction which are appropriate.
 
 The cloak improves the wearer's Stealth calculation arising from the
@@ -716,7 +1079,7 @@ Ranger skill by 2 per Rank when in woods, forests or plains.
 
 This cloak is made from the pelt of a snow leopard and weighs 3
 lbs. The wearer loses 1 less point of FT loss per hour as a
-consequence of cold weather. A number of cats will emerge from the
+consequence of cold weather.  A number of cats will emerge from the
 folds of the cloak when Called by name, requiring a Pass Action,
 according to the following schedule:
 
@@ -729,33 +1092,44 @@ leap 3 metres vertically and 10 metres horizontally, has a movement
 rate of 400 yards per minute and 200 yards per minute when she is
 climbing.
 
+------ ------ ------ -------- ------ -------------------
 PS: 26 MD: 30 AG: 32 MA: None EN: 18 FT: 25
-WP: 12 PC: 23 PB: 12 TMR 8/4  NA: Fur absorbs 4 DP
 
-Weapons:
+WP: 12 PC: 23 PB: 12 TMR 8/4  NA:    Fur absorbs 4 DP
+------ ------ ------ -------- --------------------------
 
-Min may use one bite and two claws in Melee Combat or one bite and four claws in Close Combat. Min will attempt to Close
+Weapons
+: Min may use one bite and two claws in Melee Combat or one bite and
+four claws in Close Combat. Min will attempt to Close
 
-Bite: BC: 40%, [D + 4], Melee & Close, Rank 4
-Claw: BC: 40%, [D + 2], Melee & Close, Rank 6
+Bite
+: BC: 40%, [D + 4], Melee & Close, Rank 4
+
+Claw
+: BC: 40%, [D + 2], Melee & Close, Rank 6
 
 ### Sein, Sha & Sachab the Cloud Leopards
 
 Cloud Leopards are spotted, long-tailed cats the size of lynxes. They
-have no special skills or talents, do not use tools or magic. Aside
+have no special skills or talents, do not use tools or magic.  Aside
 from a vertical leap of 3 metres, they are capable of prodigious
 horizontal leaps of up to 13 metres, have a movement rate of 450 yards
 per minute and 250 yards per minute when they are climbing.
 
+------ ------ ------ -------- ------ -------------------
 PS: 13 MD: 20 AG: 22 MA: None EN: 18 FT: 25
-WP: 20 PC: 23 PB: 12 TMR 9/5  NA: Fur absorbs 3 DP
 
-Weapons:
+WP: 20 PC: 23 PB: 12 TMR 9/5  NA:    Fur absorbs 3 DP
+------ ------ ------ -------- ------ -------------------
 
-They may use one bite and two claws in Melee Combat or Close Combat. 
+Weapons
+: They may use one bite and two claws in Melee Combat or Close Combat. 
 
-Bite: BC: 30%, [D10 + 1], Melee & Close, Rank 2
-Claw: BC: 30%, [D10 - 1], Melee & Close, Rank 4 
+Bite
+: BC: 30%, [D10 + 1], Melee & Close, Rank 2
+
+Claw
+: BC: 30%, [D10 - 1], Melee & Close, Rank 4 
 
 ### 1 through 9, the Marbled Cats
 
@@ -764,22 +1138,25 @@ long. They have no special skills or talents, do not use tools or
 magic, but can leap 3 metres vertically and 10 metres horizontally.
 They have a movement rate of 450 yards per minute and 300 yards per
 minute when they are climbing. As a group, 1 through 9 can enter a
-target's hex without provoking an attempt to keep them out of
-Close. The attack does no damage, but forces the target to Break 100
-adding 2 x AG to the percentile dice. If they fail, they fall prone,
-which usually requires a Pass Action to recover from.
+target's hex without provoking an attempt to keep them out of Close.
+The attack does no damage, but forces the target to Break 100 adding 2
+× AG to the percentile dice. If they fail, they fall prone, which
+usually requires a Pass Action to recover from.
 
+------ ------ ------ -------- ------ -------------------
 PS:  8 MD: 21 AG: 24 MA: None EN: 10 FT: 15
-WP: 15 PC: 20 PB: 18 TMR 9/6  NA: Fur absorbs 2 DP
 
-Weapons:
+WP: 15 PC: 20 PB: 18 TMR 9/6  NA:    Fur absorbs 2 DP
+------ ------ ------ -------- ------ -------------------
 
-They cannot Melee. They get one combined attack in Close.
+Weapons
+: They cannot Melee. They get one combined attack in Close.
 
-Teeth & Claws: BC: 20%, [ D10+1 ], Close, Rank 4
+Teeth & Claws
+: BC: 20%, [ D10+1 ], Close, Rank 4
 
 Each of the entries can be Called once a week, which requires a Pass
-Action. This resets just before midnight on Monday. If any of them
+Action. This resets just before midnight on Monday.  If any of them
 have died in the Caller's service, they will not be available until
 the following Monday.
 
@@ -792,11 +1169,16 @@ is not size 6.
 
 ## Enchanted Gems
 
+These gems are legal targets of the Ritual of Enchantment and last
+until the end of the season. Each Ritual costs 1 oz black myrrh and 1
+oz of white sandalwood which will cost 300 sp (sandalwood trees take
+around three decades to mature and are scarce).
+
 ### Tourmaline Teardrop
 
 This 1 cm, teardrop-shaped blue tourmaline, once set in a bezel,
 Enchanted and worn on the wrist, empowers the wearer's Ventriloquism
-spell. Once a day, it allows them to hear something as quiet as a
+spell.  Once a day, it allows them to hear something as quiet as a
 whisper at the target of the Ventriloquism spell once a day, while
 within range and while duration persists. This property resets at
 dawn.
@@ -841,6 +1223,30 @@ This 1 cm, faceted gem of painite is in the shape of a kite, and, once
 set in a bezel, Enchanted and worn on the wrist, increases the
 wearer's MD by 2.
 
+### Eye of the Snow Tiger
+
+This milky white stone is lenticular and about 1 cm wide. It has an
+amber stripe about 2 mms wide. Once set into a bezel, Enchanted and
+worn on the wrist, it adds 1 to MR and 2 to Def which stacks with any
+Amulet of Luck and reduces the count of the number of Amulets of Luck
+by 1.
+
+### Jade Disc
+
+This 1 cm wide, disc-shaped green jade, once set into a bezel,
+Enchanted and worn on the wrist, increases the wearer's Initiative by
+8 and allows any Cast or Strike check vs the undead that ends in an 8
+to be treated as ending with a 1 and any damage roll of 1 on a D10
+becomes 8.
+ 
+### Jacinth Lozenge
+
+This 1 cm, lozenge-shaped dark blue jacinth, once set in a bezel,
+Enchanted and worn on the wrist, adds 2 to the wearer’s MD. This bonus
+only applies to the hand on the wrist where the gem is worn. If a
+shield is used on that hand, the gem reduces the MD penalty, only, but
+means that the shield is not destroyed unless it is cloven against two
+Specific Grievous injuries to preserve the wearer's armour.
 
 
 ## Vermilion Fan of the Orient
@@ -943,40 +1349,6 @@ unless it might remove a hand.
 * Thinga has a way of standing to indicate that she is rolling her
   eyes. This is a racial talent.
 
-
-## Enchanted Gems 
-
-The se gems are legal targets of the Ritual of Enchantment and last
-until the end of the season. Each Ritual costs 1 oz black myrrh and 1
-oz of white sandalwood which will cost 300 sp (sandalwood trees take
-around three decades to mature and are scarce).
-
-### Eye of the Snow Tiger
-
-This milky white stone is lenticular and about 1 cm wide. It has an
-amber stripe about 2 mms wide. Once set into a bezel, Enchanted and
-worn on the wrist, it adds 1 to MR and 2 to Def which stacks with any
-Amulet of Luck and reduces the count of the number of Amulets of Luck
-by 1.
-
-### Jade Disc
-
-This 1 cm wide, disc-shaped green jade, once set into a bezel,
-Enchanted and worn on the wrist, increases the wearer's Initiative by
-8 and allows any Cast or Strike check vs the undead that ends in an 8
-to be treated as ending with a 1 and any damage roll of 1 on a D10
-becomes 8.
- 
-### Jacinth Lozenge
-
-This 1 cm, lozenge-shaped dark blue jacinth, once set in a bezel,
-Enchanted and worn on the wrist, adds 2 to the wearer’s MD. This bonus
-only applies to the hand on the wrist where the gem is worn. If a
-shield is used on that hand, the gem reduces the MD penalty, only, but
-means that the shield is not destroyed unless it is cloven against two
-Specific Grievous injuries to preserve the wearer's armour.
-
-
 ## T-Rex Leather Armour
 
 Wgt
@@ -1027,13 +1399,666 @@ Rank     0   1   4   6   8   9  10  12  14  15  16  18  20
 Bonus    1   2   3   4   5   6   7   8   9  10  11  12  13
 ------ --- --- --- --- --- --- --- --- --- --- --- --- ---
 
+
+## Boots of the Tiger Beetle
+
+These boots are made from curved, chitinous plates which may be
+adjusted for size by verdigrised buckles and that encumber as if they
+weigh 3 lbs.  The plates are bronze in colour but the edges are
+emerald green, so are quite eye-catching.  While they provide
+excellent traction, they are not waterproof.
+
+Because of the traction, the wearer adds +10 to their Climbing check. 
+
+If the wearer spends 3 FT on their Initiative, they may increase their
+full TMR by 2 or half their TMR by 1.  If the wearer spends 1 FT on
+their Initiative, they may increase their full TMR by 1.
+
+Finally, they always have a chance to come to a complete stop however
+fast they are running. They must, in such cases, Break 100 adding 3 ×
+their AG to the result.
+
+## Chaplet of the Underworld
+
+This set of beads holds nodes for 6 crimson carbuncles, each the shape
+and size of a pomegranate seed, strung on a green gold chain,
+separated by 7 beads of red jasper (so a total of 42).
+
+Three of the carbuncles have been woken
+
+### The Boon of Hades
+
+Range
+: 6 hexes
+
+Target
+: Willing sentient entity
+
+Duration
+: Cenconetration max 1 minute
+
+This carbuncle requires a Free Act and can be discharged on up to
+three targets within range. There are 3 Gifts and a target may only
+benefit from one.
+
+- The Gift of the Dog Skin 
+
+The target may move and benefit from the Blending spell, so long as
+they do not exceed their TMR. If they successfully attack, this boon
+ends.
+
+- The Gift of Mortality
+
+A willing target is considered a mortal and their life may be
+ended.  If they are already mortal, then, without actually dying, they
+are considered to have died. This can affect those who are Death or
+Life Aspected.
+
+- The Gift of the Grave
+
+The target is inured to the excesses of emotion and cannot be feared
+or Charmed while duration persists.
+
+This carbuncle resets at Midnight.
+
+### Hecate's Talon
+
+Target
+: Self
+
+Duration
+: Cenconetration max 1 minute
+
+This carbuncle requires the use of a Free Act. While duration
+persists, the next time the Adept succeeds in a Melee or Close Strike
+Check, they add 2 rollup D10 soul damage to any other damage they
+inflict and reduce their target's Magic Resistance by 20.
+
+This carbuncle resets at Midnight on Saturday
+
+### Hound of the Underworld
+
+Range
+: Sight
+
+Target
+: Entity
+
+Duration
+: Concentration max 1 minute
+
+This carbuncle requires the use of a Magical Fire Action, and summons
+a Spectral Three-Headed Hound which will hunt down and slay one
+target, who must be within sight when the boon is released.  The hound
+is completely insubstantial and invisible except to its intended
+victim. It may be seen by others with Witchsight.
+
+The hound will continue with its mission until concentration is
+broken, its intended victim dies, it is dissipated or duration
+expires.  The hound can unerringly locate its intended victim and will
+always move towards them at its full movement rate, and engage them in
+melee combat.
+
+The hound has a single, combined, Endurance and Fatigue Characteristic
+with a value of 50.  It automatically hits every Pulse for [D - 4] +
+18 damage. Its Initiative is 66.  The hound has no defence or armour
+value. It may not be Stunned, its movement rate is 55 yards per Pulse,
+and its TMR is 13.  The hound may move in any direction without
+restriction, including through the air, walls, water, etc.
+
+This carbuncle resets at Midnight on Saturday
+
+The metal of the chaplet is toxic, so care must be used in handling
+it. Unless the wearer has the Assassin ability to handle poisons
+without risking harm, they must make a 3 × MD check each time they use
+a carbuncle, failure indicating that they have become infected.
+
+## The Lamp of Hades
+
+This lamp is made from bronze and is small enough to fit in the palm
+of a maiden, weighing but 8 oz.  Once a day, it may be filled with 1
+oz of Oil of Narcissus (requiring four Pass Actions) and lit
+(requiring a Pass Action and 5 FT), whereupon it will shed a faint
+light for 4 hours that is unseeable except to the bearer.
+
+While the Lamp is alight, the bearer's Light spell becomes The Gloom
+of Asphodels, their Wall of Darkness becomes Underworld Threshold,
+Shadowform becomes Cap of Hades and Web of Darkness becomes Web of
+Fate.
+
+If it is not carried in the hand, the lamp may be attached to the
+bearer's foot by an ankle strap (requiring two Pass Actions) but in
+any Pulse they exceed their TMR, must succeed on a 3 × AG roll,
+otherwise the oil will be spilt, extinguishing its light and ending
+its effects.
+
+Oil of Narcissus may be processed by an Alchemist over three days and
+requires 1 truesilver guineas worth of reagents to produce an ounce.
+An Alchemist who can make Poisons must spend 2,650 Experience and
+three weeks to learn how to make this oil.
+
+## The Gloom of Asphodels
+
+Range
+: 15 feet + 15 / Rank
+
+Duration
+: 10 seconds + 5 seconds for every 5 Ranks
+
+Resist
+: None
+
+Target
+: Surface
+
+Effects
+: Creates a hemisphere of gloom in which shades of the restless dead
+  wander hopelessly among asphodels.  It is 15' wide and must be
+  anchored to a surface.  The diameter increases by a further 10' at
+  Rank 10 and at Rank 20.
+
+Within the volume, any entity whose aura strength is less than long
+living sentient halves their Regeneration or the Healing they receive
+to a minimum of 1.  In addition, any target within the volume has
+their Defence versus thrown or missile attacks improved by the Rank of
+the Gloom.
+
+## Underworld Threshold
+
+Range
+: 15 feet + 15 / Rank
+
+Duration
+: 1 minute + 1 minute for every 5 Ranks
+
+Base Chance
+: 15%
+
+Resist
+: Passive
+
+Target
+: Surface
+
+Effects
+: Creates a 10’ high, 5' wide volume that is anchored to a surface and
+  which is adjacent to the Underworld.  The diameter increases by 10'
+  at Rank 10 and Rank 20.  In this volume, undead or undying entities
+  lose that property and they or any mortal entities that are
+  dark-aspected must passively Resist or suffer [D-5] + 1 / soul
+  damage per Rank each time they enter it (not per pulse).
+
+Any entity that suffers soul damage from this spell must roll on the
+Fright Table.
+
+## Web of Fate
+
+Range
+: 30 feet + 15 / Rank
+
+Duration
+: Concentration (Maximum of 15 minute + 15 / Rank)
+
+Experience Multiple
+: 250
+
+Base Chance
+: 25%
+
+Resist
+: Passive
+
+Storage
+: Investment, Ward, Magical Trap
+
+Target
+: Area
+
+Effects
+: A five foot wide web of the Graae is projected from the Adept's
+  finger tips to a target hex, object or entity. Any entity or object
+  in the area will be ensnared by the web.  The web may only ensnare
+  six sizes of entities per Rank, or one man-sized object per Rank,
+  stopping at the hex where this limit is reached (or at maximum
+  range).
+
+Entities ensnared in the web suffer 1 drain (+1 per 3 or fraction
+Ranks) (halved if they successfully resist) each Pulse.  PS is drained
+first, then FT, then EN.  This is applied at the moment of contact
+with the web, and at the beginning of each Pulse, thereafter.
+
+Necrogeny protects against this drain, Damage Reduction may, but
+Protection and Spell Armour do not. Constructs, undead, objects and
+creatures of mana may be ensnared by the web but are never drained by
+it.  Undead and creatures of mana are rendered mortal while they are
+within the precincts of the web, even if they Resist it, and in any
+case, their Magic Resistance is reduced by the Rank of the web.
+
+Any ensnared entity must roll 1 × Physical Strength (2 × if they
+successfully Resisted) in order to move themselves to an adjacent hex
+(which may be free of the web), or to perform an action within the
+web. A similar check is required for any entity attempting to remove
+an object from the web.  If an entity receives aid in removing
+themselves from the web, the PS of the aiding character may be
+combined with their own. Rank or more points damage from a single blow
+from a B-class weapon will destroy the entire web. Treat the web's
+defence as being equal to its Rank.
+
+## Cap of Hades
+
+Range
+: Self
+
+Duration
+: 30 minutes + 30 / Rank
+
+Base Chance
+: 15%
+
+Resist
+: None
+
+Target
+: Self
+
+Effects
+: Darkness covers the Adept's head, then spreading down their body
+  over two Pulses, becoming increasingly ethereal with Rank.  Defence
+  versus physical Melee or Ranged attacks increases by 2 (+ 2 / Rank).
+  In Close combat only 1 (+ 1 / Rank) Defence is gained.  However, if
+  they are struck by weapon that is not magical or silvered, 1 point
+  per three full Ranks is subtracted from the damage.  In addition,
+  the Adept gains a 1 (+ 1 / Rank) bonus to their Stealth.
+
+
+## Toothgrinder the Sentinel
+
+Toothgrinder believes himself to be, in some way, an ancestor of
+Slaydar. He is a legal target for the Animating Bodily Parts spell.
+Once he has become manifest, he will remain while duration remain
+until he has performed a service for Slaydar, whereupon he will fade
+back into the Underworld until dusk of the next Friday or Tuesday.
+
+Toothgrinder has the Sense Danger ability which is equal to his PC
+(18 + Rank of this spell).
+
+## Scorpion Venom × 35
+
+### Scorpion Blade Venom
+
+This venom can be processed by an Alchemist who can make poison into a
+Blade Venom which may be anointed on an A or B Class weapon. If
+effective damage is taken, the venom inflicts 1 rollup D5 damage per
+Pulse until a scorpion antivenin is taken.
+
+### Scorpion Antivenin
+
+A dose of this scorpion venom can be rendered into a scorpion
+antivenin by the arts of an Alchemist who can make potions, using
+reagents that cost 3 truesilver guineas.  It will cure any venom
+delivered by a scorpion or scorpion blade venom.
+
+## Enochian Potion of Healing
+
+This grey-green ceramic phial weighs 4oz. If it is worn on a belt,
+bandolier, chest strap or the like, then it may be taken as a Free Act
+or Pass Action. If it is carried elsewhere, but not in, say, a pack,
+it will require a Pass Action.
+
+When it is taken, it restores 3 rollup D10 + 5 EN damage and 8 FT lost
+to damage.
+
+## Tardy Potion of Healing
+
+This orange-brown ceramic phial weighs 4oz. If it is worn on a belt,
+bandolier, chest strap or the like, then it may be taken as a Free Act
+or Pass Action. If it is carried elsewhere, but not in, say, a pack,
+it will require a Pass Action.
+
+This potion does not begin the healing process until the Pulse after
+it is taken, on the drinker's initiative.  Except for damage that is a
+consequence of Specific Grievous injuries or drain, all EN losses are
+restored, as well as 2 rollup D10 FT lost to damage.
+
+## Stealth Potion
+
+This charcoal grey ceramic phial weighs 4oz. 
+
+When it is taken, it improves Stealth by 20 for four hours. 
+
+## Lapis Hamsa
+
+This amulet is made from brass wire in the likeness of a hand,
+decorated with polished chips of lapis lazuli, weighing 2 oz.  It must
+be pinned to the right forearm just above the wrist.  It is a spell
+rack.
+
+The first time the wearer Resists magic, their WP is doubled for the
+purposes of calculating their Magic Resistance. This ability is
+restored when the wearer Purifies after dawn.
+
+## Crimson Thistle Honey × 24
+
+This tiny pot of honey has been gathered from a hive of Walking Bees
+adjacent to Crimson Thistles in the highlands of Nod.  When added to a
+cup of Herbalist Tea, 3 additional FT will be restored.
+
+## Wind-Runed Amber Egg
+
+This engraved amber gem has the wind rune engraved on it. When it
+hatches, this will emerge:
+
+### Discus of Returning
+
+Henry is a tortoise weighing 1 lb 3 oz and is 7 inches across. His
+shell is variegated in shades of brown to dull bronze to cream.
+
+Comments
+:  Henry is comfortable in water and on land, so has a movement rate
+   of 50 yards per minute running or swimming.
+
+Abilities
+: If he abandons his Magic Resistance and Defence, he can sprint 7
+  hexes per Pulse. If his head is not withdrawn into his shell, and he
+  is struck, then any damage that ends in a value of 1 or 2 is wholly
+  applied, otherwise it is reduced by 6.  If Henry is inside his
+  shell, all damage is reduced by 6.
+
+------ ------ ------ ------  -----  ----------------------------
+PS:  4 MD: 10 AG: 9  MA:  0  EN: 12 FT: 15
+
+WP: 13 PC: 13 PB: 9  TMR  2  NA:    Shell reduces damage by 6
+------ ------ ------ ------  -----  ----------------------------
+
+Weapons
+: Henry cannot Melee. He gets one attack in Close.
+
+Bite
+: BC 30%, [D10 - 1], Close, Rank 0
+
+Henry may be wielded as a boomerang. In such cases, he adds his PS and
+MD to the wielder's and, in the event of a miss, will direct himself
+back to the wielder's hand by adroit manoeuvring of his shell, so long
+as they are within 20 hexes of each other.  His base Strike Chance is
+57%, inflicts D10 + 4 C Class damage and range is 20 hexes.
+
+## Falx of the Black Curlew
+
+This sword is made from bronze enamelled in translucent green along
+the spine of the blade and translucent russet on the forte near the
+hilt. The mummy of a black curlew has been forged into its length. It
+has a reverse curve, weighs 6lbs and requires PS 17 & MD 16 to
+wield. If the wielder is Lunar aspected, they subtract 1 from the
+result of a Strike Check with this weapon. If it is wielded in the
+left hanad, another 1 is subtracted.
+
+The base Strike Chance is 57% and the weapon inflicts a base D10 + 5
+damage, advancing as a Broadsword. The wielder must choose between A
+or B Class damage, but only B Class Specific Grievous Injuries may be
+applied. At Rank 6, A or B Class Specific Grievous Injuries may be
+applied, and therefore they need not choose.
+
+This is a finesse weapon, so bonuses for excess PS are not considered,
+but every five points in excess of MD 16 increases damage by 1.
+
+Strike Chances improves with Rank according to the following schedule:
+
+----    ---  ---  ---  ---  ---  ---
+Rank    1    2    3    4    5    6
+        4    5    6    7    8    9
+---     ---  ---  ---  ---  ---  ---
+
+It accepts weapon spells except Darksword, Weapon of Cold or Weapon of
+Flames.
+
+Once per phase of the moon, the weapon may be transformed into a Black
+Curlew by Casting Binding Lesser Undead on it. This creature is
+entirely ethereal and although it only has a combined EN & FT of 1. If
+it takes magical damage, then it will be dissipated. However while
+duration persistss, the wielder makes a Concentration Check per Pulse
+to see and hear through it while it is within range.
+
+## Lariat of the Noose
+
+This length of rope has been woven from the hair of hags or similar
+and appears to writhe like slithering serpents. It is 35 feet long and
+weighs 4 lbs. It is a 2-handed Entangling weapon, may only be used
+against human-sized or smaller victims, has a base Strike Chance of
+41% and inflicts [D10! + 3] strangulation damage. It may be wielded in
+Melee or to a range of 6 hexes.
+
+## Potion of Strength of Stone
+
+This grey ceramic phial is as long as the middle finger of a boy of
+twelve and weighs 3 oz. It must be Prepared before it is taken,
+whereupon it will increase one of PS or EN by 10 for eleven hours.
+
+## Potion of Resilience
+
+This umber ceramic phial is as long as the middle finger of a boy of
+twelve and weighs 3 oz. It must be Prepared before it is taken,
+whereupon it will increase FT value by 8 until the next dusk or dawn.
+
+## Wand of Astral Force
+
+This wand is 19 inches long and made from the black, spiralling horn
+of an elan. It is chased along its length twice, once in nickel silver
+and once in bronze, weighing 23 oz.
+
+The wand holds seven charges which may be used in the following ways:
+
+1 charge - Disrupting Shield - requires a Reflex Action
+
+* Disrupts the Astral increasing the wielder's Magic Resistance versus
+  single target spells that inflict damage by 20 for the rest of that
+  Pulse.
+
+1--3 charges - Dart(s) of Astral Force - requires a Magical Fire
+Action
+
+*    Darts of Astral Force inflict 1 rollup D5 magical force damage
+     per dart and as many as 3 darts can be Fired, requiring a charge
+     each. The target must be within 24 hexes, and if they Resist vs
+     Backfire, they take no damage.
+
+At dawn, the wielder rolls percentiles and if the roll is 70 or less,
+they recover a charge, but if they roll 30 or less, they recover 2.
+
+
+## Burning Crossbow
+
+This heavy crossbow encumbers for 20 lbs, requires PS of 20 and MD of
+14 to wield but takes 5 Pulses to reload with a cranequin unless PS is
+41 or higher, in which case it takes 2 Pulses.
+
+A quarrel bursts into flames upon firing and inflicts 3 rollup D10 + 1
+damage, and there is a 71% chance that the target's clothing may, if
+flammable, burst into flames, and inflict a rollup D5 burning damage
+until extinguished. It may not be used from surprise unless the
+wielder is concealed by flames, for example.
+
+The crossbow requires a pint of the blood of an unbaptised child after
+each midwinter.
+
 # Abilities
+
+## Ancestral Spirits
+
+These spirit are called by their descendants if they are shaman,
+usually by means of the Animating Bodily Parts spell, since it does
+not cause them to manifest physically, directly.
+
+Over time, they will gather a host of ancestral spirits to aid
+them. If the spell is Rank 6 through to 10, they may call upon the
+host for one service per day, resetting at dusk.
+
+* At Ranks 11 through to 14, they may ask for two services.
+
+* At Ranks 15 through to 17, they may ask for three.
+
+* At Ranks 18 or 19, four, and five at Rank 20.
+
+The service always ends when the task is completed or duration
+expires, whichever comes first. If services remain, the same spirit or
+another of the host can be called on until no more are left.
+
+Ancestral spirits often have a special ability which is advanced as a
+function of the spell, and this is italicised. Other abilities are not
+italicised. These may only be advanced by allowing the spirit to
+possess the shaman and engaging in training. This will require the use
+of one of their training tracks and the usual requirements, but only
+one spirit can be advanced per day of training. It is, however,
+considered either magical or non-magical training to the advantage of
+the shaman.
+
+### Toothgrinder
+
+Toothgrinder is a Ranger of 1/3rd the Rank of the Animating Bodily
+Parts spell, except that he specialises in Forested or Wood terrains.
+
+Once, he was a great leader of the Saka people, but they have fallen
+on hard times and their line has suffered corruption. His desire is to
+find a path for his people out of their current straits and towards
+something with greater honour.
+
+------ ------ ----- -----   ------ ------
+PS: 19 MD: 18 AG: 18 MA: 3  EN: 21 FT: 25
+
+WP: 15 PC: 18 PB: 3  TMR 6  NA:    1 DP
+------ ------ ----- -----   ------ ------
+
+Weapons
+: His preferred weapon is Mattock, but will use spear and shield if that is a better choice. 
+
+Mattock
+: BC: 55%, [D10 + 6], Melee, Rank 3
+
+Spear
+: BC: 50%, [D10 + 3], Melee/6 Hexes, Rank 3
+
+Shield
+: BC: 40%, [D10 - 2], Melee, Rank 3
+
+Sling:
+: BC: 40%, [D10 + 1], 60 Hexes, Rank 3 
+
+He has the Sense Danger Talent which works 18 (+ Rank of the Animating Bodily Parts spell)% of the time.
+
+Services
+:
+1. will possess a skeleton, replacing their stats and skills with his.
+2. confer his Ranger specialisation bonus for Forested or Woods environments on the shaman
+3. has a 30% chance of knowing something about the history of his people.
+4. if his Sense Danger Talent works, he will alert the shaman and this will count as a service but does not end the spell. 
+
+### Lokara Sharpfang
+
+Lokara is an archer and uses a Composite Bow. She is proficient with
+it at Rank 1 (+ 1/3 Rank of the Animating Bodily Parts spell).  She
+took pride in her ability to provide for her people and has a
+competitive nature.
+
+------ ------ ----- -----   ------ ------
+PS: 17 MD: 20 AG: 21 MA: 3  EN: 17 FT: 25
+WP: 13 PC: 12 PB: 3  TMR 6  NA:    1 DP
+------ ------ ----- -----   ------ ------
+
+Weapons
+: Her preferred weapon is Composite Bow, but will use battle axe and shield if that is a better choice. 
+
+Composite Bow
+: BC: 55%, [D10 + 4], 225 Hexes, 1 (+ 1/3 Rank of the Animating Bodily Parts spell)
+
+Battle Axe
+: BC: 60%, [D10 + 4], Melee/6 Hexes, Rank 3
+
+Shield
+: BC: 40%, [D10 - 2], Melee, Rank 3
+
+She has a Stealth skill and an Artisan Hunter skill of Rank 3.
+
+Services
+:
+1. will possess a skeleton, replacing their stats and skills with hers.
+2. confer her confidence that the shaman will win, whether it be a toss of the dice or a battle to the death.
+3. confer her Stealth bonus (excluding any value arising from AG) on the shaman replacing theirs. This stacks with bonuses from Spy, Thief and Assassin but not Ranger.
+4. has a 30% chance of knowing if a creature is not edible. 
+
+### Tollfeather One Eye
+
+Tollfeather is a lorekeeper of the Saka people who has a secular
+understanding of their culture and their relationship with their
+ancestors. He knows the Ritual of Divination and is proficient in its
+use at Rank 1 (+ 1 per 2 Ranks of the Conjuring Bodily Parts spell).
+
+He is learned but not physically courageous. He will participate in
+combat if called upon but does not enjoy displays of brute force.
+
+------ ------ ------ ------ ------ ------
+PS: 12 MD: 16 AG: 14 MA: 17 EN: 16 FT: 25
+WP: 18 PC: 12 PB: 3  TMR 5  NA:    1 DP
+------ ------ ------ ------ ------ ------
+
+Weapons
+: Quarterstaff:  BC: 55%, [D10 + 2], P, C Class, Rank 3
+
+Detect Aura
+: BC PC Rank 3
+
+Divination
+: BC 40%    Rank 1 (+ 1 per 2 Ranks of the Conjuring Bodily Parts spell)
+
+He is always Purified at Rank 18 (which will raise his MA to 20 and MR
+to 36%).  He automatically sees the flow of mana as if he were under
+the effects of a Rank 3 Mana Sense spell.
+
+Philosopher Rank 3
+
+Realm
+: The Social World
+
+Field
+: Politics & Customs
+
+Sub-fields
+:
+*    The history of the Saka people
+*    Racial characteristics of the Saka people
+*    Customary practices of the Saka people
+
+Field
+: Legends & Folklore
+
+Sub-fields
+:
+*    Legends of the Saka people
+*    Legends of the Desert of Black Sand
+*    Area knowledge of the northern reaches of the Land of Nod
+
+With access to an appropriate archive or library, he can research
+answers in the areas of his expertise. He does not require a service
+to Detect Auras or to perform standard Divinations.
+
+Services
+:
+1.  will possess a skeleton, replacing their stats and skills with his.
+2.  perform an Ancient Divination
+3. 'sense' the mana flows within 40 feet of him and, by taking a Pass Action, attempt to distinguish the College, name and general Rank of a spell being Prepared or Cast.
+4. research answers within his Philophical expertise
 
 ## Sin's Wraithcloak
 
 Sin's Wraithcloak Spell has been modified by an ancient Moon God so
 that it protects against damage from silvered weapons in addition to
 mundane weapons.
+
+## Sin's Consoling Hand
+
+Sin's Spectral Hand has known the despair of abandonment having spent
+sixteeen days alone in a Trackless Waste. Once a day, she can direct
+an active Spectral Hand to console someone suffering emotional turmoil
+by patting them on the shoulder. If such a thing is possible, it will
+give them an opportunity to recover.
 
 ## Knap of the Earth
 
@@ -1063,24 +2088,6 @@ This only applies to the Knap of the Earth manoeuvre, and assumes he
 is spending his attention on avoiding obstacles and terrain features.
 An ability to decelerate to a stop in a second or two requires a high
 deceleration Flight Manoeuvre.  Which is not this one.
-
-## Boots of the Tiger Beetle
-
-These boots are made from curved, chitinous plates which may be
-adjusted for size by verdigrised buckles and that encumber as if they
-weigh 3 lbs. The plates are bronze in colour but the edges are emerald
-green, so are quite eye-catching.  While they provide excellent
-traction, they are not waterproof.
-
-Because of the traction, the wearer adds +10 to their Climbing check. 
-
-If the wearer spends 3 FT on their Initiative, they may increase their
-full TMR by 2 or half their TMR by 1. If the wearer spends 1 FT on
-their Initiative, they may increase their full TMR by 1.
-
-Finally, they always have a chance to come to a complete stop however
-fast they are running. They must, in such cases, Break 100 adding 3 ×
-their AG to the result.
 
 
 # Incantations
@@ -1753,7 +2760,8 @@ no Fatigue remaining the Adept may drain from Endurance instead. The
 Adept may not drain from both Fatigue and Endurance with one
 successful Strike.
 
-Note that only living entities will be affected by this spell and the Adept may not drain themselves.
+Note that only living entities will be affected by this spell and the
+Adept may not drain themselves.
 
 Cost
 : 3500 Experience.
@@ -1781,7 +2789,7 @@ Cost
 Constraints
 : Unracks the spell, reduces FT value by 2
 
-## Warping - Folding x 2
+## Warping - Folding × 2
 
 Duration
 : 1 day (+1 day / Rank)
@@ -1807,256 +2815,137 @@ Cost
 Constraints
 : Unracks the spell 
 
-## Chaplet of the Underworld
 
-This set of beads holds nodes for 6 crimson carbuncles, each the shape
-and size of a pomegranate seed, strung on a green gold chain,
-separated by 7 beads of red jasper (so a total of 42).
-
-Three of the carbuncles have been woken
-
-### The Boon of Hades
+## Spectral Warrior - Barque of the Night
 
 Range
-: 6 hexes
-
-Target
-: Willing sentient entity
+: Touch
 
 Duration
-: Cenconetration max 1 minute
-
-This carbuncle requires a Free Act and can be discharged on up to
-three targets within range. There are 3 Gifts and a target may only
-benefit from one.
-
-- The Gift of the Dog Skin 
-
-The target may move and benefit from the Blending spell, so long as
-they do not exceed their TMR. If they successfully attack, this boon
-ends.
-
-- The Gift of Mortality
-
-A willing target is considered a mortal and their life may be
-ended.  If they are already mortal, then, without actually dying, they
-are considered to have died. This can affect those who are Death or
-Life Aspected.
-
-- The Gift of the Grave
-
-The target is inured to the excesses of emotion and cannot be feared
-or Charmed while duration persists.
-
-This carbuncle resets at Midnight.
-
-### Hecate's Talon
+: 20 minutes (+20 minutes / Rank)
 
 Target
-: Self
-
-Duration
-: Cenconetration max 1 minute
-
-This carbuncle requires the use of a Free Act. While duration
-persists, the next time the Adept succeeds in a Melee or Close Strike
-Check, they add 2 rollup D10 soul damage to any other damage they
-inflict and reduce their target's Magic Resistance by 20.
-
-This carbuncle resets at Midnight on Saturday
-
-### Hound of the Underworld
-
-Range
-: Sight
-
-Target
-: Entity
-
-Duration
-: Concentration max 1 minute
-
-This carbuncle requires the use of a Magical Fire Action, and summons
-a Spectral Three-Headed Hound which will hunt down and slay one
-target, who must be within sight when the boon is released.  The hound
-is completely insubstantial and invisible except to its intended
-victim. It may be seen by others with Witchsight.
-
-The hound will continue with its mission until concentration is
-broken, its intended victim dies, it is dissipated or duration
-expires.  The hound can unerringly locate its intended victim and will
-always move towards them at its full movement rate, and engage them in
-melee combat.
-
-The hound has a single, combined, Endurance and Fatigue Characteristic
-with a value of 50.  It automatically hits every Pulse for [D - 4] +
-18 damage. Its Initiative is 66.  The hound has no defence or armour
-value. It may not be Stunned, its movement rate is 55 yards per Pulse,
-and its TMR is 13.  The hound may move in any direction without
-restriction, including through the air, walls, water, etc.
-
-This carbuncle resets at Midnight on Saturday
-
-The metal of the chaplet is toxic, so care must be used in handling
-it. Unless the wearer has the Assassin ability to handle poisons
-without risking harm, they must make a 3 × MD check each time they use
-a carbuncle, failure indicating that they have become infected.
-
-## The Lamp of Hades
-
-This lamp is made from bronze and is small enough to fit in the palm
-of a maiden, weighing but 8 oz.  Once a day, it may be filled with 1
-oz of Oil of Narcissus (requiring four Pass Actions) and lit
-(requiring a Pass Action and 5 FT), whereupon it will shed a faint
-light for 4 hours that is unseeable except to the bearer.
-
-While the Lamp is alight, the bearer's Light spell becomes The Gloom
-of Asphodels, their Wall of Darkness becomes Underworld Threshold,
-Shadowform becomes Cap of Hades and Web of Darkness becomes Web of
-Fate.
-
-If it is not carried in the hand, the lamp may be attached to the
-bearer's foot by an ankle strap (requiring two Pass Actions) but in
-any Pulse they exceed their TMR, must succeed on a 3 x AG roll,
-otherwise the oil will be spilt, extinguishing its light and ending
-its effects.
-
-Oil of Narcissus may be processed by an Alchemist over three days and
-requires 1 truesilver guineas worth of reagents to produce an
-ounce. An Alchemist who can make Poisons must spend 2,650 Experience
-and three weeks to learn how to make this oil.
-
-## The Gloom of Asphodels
-
-Range
-: 15 feet + 15 / Rank
-
-Duration
-: 10 seconds + 5 seconds for every 5 Ranks
-
-Resist
-: None
-
-Target
-: Surface
+: Papyrus of Sat Mesektet
 
 Effects
-: Creates a hemisphere of gloom in which shades of the restless dead
-  wander hopelessly among asphodels.  It is 15' wide and must be
-  anchored to a surface.  The diameter increases by a further 10' at
-  Rank 10 and at Rank 20.
+: This Incantation targets the papyrus of the Daughter of Mesektet, a
+  reed boat that is half a metre wide, two metres long and 20 cms
+  deep. A spectral wave of night lifts the barque into the sky and
+  propels it at up to 30 miles per hour (+ 1 mph / Rank).
 
-Within the volume, any entity whose aura strength is less than long
-living sentient halves their Regeneration or the Healing they receive
-to a minimum of 1.  In addition, any target within the volume has
-their Defence versus thrown or missile attacks improved by the Rank of
-the Gloom.
+It can fly as slow as 4 hexes per Pulse, otherwise the magic fails.
 
-## Underworld Threshold
+Cost
+: 2500 Experience.
 
-Range
-: 15 feet + 15 / Rank
+Constraints
+: Unracks the spell, requires Papyrus of Sat Mesektet as a catalyst,
+  reduces FT value by 1
 
-Duration
-: 1 minute + 1 minute for every 5 Ranks
 
-Base Chance
-: 15%
+## Putrid Wound - Boiling Blood
 
 Resist
-: Passive
-
-Target
-: Surface
-
-Effects
-: Creates a 10’ high, 5' wide volume that is anchored to a surface and
-  which is adjacent to the Underworld.  The diameter increases by 10'
-  at Rank 10 and Rank 20.  In this volume, undead or undying entities
-  lose that property and they or any mortal entities that are
-  dark-aspected must passively Resist or suffer [D-5] + 1 / soul
-  damage per Rank each time they enter it (not per pulse).
-
-Any entity that suffers soul damage from this spell must roll on the
-Fright Table.
-
-## Web of Fate
-
-Range
-: 30 feet + 15 / Rank
+: Special
 
 Duration
-: Concentration (Maximum of 15 minute + 15 / Rank)
-
-Experience Multiple
-: 250
-
-Base Chance
-: 25%
-
-Resist
-: Passive
-
-Storage
-: Investment, Ward, Magical Trap
+: 1 Pulse (+1 per 5 Ranks)
 
 Target
-: Area
+: Entities with circulatory systems
 
 Effects
-: A five foot wide web of the Graae is projected from the Adept's
-  finger tips to a target hex, object or entity. Any entity or object
-  in the area will be ensnared by the web.  The web may only ensnare
-  six sizes of entities per Rank, or one man-sized object per Rank,
-  stopping at the hex where this limit is reached (or at maximum
-  range).
+: If this Incantation is not Resisted, the target's blood (or what
+  have you) is heated and they suffer D10 damage per pulse from
+  hyperthermia until duration expires. Spell Armour does not protect
+  against this magic.
 
-Entities ensnared in the web suffer 1 drain (+1 per 3 or fraction
-Ranks) (halved if they successfully resist) each Pulse.  PS is drained
-first, then FT, then EN.  This is applied at the moment of contact
-with the web, and at the beginning of each Pulse, thereafter.
+Only creatures with a circulatory system may be affected by this spell.
 
-Necrogeny protects against this drain, Damage Reduction may, but
-Protection and Spell Armour do not. Constructs, undead, objects and
-creatures of mana may be ensnared by the web but are never drained by
-it.  Undead and creatures of mana are rendered mortal while they are
-within the precincts of the web, even if they Resist it, and in any
-case, their Magic Resistance is reduced by the Rank of the web.
+Cost
+: 1,500 Experience.
 
-Any ensnared entity must roll 1 × Physical Strength (2 × if they
-successfully Resisted) in order to move themselves to an adjacent hex
-(which may be free of the web), or to perform an action within the
-web. A similar check is required for any entity attempting to remove
-an object from the web.  If an entity receives aid in removing
-themselves from the web, the PS of the aiding character may be
-combined with their own. Rank or more points damage from a single blow
-from a B-class weapon will destroy the entire web. Treat the web's
-defence as being equal to its Rank.
+Constraints
+: Unracks the spell, reduces FT value by 1
 
-## Cap of Hades
+## Binding Lesser Undead - Unbinding the Undead
 
 Range
-: Self
-
-Duration
-: 30 minutes + 30 / Rank
-
-Base Chance
-: 15%
+: 30 feet (+5 ft / Rank)
 
 Resist
-: None
+: Special
+
+Duration
+: 1 Pulse (+1 per 5 Ranks)
 
 Target
-: Self
+: Lesser Undead
 
 Effects
-: Darkness covers the Adept's head, then spreading down their body
-  over two Pulses, becoming increasingly ethereal with Rank.  Defence
-  versus physical Melee or Ranged attacks increases by 2 (+ 2 / Rank).
-  In Close combat only 1 (+ 1 / Rank) Defence is gained.  However, if
-  they are struck by weapon that is not magical or silvered, 1 point
-  per three full Ranks is subtracted from the damage.  In addition,
-  the Adept gains a 1 (+ 1 / Rank) bonus to their Stealth.
+: This Incantation destroys 1 (+1 per 2 or fraction Ranks) of the
+  Lesser Undead if it is not Resisted. Difference in Rank, if any, is
+  not considered.
 
+Cost
+: 1,500 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 1
+
+## Animating Bodily Parts - Grave Witness
+
+Range
+: Rank × Rank miles
+
+Duration
+: Year and a day
+
+Target
+: Skull
+
+Effects
+: This Incantation enchants a skull which has been dressed in the oil
+of Armum lilies. This can be prepared by a Herbalist of Rank 4 or
+higher, which will cost 12 gs and three days to prepare. The oil is
+toxic to the touch, and the briefest exposure will cause an infection.
+
+When a link is formed, they can see whatever the skull is pointed
+at. At Rank 10, they can hear anything normally audible within 15 feet
+of it. At Rank 15 they can speak through it.
+
+To form the link, the Adept makes an Ask the Dead Check whhich lasts
+for 20 minutes (+5 minutes per Rank of the talent). It lasts for no
+more than a year and a day, until Counterspelled or until a Speak with
+Dead Check to make the link fails. The Adept can only enchant one
+skull at a time, unless they have a duplicate Incantation.
+
+Cost
+: 1,500 Experience.
+
+Constraints
+: Unracks the spell, reagent: Oil of Arum Lilies
+
+## Putrid Wound - Spirit Dagger
+
+Resist
+: Special
+
+Target
+: Object or Entity, Volume
+
+Effects
+: This Incantation fires a grisly knife of bone that inflicts D10 + 1
+  / Rank magical A Class damage. Protection, Damage Resistance and
+  Damage Reduction applies, if appropriate, but the damage of the
+  Knife may not be Resisted and the magic avoids Spell Armour. If
+  effective damage is taken, the knife transforms into dust over the
+  target's megahex, inflicting 2 rollup D5 soul damage to everything
+  in it, unless each Resists. Spell Armour applies to this damage.
+
+Cost
+: 2,500 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 1
 
