@@ -215,7 +215,7 @@ sub Update_Adventure {
 	    $ranking->{start_tick} = $ranking->{star} ? Tick->new($start) : Tick->new($tick);
 	}
 	
-	printf("-- %s : %s%s\n\n", $ranking->{description}, $ranking->{start_tick}, $ranking->{star} ? "*" : "");
+	printf("Ranking → %s [%s%s]\n\n", $ranking->{description}, $ranking->{start_tick}, $ranking->{star} ? "*" : "");
 
 	my $days = 0;
 	for my $block (@{$ranking->{blocks}})
@@ -377,7 +377,9 @@ sub Update_Adventure {
 	    $block->{end_tick} += ($block->{days} > 0 ? $block->{days}-1 : 0);
 	    $days += $tsort[$#tsort];
 	    printf("\n");
-	    printf("EP: %d -- Track times = %s [%d %d]\n\n", $block->{ep}, join(" : ", @time), $block->{start_tick}->{tick}, $block->{end_tick}->{tick});
+	    printf("Block: %d -- Track times = %s [%s → %s]\n\n", $block->{ep}, join(" : ", @time),
+		   $block->{start_tick},
+		   $block->{end_tick});
 	}
 	
 	# Tick + integer doesn't work so work around it
@@ -392,7 +394,7 @@ sub Update_Adventure {
 
 	$ranking->{ep} = $ranking_ep_total;
 
-	printf("-- %s : %s → %s (%d)\n\n", $ranking->{description}, $ranking->{start_tick}, $ranking->{end_tick}, $days);
+	printf("Ranking ← %s [%s (%d days)]\n\n", $ranking->{description}, $ranking->{end_tick}, $days);
 
 	if (!$ranking->{star})
 	{
@@ -973,13 +975,6 @@ sub JSON_Adventure {
 
     return $a;
 }
-
-# ----------------------------------------------------------------------
-#
-# JSON_Character
-#
-# ----------------------------------------------------------------------
-
 
 # ----------------------------------------------------------------------
 #
