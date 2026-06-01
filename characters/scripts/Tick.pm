@@ -437,6 +437,7 @@ sub TO_JSON {
 	calendar => $self->{calendar},
 	date => $self->{date},
 	cdate => $self->CDate(),
+	tm => $self->TM(),
     };
     return $ret;
 }
@@ -459,6 +460,7 @@ sub yaml_dump {
 	calendar => $self->{calendar},
 	date => $self->{date},
 	cdate => $self->CDate(),
+	tm => $self->TM(),
     };
     return $ret;
 }
