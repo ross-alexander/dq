@@ -1,5 +1,13 @@
 package Tick;
 
+# ----------------------------------------------------------------------
+#
+# Tick
+#
+# Handle dates in DQ
+#
+# ----------------------------------------------------------------------
+
 use Carp::Assert;
 
 # ----------------------------------------------------------------------
@@ -111,6 +119,11 @@ sub new {
 	bless($self, $class);
 	return $self;
     }
+
+    # --------------------
+    # If a HASH then just use tick & calendar
+    # --------------------
+    
     if (ref($date) eq "HASH")
     {
 	croak if !exists($date->{calendar});
@@ -125,7 +138,7 @@ sub new {
     }
 
     # --------------------
-    # allocate locals
+    # Assume it is a string and needs to be parsed
     # --------------------
     
     my ($tick, $day, $hmonth, $month, $year, $cal);
@@ -156,7 +169,7 @@ sub new {
     my $calendar = $calendars->{$cal};
 
     # --------------------
-    # Check if already in tick format
+    # Check if already in tick format, ie "internet<space>CAL"
     # --------------------
 
     if ((scalar(@bits) == 1) && ($bits[0] =~ /^[0-9]+$/))
@@ -211,7 +224,7 @@ sub new {
     }
 
     # --------------------
-    # Otherwise it is AP or WK
+    # Otherwise it is AP or WK (DQ dates)
     # --------------------
     
     else
@@ -235,6 +248,10 @@ sub new {
 	{
 	    my $t = lc($month);
 
+	    # --------------------
+	    # If season rather than month get month of the start of the season
+	    # --------------------
+
 	    if (exists($calendar->{seasons}->{$t}))
 	    {
 		$month = $calendar->{seasons}->{$t};
@@ -256,7 +273,9 @@ sub new {
 	}
 	$year = pop(@bits);
 
-#	print "++ $day $month $year $calandar\n";
+	# --------------------
+	# Get start day of each month to get day of the year
+	# --------------------
 	
 	if ($cal eq "AP")
 	{
@@ -287,7 +306,9 @@ sub new {
 
 # ----------------------------------------------------------------------
 #
-# CDate
+# TM
+#
+# Similar to the C localtime/gmtime function
 #
 # ----------------------------------------------------------------------
 
@@ -299,6 +320,10 @@ sub TM {
 
     my $res = undef;
     my ($year, $quarter, $month, $day, $week_day, $year_day);
+
+    # --------------------
+    # Western Kingdom
+    # --------------------
 
     if ($cal eq "WK")
     {
@@ -333,7 +358,12 @@ sub TM {
 	    $res->{day_name} = $day_names[$week_day];
 	}
     }
-    elsif ($cal eq 'AP')
+
+    # --------------------
+    # After Penjari
+    # --------------------
+    
+    if ($cal eq 'AP')
     {
 	$tick = $tick - 273;
 	$year = int($tick/364);
@@ -359,7 +389,12 @@ sub TM {
 	    calendar => 'AP',
 	}
     }
-    elsif ($cal eq "CM")
+    
+    # --------------------
+    # Communique Mercantile
+    # --------------------
+    
+    if ($cal eq "CM")
     {
 	$year = int($tick / 400);
 	$tick -= 400*$y;
@@ -380,7 +415,8 @@ sub TM {
 	    calendar => 'CM',
 	};
     }
-    else
+
+    if (!defined($res))
     {
 	print STDERR "Unknown calandar $cal for tick $tick\n";
 	exit 1;
@@ -388,14 +424,30 @@ sub TM {
     return $res;
 }
 
+# ----------------------------------------------------------------------
+#
+# CDate
+#
+# ----------------------------------------------------------------------
+
 sub CDate {
     my $self = shift(@_);
 
     my $cal = $self->{calendar};
     my $tick = $self->{tick};
 
+    # --------------------
+    # Use TM convert tick to structure
+    # --------------------
+    
     my $tm = $self->TM();
-    my $res;
+
+    if (!defined($tm))
+    {
+	print STDERR "Unknown calandar $cal for tick $tick\n";
+	exit 1;
+    }
+    my $res = undef;
     
     if ($cal eq "WK")
     {
@@ -408,18 +460,15 @@ sub CDate {
 	    $res = sprintf("%s %d, %d WK", $tm->{month_name} ,$tm->{day}, $tm->{year});
 	}
     }
-    elsif ($cal eq 'AP')
+    
+    if ($cal eq 'AP')
     {
 	$res = sprintf("%s %d, %d AP", $tm->{month_name}, $tm->{day}, $tm->{year});
     }
-    elsif ($cal eq "CM")
+
+    if ($cal eq "CM")
     {
 	$res = sprintf("%d %s %s %d CM", $tm->{day}, $tm->{month}, $tm->{year});
-    }
-    else
-    {
-	print STDERR "Unknown calandar $cal for tick $tick\n";
-	exit 1;
     }
     return $res;
 }
