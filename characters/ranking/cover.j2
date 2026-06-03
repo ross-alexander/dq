@@ -13,7 +13,6 @@
 
 \character[name=\VAR{basics.charname},fullname={\VAR{basics.fullname}},date={\VAR{basics.date}},picture={\VAR{basics.picture}}]
 
-
 \begin{stattblr}{colspec={Q[l,t,40mm]XXXXXX},
 cell{3}{1}={c=2}{l},cell{3}{3}={c=3}{l},cell{3}{6}={c=2}{l},
 cell{4}{2,4,6}={c=2}{l}}
@@ -48,14 +47,19 @@ cell{4}{2,4,6}={c=2}{l}}
 \begin{multicols}{3}
 \raggedcolumns
 
-\BLOCK{if current.powers}
 \begin{covertblr}{colspec={rX}}
-Lvl & Power / Stat \\
-\BLOCK{for power in current.powers}
-\VAR{power.rank} & \VAR{power.name} \\
+Rk & Weapon \\
+\BLOCK{for weapon in current.weapons}
+\VAR{weapon.rank} & \VAR{weapon.name} \\
 \BLOCK{endfor}
 \end{covertblr}
-\BLOCK{endif}
+
+\begin{covertblr}{colspec={rX}}
+Rk & Language \\
+\BLOCK{for language in current.languages}
+\VAR{language.rank} & \VAR{language.name} \\
+\BLOCK{endfor}
+\end{covertblr}
 
 \begin{covertblr}{colspec={rX}}
 Rk & Skill \\
@@ -73,19 +77,23 @@ Ability \\
 \end{covertblr}
 \BLOCK{endif}
 
+\BLOCK{if current.powers}
 \begin{covertblr}{colspec={rX}}
-Rk & Language \\
-\BLOCK{for language in current.languages}
-\VAR{language.rank} & \VAR{language.name} \\
+Lvl & Power / Stat \\
+\BLOCK{for power in current.powers}
+\VAR{power.rank} & \VAR{power.name} \\
 \BLOCK{endfor}
 \end{covertblr}
+\BLOCK{endif}
 
-\begin{covertblr}{colspec={rX}}
-Rk & Weapon \\
-\BLOCK{for weapon in current.weapons}
-\VAR{weapon.rank} & \VAR{weapon.name} \\
+\BLOCK{if current.incantations}
+\begin{covertblr}{colspec={X}}
+Incantation \\
+\BLOCK{for incantation in current.incantations}
+\VAR{incantation.name} \\
 \BLOCK{endfor}
 \end{covertblr}
+\BLOCK{endif}
 
 \BLOCK{for magic in ("talents", "spells", "rituals")}
 %% set items = current[magic]
@@ -100,14 +108,6 @@ Rk & \VAR{magic|title()} & Ref \\
 
 \BLOCK{endfor}
 
-\BLOCK{if current.incantations}
-\begin{covertblr}{colspec={X}}
-Incantation \\
-\BLOCK{for incantation in current.incantations}
-\VAR{incantation.name} \\
-\BLOCK{endfor}
-\end{covertblr}
-\BLOCK{endif}
 
 \end{multicols}
 \end{document}
