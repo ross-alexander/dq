@@ -4,7 +4,7 @@
 #
 # format.pl
 #
-# Take XML version of character sheet and format back into LaTeX.
+# Take YAML version of character sheet and format back into LaTeX.
 
 # 2024-04-16: Ross Alexander
 #   Convert table to tblr
@@ -45,7 +45,7 @@ use File::Basename;
 # ----------------------------------------------------------------------
 sub Cal_Character {
 
-    my ($doc, $map, $path) = @_;
+    my ($conf, $character, $outpath) = @_;
 
     my $out;
     $out = \*STDOUT;
@@ -56,11 +56,11 @@ sub Cal_Character {
 
     my @track_list;
 
-    for my $a (@{$map->{adventures}})
+    for my $a (@{$character->{adventures}})
     {
 	my $advtrack = {};
 
-	if (!(($a->{"star"}//0) > 0))
+	if (!(($a->{"star"} // 0) > 0))
 	{
 	    my $t = {};
 	    $t->{type} = "a";
@@ -70,16 +70,16 @@ sub Cal_Character {
 	    $t->{track} = 0;
 	    push(@track_list, $t);
 	}
-	printf($out "\n# adventure %s %s %s\n", $a->{"start_tick"}->{date}, $a->{"end_tick"}->{date}, $a->{"name"});
+	printf($out "\n# %s [%s → %s]\n", $a->{name}, $a->{"start_tick"}->{date}, $a->{"end_tick"}->{date});
 
 	for my $r (@{$a->{"ranking"}})
 	{
-	     my $s = $r->{start_tick};
-	     my $e = $r->{end_tick};
+	     my $s = Tick->new($r->{start_tick});
+	     my $e = Tick->new($r->{end_tick});
 
 	     if (($e->{tick} - $s->{tick}) > 0)
 	     {
-		 printf($out "\n## ranking %d %d %s\n", $s->{tick}, $e->{tick}, $r->{description});
+		 printf($out "\n## %s [%s → %s]\n", $r->{description}, $s, $e);
 		 for my $b (@{$r->{blocks}})
 		 {
 		     printf($out "\n");
@@ -100,7 +100,7 @@ sub Cal_Character {
 			     push(@track_list, $t);
 			     $s[$track] += $line->{days};
 			 }
-			 printf($out "### line %3d %d %s\n", $line->{days}, $line->{track}, $line->{name});
+			 printf($out "### track %d %3d days %s\n", $line->{track}, $line->{days}, $line->{name});
 		     }
 		 }
 	     }
@@ -268,7 +268,7 @@ sub Cal_Character {
     }
     close($out);
 
-    open($out, ">", $path) || die;
+    open($out, ">", $outpath) || die;
     print($out to_json($cal_js, {pretty=>1, convert_blessed=>1}));
     close($out);
 }
@@ -1123,9 +1123,8 @@ sub Text_Character {
 # ----------------------------------------------------------------------
 
 sub JSON_File {
-    my ($conf, $opts) = @_;
-
-    return decode_json(slurp($opts->{i}));
+    my ($conf, $inpath) = @_;
+    return decode_json(slurp($inpath));
 }
 
 # ----------------------------------------------------------------------
@@ -1135,9 +1134,8 @@ sub JSON_File {
 # ----------------------------------------------------------------------
 
 sub YAML_File {
-    my ($conf, $opts) = @_;
-
-    return YAML::LoadFile($opts->{i});
+    my ($conf, $inpath) = @_;
+    return YAML::LoadFile($inpath);
 }
 
 
@@ -1217,50 +1215,74 @@ sub Main {
 	printf(STDERR "$0: [-i input.PARSER]\n");
 	exit(1);
     }
+    my $inpath = $opts->{i};
 
     if (!exists($opts->{o}) || !$opts->{o})
     {
 	printf(STDERR "$0: [-o output.FORMAT]\n");
 	exit(1);
     }
+    my $outpath = $opts->{o};
 
+    # --------------------
+    # format
+    # --------------------
+    
     if (!exists($opts->{f}) || !$opts->{f})
     {
 	printf(STDERR "$0: [-f %s]\n", join("|", keys(%{$conf->{formats}})));
 	exit(1);
     }
+    my $format = $opts->{f};
+
+    if (!exists($conf->{formats}->{$format}))
+    {
+	printf(STDERR "$0: format %s not valid -- valid formats are %s\n", $format, join(" ", keys(%{$conf->{formats}})));
+	exit(1);
+    }
+    if (!exists($conf->{formats}->{$format}->{function}))
+    {
+	printf STDERR "$0: Cannot find function for format %s\n", $opts->{f};
+	exit(1);
+    }
+    my $format_sub = $conf->{formats}->{$format}->{function};
+
+
+    # --------------------
+    # parser
+    # --------------------
+    
     if (!exists($opts->{p}) || !$opts->{p})
     {
 	printf(STDERR "$0: [-p %s]\n", join("|", keys(%{$parser_dispatch})));
 	exit(1);
     }
+    my $parser = $opts->{p};
     
-    if (!exists($parser_dispatch->{$opts->{p}}))
+    if (!exists($parser_dispatch->{$parser}))
     {
 	printf("%s: input parser %s not implemented\n", basename($0), $opts->{p});
 	exit(1);
     }
-
-    my $parser = $parser_dispatch->{$opts->{p}};
-    my $character = $parser->($conf, $opts);
-
+    my $parser_sub = $parser_dispatch->{$parser};
+    
+    # --------------------
+    # parse input file
+    # --------------------
+    
+    my $character = $parser_sub->($conf, $inpath);
+    
     # --------------------
     # Add now
     # --------------------
     
     $character->{'now'} = strftime("%d %b %Y", @{localtime(time())});
-
+    
     # --------------------
     # Create output documents
     # --------------------
-
-    if (!exists($conf->{formats}->{$opts->{'f'}}->{function}))
-    {
-	printf STDERR "$0: Cannot find function for format %s\n", $opts->{f};
-	exit(1);
-    }
-    my $format_function = $conf->{formats}->{$opts->{f}}->{function};
-    $format_function->($conf, $character, $opts->{o});
+    
+    $format_sub->($conf, $character, $opts->{o});
 }
 
 &Main();
