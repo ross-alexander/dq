@@ -121,7 +121,7 @@ Going to be 18 days before the next caravan.
 - Travel a day to the Scented Jungle, takes 16 hours
 - Attacked by a T-Rex
 - Use 3 Darkness Points
-- Use wand x3
+- Use wand ×3
 - Kill T-Rex and collect scales, teeth
 - 12 soft sizes (6 to ranger): 5 pt base
 - 18 hard sizes: 7pt base
@@ -395,7 +395,7 @@ pryamid, presence to the east pressing against my mind
 - Rank Blackfire to 11 (3850)
 - Rank Purification
 
-- Use charge of invisibility x2
+- Use charge of invisibility ×2
 - Use wind walk
 - Use 20 point healing potion
 - Use 2x Basalisk venom
@@ -531,7 +531,7 @@ pryamid, presence to the east pressing against my mind
 - Formerly long lived sentient, GTN is part Nephil / part Human,
   probably undying.
 
-- Find box made from rose wood inlaid with brass, 20cm x 8cm x 5cm.
+- Find box made from rose wood inlaid with brass, 20cm × 8cm × 5cm.
   It is trapped.
 
 - Got a few gems, a very small black pearl, maybe 2mm in diameter,
@@ -910,7 +910,7 @@ executed and his body burnt.
 - Two trolls hanging from the roof
 
 - Box on the floor, cubical, top section is a pentagram in cross
-  section with hinges and a lock, 1m x 0.5m x 0.5
+  section with hinges and a lock, 1m × 0.5m × 0.5
 
 - Most harmful magic is alarm
 
@@ -926,8 +926,672 @@ wand, an engraved gem and a touch
 
 - Engraved gem has enchancement magic
 
+## Session 16 - 2026-05-03
+
+* Return to room 10, avoid a deadly alkaline gas rolls out when Slaydar pushes the door open
+
+* The room appears to be empty apart from a torture device
+
+* Device some sort of carasel, with steal wires and iron hooks, made from dark wood
+
+* The device is Rank 8+ mechancian and find a locked iron box
+
+* Fail to unlock box, try using BoE
+
+* Use two spectral hands to open the lock
+
+* Brass earing with a small pendant bell (nature of magic: enchancement)
+
+* Bronze broach (nature of magic: storage, store fans)
+
+* Rod of silver, 12cm long, 1cm diameter (no aura), probably used to torture were creatures
+
+* Get trembling in our bladder
+
+* Return to outside room 7
+
+* Door not heavy but thick, warp it open and inside a giant centipedes, 60cm long
+
+* Spent death point
+
+* Get 2 obols
+
+* Give Waters of Healing (15 Points)
+
+* Find bag in chest with 700gs
+
+* Walking stick with a crook handle and is only 7oz (nature of magic:
+  transformation)
+
+* Sound of bells disappears
+
+* Get a rank 8 lock from chest
+
+* Get obal
+
+* Evacuate from the dungeon
+
+* Return to the inn
+
+* Spend 3 days divinating
+
+* Broach can hold four fans and has two inside
+
+- Onyx fan: nature of magic is combat, black fan of forbidding
+
+- Moth silk: nature of magic effects people's minds, fan of moonlace
+
+* Spend day in Mary looking for incantations
+
+* Spend 300sp for cortesan
+
+* Buy both 6000sp for two incantations
+
+* Silver rod is worth 400sp
+
+* Rank spell matrix
+
+* Learn Witchsight - Minor AoE
+
+* Learn Strength of Darkness - Enhanced Duration
+
+* Fail two divinations
+
+* Take Lariet
+
+* Cloth turned into desert wear
+
+## Session 17 - 2026.05.10
+
+* River goes counter clockwise around the town
+
+* Put rune portal on the roof of a building
+
+* Fly out NE on dawn patrol towards Gonur Depe
+
+* As sun comes up see light coming off a pool, with ruins nearby
+
+* The pool looks triangular
+
+* Land nearby and find pool covered in black oil but not crude oil
+
+* Place is a necropolis with an east-west wall to the south
+
+* Find three masoleum (tumulous) on the way towards the wall, 3m long
+  and 5m wide, none open, third has marks on the stone
+
+* Slaydar and Sin move the stone from masoleum three
+
+* Use 2 × Crimson Honey, rest four 4 hours
+
+* Stone has magical trap with lightning
+
+* Inside are 8 chambers, four on each side of a central corridor
+
+* See spirit of a male barber and well off
+
+* See spirit of very old woman and wealthy (merchant princess)
+
+* Find brother of merchant princess but he was stole from her so they
+  killed him by burning pitch down this throat
+
+* Temple of Fire is on the west side on Gonar Depe, less than 1km away
+
+* Find the keppelmeister
+
+* Palace are factory rather than royal residence, might be oil or
+  honey there
+
+* Oil is shale oil, is leached from sand
+
+* The water is not stagnant
+
+* Find a woman who was an archivist, says where the archive is
+
+* Pool associated with the Temple of Water
+
+* Farmer, grew barley and sacrificial animals, kids, lambs, pidgeons and
+cockrels, minor priest, mostly working for the temples
+
+* House of Water is directly south of Gonar Depe
+
+* Water under the oil safe to drink
+
+* Source of the water is a seep
+
+* Archives are in clay, using pertaglyph
+
+* No answer to wardings around the archive
+
+* She was similar to a Rune mage
+
+* All of his loot was taken from him, after stealing from his family
+  and tried to sell his family into slavery
+
+* Heard a story between two important people planning to murder the
+prince and betray the city to Si'car.  Tried to cash in but prince
+heard about the plan and acted.
+
+* Not aware of Shemyaza
+
+* Keppelmeister willing to serve a patron
+
+* Probably died of a stroke
+
+* Can't touch his grave goods
+
+* Archivist might know about Shemyaza
+
+* Talk to the archivist
+
+* Has a recipe for creating a phalatory
+
+* Shemyaza head of an order of angels in the andivualian period, they
+created the nephilim by breeding with mortal woman in the time of
+wickedness and intemperant
+
+* Original religion based on pasturalism, based around Cain & Abel,
+represents the notion that farming will lead to wickedness, prior to
+the flood
+
+* Go to the royal necropolis, the wall south of us, and there is
+hole in the ground which leads to elemental center of Tanuel
+
+* Archive had guards
+
+* House of Fire on the inside of western wall
+
+* House of Water on the inside of south wall
+
+* Temple of Anak
+
+* Head out of the masoleum
+
+* Necropolis is 500m North South and 300m East West
+
+* Rest over night
+
+* Gonar Depe 500m north
+
+* Find archive but it in a dune
+
+* Find House of Water, which isn't under a dune
+
+* Inside is a pool, 3m wide × 1m long × 2m deep, with a current in the water
+
+* Inside the temple is about 12 deg cooler
+
+## Session 18 - 2026.05.24
+
+* There are vestry rooms and ephigies, made from linen and wood, not very distinctive
+
+* Follow the wall around and find the House of Fire
+
+* House of Fire faces the wall and backs onto a fallen structure
+
+* There is a beacon
+
+* Flying back to Mary, getting on to evening around 6pm
+
+* Breeze coming from the north
+
+* Stay in the inn overnight
+
+* Buy pitch, oil, charcoal, coal and wood, and digging equipment
+
+* Blind for 3 days
+
+* Caravan comes in from the north, the lands ruled by Crom the Black,
+god of Cumeria
+
+* The orcs go drinking with the Cumerians
+
+* Slaydar drinks Hag's piss
+
+* Attacked in the inn
+
+* Spend a death point
+
+* Blackfire kill 9
+
+* Another 3 died
+
+* Kill the remaining
+
+* Loot and run
+
+* Bone weapon, leather satchel, figurine of a lead boar
+
+* Sin finds a liquor in a tube with a cork
+
+* Slaydar finds a belt with 40 small earthenware bottles, each the size of a man's watchface
+
+* Sin injured on taking off, hits palm tree
+
+* Group of Crom's followers break something on the ground then spit, running
+
+* Artephius crashes on landing and is eviscerated
+
+* Sin and Artephius avoid infection
+
+* Head to the House of Water
+
+* Rest over night
+
+* Ranking Blackfire & Strength of Darkness
+
+* The bone weapon is the Jawbone of an Ass
+
+* After three days Ishamael can see again
+
+* House of Fire faces west
+
+* Brazier inside
+
+* Open and twice the size of the House of Water
+
+* Figurines have been burnt
+
+* Light the brazier and portal to Ardavale
+
+* Speak to the high priest
+
+* Head back to Gonar Depe with an acolyte
+
+* Spend 10 days ranking Call of Entropy Locusts and Blackfire to 12.
+
+## Session 19 - 2026.06.07
+
+- Use Blackfire to dig down to the library
+
+- Enter room 1
+
+- Iron door to west, wooden door to the south
+
+- Shale oil has leached from the ceiling and destroyed the ink paper
+
+- Head south into room 3
+
+- Wooden door to the west, wooden door to east, wooden door to the south
+
+- Text on the western wall, cloven shield on the floor
+
+- There are died out inks
+
+- Try east door but it stuck, warp it open
+
+- Enter room 4, doors north, south and a store room to the south
+
+- Store room has a cistern that is now dry
+
+- Head south
+
+- Fountain with magical aura on the water, preservation
+
+- Room 16 has a archway to the west, wooden door to the south
+
+- There are five undead minotaurs
+
+- They charge with pole weapons
+
+- Slaydar controls them
+
+- Room is a lab / work room
+
+- There is cold iron 
+
+- Magical circle with MA 11
+
+- To the west is room 5, there is a figure that has been turned to stone, dressed in robes but emaciated
+
+- Find 400 gold shillings with extremely faint magic aura
+
+- Door to the west is barred
+
+- Door to the south is wooden and unlocked
+
+- There is wailing from corridor
+
+- Acrid smell in the corner is wet saltpetre
+
+- Tile laberynth on the floor, about 8 feet and vaguely crescent,
+  sacred to the Measurer, votary circle
+
+- Bow at the circle, Sin gains the effect of being under a full moon at midnight
+
+- Spot lines on a wall that are number of faces, five faces of demons
+
+- The minotaurs bash the iron bar door down
+
+- Nine centipedes attack
+
+- Kill centipedes
+
+- Shelves on south and east walls
+
+- Shelves in the middle of the rooms taken away
+
+- Medallion with a worm carved around the perimeter, platinum chain
+
+- Semi precision stones and a collection of scrolls with incantations
+
+## Session 20 - 2026.06.14
+
+- Collect centipede poison glands (x9)
+
+- Head west and we prop up the portcullis
+
+- Find corpses wearing lab coats, logo with a barb with a green drop
+
+- Door to the south is stone and unlocked, door has contact venom
+  [dust], 2D10! to Endurance and same again 30 minutes later, hadian
+  lotus root, failed to collect
+
+- Enter room 14, eastern door wooden, north central door is stone door
+  which is unlocked
+
+- Room appears to be empty, search but find nothing
+
+- Break down eastern door and head to next room
+
+- Minatore crushed by 100 foot fall
+
+- Ceiling is a capola and a ring of keys on the western side
+
+- Keys are made out of pale dwarf bone with alchemical preservation,
+  skeleton keys (two of them)
+
+- Capola is made of glass and would have been able to let in the
+sun if not covered in sand
+
+- See the head of a small boy poking out from the capola, with long
+  curly the hair, body of a sand cat with russet colour wings with
+  a scorpion tail, short living sentient, GTN manticore, wings fold
+  up, a fantastical avian with the developmental age of 3 years
+
+- Warned large thing creaping along the ceiling
+
+- Use crystal of vision to look into the room and up
+
+- Cast light into room but it fails, try three times and disipate the
+  shadows
+
+- Figure upper body of an elf and legs of a large spider and webs
+the door, can't really see anything on the floor, short bow and
+chest stuck to the ceiling
+
+- Waiting for an ally
+
+- Rolls three crystals towards the door and they explode
+
+- Take healing potions
+
+- Give Water of Healing (15 points) potion to Slaydar
+
+- Spider shoots into mummy
+
+- Spend death point
+
+- Use Hound
+
+- Kill creature
+
+- Chest has gold coins, have glyphs
+
+- Shortbow, a spec grev roll will be 3D10+4
+
+- Pair of daggers, crit on 15% & 25%, +2 DM
+
+- Loosely bound scrolls with incantations
+
+- Egg in Jet, about 4 inches in height
+
+- Three crystals that are triggered by cantrip, 2D10!
 
 # Items
+
+## A Silver Crescent Plaque
+
+This silver crescent plaque is 3 cms wide from point to point and is
+1.5 cms wide at its thickest where it is blazoned with these marks:
+\textcuneiform{𒌋𒌋𒌋}.
+
+Two small pearls are set beneath each of the points, and four small
+moonstones arranged below the blazon and along the curve of the
+plaque.
+ 
+## The Egg in Jet 
+
+## A Small Greenish Bag
+
+This small greenish bag is made from leather and extensively tasseled.
+It has a long strap allowing it to be worn over the shoulder. The flap
+unfolds to an opening 9 inches by 3 inches and is 8 inches deep.
+
+## Catspaw and Shrike
+
+These daggers are paired, but whereas Catspaw has a reverse curve and
+inflicts B Class injuries (except for decaptitations), Shrike has a
+stiletto-like point and inflicts A Class wounds. While Shrike can be
+thrown, Catspaw cannot
+
+## Energy Crystal × 3
+
+This crystal is an orb 2 inches across and weighs 6 1/2 oz. 
+
+### Ancient Cantrip Zap
+
+Range
+: MA yards
+
+Target
+: Object or surface
+
+Duration
+: Immediate, during Pulse
+
+Effects
+: The Adept takes a Pass Action and if they roll under 3 × MA (+ 2 per
+  Troubador Rank), they "Zap" an object or surface for 1 point of
+  magical damage.
+
+## The Great Bow of the Shire
+
+This bow is sized for hobbits for whom it functions as a composite
+bow. It is made from layers of horn from a blessed shofar, laminated
+with Goshen gopherwood resin.
+
+## Gold Discs × 2,000
+
+Each disc has glyphs struck into them on both sides and is about the
+size of a gold shilling.
+
+## Centipede Venom × 9
+
+This venom may be used to make either:
+
+* a blade venom that will inflict 2D5 poison damage once if effective
+  damage is inflicted, which will require the arts of a Rank 5 or
+  higher Alchemist who knows how to distill poison.
+* a topical analgesic which will also reduce inflammation and swelling
+  when made into an embrocation, which will require the arts of a Rank
+  5 or higher Alchemist who knows how to make medicines.
+
+
+## Furze the Mantikitten
+
+Currently
+:
+
+Description
+: Furze is a young creature very like a manticore but the size and
+  colouring of a sand cat with the russet-coloured wings of a flying
+  fox, the head of a small boy and a scorpion's tail. He is a
+  Fantastical Avian, with a body that is 18 inches long, with the
+  segmented tail of a scorpion that is 1 foot long, the stinger adding
+  another 8 inches. It is usually rolled up, although it can be
+  extended straight up or flicked from side to side to indicate
+  emotional state. Extended, his wings span 2 feet 5 inches that fold
+  down into a rust coloured, form fitting 'cape' from shoulder to
+  haunches. He has long, curly hair the colour of pale honey that hang
+  in ringlets to his shoulders. His facial features are the colour of
+  fine porcelain with a faint rose wash across his cheeks. His eyes
+  are amber and his features are as soft and rounded as a child.  He
+  weighs 2 lbs 3 oz.
+
+Comments
+: He has the developmental age of a three year old child, although
+  physically, he is an adolescent (as a cat). He has no memory of
+  being cared for and has been on his own for about six months. He is
+  naturally curious, lonely and bored well beyond tears. Which could
+  mean ... trouble.
+
+He has been eating the smaller critters in the archive and has formed
+the belief that if he eats enough of the centipedes he will be able to
+deliver venom with his sting. He cannot speak a language but this
+might be because he is too young. He has no fear of humans or similar
+species, but distrusts undead, if he recognises them.
+
+Abilities
+: Although he cannot fly, he is capable of a 'wing assisted'
+  horizontal leap of 15 feet, a vertical leap of 10 feet and fall 40
+  feet without harm. His Stealth is 4 × AG, and can advance this
+  Adventurying Skill if he has the Experience to pay for it.
+
+Movement rate
+: 350 yards per minute
+
+------- ------- ------- ------- ------- ------------------
+PS: 12 MD: 12   AG: 18  MA:  1  EN:  10 FT:  13
+
+WP: 12 PC: 9    PB: 17  TMR  7  NA: Fur absorbs 2 DP
+------- ------- ------- ------- --------------------------
+
+Weapons
+:
+
+Claw
+: BC: 25%, [D10 - 4], B Class damage, Melee & Close, Ranks as Cestus
+
+Sting
+: BC: 40%, [D10 + 1], B Class damage, Melee & Close, Ranks as Falchion
+
+Spines
+: BC: 40%, [D10], A Class damage, Ranged, 12 Hexes, Ranks as Crossbow
+
+Furze can deliver a Sting and 2 Claw attacks in Melee. In Close, he
+can make a Sting attack and 4 Claw attacks.  He has 6 spines which he
+can fire from his tail 1 at a time. He has a 70% chance of regrowing a
+spine at dawn, 2 if he rolls 30 or less.
+
+## The Jawbone of an Ass
+
+This magically preserved jawbone of a Rephaimite onager, weighs 6lbs,
+has been fashioned into a double 'bladed' falchion which is magically
+blunt and said to have been wielded by Samson. It is resilient enough
+that there is no chance of it breaking unless the wielder's PS
+exceeds 60. It requires a minimum PS & MD of 15, and inflicts base C
+Class damage of a rollup D10 + 2. For every 15 points of PS in excess
+of 15, the damage is increased by another rollup D10, in addition to
+bonuses from Falchion and Warrior.
+
+The only weapon spells that may be cast upon it are Spectral Weapon
+and Rune Weapon, but only insofar as they allow the wielder to affect
+the insubstantial.
+
+### Beast of Spiritual Burden
+
+The jawbone is a legal target for the Animating Bodily Parts spell,
+which will transform into the spectre of an onager which will carry
+non-magical equipment that fills a volume of 15 inches × 8 inches × 1
+inch (+1 inch for every two Ranks) and weighs 20 lbs (+2 lbs for every
+two Ranks). At Rank 20, the spirit can carry double this volume and
+weight.
+
+Unfortunately, it appears as a gaunt, chlorous ass whose eyes see into
+a realm of dread, and common people are most likely to run screaming.
+The constabulary, on the other hand, have been know to make their
+approach with hayricks, pitchforks and lit torches.  Obviously, the
+Jawbone cannot be wielded as a weapon while it is in a state that
+makes it attractive to the constabulary, and, if its burden is not
+unladen, then when it is counterspelled, the weapon will weigh as much
+as its contents.
+
+## Light Scrip 
+
+This dark brown leather shoulder bag has brass buckles and weighs 3
+lbs. The opening of the scrip is 40 cms by 10 cms, and it holds 1
+cubic foot of solid material or fluid material in a solid
+container. Living creatures (presumably scrip-trained) placed inside
+it will be able to breathe normally and should survive the experience.
+
+Adding an object to the scrip requires a Pass Action, and so does
+retrieving one.
+
+It is a legal target for the Telekinesis spell, changing the range to
+Touch and the Duration to 2 hours (+ 30 minutes per Rank).  The Effects
+of the spell are to reduce the weight of the scrip and its contents by
+2 lbs (+ 5 lbs per Rank) to a minimum of 3 lbs.
+
+## Experimental Healing Potion × 40
+
+These ceramic phials are the colour of blood and the length of the
+index finger of a boy of 12, weighing 5 oz. Once one has been taken, 1
+point of EN damage is healed, and if a Break 100 roll adding 2 × the
+imbiber's EN, then the effects are sustained for the next Pulse.  This
+continues until the Break 100 roll is failed or the imbiber's EN is
+fully restored. This counts as Natural Healing, and prevents the use
+of the Healer ability to Repair injuries, requiring the Regeneration
+ability instead.
+
+## Lead Boar
+
+This dark grey leaden figurine of a boar is 7 inches long, weighs 7
+lbs and has been formed in a salt mold.
+
+Once a day, a huge feral boar can be released from the figurine for
+four hours, after which it will automatically return to its figurine
+form. After it has been in the bearer's possession for the passing of
+a full moon.
+
+Descriptions
+: The boar is a one hex creature, for all that it is a huge example of
+  its kind. It has a long, muscular body, short ears, and a large,
+  tusked snout. It is 7 feet long and weighs 450 kg. Its hide is
+  rough, resilient and dark grey. It has round flat teeth and tusks.
+
+Comments
+: The boar has a movement rate of 325 yards per minute, and a vertical
+  leap of four feet, and once a day can charge 15 hexes without
+  penalty.
+
+--------  --------  --------  --------  --------    -----------
+PS: 29    MD:  9    AG:   18  MA: 0     EN: 33      FT: 41
+
+WP: 16    PC: 18    PB:    4  TMR: 8    NA: Reduces Damage by 8
+--------  --------  --------  --------  ------------------------
+
+Weapons
+:
+
+Tusk
+: BC 40%, [D10+4], Melee or Close, B Class Damage, Rank 6.
+
+Trample
+: BC 30%, [D10+2[, Close, C Class Damage, Rank 0
+
+If it is slain, then its body will disappear, leaving in its place the
+dark grey leaden figurine of a boar 7 inches long and weighing 7 lbs.
+
+## Slaydar's Impious Strength
+
+Slaydar's PS has increased by 4 points. This increase is permanent
+(sort of) and also affects the maximum value it can be raised to.
+
+When he is within range of an entity with Death Aspect or has Death
+Sense, they will immediately know that whoever drinks his heartblood
+will have their PS increased by 4, with Slaydar losing the 'boon'.
+
 
 ## Boots of the Tiger Beetle
 
@@ -944,7 +1608,7 @@ full TMR by 2 or half their TMR by 1. If the wearer spends 1 FT on
 their Initiative, they may increase their full TMR by 1.
 
 Finally, they always have a chance to come to a complete stop however
-fast they are running. They must, in such cases, Break 100 adding 3 x
+fast they are running. They must, in such cases, Break 100 adding 3 ×
 their AG to the result.
 
 ## Beetles of Flesh Devouring × 4
@@ -972,8 +1636,8 @@ An unopened cloudfruit lasts for a year.
 
 ## Ghul Hearts × 2
 
-14 Darkness 
-14 Death
+14 Darkness (9 used)
+14 Death (4 used)
 
 ## Pint of Ghul's Blood × 12
 
@@ -1537,7 +2201,7 @@ requires 1 truesilver guineas worth of reagents to produce an ounce.
 An Alchemist who can make Poisons must spend 2,650 Experience and
 three weeks to learn how to make this oil.
 
-## The Gloom of Asphodels
+### The Gloom of Asphodels
 
 Range
 : 15 feet + 15 / Rank
@@ -1563,7 +2227,7 @@ to a minimum of 1.  In addition, any target within the volume has
 their Defence versus thrown or missile attacks improved by the Rank of
 the Gloom.
 
-## Underworld Threshold
+### Underworld Threshold
 
 Range
 : 15 feet + 15 / Rank
@@ -1591,7 +2255,7 @@ Effects
 Any entity that suffers soul damage from this spell must roll on the
 Fright Table.
 
-## Web of Fate
+### Web of Fate
 
 Range
 : 30 feet + 15 / Rank
@@ -1880,6 +2544,117 @@ wielder is concealed by flames, for example.
 The crossbow requires a pint of the blood of an unbaptised child after
 each midwinter.
 
+## Ring of Warning
+
+This brass earring has a small pendant bell that weighs 1/2 oz. While
+it is worn, it will ring faintly when they are in danger, so long as
+they Break 100 on percentile dice, and add their PC to the result.
+
+In addition, when Unengaged Initiative is rolled, they roll twice,
+choosing the result they prefer.
+
+## Fan Brooch
+
+This dull bronze brooch is in the shape of a fan with its pleats
+picked out in blue and aquamarine enamel and weighs 4 oz. For it's
+magic to be effective it must be worn as a cloak bin below their
+primary shoulder.
+
+It is a magical storage device for four fans. The bearer may choose a
+fan and Prepare it from the brooch as a Free Act. One Pulse after a
+fan is dropped, it mysteriously returns to the brooch.
+
+## The Black Fan of Forbidding
+
+This pleated fan has black, pointed spines that are 31 cms long,
+linked to 11 onyx panels and weighs 1 lb 1 oz.
+
+It may be wielded as a small round shield with no penalty to MD, and,
+as a Reflex Action, it may be used to magically rebuff a creature no
+larger than 2 hexes if it attempts to Close, unless it successfully
+Resists versus Backfire.
+
+Once used, this ability cools down for 4 Pulses.
+
+## Moonlace
+
+This pleated fan has spines of black bronze that are 29 cms long,
+linked to 17 panels made from fine lace of silvergreen silk spun from
+the cocoons of lunar moths, and weighs 7 oz.
+
+It may be wieled as a buckler, and, as a Free Act, it will suddenly
+brighten and force any opponents in the wielders front hexes to Resist
+versus Backfire or be Dazed until they take a Pass Action to recover.
+
+Once used, this ability cools down for 4 Pulses.
+
+## Brandestick
+
+This slender walking stick is made from aromatic cedar and is 91 cms
+long. It has a bronze ferrule weighing 1 oz and the entire object
+weighs 7 oz.
+
+The stick allows for a less fatiguing gait, so that a bearer addresses
+the next entry above their PS category on the Encumbrance Table. So, a
+bearer who has a PS of 10 would consult the entry for PS: 13 - 17, not
+PS: 9 - 12.
+
+In addition, whenever they are required to make an AG check, and so
+long as they are using the stick at the time, they may add 1/2
+(truncating fractions) their MD to the chance.
+
+If the bearer cries out the command word 'Huzzah!', in a flash of
+green light, the handle curves around their hand forming a
+knuckleguard and emerald quillons above the hand, while the ferrule
+transforms into a 24 cm long needle. This stilleto-like blade holds an
+edge extremely well and is much tougher than steel.
+
+It is Ranked as an estoc, but has a PS requirement of 7, since it is
+so light. It is a finesse weapon, and inflicts extra damage for every
+5 points of MD greater than 17. The weapon does not allow increased
+damage because of excess PS.
+
+It has a base Strike Chance of 53% and base A Class damage of
+D10! + 6. For every prime Rank in estoc, the penetration value of the
+weapon is increased by 1, in addition to any other benefits.
+Penetration increases on Rank 2, 3, 5 and 7. Damage increases on Rank
+4 and 8.
+
+It may receive any weapon spell except Weapon of Flames or Rune
+Weapon.
+
+## Black Medallion of the Tail Eating Worm
+
+This circular medallion is made from a heavy white metal, with the
+figure of a tail-eating worm carved into its rim. The centre of the
+disc is enamelled black, with five spiraling silver lines circling
+into the centre. It has a 36 inch long platinum chain made of four
+strands of intertwined oval links. It weighs 19 oz.
+
+## Minotaur Mummies [× 5]
+
+These minotaurs are zombies that have been preserved by an
+experimental mummification process which has left them more resilient
+and coordinated than standard zombies.  They're just over 7 feet tall
+and recollect something of their lives, including their weapon skill,
+although they are considered non-sentient.
+
+PS: 35 MD: 17 AG: 16 MA: None  EN: 22 FT: 39
+WP: 16 PC: 16 PB:  7 TMR 8  NA: 3 (+6 chainmail) = 9 DP 
+
+Great Axe
+: BC: 65%, [2D10!], Melee, Rank 5
+
+Horn
+: BC: 40%, [D10 + 3], Melee, Rank 3
+
+Unarmed
+:  BC:  32%, [D10 - 1], Melee & Close, Rank 5
+
+In melee, they can deliver a horn attack without penalty (but not
+against shorter opponents like dwarves or hobbits).
+
+
 # Abilities
 
 ## Ancestral Spirits
@@ -1928,7 +2703,8 @@ WP: 15 PC: 18 PB: 3  TMR 6  NA:    1 DP
 ------ ------ ----- -----   ------ ------
 
 Weapons
-: His preferred weapon is Mattock, but will use spear and shield if that is a better choice. 
+: His preferred weapon is Mattock, but will use spear and shield if
+  that is a better choice.
 
 Mattock
 : BC: 55%, [D10 + 6], Melee, Rank 3
@@ -1942,14 +2718,18 @@ Shield
 Sling:
 : BC: 40%, [D10 + 1], 60 Hexes, Rank 3 
 
-He has the Sense Danger Talent which works 18 (+ Rank of the Animating Bodily Parts spell)% of the time.
+He has the Sense Danger Talent which works 18 (+ Rank of the Animating
+Bodily Parts spell)% of the time.
 
 Services
 :
 1. will possess a skeleton, replacing their stats and skills with his.
-2. confer his Ranger specialisation bonus for Forested or Woods environments on the shaman
-3. has a 30% chance of knowing something about the history of his people.
-4. if his Sense Danger Talent works, he will alert the shaman and this will count as a service but does not end the spell. 
+2. confer his Ranger specialisation bonus for Forested or Woods
+   environments on the shaman
+3. has a 30% chance of knowing something about the history of his
+   people.
+4. if his Sense Danger Talent works, he will alert the shaman and this
+   will count as a service but does not end the spell.
 
 ### Lokara Sharpfang
 
@@ -1964,10 +2744,12 @@ WP: 13 PC: 12 PB: 3  TMR 6  NA:    1 DP
 ------ ------ ----- -----   ------ ------
 
 Weapons
-: Her preferred weapon is Composite Bow, but will use battle axe and shield if that is a better choice. 
+: Her preferred weapon is Composite Bow, but will use battle axe and
+  shield if that is a better choice.
 
 Composite Bow
-: BC: 55%, [D10 + 4], 225 Hexes, 1 (+ 1/3 Rank of the Animating Bodily Parts spell)
+: BC: 55%, [D10 + 4], 225 Hexes, 1 (+ 1/3 Rank of the Animating Bodily
+  Parts spell)
 
 Battle Axe
 : BC: 60%, [D10 + 4], Melee/6 Hexes, Rank 3
@@ -1979,10 +2761,14 @@ She has a Stealth skill and an Artisan Hunter skill of Rank 3.
 
 Services
 :
-1. will possess a skeleton, replacing their stats and skills with hers.
-2. confer her confidence that the shaman will win, whether it be a toss of the dice or a battle to the death.
-3. confer her Stealth bonus (excluding any value arising from AG) on the shaman replacing theirs. This stacks with bonuses from Spy, Thief and Assassin but not Ranger.
-4. has a 30% chance of knowing if a creature is not edible. 
+1. will possess a skeleton, replacing their stats and skills with
+   hers.
+2. confer her confidence that the shaman will win, whether it be a
+   toss of the dice or a battle to the death.
+3. confer her Stealth bonus (excluding any value arising from AG) on
+   the shaman replacing theirs. This stacks with bonuses from Spy,
+   Thief and Assassin but not Ranger.
+4. has a 30% chance of knowing if a creature is not edible.
 
 ### Tollfeather One Eye
 
@@ -2043,7 +2829,9 @@ Services
 :
 1.  will possess a skeleton, replacing their stats and skills with his.
 2.  perform an Ancient Divination
-3. 'sense' the mana flows within 40 feet of him and, by taking a Pass Action, attempt to distinguish the College, name and general Rank of a spell being Prepared or Cast.
+3. 'sense' the mana flows within 40 feet of him and, by taking a Pass
+   Action, attempt to distinguish the College, name and general Rank
+   of a spell being Prepared or Cast.
 4. research answers within his Philophical expertise
 
 ## Sin's Wraithcloak
@@ -2363,7 +3151,7 @@ Constraints
 Effects
 : The Adept calls forth the Entropy Locusts which inflict 1 rollup D10
   (+1 rollup D10 for every 10 Ranks) (+1 per Rank) on everything in
-  the volume of effect. Damage from the dice cannot be Resisted, and
+  the volume of effect.  Damage from the dice cannot be Resisted, and
   damage inflicted to EN cannot be Healed, unless it is performed by a
   Healer who can Regenerate (Rank 9 or higher). EN damage suppresses
   Regeneration that arises out of Racial magic by 3 points per Pulse
@@ -2422,7 +3210,7 @@ Effects
 : The Adept fills the spell's volume with a torrent of the Styx, which
   inflicts D10 (+2 per Rank) soul damage unless they Resist and
   Break 100. If they fail, they add their AG value to the result, if
-  they succeed, they add 2 x their AG value. Failing the AG roll
+  they succeed, they add 2 × their AG value. Failing the AG roll
   indicates that they lose lose 1 (+1 for every 4 Ranks) from their
   TMR to a minimum of 0.
 
@@ -2949,3 +3737,558 @@ Cost
 Constraints
 : Unracks the spell, reduces FT value by 1
 
+
+## Bolt of Energy - Kinetic Orb
+
+Effects
+: This Incantation traps kinetic energy into a silvery orb 7 cms
+  across which the Adept can project ballistically up to the range of
+  the Spell. If the target fails to Resist, they take 1 rollup D10
+  magical impact damage (+1 for every 10 Ranks). If the damage of the
+  spell is Enhanced , 1 extra rollup D10 is rolled for every 10 Ranks
+  of Enhancement.
+
+If any of the values on the damage D10 match (after rollups), then
+this represents a ricochet and the Adept can redirect the orb to
+another target wthin 30 feet of the original target and within range
+of the Spell. This effect is recursive.
+
+Cost
+: 2750 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 2 
+
+## Increased Gravity - Inertial Void
+
+Range
+: None
+
+Duration
+: Concentration: maximum 1 minute + 1 / Rank
+
+Resist
+: None
+
+Target
+: Self
+
+Effects
+: For the duration of this Incantation, the Adept bends the void so
+  that they may move ignoring the effects of inertia. Although they
+  cover the intervening distance, to most, they seem to disappear from
+  one place and appear elsewhere in an instant.
+
+While duration persists, they may use this magic once for every three
+Ranks of the spell, which will require a Pass Action. At Rank 10, the
+Adept can use either a Pass Action or a Free Act. At Rank 16 and again
+at Rank 20, the Incantation converts a use to a Reflex Action. As a
+Reflex Action, the Adpet may avoid an attack, even one that propagates
+over a volume like Dragonflames or Blackfire, so long as they are not
+surprised and there is somewhere safe they can get to.
+
+This means that at Rank 9, they may use Inertial Void three times,
+each requiring a Pass Action. At Rank 10, they may use it three times,
+each requiring a Free Act or a Pass Action. At Rank 16, they have four
+uses that require a Free Act or a Pass Action, and 1 that requires a
+Reflex Action, a Free Act or a Pass Action.
+
+Each use allows inertialess travel of up to six hexes (+1 hex per 2
+Ranks), which must be in a straight line. In addition, this movement
+attracts a FT penalty as if it were two hours of Medium exercise, so
+encumbrance can become a concern.
+
+Cost
+: 3500 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 3 
+
+
+
+
+
+## Increased Gravity - Gravity Well
+
+Range
+: 60 feet + 15 / Rank
+
+Duration
+: Concentration: maximum 1 minute + 1 / Rank
+
+Resist
+: None
+Target
+
+: Volume
+
+Effects
+: This Incantation targets a point on a surface which is within range
+  to act as a gravity well. Things will be drawn towards it if they
+  are within 1 hex (+1 hex per 2 Ranks) unless they succeed at a 3 ×
+  PS (- 2 per Rank of the spell) roll. The rate that they travel
+  towards the well is 1 hex for every two Ranks in the spell. If the
+  value of their 3 × PS (- 2 per Rank of the spell) roll is less than
+  40, they must also make an AG × 2 roll to avoid falling prone. Once
+  prone, a 3 × PS (- 2 per Rank of the spell) roll is required in
+  order to stand up. If the target’s strength is reduced to less than
+  zero, the target suffers the negative amount as damage each pulse
+  and must roll under Willpower + current Endurance in order to remain
+  conscious.
+
+If the target is under (or comes under) the effect of a flying spell,
+the following applies:
+
+- If the rank of the flying spell is greater than the rank of this
+  Incantation then the target may be able to fly. However, twice the
+  rank of the Incantation is subtracted from the rank of the flying
+  spell for purposes of determining speed and lift of the flying
+  spell. This may make it a negative modifier which may reduce the
+  speed to 0 or less, in which case the target may not fly but may
+  stand.
+
+- If the rank of the flying spell is less than or equal to the rank of
+this Incantation, then the target may not fly. However, half the rank
+of the flying spell is subtracted from the rank of the Increased
+Gravity for purposes of determining strength.  If a thrown, missile or
+siege weapon passes within range of the gravity well, they will
+automatically be drawn towards it, as are Earth Hammer, Diamond
+Javelins, Ice Projectiles, Bolt of Ice and Snowball spells.
+
+Cost
+: 2500 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 2
+
+## Increased Gravity - Orientation
+
+Range
+: Touch
+
+Duration
+: 1 minute + 1 / Rank
+
+Resist
+: None
+
+Target
+: Surface
+
+Effects
+: This Incantation allows the Adept to change the surface that they
+  are gravitationally attracted to so that they can walk up and down
+  walls and across ceilings. Changing Orienttion requires a Pass
+  Action until Rank 20, in which case it takes either a Free Act or a
+  Pass Action.
+
+Cost
+: 1500 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 1
+
+## Increased Gravity - Weight Reduction
+
+Range
+: Touch
+
+Duration
+: 20 minutes (+20 minutes / Rank)
+
+Resist
+: None
+
+Target
+: Non-magical Object
+
+Effects
+: This Incantation reverses the effects of gravity somewhat so that
+  the Adept may target a non-magical object (and it's contents, if
+  any) that weighs less than 10 lbs (+ 2 lbs / Rank). This Incantation
+  halves the weight of the non-magical object and its contents, except
+  for magical ones, for the duration.
+
+At Rank 20, the Incantation halves the weight again to a quarter of
+the original weight, and the duration is, instead, 12 hours.
+
+Cost
+: 1750 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 1
+
+## Increased Gravity - Angular Moment of Doom
+
+Range
+: Touch
+
+Duration
+: 5 minutes (+1 minute / Rank)
+
+Resist
+: None
+
+Target
+: C Class hafted or special weapon
+
+Effects
+: This Incantation targets a C Class hafted or special weapon like a
+  mace, club, rock, sap, mattock or flail, increasing the Strike
+  Chance by 5 (+ 1 per Rank) and damage by 1 for every 3 Ranks. In
+  addition, when thrown, the range is doubled and it is treated as a
+  missile weapon.
+
+Cost
+: 1500 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 1
+
+## Putrid Wound - Chain Cast
+
+Effects
+: If Putrid Woound has been Cast the previous Pulse, this Incantation
+  may be Cast without Preparing it. The FT cost must still be paid,
+  however, if there is one.
+
+Cost
+: 750 Experience.
+
+Constraints
+: Unracks the spell
+
+## Noxious Vapours - Obscurement
+
+Range
+: 15 feet (+ 15 feet / Rank)
+
+Duration
+: 1 minute (+1 minute / Rank)
+
+Resist
+: Passive
+
+Target
+: Volume
+
+Effects
+: This Incantation creates a 5–foot cube of oily black smoke (+1 foot
+  to each dimension per Rank). The vision of all entities except the
+  Adept is reduced to 5 feet. The Adept’s sight is unaffected, as is
+  any entity who, upon contact with the Obscurement, Breaks 80 + Rank,
+  adding PC + WP to the result.
+
+This requires a bundle of wormwood which will cost 25 sp and weighs 7
+oz, which will automatically ignite when the Incantation is
+successfully cast, consuming it.
+
+Cost
+: 750 Experience.
+
+Constraints
+: Unracks the spell, reagent: Bundle of Wormwood
+
+## Noxious Vapours - Mist of the Poppy
+
+Duration
+: 20 seconds (+ 20 seconds per Rank)
+
+Range
+: 10 feet (+ 10 feet per Rank)
+
+Resist
+: Active & Passive
+
+Target
+: Volume
+
+Effects
+: The Adept conjures the spirits of the poppy to inhabit the reagent
+  and send it to a place that is within line of sight and range. When
+  it arrives, the reagent will release a faint, translucent mist that
+  propagates over a diameter of 3 hexes (+ 2 hexes per 10 Ranks). Any
+  breathing entity withiin the volume must Resist or fall into a
+  gentle slumber for no longer than the duration. Those that Resist
+  become drowsy, have their Strike Chances reduced by 10 (+ 1 / Rank),
+  and must make a Willpower concentration check to use Spell
+  magic. The multiplier for this check is
+
+Rank       Multiplier
+-------    ----------
+0 -- 7       4.0
+8 -- 13      3.0
+14 -- 18     2.0
+19 -- 20     1.0
+ 
+This incantation requires Liquors of the Poppy, which is made by
+steeping a pound of poppy seeds (costing 4 gold shillings) in seven
+cups of fine brandywine and henbane (costing a truesilver guinea) for
+seven days from moonrise on a Monday. This must be poured into a
+vessel and simmered without boiling until moonrise on Tuesday, the
+vapours taken and cooled using a cunning copper device crafted for
+collecting such things. Only the topmost of the condensate has virtue,
+the rest being noisome to the nose and heart. It must be poured into a
+glass phial 3 inches long, sealed with beeswax which will weigh 3 oz.
+
+Cost
+: 1,000 Experience
+
+Constraints
+: Unracks the spell, reagent: Liquor of the Poppy
+
+## Putrescence - Ripen
+
+Range
+: 5 feet (+ 1 foot / Rank)
+
+Target
+: Food or Drink
+
+Effects
+: This Incantation ages 1 cubic foot (+1 cubic foot / Rank) of food or
+  drink by one additional day per Rank without causing it to rot or
+  spoil. For food or drink that benefits from aging — pickles, cheese,
+  wine, eggs or the like — it gradually improves their flavour. It
+  will also ripen fruit, grain and vegetables or mature beef, venison
+  or other meat.
+
+Cost
+: 750 Experience.
+
+Constraints
+: Unracks the spell
+
+## Fear - Unsettling Aspect
+
+Range
+: Self
+
+Duration
+: 20 minutes (+ 20 minutes / Rank)
+
+Effects
+: This Incantation gives the Adept an unsettling aspect so that if
+  they fix their atttention on an entity, requiring a Pass Action,
+  they must Resist or be unsettled and seek to avoid the Adept's
+  attention.
+
+The target must be within 10 feet (+ 1 foot per Rank). 
+
+Cost
+: 1,250 Experience.
+
+Constraints
+: Unracks the spell
+
+## Fear - Intimidating Glare
+
+Range
+: Self
+
+Duration
+: 20 minutes (+5 minutes / Rank)
+
+Resist
+: Special
+
+Target
+: Sentient Entity
+
+Effects
+: This Incantation creates a pool of Glares. While the pool is not
+  empty and duration remains, the Adept may spend a Reflex Action once
+  per Pulse to Glare at a target.
+
+The Adept makes a Cast Check at a mortal and the target must Break
+(80 + Rank + 2 × WP) to avoid the effects. Upon failure, they make a
+Fright Check of 2d10 + 5 and apply the results.
+
+Rank      Glare Pool
+--------  ----------
+ 0 -- 5   1
+ 6 -- 10  2
+11 -- 14  3
+15 -- 17  4
+18 or 19  5
+   20     6
+
+The target must be within 10 feet (+ 1 foot per Rank). 
+
+Cost
+: 1,750 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 1
+
+## Hand of Death - Gauntlet of Ancestral Wrath
+
+Range
+: 30 feet (+ 5 feet per Rank)
+
+Duration
+: Concentration Maximum: 60 seconds (+10 seconds per Rank)
+
+Target
+: Object or Entity
+
+Resist
+: Passive/None
+
+Effects
+: This Incantation creates a spiritual well of violence birthed from
+  the injustices visited upon their ancestors. By taking a Magical
+  Fire Action, the Adept targets an entity that weighs less than 25
+  lbs (+ 25 lbs per Rank). If they fail to Resist, they are hurled
+  along a gauntlet of force at bone-breaking speed to the extent of
+  the range unless stopped by an obstacle. They receive 1 rollup D10
+  for every 10 feet thrown, less their Spell Armour which ends the
+  effects of the Incantation on them. They may be targetted again by
+  the Adept and are entitled to another Magic Resistance check. Once a
+  target successfully Resists, they cannot be hurled by this casting
+  of the Incantation. Damage may not be doubled or tripled but range
+  and duration may be. Magic Resistance may be reduced by 20 on a
+  triple effect.
+
+Alternatively, the Adept may use a Magical Fire Action to throw an
+improvised object weighing no more than Rank lbs and hurl it at an
+object or entity within range. The Cast Chance of the spell is used to
+determine Strike Chance, modified by the target's ranged Defence. The
+default damage is D5! (+1 per Rank) C Class damage. Defences that
+apply against non-magical impact damage like Protection from armour,
+for example, reduces this damage, but Magic Resistance does not
+apply. Damage may not be doubled or tripled, nor does it inflict
+damage directly to EN or Specific Grievous injuries. This Incantation
+cannot normally cause a Stun condition.
+
+When the Incantation is Cast, it drains a point of Willpower from the
+Adept. Willpower returns at a rate 1 every three days of rest, being
+defined as a day wherein they lose no more than half their FT.
+
+Cost
+: 7,000 Experience
+
+Constraints
+: Unracks the spell, reduces FT value by 2. 
+
+## Hand of Death - Hand of Gravemould
+
+Range
+: 20 feet + 5 / Rank
+
+Duration
+: 20 minutes + 20 minutes / Rank
+
+Resist
+: Passive
+
+Target
+: Living Entity, Area
+
+Effects
+: This Incantation summons a hand made from earth and gravemould out
+  of the ground within range. The hand is 7 feet tall, smells of the
+  tomb and will clutch anything living (except the Adept) that enters
+  the hex it occupies. It will continue to do so until it has caught
+  something. Any living entity standing on a spot where a hand
+  materialises will be snatched up if they fail to Resist, otherwise
+  the hand appears next to them within the hex.
+
+An entity so caught will still be able to wield a weapon or cast if
+they roll under 2 × MD. Entities (or combination of entities) with a
+combined PS + target’s AG greater than 40 (+ 2 / Rank) may attempt a 1
+× PS percentile roll to escape from the Hand, and may do so every
+Pulse after the first. A hand that is broken out of will gradually
+fade away over a minute and may provide hard cover (GM discretion).
+
+Cost
+: 1,000 Experience
+
+Constraints
+: Reduces FT value by 1. 
+
+## Hand of Death - Touch of Caina
+
+Duration
+: 1 Pulse (+ 1 per 10 Ranks)
+
+Range
+: 20 feet (+ 5 feet per Rank)
+
+Resist
+: Active/Passive
+
+Target
+: Corporeal Entity
+
+Effects
+: This Incantation summons a translucent skeletal hand from Caina on
+  the 7th Plane. If the target fails to Resist, they take 1 rollup D10
+  magical cold damage a Pulse. While duration persists, if the target
+  makes a Strike or Cast check, a D20 is added to the result, making
+  it less likely. Damage may not be doubled or tripled but other
+  critical results may be.
+
+Cost
+: 1,000 Experience
+
+Constraints
+: Unracks the spell, reduces FT value by 1. 
+
+## Hand of Death - Cascade of Fire and Brimstone
+
+Duration
+: Immediate (during Pulse)
+
+Range
+: 1 hex (+1 hex per 10 Ranks)
+
+Resist
+: Passive
+
+Target
+: Volume
+
+Effects
+: This Incantation summons an infernal torrent from the 7th Plane in
+  the form of a cone where the base is equal to the range. This erupts
+  from the Adept's out-stretched hand and inflicts 1 rollup D10
+  magical fire damage (+1 rollup D10 per 10 Ranks), half this if
+  Resistance is successful.
+
+Cost
+: 1,000 Experience
+
+Constraints
+: Unracks the spell. 
+
+## Hand of Death - Lightning Thrust
+
+Duration
+: Immediate (during Pulse)
+
+Range
+: Touch
+
+Resist
+: Passive
+
+Target
+: Object or Entity
+
+Effects
+: This Incantation enlivens the Adept so that their Initiative value
+  is improved by 10 + the Rank of the spell and, assuming a successful
+  Cast, automatically touch an adjacent target. If Resistance is
+  failed, the target is Stunned and takes D10 +5 (+1 per 3 or fraction
+  Ranks), half this otherwise.
+
+The Adept may choose this Incantation after Initiative has been
+determined if they have a Hand of Death spell Prepared to improve
+their action precedence.
+
+Cost
+: 1,000 Experience
+
+Constraints
+: Unracks the spell, reduces FT value by 1. 
