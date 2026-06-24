@@ -14,7 +14,11 @@
 \RequirePackage{tabularray}
 \RequirePackage{setspace}
 \RequirePackage{titlesec}
-\RequirePackage{hyperref}
+
+\RequirePackage{imakeidx}
+\makeindex[columns=3,intoc=true,columnsep=10mm]
+
+\RequirePackage[hyperindex=true]{hyperref}
 \RequirePackage{tocloft}
 \RequirePackage[skip=2pt plus 2pt minus 1pt, indent=0mm]{parskip}
 
@@ -66,23 +70,23 @@
 \newenvironment{Chapter}[1]{\chapter{#1}\begin{multicols}{3}}{\end{multicols}}
 \newenvironment{example}[0]{\small \emph{Example}\hspace{1.2em}}{}
 
-\newenvironment{talent}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{talents!#2}}{}
-\newenvironment{talent*}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{talents!#2}}{}
+\newenvironment{talent}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{Talents!#2}}{}
+\newenvironment{talent*}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{Talents!#2}}{}
 
-\newenvironment{spell}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{spells!#2}}{}
-\newenvironment{spell*}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{spells!#2}}{}
+\newenvironment{spell}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{Spells!#2}}{}
+\newenvironment{spell*}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{Spells!#2}}{}
 
-\newenvironment{ritual}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{rituals!#2}}{}
-\newenvironment{ritual*}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{rituals!#2}}{}
+\newenvironment{ritual}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{Rituals!#2}}{}
+\newenvironment{ritual*}[2][]{\ifthenelse{\equal{#1}{\empty}}{\subsubsection{#2}}{\subsubsection{#2 (#1)}}\index{Rituals!#2}}{}
 
 \newenvironment{effects}[0]{\emph{Effects: }}{}
 
 \newenvironment{College}[4][1.0]%
-{\chapter{The College of #3 (Ver #1)}\label{#2}\label{college:#2}\def\dq@college{#3} \index{colleges!\dq@college|(} \begin{multicols*}{3}}%
-{\index{colleges!\dq@college|)}\end{multicols*}}
+{\chapter{The College of #3 (Ver #1)}\label{#2}\label{college:#2}\def\dq@college{#3} \index{Colleges!\dq@college|(} \begin{multicols*}{3}}%
+{\index{Colleges!\dq@college|)}\end{multicols*}}
 
 \newenvironment{Skill}[3][1.0]%
-{\chapter{#3 (Ver #1)}\label{#2}\label{skill:#2}\def\dq@skill{#3} \index{skills!\dq@skill||} %%
+{\chapter{#3 (Ver #1)}\label{#2}\label{skill:#2}\def\dq@skill{#3} \index{Skills!\dq@skill||} %%
 \begin{multicols*}{3}}%
 {\end{multicols*}}
 
