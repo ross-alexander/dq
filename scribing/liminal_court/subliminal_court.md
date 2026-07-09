@@ -1566,6 +1566,90 @@ the Cast Action. If the target fails to Resist the magic, then the
 Rank of the Spell and the Rank of this weapon are added to the result
 of the Fright Check.
 
+## Carpet of the Just
+
+This rugged woollen carpet is 3 ft 7 inches across and 7 feet long,
+weighing 4 lbs. A winged lion with a man's head looks out from the
+centre of the carpet from a dark blue background, with crimson
+geometrical figures around the edge.
+
+If the owner has not committed a crime that day, the first time they
+sleep on it, that sleep is treated as one hour longer, so seven hours
+is considered eight. When they rise, they get an extra opportunity to
+"tough it out" in terms of recovering from infection.
+
+## Mark of the Book
+
+This bookmark is made from tasselled leather, is 8 inches long by 2
+inches wide, and weighs 2 drachms. While it is on their person, the
+owner can tell when night has fallen, day has broken, when it is noon
+and midnight.
+
+Once per day, resetting at dawn, it allows the owner and up to 30 lbs
+of their gear to take the form of a book bound in red leather. It is 7
+inches wide by 9 inches long, 2 inches thick and weighs 3 lbs 7
+oz. The owner can imprint a name for the book in a language that they
+are literate in on the spine, the front and the frontispiece, but the
+rest of the book is The Epic of Gilgamesh. In Sumerian cuneiform.
+
+In this form, they are aware and have all of their senses except for
+smell or taste, which can be worrying since they're flammable. The
+range of their vision and hearing is 40 feet.
+
+While transfigured, they may not be scried for or located by magic
+unless the seeker knows to look for a cuneiform version of the Epic of
+Gilgamesh.
+
+They can end the transfiguration at any time by taking a Pass Action,
+but in any case, it will end at the next nightfall, daybreak, midnight
+or noon.
+
+## Black Sands Herbs
+
+### Mastic Thyme
+
+Description
+: A compact, thorny, intensely dense cushion-shrub. In the summer
+  heat, its green leaves shrivel into tiny scales to protect its water
+  supply, and it erupts in small clusters of pale pink or purple
+  flowers. It is incredibly scratchy and painful to harvest without
+  leather gloves. It releases a burning, savory, and strongly pungent
+  blast of hot oregano and black pepper.
+
+Care
+: This herb likes a sunny prospect with well-drained soil. It requires
+  very little attention, and benefits from an elevated plot.
+
+Use
+: Aggressively antiseptic and antifungal. Preserves food
+
+Preparation
+: Distilled and suspended at a ratio of 1/3 in a 1/10 alcohol/water
+  tincture. When an ounce is applied to a fresh wound, the chance of
+  infection is divided by 3.
+
+### Syrian Rue
+
+Description
+: A sprawling, bright green, succulent-like plant with jagged, narrow
+  leaves that grows in dense, circular mats out of harsh, cracked
+  earth. It produces small, five-petaled white flowers. The leaves
+  feel thick and rubbery. When torn, it produces a sharp, unpleasantly
+  bitter, and heavily polecat odour that smells strongly of wild
+  animal musk.
+
+Care
+: This herb likes a sunny prospect with well-drained soil. It requires
+  very little attention, and benefits from an elevated plot.
+
+Use
+: creates ritual visions
+
+Preparation
+: A 3 inch chime candle 1/2 an inch in diameter is infused with a
+  tablespoon of these seeds. If it is lit while Purifying, increase MA
+  by an extra point for the duration
+
 ## Burning Crossbow
 
 This heavy crossbow encumbers for 20 lbs, requires PS of 20 and MD of
@@ -4241,7 +4325,27 @@ Cost
 Constraints
 : Unracks the spell, reduces FT value by 2 
 
+## Speaking to Enchanted Creatures - Speaking Beasts
 
+Range
+: 15 feet (+ 15 feet / Rank)
+
+Duration
+: 10 minutes (+ 10 minutes / Rank)
+
+Target
+: Living creature without a mother tongue
+
+Effects
+: Confers any one language known to the Adept at Rank 6 or greater
+  upon a living vocal creature lacking a mother tongue. Language Rank
+  equals 1 (+ 1 / 4 Ranks).
+
+Cost
+: 750 Experience
+
+Constraints
+: Unracks the spell
 
 # Incantations - Celestial
 
@@ -4749,6 +4853,33 @@ Cost
 
 Constraints
 : Unracks the spell, reduces FT value by 1
+
+## Detecting Undead - Sense the Undead
+
+Range
+: 10 feet (+10 feet per Rank)
+
+Duration
+: 20 seconds (+ 20 seconds per Rank)
+
+Resist
+: None
+
+Target
+: Self
+
+Effects
+: This Incantation makes the Adept immediately aware of the class
+  (Lesser or Greater), approximate number (to the nearest 5), and
+  general location (to the nearest 20 feet) of all Undead within range
+  for the duration.
+
+Cost
+: 2,500 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 1
+
 
 ## Fear - Unsettling Aspect
 
