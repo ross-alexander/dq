@@ -10,4 +10,4 @@ dq2020e.pdf : $(RULES) dq2020e.sty
 	latexmk -lualatex $<
 
 clean:
-	rm -f *.fls *.out *.aux *.log *~
+	rm -f *.fls *.out *.aux *.log *.toc *~ *.fdb_latexmk

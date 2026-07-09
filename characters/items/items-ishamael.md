@@ -124,15 +124,11 @@ Repair Muscles.  5,000
 
 10 Gut Busters Rank 10 (-12EN and 24FT) 10,000 [×2 used]
 
-## Sleep Dust
-
-1 Sleep Dust Rank 10 Can't be woken                      5,000
-
 ## Mass Fear Trap
 
 1 Rank 1 Mass Fear Trap Rg 25                          1,000
 
-## Waters of Healing
+## Waters of Healing  [×2 used]
 
 4 Waters of Healing  15 Points                          4,000
 
@@ -147,6 +143,14 @@ Repair Muscles.  5,000
 ## Healing Potion
 
 1 Healing 40 Point                                  4,000
+
+## Potions
+
+- 5 × R9 Creating Restorative (S-9) potions [2 used]
+- 5 × R12 Waters of Healing (S-11) [2 used]
+
+Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff
+Catnappering Caper – Summer 820
 
 
 ## Wiccan Amulet of aquilegius
@@ -176,14 +180,6 @@ GM
 ## Crystal of Vision
 
 This is a standard Rank 6 Crystal of Vision.
-
-## Potions
-
-- 5 × R9 Creating Restorative (S-9) potions
-- 5 × R12 Waters of Healing (S-11)
-
-Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff
-Catnappering Caper – Summer 820
 
 ## Wind walk (×5 [4 used])
 
@@ -696,3 +692,8 @@ R10 Mechanician.
 
 Terry Spencer - No 1 Detective Hobbit Agency - The Creampuff
 Catnappering Caper – Summer 820
+
+## Sleep Dust [used]
+
+1 Sleep Dust Rank 10 Can't be woken                      5,000
+

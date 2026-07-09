@@ -1424,8 +1424,147 @@ old man with a long white beard, very faint magical aura (colour)
 
 - Need to get coins sorted to learn the Rite to make the Soul gem
 
+- Spend 10 days
+
+## Session 22 -- 2026.06.28
+
+- Return to the crypt
+
+- Speak to the dead priest, a lector priest so records when rituals
+  and rites are performed, trained in law
+
+- Told not to wake the King
+
+- Trap Keppelmeister in the sardonyx
+
+- Astral Gate from Hoffitt to the Library Leng, a Necromentaim that
+  moves around
+
+- Head to Mashahara via the House of Fire
+
+- Buy 150 lb of dates in Mary and then sell Mashahara
+
+- Bronze and brass in the market
+
+- Lots of weaving
+
+- Find the glaziers in a small section near the jewelers
+
+- Glazier is away and should be back in four days
+
+- Purfumer have a cream purfume
+
+- 5lb of sandlewood available and 53 oz of black mir
+
+- Spend 3 days drinking etc
+
+- Return to Oswald, looks to not be from here and very young (25-26)
+for his ability, wearing layered robes, journey upon death are the
+norns
+
+- Would cost 30gs for him to visit Alusia
+
+- Go to Ardavale, walk for a day then fly to Karminthe
+
+- Karminthe doesn't have any walls
+
+- Has a caravanseri
+
+- Has fancy wine distilled and added walnut
+
+- Find portal
+
+## Session 23 -- 2026-07-05
+
+- Can get almonds and wool, either as raw wool or thread
+
+- Buy 20 carpets of the just, 100sp each
+
+- Buy four large carpets (40x40)
+
+- Spend two days for folding
+
+- Portal of Muktu
+
+- Rest for a day
+
+- Head out of town with plan to fly south along river
+
+- Travel for four hours
+
+- First hour over a lust canyon
+
+- Drop down 1500 feet
+
+- River and road together but need to follow the road
+
+- Land and rest, recast wings
+
+- Follow road and fly another 240 miles
+
+- Rest overnight and walk into Tintagel and arrive around midday
+
+- Head to the smiths
+
+- Slaydar gets his hand attached with disturbing sounds of mechanical whiring then grinding
+
+- Have a cup of tea why Slaydar suffers
+
+- Next cavaran is 26 days in future
+
+- Sin get some strange silver healing on her broken arm, part of her forearm and upper arm in the astral
+
+- Sell white sandel wood for 61600sp
+
+- Sea north of the forest of Hurcanian, which is north of the Keep of Five Faces, around 100 miles north-south and over  1000 miles east-west
+
+- Ask Pskaithe
+
+  1. Shemyaza is the general area of Goner Depe
+  2. Communicate in the language Celestial
+  3. Doesn't know how to get to the elemental center of Tanuel
+  4. Has the ITN of Shemyaza
+  
+- Use Astral gate to Muktu then fly north
+
+- Find area of London Plain trees
+
+- Forest mostly pine
+
+- Far too many wolves for area
+
+- Reach beach on inland sea
+
+- Recast wings
+
+- Use restorative and waters of healing
+
+- Travel for another day
+
+- Arrive at Mary
+
 
 # Items - Unclaimed
+
+## Copper Scroll of Discipline and Mental Fortitude
+
+24 hours after this scroll is opened, it will crumble to a greenish
+dust. Whoever reads from this scroll for 4 hours may advance their FT
+by 1 per Adventure or Season, whichever is least.
+
+There is no upper limit to which their FT value can ascend.
+
+## Rod of Fear
+
+This sceptre has an ebon haft and a head in the shape of a fist made
+from black bronze and weighs 3 lbs. It has a base Strike Chance of
+57%, inflicts D10 + 5 C Class damage and has a range of 7 hexes.
+
+Three times a day, resetting at midnight, the wielder may point this
+weapon at a legal target within range of their Fear spell as a part of
+the Cast Action. If the target fails to Resist the magic, then the
+Rank of the Spell and the Rank of this weapon are added to the result
+of the Fright Check.
 
 ## Burning Crossbow
 
@@ -5303,6 +5442,39 @@ Cost
 
 Constraints
 : Unracks the spell 
+
+## Warping - Stitch Up
+
+Range
+: 20 ft (+ 4 ft per Rank)
+
+Duration
+: Immediate, during Pulse
+
+Resist
+: None
+
+Target
+: Living Entity
+
+Effects
+: This Incantation cures 1 DP for every non-prime Rank (0, 1, 4, 6, 8,
+  9, 10, 12, 14, 15, 16, 18 & 20) and staunches all bleeders, so long
+  as the damage was inflicted less than an hour ago.
+
+If damage to Endurance is cured by this spell, it will leave behind a
+scar in the form of stitching.  the amount of healing is greater than
+1/3rd their Endurance, this will Stun.
+
+The Incantation requires a yard of catgut as a reagent, which will be
+no thicker than a strand of hair.  Three yards of catgut costs 1 cf
+and weighs 4 grains of wheat.
+
+Cost
+: 750 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 1, reagent: yard of catgut 
 
 # Consumed
 

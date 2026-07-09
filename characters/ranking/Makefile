@@ -16,6 +16,8 @@ TODAY	= $(shell date +%Y%m%d)
 #%_cover.pdf	: %.yaml $(FORMAT) cover.j2
 #	$(FORMAT_CAIRO)  -i $< -o $@
 
+
+
 %_cover.ltx:	%.yaml $(FORMAT_TEX) cover.j2
 	$(FORMAT_TEX) -t cover.j2 -i $< -o $@
 
@@ -25,6 +27,12 @@ TODAY	= $(shell date +%Y%m%d)
 %.pdf	: %.ltx $(STY_FILE)
 	texfot $(LATEX) -output-directory $(dir $<) $<
 
+%_cal.pdf	: %_cal.tex
+	texfot $(LATEX) $<
+
+%_cal.tex	: %_cal.js
+	$(SCRIPTS)/cal2tex -i $< -o $@
+
 %_cal.js	: %.yaml $(FORMAT)
 	$(FORMAT_CAL) -i $< -o $@
 
@@ -32,7 +40,7 @@ PDF_FILES	= thinknottle.pdf callas.pdf jedburgh.pdf ishamael.pdf
 
 COVER_FILES	= callas_cover.pdf jedburgh_cover.pdf ishamael_cover.pdf thinknottle_cover.pdf
 
-CAL_FILES	= callas_cal.js
+CAL_FILES	= callas_cal.js jedburgh_cal.js ishamael_cal.js
 
 YAML_FILES	= thinknottle.yaml
 

@@ -26,6 +26,8 @@ use File::Basename;
 use YAML::PP qw(DumpFile);
 use JSON;
 use JSON::XS;
+use utf8;
+
 
 # ----------------------------------------------------------------------
 #
@@ -442,7 +444,7 @@ sub Update_Adventure {
     }
     if ($adventure->{notes})
     {
-	say($adventure->{notes});
+	printf("notes: %s\n", $adventure->{notes});
     }
     
     $state->{"tick"} = $tick;
@@ -1187,6 +1189,8 @@ sub Main {
     # --------------------
     # Load mapping configuration
     # --------------------
+
+    binmode(STDOUT, $opts->{codepage});
     
     if (!-f $opts->{mapfile})
     {

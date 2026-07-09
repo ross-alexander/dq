@@ -125,7 +125,7 @@ def format_adventure(opts, adventure):
                 em = line['em'] if 'em' in line else ''
                 raw = line['ep_raw'] if 'ep_raw' in line else ''
                 ep = line['ep'] if 'ep' in line else ''
-                time = "%s$^%s$" % (line['time'], line['track']) if 'time' in line else ''
+                time = "%s$^%s%s$" % (line['time'], line['track'], '\\delta' if line['partial'] else '') if 'time' in line else ''
                 cost = line['cost'] if 'cost' in line else ''
                 res.append(f"{name}\t& {rank_range}\t& {sum}\t& {em}\t& {raw}\t& {ep}\t& {time}\t& {cost} \\\\")
             res.extend(['\\end{blocktblr}', ''])

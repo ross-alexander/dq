@@ -124,7 +124,6 @@ at the rate of 2 TMR.
 \end{spell}
 
 \begin{spell}[G-3]{ESP}
-
 \range{30 feet + 15 / Rank}
 \duration{30 seconds + 10 / Rank}
 \multiple{100}
@@ -141,8 +140,6 @@ presence of an entity even if that entity is mind cloaked. Spells
 cannot be targeted through ESP.
 \end{effects}
 \end{spell}
-
-
 \end{College}
 
 
@@ -161,8 +158,8 @@ Water		& \\
 Light		& Dark \\
 \end{uttblr}
 
- Any two elements can be combined although not all
- combinations are possible.
+Any two elements can be combined although not all combinations are
+possible.
 
 \begin{uttblr}{colspec={XXX}}
 Air		& Earth		& Dust \\
@@ -173,6 +170,84 @@ Earth		& Fire		& Magma \\
 Water		& Fire		& Steam \\
 Water		& Cold		& Ice \\
 \end{uttblr}
+
+\subsection{Elements}
+
+\begin{description}
+\item[Air]
+\item[Earth]
+\item[Fire]
+\item[Water]
+\item[Dust]
+\item[Mist]
+\item[Lightning]
+\item[Silt]
+\item[Magma]
+\item[Steam]
+\item[ice]
+\end{description}
+
+\subsection{Spells}
+
+\begin{itemize}
+\item Bolt
+\item Ball
+\item Wall
+\item Shield
+\item Shape
+\item Transform
+\end{itemize}
+
+\begin{spell}[G-1]{Bolt of Elements}
+\range{30 feet + 15 / Rank}
+\duration{Instance}
+\multiple{100}
+\basechance{40\%}
+\resist{Passive,Active}
+\target{Entity, Object, Area}
+\elements{Lightning, Magma, Steam, Ice, Fire, Water, Earth}
+\begin{effects}
+The Adept causes a bolt of Elements to streak from their hand towards
+anywhere in range.  The first entity or object the bolt hits in its
+path must resist or suffer D (+ 1 / Rank) damage.  If the bolt does
+not hit anything it will dissipate at the end of its range.
+\end{effects}
+\end{spell}
+
+\begin{spell}[S-4]{Fireball}
+
+\range{60 feet + 10 / Rank}
+\duration{Immediate}
+\multiple{550}
+\basechance{25\%}
+\resist{Active, Passive}
+\storage{Investment, Ward}
+\target{Area}
+\begin{effects}
+The Adept conjures a ball of Element 1 foot in diameter which rushes
+to a point in line of sight of the Adept, and explodes in a radius of
+5 foot (+ 5 / 5 or fraction Ranks). Everything in this radius must
+resist or suffer D10 (+ 1 / Rank) damage.  If an entity resists the
+damage is halved, unless they are more than half immersed in water
+(e.g. swimming) where they take no damage.  The spell may set
+flammable items afire when it bursts.  Hard cover (e.g. walls,
+parapets, but not shields) reduces damage to half before resistance.
+In some instances, e.g. a character wading through water, resistance
+may negate all damage. The fireball is analogous to an instantaneous
+flash of heat and there are no over-pressure or explosive effects.  A
+fireball may be detonated prematurely by the imposition of barriers in
+its line of flight.
+
+At Rank 20 this spell may be cast with a detonation delay of up to 10
+pulses.  This extends the casting time 4 pulses.  A delayed blast
+fireball manifests itself as a 1 foot wide floating sphere of fire
+until detonation occurs. If a second fireball is cast within the
+proposed volume of effect of the first, both are detonated.
+\end{effects}
+\end{spell}
+
+
+
 \end{College}
 
 \begin{College}{Atavists}
