@@ -1171,7 +1171,7 @@ Rk    Effect
 10    vegetative state
 
 
-# Talents, Spells, Incantations & Rituals
+# Talents
 
 ## Close Casting
 
@@ -1237,6 +1237,7 @@ In additon, if there is a chance that her concentration may have been
 broken, 5 + 1 / Rank is always added to the Base Chance of maintaining
 concentration.
 
+# Spells
 
 ## Enhancing Enchantment
 
@@ -1530,6 +1531,268 @@ While in this form, they can run overland at their TMR (+1 per 5
 Ranks) and, over the course of a minute, enter a spectral trail where
 their movement rate is 30 miles per hour (+1 mile per hour per Rank).
 
+# Rituals
+
+## Benediction of Land and Beast (R-B)
+
+Range
+: Sight
+
+Duration
+: 3 months for every Rank that is prime
+
+Experience Multiple
+: 125
+
+Base Chance
+: 45%
+
+Resist
+: None
+
+Cast Time
+: 1 hour
+
+Target
+: Area, Livestock, Entity
+
+Effects
+: The ritual increases the richness of the soil of 1 acre (+ 1 acre /
+Rank).  For the duration of the magic everything grown in that soil
+will be proof against locusts, droughts, flooding, frost, and other
+natural disasters.
+
+If the ritual is cast upon a pregnant entity, it will increase the
+unborn child's EN value by one, raising it by three at Rank 10 and
+finally raising it by six at Rank 20.
+
+It can also be cast upon 5 (+ 1 / Rank) livestock that are within
+sight. These animals will then be resistant to natural disorders, such
+as rabies, dysentery, worms, and hoof and mouth disease for the
+duration.
+
+Finally, it can be cast to dissipate the effects of a Spell of
+Blighting Crops or Spell of Pestilence.
+
+## Ritual of Enchanting Crystals
+
+Range
+: 10 feet (+5 feet / Rank)
+
+Experience Multiple
+: 300
+
+Base Chance
+: 75% + 1% / Rank
+
+Cast Time
+: 1 hour
+
+Effects
+: Callas can enchant a crystal into a Crystal of Vision of equal Rank.
+
+Callas can add Clarity to a crystal which will make it at least
+translucent and likely transparent, improve it's gem qualities, and if
+it has been made by the Gem Creation spell, will change its duration
+to Immediate.
+
+In addition, she may store visible memories by enchanting crystals according to the following schedule:
+
+Rk    Effect
+---   ---
+1     store a static image (object or entity) in the crystal.
+3     store the image of an entity
+5     store the image of a scene
+7     project a static image stored in the crystal
+9     project the image of an entity stored in the crystal
+11    project the image of a scene stored in the crystal
+13    animate the projected static image stored in the crystal
+15    animate the projected image of the entity stored in the crystal
+17    animate the projected image of the scene stored in the crystal
+18    make a static image stored in the crystal real for one minute, destroying it
+19    make the image of an entity stored in the crystal real for one minute, destroying it
+20    make the image of a scene stored in the crystal real for one minute, destroying it
+
+
+## Ritual of Creating Restorative Waybread
+
+Duration
+: Special
+
+EM
+: 250
+
+Base Chance
+: MA + Herbalist Rank + 3 / Rank
+
+Resist
+: May not be resisted
+
+Cast time
+: 14 days - 1 day per 2 full days
+
+Actions
+: Cooking
+
+Materials
+: Cauldron, common grains, honey etc.
+
+Conc Check
+: None
+
+The Adept may drate thin but hightly nutritious wafers that restore FT
+at the rate outlined below.
+  
+  Rank   Fatigue Restored
+  ----   ----------------
+  0      1
+  1-2    2
+  3-4    3
+  5-6    4
+  7-9    5
+  10-14  6
+  15-19  12
+  20     24
+  
+This Waybread lasts until the next Solstice or Equinox, and the Adept
+may successfully cast this Ritual only once per Seaon.  Failed casts
+do not count.
+  
+A successful cast produces 1 wafer + 1 per 2 full Ranks.
+  
+Five minutes after eating wafer, FT will be restored as determined by
+Rank.  The waybread will restore FT lost any means except cureses.
+
+Waybread is very filling, and may be used to replace a meal without
+penalty.  Weight is 1 oz.
+  
+The Ritual does not backfire.
+  
+
+## Trap the Soul Ritual
+
+Taught by the Oerth Stone.  May be further taught to Earth Mages,
+Wiccans, Necromancers, Dark Mages, Enchanters.
+
+EM
+: 600
+
+Cast Time
+: 24 hours - 1 hour per rank
+
+Base Chance
+: 20% + Willpower + 3% / Rank - (target's willpower + resistances)
+
+Resistance
+: Passive
+
+Range
+: 100 yards per Rank
+
+Both target and caster must be in contact with the ground for this
+ritual to work.  The target's Willpower plus any resistances they have
+reduce the base chance of success.  If the ritual is successful the
+target's soul is drawn forth fromn their body and into the gem.  If
+the ritual fails the gem is shattered and can never be repaired.  A
+caster may use this ritual on themsleves to hide or store their soul.
+Provided no one else finds the soul this is fine.  If they are found
+then they are subject to the whim of the new owner and must obey their
+commands without hesitation.  A body not currently posssessed of a soul
+makes all checks vs possesion or domination at +30%.  If the Oerth
+Stone is used by a mage as part of this ritual, resistance is based on
+a subtraction for raw Willpower alone.  The target must be personally
+known (ie met in person) for this ritual to work.
+
+## Elemental Warding
+
+Range
+: 25 feet + 25 / Rank
+
+Duration
+: 1 day + 1 / Rank (30 days at Rank 20)
+
+Experience Multiple
+: 100
+
+Base Chance
+: 100% + 4 / Rank
+
+Cast Time
+: 1 hour
+
+Resist
+: None
+
+Target
+: Area, structure, wall
+
+Material
+: Chalk, paint, blood, cornmeal, ink or other symbol making materials
+
+Actions
+: Chanting and inscribing symbols
+
+Concentration Check
+: Standard
+
+Effects
+: This Ritual seals an area, structure or wall against entities from
+the elemental planes. The Adept must know the name of the planes, and
+the name of the plane that the Adept is currently occupying cannot be
+used. No entity whose plane of origin has been sealed against can
+voluntarily enter the sealed area. They will be stopped at the
+boundary as is all their Talent, Spell and Ritual Magic. Any entity
+taken into the area against their will (or without their knowledge,
+e.g. unconscious) will attempt to leave the area as quickly as
+possible. If an attempt is made to summon an entity from the named
+plane into the area the summoning will fail. Any entities from the
+named plane that are inside the area when the sealing is created are
+unaffected, but should they leave the area they will be unable to
+reenter it.
+
+Non-namers can learn and rank it as a ritual. They may attempt to
+perform it quickly but each 10-minute reduction reduces the Base
+Chance by 6% to a minimum of 10 minutes and 70%.
+
+Namers can learn and rank it as a spell. They may attempt to perform
+it quickly but each 10-minute reduction reduces the Base Chance by 2%
+to a minimum of 1 minute and 88%.
+
+Elemental Wards can protect areas or structures within an existing
+Elemental Warding. The number of layers is a function of rank:
+
+-------- -------- ---
+Rank	 0		    1
+Rank	 1-4		2
+Rank	 5-8		3
+Rank	 9-12		4
+Rank	 13-16		5
+Rank	 17-19		6
+Rank	 20		    7
+-------- -------- ---
+
+### Modifiers
+
+-----------------------------------------  ----
+Inscribed in earth, ice, sand or similar	-20
+Winds above 25 mph				            - 5
+Winds above 50 mph				            -10
+Winds above 75 mph				            -15 
+-----------------------------------------  ----
+
+Travelling circles may be made but tend to be bulky and expensive. The
+symbol necessary for this ritual is large enough for the target to sit
+in, and is inscribed in precious metals.
+
+Metal		Add	    Cost
+---         ---     ---
+Silver 	 	+ 3	    1,000 sp
+Gold 	 	+ 7	    10,000 sp
+Platinum 	+ 10	15,000 sp
+Truesilver 	+ 15	20,000 sp
+
+# Incantations
+
 
 ## Incantation of Ley Line Traversal
 
@@ -1817,265 +2080,6 @@ Cost
 Constraints
 : Unracks the spell, reduces FT value by 2.  This incantation cannot
 be taught.
-
-
-## Benediction of Land and Beast (R-B)
-
-Range
-: Sight
-
-Duration
-: 3 months for every Rank that is prime
-
-Experience Multiple
-: 125
-
-Base Chance
-: 45%
-
-Resist
-: None
-
-Cast Time
-: 1 hour
-
-Target
-: Area, Livestock, Entity
-
-Effects
-: The ritual increases the richness of the soil of 1 acre (+ 1 acre /
-Rank).  For the duration of the magic everything grown in that soil
-will be proof against locusts, droughts, flooding, frost, and other
-natural disasters.
-
-If the ritual is cast upon a pregnant entity, it will increase the
-unborn child's EN value by one, raising it by three at Rank 10 and
-finally raising it by six at Rank 20.
-
-It can also be cast upon 5 (+ 1 / Rank) livestock that are within
-sight. These animals will then be resistant to natural disorders, such
-as rabies, dysentery, worms, and hoof and mouth disease for the
-duration.
-
-Finally, it can be cast to dissipate the effects of a Spell of
-Blighting Crops or Spell of Pestilence.
-
-## Ritual of Enchanting Crystals
-
-Range
-: 10 feet (+5 feet / Rank)
-
-Experience Multiple
-: 300
-
-Base Chance
-: 75% + 1% / Rank
-
-Cast Time
-: 1 hour
-
-Effects
-: Callas can enchant a crystal into a Crystal of Vision of equal Rank.
-
-Callas can add Clarity to a crystal which will make it at least
-translucent and likely transparent, improve it's gem qualities, and if
-it has been made by the Gem Creation spell, will change its duration
-to Immediate.
-
-In addition, she may store visible memories by enchanting crystals according to the following schedule:
-
-Rk    Effect
----   ---
-1     store a static image (object or entity) in the crystal.
-3     store the image of an entity
-5     store the image of a scene
-7     project a static image stored in the crystal
-9     project the image of an entity stored in the crystal
-11    project the image of a scene stored in the crystal
-13    animate the projected static image stored in the crystal
-15    animate the projected image of the entity stored in the crystal
-17    animate the projected image of the scene stored in the crystal
-18    make a static image stored in the crystal real for one minute, destroying it
-19    make the image of an entity stored in the crystal real for one minute, destroying it
-20    make the image of a scene stored in the crystal real for one minute, destroying it
-
-
-## Ritual of Creating Restorative Waybread
-
-Duration
-: Special
-
-EM
-: 250
-
-Base Chance
-: MA + Herbalist Rank + 3 / Rank
-
-Resist
-: May not be resisted
-
-Cast time
-: 14 days - 1 day per 2 full days
-
-Actions
-: Cooking
-
-Materials
-: Cauldron, common grains, honey etc.
-
-Conc Check
-: None
-
-The Adept may drate thin but hightly nutritious wafers that restore FT
-at the rate outlined below.
-  
-  Rank   Fatigue Restored
-  ----   ----------------
-  0      1
-  1-2    2
-  3-4    3
-  5-6    4
-  7-9    5
-  10-14  6
-  15-19  12
-  20     24
-  
-This Waybread lasts until the next Solstice or Equinox, and the Adept
-may successfully cast this Ritual only once per Seaon.  Failed casts
-do not count.
-  
-A successful cast produces 1 wafer + 1 per 2 full Ranks.
-  
-Five minutes after eating wafer, FT will be restored as determined by
-Rank.  The waybread will restore FT lost any means except cureses.
-
-Waybread is very filling, and may be used to replace a meal without
-penalty.  Weight is 1 oz.
-  
-The Ritual does not backfire.
-  
-
-## Trap the Soul Ritual
-
-Taught by the Oerth Stone.  May be further taught to Earth Mages,
-Wiccans, Necromancers, Dark Mages, Enchanters.
-
-EM
-: 600
-
-Cast Time
-: 24 hours - 1 hour per rank
-
-Base Chance
-: 20% + Willpower + 3% / Rank - (target's willpower + resistances)
-
-Resistance
-: Passive
-
-Range
-: 100 yards per Rank
-
-Both target and caster must be in contact with the ground for this
-ritual to work.  The target's Willpower plus any resistances they have
-reduce the base chance of success.  If the ritual is successful the
-target's soul is drawn forth fromn their body and into the gem.  If
-the ritual fails the gem is shattered and can never be repaired.  A
-caster may use this ritual on themsleves to hide or store their soul.
-Provided no one else finds the soul this is fine.  If they are found
-then they are subject to the whim of the new owner and must obey their
-commands without hesitation.  A body not currently posssessed of a soul
-makes all checks vs possesion or domination at +30%.  If the Oerth
-Stone is used by a mage as part of this ritual, resistance is based on
-a subtraction for raw Willpower alone.  The target must be personally
-known (ie met in person) for this ritual to work.
-
-## Elemental Warding
-
-Range
-: 25 feet + 25 / Rank
-
-Duration
-: 1 day + 1 / Rank (30 days at Rank 20)
-
-Experience Multiple
-: 100
-
-Base Chance
-: 100% + 4 / Rank
-
-Cast Time
-: 1 hour
-
-Resist
-: None
-
-Target
-: Area, structure, wall
-
-Material
-: Chalk, paint, blood, cornmeal, ink or other symbol making materials
-
-Actions
-: Chanting and inscribing symbols
-
-Concentration Check
-: Standard
-
-Effects
-: This Ritual seals an area, structure or wall against entities from
-the elemental planes. The Adept must know the name of the planes, and
-the name of the plane that the Adept is currently occupying cannot be
-used. No entity whose plane of origin has been sealed against can
-voluntarily enter the sealed area. They will be stopped at the
-boundary as is all their Talent, Spell and Ritual Magic. Any entity
-taken into the area against their will (or without their knowledge,
-e.g. unconscious) will attempt to leave the area as quickly as
-possible. If an attempt is made to summon an entity from the named
-plane into the area the summoning will fail. Any entities from the
-named plane that are inside the area when the sealing is created are
-unaffected, but should they leave the area they will be unable to
-reenter it.
-
-Non-namers can learn and rank it as a ritual. They may attempt to
-perform it quickly but each 10-minute reduction reduces the Base
-Chance by 6% to a minimum of 10 minutes and 70%.
-
-Namers can learn and rank it as a spell. They may attempt to perform
-it quickly but each 10-minute reduction reduces the Base Chance by 2%
-to a minimum of 1 minute and 88%.
-
-Elemental Wards can protect areas or structures within an existing
-Elemental Warding. The number of layers is a function of rank:
-
--------- -------- ---
-Rank	 0		    1
-Rank	 1-4		2
-Rank	 5-8		3
-Rank	 9-12		4
-Rank	 13-16		5
-Rank	 17-19		6
-Rank	 20		    7
--------- -------- ---
-
-### Modifiers
-
------------------------------------------  ----
-Inscribed in earth, ice, sand or similar	-20
-Winds above 25 mph				            - 5
-Winds above 50 mph				            -10
-Winds above 75 mph				            -15 
------------------------------------------  ----
-
-Travelling circles may be made but tend to be bulky and expensive. The
-symbol necessary for this ritual is large enough for the target to sit
-in, and is inscribed in precious metals.
-
-Metal		Add	    Cost
----         ---     ---
-Silver 	 	+ 3	    1,000 sp
-Gold 	 	+ 7	    10,000 sp
-Platinum 	+ 10	15,000 sp
-Truesilver 	+ 15	20,000 sp
 
 
 # Abilities
