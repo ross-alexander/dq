@@ -2075,7 +2075,7 @@ Action. The effects of the Stoneskin last for the duration of the
 spell or for 1 attack per 4 Ranks, whichever comes first.
 
 Cost
-:2000 Experience.
+: 2000 Experience.
 
 Constraints
 : Unracks the spell, reduces FT value by 2.  This incantation cannot
