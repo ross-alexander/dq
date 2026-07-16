@@ -11,7 +11,11 @@
 \begin{multicols}{2}
 \BLOCK{for npc in npc_list}
 %% set ns = namespace(index = 3)
-\begin{tblr}{vlines={green7},hlines={1pt,teal7},hline{1,Z}={2pt,green7},
+\begin{tblr}{
+hspan=minimal,
+vlines={green7},
+hlines={1pt,teal7},
+hline{1,Z}={2pt,green7},
 columns={6mm,c},
 cell{1}{1}={c=9}{c,font=\LARGE\bfseries},
 cell{2}{1}={c=9}{c,font=\itshape}
@@ -23,19 +27,19 @@ cell{2}{1}={c=9}{c,font=\itshape}
 %% set ns.index = ns.index+2
 \BLOCK{endif}
 ,cell{\VAR{ns.index}-Z}{1}={c=9}{l}
-\BLOCK{for k in ['skills','weapons','armour','abilities']}
+\BLOCK{for k in ['skills','abilities','weapons','armour']}
 \BLOCK{if k in npc},row{\VAR{ns.index}}={c,bg=green9,font=\sc}
 %% set ns.index = ns.index+1+(npc[k]|count)
 \BLOCK{endif}
 \BLOCK{endfor}
 }
 \VAR{npc.name} \\
-\VAR{npc.description} \\
+\VAR{npc.description|texify} \\
 \BLOCK{if npc.image}\includegraphics[width=40mm]{\VAR{npc.image}} \\
 \BLOCK{endif}
 \VAR{npc.stats.name|join(' & ')} \\
 \VAR{npc.stats.stat|join(' & ')} \\
-\BLOCK{for k in ['skills','weapons','armour']}
+\BLOCK{for k in ['skills','abilities','weapons','armour']}
 \BLOCK{if k in npc}
 \VAR{k|title} \\
 \BLOCK{for v in npc[k]}
