@@ -28,6 +28,7 @@ import re
 
 def texify(s):
     s = re.sub('%', "\\%", s)
+    s = re.sub('&', "\\&", s)
     return s
 
 # ----------------------------------------------------------------------
@@ -75,19 +76,31 @@ def format_yaml_jinja(opts):
         out['description'] = npc['description'] if 'description' in npc else 'No description'
         if 'image' in npc:
             out['image'] = npc['image']
-        
+
+        # --------------------
+        # Sort stats into list with a specific order
+        # --------------------
+            
         stat_list = ['PS', 'MD', 'AG', 'MA', 'WP', 'EN', 'FT', 'PC', 'PB']
         out['stats'] = {
             'name': stat_list,
             'stat': [ npc['stats'][k] for k in stat_list ]
         }
 
+        # --------------------
+        # Copy sections
+        # --------------------
+        
         for k in ['skills','weapons','armour','abilities']:
             if k in npc:
                 out[k] = npc[k]
 
         print("%s: %s" % (npc['name'], " ".join(out.keys())))
         out_list.append(out)
+
+    # --------------------
+    # Open output file and render template
+    # --------------------
         
     with open(opts['outpath'], "w") as stream:
         print(template.render(npc_list = out_list), file=stream)
