@@ -1541,10 +1541,414 @@ norns
 
 - Travel for another day
 
-- Arrive at Mary
+- Arrive at Mary and stay overnight
 
+## Session 24 -- 2026-07-12
+
+- Fly to Goner Depe
+
+- Enter Necropolis, which is south of the water feature
+
+- Get netted but Slaydar destroys it
+
+- Fail to unlock door stone door but Slaydar breaks it open and enter room 12
+
+- Depression in center of the room but otherwise empty
+
+- Door to south is wooden but is stuck
+
+- Attacked by two pale dwarves, kill one and the other surrenders
+
+- Only weights 15 lb
+
+- Get no information but get loot
+
+- Has scroll which transfers a nasty disease
+
+- Get 400sp and 66gs and 2100cf
+
+- Got chain mail (6pt + 6% MR) that doesn't interfere with casting,
+  but size 4 or size 3, and half damage from B-class swords
+
+- Warhammer SC 57% DM D10+6
+
+- Let second dwarf go
+
+- Forced door open and enter room 8
+
+- Pedastals in niches in the walls, able to be lit by candles
+
+- Stone door in the south wall
+
+- Attacked by lizard man and we quickly dispatch
+
+- Find wooden kite shield with a red hawk heraldry, only 2 1/2 lb,
+  there is mark of thorny vines intwined on the inside of the shield, with
+  MD penalty, 5 DEF / rank
+
+- Get healing potion and 3gs + 30sp
+
+- Door is trapped but manage to disarm it
+
+- Slaydar smashes the door down with brute force
+
+- Enter room 21
+
+- Wooden door to the west, otherwise the room is empty, locked but
+  manage it pick it, and it slides into the wall
+
+- Go along corridor, a small area has some ceiling collapse
+
+- Find another wooden sliding door that is untrapped and unlocked
+
+- Room 6 is empty but against east wall and hear water moving
+
+- West exit is a wooden door, east exit is a stone door, SW is wooden
+  door and SE and is stone door
+
+- Pit trap by door, disarmed and Slaydar breaks down door
+
+- Enter room 5
+
+- Find a small creature that is blue and eye in the center of his forehead, long living sentient, norn
+
+- Disapears into the stone
+
+- Veins of silver but cannot get it out
+
+- Door is wooden but fail to pick out
+
+- Break down door into room 18 and see three goblinoids and they are
+  melting copper coins, debasing the currency
+
+- Got around 2000cf of debased currency
+
+- Show secret door beyond a swarm of spiders, small but hard to kill
+
+- Let kobolds go
+
+- Trigger mass fear trap and spiders flee
+
+- DA and dark aspected
+
+- Cast walls of lights
+
+- The spiders kill themselves
+
+- Enter room 11, iron door to the east, stone to the north
+
+## Session 25 -- 2026-07-19
+
+- The iron door is stuck so Slaydar kicks it open
+
+- Enter room 2, find a secret door at the south east corner
+
+- There are bookcases designed holding large scrolls
+
+- Flee and let the Wall of Starlight do it work
+
+- Get scrolls
+
+- The secret door goes through to room 8
+
+- Return to room 5
+
+- Door is wooden, and Slaydar smashes down
+
+- Enter room 4
+
+- Seep against the east wall, but the basin has fallen to the ground, seem to be marble
+
+- There is a small copper brazier, faintly magical, ancient magic no longer used
+
+- Door to the south is a simple wood door
+
+- Bits of semi precious stone on the ground, obsidion, sardonyx, turquoise and a scroll
+
+- Nothing in the corridor
+
+- Return to room 6 and try the eastern stone door
+
+- Enter room 17 and go through south corridor to room 19
+
+- Find a locked wooden chest, lignum vitae
+
+- Unlock chest and it contains gems including lapis lazuri and quartz
+
+- Exit north through wooden door into a series of coridors to reach room 19
+
+- Door is wooden and is locked and fail to unlock it
+
+- Warp door open to room 15
+
+- There is a threat and five goblins around a hooka and are stoned out of their tree
+
+- They are smoking some sort of mind altering drug
+
+- Losts of alchemist stuff
+
+- Ghouls downstairs
+
+- Critter head 5' in size can open and can drag people, by south door in room 15
+
+- Big spider in room 7, size of a table, long living non sentinent, dark aspected
+
+- Have a short chat, might be gravid
+
+- Exit through the south eastern door and head up to room 20
+
+- Maw thing comes up and bites Sin
+
+- Use Hound of the Underworld
+
+- Kill it with melee and bolt of energy
+
+- Drops down a tunnel, which we loot
+
+- Enter room 20, with a locked wooden door to north
+
+- Finish upper levels and find two scrolls, some potions and a resurrection suringe
+
+- Use 12pt restorative and 10pt healing
+
+- Head down the stairs and a greeted by a large wooden door with bell metal reinforcing
+
+- Use skeleton key and it turns to dust
+
+- Gloomy 60' x 30' corridor with niches contain man-like figure with a
+  man sitting on backless throne at the end, with lots of remains of
+  undead
+
+- Man wearing red robes, carrying a kopesh
+
+- He is speaking in our mind, says they having waited at the other but
+  they are short on time
+
+- Given a large steamer trunk
+
+- Man is Simyaza
+
+- He leads us through the complex
+
+- Need to walk a Pattern to Nualis to where the Kenite, in North Africa
+
+- Can be called deacon
+
+- Obels are coins used to cover the eyes of death
+
+- Use of used to purchase travel via the Underworld
+
+- Will return 30th day of Harvest
+
+- 6 months training
+
+- Learn Dark Sphere
 
 # Items - Unclaimed
+
+## Pale Dwarven Chain Shirt
+
+This chain shirt is made from a magical alloy of steel that is dove
+grey in colour and reaches to just above the knee. It has a weight
+factor of 5, and is size 4 but may be cut down to size 3 at a cost of
+40 tsg.
+
+It 
+- penalises Cast Checks by 5
+- reduces AG by 2
+- halves the damage of B Class weapons on the Sword table (rounding
+  up) before applying its Protection
+- provides 6 Protection
+- increases Magic Resistance by 6
+
+Racial magic is unaffected. 
+
+## Potion of Transfer Disease
+
+This phial is made from jaundice, is 3 inches long, 1/2 an inch wide
+and weighs 7 oz.
+
+When it is taken, any diseases currently being suffered are
+transferred to the next person they make physical contact with.  The
+victim may roll percentiles and add their EN value to the result.  If
+they generate a value of 100 or higher, they have avoided this fate.
+Enchantments are neveer applied to this roll.
+
+
+## Pale Dwarven Warhammer
+
+The head of this warhammer is made from a steel that is dove grey in
+colour, and the haft is an unworked shaft of bitterthorn. This is a
+wood that makes it possible to equip or divest it with a Free Act
+since it will attach to woollen clothing without requiring special
+attachment.
+
+The face at one end is a standard hammer, the other being a wickedly
+sharp grey splinter, 4 inches in length. It weighs 3 lbs, requires PS
+14 & MD 13. Bearing this weapon inflicts a 5 point penalty to the
+Casting of non-Racial Magic.
+
+It has a base Strike Chance of 57%, a range of 7 hexes and inflicts 2
+rollup D10 damage. In the event that a Possible Specific Grievous
+injury is scored, then the default is that it is a C Class Specific
+Grievous injury unless the wielder specifies they are inflicting A
+Class damage. At Rank 5, A or C Class Specific Grievous injuries are
+applied without any specification being required.
+
+
+## Scorpion Class Crossbow
+
+This small crossbow is 20 inches long, with an untensioned limb 14
+inches across and weighs 2 lbs. It requires PS of 7 and MD of 18 to
+wield, has a base Strike Chance of 65% and inflicts 2 rollup D5 A
+Class damage to a range of 20 hexes. This weapon is advanced as a
+Crossbow. It requires a Pass Action to load, and it is a finesse
+weapon, so damage is increased by 1 for every 5 points of MD in excess
+of 18. Excess PS is not considered.
+
+## Hood of Shadows
+
+This six-sided prism is capped at each end by six-sided pyramids of
+very dark smokey quartz. It is two inches long, one inch across and
+weighs 3 oz. It is attached to a bronze pin and is used to secure a
+cloak around the bearer's neck.
+
+When the word 'Capucce' is uttered, an illusory hood appears over the
+head, obscuring the bearer's features with a veil of impenetrable
+shadows.
+
+Even if the hood is detected as illusory, the bearer's features cannot
+be made out by mortal means.
+
+While the hood is manifest, the wearer's PC replaces their AG for the
+purposes of determining their base Defence, unless their AG is higher.
+
+
+## Bracers of Opposability
+
+These steel, fish-scaled bracers are chased with bronze and magically
+resize themselves to fit the wearer. Together, they weigh 1 1/2 pounds
+and prevent a wearer from Casting anything other than Racial Magic.
+
+The bracers hold a reactive force that directly counters kinetic and
+spell attacks across the wearer's body and provide 5 Protection, 7
+Spell Armour, 4 Magic Resistance and 5 Willpower. This Spell Armour
+applies to the usual damage spells including Disruption, but not
+Putrid Wound, Necrosis or magic of that kind.
+
+The bracers do not stack with other armour, unless specified otherwise
+and the wearer has a 30% chance to avoid Specific Grievous injuries to
+the arm, wrist & hand, as listed below:
+
+---------------------------------------------------------------------------
+Roll      Effect
+--------  -----------------------------------------------------------------
+01 – 05   Congratulations! It’s a bleeder in your primary arm! Take 1 
+          Damage Point from Endurance immediately and 1 per pulse
+		  thereafter until the flow is staunched by a Healer of Rank 0
+		  or above or you die.
+
+09 – 10   You have been stabbed in your secondary arm. Drop whatever
+          you were holding in it and take 2 Damage Points immediately
+		  from Endurance. It will take a full week for the arm to be
+		  of any use to you whatsoever.
+		  
+26 – 27   Bad luck! Your secondary hand has been severed at the wrist.
+          Take 2 Damage Points to Endurance immediately and 1 point
+		  per pulse from Fatigue thereafter (Endurance when Fatigue
+		  is exhausted) until you are dead or the bleeding is staunched
+		  by a Healer of Rank 0 or above. If you live, reduce your MD by 2.
+
+28 – 30   Worst luck! Your primary hand has been severed. Take 2 Damage
+          Points to Endurance immediately, and 1 point per Pulse from
+		  Fatigue thereafter (Endurance, when Fatigue is exhausted) until
+		  you are dead or the bleeding is staunched by a haler of Rank 0
+		  or above. If you live, reduce your MD by 2.
+
+44 – 50   A slash along one arm, and it’s a bleeder! Take 2 Damage Points
+          immediately from Endurance and lose 1 point from Fatigue
+		  (Endurance when Fatigue is exhausted) each pulse until the
+		  bleeding is stopped by a Healer of Rank 1 or above or you die.
+
+53 - 60   Your primary arm is crippled by a wicked slash! Take 2 damage
+          Points immediately to Endurance and drop anything you have in your
+		  primary hand. The arm is unusable until healed, which should
+		  take 2 months.
+	
+61 – 67   Your secondary arm is crippled by a wicked slash! Take 2 damage
+          Points immediately to Endurance and drop anything you have in
+		  your primary hand. The arm is unusable until healed, which
+		  should take 2 months.
+---------------------------------------------------------------------------
+	
+If a point of Endurance is sacrificed to the bracers, then the
+countering force will slightly deflect edged attacks. As a
+consequence, B Class damage from claws and weapons on the Swords table
+is halved before Protection or Damage Reduction is applied.
+
+If another point of Endurance is sacrificed to the bracers, then the
+wearer grows a pair of retractable thumbs. While this does not
+immediately make them a gifted sculptor or Mechanician, it does allow
+them to pick up small objects, manipulate them, use tools, open doors
+and so on. In particular, it doubles the size of an object they can
+hold in one hand from around 3 inches across to as much as 6 inches.
+
+Endurance can be bought back in the usual way.
+
+## Bearded Hand Axe
+
+The blade of this hand axe has been carved from black jade and bound
+to a short length of raw hickory sapling. It weighs 2 lbs.
+
+It has a base Strike Chance of 47%, inflicts 1 rollup D10 + 1 rollup
+D5 B Class Damage and may be thrown to a range of 8 hexes.
+
+If wielded in the right hand, it ignores off-hand penalties and
+increases Defence across the wielder's front melee hexes by half their
+MD + 2 per Rank in the weapon - all fractions are truncated.
+
+## Brazen Greataxe
+
+This greataxe has a head made from a yellow non-ferrous metal that
+will turn a dark, chocolate brown over the passing of a week. It takes
+an hour with an oily rag to return it to its original colour. It
+weighs 6 lbs, has a base Strike Chance of 71% and inflicts 2 rollup
+D10 B Class damage. Damage increases by 1 at Rank 2, 3, 5 & 7 and any
+bonuses from the Warrior Skill. Bonuses for every 5 points of PS in
+excess of 19 also stacks, and there is no chance of weapon breakage if
+it does not exceed 34.
+
+It accepts any weapon spell that is legal, but only benefits from
+increases to Strike Chance, not damage.
+
+## Lignam Vitae Chest
+
+This chest has internal dimensions that are 1 yard wide × 20" high ×
+20" deep, and the panels are 3/4 inch thick. It weighs 117 lbs, 12 oz.
+
+It is a rare, well-crafted product worth 6 tsg, 8gs, 11sp and 2cf.
+
+## Copper Brazier × 2
+
+This copper brazier is 10 inches in diameter, is 3 1/2 inches high and
+stands on 3 small wooden legs. The depth of each bowl is 3 inches.
+Both of them have a faint magical aura, which is minor but e×tends the
+duration of a fire lit in them by an hour by halving the amount of
+heat they generate.
+
+They are rare and each one is worth 4 gs and 2 sp.
+
+## Small Cask of Beeswax × 5
+
+Each cask is wooden, 1 foot long and 9 inches in diameter, holding
+26lbs 4oz of beeswax. Each is common, worth 2gs 11sp.
+
+## Sack of Silver Sling Bullets × 6
+
+Each of these sacks contains 20 silver bullets weighing 1 lb
+each. Each is uncommon and worth 20 sp each. They are the same weight
+and quality as coinage but none have been minted.
+
 
 ## Copper Scroll of Discipline and Mental Fortitude
 
@@ -2701,6 +3105,15 @@ diameter.
 
 # Items - Party
 
+## Gems
+
+Amber 3tsg 17 gs
+Amethyst 4tsg 16 gs
+Aquamarine 30 tsg 20 gs
+Azurite 4gs 6sp 3 cf
+Bloodstone 4 gs 11 sp
+Coral 10 tsg, 11gs, 11sp 
+
 ## Crimson Thistle Honey × 24
 
 This tiny pot of honey has been gathered from a hive of Walking Bees
@@ -2825,8 +3238,8 @@ This venom may be used to make either:
 
 ## Ghul Hearts × 2
 
-14 Darkness (9 used)
-14 Death (4 used)
+- 14 Darkness (9 used)
+- 14 Death (5 used)
 
 ## Pint of Ghul's Blood × 12
 
@@ -4114,6 +4527,103 @@ Effects
   Troubador Rank), they "Zap" an object or surface for 1 point of
   magical damage.
 
+# Spells
+
+## Debt to Dagon
+
+Range
+: Touch
+
+Duration
+: Sustained: no maximum
+
+Experience Multiple
+: 100
+
+Resist
+: None
+
+Storage
+: None
+
+Target
+: Living Entity
+
+Effects
+: This spell transforms the target's head to be scaled and fish-like,
+which will reduce their PB to 3. The transformation will last while
+the target continues to pay 1 point of FT every Rank hours, e.g. 1
+every hour at Rank 0, 1 every 2 hours at Rank 1 and so on.
+
+The magic does not end unless the target consciously chooses not to
+spend the FT when the debt falls due.
+
+While duration persists, the target can see, hear, speak and breathe
+under water as well as on land. It provides enough agency to Cast
+magic that is not, otherwise, restricted.
+
+The target's original features bear no resemblance to their new head
+and cannot be sought by that means unless the Locating, Finding,
+Scrying or like magic is equal or greater in Rank.
+
+This is considered a Special Knowledge spell of the Adept's college,
+and is not teachable.
+
+## Quicksilver Mind
+
+Range
+: Self
+
+Duration
+: 20 minutes (+ 20 minutes / Rank)
+
+Experience Multiple
+: 300
+
+Resist
+: None
+
+Storage
+: Potion
+
+Target
+: Sentient Entity
+
+Effects
+: This spell grants an Enchanter a certain elusiveness of thought. It
+  creates a pool of extra Pass Actions, and, initially, the Adept can
+  add 1 extra Pass Action per Pulse, 2 extra Pass Actions from Rank 15
+  to Rank 19, then 3 at Rank 20.
+
+----------------------
+Rank      Pass Actions
+          per Pulse
+--------  ------------
+0 - 5     1 × 1
+
+6 - 10    2
+
+11 - 14   3
+
+15 - 17   4 × 2
+
+18 - 18   5 
+
+20        6 × 3
+----------------------
+
+The spell ends when the pool is exhausted or duration expires. 
+
+The spell must be racked before it can be Cast, and requires an
+hourglass 3 inches tall made from fleur de minerai as a catalyst. This
+will cost 1 tsg. A lapidary, gemcutter or jeweller will charge 5 tsg
+to make it, which would be considered a masterwork for a journeyman,
+since it is a semi-precious gem of some delicacy.
+
+Haggling over the price is forbidden lest the magic fail.
+
+The spell does not become unracked in the normal course of events and
+neither does it reduce the Adept's FT value.
 
 # Incantations - E&E
 
@@ -4264,6 +4774,31 @@ Cost
 Constraints
 : Unracks the spell 
 
+## Bolt of Energy - Cooling
+
+Range
+: 25 feet (+ 5 feet / Rank)
+
+Duration
+: 1 hour (+ 1 hour / Rank)
+
+Resist
+: None
+
+Target
+: Volume
+
+Effects
+: Lowers the ambient temperature of one 15 × 15 × 15 foot cube by 2°C
+  / Rank.
+
+Cost
+: 750 Experience
+
+Constraints
+: Unracks the spell
+
+
 ## Bolt of Energy - Orb of Flight
 
 Range
@@ -4346,6 +4881,129 @@ Cost
 
 Constraints
 : Unracks the spell
+
+## Quicksilver Mind - Quick Witted
+
+Range
+: Self
+
+Duration
+: 20 minutes (+ 20 minutes / Rank)
+
+Resist
+: None
+
+Target
+: Sentient Entity
+
+Effects
+: This Incantation creates a pool of Magical Prepare Actions that the
+  Adept can perform in addition to and immediately prior to a Cast
+  Action according to the schedule below:
+
+------------------
+Rank      Magical
+          Prepare
+		  Actions
+--------  --------
+0 - 5     1
+
+6 - 10    2
+
+11 - 14   3
+
+15 - 17   4
+
+18 or 19  5
+
+20        6
+------------------
+
+It must be racked in a Complex Spell Matrix that also holds the
+Quicksilver Mind spell along with this Incantation.
+
+Cost
+: 2,000 Experience.
+
+Constraints
+: Unracks the spell, requires a Complex Spell Matrix, reduces FT value by 2
+
+## Telekinesis - Distant Feeling
+
+Range
+: 10 feet (+ 5 feet / Rank)
+
+Duration
+: 20 minutes (+ 20 minutes / Rank)
+
+Resist
+: None
+
+Target
+: Self
+
+Effects
+: This Incantation gives the Adept a partial,remote sense of touch
+that penetrates light,darkness,mist,fog or smoke without penalty. The
+sense propagates over a narrowly defined cone which is as wide at the
+base as its range and blocked by physical obstructions. The Adept can
+detect pressure and texture but not temperature or corrosiveness. They
+could tell that a bar of red hot iron is a solid metal but not its
+temperature or that aqua regia is a fluid but not that it will
+dissolve flesh.
+
+Within 5 feet (+ 5 feet per Rank), fine details may be made out,
+i.e. distinctions between individuals or that a bronze bell has just
+been rung. But,the sense provides no colour information,and it
+requires a 1 × PC (+5 × Rank) check to recognise someone from their
+appearance with it or vice versa. This is a function of their
+e×pertise with the sense,not a function of the magic,so applies even
+if the spell is not currently in effect.
+
+The sense is more vulnerable to magic that catastrophically changes
+pressure,although the Adept suffers no increased damage or the
+like. If they are in the volume of effect of a spell like Thunderclap
+or an explosion,when they make a percentile check to see if they have
+avoided the effects,they double the result to see if this sense has
+been blinded.
+
+This spell requires,as a catalyst, a bronze ring with the sign of the
+Eye of Fatima on the bezel, which may be worn on any finger of their
+dominant hand.
+
+Cost
+: 1,750 Experience.
+
+Constraints
+: Unracks the spell, catalyst: bronze ring of the Eye of Fatima
+
+## Ventriloquism - Whisperline
+
+Range
+: 90 feet
+
+Duration
+: 5 minutes (+ 3 minutes per Rank)
+
+Resist
+: None
+
+Target
+: Entity
+
+Effects
+: This Incantation allows the Adept to target 1 entity (+1 for every
+  even Rank). While duration persists and the entities are within
+  range, they can converse with each other clearly without being
+  overheard. If a target steps out of range, but duration remains,
+  then they automatically rejoin the speech community when close
+  enough.
+
+Cost
+: 2,500 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 1 
 
 # Incantations - Celestial
 
@@ -4516,6 +5174,43 @@ Cost
 Constraints
 : Unracks the spell, reduces FT value by 2 
 
+## Healing - Dark Physician
+
+Duration
+: 1 Pulse (+ 1 Pulse for every even Rank)
+
+Range
+: 5 ft 
+
+Resist
+: None
+
+Target
+: Dark Physician
+
+Effects
+: This Incantation summons a Physician from a sinister plane of
+  Darkness to a hex adjacent to the Adept. It has a combined FT & EN
+  of 1 rollup D10 (+1 rollup D10 for every even Rank) and a TMR of 4
+  (+ 1 for every even Rank). If the summoner can Speak to Creatures of
+  Darkness, they may give the Physician a new instruction with a Pass
+  Action or a Free Act while it is in line of sight and within range
+  of the Talent.
+
+The Dark Physician can move up to half its TMR then perform a Heal
+Action on an adjacent patient and vice versa. A Heal Action restores
+up to 1 (+1 for every even Rank) DP, which drains the Physician of a
+like amount. It knows when more Healing will not benefit the patient.
+
+It has no Defence or Magic Resistance and it is dissipated when its
+combined EN & FT falls to zero.  Double and Triple effects only apply
+to duration.
+
+Cost
+: 3,500 Experience
+
+Constraints
+: Unracks the spell, reduces FT value by 3
 
 ## Increased Gravity - The Gathering of Acheron
 
@@ -4751,6 +5446,99 @@ Cost
 
 Constraints
 : Unracks the spell, copper coin, reduces FT value by 2
+
+## Whitefire - Dark Riving
+
+Range
+: 30 feet (+ 15 feet / Rank)
+
+Duration
+: Immediate, during Pulse
+
+Resist
+: Active, Passive
+
+Storage
+: Ward, Magical Trap
+
+Target
+: Entity
+
+Effects
+: This Incantation summons a matte black spinning disc about a foot
+  across from a space between spaces and throws it at a target of the
+  Adept's choosing within range. The disc shatters against any target
+  that successfully Resists, inflicting 1 rollup D5 (+1 per Rank) of
+  bitterly cold spell damage. Failing to Resist means that the disc
+  has riven the target's heart entirely, either horizontally or
+  vertically at the Adept's choice. Mostly, this will just lead to
+  notifications to those who are Life- or Death-Aspected.
+
+Multi-hex creatures are treated differently by this spell since their
+hearts are more deeply buried. Even if they fail to Resist, the disc
+shatters. However, they take 1 rollup D10 (+2 per Rank) of bitterly
+cold spell damage, instead.
+
+This Incantation requires a heavy ring of truesilver distilled seven
+times and set with a black opal. This is a catalyst and must be worn
+on the Adept's left thumb.
+
+The ring will require the arts of a Rank 8+ Jeweller, the materials of
+which will cost 10,000 sp for the band and 12,000 sp for the
+stone. The Adept must pay the Jeweller 3,000 sp for their labour, and
+haggling cannot be engaged in lest the magic fail. This labour must be
+begun on a Sunday at dusk and completed on a Thursday after a Friday
+only if that day is darkened by storm. No other work can be undertaken
+during this time.
+
+Cost
+: 2,500 Experience.
+
+Constraints
+: Reduces FT value by 1, catalyst: truesilver ring set with black opal
+
+
+## Wall of Darkness - Knell of Doom
+
+Duration
+: 1 Pulse (+ 1 Pulse for every 4 Ranks)
+
+Range
+: 10 ft (+10 ft per Rank)
+
+Resist
+: None
+
+Target
+: Volume
+
+Effects
+: This Incantation manifests as a 
+
+- 1 hex bell made of darkness tolling above a cylinder 3 hexes high & 3 across
+- 2 hex bell made of darkness tolling above a cylinder 5 hexes high & 5 across at Rank 10
+- 3 hex bell made of darkness tolling above a cylinder 7 hexes high & 7 across at Rank 20
+
+The tone of the bell is a forlorn lamentation, dispiriting to the ear
+and burdensome to the spirit.
+
+Any mortal inside the volume cannot be Healed, whether by Spell,
+Talent, Consumable, Invested or Device.
+
+Any attempt to Cast, Trigger or Use a consumable that Heals inside the
+volume automatically fails.
+
+This lasts until duration expires or they leave the volume. 
+
+Racial Magic is unaffected.
+
+The Incantation requires a handbell made of ithildin as a catalyst.
+
+Cost
+: 2,500 Experience
+
+Constraints
+: Unracks the spell, reduces FT value by 2, catalyst: ithildin handbell
 
 
 ## Witchsight - Minor AoE
@@ -5224,6 +6012,98 @@ Cost
 Constraints
 : Unracks the spell, reagent: Liquor of the Poppy
 
+## Petit Mort - Breathless
+
+Duration
+: 2 hours (+30 minutes / Rank)
+
+Target
+: Self
+
+Effects
+: The Adept no longer needs to breathe and can ignore the effects of
+either a vaccuum or high pressure conditions (for example, deep under
+water). They may Cast spells in these conditions and it does not
+affect their ability to operate on the surface.
+
+Cost
+: 2500 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 2
+
+## Petit Mort - Deathwalker
+
+Duration
+: 20 minutes (+ 1 minute per Rank)
+
+Range
+: 15 feet (+ 5 feet per Rank)
+
+Target
+: Living Entity
+
+Effects
+: The Adept conceals the spirit of a living entity within range so as
+  to appear dead and uninteresting to the Undead. Other than that, it
+  does not provide any special defences against the Undead, nor does
+  it make them Invisible or Unseen. It may attract the attention of
+  intelligent Undead, who may identify a walking dead person as worth
+  particular investigation. Nevertheless, it allows Ivisibility,
+  Blending or Walking Unseen to work against an Undead observer
+
+Cost
+: 1,500 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 1
+
+## Petit Mort - The End of Pain & Joy
+
+Duration
+: 20 minutes (+ 20 minutes per Rank)
+
+Range
+: 15 feet (+ 5 feet per Rank)
+
+Target
+: Living Entity
+
+Effects
+: This Incantation allows the Adept to drain the all joy and suffering
+  from their target, who will increase their defences against Stun,
+  Pain, Fear, Charm or magic that attacks their mind at the expense of
+  draining their world of all joy.
+
+- At Ranks 2, 5, 8, 11, 14, 17: the target increases their Stun Factor by 1.
+
+- At Rank 20, they do not Stun while duration persists.
+
+- The target increases their Resistance by 3 versus magic that causes
+pain.  At Rank 20, they feel no Pain so automatically Resist the
+magic. If it has a secondary effect, they may attempt to Resist that,
+as well, by rolling under their Magic Resistance.
+
+- The target increases their Resistance by 3 versus magic that causes
+  Fear or that Charms. At Rank 20, they increase this Resistance by
+  30.
+
+- The target increases their WP with respect to Control Person,
+  Control Animal, Mental Attack, Phantasm or other magic from the
+  College of the Sorceries of the Mind which attack the intellect. At
+  Rank 20, this value doubles.
+
+When the Incantation ends, the target reduces the value of their WP
+stat by 1 for every ten minutes or part thereof that they have endured
+this magic. This will recover at a rate of 1 for every 3 days of rest,
+being defined as a day wherein they lose no more than half their FT.
+
+Cost
+: 5,000 Experience.
+
+Constraints
+: Unracks the spell, reduces FT value by 2
+
 ## Putrescence - Ripen
 
 Range
@@ -5246,38 +6126,38 @@ Cost
 Constraints
 : Unracks the spell
 
-## Petit Mort - Breathless
+## Putrid Wound - Bleeding Footprints
+
+Range
+: 15 feet (+ 15 feet / Rank)
 
 Duration
-: 2 hours (+30 minutes / Rank)
+: Special
+
+Resist
+: Active,Passive
 
 Target
-: Self
+: Entity with a circulatory system
 
 Effects
-: The Adept no longer needs to breathe and can ignore the effects of
-either a vaccuum or high pressure conditions (for example, deep under
-water). They may Cast spells in these conditions and it does not
-affect their ability to operate on the surface.
+: This Incantation inflicts a wound to the target's foot of 1 rollup
+  D10 unless they successfully Resist. Otherwise, it ignores
+  Protection, Damage Reduction or Spell Armour and cannot be Healed by
+  spell, Skill or device.
+
+While the wound is unhealed, the target leaves bloody footprints
+behind which is seeable only to the Adept. Obviously, not terribly
+handy against a swimming or flying opponent, assuming they even have
+heels.
+
+This incantation requires an arrowhead carved from bone as a reagent.
 
 Cost
-: 2500 Experience.
+: 500 Experience.
 
 Constraints
-: Unracks the spell, reduces FT value by 2
-
-## Putrid Wound - Chain Cast
-
-Effects
-: If Putrid Woound has been Cast the previous Pulse, this Incantation
-  may be Cast without Preparing it. The FT cost must still be paid,
-  however, if there is one.
-
-Cost
-: 750 Experience.
-
-Constraints
-: Unracks the spell
+: Unracks the spell, reagent: bone arrowhead
 
 
 ## Putrid Wound - Boiling Blood
@@ -5305,6 +6185,20 @@ Cost
 Constraints
 : Unracks the spell, reduces FT value by 1
 
+## Putrid Wound - Chain Cast
+
+Effects
+: If Putrid Woound has been Cast the previous Pulse, this Incantation
+  may be Cast without Preparing it. The FT cost must still be paid,
+  however, if there is one.
+
+Cost
+: 750 Experience.
+
+Constraints
+: Unracks the spell
+
+
 ## Putrid Wound - Spirit Dagger
 
 Resist
@@ -5327,6 +6221,144 @@ Cost
 
 Constraints
 : Unracks the spell, reduces FT value by 1
+
+## Rigor Mortis - Skeleton Lock
+
+Range
+: 15 feet (+ 15 feet / Rank)
+
+Duration
+: Special
+
+Resist
+: Active, Passive
+
+Target
+: Entity with a skeleton
+
+Effects
+: This Incantation siezes the target's musculature in a rictus and
+prevents them from moving their joints. Speech and eye movements are
+much less affected,which is of small comfort since they are locked
+rigid until they have taken a number of Pass Actions determined by the
+schedule below:
+
+-----------------
+Rank      Pass
+          Actions
+--------  -------
+0 - 5     1
+
+6 - 10    2
+
+11 - 14   3
+
+15 - 17   4
+
+18 or 19  5
+
+20        6
+-----------------
+
+They may,freely,however,take the opportunity to memorise the features
+of the Adept and pile insults upon them.  This Incantation requires
+the index finger bone of a ghul as a catalyst.
+
+Cost
+: 1,500 Experience.
+
+Constraints
+: Unracks the spell,catalyst: index finger bone of a ghul.
+
+## Spectral Hand - Earth Mover
+
+Duration
+: 1 hour
+
+Range
+: 15 feet (+ 5 feet / Rank)
+
+Resist
+: None
+
+Target
+: Shovel or spade
+
+Effects
+: This Incantation creates a spectral earth moving force which will
+  appear anywhere within range and may be directed by the Adept with a
+  Pass Action.
+
+The Earth Mover will shift a volume of earth, snow, broken stone
+etc. up to 20 feet over an hour according to the schedule below:
+
+\notosansfont
+
++---------------------------------------------------------------------+
+| Cubic Footage Table                                                 |
++=========+=========+=========+=========+=========+=========+=========+
+| Rank    | Snow    |    Sand | Earth   | Loose   |    Ice  | Stone   |
+|         |         |         |         | Rock    |         | Slabs   |
+|         |         |         |         |         |         |         |
+|         |         |         +---------+         |         |         |
+|         |         |         | Clay &  |         |         |         |
+|         |         |         | Soil    |         |         |         |
++---------+---------+---------+---------+---------+---------+---------+
+| 0       | 60      | 22 ½    | 18      | 12      | 9       | 6       |
++---------+---------+---------+---------+---------+---------+---------+
+| 1       | 68      | 25 ½    | 20 ⅖    | 13 ⅗    | 10 ⅕    | 6 ⅘     |
++---------+---------+---------+---------+---------+---------+---------+
+| 2       | 76      | 28 ½    | 22 ⅘    | 15 ⅕    | 11 ⅖    | 7 ⅗     |
++---------+---------+---------+---------+---------+---------+---------+
+| 3       | 84      | 31 ½    | 25 ⅕    | 16 ⅘    | 12 ⅗    | 8 ⅖     |
++---------+---------+---------+---------+---------+---------+---------+
+| 4       | 92      | 34 ½    | 27 ⅗    | 18 ⅖    | 13 ⅘    | 9 ⅕     |
++---------+---------+---------+---------+---------+---------+---------+
+| 5       | 100     | 37 ½    | 30      | 20      | 15      | 10      |
++---------+---------+---------+---------+---------+---------+---------+
+| 6       | 108     | 40 ½    | 32 ⅖    | 21 ⅗    | 16 ⅕    | 10 ⅘    |
++---------+---------+---------+---------+---------+---------+---------+
+| 7       | 116     | 43 ½    | 34 ⅘    | 23 ⅕    | 17 ⅖    | 11 ⅗    |
++---------+---------+---------+---------+---------+---------+---------+
+| 8       | 124     | 46 ½    | 37 ⅕    | 24 ⅘    | 18 ⅗    | 12 ⅖    |
++---------+---------+---------+---------+---------+---------+---------+
+| 9       | 132     | 49 ½    | 39 ⅗    | 26 ⅖    | 19 ⅘    | 13 ⅕    |
++---------+---------+---------+---------+---------+---------+---------+
+| 10      | 140     | 52 ½    | 42      | 28      | 21      | 14      |
++---------+---------+---------+---------+---------+---------+---------+
+| 11      | 148     | 55 ½    | 44 ⅖    | 29 ⅗    | 22 ⅕    | 14 ⅘    |
++---------+---------+---------+---------+---------+---------+---------+
+| 12      | 156     | 58 ½    | 46 ⅘    | 31 ⅕    | 23 ⅖    | 15 ⅗    |
++---------+---------+---------+---------+---------+---------+---------+
+| 13      | 164     | 61 ½    | 49 ⅕    | 32 ⅘    | 24 ⅗    | 16 ⅖    |
++---------+---------+---------+---------+---------+---------+---------+
+| 14      | 172     | 64 ½    | 51 ⅗    | 34 ⅖    | 25 ⅘    | 17 ⅕    |
++---------+---------+---------+---------+---------+---------+---------+
+| 15      | 180     | 67 ½    | 54      | 36      | 27      | 18      |
++---------+---------+---------+---------+---------+---------+---------+
+| 16      | 188     | 70 ½    | 56 ⅖    | 37 ⅗    | 28 ⅕    | 18 ⅘    |
++---------+---------+---------+---------+---------+---------+---------+
+| 17      | 196     | 73 ½    | 58 ⅘    | 39 ⅕    | 29 ⅖    | 19 ⅗    |
++---------+---------+---------+---------+---------+---------+---------+
+| 18      | 204     | 76 ½    | 61 ⅕    | 40 ⅘    | 30 ⅗    | 20 ⅖    |
++---------+---------+---------+---------+---------+---------+---------+
+| 19      | 212     | 79 ½    | 63 ⅗    | 42 ⅖    | 31 ⅘    | 21 ⅕    |
++---------+---------+---------+---------+---------+---------+---------+
+| 20      | 220     | 82 ½    | 66      | 44      | 33      | 22      |
++---------+---------+---------+---------+---------+---------+---------+
+
+\normalfont
+
+The columns for Ice and Stone reflect occasional efforts to break the
+material up enough for it to be moved.
+
+The Incantation requires a shovel or spade as a catalyst.
+
+Cost
+: 2,500 Experience
+
+Constraints
+: Unracks the spell, reduces FT value by 1, catalyst: shovel or spade.
 
 
 ## Spectral Warrior - Barque of the Night
@@ -5547,6 +6579,58 @@ Cost
 
 Constraints
 : Unracks the spell, reduces FT value by 3 
+
+## Stream of Corruption - Plague of Wasps
+
+Duration
+: Immediate, during Pulse
+
+Range
+: 30 feet (+ 5 feet / Rank)
+
+Resist
+: Passive
+
+Target
+: Volume
+
+Effects
+: This Incantation conjures a plaque of stinging, flying insects from
+  a realm of nightmare and horror. The creatures summoned form a
+  column which travels to the spell’s range, and is 5 feet wide. The
+  width may be increased by 2 foot for every even Rank. All entities
+  in the volume of effect must Resist or suffer [rollup D10] (+ 1 /
+  Rank) daamage from a magical venom.
+
+Living entities who are damaged by the swarm must roll percentiles and
+add their EN value to the result. If the result is less than 100, then
+they roll a D10 and apply the associated affliction:
+
+--------------------------------------------------------------
+Rank    Affliction
+------  ------------------------------------------------------
+1–4     Stings and bites inflame the skin, causing swelling
+        and intense itching. A 2 × WP check must succeed
+		whenever a Magical Prepare or Cast Action is
+		attempted.
+
+5–7     Venom inflicts convulsions. A 2 × MD check must
+        succeed whenever a Strike Check is attempted and
+		Fatigue is reduced by 3.
+
+8 or 9  Lassitude. a 2 × PS check must succeed whenever
+        movement is attempted and Fatigue is reduced by 4.
+
+10      An allergic reaction causes respiratory distress,
+        halving TMR while reducing Endurance and Fatigue by 5
+--------------------------------------------------------------
+
+Cost
+: 1,500 Experience
+
+Constraints
+: Reduces FT value by 1
+
 
 ## Warping - Folding × 2
 
