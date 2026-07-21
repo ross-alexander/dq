@@ -108,7 +108,7 @@ take a Rank 10 armour-smith 4 hours (and cost 55sp) to adjust the fit.
 
 # Standard Items
 
-## Mass Fear Invented
+## Mass Fear Invested
 
 3 × 1 Mass Fear Invested Rk 8 BC 85                      8,000
 
@@ -122,9 +122,9 @@ Repair Muscles.  5,000
 
 ## Restorative
 
-10 Gut Busters Rank 10 (-12EN and 24FT) 10,000 [×2 used]
+10 Gut Busters Rank 10 (-12EN and 24FT) 10,000 [×3 used]
 
-## Mass Fear Trap
+## Mass Fear Trap [Used]
 
 1 Rank 1 Mass Fear Trap Rg 25                          1,000
 
@@ -134,7 +134,7 @@ Repair Muscles.  5,000
 
 ## Healing Potion
 
-6 Healing 10 Point 5,500 [×2 used]
+6 Healing 10 Point 5,500 [×3 used]
 
 ## Healing Potion
 

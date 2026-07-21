@@ -42,6 +42,9 @@ def format_yaml_jinja(opts):
     with open(opts['inpath'], encoding='utf-8') as stream:
         npc_list = load(stream, Loader=Loader)
 
+    tmpl_base = os.path.basename(opts['template'])
+    tmpl_dir = os.path.dirname(opts['template'])
+
     latex_jinja_env = jinja2.Environment(
         block_start_string = '\\BLOCK{',
         block_end_string = '}',
@@ -53,11 +56,11 @@ def format_yaml_jinja(opts):
         line_comment_prefix = '%#',
         trim_blocks = True,
         autoescape = False,
-        loader = jinja2.FileSystemLoader(os.path.abspath('.'))
+        loader = jinja2.FileSystemLoader([os.path.abspath('.'), tmpl_dir])
     )
 
     latex_jinja_env.filters['texify'] = texify
-    template = latex_jinja_env.get_template(opts['template'])
+    template = latex_jinja_env.get_template(tmpl_base)
 
     
     # --------------------
