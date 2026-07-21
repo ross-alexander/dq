@@ -6786,12 +6786,14 @@ They
 
 * may advance Talents 5 Ranks to a maximum of 20.
 
-* may advance these Adventuring Skills 1 Rank at 10% less Experience, and without taking any training time.
-  - ✗ Climbing
-  - ✔ Flying
-  - ✗ Horsemanship
-  - ✔ Stealth
-  - ✗ Swimming
+* may advance these Adventuring Skills 1 Rank at 10% less Experience,
+  and without taking any training time.
+
+  * [ ] Climbing
+  * [✔] Flying
+  * [ ] Horsemanship
+  * [x] Stealth
+  * [ ] Swimming
 
 * have been immersed in the language, Cainite, for 12 weeks & 6 days,
   and can use this as training time at a reduction of 10% of the
@@ -6865,11 +6867,11 @@ They
 * may advance these Adventuring Skills 1 Rank at 10% less than the
   usual cost, and without taking any training time.
 
-  - ✗ Climbing
-  - ✔ Flying
-  - ✗ Horsemanship
-  - ✔ Stealth
-  - ✗ Swimming
+  * [ ] Climbing
+  * [x] Flying
+  * [ ] Horsemanship
+  * [x] Stealth
+  * [ ] Swimming
   
 * have been immersed in the language, Cainite, for 12 weeks & 6 days,
   and can use this as training time at a reduction of 10% of the
@@ -6952,18 +6954,22 @@ season, which expires upon death, however temporary.
 Experience Award
 : 75,162
 
-Ishamael has been away 6 months, 2 weeks and 6 days, less training time of 5 months, 2 weeks and 2 days, leaving 1 month and 4 days of adventuring time. 
+Ishamael has been away 6 months, 2 weeks and 6 days, less training
+time of 5 months, 2 weeks and 2 days, leaving 1 month and 4 days of
+adventuring time.
 
 They 
     
 * may advance Talents 5 Ranks to a maximum of 20.
 
-* may advance these Adventuring Skills 1 Rank at 10% less than the usual cost, and without taking any training time.
-  - ✔ Climbing
-  - ✔ Flying
-  - ✗ Horsemanship
-  - ✔ Stealth
-  - ✗ Swimming
+* may advance these Adventuring Skills 1 Rank at 10% less than the
+  usual cost, and without taking any training time.
+  
+  * [x] Climbing
+  * [x] Flying
+  * [ ] Horsemanship
+  * [x] Stealth
+  * [ ] Swimming
 
 * have been immersed in Thari for 6 weeks & 3 days and can use this as
   training time at a reduction of 10% of the normal Experience,
@@ -7023,11 +7029,11 @@ They
 * may advance these Adventuring Skills 1 Rank at 10% less than the
   usual cost, and without taking any training time.
 
-  - ✗ Climbing
-  - ✔ Flying
-  - ✗ Horsemanship
-  - ✔ Stealth
-  - ✗ Swimming
+  * [ ] Climbing
+  * [x] Flying
+  * [ ] Horsemanship
+  * [x] Stealth
+  * [ ] Swimming
 
 * have been immersed in the language, Cainite, for 12 weeks & 6 days,
   and can use this as training time at a reduction of 10% of the
