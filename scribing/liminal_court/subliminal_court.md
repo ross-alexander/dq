@@ -1746,6 +1746,27 @@ norns
 
 # Items - Unclaimed
 
+## Chisel Teeth × 7
+
+These teeth come from the maw of a rockwyrm. They are flat and around
+1 inch wide by 9 inches long. They weigh 2 oz, each, and can be ground
+to make various types of cold chisel; flat, cape, diamond point and
+round nose and are much harder than steel.
+
+An atrisan who is working with metal or masonry will have their Skill
+improved by 10% for an operation that involves their use.
+
+## Rockwyrm Egg × 2
+
+This egg is so large that only orcs or hill giants are able to swallow
+it without assistance, others would have to have their jaw dislocated
+or broken before it can be passed down the gullet.
+
+Once it arrives in the stomach, it will become dormant, and only
+become active again if the consumer's EN value falls below 1,
+whereupon, it will restore 20 DP, the remains of the egg being
+eliminated some time later.
+
 ## Pale Dwarven Chain Shirt
 
 This chain shirt is made from a magical alloy of steel that is dove
@@ -5226,6 +5247,11 @@ Effects
   value unless the preferred result would be high. This is a minor
   curse.
 
+Cost
+: 5,000 Experience
+
+Constraints
+: Unracks the spall, reduces FT value by 2
 
 ## Increased Gravity - Gravity Well
 
@@ -6716,3 +6742,310 @@ Unarmed
 In melee, they can deliver a horn attack without penalty (but not
 against shorter opponents like dwarves or hobbits).
 
+# Awards
+
+## Award for The Subliminal Court - Slaydar
+DM
+: Jim Arona
+
+Slaydar leaves on 24th day of Fruit 825 WK, returns to Seagate on the
+30th day of Harvest 825 WK and, now, may be styled “Grave Speaker”.
+
+He has gathered together the spirits of an extinct, chaos-touched
+nomadic people distantly descended of the Nephilim, called the
+Saka. They bear a strong resemblance to Orcs and worship, among
+others, a cold and detached primordial called Krom.
+
+When Slaydar gathers together a tribe, the relict Saka ancestors will
+form their shamanic background, which will foster a sense of cohesion
+and community and may, with time, become a people.
+
+The Saka will support the kind of activities that they revered in
+life: wander the land, sandy wastes & shores, honour nature, its
+cycles & the spirits of the wild, revere freedom, visit vengeance upon
+those who bring harm to them or those they love and to hear the
+lamentation of their womenfolk.
+
+Next, Slaydar will need to find such a group and candidates to take on
+important roles within it. Particularly, someone healthy, young not
+too psychopathic and d--b perceptive enough to see the wisdom of those
+more experienced, if, perhaps, less physically able.
+
+Experience Award
+: 78,314, adjusted for 1.1 Racial Tax: 71,194 1/9 
+
+Slaydar has been away 6 months, 2 weeks and 6 days, less training time
+of 5 months, 2 weeks and 2 days, leaving 1 month and 4 days of
+adventuring time.
+
+He arrives in the Rift Valley of Nualis on the 1st day of Meadow 825
+WK, and may engage in training with the Grigorii, who reduce the
+Experience cost of any Artisan or Professional Skill by a further 10%.
+
+They 
+
+* may advance Talents 5 Ranks to a maximum of 20.
+
+* may advance these Adventuring Skills 1 Rank at 10% less Experience, and without taking any training time.
+  - ✗ Climbing
+  - ✔ Flying
+  - ✗ Horsemanship
+  - ✔ Stealth
+  - ✗ Swimming
+
+* have been immersed in the language, Cainite, for 12 weeks & 6 days,
+  and can use this as training time at a reduction of 10% of the
+  normal Experience, stacking with other benefits, but to a maximum of
+  Rank 6.
+
+* have been immersed in the language, Thari, for 6 weeks & 3 days, and
+  can use this as training time at a reduction of 10% of the normal
+  Experience, stacking with other benefits, but to a maximum of Rank
+  6.
+
+* have been immersed in Common for 12 weeks & 6 days and can use this
+  as training time at a reduction of 10% of the normal Experience,
+  stacking with other benefits, but to a maximum of Rank 8.
+
+* have used the Professional Skill Courtier extensively on adventure
+  so can use these experiences in the place of six weeks of training
+  time and pay 10% less Experience on their next Rank.
+
+* have used the Professional Skill Military Scientist extensively on
+  adventure so can use these experiences in the place of six weeks of
+  training time and pay 10% less Experience on their next Rank.
+
+* have used the Professional Skill Ranger extensively on adventure so
+  can use these experiences in the place of six weeks of training time
+  and pay 10% less Experience on their next Rank.
+ 
+## Award for The Subliminal Court - Artephius
+
+DM
+: Jim Arona
+
+Artephious leaves on 24th day of Fruit 825 WK. He arrives in the Rift
+Valley of Nualis on the 1st day of Meadow 825 WK, and may engage in
+training with the Grigorii for 40 days, who reduce the Experience cost
+of any Artisan or Professional Skill by a further 10%. After this, he
+is transported to the Underworld where he was tasked with mowing the
+banks of the Styx until returning to Seagate on the 30th day of
+Harvest 826 WK.
+
+Artephious can invest an image from his memory or imagination into a
+Crystal of Vision that he creates. This boon is granted him by Styx,
+who thinks of Artephious as Her hairdresser and likes to be advised of
+the latest fashions.
+
+An oath taken in Her name and in his presence attracts Her attention
+if it is broken. In particular, an oath taken in Her name that is
+broken by a deity or power of Her pantheon “must lie breathless until
+a full year is completed, and never come near to taste ambrosia and
+nectar, but lie spiritless and voiceless on a strewn bed: and a heavy
+trance overshadows them. But when They have spent a long year in Their
+sickness, another penance more hard follows after the first. For nine
+years They are cut off from the eternal gods and never joins Their
+councils or Their feasts, nine full years. ”
+
+This has no affect on Hades, who does not need to breathe, could not
+give a tiny rat’s bottom about Olympus but, to be fair, rarely breaks
+His given word.
+
+Experience Award
+:  70,753 1/2 
+
+Artephious has been on adventure for 6 months, 2 weeks and 6 days,
+less training time of 5 months, 2 weeks and 2 days, leaving 1 month
+and 4 days of adventuring time.
+
+They 
+
+* may advance Talents 5 Ranks to a maximum of 20.
+
+* may advance these Adventuring Skills 1 Rank at 10% less than the
+  usual cost, and without taking any training time.
+
+  - ✗ Climbing
+  - ✔ Flying
+  - ✗ Horsemanship
+  - ✔ Stealth
+  - ✗ Swimming
+  
+* have been immersed in the language, Cainite, for 12 weeks & 6 days,
+  and can use this as training time at a reduction of 10% of the
+  normal Experience, stacking with other benefits, but to a maximum of
+  Rank 6.
+
+* have been immersed in Orcish for 12 weeks & 6 days and can use this
+  as training time at a reduction of 10% of the normal Experience,
+  stacking with other benefits, but to a maximum of Rank 8.
+
+* have used the Artisan Skill Jeweller extensively on adventure so can
+  use these experiences in the place of six weeks of training time and
+  pays 10% less Experience on their next Rank.
+
+* have used the Artisan Skill Gardener extensively on the banks of the
+  Styx so can use these experiences in the place of 17 weeks and 1 day
+  of training time and pays 1/3rd less of the Experience cost.
+
+* have used the Professional Skill Philosopher extensively on
+  adventure so can use these experiences in the place of six weeks of
+  training time and pays 10% less Experience on their next Rank. If
+  they learn the Realm “the Magical World”, they receive, for free,
+  the fields “the Underworld” and “the Pantheon” of Her kind, being
+  the Primordials which is a subgroup of those like Hades, albeit much
+  older.
+
+* have used the Professional Skill Astrologer extensively on adventure
+  so can use these experiences in the place of six weeks of training
+  time and pays 10% less Experience on their next Rank.
+
+## Award for The Subliminal Court - Ishamael
+
+DM
+: Jim Arona
+
+Ishamael leaves on 24th day of Fruit 825 WK and returns to Seagate on
+the 30th day of Harvest 825 WK and, now, is armigerous, entitled to
+the sumptuary privileges of the lowest rank of the gentry, and his
+successors are considered gently born.
+
+He has been admitted to the Chthonic Order as a deacon and may be
+styled that way. They do not engage in evangelism or pastoral
+care. Indeed, most members would not understand such things. They are
+inquisitorial, often deal with breaches of mortality, and are casually
+clandestine.
+
+The order does not like indignities that are offered to corpses and
+opposes animating the dead, especially when relatives are
+involved. Otherwise, however, they pursue that sort of thing in a
+fairly desultory way. They take a much more animated approach when the
+undead are sentient, and distinctly alarmed if life-draining is
+involved. If the numbers of undead seem to be increasing, they will
+likely convoke an Inquisition to deal with it.
+
+They are fanatically pursuant of those that mock Hades, and will, sub
+poena mortis, bend every effort to bring them to his court to discuss
+the matter. This is usually a short sentence with a very large full
+stop.
+
+In this adventure, Ishamael has served Hades well, which, given His
+well-deserved reputation for being a grumpy old bugger, you’d never
+know. However, he has been awarded 5 obols, the coins used to cover
+the eyes of the dead, a currency that is widely respected.  Well.
+Feared.
+
+Ishamael may use one of these coins to buy safe passage (for him and
+his allies) between mortal realms by way of the Underworld, even
+places that are separated by the Abyss. This travel must begin by
+dusk, arriving, usually, before dawn whereupon everyone is drained of
+an amount equal to the size of the party. This will track from Fatigue
+to Endurance with no barrier between these reserves and cannot be
+Healed by magic or Skill. Drain from Fatigue can be restored in the
+usual way, but Endurance drain must be recovered by means of Natural
+Healing. Only those who cannot die can avoid or mitigate it.
+ 
+Frequent travellers in sufficient favour can acquire a Season Pass at
+a cost of 10 obols. This entitles them to use the Underworld once per
+season, which expires upon death, however temporary.
+
+Experience Award
+: 75,162
+
+Ishamael has been away 6 months, 2 weeks and 6 days, less training time of 5 months, 2 weeks and 2 days, leaving 1 month and 4 days of adventuring time. 
+
+They 
+    
+* may advance Talents 5 Ranks to a maximum of 20.
+
+* may advance these Adventuring Skills 1 Rank at 10% less than the usual cost, and without taking any training time.
+  - ✔ Climbing
+  - ✔ Flying
+  - ✗ Horsemanship
+  - ✔ Stealth
+  - ✗ Swimming
+
+* have been immersed in Thari for 6 weeks & 3 days and can use this as
+  training time at a reduction of 10% of the normal Experience,
+  stacking with other benefits, but to a maximum of Rank 6.
+
+* have been immersed in the language, Cainite, which is an isolate,
+  for 12 weeks & 6 days, and can use this as training time at a
+  reduction of 10% of the normal Experience, stacking with other
+  benefits, but to a maximum of Rank 6.
+
+* have been immersed in Orcish for 12 weeks & 6 days and can use this
+  as training time at a reduction of 10% of the normal Experience,
+  stacking with other benefits, but to a maximum of Rank 8.
+
+* have used the Professional Skill Merchant extensively on adventure
+  so can use these experiences in the place of six weeks of training
+  time and pays 10% less Experience on their next Rank.
+
+* have used the Professional Skill Herbalist extensively on adventure
+  so can use these experiences in the place of six weeks of training
+  time and pays 10% less Experience on their next Rank.
+
+* have used the Professional Skill Thief extensively on adventure so
+  can use these experiences in the place of six weeks of training time
+  and pays 10% less Experience on their next Rank.
+
+* have used the Professional Skill Military Scientist extensively on
+  adventure so can use these experiences in the place of six weeks of
+  training time and pays 10% less Experience on their next Rank.
+
+## Award for The Subliminal Court - Sin
+
+DM
+: Jim Arona
+
+Sin leaves on 24th day of Fruit 825 WK, and, now, may use the style
+“Moonblade”. They are armigerous, entitled to the sumptuary privileges
+of the gentry, are considered gently born, and this is passed on to
+their descendants.
+
+Experience Award
+:  69,577, adjusted for 1.1 Racial Tax: 63,251 5/6
+
+Sin has been away 6 months, 2 weeks and 6 days, less training time of
+5 months, 2 weeks and 2 days, leaving 1 month and 4 days of
+adventuring time.
+
+She arrives in the Rift Valley of Nualis on the 1st day of Meadow 825
+WK, and may engage in training with the Grigorii, who reduce the
+Experience cost of any Artisan or Professional Skill by a further 10%
+and returns to Seagate on the 30th day of Harvest 825 WK.
+
+They 
+    
+* may advance Talents 5 Ranks to a maximum of 20.
+
+* may advance these Adventuring Skills 1 Rank at 10% less than the
+  usual cost, and without taking any training time.
+
+  - ✗ Climbing
+  - ✔ Flying
+  - ✗ Horsemanship
+  - ✔ Stealth
+  - ✗ Swimming
+
+* have been immersed in the language, Cainite, for 12 weeks & 6 days,
+  and can use this as training time at a reduction of 10% of the
+  normal Experience, stacking with other benefits, but to a maximum of
+  Rank 6.
+
+* have been immersed in the language, Thari, for 6 weeks & 3 days, and
+  can use this as training time at a reduction of 10% of the normal
+  Experience, stacking with other benefits, but to a maximum of Rank 6.
+
+* have been immersed in Common for 12 weeks & 6 days and can use this
+  as training time at a reduction of 10% of the normal Experience,
+  stacking with other benefits, but to a maximum of Rank 8.
+
+* have used the Professional Skill Healer extensively on adventure so
+  can use these experiences in the place of six weeks of training time
+  and pays 10% less Experience on their next Rank.
+
+* have used the Artisan Skill Sculptor extensively on adventure so can
+  use these experiences in the place of six weeks of training time and
+  pays 10% less Experience on their next Rank.
