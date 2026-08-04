@@ -8,11 +8,10 @@ The value of a coin is determined by its weight and metal of which it is made.
 
 \smallskip
 
-\begin{pricetblr}{
-    colspec={lll},
+\begin{cointblr}{
+    colspec={XQ[r,4em]Q[r,4em]},
     rowsep=0.0pt,
     stretch=0.9,
-    rows={font=\small},
     hlines={lightgray},
     }
 Name                   & Weight        &  Conv. \\
@@ -20,7 +19,7 @@ Copper farthing (cf)   & 1/5 oz        & \\
 Silver penny (sp)      & 1/20 oz       & 4 cf \\
 Gold shilling (gs)     & 1/20 oz       & 12 sp \\
 Truesilver guinea (tg) & 1/10 oz       & 21 gs 252sp \\
-\end{pricetblr}
+\end{cointblr}
 
 \smallskip
 
@@ -31,11 +30,10 @@ which it is made.
 
 \smallskip
 
-\begin{pricetblr}{
-    colspec={lll},
+\begin{cointblr}{
+    colspec={XQ[r,4em]Q[r,4em]},
     rowsep=0.0pt,
     stretch=0.9,
-    rows={font=\small},
     hlines={lightgray},
     }
 Name                     & Weight   & Conv. \\
@@ -44,7 +42,7 @@ Gold Ingot               & 5 lb     & 19,200 sp \\
 Platinum Ingot           & 5 lb     & 20,800 sp \\
 Half Truesilver Ingot    & 1/2 lb   & 20,160 sp \\
 Truesilver Ingot         & 1 lb     & 40,320 sp \\
-\end{pricetblr}
+\end{cointblr}
 
 Some ingots come in long strips with indentations to snap them at ¼
 and ½ of the ingot value. The values and weights of these coins
@@ -55,23 +53,22 @@ correspond to those of the Silver Penny.
 \subsection{Useful Measurements}
 
 \begin{multicols}{2}
-
-
+  \raggedcolumns
+  
 In DQ we use imperial measurement system partly because the original
 DQ rules used it, but mostly these days to remind players they are not
 in the modern world. Here are many of the commonly used measurements.
 
 \subsubsection{Distance}
 
-\begin{pricetblr}{colspec={XX},
-    vlines={lightgray},
+\begin{cointblr}{colspec={Xr},
     hlines={lightgray},
     cell{5}{1}={r=2}{l},
     cell{10}{1}={r=2}{l},
     cell{12}{1}={r=3}{l},
     rowsep=0.0pt,
     stretch=0.9,
-    rows={font=\small},
+    hline{6,11,13,14}={black,0pt},
   }
 12 inches                     & 1 foot \\
 3 feet                        & 1 yard \\
@@ -87,11 +84,10 @@ Max bow range                 & 375 yards \\
 1 nautical mile               & 1.15 miles \\
                               & 6080 feet  \\
                               & 2027 yards \\
-\end{pricetblr}
+\end{cointblr}
 
 \subsubsection{Celestial Wings or Air Mage Flying spell}
-\begin{pricetblr}{colspec={XX},
-    vlines={lightgray},
+\begin{cointblr}{colspec={XQ[r,6em]},
     hlines={lightgray},
     rowsep=0.0pt,
     stretch=0.9,
@@ -100,30 +96,29 @@ Max bow range                 & 375 yards \\
 Rank 6          & 126 miles \\
 Rank 10         & 220 miles \\
 Rank 20         & 525 miles \\
-\end{pricetblr}
+\end{cointblr}
 
 \subsubsection{Air Mage Cloud Ritual}
 
-\begin{pricetblr}{colspec={XXX},
-    vlines={lightgray},
+\begin{cointblr}{colspec={XQ[r,6em]Q[r,6em]},
     hlines={lightgray},
     rowsep=0.0pt,
     stretch=0.9,
-    rows={font=\small},
   }
 Rank 6 Cloud   & 420 miles    & 7 entities \\
 Rank 10 Cloud  & 1210 miles   & 11 entities \\
 Rank 20 Cloud  & 4410 miles   & 21 entities \\
-\end{pricetblr}
+\end{cointblr}
 
 
 \subsubsection{Weight}
-\begin{pricetblr}{colspec={XX},
-    vlines={lightgray},
+\begin{cointblr}{
+    colspec={Xr},
     hlines={lightgray},
     rowsep=0.0pt,
     stretch=0.9,
-    rows={font=\small},
+    cell{1,5}{1}={r=2}{l},
+    hline{2,6}={black,0pt},
   }
 1 pennyweight            & 1 silver penny \\
                          & 1 gold shilling \\
@@ -133,16 +128,17 @@ Rank 20 Cloud  & 4410 miles   & 21 entities \\
                          & 1 pound \\
 1 hundredweight          & 112 pounds \\
 1 ton                    & 2000 pounds \\
-\end{pricetblr}
+\end{cointblr}
 
 \subsubsection{Fluid Volumes}
 
-\begin{pricetblr}{colspec={XX},
-    vlines={lightgray},
+\begin{cointblr}{
+    colspec={Xr},
     hlines={lightgray},
     rowsep=0.0pt,
     stretch=0.9,
-    rows={font=\small},
+    cell{5}{1}={r=2}{l},
+    hline{6}={black,0pt},
   }
 1 pint                  & 16 fluid ounces \\
 1 quart                 & 2 pints \\
@@ -151,16 +147,17 @@ Rank 20 Cloud  & 4410 miles   & 21 entities \\
 1 barrel                & 44 gallons \\
                         & weighs 352 lb \\
 1 pond                  & "1000 gallons" \\
-\end{pricetblr}
+\end{cointblr}
 
 \subsubsection{Area}
 
-\begin{pricetblr}{colspec={XX},
-    vlines={lightgray},
+\begin{cointblr}{
+    colspec={Xr},
     hlines={lightgray},
     rowsep=0.0pt,
     stretch=0.9,
-    rows={font=\small},
+    cell{2,4,7}{1}={r=2}{l},
+    hline{3,5,8}={black,0pt},
   }
 1 sq yard                & 9 sq feet \\
 20 square feet           & 2.2 yards \\
@@ -171,32 +168,31 @@ Rank 20 Cloud  & 4410 miles   & 21 entities \\
 1 acre                   & 2000 hexes \\
                          & 4840 sq yards \\
 1 sq mile                & 640 acres \\
-\end{pricetblr}
+\end{cointblr}
 
 \subsubsection{Speed}
 
-\begin{pricetblr}{colspec={XX},
-    vlines={lightgray},
+\begin{cointblr}{colspec={Xr},
     hlines={lightgray},
     rowsep=0.0pt,
     stretch=0.9,
-    rows={font=\small},
   }
 1 mph                    & 1.5 TMR \\
 1 knot                   & 1 nautical mile / hour \\
 max boat                 & speed 25 knots \\
 min wing speed           & 30 mph \\
 speed of sound           & 760 mph \\
-\end{pricetblr}
+\end{cointblr}
 
 \subsubsection{Combined Measures}
 
-\begin{pricetblr}{colspec={XX},
-    vlines={lightgray},
+\begin{cointblr}{colspec={Xr},
     hlines={lightgray},
     rowsep=0.0pt,
     stretch=0.9,
-    rows={font=\small},
+    cell{5}{1}={r=2}{l},
+    cell{7}{1}={r=3}{l},
+    hline{6,8,9}={black,0pt},
   }
 1 lb of silver                     & 320sp \\
 1 lb of gold                       & 3840sp \\
@@ -207,6 +203,6 @@ speed of sound           & 760 mph \\
 1 cubic foot of ice                & 47.2 lbs \\
                                    & 5.9 gallons \\
                                    & (when melted) \\
-\end{pricetblr}
+\end{cointblr}
 
 \end{multicols}
