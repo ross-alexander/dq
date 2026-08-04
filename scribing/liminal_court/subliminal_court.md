@@ -5141,39 +5141,23 @@ Target
 : Volume of Effect
 
 Effects
-: The Adept Casts a devastating cascade that effects the three hexes
-  in front of them. This extends a hex further for every 10 Ranks. Any
-  entity or object caught in the volume of efect must Resist or suffer
-  1 rollup D10 (+1 Radiant damage per Rank) (+1 rollup D10 for every
-  ten Ranks).
-
-For the total count of non-prime numbers less than or equal to the
-damage inflicted, targets are thrown away from the Adept as many feet,
-and must Break 100, adding their Agility to the result, or fall Prone.
-
-E.g., if the spell inflicts 23 damage then targets will be thrown 14
-feet further away from the Adept, since 22 is the 14th non-prime.
-
-1    4    6    8    9    10   12   14   15    16  18   20   21   22   24   25   26 
----  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---
-1    2    3    4    5    6    7    8    9    10   11   12   13   14   15   16   17
-
-27   28   30   32   33   34   35   36   38   39   40   42   44   45   46
----  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---  ---
-18   19   20   21   22   24   25   26   27   28   29   30   31   32   33
+: This Incantation creates a devastating cascade that affects the
+three hexes in front of them. This extends a hex further for every 10
+Ranks. Any entity or object caught in the volume must Resist or suffer
+1 rollup D10 (+1 Radiant damage per Rank) (+1 rollup D10 for every ten
+Ranks).
 
 Because the damage is Radiant in nature, undead must roll under half
-their Magic Resistance to escape its effects.
-
-Additionally, if the Cast Check falls in the range of a Double Effect,
-the Rank of the spell is increased by five. If it falls in the range
-of a Triple Effect, then the Rank is increased by fifteen.
+their Magic Resistance to escape its effects.  Additionally, if the
+Cast Check falls in the range of a Double Effect, the Rank of the
+spell is increased by five.  If it falls in the range of a Triple
+Effect, then the Rank is increased by fifteen.
 
 Cost
-: 2500 Experience.
+: 2,000 Experience
 
 Constraints
-: Unracks the spell, reduces FT value by 2 
+: Unracks the spell, reduces FT value by 2
 
 ## Bolt of Starfire - Bolt of Phlegethon
 

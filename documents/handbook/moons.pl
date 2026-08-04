@@ -43,6 +43,11 @@ sub moon {
     $cr->stroke();
 }
 
+# ----------------------------------------------------------------------
+#
+# M A I N
+#
+# ----------------------------------------------------------------------
 
 my $r = 100;
 my $m = 10;
@@ -67,23 +72,17 @@ for my $phase (@$phases)
     $cr->restore();
 }
 
+my $id = 0;
+for my $phase (@$phases)
+{
+    my $path = sprintf("moon%d.svg", $id++);
+    my $image = Cairo::SvgSurface->create($path, $r*2 + $m*2, $r*2 + $m*2);
+    my $cr = Cairo::Context->create($image);
+    $cr->save();
+    $cr->translate($r + $m, $r + $m);
+    moon($cr, $r, $phase->{name});
+    $cr->restore();
+}
+
+
 exit 0;
-
-# $cr->save();
-# $cr->translate(2*$r + $r, $r);
-# moon($r, "waning");
-# $cr->restore();
-
-
-# $cr->save();
-# $cr->translate($r, 2*$r + $r);
-# moon($r, "waxing");
-# $cr->restore();
-
-# $cr->save();
-# $cr->translate(2*$r + $r, 2*$r + $r);
-# moon($r, "new");
-# $cr->restore();
-
-
-# $image->write_to_png("$name.png");

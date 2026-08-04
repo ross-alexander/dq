@@ -133,10 +133,12 @@ Callas :
   cast_chance:
     - description: With purification
       items:
-        - name: MA over 15 (23)
-          cc: 8
+        - name: MA over 15 (24)
+          cc: 9
         - name: Purification MA
-          cc: 5
+          cc: 4
+        - name: Voidsilk Bonus
+          cc: 1
         - name: Earth Aspect
           cc: 1
         - name: Staff of the Woodlands
@@ -179,13 +181,15 @@ Jedburgh :
         - { 'name': 'Amulet of Luck', 'def': 2 }
         - { 'name': 'Shield of Chaos', 'def': 25 }
         - { 'name': 'Warrior', 'def': 16 }
-        - { 'name': 'Evading with Sword', 'def': 31 }
+        - { 'name': 'Armour of Earth', 'def': 24 }
+        - { 'name': 'Evading with Sword', 'def': 38 }
     - description: Glaive
       items:
         - { 'name': 'Modified Agility', 'def': 22 }
         - { 'name': 'Amulet of Luck', 'def': 2 }
         - { 'name': 'Warrior', 'def': 16 }
-        - { 'name': 'Evading with Glaive', 'def': 37 }
+        - { 'name': 'Evading with Glaive', 'def': 46 }
+        - { 'name': 'Armour of Earth', 'def': 24 }
   attack:
     - description: Glaive SC
       items:

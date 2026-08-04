@@ -21,7 +21,8 @@
 \RequirePackage{fancyhdr}
 \RequirePackage{textcomp}
 \RequirePackage{float}
-\RequirePackage[margin=15mm]{geometry}
+\RequirePackage[top=15mm,bottom=15mm,left=10mm,right=10mm,paper=a4paper]{geometry}
+\RequirePackage{tabularray}
 
 \ifxetex
   \RequirePackage{fontspec}
@@ -106,15 +107,15 @@
 
 %% %%% ONE-SIDED/TWO-SIDED DEPENDENCIES
 
-\if@twoside % ``book'' style was chosen
-  \oddsidemargin -15.0 mm
-  \evensidemargin -15.0 mm
-  \textwidth 188mm
-\else % if not book style, then
-  \oddsidemargin -6.3mm
-  \evensidemargin\oddsidemargin
-  \textwidth 182mm
-\fi
+%% \if@twoside % ``book'' style was chosen
+%%   \oddsidemargin -15.0 mm
+%%   \evensidemargin -15.0 mm
+%%   \textwidth 188mm
+%% \else % if not book style, then
+%%   \oddsidemargin -6.3mm
+%%   \evensidemargin\oddsidemargin
+%%   \textwidth 182mm
+%% \fi
 
 \addtolength{\parskip}{0.3 em}
 \setlength\headsep{5pt}

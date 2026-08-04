@@ -163,7 +163,7 @@ sub Update_Adventure {
 	    exit(1);
 	}
 	$state->{money} = $amount;
-	printf("Money: in $in -- spent -- $out -- out $amount\n\n");
+	printf("Money: in $in -- spent -- $out -- out $amount -- %s\n\n", $m->{date});
     }
 
     # --------------------

@@ -1,0 +1,173 @@
+% ----------------------------------------------------------------------
+%
+% 2026-07-27: Convert from PDF
+%
+% ----------------------------------------------------------------------
+
+\documentclass{article}
+
+\usepackage[paper=a4paper,top=10mm,bottom=15mm,left=10mm,right=10mm]{geometry}
+\usepackage{fontspec}
+\usepackage{multicol}
+\usepackage{tabularray}
+\usepackage[skip=3pt plus 2pt minus 2pt, indent=0mm]{parskip}
+\usepackage[svgnames,x11names,dvipsnames]{xcolor}
+\usepackage{titlesec}
+\usepackage{libertine}
+
+\setmainfont{Linux Biolinum O}[Scale=0.8]
+
+% --------------------
+% Extra colours
+% --------------------
+
+\definecolor{tcblue}{RGB}{25,64,122}
+\definecolor{tcgreen}{RGB}{19,142,61}
+\definecolor{price}{named}{olive7}
+  
+% --------------------
+% Title sections
+% --------------------
+
+\titleformat{\section}%{command}
+[block]%[shape]
+{\Huge\bfseries\scshape\color{tcblue}}%{format}
+{\setlength\fboxsep{0pt}%
+\colorbox{tcblue}{\parbox[c][20mm][c]{20mm}{%
+\centering\color{white}\fontsize{60}{80}\selectfont\thesection}%
+}%
+}%{label}
+{1cm}%{sep}
+{\raggedleft\hfill}%{before}
+[]%[after]
+
+\titleformat{\subsection}%{command}
+[block]%[shape]
+{\centering\bfseries\scshape\color{tcblue}}%{format}
+{}%{label}
+{1mm}%{sep}
+{}%{before}
+[\hfill]%[after]
+
+\titlespacing{\subsection}{0pt}{0.5\parskip}{-0.5\parskip}
+
+\setlength{\columnsep}{10mm}
+
+%% ----------------------------------------------------------------------
+%%
+%% tabularray environments
+%%
+%% ----------------------------------------------------------------------
+
+% \newfontfamily{\pricefont}{TeX Gyre Heros}[Color=blue,Ligatures=TeX,Scale=0.70]
+\newfontfamily{\pricefont}{LinBiolinum_R.otf}[
+  Color=blue,
+  Ligatures=TeX,
+  Scale=0.70,
+  BoldFont=LinBiolinum_RB.otf,
+]
+
+\NewTblrEnviron{costtblr}
+\SetTblrInner[costtblr]{
+  width=\columnwidth,
+  colspec={lXrr},
+  rows = {font=\small},
+  rowsep=0.0mm,
+  stretch=1.0,
+  row{1} = {font=\bfseries},
+  hline{1,Z} = {price},
+}
+
+\NewTblrEnviron{pricetblr}
+\SetTblrInner[pricetblr]{
+  width=\columnwidth,
+  colspec={XrQ[r,3em]},
+  rows = {font=\pricefont},
+  rowsep=0.0mm,
+  leftsep=0.0mm,
+  rightsep=0.0mm,
+  stretch=0.9,
+  row{1} = {font=\pricefont\bfseries},
+  hline{1,2} = {olive7},
+}
+
+\NewTblrEnviron{pricetblr*}
+\SetTblrInner[pricetblr*]{
+  width=\columnwidth,
+  colspec={XrQ[r,3em]},
+  rows = {font=\pricefont},
+  rowsep=0.0mm,
+  stretch=0.9,
+  hline{1} = {olive7},
+}
+
+\newenvironment{inline}{\smallskip\setlength\parskip{0pt}}{\smallskip}
+
+\begin{document}
+
+\begin{multicols*}{3}
+
+\begin{inline}
+\begin{pricetblr}{hline{1-4}={price}}
+Sewing/Weaving Equipment \\
+Fabric Weight Price/yard \\
+Wool \\
+homespun                           & ½lb     & 1 sp \\
+un-dyed                            & ½lb     & 2 sp \\
+average dyed                       & ½lb     & 3 sp \\
+fine                               & ¼lb     & 4 sp \\
+heavy weight                       & 1lb     & 5 sp \\
+\end{pricetblr}
+
+\begin{pricetblr*}{hline{1-2}={price}}
+Canvas (hemp) \\
+bleached                           & ½lb     & 2 sp \\
+dyed                               & ½lb     & 3 sp \\
+heavy weight                       & 1lb     & 5 sp \\
+\end{pricetblr*}
+
+\begin{pricetblr*}{hline{1-2}={price}}
+Linen \\
+bleached                           & 6oz     & 2 sp \\
+dyed                               & 6oz     & 3 sp \\
+fine                               & 2oz     & 4 sp \\
+\end{pricetblr*}
+
+\begin{pricetblr*}{hline{1-2}={price}}
+Cotton \\
+bleached                           & ¼lb     & 3 sp \\
+dyed                               & ¼lb     & 5 sp \\
+\end{pricetblr*}
+
+\begin{pricetblr*}{hline{1-2}={price}}
+Silk                               & 2oz     & 10 sp+ \\
+Lace                               & ¼lb     & 15 sp+ \\
+Braid                              & 1oz     & 2 cf \\
+Silk Ribbons                       & 0       & 1 sp+ \\
+Lace Trim                          & 0       & 3 sp+ \\
+\end{pricetblr*}
+
+\begin{pricetblr*}{hline{1-2}={price}}
+Thread \\
+pale or dark, 150’                 & 2oz     & 2 sp \\
+coloured, 150’                     & 2oz     & 3 sp \\
+Silver, 150’                       & 2oz     & 12 sp \\
+Gold, 150’                         & 2oz     & 30 sp \\
+\end{pricetblr*}
+
+\begin{pricetblr*}{hline{1-2}={price}}
+Needles (5)                        & 0       & 8 sp \\
+Shears                             & 1lb     & 20 sp \\
+Table Loom                         & 25lb    & 40 sp \\
+Floor Loom                         & 100 lb+ & 250 sp \\
+Spindle                            & 1lb     & 1 sp \\
+Carding Comb                       & 1lb     & 2 sp \\
+\end{pricetblr*}
+\end{inline}
+
+\raggedcolumns
+\columnbreak
+
+\end{multicols*}
+
+\end{document}

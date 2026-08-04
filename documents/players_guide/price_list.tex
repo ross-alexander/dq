@@ -17,7 +17,7 @@ nominal weight of 1/2 oz each.
 All these items are also in the main lists.
 
 \begin{pricetblr}{}
-                                    & Weight  & Price \\
+Item                                & Weight  & Price \\
 1 days trail rations \\
 - average                           & 1lb     & 1 sp \\
 - good                              & 1lb     & 3 sp \\
@@ -68,18 +68,22 @@ to several days. See Section 30.2 Armour for the details.
 Armour weights are calculated by multiplying the weight factor by the
 racial factor. Females should subtract 0.5 from their racial factor.
 
-\begin{pricetblr}{colspec={Xr},
+\vspace*{\fill}
+\columnbreak
+
+\begin{pricetblr}{colspec={Xm{4em}},
   }
-Race Racial factor \\
-Elves 5 \\
-Dwarves 4 \\
-Halflings 3 \\
-Hill Giants 9 \\
-Humans 6 \\
-Orcs 6 \\
-Shape-changers 6 \\
+Race                               & Racial factor \\
+Elves                              & 5 \\
+Dwarves                            & 4 \\
+Halflings                          & 3 \\
+Hill Giants                        & 9 \\
+Humans                             & 6 \\
+Orcs                               & 6 \\
+Shape-changers                     & 6 \\
 \end{pricetblr}
 
+\begin{inline}
 \begin{pricetblr}{
     colspec={Xm{3em}r},
   }
@@ -136,6 +140,8 @@ Claymore                           & 5lb     & 80 sp \\
 Two-handed sword                   & 9lb     & 100 sp \\
 \end{pricetblr}
 
+\vspace*{\fill}\columnbreak
+
 \begin{pricetblr}{}
 Hafted weapons                     & Weight  & Price \\
 Hand axe                           & 2lb     & 15 sp \\
@@ -163,8 +169,8 @@ Throwing dart                      & 3oz     & 1 sp \\
 Boomerang                          & 1lb     & 2 sp \\
 Grenado, Greek fire*               & 2lb     & 800 sp \\
 Grenado, methane*                  & 2lb     & 400 sp \\
+*not always available \\
 \end{pricetblr}
-*not always available
 
 \begin{pricetblr}{}
 Pole weapons                       & Weight  & Price \\
@@ -210,11 +216,12 @@ Shield                             & 10lb    & 4 sp \\
 Silvered Weapons cost              &         & ×10 \\
 True Silvered Weapons cost         &         & ×180 \\
 \end{pricetblr}
+\end{inline}
 
 \subsubsection{Accommodation \& Meals}
  
 \begin{pricetblr}{
-    hline{1-2,6-7,9-10,13-14} = {lightgray},
+    hline{1-2,6-7,9-10,14-15} = {price},
   }
 A private room in a inn per night \\
 Poor                               & 2 sp \\
@@ -292,7 +299,8 @@ Strawberries                       & 3 cf     & 3 sp \\
 Dried = 150\% of In season price \\
 Candied = 200\% of In season price \\
 
-\begin{pricetblr}{colspec={Xr}}
+\begin{inline}
+\begin{pricetblr}{colspec={Xr},cell{6-10}{1}={cmd=\quad}}
 Dairy and Misc. \\
 Butter                             & 3 cf / lb \\
 Butter Salted                      & 1 sp / lb \\
@@ -347,7 +355,7 @@ Coriander                          & 1 cf \\
 Cloves                             & 2 cf \\
 \end{pricetblr}
 
-\begin{pricetblr*}{colspec={Xr}}
+\begin{pricetblr*}{colspec={Xr},hline{1}={black,0mm}}
 Chives                             & 1 cf \\
 Cinnamon                           & 10 cf \\
 Endive                             & 1 cf \\
@@ -373,12 +381,15 @@ Saffron                            & 120 sp \\
 Sage                               & 1 cf \\
 Thyme                              & 1 cf \\
 \end{pricetblr*}{}
+\end{inline}
 
-\begin{pricetblr}{colspec={Xr}}
+\begin{inline}
+\begin{pricetblr}{colspec={Xr},cell{3-6,16-21}{1}={cmd=\quad}}
 Meat per pound \\
 Beef \\
 Roast                              & 2 cf \\
 Steak                              & 3 cf \\
+Veal                               & 1 sp \\
 Other                              & 2 cf \\
 Chicken                            & 2 cf \\
 Chicken, 5lb                       & 10 cf \\
@@ -393,13 +404,12 @@ Loin                               & 1 sp \\
 other cut                          & 3 cf \\
 Bacon                              & 3 cf \\
 Ham                                & 5 cf \\
-Veal                               & 1 sp \\
-Suckling, 25lb                     & 35 sp \\
+Suckling Pig, 25lb                 & 35 sp \\
+Wild Boar                          & 9 cf \\
 Small Game Birds                   & 1 sp \\
 Swan                               & 6 cf \\
 Swan, 10lbs                        & 14 sp \\
 Venison                            & 10 cf \\
-Wild Boar                          & 9 cf \\
 \end{pricetblr}{}
 
 \begin{pricetblr}{}
@@ -456,6 +466,7 @@ Rye                                & 4 sp \\
 Hay                                & 3 sp \\
 Straw                              & 7 cf \\
 \end{pricetblr}{}
+\end{inline}
 
 Horses require 10lbs of grain and 20lbs of hay per day, or 15lbs of
 wheat a day. Grain may also be used to make bread, in which case
@@ -489,7 +500,7 @@ Skirt                              & 1½ lb   & 9 sp \\
 Tunic                              & 3/4lb   & 9 sp \\
 \end{pricetblr}
 
-\begin{pricetblr*}{hline{1-2,8-9,21-22,Z}={lightgray}}
+\begin{pricetblr*}{hline{1-2,8-9,21-22,Z}={price}}
 Footwear \\
 Sandals                            & 1/2lb   & 3 sp \\
 Slippers                           & 1/4lb   & 9 sp \\
@@ -520,7 +531,7 @@ Gloves                             & ½ lb    & 6 sp \\
 Mittens                            & ½ lb    & 3 sp \\
 \end{pricetblr*}
 
-\begin{pricetblr}{colspec={Xr},hline{1-2,3-4,5-6,8-9,11-12}={lightgray}}
+\begin{pricetblr}{colspec={Xr},hline{1-2,3-4,5-6,8-9,11-12}={price}}
 Quality Modifiers                            & Price \\
 Winter Wear (+25\% weight)                   & +20\% \\
 Subsistence \\
@@ -537,7 +548,7 @@ Silk/Satin                                   & x5 \\
 Fur Trim                                     & +50\% \\
 \end{pricetblr}
 
-\begin{pricetblr*}{hline{1-2,7-8}={lightgray}}
+\begin{pricetblr*}{hline{1-2,7-8}={price}}
 Fancy Trim \\
 Lightly Embroidered                          & +20\% \\
 Richly Embroidered                           & +50\% \\
@@ -552,6 +563,7 @@ Rich                                         & x4+ \\
 
 \subsubsection{Tools}
 
+\begin{inline}
 \begin{pricetblr}{}
 Tools                              & Weight  & Price \\                                     
 Adze 2lb 30 sp \\
@@ -560,7 +572,7 @@ Anvils, Standard                   & 50 lb+  & 250 sp \\
 Auger                              & 2lb     & 30 sp \\
 \end{pricetblr}
 
-\begin{pricetblr*}{hline{1-2}={lightgray}}
+\begin{pricetblr*}{hline{1-2}={price}}
 Axes \\
 Hatchet                            & 2lb     & 25 sp \\
 Pick                               & 6lb     & 55 sp \\
@@ -569,7 +581,7 @@ Bellows, Small                     & 5lb     & 40 sp \\
 Bellows, Large                     & 25lb    & 70 sp \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{hline{1-2}={lightgray}}
+\begin{pricetblr*}{hline{1-2}={price}}
 Buckets \\
 Canvas 5 gallon                    & 3/4lb   & 5 sp \\
 Leather 5 gallon                   & 1lb     & 8 sp \\
@@ -582,7 +594,7 @@ Standard                           & 2lb     & 30 sp \\
 Heavy                              & 5lb     & 50 sp \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{hline{1-2}={lightgray}}
+\begin{pricetblr*}{hline{1-2}={price}}
 Chisels \\
 Wood                               & 1lb     & 17 sp \\
 Masonry/Stone                      & 1lb     & 22 sp \\
@@ -591,7 +603,7 @@ Crowbar                            & 5lb     & 15 sp \\
 Crowbar, Heavy                     & 10lb    & 28 sp \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{hline{1-2}={lightgray}}
+\begin{pricetblr*}{hline{1-2}={price}}
 Drills \\
 Rock                               & 6lb     & 30 sp \\
 Wood                               & 2lb     & 30 sp \\
@@ -604,7 +616,7 @@ Forge                              & 1000lb  & 450 sp \\
 Grappling Hook                     & 1lb     & 15 sp \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{hline{1-2}={lightgray}}
+\begin{pricetblr*}{hline{1-2}={price}}
 Hammers \\
 Armourer’s                         & 3lb     & 24 sp \\
 Blacksmiths                        & 3lb     & 25 sp \\
@@ -619,13 +631,23 @@ Lock Picks – Good                  & ¼ lb    & 150sp \\
 Lock Picks – Disguised             &         & +150sp \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{hline{1-2}={lightgray}}
+\begin{pricetblr*}{hline{1-2}={price}}
 Lumber \\
 Rough Cut (1cu.ft.)                & 50lb    & 1 sp \\
 Clean Cut (1cu.ft.)                & 50lb    & 2 sp \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{hline{1-2,10-11}={lightgray}}
+\begin{pricetblr*}{}
+Nails \\
+Finishing x250                     & 1lb     & 55 sp \\
+Large x100                         & 1lb     & 35 sp \\
+\end{pricetblr*}
+\end{inline}
+
+\vspace*{\fill}\columnbreak
+
+\begin{inline}
+\begin{pricetblr*}{hline{1-2}={price}}
 Metals \\
 Iron Ingot                         & 25lb    & 34 sp \\
 Copper Ingot                       & 25lb    & 110 sp \\
@@ -636,12 +658,10 @@ Silver Ingot                       & 5lb     & 1600 sp \\
 Gold Ingot                         & 5lb     & 19200 sp \\
 Platinum Ingot                     & 5lb     & 20800 sp \\
 Truesilver Ingot                   & 1lb     & 40320 sp \\
-Nails \\
-Finishing x250                     & 1lb     & 55 sp \\
-Large x100                         & 1lb     & 35 sp \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{hline{1-2,10-11}={lightgray}}
+
+\begin{pricetblr*}{hline{1-2,10-11}={price}}
 Paint \\
 Whitewash 1 gallon                 & 8lb     & 2 sp \\
 White 1 gallon                     & 10lb    & 10 sp \\
@@ -651,7 +671,7 @@ Plough Blade, Iron                 & 25lb    & 185 sp+ \\
 Plough, Full Mouldboard            & 100lb+  & 800 sp+ \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{hline{1-2,10-11}={lightgray}}
+\begin{pricetblr*}{hline{1-2,10-11}={price}}
 Pulleys \\
 100lb, 1.5:1                       & 3lb     & 30 sp \\
 100lb, 2:1                         & 4lb     & 55 sp \\
@@ -661,21 +681,21 @@ Pulleys \\
 per extra 100lb                    & ½lb     & +10\% \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{hline{1-2,10-11}={lightgray}}
+\begin{pricetblr*}{hline{1-2,10-11}={price}}
 Rope \\
 1/2”hemp 50’                       & 3lb     & 10 sp \\
 1”hemp 50’                         & 5lb     & 20 sp \\
 Silk 50’                           & 2lb     & 55 sp \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{hline{1-2,10-11}={lightgray}}
+\begin{pricetblr*}{hline{1-2,10-11}={price}}
 Sacks \\
 10lb                               & ½lb     & 1 sp \\
 20lb                               & 3/4lb   & 2 sp \\
 40lb                               & 1lb     & 3 sp \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{hline{1-2,10-11}={lightgray}}
+\begin{pricetblr*}{hline{1-2,10-11}={price}}
 Saws (Iron Blade) \\
 Straight Cut                       & 3lb     & 40 sp \\
 Cross Cut                          & 6lb     & 70 sp \\
@@ -695,6 +715,7 @@ Wood Glue, 1 pint                  & 1½ lb   & 4 sp \\
 Yardstick, Metal                   & 2lb     & 24 sp \\
 Yardstick, Wooden                  & 1lb     & 3 sp \\
 \end{pricetblr*}
+\end{inline}
 
 \subsubsection{Household Goods Containers}
 
@@ -713,18 +734,22 @@ Wooden Casks \\
 50 gallon                          & 50lb    & 50 sp \\
 \end{pricetblr}
 
-\begin{pricetblr*}{}
+\begin{pricetblr*}{hline{1-2}={price}}
 Jars \& Jugs \\
 Pottery, 1 pint                    & 1lb     & 2 sp \\
 Pottery, 1/2 gallon                & 2lb     & 5 sp \\
 Pottery, 1 gallon                  & 4lb     & 8 sp \\
+\end{pricetblr*}
+
+\begin{inline}
+\begin{pricetblr*}{}
 Glass, 1 pint                      & 3/4lb   & 40 sp \\
 Glass, 1 quart                     & 1lb     & 55 sp \\
 Glass, 1/2 gallon                  & 2lb     & 100 sp \\
 Glass, 1 gallon                    & 4lb     & 165 sp \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{}
+\begin{pricetblr*}{hline{1-2}={price}}
 Vials \\
 Pottery, 1 dose                    & 1/4lb   & 3 sp \\
 Pottery, 5 dose                    & 1lb     & 5 sp \\
@@ -737,7 +762,7 @@ Silver; as per metal,              &         & x5 \\
 Fine Porcelain, as per pottery     &         & x5 \\
 \end{pricetblr*}
 
-\begin{pricetblr}{hline{1-3}={lightgray}}
+\begin{pricetblr}{hline{1-3}={price}}
 Kitchen \& Dining                  & Weight  & Price \\
 Crockery \\
 Earthenware                        & 1/2lb   & 2 sp \\
@@ -751,7 +776,7 @@ Pewter Mess Kit                    & 1lb     & 45 sp \\
 Serving Dishes                     & x 2     & x 3 \\
 \end{pricetblr}
 
-\begin{pricetblr*}{hline{1-2,6-7}={lightgray}}
+\begin{pricetblr*}{hline{1-2,6-7}={price}}
 Cutlery - Pewter \\
 Forks                              & 2oz     & 6 sp \\
 Knives                             & 2oz     & 5 sp \\
@@ -765,7 +790,7 @@ Wooden                             & x 75\%  & x 20\% \\
 Cooks Knives                       & 1/4lb   & 15 sp \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{hline{1-2,5-6}={lightgray}}
+\begin{pricetblr*}{hline{1-2,5-6}={price}}
 Drinking Vessels - Pottery \\
 Cup                                & 4oz     & 1 sp \\
 Mug/tankard                        & 5 oz    & 6 cf \\
@@ -804,9 +829,12 @@ Salt Cellar Pewter                 & 1lb     & 80 sp \\
 Salt Cellar Silver                 & 1lb     & 230 sp \\
 Salt Cellar Gold                   & 1lb     & 2500 sp \\
 \end{pricetblr}
+\end{inline}
 
-Gold/Silver Items may be alloy/plate for 30\% / 50\% cost.
+Gold / Silver items may be alloy/plate for 30\% / 50\% cost.
 
+
+\begin{inline}
 \begin{pricetblr}{}
 Furniture                          & Weight  & Price \\
 Stool                              & 5lb     & 4 sp \\
@@ -818,7 +846,7 @@ Throne                             & 60lb    & 100 sp+ \\
 Table                              & 50lb+   & 20 sp+ \\
 \end{pricetblr}
 
-\begin{pricetblr*}{}
+\begin{pricetblr*}{hline{1-2}={price}}
 Beds \\
 Mattress w/o Straw                 & 2lb     & 2 sp \\
 Sleeping Straw /week               & 5lb     & 1 cf \\
@@ -829,14 +857,14 @@ Camp, Leather                      & 20lb    & 50 sp \\
 Knockdown (Wood)                   & 40lb    & 110 sp \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{}
+\begin{pricetblr*}{hline{1-2}={price}}
 Hammocks \\
 Rope                               & 1 lb    & 10 sp \\
 Canvas                             & 2lb     & 35 sp \\
 Leather                            & 5lb     & 80 sp \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{}
+\begin{pricetblr*}{hline{1-2}={price}}
 Chests \\
 Small Wood                         & 10lb    & 10 sp \\
 Large Wood                         & 20lb    & 24 sp \\
@@ -863,7 +891,7 @@ Candle, Wax (1hr)                  & 3oz     & 3 cf \\
 Torch, Pitch Coated                & 1lb     & 1 sp \\
 \end{pricetblr}
 
-\begin{pricetblr*}{}
+\begin{pricetblr*}{hline{1-2}={price}}
 Lanterns \\
 Candle, glass                      & 2lb     & 45 sp \\
 Oil                                & 2lb     & 20 sp \\
@@ -873,7 +901,7 @@ Oil, Aladdin Type                  & 1lb     & 6 sp \\
 Lantern Oil, pint (24hrs)          & 1 1/4lb & 65 sp \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{}
+\begin{pricetblr*}{hline{1-2}={price}}
 Candle Sticks \\
 Wood                               & ½ lb    & 3 sp \\
 Iron                               & 1 ½ lb  & 15 sp \\
@@ -884,7 +912,7 @@ Candelabra, as above plus \\
 each additional spike              & 1/2lb   & +30\% \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{}
+\begin{pricetblr*}{hline{1-2}={price}}
 Linen weight Price \\
 Bed Hangings                       & 10lb    & 55 sp+ \\
 Bed Hangings, Fine                 & 20lb    & 250 sp+ \\
@@ -894,15 +922,17 @@ Cushions                           & 1lb     & 10 sp+ \\
 Mosquito Netting                   & 4oz     & 55 sp \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{}
+\begin{pricetblr*}{hline{1-2}={price}}
 Sheets \\
 Fine Woollen                       & 1lb     & 65 sp \\
 Linen                              & 1lb     & 165 sp \\
 Silk/Satin                         & 1lb     & 350 sp \\
 Sleeping Furs                      & 10lb    & 165 sp \\
 \end{pricetblr*}
+\end{inline}
 
-\begin{pricetblr*}{}
+\begin{inline}
+\begin{pricetblr}{hline{1-4}={price}}
 Sewing/Weaving Equipment \\
 Fabric Weight Price/yard \\
 Wool \\
@@ -911,29 +941,29 @@ un-dyed                            & ½lb     & 2 sp \\
 average dyed                       & ½lb     & 3 sp \\
 fine                               & ¼lb     & 4 sp \\
 heavy weight                       & 1lb     & 5 sp \\
-\end{pricetblr*}
+\end{pricetblr}
 
-\begin{pricetblr*}{}
+\begin{pricetblr*}{hline{1-2}={price}}
 Canvas (hemp) \\
 bleached                           & ½lb     & 2 sp \\
 dyed                               & ½lb     & 3 sp \\
 heavy weight                       & 1lb     & 5 sp \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{}
+\begin{pricetblr*}{hline{1-2}={price}}
 Linen \\
 bleached                           & 6oz     & 2 sp \\
 dyed                               & 6oz     & 3 sp \\
 fine                               & 2oz     & 4 sp \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{}
+\begin{pricetblr*}{hline{1-2}={price}}
 Cotton \\
 bleached                           & ¼lb     & 3 sp \\
 dyed                               & ¼lb     & 5 sp \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{}
+\begin{pricetblr*}{hline{1-2}={price}}
 Silk                               & 2oz     & 10 sp+ \\
 Lace                               & ¼lb     & 15 sp+ \\
 Braid                              & 1oz     & 2 cf \\
@@ -941,7 +971,7 @@ Silk Ribbons                       & 0       & 1 sp+ \\
 Lace Trim                          & 0       & 3 sp+ \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{}
+\begin{pricetblr*}{hline{1-2}={price}}
 Thread \\
 pale or dark, 150’                 & 2oz     & 2 sp \\
 coloured, 150’                     & 2oz     & 3 sp \\
@@ -949,7 +979,7 @@ Silver, 150’                       & 2oz     & 12 sp \\
 Gold, 150’                         & 2oz     & 30 sp \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{}
+\begin{pricetblr*}{hline{1-2}={price}}
 Needles (5)                        & 0       & 8 sp \\
 Shears                             & 1lb     & 20 sp \\
 Table Loom                         & 25lb    & 40 sp \\
@@ -957,6 +987,7 @@ Floor Loom                         & 100 lb+ & 250 sp \\
 Spindle                            & 1lb     & 1 sp \\
 Carding Comb                       & 1lb     & 2 sp \\
 \end{pricetblr*}
+\end{inline}
 
 \begin{pricetblr}{}
 Writing Materials                  & Weight  & Price \\
@@ -985,7 +1016,7 @@ Writing Tablet, Slate              & 1lb     & 3 sp \\
 Writing Tablet, Wax                & 1lb     & 5 sp \\
 \end{pricetblr}
 
-\begin{pricetblr}{}
+\begin{pricetblr}{hline{4-5}={price},cell{5-9}{1}={cmd=\quad}}
 Miscellaneous                      & Weight  & Price \\
 52 Card Common Deck                & 2oz     & 10 sp \\
 78 Card Tarot Deck                 & 3oz     & 30 sp \\
@@ -995,6 +1026,9 @@ Water                              & 50 lb+  & 700 sp+ \\
 Pendulum                           & 100 lb+ & 1500 sp+ \\
 Hourglass                          & 3lb     & 350 sp+ \\
 Minute glass (1, 3 or 5)           & 1/4lb   & 75 sp+ \\
+\end{pricetblr}
+
+\begin{pricetblr*}{}
 Mirror, Small Metal                & 1lb     & 30 sp \\
 Mirror, Large Metal                & 20lb    & 85 sp \\
 Physiker’s Kit                     & 1lb     & 20 sp \\
@@ -1004,7 +1038,7 @@ Spectacles                         & 2oz     & 250 sp+ \\
 Spyglass                           & 5lb     & 300 sp+ \\
 Sundial                            & 50lb    & 220 sp+ \\
 Sundial Ornate                     & 100lb   & 550 sp+ \\
-\end{pricetblr}
+\end{pricetblr*}
 
 \begin{pricetblr}{}
 Tents \\
@@ -1017,7 +1051,7 @@ Leather, 8 person                  & 150lb   & 250 sp \\
 Leather, 20 person                 & 400lb   & 750 sp \\
 \end{pricetblr}
 
-\begin{pricetblr}{colspec={Xr},hline{6-7,16-17,20-21}={lightgray}}
+\begin{pricetblr}{colspec={Xr},hline{6-7,16-17,20-21}={price}}
 Transport Equipment                & Price \\
 Spurs, Plain                       & 18 sp \\
 Spurs, Silvered                    & 50 sp \\
@@ -1061,7 +1095,8 @@ Galley Oar                         & 25 sp \\
 Ships (see Ship Supplement) \\
 \end{pricetblr}
 
-\begin{pricetblr}{colspec={Xr},hline{1-3}={lightgray}}
+\begin{inline}
+\begin{pricetblr}{colspec={Xr},hline{1-3}={price}}
 Animals \& Livestock \\
 Riding \& Draft Animals each \\
 Donkey/Mule                        & 200 sp \\
@@ -1074,7 +1109,7 @@ Quarter horse                      & 900 sp \\
 War Horse                          & 1050 sp \\
 \end{pricetblr}
 
-\begin{pricetblr*}{colspec={Xr}}
+\begin{pricetblr*}{colspec={Xr},hline{1-2}={price}}
 Livestock \\
 Bull                               & 300 sp \\
 Calf                               & 125 sp \\
@@ -1090,7 +1125,7 @@ Swan                               & 13 sp \\
 Suckling Pig                       & 34 sp \\
 \end{pricetblr*}
 
-\begin{pricetblr*}{colspec={Xr}}
+\begin{pricetblr*}{colspec={Xr},hline{1-2}={price}}
 Other Animals \\
 Dog, Hunting                       & 20 sp \\
 Dog, War                           & 35 sp \\
@@ -1101,6 +1136,7 @@ Parrot                             & 3 sp \\
 Weasel                             & 2 sp \\
 Elephant                           & 4,500 sp+ \\
 \end{pricetblr*}
+\end{inline}
 
 \subsubsection{Gems}
 
@@ -1111,7 +1147,7 @@ many gems, (especially inherited stones) will be polished rather than
 cut.
 
 \begin{pricetblr}{colspec={Xr}}
-                                   & per carat \\
+Gemstone                           & per carat \\
 Diamond                            & 360 sp \\
 Ruby                               & 300 sp \\
 Emerald                            & 240 sp \\

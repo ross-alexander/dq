@@ -618,7 +618,7 @@ abjured the Mark of Serpent from this brow
 - 4500sp in gems
 - Dragon's Teeth (31)
 - Balrog Eye
-- The Plague of Midnight
+- The Plaque of Midnight
 - Scale of Glaurung (5)
 - Knitted Mithril Chain
 - 90 weeks

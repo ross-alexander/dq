@@ -338,7 +338,6 @@ def proc_character(name, character):
             'keys': ['cc'],
         }
     }
-
     
     for feature in features.keys():
         if feature in character:

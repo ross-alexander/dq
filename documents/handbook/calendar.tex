@@ -1,0 +1,245 @@
+\documentclass{article}
+
+\usepackage{fontspec}
+\usepackage{tabularray}
+\usepackage{graphicx}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[paper=a4paper,tmargin=15mm,bmargin=15mm,lmargin=10mm,rmargin=10mm]{geometry}
+\usepackage[skip=10pt plus 6pt, indent=0mm]{parskip}
+\usepackage{setspace}
+
+\setmainfont{TeX Gyre Adventor}[Scale=0.9]
+\setsansfont{TeX Gyre Adventor}[Scale=1.0,Color=blue]
+% \newfontface{\datefont}{TeX Gyre Adventor}[Scale=0.7,Color=red]
+  
+\NewTblrEnviron{calendar}
+\SetTblrInner[calendar]{
+  colspec={lllllllllllllll},
+  rowsep=1pt,
+  hlines = {calbordercolor},
+  vlines = {calbordercolor},
+  column{2,4,6,8,10,12,14} = {r, 10pt, colsep=2pt, font=\small, bg=caldaycolor},
+  column{3,5,7,9,11,13,15} = {l, 54pt, colsep=2pt, font=\sffamily\tiny},
+  cell{1}{1} = {c=15}{c,calbordercolor,font=\bfseries},
+  cell{4,10,16}{1} = {c=15}{c,white,font=\bfseries},
+  cell{2}{2,4,6,8,10,12,14} = {c=2}{c,white},
+  cell{3}{2} = {c=2}{l, white},
+  cell{3}{4} = {c=12}{l,white},
+  cell{5}{1} = {c=3}{l,white},
+  cell{9}{8} = {c=8}{l,white},
+  cell{11}{1} = {c=7}{l,white},
+  cell{17}{1} = {c=11}{l,white},
+}
+
+
+\newcommand{\moonFull}{\includegraphics[width=4mm]{moon0.pdf}}
+\newcommand{\moonWane}{\includegraphics[width=4mm]{moon1.pdf}}
+\newcommand{\moonNew}{\includegraphics[width=4mm]{moon2.pdf}}
+\newcommand{\moonWax}{\includegraphics[width=4mm]{moon3.pdf}}
+
+\begin{document}
+
+\pagestyle{empty}
+
+% ----------------------------------------------------------------------
+%
+% summer
+%
+% ----------------------------------------------------------------------
+
+\definecolor{calbordercolor}{HTML}{999900}
+\definecolor{caldaycolor}{HTML}{FFFF66}
+
+\begin{calendar}{
+    cell{5}{5} = {preto={Guild Meeting}},
+    cell{5}{13} = {preto={White Lotus}},
+    cell{5}{15} = {preto={Seagate Light Festival}},
+    cell{7}{13} = {preto={The Castellan Borderers Ball}},
+    cell{8}{15} = {preto={Seagate Crafters Ball}},
+    cell{11}{13} = {preto={Segate Guildmasters Ball}},
+    cell{12}{13} = {preto={Segate Races}},
+    cell{12}{15} = {preto={The Duke of Carzala's Summer Ball}},
+    cell{13}{7} = {preto={Midsummers Eve (Faerie Day)}},
+    cell{13}{9} = {preto={Solstice}},
+    cell{13}{13} = {preto={Seagate Summer Fair}},
+    cell{13}{15} = {preto={Seagate Summer Fair}},
+    cell{14}{13} = {preto={The Castellan of Brastor's Summer Ball}},
+    cell{18}{3} = {preto={Day of Death}},
+}
+Summer    & & & & & & & & & & & & & & \\
+          & Moonday & & Duesday & & W'andsay & & Th'rsday & & Frysday & & Reapsday & & Sunday & \\
+
+\moonFull & Beltane & & & & & & & & & & & & & \\
+
+Meadow    & & & & & & & & & & & & & & \\
+          &    & &  1 & &  2 & &  3 & &  4 & &  5 & &  6 & \\
+\moonWane &  7 & &  8 & &  9 & & 10 & & 11 & & 12 & & 13 & \\
+\moonNew  & 14 & & 15 & & 16 & & 17 & & 18 & & 19 & & 20 & \\
+\moonWax  & 21 & & 22 & & 23 & & 24 & & 25 & & 26 & & 27 & \\
+\moonFull & 28 & & 29 & & 30 & &    & &    & &    & &    & \\
+
+Heat      & & & & & & & & & & & & & & \\
+
+          &    & &    & &    & &  1 & &  2 & &  3 & &  4 & \\
+\moonWane &  5 & &  6 & &  7 & &  8 & &  9 & & 10 & & 11 & \\
+\moonNew  & 12 & & 13 & & 14 & & 15 & & 16 & & 17 & & 18 & \\
+\moonWax  & 19 & & 20 & & 21 & & 22 & & 23 & & 24 & & 25 & \\
+\moonFull & 26 & & 27 & & 28 & & 29 & & 30 & &    &      & \\
+
+Breeze    & & & & & & & & & & & & & & \\
+          &    &  &    & &    & &    & &    &  &  1&  &  2 & \\
+\moonWax  &  3 &  &  4 & &  5 & &  6 & &  7 &  &  8 & &  9 & \\
+\moonNew  & 10 &  & 11 & & 12 & & 13 & & 14 &  & 15 & & 16 & \\
+\moonFull & 17 &  & 18 & & 19 & & 20 & & 21 &  & 22 & & 23 & \\
+\moonWane & 24 &  & 25 & & 26 & & 27 & & 28 &  & 29 & & 30 & \\
+\end{calendar}
+
+
+% ----------------------------------------------------------------------
+%
+% autumn
+%
+% ----------------------------------------------------------------------
+
+\definecolor{calbordercolor}{HTML}{8B4726}
+\definecolor{caldaycolor}{HTML}{FF8247}
+
+\begin{calendar}{
+    cell{5}{5} = {preto={Guild Meeting}},
+    cell{13}{9} = {preto={Equinox}},
+    cell{13}{13} = {preto={Autumn Summer Fair}},
+    cell{13}{15} = {preto={Autumn Summer Fair}},
+    cell{14}{3} = {preto={Harvest Moon}},
+    cell{15}{9} = {preto={Michaelmas}},
+    cell{20}{3} = {preto={Blood Moon}},
+    cell{21}{15} = {preto={Beerfest}},
+}
+Autumn    & & & & & & & & & & & & & & \\
+          & Moonday & & Duesday & & W'andsay & & Th'rsday & & Frysday & & Reapsday & & Sunday & \\
+
+\moonFull & Lugnasad & & & & & & & & & & & & & \\
+
+Fruit     & & & & & & & & & & & & & & \\
+
+          &    & &  1 & &  2 & &  3 & &  4 &  & 5 &  & 6 &  \\
+\moonWane &  7 & &  8 & &  9 & & 10 & & 11 & & 12 & & 13 & \\
+\moonNew  & 14 & & 15 & & 16 & & 17 & & 18 & & 19 & & 20 & \\
+\moonWax  & 21 & & 22 & & 23 & & 24 & & 25 & & 26 & & 27 & \\
+\moonFull & 28 & & 29 & & 30 & &    & &    & &    & &    & \\
+
+Harvest   & & & & & & & & & & & & & & \\
+
+          &    & &    & &    & &  1 & &  2 & &  3 & &  4 & \\
+\moonWane &  5 & &  6 & &  7 & &  8 & &  9 & & 10 & & 11 & \\
+\moonNew  & 12 & & 13 & & 14 & & 15 & & 16 & & 17 & & 18 & \\
+\moonWax  & 19 & & 20 & & 21 & & 22 & & 23 & & 24 &  & 25 & \\
+\moonFull & 26 & & 27 & & 28 & & 29 & & 30 & & & & \\
+
+Vintage   & & & & & & & & & & & & & & \\
+
+          & & & & & & & & & & & 1 & & 2 & \\
+\moonWax  &  3 & &  4 & &  5 & &  6 & &  7 & &  8 & &  9 & \\
+\moonNew  & 10 & & 11 & & 12 & & 13 & & 14 & & 15 & & 16 & \\
+\moonFull & 17 & & 18 & & 19 & & 20 & & 21 & & 22 & & 23 & \\
+\moonWane & 24 & & 25 & & 26 & & 27 & & 28 & & 29 & & 30 & \\
+\end{calendar}
+
+
+% ----------------------------------------------------------------------
+%
+% winter
+%
+% ----------------------------------------------------------------------
+
+\definecolor{calbordercolor}{HTML}{00CCFF}
+\definecolor{caldaycolor}{HTML}{DDEEFF}
+
+\begin{calendar}{
+    cell{5}{5} = {l,preto={Guild Meeting}},
+    cell{13}{9} = {l,preto={Solstice}},
+    cell{13}{13} = {l,preto={The Duke of Carzala's Winter Ball}},
+    cell{13}{15} = {l,preto={Yuletide}},
+    cell{14}{3} = {preto={Days of Chaos}},
+    cell{15}{11} = {preto={Twelfth Night}},
+    cell{18}{9} = {preto={First Plough}},
+}
+Winter & & & & & & & & & & & & & & \\
+          & Moonday & & Duesday & & W'andsay & & Th'rsday & & Frysday & & Reapsday & & Sunday & \\
+
+\moonFull & Samhain & & & & & & & & & & & & & \\
+
+Frost     & & & & & & & & & & & & & & \\
+
+          &    & &  1 & &  2 & &  3 & &  4 &  & 5 &  & 6 & \\
+\moonWane &  7 & &  8 & &  9 & & 10 & & 11 & & 12 & & 13 & \\
+\moonNew  & 14 & & 15 & & 16 & & 17 & & 18 & & 19 & & 20 & \\
+\moonWax  & 21 & & 22 & & 23 & & 24 & & 25 & & 26 & & 27 & \\
+\moonFull & 28 & & 29 & & 30 & &    & &    & &    &      & \\
+
+Snow      & & & & & & & & & & & & & & \\
+
+          &    & &    & &    & &  1 & &  2 & &  3 & &  4 & \\
+\moonWane &  5 & &  6 & &  7 & &  8 & &  9 & & 10 & & 11 & \\
+\moonNew  & 12 & & 13 & & 14 & & 15 & & 16 & & 17 & & 18 & \\
+\moonWax  & 19 & & 20 & & 21 & & 22 & & 23 & & 24 & & 25 & \\
+\moonFull & 26 & & 27 & & 28 & & 29 & & 30 & &    &  &   & \\
+
+Ice       & & & & & & & & & & & & & & \\
+
+          &    &  &    & &    & &    & &    &  &  1 & &  2 & \\
+\moonWax  &  3 &  &  4 & &  5 & &  6 & &  7 &  &  8 & &  9 & \\
+\moonNew  & 10 &  & 11 & & 12 & & 13 & & 14 &  & 15 & & 16 & \\
+\moonFull & 17 &  & 18 & & 19 & & 20 & & 21 &  & 22 & & 23 & \\
+\moonWane & 24 &  & 25 & & 26 & & 27 & & 28 &  & 29 & & 30 & \\
+\end{calendar}
+
+% ----------------------------------------------------------------------
+%
+% spring
+%
+% ----------------------------------------------------------------------
+
+\definecolor{calbordercolor}{HTML}{009900}
+\definecolor{caldaycolor}{HTML}{AAFFAA}
+
+\begin{calendar}{
+    cell{5}{5} = {l,preto={Guild Meeting}},
+    cell{5}{13} = {l,preto={The Carzalan Generals Ball}},
+    cell{12}{9} = {l,preto={Rites of Thunor}},
+    cell{13}{9} = {l,preto={Equinox}},
+    cell{13}{13} = {l,preto={Eostre}},
+    cell{13}{15} = {l,preto={The Seagate Spring Ball}},
+    cell{20}{11} = {preto={Fioralia}},
+    cell{21}{15} = {preto={Walpurgisnacht}},
+}
+Spring    & & & & & & & & & & & & & & \\
+          & Moonday & & Duesday & & W'andsay & & Th'rsday & & Frysday & & Reapsday & & Sunday & \\
+
+\moonFull & Candlemansa & & & & & & & & & & & & & \\
+
+Thaw      & & & & & & & & & & & & & & \\
+
+          &    & &  1 & &  2 & &  3 & &  4 &  & 5 &  & 6 & \\
+\moonWane &  7 & &  8 & &  9 & & 10 & & 11 & & 12 & & 13 & \\
+\moonNew  & 14 & & 15 & & 16 & & 17 & & 18 & & 19 & & 20 & \\
+\moonWax  & 21 & & 22 & & 23 & & 24 & & 25 & & 26 & & 27 & \\
+\moonFull & 28 & & 29 & & 30 & &    & &    & &    &      & \\
+
+Seedtime  & & & & & & & & & & & & & & \\
+
+          &    & &    & &    & &  1 & &  2 & &  3 & &  4 & \\
+\moonWane &  5 & &  6 & &  7 & &  8 & &  9 & & 10 & & 11 & \\
+\moonNew  & 12 & & 13 & & 14 & & 15 & & 16 & & 17 & & 18 & \\
+\moonWax  & 19 & & 20 & & 21 & & 22 & & 23 & & 24 & & 25 & \\
+\moonFull & 26 & & 27 & & 28 & & 29 & & 30 & &    &  &   & \\
+
+Blossom   & & & & & & & & & & & & & & \\
+
+          &    & &    & &    & &    & &    & &  1 & &  2 & \\
+\moonWax  &  3 & &  4 & &  5 & &  6 & &  7 & &  8 & &  9 & \\
+\moonNew  & 10 & & 11 & & 12 & & 13 & & 14 & & 15 & & 16 & \\
+\moonFull & 17 & & 18 & & 19 & & 20 & & 21 & & 22 & & 23 & \\
+\moonWane & 24 & & 25 & & 26 & & 27 & & 28 & & 29 & & 30 & \\
+\end{calendar}
+
+\end{document}

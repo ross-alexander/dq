@@ -1,6 +1,11 @@
+% ----------------------------------------------------------------------
+%
+% handbook.sty
+%
+% ----------------------------------------------------------------------
+
 \RequirePackage{tabularx}
 \RequirePackage{multicol}
-%% \usepackage{epsfig}
 \RequirePackage{fontspec}
 \RequirePackage{graphicx}
 \RequirePackage[margin=15mm]{geometry}
@@ -12,14 +17,6 @@
 \NewTblrEnviron{dqtblr}
 \SetTblrInner[dqtblr]{hlines={green7},rowsep=0.1mm,width=\linewidth}
 \UseTblrLibrary{varwidth}
-
-%% \renewcommand{\rmdefault}{pnc}
-%% \renewcommand{\small}{\fontfamily{pnc}\fontsize{6}{7pt}\selectfont}
-%% \renewcommand{\scriptsize}{\fontfamily{pnc}\fontsize{7}{8pt}\selectfont}
-%% \renewcommand{\normalsize}{\fontfamily{pnc}\fontsize{8}{9.5pt}\selectfont}
-%% \renewcommand{\large}{\fontfamily{pag}\fontsize{10}{11pt}\selectfont}
-%% \renewcommand{\Large}{\fontfamily{pag}\fontsize{14}{15pt}\selectfont}
-%% \renewcommand{\huge}{\fontfamily{pag}\fontsize{18}{20pt}\selectfont}
 
 \setmainfont{TeX Gyre Pagella}[Scale=0.85,Ligatures=TeX]
 \setsansfont{TeX Gyre Adventor}[Scale=0.7,Color=red,Ligatures=TeX]
@@ -41,16 +38,8 @@
 
 \newcommand{\x}{$\times$ }
 
-% \setlength{\parindent}{0.0in}
-% \setlength{\topmargin}{-0.8in}
-% \setlength{\textheight}{10.0in}
-% \setlength{\parskip}{2.0mm}
-% \setlength{\oddsidemargin}{-0.25in}
-% \setlength{\evensidemargin}{-0.25in}
-% \setlength{\textwidth}{6.5in}
-
-\setcounter{columnbadness}{1000}
-\setcounter{finalcolumnbadness}{1000}
+% \setcounter{columnbadness}{1000}
+% \setcounter{finalcolumnbadness}{1000}
 
 \renewcommand{\section}{\@startsection
 	{section}%
