@@ -131,18 +131,6 @@ spells of the College of Sorceries of the Mind.
 The ribbon must be tied into the wearer's head hair, and takes one day
 (24 hours) to adjust to the wearer before the bonus will apply.
 
-## Brided Lanyard
-
-This is a rank 8 metallic black braid formed from a repetitive series
-of complex knots made by Athena's lesser handmaidens.
-
-The wielder will never involuntarily drop the weapon to which the
-braid is attached, and can choose to ignore disarm attempts for this
-weapon.
-
-The ribbon must be tied onto a specific weapon (it will not impede
-use) and takes one day (24 hours) to adjust to the wapon before
-bonuses will apply.
 
 # Abilities
 
@@ -246,3 +234,16 @@ During this time the blade will glisten like moonlight upon water, and
 will do double damage to shapeshifters of any type and in any form,
 including lycanthropes, etc (doppelgangers included).  This may be
 placed on magical weapons (within reason) [Used].
+
+## Braided Lanyard (given to Black)
+
+This is a rank 8 metallic black braid formed from a repetitive series
+of complex knots made by Athena's lesser handmaidens.
+
+The wielder will never involuntarily drop the weapon to which the
+braid is attached, and can choose to ignore disarm attempts for this
+weapon.
+
+The ribbon must be tied onto a specific weapon (it will not impede
+use) and takes one day (24 hours) to adjust to the wapon before
+bonuses will apply.
