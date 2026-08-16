@@ -52,7 +52,84 @@ approaches through the bearer's front hexes), then a D20 is rolled. If
 the result is a prime, then this amount is deducted from the damage.
 Note: 1 is not a prime.
 
+## Antlered Gauntlet
+
+This gauntlet requires peryton antlers that are crimson in colour
+which must be twined about it, increasing its weight by 3 lbs. It is
+advanced as a Cestus, has a base Strike Chance of 53% and inflicts 1
+rollup D10 & 1 rollup D5 A Class damage.  For every 10 points of PS in
+excess of 17, an additional rollup D5 is added.  When the damage code
+is 1 rollup D10 & 4 rollup D5, then a D10 is rolled and any result
+greater than 9 means the gauntlet has been destroyed, although the
+damage is still inflicted. For every rollup D5 greater than 5, then 1
+is added to the result on the breakage D10.
+
+Whenever a Strike is made with the gauntlet, the wielder rolls
+percentile dice twice and chooses the best roll.
+
+
 # Armour
+
+## Antlered Breastplate
+
+This breastplate is made from the antlers of perytons sliced into
+long, scale-like sections about 3 inches long, 1 inch wide and 1/4 of
+an inch thick, sewn into its hide with its own sinews. It weighs 8lbs
+and may be worn over a gambeson or leather armour, but not exotic,
+scale or other metal armours. Sections of the antlers sweep out and up
+from the shoulder so that if the wearer Receives a Charge (which is a
+Reflex Action in response to being targeted by a Dive or Charge), they
+add an extra rollup D10 to their damage if their counterstrike is
+successful.
+
+If the wearer takes damage that ends in 3, 4, 5, 6, 7 or 8, they may
+increase their Protection versus A, B or C Class damage by 4. This
+effect does not stack with other armour features triggered by damage
+rolls (e.g., +2 Protection on an 8, 9, or 0). Apply only the single
+highest Protection bonus for that roll. In the event that the wearer
+receives any of the following Specific Grievous injuries, they roll a
+D10 and any result of an 8 or higher means that the injury is ignored
+entirely.
+
+--------   ----------------------------------------------------------------------
+Roll       Injury
+
+11         Your aorta is severed and you are quite dead. Rest assured your
+           companions will do their best to console your widow(er).
+
+12         A stomach puncture. Nasty. You suffer 3 Damage Points immediately
+           from Endurance and lose 2 from your TMR until fully
+           recovered, which will take two months. Also, you are
+           automatically stunned for the next pulse (if you aren’t
+           already), after which you may recover. Add 20 to the chance
+           to be infected.
+
+14 - 18    Tsk, tsk. A wound of the solid viscera. Usually fatal. Take 3
+           Damage Points to Endurance immediately and 1 per pulse thereafter
+           until the bleeding is stopped by a Healer of Rank 2 or above or you
+           die. Add 30 to the chance of infection.
+
+21 - 25    A chest wound. Take 2 Damage Points to Endurance immediately and reduce
+           your TMR by 1 until recovered (about 2 months). Look on the bright
+		   side, though. Your attacker’s weapon is caught in your rib cage and
+		   has been wrenched from their grasp.
+
+37 - 40    You have been eviscerated! Take 4 Damage Points immediately from
+           Endurance and 1 point per pulse from Fatigue thereafter (Endurance
+		   when Fatigue is exhausted) until you are unconscious. Increase
+		   your chance of infection by 40.
+
+--------   ----------------------------------------------------------------------
+
+In response to a magical attack that they are aware of, the wearer may
+increase their Magic Resistance by 7 (except for magic that affects
+the personality) and ignore the first 7 points of Spell Damage per
+Pulse for the next minute.
+
+While this effect is in place, the wearer will be attended by a low
+mana zone one hex across doubling their Fatigue costs for Casting
+non-Racial Magic and reducing Cast Chances by 7.
+
 
 ## Wormskin Armour
 
@@ -91,7 +168,7 @@ and takes the morning half of a week of Skill Training Time.
  
 The reservoir may be replenished one at a time by reducing the
 wearer's TMR by one for ten minutes, once per day.  The TMR stored can
-be transferred directly to the wearer,. For so long as TMR remains in
+be transferred directly to the wearer. For so long as TMR remains in
 the reservoir, the wearer can increase their own by one or more, once
 per Pulse.
 
