@@ -127,7 +127,7 @@ talent, the Namer must specify the name of the spell to be affected
 and cast the appropriate Counterspell on the target with the specific
 intent of dissipating the stored magic.  The chance of the stored
 magic resisting destruction is 50\% [( + 3 / Rank of the stored magic)
-  (3 / Rank of this Talent)].  If successful all of the magic of the
+  − (3 / Rank of this Talent)].  If successful all of the magic of the
 same type stored within the target is destroyed.  The appropriate
 Counterspell is the one that affects the magic stored not the storing
 magic.  For example, a Ward of Enchanted Sleep would require the use
@@ -178,15 +178,13 @@ rituals as normal.
 
 \section{General Knowledge Rituals}
 
-
 \begin{ritual}[Q-1]{Dissipation}
-
 
 \target{Entity, Object, Area, Volume}
 \basechance{As per Counterspell + Ritual preparation}
 \casttime{1+ hours, maximum 10}
-Actions: Concentration 
-Concentration Check: Standard 
+\actions{Concentration} 
+\concentration{Standard}
 \begin{effects}
 By engaging in Ritual Spell Preparation a Namer may use a Counterspell
 to dissipate the effects of a spell. The Namer must perform at least
