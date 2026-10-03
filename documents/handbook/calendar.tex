@@ -4,24 +4,47 @@
 \usepackage{tabularray}
 \usepackage{graphicx}
 \usepackage[dvipsnames]{xcolor}
-\usepackage[paper=a4paper,tmargin=15mm,bmargin=15mm,lmargin=10mm,rmargin=10mm]{geometry}
+\usepackage[paper=a4paper,tmargin=15mm,bmargin=15mm,left=10mm,right=10mm]{geometry}
 \usepackage[skip=10pt plus 6pt, indent=0mm]{parskip}
 \usepackage{setspace}
 
-\setmainfont{TeX Gyre Adventor}[Scale=0.9]
-\setsansfont{TeX Gyre Adventor}[Scale=1.0,Color=blue]
+\newlength{\caldate}
+\setlength{\caldate}{3.20mm}
+
+%\setmainfont{TeX Gyre Adventor}[Scale=0.9]
+%\setsansfont{TeX Gyre Adventor}[Scale=1.0,Color=blue]
+
+%\setmainfont{Linux Biolinum O}[Scale=0.9]
+%\setsansfont{Linux Biolinum O}[Scale=1.0]
+
+\newfontfamily{\caldatefont}{LinBiolinum_R.otf}[
+  Color=black,
+  Ligatures=TeX,
+  Scale=0.8,
+  BoldFont=LinBiolinum_RB.otf,
+]
+
+\newfontfamily{\caldescfont}{LinBiolinum_R.otf}[
+  Color=black,
+  Ligatures=TeX,
+  Scale=0.9,
+  BoldFont=LinBiolinum_RB.otf,
+]
+
 % \newfontface{\datefont}{TeX Gyre Adventor}[Scale=0.7,Color=red]
   
 \NewTblrEnviron{calendar}
 \SetTblrInner[calendar]{
-  colspec={lllllllllllllll},
+  colspec={
+    Q[\caldate]Q[\caldate]Q[20mm]Q[\caldate]Q[20mm]Q[\caldate]Q[20mm]Q[\caldate]Q[20mm]Q[\caldate]Q[20mm]Q[\caldate]Q[20mm]Q[\caldate]Q[20mm]
+  },
   rowsep=1pt,
   hlines = {calbordercolor},
   vlines = {calbordercolor},
-  column{2,4,6,8,10,12,14} = {r, 10pt, colsep=2pt, font=\small, bg=caldaycolor},
-  column{3,5,7,9,11,13,15} = {l, 54pt, colsep=2pt, font=\sffamily\tiny},
-  cell{1}{1} = {c=15}{c,calbordercolor,font=\bfseries},
-  cell{4,10,16}{1} = {c=15}{c,white,font=\bfseries},
+  column{2,4,6,8,10,12,14} = {r, colsep=2pt, font=\caldatefont, bg=caldaycolor},
+  column{3,5,7,9,11,13,15} = {l, colsep=2pt, font=\caldescfont\footnotesize},
+  cell{1}{1} = {c=15}{c,calbordercolor,font=\caldatefont\bfseries},
+  cell{4,10,16}{1} = {c=15}{c,white,font=\caldatefont\bfseries},
   cell{2}{2,4,6,8,10,12,14} = {c=2}{c,white},
   cell{3}{2} = {c=2}{l, white},
   cell{3}{4} = {c=12}{l,white},
@@ -32,10 +55,13 @@
 }
 
 
-\newcommand{\moonFull}{\includegraphics[width=4mm]{moon0.pdf}}
-\newcommand{\moonWane}{\includegraphics[width=4mm]{moon1.pdf}}
-\newcommand{\moonNew}{\includegraphics[width=4mm]{moon2.pdf}}
-\newcommand{\moonWax}{\includegraphics[width=4mm]{moon3.pdf}}
+\newcommand{\moonFull}{\includegraphics[width=\caldate]{moon0.pdf}}
+\newcommand{\moonWane}{\includegraphics[width=\caldate]{moon1.pdf}}
+\newcommand{\moonNew}{\includegraphics[width=\caldate]{moon2.pdf}}
+\newcommand{\moonWax}{\includegraphics[width=\caldate]{moon3.pdf}}
+
+\definecolor{calbordercolor}{HTML}{999900}
+\definecolor{caldaycolor}{HTML}{FFFF66}
 
 \begin{document}
 
@@ -46,9 +72,6 @@
 % summer
 %
 % ----------------------------------------------------------------------
-
-\definecolor{calbordercolor}{HTML}{999900}
-\definecolor{caldaycolor}{HTML}{FFFF66}
 
 \begin{calendar}{
     cell{5}{5} = {preto={Guild Meeting}},

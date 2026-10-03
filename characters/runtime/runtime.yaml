@@ -164,16 +164,28 @@ Jedburgh :
     - name: Spectral dagger
       weight: 10 oz
       location: worn
+    - name: Antlered Gauntlet
+      weight: 3 lb
+      location: worn
+      
   shield:
     - name: Shield of Chaos
       weight: 5 lb
       location: carried
+
   armour:
+    - name: Winged Helm
+      weight: 2 lb
+      location: worn
     - name: Wormskin armour
       weight: 24 lb
       location: worn
       modifiers:
         AG: -2
+    - name: Antlered Breastplate
+      weight: 8 lb
+      location: worn
+
   defence:
     - description: Shield and Hand \& a Half
       items:
@@ -188,14 +200,42 @@ Jedburgh :
         - { 'name': 'Modified Agility', 'def': 22 }
         - { 'name': 'Amulet of Luck', 'def': 2 }
         - { 'name': 'Warrior', 'def': 16 }
-        - { 'name': 'Evading with Glaive', 'def': 46 }
         - { 'name': 'Armour of Earth', 'def': 24 }
+        - { 'name': 'Evading with Glaive', 'def': 46 }
   attack:
+    - description: Hand \& a half
+      items:
+        - name: 'Base SC'
+          sc: 55
+          dm: 5
+        - name: Prowess
+          sc: 10
+        - name: 'Rank 19 Spectral Weapon'
+          sc: 19
+          dm: 7
+        - name: 'Agility'
+          iv: 22
+        - name: 'Perception'
+          iv: 22
+        - name: 'Manual Dexterity'
+          sc: 18
+        - name: 'Warrior Rank 7'
+          sc: 16
+          dm: 1
+          iv: 7
+        - name: 'Weapon Rank 7'
+          sc: 28
+          dm: 1
+          iv: 7
+        - name: 'Enchantment'
+          sc: 21
     - description: Glaive SC
       items:
         - name: 'Base SC (Rank 5 weaponsmith)'
           sc: 60
           dm: 5
+        - name: Prowess
+          sc: 10
         - name: 'Rank 19 Spectral Weapon'
           sc: 19
           dm: 7
@@ -213,7 +253,7 @@ Jedburgh :
           sc: 36
           dm: 2
           iv: 9
-          
+
 Ishamael:
   ranking: '../ranking/ishamael.yaml'
   weapon:

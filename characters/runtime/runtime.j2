@@ -1,3 +1,5 @@
+% -*- mode: latex -*-
+
 \documentclass{article}
 
 \RequirePackage[svgnames,x11names]{xcolor}
@@ -6,7 +8,19 @@
 \UseTblrLibrary{varwidth}
 \RequirePackage{titlesec}
 \RequirePackage{fontspec}
+\RequirePackage{hyperref}
 \RequirePackage[margin=15mm]{geometry}
+\RequirePackage{multicol}
+
+\hypersetup{
+  colorlinks=true,
+  allcolors=black,
+  bookmarksnumbered=true,     
+  bookmarksopen=true,
+  bookmarksopenlevel=1,
+  pdfstartview=Fit,
+  pdfpagemode=UseOutlines
+}
 
 \setmainfont[Scale=0.8]{TeX Gyre Heros}
 
@@ -78,27 +92,23 @@
 {}%{label}
 {1mm}%{sep}
 {}%{before}
-[\hfill]%[after]
+% [\hfill]%[after]
 
-\titlespacing{\subsection}{0pt}{\parskip}{-\parskip}
+\titlespacing{\subsection}{0pt}{2.0\parskip}{1.0\parskip}
 %# \titlespacing{\subsection}{0pt}{3mm plus 1mm minus .2mm}{2mm plus .2mm}
 
+\setcounter{columnbadness}{2000}
+\setcounter{finalcolumnbadness}{2000}
+\setcounter{collectmore}{1000}
 
 \begin{document}
 
+\tableofcontents
+
+\newpage
+
 \BLOCK{for character in characters}
 \section{\VAR{character.name}}
-\BLOCK{if character.locations}
-\BLOCK{for location in character.locations}
-\begin{itemtbl}{colspec={Xl}}
-\VAR{location._name|capitalize} & \VAR{location._weight.lb} lb, \VAR{location._weight.oz} oz \\
-\BLOCK{for item in location._items}
-\VAR{item._name} & \VAR{item._weight.lb} lb, \VAR{item._weight.oz} oz \\
-\BLOCK{endfor}
-\end{itemtbl}
-
-\BLOCK{endfor}
-\BLOCK{endif}
 
 \subsection{Encumbrance}
 
@@ -118,9 +128,35 @@ Loss \BLOCK{for f in encumbrance.ag} & \VAR{f} \BLOCK{endfor} \\
 \end{pstbl}
 \BLOCK{endif}
 
-\subsection{Agility}
+\bigskip
+
+\begin{multicols}{2}
+\raggedcolumns
+
+\BLOCK{if character.locations}
+\subsection{Items}
+
+\BLOCK{for location in character.locations}
+\begin{itemtbl}{colspec={Xl}}
+\VAR{location._name|capitalize} & \VAR{location._weight.lb} lb, \VAR{location._weight.oz} oz \\
+\BLOCK{for item in location._items}
+\VAR{item._name} & \VAR{item._weight.lb} lb, \VAR{item._weight.oz} oz \\
+\BLOCK{endfor}
+\end{itemtbl}
+
+\BLOCK{endfor}
+\BLOCK{endif}
+
+
+% ----------------------------------------------------------------------
+%
+% Agility
+%
+% ----------------------------------------------------------------------
 
 \BLOCK{if character.agility}
+\subsection{Agility}
+
 \begin{agtbl}{}
 \BLOCK{for e in character.agility}
 \BLOCK{for k,v in e.items()}
@@ -128,7 +164,10 @@ Loss \BLOCK{for f in encumbrance.ag} & \VAR{f} \BLOCK{endfor} \\
 \BLOCK{endfor}
 \BLOCK{endfor}
 \end{agtbl}
+\bigskip
+
 \BLOCK{endif}
+
 
 \BLOCK{if character.defence}
 \BLOCK{for defence in character.defence}
@@ -177,6 +216,9 @@ Source & +\% & Σ \\
 \end{deftbl}
 \BLOCK{endfor}
 \BLOCK{endif}
+\end{multicols}
+
+\newpage
 
 \BLOCK{endfor}
 

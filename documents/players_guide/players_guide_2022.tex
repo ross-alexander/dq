@@ -14,11 +14,14 @@
 \usepackage[svgnames,x11names,dvipsnames]{xcolor}
 \usepackage{titlesec}
 \usepackage{libertine}
-
+\usepackage{graphicx}
+\usepackage{setspace}
 
 \definecolor{tcblue}{RGB}{25,64,122}
 \definecolor{tcgreen}{RGB}{19,142,61}
-\definecolor{price}{named}{olive7}
+
+% \definecolor{price}{named}{olive7}
+\definecolor{price}{named}{lightgray}
 
 \titleformat{\section}%{command}
 [block]%[shape]
@@ -38,9 +41,12 @@
 {}%{label}
 {1mm}%{sep}
 {}%{before}
-[\hfill]%[after]
+% [\hfill]%[after]
 
-\titlespacing{\subsection}{0pt}{0.5\parskip}{-0.5\parskip}
+\titleformat{\subsubsection}[block]{\color{tcblue}\bfseries}{}{0mm}{}
+
+% <left><before-sep><after-sep>
+\titlespacing{\subsection}{0pt}{2.0\parskip}{0.5\parskip}
 
 \setlength{\columnsep}{10mm}
 
@@ -52,7 +58,7 @@
 
 \setmainfont{Linux Biolinum O}[Scale=0.8]
 \newfontfamily{\pricefont}{LinBiolinum_R.otf}[
-  Color=blue,
+  Color=black,
   Ligatures=TeX,
   Scale=0.70,
   BoldFont=LinBiolinum_RB.otf,
@@ -65,16 +71,28 @@
 %% ----------------------------------------------------------------------
 
 
-\NewTblrEnviron{costtblr}
-\SetTblrInner[costtblr]{
+\NewTblrEnviron{spellcost}
+\SetTblrInner[spellcost]{
+  width=\columnwidth,
+  colspec={lXrr},
+  rows = {font=\small},
+  rowsep=0.0mm,
+  stretch=0.8,
+  rows = {font=\pricefont},
+  row{1} = {font=\pricefont\bfseries},
+  hline{1,2,Z} = {lightgray},
+}
+
+\NewTblrEnviron{cointblr}
+\SetTblrInner[cointlr]{
   width=\columnwidth,
   colspec={lXrr},
   rows = {font=\small},
   rowsep=0.0mm,
   stretch=1.0,
-  row{1} = {font=\bfseries},
-  hline{1,Z} = {lightgray},
+  row{1} = {font=\pricefont}
 }
+
 
 \NewTblrEnviron{pricetblr}
 \SetTblrInner[pricetblr]{
@@ -113,17 +131,73 @@
 %% \setcounter{finalcolumnbadness}{2000}
 %% \setcounter{collectmore}{1000}
 
+% ----------------------------------------------------------------------
+%
+% calendar
+%
+% ----------------------------------------------------------------------
+
+\newlength{\caldate}
+\setlength{\caldate}{3.20mm}
+
+\definecolor{calbordercolor}{HTML}{999900}
+\definecolor{caldaycolor}{HTML}{FFFF66}
+
+\newcommand{\moonFull}{\includegraphics[width=\caldate]{moon0.pdf}}
+\newcommand{\moonWane}{\includegraphics[width=\caldate]{moon1.pdf}}
+\newcommand{\moonNew}{\includegraphics[width=\caldate]{moon2.pdf}}
+\newcommand{\moonWax}{\includegraphics[width=\caldate]{moon3.pdf}}
+
+\newfontfamily{\caldatefont}{LinBiolinum_R.otf}[
+  Color=black,
+  Ligatures=TeX,
+  Scale=0.8,
+  BoldFont=LinBiolinum_RB.otf,
+]
+
+\newfontfamily{\caldescfont}{LinBiolinum_R.otf}[
+  Color=black,
+  Ligatures=TeX,
+  Scale=0.9,
+  BoldFont=LinBiolinum_RB.otf,
+]
+
+\NewTblrEnviron{calendar}
+\SetTblrInner[calendar]{
+  colspec={
+    Q[\caldate]Q[\caldate]Q[20mm]Q[\caldate]Q[20mm]Q[\caldate]Q[20mm]Q[\caldate]Q[20mm]Q[\caldate]Q[20mm]Q[\caldate]Q[20mm]Q[\caldate]Q[20mm]
+  },
+  rowsep=1pt,
+  hlines = {calbordercolor},
+  vlines = {calbordercolor},
+  column{2,4,6,8,10,12,14} = {r, colsep=2pt, font=\caldatefont, bg=caldaycolor},
+  column{3,5,7,9,11,13,15} = {l, colsep=2pt, font=\caldescfont\footnotesize},
+  cell{1}{1} = {c=15}{c,calbordercolor,font=\caldatefont\bfseries},
+  cell{4,10,16}{1} = {c=15}{c,white,font=\caldatefont\bfseries},
+  cell{2}{2,4,6,8,10,12,14} = {c=2}{c,white},
+  cell{3}{2} = {c=2}{l, white},
+  cell{3}{4} = {c=12}{l,white},
+  cell{5}{1} = {c=3}{l,white},
+  cell{9}{8} = {c=8}{l,white},
+  cell{11}{1} = {c=7}{l,white},
+  cell{17}{1} = {c=11}{l,white},
+}
+
+
 \begin{document}
 
-% \include{introduction}
-% \include{ranking_guide}
-% \include{spell_costs}
-% \input{name_list}
-% \input{skill_training}
-% \include{coinage}
-% \include{cost_of_living}
-% \include{price_list}
+\include{introduction}
+\include{ranking_guide}
 
+\include{spell_costs}
+\input{name_list}
+\input{skill_training}
+
+\include{coinage}
+\include{cost_of_living}
+\include{price_list}
 \include{guild_services}
+\include{the_world}
+\include{calendar}
 
 \end{document}

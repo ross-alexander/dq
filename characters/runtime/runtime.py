@@ -343,9 +343,9 @@ def proc_character(name, character):
         if feature in character:
             char_block[feature] = character[feature]
             feature_keys = features[feature]['keys']
-            print(feature_keys)
-            key_sum = { k:0 for k in feature_keys }
             for spec in character[feature]:
+                print(feature_keys, spec)
+                key_sum = { k:0 for k in feature_keys }
                 for i in spec['items']:
                     for k in feature_keys:
                         if k in i:

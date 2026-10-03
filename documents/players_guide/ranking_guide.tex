@@ -192,9 +192,9 @@ General Knowledge spells may have EP discount for Adepts with MA >
 15. This discount is (MA - 15) × 5\%.
 
 All Special Knowledge spells are unranked initially. Learning Rank 0
-takes 1 + (EM / 100 rounded up) weeks, no EP, but requires a
-trainer. The training costs for learning spells are detailed in the
-Magical Training section of this Guide.
+takes 1 + (EM / 100 rounded up) weeks, no EP, but requires a trainer.
+The training costs for learning spells are detailed in the Magical
+Training section of this Guide.
 
 All spells must be cast at least 5 times before achieving a new rank.
 This may be done on adventure, but if not, the cast chances must be
@@ -269,6 +269,8 @@ SK Spell	& Deep Pockets		& 1	& 2	& 2	& 0	& 200	& 400 \\
 
 \subsection{Quick Sheet for Ranking}
 
+\begin{centering}
+
 \begin{tblr}{
     width=\pagewidth,
     colspec={rrrrrrrrrrrrrrrrrrrrr},
@@ -307,7 +309,9 @@ SK Spell	& Deep Pockets		& 1	& 2	& 2	& 0	& 200	& 400 \\
 19     &        &        &        &        &        &        &        &        &        &        &        &        &        &        &        &        &        &        &        & 20     \\
 \end{tblr}  
 
-\begin{tblr}{width=\pagewidth,colspec={llm{6em}m{6em}m{6em}m{6em}l},
+\bigskip
+
+\begin{tblr}{width=\pagewidth,colspec={llm{8em}m{6em}m{6em}m{6em}l},
     rows={font=\small},
     row{1,7}={font=\small\bfseries},
     hlines={lightgray}}
@@ -330,7 +334,13 @@ Names			& generic: 1 day & 1 week × new rank 	& rank 0 only		& rank 1 -- 20		&	
 
 You can rank two things at once but non-magic abilities can't be ranked with magical abilities.
 
-\begin{tblr}{colspec={rX}}
+\bigskip
+
+\begin{tblr}{
+    colspec={rl},
+    cell{2}{1}={r=2}{r},
+    hline{1-2,4-Z}={lightgray},
+  }
   1 & literacy is separate see rules \\
   2 & For each point of MA over 15, general knowledge spells \& rituals cost 5\% less EP \\
     & You may not know more spells and rituals belorw Rank 6 than your MA \\
@@ -339,5 +349,7 @@ You can rank two things at once but non-magic abilities can't be ranked with mag
   5 & can learn with books etc (normal EP) \\
   6 & may learn like other skills \\
   7 & 1 rank per week adventuring \\
-  8 & zero EP, can be ranked with non-magic \\
+  8 & 0 EP, can be ranked with non-magic \\
 \end{tblr}
+
+\end{centering}

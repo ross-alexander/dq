@@ -495,6 +495,170 @@ knowledge of Poland
 
 - All the victims are young women
 
+## Session 8 - 2026.09.13
+
+- How is the hag involved in the Nazi's plan for the women prisoners being transferred?
+
+- A star and kneeling women pouring water from one ewer to another
+ewer and the star is Uranus
+
+- Involves potion and reproductively perverse
+
+- Uranus was the ruler of the titan and the realm was the sky
+
+- Head out into the mountains around 5pm
+
+- Turn into bear and attack Dross before being slept
+
+- Travel for 8 hours over night, NNW, intersect a ridge line heading
+  NW then N
+
+- Will be the 12th of November at midnight
+
+- Set up ambush
+
+## Session 9 - 2026.09.20
+
+- Summon the hag
+
+- Use 2 mountain points
+
+- Dark Sphere takes the hag's head off
+
+- Tunnel her corpse out
+
+- Party trapped in ice for some hours
+
+- Hugh, Pierre (demolitions expert), American Indian
+
+- See person come with knapsack, with a large saint bernard dog (white & red)
+
+- Man is a swiss mountaineer and banker, ruggedly handsome, Julien de Wattemail
+
+- Works as a factor providing finance for the manufacturing
+
+- Factory has hidden incomes streams and a lot more money then they
+  should have
+
+- Was planning on heading north to the noted landmark
+
+## Session 10 - 2026.09.27
+
+- Find wand on her body, size of a ordinary walking stick, formally
+  living plant, it is talisman
+
+- A couple of rings, metal, one a blue metal, neither gold
+
+- Blue ring is enchancement of a natural process
+
+- Other is enchancement
+
+- Heart of the hag
+
+- Womb of the hag
+
+- Witchskins and some clothing, 10 year girl, grey business suite,
+  farmer (male), the skins are reusable
+
+- Wearing large boots, black metal, dimensional schnanigons
+
+- Deck of cards in an ivory case, formally living, lets the deck be
+  prepared as action
+
+- Full deck, formally living, world card is divinatory
+
+- Retical holds a week of clothing changes, 20cm x 10cm, red leather
+  with red leather straps and brass fittings, weighs 7oz, one may be a
+  set of armour
+
+- Variety of amulets
+
+- One contains some pitchblend and detects alpha radition
+
+- Failed to track hag
+
+- Ask the dead of the hag
+  * No others in her cavern
+  * The base of operations is uphill
+  * La Croix de l'Alpe is the closest landmark
+  * It is concealed
+  * Breeder reactors
+
+- Fly up to La Croix de 'Alpe and find an area without any animal life
+
+- See a cleft / ravine, 12 feet wide and 70 feet long
+
+- Remove ward
+
+- Eventually find a concealed doorway, hidden by camoflage linen from
+  the Italian Alpine Corp
+
+- Enter and it extremely neat and tidy
+
+- It is like an office with a filing cabinets and scribes desk, sized
+for the hag
+
+- Curtains hiding a stone bed with a leather mattress
+
+- Kitchen
+
+- Alchemical lab
+
+- Open cabinet with notes in handwritten in german
+
+- A large collection of poisons and venoms, mostly metalic
+
+- There is something metalic and glowing blue
+
+- There a mews for a 5 hex critter with two horse sized through, a
+  dracoform with two heads
+
+- There some maps, one local, with marks near various towns
+
+- Accidentially break the filing cabinet
+
+- Make it down to the town and talk to Diane
+
+- One of the maps is in Polish and is the map of Poland, with
+  co-ordinates
+
+- Local map, each mark is roughly 16 miles apart, one 10 miles west
+
+- Coming up to the 14th at midnight
+
+- There are 200 women
+
+- There is a document with a picture of Julian and a member of the SS
+and on a project to defeat the Russians and Stalingrad and a teutonic
+knight and a noble, name is Heinrich von Kleist
+
+- Job is to create Kobalt-60 breeders
+
+It doesn't include the loot which you would have grabbed from her lair:
+
+* 7 alchemical products
+   1. pen-shaped splinter of ice*
+   2. a dark green and murky potion*
+   3. a pale green and transparent potion*
+   4. red dust in a small enamelled box*
+   5. a potion the colour and consistency of pus*
+   6. a cone of incense
+   7.  a glass demijohn, 2/3rds full and weighing 17 kgs
+
+* Five scrolls written in German*
+
+* A roll of copper foil 1 metre by 3 metres
+* 48 potions that smell of love-lies-bleeding*
+* 18 potions that smell of musk*
+* 30 potions that smell of blood*
+* 25 draughts that smell of chamomile*
+* 7 draughts that numb the nose when smelled*
+* alchemical athanor without fire elemental
+
+* Also, her spell rack, which is an Ena Sharples scarf.* 
+
+Asterisked entries have a magical aura
+
 # Names
 
 ## Wheel of Fire

@@ -53,36 +53,30 @@ my $r = 100;
 my $m = 10;
 my $name = "moon";
 
-# my $image = Cairo::ImageSurface->create('argb32', $r*4, $r*4);
-
 my $phases = [
-    { file => 'moon0.pdf', name => "full" },
-    { file => 'moon1.pdf', name => "waning" },
-    { file => 'moon2.pdf', name => "new" },
-    { file => 'moon3.pdf', name => "waxing" },
+    { id => 0, phase => "full" },
+    { id => 1, phase => "waning" },
+    { id => 2, phase => "new" },
+    { id => 3, phase => "waxing" },
     ];
 
 for my $phase (@$phases)
 {
-    my $image = Cairo::PdfSurface->create($phase->{file}, $r*2 + $m*2, $r*2 + $m*2);
-    my $cr = Cairo::Context->create($image);
-    $cr->save();
-    $cr->translate($r + $m, $r + $m);
-    moon($cr, $r, $phase->{name});
-    $cr->restore();
-}
+    my $pdf_path = sprintf("moon%d.pdf", $phase->{id});
+    my $pdf_image = Cairo::PdfSurface->create($pdf_path, $r*2 + $m*2, $r*2 + $m*2);
+    my $pdf_cr = Cairo::Context->create($pdf_image);
+#    $cr->save();
+    $pdf_cr->translate($r + $m, $r + $m);
+    moon($pdf_cr, $r, $phase->{phase});
+    #    $cr->restore();
 
-my $id = 0;
-for my $phase (@$phases)
-{
-    my $path = sprintf("moon%d.svg", $id++);
-    my $image = Cairo::SvgSurface->create($path, $r*2 + $m*2, $r*2 + $m*2);
-    my $cr = Cairo::Context->create($image);
-    $cr->save();
-    $cr->translate($r + $m, $r + $m);
-    moon($cr, $r, $phase->{name});
-    $cr->restore();
+    my $svg_path = sprintf("moon%d.svg", $phase->{id});
+    my $svg_image = Cairo::SvgSurface->create($svg_path, $r*2 + $m*2, $r*2 + $m*2);
+    my $svg_cr = Cairo::Context->create($svg_image);
+#    $svg_cr->save();
+    $svg_cr->translate($r + $m, $r + $m);
+    moon($svg_cr, $r, $phase->{phase});
+#    $cr->restore();
 }
-
 
 exit 0;
